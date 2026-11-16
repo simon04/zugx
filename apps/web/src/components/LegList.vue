@@ -39,10 +39,7 @@ function transferBefore(i: number): number | undefined {
 <template>
   <ol class="m-0 list-none p-0">
     <li v-for="(l, i) in journey.legs" :key="i" class="relative">
-      <div
-        v-if="transferBefore(i) !== undefined && journey.legs[i - 1]?.kind === 'journey'"
-        class="muted my-1 pl-24 text-xs"
-      >
+      <div v-if="transferBefore(i) !== undefined" class="muted my-1 pl-24 text-xs">
         <span
           :class="
             (transferBefore(i) ?? 99) < 0

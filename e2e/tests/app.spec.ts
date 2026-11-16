@@ -30,6 +30,28 @@ test("journeys render timeline and details", async ({ page }) => {
   await expect(page.locator("table.dense")).toBeVisible();
 });
 
+test("direct journeys have no missed-connection button", async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem("zugx:lang", "en"));
+  await page.goto("/j/8103000/8100173#0");
+  const details = page.locator("article");
+  await expect(details.getByText("Details", { exact: true })).toBeVisible();
+  await expect(details.getByRole("button", { name: "What if I miss it?" })).toHaveCount(0);
+});
+
+test("missed connection replans across a walking transfer", async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem("zugx:lang", "en"));
+  // The fifth recorded connection changes platforms at Bruck/Mur (train → walk → train).
+  await page.goto("/j/8103000/8100173#4");
+  const details = page.locator("article");
+  const missed = details.getByRole("button", { name: "What if I miss it?", exact: true });
+  await expect(details).toContainText("Walk");
+  await expect(details).toContainText("Transfer 7 min");
+  await expect(missed).toHaveCount(1);
+  await missed.click();
+  // Re-plan from the connecting train's origin, one minute after its planned 16:13 departure.
+  await expect(page).toHaveURL(/\/j\/8100032\/8100173\?t=2026-11-13T16(?::|%3A)14$/);
+});
+
 test("train page by number", async ({ page }) => {
   await page.goto("/train/RJX-162");
   // JourneyMatch → JourneyDetails (fixture is a different train, so only check the structure)
