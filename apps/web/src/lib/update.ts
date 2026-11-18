@@ -5,6 +5,7 @@
 // page after a deploy) triggers one full load of the new version instead of a blank page.
 import { registerSW } from "virtual:pwa-register";
 import type { Router } from "vue-router";
+import { reloadOnce } from "./reload.ts";
 
 const CHUNK_ERROR =
   /dynamically imported module|Importing a module script failed|error loading dynamically imported module|Failed to fetch/i;
@@ -37,6 +38,6 @@ export function setupUpdates(router: Router) {
     const key = "zugx:chunk-reload";
     if (sessionStorage.getItem(key) === to.fullPath) return;
     sessionStorage.setItem(key, to.fullPath);
-    location.assign(to.fullPath);
+    reloadOnce(to.fullPath);
   });
 }
