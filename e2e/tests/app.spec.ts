@@ -150,6 +150,21 @@ test("bildfahrplan section and direction are adjustable", async ({ page }) => {
   );
 });
 
+test("bildfahrplan: one direction only", async ({ page }) => {
+  await page.goto("/bf/westbahn?from=7&h=2&d=2026-03-10&transpose=1");
+  const lines = page.locator("g.cursor-pointer[clip-path], g[clip-path] > g.cursor-pointer");
+  await expect(page.locator(".bf-table h2")).toHaveCount(2);
+  const all = await lines.count();
+  await page.getByRole("button", { name: /^→ Salzburg Hbf$/ }).click();
+  await expect(page).toHaveURL(/dir=1/);
+  await expect(page.locator(".bf-table h2")).toHaveCount(1);
+  await expect(page.locator(".bf-table h2")).toHaveText(/^Wien Hbf – Salzburg Hbf$/);
+  expect(await lines.count()).toBeLessThan(all);
+  await page.getByRole("button", { name: /^→ Salzburg Hbf$/ }).click();
+  await expect(page).not.toHaveURL(/dir=/);
+  await expect(page.locator(".bf-table h2")).toHaveCount(2);
+});
+
 test("bildfahrplan: timetable tables below the chart, both directions", async ({ page }) => {
   await page.goto("/bf/westbahn?from=7&h=2&d=2026-03-10");
   // single/double track along the top edge (Westbahn: double track)

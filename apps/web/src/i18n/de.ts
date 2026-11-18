@@ -381,6 +381,7 @@ export default {
     noData: "Streckendaten noch nicht erzeugt.",
     hours: "Stunden",
     live: "Echtzeit",
+    dirTip: "Nur Züge Richtung {to} (zweigleisig: eine Richtung ausblenden)",
     liveTip:
       "Echtzeit: tatsächliche Fahrten aus ÖBB Scotty (durchgezogen = Ist, gestrichelt = Prognose)",
     liveOnlyToday: "Echtzeit nur für heute",

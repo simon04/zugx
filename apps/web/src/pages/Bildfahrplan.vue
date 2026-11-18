@@ -456,6 +456,22 @@ const orderedStations = computed(() => {
   return reversed.value ? [...all].reverse() : all;
 });
 const swap = () => setQuery({ rev: reversed.value ? undefined : "1" });
+// ---- one direction only (?dir=1 / -1: towards the sheet's last / first station) ----
+const onlyDir = computed(() =>
+  route.query.dir === "1" ? 1 : route.query.dir === "-1" ? -1 : undefined,
+);
+const showsDir = (d: 1 | -1) => !onlyDir.value || onlyDir.value === d;
+const setDir = (d: 1 | -1) => setQuery({ dir: onlyDir.value === d ? undefined : String(d) });
+/** the direction buttons as shown: left → right first */
+const dirButtons = computed(() => {
+  const st = shownStations.value;
+  if (st.length < 2) return [];
+  const right: 1 | -1 = reversed.value ? -1 : 1;
+  return [
+    { dir: right, arrow: "→", to: st.at(-1)!.name },
+    { dir: -right as 1 | -1, arrow: "←", to: st[0]!.name },
+  ];
+});
 const resetSection = () => setQuery({ a: undefined, b: undefined, rev: undefined });
 // window start in minutes; follows ?from= (hours, may be fractional), moved live by the wheel
 const startMin = ref(from.value * 60);
@@ -711,7 +727,7 @@ const liveDrawn = computed(() => {
   const nowMin = viennaMinutes(now.value);
   const xi = (i: number) => (inRange(i) && c.stations[i] ? x(c.stations[i].km) : undefined);
   return [...liveRuns.value.values()]
-    .filter((r) => !hidden.value.has(r.cat))
+    .filter((r) => !hidden.value.has(r.cat) && showsDir(r.pts.at(-1)!.i >= r.pts[0]!.i ? 1 : -1))
     .map((r) => ({
       r,
       color: categoryColor(r.cat),
@@ -1057,6 +1073,17 @@ watch([plan, nodeHafas, date, t0, t1, nodeAll], () => void loadNodeBoards(), {
         <template v-else-if="liveBusy && !liveRuns.size">…</template>
         <template v-else>{{ $t("bf.liveCount", { n: liveDrawn.length }) }}</template>
       </span>
+      <button
+        v-for="b in dirButtons"
+        :key="b.dir"
+        class="btn"
+        :class="onlyDir === b.dir && 'btn-on'"
+        :aria-pressed="onlyDir === b.dir"
+        v-tip="$t('bf.dirTip', { to: b.to })"
+        @click="setDir(b.dir)"
+      >
+        {{ b.arrow }} {{ b.to }}
+      </button>
       <span class="chips flex flex-wrap gap-1">
         <button
           v-for="c in cats"
@@ -1189,7 +1216,7 @@ watch([plan, nodeHafas, date, t0, t1, nodeAll], () => void loadNodeBoards(), {
         </clipPath>
         <g clip-path="url(#plot)">
           <g
-            v-for="(r, i) in drawn.filter((r) => !hidden.has(r.t.cat))"
+            v-for="(r, i) in drawn.filter((r) => !hidden.has(r.t.cat) && showsDir(r.t.dir))"
             :key="i"
             class="cursor-pointer"
             v-tip="trainTip(r.t)"
@@ -1471,7 +1498,7 @@ watch([plan, nodeHafas, date, t0, t1, nodeAll], () => void loadNodeBoards(), {
     <template v-if="data && part !== 'chart'">
       <component
         :is="transposed ? BfTable : BfBook"
-        v-for="dir in [reversed ? -1 : 1, reversed ? 1 : -1] as const"
+        v-for="dir in ([reversed ? -1 : 1, reversed ? 1 : -1] as const).filter(showsDir)"
         :key="dir"
         :stations="dir === (reversed ? -1 : 1) ? shownStations : [...shownStations].reverse()"
         :trains="[...trainsOnDate, ...hafasOnlyTrains].filter((t) => !hidden.has(t.cat))"

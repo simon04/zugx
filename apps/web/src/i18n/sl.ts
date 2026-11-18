@@ -378,6 +378,7 @@ export default {
     noData: "Podatki koridorjev še niso izdelani.",
     hours: "Ure",
     live: "V živo",
+    dirTip: "Samo vlaki v smeri {to} (dvotirna proga: skrij eno smer)",
     liveTip:
       "Prikaz v živo: poti v realnem času iz ÖBB Scotty (polna črta = dejansko, črtkano = napoved)",
     liveOnlyToday: "Podatki v živo samo za danes",

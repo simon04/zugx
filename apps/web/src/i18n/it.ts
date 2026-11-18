@@ -382,6 +382,7 @@ export default {
     noData: "Dati della linea non ancora generati.",
     hours: "Ore",
     live: "Tempo reale",
+    dirTip: "Solo treni in direzione {to} (doppio binario: nascondere una direzione)",
     liveTip:
       "Tempo reale: percorsi effettivi da ÖBB Scotty (continuo = effettivo, tratteggiato = previsione)",
     liveOnlyToday: "Tempo reale solo per oggi",

@@ -376,6 +376,7 @@ export default {
     noData: "Corridor data not built yet.",
     hours: "Hours",
     live: "Live",
+    dirTip: "Only trains towards {to} (double track: hide one direction)",
     liveTip: "Live overlay: realtime paths from ÖBB Scotty (solid = actual, dashed = forecast)",
     liveOnlyToday: "Live data only for today",
     liveCount: "{n} trains live",
