@@ -150,6 +150,20 @@ test("bildfahrplan section and direction are adjustable", async ({ page }) => {
   );
 });
 
+test("bildfahrplan: time under the mouse on the time axis", async ({ page }) => {
+  await page.goto("/bf/westbahn?from=7&h=2&d=2026-03-10");
+  const svg = page.locator("svg[role=img]").first();
+  const box = (await svg.boundingBox())!;
+  // halfway down the plot of a 07:00–09:00 window: about 08:00
+  const top = 110;
+  const bottom = box.height - 20;
+  await page.mouse.move(box.x + box.width / 2, box.y + (top + bottom) / 2);
+  await expect(page.locator(".bf-cursor text")).toHaveText(/^0(7:5\d|8:0\d)$/);
+  await page.screenshot({ path: "test-results/bf-cursor.png", clip: box });
+  await page.mouse.move(0, 0);
+  await expect(page.locator(".bf-cursor")).toHaveCount(0);
+});
+
 test("bildfahrplan: one direction only", async ({ page }) => {
   await page.goto("/bf/westbahn?from=7&h=2&d=2026-03-10&transpose=1");
   const lines = page.locator("g.cursor-pointer[clip-path], g[clip-path] > g.cursor-pointer");

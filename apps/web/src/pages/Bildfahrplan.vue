@@ -777,6 +777,20 @@ const nowY = computed(() => {
   return n >= t0.value && n <= t1.value ? y(n) : undefined;
 });
 
+/** time under the mouse (minutes; undefined outside the plot): read-off line on the time axis */
+const cursorMin = ref<number>();
+function onPointerMove(e: PointerEvent) {
+  if (e.pointerType === "touch") return;
+  const r = (e.currentTarget as SVGSVGElement).getBoundingClientRect();
+  const vy = ((e.clientY - r.top) / r.height) * H.value;
+  const h = H.value - M.top - M.bottom;
+  cursorMin.value =
+    vy < M.top || vy > M.top + h
+      ? undefined
+      : t0.value + ((vy - M.top) / h) * (t1.value - t0.value);
+}
+const cursorY = computed(() => (cursorMin.value === undefined ? undefined : y(cursorMin.value)));
+
 const hhmmOf = (min: number) =>
   `${String(Math.floor(min / 60) % 24).padStart(2, "0")}:${String(Math.round(min % 60)).padStart(2, "0")}`;
 
@@ -1115,6 +1129,8 @@ watch([plan, nodeHafas, date, t0, t1, nodeAll], () => void loadNodeBoards(), {
         role="img"
         :aria-label="data.name"
         @wheel="onWheel"
+        @pointermove="onPointerMove"
+        @pointerleave="cursorMin = undefined"
       >
         <!-- stations -->
         <g v-for="s in shownStations" :key="s.id">
@@ -1358,6 +1374,29 @@ watch([plan, nodeHafas, date, t0, t1, nodeAll], () => void loadNodeBoards(), {
               +{{ p.r.delay }}
             </text>
           </g>
+        </g>
+        <!-- read-off line: the time under the mouse on the time axis -->
+        <g v-if="cursorY !== undefined" class="bf-cursor" pointer-events="none">
+          <line
+            :x1="M.left"
+            :x2="W - M.right"
+            :y1="cursorY"
+            :y2="cursorY"
+            stroke="var(--fg)"
+            stroke-opacity="0.5"
+            stroke-dasharray="2 2"
+          />
+          <rect :x="2" :y="cursorY - 8" :width="M.left - 4" height="16" rx="3" fill="var(--fg)" />
+          <text
+            :x="M.left - 4"
+            :y="cursorY + 4"
+            text-anchor="end"
+            class="mono"
+            fill="var(--bg)"
+            font-weight="600"
+          >
+            {{ hhmmOf(Math.round(cursorMin!)) }}
+          </text>
         </g>
       </svg>
     </div>
