@@ -360,7 +360,9 @@ export default {
     fullRoute: "Ganze Strecke",
     oebbTip: "Nummer des ÖBB-Fahrplanbilds",
     oebbLink: "ÖBB-Fahrplanbild {n} (PDF-Liste auf oebb.at)",
-    wheelHint: "Im Diagramm scrollen verschiebt die Zeit, Strg/⌘ + scrollen zoomt",
+    wheel: "Mausrad",
+    wheelHint:
+      "Mausrad im Diagramm: scrollen verschiebt die Zeit, Strg/⌘ + scrollen zoomt (aus: die Seite scrollt)",
     outside: "außerhalb des Fahrplanzeitraums {begin} – {end}",
     prevDay: "Vortag",
     nextDay: "Folgetag",

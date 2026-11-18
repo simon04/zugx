@@ -164,6 +164,20 @@ test("bildfahrplan: time under the mouse on the time axis", async ({ page }) => 
   await expect(page.locator(".bf-cursor")).toHaveCount(0);
 });
 
+test("bildfahrplan: mouse wheel moves the time only when switched on", async ({ page }) => {
+  await page.goto("/bf/westbahn?from=7&h=2&d=2026-03-10");
+  const svg = page.locator("svg[role=img]").first();
+  const box = (await svg.boundingBox())!;
+  await page.mouse.move(box.x + box.width / 2, box.y + 300);
+  await page.mouse.wheel(0, 300);
+  await page.waitForTimeout(500);
+  await expect(page).toHaveURL(/from=7(&|$)/);
+  await page.getByRole("button", { name: /Wheel|Mausrad|Rotellina|Kolešček/ }).click();
+  await page.mouse.move(box.x + box.width / 2, box.y + 300);
+  await page.mouse.wheel(0, 300);
+  await expect(page).not.toHaveURL(/from=7(&|$)/);
+});
+
 test("bildfahrplan: one direction only", async ({ page }) => {
   await page.goto("/bf/westbahn?from=7&h=2&d=2026-03-10&transpose=1");
   const lines = page.locator("g.cursor-pointer[clip-path], g[clip-path] > g.cursor-pointer");

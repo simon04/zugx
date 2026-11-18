@@ -357,7 +357,9 @@ export default {
     fullRoute: "Celotna pot",
     oebbTip: "Številka grafikona voznega reda ÖBB (Fahrplanbild)",
     oebbLink: "ÖBB Fahrplanbild {n} (seznam PDF na oebb.at)",
-    wheelHint: "Drsite po diagramu za premik v času, Ctrl/⌘ + drsenje za povečavo",
+    wheel: "Kolešček",
+    wheelHint:
+      "Kolešček v diagramu: drsenje premika čas, Ctrl/⌘ + drsenje povečuje (izklopljeno: drsi stran)",
     outside: "zunaj voznoredne dobe {begin} – {end}",
     prevDay: "Prejšnji dan",
     nextDay: "Naslednji dan",

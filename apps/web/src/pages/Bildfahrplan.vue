@@ -802,8 +802,10 @@ const syncFrom = useDebounceFn(
   () => setQuery({ from: Math.round((startMin.value / 60) * 100) / 100 }),
   300,
 );
+/** opt-in (button, remembered): otherwise the wheel scrolls the page as everywhere else */
+const wheelTime = useLocalStorage("zugx:bf-wheel", false);
 function onWheel(e: WheelEvent) {
-  if (e.shiftKey) return; // horizontal scrolling of a wide diagram
+  if (!wheelTime.value || e.shiftKey) return; // shift: horizontal scrolling of a wide diagram
   e.preventDefault();
   const delta = e.deltaMode === 1 ? e.deltaY * 33 : e.deltaY; // lines → px
   if (e.ctrlKey || e.metaKey) {
@@ -1030,7 +1032,6 @@ watch([plan, nodeHafas, date, t0, t1, nodeAll], () => void loadNodeBoards(), {
           class="input mono text-xs"
           :value="hhmmOf(startMin)"
           :aria-label="$t('bf.startTime')"
-          v-tip="$t('bf.wheelHint')"
           @change="setStartTime(($event.target as HTMLInputElement).value)"
         />
         <button
@@ -1049,6 +1050,16 @@ watch([plan, nodeHafas, date, t0, t1, nodeAll], () => void loadNodeBoards(), {
           @click="setQuery({ h, from: h === 24 ? 0 : from })"
         >
           {{ h }}h
+        </button>
+        <button
+          class="btn"
+          :class="wheelTime && 'btn-on'"
+          :aria-pressed="wheelTime"
+          :aria-label="$t('bf.wheel')"
+          v-tip="$t('bf.wheelHint')"
+          @click="wheelTime = !wheelTime"
+        >
+          🖱 {{ $t("bf.wheel") }}
         </button>
       </span>
       <span class="flex items-center gap-1" role="group" :aria-label="$t('bf.scale')">

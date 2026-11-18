@@ -355,7 +355,9 @@ export default {
     fullRoute: "Whole route",
     oebbTip: "ÖBB timetable diagram (Fahrplanbild) number",
     oebbLink: "ÖBB Fahrplanbild {n} (PDF list on oebb.at)",
-    wheelHint: "Scroll the diagram to move in time, Ctrl/⌘ + scroll to zoom",
+    wheel: "Wheel",
+    wheelHint:
+      "Mouse wheel in the diagram: scroll moves in time, Ctrl/⌘ + scroll zooms (off: the page scrolls)",
     outside: "outside the timetable period {begin} – {end}",
     prevDay: "Previous day",
     nextDay: "Next day",

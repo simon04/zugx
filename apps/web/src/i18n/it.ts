@@ -361,7 +361,9 @@ export default {
     fullRoute: "Linea intera",
     oebbTip: "Numero del quadro orario ÖBB (Fahrplanbild)",
     oebbLink: "Fahrplanbild ÖBB {n} (elenco PDF su oebb.at)",
-    wheelHint: "Scorri nel diagramma per spostarti nel tempo, Ctrl/⌘ + scorrere per lo zoom",
+    wheel: "Rotellina",
+    wheelHint:
+      "Rotellina nel diagramma: scorrere sposta nel tempo, Ctrl/⌘ + scorrere per lo zoom (spento: scorre la pagina)",
     outside: "fuori dal periodo d'orario {begin} – {end}",
     prevDay: "Giorno precedente",
     nextDay: "Giorno successivo",
