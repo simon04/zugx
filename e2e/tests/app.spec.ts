@@ -150,7 +150,8 @@ test("bildfahrplan section and direction are adjustable", async ({ page }) => {
   );
 });
 
-test("bildfahrplan: time under the mouse on the time axis", async ({ page }) => {
+test("bildfahrplan: time under the mouse on the time axis", async ({ page, isMobile }) => {
+  test.skip(isMobile, "needs a mouse");
   await page.goto("/bf/westbahn?from=7&h=2&d=2026-03-10");
   const svg = page.locator("svg[role=img]").first();
   const box = (await svg.boundingBox())!;
@@ -164,7 +165,11 @@ test("bildfahrplan: time under the mouse on the time axis", async ({ page }) => 
   await expect(page.locator(".bf-cursor")).toHaveCount(0);
 });
 
-test("bildfahrplan: mouse wheel moves the time only when switched on", async ({ page }) => {
+test("bildfahrplan: mouse wheel moves the time only when switched on", async ({
+  page,
+  isMobile,
+}) => {
+  test.skip(isMobile, "needs a mouse");
   await page.goto("/bf/westbahn?from=7&h=2&d=2026-03-10");
   const svg = page.locator("svg[role=img]").first();
   const box = (await svg.boundingBox())!;
