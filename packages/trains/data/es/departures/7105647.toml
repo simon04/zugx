@@ -4,14 +4,10 @@ year = 2026
 begin = "2025-12-14"
 end = "2026-12-12"
 source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
-days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8A=="]
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A=="]
 deps = [
-  [611,"C","71850","7105649",[],1,""],
   [611,"REG","71850","7100152",["7105649","7105579","7105577","7105575","7105573","7105571","7105569","7105567"],0,""],
-  [701,"C","71831","7100014",["7105645","7105644","7105643","7105641","7105637","7105623","7105621"],1,""],
-  [1032,"C","71852","7105649",[],1,""],
   [1032,"REG","71852","7100152",["7105649","7105579","7105577","7105575","7105573","7105571","7105569","7105567"],0,""],
-  [1115,"C","71833","7100014",["7105645","7105644","7105643","7105641","7105637","7105623","7105621"],1,""],
 ]
 
-names = { 7100014 = "Santander", 7100152 = "Oviedo", 7105567 = "Celorio", 7105569 = "Poo", 7105571 = "Llanes", 7105573 = "San Roque del Acebal", 7105575 = "Vidiago", 7105577 = "Pendueles", 7105579 = "Colombres", 7105621 = "Torrelavega-Centro", 7105623 = "Puente San Miguel", 7105637 = "Cabezón de la Sal", 7105641 = "Treceño", 7105643 = "Roiz", 7105644 = "El Barcenal", 7105645 = "San Vicente de la Barquera", 7105649 = "Unquera" }
+names = { 7100152 = "Oviedo", 7105567 = "Celorio", 7105569 = "Poo", 7105571 = "Llanes", 7105573 = "San Roque del Acebal", 7105575 = "Vidiago", 7105577 = "Pendueles", 7105579 = "Colombres", 7105649 = "Unquera" }

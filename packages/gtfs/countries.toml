@@ -109,4 +109,93 @@ fixups = [
   where coalesce(trim(trip_headsign), '') = ''
     and route_id in (select route_id from routes where route_type = 2 or route_type between 100 and 117)
   """,
+  # Some regional trains (Rodalies R11, R14–R16, RT2, some C1/C2) are in both feeds: "REG 18120"
+  # and "C 18120", same first stop and departure, same last stop (the arrival can differ by a few
+  # minutes: REG/C 15033 at Reus). On the days the Cercanías copy runs (it carries the line), take
+  # them off the AV/LD/MD copy, whose services are one per trip. Not where the Cercanías copy is
+  # only part of the run (C6 18096 València – Vinaròs of the València – Barcelona regional).
+  """
+  insert or replace into calendar_dates (service_id, date, exception_type)
+  with recursive
+    span(lo, hi) as (
+      select date(substr(min(start_date), 1, 4) || '-' || substr(min(start_date), 5, 2) || '-' || substr(min(start_date), 7, 2)),
+             date(substr(max(end_date), 1, 4) || '-' || substr(max(end_date), 5, 2) || '-' || substr(max(end_date), 7, 2))
+      from calendar),
+    days(d) as (select lo from span union all select date(d, '+1 day') from days, span where d < hi),
+    first(trip_id, stop_id, dep, seq) as (
+      select trip_id, stop_id, departure_time, min(stop_sequence) from stop_times group by trip_id),
+    last(trip_id, stop_id, arr, seq) as (
+      select trip_id, stop_id, arrival_time, max(stop_sequence) from stop_times group by trip_id),
+    twin(ld, cer) as (
+      select distinct l.service_id, c.service_id
+      from trips l join routes rl on rl.route_id = l.route_id and rl.agency_id = '1071'
+      join trips c on c.trip_short_name = 'C ' || substr(l.trip_short_name, instr(l.trip_short_name, ' ') + 1)
+      join routes rc on rc.route_id = c.route_id and coalesce(rc.agency_id, '') <> '1071'
+      join first fl on fl.trip_id = l.trip_id
+      join first fc on fc.trip_id = c.trip_id and fc.stop_id = fl.stop_id and fc.dep = fl.dep
+      join last ll on ll.trip_id = l.trip_id
+      join last lc on lc.trip_id = c.trip_id and lc.stop_id = ll.stop_id),
+    cer_days(service_id, ymd) as (
+      select c.service_id, cast(replace(d, '-', '') as integer) from calendar c, days
+      where c.service_id in (select cer from twin)
+        and cast(replace(d, '-', '') as integer) between c.start_date and c.end_date
+        and case strftime('%w', d) when '0' then c.sunday when '1' then c.monday when '2' then c.tuesday
+          when '3' then c.wednesday when '4' then c.thursday when '5' then c.friday else c.saturday end = 1
+      union
+      select service_id, date from calendar_dates where exception_type = 1 and service_id in (select cer from twin)
+      except
+      select service_id, date from calendar_dates where exception_type = 2 and service_id in (select cer from twin))
+  select twin.ld, cer_days.ymd, 2 from twin join cer_days on cer_days.service_id = twin.cer
+  """,
+  # The rest: a Cercanías copy that is only part of an AV/LD/MD train's run (C 18093 Barcelona –
+  # L'Aldea of REG 18093 Barcelona – València: same departure, later a stop where the part ends).
+  # On the days the whole train runs, drop the part. Cercanías services are shared by many trips,
+  # so each such trip gets its own.
+  """
+  create temp table cer_part as
+  with
+    first(trip_id, stop_id, dep, seq) as (
+      select trip_id, stop_id, departure_time, min(stop_sequence) from stop_times group by trip_id),
+    last(trip_id, stop_id, arr, seq) as (
+      select trip_id, stop_id, arrival_time, max(stop_sequence) from stop_times group by trip_id)
+  select distinct c.trip_id, c.service_id as cer, l.service_id as ld
+  from trips l join routes rl on rl.route_id = l.route_id and rl.agency_id = '1071'
+  join trips c on c.trip_short_name = 'C ' || substr(l.trip_short_name, instr(l.trip_short_name, ' ') + 1)
+  join routes rc on rc.route_id = c.route_id and coalesce(rc.agency_id, '') <> '1071'
+  join first fc on fc.trip_id = c.trip_id
+  join last lc on lc.trip_id = c.trip_id
+  join stop_times a on a.trip_id = l.trip_id and a.stop_id = fc.stop_id and a.departure_time = fc.dep
+  join stop_times b on b.trip_id = l.trip_id and b.stop_id = lc.stop_id and b.stop_sequence > a.stop_sequence
+  """,
+  """
+  insert into calendar (service_id, monday, tuesday, wednesday, thursday, friday, saturday, sunday, start_date, end_date)
+  select distinct p.cer || '/' || p.trip_id, monday, tuesday, wednesday, thursday, friday, saturday, sunday, start_date, end_date
+  from calendar join cer_part p on p.cer = calendar.service_id
+  """,
+  """
+  insert into calendar_dates (service_id, date, exception_type)
+  select distinct p.cer || '/' || p.trip_id, date, exception_type
+  from calendar_dates join cer_part p on p.cer = calendar_dates.service_id
+  """,
+  "update trips set service_id = service_id || '/' || trip_id where trip_id in (select trip_id from cer_part)",
+  """
+  insert or replace into calendar_dates (service_id, date, exception_type)
+  with recursive
+    span(lo, hi) as (
+      select date(substr(min(start_date), 1, 4) || '-' || substr(min(start_date), 5, 2) || '-' || substr(min(start_date), 7, 2)),
+             date(substr(max(end_date), 1, 4) || '-' || substr(max(end_date), 5, 2) || '-' || substr(max(end_date), 7, 2))
+      from calendar),
+    days(d) as (select lo from span union all select date(d, '+1 day') from days, span where d < hi),
+    ld_days(service_id, ymd) as (
+      select c.service_id, cast(replace(d, '-', '') as integer) from calendar c, days
+      where c.service_id in (select ld from cer_part)
+        and cast(replace(d, '-', '') as integer) between c.start_date and c.end_date
+        and case strftime('%w', d) when '0' then c.sunday when '1' then c.monday when '2' then c.tuesday
+          when '3' then c.wednesday when '4' then c.thursday when '5' then c.friday else c.saturday end = 1
+      union
+      select service_id, date from calendar_dates where exception_type = 1 and service_id in (select ld from cer_part)
+      except
+      select service_id, date from calendar_dates where exception_type = 2 and service_id in (select ld from cer_part))
+  select p.cer || '/' || p.trip_id, ld_days.ymd, 2 from cer_part p join ld_days on ld_days.service_id = p.ld
+  """,
 ]
