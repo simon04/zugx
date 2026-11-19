@@ -1,19 +1,24 @@
 // Regional line per train from the timetable ("S 4017" → "S 1"), for the GTFS-based views, which
-// only know category and train number (packages/trains/data/lines-<year>.toml, loaded on first use).
+// only know category and train number (packages/trains/data[/<country>]/lines-<year>.toml, loaded on
+// first use; the newest file of every country, merged: the categories with lines differ per country).
 import { shallowRef } from "vue";
 
 const files = import.meta.glob<{ default: Record<string, string> }>(
-  "../../../../packages/trains/data/lines-*.toml",
+  "../../../../packages/trains/data/**/lines-*.toml",
 );
 const map = shallowRef<Record<string, string>>();
 let loading: Promise<void> | undefined;
-/** categories with lines */
-const LINE_CATS = new Set(["S", "R", "REX", "CJX"]);
+/** categories with lines (Spain: C Cercanías/Rodalies, lines C1, R2N …) */
+const LINE_CATS = new Set(["S", "R", "REX", "CJX", "C"]);
 
 function load() {
   loading ??= (async () => {
-    const newest = Object.keys(files).sort().at(-1);
-    if (newest) map.value = (await files[newest]!()).default;
+    const newest = new Map<string, string>();
+    for (const p of Object.keys(files).sort()) newest.set(p.replace(/lines-\d+\.toml$/, ""), p);
+    const maps = await Promise.all(
+      [...newest.values()].map(async (p) => (await files[p]!()).default),
+    );
+    map.value = Object.assign({}, ...maps);
   })();
   return loading;
 }

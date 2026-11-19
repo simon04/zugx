@@ -1,5 +1,6 @@
 // Train index per country (packages/trains/data, data/<country>): default file (long-distance +
 // night) loaded first, full file (incl. regional + S-Bahn) on demand.
+import { categoryRank } from "@zugx/gtfs/categories";
 import { isLongDistance, type TrainEntry, type TrainIndex } from "@zugx/trains";
 import { country, ofCountry } from "./country.ts";
 import { NIGHT, REGIONAL, SUBURBAN } from "./products.ts";
@@ -238,22 +239,5 @@ export function inGroup(cat: string, g: QuickFilter): boolean {
 /** groups that need the full file (default file has no regional/S-Bahn trains) */
 export const needsFull = (g: QuickFilter) => g === "all" || g === "regional" || g === "suburban";
 
-export const CATEGORY_ORDER = [
-  "RJX",
-  "RJ",
-  "ICE",
-  "EC",
-  "IC",
-  "NJ",
-  "EN",
-  "D",
-  "WB",
-  "CJX",
-  "REX",
-  "R",
-  "S",
-];
-export const catRank = (c: string) => {
-  const i = CATEGORY_ORDER.indexOf(c);
-  return i < 0 ? 50 : i;
-};
+/** sort rank of a category, long-distance → regional (the pipeline's order, incl. other countries') */
+export const catRank = (c: string) => categoryRank(c);

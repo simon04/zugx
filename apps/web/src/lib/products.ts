@@ -21,14 +21,20 @@ export const LONG_DISTANCE = new Set([
   "FR",
   "EX",
   "SC",
+  // Spain (Renfe): AVE, AVLO (low-cost AVE), Euromed
+  "AVE",
+  "AVLO",
+  "EM",
 ]);
 export const REGIONAL = new Set([
   ...["CJX", "REX", "R", "RB", "RE", "ER", "Os", "SB"],
   // Slovenia (LP local, LPV, RG regional, MV/MO international regional), Bulgaria (PV)
   ...["LP", "LPV", "RG", "MV", "MO", "PV"],
+  // Spain: Avant (high-speed medium distance), Regional
+  ...["AVANT", "REG"],
 ]);
-/** S-Bahn and suburban trains (Bulgaria: KPV крайградски) */
-export const SUBURBAN = new Set(["S", "KPV"]);
+/** S-Bahn and suburban trains (Bulgaria: KPV крайградски, Spain: C Cercanías/Rodalies) */
+export const SUBURBAN = new Set(["S", "KPV", "C"]);
 export const NIGHT = new Set(["NJ", "EN"]);
 
 /** private long-distance operators (WESTbahn, RegioJet, Leo Express): orange */
@@ -57,6 +63,14 @@ const CAT_COLORS: Record<string, string> = {
   WB: PRIVATE_LD,
   RGJ: PRIVATE_LD,
   LEO: PRIVATE_LD,
+  // Spain, by offer level like the Austrian ones: AVE top (RJ), AVLO second (RJX), Euromed and
+  // Intercity long-distance (EC/IC), Avant fast regional (IR/CJX), Regional (R), Cercanías (S)
+  AVE: "#d0102a",
+  AVLO: "#b8157a",
+  EM: "#7d1a14",
+  AVANT: "#8448b8",
+  REG: "#5a7590",
+  C: "#1659c9",
 };
 
 const PRODUCT_COLORS: Record<ProductId, string> = {
