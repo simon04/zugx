@@ -80,8 +80,12 @@ anchors = [
   "65000", # València-Estació del Nord
   "65300", # Castelló de la Plana
   "71500", # Tarragona
+  "71600", # Sant Vicenç de Calders (the Rodalies R2S starts here: its stops along the coast)
   "71801", # Barcelona-Sants
 ]
+# no track distances in Renfe's feeds: tell the coast line (R2S) from the inland one via
+# Vilafranca (R4, also Sant Vicenç – Barcelona) by the path along the stops
+detourByPath = ["71600"]
 
 [[corridors]]
 id = "es-200"

@@ -36,6 +36,13 @@ export interface CorridorDef {
   nonstop?: string[];
   /** max. relative detour vs. the shortest anchor-to-anchor route (default 0.12) */
   detour?: number;
+  /**
+   * anchors whose segment to the next anchor, without track distances (Renfe, SŽ), measures that
+   * route along the trip's stops (great circles) instead of skipping the test. Opt-in per segment:
+   * where an express skips most stops of a winding line, a local train's path looks longer and
+   * its stops would be lost.
+   */
+  detourByPath?: string[];
 }
 
 /** Corridors spanning several Fahrplanbilder (or none), defined by zugx. */
@@ -834,6 +841,18 @@ const median = (xs: number[]) => {
 };
 
 /** Ordered corridor stations with km. */
+/** great-circle length (metres) of a trip's path from stop i to stop j (NaN if a station is unknown) */
+function pathMetres(feed: Feed, trip: Trip, i: number, j: number): number {
+  let km = 0;
+  for (let m = i; m < j; m++) {
+    const a = feed.stations.get(trip.stops[m]!.st);
+    const b = feed.stations.get(trip.stops[m + 1]!.st);
+    if (!a || !b) return NaN;
+    km += haversineKm(a, b);
+  }
+  return km * 1000;
+}
+
 export function corridorStations(feed: Feed, def: CorridorDef, names?: Map<string, string>) {
   const anchorIdx = new Map(def.anchors.map((a, i) => [a, i]));
   // station → list of relative positions (0..1) within anchor segment k
@@ -848,8 +867,11 @@ export function corridorStations(feed: Feed, def: CorridorDef, names?: Map<strin
     forward: boolean;
     /** track metres between the anchors (NaN if unknown) */
     span: number;
+    /** span, or with detourByPath the great-circle path along the trip's stops (metres) */
+    len: number;
   }
   const hops: Hop[] = [];
+  const byPath = new Set((def.detourByPath ?? []).map((a) => def.anchors.indexOf(a)));
   for (const trip of feed.trips) {
     const idx = trip.stops.map((s) => anchorIdx.get(s.st));
     for (let i = 0; i < trip.stops.length; i++) {
@@ -861,21 +883,24 @@ export function corridorStations(feed: Feed, def: CorridorDef, names?: Map<strin
       const aj = idx[j];
       if (aj === undefined || Math.abs(aj - ai) !== 1) continue;
       const span = trip.stops[j]!.dist - trip.stops[i]!.dist;
-      hops.push({ trip, i, j, k: Math.min(ai, aj), forward: aj > ai, span });
+      const k = Math.min(ai, aj);
+      const len = Number.isFinite(span) || !byPath.has(k) ? span : pathMetres(feed, trip, i, j);
+      hops.push({ trip, i, j, k, forward: aj > ai, span, len });
     }
   }
   // the corridor follows the shortest route between anchors: hops more than
-  // `detour` longer than the shortest one took a parallel line
+  // `detour` longer than the shortest one took a parallel line (see detourByPath without track
+  // distances).
   const segDist: number[][] = def.anchors.slice(1).map(() => []);
   const minSpan = def.anchors.slice(1).map((_, k) => {
-    const spans = hops.filter((h) => h.k === k && h.span > 0).map((h) => h.span);
+    const spans = hops.filter((h) => h.k === k && h.len > 0).map((h) => h.len);
     return spans.length ? Math.min(...spans) : NaN;
   });
   const detour = def.detour ?? 0.12;
   const nonstop = new Set((def.nonstop ?? []).map((k) => def.anchors.indexOf(k)));
 
-  for (const { trip, i, j, k, forward, span } of hops) {
-    if (span > 0 && span > minSpan[k]! * (1 + detour)) continue;
+  for (const { trip, i, j, k, forward, span, len } of hops) {
+    if (len > 0 && len > minSpan[k]! * (1 + detour)) continue;
     if (span > 0) segDist[k]!.push(span / 1000);
     if (nonstop.has(k)) continue;
     const da = trip.stops[i]!.dist;

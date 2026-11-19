@@ -103,12 +103,12 @@ name = "València – Castelló – Tarragona – Barcelona"
 from = "València-Estació del Nord"
 to = "Barcelona-Sants"
 km = 357.6
-stations = 39
-trains = 335
+stations = 51
+trains = 540
 file = "es-600.toml"
-major = ["València-Estació del Nord", "Castelló de la Plana", "Tarragona", "Barcelona-Sants"]
-names = ["València-Estació del Nord", "València-La Font de Sant Lluís", "València-Cabanyal", "Roca-Cúper", "Albuixech", "Massalfassar", "El Puig", "Puçol", "Sagunt", "Les Valls", "Almenara", "La Llosa", "Chilches/Xilxes", "Moncofa", "Nules la Villavella", "Burriana-Alquerías Niño Perdido", "Vila-Real", "Almassora", "Castelló de la Plana", "Benicàssim", "Orpesa", "Torreblanca", "Alcalá de Chivert", "Benicarló-Peñíscola", "Vinaròs", "Ulldecona-Alcanar-La Sénia", "Tortosa", "L'Aldea-Amposta-Tortosa", "L'Ampolla-El Perelló-Deltebre", "L'Ametlla de Mar", "L'Hospitalet de l'Infant", "Cambrils", "Vila-seca", "Tarragona", "Altafulla-Tamarit", "Torredembarra", "Sant Vicenç de Calders", "Vilanova i la Geltrú", "Barcelona-Sants"]
-cats = { C = 193, REG = 121, EM = 15, IC = 4, AVANT = 2 }
+major = ["València-Estació del Nord", "Castelló de la Plana", "Tarragona", "Sant Vicenç de Calders", "Barcelona-Sants"]
+names = ["València-Estació del Nord", "València-La Font de Sant Lluís", "València-Cabanyal", "Roca-Cúper", "Albuixech", "Massalfassar", "El Puig", "Puçol", "Sagunt", "Les Valls", "Almenara", "La Llosa", "Chilches/Xilxes", "Moncofa", "Nules la Villavella", "Burriana-Alquerías Niño Perdido", "Vila-Real", "Almassora", "Castelló de la Plana", "Benicàssim", "Orpesa", "Torreblanca", "Alcalá de Chivert", "Benicarló-Peñíscola", "Vinaròs", "Ulldecona-Alcanar-La Sénia", "Tortosa", "L'Aldea-Amposta-Tortosa", "L'Ampolla-El Perelló-Deltebre", "L'Ametlla de Mar", "L'Hospitalet de l'Infant", "Cambrils", "Vila-seca", "Tarragona", "Altafulla-Tamarit", "Torredembarra", "Sant Vicenç de Calders", "Calafell", "Segur de Calafell", "Cunit", "Cubelles", "Vilanova i la Geltrú", "Sitges", "Garraf", "Platja de Castelldefels", "Castelldefels", "Gavà", "Viladecans", "El Prat de Llobregat", "Bellvitge - Gornal", "Barcelona-Sants"]
+cats = { C = 445, REG = 74, EM = 15, IC = 4, AVANT = 2 }
 lines = [
   { id = "600", ref = "600", name = "FFCC València - Sant Vicenç de Calders", stations = 29 },
 ]
