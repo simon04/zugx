@@ -5,7 +5,7 @@
 // - Renfe's product names (AVLO, AVANT, IC, REG) differ from HAFAS's (AVL, ARC, IR); "IC 190" is
 //   a Hungarian IC there. Applied to Spanish-only categories always, to shared ones (AVE, EM, IC)
 //   when Spain is the selected country.
-import type { TripMatch } from "@zugx/hafas";
+import type { TripMatch, When } from "@zugx/hafas";
 import { api } from "./api.ts";
 import { country } from "./country.ts";
 
@@ -24,7 +24,7 @@ const BY_COUNTRY: Record<string, Record<string, RegExp>> = {
 };
 
 /** the exact matches (number, and category or operator); else all HAFAS found for the name */
-export async function findTrains(name: string, when: Temporal.Instant): Promise<TripMatch[]> {
+export async function findTrains(name: string, when: When): Promise<TripMatch[]> {
   const [cat, nr] = name.includes(" ") ? (name.split(" ") as [string, string]) : ["", name];
   const c = cat.toUpperCase();
   const op = OPERATORS[c] ?? BY_COUNTRY[country.value]?.[c];
