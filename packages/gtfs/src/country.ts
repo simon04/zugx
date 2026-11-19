@@ -25,6 +25,12 @@ export interface Country {
    * sidings. Tracks under construction listed by a relation are kept in every country.
    */
   osmLineMembers?: boolean;
+  /**
+   * stations HAFAS doesn't know: id = this prefix + their GTFS stop id, if the stop id is a
+   * national station code that HAFAS numbers the same way (Spain: "71" + ADIF code, Gualba 79105
+   * → 7179105) and the station lies inside the country. Without it they are left out.
+   */
+  localStationPrefix?: string;
   /** reference day of the timetable sheets (a regular Tuesday; default: netz DEFAULT_DAY) */
   day?: string;
   /** licence of the timetable data, for the data files and the attribution */

@@ -62,6 +62,9 @@ const coords = ref<[number, number]>();
 async function resolveName() {
   await loadStations();
   const local = stationById(id.value);
+  // a station HAFAS doesn't know (timetable data only): no live board, its departure plan instead
+  if (local?.local)
+    return void router.replace({ path: `/station/${id.value}/plan`, query: route.query });
   name.value = local?.name ?? "";
   coords.value = local ? [local.lat, local.lon] : undefined;
   if (!name.value || !coords.value) {

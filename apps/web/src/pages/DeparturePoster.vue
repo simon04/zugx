@@ -97,7 +97,7 @@ const count = computed(() => hours.value.reduce((n, [, rs]) => n + rs.length, 0)
 const hh = (h: number) => String(h % 24).padStart(2, "0");
 /** another station: its plan on the same day (stations without one: the live board) */
 const stationLink = (sid: string) =>
-  Object.keys(files).some((p) => p.endsWith(`/${sid}.toml`))
+  stationById(sid)?.local || Object.keys(files).some((p) => p.endsWith(`/${sid}.toml`))
     ? { path: `/station/${sid}/plan`, query: route.query.d ? { d: route.query.d } : {} }
     : `/station/${sid}`;
 const mm = (m: number) => String(m % 60).padStart(2, "0");
@@ -112,7 +112,12 @@ usePageTitle(() => [t("poster.title"), data.value ? name(data.value.id) : undefi
         {{ $t("poster.title") }}
         <template v-if="data">· {{ name(data.id) }}</template>
       </h1>
-      <RouterLink :to="`/station/${id}`" class="text-sm">{{ $t("poster.live") }} →</RouterLink>
+      <RouterLink
+        v-if="stationsReady && !stationById(id)?.local"
+        :to="`/station/${id}`"
+        class="text-sm"
+        >{{ $t("poster.live") }} →</RouterLink
+      >
     </div>
     <div class="mb-3 flex flex-wrap items-center gap-1 text-xs">
       <button

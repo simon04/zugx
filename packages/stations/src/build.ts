@@ -20,6 +20,7 @@ import {
 import { openZugxDb, RAIL_ROUTE_TYPES, rows, serviceDays, type Db } from "@zugx/db/query";
 import type { Location } from "@zugx/hafas";
 import type { GtfsHafasEntry, GtfsHafasMap, Station } from "./index.ts";
+import { countryArea } from "./area.ts";
 import {
   cleanGtfsName,
   cleanHafasName,
@@ -176,7 +177,8 @@ export async function updateMap(
   const todo: GroupStats[] = [];
   for (const s of groups) {
     const e = old[s.id];
-    const fresh = e && (e.id !== null || (e.checked ?? "") >= retryBefore);
+    // matched: kept; unmatched and local (not in HAFAS): looked up again after RETRY_DAYS
+    const fresh = e && ((!!e.id && !e.local) || (e.checked ?? "") >= retryBefore);
     if (e && fresh && !process.env.REMAP) map[s.id] = { ...e, gtfs: s.name };
     else todo.push(s);
   }
@@ -241,7 +243,9 @@ export function buildStations(groups: Map<string, GroupStats>, map: GtfsHafasMap
   const maxLog = Math.log1p(Math.max(1, ...[...byId.values()].map(score)));
   const out: Station[] = [];
   for (const [id, x] of byId) {
-    const name = withDiacritics(cleanHafasName(x.e.name ?? ""), x.gtfsNames);
+    const name = x.e.local
+      ? cleanGtfsName(x.e.gtfs)
+      : withDiacritics(cleanHafasName(x.e.name ?? ""), x.gtfsNames);
     // aliases: GTFS names that the client search wouldn't find via the HAFAS name anyway
     const words = new Set(normalizeName(name).split(" "));
     const alias = new Set<string>();
@@ -263,9 +267,41 @@ export function buildStations(groups: Map<string, GroupStats>, map: GtfsHafasMap
       w: Math.max(1, Math.round(1000 * (Math.log1p(score(x)) / maxLog) ** 3)),
     };
     if (alias.size) st.alias = [...alias].sort();
+    if (x.e.local) st.local = true;
     out.push(st);
   }
   return out.sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+}
+
+/**
+ * stations HAFAS doesn't know, inside the country: an id from the GTFS stop id
+ * (Country.localStationPrefix), name and position from the GTFS
+ */
+export function addLocalStations(
+  groups: Iterable<GroupStats>,
+  map: GtfsHafasMap,
+  c: Country = COUNTRY,
+): number {
+  const prefix = c.localStationPrefix;
+  const inside = prefix ? countryArea(c) : undefined;
+  if (!prefix || !inside) return 0;
+  let n = 0;
+  for (const s of groups) {
+    const e = map[s.id];
+    if (e?.id && !e.local) continue;
+    if (!/^\d{5}$/.test(s.id) || !s.lat || !inside(s.lat, s.lon)) continue;
+    map[s.id] = {
+      id: prefix + s.id,
+      name: s.name,
+      lat: round6(s.lat),
+      lon: round6(s.lon),
+      gtfs: s.name,
+      checked: e?.checked ?? Temporal.Now.plainDateISO("Europe/Vienna").toString(),
+      local: true,
+    };
+    n++;
+  }
+  return n;
 }
 
 async function main() {
@@ -273,6 +309,13 @@ async function main() {
   const groups = railGroups(openZugxDb());
   console.log(`stations: ${COUNTRY.id}: ${groups.size} rail station groups`);
   const map = await updateMap(groups.values());
+  const local = addLocalStations(groups.values(), map);
+  if (local) {
+    writeToml(MAP_PATH, sortKeys(map));
+    console.log(
+      `stations: ${local} stations not in HAFAS, ids from the GTFS (${COUNTRY.localStationPrefix} + stop id)`,
+    );
+  }
   const unmapped = [...groups.values()].filter((s) => !map[s.id]?.id);
   const far = [...groups.values()].filter((s) => (map[s.id]?.d ?? 0) > 400);
   for (const s of unmapped) console.log(`unmapped: ${s.id} "${s.name}" (${s.deps} deps)`);

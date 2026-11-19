@@ -12,6 +12,8 @@ export interface Station {
   /** weight 1–1000 */
   w?: number;
   alias?: string[];
+  /** not in HAFAS (timetable data only): no live board */
+  local?: boolean;
 }
 
 interface Indexed {

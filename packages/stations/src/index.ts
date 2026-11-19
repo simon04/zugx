@@ -12,6 +12,8 @@ export interface Station {
   w: number;
   /** other names (e.g. the open data name), if really different */
   alias?: string[];
+  /** not in HAFAS (timetable data only): no live board, journeys, or HAFAS lookups */
+  local?: boolean;
 }
 
 /** Entry of `data/gtfs-hafas-map.toml`: GTFS station (parent DHID) → HAFAS station. */
@@ -30,6 +32,8 @@ export interface GtfsHafasEntry {
   gtfs: string;
   /** ISO date of the last lookup (for retrying unmatched stations) */
   checked?: string;
+  /** not in HAFAS: id from the GTFS stop id (Country.localStationPrefix), name from the GTFS */
+  local?: boolean;
 }
 
 export type GtfsHafasMap = Record<string, GtfsHafasEntry>;

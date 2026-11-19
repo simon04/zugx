@@ -2,8 +2,8 @@
 10001 = { id = "7110001", name = "Aravaca (APD.-CGD.)", lat = 40.448582, lon = -3.785627, p = 16, d = 15, gtfs = "Aravaca" }
 10002 = { id = "7110002", name = "Pozuelo", lat = 40.447224, lon = -3.800046, p = 16, d = 32, gtfs = "Pozuelo" }
 10005 = { id = "7110005", name = "Las Rozas (APD.)", lat = 40.49431, lon = -3.867825, p = 16, d = 30, gtfs = "Las Rozas" }
-10007 = { id = "", gtfs = "Majadahonda", checked = "2026-11-19" }
-10010 = { id = "", gtfs = "El Barrial-Centro Comercial Pozuelo", checked = "2026-11-19" }
+10007 = { id = "7110007", name = "Majadahonda", lat = 40.474289, lon = -3.846293, gtfs = "Majadahonda", checked = "2026-11-19", local = true }
+10010 = { id = "7110010", name = "El Barrial-Centro Comercial Pozuelo", lat = 40.465392, lon = -3.807685, gtfs = "El Barrial-Centro Comercial Pozuelo", checked = "2026-11-19", local = true }
 10100 = { id = "7158644", name = "Pinar de las Rozas", lat = 40.522374, lon = -3.881497, p = 16, d = 65, gtfs = "Pinar de las Rozas" }
 10101 = { id = "7164468", name = "Las Matas", lat = 40.552335, lon = -3.896923, p = 16, d = 14, gtfs = "Las Matas" }
 10103 = { id = "7155129", name = "Torrelodones (APT.)", lat = 40.574314, lon = -3.956566, p = 16, d = 27, gtfs = "Torrelodones" }
@@ -55,29 +55,29 @@
 11402 = { id = "7111402", name = "Ormaiztegui", lat = 43.040262, lon = -2.256445, p = 16, d = 2, gtfs = "Ormáiztegui" }
 11404 = { id = "7100409", name = "Beasain", lat = 43.046078, lon = -2.201953, p = 20, d = 35, gtfs = "Beasain" }
 11405 = { id = "7111405", name = "Ordizia (APD.)", lat = 43.052757, lon = -2.179372, p = 20, d = 15, gtfs = "Ordizia" }
-11406 = { id = "", gtfs = "Itsasondo", checked = "2026-11-19" }
-11407 = { id = "", gtfs = "Legorreta", checked = "2026-11-19" }
-11408 = { id = "", gtfs = "Ikaztegieta", checked = "2026-11-19" }
-11409 = { id = "", gtfs = "Alegia", checked = "2026-11-19" }
+11406 = { id = "7111406", name = "Itsasondo", lat = 43.06833, lon = -2.162485, gtfs = "Itsasondo", checked = "2026-11-19", local = true }
+11407 = { id = "7111407", name = "Legorreta", lat = 43.085695, lon = -2.140898, gtfs = "Legorreta", checked = "2026-11-19", local = true }
+11408 = { id = "7111408", name = "Ikaztegieta", lat = 43.09404, lon = -2.125577, gtfs = "Ikaztegieta", checked = "2026-11-19", local = true }
+11409 = { id = "7111409", name = "Alegia", lat = 43.10176, lon = -2.09714, gtfs = "Alegia", checked = "2026-11-19", local = true }
 11500 = { id = "7100478", name = "Tolosa", lat = 43.135592, lon = -2.079205, p = 20, d = 19, gtfs = "Tolosa" }
 11501 = { id = "7111501", name = "Tolosa Centro", lat = 43.139368, lon = -2.074108, p = 16, d = 3, gtfs = "Tolosa-Centro" }
-11502 = { id = "", gtfs = "Anoeta", checked = "2026-11-19" }
+11502 = { id = "7111502", name = "Anoeta", lat = 43.162606, lon = -2.07039, gtfs = "Anoeta", checked = "2026-11-19", local = true }
 11503 = { id = "7111503", name = "Billabona Zizurkil", lat = 43.189177, lon = -2.055366, p = 20, d = 2, gtfs = "Billabona-Zizurkil" }
 11504 = { id = "7111504", name = "Andoain Centro", lat = 43.215542, lon = -2.020416, p = 20, d = 5, gtfs = "Andoain-Centro" }
-11505 = { id = "", gtfs = "Andoain", checked = "2026-11-19" }
-11506 = { id = "", gtfs = "Urnieta", checked = "2026-11-19" }
+11505 = { id = "7111505", name = "Andoain", lat = 43.222046, lon = -2.015676, gtfs = "Andoain", checked = "2026-11-19", local = true }
+11506 = { id = "7111506", name = "Urnieta", lat = 43.247467, lon = -1.988427, gtfs = "Urnieta", checked = "2026-11-19", local = true }
 11507 = { id = "7111507", name = "Hernani Centro", lat = 43.265639, lon = -1.973393, p = 4, d = 112, gtfs = "Hernani-Erdia" }
-11508 = { id = "", gtfs = "Hernani", checked = "2026-11-19" }
-11509 = { id = "", gtfs = "Martutene", checked = "2026-11-19" }
-11510 = { id = "", gtfs = "Loiola", checked = "2026-11-19" }
+11508 = { id = "7111508", name = "Hernani", lat = 43.272511, lon = -1.963774, gtfs = "Hernani", checked = "2026-11-19", local = true }
+11509 = { id = "7111509", name = "Martutene", lat = 43.299113, lon = -1.956175, gtfs = "Martutene", checked = "2026-11-19", local = true }
+11510 = { id = "7111510", name = "Loiola", lat = 43.304675, lon = -1.963629, gtfs = "Loiola", checked = "2026-11-19", local = true }
 11511 = { id = "7100008", name = "San Sebastian", lat = 43.317669, lon = -1.976782, p = 20, d = 6, gtfs = "San Sebastián-Donostia" }
-11512 = { id = "", gtfs = "Gros", checked = "2026-11-19" }
-11513 = { id = "", gtfs = "Ategorrieta", checked = "2026-11-19" }
+11512 = { id = "7111512", name = "Gros", lat = 43.321846, lon = -1.973883, gtfs = "Gros", checked = "2026-11-19", local = true }
+11513 = { id = "7111513", name = "Ategorrieta", lat = 43.320323, lon = -1.959813, gtfs = "Ategorrieta", checked = "2026-11-19", local = true }
 11514 = { id = "7146624", name = "Herrera(Donostia)", lat = 43.319997, lon = -1.937778, p = 16, d = 94, gtfs = "Herrera" }
 11515 = { id = "7146667", name = "Pasaia", lat = 43.318055, lon = -1.917777, p = 16, d = 110, gtfs = "Pasaia" }
 11516 = { id = "7111516", name = "Lezo-Renteria", lat = 43.31588, lon = -1.899394, p = 20, d = 7, gtfs = "Lezo-Rentería" }
 11518 = { id = "7146632", name = "Ventas de Irun", lat = 43.330559, lon = -1.816945, p = 16, d = 21, gtfs = "Ventas de Irún" }
-11522 = { id = "", gtfs = "Intxaurrondo", checked = "2026-11-19" }
+11522 = { id = "7111522", name = "Intxaurrondo", lat = 43.320049, lon = -1.951767, gtfs = "Intxaurrondo", checked = "2026-11-19", local = true }
 11600 = { id = "7100009", name = "Irun", lat = 43.339405, lon = -1.801151, p = 20, d = 17, gtfs = "Irun" }
 12001 = { id = "7197696", name = "Los Negrales (APD.)", lat = 40.638461, lon = -4.021774, p = 16, d = 15, gtfs = "Los Negrales" }
 12002 = { id = "7197772", name = "Mataespesa de Alpedrete (APT.)", lat = 40.658057, lon = -4.035123, p = 16, d = 14, gtfs = "Alpedrete" }
@@ -92,53 +92,53 @@
 12012 = { id = "7117921", name = "Otero-Herreros", lat = 40.800851, lon = -4.203356, p = 16, d = 18, gtfs = "Otero-Herreros" }
 12013 = { id = "7119933", name = "Ortigosa del Monta (APD.)", lat = 40.832727, lon = -4.168172, p = 16, d = 8, gtfs = "Ortigosa del Monte" }
 12014 = { id = "7151221", name = "La Losa-Navas de Riofrio (APT.)", lat = 40.856638, lon = -4.141061, p = 16, d = 5, gtfs = "Navas de Riofrío-La Losa" }
-12020 = { id = "", gtfs = "Puerto de Navacerrada", checked = "2026-11-19" }
-12023 = { id = "", gtfs = "Los Cotos", checked = "2026-11-19" }
+12020 = { id = "7112020", name = "Puerto de Navacerrada", lat = 40.784468, lon = -4.004774, gtfs = "Puerto de Navacerrada", checked = "2026-11-19", local = true }
+12023 = { id = "7112023", name = "Los Cotos", lat = 40.822342, lon = -3.964496, gtfs = "Los Cotos", checked = "2026-11-19", local = true }
 12100 = { id = "7100010", name = "Segovia", lat = 40.934062, lon = -4.11332, p = 16, d = 28, gtfs = "Segovia" }
-13100 = { id = "", gtfs = "Orduña", checked = "2026-11-19" }
-13101 = { id = "", gtfs = "Amurrio", checked = "2026-11-19" }
-13102 = { id = "", gtfs = "Salbio", checked = "2026-11-19" }
-13103 = { id = "", gtfs = "Luiaondo", checked = "2026-11-19" }
-13104 = { id = "", gtfs = "Santa Cruz de Llodio", checked = "2026-11-19" }
+13100 = { id = "7113100", name = "Orduña", lat = 42.994619, lon = -3.015814, gtfs = "Orduña", checked = "2026-11-19", local = true }
+13101 = { id = "7113101", name = "Amurrio", lat = 43.049051, lon = -3.002018, gtfs = "Amurrio", checked = "2026-11-19", local = true }
+13102 = { id = "7113102", name = "Salbio", lat = 43.074172, lon = -2.999395, gtfs = "Salbio", checked = "2026-11-19", local = true }
+13103 = { id = "7113103", name = "Luiaondo", lat = 43.093593, lon = -2.999664, gtfs = "Luiaondo", checked = "2026-11-19", local = true }
+13104 = { id = "7113104", name = "Santa Cruz de Llodio", lat = 43.132863, lon = -2.969837, gtfs = "Santa Cruz de Llodio", checked = "2026-11-19", local = true }
 13106 = { id = "7100140", name = "Llodio", lat = 43.142217, lon = -2.960435, p = 4, d = 23, gtfs = "Llodio" }
-13107 = { id = "", gtfs = "Areta", checked = "2026-11-19" }
-13108 = { id = "", gtfs = "Arbide", checked = "2026-11-19" }
-13109 = { id = "", gtfs = "Arrankudiaga", checked = "2026-11-19" }
-13110 = { id = "", gtfs = "Ugao-Miraballes", checked = "2026-11-19" }
-13111 = { id = "", gtfs = "Arrigorriaga", checked = "2026-11-19" }
-13112 = { id = "", gtfs = "Basauri", checked = "2026-11-19" }
-13113 = { id = "", gtfs = "Bidebieta-Basauri", checked = "2026-11-19" }
-13114 = { id = "", gtfs = "Ollargan", checked = "2026-11-19" }
-13115 = { id = "", gtfs = "Bakiola", checked = "2026-11-19" }
-13116 = { id = "", gtfs = "Iñarratxu", checked = "2026-11-19" }
-13117 = { id = "", gtfs = "Arakaldo", checked = "2026-11-19" }
-13118 = { id = "", gtfs = "Abaroa-San Miguel", checked = "2026-11-19" }
-13119 = { id = "", gtfs = "La Peña de Bilbao", checked = "2026-11-19" }
-13120 = { id = "", gtfs = "Miribilla", checked = "2026-11-19" }
-13121 = { id = "", gtfs = "Amurrio Iparralde", checked = "2026-11-19" }
+13107 = { id = "7113107", name = "Areta", lat = 43.145127, lon = -2.943391, gtfs = "Areta", checked = "2026-11-19", local = true }
+13108 = { id = "7113108", name = "Arbide", lat = 43.163259, lon = -2.927836, gtfs = "Arbide", checked = "2026-11-19", local = true }
+13109 = { id = "7113109", name = "Arrankudiaga", lat = 43.169499, lon = -2.918448, gtfs = "Arrankudiaga", checked = "2026-11-19", local = true }
+13110 = { id = "7113110", name = "Ugao-Miraballes", lat = 43.179083, lon = -2.902696, gtfs = "Ugao-Miraballes", checked = "2026-11-19", local = true }
+13111 = { id = "7113111", name = "Arrigorriaga", lat = 43.210087, lon = -2.888572, gtfs = "Arrigorriaga", checked = "2026-11-19", local = true }
+13112 = { id = "7113112", name = "Basauri", lat = 43.22353, lon = -2.882386, gtfs = "Basauri", checked = "2026-11-19", local = true }
+13113 = { id = "7113113", name = "Bidebieta-Basauri", lat = 43.237057, lon = -2.889486, gtfs = "Bidebieta-Basauri", checked = "2026-11-19", local = true }
+13114 = { id = "7113114", name = "Ollargan", lat = 43.242497, lon = -2.916456, gtfs = "Ollargan", checked = "2026-11-19", local = true }
+13115 = { id = "7113115", name = "Bakiola", lat = 43.176986, lon = -2.90907, gtfs = "Bakiola", checked = "2026-11-19", local = true }
+13116 = { id = "7113116", name = "Iñarratxu", lat = 43.035824, lon = -3.003879, gtfs = "Iñarratxu", checked = "2026-11-19", local = true }
+13117 = { id = "7113117", name = "Arakaldo", lat = 43.153559, lon = -2.938203, gtfs = "Arakaldo", checked = "2026-11-19", local = true }
+13118 = { id = "7113118", name = "Abaroa-San Miguel", lat = 43.225648, lon = -2.887114, gtfs = "Abaroa-San Miguel", checked = "2026-11-19", local = true }
+13119 = { id = "7113119", name = "La Peña de Bilbao", lat = 43.240167, lon = -2.924043, gtfs = "La Peña de Bilbao", checked = "2026-11-19", local = true }
+13120 = { id = "7113120", name = "Miribilla", lat = 43.250429, lon = -2.930516, gtfs = "Miribilla", checked = "2026-11-19", local = true }
+13121 = { id = "7113121", name = "Amurrio Iparralde", lat = 43.057845, lon = -2.996066, gtfs = "Amurrio Iparralde", checked = "2026-11-19", local = true }
 13200 = { id = "7100011", name = "Bilbao-Abando", lat = 43.26056, lon = -2.927679, p = 4, d = 86, gtfs = "Bilbao-Intermod. Abando Indalecio Prieto" }
-13205 = { id = "", gtfs = "Zabalburu", checked = "2026-11-19" }
-13206 = { id = "", gtfs = "Ametzola", checked = "2026-11-19" }
+13205 = { id = "7113205", name = "Zabalburu", lat = 43.256791, lon = -2.932284, gtfs = "Zabalburu", checked = "2026-11-19", local = true }
+13206 = { id = "7113206", name = "Ametzola", lat = 43.254707, lon = -2.94366, gtfs = "Ametzola", checked = "2026-11-19", local = true }
 13207 = { id = "7146477", name = "Bilbao La Casilla", lat = 43.257774, lon = -2.944372, p = 32, d = 140, gtfs = "Autonomía" }
 13208 = { id = "7146470", name = "Bilbao San Mamés", lat = 43.261666, lon = -2.948893, p = 32, d = 16, gtfs = "San Mamés" }
-13303 = { id = "", gtfs = "Olabeaga", checked = "2026-11-19" }
-13304 = { id = "", gtfs = "Zorrotza", checked = "2026-11-19" }
-13305 = { id = "", gtfs = "Lutxana-Barakaldo", checked = "2026-11-19" }
-13400 = { id = "", gtfs = "Desertu-Barakaldo", checked = "2026-11-19" }
-13401 = { id = "", gtfs = "Sestao", checked = "2026-11-19" }
-13402 = { id = "", gtfs = "La Iberia", checked = "2026-11-19" }
-13403 = { id = "", gtfs = "Portugalete", checked = "2026-11-19" }
-13404 = { id = "", gtfs = "Peñota", checked = "2026-11-19" }
-13405 = { id = "", gtfs = "Santurtzi", checked = "2026-11-19" }
-13501 = { id = "", gtfs = "Galindo", checked = "2026-11-19" }
-13502 = { id = "", gtfs = "Trápaga", checked = "2026-11-19" }
-13503 = { id = "", gtfs = "Valle de Trápaga/Trapagaran", checked = "2026-11-19" }
-13504 = { id = "", gtfs = "Ortuella", checked = "2026-11-19" }
-13505 = { id = "", gtfs = "Putxeta", checked = "2026-11-19" }
-13506 = { id = "", gtfs = "Muskiz", checked = "2026-11-19" }
-13507 = { id = "", gtfs = "Urioste", checked = "2026-11-19" }
-13508 = { id = "", gtfs = "Gallarta", checked = "2026-11-19" }
-13509 = { id = "", gtfs = "Sagrada Familia", checked = "2026-11-19" }
+13303 = { id = "7113303", name = "Olabeaga", lat = 43.26438, lon = -2.955327, gtfs = "Olabeaga", checked = "2026-11-19", local = true }
+13304 = { id = "7113304", name = "Zorrotza", lat = 43.277804, lon = -2.972119, gtfs = "Zorrotza", checked = "2026-11-19", local = true }
+13305 = { id = "7113305", name = "Lutxana-Barakaldo", lat = 43.287814, lon = -2.975413, gtfs = "Lutxana-Barakaldo", checked = "2026-11-19", local = true }
+13400 = { id = "7113400", name = "Desertu-Barakaldo", lat = 43.300026, lon = -2.984409, gtfs = "Desertu-Barakaldo", checked = "2026-11-19", local = true }
+13401 = { id = "7113401", name = "Sestao", lat = 43.30852, lon = -2.994011, gtfs = "Sestao", checked = "2026-11-19", local = true }
+13402 = { id = "7113402", name = "La Iberia", lat = 43.312703, lon = -3.004496, gtfs = "La Iberia", checked = "2026-11-19", local = true }
+13403 = { id = "7113403", name = "Portugalete", lat = 43.318676, lon = -3.01523, gtfs = "Portugalete", checked = "2026-11-19", local = true }
+13404 = { id = "7113404", name = "Peñota", lat = 43.326356, lon = -3.023457, gtfs = "Peñota", checked = "2026-11-19", local = true }
+13405 = { id = "7113405", name = "Santurtzi", lat = 43.328661, lon = -3.029569, gtfs = "Santurtzi", checked = "2026-11-19", local = true }
+13501 = { id = "7113501", name = "Galindo", lat = 43.304135, lon = -3.010197, gtfs = "Galindo", checked = "2026-11-19", local = true }
+13502 = { id = "7113502", name = "Trápaga", lat = 43.303026, lon = -3.016991, gtfs = "Trápaga", checked = "2026-11-19", local = true }
+13503 = { id = "7113503", name = "Valle de Trápaga/Trapagaran", lat = 43.301484, lon = -3.028795, gtfs = "Valle de Trápaga/Trapagaran", checked = "2026-11-19", local = true }
+13504 = { id = "7113504", name = "Ortuella", lat = 43.311512, lon = -3.060355, gtfs = "Ortuella", checked = "2026-11-19", local = true }
+13505 = { id = "7113505", name = "Putxeta", lat = 43.31568, lon = -3.091136, gtfs = "Putxeta", checked = "2026-11-19", local = true }
+13506 = { id = "7113506", name = "Muskiz", lat = 43.321511, lon = -3.112321, gtfs = "Muskiz", checked = "2026-11-19", local = true }
+13507 = { id = "7113507", name = "Urioste", lat = 43.307532, lon = -3.041072, gtfs = "Urioste", checked = "2026-11-19", local = true }
+13508 = { id = "7113508", name = "Gallarta", lat = 43.319332, lon = -3.067452, gtfs = "Gallarta", checked = "2026-11-19", local = true }
+13509 = { id = "7113509", name = "Sagrada Familia", lat = 43.308237, lon = -3.052898, gtfs = "Sagrada Familia", checked = "2026-11-19", local = true }
 14100 = { id = "7100012", name = "Palencia", lat = 42.015851, lon = -4.533826, p = 21, d = 30, gtfs = "Palencia" }
 14101 = { id = "7114101", name = "Monzon de Campos (APT.-CGD.)", lat = 42.105428, lon = -4.502139, p = 16, d = 40, gtfs = "Monzón de Campos" }
 14102 = { id = "7114102", name = "Amusco (APD.)", lat = 42.178106, lon = -4.480592, p = 16, d = 16, gtfs = "Amusco" }
@@ -154,32 +154,32 @@
 14117 = { id = "7114117", name = "El Carrion (APD.)", lat = 42.116054, lon = -4.496701, p = 16, d = 336, gtfs = "El Carrión" }
 14200 = { id = "7100445", name = "Mataporquera", lat = 42.870375, lon = -4.166806, p = 16, d = 128, gtfs = "Mataporquera" }
 14202 = { id = "7100163", name = "Reinosa", lat = 42.994021, lon = -4.140935, p = 20, d = 53, gtfs = "Reinosa" }
-14203 = { id = "", gtfs = "Lantueno-Santiurde", checked = "2026-11-19" }
-14204 = { id = "", gtfs = "Pesquera", checked = "2026-11-19" }
+14203 = { id = "7114203", name = "Lantueno-Santiurde", lat = 43.058073, lon = -4.084013, gtfs = "Lantueno-Santiurde", checked = "2026-11-19", local = true }
+14204 = { id = "7114204", name = "Pesquera", lat = 43.082333, lon = -4.073814, gtfs = "Pesquera", checked = "2026-11-19", local = true }
 14206 = { id = "7100408", name = "Barcena", lat = 43.128751, lon = -4.053865, p = 16, d = 32, gtfs = "Bárcena" }
-14207 = { id = "", gtfs = "Molledo-Portolín", checked = "2026-11-19" }
-14208 = { id = "", gtfs = "Santa Cruz de Iguña", checked = "2026-11-19" }
-14209 = { id = "", gtfs = "Las Fraguas", checked = "2026-11-19" }
+14207 = { id = "7114207", name = "Molledo-Portolín", lat = 43.145627, lon = -4.039033, gtfs = "Molledo-Portolín", checked = "2026-11-19", local = true }
+14208 = { id = "7114208", name = "Santa Cruz de Iguña", lat = 43.170122, lon = -4.045063, gtfs = "Santa Cruz de Iguña", checked = "2026-11-19", local = true }
+14209 = { id = "7114209", name = "Las Fraguas", lat = 43.193219, lon = -4.054113, gtfs = "Las Fraguas", checked = "2026-11-19", local = true }
 14210 = { id = "7100444", name = "Los Corrales de Buel", lat = 43.255131, lon = -4.063789, p = 16, d = 13, gtfs = "Los Corrales de Buelna" }
-14211 = { id = "", gtfs = "Las Caldas de Besaya", checked = "2026-11-19" }
-14212 = { id = "", gtfs = "Viérnoles", checked = "2026-11-19" }
+14211 = { id = "7114211", name = "Las Caldas de Besaya", lat = 43.298595, lon = -4.073252, gtfs = "Las Caldas de Besaya", checked = "2026-11-19", local = true }
+14212 = { id = "7114212", name = "Viérnoles", lat = 43.324564, lon = -4.054044, gtfs = "Viérnoles", checked = "2026-11-19", local = true }
 14213 = { id = "7100013", name = "Torrelavega", lat = 43.327557, lon = -4.042422, p = 20, d = 25, gtfs = "Torrelavega" }
-14214 = { id = "", gtfs = "Sierrapando", checked = "2026-11-19" }
-14215 = { id = "", gtfs = "Zurita", checked = "2026-11-19" }
+14214 = { id = "7114214", name = "Sierrapando", lat = 43.341785, lon = -4.026634, gtfs = "Sierrapando", checked = "2026-11-19", local = true }
+14215 = { id = "7114215", name = "Zurita", lat = 43.347671, lon = -3.99105, gtfs = "Zurita", checked = "2026-11-19", local = true }
 14216 = { id = "7100464", name = "Renedo", lat = 43.352996, lon = -3.949411, p = 16, d = 23, gtfs = "Renedo" }
-14217 = { id = "", gtfs = "Parbayón", checked = "2026-11-19" }
-14218 = { id = "", gtfs = "Guarnizo", checked = "2026-11-19" }
-14219 = { id = "", gtfs = "Boo", checked = "2026-11-19" }
+14217 = { id = "7114217", name = "Parbayón", lat = 43.376745, lon = -3.89422, gtfs = "Parbayón", checked = "2026-11-19", local = true }
+14218 = { id = "7114218", name = "Guarnizo", lat = 43.39151, lon = -3.859545, gtfs = "Guarnizo", checked = "2026-11-19", local = true }
+14219 = { id = "7114219", name = "Boo", lat = 43.41048, lon = -3.841588, gtfs = "Boo", checked = "2026-11-19", local = true }
 14220 = { id = "7114220", name = "Camargo (APD.)", lat = 43.416137, lon = -3.841855, p = 16, d = 63, gtfs = "Maliaño" }
 14223 = { id = "7100014", name = "Santander", lat = 43.458287, lon = -3.811435, p = 20, d = 41, gtfs = "Santander" }
 14230 = { id = "7114230", name = "Valdecilla", lat = 43.454035, lon = -3.82767, p = 16, d = 10, gtfs = "Valdecilla" }
-14231 = { id = "", gtfs = "Nueva Montaña apeadero", checked = "2026-11-19" }
-14232 = { id = "", gtfs = "Lombera", checked = "2026-11-19" }
-14233 = { id = "", gtfs = "Río Ebro", checked = "2026-11-19" }
-14234 = { id = "", gtfs = "Pujayo", checked = "2026-11-19" }
-14235 = { id = "", gtfs = "Arenas de Iguña", checked = "2026-11-19" }
-14236 = { id = "", gtfs = "Vioño", checked = "2026-11-19" }
-14237 = { id = "", gtfs = "Muriedas-Bahía", checked = "2026-11-19" }
+14231 = { id = "7114231", name = "Nueva Montaña apeadero", lat = 43.444713, lon = -3.847199, gtfs = "Nueva Montaña apeadero", checked = "2026-11-19", local = true }
+14232 = { id = "7114232", name = "Lombera", lat = 43.265825, lon = -4.06759, gtfs = "Lombera", checked = "2026-11-19", local = true }
+14233 = { id = "7114233", name = "Río Ebro", lat = 43.000755, lon = -4.134401, gtfs = "Río Ebro", checked = "2026-11-19", local = true }
+14234 = { id = "7114234", name = "Pujayo", lat = 43.122875, lon = -4.082375, gtfs = "Pujayo", checked = "2026-11-19", local = true }
+14235 = { id = "7114235", name = "Arenas de Iguña", lat = 43.185083, lon = -4.050075, gtfs = "Arenas de Iguña", checked = "2026-11-19", local = true }
+14236 = { id = "7114236", name = "Vioño", lat = 43.360647, lon = -3.964806, gtfs = "Vioño", checked = "2026-11-19", local = true }
+14237 = { id = "7114237", name = "Muriedas-Bahía", lat = 43.421686, lon = -3.844117, gtfs = "Muriedas-Bahía", checked = "2026-11-19", local = true }
 15001 = { id = "7115001", name = "Grijato (APD.)", lat = 42.050019, lon = -4.585002, p = 16, d = 124, gtfs = "Grijota" }
 15003 = { id = "7115003", name = "Becerril (APT.)", lat = 42.1047, lon = -4.647171, p = 16, d = 4, gtfs = "Becerril" }
 15004 = { id = "7120402", name = "Paredes de Nava", lat = 42.150617, lon = -4.697844, p = 20, d = 22, gtfs = "Paredes de Nava" }
@@ -198,64 +198,64 @@
 15113 = { id = "7115113", name = "Busdongo", lat = 42.984295, lon = -5.705444, p = 16, d = 23, gtfs = "Busdongo" }
 15116 = { id = "7100386", name = "Linares-Congostinas", lat = 43.101245, lon = -5.772243, p = 16, d = 56, gtfs = "Linares-Congostinas" }
 15118 = { id = "7115118", name = "Puente de Los Fierros (APT.)", lat = 43.071661, lon = -5.769502, p = 16, d = 8, gtfs = "Puente de los Fierros" }
-15119 = { id = "", gtfs = "La Frecha", checked = "2026-11-19" }
+15119 = { id = "7115119", name = "La Frecha", lat = 43.096167, lon = -5.7986, gtfs = "La Frecha", checked = "2026-11-19", local = true }
 15120 = { id = "7115120", name = "Campomanes (APT.)", lat = 43.110144, lon = -5.816237, p = 16, d = 19, gtfs = "Campomanes" }
-15121 = { id = "", gtfs = "La Cobertoria", checked = "2026-11-19" }
+15121 = { id = "7115121", name = "La Cobertoria", lat = 43.130161, lon = -5.81603, gtfs = "La Cobertoria", checked = "2026-11-19", local = true }
 15122 = { id = "7100461", name = "Pola de Lena", lat = 43.158605, lon = -5.831293, p = 21, d = 25, gtfs = "Pola de Lena" }
-15123 = { id = "", gtfs = "Villallana", checked = "2026-11-19" }
+15123 = { id = "7115123", name = "Villallana", lat = 43.183857, lon = -5.814593, gtfs = "Villallana", checked = "2026-11-19", local = true }
 15200 = { id = "7115200", name = "Ujo", lat = 43.206086, lon = -5.79237, p = 16, d = 156, gtfs = "Ujo" }
-15202 = { id = "", gtfs = "Santullano", checked = "2026-11-19" }
+15202 = { id = "7115202", name = "Santullano", lat = 43.220899, lon = -5.785587, gtfs = "Santullano", checked = "2026-11-19", local = true }
 15203 = { id = "7100447", name = "Mieres-Puente", lat = 43.25025, lon = -5.782428, p = 21, d = 28, gtfs = "Mieres-Puente" }
-15205 = { id = "", gtfs = "Ablaña", checked = "2026-11-19" }
-15206 = { id = "", gtfs = "La Pereda-Riosa", checked = "2026-11-19" }
-15207 = { id = "", gtfs = "Olloniego", checked = "2026-11-19" }
-15208 = { id = "", gtfs = "Soto de Rey", checked = "2026-11-19" }
-15209 = { id = "", gtfs = "Las Segadas", checked = "2026-11-19" }
-15210 = { id = "", gtfs = "El Caleyo", checked = "2026-11-19" }
+15205 = { id = "7115205", name = "Ablaña", lat = 43.267603, lon = -5.805793, gtfs = "Ablaña", checked = "2026-11-19", local = true }
+15206 = { id = "7115206", name = "La Pereda-Riosa", lat = 43.277087, lon = -5.812235, gtfs = "La Pereda-Riosa", checked = "2026-11-19", local = true }
+15207 = { id = "7115207", name = "Olloniego", lat = 43.296123, lon = -5.81885, gtfs = "Olloniego", checked = "2026-11-19", local = true }
+15208 = { id = "7115208", name = "Soto de Rey", lat = 43.306409, lon = -5.855807, gtfs = "Soto de Rey", checked = "2026-11-19", local = true }
+15209 = { id = "7115209", name = "Las Segadas", lat = 43.313242, lon = -5.869198, gtfs = "Las Segadas", checked = "2026-11-19", local = true }
+15210 = { id = "7115210", name = "El Caleyo", lat = 43.329047, lon = -5.873332, gtfs = "El Caleyo", checked = "2026-11-19", local = true }
 15211 = { id = "7100152", name = "Oviedo", lat = 43.366238, lon = -5.85534, p = 21, d = 43, gtfs = "Oviedo" }
-15212 = { id = "", gtfs = "Lugones", checked = "2026-11-19" }
-15217 = { id = "", gtfs = "La Corredoria", checked = "2026-11-19" }
+15212 = { id = "7115212", name = "Lugones", lat = 43.404272, lon = -5.811782, gtfs = "Lugones", checked = "2026-11-19", local = true }
+15217 = { id = "7115217", name = "La Corredoria", lat = 43.388108, lon = -5.827253, gtfs = "La Corredoria", checked = "2026-11-19", local = true }
 15218 = { id = "7115218", name = "Llamaquique", lat = 43.358848, lon = -5.857389, p = 16, d = 6, gtfs = "Llamaquique" }
-15300 = { id = "", gtfs = "Lugo de Llanera", checked = "2026-11-19" }
-15301 = { id = "", gtfs = "Villabona de Asturias", checked = "2026-11-19" }
-15302 = { id = "", gtfs = "Serín", checked = "2026-11-19" }
-15303 = { id = "", gtfs = "Monteana", checked = "2026-11-19" }
-15305 = { id = "", gtfs = "Villabona-Tabladielillo", checked = "2026-11-19" }
-15400 = { id = "", gtfs = "Veriña", checked = "2026-11-19" }
+15300 = { id = "7115300", name = "Lugo de Llanera", lat = 43.442332, lon = -5.815893, gtfs = "Lugo de Llanera", checked = "2026-11-19", local = true }
+15301 = { id = "7115301", name = "Villabona de Asturias", lat = 43.461519, lon = -5.826346, gtfs = "Villabona de Asturias", checked = "2026-11-19", local = true }
+15302 = { id = "7115302", name = "Serín", lat = 43.504905, lon = -5.781882, gtfs = "Serín", checked = "2026-11-19", local = true }
+15303 = { id = "7115303", name = "Monteana", lat = 43.520848, lon = -5.746358, gtfs = "Monteana", checked = "2026-11-19", local = true }
+15305 = { id = "7115305", name = "Villabona-Tabladielillo", lat = 43.474162, lon = -5.800054, gtfs = "Villabona-Tabladielillo", checked = "2026-11-19", local = true }
+15400 = { id = "7115400", name = "Veriña", lat = 43.541576, lon = -5.722797, gtfs = "Veriña", checked = "2026-11-19", local = true }
 15401 = { id = "7115401", name = "Calzada de Asturias (APD.-CGD.)", lat = 43.535289, lon = -5.697732, p = 16, d = 48, gtfs = "Calzada de Asturias" }
 15410 = { id = "7100016", name = "Gijón", lat = 43.537698, lon = -5.675933, p = 21, d = 11, gtfs = "Gijón-Sanz Crespo" }
-16001 = { id = "", gtfs = "Santa Eulalia de Manzaneda", checked = "2026-11-19" }
-16002 = { id = "", gtfs = "Tudela-Veguín", checked = "2026-11-19" }
-16005 = { id = "", gtfs = "Peña Rubia", checked = "2026-11-19" }
-16006 = { id = "", gtfs = "Barros", checked = "2026-11-19" }
-16008 = { id = "", gtfs = "La Felguera", checked = "2026-11-19" }
-16009 = { id = "", gtfs = "Sama", checked = "2026-11-19" }
-16010 = { id = "", gtfs = "Ciaño", checked = "2026-11-19" }
-16011 = { id = "", gtfs = "El Entrego", checked = "2026-11-19" }
-16301 = { id = "", gtfs = "Ferroñes", checked = "2026-11-19" }
-16302 = { id = "", gtfs = "Cancienes", checked = "2026-11-19" }
-16400 = { id = "", gtfs = "Nubledo", checked = "2026-11-19" }
-16401 = { id = "", gtfs = "Villalegre", checked = "2026-11-19" }
-16402 = { id = "", gtfs = "La Rocica", checked = "2026-11-19" }
+16001 = { id = "7116001", name = "Santa Eulalia de Manzaneda", lat = 43.317337, lon = -5.81262, gtfs = "Santa Eulalia de Manzaneda", checked = "2026-11-19", local = true }
+16002 = { id = "7116002", name = "Tudela-Veguín", lat = 43.33101, lon = -5.776893, gtfs = "Tudela-Veguín", checked = "2026-11-19", local = true }
+16005 = { id = "7116005", name = "Peña Rubia", lat = 43.321302, lon = -5.720806, gtfs = "Peña Rubia", checked = "2026-11-19", local = true }
+16006 = { id = "7116006", name = "Barros", lat = 43.31783, lon = -5.710914, gtfs = "Barros", checked = "2026-11-19", local = true }
+16008 = { id = "7116008", name = "La Felguera", lat = 43.304831, lon = -5.692852, gtfs = "La Felguera", checked = "2026-11-19", local = true }
+16009 = { id = "7116009", name = "Sama", lat = 43.298778, lon = -5.683321, gtfs = "Sama", checked = "2026-11-19", local = true }
+16010 = { id = "7116010", name = "Ciaño", lat = 43.289388, lon = -5.66867, gtfs = "Ciaño", checked = "2026-11-19", local = true }
+16011 = { id = "7116011", name = "El Entrego", lat = 43.289517, lon = -5.640847, gtfs = "El Entrego", checked = "2026-11-19", local = true }
+16301 = { id = "7116301", name = "Ferroñes", lat = 43.476034, lon = -5.861622, gtfs = "Ferroñes", checked = "2026-11-19", local = true }
+16302 = { id = "7116302", name = "Cancienes", lat = 43.507333, lon = -5.869252, gtfs = "Cancienes", checked = "2026-11-19", local = true }
+16400 = { id = "7116400", name = "Nubledo", lat = 43.523423, lon = -5.870301, gtfs = "Nubledo", checked = "2026-11-19", local = true }
+16401 = { id = "7116401", name = "Villalegre", lat = 43.54004, lon = -5.902231, gtfs = "Villalegre", checked = "2026-11-19", local = true }
+16402 = { id = "7116402", name = "La Rocica", lat = 43.547101, lon = -5.904708, gtfs = "La Rocica", checked = "2026-11-19", local = true }
 16403 = { id = "7116403", name = "Aviles", lat = 43.560836, lon = -5.922498, p = 4, d = 62, gtfs = "Avilés" }
-16405 = { id = "", gtfs = "San Juan de Nieva", checked = "2026-11-19" }
-16408 = { id = "", gtfs = "Los Campos", checked = "2026-11-19" }
+16405 = { id = "7116405", name = "San Juan de Nieva", lat = 43.589536, lon = -5.932551, gtfs = "San Juan de Nieva", checked = "2026-11-19", local = true }
+16408 = { id = "7116408", name = "Los Campos", lat = 43.536512, lon = -5.884882, gtfs = "Los Campos", checked = "2026-11-19", local = true }
 17000 = { id = "7100017", name = "Madrid-Chamartin", lat = 40.471109, lon = -3.682782, p = 21, d = 16, gtfs = "Madrid-Chamartín-Clara Campoamor" }
-17001 = { id = "", gtfs = "Fuencarral", checked = "2026-11-19" }
-17003 = { id = "", gtfs = "El Goloso", checked = "2026-11-19" }
-17004 = { id = "", gtfs = "Tres Cantos", checked = "2026-11-19" }
-17005 = { id = "", gtfs = "Colmenar Viejo", checked = "2026-11-19" }
-17009 = { id = "", gtfs = "Universidad-Cantoblanco", checked = "2026-11-19" }
+17001 = { id = "7117001", name = "Fuencarral", lat = 40.50156, lon = -3.682504, gtfs = "Fuencarral", checked = "2026-11-19", local = true }
+17003 = { id = "7117003", name = "El Goloso", lat = 40.558897, lon = -3.713971, gtfs = "El Goloso", checked = "2026-11-19", local = true }
+17004 = { id = "7117004", name = "Tres Cantos", lat = 40.598742, lon = -3.715559, gtfs = "Tres Cantos", checked = "2026-11-19", local = true }
+17005 = { id = "7117005", name = "Colmenar Viejo", lat = 40.645209, lon = -3.776614, gtfs = "Colmenar Viejo", checked = "2026-11-19", local = true }
+17009 = { id = "7117009", name = "Universidad-Cantoblanco", lat = 40.543842, lon = -3.700155, gtfs = "Universidad-Cantoblanco", checked = "2026-11-19", local = true }
 18000 = { id = "7100500", name = "Madrid-Atocha Cercanías", lat = 40.406099, lon = -3.688795, p = 20, d = 79, gtfs = "Madrid-Atocha Cercanías" }
 18001 = { id = "7132797", name = "Madrid-Recoletos", lat = 40.423286, lon = -3.690908, p = 16, d = 10, gtfs = "Madrid-Recoletos" }
 18002 = { id = "7124900", name = "Madrid-Nuevos Ministerios", lat = 40.446613, lon = -3.692418, p = 16, d = 6, gtfs = "Madrid-Nuevos Ministerios" }
-18003 = { id = "", gtfs = "Méndez Álvaro P.V.", checked = "2026-11-19" }
-18004 = { id = "", gtfs = "Delicias", checked = "2026-11-19" }
-18005 = { id = "", gtfs = "Pirámides", checked = "2026-11-19" }
-18101 = { id = "", gtfs = "Sol", checked = "2026-11-19" }
-19001 = { id = "", gtfs = "Universidad Pontificia de Comillas", checked = "2026-11-19" }
-19002 = { id = "", gtfs = "Valdelasfuentes", checked = "2026-11-19" }
-19003 = { id = "", gtfs = "Alcobendas-San Sebastián de los Reyes", checked = "2026-11-19" }
+18003 = { id = "7118003", name = "Méndez Álvaro P.V.", lat = 40.395777, lon = -3.677844, gtfs = "Méndez Álvaro P.V.", checked = "2026-11-19", local = true }
+18004 = { id = "7118004", name = "Delicias", lat = 40.400437, lon = -3.692777, gtfs = "Delicias", checked = "2026-11-19", local = true }
+18005 = { id = "7118005", name = "Pirámides", lat = 40.402534, lon = -3.711362, gtfs = "Pirámides", checked = "2026-11-19", local = true }
+18101 = { id = "7118101", name = "Sol", lat = 40.416866, lon = -3.702876, gtfs = "Sol", checked = "2026-11-19", local = true }
+19001 = { id = "7119001", name = "Universidad Pontificia de Comillas", lat = 40.55397, lon = -3.6837, gtfs = "Universidad Pontificia de Comillas", checked = "2026-11-19", local = true }
+19002 = { id = "7119002", name = "Valdelasfuentes", lat = 40.547434, lon = -3.654324, gtfs = "Valdelasfuentes", checked = "2026-11-19", local = true }
+19003 = { id = "7119003", name = "Alcobendas-San Sebastián de los Reyes", lat = 40.546576, lon = -3.635173, gtfs = "Alcobendas-San Sebastián de los Reyes", checked = "2026-11-19", local = true }
 20002 = { id = "7103787", name = "Quintana-Raneros (APT.)", lat = 42.549999, lon = -5.637944, p = 16, d = 16, gtfs = "Quintana-Raneros" }
 20005 = { id = "7100487", name = "Veguellina", lat = 42.432528, lon = -5.889355, p = 20, d = 183, gtfs = "Veguellina" }
 20006 = { id = "7101712", name = "Barrientos (APT.)", lat = 42.414846, lon = -5.965026, p = 16, d = 105, gtfs = "Barrientos" }
@@ -385,9 +385,9 @@
 35001 = { id = "7100443", name = "Leganes", lat = 40.329304, lon = -3.771002, p = 20, d = 78, gtfs = "Leganés" }
 35002 = { id = "7135002", name = "Fuenlabrada", lat = 40.283549, lon = -3.798958, p = 20, d = 45, gtfs = "Fuenlabrada" }
 35005 = { id = "7135005", name = "Illescas", lat = 40.12088, lon = -3.842097, p = 20, d = 14, gtfs = "Illescas" }
-35009 = { id = "", gtfs = "Zarzaquemada", checked = "2026-11-19" }
-35010 = { id = "", gtfs = "La Serna-Fuenlabrada", checked = "2026-11-19" }
-35011 = { id = "", gtfs = "Parque Polvoranca", checked = "2026-11-19" }
+35009 = { id = "7135009", name = "Zarzaquemada", lat = 40.340853, lon = -3.748263, gtfs = "Zarzaquemada", checked = "2026-11-19", local = true }
+35010 = { id = "7135010", name = "La Serna-Fuenlabrada", lat = 40.296817, lon = -3.792624, gtfs = "La Serna-Fuenlabrada", checked = "2026-11-19", local = true }
+35011 = { id = "7135011", name = "Parque Polvoranca", lat = 40.312574, lon = -3.783494, gtfs = "Parque Polvoranca", checked = "2026-11-19", local = true }
 35012 = { id = "7135003", name = "Humanes de Madrid", lat = 40.255601, lon = -3.828281, p = 4, d = 43, gtfs = "Humanes" }
 35105 = { id = "7100481", name = "Torrijos", lat = 39.978958, lon = -4.283953, p = 20, d = 78, gtfs = "Torrijos" }
 35109 = { id = "7135109", name = "Montearagon (APT.)", lat = 39.960728, lon = -4.646677, p = 16, d = 46, gtfs = "Montearagón" }
@@ -402,25 +402,25 @@
 35402 = { id = "7135402", name = "Arroyo de Malpartida", lat = 39.46829, lon = -6.53478, p = 16, d = 101, gtfs = "Arroyo de Malpartida" }
 35405 = { id = "7100467", name = "San Vicente de Alcan", lat = 39.381724, lon = -7.116418, p = 16, d = 59, gtfs = "San Vicente de Alcántara" }
 35406 = { id = "7100033", name = "Valencia de Alcántara", lat = 39.427119, lon = -7.230851, p = 16, d = 25, gtfs = "Valencia de Alcántara" }
-35600 = { id = "", gtfs = "Aluche", checked = "2026-11-19" }
-35601 = { id = "", gtfs = "Maestra Justa Freire-Polidep. Aluche", checked = "2026-11-19" }
-35602 = { id = "", gtfs = "Las Águilas", checked = "2026-11-19" }
-35603 = { id = "", gtfs = "Cuatro Vientos", checked = "2026-11-19" }
-35604 = { id = "", gtfs = "San José de Valderas", checked = "2026-11-19" }
-35605 = { id = "", gtfs = "Alcorcón", checked = "2026-11-19" }
-35606 = { id = "", gtfs = "Móstoles", checked = "2026-11-19" }
-35607 = { id = "", gtfs = "Móstoles-El Soto", checked = "2026-11-19" }
-35608 = { id = "", gtfs = "Laguna", checked = "2026-11-19" }
-35609 = { id = "", gtfs = "Embajadores", checked = "2026-11-19" }
-35610 = { id = "", gtfs = "Las Retamas", checked = "2026-11-19" }
-35702 = { id = "", gtfs = "Doce de Octubre", checked = "2026-11-19" }
-35703 = { id = "", gtfs = "Orcasitas", checked = "2026-11-19" }
-35704 = { id = "", gtfs = "Puente Alcocer", checked = "2026-11-19" }
-37001 = { id = "", gtfs = "Madrid-Villaverde Alto", checked = "2026-11-19" }
-37002 = { id = "", gtfs = "Getafe-Centro", checked = "2026-11-19" }
-37010 = { id = "", gtfs = "Las Margaritas", checked = "2026-11-19" }
-37011 = { id = "", gtfs = "Getafe-Sector 3", checked = "2026-11-19" }
-37012 = { id = "", gtfs = "Parla", checked = "2026-11-19" }
+35600 = { id = "7135600", name = "Aluche", lat = 40.385668, lon = -3.760734, gtfs = "Aluche", checked = "2026-11-19", local = true }
+35601 = { id = "7135601", name = "Maestra Justa Freire-Polidep. Aluche", lat = 40.383638, lon = -3.768687, gtfs = "Maestra Justa Freire-Polidep. Aluche", checked = "2026-11-19", local = true }
+35602 = { id = "7135602", name = "Las Águilas", lat = 40.381022, lon = -3.780164, gtfs = "Las Águilas", checked = "2026-11-19", local = true }
+35603 = { id = "7135603", name = "Cuatro Vientos", lat = 40.377765, lon = -3.79151, gtfs = "Cuatro Vientos", checked = "2026-11-19", local = true }
+35604 = { id = "7135604", name = "San José de Valderas", lat = 40.356613, lon = -3.815573, gtfs = "San José de Valderas", checked = "2026-11-19", local = true }
+35605 = { id = "7135605", name = "Alcorcón", lat = 40.350227, lon = -3.831702, gtfs = "Alcorcón", checked = "2026-11-19", local = true }
+35606 = { id = "7135606", name = "Móstoles", lat = 40.328663, lon = -3.863622, gtfs = "Móstoles", checked = "2026-11-19", local = true }
+35607 = { id = "7135607", name = "Móstoles-El Soto", lat = 40.331064, lon = -3.882456, gtfs = "Móstoles-El Soto", checked = "2026-11-19", local = true }
+35608 = { id = "7135608", name = "Laguna", lat = 40.39906, lon = -3.744231, gtfs = "Laguna", checked = "2026-11-19", local = true }
+35609 = { id = "7135609", name = "Embajadores", lat = 40.404648, lon = -3.702579, gtfs = "Embajadores", checked = "2026-11-19", local = true }
+35610 = { id = "7135610", name = "Las Retamas", lat = 40.342115, lon = -3.842464, gtfs = "Las Retamas", checked = "2026-11-19", local = true }
+35702 = { id = "7135702", name = "Doce de Octubre", lat = 40.378921, lon = -3.698699, gtfs = "Doce de Octubre", checked = "2026-11-19", local = true }
+35703 = { id = "7135703", name = "Orcasitas", lat = 40.367102, lon = -3.704231, gtfs = "Orcasitas", checked = "2026-11-19", local = true }
+35704 = { id = "7135704", name = "Puente Alcocer", lat = 40.350448, lon = -3.705115, gtfs = "Puente Alcocer", checked = "2026-11-19", local = true }
+37001 = { id = "7137001", name = "Madrid-Villaverde Alto", lat = 40.34159, lon = -3.712351, gtfs = "Madrid-Villaverde Alto", checked = "2026-11-19", local = true }
+37002 = { id = "7137002", name = "Getafe-Centro", lat = 40.310005, lon = -3.733988, gtfs = "Getafe-Centro", checked = "2026-11-19", local = true }
+37010 = { id = "7137010", name = "Las Margaritas", lat = 40.323099, lon = -3.727286, gtfs = "Las Margaritas", checked = "2026-11-19", local = true }
+37011 = { id = "7137011", name = "Getafe-Sector 3", lat = 40.288389, lon = -3.737499, gtfs = "Getafe-Sector 3", checked = "2026-11-19", local = true }
+37012 = { id = "7137012", name = "Parla", lat = 40.241099, lon = -3.76927, gtfs = "Parla", checked = "2026-11-19", local = true }
 37200 = { id = "7100100", name = "Ciudad Real", lat = 38.98503, lon = -3.912915, p = 21, d = 69, gtfs = "Ciudad Real" }
 37300 = { id = "7100159", name = "Puertollano", lat = 38.6912, lon = -4.11199, p = 21, d = 30, gtfs = "Puertollano" }
 37302 = { id = "7137302", name = "Brazatortas-Veredas", lat = 38.668798, lon = -4.31698, p = 20, d = 45, gtfs = "Brazatortas-Veredas" }
@@ -453,7 +453,7 @@
 40113 = { id = "7140113", name = "Cazalla Y Constantina (APT.-CGD.)", lat = 37.932546, lon = -5.704671, p = 20, d = 41, gtfs = "Cazalla-Constantina" }
 40115 = { id = "7140115", name = "Pedroso (APT.-CGD.)", lat = 37.837188, lon = -5.762337, p = 20, d = 25, gtfs = "Pedroso" }
 40119 = { id = "7140119", name = "Villanueva del Rio y Minas", lat = 37.661126, lon = -5.711467, p = 20, d = 88, gtfs = "Villanueva del Río-Minas" }
-40121 = { id = "", gtfs = "Alcolea del Río", checked = "2026-11-19" }
+40121 = { id = "7140121", name = "Alcolea del Río", lat = 37.635456, lon = -5.730831, gtfs = "Alcolea del Río", checked = "2026-11-19", local = true }
 40122 = { id = "7140122", name = "Tocina (APD.)", lat = 37.609078, lon = -5.731531, p = 20, d = 29, gtfs = "Tocina" }
 42005 = { id = "7142005", name = "Fregenal de la Sierra", lat = 38.167731, lon = -6.637662, p = 4, d = 25, gtfs = "Fregenal de la Sierra" }
 42006 = { id = "7142006", name = "Cumbres Mayores (APT.)", lat = 38.053109, lon = -6.630974, p = 4, d = 51, gtfs = "Cumbres Mayores" }
@@ -466,10 +466,10 @@
 42018 = { id = "7142018", name = "El Cobujon", lat = 37.516282, lon = -6.953066, p = 4, d = 41, gtfs = "El Cobujón" }
 42019 = { id = "7142019", name = "Belmonte APD. (Calañas)", lat = 37.461871, lon = -6.947529, p = 4, d = 1, gtfs = "Belmonte" }
 42020 = { id = "7100203", name = "Gibraleon", lat = 37.367763, lon = -6.961966, p = 4, d = 85, gtfs = "Gibraleón" }
-43000 = { id = "", gtfs = "San Jerónimo", checked = "2026-11-19" }
-43002 = { id = "", gtfs = "Camas", checked = "2026-11-19" }
-43003 = { id = "", gtfs = "Villanueva del Ariscal y Olivares", checked = "2026-11-19" }
-43004 = { id = "", gtfs = "Sanlúcar la Mayor", checked = "2026-11-19" }
+43000 = { id = "7143000", name = "San Jerónimo", lat = 37.433173, lon = -5.98036, gtfs = "San Jerónimo", checked = "2026-11-19", local = true }
+43002 = { id = "7143002", name = "Camas", lat = 37.417739, lon = -6.040847, gtfs = "Camas", checked = "2026-11-19", local = true }
+43003 = { id = "7143003", name = "Villanueva del Ariscal y Olivares", lat = 37.407137, lon = -6.148189, gtfs = "Villanueva del Ariscal y Olivares", checked = "2026-11-19", local = true }
+43004 = { id = "7143004", name = "Sanlúcar la Mayor", lat = 37.38144, lon = -6.193963, gtfs = "Sanlúcar la Mayor", checked = "2026-11-19", local = true }
 43005 = { id = "7143005", name = "Benacazon", lat = 37.357155, lon = -6.208256, p = 4, d = 34, gtfs = "Benacazón" }
 43008 = { id = "7143008", name = "Carrion de los Cespedes (APT.-CGD.)", lat = 37.36921, lon = -6.334635, p = 4, d = 49, gtfs = "Carrión de los Céspedes" }
 43009 = { id = "7100102", name = "Escacena", lat = 37.397256, lon = -6.39151, p = 4, d = 74, gtfs = "Escacena" }
@@ -478,8 +478,8 @@
 43015 = { id = "7143015", name = "Niebla (APD.)", lat = 37.358342, lon = -6.681098, p = 4, d = 49, gtfs = "Niebla-Puerta del Buey" }
 43019 = { id = "7100036", name = "Huelva-Termino", lat = 37.252485, lon = -6.944904, p = 4, d = 14, gtfs = "Huelva" }
 43021 = { id = "7100168", name = "San Juan del Puerto", lat = 37.309558, lon = -6.846985, p = 4, d = 584, gtfs = "San Juan del Puerto" }
-43026 = { id = "", gtfs = "Valencina-Santiponce", checked = "2026-11-19" }
-43027 = { id = "", gtfs = "Salteras", checked = "2026-11-19" }
+43026 = { id = "7143026", name = "Valencina-Santiponce", lat = 37.426813, lon = -6.056686, gtfs = "Valencina-Santiponce", checked = "2026-11-19", local = true }
+43027 = { id = "7143027", name = "Salteras", lat = 37.410235, lon = -6.099239, gtfs = "Salteras", checked = "2026-11-19", local = true }
 50002 = { id = "7150002", name = "Cinco Casas", lat = 39.168464, lon = -3.232584, p = 4, d = 91, gtfs = "Cinco Casas" }
 50100 = { id = "7100145", name = "Manzanares", lat = 39.005975, lon = -3.370559, p = 20, d = 16, gtfs = "Manzanares" }
 50102 = { id = "7100123", name = "Valdepenas", lat = 38.763284, lon = -3.395576, p = 4, d = 48, gtfs = "Valdepeñas" }
@@ -490,7 +490,7 @@
 50400 = { id = "7100103", name = "Espeluy", lat = 38.010258, lon = -3.832812, p = 4, d = 8, gtfs = "Espelúy" }
 50403 = { id = "7100402", name = "Andujar", lat = 38.028173, lon = -4.065848, p = 4, d = 17, gtfs = "Andújar" }
 50407 = { id = "7100125", name = "Villa del Rio", lat = 37.981043, lon = -4.284187, p = 4, d = 47, gtfs = "Villa del Río" }
-50413 = { id = "", gtfs = "Alcolea de Córdoba", checked = "2026-11-19" }
+50413 = { id = "7150413", name = "Alcolea de Córdoba", lat = 37.922326, lon = -4.694751, gtfs = "Alcolea de Córdoba", checked = "2026-11-19", local = true }
 50417 = { id = "7150417", name = "Córdoba Universidad de Rabanales", lat = 37.912554, lon = -4.720694, p = 4, d = 15, gtfs = "Campus Universitario de Rabanales" }
 50500 = { id = "7100038", name = "Córdoba Central", lat = 37.888589, lon = -4.789596, p = 5, d = 35, gtfs = "Córdoba-Julio Anguita" }
 50501 = { id = "7150501", name = "El Higueron", lat = 37.867033, lon = -4.850471, p = 4, d = 1074, gtfs = "El Higuerón" }
@@ -499,23 +499,23 @@
 50506 = { id = "7100460", name = "Palma del Rio", lat = 37.718477, lon = -5.292525, p = 4, d = 49, gtfs = "Palma del Río" }
 50507 = { id = "7150507", name = "Penaflor", lat = 37.707447, lon = -5.341732, p = 4, d = 12, gtfs = "Peñaflor" }
 50600 = { id = "7100141", name = "Lora del Rio", lat = 37.661216, lon = -5.531198, p = 4, d = 145, gtfs = "Lora del Río" }
-50602 = { id = "", gtfs = "Guadajoz", checked = "2026-11-19" }
+50602 = { id = "7150602", name = "Guadajoz", lat = 37.581459, lon = -5.66998, gtfs = "Guadajoz", checked = "2026-11-19", local = true }
 50700 = { id = "7100143", name = "Los Rosales", lat = 37.589428, lon = -5.725401, p = 20, d = 88, gtfs = "Los Rosales" }
-50701 = { id = "", gtfs = "Cantillana", checked = "2026-11-19" }
-50702 = { id = "", gtfs = "Brenes", checked = "2026-11-19" }
-50703 = { id = "", gtfs = "La Rinconada", checked = "2026-11-19" }
-50704 = { id = "", gtfs = "El Cáñamo", checked = "2026-11-19" }
+50701 = { id = "7150701", name = "Cantillana", lat = 37.574969, lon = -5.803207, gtfs = "Cantillana", checked = "2026-11-19", local = true }
+50702 = { id = "7150702", name = "Brenes", lat = 37.546328, lon = -5.866782, gtfs = "Brenes", checked = "2026-11-19", local = true }
+50703 = { id = "7150703", name = "La Rinconada", lat = 37.48009, lon = -5.940119, gtfs = "La Rinconada", checked = "2026-11-19", local = true }
+50704 = { id = "7150704", name = "El Cáñamo", lat = 37.486395, lon = -5.932975, gtfs = "El Cáñamo", checked = "2026-11-19", local = true }
 51003 = { id = "7100180", name = "Sevilla Santa Justa", lat = 37.391926, lon = -5.975265, p = 21, d = 70, gtfs = "Sevilla-Santa Justa" }
-51009 = { id = "", gtfs = "Palacio de Congresos", checked = "2026-11-19" }
-51010 = { id = "", gtfs = "Padre Pío-Palmete", checked = "2026-11-19" }
-51050 = { id = "", gtfs = "Cartuja", checked = "2026-11-19" }
-51051 = { id = "", gtfs = "Estadio Olímpico", checked = "2026-11-19" }
+51009 = { id = "7151009", name = "Palacio de Congresos", lat = 37.403646, lon = -5.936264, gtfs = "Palacio de Congresos", checked = "2026-11-19", local = true }
+51010 = { id = "7151010", name = "Padre Pío-Palmete", lat = 37.370852, lon = -5.939411, gtfs = "Padre Pío-Palmete", checked = "2026-11-19", local = true }
+51050 = { id = "7151050", name = "Cartuja", lat = 37.407457, lon = -6.010186, gtfs = "Cartuja", checked = "2026-11-19", local = true }
+51051 = { id = "7151051", name = "Estadio Olímpico", lat = 37.417431, lon = -6.007496, gtfs = "Estadio Olímpico", checked = "2026-11-19", local = true }
 51100 = { id = "7151100", name = "Sevilla-San Bernardo", lat = 37.377597, lon = -5.979553, p = 4, d = 21, gtfs = "San Bernardo" }
 51103 = { id = "7151103", name = "Dos Hermanas (APT.-CGD.)", lat = 37.287255, lon = -5.92337, p = 4, d = 15, gtfs = "Dos Hermanas" }
 51110 = { id = "7151110", name = "Virgen del Roccio", lat = 37.362828, lon = -5.975831, p = 4, d = 16, gtfs = "Virgen del Rocío" }
 51111 = { id = "7151111", name = "Bellavista(E)", lat = 37.321558, lon = -5.964451, p = 4, d = 23, gtfs = "Bellavista" }
-51112 = { id = "", gtfs = "Cantaelgallo", checked = "2026-11-19" }
-51113 = { id = "", gtfs = "Jardines de Hércules", checked = "2026-11-19" }
+51112 = { id = "7151112", name = "Cantaelgallo", lat = 37.27822, lon = -5.91044, gtfs = "Cantaelgallo", checked = "2026-11-19", local = true }
+51113 = { id = "7151113", name = "Jardines de Hércules", lat = 37.332853, lon = -5.964094, gtfs = "Jardines de Hércules", checked = "2026-11-19", local = true }
 51200 = { id = "7100041", name = "Utrera", lat = 37.183241, lon = -5.790222, p = 4, d = 182, gtfs = "Utrera" }
 51202 = { id = "7151202", name = "Las Cabezas de San Juan (APT.-CGD.)", lat = 37.018613, lon = -5.945726, p = 4, d = 123, gtfs = "Las Cabezas de San Juan" }
 51203 = { id = "7151203", name = "Lebrija", lat = 36.912243, lon = -6.095055, p = 4, d = 70, gtfs = "Lebrija" }
@@ -523,59 +523,59 @@
 51300 = { id = "7100042", name = "Jerez de la Frontera", lat = 36.6782, lon = -6.12516, p = 4, d = 240, gtfs = "Jerez de la Frontera" }
 51400 = { id = "7100158", name = "Puerto de S Maria", lat = 36.604075, lon = -6.217767, p = 4, d = 14, gtfs = "Puerto de Santa María" }
 51401 = { id = "7151401", name = "Puerto Real (APT.-CGD.)", lat = 36.532773, lon = -6.189397, p = 4, d = 419, gtfs = "Puerto Real" }
-51402 = { id = "", gtfs = "San Fernando-Centro", checked = "2026-11-19" }
+51402 = { id = "7151402", name = "San Fernando-Centro", lat = 36.475961, lon = -6.194032, gtfs = "San Fernando-Centro", checked = "2026-11-19", local = true }
 51404 = { id = "7151404", name = "Segunda-Aguada(APD.)", lat = 36.513419, lon = -6.276934, p = 4, d = 14, gtfs = "Segunda Aguada" }
 51405 = { id = "7100043", name = "Cadiz", lat = 36.527945, lon = -6.286894, p = 4, d = 146, gtfs = "Cádiz" }
 51406 = { id = "7197401", name = "Bahia-Sur", lat = 36.468185, lon = -6.206728, p = 4, d = 12, gtfs = "San Fernando-Bahía Sur" }
-51407 = { id = "", gtfs = "Cortadura", checked = "2026-11-19" }
+51407 = { id = "7151407", name = "Cortadura", lat = 36.494367, lon = -6.268238, gtfs = "Cortadura", checked = "2026-11-19", local = true }
 51409 = { id = "7151409", name = "Estadio de Cadiz", lat = 36.502982, lon = -6.272026, p = 4, d = 5, gtfs = "Cádiz-Estadio" }
-51414 = { id = "", gtfs = "San Severiano", checked = "2026-11-19" }
-51415 = { id = "", gtfs = "Las Aletas", checked = "2026-11-19" }
-51416 = { id = "", gtfs = "Universidad de Cádiz", checked = "2026-11-19" }
-51417 = { id = "", gtfs = "Valdelagrana", checked = "2026-11-19" }
-51419 = { id = "", gtfs = "Río Arillo", checked = "2026-11-19" }
-51450 = { id = "", gtfs = "Pelagatos", checked = "2026-11-19" }
-51451 = { id = "", gtfs = "La Hoya", checked = "2026-11-19" }
-51452 = { id = "", gtfs = "Reyes Católicos", checked = "2026-11-19" }
-51453 = { id = "", gtfs = "Nuestra Señora de los Remedios", checked = "2026-11-19" }
-51454 = { id = "", gtfs = "Alameda Solano", checked = "2026-11-19" }
-51455 = { id = "", gtfs = "Marquesado", checked = "2026-11-19" }
-51456 = { id = "", gtfs = "Pinar de los Franceses", checked = "2026-11-19" }
-51457 = { id = "", gtfs = "Tres Caminos", checked = "2026-11-19" }
-51458 = { id = "", gtfs = "Venta de Vargas", checked = "2026-11-19" }
-51459 = { id = "", gtfs = "Plaza de la Iglesia", checked = "2026-11-19" }
-51460 = { id = "", gtfs = "Plaza del Rey", checked = "2026-11-19" }
-51461 = { id = "", gtfs = "Compañía de María", checked = "2026-11-19" }
-51462 = { id = "", gtfs = "Plaza del Carmen", checked = "2026-11-19" }
-51463 = { id = "", gtfs = "Santo Entierro", checked = "2026-11-19" }
-51464 = { id = "", gtfs = "La Ardila", checked = "2026-11-19" }
+51414 = { id = "7151414", name = "San Severiano", lat = 36.521605, lon = -6.280671, gtfs = "San Severiano", checked = "2026-11-19", local = true }
+51415 = { id = "7151415", name = "Las Aletas", lat = 36.544638, lon = -6.199009, gtfs = "Las Aletas", checked = "2026-11-19", local = true }
+51416 = { id = "7151416", name = "Universidad de Cádiz", lat = 36.529251, lon = -6.206169, gtfs = "Universidad de Cádiz", checked = "2026-11-19", local = true }
+51417 = { id = "7151417", name = "Valdelagrana", lat = 36.584725, lon = -6.216299, gtfs = "Valdelagrana", checked = "2026-11-19", local = true }
+51419 = { id = "7151419", name = "Río Arillo", lat = 36.457494, lon = -6.223626, gtfs = "Río Arillo", checked = "2026-11-19", local = true }
+51450 = { id = "7151450", name = "Pelagatos", lat = 36.408756, lon = -6.134322, gtfs = "Pelagatos", checked = "2026-11-19", local = true }
+51451 = { id = "7151451", name = "La Hoya", lat = 36.411245, lon = -6.139095, gtfs = "La Hoya", checked = "2026-11-19", local = true }
+51452 = { id = "7151452", name = "Reyes Católicos", lat = 36.414412, lon = -6.14319, gtfs = "Reyes Católicos", checked = "2026-11-19", local = true }
+51453 = { id = "7151453", name = "Nuestra Señora de los Remedios", lat = 36.420398, lon = -6.144747, gtfs = "Nuestra Señora de los Remedios", checked = "2026-11-19", local = true }
+51454 = { id = "7151454", name = "Alameda Solano", lat = 36.425378, lon = -6.144524, gtfs = "Alameda Solano", checked = "2026-11-19", local = true }
+51455 = { id = "7151455", name = "Marquesado", lat = 36.42864, lon = -6.143374, gtfs = "Marquesado", checked = "2026-11-19", local = true }
+51456 = { id = "7151456", name = "Pinar de los Franceses", lat = 36.44052, lon = -6.144566, gtfs = "Pinar de los Franceses", checked = "2026-11-19", local = true }
+51457 = { id = "7151457", name = "Tres Caminos", lat = 36.466523, lon = -6.175706, gtfs = "Tres Caminos", checked = "2026-11-19", local = true }
+51458 = { id = "7151458", name = "Venta de Vargas", lat = 36.467739, lon = -6.191064, gtfs = "Venta de Vargas", checked = "2026-11-19", local = true }
+51459 = { id = "7151459", name = "Plaza de la Iglesia", lat = 36.466219, lon = -6.19555, gtfs = "Plaza de la Iglesia", checked = "2026-11-19", local = true }
+51460 = { id = "7151460", name = "Plaza del Rey", lat = 36.463944, lon = -6.198344, gtfs = "Plaza del Rey", checked = "2026-11-19", local = true }
+51461 = { id = "7151461", name = "Compañía de María", lat = 36.460437, lon = -6.201011, gtfs = "Compañía de María", checked = "2026-11-19", local = true }
+51462 = { id = "7151462", name = "Plaza del Carmen", lat = 36.458159, lon = -6.203489, gtfs = "Plaza del Carmen", checked = "2026-11-19", local = true }
+51463 = { id = "7151463", name = "Santo Entierro", lat = 36.455907, lon = -6.209616, gtfs = "Santo Entierro", checked = "2026-11-19", local = true }
+51464 = { id = "7151464", name = "La Ardila", lat = 36.45625, lon = -6.216027, gtfs = "La Ardila", checked = "2026-11-19", local = true }
 54400 = { id = "7100044", name = "Bobadilla", lat = 37.037445, lon = -4.727832, p = 4, d = 43, gtfs = "Bobadilla" }
 54403 = { id = "7154403", name = "El Chorro (APT.)", lat = 36.906994, lon = -4.759249, p = 4, d = 38, gtfs = "El Chorro-Caminito del Rey" }
 54404 = { id = "7154404", name = "Las Mezillas (APT.)", lat = 36.874525, lon = -4.719373, p = 4, d = 136, gtfs = "Las Mellizas" }
 54405 = { id = "7100187", name = "Alora", lat = 36.819906, lon = -4.698823, p = 4, d = 70, gtfs = "Álora" }
-54406 = { id = "", gtfs = "Pizarra", checked = "2026-11-19" }
-54407 = { id = "", gtfs = "Aljaima", checked = "2026-11-19" }
-54408 = { id = "", gtfs = "Cártama", checked = "2026-11-19" }
-54410 = { id = "", gtfs = "Campanillas", checked = "2026-11-19" }
-54412 = { id = "", gtfs = "Málaga-Los Prados", checked = "2026-11-19" }
+54406 = { id = "7154406", name = "Pizarra", lat = 36.764151, lon = -4.711831, gtfs = "Pizarra", checked = "2026-11-19", local = true }
+54407 = { id = "7154407", name = "Aljaima", lat = 36.733083, lon = -4.6645, gtfs = "Aljaima", checked = "2026-11-19", local = true }
+54408 = { id = "7154408", name = "Cártama", lat = 36.733739, lon = -4.608397, gtfs = "Cártama", checked = "2026-11-19", local = true }
+54410 = { id = "7154410", name = "Campanillas", lat = 36.705044, lon = -4.545483, gtfs = "Campanillas", checked = "2026-11-19", local = true }
+54412 = { id = "7154412", name = "Málaga-Los Prados", lat = 36.698611, lon = -4.47815, gtfs = "Málaga-Los Prados", checked = "2026-11-19", local = true }
 54413 = { id = "7100045", name = "Malaga", lat = 36.71182, lon = -4.43214, p = 5, d = 86, gtfs = "Málaga María Zambrano" }
 54500 = { id = "7100045", name = "Malaga", lat = 36.71182, lon = -4.43214, p = 5, d = 82, gtfs = "Málaga M.Z. Cercanías" }
-54501 = { id = "", gtfs = "Victoria Kent", checked = "2026-11-19" }
-54503 = { id = "", gtfs = "Guadalhorce", checked = "2026-11-19" }
-54505 = { id = "", gtfs = "Málaga-Aeropuerto", checked = "2026-11-19" }
-54508 = { id = "", gtfs = "La Colina", checked = "2026-11-19" }
-54509 = { id = "", gtfs = "Torremolinos", checked = "2026-11-19" }
-54510 = { id = "", gtfs = "El Pinillo", checked = "2026-11-19" }
-54511 = { id = "", gtfs = "Benalmádena-Arroyo de la Miel", checked = "2026-11-19" }
-54512 = { id = "", gtfs = "Torremuelle", checked = "2026-11-19" }
-54513 = { id = "", gtfs = "Carvajal", checked = "2026-11-19" }
-54514 = { id = "", gtfs = "Torreblanca del Sol", checked = "2026-11-19" }
-54515 = { id = "", gtfs = "Los Boliches", checked = "2026-11-19" }
-54516 = { id = "", gtfs = "Fuengirola", checked = "2026-11-19" }
-54517 = { id = "", gtfs = "Málaga-Centro Alameda", checked = "2026-11-19" }
-54518 = { id = "", gtfs = "Los Álamos", checked = "2026-11-19" }
-54519 = { id = "", gtfs = "Montemar Alto", checked = "2026-11-19" }
-54520 = { id = "", gtfs = "Plaza Mayor", checked = "2026-11-19" }
+54501 = { id = "7154501", name = "Victoria Kent", lat = 36.701223, lon = -4.454414, gtfs = "Victoria Kent", checked = "2026-11-19", local = true }
+54503 = { id = "7154503", name = "Guadalhorce", lat = 36.692076, lon = -4.483684, gtfs = "Guadalhorce", checked = "2026-11-19", local = true }
+54505 = { id = "7154505", name = "Málaga-Aeropuerto", lat = 36.677717, lon = -4.490161, gtfs = "Málaga-Aeropuerto", checked = "2026-11-19", local = true }
+54508 = { id = "7154508", name = "La Colina", lat = 36.641924, lon = -4.492638, gtfs = "La Colina", checked = "2026-11-19", local = true }
+54509 = { id = "7154509", name = "Torremolinos", lat = 36.62256, lon = -4.49957, gtfs = "Torremolinos", checked = "2026-11-19", local = true }
+54510 = { id = "7154510", name = "El Pinillo", lat = 36.609869, lon = -4.515374, gtfs = "El Pinillo", checked = "2026-11-19", local = true }
+54511 = { id = "7154511", name = "Benalmádena-Arroyo de la Miel", lat = 36.599112, lon = -4.536346, gtfs = "Benalmádena-Arroyo de la Miel", checked = "2026-11-19", local = true }
+54512 = { id = "7154512", name = "Torremuelle", lat = 36.582297, lon = -4.567018, gtfs = "Torremuelle", checked = "2026-11-19", local = true }
+54513 = { id = "7154513", name = "Carvajal", lat = 36.570259, lon = -4.594049, gtfs = "Carvajal", checked = "2026-11-19", local = true }
+54514 = { id = "7154514", name = "Torreblanca del Sol", lat = 36.564907, lon = -4.606711, gtfs = "Torreblanca del Sol", checked = "2026-11-19", local = true }
+54515 = { id = "7154515", name = "Los Boliches", lat = 36.554658, lon = -4.614577, gtfs = "Los Boliches", checked = "2026-11-19", local = true }
+54516 = { id = "7154516", name = "Fuengirola", lat = 36.541895, lon = -4.623858, gtfs = "Fuengirola", checked = "2026-11-19", local = true }
+54517 = { id = "7154517", name = "Málaga-Centro Alameda", lat = 36.715954, lon = -4.426533, gtfs = "Málaga-Centro Alameda", checked = "2026-11-19", local = true }
+54518 = { id = "7154518", name = "Los Álamos", lat = 36.645059, lon = -4.485119, gtfs = "Los Álamos", checked = "2026-11-19", local = true }
+54519 = { id = "7154519", name = "Montemar Alto", lat = 36.613667, lon = -4.509426, gtfs = "Montemar Alto", checked = "2026-11-19", local = true }
+54520 = { id = "7154520", name = "Plaza Mayor", lat = 36.656203, lon = -4.480304, gtfs = "Plaza Mayor", checked = "2026-11-19", local = true }
 55001 = { id = "7155001", name = "Campillos", lat = 37.032043, lon = -4.863802, p = 4, d = 34, gtfs = "Campillos" }
 55003 = { id = "7155003", name = "Almargen-Canete la Real", lat = 37.001039, lon = -5.020359, p = 4, d = 23, gtfs = "Almargen-Cañete la Real" }
 55005 = { id = "7155005", name = "Setenil (APT.-CGD.)", lat = 36.863306, lon = -5.12155, p = 4, d = 20, gtfs = "Setenil" }
@@ -603,14 +603,14 @@
 56312 = { id = "7100048", name = "Almeria", lat = 36.834864, lon = -2.455269, p = 4, d = 24, gtfs = "Almería" }
 57003 = { id = "7100437", name = "Iznalloz", lat = 37.395126, lon = -3.528365, p = 4, d = 89, gtfs = "Iznalloz" }
 60000 = { id = "7100049", name = "Madrid Puerta de Atocha", lat = 40.405649, lon = -3.690369, p = 5, d = 98, gtfs = "Madrid-Puerta de Atocha-Almudena Grandes" }
-60100 = { id = "", gtfs = "Madrid-Villaverde Bajo", checked = "2026-11-19" }
-60101 = { id = "", gtfs = "San Cristóbal Industrial", checked = "2026-11-19" }
-60102 = { id = "", gtfs = "Getafe-Industrial", checked = "2026-11-19" }
-60103 = { id = "", gtfs = "Pinto", checked = "2026-11-19" }
-60104 = { id = "", gtfs = "Valdemoro", checked = "2026-11-19" }
-60105 = { id = "", gtfs = "Ciempozuelos", checked = "2026-11-19" }
-60107 = { id = "", gtfs = "San Cristóbal de los Ángeles", checked = "2026-11-19" }
-60109 = { id = "", gtfs = "El Casar", checked = "2026-11-19" }
+60100 = { id = "7160100", name = "Madrid-Villaverde Bajo", lat = 40.352676, lon = -3.683898, gtfs = "Madrid-Villaverde Bajo", checked = "2026-11-19", local = true }
+60101 = { id = "7160101", name = "San Cristóbal Industrial", lat = 40.331859, lon = -3.69896, gtfs = "San Cristóbal Industrial", checked = "2026-11-19", local = true }
+60102 = { id = "7160102", name = "Getafe-Industrial", lat = 40.305718, lon = -3.707836, gtfs = "Getafe-Industrial", checked = "2026-11-19", local = true }
+60103 = { id = "7160103", name = "Pinto", lat = 40.242855, lon = -3.70353, gtfs = "Pinto", checked = "2026-11-19", local = true }
+60104 = { id = "7160104", name = "Valdemoro", lat = 40.196078, lon = -3.664937, gtfs = "Valdemoro", checked = "2026-11-19", local = true }
+60105 = { id = "7160105", name = "Ciempozuelos", lat = 40.159201, lon = -3.610185, gtfs = "Ciempozuelos", checked = "2026-11-19", local = true }
+60107 = { id = "7160107", name = "San Cristóbal de los Ángeles", lat = 40.342414, lon = -3.683979, gtfs = "San Cristóbal de los Ángeles", checked = "2026-11-19", local = true }
+60109 = { id = "7160109", name = "El Casar", lat = 40.318522, lon = -3.709806, gtfs = "El Casar", checked = "2026-11-19", local = true }
 60200 = { id = "7100083", name = "Aranjuez", lat = 40.0347, lon = -3.618877, p = 20, d = 64, gtfs = "Aranjuez" }
 60202 = { id = "7129044", name = "Castillejo-Anover", lat = 39.950058, lon = -3.737769, p = 4, d = 98, gtfs = "Castillejo-Añover" }
 60203 = { id = "7160203", name = "Villasequilla (APT.)", lat = 39.879547, lon = -3.728483, p = 20, d = 3, gtfs = "Villasequilla" }
@@ -652,7 +652,7 @@
 62103 = { id = "7100185", name = "Elx-Parc", lat = 38.26921, lon = -0.706462, p = 4, d = 1022, gtfs = "Elche/Elx-Parc" }
 62104 = { id = "7162104", name = "Torrellano (APT.)", lat = 38.289499, lon = -0.583004, p = 4, d = 50, gtfs = "Torrellano" }
 62109 = { id = "7162109", name = "San Gabriel (APT.)", lat = 38.328961, lon = -0.508753, p = 4, d = 13, gtfs = "Sant Gabriel" }
-64006 = { id = "", gtfs = "L'Alcúdia de Crespins", checked = "2026-11-19" }
+64006 = { id = "7164006", name = "L'Alcúdia de Crespins", lat = 38.969058, lon = -0.586676, gtfs = "L'Alcúdia de Crespins", checked = "2026-11-19", local = true }
 64007 = { id = "7164007", name = "L'Enova Manuel", lat = 39.050202, lon = -0.477363, p = 16, d = 25, gtfs = "Lenova-Manuel" }
 64100 = { id = "7100492", name = "Xativa", lat = 38.992383, lon = -0.524601, p = 20, d = 27, gtfs = "Xàtiva" }
 64102 = { id = "7164102", name = "La Pobla Llarga", lat = 39.082689, lon = -0.470675, p = 16, d = 114, gtfs = "La Pobla Llarga" }
@@ -664,7 +664,7 @@
 64201 = { id = "7164201", name = "Catarroja", lat = 39.399792, lon = -0.399004, p = 16, d = 34, gtfs = "Catarroja" }
 64202 = { id = "7164202", name = "Massanassa (Apd)", lat = 39.408925, lon = -0.395094, p = 16, d = 35, gtfs = "Massanassa" }
 64203 = { id = "7164203", name = "Alfafar-Benetusser", lat = 39.422409, lon = -0.392766, p = 16, d = 14, gtfs = "Alfafar-Benetússer" }
-64210 = { id = "", gtfs = "Albal", checked = "2026-11-19" }
+64210 = { id = "7164210", name = "Albal", lat = 39.391843, lon = -0.402634, gtfs = "Albal", checked = "2026-11-19", local = true }
 65000 = { id = "7100054", name = "Valencia Estacio del Nord", lat = 39.466933, lon = -0.377151, p = 21, d = 6, gtfs = "València-Estació del Nord" }
 65001 = { id = "7165001", name = "Roca-Cuper", lat = 39.526181, lon = -0.323648, p = 16, d = 17, gtfs = "Roca-Cúper" }
 65002 = { id = "7165002", name = "Valencia-Fuente de San Luis", lat = 39.441385, lon = -0.370436, p = 16, d = 88, gtfs = "València-La Font de Sant Lluís" }
@@ -700,14 +700,14 @@
 65411 = { id = "7100229", name = "Port Aventura", lat = 41.089252, lon = 1.146215, p = 16, d = 87, gtfs = "Salou-Port Aventura" }
 65420 = { id = "7165420", name = "L'Hospitalet de L'Infant", lat = 40.999297, lon = 0.912558, p = 20, d = 10, gtfs = "L'Hospitalet de l'Infant" }
 65422 = { id = "7100197", name = "Cambrils", lat = 41.081647, lon = 1.046057, p = 20, d = 9, gtfs = "Cambrils" }
-66206 = { id = "", gtfs = "Buñol", checked = "2026-11-19" }
-66207 = { id = "", gtfs = "Chiva", checked = "2026-11-19" }
-66208 = { id = "", gtfs = "Cheste", checked = "2026-11-19" }
-66209 = { id = "", gtfs = "Lorigüilla-Reva", checked = "2026-11-19" }
-66210 = { id = "", gtfs = "Circuit Ricardo Tormo", checked = "2026-11-19" }
-66211 = { id = "", gtfs = "Aldaia", checked = "2026-11-19" }
-66212 = { id = "", gtfs = "València-Sant Isidre", checked = "2026-11-19" }
-66214 = { id = "", gtfs = "Xirivella-Alqueries", checked = "2026-11-19" }
+66206 = { id = "7166206", name = "Buñol", lat = 39.427139, lon = -0.787364, gtfs = "Buñol", checked = "2026-11-19", local = true }
+66207 = { id = "7166207", name = "Chiva", lat = 39.471127, lon = -0.722941, gtfs = "Chiva", checked = "2026-11-19", local = true }
+66208 = { id = "7166208", name = "Cheste", lat = 39.490903, lon = -0.686264, gtfs = "Cheste", checked = "2026-11-19", local = true }
+66209 = { id = "7166209", name = "Lorigüilla-Reva", lat = 39.485777, lon = -0.567398, gtfs = "Lorigüilla-Reva", checked = "2026-11-19", local = true }
+66210 = { id = "7166210", name = "Circuit Ricardo Tormo", lat = 39.495438, lon = -0.624754, gtfs = "Circuit Ricardo Tormo", checked = "2026-11-19", local = true }
+66211 = { id = "7166211", name = "Aldaia", lat = 39.461118, lon = -0.463248, gtfs = "Aldaia", checked = "2026-11-19", local = true }
+66212 = { id = "7166212", name = "València-Sant Isidre", lat = 39.450219, lon = -0.403979, gtfs = "València-Sant Isidre", checked = "2026-11-19", local = true }
+66214 = { id = "7166214", name = "Xirivella-Alqueries", lat = 39.462629, lon = -0.432216, gtfs = "Xirivella-Alqueries", checked = "2026-11-19", local = true }
 67004 = { id = "7167004", name = "Maria de Huerva (APT.-CGD.)", lat = 41.539692, lon = -0.998171, p = 16, d = 11, gtfs = "María de Huerva" }
 67007 = { id = "7167007", name = "Aranales de Muel (APD.)", lat = 41.468048, lon = -1.087479, p = 20, d = 135, gtfs = "Arañales de Muel" }
 67009 = { id = "7167009", name = "Longares (APD.)", lat = 41.40516, lon = -1.159114, p = 16, d = 49, gtfs = "Longares" }
@@ -734,15 +734,15 @@
 67206 = { id = "7167206", name = "Mora de Rubielos (APT.)", lat = 40.123154, lon = -0.786385, p = 4, d = 20, gtfs = "Mora de Rubielos" }
 67207 = { id = "7167207", name = "Rubielos de Mora (APD.)", lat = 40.118219, lon = -0.774025, p = 4, d = 53, gtfs = "Rubielos de Mora" }
 67208 = { id = "7167208", name = "Barracas (APT.)", lat = 40.011751, lon = -0.696313, p = 4, d = 14, gtfs = "Barracas" }
-67211 = { id = "", gtfs = "Caudiel", checked = "2026-11-19" }
-67212 = { id = "", gtfs = "Jérica-Viver", checked = "2026-11-19" }
-67213 = { id = "", gtfs = "Navajas", checked = "2026-11-19" }
-67214 = { id = "", gtfs = "Segorbe-Arrabal", checked = "2026-11-19" }
+67211 = { id = "7167211", name = "Caudiel", lat = 39.94737, lon = -0.572054, gtfs = "Caudiel", checked = "2026-11-19", local = true }
+67212 = { id = "7167212", name = "Jérica-Viver", lat = 39.914978, lon = -0.56939, gtfs = "Jérica-Viver", checked = "2026-11-19", local = true }
+67213 = { id = "7167213", name = "Navajas", lat = 39.874417, lon = -0.505955, gtfs = "Navajas", checked = "2026-11-19", local = true }
+67214 = { id = "7167214", name = "Segorbe-Arrabal", lat = 39.854557, lon = -0.493863, gtfs = "Segorbe-Arrabal", checked = "2026-11-19", local = true }
 67215 = { id = "7100132", name = "Segorbe Ciudad", lat = 39.847006, lon = -0.482316, p = 4, d = 19, gtfs = "Segorbe-Ciudad" }
-67216 = { id = "", gtfs = "Algimia-Ciudad", checked = "2026-11-19" }
-67217 = { id = "", gtfs = "Soneja", checked = "2026-11-19" }
-67221 = { id = "", gtfs = "Estivella-Albalat Dels Tarongers", checked = "2026-11-19" }
-67223 = { id = "", gtfs = "Gilet", checked = "2026-11-19" }
+67216 = { id = "7167216", name = "Algimia-Ciudad", lat = 39.752993, lon = -0.365754, gtfs = "Algimia-Ciudad", checked = "2026-11-19", local = true }
+67217 = { id = "7167217", name = "Soneja", lat = 39.812601, lon = -0.431821, gtfs = "Soneja", checked = "2026-11-19", local = true }
+67221 = { id = "7167221", name = "Estivella-Albalat Dels Tarongers", lat = 39.706408, lon = -0.348324, gtfs = "Estivella-Albalat Dels Tarongers", checked = "2026-11-19", local = true }
+67223 = { id = "7167223", name = "Gilet", lat = 39.679399, lon = -0.320655, gtfs = "Gilet", checked = "2026-11-19", local = true }
 69001 = { id = "7169001", name = "Genoves (APD.)", lat = 38.988095, lon = -0.480464, p = 16, d = 65, gtfs = "Genovés" }
 69002 = { id = "7169002", name = "Benigamin (APD.)", lat = 38.938601, lon = -0.453865, p = 16, d = 40, gtfs = "Benigànim" }
 69003 = { id = "7169003", name = "Puebla del Duc(APD.)", lat = 38.906536, lon = -0.453722, p = 16, d = 122, gtfs = "La Pobla del Duc" }
@@ -750,18 +750,18 @@
 69005 = { id = "7169005", name = "Bufalit (APD.)", lat = 38.866552, lon = -0.510848, p = 16, d = 100, gtfs = "Bufalí" }
 69006 = { id = "7169006", name = "Albaida (APD.)", lat = 38.845787, lon = -0.518588, p = 16, d = 43, gtfs = "Albaida" }
 69007 = { id = "7169007", name = "Agullent (APD.)", lat = 38.830514, lon = -0.551443, p = 16, d = 23, gtfs = "Agullent" }
-69008 = { id = "", gtfs = "Ontinyent", checked = "2026-11-19" }
+69008 = { id = "7169008", name = "Ontinyent", lat = 38.809692, lon = -0.602457, gtfs = "Ontinyent", checked = "2026-11-19", local = true }
 69009 = { id = "7169009", name = "Agres (APD.)", lat = 38.797003, lon = -0.521788, p = 16, d = 20, gtfs = "Agres" }
 69010 = { id = "7169010", name = "Cocentaina (APD.)", lat = 38.74073, lon = -0.447079, p = 16, d = 28, gtfs = "Cocentaina" }
 69011 = { id = "7100234", name = "Alcoy (APT.-CGD.)", lat = 38.709645, lon = -0.470145, p = 16, d = 34, gtfs = "Alcoi" }
-69101 = { id = "", gtfs = "El Romaní", checked = "2026-11-19" }
-69102 = { id = "", gtfs = "Sollana", checked = "2026-11-19" }
-69103 = { id = "", gtfs = "Sueca", checked = "2026-11-19" }
-69104 = { id = "", gtfs = "Cullera", checked = "2026-11-19" }
-69105 = { id = "", gtfs = "Tavernes de la Valldigna", checked = "2026-11-19" }
-69107 = { id = "", gtfs = "Xeraco", checked = "2026-11-19" }
-69110 = { id = "", gtfs = "Gandia", checked = "2026-11-19" }
-69111 = { id = "", gtfs = "Platja i Grau de Gandia", checked = "2026-11-19" }
+69101 = { id = "7169101", name = "El Romaní", lat = 39.302979, lon = -0.394235, gtfs = "El Romaní", checked = "2026-11-19", local = true }
+69102 = { id = "7169102", name = "Sollana", lat = 39.279347, lon = -0.379314, gtfs = "Sollana", checked = "2026-11-19", local = true }
+69103 = { id = "7169103", name = "Sueca", lat = 39.205847, lon = -0.308239, gtfs = "Sueca", checked = "2026-11-19", local = true }
+69104 = { id = "7169104", name = "Cullera", lat = 39.177888, lon = -0.263244, gtfs = "Cullera", checked = "2026-11-19", local = true }
+69105 = { id = "7169105", name = "Tavernes de la Valldigna", lat = 39.079044, lon = -0.226297, gtfs = "Tavernes de la Valldigna", checked = "2026-11-19", local = true }
+69107 = { id = "7169107", name = "Xeraco", lat = 39.026149, lon = -0.215035, gtfs = "Xeraco", checked = "2026-11-19", local = true }
+69110 = { id = "7169110", name = "Gandia", lat = 38.970514, lon = -0.179783, gtfs = "Gandia", checked = "2026-11-19", local = true }
+69111 = { id = "7169111", name = "Platja i Grau de Gandia", lat = 38.990244, lon = -0.162434, gtfs = "Platja i Grau de Gandia", checked = "2026-11-19", local = true }
 70002 = { id = "7170002", name = "Entrevias (APD.)", lat = 40.381369, lon = -3.667806, p = 16, d = 58, gtfs = "Asamblea de Madrid-Entrevías" }
 70003 = { id = "7170003", name = "El Pozo", lat = 40.376156, lon = -3.656506, p = 16, d = 34, gtfs = "El Pozo" }
 70005 = { id = "7170001", name = "Vallecas", lat = 40.38225, lon = -3.6241, p = 16, d = 91, gtfs = "Vallecas" }
@@ -841,44 +841,44 @@
 71502 = { id = "7171502", name = "Altafulla-Tamarit", lat = 41.136562, lon = 1.373318, p = 16, d = 13, gtfs = "Altafulla-Tamarit" }
 71503 = { id = "7171503", name = "Torredembarra", lat = 41.142801, lon = 1.406281, p = 16, d = 42, gtfs = "Torredembarra" }
 71600 = { id = "7100170", name = "Sant Vicenc de Calde", lat = 41.185913, lon = 1.524714, p = 16, d = 34, gtfs = "Sant Vicenç de Calders" }
-71601 = { id = "", gtfs = "Calafell", checked = "2026-11-19" }
-71602 = { id = "", gtfs = "Segur de Calafell", checked = "2026-11-19" }
-71603 = { id = "", gtfs = "Cunit", checked = "2026-11-19" }
-71604 = { id = "", gtfs = "Cubelles", checked = "2026-11-19" }
+71601 = { id = "7171601", name = "Calafell", lat = 41.18967, lon = 1.575009, gtfs = "Calafell", checked = "2026-11-19", local = true }
+71602 = { id = "7171602", name = "Segur de Calafell", lat = 41.192579, lon = 1.606436, gtfs = "Segur de Calafell", checked = "2026-11-19", local = true }
+71603 = { id = "7171603", name = "Cunit", lat = 41.195042, lon = 1.631942, gtfs = "Cunit", checked = "2026-11-19", local = true }
+71604 = { id = "7171604", name = "Cubelles", lat = 41.204325, lon = 1.675977, gtfs = "Cubelles", checked = "2026-11-19", local = true }
 71700 = { id = "7171700", name = "Villenueva Y Geltru", lat = 41.22009, lon = 1.731242, p = 16, d = 47, gtfs = "Vilanova i la Geltrú" }
-71701 = { id = "", gtfs = "Sitges", checked = "2026-11-19" }
-71703 = { id = "", gtfs = "Garraf", checked = "2026-11-19" }
-71704 = { id = "", gtfs = "Platja de Castelldefels", checked = "2026-11-19" }
-71705 = { id = "", gtfs = "Castelldefels", checked = "2026-11-19" }
-71706 = { id = "", gtfs = "Gavà", checked = "2026-11-19" }
-71707 = { id = "", gtfs = "El Prat de Llobregat", checked = "2026-11-19" }
+71701 = { id = "7171701", name = "Sitges", lat = 41.239131, lon = 1.809692, gtfs = "Sitges", checked = "2026-11-19", local = true }
+71703 = { id = "7171703", name = "Garraf", lat = 41.254588, lon = 1.902504, gtfs = "Garraf", checked = "2026-11-19", local = true }
+71704 = { id = "7171704", name = "Platja de Castelldefels", lat = 41.266982, lon = 1.957136, gtfs = "Platja de Castelldefels", checked = "2026-11-19", local = true }
+71705 = { id = "7171705", name = "Castelldefels", lat = 41.279047, lon = 1.979151, gtfs = "Castelldefels", checked = "2026-11-19", local = true }
+71706 = { id = "7171706", name = "Gavà", lat = 41.303472, lon = 2.010531, gtfs = "Gavà", checked = "2026-11-19", local = true }
+71707 = { id = "7171707", name = "El Prat de Llobregat", lat = 41.33094, lon = 2.089345, gtfs = "El Prat de Llobregat", checked = "2026-11-19", local = true }
 71708 = { id = "7148158", name = "L'Hospitalet Gornal", lat = 41.354721, lon = 2.11722, p = 48, d = 164, gtfs = "Bellvitge - Gornal" }
-71709 = { id = "", gtfs = "Viladecans", checked = "2026-11-19" }
+71709 = { id = "7171709", name = "Viladecans", lat = 41.309509, lon = 2.027419, gtfs = "Viladecans", checked = "2026-11-19", local = true }
 71801 = { id = "7100064", name = "Barcelona Sants", lat = 41.378911, lon = 2.140368, p = 21, d = 119, gtfs = "Barcelona-Sants" }
 71802 = { id = "7100063", name = "Barcelona Passeig de Gràcia", lat = 41.392089, lon = 2.164755, p = 20, d = 49, gtfs = "Barcelona-Passeig de Gràcia" }
 72101 = { id = "7172101", name = "Roda de Mar (APD.)", lat = 41.186362, lon = 1.454958, p = 16, d = 22, gtfs = "Roda de Mar" }
-72201 = { id = "", gtfs = "El Vendrell", checked = "2026-11-19" }
-72202 = { id = "", gtfs = "L'Arboç", checked = "2026-11-19" }
-72203 = { id = "", gtfs = "Els Monjos", checked = "2026-11-19" }
-72204 = { id = "", gtfs = "Vilafranca del Penedès", checked = "2026-11-19" }
-72205 = { id = "", gtfs = "La Granada", checked = "2026-11-19" }
-72206 = { id = "", gtfs = "Lavern-Subirats", checked = "2026-11-19" }
-72207 = { id = "", gtfs = "Sant Sadurní d'Anoia", checked = "2026-11-19" }
-72208 = { id = "", gtfs = "Gelida", checked = "2026-11-19" }
+72201 = { id = "7172201", name = "El Vendrell", lat = 41.221006, lon = 1.537906, gtfs = "El Vendrell", checked = "2026-11-19", local = true }
+72202 = { id = "7172202", name = "L'Arboç", lat = 41.273404, lon = 1.600519, gtfs = "L'Arboç", checked = "2026-11-19", local = true }
+72203 = { id = "7172203", name = "Els Monjos", lat = 41.314714, lon = 1.659884, gtfs = "Els Monjos", checked = "2026-11-19", local = true }
+72204 = { id = "7172204", name = "Vilafranca del Penedès", lat = 41.344814, lon = 1.703201, gtfs = "Vilafranca del Penedès", checked = "2026-11-19", local = true }
+72205 = { id = "7172205", name = "La Granada", lat = 41.37095, lon = 1.725079, gtfs = "La Granada", checked = "2026-11-19", local = true }
+72206 = { id = "7172206", name = "Lavern-Subirats", lat = 41.395734, lon = 1.768174, gtfs = "Lavern-Subirats", checked = "2026-11-19", local = true }
+72207 = { id = "7172207", name = "Sant Sadurní d'Anoia", lat = 41.420518, lon = 1.794688, gtfs = "Sant Sadurní d'Anoia", checked = "2026-11-19", local = true }
+72208 = { id = "7172208", name = "Gelida", lat = 41.448541, lon = 1.86553, gtfs = "Gelida", checked = "2026-11-19", local = true }
 72209 = { id = "7148165", name = "Martorell Central", lat = 41.479168, lon = 1.925274, p = 16, d = 14, gtfs = "Martorell Central" }
-72210 = { id = "", gtfs = "Castellbisbal", checked = "2026-11-19" }
-72211 = { id = "", gtfs = "El Papiol", checked = "2026-11-19" }
-72300 = { id = "", gtfs = "Molins de Rei", checked = "2026-11-19" }
-72301 = { id = "", gtfs = "Sant Feliu de Llobregat", checked = "2026-11-19" }
-72302 = { id = "", gtfs = "Sant Joan Despí", checked = "2026-11-19" }
-72303 = { id = "", gtfs = "Cornellà", checked = "2026-11-19" }
-72305 = { id = "", gtfs = "L'Hospitalet de Llobregat", checked = "2026-11-19" }
-72400 = { id = "", gtfs = "El Prat Aeroport", checked = "2026-11-19" }
-72501 = { id = "", gtfs = "Rubí Can Vallhonrat", checked = "2026-11-19" }
+72210 = { id = "7172210", name = "Castellbisbal", lat = 41.473415, lon = 1.96757, gtfs = "Castellbisbal", checked = "2026-11-19", local = true }
+72211 = { id = "7172211", name = "El Papiol", lat = 41.435371, lon = 2.002578, gtfs = "El Papiol", checked = "2026-11-19", local = true }
+72300 = { id = "7172300", name = "Molins de Rei", lat = 41.409896, lon = 2.020773, gtfs = "Molins de Rei", checked = "2026-11-19", local = true }
+72301 = { id = "7172301", name = "Sant Feliu de Llobregat", lat = 41.383002, lon = 2.04792, gtfs = "Sant Feliu de Llobregat", checked = "2026-11-19", local = true }
+72302 = { id = "7172302", name = "Sant Joan Despí", lat = 41.36858, lon = 2.060208, gtfs = "Sant Joan Despí", checked = "2026-11-19", local = true }
+72303 = { id = "7172303", name = "Cornellà", lat = 41.357521, lon = 2.070549, gtfs = "Cornellà", checked = "2026-11-19", local = true }
+72305 = { id = "7172305", name = "L'Hospitalet de Llobregat", lat = 41.364204, lon = 2.100917, gtfs = "L'Hospitalet de Llobregat", checked = "2026-11-19", local = true }
+72400 = { id = "7172400", name = "El Prat Aeroport", lat = 41.304181, lon = 2.073401, gtfs = "El Prat Aeroport", checked = "2026-11-19", local = true }
+72501 = { id = "7172501", name = "Rubí Can Vallhonrat", lat = 41.475176, lon = 2.037079, gtfs = "Rubí Can Vallhonrat", checked = "2026-11-19", local = true }
 72502 = { id = "7148147", name = "Sant Cugat Volperelles", lat = 41.48111, lon = 2.072778, p = 16, d = 575, gtfs = "Sant Cugat Coll Favà" }
-72503 = { id = "", gtfs = "Cerdanyola Universitat", checked = "2026-11-19" }
-72508 = { id = "", gtfs = "Santa Perpètua de Mogoda Riera de Caldes", checked = "2026-11-19" }
-73001 = { id = "", gtfs = "Puigverd de Lleida-Artesa de Lleida", checked = "2026-11-19" }
+72503 = { id = "7172503", name = "Cerdanyola Universitat", lat = 41.49699, lon = 2.115378, gtfs = "Cerdanyola Universitat", checked = "2026-11-19", local = true }
+72508 = { id = "7172508", name = "Santa Perpètua de Mogoda Riera de Caldes", lat = 41.52623, lon = 2.186339, gtfs = "Santa Perpètua de Mogoda Riera de Caldes", checked = "2026-11-19", local = true }
+73001 = { id = "7173001", name = "Puigverd de Lleida-Artesa de Lleida", lat = 41.553701, lon = 0.733427, gtfs = "Puigverd de Lleida-Artesa de Lleida", checked = "2026-11-19", local = true }
 73002 = { id = "7173002", name = "Juneda (APT.)", lat = 41.544205, lon = 0.82547, p = 16, d = 31, gtfs = "Juneda" }
 73003 = { id = "7173003", name = "Borjas Blancas", lat = 41.521471, lon = 0.878048, p = 16, d = 14, gtfs = "Les Borges Blanques" }
 73004 = { id = "7173004", name = "Floresta (APD.)", lat = 41.503196, lon = 0.925484, p = 16, d = 142, gtfs = "La Floresta" }
@@ -906,26 +906,26 @@
 76002 = { id = "7176002", name = "Vilabella (APD.)", lat = 41.240486, lon = 1.315041, p = 16, d = 230, gtfs = "Vilabella" }
 76003 = { id = "7176003", name = "Nulles-Brafim (APD.)", lat = 41.250285, lon = 1.297269, p = 16, d = 20, gtfs = "Nulles-Bràfim" }
 76004 = { id = "7100486", name = "Valls", lat = 41.28963, lon = 1.258903, p = 16, d = 21, gtfs = "Valls" }
-77102 = { id = "", gtfs = "La Garriga", checked = "2026-11-19" }
-77103 = { id = "", gtfs = "Figaró", checked = "2026-11-19" }
-77104 = { id = "", gtfs = "Sant Martí de Centelles", checked = "2026-11-19" }
-77105 = { id = "", gtfs = "Centelles", checked = "2026-11-19" }
-77106 = { id = "", gtfs = "Balenyà-Els Hostalets", checked = "2026-11-19" }
-77107 = { id = "", gtfs = "Balenyà-Tona-Seva", checked = "2026-11-19" }
-77109 = { id = "", gtfs = "Vic", checked = "2026-11-19" }
-77110 = { id = "", gtfs = "Manlleu", checked = "2026-11-19" }
-77111 = { id = "", gtfs = "Torelló", checked = "2026-11-19" }
-77112 = { id = "", gtfs = "Borgonyà", checked = "2026-11-19" }
-77113 = { id = "", gtfs = "Sant Quirze de Besora-Montesquiu", checked = "2026-11-19" }
-77114 = { id = "", gtfs = "La Farga de Bebié", checked = "2026-11-19" }
-77200 = { id = "", gtfs = "Ripoll", checked = "2026-11-19" }
-77301 = { id = "", gtfs = "Campdevànol", checked = "2026-11-19" }
-77303 = { id = "", gtfs = "Ribes de Freser", checked = "2026-11-19" }
-77304 = { id = "", gtfs = "Planoles", checked = "2026-11-19" }
-77305 = { id = "", gtfs = "Toses", checked = "2026-11-19" }
-77306 = { id = "", gtfs = "La Molina", checked = "2026-11-19" }
-77307 = { id = "", gtfs = "Urtx-Alp", checked = "2026-11-19" }
-77309 = { id = "", gtfs = "Puigcerdà", checked = "2026-11-19" }
+77102 = { id = "7177102", name = "La Garriga", lat = 41.684627, lon = 2.288796, gtfs = "La Garriga", checked = "2026-11-19", local = true }
+77103 = { id = "7177103", name = "Figaró", lat = 41.721345, lon = 2.271601, gtfs = "Figaró", checked = "2026-11-19", local = true }
+77104 = { id = "7177104", name = "Sant Martí de Centelles", lat = 41.760574, lon = 2.248905, gtfs = "Sant Martí de Centelles", checked = "2026-11-19", local = true }
+77105 = { id = "7177105", name = "Centelles", lat = 41.799395, lon = 2.222636, gtfs = "Centelles", checked = "2026-11-19", local = true }
+77106 = { id = "7177106", name = "Balenyà-Els Hostalets", lat = 41.814951, lon = 2.233315, gtfs = "Balenyà-Els Hostalets", checked = "2026-11-19", local = true }
+77107 = { id = "7177107", name = "Balenyà-Tona-Seva", lat = 41.841908, lon = 2.247442, gtfs = "Balenyà-Tona-Seva", checked = "2026-11-19", local = true }
+77109 = { id = "7177109", name = "Vic", lat = 41.931096, lon = 2.248857, gtfs = "Vic", checked = "2026-11-19", local = true }
+77110 = { id = "7177110", name = "Manlleu", lat = 41.99986, lon = 2.269296, gtfs = "Manlleu", checked = "2026-11-19", local = true }
+77111 = { id = "7177111", name = "Torelló", lat = 42.052011, lon = 2.259972, gtfs = "Torelló", checked = "2026-11-19", local = true }
+77112 = { id = "7177112", name = "Borgonyà", lat = 42.064659, lon = 2.242006, gtfs = "Borgonyà", checked = "2026-11-19", local = true }
+77113 = { id = "7177113", name = "Sant Quirze de Besora-Montesquiu", lat = 42.104849, lon = 2.217733, gtfs = "Sant Quirze de Besora-Montesquiu", checked = "2026-11-19", local = true }
+77114 = { id = "7177114", name = "La Farga de Bebié", lat = 42.130073, lon = 2.203936, gtfs = "La Farga de Bebié", checked = "2026-11-19", local = true }
+77200 = { id = "7177200", name = "Ripoll", lat = 42.196128, lon = 2.195841, gtfs = "Ripoll", checked = "2026-11-19", local = true }
+77301 = { id = "7177301", name = "Campdevànol", lat = 42.221713, lon = 2.165758, gtfs = "Campdevànol", checked = "2026-11-19", local = true }
+77303 = { id = "7177303", name = "Ribes de Freser", lat = 42.300213, lon = 2.166199, gtfs = "Ribes de Freser", checked = "2026-11-19", local = true }
+77304 = { id = "7177304", name = "Planoles", lat = 42.314469, lon = 2.099732, gtfs = "Planoles", checked = "2026-11-19", local = true }
+77305 = { id = "7177305", name = "Toses", lat = 42.320964, lon = 2.015258, gtfs = "Toses", checked = "2026-11-19", local = true }
+77306 = { id = "7177306", name = "La Molina", lat = 42.344652, lon = 1.955951, gtfs = "La Molina", checked = "2026-11-19", local = true }
+77307 = { id = "7177307", name = "Urtx-Alp", lat = 42.376862, lon = 1.896853, gtfs = "Urtx-Alp", checked = "2026-11-19", local = true }
+77309 = { id = "7177309", name = "Puigcerdà", lat = 42.429626, lon = 1.924584, gtfs = "Puigcerdà", checked = "2026-11-19", local = true }
 77310 = { id = "8700148", name = "Latour de Carol-Enveitg", lat = 42.458732, lon = 1.904778, p = 88, d = 46, gtfs = "La Tor de Querol-Enveig" }
 78005 = { id = "7178005", name = "Villanueva de Gallego", lat = 41.767039, lon = -0.821237, p = 16, d = 188, gtfs = "Villanueva de Gállego" }
 78200 = { id = "7100117", name = "Tardienta", lat = 41.975777, lon = -0.538067, p = 17, d = 15, gtfs = "Tardienta" }
@@ -951,45 +951,45 @@
 78600 = { id = "7100209", name = "Manresa", lat = 41.720232, lon = 1.826482, p = 16, d = 18, gtfs = "Manresa" }
 78604 = { id = "7178604", name = "San Vicente de Castellet", lat = 41.66867, lon = 1.86252, p = 16, d = 21, gtfs = "Sant Vicenç de Castellet" }
 78605 = { id = "7148181", name = "Castellbell i El Vilar", lat = 41.640282, lon = 1.854726, p = 16, d = 1742, gtfs = "Castellbell i el Vilar-Monist Montserrat" }
-78606 = { id = "", gtfs = "Vacarisses", checked = "2026-11-19" }
-78607 = { id = "", gtfs = "Vacarisses-Torreblanca", checked = "2026-11-19" }
-78609 = { id = "", gtfs = "Viladecavalls", checked = "2026-11-19" }
-78610 = { id = "", gtfs = "Sant Miquel de Gonteres", checked = "2026-11-19" }
+78606 = { id = "7178606", name = "Vacarisses", lat = 41.601928, lon = 1.894088, gtfs = "Vacarisses", checked = "2026-11-19", local = true }
+78607 = { id = "7178607", name = "Vacarisses-Torreblanca", lat = 41.586918, lon = 1.916476, gtfs = "Vacarisses-Torreblanca", checked = "2026-11-19", local = true }
+78609 = { id = "7178609", name = "Viladecavalls", lat = 41.563796, lon = 1.95727, gtfs = "Viladecavalls", checked = "2026-11-19", local = true }
+78610 = { id = "7178610", name = "Sant Miquel de Gonteres", lat = 41.568866, lon = 1.974285, gtfs = "Sant Miquel de Gonteres", checked = "2026-11-19", local = true }
 78700 = { id = "7178700", name = "Terrassa Nord", lat = 41.569797, lon = 2.014276, p = 16, d = 7, gtfs = "Terrassa Estació del Nord" }
-78703 = { id = "", gtfs = "Sabadell Sud", checked = "2026-11-19" }
+78703 = { id = "7178703", name = "Sabadell Sud", lat = 41.528708, lon = 2.105393, gtfs = "Sabadell Sud", checked = "2026-11-19", local = true }
 78704 = { id = "7148217", name = "Sabadell Plaça Major", lat = 41.547225, lon = 2.108609, p = 16, d = 589, gtfs = "Sabadell Centre" }
-78705 = { id = "", gtfs = "Barberà del Vallès", checked = "2026-11-19" }
-78706 = { id = "", gtfs = "Cerdanyola del Vallès", checked = "2026-11-19" }
-78707 = { id = "", gtfs = "Montcada i Reixac-Santa Maria", checked = "2026-11-19" }
-78708 = { id = "", gtfs = "Montcada i Reixac-Manresa", checked = "2026-11-19" }
+78705 = { id = "7178705", name = "Barberà del Vallès", lat = 41.51366, lon = 2.118453, gtfs = "Barberà del Vallès", checked = "2026-11-19", local = true }
+78706 = { id = "7178706", name = "Cerdanyola del Vallès", lat = 41.492561, lon = 2.147522, gtfs = "Cerdanyola del Vallès", checked = "2026-11-19", local = true }
+78707 = { id = "7178707", name = "Montcada i Reixac-Santa Maria", lat = 41.481141, lon = 2.166987, gtfs = "Montcada i Reixac-Santa Maria", checked = "2026-11-19", local = true }
+78708 = { id = "7178708", name = "Montcada i Reixac-Manresa", lat = 41.48394, lon = 2.185404, gtfs = "Montcada i Reixac-Manresa", checked = "2026-11-19", local = true }
 78709 = { id = "7148219", name = "Sabadell Nord(FGC)", lat = 41.561518, lon = 2.096707, p = 16, d = 65, gtfs = "Sabadell Nord" }
-78710 = { id = "", gtfs = "Terrassa Est", checked = "2026-11-19" }
-78800 = { id = "", gtfs = "Montcada-Bifurcació", checked = "2026-11-19" }
-78801 = { id = "", gtfs = "Barcelona Torre Baró -Vallbona", checked = "2026-11-19" }
-78802 = { id = "", gtfs = "Barcelona Fabra i Puig", checked = "2026-11-19" }
-78804 = { id = "", gtfs = "Barcelona Arc de Triomf", checked = "2026-11-19" }
+78710 = { id = "7178710", name = "Terrassa Est", lat = 41.56753, lon = 2.039636, gtfs = "Terrassa Est", checked = "2026-11-19", local = true }
+78800 = { id = "7178800", name = "Montcada-Bifurcació", lat = 41.46984, lon = 2.180016, gtfs = "Montcada-Bifurcació", checked = "2026-11-19", local = true }
+78801 = { id = "7178801", name = "Barcelona Torre Baró -Vallbona", lat = 41.460968, lon = 2.18102, gtfs = "Barcelona Torre Baró -Vallbona", checked = "2026-11-19", local = true }
+78802 = { id = "7178802", name = "Barcelona Fabra i Puig", lat = 41.430348, lon = 2.183329, gtfs = "Barcelona Fabra i Puig", checked = "2026-11-19", local = true }
+78804 = { id = "7178804", name = "Barcelona Arc de Triomf", lat = 41.391905, lon = 2.180639, gtfs = "Barcelona Arc de Triomf", checked = "2026-11-19", local = true }
 78805 = { id = "7100074", name = "Barcelona Pl. Catalunya", lat = 41.387703, lon = 2.169286, p = 48, d = 43, gtfs = "Barcelona Plaça de Catalunya" }
-78806 = { id = "", gtfs = "Barcelona La Sagrera-Meridiana", checked = "2026-11-19" }
+78806 = { id = "7178806", name = "Barcelona La Sagrera-Meridiana", lat = 41.421848, lon = 2.18711, gtfs = "Barcelona La Sagrera-Meridiana", checked = "2026-11-19", local = true }
 79004 = { id = "7100089", name = "Barcelona Sant Andreu Comtal", lat = 41.436137, lon = 2.193602, p = 16, d = 34, gtfs = "Barcelona Sant Andreu" }
-79005 = { id = "", gtfs = "Montcada i Reixac", checked = "2026-11-19" }
-79006 = { id = "", gtfs = "Mollet-Sant Fost", checked = "2026-11-19" }
-79007 = { id = "", gtfs = "Montmeló", checked = "2026-11-19" }
+79005 = { id = "7179005", name = "Montcada i Reixac", lat = 41.484225, lon = 2.188089, gtfs = "Montcada i Reixac", checked = "2026-11-19", local = true }
+79006 = { id = "7179006", name = "Mollet-Sant Fost", lat = 41.533563, lon = 2.217665, gtfs = "Mollet-Sant Fost", checked = "2026-11-19", local = true }
+79007 = { id = "7179007", name = "Montmeló", lat = 41.549652, lon = 2.245444, gtfs = "Montmeló", checked = "2026-11-19", local = true }
 79009 = { id = "7100189", name = "Barcelona Clot-Arago", lat = 41.409106, lon = 2.18739, p = 20, d = 27, gtfs = "Barcelona El Clot" }
-79011 = { id = "", gtfs = "La Llagosta", checked = "2026-11-19" }
+79011 = { id = "7179011", name = "La Llagosta", lat = 41.510457, lon = 2.199733, gtfs = "La Llagosta", checked = "2026-11-19", local = true }
 79100 = { id = "7100075", name = "Granollers", lat = 41.599309, lon = 2.29162, p = 16, d = 57, gtfs = "Granollers Centre" }
-79101 = { id = "", gtfs = "Cardedeu", checked = "2026-11-19" }
-79102 = { id = "", gtfs = "Llinars del Vallès", checked = "2026-11-19" }
-79103 = { id = "", gtfs = "Palautordera", checked = "2026-11-19" }
+79101 = { id = "7179101", name = "Cardedeu", lat = 41.636701, lon = 2.356263, gtfs = "Cardedeu", checked = "2026-11-19", local = true }
+79102 = { id = "7179102", name = "Llinars del Vallès", lat = 41.638037, lon = 2.404458, gtfs = "Llinars del Vallès", checked = "2026-11-19", local = true }
+79103 = { id = "7179103", name = "Palautordera", lat = 41.671952, lon = 2.454215, gtfs = "Palautordera", checked = "2026-11-19", local = true }
 79104 = { id = "7100468", name = "San Celoni", lat = 41.685156, lon = 2.490704, p = 20, d = 71, gtfs = "Sant Celoni" }
 79105 = { id = "7179105", name = "Gualba (APD.)", lat = 41.714829, lon = 2.533565, p = 16, d = 572, gtfs = "Gualba" }
 79106 = { id = "7179106", name = "Riells-Viabrea-Breda", lat = 41.726731, lon = 2.569558, p = 16, d = 69, gtfs = "Riells i Viabrea-Breda" }
 79107 = { id = "7179107", name = "Hostalrich", lat = 41.747784, lon = 2.631098, p = 16, d = 46, gtfs = "Hostalric" }
-79109 = { id = "", gtfs = "Les Franqueses-Granollers Nord", checked = "2026-11-19" }
+79109 = { id = "7179109", name = "Les Franqueses-Granollers Nord", lat = 41.617255, lon = 2.294432, gtfs = "Les Franqueses-Granollers Nord", checked = "2026-11-19", local = true }
 79200 = { id = "7100184", name = "Macanet-Massanes", lat = 41.775875, lon = 2.67439, p = 20, d = 387, gtfs = "Maçanet-Massanes" }
 79202 = { id = "7100473", name = "Sils", lat = 41.80767, lon = 2.745189, p = 20, d = 17, gtfs = "Sils" }
 79203 = { id = "7100076", name = "Caldes de Malavella", lat = 41.841182, lon = 2.800607, p = 20, d = 15, gtfs = "Caldes de Malavella" }
 79204 = { id = "7179204", name = "Riudellots", lat = 41.895396, lon = 2.811502, p = 16, d = 100, gtfs = "Riudellots" }
-79205 = { id = "", gtfs = "Fornells de la Selva", checked = "2026-11-19" }
+79205 = { id = "7179205", name = "Fornells de la Selva", lat = 41.935043, lon = 2.809783, gtfs = "Fornells de la Selva", checked = "2026-11-19", local = true }
 79300 = { id = "7100077", name = "Girona", lat = 41.979517, lon = 2.816482, p = 21, d = 41, gtfs = "Girona" }
 79301 = { id = "7179301", name = "Celra", lat = 42.027312, lon = 2.874921, p = 16, d = 13, gtfs = "Celrà" }
 79302 = { id = "7179302", name = "Bordils-Junya (APD.)", lat = 42.037003, lon = 2.915364, p = 16, d = 8, gtfs = "Bordils-Juià" }
@@ -1005,27 +1005,27 @@
 79315 = { id = "7100079", name = "Port Bou", lat = 42.424725, lon = 3.157848, p = 20, d = 20, gtfs = "Portbou" }
 79316 = { id = "8700147", name = "Cerbère", lat = 42.441661, lon = 3.163187, p = 88, d = 3, gtfs = "Cerbère" }
 79400 = { id = "7100067", name = "Barcelona Franca", lat = 41.383658, lon = 2.186734, p = 16, d = 148, gtfs = "Barcelona Estació de França" }
-79403 = { id = "", gtfs = "Sant Adrià de Besòs", checked = "2026-11-19" }
-79404 = { id = "", gtfs = "Badalona", checked = "2026-11-19" }
-79405 = { id = "", gtfs = "Montgat", checked = "2026-11-19" }
-79406 = { id = "", gtfs = "Montgat-Nord", checked = "2026-11-19" }
-79407 = { id = "", gtfs = "El Masnou", checked = "2026-11-19" }
-79408 = { id = "", gtfs = "Ocata", checked = "2026-11-19" }
-79409 = { id = "", gtfs = "Premià de Mar", checked = "2026-11-19" }
-79410 = { id = "", gtfs = "Vilassar de Mar", checked = "2026-11-19" }
-79412 = { id = "", gtfs = "Cabrera de Mar-Vilassar de Mar", checked = "2026-11-19" }
-79500 = { id = "", gtfs = "Mataró", checked = "2026-11-19" }
-79501 = { id = "", gtfs = "Sant Andreu de Llavaneres", checked = "2026-11-19" }
-79502 = { id = "", gtfs = "Caldes d'Estrac", checked = "2026-11-19" }
-79600 = { id = "", gtfs = "Arenys de Mar", checked = "2026-11-19" }
-79601 = { id = "", gtfs = "Canet de Mar", checked = "2026-11-19" }
-79602 = { id = "", gtfs = "Sant Pol de Mar", checked = "2026-11-19" }
-79603 = { id = "", gtfs = "Calella", checked = "2026-11-19" }
-79604 = { id = "", gtfs = "Pineda de Mar", checked = "2026-11-19" }
-79605 = { id = "", gtfs = "Malgrat de Mar", checked = "2026-11-19" }
-79606 = { id = "", gtfs = "Blanes", checked = "2026-11-19" }
-79607 = { id = "", gtfs = "Tordera", checked = "2026-11-19" }
-79608 = { id = "", gtfs = "Santa Susanna", checked = "2026-11-19" }
+79403 = { id = "7179403", name = "Sant Adrià de Besòs", lat = 41.424432, lon = 2.230482, gtfs = "Sant Adrià de Besòs", checked = "2026-11-19", local = true }
+79404 = { id = "7179404", name = "Badalona", lat = 41.445884, lon = 2.248921, gtfs = "Badalona", checked = "2026-11-19", local = true }
+79405 = { id = "7179405", name = "Montgat", lat = 41.463021, lon = 2.272155, gtfs = "Montgat", checked = "2026-11-19", local = true }
+79406 = { id = "7179406", name = "Montgat-Nord", lat = 41.468786, lon = 2.286697, gtfs = "Montgat-Nord", checked = "2026-11-19", local = true }
+79407 = { id = "7179407", name = "El Masnou", lat = 41.477036, lon = 2.310377, gtfs = "El Masnou", checked = "2026-11-19", local = true }
+79408 = { id = "7179408", name = "Ocata", lat = 41.479021, lon = 2.319533, gtfs = "Ocata", checked = "2026-11-19", local = true }
+79409 = { id = "7179409", name = "Premià de Mar", lat = 41.487752, lon = 2.354856, gtfs = "Premià de Mar", checked = "2026-11-19", local = true }
+79410 = { id = "7179410", name = "Vilassar de Mar", lat = 41.500629, lon = 2.389861, gtfs = "Vilassar de Mar", checked = "2026-11-19", local = true }
+79412 = { id = "7179412", name = "Cabrera de Mar-Vilassar de Mar", lat = 41.506772, lon = 2.401624, gtfs = "Cabrera de Mar-Vilassar de Mar", checked = "2026-11-19", local = true }
+79500 = { id = "7179500", name = "Mataró", lat = 41.533385, lon = 2.44553, gtfs = "Mataró", checked = "2026-11-19", local = true }
+79501 = { id = "7179501", name = "Sant Andreu de Llavaneres", lat = 41.555547, lon = 2.498265, gtfs = "Sant Andreu de Llavaneres", checked = "2026-11-19", local = true }
+79502 = { id = "7179502", name = "Caldes d'Estrac", lat = 41.568608, lon = 2.525981, gtfs = "Caldes d'Estrac", checked = "2026-11-19", local = true }
+79600 = { id = "7179600", name = "Arenys de Mar", lat = 41.577699, lon = 2.549337, gtfs = "Arenys de Mar", checked = "2026-11-19", local = true }
+79601 = { id = "7179601", name = "Canet de Mar", lat = 41.586669, lon = 2.581289, gtfs = "Canet de Mar", checked = "2026-11-19", local = true }
+79602 = { id = "7179602", name = "Sant Pol de Mar", lat = 41.601755, lon = 2.624598, gtfs = "Sant Pol de Mar", checked = "2026-11-19", local = true }
+79603 = { id = "7179603", name = "Calella", lat = 41.614691, lon = 2.665995, gtfs = "Calella", checked = "2026-11-19", local = true }
+79604 = { id = "7179604", name = "Pineda de Mar", lat = 41.622445, lon = 2.69355, gtfs = "Pineda de Mar", checked = "2026-11-19", local = true }
+79605 = { id = "7179605", name = "Malgrat de Mar", lat = 41.641602, lon = 2.741279, gtfs = "Malgrat de Mar", checked = "2026-11-19", local = true }
+79606 = { id = "7179606", name = "Blanes", lat = 41.673616, lon = 2.76927, gtfs = "Blanes", checked = "2026-11-19", local = true }
+79607 = { id = "7179607", name = "Tordera", lat = 41.707169, lon = 2.719571, gtfs = "Tordera", checked = "2026-11-19", local = true }
+79608 = { id = "7179608", name = "Santa Susanna", lat = 41.630097, lon = 2.71597, gtfs = "Santa Susanna", checked = "2026-11-19", local = true }
 80001 = { id = "7180001", name = "Alsasua-Pueblo(APD.)", lat = 42.893342, lon = -2.166994, p = 16, d = 36, gtfs = "Altsasu-Pueblo" }
 80003 = { id = "7180003", name = "Echarri-Aranaz", lat = 42.911347, lon = -2.071393, p = 16, d = 26, gtfs = "Etxarri-Aranatz" }
 80005 = { id = "7180005", name = "Huarte-Araquil", lat = 42.920417, lon = -1.974912, p = 16, d = 22, gtfs = "Uharte-Arakil" }
@@ -1074,9 +1074,9 @@
 97100 = { id = "7127081", name = "Madrid Pitis", lat = 40.495362, lon = -3.726442, p = 16, d = 25, gtfs = "Pitis" }
 97200 = { id = "7197200", name = "Mirasierra-Paco de Lucia", lat = 40.499847, lon = -3.709399, p = 16, d = 16, gtfs = "Mirasierra-Paco de Lucía" }
 97201 = { id = "7145867", name = "Madrid Ramon y Cajal", lat = 40.488242, lon = -3.694701, p = 16, d = 14, gtfs = "Madrid-Ramón y Cajal" }
-98003 = { id = "", gtfs = "Fuente de la Mora", checked = "2026-11-19" }
-98304 = { id = "", gtfs = "Valdebebas", checked = "2026-11-19" }
-98305 = { id = "", gtfs = "Madrid-Aeropuerto T4", checked = "2026-11-19" }
+98003 = { id = "7198003", name = "Fuente de la Mora", lat = 40.48472, lon = -3.663061, gtfs = "Fuente de la Mora", checked = "2026-11-19", local = true }
+98304 = { id = "7198304", name = "Valdebebas", lat = 40.482102, lon = -3.616287, gtfs = "Valdebebas", checked = "2026-11-19", local = true }
+98305 = { id = "7198305", name = "Madrid-Aeropuerto T4", lat = 40.492402, lon = -3.59323, gtfs = "Madrid-Aeropuerto T4", checked = "2026-11-19", local = true }
 01003 = { id = "7101003", name = "El Arahal (APT.)", lat = 37.268405, lon = -5.548745, p = 4, d = 41, gtfs = "Arahal" }
 01005 = { id = "7100146", name = "Marchena", lat = 37.334323, lon = -5.425466, p = 4, d = 7, gtfs = "Marchena" }
 01007 = { id = "7100494", name = "Osuna", lat = 37.233671, lon = -5.114799, p = 4, d = 32, gtfs = "Osuna" }
@@ -1098,373 +1098,373 @@
 04307 = { id = "7104307", name = "Figueres Vilafant", lat = 42.26478, lon = 2.943023, p = 5, d = 43, gtfs = "Figueres-Vilafant" }
 05000 = { id = "7100182", name = "Granada", lat = 37.183906, lon = -3.609061, p = 5, d = 17, gtfs = "Granada" }
 05012 = { id = "7105012", name = "Loja", lat = 37.175124, lon = -4.135389, p = 5, d = 56, gtfs = "Loja" }
-05102 = { id = "", gtfs = "San Xoán", checked = "2026-11-19" }
-05103 = { id = "", gtfs = "Santa Icía", checked = "2026-11-19" }
-05104 = { id = "", gtfs = "Virxe Do Mar", checked = "2026-11-19" }
-05105 = { id = "", gtfs = "Piñeiros", checked = "2026-11-19" }
-05106 = { id = "", gtfs = "O Ponto", checked = "2026-11-19" }
-05107 = { id = "", gtfs = "Xuvia", checked = "2026-11-19" }
-05108 = { id = "", gtfs = "O Alto Do Castiñeiro", checked = "2026-11-19" }
-05109 = { id = "", gtfs = "Ferrerías", checked = "2026-11-19" }
-05111 = { id = "", gtfs = "Sedes", checked = "2026-11-19" }
-05113 = { id = "", gtfs = "Pedroso de Narón", checked = "2026-11-19" }
-05115 = { id = "", gtfs = "San Sadurniño", checked = "2026-11-19" }
-05117 = { id = "", gtfs = "Lamas", checked = "2026-11-19" }
-05119 = { id = "", gtfs = "Apalla", checked = "2026-11-19" }
-05121 = { id = "", gtfs = "Moeche", checked = "2026-11-19" }
-05123 = { id = "", gtfs = "Labacengos", checked = "2026-11-19" }
-05125 = { id = "", gtfs = "Entrambarrías", checked = "2026-11-19" }
-05127 = { id = "", gtfs = "Cerdido", checked = "2026-11-19" }
-05129 = { id = "", gtfs = "A Cuqueira", checked = "2026-11-19" }
-05131 = { id = "", gtfs = "Santa María de Mera", checked = "2026-11-19" }
-05133 = { id = "", gtfs = "Ponte Mera", checked = "2026-11-19" }
-05135 = { id = "", gtfs = "San Clodio", checked = "2026-11-19" }
-05137 = { id = "", gtfs = "Senra", checked = "2026-11-19" }
-05139 = { id = "", gtfs = "Ortigueira", checked = "2026-11-19" }
-05141 = { id = "", gtfs = "Espasante", checked = "2026-11-19" }
-05143 = { id = "", gtfs = "Loiba", checked = "2026-11-19" }
-05145 = { id = "", gtfs = "O Barqueiro", checked = "2026-11-19" }
-05147 = { id = "", gtfs = "O Vicedo", checked = "2026-11-19" }
-05149 = { id = "", gtfs = "Mosende", checked = "2026-11-19" }
-05151 = { id = "", gtfs = "Folgueiro", checked = "2026-11-19" }
-05153 = { id = "", gtfs = "Covas de Viveiro", checked = "2026-11-19" }
-05155 = { id = "", gtfs = "Viveiro", checked = "2026-11-19" }
-05156 = { id = "", gtfs = "Viveiro Apeadero", checked = "2026-11-19" }
-05157 = { id = "", gtfs = "Xuances", checked = "2026-11-19" }
-05159 = { id = "", gtfs = "Xove Pobo", checked = "2026-11-19" }
-05161 = { id = "", gtfs = "Xove", checked = "2026-11-19" }
-05163 = { id = "", gtfs = "Lago", checked = "2026-11-19" }
-05165 = { id = "", gtfs = "Bidueiros", checked = "2026-11-19" }
-05167 = { id = "", gtfs = "San Cibrao", checked = "2026-11-19" }
-05169 = { id = "", gtfs = "Madeiro", checked = "2026-11-19" }
-05171 = { id = "", gtfs = "Burela", checked = "2026-11-19" }
-05173 = { id = "", gtfs = "Cangas de Foz", checked = "2026-11-19" }
-05175 = { id = "", gtfs = "Nois", checked = "2026-11-19" }
-05177 = { id = "", gtfs = "Fazouro", checked = "2026-11-19" }
-05179 = { id = "", gtfs = "Marzán", checked = "2026-11-19" }
-05181 = { id = "", gtfs = "Foz", checked = "2026-11-19" }
-05183 = { id = "", gtfs = "Barreiros", checked = "2026-11-19" }
-05185 = { id = "", gtfs = "Reinante", checked = "2026-11-19" }
-05187 = { id = "", gtfs = "Esteiro", checked = "2026-11-19" }
-05189 = { id = "", gtfs = "Os Castros", checked = "2026-11-19" }
-05191 = { id = "", gtfs = "Rinlo", checked = "2026-11-19" }
-05193 = { id = "", gtfs = "Ribadeo", checked = "2026-11-19" }
-05197 = { id = "", gtfs = "Vegadeo Pueblo", checked = "2026-11-19" }
-05199 = { id = "", gtfs = "Vilavedelle", checked = "2026-11-19" }
-05203 = { id = "", gtfs = "Tremañes Carreño", checked = "2026-11-19" }
-05204 = { id = "", gtfs = "Centro de Transportes", checked = "2026-11-19" }
-05207 = { id = "", gtfs = "Aboño Apeadero", checked = "2026-11-19" }
-05208 = { id = "", gtfs = "Xivares", checked = "2026-11-19" }
-05209 = { id = "", gtfs = "Perlora", checked = "2026-11-19" }
-05210 = { id = "", gtfs = "Candás-Apeadero", checked = "2026-11-19" }
-05211 = { id = "", gtfs = "Candás", checked = "2026-11-19" }
-05213 = { id = "", gtfs = "Regueral", checked = "2026-11-19" }
-05215 = { id = "", gtfs = "Zanzabornín", checked = "2026-11-19" }
-05216 = { id = "", gtfs = "Gudín Laminación", checked = "2026-11-19" }
-05217 = { id = "", gtfs = "Trasona", checked = "2026-11-19" }
-05219 = { id = "", gtfs = "Llaranes", checked = "2026-11-19" }
-05220 = { id = "", gtfs = "Cristalería", checked = "2026-11-19" }
-05221 = { id = "", gtfs = "Avilés-Apeadero", checked = "2026-11-19" }
-05224 = { id = "", gtfs = "Raíces", checked = "2026-11-19" }
-05225 = { id = "", gtfs = "Salinas", checked = "2026-11-19" }
-05227 = { id = "", gtfs = "Piedras Blancas", checked = "2026-11-19" }
-05229 = { id = "", gtfs = "Vegarrozadas", checked = "2026-11-19" }
-05231 = { id = "", gtfs = "Santiago del Monte", checked = "2026-11-19" }
-05232 = { id = "", gtfs = "El Parador", checked = "2026-11-19" }
-05233 = { id = "", gtfs = "Soto del Barco", checked = "2026-11-19" }
-05235 = { id = "", gtfs = "Riberas", checked = "2026-11-19" }
-05237 = { id = "", gtfs = "Peñaullán", checked = "2026-11-19" }
-05239 = { id = "", gtfs = "Santianes", checked = "2026-11-19" }
-05241 = { id = "", gtfs = "Los Cabos", checked = "2026-11-19" }
-05243 = { id = "", gtfs = "Muros del Nalón", checked = "2026-11-19" }
-05244 = { id = "", gtfs = "El Pito Piñera", checked = "2026-11-19" }
-05245 = { id = "", gtfs = "Cudillero", checked = "2026-11-19" }
-05247 = { id = "", gtfs = "Villademar", checked = "2026-11-19" }
-05249 = { id = "", gtfs = "La Magdalena", checked = "2026-11-19" }
-05251 = { id = "", gtfs = "San Martín de Luiña", checked = "2026-11-19" }
-05253 = { id = "", gtfs = "San Cosme", checked = "2026-11-19" }
-05255 = { id = "", gtfs = "Soto de Luiña", checked = "2026-11-19" }
-05257 = { id = "", gtfs = "Valdredo", checked = "2026-11-19" }
-05259 = { id = "", gtfs = "Novellana", checked = "2026-11-19" }
-05261 = { id = "", gtfs = "Santa Marina", checked = "2026-11-19" }
-05263 = { id = "", gtfs = "Ballota", checked = "2026-11-19" }
-05265 = { id = "", gtfs = "Tablizo", checked = "2026-11-19" }
-05267 = { id = "", gtfs = "Cadavedo", checked = "2026-11-19" }
-05269 = { id = "", gtfs = "San Cristóbal", checked = "2026-11-19" }
-05271 = { id = "", gtfs = "Canero", checked = "2026-11-19" }
-05273 = { id = "", gtfs = "Barcia", checked = "2026-11-19" }
-05275 = { id = "", gtfs = "Luarca", checked = "2026-11-19" }
-05277 = { id = "", gtfs = "Otur", checked = "2026-11-19" }
-05279 = { id = "", gtfs = "Villapedre", checked = "2026-11-19" }
-05281 = { id = "", gtfs = "Piñera-Villaoril", checked = "2026-11-19" }
-05283 = { id = "", gtfs = "Navia", checked = "2026-11-19" }
-05285 = { id = "", gtfs = "Medal", checked = "2026-11-19" }
-05287 = { id = "", gtfs = "Loza", checked = "2026-11-19" }
-05289 = { id = "", gtfs = "Cartavio", checked = "2026-11-19" }
-05291 = { id = "", gtfs = "La Caridad", checked = "2026-11-19" }
-05293 = { id = "", gtfs = "Tapia", checked = "2026-11-19" }
-05295 = { id = "", gtfs = "Tol", checked = "2026-11-19" }
-05297 = { id = "", gtfs = "Las Campas de Castropol", checked = "2026-11-19" }
-05299 = { id = "", gtfs = "Castropol", checked = "2026-11-19" }
-05300 = { id = "", gtfs = "Vallobín", checked = "2026-11-19" }
-05301 = { id = "", gtfs = "Argañosa-Lavapiés", checked = "2026-11-19" }
-05302 = { id = "", gtfs = "Las Campas", checked = "2026-11-19" }
-05303 = { id = "", gtfs = "Las Mazas", checked = "2026-11-19" }
-05304 = { id = "", gtfs = "San Claudio", checked = "2026-11-19" }
-05306 = { id = "", gtfs = "San Pedro de Nora", checked = "2026-11-19" }
-05308 = { id = "", gtfs = "Soto Udrión", checked = "2026-11-19" }
-05311 = { id = "", gtfs = "Trubia", checked = "2026-11-19" }
-05313 = { id = "", gtfs = "Santa María de Grado", checked = "2026-11-19" }
-05315 = { id = "", gtfs = "Vega de Anzo", checked = "2026-11-19" }
-05316 = { id = "", gtfs = "Peñaflor de Grado", checked = "2026-11-19" }
-05317 = { id = "", gtfs = "Grado", checked = "2026-11-19" }
-05319 = { id = "", gtfs = "Sandiche", checked = "2026-11-19" }
-05320 = { id = "", gtfs = "Aces", checked = "2026-11-19" }
-05321 = { id = "", gtfs = "San Román", checked = "2026-11-19" }
-05323 = { id = "", gtfs = "Beifar", checked = "2026-11-19" }
-05325 = { id = "", gtfs = "Pravia", checked = "2026-11-19" }
-05327 = { id = "", gtfs = "San Ranón", checked = "2026-11-19" }
-05329 = { id = "", gtfs = "San Esteban", checked = "2026-11-19" }
-05361 = { id = "", gtfs = "Baiña", checked = "2026-11-19" }
+05102 = { id = "7105102", name = "San Xoán", lat = 43.494565, lon = -8.214273, gtfs = "San Xoán", checked = "2026-11-19", local = true }
+05103 = { id = "7105103", name = "Santa Icía", lat = 43.499771, lon = -8.199923, gtfs = "Santa Icía", checked = "2026-11-19", local = true }
+05104 = { id = "7105104", name = "Virxe Do Mar", lat = 43.496525, lon = -8.204875, gtfs = "Virxe Do Mar", checked = "2026-11-19", local = true }
+05105 = { id = "7105105", name = "Piñeiros", lat = 43.509483, lon = -8.183992, gtfs = "Piñeiros", checked = "2026-11-19", local = true }
+05106 = { id = "7105106", name = "O Ponto", lat = 43.514776, lon = -8.177781, gtfs = "O Ponto", checked = "2026-11-19", local = true }
+05107 = { id = "7105107", name = "Xuvia", lat = 43.517191, lon = -8.161282, gtfs = "Xuvia", checked = "2026-11-19", local = true }
+05108 = { id = "7105108", name = "O Alto Do Castiñeiro", lat = 43.503179, lon = -8.195548, gtfs = "O Alto Do Castiñeiro", checked = "2026-11-19", local = true }
+05109 = { id = "7105109", name = "Ferrerías", lat = 43.528018, lon = -8.150436, gtfs = "Ferrerías", checked = "2026-11-19", local = true }
+05111 = { id = "7105111", name = "Sedes", lat = 43.542611, lon = -8.14019, gtfs = "Sedes", checked = "2026-11-19", local = true }
+05113 = { id = "7105113", name = "Pedroso de Narón", lat = 43.536707, lon = -8.109193, gtfs = "Pedroso de Narón", checked = "2026-11-19", local = true }
+05115 = { id = "7105115", name = "San Sadurniño", lat = 43.546084, lon = -8.07811, gtfs = "San Sadurniño", checked = "2026-11-19", local = true }
+05117 = { id = "7105117", name = "Lamas", lat = 43.547306, lon = -8.049017, gtfs = "Lamas", checked = "2026-11-19", local = true }
+05119 = { id = "7105119", name = "Apalla", lat = 43.550457, lon = -8.018619, gtfs = "Apalla", checked = "2026-11-19", local = true }
+05121 = { id = "7105121", name = "Moeche", lat = 43.562132, lon = -8.002757, gtfs = "Moeche", checked = "2026-11-19", local = true }
+05123 = { id = "7105123", name = "Labacengos", lat = 43.565271, lon = -7.980188, gtfs = "Labacengos", checked = "2026-11-19", local = true }
+05125 = { id = "7105125", name = "Entrambarrías", lat = 43.577063, lon = -7.954264, gtfs = "Entrambarrías", checked = "2026-11-19", local = true }
+05127 = { id = "7105127", name = "Cerdido", lat = 43.587343, lon = -7.93431, gtfs = "Cerdido", checked = "2026-11-19", local = true }
+05129 = { id = "7105129", name = "A Cuqueira", lat = 43.607829, lon = -7.921939, gtfs = "A Cuqueira", checked = "2026-11-19", local = true }
+05131 = { id = "7105131", name = "Santa María de Mera", lat = 43.640929, lon = -7.91619, gtfs = "Santa María de Mera", checked = "2026-11-19", local = true }
+05133 = { id = "7105133", name = "Ponte Mera", lat = 43.666038, lon = -7.902621, gtfs = "Ponte Mera", checked = "2026-11-19", local = true }
+05135 = { id = "7105135", name = "San Clodio", lat = 43.660944, lon = -7.873478, gtfs = "San Clodio", checked = "2026-11-19", local = true }
+05137 = { id = "7105137", name = "Senra", lat = 43.668793, lon = -7.854553, gtfs = "Senra", checked = "2026-11-19", local = true }
+05139 = { id = "7105139", name = "Ortigueira", lat = 43.686222, lon = -7.849574, gtfs = "Ortigueira", checked = "2026-11-19", local = true }
+05141 = { id = "7105141", name = "Espasante", lat = 43.70888, lon = -7.804897, gtfs = "Espasante", checked = "2026-11-19", local = true }
+05143 = { id = "7105143", name = "Loiba", lat = 43.730393, lon = -7.750044, gtfs = "Loiba", checked = "2026-11-19", local = true }
+05145 = { id = "7105145", name = "O Barqueiro", lat = 43.735649, lon = -7.70288, gtfs = "O Barqueiro", checked = "2026-11-19", local = true }
+05147 = { id = "7105147", name = "O Vicedo", lat = 43.731026, lon = -7.673215, gtfs = "O Vicedo", checked = "2026-11-19", local = true }
+05149 = { id = "7105149", name = "Mosende", lat = 43.706194, lon = -7.635477, gtfs = "Mosende", checked = "2026-11-19", local = true }
+05151 = { id = "7105151", name = "Folgueiro", lat = 43.692766, lon = -7.635048, gtfs = "Folgueiro", checked = "2026-11-19", local = true }
+05153 = { id = "7105153", name = "Covas de Viveiro", lat = 43.670275, lon = -7.614613, gtfs = "Covas de Viveiro", checked = "2026-11-19", local = true }
+05155 = { id = "7105155", name = "Viveiro", lat = 43.6569, lon = -7.60033, gtfs = "Viveiro", checked = "2026-11-19", local = true }
+05156 = { id = "7105156", name = "Viveiro Apeadero", lat = 43.661435, lon = -7.594532, gtfs = "Viveiro Apeadero", checked = "2026-11-19", local = true }
+05157 = { id = "7105157", name = "Xuances", lat = 43.687991, lon = -7.553904, gtfs = "Xuances", checked = "2026-11-19", local = true }
+05159 = { id = "7105159", name = "Xove Pobo", lat = 43.683567, lon = -7.510921, gtfs = "Xove Pobo", checked = "2026-11-19", local = true }
+05161 = { id = "7105161", name = "Xove", lat = 43.681138, lon = -7.495251, gtfs = "Xove", checked = "2026-11-19", local = true }
+05163 = { id = "7105163", name = "Lago", lat = 43.687108, lon = -7.481942, gtfs = "Lago", checked = "2026-11-19", local = true }
+05165 = { id = "7105165", name = "Bidueiros", lat = 43.696712, lon = -7.468843, gtfs = "Bidueiros", checked = "2026-11-19", local = true }
+05167 = { id = "7105167", name = "San Cibrao", lat = 43.692319, lon = -7.44177, gtfs = "San Cibrao", checked = "2026-11-19", local = true }
+05169 = { id = "7105169", name = "Madeiro", lat = 43.686219, lon = -7.412863, gtfs = "Madeiro", checked = "2026-11-19", local = true }
+05171 = { id = "7105171", name = "Burela", lat = 43.660607, lon = -7.361183, gtfs = "Burela", checked = "2026-11-19", local = true }
+05173 = { id = "7105173", name = "Cangas de Foz", lat = 43.626106, lon = -7.333309, gtfs = "Cangas de Foz", checked = "2026-11-19", local = true }
+05175 = { id = "7105175", name = "Nois", lat = 43.610309, lon = -7.312222, gtfs = "Nois", checked = "2026-11-19", local = true }
+05177 = { id = "7105177", name = "Fazouro", lat = 43.600457, lon = -7.299843, gtfs = "Fazouro", checked = "2026-11-19", local = true }
+05179 = { id = "7105179", name = "Marzán", lat = 43.57475, lon = -7.26936, gtfs = "Marzán", checked = "2026-11-19", local = true }
+05181 = { id = "7105181", name = "Foz", lat = 43.560886, lon = -7.272235, gtfs = "Foz", checked = "2026-11-19", local = true }
+05183 = { id = "7105183", name = "Barreiros", lat = 43.547366, lon = -7.225287, gtfs = "Barreiros", checked = "2026-11-19", local = true }
+05185 = { id = "7105185", name = "Reinante", lat = 43.54987, lon = -7.174315, gtfs = "Reinante", checked = "2026-11-19", local = true }
+05187 = { id = "7105187", name = "Esteiro", lat = 43.551697, lon = -7.146099, gtfs = "Esteiro", checked = "2026-11-19", local = true }
+05189 = { id = "7105189", name = "Os Castros", lat = 43.55157, lon = -7.130895, gtfs = "Os Castros", checked = "2026-11-19", local = true }
+05191 = { id = "7105191", name = "Rinlo", lat = 43.549761, lon = -7.108645, gtfs = "Rinlo", checked = "2026-11-19", local = true }
+05193 = { id = "7105193", name = "Ribadeo", lat = 43.53607, lon = -7.055572, gtfs = "Ribadeo", checked = "2026-11-19", local = true }
+05197 = { id = "7105197", name = "Vegadeo Pueblo", lat = 43.479667, lon = -7.057327, gtfs = "Vegadeo Pueblo", checked = "2026-11-19", local = true }
+05199 = { id = "7105199", name = "Vilavedelle", lat = 43.490502, lon = -7.038353, gtfs = "Vilavedelle", checked = "2026-11-19", local = true }
+05203 = { id = "7105203", name = "Tremañes Carreño", lat = 43.528552, lon = -5.694884, gtfs = "Tremañes Carreño", checked = "2026-11-19", local = true }
+05204 = { id = "7105204", name = "Centro de Transportes", lat = 43.531129, lon = -5.706716, gtfs = "Centro de Transportes", checked = "2026-11-19", local = true }
+05207 = { id = "7105207", name = "Aboño Apeadero", lat = 43.555049, lon = -5.723604, gtfs = "Aboño Apeadero", checked = "2026-11-19", local = true }
+05208 = { id = "7105208", name = "Xivares", lat = 43.565939, lon = -5.728746, gtfs = "Xivares", checked = "2026-11-19", local = true }
+05209 = { id = "7105209", name = "Perlora", lat = 43.580863, lon = -5.754105, gtfs = "Perlora", checked = "2026-11-19", local = true }
+05210 = { id = "7105210", name = "Candás-Apeadero", lat = 43.586538, lon = -5.767971, gtfs = "Candás-Apeadero", checked = "2026-11-19", local = true }
+05211 = { id = "7105211", name = "Candás", lat = 43.584711, lon = -5.77269, gtfs = "Candás", checked = "2026-11-19", local = true }
+05213 = { id = "7105213", name = "Regueral", lat = 43.580502, lon = -5.797616, gtfs = "Regueral", checked = "2026-11-19", local = true }
+05215 = { id = "7105215", name = "Zanzabornín", lat = 43.568927, lon = -5.825312, gtfs = "Zanzabornín", checked = "2026-11-19", local = true }
+05216 = { id = "7105216", name = "Gudín Laminación", lat = 43.552293, lon = -5.865392, gtfs = "Gudín Laminación", checked = "2026-11-19", local = true }
+05217 = { id = "7105217", name = "Trasona", lat = 43.551769, lon = -5.874175, gtfs = "Trasona", checked = "2026-11-19", local = true }
+05219 = { id = "7105219", name = "Llaranes", lat = 43.554337, lon = -5.896557, gtfs = "Llaranes", checked = "2026-11-19", local = true }
+05220 = { id = "7105220", name = "Cristalería", lat = 43.575568, lon = -5.929241, gtfs = "Cristalería", checked = "2026-11-19", local = true }
+05221 = { id = "7105221", name = "Avilés-Apeadero", lat = 43.554634, lon = -5.917442, gtfs = "Avilés-Apeadero", checked = "2026-11-19", local = true }
+05224 = { id = "7105224", name = "Raíces", lat = 43.576349, lon = -5.939913, gtfs = "Raíces", checked = "2026-11-19", local = true }
+05225 = { id = "7105225", name = "Salinas", lat = 43.570391, lon = -5.956626, gtfs = "Salinas", checked = "2026-11-19", local = true }
+05227 = { id = "7105227", name = "Piedras Blancas", lat = 43.556557, lon = -5.975552, gtfs = "Piedras Blancas", checked = "2026-11-19", local = true }
+05229 = { id = "7105229", name = "Vegarrozadas", lat = 43.551161, lon = -5.995514, gtfs = "Vegarrozadas", checked = "2026-11-19", local = true }
+05231 = { id = "7105231", name = "Santiago del Monte", lat = 43.540924, lon = -6.027971, gtfs = "Santiago del Monte", checked = "2026-11-19", local = true }
+05232 = { id = "7105232", name = "El Parador", lat = 43.535141, lon = -6.070591, gtfs = "El Parador", checked = "2026-11-19", local = true }
+05233 = { id = "7105233", name = "Soto del Barco", lat = 43.529056, lon = -6.071293, gtfs = "Soto del Barco", checked = "2026-11-19", local = true }
+05235 = { id = "7105235", name = "Riberas", lat = 43.50274, lon = -6.074305, gtfs = "Riberas", checked = "2026-11-19", local = true }
+05237 = { id = "7105237", name = "Peñaullán", lat = 43.49117, lon = -6.093964, gtfs = "Peñaullán", checked = "2026-11-19", local = true }
+05239 = { id = "7105239", name = "Santianes", lat = 43.503799, lon = -6.091839, gtfs = "Santianes", checked = "2026-11-19", local = true }
+05241 = { id = "7105241", name = "Los Cabos", lat = 43.512415, lon = -6.097475, gtfs = "Los Cabos", checked = "2026-11-19", local = true }
+05243 = { id = "7105243", name = "Muros del Nalón", lat = 43.542973, lon = -6.111072, gtfs = "Muros del Nalón", checked = "2026-11-19", local = true }
+05244 = { id = "7105244", name = "El Pito Piñera", lat = 43.546909, lon = -6.143342, gtfs = "El Pito Piñera", checked = "2026-11-19", local = true }
+05245 = { id = "7105245", name = "Cudillero", lat = 43.550926, lon = -6.151931, gtfs = "Cudillero", checked = "2026-11-19", local = true }
+05247 = { id = "7105247", name = "Villademar", lat = 43.557065, lon = -6.155477, gtfs = "Villademar", checked = "2026-11-19", local = true }
+05249 = { id = "7105249", name = "La Magdalena", lat = 43.559309, lon = -6.184922, gtfs = "La Magdalena", checked = "2026-11-19", local = true }
+05251 = { id = "7105251", name = "San Martín de Luiña", lat = 43.544753, lon = -6.228702, gtfs = "San Martín de Luiña", checked = "2026-11-19", local = true }
+05253 = { id = "7105253", name = "San Cosme", lat = 43.544069, lon = -6.248091, gtfs = "San Cosme", checked = "2026-11-19", local = true }
+05255 = { id = "7105255", name = "Soto de Luiña", lat = 43.559635, lon = -6.234369, gtfs = "Soto de Luiña", checked = "2026-11-19", local = true }
+05257 = { id = "7105257", name = "Valdredo", lat = 43.56638, lon = -6.263234, gtfs = "Valdredo", checked = "2026-11-19", local = true }
+05259 = { id = "7105259", name = "Novellana", lat = 43.557795, lon = -6.289593, gtfs = "Novellana", checked = "2026-11-19", local = true }
+05261 = { id = "7105261", name = "Santa Marina", lat = 43.552674, lon = -6.305181, gtfs = "Santa Marina", checked = "2026-11-19", local = true }
+05263 = { id = "7105263", name = "Ballota", lat = 43.550716, lon = -6.322812, gtfs = "Ballota", checked = "2026-11-19", local = true }
+05265 = { id = "7105265", name = "Tablizo", lat = 43.547253, lon = -6.351225, gtfs = "Tablizo", checked = "2026-11-19", local = true }
+05267 = { id = "7105267", name = "Cadavedo", lat = 43.542952, lon = -6.391612, gtfs = "Cadavedo", checked = "2026-11-19", local = true }
+05269 = { id = "7105269", name = "San Cristóbal", lat = 43.547225, lon = -6.415264, gtfs = "San Cristóbal", checked = "2026-11-19", local = true }
+05271 = { id = "7105271", name = "Canero", lat = 43.541913, lon = -6.445878, gtfs = "Canero", checked = "2026-11-19", local = true }
+05273 = { id = "7105273", name = "Barcia", lat = 43.546813, lon = -6.50828, gtfs = "Barcia", checked = "2026-11-19", local = true }
+05275 = { id = "7105275", name = "Luarca", lat = 43.537949, lon = -6.536617, gtfs = "Luarca", checked = "2026-11-19", local = true }
+05277 = { id = "7105277", name = "Otur", lat = 43.540541, lon = -6.593562, gtfs = "Otur", checked = "2026-11-19", local = true }
+05279 = { id = "7105279", name = "Villapedre", lat = 43.546723, lon = -6.64587, gtfs = "Villapedre", checked = "2026-11-19", local = true }
+05281 = { id = "7105281", name = "Piñera-Villaoril", lat = 43.535685, lon = -6.685414, gtfs = "Piñera-Villaoril", checked = "2026-11-19", local = true }
+05283 = { id = "7105283", name = "Navia", lat = 43.536802, lon = -6.719425, gtfs = "Navia", checked = "2026-11-19", local = true }
+05285 = { id = "7105285", name = "Medal", lat = 43.545692, lon = -6.752994, gtfs = "Medal", checked = "2026-11-19", local = true }
+05287 = { id = "7105287", name = "Loza", lat = 43.551254, lon = -6.771675, gtfs = "Loza", checked = "2026-11-19", local = true }
+05289 = { id = "7105289", name = "Cartavio", lat = 43.550714, lon = -6.789622, gtfs = "Cartavio", checked = "2026-11-19", local = true }
+05291 = { id = "7105291", name = "La Caridad", lat = 43.547074, lon = -6.827541, gtfs = "La Caridad", checked = "2026-11-19", local = true }
+05293 = { id = "7105293", name = "Tapia", lat = 43.535026, lon = -6.909329, gtfs = "Tapia", checked = "2026-11-19", local = true }
+05295 = { id = "7105295", name = "Tol", lat = 43.527204, lon = -6.952128, gtfs = "Tol", checked = "2026-11-19", local = true }
+05297 = { id = "7105297", name = "Las Campas de Castropol", lat = 43.520298, lon = -6.977102, gtfs = "Las Campas de Castropol", checked = "2026-11-19", local = true }
+05299 = { id = "7105299", name = "Castropol", lat = 43.509586, lon = -7.01477, gtfs = "Castropol", checked = "2026-11-19", local = true }
+05300 = { id = "7105300", name = "Vallobín", lat = 43.365231, lon = -5.864798, gtfs = "Vallobín", checked = "2026-11-19", local = true }
+05301 = { id = "7105301", name = "Argañosa-Lavapiés", lat = 43.365831, lon = -5.870018, gtfs = "Argañosa-Lavapiés", checked = "2026-11-19", local = true }
+05302 = { id = "7105302", name = "Las Campas", lat = 43.363889, lon = -5.883373, gtfs = "Las Campas", checked = "2026-11-19", local = true }
+05303 = { id = "7105303", name = "Las Mazas", lat = 43.358719, lon = -5.897557, gtfs = "Las Mazas", checked = "2026-11-19", local = true }
+05304 = { id = "7105304", name = "San Claudio", lat = 43.355353, lon = -5.917809, gtfs = "San Claudio", checked = "2026-11-19", local = true }
+05306 = { id = "7105306", name = "San Pedro de Nora", lat = 43.368748, lon = -5.958595, gtfs = "San Pedro de Nora", checked = "2026-11-19", local = true }
+05308 = { id = "7105308", name = "Soto Udrión", lat = 43.356436, lon = -5.965016, gtfs = "Soto Udrión", checked = "2026-11-19", local = true }
+05311 = { id = "7105311", name = "Trubia", lat = 43.34857, lon = -5.967776, gtfs = "Trubia", checked = "2026-11-19", local = true }
+05313 = { id = "7105313", name = "Santa María de Grado", lat = 43.384227, lon = -5.982707, gtfs = "Santa María de Grado", checked = "2026-11-19", local = true }
+05315 = { id = "7105315", name = "Vega de Anzo", lat = 43.38933, lon = -6.005683, gtfs = "Vega de Anzo", checked = "2026-11-19", local = true }
+05316 = { id = "7105316", name = "Peñaflor de Grado", lat = 43.402927, lon = -6.045392, gtfs = "Peñaflor de Grado", checked = "2026-11-19", local = true }
+05317 = { id = "7105317", name = "Grado", lat = 43.394542, lon = -6.063725, gtfs = "Grado", checked = "2026-11-19", local = true }
+05319 = { id = "7105319", name = "Sandiche", lat = 43.425623, lon = -6.059934, gtfs = "Sandiche", checked = "2026-11-19", local = true }
+05320 = { id = "7105320", name = "Aces", lat = 43.439914, lon = -6.065798, gtfs = "Aces", checked = "2026-11-19", local = true }
+05321 = { id = "7105321", name = "San Román", lat = 43.448884, lon = -6.077164, gtfs = "San Román", checked = "2026-11-19", local = true }
+05323 = { id = "7105323", name = "Beifar", lat = 43.470138, lon = -6.098871, gtfs = "Beifar", checked = "2026-11-19", local = true }
+05325 = { id = "7105325", name = "Pravia", lat = 43.490898, lon = -6.110537, gtfs = "Pravia", checked = "2026-11-19", local = true }
+05327 = { id = "7105327", name = "San Ranón", lat = 43.516455, lon = -6.082031, gtfs = "San Ranón", checked = "2026-11-19", local = true }
+05329 = { id = "7105329", name = "San Esteban", lat = 43.552094, lon = -6.087239, gtfs = "San Esteban", checked = "2026-11-19", local = true }
+05361 = { id = "7105361", name = "Baiña", lat = 43.274472, lon = -5.82829, gtfs = "Baiña", checked = "2026-11-19", local = true }
 05369 = { id = "7100447", name = "Mieres-Puente", lat = 43.25025, lon = -5.782428, p = 21, d = 188, gtfs = "Mieres Vasco" }
-05371 = { id = "", gtfs = "Caudalia", checked = "2026-11-19" }
-05373 = { id = "", gtfs = "Figaredo", checked = "2026-11-19" }
-05375 = { id = "", gtfs = "Ujo Taruelo", checked = "2026-11-19" }
-05376 = { id = "", gtfs = "Santa Cruz", checked = "2026-11-19" }
-05377 = { id = "", gtfs = "Caborana", checked = "2026-11-19" }
-05379 = { id = "", gtfs = "Moreda de Aller", checked = "2026-11-19" }
-05380 = { id = "", gtfs = "San Antonio", checked = "2026-11-19" }
-05381 = { id = "", gtfs = "Oyanco", checked = "2026-11-19" }
-05382 = { id = "", gtfs = "Corigos", checked = "2026-11-19" }
-05383 = { id = "", gtfs = "Piñeres", checked = "2026-11-19" }
-05384 = { id = "", gtfs = "Santa Ana-Soto", checked = "2026-11-19" }
-05385 = { id = "", gtfs = "Cabañaquinta", checked = "2026-11-19" }
-05387 = { id = "", gtfs = "Levinco", checked = "2026-11-19" }
-05389 = { id = "", gtfs = "Collanzo", checked = "2026-11-19" }
-05403 = { id = "", gtfs = "Tremañes-Langreo", checked = "2026-11-19" }
-05405 = { id = "", gtfs = "Sotiello", checked = "2026-11-19" }
-05407 = { id = "", gtfs = "Pinzales", checked = "2026-11-19" }
-05409 = { id = "", gtfs = "Aguda", checked = "2026-11-19" }
-05410 = { id = "", gtfs = "Xixún", checked = "2026-11-19" }
-05411 = { id = "", gtfs = "La Florida", checked = "2026-11-19" }
-05412 = { id = "", gtfs = "Puente Buracos", checked = "2026-11-19" }
-05413 = { id = "", gtfs = "Noreña", checked = "2026-11-19" }
-05415 = { id = "", gtfs = "Bendición", checked = "2026-11-19" }
-05416 = { id = "", gtfs = "Valdesoto", checked = "2026-11-19" }
-05417 = { id = "", gtfs = "Carbayín", checked = "2026-11-19" }
-05420 = { id = "", gtfs = "Curuxona", checked = "2026-11-19" }
-05421 = { id = "", gtfs = "Tuilla", checked = "2026-11-19" }
-05426 = { id = "", gtfs = "La Felguera N. Langreo-N. Llangréu", checked = "2026-11-19" }
-05427 = { id = "", gtfs = "Sama los Llerones", checked = "2026-11-19" }
-05431 = { id = "", gtfs = "Ciaño Escobio", checked = "2026-11-19" }
-05432 = { id = "", gtfs = "San Vicente", checked = "2026-11-19" }
-05433 = { id = "", gtfs = "El Entrego-La Oscura", checked = "2026-11-19" }
-05435 = { id = "", gtfs = "Carrocera", checked = "2026-11-19" }
-05436 = { id = "", gtfs = "San Martín", checked = "2026-11-19" }
-05437 = { id = "", gtfs = "Sotrondio", checked = "2026-11-19" }
-05439 = { id = "", gtfs = "Blimea", checked = "2026-11-19" }
-05441 = { id = "", gtfs = "Barredos", checked = "2026-11-19" }
-05443 = { id = "", gtfs = "Laviana", checked = "2026-11-19" }
+05371 = { id = "7105371", name = "Caudalia", lat = 43.228215, lon = -5.782774, gtfs = "Caudalia", checked = "2026-11-19", local = true }
+05373 = { id = "7105373", name = "Figaredo", lat = 43.21384, lon = -5.784036, gtfs = "Figaredo", checked = "2026-11-19", local = true }
+05375 = { id = "7105375", name = "Ujo Taruelo", lat = 43.200623, lon = -5.787861, gtfs = "Ujo Taruelo", checked = "2026-11-19", local = true }
+05376 = { id = "7105376", name = "Santa Cruz", lat = 43.19597, lon = -5.777545, gtfs = "Santa Cruz", checked = "2026-11-19", local = true }
+05377 = { id = "7105377", name = "Caborana", lat = 43.176117, lon = -5.754863, gtfs = "Caborana", checked = "2026-11-19", local = true }
+05379 = { id = "7105379", name = "Moreda de Aller", lat = 43.170792, lon = -5.741962, gtfs = "Moreda de Aller", checked = "2026-11-19", local = true }
+05380 = { id = "7105380", name = "San Antonio", lat = 43.168851, lon = -5.696707, gtfs = "San Antonio", checked = "2026-11-19", local = true }
+05381 = { id = "7105381", name = "Oyanco", lat = 43.166553, lon = -5.722151, gtfs = "Oyanco", checked = "2026-11-19", local = true }
+05382 = { id = "7105382", name = "Corigos", lat = 43.164287, lon = -5.676651, gtfs = "Corigos", checked = "2026-11-19", local = true }
+05383 = { id = "7105383", name = "Piñeres", lat = 43.165973, lon = -5.684254, gtfs = "Piñeres", checked = "2026-11-19", local = true }
+05384 = { id = "7105384", name = "Santa Ana-Soto", lat = 43.16478, lon = -5.6461, gtfs = "Santa Ana-Soto", checked = "2026-11-19", local = true }
+05385 = { id = "7105385", name = "Cabañaquinta", lat = 43.16077, lon = -5.624899, gtfs = "Cabañaquinta", checked = "2026-11-19", local = true }
+05387 = { id = "7105387", name = "Levinco", lat = 43.151108, lon = -5.600294, gtfs = "Levinco", checked = "2026-11-19", local = true }
+05389 = { id = "7105389", name = "Collanzo", lat = 43.1241, lon = -5.566154, gtfs = "Collanzo", checked = "2026-11-19", local = true }
+05403 = { id = "7105403", name = "Tremañes-Langreo", lat = 43.528544, lon = -5.694868, gtfs = "Tremañes-Langreo", checked = "2026-11-19", local = true }
+05405 = { id = "7105405", name = "Sotiello", lat = 43.507239, lon = -5.726542, gtfs = "Sotiello", checked = "2026-11-19", local = true }
+05407 = { id = "7105407", name = "Pinzales", lat = 43.486541, lon = -5.719704, gtfs = "Pinzales", checked = "2026-11-19", local = true }
+05409 = { id = "7105409", name = "Aguda", lat = 43.46552, lon = -5.726021, gtfs = "Aguda", checked = "2026-11-19", local = true }
+05410 = { id = "7105410", name = "Xixún", lat = 43.371452, lon = -5.693868, gtfs = "Xixún", checked = "2026-11-19", local = true }
+05411 = { id = "7105411", name = "La Florida", lat = 43.434759, lon = -5.709927, gtfs = "La Florida", checked = "2026-11-19", local = true }
+05412 = { id = "7105412", name = "Puente Buracos", lat = 43.448048, lon = -5.717266, gtfs = "Puente Buracos", checked = "2026-11-19", local = true }
+05413 = { id = "7105413", name = "Noreña", lat = 43.393978, lon = -5.703627, gtfs = "Noreña", checked = "2026-11-19", local = true }
+05415 = { id = "7105415", name = "Bendición", lat = 43.363475, lon = -5.680585, gtfs = "Bendición", checked = "2026-11-19", local = true }
+05416 = { id = "7105416", name = "Valdesoto", lat = 43.35835, lon = -5.658147, gtfs = "Valdesoto", checked = "2026-11-19", local = true }
+05417 = { id = "7105417", name = "Carbayín", lat = 43.350721, lon = -5.634335, gtfs = "Carbayín", checked = "2026-11-19", local = true }
+05420 = { id = "7105420", name = "Curuxona", lat = 43.339815, lon = -5.630476, gtfs = "Curuxona", checked = "2026-11-19", local = true }
+05421 = { id = "7105421", name = "Tuilla", lat = 43.328151, lon = -5.643077, gtfs = "Tuilla", checked = "2026-11-19", local = true }
+05426 = { id = "7105426", name = "La Felguera N. Langreo-N. Llangréu", lat = 43.305459, lon = -5.688896, gtfs = "La Felguera N. Langreo-N. Llangréu", checked = "2026-11-19", local = true }
+05427 = { id = "7105427", name = "Sama los Llerones", lat = 43.296706, lon = -5.680359, gtfs = "Sama los Llerones", checked = "2026-11-19", local = true }
+05431 = { id = "7105431", name = "Ciaño Escobio", lat = 43.290724, lon = -5.6679, gtfs = "Ciaño Escobio", checked = "2026-11-19", local = true }
+05432 = { id = "7105432", name = "San Vicente", lat = 43.289142, lon = -5.652933, gtfs = "San Vicente", checked = "2026-11-19", local = true }
+05433 = { id = "7105433", name = "El Entrego-La Oscura", lat = 43.28951, lon = -5.64081, gtfs = "El Entrego-La Oscura", checked = "2026-11-19", local = true }
+05435 = { id = "7105435", name = "Carrocera", lat = 43.287734, lon = -5.626376, gtfs = "Carrocera", checked = "2026-11-19", local = true }
+05436 = { id = "7105436", name = "San Martín", lat = 43.278376, lon = -5.615292, gtfs = "San Martín", checked = "2026-11-19", local = true }
+05437 = { id = "7105437", name = "Sotrondio", lat = 43.275925, lon = -5.60489, gtfs = "Sotrondio", checked = "2026-11-19", local = true }
+05439 = { id = "7105439", name = "Blimea", lat = 43.270881, lon = -5.590331, gtfs = "Blimea", checked = "2026-11-19", local = true }
+05441 = { id = "7105441", name = "Barredos", lat = 43.259889, lon = -5.574993, gtfs = "Barredos", checked = "2026-11-19", local = true }
+05443 = { id = "7105443", name = "Laviana", lat = 43.250816, lon = -5.564669, gtfs = "Laviana", checked = "2026-11-19", local = true }
 05451 = { id = "7146471", name = "Bilbao Abando", lat = 43.260974, lon = -2.926618, p = 32, d = 89, gtfs = "Bilbao la Concordia" }
 05455 = { id = "7146472", name = "Bilbao Hospital/Ospitalea", lat = 43.259724, lon = -2.951114, p = 32, d = 220, gtfs = "Basurto Hospital" }
-05457 = { id = "", gtfs = "Zorrotza Zorrozgoiti", checked = "2026-11-19" }
-05459 = { id = "", gtfs = "Santa Águeda", checked = "2026-11-19" }
-05460 = { id = "", gtfs = "Kastrexana", checked = "2026-11-19" }
-05461 = { id = "", gtfs = "Irauregui", checked = "2026-11-19" }
-05463 = { id = "", gtfs = "Zaramillo", checked = "2026-11-19" }
-05465 = { id = "", gtfs = "La Quadra", checked = "2026-11-19" }
-05467 = { id = "", gtfs = "Sodupe", checked = "2026-11-19" }
-05469 = { id = "", gtfs = "Artxube", checked = "2026-11-19" }
-05470 = { id = "", gtfs = "Lambarri", checked = "2026-11-19" }
-05471 = { id = "", gtfs = "Güeñes", checked = "2026-11-19" }
-05473 = { id = "", gtfs = "Aranguren", checked = "2026-11-19" }
-05474 = { id = "", gtfs = "Aranguren-Apeadero", checked = "2026-11-19" }
-05475 = { id = "", gtfs = "Zalla", checked = "2026-11-19" }
-05477 = { id = "", gtfs = "Colegio", checked = "2026-11-19" }
-05479 = { id = "", gtfs = "Ibarra", checked = "2026-11-19" }
-05481 = { id = "", gtfs = "La Herrera", checked = "2026-11-19" }
-05483 = { id = "", gtfs = "Balmaseda", checked = "2026-11-19" }
-05484 = { id = "", gtfs = "Mimetiz", checked = "2026-11-19" }
-05485 = { id = "", gtfs = "La Calzada", checked = "2026-11-19" }
-05487 = { id = "", gtfs = "Traslaviña", checked = "2026-11-19" }
-05489 = { id = "", gtfs = "Artzentales", checked = "2026-11-19" }
-05493 = { id = "", gtfs = "Villaverde de Trucios", checked = "2026-11-19" }
-05497 = { id = "", gtfs = "Karrantza", checked = "2026-11-19" }
-05504 = { id = "", gtfs = "Parque Principado", checked = "2026-11-19" }
-05505 = { id = "", gtfs = "Colloto", checked = "2026-11-19" }
-05507 = { id = "", gtfs = "Meres", checked = "2026-11-19" }
-05508 = { id = "", gtfs = "Fonciello", checked = "2026-11-19" }
-05509 = { id = "", gtfs = "El Berrón", checked = "2026-11-19" }
-05511 = { id = "", gtfs = "La Carrera de Siero", checked = "2026-11-19" }
-05513 = { id = "", gtfs = "Pola de Siero", checked = "2026-11-19" }
-05515 = { id = "", gtfs = "Los Corros", checked = "2026-11-19" }
-05517 = { id = "", gtfs = "Lieres", checked = "2026-11-19" }
-05521 = { id = "", gtfs = "El Remedio", checked = "2026-11-19" }
-05522 = { id = "", gtfs = "Llames", checked = "2026-11-19" }
-05523 = { id = "", gtfs = "Nava", checked = "2026-11-19" }
-05525 = { id = "", gtfs = "Fuente Santa de Nava", checked = "2026-11-19" }
-05527 = { id = "", gtfs = "Ceceda", checked = "2026-11-19" }
-05529 = { id = "", gtfs = "Carancos", checked = "2026-11-19" }
-05531 = { id = "", gtfs = "Pintueles", checked = "2026-11-19" }
-05533 = { id = "", gtfs = "Infiesto", checked = "2026-11-19" }
-05534 = { id = "", gtfs = "Infiesto Apeadero", checked = "2026-11-19" }
-05535 = { id = "", gtfs = "Villamayor", checked = "2026-11-19" }
-05537 = { id = "", gtfs = "Sebares", checked = "2026-11-19" }
-05539 = { id = "", gtfs = "Soto de Dueñas", checked = "2026-11-19" }
-05541 = { id = "", gtfs = "Ozanes", checked = "2026-11-19" }
-05542 = { id = "", gtfs = "Policlínico", checked = "2026-11-19" }
-05543 = { id = "", gtfs = "Arriondas", checked = "2026-11-19" }
-05545 = { id = "", gtfs = "Fuentes", checked = "2026-11-19" }
-05547 = { id = "", gtfs = "Toraño", checked = "2026-11-19" }
-05549 = { id = "", gtfs = "Cuevas", checked = "2026-11-19" }
-05551 = { id = "", gtfs = "Llovio", checked = "2026-11-19" }
-05553 = { id = "", gtfs = "Ribadesella", checked = "2026-11-19" }
-05555 = { id = "", gtfs = "Camango", checked = "2026-11-19" }
-05557 = { id = "", gtfs = "Belmonte de Pría", checked = "2026-11-19" }
-05559 = { id = "", gtfs = "Nueva", checked = "2026-11-19" }
-05561 = { id = "", gtfs = "Villahormes", checked = "2026-11-19" }
-05563 = { id = "", gtfs = "Posada", checked = "2026-11-19" }
-05565 = { id = "", gtfs = "Balmori", checked = "2026-11-19" }
-05567 = { id = "", gtfs = "Celorio", checked = "2026-11-19" }
-05569 = { id = "", gtfs = "Poo", checked = "2026-11-19" }
-05571 = { id = "", gtfs = "Llanes", checked = "2026-11-19" }
-05573 = { id = "", gtfs = "San Roque del Acebal", checked = "2026-11-19" }
-05575 = { id = "", gtfs = "Vidiago", checked = "2026-11-19" }
-05577 = { id = "", gtfs = "Pendueles", checked = "2026-11-19" }
-05579 = { id = "", gtfs = "Colombres", checked = "2026-11-19" }
+05457 = { id = "7105457", name = "Zorrotza Zorrozgoiti", lat = 43.27404, lon = -2.974012, gtfs = "Zorrotza Zorrozgoiti", checked = "2026-11-19", local = true }
+05459 = { id = "7105459", name = "Santa Águeda", lat = 43.261857, lon = -2.973022, gtfs = "Santa Águeda", checked = "2026-11-19", local = true }
+05460 = { id = "7105460", name = "Kastrexana", lat = 43.255476, lon = -2.972145, gtfs = "Kastrexana", checked = "2026-11-19", local = true }
+05461 = { id = "7105461", name = "Irauregui", lat = 43.248418, lon = -2.990073, gtfs = "Irauregui", checked = "2026-11-19", local = true }
+05463 = { id = "7105463", name = "Zaramillo", lat = 43.233289, lon = -3.015904, gtfs = "Zaramillo", checked = "2026-11-19", local = true }
+05465 = { id = "7105465", name = "La Quadra", lat = 43.222723, lon = -3.024985, gtfs = "La Quadra", checked = "2026-11-19", local = true }
+05467 = { id = "7105467", name = "Sodupe", lat = 43.20203, lon = -3.050517, gtfs = "Sodupe", checked = "2026-11-19", local = true }
+05469 = { id = "7105469", name = "Artxube", lat = 43.200993, lon = -3.071503, gtfs = "Artxube", checked = "2026-11-19", local = true }
+05470 = { id = "7105470", name = "Lambarri", lat = 43.206073, lon = -3.082511, gtfs = "Lambarri", checked = "2026-11-19", local = true }
+05471 = { id = "7105471", name = "Güeñes", lat = 43.209028, lon = -3.095211, gtfs = "Güeñes", checked = "2026-11-19", local = true }
+05473 = { id = "7105473", name = "Aranguren", lat = 43.210456, lon = -3.108399, gtfs = "Aranguren", checked = "2026-11-19", local = true }
+05474 = { id = "7105474", name = "Aranguren-Apeadero", lat = 43.210352, lon = -3.11405, gtfs = "Aranguren-Apeadero", checked = "2026-11-19", local = true }
+05475 = { id = "7105475", name = "Zalla", lat = 43.21291, lon = -3.133337, gtfs = "Zalla", checked = "2026-11-19", local = true }
+05477 = { id = "7105477", name = "Colegio", lat = 43.211267, lon = -3.138141, gtfs = "Colegio", checked = "2026-11-19", local = true }
+05479 = { id = "7105479", name = "Ibarra", lat = 43.203959, lon = -3.144839, gtfs = "Ibarra", checked = "2026-11-19", local = true }
+05481 = { id = "7105481", name = "La Herrera", lat = 43.203452, lon = -3.170569, gtfs = "La Herrera", checked = "2026-11-19", local = true }
+05483 = { id = "7105483", name = "Balmaseda", lat = 43.196355, lon = -3.189956, gtfs = "Balmaseda", checked = "2026-11-19", local = true }
+05484 = { id = "7105484", name = "Mimetiz", lat = 43.215814, lon = -3.131255, gtfs = "Mimetiz", checked = "2026-11-19", local = true }
+05485 = { id = "7105485", name = "La Calzada", lat = 43.190115, lon = -3.197406, gtfs = "La Calzada", checked = "2026-11-19", local = true }
+05487 = { id = "7105487", name = "Traslaviña", lat = 43.23329, lon = -3.198304, gtfs = "Traslaviña", checked = "2026-11-19", local = true }
+05489 = { id = "7105489", name = "Artzentales", lat = 43.235508, lon = -3.213358, gtfs = "Artzentales", checked = "2026-11-19", local = true }
+05493 = { id = "7105493", name = "Villaverde de Trucios", lat = 43.24128, lon = -3.25054, gtfs = "Villaverde de Trucios", checked = "2026-11-19", local = true }
+05497 = { id = "7105497", name = "Karrantza", lat = 43.238854, lon = -3.357827, gtfs = "Karrantza", checked = "2026-11-19", local = true }
+05504 = { id = "7105504", name = "Parque Principado", lat = 43.386586, lon = -5.808797, gtfs = "Parque Principado", checked = "2026-11-19", local = true }
+05505 = { id = "7105505", name = "Colloto", lat = 43.379509, lon = -5.792366, gtfs = "Colloto", checked = "2026-11-19", local = true }
+05507 = { id = "7105507", name = "Meres", lat = 43.380989, lon = -5.748721, gtfs = "Meres", checked = "2026-11-19", local = true }
+05508 = { id = "7105508", name = "Fonciello", lat = 43.381778, lon = -5.729719, gtfs = "Fonciello", checked = "2026-11-19", local = true }
+05509 = { id = "7105509", name = "El Berrón", lat = 43.382738, lon = -5.702677, gtfs = "El Berrón", checked = "2026-11-19", local = true }
+05511 = { id = "7105511", name = "La Carrera de Siero", lat = 43.386921, lon = -5.675346, gtfs = "La Carrera de Siero", checked = "2026-11-19", local = true }
+05513 = { id = "7105513", name = "Pola de Siero", lat = 43.388153, lon = -5.664772, gtfs = "Pola de Siero", checked = "2026-11-19", local = true }
+05515 = { id = "7105515", name = "Los Corros", lat = 43.376843, lon = -5.601377, gtfs = "Los Corros", checked = "2026-11-19", local = true }
+05517 = { id = "7105517", name = "Lieres", lat = 43.380583, lon = -5.582623, gtfs = "Lieres", checked = "2026-11-19", local = true }
+05521 = { id = "7105521", name = "El Remedio", lat = 43.375079, lon = -5.546239, gtfs = "El Remedio", checked = "2026-11-19", local = true }
+05522 = { id = "7105522", name = "Llames", lat = 43.36878, lon = -5.52524, gtfs = "Llames", checked = "2026-11-19", local = true }
+05523 = { id = "7105523", name = "Nava", lat = 43.361188, lon = -5.509099, gtfs = "Nava", checked = "2026-11-19", local = true }
+05525 = { id = "7105525", name = "Fuente Santa de Nava", lat = 43.35557, lon = -5.478379, gtfs = "Fuente Santa de Nava", checked = "2026-11-19", local = true }
+05527 = { id = "7105527", name = "Ceceda", lat = 43.356223, lon = -5.451109, gtfs = "Ceceda", checked = "2026-11-19", local = true }
+05529 = { id = "7105529", name = "Carancos", lat = 43.355569, lon = -5.434442, gtfs = "Carancos", checked = "2026-11-19", local = true }
+05531 = { id = "7105531", name = "Pintueles", lat = 43.359923, lon = -5.384132, gtfs = "Pintueles", checked = "2026-11-19", local = true }
+05533 = { id = "7105533", name = "Infiesto", lat = 43.351787, lon = -5.369202, gtfs = "Infiesto", checked = "2026-11-19", local = true }
+05534 = { id = "7105534", name = "Infiesto Apeadero", lat = 43.344041, lon = -5.360641, gtfs = "Infiesto Apeadero", checked = "2026-11-19", local = true }
+05535 = { id = "7105535", name = "Villamayor", lat = 43.3631, lon = -5.30285, gtfs = "Villamayor", checked = "2026-11-19", local = true }
+05537 = { id = "7105537", name = "Sebares", lat = 43.36236, lon = -5.2574, gtfs = "Sebares", checked = "2026-11-19", local = true }
+05539 = { id = "7105539", name = "Soto de Dueñas", lat = 43.3583, lon = -5.22689, gtfs = "Soto de Dueñas", checked = "2026-11-19", local = true }
+05541 = { id = "7105541", name = "Ozanes", lat = 43.368395, lon = -5.185191, gtfs = "Ozanes", checked = "2026-11-19", local = true }
+05542 = { id = "7105542", name = "Policlínico", lat = 43.378622, lon = -5.18603, gtfs = "Policlínico", checked = "2026-11-19", local = true }
+05543 = { id = "7105543", name = "Arriondas", lat = 43.387513, lon = -5.188258, gtfs = "Arriondas", checked = "2026-11-19", local = true }
+05545 = { id = "7105545", name = "Fuentes", lat = 43.401443, lon = -5.143117, gtfs = "Fuentes", checked = "2026-11-19", local = true }
+05547 = { id = "7105547", name = "Toraño", lat = 43.412281, lon = -5.118013, gtfs = "Toraño", checked = "2026-11-19", local = true }
+05549 = { id = "7105549", name = "Cuevas", lat = 43.431144, lon = -5.073302, gtfs = "Cuevas", checked = "2026-11-19", local = true }
+05551 = { id = "7105551", name = "Llovio", lat = 43.440563, lon = -5.055592, gtfs = "Llovio", checked = "2026-11-19", local = true }
+05553 = { id = "7105553", name = "Ribadesella", lat = 43.45945, lon = -5.0545, gtfs = "Ribadesella", checked = "2026-11-19", local = true }
+05555 = { id = "7105555", name = "Camango", lat = 43.44821, lon = -5.01882, gtfs = "Camango", checked = "2026-11-19", local = true }
+05557 = { id = "7105557", name = "Belmonte de Pría", lat = 43.4398, lon = -4.98228, gtfs = "Belmonte de Pría", checked = "2026-11-19", local = true }
+05559 = { id = "7105559", name = "Nueva", lat = 43.440585, lon = -4.935531, gtfs = "Nueva", checked = "2026-11-19", local = true }
+05561 = { id = "7105561", name = "Villahormes", lat = 43.44201, lon = -4.90383, gtfs = "Villahormes", checked = "2026-11-19", local = true }
+05563 = { id = "7105563", name = "Posada", lat = 43.42483, lon = -4.865, gtfs = "Posada", checked = "2026-11-19", local = true }
+05565 = { id = "7105565", name = "Balmori", lat = 43.42147, lon = -4.83583, gtfs = "Balmori", checked = "2026-11-19", local = true }
+05567 = { id = "7105567", name = "Celorio", lat = 43.42501, lon = -4.81133, gtfs = "Celorio", checked = "2026-11-19", local = true }
+05569 = { id = "7105569", name = "Poo", lat = 43.42429, lon = -4.78189, gtfs = "Poo", checked = "2026-11-19", local = true }
+05571 = { id = "7105571", name = "Llanes", lat = 43.42094, lon = -4.7587, gtfs = "Llanes", checked = "2026-11-19", local = true }
+05573 = { id = "7105573", name = "San Roque del Acebal", lat = 43.39473, lon = -4.73013, gtfs = "San Roque del Acebal", checked = "2026-11-19", local = true }
+05575 = { id = "7105575", name = "Vidiago", lat = 43.39647, lon = -4.673, gtfs = "Vidiago", checked = "2026-11-19", local = true }
+05577 = { id = "7105577", name = "Pendueles", lat = 43.39283, lon = -4.63039, gtfs = "Pendueles", checked = "2026-11-19", local = true }
+05579 = { id = "7105579", name = "Colombres", lat = 43.38272, lon = -4.55709, gtfs = "Colombres", checked = "2026-11-19", local = true }
 05602 = { id = "7114230", name = "Valdecilla", lat = 43.454035, lon = -3.82767, p = 16, d = 130, gtfs = "Valdecilla la Marga" }
-05603 = { id = "", gtfs = "Cazoña", checked = "2026-11-19" }
-05604 = { id = "", gtfs = "Adarzo", checked = "2026-11-19" }
-05605 = { id = "", gtfs = "Bezana", checked = "2026-11-19" }
-05607 = { id = "", gtfs = "Mortera", checked = "2026-11-19" }
-05609 = { id = "", gtfs = "Boo de Piélagos", checked = "2026-11-19" }
-05611 = { id = "", gtfs = "Mogro", checked = "2026-11-19" }
-05613 = { id = "", gtfs = "Gornazo", checked = "2026-11-19" }
-05615 = { id = "", gtfs = "Mar", checked = "2026-11-19" }
-05617 = { id = "", gtfs = "Requejada", checked = "2026-11-19" }
-05619 = { id = "", gtfs = "Barreda", checked = "2026-11-19" }
-05620 = { id = "", gtfs = "Altamira", checked = "2026-11-19" }
-05621 = { id = "", gtfs = "Torrelavega-Centro", checked = "2026-11-19" }
-05622 = { id = "", gtfs = "Ganzo", checked = "2026-11-19" }
-05623 = { id = "", gtfs = "Puente San Miguel", checked = "2026-11-19" }
-05625 = { id = "", gtfs = "Santa Isabel de Quijas", checked = "2026-11-19" }
-05627 = { id = "", gtfs = "San Pedro de Rudagüera", checked = "2026-11-19" }
-05629 = { id = "", gtfs = "Golbardo", checked = "2026-11-19" }
-05631 = { id = "", gtfs = "Casar de Periedo", checked = "2026-11-19" }
-05633 = { id = "", gtfs = "Virgen de la Peña", checked = "2026-11-19" }
-05635 = { id = "", gtfs = "Ontoria", checked = "2026-11-19" }
-05637 = { id = "", gtfs = "Cabezón de la Sal", checked = "2026-11-19" }
-05641 = { id = "", gtfs = "Treceño", checked = "2026-11-19" }
-05643 = { id = "", gtfs = "Roiz", checked = "2026-11-19" }
-05644 = { id = "", gtfs = "El Barcenal", checked = "2026-11-19" }
-05645 = { id = "", gtfs = "San Vicente de la Barquera", checked = "2026-11-19" }
-05647 = { id = "", gtfs = "Pesués", checked = "2026-11-19" }
-05649 = { id = "", gtfs = "Unquera", checked = "2026-11-19" }
-05651 = { id = "", gtfs = "Nueva Montaña", checked = "2026-11-19" }
-05652 = { id = "", gtfs = "Valle Real", checked = "2026-11-19" }
+05603 = { id = "7105603", name = "Cazoña", lat = 43.455154, lon = -3.841164, gtfs = "Cazoña", checked = "2026-11-19", local = true }
+05604 = { id = "7105604", name = "Adarzo", lat = 43.453472, lon = -3.855904, gtfs = "Adarzo", checked = "2026-11-19", local = true }
+05605 = { id = "7105605", name = "Bezana", lat = 43.440855, lon = -3.899592, gtfs = "Bezana", checked = "2026-11-19", local = true }
+05607 = { id = "7105607", name = "Mortera", lat = 43.435234, lon = -3.918253, gtfs = "Mortera", checked = "2026-11-19", local = true }
+05609 = { id = "7105609", name = "Boo de Piélagos", lat = 43.431656, lon = -3.946311, gtfs = "Boo de Piélagos", checked = "2026-11-19", local = true }
+05611 = { id = "7105611", name = "Mogro", lat = 43.424893, lon = -3.960516, gtfs = "Mogro", checked = "2026-11-19", local = true }
+05613 = { id = "7105613", name = "Gornazo", lat = 43.409702, lon = -3.988603, gtfs = "Gornazo", checked = "2026-11-19", local = true }
+05615 = { id = "7105615", name = "Mar", lat = 43.398406, lon = -4.010006, gtfs = "Mar", checked = "2026-11-19", local = true }
+05617 = { id = "7105617", name = "Requejada", lat = 43.391418, lon = -4.028025, gtfs = "Requejada", checked = "2026-11-19", local = true }
+05619 = { id = "7105619", name = "Barreda", lat = 43.374283, lon = -4.041897, gtfs = "Barreda", checked = "2026-11-19", local = true }
+05620 = { id = "7105620", name = "Altamira", lat = 43.35192, lon = -4.05697, gtfs = "Altamira", checked = "2026-11-19", local = true }
+05621 = { id = "7105621", name = "Torrelavega-Centro", lat = 43.351001, lon = -4.051179, gtfs = "Torrelavega-Centro", checked = "2026-11-19", local = true }
+05622 = { id = "7105622", name = "Ganzo", lat = 43.356528, lon = -4.070227, gtfs = "Ganzo", checked = "2026-11-19", local = true }
+05623 = { id = "7105623", name = "Puente San Miguel", lat = 43.358672, lon = -4.087767, gtfs = "Puente San Miguel", checked = "2026-11-19", local = true }
+05625 = { id = "7105625", name = "Santa Isabel de Quijas", lat = 43.35901, lon = -4.111853, gtfs = "Santa Isabel de Quijas", checked = "2026-11-19", local = true }
+05627 = { id = "7105627", name = "San Pedro de Rudagüera", lat = 43.361159, lon = -4.149528, gtfs = "San Pedro de Rudagüera", checked = "2026-11-19", local = true }
+05629 = { id = "7105629", name = "Golbardo", lat = 43.340816, lon = -4.155628, gtfs = "Golbardo", checked = "2026-11-19", local = true }
+05631 = { id = "7105631", name = "Casar de Periedo", lat = 43.338784, lon = -4.174731, gtfs = "Casar de Periedo", checked = "2026-11-19", local = true }
+05633 = { id = "7105633", name = "Virgen de la Peña", lat = 43.323039, lon = -4.193484, gtfs = "Virgen de la Peña", checked = "2026-11-19", local = true }
+05635 = { id = "7105635", name = "Ontoria", lat = 43.315334, lon = -4.215422, gtfs = "Ontoria", checked = "2026-11-19", local = true }
+05637 = { id = "7105637", name = "Cabezón de la Sal", lat = 43.307904, lon = -4.231944, gtfs = "Cabezón de la Sal", checked = "2026-11-19", local = true }
+05641 = { id = "7105641", name = "Treceño", lat = 43.31828, lon = -4.30902, gtfs = "Treceño", checked = "2026-11-19", local = true }
+05643 = { id = "7105643", name = "Roiz", lat = 43.32821, lon = -4.34927, gtfs = "Roiz", checked = "2026-11-19", local = true }
+05644 = { id = "7105644", name = "El Barcenal", lat = 43.340347, lon = -4.383335, gtfs = "El Barcenal", checked = "2026-11-19", local = true }
+05645 = { id = "7105645", name = "San Vicente de la Barquera", lat = 43.367837, lon = -4.404504, gtfs = "San Vicente de la Barquera", checked = "2026-11-19", local = true }
+05647 = { id = "7105647", name = "Pesués", lat = 43.370289, lon = -4.480174, gtfs = "Pesués", checked = "2026-11-19", local = true }
+05649 = { id = "7105649", name = "Unquera", lat = 43.37478, lon = -4.51434, gtfs = "Unquera", checked = "2026-11-19", local = true }
+05651 = { id = "7105651", name = "Nueva Montaña", lat = 43.440184, lon = -3.849371, gtfs = "Nueva Montaña", checked = "2026-11-19", local = true }
+05652 = { id = "7105652", name = "Valle Real", lat = 43.42754, lon = -3.840538, gtfs = "Valle Real", checked = "2026-11-19", local = true }
 05655 = { id = "7114220", name = "Camargo (APD.)", lat = 43.416137, lon = -3.841855, p = 16, d = 62, gtfs = "Maliaño Vidriera" }
-05657 = { id = "", gtfs = "Astillero", checked = "2026-11-19" }
-05658 = { id = "", gtfs = "La Cantábrica", checked = "2026-11-19" }
-05659 = { id = "", gtfs = "San Salvador", checked = "2026-11-19" }
-05661 = { id = "", gtfs = "Heras", checked = "2026-11-19" }
-05663 = { id = "", gtfs = "Orejo", checked = "2026-11-19" }
-05665 = { id = "", gtfs = "Solares", checked = "2026-11-19" }
-05667 = { id = "", gtfs = "Ceceñas", checked = "2026-11-19" }
-05669 = { id = "", gtfs = "La Cavada", checked = "2026-11-19" }
-05671 = { id = "", gtfs = "Liérganes", checked = "2026-11-19" }
-05672 = { id = "", gtfs = "Puente Agüero", checked = "2026-11-19" }
-05673 = { id = "", gtfs = "Villaverde de Pontones", checked = "2026-11-19" }
-05675 = { id = "", gtfs = "Hoz de Anero", checked = "2026-11-19" }
-05677 = { id = "", gtfs = "Beranga", checked = "2026-11-19" }
-05679 = { id = "", gtfs = "Gama", checked = "2026-11-19" }
-05681 = { id = "", gtfs = "Cicero", checked = "2026-11-19" }
-05683 = { id = "", gtfs = "Treto", checked = "2026-11-19" }
-05685 = { id = "", gtfs = "Limpias", checked = "2026-11-19" }
-05687 = { id = "", gtfs = "Marrón", checked = "2026-11-19" }
-05689 = { id = "", gtfs = "Udalla", checked = "2026-11-19" }
-05691 = { id = "", gtfs = "Gibaja", checked = "2026-11-19" }
-05721 = { id = "", gtfs = "Arla Berrón", checked = "2026-11-19" }
-05722 = { id = "", gtfs = "Ungo Nava", checked = "2026-11-19" }
-05724 = { id = "", gtfs = "Mercadillo Villasana", checked = "2026-11-19" }
-05727 = { id = "", gtfs = "Cadagua", checked = "2026-11-19" }
-05730 = { id = "", gtfs = "Bercedo-Montija", checked = "2026-11-19" }
-05731 = { id = "", gtfs = "Quintana de los Prados", checked = "2026-11-19" }
-05732 = { id = "", gtfs = "Espinosa de los Monteros", checked = "2026-11-19" }
-05733 = { id = "", gtfs = "Redondo", checked = "2026-11-19" }
-05734 = { id = "", gtfs = "Sotoscueva", checked = "2026-11-19" }
-05735 = { id = "", gtfs = "Pedrosa", checked = "2026-11-19" }
-05736 = { id = "", gtfs = "Dosante Cidad", checked = "2026-11-19" }
-05737 = { id = "", gtfs = "Robredo Ahedo", checked = "2026-11-19" }
-05738 = { id = "", gtfs = "Soncillo", checked = "2026-11-19" }
-05739 = { id = "", gtfs = "Cabañas de Virtus", checked = "2026-11-19" }
-05740 = { id = "", gtfs = "Arija", checked = "2026-11-19" }
-05741 = { id = "", gtfs = "Llano", checked = "2026-11-19" }
-05742 = { id = "", gtfs = "Las Rozas de Valdearroyo", checked = "2026-11-19" }
-05743 = { id = "", gtfs = "Montes Claros", checked = "2026-11-19" }
-05744 = { id = "", gtfs = "Los Carabeos", checked = "2026-11-19" }
-05747 = { id = "", gtfs = "Cillamayor", checked = "2026-11-19" }
-05748 = { id = "", gtfs = "Salinas de Pisuerga", checked = "2026-11-19" }
-05749 = { id = "", gtfs = "Vado-Cervera", checked = "2026-11-19" }
-05750 = { id = "", gtfs = "Castrejón de la Peña", checked = "2026-11-19" }
-05751 = { id = "", gtfs = "Villaverde Tarilonte", checked = "2026-11-19" }
-05752 = { id = "", gtfs = "Santibáñez de la Peña", checked = "2026-11-19" }
-05753 = { id = "", gtfs = "Guardo Apeadero", checked = "2026-11-19" }
-05754 = { id = "", gtfs = "Guardo", checked = "2026-11-19" }
-05755 = { id = "", gtfs = "La Llama de la Guzpeña", checked = "2026-11-19" }
-05756 = { id = "", gtfs = "La Espina", checked = "2026-11-19" }
-05757 = { id = "", gtfs = "Valcuende", checked = "2026-11-19" }
-05758 = { id = "", gtfs = "Puente Almuhey", checked = "2026-11-19" }
-05759 = { id = "", gtfs = "Prado de la Guzpeña", checked = "2026-11-19" }
-05760 = { id = "", gtfs = "Valle de las Casas", checked = "2026-11-19" }
-05761 = { id = "", gtfs = "Cistierna", checked = "2026-11-19" }
-05762 = { id = "", gtfs = "Yugueros", checked = "2026-11-19" }
-05763 = { id = "", gtfs = "La Ercina", checked = "2026-11-19" }
-05764 = { id = "", gtfs = "Barrillos", checked = "2026-11-19" }
-05765 = { id = "", gtfs = "La Losilla", checked = "2026-11-19" }
-05766 = { id = "", gtfs = "Boñar", checked = "2026-11-19" }
-05767 = { id = "", gtfs = "La Vecilla", checked = "2026-11-19" }
-05768 = { id = "", gtfs = "Aviados", checked = "2026-11-19" }
-05769 = { id = "", gtfs = "La Valcueva", checked = "2026-11-19" }
-05770 = { id = "", gtfs = "Matallana", checked = "2026-11-19" }
-05771 = { id = "", gtfs = "Pardavé", checked = "2026-11-19" }
-05772 = { id = "", gtfs = "Pedrún", checked = "2026-11-19" }
-05773 = { id = "", gtfs = "Manzaneda", checked = "2026-11-19" }
-05774 = { id = "", gtfs = "Garrafe", checked = "2026-11-19" }
-05775 = { id = "", gtfs = "Palazuelo", checked = "2026-11-19" }
-05776 = { id = "", gtfs = "San Feliz", checked = "2026-11-19" }
-05777 = { id = "", gtfs = "Villaquilambre", checked = "2026-11-19" }
-05778 = { id = "", gtfs = "Feve-León", checked = "2026-11-19" }
-05785 = { id = "", gtfs = "Villasinta", checked = "2026-11-19" }
-05786 = { id = "", gtfs = "Matueca", checked = "2026-11-19" }
-05787 = { id = "", gtfs = "Naredo", checked = "2026-11-19" }
-05788 = { id = "", gtfs = "Robles", checked = "2026-11-19" }
-05789 = { id = "", gtfs = "Campohermoso", checked = "2026-11-19" }
-05790 = { id = "", gtfs = "Sorriba", checked = "2026-11-19" }
-05793 = { id = "", gtfs = "La Mata de la Riba", checked = "2026-11-19" }
-05794 = { id = "", gtfs = "La Raya", checked = "2026-11-19" }
-05795 = { id = "", gtfs = "Otero", checked = "2026-11-19" }
-05796 = { id = "", gtfs = "Villa Romana", checked = "2026-11-19" }
-05797 = { id = "", gtfs = "Valdepiélago", checked = "2026-11-19" }
-05798 = { id = "", gtfs = "La Devesa", checked = "2026-11-19" }
-05799 = { id = "", gtfs = "Cerezal de la Guzpeña", checked = "2026-11-19" }
-05803 = { id = "", gtfs = "La Asunción Universidad", checked = "2026-11-19" }
-05805 = { id = "", gtfs = "Barrio de las Ollas", checked = "2026-11-19" }
-05807 = { id = "", gtfs = "Valderilla", checked = "2026-11-19" }
+05657 = { id = "7105657", name = "Astillero", lat = 43.403651, lon = -3.82068, gtfs = "Astillero", checked = "2026-11-19", local = true }
+05658 = { id = "7105658", name = "La Cantábrica", lat = 43.397366, lon = -3.814968, gtfs = "La Cantábrica", checked = "2026-11-19", local = true }
+05659 = { id = "7105659", name = "San Salvador", lat = 43.393766, lon = -3.803854, gtfs = "San Salvador", checked = "2026-11-19", local = true }
+05661 = { id = "7105661", name = "Heras", lat = 43.4009, lon = -3.766638, gtfs = "Heras", checked = "2026-11-19", local = true }
+05663 = { id = "7105663", name = "Orejo", lat = 43.399478, lon = -3.738397, gtfs = "Orejo", checked = "2026-11-19", local = true }
+05665 = { id = "7105665", name = "Solares", lat = 43.387247, lon = -3.731383, gtfs = "Solares", checked = "2026-11-19", local = true }
+05667 = { id = "7105667", name = "Ceceñas", lat = 43.376492, lon = -3.718192, gtfs = "Ceceñas", checked = "2026-11-19", local = true }
+05669 = { id = "7105669", name = "La Cavada", lat = 43.350614, lon = -3.707078, gtfs = "La Cavada", checked = "2026-11-19", local = true }
+05671 = { id = "7105671", name = "Liérganes", lat = 43.345075, lon = -3.742645, gtfs = "Liérganes", checked = "2026-11-19", local = true }
+05672 = { id = "7105672", name = "Puente Agüero", lat = 43.406489, lon = -3.719342, gtfs = "Puente Agüero", checked = "2026-11-19", local = true }
+05673 = { id = "7105673", name = "Villaverde de Pontones", lat = 43.411322, lon = -3.703643, gtfs = "Villaverde de Pontones", checked = "2026-11-19", local = true }
+05675 = { id = "7105675", name = "Hoz de Anero", lat = 43.404885, lon = -3.666883, gtfs = "Hoz de Anero", checked = "2026-11-19", local = true }
+05677 = { id = "7105677", name = "Beranga", lat = 43.41371, lon = -3.57713, gtfs = "Beranga", checked = "2026-11-19", local = true }
+05679 = { id = "7105679", name = "Gama", lat = 43.42315, lon = -3.52472, gtfs = "Gama", checked = "2026-11-19", local = true }
+05681 = { id = "7105681", name = "Cicero", lat = 43.417052, lon = -3.49049, gtfs = "Cicero", checked = "2026-11-19", local = true }
+05683 = { id = "7105683", name = "Treto", lat = 43.39409, lon = -3.4692, gtfs = "Treto", checked = "2026-11-19", local = true }
+05685 = { id = "7105685", name = "Limpias", lat = 43.35881, lon = -3.43334, gtfs = "Limpias", checked = "2026-11-19", local = true }
+05687 = { id = "7105687", name = "Marrón", lat = 43.34661, lon = -3.420918, gtfs = "Marrón", checked = "2026-11-19", local = true }
+05689 = { id = "7105689", name = "Udalla", lat = 43.31368, lon = -3.44549, gtfs = "Udalla", checked = "2026-11-19", local = true }
+05691 = { id = "7105691", name = "Gibaja", lat = 43.28219, lon = -3.43831, gtfs = "Gibaja", checked = "2026-11-19", local = true }
+05721 = { id = "7105721", name = "Arla Berrón", lat = 43.166699, lon = -3.227589, gtfs = "Arla Berrón", checked = "2026-11-19", local = true }
+05722 = { id = "7105722", name = "Ungo Nava", lat = 43.142894, lon = -3.264716, gtfs = "Ungo Nava", checked = "2026-11-19", local = true }
+05724 = { id = "7105724", name = "Mercadillo Villasana", lat = 43.105209, lon = -3.264469, gtfs = "Mercadillo Villasana", checked = "2026-11-19", local = true }
+05727 = { id = "7105727", name = "Cadagua", lat = 43.068171, lon = -3.347339, gtfs = "Cadagua", checked = "2026-11-19", local = true }
+05730 = { id = "7105730", name = "Bercedo-Montija", lat = 43.088479, lon = -3.456, gtfs = "Bercedo-Montija", checked = "2026-11-19", local = true }
+05731 = { id = "7105731", name = "Quintana de los Prados", lat = 43.08, lon = -3.51, gtfs = "Quintana de los Prados", checked = "2026-11-19", local = true }
+05732 = { id = "7105732", name = "Espinosa de los Monteros", lat = 43.074252, lon = -3.537116, gtfs = "Espinosa de los Monteros", checked = "2026-11-19", local = true }
+05733 = { id = "7105733", name = "Redondo", lat = 43.062993, lon = -3.607895, gtfs = "Redondo", checked = "2026-11-19", local = true }
+05734 = { id = "7105734", name = "Sotoscueva", lat = 43.045292, lon = -3.688253, gtfs = "Sotoscueva", checked = "2026-11-19", local = true }
+05735 = { id = "7105735", name = "Pedrosa", lat = 43.012367, lon = -3.737852, gtfs = "Pedrosa", checked = "2026-11-19", local = true }
+05736 = { id = "7105736", name = "Dosante Cidad", lat = 43.00125, lon = -3.74525, gtfs = "Dosante Cidad", checked = "2026-11-19", local = true }
+05737 = { id = "7105737", name = "Robredo Ahedo", lat = 43.019094, lon = -3.809231, gtfs = "Robredo Ahedo", checked = "2026-11-19", local = true }
+05738 = { id = "7105738", name = "Soncillo", lat = 43.005809, lon = -3.844888, gtfs = "Soncillo", checked = "2026-11-19", local = true }
+05739 = { id = "7105739", name = "Cabañas de Virtus", lat = 42.996397, lon = -3.858466, gtfs = "Cabañas de Virtus", checked = "2026-11-19", local = true }
+05740 = { id = "7105740", name = "Arija", lat = 42.991292, lon = -3.945006, gtfs = "Arija", checked = "2026-11-19", local = true }
+05741 = { id = "7105741", name = "Llano", lat = 42.988062, lon = -3.982357, gtfs = "Llano", checked = "2026-11-19", local = true }
+05742 = { id = "7105742", name = "Las Rozas de Valdearroyo", lat = 42.973605, lon = -4.029864, gtfs = "Las Rozas de Valdearroyo", checked = "2026-11-19", local = true }
+05743 = { id = "7105743", name = "Montes Claros", lat = 42.934323, lon = -4.050073, gtfs = "Montes Claros", checked = "2026-11-19", local = true }
+05744 = { id = "7105744", name = "Los Carabeos", lat = 42.910329, lon = -4.075211, gtfs = "Los Carabeos", checked = "2026-11-19", local = true }
+05747 = { id = "7105747", name = "Cillamayor", lat = 42.857752, lon = -4.279178, gtfs = "Cillamayor", checked = "2026-11-19", local = true }
+05748 = { id = "7105748", name = "Salinas de Pisuerga", lat = 42.851271, lon = -4.386209, gtfs = "Salinas de Pisuerga", checked = "2026-11-19", local = true }
+05749 = { id = "7105749", name = "Vado-Cervera", lat = 42.83936, lon = -4.49477, gtfs = "Vado-Cervera", checked = "2026-11-19", local = true }
+05750 = { id = "7105750", name = "Castrejón de la Peña", lat = 42.81199, lon = -4.60162, gtfs = "Castrejón de la Peña", checked = "2026-11-19", local = true }
+05751 = { id = "7105751", name = "Villaverde Tarilonte", lat = 42.818353, lon = -4.685419, gtfs = "Villaverde Tarilonte", checked = "2026-11-19", local = true }
+05752 = { id = "7105752", name = "Santibáñez de la Peña", lat = 42.80204, lon = -4.74145, gtfs = "Santibáñez de la Peña", checked = "2026-11-19", local = true }
+05753 = { id = "7105753", name = "Guardo Apeadero", lat = 42.787738, lon = -4.845133, gtfs = "Guardo Apeadero", checked = "2026-11-19", local = true }
+05754 = { id = "7105754", name = "Guardo", lat = 42.790995, lon = -4.851932, gtfs = "Guardo", checked = "2026-11-19", local = true }
+05755 = { id = "7105755", name = "La Llama de la Guzpeña", lat = 42.770248, lon = -5.041248, gtfs = "La Llama de la Guzpeña", checked = "2026-11-19", local = true }
+05756 = { id = "7105756", name = "La Espina", lat = 42.786856, lon = -4.905202, gtfs = "La Espina", checked = "2026-11-19", local = true }
+05757 = { id = "7105757", name = "Valcuende", lat = 42.765578, lon = -4.929256, gtfs = "Valcuende", checked = "2026-11-19", local = true }
+05758 = { id = "7105758", name = "Puente Almuhey", lat = 42.787632, lon = -4.971899, gtfs = "Puente Almuhey", checked = "2026-11-19", local = true }
+05759 = { id = "7105759", name = "Prado de la Guzpeña", lat = 42.783235, lon = -5.027097, gtfs = "Prado de la Guzpeña", checked = "2026-11-19", local = true }
+05760 = { id = "7105760", name = "Valle de las Casas", lat = 42.767772, lon = -5.071367, gtfs = "Valle de las Casas", checked = "2026-11-19", local = true }
+05761 = { id = "7105761", name = "Cistierna", lat = 42.80316, lon = -5.130793, gtfs = "Cistierna", checked = "2026-11-19", local = true }
+05762 = { id = "7105762", name = "Yugueros", lat = 42.80979, lon = -5.180063, gtfs = "Yugueros", checked = "2026-11-19", local = true }
+05763 = { id = "7105763", name = "La Ercina", lat = 42.808848, lon = -5.213892, gtfs = "La Ercina", checked = "2026-11-19", local = true }
+05764 = { id = "7105764", name = "Barrillos", lat = 42.812368, lon = -5.283115, gtfs = "Barrillos", checked = "2026-11-19", local = true }
+05765 = { id = "7105765", name = "La Losilla", lat = 42.838544, lon = -5.318161, gtfs = "La Losilla", checked = "2026-11-19", local = true }
+05766 = { id = "7105766", name = "Boñar", lat = 42.862787, lon = -5.328526, gtfs = "Boñar", checked = "2026-11-19", local = true }
+05767 = { id = "7105767", name = "La Vecilla", lat = 42.855116, lon = -5.412116, gtfs = "La Vecilla", checked = "2026-11-19", local = true }
+05768 = { id = "7105768", name = "Aviados", lat = 42.854777, lon = -5.44284, gtfs = "Aviados", checked = "2026-11-19", local = true }
+05769 = { id = "7105769", name = "La Valcueva", lat = 42.849665, lon = -5.486909, gtfs = "La Valcueva", checked = "2026-11-19", local = true }
+05770 = { id = "7105770", name = "Matallana", lat = 42.841149, lon = -5.521872, gtfs = "Matallana", checked = "2026-11-19", local = true }
+05771 = { id = "7105771", name = "Pardavé", lat = 42.80635, lon = -5.508189, gtfs = "Pardavé", checked = "2026-11-19", local = true }
+05772 = { id = "7105772", name = "Pedrún", lat = 42.790898, lon = -5.506948, gtfs = "Pedrún", checked = "2026-11-19", local = true }
+05773 = { id = "7105773", name = "Manzaneda", lat = 42.75429, lon = -5.516556, gtfs = "Manzaneda", checked = "2026-11-19", local = true }
+05774 = { id = "7105774", name = "Garrafe", lat = 42.734508, lon = -5.524156, gtfs = "Garrafe", checked = "2026-11-19", local = true }
+05775 = { id = "7105775", name = "Palazuelo", lat = 42.707126, lon = -5.533781, gtfs = "Palazuelo", checked = "2026-11-19", local = true }
+05776 = { id = "7105776", name = "San Feliz", lat = 42.682311, lon = -5.537909, gtfs = "San Feliz", checked = "2026-11-19", local = true }
+05777 = { id = "7105777", name = "Villaquilambre", lat = 42.646866, lon = -5.554038, gtfs = "Villaquilambre", checked = "2026-11-19", local = true }
+05778 = { id = "7105778", name = "Feve-León", lat = 42.602492, lon = -5.574934, gtfs = "Feve-León", checked = "2026-11-19", local = true }
+05785 = { id = "7105785", name = "Villasinta", lat = 42.657582, lon = -5.549281, gtfs = "Villasinta", checked = "2026-11-19", local = true }
+05786 = { id = "7105786", name = "Matueca", lat = 42.77154, lon = -5.511948, gtfs = "Matueca", checked = "2026-11-19", local = true }
+05787 = { id = "7105787", name = "Naredo", lat = 42.833651, lon = -5.523178, gtfs = "Naredo", checked = "2026-11-19", local = true }
+05788 = { id = "7105788", name = "Robles", lat = 42.840737, lon = -5.507316, gtfs = "Robles", checked = "2026-11-19", local = true }
+05789 = { id = "7105789", name = "Campohermoso", lat = 42.855935, lon = -5.428745, gtfs = "Campohermoso", checked = "2026-11-19", local = true }
+05790 = { id = "7105790", name = "Sorriba", lat = 42.786277, lon = -5.127476, gtfs = "Sorriba", checked = "2026-11-19", local = true }
+05793 = { id = "7105793", name = "La Mata de la Riba", lat = 42.858541, lon = -5.33949, gtfs = "La Mata de la Riba", checked = "2026-11-19", local = true }
+05794 = { id = "7105794", name = "La Raya", lat = 42.638111, lon = -5.556981, gtfs = "La Raya", checked = "2026-11-19", local = true }
+05795 = { id = "7105795", name = "Otero", lat = 42.859571, lon = -5.389967, gtfs = "Otero", checked = "2026-11-19", local = true }
+05796 = { id = "7105796", name = "Villa Romana", lat = 42.629204, lon = -5.561306, gtfs = "Villa Romana", checked = "2026-11-19", local = true }
+05797 = { id = "7105797", name = "Valdepiélago", lat = 42.864964, lon = -5.403219, gtfs = "Valdepiélago", checked = "2026-11-19", local = true }
+05798 = { id = "7105798", name = "La Devesa", lat = 42.820127, lon = -5.302192, gtfs = "La Devesa", checked = "2026-11-19", local = true }
+05799 = { id = "7105799", name = "Cerezal de la Guzpeña", lat = 42.779774, lon = -5.005572, gtfs = "Cerezal de la Guzpeña", checked = "2026-11-19", local = true }
+05803 = { id = "7105803", name = "La Asunción Universidad", lat = 42.616098, lon = -5.566099, gtfs = "La Asunción Universidad", checked = "2026-11-19", local = true }
+05805 = { id = "7105805", name = "Barrio de las Ollas", lat = 42.864645, lon = -5.334481, gtfs = "Barrio de las Ollas", checked = "2026-11-19", local = true }
+05807 = { id = "7105807", name = "Valderilla", lat = 42.718774, lon = -5.530001, gtfs = "Valderilla", checked = "2026-11-19", local = true }
 05951 = { id = "7100053", name = "Cartagena", lat = 37.605024, lon = -0.974763, p = 4, d = 275, gtfs = "Cartagena-Plaza Bastarreche" }
-05952 = { id = "", gtfs = "Estación de tren Hospital", checked = "2026-11-19" }
-05953 = { id = "", gtfs = "Media Legua", checked = "2026-11-19" }
-05955 = { id = "", gtfs = "Vista Alegre", checked = "2026-11-19" }
-05957 = { id = "", gtfs = "Abrevadero", checked = "2026-11-19" }
-05959 = { id = "", gtfs = "Alumbres", checked = "2026-11-19" }
-05961 = { id = "", gtfs = "La Esperanza", checked = "2026-11-19" }
-05963 = { id = "", gtfs = "La Unión Vieja", checked = "2026-11-19" }
-05965 = { id = "", gtfs = "La Unión", checked = "2026-11-19" }
-05967 = { id = "", gtfs = "Sierra Minera", checked = "2026-11-19" }
-05969 = { id = "", gtfs = "Llano del Beal", checked = "2026-11-19" }
-05971 = { id = "", gtfs = "El Estrecho", checked = "2026-11-19" }
-05973 = { id = "", gtfs = "Nietos Viejos", checked = "2026-11-19" }
-05975 = { id = "", gtfs = "Los Nietos Pescadería", checked = "2026-11-19" }
-05977 = { id = "", gtfs = "Los Nietos", checked = "2026-11-19" }
+05952 = { id = "7105952", name = "Estación de tren Hospital", lat = 37.605219, lon = -0.960732, gtfs = "Estación de tren Hospital", checked = "2026-11-19", local = true }
+05953 = { id = "7105953", name = "Media Legua", lat = 37.607883, lon = -0.953652, gtfs = "Media Legua", checked = "2026-11-19", local = true }
+05955 = { id = "7105955", name = "Vista Alegre", lat = 37.609313, lon = -0.943759, gtfs = "Vista Alegre", checked = "2026-11-19", local = true }
+05957 = { id = "7105957", name = "Abrevadero", lat = 37.609702, lon = -0.931828, gtfs = "Abrevadero", checked = "2026-11-19", local = true }
+05959 = { id = "7105959", name = "Alumbres", lat = 37.609932, lon = -0.914841, gtfs = "Alumbres", checked = "2026-11-19", local = true }
+05961 = { id = "7105961", name = "La Esperanza", lat = 37.613763, lon = -0.891441, gtfs = "La Esperanza", checked = "2026-11-19", local = true }
+05963 = { id = "7105963", name = "La Unión Vieja", lat = 37.615467, lon = -0.881632, gtfs = "La Unión Vieja", checked = "2026-11-19", local = true }
+05965 = { id = "7105965", name = "La Unión", lat = 37.615549, lon = -0.875132, gtfs = "La Unión", checked = "2026-11-19", local = true }
+05967 = { id = "7105967", name = "Sierra Minera", lat = 37.619878, lon = -0.864882, gtfs = "Sierra Minera", checked = "2026-11-19", local = true }
+05969 = { id = "7105969", name = "Llano del Beal", lat = 37.626047, lon = -0.836212, gtfs = "Llano del Beal", checked = "2026-11-19", local = true }
+05971 = { id = "7105971", name = "El Estrecho", lat = 37.627608, lon = -0.829592, gtfs = "El Estrecho", checked = "2026-11-19", local = true }
+05973 = { id = "7105973", name = "Nietos Viejos", lat = 37.646913, lon = -0.791514, gtfs = "Nietos Viejos", checked = "2026-11-19", local = true }
+05975 = { id = "7105975", name = "Los Nietos Pescadería", lat = 37.649351, lon = -0.787856, gtfs = "Los Nietos Pescadería", checked = "2026-11-19", local = true }
+05977 = { id = "7105977", name = "Los Nietos", lat = 37.65183, lon = -0.79708, gtfs = "Los Nietos", checked = "2026-11-19", local = true }
 06002 = { id = "7100501", name = "Alhama de Murcia", lat = 37.849351, lon = -1.414453, p = 4, d = 8, gtfs = "Alhama de Murcia" }
 06003 = { id = "7100502", name = "Totana", lat = 37.763099, lon = -1.495571, p = 4, d = 49, gtfs = "Totana" }
 06006 = { id = "7100208", name = "Lorca-Sutullena", lat = 37.671688, lon = -1.696264, p = 4, d = 47, gtfs = "Lorca-Sutullena" }
