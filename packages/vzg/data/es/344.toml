@@ -1,0 +1,65 @@
+id = "344"
+ref = "344"
+name = "344 - Gandia - Silla"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 51.642
+length = 51.642
+speeds = [[0, 2.966, 120, 120], [2.966, 20.544, 140, 140], [20.544, 21.275, "", ""], [21.275, 51.642, 140, 140]]
+curves = [[1, 1.525, 1310], [1.675, 2.275, 660], [2.5, 2.95, 580], [8.875, 9.25, 1050], [10.75, 10.875, 1520], [17.4, 17.725, 1770], [20.25, 20.45, 1270], [21.175, 21.225, 2440], [21.275, 21.325, 2640], [24.85, 25.25, 520], [25.35, 25.5, 1390], [25.95, 26.3, 600], [26.95, 28.175, 1520], [38.15, 38.75, 490], [39.475, 40.275, 570], [40.6, 40.825, 1270], [45.1, 45.375, 970], [45.85, 46, 1550], [46.175, 46.525, 910], [46.6, 46.925, 880], [47.725, 48, 1250], [48.175, 48.675, 580], [48.95, 49.1, 1610], [50.225, 50.475, 1150], [51.1, 51.525, 470]]
+points = [
+  { km = 0.34, kind = "station", label = "Silla", pos = [39.36175, -0.41494] },
+  { km = 7.383, kind = "stop", label = "el Romaní", pos = [39.30296, -0.39407] },
+  { km = 10.403, kind = "station", label = "Sollana", pos = [39.27928, -0.37906] },
+  { km = 20.678, kind = "station", label = "Sueca", pos = [39.2058, -0.30799] },
+  { km = 25.758, kind = "station", label = "Cullera", pos = [39.17794, -0.26349] },
+  { km = 37.611, kind = "station", label = "Tavernes de la Valldigna", pos = [39.07899, -0.22614] },
+  { km = 44.095, kind = "station", label = "Xeraco", pos = [39.02621, -0.21498] },
+  { km = 51.399, kind = "station", label = "Gandia", pos = [38.97035, -0.18006] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.823, kmTo = 1.836, length = 13 },
+  { kind = "bridge", kmFrom = 9.46, kmTo = 9.538, length = 78 },
+  { kind = "bridge", kmFrom = 9.863, kmTo = 9.923, length = 59 },
+  { kind = "bridge", kmFrom = 10.852, kmTo = 10.871, length = 19 },
+  { kind = "bridge", kmFrom = 11.427, kmTo = 11.472, length = 45 },
+  { kind = "bridge", kmFrom = 11.625, kmTo = 11.884, length = 258 },
+  { kind = "bridge", kmFrom = 12.158, kmTo = 12.216, length = 58 },
+  { kind = "bridge", kmFrom = 12.426, kmTo = 12.458, length = 32 },
+  { kind = "bridge", kmFrom = 12.935, kmTo = 13.042, length = 106 },
+  { kind = "bridge", kmFrom = 13.163, kmTo = 13.26, length = 97 },
+  { kind = "bridge", kmFrom = 14.75, kmTo = 14.769, length = 18 },
+  { kind = "bridge", kmFrom = 26.226, kmTo = 26.247, length = 21 },
+  { kind = "bridge", kmFrom = 26.265, kmTo = 26.377, length = 112 },
+  { kind = "bridge", kmFrom = 31.542, kmTo = 31.597, length = 54 },
+  { kind = "bridge", kmFrom = 34.233, kmTo = 34.249, length = 15 },
+  { kind = "bridge", kmFrom = 38.828, kmTo = 38.845, length = 17 },
+  { kind = "bridge", kmFrom = 41.235, kmTo = 41.246, length = 10 },
+  { kind = "bridge", kmFrom = 42.577, kmTo = 42.607, length = 30 },
+  { kind = "tunnel", kmFrom = 42.935, kmTo = 43.838, length = 903 },
+  { kind = "bridge", kmFrom = 50.191, kmTo = 50.23, length = 39 },
+  { kind = "tunnel", kmFrom = 50.742, kmTo = 51.642, length = 900 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ujgoFvzoAht@xT~GvAtKf@dQcBxGkBzFiE`EiGvMoZdFuExFqB", v = 120 },
+  { line = "_yboFtynA|}HmyBhJiE|kAsmAf~HqbGzI{Kj|A}zBbDiFjEyJ", v = 140 },
+  { line = "ynhnFxj{@rUgk@" },
+  { line = "exgnFp~y@jmBcyE~D{G`FeDjOsDn\\kDbE@zFjBjc@|VjK|DrHtAxJh@`IOjIgAhM}DhlBov@vfA}d@z`AgZjSyHj_DydBtwAwh@vI{@~C`@xD|AlD~Cdc@di@tGbDdFZxNwCbWiRbEwBtoB{t@", v = 140 },
+  { line = "wegmFp{i@pn@{U", tunnel = true, v = 140 },
+  { line = "evemFtdi@xbAu_@nGwDbX}ZdOgUxEeEdL{GnF_Gfb@qn@rMy^nGiHrGgCbRoEnaAmK~HStQhA", v = 140 },
+  { line = "wo{lFxfb@pVrA`F[zHsGdCmG", tunnel = true, v = 140 },
+]
+posts = [[0, 39.36443, -0.41404], [1, 39.35585, -0.41755], [2, 39.34715, -0.41642], [3, 39.34083, -0.40865], [4, 39.3322, -0.40538], [5, 39.32358, -0.40205], [6, 39.31497, -0.39873], [7, 39.30634, -0.39542], [8, 39.29773, -0.39209], [9, 39.28913, -0.3887], [10, 39.28195, -0.38175], [11, 39.27484, -0.37466], [12, 39.26723, -0.36847], [13, 39.25961, -0.36229], [14, 39.252, -0.3561], [15, 39.24439, -0.34993], [16, 39.23677, -0.34376], [17, 39.22915, -0.33758], [18, 39.22207, -0.33053], [19, 39.21579, -0.32222], [20, 39.20953, -0.31389], [21, 39.20413, -0.30466], [22, 39.19919, -0.29497], [23, 39.19427, -0.28525], [24, 39.18936, -0.27553], [25, 39.18434, -0.26592], [26, 39.17573, -0.26311], [27, 39.16753, -0.26753], [28, 39.15874, -0.26857], [29, 39.15033, -0.26448], [30, 39.14196, -0.26024], [31, 39.13362, -0.25592], [32, 39.12526, -0.25165], [33, 39.11668, -0.24817], [34, 39.10847, -0.24347], [35, 39.10042, -0.2383], [36, 39.09238, -0.23312], [37, 39.08414, -0.22849], [38, 39.07568, -0.22459], [39, 39.06778, -0.22723], [40, 39.06029, -0.23246], [41, 39.05227, -0.2274], [42, 39.04384, -0.22336], [43, 39.03541, -0.21934], [44, 39.02698, -0.21531], [45, 39.01856, -0.21123], [46, 39.01142, -0.2044], [47, 39.00449, -0.19722], [48, 38.99854, -0.18859], [49, 38.99165, -0.18226], [50, 38.98276, -0.18055], [51, 38.97381, -0.18074]]
+
+[[connections]]
+km = 0.34
+station = "Silla"
+lines = [
+  { id = "320", ref = "320", name = "Línea Chinchilla-Cartagena", km = 926.067 },
+]

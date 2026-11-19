@@ -1,0 +1,61 @@
+id = "192"
+ref = "192"
+name = "Variante Mercancías Valladolid"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 26.436
+length = 26.436
+speeds = [[0, 0.68, 110, 110], [0.68, 26.436, "", ""]]
+curves = [[0.15, 0.475, 1440], [1.775, 2.075, 2210], [2.4, 2.65, 1440], [2.875, 3.475, 1350], [5.3, 6.05, 2060], [10.675, 11.775, 1370], [12, 12.075, 2560], [12.2, 12.475, 1260], [12.925, 13.15, 1310], [13.3, 13.375, 2000], [13.525, 13.7, 210], [13.775, 13.875, 1920], [14.025, 14.225, 1120], [14.675, 14.95, 1250], [15.075, 15.15, 2320], [15.25, 15.3, 2750], [15.4, 16.45, 1340], [21.1, 21.875, 2050], [23.675, 24.3, 1360], [24.475, 24.75, 1540], [25.075, 25.375, 2240]]
+points = []
+structures = [
+  { kind = "tunnel", kmFrom = 0.584, kmTo = 0.68, length = 96 },
+  { kind = "tunnel", kmFrom = 1.394, kmTo = 1.522, length = 128 },
+  { kind = "bridge", kmFrom = 1.842, kmTo = 1.884, length = 42 },
+  { kind = "bridge", kmFrom = 2.172, kmTo = 2.253, length = 82 },
+  { kind = "bridge", kmFrom = 6.536, kmTo = 6.584, length = 49 },
+  { kind = "bridge", kmFrom = 6.728, kmTo = 6.783, length = 55 },
+  { kind = "bridge", kmFrom = 7.358, kmTo = 7.5, length = 143 },
+  { kind = "bridge", kmFrom = 8.422, kmTo = 8.503, length = 81 },
+  { kind = "tunnel", kmFrom = 10.294, kmTo = 10.46, length = 166 },
+  { kind = "tunnel", kmFrom = 11.108, kmTo = 11.166, length = 58 },
+  { kind = "tunnel", kmFrom = 11.259, kmTo = 13.447, length = 2188 },
+  { kind = "tunnel", kmFrom = 13.71, kmTo = 15.896, length = 2185 },
+  { kind = "tunnel", kmFrom = 15.987, kmTo = 16.045, length = 58 },
+  { kind = "tunnel", kmFrom = 16.694, kmTo = 16.86, length = 166 },
+  { kind = "bridge", kmFrom = 18.649, kmTo = 18.73, length = 81 },
+  { kind = "bridge", kmFrom = 19.651, kmTo = 19.794, length = 143 },
+  { kind = "bridge", kmFrom = 20.37, kmTo = 20.424, length = 54 },
+  { kind = "bridge", kmFrom = 20.567, kmTo = 20.616, length = 49 },
+  { kind = "bridge", kmFrom = 24.898, kmTo = 24.979, length = 82 },
+  { kind = "bridge", kmFrom = 25.262, kmTo = 25.304, length = 42 },
+  { kind = "tunnel", kmFrom = 25.63, kmTo = 25.758, length = 128 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "akr}F~mn[~LbHpOdE", v = 110 },
+  { line = "olq}Fh}n[hDp@", tunnel = true, v = 110 },
+  { line = "egq}Fz~n[df@pJ" },
+  { line = "_`p}Fljo[~EbA", tunnel = true },
+  { line = "_yo}Fplo[bV`Et^vAzYzF`N^tIy@hhB{]hQu@`Nr@hoA~TjTbGtKlEru@l_@ly@jf@" },
+  { line = "m_a}Fzir[hGrD", tunnel = true },
+  { line = "cw`}Fnor[hR~LfJdK" },
+  { line = "qx_}Ftis[fAdB", tunnel = true },
+  { line = "iv_}Fzls[jBhD" },
+  { line = "}r_}Fdrs[|GhRjB`LnFdf@~AbH|Nrd@vFn_@", tunnel = true },
+  { line = "md~|F~hx[z@pHcAmH" },
+  { line = "ud~|Fbix[wFo_@}Nsd@_BcHoFef@kBaL{GeR", tunnel = true },
+  { line = "cs_}Flrs[iBgD" },
+  { line = "mv_}Fdms[iAeB", tunnel = true },
+  { line = "wx_}F~is[gJiKgR}L" },
+  { line = "gw`}Fvor[iGsD", tunnel = true },
+  { line = "q_a}Fbjr[ky@kf@i}@oc@kYmIioA_U_Ns@iQt@ceB~\\{LtAcN_@yY{Fw^uAcVcE" },
+  { line = "ayo}Fzlo[_FcA", tunnel = true },
+  { line = "a`p}Fvjo[ed@_J" },
+]
+posts = [[0, 41.71457, -4.66672], [1, 41.70602, -4.67025], [2, 41.69721, -4.67266], [3, 41.68834, -4.67429], [4, 41.67948, -4.67273], [5, 41.6707, -4.67013], [6, 41.6618, -4.66926], [7, 41.65299, -4.67166], [8, 41.64431, -4.67475], [9, 41.63608, -4.67959], [10, 41.62802, -4.68493], [11, 41.62018, -4.69077], [12, 41.61606, -4.70115], [13, 41.61232, -4.71201], [14, 41.61187, -4.71378], [15, 41.61575, -4.70298], [16, 41.61919, -4.69207], [17, 41.62681, -4.68581], [18, 41.63485, -4.68041], [19, 41.64306, -4.67551], [20, 41.65166, -4.67209], [21, 41.66047, -4.66965], [22, 41.66937, -4.66978], [23, 41.67815, -4.67239], [24, 41.68698, -4.6745], [25, 41.69586, -4.67283], [26, 41.70469, -4.67068]]

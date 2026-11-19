@@ -1,0 +1,86 @@
+id = "900"
+ref = "900"
+name = "Túnel de la Risa I"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.617
+length = 7.617
+speeds = [[0, 0.037, 50, 50], [0.037, 0.329, "", ""], [0.329, 0.691, 50, 50], [0.691, 2.883, 60, 60], [2.883, 3.544, 40, 40], [3.544, 5.641, 60, 60], [5.641, 5.961, 40, 40], [5.961, 7.37, 60, 60], [7.37, 7.617, 30, 30]]
+curves = [[0.125, 0.25, 50], [0.35, 0.5, 780], [0.65, 1.075, 720], [1.3, 1.55, 950], [2.175, 2.475, 880], [2.775, 3.025, 570], [3.45, 3.625, 750], [3.95, 4.15, 1040], [4.25, 4.7, 640], [5.5, 5.675, 1510], [6, 6.45, 1740], [6.525, 6.7, 950], [7.05, 7.175, 1570], [7.35, 7.5, 410]]
+points = [
+  { km = 0.199, kind = "station", label = "Madrid-Chamartín-Clara Campoamor", uic = "7117000", pos = [40.47206, -3.68226] },
+  { km = 0.568, kind = "station", label = "Duque de Pastrana", pos = [40.46748, -3.68059] },
+  { km = 2.414, kind = "station", label = "Santiago Bernabéu", pos = [40.45237, -3.69073] },
+  { km = 3.112, kind = "station", label = "Nuevos Ministerios", pos = [40.44501, -3.69197] },
+  { km = 3.147, kind = "stop", label = "Nuevos Ministerios - Vía 3", pos = [40.44555, -3.69207] },
+  { km = 3.994, kind = "station", label = "Gregorio Marañón", pos = [40.43799, -3.69121] },
+  { km = 4.596, kind = "station", label = "Rubén Darío", pos = [40.43304, -3.68969] },
+  { km = 5.436, kind = "station", label = "Colón", pos = [40.4258, -3.69204] },
+  { km = 5.795, kind = "station", label = "Recoletos", pos = [40.4225, -3.6917] },
+  { km = 5.801, kind = "stop", label = "Recoletos (Vía 1)", pos = [40.42244, -3.6917] },
+  { km = 6.223, kind = "station", label = "Banco de España", pos = [40.41905, -3.69493] },
+  { km = 7.356, kind = "station", label = "Estación del Arte", pos = [40.40884, -3.69147] },
+  { km = 7.617, kind = "station", label = "Atocha", pos = [40.40697, -3.6886] },
+  { km = 7.617, kind = "station", label = "Atocha-Cercanías", pos = [40.40597, -3.68877] },
+  { km = 7.617, kind = "station", label = "Madrid-Puerta de Atocha-Almudena Grandes", uic = "7160000", pos = [40.40568, -3.69002] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.538, kmTo = 7.617, length = 7080 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}d_vFvknU`AA", v = 50 },
+  { line = "{b_vFtknU}GaAdF^" },
+  { line = "sd_vFrjnUtJK", v = 50 },
+  { line = "}x~uFfjnUnGk@", tunnel = true, v = 50 },
+  { line = "mp~uFzhnUxDAdGrAvXpOll@vLvDnBbV~Q", tunnel = true, v = 60 },
+  { line = "k~zuFf`pUzDn@b^bA", tunnel = true, v = 40 },
+  { line = "kyyuFzcpUjYsHdQgJbGw@|Hj@~q@lL", tunnel = true, v = 60 },
+  { line = "wgvuF`|oU~O~F", tunnel = true, v = 40 },
+  { line = "wvuuF`dpUfNhDpRhArZ}EvMkE", tunnel = true, v = 60 },
+  { line = "qisuFj~oUfEeCnCyE", tunnel = true, v = 30 },
+]
+posts = [[0, 40.46943, -3.68332], [1, 40.46345, -3.68352], [2, 40.45501, -3.68733], [3, 40.44686, -3.69197], [4, 40.43803, -3.69088], [5, 40.42943, -3.68952], [6, 40.42075, -3.69248], [7, 40.41191, -3.69266]]
+
+[[connections]]
+km = 0.199
+station = "Madrid-Chamartín-Clara Campoamor"
+lines = [
+  { id = "080", ref = "080", name = "Línea de Alta Velocidad Madrid-Segovia–Valladolid-Burgos", km = 0.187 },
+  { id = "100", ref = "100", name = "Madril-Hendaia trenbidea", km = 639.384 },
+]
+
+[[connections]]
+km = 0.568
+station = "Duque de Pastrana"
+lines = [
+  { id = "040", ref = "040", name = "Línea de Alta Velocidad Madrid - Cuenca - Valencia", km = 0.069 },
+]
+
+[[connections]]
+km = 7.356
+station = "Estación del Arte"
+lines = [
+  { id = "920", ref = "920", name = "Línea Móstoles-Parla", km = 5.97 },
+]
+
+[[connections]]
+km = 7.617
+station = "Atocha-Cercanías"
+lines = [
+  { id = "930", ref = "930", name = "Línea Madrid Atocha-San Fernando de Henares", km = 0 },
+]
+
+[[connections]]
+km = 7.617
+station = "Madrid-Puerta de Atocha-Almudena Grandes"
+lines = [
+  { id = "040", ref = "040", name = "Línea de Alta Velocidad Madrid - Cuenca - Valencia", km = 7.176 },
+  { id = "920", ref = "920", name = "Línea Móstoles-Parla", km = 5.693 },
+]

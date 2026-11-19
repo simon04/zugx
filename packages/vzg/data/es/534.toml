@@ -1,0 +1,25 @@
+id = "534"
+ref = "534"
+name = "Línea Bifurcación El Chaparral-Arroyo de la Herrera"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.29
+length = 5.29
+speeds = [[0, 2.726, 85, 85], [2.726, 5.29, 200, 200]]
+curves = [[0.15, 2, 800]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 3.29, kmTo = 3.481, length = 192 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{xzrFjuod@mMmJuEeAaGDoF`BsEzDeD`G}AnGaApIi@dNz@rSpDzR~O`k@", v = 85 },
+  { line = "gw{rFvosd@nOfb@fNpZdv@tuA", v = 200 },
+]
+posts = [[0, 39.9555, -6.14758], [1, 39.96328, -6.1482], [2, 39.96328, -6.15955], [3, 39.95911, -6.16994], [4, 39.95389, -6.17948], [5, 39.94812, -6.18848]]

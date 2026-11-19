@@ -1,0 +1,96 @@
+id = "336"
+ref = "336"
+name = "Línea El Reguerón-Alicante"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 71.62
+length = 71.62
+speeds = [[0, 0.188, 40, 40], [0.188, 0.338, 50, 50], [0.338, 0.738, 60, 60], [0.738, 2.185, 80, 80], [2.185, 2.287, "", ""], [2.287, 3.255, 50, 50], [3.255, 3.296, "", ""], [3.296, 3.454, 50, 50], [3.454, 6.362, 95, 95], [6.362, 17.127, 180, 180], [17.127, 17.268, "", ""], [17.268, 20.334, 180, 180], [20.334, 24.535, 80, 80], [24.535, 25.507, 120, 120], [25.507, 25.57, 180, 180], [25.57, 29.392, 120, 120], [29.392, 29.446, "", ""], [29.446, 33.213, 180, 180], [33.213, 35.14, "", ""], [35.14, 50.881, 180, 180], [50.881, 71.62, 160, 160]]
+curves = [[0.1, 0.75, 380], [2.575, 3.5, 350], [3.575, 3.775, 1330], [5.65, 5.7, 2190], [6.1, 6.825, 510], [6.925, 7.15, 800], [7.225, 7.375, 1120], [9.15, 9.35, 810], [9.425, 9.65, 830], [9.725, 9.85, 1960], [10.975, 11.1, 1400], [12.275, 12.525, 960], [16.275, 16.325, 2810], [16.525, 16.575, 2630], [16.975, 17.15, 1950], [18.35, 18.4, 2820], [22.325, 22.375, 2110], [22.75, 23.025, 1310], [23.1, 23.25, 1710], [23.325, 23.475, 1010], [23.625, 23.725, 1820], [24.3, 24.425, 1690], [24.825, 24.925, 1140], [25.2, 25.575, 690], [26.3, 26.875, 620], [26.975, 27.25, 1150], [27.35, 27.725, 590], [28.2, 28.4, 710], [28.675, 28.725, 2230], [28.775, 28.975, 770], [29.45, 29.825, 560], [30.875, 30.925, 2180], [31.175, 31.525, 1420], [32.075, 32.425, 560], [32.65, 33.025, 840], [33.45, 33.625, 1520], [33.9, 34.175, 2080], [34.4, 34.625, 1650], [34.85, 34.95, 1700], [35.075, 35.175, 1770], [35.325, 35.9, 1090], [40.975, 41.15, 1590], [41.25, 41.575, 1770], [41.925, 42, 2810], [42.275, 42.575, 1510], [42.7, 42.9, 1520], [46.45, 46.875, 1200], [50.45, 50.55, 2170], [50.675, 50.925, 1620], [60.175, 60.775, 2450], [60.825, 61, 2660], [61.075, 61.225, 2330], [61.3, 61.45, 2760], [62.9, 63.025, 2470], [63.45, 63.525, 2660], [63.575, 64.05, 2510], [64.1, 64.625, 2470], [67.15, 67.225, 2890], [69.35, 69.45, 2770], [69.55, 69.725, 2770], [69.85, 69.95, 2350], [70.075, 70.275, 2770], [70.375, 70.425, 2820]]
+points = [
+  { km = 3.454, kind = "halt", label = "Sant Gabriel", pos = [38.32906, -0.50862] },
+  { km = 3.531, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.144, kind = "station", label = "Torrellano", pos = [38.28965, -0.58276] },
+  { km = 18.622, kind = "station", label = "Gabinete de Circulación Elx Mercaderíes", pos = [38.27865, -0.65554] },
+  { km = 22.162, kind = "stop", label = "Elx-Parc", pos = [38.27207, -0.69521] },
+  { km = 23.199, kind = "station", label = "Elx Carrús", pos = [38.26904, -0.7063] },
+  { km = 23.203, kind = "stop", label = "Elx-Carrús", pos = [38.26922, -0.70647] },
+  { km = 31.845, kind = "stop", label = "Crevillent", pos = [38.22455, -0.78113] },
+  { km = 40.22, kind = "stop", label = "San Isidro-Albatera-Catral", pos = [38.16725, -0.83835] },
+  { km = 46.124, kind = "stop", label = "Callosa de Segura", pos = [38.12284, -0.87414] },
+  { km = 54.013, kind = "stop", label = "Orihuela - Miguel Hernández", pos = [38.07827, -0.94364] },
+  { km = 59.723, kind = "stop", label = "Beniel", pos = [38.04701, -0.99529] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0, kmTo = 0.188, length = 188 },
+  { kind = "tunnel", kmFrom = 1.64, kmTo = 1.757, length = 117 },
+  { kind = "bridge", kmFrom = 2.185, kmTo = 2.287, length = 101 },
+  { kind = "tunnel", kmFrom = 2.64, kmTo = 2.878, length = 237 },
+  { kind = "bridge", kmFrom = 4.988, kmTo = 5.077, length = 89 },
+  { kind = "tunnel", kmFrom = 17.127, kmTo = 17.268, length = 141 },
+  { kind = "bridge", kmFrom = 19.14, kmTo = 19.223, length = 83 },
+  { kind = "bridge", kmFrom = 19.643, kmTo = 19.704, length = 61 },
+  { kind = "tunnel", kmFrom = 20.334, kmTo = 22.492, length = 2158 },
+  { kind = "bridge", kmFrom = 22.492, kmTo = 22.597, length = 105 },
+  { kind = "tunnel", kmFrom = 22.597, kmTo = 24.535, length = 1938 },
+  { kind = "bridge", kmFrom = 25.507, kmTo = 25.57, length = 63 },
+  { kind = "bridge", kmFrom = 29.392, kmTo = 29.446, length = 54 },
+  { kind = "bridge", kmFrom = 30.012, kmTo = 30.022, length = 10 },
+  { kind = "bridge", kmFrom = 52.04, kmTo = 52.402, length = 362 },
+  { kind = "bridge", kmFrom = 53.124, kmTo = 53.166, length = 42 },
+  { kind = "tunnel", kmFrom = 53.549, kmTo = 54.335, length = 786 },
+  { kind = "bridge", kmFrom = 55.148, kmTo = 56.163, length = 1016 },
+  { kind = "bridge", kmFrom = 61.768, kmTo = 61.964, length = 196 },
+  { kind = "bridge", kmFrom = 65.281, kmTo = 65.32, length = 39 },
+  { kind = "bridge", kmFrom = 69.65, kmTo = 69.806, length = 156 },
+  { kind = "bridge", kmFrom = 70.747, kmTo = 71.118, length = 371 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wgaiFhtcBUhEb@zE", tunnel = true, v = 40 },
+  { line = "igaiFnadBx@zBrBdC", v = 50 },
+  { line = "{aaiFpidBdJrE~HC", v = 60 },
+  { line = "ul`iF`pdB`q@yH", v = 80 },
+  { line = "sz~hFffdBnEk@", tunnel = true, v = 80 },
+  { line = "ct~hFzddBvV{C", v = 80 },
+  { line = "k|}hF~_dBtDc@" },
+  { line = "uv}hFz~cBrR{B", v = 50 },
+  { line = "ac}hF~zcBhC{@rEgF", tunnel = true, v = 50 },
+  { line = "cx|hFzqcBxAuE^wDGeFu@{D", v = 50 },
+  { line = "gv|hFjxbBe@qA", tunnel = true },
+  { line = "mw|hFxubBkEyF", v = 50 },
+  { line = "y}|hF~mbBlKbH|g@jQvq@pQbg@|IzH`E", v = 95 },
+  { line = "ucxhF`mdBRV", tunnel = true, v = 95 },
+  { line = "acxhFxmdBbExGrBjJj@~TtD~SrLnqAvHhn@l@n[xBjO~M|sArIl_@bQrp@`B~Ilf@zmGbJnx@", v = 180 },
+  { line = "gtshF`v{B`@~H", tunnel = true },
+  { line = "esshF``|B~HntAtJtnA", v = 180 },
+  { line = "o}rhFfeaCBR", tunnel = true, v = 180 },
+  { line = "k}rhFzeaClGfq@", v = 180 },
+  { line = "}trhFbxbCjX`vC", tunnel = true, v = 80 },
+  { line = "q{qhFdogCf@hF", v = 80 },
+  { line = "izqhFnvgCxA`MfBvIrEbNxDlItJxMr\\t^xEvG", tunnel = true, v = 80 },
+  { line = "uwohFb`kC`MtOlHfMdF~KjA~H", v = 120 },
+  { line = "svnhF`vlCNnC", v = 180 },
+  { line = "cvnhFpzlC~Czu@|@dI|@vBlE~HxLbH|GzBrMlBvFjC|Y|_@rAxCrKz`@zBld@", v = 120 },
+  { line = "skkhFfksCLxB" },
+  { line = "ekkhF`osCl@hHbA`EnBjDd~@plA`CbFhP`h@jBdEbFdFtPdJvClCdEpHhErK", v = 180 },
+  { line = "cbghFvtyClIfUrHt[xCfIdIjRfNhT~FbL" },
+  { line = "ygehFvg}ClFdMzD|G~FnG`FjDvqCpzAtZvNzyAzv@`JlHzGtHvNtSrNvVtLjNj{D|fC~IrLbzBlbEfRh[", v = 180 },
+  { line = "kkogFdtqDpl@xzAxKnTvZdi@", v = 160 },
+  { line = "gulgFtovDx[ni@", tunnel = true, v = 160 },
+  { line = "mxkgFdzwDt{ArjCleB`zDlHjNxH~KpQtQ`SbMbjAhg@dh@pOtJzEtJrGtMzL~JpMl_AdyAdQt\\vGfQxEfPpGr[zSfuAxEdTlFhP`H|O|IjOhn@dz@", v = 160 },
+]
+posts = [[0, 38.3502, -0.51541], [1, 38.34354, -0.51939], [2, 38.33466, -0.51762], [3, 38.32673, -0.51377], [4, 38.32368, -0.51188], [5, 38.31511, -0.51533], [6, 38.30638, -0.51805], [7, 38.3016, -0.52615], [8, 38.29941, -0.53724], [9, 38.29736, -0.54839], [10, 38.29575, -0.55959], [11, 38.29378, -0.57077], [12, 38.29019, -0.58127], [13, 38.28776, -0.59222], [14, 38.28607, -0.60347], [15, 38.28443, -0.61473], [16, 38.28277, -0.626], [17, 38.28073, -0.63714], [18, 38.27937, -0.64847], [19, 38.27793, -0.65977], [20, 38.27612, -0.67099], [21, 38.27423, -0.68219], [22, 38.27237, -0.6934], [23, 38.27011, -0.70445], [24, 38.26418, -0.71291], [25, 38.25763, -0.72073], [26, 38.25478, -0.73122], [27, 38.25063, -0.74036], [28, 38.24289, -0.74545], [29, 38.2386, -0.75526], [30, 38.23551, -0.76552], [31, 38.22897, -0.77337], [32, 38.2239, -0.7827], [33, 38.21721, -0.7899], [34, 38.21301, -0.79999], [35, 38.20762, -0.80909], [36, 38.20129, -0.81691], [37, 38.19321, -0.82194], [38, 38.18514, -0.82699], [39, 38.17703, -0.83194], [40, 38.16892, -0.83688], [41, 38.16079, -0.84176], [42, 38.15394, -0.84905], [43, 38.14734, -0.85665], [44, 38.13948, -0.86221], [45, 38.13164, -0.86781], [46, 38.12381, -0.87344], [47, 38.11674, -0.88028], [48, 38.11111, -0.8892], [49, 38.10549, -0.89811], [50, 38.09987, -0.90703], [51, 38.0942, -0.91589], [52, 38.08948, -0.92561], [53, 38.08418, -0.93483], [54, 38.07835, -0.94353], [55, 38.07256, -0.95226], [56, 38.06674, -0.96098], [57, 38.06098, -0.96974], [58, 38.05589, -0.97916], [59, 38.0507, -0.98849], [60, 38.04561, -0.9979], [61, 38.03937, -1.00602], [62, 38.03129, -1.01099], [63, 38.02298, -1.01535], [64, 38.01457, -1.01929], [65, 38.0078, -1.02671], [66, 38.00176, -1.03516], [67, 37.99601, -1.04392], [68, 37.99218, -1.0542], [69, 37.98956, -1.06512], [70, 37.98586, -1.07546], [71, 37.97981, -1.08387]]
+
+[[connections]]
+km = 40.22
+station = "San Isidro-Albatera-Catral"
+lines = [
+  { id = "046", ref = "046", name = "Línea de alta velocidad Madrid-Levante", km = 32.06 },
+  { id = "320", ref = "320", name = "Línea Chinchilla-Cartagena", km = 56.751 },
+]

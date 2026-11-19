@@ -1,0 +1,57 @@
+id = "902"
+ref = "902"
+name = "Línea Pitis-Hortaleza"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 9.642
+length = 9.642
+speeds = [[0, 1.061, 100, 100], [1.061, 2.165, 95, 95], [2.165, 4.717, 100, 100], [4.717, 7.12, 70, 70], [7.12, 8.339, 50, 50], [8.339, 9.372, 65, 65], [9.372, 9.642, 85, 85]]
+curves = [[0.15, 0.625, 620], [1.125, 1.45, 580], [1.5, 1.95, 430], [2.1, 2.5, 680], [3.925, 4.125, 850], [4.7, 5.425, 410], [7.7, 8.025, 690], [8.15, 8.475, 830], [9, 9.15, 1360]]
+points = [
+  { km = 0.82, kind = "station", label = "Pitis", pos = [40.4953, -3.72559] },
+  { km = 6.595, kind = "station", label = "Fuencarral", pos = [40.49473, -3.69307] },
+  { km = 9.213, kind = "station", label = "Fuente de la Mora", pos = [40.48496, -3.66311] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.441, kmTo = 1.495, length = 54 },
+  { kind = "bridge", kmFrom = 1.581, kmTo = 1.624, length = 43 },
+  { kind = "bridge", kmFrom = 2.165, kmTo = 2.221, length = 56 },
+  { kind = "tunnel", kmFrom = 5.046, kmTo = 5.2, length = 155 },
+  { kind = "tunnel", kmFrom = 8.255, kmTo = 8.339, length = 83 },
+  { kind = "bridge", kmFrom = 9.346, kmTo = 9.372, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qwcvFnkxUAgSoAgI}CkG}RsX", v = 100 },
+  { line = "_sdvF~jvUmDoF_BaEaCcSuB_HeEeFeNaH", v = 95 },
+  { line = "qxevF`ptUyD_DoDiFyn@__BwLir@", v = 100 },
+  { line = "mahvFlpoUq@sJfA}J", v = 70 },
+  { line = "w`hvFzxnUzAeElAuA", tunnel = true, v = 70 },
+  { line = "m{gvF~onUxGqDjbAgQl[gH", v = 70 },
+  { line = "yrdvF|nmUjf@wLfEoDfJ{L", v = 50 },
+  { line = "}ybvFxmlU|AyC", tunnel = true, v = 50 },
+  { line = "_wbvF~hlU|A_FnJig@pCoW", v = 65 },
+  { line = "_dbvFdajUfBoR", v = 85 },
+]
+posts = [[0, 40.49289, -3.73448], [1, 40.4969, -3.72467], [2, 40.50193, -3.71553], [3, 40.50793, -3.70712], [4, 40.51283, -3.6972], [5, 40.51499, -3.68592], [6, 40.50708, -3.68162], [7, 40.49831, -3.67906], [8, 40.48982, -3.67548], [9, 40.48546, -3.6654]]
+
+[[connections]]
+km = 0.82
+station = "Pitis"
+lines = [
+  { id = "100", ref = "100", name = "Madril-Hendaia trenbidea", km = 633.182 },
+]
+
+[[connections]]
+km = 6.595
+station = "Fuencarral"
+lines = [
+  { id = "080", ref = "080", name = "Línea de Alta Velocidad Madrid-Segovia–Valladolid-Burgos", km = 3.466 },
+  { id = "102", ref = "102", name = "Línea directo Madrid-Burgos", km = 3.299 },
+]

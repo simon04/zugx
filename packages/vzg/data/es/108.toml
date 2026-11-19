@@ -1,0 +1,21 @@
+id = "108"
+ref = "108"
+name = "Línea Complejo Ferroviario de Mercancías de Valladolid-aguja a La Carrera"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.526
+length = 2.526
+speeds = [[0, 2.526, "", ""]]
+curves = [[1.65, 2.425, 540]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "qez|F~ox[mwAta@cJtAyFi@_FaDuDmIsC_O" },
+]
+posts = [[0, 41.59081, -4.71824], [1, 41.59944, -4.72161], [2, 41.60814, -4.72394]]

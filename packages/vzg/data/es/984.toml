@@ -1,0 +1,90 @@
+id = "984"
+ref = "984"
+name = "Línea de Alta Velocidad La Robla - Pola de Lena"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 49.588
+length = 49.588
+speeds = [[0, 0.123, 160, 160], [0.123, 0.151, 250, 250], [0.151, 10.891, 160, 160], [10.891, 34.192, 200, 200], [34.192, 34.205, "", ""], [34.205, 43.101, 200, 200], [43.101, 44.313, 160, 160], [44.313, 48.781, 150, 150], [48.781, 49.442, 70, 70], [49.442, 49.588, 50, 50]]
+curves = [[4.35, 4.525, 2650], [4.6, 4.7, 2550], [4.775, 5.575, 2730], [5.625, 7.675, 2720], [33.9, 33.95, 2640], [42.6, 42.75, 2730], [42.8, 42.9, 2100], [44.675, 44.8, 1990], [44.875, 45, 2640], [45.05, 45.175, 2770], [45.275, 45.475, 2720], [45.575, 45.9, 2760], [46, 46.1, 2520], [47.025, 47.175, 2550], [47.225, 47.35, 2950], [47.4, 47.8, 2730], [47.9, 48.025, 2650], [48.5, 48.725, 2840]]
+points = [
+  { km = 49.586, kind = "station", label = "Pola de Lena", pos = [43.15865, -5.83113] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.47, kmTo = 1.489, length = 20 },
+  { kind = "bridge", kmFrom = 2.06, kmTo = 2.222, length = 161 },
+  { kind = "tunnel", kmFrom = 2.222, kmTo = 2.716, length = 495 },
+  { kind = "tunnel", kmFrom = 4.232, kmTo = 5.355, length = 1124 },
+  { kind = "bridge", kmFrom = 5.355, kmTo = 5.703, length = 347 },
+  { kind = "tunnel", kmFrom = 6.063, kmTo = 6.767, length = 705 },
+  { kind = "tunnel", kmFrom = 6.873, kmTo = 7.602, length = 729 },
+  { kind = "tunnel", kmFrom = 7.688, kmTo = 7.937, length = 250 },
+  { kind = "bridge", kmFrom = 7.937, kmTo = 8.433, length = 496, name = "Viaducto de Huergas" },
+  { kind = "tunnel", kmFrom = 8.433, kmTo = 9.125, length = 692 },
+  { kind = "tunnel", kmFrom = 9.575, kmTo = 34.192, length = 24616 },
+  { kind = "bridge", kmFrom = 34.205, kmTo = 34.251, length = 46 },
+  { kind = "tunnel", kmFrom = 34.307, kmTo = 40.185, length = 5877, name = "Túnel de Sotiello" },
+  { kind = "bridge", kmFrom = 40.185, kmTo = 40.365, length = 181, name = "Viaducto de Sotiello" },
+  { kind = "tunnel", kmFrom = 40.365, kmTo = 41.331, length = 966, name = "Túnel de Teso" },
+  { kind = "bridge", kmFrom = 41.331, kmTo = 41.542, length = 211 },
+  { kind = "tunnel", kmFrom = 41.542, kmTo = 42.195, length = 653 },
+  { kind = "bridge", kmFrom = 42.453, kmTo = 42.828, length = 375 },
+  { kind = "tunnel", kmFrom = 43.101, kmTo = 43.192, length = 91 },
+  { kind = "bridge", kmFrom = 44.185, kmTo = 44.313, length = 128 },
+  { kind = "tunnel", kmFrom = 44.721, kmTo = 47.16, length = 2439, name = "Túnel de Vega de Ciego" },
+  { kind = "bridge", kmFrom = 47.268, kmTo = 47.348, length = 81, name = "Viaducto sobre el arroyo Foraca" },
+  { kind = "tunnel", kmFrom = 47.388, kmTo = 49.044, length = 1656, name = "Túnel de Pico de Siero" },
+  { kind = "bridge", kmFrom = 49.075, kmTo = 49.208, length = 133, name = "Viaducto de Pola de Lena" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yu`dGjgma@uEqA", v = 160 },
+  { line = "o|`dGxdma@o@Q", v = 250 },
+  { line = "_~`dGfdma@uZ{HoQ}BiQs@q_@LaQi@", v = 160 },
+  { line = "cqddG|sla@mZaE", tunnel = true, v = 160 },
+  { line = "qledGzmla@orA_V", v = 160 },
+  { line = "a`hdGzvka@wN_CqMs@iQRaMnA", tunnel = true, v = 160 },
+  { line = "w~idGjtka@}QjEyQ`I", v = 160 },
+  { line = "odkdGxdla@mQ|L{M~M", tunnel = true, v = 160 },
+  { line = "yeldGvama@mChD", v = 160 },
+  { line = "gjldG`gma@}MfTkJjT", tunnel = true, v = 160 },
+  { line = "qdmdGtqna@qArD", v = 160 },
+  { line = "cgmdGhwna@}ErO", tunnel = true, v = 160 },
+  { line = "anmdG|goa@mMn_@", v = 160 },
+  { line = "o|mdGlhpa@mI~RcLdU", tunnel = true, v = 160 },
+  { line = "atndGrrqa@iPbX", v = 160 },
+  { line = "keodGvkra@uZf`@m]t[", tunnel = true, v = 160 },
+  { line = "o_qdGtita@ehQheL{SbOkPfNwPnP{UpXqRhX_PzWeaEdlIiIrOoM|RsOxQqNvMyO`L{MpH}QrH{QbF_S~CcN~@", tunnel = true, v = 200 },
+  { line = "}_reGhnsb@W@" },
+  { line = "u`reGjnsb@wDJ", v = 200 },
+  { line = "mfreGvnsb@eSCstHiW", tunnel = true, v = 200 },
+  { line = "gp|eGhvrb@aIs@", v = 200 },
+  { line = "iz|eGttrb@i[sGuV_K", tunnel = true, v = 200 },
+  { line = "in~eG``rb@uI_F", v = 200 },
+  { line = "_y~eG`yqb@e_@gW", tunnel = true, v = 200 },
+  { line = "ey_fGx`qb@wXyLqUcF", v = 200 },
+  { line = "oiafGzkpb@aDe@", tunnel = true, v = 160 },
+  { line = "qnafGtjpb@c}@yM", v = 160 },
+  { line = "ulcfGz{ob@qUkD", v = 150 },
+  { line = "gcdfGnvob@gKa@yNLqLdAcOtCkR`Hcg@tXaL`F", tunnel = true, v = 150 },
+  { line = "qehfGpfqb@iK~C", v = 150 },
+  { line = "{qhfGpkqb@wNjCqKx@s`@F{Np@", tunnel = true, v = 150 },
+  { line = "u_kfGpsqb@uMrA", tunnel = true, v = 70 },
+  { line = "knkfGdvqb@cUdC", v = 70 },
+  { line = "odlfGjzqb@K@", tunnel = true, v = 50 },
+  { line = "{dlfGlzqb@wFn@", v = 50 },
+]
+posts = [[0, 42.77101, -5.64358], [1, 42.77977, -5.64086], [2, 42.78875, -5.64066], [3, 42.79763, -5.63882], [4, 42.80645, -5.63639], [5, 42.81534, -5.63494], [6, 42.82405, -5.63773], [7, 42.83143, -5.64461], [8, 42.8366, -5.65458], [9, 42.84168, -5.66468], [10, 42.84799, -5.6734], [11, 42.85532, -5.68047], [12, 42.86326, -5.68625], [13, 42.87121, -5.69198], [14, 42.87916, -5.69771], [15, 42.88712, -5.70344], [16, 42.89507, -5.70917], [17, 42.90303, -5.7149], [18, 42.91098, -5.72063], [19, 42.91893, -5.72636], [20, 42.92689, -5.73209], [21, 42.93484, -5.73782], [22, 42.94279, -5.74355], [23, 42.95072, -5.74935], [24, 42.95813, -5.7563], [25, 42.96476, -5.76458], [26, 42.97055, -5.77398], [27, 42.97615, -5.78361], [28, 42.98174, -5.79323], [29, 42.98733, -5.80286], [30, 42.99293, -5.81248], [31, 42.99854, -5.82209], [32, 43.00516, -5.83036], [33, 43.01308, -5.83613], [34, 43.02179, -5.83904], [35, 43.03077, -5.83906], [36, 43.03975, -5.83837], [37, 43.04873, -5.83767], [38, 43.05771, -5.83697], [39, 43.06669, -5.83627], [40, 43.07566, -5.83557], [41, 43.08448, -5.83333], [42, 43.09254, -5.82794], [43, 43.10096, -5.82374], [44, 43.10981, -5.8216], [45, 43.1187, -5.8199], [46, 43.12752, -5.82199], [47, 43.13571, -5.82707], [48, 43.14446, -5.82962], [49, 43.15343, -5.8302]]
+
+[[connections]]
+km = 49.586
+station = "Pola de Lena"
+lines = [
+  { id = "130", ref = "130", name = "Línea Venta de Baños-Gijón", km = 243.265 },
+]

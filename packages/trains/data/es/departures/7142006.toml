@@ -1,0 +1,15 @@
+id = "7142006"
+name = "Cumbres Mayores (APT.)"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAgQIA==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwYMEA=="]
+deps = [
+  [773,"REG","13087","7100175",["7142005"],1,""],
+  [1060,"REG","13086","7100036",["7142008","7142009","7142012","7142013","7142015","7100203"],1,""],
+  [1110,"REG","13089","7100175",["7142005"],0,""],
+  [1247,"REG","13086","7100036",["7142008","7142009","7142012","7142013","7142015","7100203"],0,""],
+]
+
+names = { 7100036 = "Huelva-Termino", 7100175 = "Zafra", 7100203 = "Gibraleón", 7142005 = "Fregenal de la Sierra", 7142008 = "Jabugo-Galaroza (APT.-CGD.)", 7142009 = "Almonaster-Cortegana (APT.)", 7142012 = "Valdelamusa", 7142013 = "Tamujoso (APD.)", 7142015 = "Calanas (APT.-CGD.)" }

@@ -1,0 +1,61 @@
+id = "930"
+ref = "930"
+name = "Línea Madrid Atocha-San Fernando de Henares"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 18.33
+length = 18.33
+speeds = [[0, 1.625, 50, 50], [1.625, 3.411, 70, 70], [3.411, 10.038, 100, 100], [10.038, 10.099, 160, 160], [10.099, 10.92, 100, 100], [10.92, 17.541, 135, 135], [17.541, 17.857, 100, 100], [17.857, 18.33, 135, 135]]
+curves = [[0.1, 0.4, 760], [0.6, 0.75, 1510], [0.875, 1.6, 930], [1.775, 1.9, 1840], [2.575, 2.95, 1630], [3.05, 3.4, 1160], [3.45, 5.05, 1510], [8.025, 8.95, 1020], [9.425, 9.975, 1150], [13.9, 14.4, 1140], [14.725, 14.8, 2460], [14.925, 15, 2360], [15.3, 15.35, 2780], [15.875, 16, 2870], [16.05, 16.125, 2900], [16.3, 16.45, 2690], [16.575, 16.65, 2800], [16.8, 16.85, 2750], [16.9, 17.125, 2430], [17.375, 17.475, 1920]]
+points = [
+  { km = 0, kind = "station", label = "Atocha-Cercanías", pos = [40.40597, -3.68877] },
+  { km = 0.02, kind = "signal", label = "S2/3C", signal = "height,main,route", dir = 1 },
+  { km = 3.176, kind = "station", label = "Asamblea de Madrid-Entrevías", pos = [40.38163, -3.66802] },
+  { km = 4.377, kind = "station", label = "El Pozo", pos = [40.37617, -3.65609] },
+  { km = 7.145, kind = "station", label = "Sierra de Guadalupe", pos = [40.38258, -3.62492] },
+  { km = 7.164, kind = "station", label = "Vallecas", pos = [40.38206, -3.62479] },
+  { km = 8.604, kind = "station", label = "Santa Eugenia", pos = [40.38713, -3.60909] },
+  { km = 10.579, kind = "station", label = "Puerta de Arganda", pos = [40.40124, -3.59573] },
+  { km = 10.584, kind = "station", label = "Vicálvaro", pos = [40.40126, -3.59593] },
+  { km = 14.435, kind = "station", label = "Coslada Central", pos = [40.42386, -3.56196] },
+  { km = 14.459, kind = "station", label = "Coslada", pos = [40.42373, -3.56101], uic = "7170108" },
+  { km = 17.537, kind = "signal", label = "IA20", signal = "height,route", dir = -1 },
+  { km = 17.541, kind = "signal", label = "S1/2", signal = "combined,height,route", dir = -1 },
+  { km = 17.693, kind = "station", label = "San Fernando de Henares", uic = "7170101", pos = [40.44263, -3.53411] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.625, kmTo = 1.7, length = 75 },
+  { kind = "tunnel", kmFrom = 2.908, kmTo = 3.411, length = 502 },
+  { kind = "bridge", kmFrom = 4.505, kmTo = 4.777, length = 272 },
+  { kind = "bridge", kmFrom = 7.114, kmTo = 7.198, length = 84 },
+  { kind = "bridge", kmFrom = 10.099, kmTo = 10.144, length = 45 },
+  { kind = "bridge", kmFrom = 17.857, kmTo = 18.039, length = 182 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "aoruFzaoU~FeHfCoEzGiXnHmRbLwMbGoDlGoB", v = 50 },
+  { line = "wrpuFtmlUpo@mLlI}BtI{D", v = 70 },
+  { line = "amnuFlvkU`N_KrFsH", tunnel = true, v = 70 },
+  { line = "kvmuFx`kUnKcT|FcTjCqW@cX}AgRyp@kuEaFgQ}DoHeDeEcJcHqd@wSeHoGoGmK", v = 100 },
+  { line = "yfquFnf~TeAqB", v = 160 },
+  { line = "_iquF|b~Ta\\_n@", v = 100 },
+  { line = "afruF|s|TslByqDiL_Mwd@aWkN{JaNsM_NkQoM_V}HsSoEePoGe^", v = 135 },
+  { line = "s{yuFdrqTwCoU", v = 100 },
+  { line = "k`zuFt{pTkFo`@", v = 135 },
+]
+posts = [[0, 40.40449, -3.68686], [1, 40.39957, -3.67717], [2, 40.39155, -3.67248], [3, 40.38297, -3.66915], [4, 40.37711, -3.66047], [5, 40.37645, -3.64892], [6, 40.37905, -3.63762], [7, 40.38163, -3.62631], [8, 40.38429, -3.61503], [9, 40.39016, -3.6067], [10, 40.39784, -3.6009], [11, 40.40351, -3.59173], [12, 40.40918, -3.58257], [13, 40.41484, -3.5734], [14, 40.4204, -3.56412], [15, 40.42811, -3.5582], [16, 40.43542, -3.55141], [17, 40.44063, -3.54185], [18, 40.44346, -3.53065]]
+
+[[connections]]
+km = 0
+station = "Atocha-Cercanías"
+lines = [
+  { id = "040", ref = "040", name = "Línea de Alta Velocidad Madrid - Cuenca - Valencia", km = 7.22 },
+  { id = "900", ref = "900", name = "Túnel de la Risa I", km = 7.617 },
+  { id = "920", ref = "920", name = "Línea Móstoles-Parla", km = 5.647 },
+]

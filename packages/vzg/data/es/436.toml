@@ -1,0 +1,118 @@
+id = "436"
+ref = "436"
+name = "FFCC Fuengirola - Málaga-Centro Alameda"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 30.929
+length = 30.929
+speeds = [[0, 25.552, "", ""], [25.552, 30.929, 50, 50]]
+curves = [[0.3, 0.35, 2200], [0.425, 0.5, 2500], [2.125, 2.375, 720], [2.5, 3.2, 810], [3.55, 3.9, 530], [4.025, 4.075, 2070], [4.9, 5.375, 810], [5.525, 5.825, 600], [6.075, 6.35, 840], [6.45, 6.675, 810], [6.75, 7, 740], [7.275, 7.475, 1390], [7.525, 7.825, 630], [7.9, 7.975, 2430], [8.075, 8.125, 2020], [8.55, 8.95, 540], [9.075, 9.4, 570], [9.925, 10.225, 560], [10.55, 10.75, 1200], [10.925, 11.125, 410], [11.175, 11.3, 1600], [11.45, 11.675, 620], [11.75, 12.275, 610], [12.425, 12.875, 1810], [13.325, 13.4, 2670], [14.475, 14.8, 600], [14.85, 14.95, 640], [15, 15.3, 470], [15.4, 15.75, 540], [15.9, 16.125, 820], [16.4, 16.825, 490], [17.1, 17.375, 1010], [17.625, 17.875, 660], [18.025, 18.55, 420], [18.775, 19, 1340], [19.4, 19.75, 660], [20.1, 20.4, 580], [20.55, 20.775, 1770], [20.925, 21.7, 420], [22, 22.05, 2580], [22.25, 22.325, 2680], [22.45, 22.65, 1920], [22.825, 22.875, 2230], [22.975, 23.075, 1700], [23.175, 24.275, 660], [25.425, 25.85, 910], [26.15, 26.3, 1120], [26.35, 26.625, 750], [26.8, 27, 860], [27.3, 27.375, 1850], [27.475, 27.525, 2450], [29.55, 29.7, 1880], [29.875, 30, 1260], [30.1, 30.2, 1810], [30.3, 30.5, 540]]
+points = [
+  { km = 0, kind = "station", label = "Fuengirola", pos = [36.54181, -4.62398] },
+  { km = 1.654, kind = "station", label = "Los Boliches", pos = [36.55462, -4.61459] },
+  { km = 3.103, kind = "station", label = "Torreblanca", pos = [36.56497, -4.60657] },
+  { km = 4.439, kind = "station", label = "Carvajal", pos = [36.57037, -4.59388] },
+  { km = 7.238, kind = "station", label = "Torremuelle", pos = [36.5823, -4.56708] },
+  { km = 10.722, kind = "station", label = "Benalmadena - Arroyo de la Miel", pos = [36.59906, -4.53662] },
+  { km = 13.064, kind = "station", label = "El Pinillo", pos = [36.60989, -4.51544] },
+  { km = 13.756, kind = "station", label = "Montemar Alto", pos = [36.6137, -4.50935] },
+  { km = 15.11, kind = "stop", label = "Torremolinos", pos = [36.62253, -4.49956] },
+  { km = 17.644, kind = "station", label = "La Colina", pos = [36.64216, -4.49237] },
+  { km = 18.33, kind = "station", label = "Los Álamos", pos = [36.64475, -4.4855] },
+  { km = 19.706, kind = "station", label = "Plaza Mayor", pos = [36.65621, -4.48033] },
+  { km = 22.894, kind = "station", label = "Aeropuerto", pos = [36.67775, -4.49016] },
+  { km = 25.158, kind = "station", label = "Guadalhorce", pos = [36.69258, -4.48311] },
+  { km = 27.881, kind = "stop", label = "Victoria Kent", pos = [36.7009, -4.45505] },
+  { km = 29.807, kind = "station", label = "La Isla", pos = [36.70789, -4.43549] },
+  { km = 30.141, kind = "station", label = "Málaga María Zambrano", pos = [36.71162, -4.43236] },
+  { km = 30.28, kind = "station", label = "El Perchel", pos = [36.7128, -4.43243] },
+  { km = 30.919, kind = "stop", label = "Málaga Centro - Alameda", pos = [36.71541, -4.42657] },
+  { km = 30.92, kind = "station", label = "Málaga Centro Alameda", pos = [36.7154, -4.42656] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0, kmTo = 0.587, length = 587 },
+  { kind = "bridge", kmFrom = 0.863, kmTo = 2.053, length = 1190 },
+  { kind = "bridge", kmFrom = 2.161, kmTo = 2.223, length = 62 },
+  { kind = "tunnel", kmFrom = 2.368, kmTo = 2.797, length = 429 },
+  { kind = "tunnel", kmFrom = 2.928, kmTo = 3.01, length = 82 },
+  { kind = "bridge", kmFrom = 3.485, kmTo = 3.513, length = 28 },
+  { kind = "bridge", kmFrom = 4.601, kmTo = 4.621, length = 19 },
+  { kind = "bridge", kmFrom = 5.035, kmTo = 5.059, length = 24 },
+  { kind = "tunnel", kmFrom = 5.076, kmTo = 5.214, length = 138 },
+  { kind = "bridge", kmFrom = 5.511, kmTo = 5.526, length = 15 },
+  { kind = "bridge", kmFrom = 5.828, kmTo = 5.865, length = 37 },
+  { kind = "bridge", kmFrom = 7.959, kmTo = 8.119, length = 159 },
+  { kind = "tunnel", kmFrom = 8.227, kmTo = 8.843, length = 616 },
+  { kind = "tunnel", kmFrom = 9.3, kmTo = 9.35, length = 50 },
+  { kind = "bridge", kmFrom = 10.212, kmTo = 10.226, length = 14 },
+  { kind = "tunnel", kmFrom = 10.767, kmTo = 11.505, length = 738 },
+  { kind = "bridge", kmFrom = 11.921, kmTo = 11.939, length = 18 },
+  { kind = "bridge", kmFrom = 12.104, kmTo = 12.12, length = 15 },
+  { kind = "bridge", kmFrom = 12.231, kmTo = 12.249, length = 18 },
+  { kind = "bridge", kmFrom = 12.385, kmTo = 12.401, length = 15 },
+  { kind = "bridge", kmFrom = 12.987, kmTo = 12.998, length = 12 },
+  { kind = "bridge", kmFrom = 13.129, kmTo = 13.152, length = 23 },
+  { kind = "tunnel", kmFrom = 13.394, kmTo = 13.468, length = 73 },
+  { kind = "tunnel", kmFrom = 14.697, kmTo = 16.076, length = 1378 },
+  { kind = "bridge", kmFrom = 16.076, kmTo = 16.266, length = 190 },
+  { kind = "tunnel", kmFrom = 16.352, kmTo = 16.482, length = 131 },
+  { kind = "tunnel", kmFrom = 17.142, kmTo = 17.339, length = 196 },
+  { kind = "bridge", kmFrom = 18.248, kmTo = 18.274, length = 26 },
+  { kind = "bridge", kmFrom = 21.117, kmTo = 21.139, length = 21 },
+  { kind = "bridge", kmFrom = 21.596, kmTo = 21.67, length = 75 },
+  { kind = "tunnel", kmFrom = 22.657, kmTo = 25.552, length = 2895 },
+  { kind = "bridge", kmFrom = 26.886, kmTo = 26.941, length = 55 },
+  { kind = "tunnel", kmFrom = 27.488, kmTo = 29.425, length = 1936 },
+  { kind = "tunnel", kmFrom = 29.881, kmTo = 30.929, length = 1048 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ia`~Ezbf[i[eT", tunnel = true },
+  { line = "s}`~Etme[ukAwu@oEoBoCY" },
+  { line = "iuc~Errc[wKw@yBs@iDaE", tunnel = true },
+  { line = "ekd~Edic[wB{F" },
+  { line = "}nd~Ehac[{@iD", tunnel = true },
+  { line = "ypd~E~{b[qAyJmB{[eBoI{HsMua@si@aEgH" },
+  { line = "slf~Ehf_[eByG", tunnel = true },
+  { line = "yof~En}~ZaDa^iAmD{NuWmFsVsGaNmA}EsDkVuByWyByGkL_X" },
+  { line = "ath~Et`yZcKaWwCmD{CyA", tunnel = true },
+  { line = "yii~Ej`xZwP}EcEiC" },
+  { line = "uaj~EbuwZeAgA", tunnel = true },
+  { line = "{cj~EzrwZiWq`@yAuDaFy^k@cM" },
+  { line = "mgk~Et}tZi@aQ}EcKaIuL", tunnel = true },
+  { line = "wyk~ExqsZ{CkCmKoFuEeGwByFyDoVuDyMwSqd@" },
+  { line = "wum~E`jpZsA_C", tunnel = true },
+  { line = "kxm~E`fpZ{c@cy@iFsF" },
+  { line = "qdo~EhdnZgTaJcCaEsIqIqD_B_Ek@iFDiIXeCx@", tunnel = true },
+  { line = "}iq~E`gmZiMjF" },
+  { line = "gxq~ElnmZyElB", tunnel = true },
+  { line = "a_r~EzqmZuCb@{EKuUaM" },
+  { line = "ias~EpdmZyCqAcC_D", tunnel = true },
+  { line = "gjs~E~|lZgMiWoDuV{@uCmBiDeDwCcYyGq_@_RuHe@kZxA{Eo@uPeJkNcMiGsBkFFoCt@gGnFuAtC{Ohh@oIjS" },
+  { line = "ujz~ElqkZ_MnSoG|HsFjD{H~A_HEeNaE{AkAqCsEug@smA", tunnel = true },
+  { line = "_{}~EjziZuAkHk@}H{@cYToNc@cH}EyWyN{_@", v = 50 },
+  { line = "cx~~ErzeZmv@ysB", tunnel = true, v = 50 },
+  { line = "qo`_FxebZiDgKsDsO", v = 50 },
+  { line = "oz`_F|haZwMs`@mTsU", tunnel = true, v = 50 },
+]
+posts = [[0, 36.54181, -4.62398], [1, 36.54957, -4.61831], [2, 36.55734, -4.6127], [3, 36.56473, -4.60763], [4, 36.56759, -4.5973], [5, 36.57395, -4.58938], [6, 36.57742, -4.57932], [7, 36.58168, -4.56959], [8, 36.58465, -4.55919], [9, 36.5906, -4.55136], [10, 36.59733, -4.54433], [11, 36.59923, -4.53351], [12, 36.60573, -4.52611], [13, 36.60957, -4.51607], [14, 36.61505, -4.50719], [15, 36.62161, -4.49999], [16, 36.62958, -4.49637], [17, 36.63795, -4.49697], [18, 36.64338, -4.48866], [19, 36.65044, -4.48309], [20, 36.65894, -4.48066], [21, 36.66698, -4.47659], [22, 36.67349, -4.4817], [23, 36.67841, -4.49102], [24, 36.68645, -4.4934], [25, 36.69176, -4.4845], [26, 36.69519, -4.47436], [27, 36.69682, -4.46352], [28, 36.70143, -4.4539], [29, 36.70602, -4.44425], [30, 36.71016, -4.43431]]
+
+[[connections]]
+km = 27.881
+station = "Victoria Kent"
+lines = [
+  { id = "030", ref = "030", name = "Línea de alta velocidad Córdoba - Málaga", km = 510.409 },
+]
+
+[[connections]]
+km = 30.28
+station = "El Perchel"
+lines = [
+  { id = "030", ref = "030", name = "Línea de alta velocidad Córdoba - Málaga", km = 512.729 },
+]

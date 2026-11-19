@@ -1,0 +1,34 @@
+id = "792"
+ref = "792"
+name = "Línea Matallana-La Robla"
+operator = "Adif"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 10.771
+length = 10.771
+speeds = [[0, 10.771, "", ""]]
+curves = [[0.1, 0.275, 170], [0.325, 0.475, 440], [0.625, 0.85, 490], [1.675, 1.85, 750], [1.95, 2.075, 1340], [2.4, 2.6, 970], [2.775, 3.05, 580], [3.225, 3.575, 410], [4.85, 5.075, 780], [5.15, 5.35, 540], [5.625, 5.775, 1630], [6.475, 6.65, 920], [6.775, 7, 580], [7.1, 7.325, 610], [7.525, 7.7, 690], [7.75, 7.875, 1640], [7.975, 8.125, 750], [8.225, 8.325, 760], [8.375, 8.875, 480], [8.95, 9.1, 1090], [9.2, 9.325, 1410], [9.55, 9.7, 1520], [10.125, 10.55, 260]]
+points = [
+  { km = 0, kind = "station", label = "Matallana", pos = [42.84114, -5.52217] },
+  { km = 0.766, kind = "halt", label = "Naredo", pos = [42.83346, -5.52299] },
+  { km = 10.748, kind = "station", label = "La Robla", uic = "7115106", pos = [42.80399, -5.62648] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uhndGr}u`@`AzCnCbBtMmCzN\\tE|C" },
+  { line = "{|ldG`gv`@n@l@", tunnel = true },
+  { line = "k{ldGnhv`@jf@ng@nGdOrKv^lLvTpDfCjQrFtDfErc@pbBfC|FjFfIrAxFlFdYrJn}@~GfW`@lWdHp[nBj_@SlOw@jMfBfMQlIt@|MnCdR~B~Z|@fi@o@rGsBhCaDdAiOY" },
+]
+posts = [[0, 42.84059, -5.52426], [1, 42.83254, -5.52682], [2, 42.82581, -5.53479], [3, 42.82048, -5.54437], [4, 42.81454, -5.55246], [5, 42.81046, -5.56337], [6, 42.80678, -5.57431], [7, 42.80408, -5.58588], [8, 42.80201, -5.59765], [9, 42.80161, -5.6097], [10, 42.80005, -5.62171]]
+
+[[connections]]
+km = 10.748
+station = "La Robla"
+lines = [
+  { id = "130", ref = "130", name = "Línea Venta de Baños-Gijón", km = 160.19 },
+]

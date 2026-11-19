@@ -1,0 +1,64 @@
+id = "722"
+ref = "722"
+name = "Muskiz-Barakaldo trenbidea"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 12.843
+length = 12.843
+speeds = [[0, 7.406, 80, 80], [7.406, 12.843, 70, 70]]
+curves = [[0.1, 0.225, 1100], [0.275, 0.325, 1360], [0.7, 1.275, 580], [1.375, 1.675, 860], [2.075, 2.35, 710], [2.6, 3.075, 700], [3.35, 4.575, 580], [4.725, 5.375, 390], [5.775, 6.325, 620], [7.1, 7.475, 810], [7.775, 8.15, 740], [8.325, 8.625, 420], [9.35, 9.625, 490], [9.675, 10.15, 490], [10.225, 10.475, 1100], [10.575, 10.725, 780], [10.775, 11.6, 480], [11.65, 12.025, 820], [12.2, 12.725, 410]]
+points = [
+  { km = 0.121, kind = "station", label = "Desertu-Barakaldo", pos = [43.30053, -2.98467] },
+  { km = 0.991, kind = "station", label = "Urbinaga", pos = [43.30573, -2.99261] },
+  { km = 1.172, kind = "station", label = "Sestao", pos = [43.30856, -2.99396] },
+  { km = 2.5, kind = "station", label = "Galindo", pos = [43.3041, -3.01018] },
+  { km = 3.089, kind = "station", label = "Trápaga", pos = [43.30298, -3.01691] },
+  { km = 4.108, kind = "station", label = "Valle de Trápaga-Trapagaran", pos = [43.30146, -3.02845] },
+  { km = 5.523, kind = "station", label = "Urioste", pos = [43.30752, -3.04094] },
+  { km = 6.589, kind = "stop", label = "Sagrada Familia", pos = [43.30858, -3.05369] },
+  { km = 7.246, kind = "station", label = "Ortuella", pos = [43.31149, -3.06041] },
+  { km = 8.319, kind = "station", label = "Gallarta", pos = [43.31936, -3.06749] },
+  { km = 10.452, kind = "station", label = "Putxeta", pos = [43.31559, -3.09114] },
+  { km = 12.843, kind = "station", label = "Muskiz", pos = [43.32121, -3.11219] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.731, kmTo = 0.788, length = 57 },
+  { kind = "bridge", kmFrom = 2.376, kmTo = 2.405, length = 30 },
+  { kind = "bridge", kmFrom = 5.4, kmTo = 5.422, length = 22 },
+  { kind = "tunnel", kmFrom = 6.685, kmTo = 6.948, length = 262 },
+  { kind = "tunnel", kmFrom = 8.543, kmTo = 9.266, length = 724 },
+  { kind = "bridge", kmFrom = 10.34, kmTo = 10.35, length = 10 },
+  { kind = "bridge", kmFrom = 10.521, kmTo = 10.537, length = 15 },
+  { kind = "bridge", kmFrom = 10.554, kmTo = 10.565, length = 11 },
+  { kind = "bridge", kmFrom = 10.685, kmTo = 10.697, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{~ggG~ueQaC`G_Ulb@eMjO}@lEKnSb@nHvKzg@t@dGBta@`@pJrB|JjNl]nAlINbH[vFcCvM{ExO_FzF{RfK_DlEaBjFi@xEBnGpHzh@XfM_@`GiApGyJn[", v = 80 },
+  { line = "mwigGjqsQkFpP", tunnel = true, v = 80 },
+  { line = "y~igG|btQmFtPgCfFkBdB", v = 80 },
+  { line = "{mjgG`_uQyVhKkEbDqChDkJlPoBvH", v = 70 },
+  { line = "o_lgG~pvQMzv@", tunnel = true, v = 70 },
+  { line = "}_lgGzhxQ\\fP|G`Q~BlOdL|RbD|HtCtIbCnMvGxMz@`JyB|PkFzMiDtNgJfReBjBiClAcLC{GjB", v = 70 },
+]
+posts = [[0, 43.29982, -2.98352], [1, 43.30587, -2.99256], [2, 43.30484, -3.00412], [3, 43.30337, -3.0161], [4, 43.30107, -3.02715], [5, 43.30759, -3.03493], [6, 43.30643, -3.04679], [7, 43.31028, -3.05783], [8, 43.31736, -3.06463], [9, 43.32046, -3.07541], [10, 43.31825, -3.08698], [11, 43.31316, -3.097], [12, 43.31502, -3.108]]
+
+[[connections]]
+km = 0.121
+station = "Desertu-Barakaldo"
+lines = [
+  { id = "720", ref = "720", name = "Santurtzi-Bilbo trenbidea", km = 8.414 },
+]
+
+[[connections]]
+km = 1.172
+station = "Sestao"
+lines = [
+  { id = "720", ref = "720", name = "Santurtzi-Bilbo trenbidea", km = 9.641 },
+]

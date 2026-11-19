@@ -1,0 +1,22 @@
+id = "704"
+ref = "704"
+name = "Línea Bifurcación Rioja-Bifurcación Castilla"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.535
+length = 0.535
+speeds = [[0, 0.535, 30, 30]]
+curves = [[0.1, 0.425, 350]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "{gocGfv`Q{@Z", tunnel = true, v = 30 },
+  { line = "wiocGbw`Q_EnCuBxD_A|DaAjM", v = 30 },
+]
+posts = [[0, 42.68174, -2.95796]]

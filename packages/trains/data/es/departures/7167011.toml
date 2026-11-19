@@ -1,0 +1,41 @@
+id = "7167011"
+name = "Encinacobra (APT.)"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A=="]
+deps = [
+  [490,"REG","18500","7175506",["7100091","7167009","7167007","7167004"],0,""],
+  [521,"REG","18511","7100054",["7167013","7167014","7167015","7167016","7167017","7100110","7100095","7167101"],0,""],
+  [521,"REG","18511","7167017",["7167013","7167014","7167015","7167016"],0,""],
+  [770,"REG","18502","7175506",["7100091","7167007"],0,""],
+  [1075,"REG","18515","7100054",["7167013","7167017","7100110","7167102","7167105","7167107","7100059","7167205"],0,""],
+  [1075,"REG","18515","7167017",["7167013"],0,""],
+  [1190,"REG","18506","7175506",["7100091","7167007"],0,""],
+  [1190,"REG","18517","7100059",["7167013","7167014","7167015","7167016","7167017","7167018","7167019","7167020"],0,""],
+]
+
+[names]
+7100054 = "Valencia Estacio del Nord"
+7100059 = "Teruel"
+7100091 = "Cariñena"
+7100095 = "Caminreal-Fuentes Claras"
+7100110 = "Calamocha-Nueva"
+7167004 = "Maria de Huerva (APT.-CGD.)"
+7167007 = "Aranales de Muel (APD.)"
+7167009 = "Longares (APD.)"
+7167013 = "Villarreal de Huerva (APT.-CGD.)"
+7167014 = "Villadoz (APD.)"
+7167015 = "Badules (APD.)"
+7167016 = "Villahermosa (APD.)"
+7167017 = "Ferreruela (APT.)"
+7167018 = "Cuencabuena (APT.)"
+7167019 = "Lechago (APD.)"
+7167020 = "Navarrete (APD.)"
+7167101 = "Torrijo del Campo (APD.)"
+7167102 = "Monreal del Campo"
+7167105 = "Santa Eulalia del Campo"
+7167107 = "Cella (APT.-CGD.)"
+7167205 = "Sarrion (APT.)"
+7175506 = "Zaragoza Delicias"

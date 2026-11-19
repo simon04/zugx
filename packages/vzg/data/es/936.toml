@@ -1,0 +1,39 @@
+id = "936"
+ref = "936"
+name = "Línea de San Cristóbal Industrial a Villaverde Bajo"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.36
+length = 3.36
+speeds = [[0, 0.606, 80, 80], [0.606, 1.029, 100, 100], [1.029, 2.61, 135, 135], [2.61, 2.948, 110, 110], [2.948, 3.36, 120, 120]]
+curves = [[1.625, 2.925, 870], [2.975, 3.1, 1460]]
+points = [
+  { km = 0.287, kind = "station", label = "Villaverde Bajo", pos = [40.35259, -3.68398] },
+  { km = 1.443, kind = "station", label = "San Cristóbal de los Ángeles", pos = [40.3422, -3.68375] },
+  { km = 3.36, kind = "station", label = "San Cristóbal Industrial", pos = [40.33163, -3.69938] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0, kmTo = 0.452, length = 452 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yzhuFzmnUjX?", tunnel = true, v = 80 },
+  { line = "mahuFzmnUtGA", v = 80 },
+  { line = "wxguFxmnUvV@", v = 100 },
+  { line = "_aguFzmnU|d@FxLxBdH`EdEbE~EfIdCfH", v = 135 },
+  { line = "urduFrqoUpB|Kh@~I", v = 110 },
+  { line = "ymduFpipUjCx\\", v = 120 },
+]
+posts = [[0, 40.35517, -3.68366], [1, 40.34618, -3.68366], [2, 40.33727, -3.68451], [3, 40.33256, -3.69382]]
+
+[[connections]]
+km = 0.287
+station = "Villaverde Bajo"
+lines = [
+  { id = "300", ref = "300", name = "Línea Madrid-Valencia", km = 6.995 },
+]

@@ -1,0 +1,26 @@
+id = "836"
+ref = "836"
+name = "Línea Bifurcación León-Bifurcación Río Bernesga"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.117
+length = 3.117
+speeds = [[0, 3.117, 90, 90]]
+curves = [[0.1, 0.35, 730], [0.425, 0.75, 520], [0.8, 1.35, 330], [1.5, 1.775, 1050], [1.875, 2.425, 320], [2.625, 2.8, 1670]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.656, kmTo = 0.692, length = 35 },
+  { kind = "bridge", kmFrom = 1.878, kmTo = 1.97, length = 92 },
+  { kind = "bridge", kmFrom = 2.128, kmTo = 2.168, length = 40 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kzvbG|xea@nEgP|@yN~@iGdBiFxFwKx@_ELoEiA}IcKiRaEgLgDwOLaKrBmG`CoCvNsKrSkK", v = 90 },
+]
+posts = [[0, 42.5567, -5.60543], [1, 42.55298, -5.59458], [2, 42.55701, -5.58405], [3, 42.55087, -5.57652]]

@@ -1,0 +1,50 @@
+id = "640"
+ref = "640"
+name = "Línia d'alta velocitat canviador de la Boella - Camp de Tarragona"
+operator = "Adif"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 24.269
+length = 24.269
+speeds = [[0, 0.283, 200, 200], [0.283, 8.862, 300, 300], [8.862, 24.071, 200, 200], [24.071, 24.269, 15, 15]]
+curves = [[0.225, 0.325, 30], [8.825, 8.9, 30], [12.15, 12.35, 2220], [12.45, 12.55, 1940], [12.75, 12.825, 2040], [12.9, 13.9, 1110], [14.175, 14.45, 2070], [15.225, 15.65, 1160], [16, 16.05, 2730], [16.375, 18.625, 1670], [19.35, 20.6, 2030], [21.925, 22.95, 1850], [24.025, 24.1, 1900]]
+points = [
+  { km = 0.773, kind = "station", label = "Camp de Tarragona", pos = [41.19217, 1.27357] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.338, kmTo = 3.45, length = 112 },
+  { kind = "bridge", kmFrom = 4.146, kmTo = 4.822, length = 676 },
+  { kind = "bridge", kmFrom = 7.907, kmTo = 8.273, length = 365 },
+  { kind = "bridge", kmFrom = 9.45, kmTo = 9.812, length = 361 },
+  { kind = "bridge", kmFrom = 13.209, kmTo = 15.239, length = 2030 },
+  { kind = "tunnel", kmFrom = 15.356, kmTo = 15.454, length = 98 },
+  { kind = "bridge", kmFrom = 16.239, kmTo = 16.322, length = 83 },
+  { kind = "bridge", kmFrom = 17.025, kmTo = 17.703, length = 678 },
+  { kind = "bridge", kmFrom = 18.421, kmTo = 18.46, length = 39 },
+  { kind = "bridge", kmFrom = 18.535, kmTo = 18.591, length = 56 },
+  { kind = "bridge", kmFrom = 18.64, kmTo = 18.787, length = 147 },
+  { kind = "bridge", kmFrom = 20.739, kmTo = 20.811, length = 71 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wdlzFcexF|BoS", v = 200 },
+  { line = "y`lzFsyxFkXhlCgI~k@iFtWuIx\\qLz^uK|XsMbY_Xje@}R~X}TzWwX~WiVhRoUbO}`@`T", v = 300 },
+  { line = "uktzFcjiFdc@oVvScNr]iY`TgT|Z}_@bNoSlIoPlNg^pFcI`GwFhGuDfH_Cl[cCbLcBbq@kS", v = 200 },
+  { line = "g}jzFu}pFnDe@", tunnel = true, v = 200 },
+  { line = "wwjzF{~pFrIGrh@vB`QvBrHhCtKlGxIjIxHfLfEfJxDdLbF|UxBnSbFzy@|BbP|C|MxFpPhI|O|{@lhA~F`JlFdLrFfQxC|OxOhuA", v = 200 },
+  { line = "wcbzFwvbFfBbM", v = 15 },
+]
+posts = [[0, 41.19132, 1.27586], [1, 41.19218, 1.27081], [2, 41.19426, 1.25918], [3, 41.19684, 1.24774], [4, 41.20077, 1.23701], [5, 41.20583, 1.22714], [6, 41.21187, 1.2183], [7, 41.21877, 1.21063], [8, 41.22639, 1.20431], [9, 41.23227, 1.20057], [10, 41.22428, 1.20604], [11, 41.21685, 1.21277], [12, 41.21017, 1.22076], [13, 41.20478, 1.23028], [14, 41.19678, 1.23487], [15, 41.18806, 1.23761], [16, 41.17923, 1.2387], [17, 41.17045, 1.23665], [18, 41.16417, 1.22839], [19, 41.16183, 1.21693], [20, 41.15932, 1.20556], [21, 41.15332, 1.19676], [22, 41.14664, 1.18875], [23, 41.14235, 1.17843], [24, 41.14012, 1.16686]]
+
+[[connections]]
+km = 0.773
+station = "Camp de Tarragona"
+lines = [
+  { id = "050", ref = "050", name = "Línea de alta velocidad Madrid-Zaragoza-Barcelona-Frontera francesa", km = 93.295 },
+  { id = "600", ref = "600", name = "FFCC València - Sant Vicenç de Calders", km = 0.492 },
+]

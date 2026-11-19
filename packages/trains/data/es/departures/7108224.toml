@@ -1,0 +1,18 @@
+id = "7108224"
+name = "Redondela AV"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHPny4A=="]
+deps = [
+  [316,"REG","12512","7199143",["7123002","7100026","7100228","7123009","7123010","7123011","7100028","7131415"],1,""],
+  [402,"REG","9072","7199143",["7100026","7100228","7123011","7100028","7131416"],0,""],
+  [516,"REG","9073","7108223",[],0,""],
+  [803,"REG","9132","7199143",["7123002","7100026","7100228","7123011","7100028"],0,""],
+  [934,"REG","9143","7108223",[],0,""],
+  [1318,"REG","9212","7199143",["7123002","7100026","7100228","7123011","7100028"],0,""],
+  [1420,"REG","9223","7108223",[],0,""],
+]
+
+names = { 7100026 = "Pontevedra", 7100028 = "Santiago de Compostela", 7100228 = "Vilagarcía de Arousa", 7108223 = "Vigo Urzaiz", 7123002 = "Arcade (APT.-CGD.)", 7123009 = "Catoira (APT.)", 7123010 = "Puentecesures", 7123011 = "Padron", 7131415 = "Ordes-Pontraga", 7131416 = "Cerceda-Meirama", 7199143 = "A Coruna-Turistico" }

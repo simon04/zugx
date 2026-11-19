@@ -1,0 +1,134 @@
+id = "920"
+ref = "920"
+name = "Línea Móstoles-Parla"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 26.175
+length = 26.175
+speeds = [[0, 0.061, "", ""], [0.061, 1.711, 80, 80], [1.711, 3.239, 90, 90], [3.239, 4.188, 70, 70], [4.188, 5.361, 75, 75], [5.361, 5.417, "", ""], [5.417, 5.656, 75, 75], [5.656, 6.134, 45, 45], [6.134, 6.864, 80, 80], [6.864, 10.518, 70, 70], [10.518, 12.475, 80, 80], [12.475, 12.912, 70, 70], [12.912, 13.381, 65, 65], [13.381, 14.63, 85, 85], [14.63, 15.488, 80, 80], [15.488, 17.571, 120, 120], [17.571, 18.747, 70, 70], [18.747, 19.691, 80, 80], [19.691, 20.529, 75, 75], [20.529, 21.964, 110, 110], [21.964, 23.224, 120, 120], [23.224, 24.306, 95, 95], [24.306, 24.702, 50, 50], [24.702, 26.175, 95, 95]]
+curves = [[0.75, 0.9, 760], [1, 1.3, 470], [1.4, 1.725, 1640], [2.65, 3.375, 1060], [3.475, 4.425, 500], [5.4, 5.45, 1860], [5.75, 6.15, 320], [6.775, 7.125, 650], [7.625, 7.825, 270], [8.05, 8.25, 470], [8.8, 8.925, 1320], [9.15, 9.3, 590], [9.35, 9.8, 1090], [11.15, 11.525, 370], [12.6, 12.875, 950], [13, 13.325, 820], [14.9, 15.275, 1010], [15.775, 15.975, 1680], [17.55, 18.175, 490], [18.45, 18.625, 800], [19.3, 19.675, 410], [19.725, 20.125, 370], [22.225, 22.55, 1100], [23.2, 23.4, 680], [24.25, 24.75, 220], [25, 25.85, 500]]
+points = [
+  { km = 1.353, kind = "station", label = "Doce de Octubre", pos = [40.37902, -3.69874] },
+  { km = 1.364, kind = "stop", label = "Doce de Octubre - Vía 1", pos = [40.37904, -3.69861] },
+  { km = 4.188, kind = "stop", label = "Méndez Álvaro - Vía 1", pos = [40.39597, -3.67767] },
+  { km = 4.274, kind = "station", label = "Méndez Álvaro", pos = [40.3956, -3.67859], uic = "7118003" },
+  { km = 5.425, kind = "signal", label = "S2/9C", signal = "height,main", dir = -1 },
+  { km = 5.623, kind = "stop", label = "Atocha - Vía 9", pos = [40.40566, -3.68881] },
+  { km = 5.647, kind = "station", label = "Atocha-Cercanías", pos = [40.40597, -3.68877] },
+  { km = 5.656, kind = "signal", label = "S1/9C", signal = "electricity,height,main", dir = 1 },
+  { km = 5.693, kind = "station", label = "Madrid-Puerta de Atocha-Almudena Grandes", uic = "7160000", pos = [40.40568, -3.69002] },
+  { km = 5.724, kind = "station", label = "Atocha", pos = [40.40697, -3.6886] },
+  { km = 5.97, kind = "station", label = "Estación del Arte", pos = [40.40884, -3.69147] },
+  { km = 6.923, kind = "stop", label = "Embajadores - Vía 2", pos = [40.40525, -3.70256] },
+  { km = 6.951, kind = "station", label = "Embajadores", pos = [40.40481, -3.70227] },
+  { km = 7.177, kind = "station", label = "Acacias", pos = [40.40407, -3.70596] },
+  { km = 7.673, kind = "station", label = "Puerta de Toledo", pos = [40.40705, -3.71107] },
+  { km = 10.668, kind = "stop", label = "Laguna - Vía 2", pos = [40.39926, -3.74466] },
+  { km = 10.674, kind = "station", label = "Laguna", pos = [40.3993, -3.74464] },
+  { km = 12.905, kind = "station", label = "Aluche", pos = [40.38567, -3.76076] },
+  { km = 12.949, kind = "stop", label = "Aluche - Vía 2", pos = [40.38554, -3.76193] },
+  { km = 13.565, kind = "station", label = "Maestra Justa Freire-Polideportivo Aluche", pos = [40.38355, -3.76863] },
+  { km = 13.568, kind = "stop", label = "Maestra Justa Freire-Polideportivo Aluche - Vía 2", pos = [40.38356, -3.76867] },
+  { km = 14.587, kind = "station", label = "Las Águilas", pos = [40.38146, -3.78038] },
+  { km = 14.589, kind = "stop", label = "Las Águilas - Vía 2", pos = [40.38147, -3.7804] },
+  { km = 15.328, kind = "signal", label = "1222", signal = "height,main", dir = 1 },
+  { km = 15.65, kind = "stop", label = "Cuatro Vientos - Vía 2", pos = [40.37763, -3.79164] },
+  { km = 15.656, kind = "station", label = "Cuatro Vientos", pos = [40.3779, -3.79197] },
+  { km = 15.664, kind = "signal", label = "1322", signal = "height,main", dir = 1 },
+  { km = 15.77, kind = "signal", label = "R1", signal = "height,shunting", dir = -1 },
+  { km = 18.898, kind = "stop", label = "San José de Valderas - Vía 2", pos = [40.35617, -3.81651] },
+  { km = 20.132, kind = "signal", label = "1501", signal = "height,main,traversable", dir = 1 },
+  { km = 20.478, kind = "station", label = "Alcorcón Central", pos = [40.34994, -3.83199] },
+  { km = 20.506, kind = "stop", label = "Alcorcón Central - Vía 2", pos = [40.34986, -3.83235] },
+  { km = 20.529, kind = "signal", label = "1522", signal = "height,main,traversable", dir = 1 },
+  { km = 21.876, kind = "stop", label = "Las Retamas - Vía 2", pos = [40.341, -3.84358] },
+  { km = 24.05, kind = "station", label = "Móstoles Central", pos = [40.329, -3.8635] },
+  { km = 24.136, kind = "stop", label = "Móstoles Central - Vía 2", pos = [40.32842, -3.86417] },
+  { km = 26.156, kind = "stop", label = "Móstoles-El Soto - Vía 2", pos = [40.3307, -3.88284] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.061, kmTo = 1.711, length = 1651 },
+  { kind = "bridge", kmFrom = 2.077, kmTo = 2.232, length = 155 },
+  { kind = "bridge", kmFrom = 2.454, kmTo = 2.498, length = 45 },
+  { kind = "tunnel", kmFrom = 2.875, kmTo = 4.687, length = 1812 },
+  { kind = "tunnel", kmFrom = 5.017, kmTo = 5.112, length = 95 },
+  { kind = "tunnel", kmFrom = 5.417, kmTo = 15.055, length = 9638 },
+  { kind = "bridge", kmFrom = 18.459, kmTo = 18.491, length = 32 },
+  { kind = "bridge", kmFrom = 19.004, kmTo = 19.026, length = 21 },
+  { kind = "bridge", kmFrom = 21.121, kmTo = 21.14, length = 20 },
+  { kind = "bridge", kmFrom = 21.679, kmTo = 21.712, length = 33 },
+  { kind = "bridge", kmFrom = 25.456, kmTo = 25.495, length = 39 },
+  { kind = "bridge", kmFrom = 25.527, kmTo = 25.566, length = 40 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qkkuF`nrUiBc@" },
+  { line = "{nkuF|lrUwi@iI{K}E{DsFwFyPiCcG_BiB", tunnel = true, v = 80 },
+  { line = "m{muFxvpU}j@wj@gFoH", v = 90 },
+  { line = "snouFpaoUiD_IuCiL", tunnel = true, v = 90 },
+  { line = "sxouFfjnUgCcVkB}FwBeDcB}@iCUkH~@_D`B", tunnel = true, v = 70 },
+  { line = "yypuFlhmUcG|EyLtN", tunnel = true, v = 75 },
+  { line = "woquF`_nUsLrO", v = 75 },
+  { line = "k}quFtonU{BvC", tunnel = true, v = 75 },
+  { line = "garuFltnUeIrK", v = 75 },
+  { line = "mkruF`aoUgA~A" },
+  { line = "umruF`doUcIpJ", tunnel = true, v = 75 },
+  { line = "ywruFrooUuEpFkB~Di@zEl@xG", tunnel = true, v = 45 },
+  { line = "wasuFzlpUrLvq@", tunnel = true, v = 80 },
+  { line = "ctruFr_rUDhMcGvo@~KdYxD|r@pDdXlEdKlEvSbFfx@", tunnel = true, v = 70 },
+  { line = "uoquFd`zUzFhr@|B`HrBdCtr@l_@", tunnel = true, v = 80 },
+  { line = "qlouFda}UdIdEnGlL", tunnel = true, v = 70 },
+  { line = "{ynuFxt}U|EtLfCfP", tunnel = true, v = 65 },
+  { line = "unnuFvs~U|NvxA", tunnel = true, v = 85 },
+  { line = "w~muFnmaVtBlWv@`E", tunnel = true, v = 80 },
+  { line = "iymuF~kbV~BjIzGrO", v = 80 },
+  { line = "mlmuF~fcVxNvZr_AhrA", v = 120 },
+  { line = "_|juF`vfVfFtEpKhAzFnC`PdP`HnM", v = 70 },
+  { line = "efiuFfchV`Utf@z@tHa@jI", v = 80 },
+  { line = "iohuF~~iVc@~J`ArGvB`E|PrU", v = 75 },
+  { line = "uxguFhpkV~x@phA", v = 110 },
+  { line = "u~euFzymVhKtNjElInShq@", v = 120 },
+  { line = "owduFhfpVjC|Fje@lo@", v = 95 },
+  { line = "wlcuFt~qVvAvDTpEw@~EsCpD", v = 50 },
+  { line = "uocuFpwrVyPtK{C~CiC|EgB`IY~Gj@jJ`Kh\\", v = 95 },
+]
+posts = [[0, 40.36809, -3.70417], [1, 40.37684, -3.7016], [2, 40.38295, -3.69328], [3, 40.38972, -3.68561], [4, 40.39438, -3.67696], [5, 40.40155, -3.68381], [6, 40.4077, -3.69219], [7, 40.40524, -3.70347], [8, 40.40524, -3.71454], [9, 40.40324, -3.72591], [10, 40.40022, -3.73688], [11, 40.39865, -3.7485], [12, 40.39258, -3.75601], [13, 40.38527, -3.76241], [14, 40.38267, -3.77363], [15, 40.38071, -3.78515], [16, 40.37568, -3.79487], [17, 40.36927, -3.80315], [18, 40.36204, -3.80944], [19, 40.35564, -3.81749], [20, 40.35308, -3.82814], [21, 40.34666, -3.83639], [22, 40.3402, -3.8446], [23, 40.3351, -3.85418], [24, 40.3293, -3.86305], [25, 40.33014, -3.87121], [26, 40.33138, -3.88123]]
+
+[[connections]]
+km = 1.353
+station = "Doce de Octubre"
+lines = [
+  { id = "500", ref = "500", name = "Línea Madrid-Valencia de Alcántara", km = 9.132 },
+]
+
+[[connections]]
+km = 4.274
+station = "Méndez Álvaro"
+lines = [
+  { id = "500", ref = "500", name = "Línea Madrid-Valencia de Alcántara", km = 7.04 },
+  { id = "910", ref = "910", name = "Pasillo verde ferroviario", km = 1.514 },
+  { id = "932", ref = "932", km = 1.366 },
+]
+
+[[connections]]
+km = 5.647
+station = "Atocha-Cercanías"
+lines = [
+  { id = "040", ref = "040", name = "Línea de Alta Velocidad Madrid - Cuenca - Valencia", km = 7.22 },
+  { id = "900", ref = "900", name = "Túnel de la Risa I", km = 7.617 },
+  { id = "930", ref = "930", name = "Línea Madrid Atocha-San Fernando de Henares", km = 0 },
+]
+
+[[connections]]
+km = 5.97
+station = "Estación del Arte"
+lines = [
+  { id = "040", ref = "040", name = "Línea de Alta Velocidad Madrid - Cuenca - Valencia", km = 6.732 },
+  { id = "900", ref = "900", name = "Túnel de la Risa I", km = 7.356 },
+]

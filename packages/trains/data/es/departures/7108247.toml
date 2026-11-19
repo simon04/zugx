@@ -1,0 +1,19 @@
+id = "7108247"
+name = "Puebla de Sanabria Llegada"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHv368A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A=="]
+deps = [
+  [484,"IC","4114","7100017",["7100176","7100002"],0,""],
+  [497,"AVLO","4295","7199143",["7108251","7100022","7100028"],1,""],
+  [497,"AVLO","4295","7100022",["7108251"],1,""],
+  [747,"AVLO","4494","7100017",["7100176","7100002"],2,""],
+  [915,"IC","4325","7100186",["7108251","7100022","7100020","7100471"],0,""],
+  [915,"IC","4325","7100022",["7108251"],0,""],
+  [1084,"AVLO","4334","7100017",["7100176","7100002","7108004"],2,""],
+  [1187,"AVLO","4975","7108223",["7108251","7100022","7100028","7100228","7100026"],2,""],
+]
+
+names = { 7100002 = "Medina del Campo", 7100017 = "Madrid-Chamartin", 7100020 = "Monforte de Lemos", 7100022 = "Ourense", 7100026 = "Pontevedra", 7100028 = "Santiago de Compostela", 7100176 = "Zamora", 7100186 = "Lugo", 7100228 = "Vilagarcía de Arousa", 7100471 = "Sarria", 7108004 = "Segovia Guiomar", 7108223 = "Vigo Urzaiz", 7108251 = "A Gudina-Porta Galicia", 7199143 = "A Coruna-Turistico" }

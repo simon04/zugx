@@ -1,0 +1,120 @@
+id = "752"
+ref = "752"
+name = "Ferrocarril de Langreo"
+operator = "Adif"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 48.795
+length = 48.795
+speeds = [[0, 19.889, 100, 100], [19.889, 20.007, "", ""], [20.007, 24.415, 100, 100], [24.415, 28.091, "", ""], [28.091, 48.795, 100, 100]]
+curves = [[0.5, 0.775, 490], [0.825, 1.05, 460], [2, 2.3, 430], [2.375, 2.55, 630], [2.6, 3.15, 310], [3.525, 4.325, 350], [4.375, 4.775, 350], [4.825, 4.875, 1440], [5, 5.275, 420], [5.375, 5.95, 530], [6.025, 6.35, 540], [6.6, 6.85, 540], [7.025, 7.375, 390], [7.725, 7.9, 950], [7.975, 8.275, 480], [8.35, 8.45, 1380], [8.5, 8.6, 1270], [8.725, 8.85, 890], [8.9, 8.975, 1040], [9.025, 9.1, 1480], [9.225, 9.625, 380], [9.85, 10.175, 470], [10.35, 10.525, 860], [10.575, 10.75, 540], [10.8, 11.1, 380], [11.625, 11.775, 710], [11.825, 11.95, 1130], [12.275, 12.45, 740], [12.575, 13.225, 320], [13.65, 14.15, 320], [14.5, 14.85, 940], [15, 15.4, 960], [15.6, 16.3, 360], [16.35, 16.775, 510], [16.825, 17.25, 350], [17.3, 17.425, 1050], [17.725, 18.3, 750], [18.625, 18.875, 840], [19.5, 19.725, 900], [19.975, 20.325, 650], [20.525, 20.775, 710], [20.825, 21.175, 250], [21.275, 21.6, 430], [21.675, 22.425, 730], [23.225, 23.375, 850], [23.425, 23.6, 1030], [23.75, 24.075, 690], [25, 25.425, 1020], [26.975, 27.15, 1340], [27.55, 28.2, 1500], [28.275, 28.4, 1560], [29.5, 29.75, 1000], [29.925, 30.125, 700], [34.2, 34.3, 1260], [34.65, 34.775, 1080], [34.825, 35.15, 990], [35.675, 35.925, 1020], [36.475, 36.85, 860], [37.125, 37.8, 840], [38.35, 38.75, 470], [39.35, 39.875, 430], [40.875, 41.075, 580], [41.125, 41.35, 830], [42.425, 42.875, 770], [43.325, 44.325, 510], [44.375, 44.8, 310], [48.125, 48.4, 760], [48.45, 48.55, 930]]
+points = [
+  { km = 0.04, kind = "station", label = "Laviana", pos = [43.25075, -5.56476] },
+  { km = 0.049, kind = "stop", label = "Pola de Laviana", pos = [43.25081, -5.56484] },
+  { km = 1.378, kind = "stop", label = "Barredos", pos = [43.25985, -5.575] },
+  { km = 1.379, kind = "halt", label = "Los Barreros / Barredos", pos = [43.25986, -5.575] },
+  { km = 3.329, kind = "stop", label = "Blimea", pos = [43.27088, -5.59039] },
+  { km = 4.959, kind = "station", label = "Sotrondio", pos = [43.27602, -5.60484] },
+  { km = 5.952, kind = "stop", label = "San Martín", pos = [43.2783, -5.61531] },
+  { km = 7.386, kind = "stop", label = "Carrocera", pos = [43.2877, -5.62637] },
+  { km = 8.618, kind = "station", label = "El Entrego - La Oscura", pos = [43.28968, -5.64086] },
+  { km = 8.625, kind = "stop", label = "El Entrego-La Oscura", pos = [43.28966, -5.64094] },
+  { km = 9.023, kind = "station", label = "L'Entregu / El Entrego", uic = "7116011", pos = [43.28714, -5.64519] },
+  { km = 9.645, kind = "stop", label = "San Vicente", pos = [43.2891, -5.65292] },
+  { km = 10.927, kind = "stop", label = "Ciaño", pos = [43.2908, -5.66794] },
+  { km = 10.953, kind = "station", label = "Ciañu", pos = [43.28939, -5.66882] },
+  { km = 12.118, kind = "stop", label = "Sama - Los Llerones", pos = [43.29684, -5.67999] },
+  { km = 13.48, kind = "station", label = "La Felguera - Nuevu Llangréu", pos = [43.30565, -5.68883] },
+  { km = 18.288, kind = "stop", label = "Tiuya / Tuilla", pos = [43.32801, -5.64322] },
+  { km = 19.931, kind = "stop", label = "Curuxona", pos = [43.33946, -5.63068] },
+  { km = 23.722, kind = "stop", label = "Valdesoto", pos = [43.35845, -5.65858] },
+  { km = 25.603, kind = "station", label = "Bendicion", pos = [43.36346, -5.6806] },
+  { km = 26.992, kind = "stop", label = "Xixún", pos = [43.37128, -5.69367] },
+  { km = 28.483, kind = "station", label = "El Berrón", pos = [43.38248, -5.70247] },
+  { km = 29.74, kind = "stop", label = "Noreña", pos = [43.39398, -5.70342] },
+  { km = 34.324, kind = "station", label = "La Florida", pos = [43.43478, -5.71001] },
+  { km = 35.92, kind = "stop", label = "Puente Buracos", pos = [43.44805, -5.7173] },
+  { km = 38.1, kind = "stop", label = "La Aguda", pos = [43.46595, -5.72596] },
+  { km = 40.722, kind = "stop", label = "Pinzales", pos = [43.48653, -5.7196] },
+  { km = 43.191, kind = "stop", label = "Sotiello", pos = [43.50746, -5.72639] },
+  { km = 47.13, kind = "stop", label = "Tremañes-Langreo", pos = [43.52723, -5.69061] },
+  { km = 48.765, kind = "stop", label = "Gijón / Xixón", pos = [43.53749, -5.67613] },
+  { km = 48.795, kind = "station", label = "Estación de Gijón/Xixón Sanz Crespo", pos = [43.5379, -5.67551] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.575, kmTo = 1.588, length = 13 },
+  { kind = "tunnel", kmFrom = 4.28, kmTo = 4.347, length = 66 },
+  { kind = "tunnel", kmFrom = 4.411, kmTo = 4.536, length = 125 },
+  { kind = "tunnel", kmFrom = 5.366, kmTo = 5.658, length = 292 },
+  { kind = "bridge", kmFrom = 9.783, kmTo = 9.793, length = 10 },
+  { kind = "tunnel", kmFrom = 12.086, kmTo = 12.151, length = 64 },
+  { kind = "tunnel", kmFrom = 12.494, kmTo = 12.553, length = 59 },
+  { kind = "tunnel", kmFrom = 12.647, kmTo = 13.966, length = 1319 },
+  { kind = "bridge", kmFrom = 16.234, kmTo = 16.255, length = 21 },
+  { kind = "bridge", kmFrom = 16.976, kmTo = 16.99, length = 14 },
+  { kind = "bridge", kmFrom = 18.861, kmTo = 18.881, length = 19 },
+  { kind = "tunnel", kmFrom = 20.007, kmTo = 21.193, length = 1186 },
+  { kind = "bridge", kmFrom = 24.415, kmTo = 24.441, length = 26 },
+  { kind = "bridge", kmFrom = 26.816, kmTo = 26.841, length = 24 },
+  { kind = "bridge", kmFrom = 28.001, kmTo = 28.091, length = 90 },
+  { kind = "tunnel", kmFrom = 28.714, kmTo = 28.839, length = 125 },
+  { kind = "tunnel", kmFrom = 30.135, kmTo = 30.243, length = 108 },
+  { kind = "tunnel", kmFrom = 30.243, kmTo = 34.158, length = 3915, name = "Túnel de la Florida" },
+  { kind = "bridge", kmFrom = 36.926, kmTo = 36.947, length = 21 },
+  { kind = "bridge", kmFrom = 38.43, kmTo = 38.44, length = 10 },
+  { kind = "bridge", kmFrom = 39.94, kmTo = 39.951, length = 11 },
+  { kind = "bridge", kmFrom = 40.252, kmTo = 40.267, length = 16 },
+  { kind = "bridge", kmFrom = 42.888, kmTo = 42.91, length = 23 },
+  { kind = "tunnel", kmFrom = 45.789, kmTo = 45.921, length = 132 },
+  { kind = "bridge", kmFrom = 46.789, kmTo = 46.799, length = 10 },
+  { kind = "bridge", kmFrom = 46.953, kmTo = 46.975, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gj~fGby}`@u[|VoBdDwCnLeBpDct@lq@gBvFgBpN?bPY~D}@rDyAlC{BpBkC|@g\\tAiCx@_CpBuBrEgCdLGbGbAjG", v = 100 },
+  { line = "mgcgGbfda@x@lC", tunnel = true, v = 100 },
+  { line = "secgGpjda@x@hC", v = 100 },
+  { line = "yccgGznda@hA`H", tunnel = true, v = 100 },
+  { line = "oacgG|wda@?hEg@|D_JpYMzDbAtM", v = 100 },
+  { line = "alcgGhsfa@f@|JYjI", tunnel = true, v = 100 },
+  { line = "skcgGriga@sApDkCpCmLjEuDjCqPt]yShMsBdDaAlDmFj`@}F|Rk@dF^~QdBz\\tFtc@VnGo@`GgL~XuAdHXl\\q@bRv@vLCjDkBjI}Q~f@qFhI{ErK", v = 100 },
+  { line = "gkggG|hta@aA`C", tunnel = true, v = 100 },
+  { line = "imggG~lta@uErKiErE", v = 100 },
+  { line = "izggGf`ua@uApA", tunnel = true, v = 100 },
+  { line = "_}ggGxbua@iChC", v = 100 },
+  { line = "iahgGbgua@iCfFoBxJaBbCyChBs`@RmEqAgBoBcAcC", tunnel = true, v = 100 },
+  { line = "m~igG`xua@}@wG}Aif@mAoJqFcT}D_KsB}CaNeNoCwFm@uDCcKo@gGsA_EuFyIeBaHi@cIVmQcBcJeB}CkHuGcQyTmJwTg\\eVy^cm@sM{K", v = 100 },
+  { line = "otogGnxja@sDwC" },
+  { line = "czogGvsja@iEaBw]~B{IoBwADsAPoB`BkCpH", tunnel = true, v = 100 },
+  { line = "iwqgGp~ja@}BvHqD~FuNfHuE~DqDlGaCbIuAhK}FpaACxUuAbRyBvKkCf_@", v = 100 },
+  { line = "mvsgG|wqa@wEzp@gBpKaCtGgz@vcBsWx[uKdImIrD" },
+  { line = "oowgGlpxa@iMvCeSxA", v = 100 },
+  { line = "_rxgG~wxa@_FT", tunnel = true, v = 100 },
+  { line = "_yxgGtxxa@_i@vDaUgCgGN", v = 100 },
+  { line = "ia{gGtzxa@a_F`i@", tunnel = true, v = 100 },
+  { line = "kabhGvdza@gj@hMaGpCw`@nXgj@jPyGxEaUhX{FfDsErAwHj@ce@cBcEeAeFaE_]ik@sFgD{Ee@{Df@_x@nVmEvBiJvIwD|Acy@zYaE~@sFPeM{B_YwI}DiCeDgEoCkHwAcMV{JnEaVCwDq@{Dsf@_x@", v = 100 },
+  { line = "qsrhGb}xa@Wc@", tunnel = true, v = 100 },
+  { line = "itrhG~{xa@cBmC", v = 100 },
+  { line = "mwrhGpwxa@eDiF", tunnel = true, v = 100 },
+  { line = "s|rhGfpxa@qwA}{BiF_GwCuGeKqP", v = 100 },
+]
+posts = [[0, 43.25044, -5.5645], [1, 43.25703, -5.57239], [2, 43.26449, -5.5793], [3, 43.26796, -5.58992], [4, 43.27572, -5.59397], [5, 43.27623, -5.6053], [6, 43.27871, -5.61549], [7, 43.28551, -5.623], [8, 43.28971, -5.6334], [9, 43.28899, -5.64546], [10, 43.29084, -5.65659], [11, 43.29101, -5.6688], [12, 43.29622, -5.67881], [13, 43.30186, -5.68812], [14, 43.31011, -5.68682], [15, 43.31214, -5.67492], [16, 43.31727, -5.66548], [17, 43.31991, -5.65425], [18, 43.32624, -5.64568], [19, 43.33325, -5.63828], [20, 43.33997, -5.63025], [21, 43.34878, -5.63007], [22, 43.35538, -5.63783], [23, 43.35777, -5.64957], [24, 43.35923, -5.66166], [25, 43.36085, -5.67382], [26, 43.36567, -5.68408], [27, 43.37132, -5.6937], [28, 43.37851, -5.70098], [29, 43.38736, -5.70288], [30, 43.39629, -5.7029], [31, 43.4052, -5.70443], [32, 43.41411, -5.7061], [33, 43.42303, -5.70776], [34, 43.43194, -5.70942], [35, 43.44068, -5.71222], [36, 43.44875, -5.71758], [37, 43.45682, -5.72253], [38, 43.46504, -5.72603], [39, 43.47287, -5.7215], [40, 43.48031, -5.71702], [41, 43.4889, -5.72067], [42, 43.49712, -5.72546], [43, 43.5058, -5.72704], [44, 43.51267, -5.72043], [45, 43.51383, -5.70949], [46, 43.52012, -5.70062], [47, 43.52641, -5.69175], [48, 43.5327, -5.68289]]
+
+[[connections]]
+km = 48.765
+station = "Gijón / Xixón"
+lines = [
+  { id = "750", ref = "750", name = "Ferrocarril Gijón - El Ferrol", km = 50.646 },
+]
+
+[[connections]]
+km = 48.795
+station = "Estación de Gijón/Xixón Sanz Crespo"
+lines = [
+  { id = "750", ref = "750", name = "Ferrocarril Gijón - El Ferrol", km = 50.646 },
+]

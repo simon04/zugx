@@ -1,0 +1,35 @@
+id = "756"
+ref = "756"
+name = "Baipás Sotiello-Veriña"
+operator = "Adif"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.793
+length = 0.793
+speeds = [[0, 0.793, "", ""]]
+curves = [[0.1, 0.675, 520]]
+points = [
+  { km = 0.793, kind = "station", label = "Veriña", pos = [43.54176, -5.72261] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.153, kmTo = 0.18, length = 28 },
+  { kind = "bridge", kmFrom = 0.227, kmTo = 0.239, length = 12 },
+  { kind = "bridge", kmFrom = 0.309, kmTo = 0.793, length = 484 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kqxhG`y}a@~EMfMwGdJm@fHyE" },
+]
+posts = [[0, 43.54854, -5.72833]]
+
+[[connections]]
+km = 0.793
+station = "Veriña"
+lines = [
+  { id = "750", ref = "750", name = "Ferrocarril Gijón - El Ferrol", km = 45.782 },
+]

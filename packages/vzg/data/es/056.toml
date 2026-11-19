@@ -1,0 +1,35 @@
+id = "056"
+ref = "056"
+name = "Línia d'alta velocitat Madrid - Zaragoza - Barcelona - Frontera francesa"
+operator = "Adif"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 16.318
+length = 16.318
+speeds = [[0, 16.318, "", ""]]
+curves = [[0.125, 0.475, 1470], [0.625, 1.375, 1280], [1.6, 1.9, 1160], [4.55, 5.3, 970], [5.725, 5.875, 1010], [5.925, 6.45, 1020], [6.575, 7.25, 1010], [8.175, 8.55, 1070], [8.675, 9.4, 810], [13.125, 13.25, 2030], [13.325, 13.55, 2520], [13.7, 13.8, 1940], [13.9, 14, 1750], [14.175, 14.6, 2360], [14.7, 14.85, 2370], [14.9, 15.025, 2200], [15.1, 15.4, 2310], [15.575, 15.625, 2730]]
+points = [
+  { km = 7.59, kind = "station", label = "Lleida-Pirineus", uic = "7178400", pos = [41.62073, 0.63304] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 5.356, kmTo = 7.29, length = 1934 },
+  { kind = "bridge", kmFrom = 7.911, kmTo = 8.119, length = 208 },
+  { kind = "bridge", kmFrom = 8.361, kmTo = 8.39, length = 29 },
+  { kind = "bridge", kmFrom = 12.7, kmTo = 13.103, length = 404 },
+  { kind = "bridge", kmFrom = 13.159, kmTo = 13.197, length = 38 },
+  { kind = "bridge", kmFrom = 14.722, kmTo = 14.896, length = 174 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_~`}FsziBvBgVtHs[zBcOV}SaCi`@CwL`SggENkI[iK" },
+  { line = "m|_}FqauBGq@", tunnel = true },
+  { line = "u|_}FccuBkC_PgFsM" },
+  { line = "ih`}FwbvBgNiYqCgKgBgOSwIh@uTlA{IbFmQhGsK", tunnel = true },
+  { line = "yl`}F}czBxd@iq@~DyKdE{SfBcGtEsI`FsE~EaCfTiG|zCay@hPuG`LcGzIyG|J{JdJyLfLkTjFiN`G}TvC{PbBcP`FqdA" },
+]
+posts = [[0, 41.62544, 0.54714], [1, 41.62264, 0.5585], [2, 41.6231, 0.57044], [3, 41.6219, 0.58236], [4, 41.62068, 0.59428], [5, 41.62039, 0.60618], [6, 41.62519, 0.61626], [7, 41.62432, 0.62785], [8, 41.61816, 0.63657], [9, 41.6134, 0.64659], [10, 41.60512, 0.65089], [11, 41.59645, 0.65409], [12, 41.58778, 0.65729], [13, 41.57924, 0.661], [14, 41.57195, 0.6679], [15, 41.56727, 0.67807], [16, 41.56566, 0.68986]]

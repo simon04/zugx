@@ -1,0 +1,15 @@
+id = "7115003"
+name = "Becerril (APT.)"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHv3+8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQIBAA==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A=="]
+deps = [
+  [947,"REG","18214","7100012",["7115001"],2,""],
+  [1033,"REG","18215","7100015",["7120402","7115006","7140654","7115008","7100381","7115012","7115014","7115015"],2,""],
+  [1133,"REG","12100","7100003",["7115001","7100012","7100004","7110605","7110604","7110603","7100375","7110610"],0,""],
+  [1209,"REG","12602","7100003",["7115001","7100012","7100004","7110605","7100375","7110610"],1,""],
+]
+
+names = { 7100003 = "Valladolid Campo Grande", 7100004 = "Venta de Baños", 7100012 = "Palencia", 7100015 = "León", 7100375 = "Cabezón del Pisuerga", 7100381 = "Sahagún", 7110603 = "Corcos-Aguilarejo (APT.)", 7110604 = "Cubillas de Santa Marta (APD.)", 7110605 = "Duenas (APT.-CGD.)", 7110610 = "Valladolid-Universidad", 7115001 = "Grijato (APD.)", 7115006 = "Cisneros (APT.)", 7115008 = "Grajal (APD.)", 7115012 = "El Burgo-Raneros (APT.-CGD.)", 7115014 = "Santas Martas", 7115015 = "Palanquinos (APT.-CGD.)", 7120402 = "Paredes de Nava", 7140654 = "Villada" }

@@ -1,0 +1,22 @@
+id = "060"
+ref = "060"
+name = "Acceso al Cambiador de Zaragoza-Delicias"
+operator = "Adif"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.447
+length = 0.447
+speeds = [[0, 0.447, 30, 30]]
+curves = []
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "{|h}FpvsD_O`X", v = 30 },
+  { line = "{li}FrotDIN", tunnel = true, v = 30 },
+]
+posts = [[0, 41.66622, -0.92537]]

@@ -1,0 +1,25 @@
+id = "934"
+ref = "934"
+name = "Línea Abroñigal-Bifurcación Rebolledo"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.118
+length = 1.118
+speeds = [[0, 1.118, "", ""]]
+curves = [[0.3, 0.4, 1260], [0.65, 0.8, 1850]]
+points = []
+structures = [
+  { kind = "tunnel", kmFrom = 0.064, kmTo = 0.247, length = 183 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wimuF`inUdBcA" },
+  { line = "qfmuF|fnUxG}E", tunnel = true },
+  { line = "w}luF~_nUxWuNzNeFpCW" },
+]
+posts = [[0, 40.37804, -3.68289], [1, 40.36992, -3.67792]]

@@ -1,0 +1,23 @@
+id = "7100383"
+name = "San Roque-La Línea"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A=="]
+deps = [
+  [346,"REG","13063","7102030",["7100046","7102003"],1,""],
+  [504,"REG","35065","7102030",["7155017","7155015","7155014","7155013","7155012","7155011","7155010","7155008"],1,""],
+  [637,"REG","13065","7102030",["7100046","7102003"],1,""],
+  [757,"REG","35077","7102030",["7155017","7155015","7155014","7155013","7155012","7155011","7155010","7155008"],1,""],
+  [807,"REG","13062","7100136",[],1,""],
+  [824,"IC","9366","7100136",[],0,""],
+  [885,"REG","13077","7102030",["7100046","7102003"],1,""],
+  [934,"REG","35062","7100136",["7155019"],1,""],
+  [978,"IC","9331","7100049",["7102003","7100038"],0,""],
+  [1100,"REG","13064","7100136",[],1,""],
+  [1230,"REG","35064","7100136",["7155019"],1,""],
+  [1364,"REG","13076","7100136",[],1,""],
+]
+
+names = { 7100038 = "Córdoba Central", 7100046 = "Ronda", 7100049 = "Madrid Puerta de Atocha", 7100136 = "Algeciras", 7102003 = "Antequera-Santa Ana", 7102030 = "Antequera Av", 7155008 = "Arriate (APT.)", 7155010 = "Benaojan-Montejaque (APT.)", 7155011 = "Jimera de Libar (APT.)", 7155012 = "Cortes de la Frontiera (APT.-CGD.)", 7155013 = "Gaucín", 7155014 = "San Pablo (APD.)", 7155015 = "Jimena de la Frontiera", 7155017 = "Almoraima (APT.)", 7155019 = "Los Barrios (APT.-CGD.)" }

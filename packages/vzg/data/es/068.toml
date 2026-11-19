@@ -1,0 +1,30 @@
+id = "068"
+ref = "068"
+name = "Línea de alta velocidad Vallecas-Alta Velocidad-aguja km 12,300-Los Gavilanes-aguja km 13,400"
+operator = "Adif"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.42
+length = 5.42
+speeds = [[0, 5.42, 160, 160]]
+curves = [[0.3, 0.55, 2500], [0.625, 0.875, 2480], [3.4, 4.575, 1670]]
+points = []
+structures = [
+  { kind = "tunnel", kmFrom = 2.092, kmTo = 2.512, length = 420 },
+  { kind = "bridge", kmFrom = 2.512, kmTo = 3.201, length = 690 },
+  { kind = "tunnel", kmFrom = 4.292, kmTo = 4.396, length = 105 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "m}~tFh_jUaOmTkNeOi_Akq@", v = 160 },
+  { line = "e}auFhggUkSuN", tunnel = true, v = 160 },
+  { line = "qqbuFrwfUkh@}^cJcIyKoOgJkU", v = 160 },
+  { line = "c~duFtfdUoA_F", tunnel = true, v = 160 },
+  { line = "s`euFt_dUwNsgA", v = 160 },
+]
+posts = [[0, 40.30439, -3.66085], [1, 40.31125, -3.65331], [2, 40.319, -3.64733], [3, 40.32675, -3.64134], [4, 40.33383, -3.63421], [5, 40.33714, -3.62335]]

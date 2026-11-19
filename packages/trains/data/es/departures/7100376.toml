@@ -1,0 +1,40 @@
+id = "7100376"
+name = "Cantalapiedra"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHPnw4A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A=="]
+deps = [
+  [463,"IC","631","7175506",["7132003","7132002","7100002","7100003","7100005","7100006","7100127","7100080"],0,""],
+  [463,"IC","631","7100003",["7132003","7132002","7100002"],0,""],
+  [463,"REG","37431","7100003",["7132003","7132002","7100002"],2,""],
+  [517,"REG","18300","7117189",["7132006","7132007","7132008","7132009","7100027"],1,""],
+  [875,"REG","18306","7100012",["7132003","7132002","7100002","7110501","7110502","7110503","7110504","7100003"],2,""],
+  [908,"REG","18308","7117189",["7132006","7132008","7100027"],2,""],
+  [1198,"REG","18318","7117189",["7132008","7100027"],2,""],
+  [1275,"REG","18312","7100003",["7132003","7132002","7132001","7100002","7110501","7110502","7110503","7110504"],2,""],
+]
+
+[names]
+7100002 = "Medina del Campo"
+7100003 = "Valladolid Campo Grande"
+7100005 = "Burgos Rosa de Lima"
+7100006 = "Miranda de Ebro"
+7100012 = "Palencia"
+7100027 = "Salamanca"
+7100080 = "Pamplona"
+7100127 = "Vitoria/Gasteiz"
+7110501 = "Pozaldez (APT.-CGD.)"
+7110502 = "Matapozuelos (APD.)"
+7110503 = "Valdestillas (APT.)"
+7110504 = "Viana (APT.)"
+7117189 = "Salamanca-la Alamedilla"
+7132001 = "Campillo (APT.-CGD.)"
+7132002 = "Cario del Campo (APT.)"
+7132003 = "Fresno el Viejo"
+7132006 = "El Pedroso de la Armuña"
+7132007 = "Pitiegua (APD.)"
+7132008 = "Gomecello"
+7132009 = "Moriscos"
+7175506 = "Zaragoza Delicias"

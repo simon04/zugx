@@ -1,0 +1,61 @@
+id = "010"
+ref = "010"
+name = "Línea de alta velocidad Madrid - Sevilla"
+operator = "Adif"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 85
+kmTo = 125
+length = 40.002
+speeds = [[85, 88.761, 270, 270], [88.761, 89.048, "", ""], [89.048, 98.905, 270, 270], [98.905, 103.221, 290, 290], [103.221, 112.068, 300, 300], [112.068, 115.176, 290, 290], [115.176, 125, 270, 270]]
+curves = [[91.003, 91.077, 2420], [94.407, 94.456, 2540], [94.703, 94.802, 1850], [96.4, 96.475, 2810], [96.925, 96.975, 2580], [97.125, 97.2, 2750], [98.75, 98.825, 2390], [99, 99.05, 2080], [102.122, 102.172, 2660], [103.02, 103.07, 2590], [112.602, 112.652, 2220], [112.854, 112.929, 2360], [113.055, 113.105, 2560], [113.256, 113.307, 2860], [114.036, 114.112, 2760], [114.313, 114.363, 2480], [114.514, 114.59, 2480], [115.94, 116.015, 2590], [116.988, 117.063, 2420], [117.462, 117.512, 2980], [117.937, 118.011, 2550], [118.186, 118.236, 2710], [118.386, 118.46, 2570]]
+points = [
+  { km = 85.363, kind = "signal", label = "163", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 86.396, kind = "signal", label = "E'171", signal = "distant", dir = 1 },
+  { km = 87.739, kind = "signal", label = "167", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 88.697, kind = "signal", label = "E171", signal = "main", dir = 1 },
+  { km = 89.94, kind = "signal", label = "S203", signal = "main", dir = 1 },
+  { km = 91.546, kind = "signal", label = "176", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 94.267, kind = "signal", label = "180", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 97.433, kind = "signal", label = "184", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 100.488, kind = "signal", label = "188", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 103.69, kind = "signal", label = "192", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 105.908, kind = "signal", label = "222", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 108.965, kind = "signal", label = "226", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 111.948, kind = "signal", label = "230", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 115.001, kind = "signal", label = "234", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 116.309, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 116.371, kind = "signal", label = "E'242", signal = "distant", dir = 1 },
+  { km = 116.83, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 117.487, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 118.024, kind = "signal", label = "238", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 118.886, kind = "signal", label = "E242", signal = "main", dir = 1 },
+  { km = 120.06, kind = "signal", label = "S213", signal = "main", dir = 1 },
+  { km = 121.262, kind = "signal", label = "246", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 123.954, kind = "signal", label = "250", signal = "catenary_mast,train_protection", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 85.78, kmTo = 85.804, length = 24 },
+  { kind = "bridge", kmFrom = 94.426, kmTo = 94.451, length = 26 },
+  { kind = "bridge", kmFrom = 95.176, kmTo = 95.197, length = 21 },
+  { kind = "bridge", kmFrom = 113.496, kmTo = 113.552, length = 56 },
+  { kind = "bridge", kmFrom = 114.129, kmTo = 114.194, length = 64 },
+  { kind = "bridge", kmFrom = 114.467, kmTo = 114.513, length = 46 },
+  { kind = "bridge", kmFrom = 118.298, kmTo = 118.311, length = 13 },
+  { kind = "bridge", kmFrom = 118.398, kmTo = 118.414, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "okmqFpcgVvsAkT|vBuU", v = 270 },
+  { line = "y~fqFnweVvNqA" },
+  { line = "aofqF|teVt|AoPhYsArW^rhCxLzSDdQo@nPwBhMmCtg@_PfR}ErTwCzQ_AfXT`WdCtXfGnSpH", v = 270 },
+  { line = "_jupFb~dV|aDxfBjZ|Jz^~F", v = 290 },
+  { line = "yknpFzyhV~mN~jA", v = 300 },
+  { line = "y|~oFzekV`ShApXCxTiBpQyChWyHbMoFjJeFf\\qT", v = 290 },
+  { line = "wwyoFzqiVbSiMlSkJh[yIvTaD|M_ApXCtRlAvV~DlpBzn@rrAtc@pPnIfN|IplB`sA", v = 270 },
+]
+posts = [[85, 39.72296, -3.81001], [86, 39.71429, -3.8078], [87, 39.70559, -3.80589], [88, 39.69686, -3.80419], [89, 39.68811, -3.80262], [90, 39.67938, -3.801], [91, 39.67034, -3.79943], [92, 39.66124, -3.79982], [93, 39.65215, -3.80072], [94, 39.64307, -3.80165], [95, 39.63399, -3.80101], [96, 39.62537, -3.79777], [97, 39.61659, -3.79539], [98, 39.60764, -3.79596], [99, 39.59906, -3.79935], [100, 39.591, -3.80452], [101, 39.58293, -3.80972], [102, 39.57485, -3.81489], [103, 39.56626, -3.81831], [104, 39.55732, -3.81977], [105, 39.54838, -3.82115], [106, 39.53939, -3.82252], [107, 39.5304, -3.82391], [108, 39.52141, -3.82528], [109, 39.51243, -3.82666], [110, 39.50344, -3.82804], [111, 39.49457, -3.8294], [112, 39.48569, -3.83077], [113, 39.47678, -3.83109], [114, 39.46807, -3.82863], [115, 39.46005, -3.82357], [116, 39.45201, -3.81835], [117, 39.44325, -3.81573], [118, 39.43427, -3.816], [119, 39.42557, -3.81899], [120, 39.41703, -3.82268], [121, 39.40847, -3.82635], [122, 39.39993, -3.83007], [123, 39.39194, -3.83542], [124, 39.38419, -3.84136], [125, 39.37644, -3.84731]]

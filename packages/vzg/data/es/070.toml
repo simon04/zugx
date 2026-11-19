@@ -1,0 +1,24 @@
+id = "070"
+ref = "070"
+name = "Línea Zaragoza-Huesca"
+operator = "Adif"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 22
+kmTo = 24
+length = 2.425
+speeds = [[22, 24, 200, 200]]
+curves = []
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 23.28, kmTo = 23.415, length = 189 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{`j~FvlxCa~BkaA", v = 200 },
+]
+posts = [[22, 41.83582, -0.78556], [23, 41.84445, -0.78105], [24, 41.85615, -0.77494]]

@@ -1,0 +1,21 @@
+id = "414"
+ref = "414"
+name = "FFCC Bifurcación Granada - Bifurcación Almería"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.839
+length = 0.839
+speeds = [[0, 0.839, 100, 100]]
+curves = [[0.1, 0.725, 430]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "o_lcF`lfSgEmCmCyCkB}DgAiFOcFTuD|CmL", v = 100 },
+]
+posts = [[0, 37.42216, -3.31473]]

@@ -1,0 +1,99 @@
+id = "910"
+ref = "910"
+name = "Pasillo verde ferroviario"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 26.787
+length = 26.787
+speeds = [[0, 0.097, "", ""], [0.097, 1.773, 50, 50], [1.773, 2.72, 70, 70], [2.72, 2.938, 85, 85], [2.938, 4.335, 115, 115], [4.335, 6.559, 85, 85], [6.559, 6.797, 65, 65], [6.797, 6.961, 60, 60], [6.961, 7.27, 70, 70], [7.27, 7.538, 60, 60], [7.538, 7.923, 70, 70], [7.923, 8.821, 90, 90], [8.821, 13.409, 115, 115], [13.409, 14.351, 120, 120], [14.351, 16.076, 100, 100], [16.076, 17.43, 125, 125], [17.43, 20.694, 140, 140], [20.694, 21.537, 130, 130], [21.537, 24.644, 140, 140], [24.644, 26.628, 125, 125], [26.628, 26.787, 100, 100]]
+curves = [[0.1, 0.15, 1170], [0.3, 0.6, 580], [0.65, 0.7, 1240], [0.75, 1.8, 300], [2.675, 2.925, 660], [3.775, 4.025, 980], [4.55, 4.75, 730], [4.925, 5.55, 440], [5.65, 5.7, 2190], [5.875, 6.1, 860], [6.35, 6.95, 400], [7.225, 7.35, 1590], [7.5, 7.7, 770], [8.35, 8.8, 420], [9.15, 9.7, 620], [10.1, 10.55, 1140], [12.2, 12.675, 990], [13.7, 14.05, 1220], [14.4, 15.85, 560], [16.15, 17.35, 610], [18.125, 18.4, 1360], [19.275, 19.575, 1210], [20.7, 21.5, 790], [21.85, 22.4, 990], [22.95, 23.45, 1060], [24.35, 24.65, 1180], [25, 25.15, 1330], [25.25, 25.5, 1870], [25.575, 25.75, 1530]]
+points = [
+  { km = 1.444, kind = "stop", label = "Méndez Álvaro - Vía 2", pos = [40.3954, -3.67918] },
+  { km = 1.514, kind = "station", label = "Méndez Álvaro", pos = [40.3956, -3.67859], uic = "7118003" },
+  { km = 2.72, kind = "station", label = "Delicias", pos = [40.39933, -3.69412] },
+  { km = 4.335, kind = "station", label = "Pirámides", pos = [40.40296, -3.71198] },
+  { km = 6.911, kind = "station", label = "Madrid-Príncipe Pío", pos = [40.4216, -3.71903] },
+  { km = 6.961, kind = "station", label = "Príncipe Pío", pos = [40.42096, -3.71933] },
+  { km = 13.69, kind = "station", label = "Aravaca", pos = [40.44834, -3.78631] },
+  { km = 13.702, kind = "stop", label = "Aravaca Vía 2", pos = [40.4486, -3.78563] },
+  { km = 14.976, kind = "stop", label = "Pozuelo Vía 2", pos = [40.44742, -3.80005] },
+  { km = 14.976, kind = "station", label = "Pozuelo", pos = [40.44741, -3.80006] },
+  { km = 17.578, kind = "station", label = "El Barrial-Centro Comercial Pozuelo", pos = [40.46533, -3.80785] },
+  { km = 20.987, kind = "station", label = "Majadahonda", pos = [40.47434, -3.84597] },
+  { km = 20.997, kind = "stop", label = "Majadahonda (Vía 2)", pos = [40.4744, -3.84606] },
+  { km = 23.943, kind = "stop", label = "Las Rozas (Vía 2)", pos = [40.4943, -3.86791] },
+  { km = 23.943, kind = "station", label = "Las Rozas", pos = [40.49429, -3.86794] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.256, kmTo = 0.355, length = 99 },
+  { kind = "tunnel", kmFrom = 0.578, kmTo = 0.684, length = 106 },
+  { kind = "bridge", kmFrom = 1.465, kmTo = 1.534, length = 69 },
+  { kind = "tunnel", kmFrom = 2.72, kmTo = 6.931, length = 4211 },
+  { kind = "bridge", kmFrom = 8.699, kmTo = 8.723, length = 24 },
+  { kind = "bridge", kmFrom = 8.789, kmTo = 8.821, length = 32 },
+  { kind = "bridge", kmFrom = 8.903, kmTo = 9.016, length = 112 },
+  { kind = "bridge", kmFrom = 9.137, kmTo = 9.202, length = 65 },
+  { kind = "bridge", kmFrom = 9.247, kmTo = 9.263, length = 15 },
+  { kind = "bridge", kmFrom = 13.634, kmTo = 13.669, length = 34 },
+  { kind = "bridge", kmFrom = 15.836, kmTo = 15.853, length = 17 },
+  { kind = "bridge", kmFrom = 16.312, kmTo = 16.337, length = 25 },
+  { kind = "bridge", kmFrom = 21.041, kmTo = 21.055, length = 14 },
+  { kind = "bridge", kmFrom = 21.074, kmTo = 21.109, length = 35 },
+  { kind = "bridge", kmFrom = 21.149, kmTo = 21.18, length = 30 },
+  { kind = "tunnel", kmFrom = 21.816, kmTo = 21.892, length = 76 },
+  { kind = "bridge", kmFrom = 24.623, kmTo = 24.644, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ukruFb~nUlCeC" },
+  { line = "ggruF|ynUpE}F", v = 50 },
+  { line = "u`ruF~qnU`C_D", tunnel = true, v = 50 },
+  { line = "s|quF~lnU`B{DbA{G", v = 50 },
+  { line = "mwquFf~mUrA_F", tunnel = true, v = 50 },
+  { line = "ytquFfwmUdB_I`DeEhFcB|Ez@bDhDxBnIHrGoBtI", v = 50 },
+  { line = "qxpuF|hnU}Znz@", v = 70 },
+  { line = "otquFldpUoAbFYbG", tunnel = true, v = 85 },
+  { line = "ywquFtspUcCdcAaG~_@", tunnel = true, v = 115 },
+  { line = "_druFzxsUeDfRgBjFcHxNmCtCaDvAyD`@uD]ga@yLmTi@}A^uBrB", tunnel = true, v = 85 },
+  { line = "{huuFj`uUwKnC", tunnel = true, v = 65 },
+  { line = "suuuFzduU_E|D", tunnel = true, v = 60 },
+  { line = "s{uuFxjuUe@n@", v = 60 },
+  { line = "y|uuFhluUsKtN", v = 70 },
+  { line = "mivuF~{uUwH~M", v = 60 },
+  { line = "esvuF~jvUmCpD_L`J", v = 70 },
+  { line = "sdwuFr{vU{YvViC`Hi@xK", v = 90 },
+  { line = "cexuFfixUi@~^eBpLeEnIeWhYeFjJgp@h{BqAnIc@xI^|{@", v = 115 },
+  { line = "cc{uFpuaVl@fb@bGn_@", v = 120 },
+  { line = "qyzuFhycVnBzOW~LaApFeBvEsGfIoIbDoIDyFaByOqJ", v = 100 },
+  { line = "ir|uFlgeV}IyE{FeAyGNaHxB}FdFuD|GkBfHwAdM", v = 125 },
+  { line = "wj~uFhjfVkIp{@kXdcAeBzIsK~xA", v = 140 },
+  { line = "i~_vF|omViB~MiEjLiGnIoIhF", v = 130 },
+  { line = "wz`vFb~nViMjG", v = 140 },
+  { line = "aiavFnfoV{BjA", tunnel = true, v = 140 },
+  { line = "}lavFzhoVsG|EsFbHiXxm@cIdLcs@rf@yMvF", v = 140 },
+  { line = "qcevFhdsVoT`FaPdGgP~Dyp@fX", v = 125 },
+  { line = "emhvFxrtViGfC", v = 100 },
+]
+posts = [[0, 40.40395, -3.68626], [1, 40.39862, -3.6772], [2, 40.39684, -3.68515], [3, 40.40082, -3.69556], [4, 40.40173, -3.70728], [5, 40.40556, -3.71784], [6, 40.414, -3.71689], [7, 40.4223, -3.71957], [8, 40.42901, -3.72732], [9, 40.4337, -3.73623], [10, 40.43791, -3.74587], [11, 40.44295, -3.75549], [12, 40.44708, -3.76598], [13, 40.44876, -3.77734], [14, 40.44818, -3.7891], [15, 40.44755, -3.80028], [16, 40.45561, -3.80082], [17, 40.46377, -3.80134], [18, 40.46631, -3.81256], [19, 40.46978, -3.82341], [20, 40.47239, -3.83463], [21, 40.47441, -3.84609], [22, 40.4818, -3.85244], [23, 40.48742, -3.86156], [24, 40.49475, -3.86824], [25, 40.50304, -3.87259], [26, 40.51156, -3.87632]]
+
+[[connections]]
+km = 1.444
+station = "Méndez Álvaro - Vía 2"
+lines = [
+  { id = "932", ref = "932", km = 1.296 },
+]
+
+[[connections]]
+km = 1.514
+station = "Méndez Álvaro"
+lines = [
+  { id = "500", ref = "500", name = "Línea Madrid-Valencia de Alcántara", km = 7.04 },
+  { id = "920", ref = "920", name = "Línea Móstoles-Parla", km = 4.274 },
+  { id = "932", ref = "932", km = 1.366 },
+]

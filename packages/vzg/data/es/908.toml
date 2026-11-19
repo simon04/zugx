@@ -1,0 +1,30 @@
+id = "908"
+ref = "908"
+name = "Línea Hortaleza-Aeropuerto T4"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 6.806
+length = 6.806
+speeds = [[0, 1.709, "", ""], [1.709, 6.806, 120, 120]]
+curves = [[0.325, 0.375, 2530], [1, 1.075, 2050], [1.15, 1.25, 1520], [1.425, 1.55, 1340], [1.6, 1.825, 850], [1.875, 2.025, 670], [2.075, 2.65, 700], [2.775, 3.1, 650], [5.125, 5.925, 550], [6.275, 6.375, 1370]]
+points = [
+  { km = 0.413, kind = "station", label = "Antonio Saura", pos = [40.48536, -3.65373] },
+  { km = 3.725, kind = "station", label = "Valdebebas", pos = [40.48181, -3.61642] },
+  { km = 6.455, kind = "station", label = "T4", pos = [40.49133, -3.59147] },
+  { km = 6.575, kind = "station", label = "Aeropuerto T4", pos = [40.49233, -3.59359] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 1.709, kmTo = 6.806, length = 5097 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "iabvF`tiUrK}fAjAsPlBiPpCoN" },
+  { line = "ijavFtyeUp@uMjCoPL}KaAwKeHoTmAmJeAo_Dy@uGcByFyBeEwFeGuBiAa]_CmZB", tunnel = true, v = 120 },
+]
+posts = [[0, 40.48421, -3.65905], [1, 40.48219, -3.64753], [2, 40.48007, -3.63609], [3, 40.48169, -3.62502], [4, 40.48182, -3.6132], [5, 40.48202, -3.60138], [6, 40.48724, -3.59362]]

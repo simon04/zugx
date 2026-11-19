@@ -1,0 +1,30 @@
+id = "332"
+ref = "332"
+name = "332 - La Encina aguja km 296,3 - Caudete"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 6.476
+length = 6.476
+speeds = [[0, 0.151, "", ""], [0.151, 6.476, 90, 90]]
+curves = [[0.425, 1.55, 630], [2.925, 3, 2690], [4.35, 4.95, 1440], [5.175, 5.85, 1430]]
+points = [
+  { km = 0.553, kind = "station", label = "Caudete", pos = [38.71627, -0.95956] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eghkFnjyDoCdH" },
+  { line = "ukhkFtsyDyKbXwDbF{DzCuFlBuF^eHw@wEsB_cAibAy}@ufAmMiJwZcKsMyHqIuIgYob@", v = 90 },
+]
+posts = [[0, 38.71363, -0.95416], [1, 38.71967, -0.96216], [2, 38.72747, -0.95735], [3, 38.73454, -0.95023], [4, 38.74123, -0.94252], [5, 38.7487, -0.93635], [6, 38.75626, -0.93048]]
+
+[[connections]]
+km = 0.553
+station = "Caudete"
+lines = [
+  { id = "330", ref = "330", name = "Madrid-Alicante", km = 70.847 },
+]

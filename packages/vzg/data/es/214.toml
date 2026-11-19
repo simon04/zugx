@@ -1,0 +1,41 @@
+id = "214"
+ref = "214"
+name = "Línea CIM de Zaragoza-La Cartuja"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 25.002
+length = 25.002
+speeds = [[0, 0.987, 30, 30], [0.987, 1.361, 150, 150], [1.361, 21.913, 160, 160], [21.913, 22.429, 155, 155], [22.429, 22.826, 160, 160], [22.826, 23.596, 130, 130], [23.596, 24.258, 75, 75], [24.258, 25.002, "", ""]]
+curves = [[0.125, 0.775, 320], [1.075, 1.325, 1370], [1.575, 1.925, 2380], [2, 2.15, 1960], [2.6, 2.775, 2620], [2.825, 2.95, 2740], [4.8, 4.875, 2540], [4.925, 5.375, 2400], [5.475, 6.225, 1360], [6.325, 7.925, 620], [8, 8.075, 2780], [8.15, 8.225, 2950], [8.325, 8.4, 2910], [8.575, 8.725, 2130], [8.925, 9.125, 2370], [11.475, 11.525, 2500], [11.65, 11.7, 2570], [22.025, 22.425, 1110], [22.775, 23.425, 740], [23.55, 24.275, 310]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.987, kmTo = 1.06, length = 73 },
+  { kind = "bridge", kmFrom = 4.124, kmTo = 4.173, length = 48 },
+  { kind = "bridge", kmFrom = 6.621, kmTo = 6.685, length = 64 },
+  { kind = "bridge", kmFrom = 7.728, kmTo = 7.795, length = 67 },
+  { kind = "bridge", kmFrom = 12.253, kmTo = 12.29, length = 36 },
+  { kind = "bridge", kmFrom = 13.226, kmTo = 13.376, length = 150 },
+  { kind = "bridge", kmFrom = 13.67, kmTo = 14.806, length = 1136 },
+  { kind = "tunnel", kmFrom = 22.664, kmTo = 22.715, length = 50 },
+  { kind = "bridge", kmFrom = 23.356, kmTo = 23.429, length = 73 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mwj}FttvD`JgNbDeBhD[zCb@pC|AjL`P", v = 30 },
+  { line = "cki}FnvvD~GfJbFtE", v = 150 },
+  { line = "_{h}FlhwDdMvKfHbItFbIvSz`@nIpMxmAlyAtOnV`JtTxGfWz@lMu@lXPtHrBfLrEfJxGpFhEjB`Gd@xH}@lFmCfDaDzPeW`KmTrHcU~FgWbIwd@hvA}kLzEsh@nC{i@z@oh@FmyAdBao@rBo^hFwg@pGu`@~Kaf@fNec@", v = 160 },
+  { line = "c_{|FbxaD|EePzBmQ", v = 155 },
+  { line = "itz|Fnt`DfAoP", v = 160 },
+  { line = "arz|F~b`DLuB", tunnel = true, v = 160 },
+  { line = "sqz|Fh_`Dd@gG", v = 160 },
+  { line = "mpz|F`w_DN_My@gKeC_K{FsM", v = 130 },
+  { line = "y}z|Fdb~CmBmCyByA_Dm@aCHkCz@iC|BwCbI", v = 75 },
+  { line = "q{{|Fvi~CoNzr@" },
+]
+posts = [[0, 41.67559, -0.94043], [1, 41.66842, -0.94083], [2, 41.66138, -0.94827], [3, 41.65541, -0.95725], [4, 41.64858, -0.96508], [5, 41.64184, -0.97303], [6, 41.63727, -0.98327], [7, 41.63538, -0.99438], [8, 41.62737, -0.99289], [9, 41.62206, -0.98325], [10, 41.61886, -0.97202], [11, 41.61658, -0.96038], [12, 41.61413, -0.94881], [13, 41.61178, -0.9372], [14, 41.60943, -0.92559], [15, 41.60707, -0.91399], [16, 41.60476, -0.90236], [17, 41.60334, -0.8905], [18, 41.60311, -0.87848], [19, 41.60284, -0.86647], [20, 41.60151, -0.85458], [21, 41.59871, -0.84317], [22, 41.5945, -0.83256], [23, 41.59246, -0.82096], [24, 41.59797, -0.81352], [25, 41.60192, -0.82408]]

@@ -1,0 +1,27 @@
+id = "446"
+ref = "446"
+name = "FFCC Bif. Cartuja-Cartuja"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.468
+length = 2.468
+speeds = [[0, 2.468, "", ""]]
+curves = [[0.1, 0.325, 470], [0.4, 0.6, 920], [0.65, 0.95, 500], [1.475, 1.55, 170], [1.6, 1.675, 170]]
+points = [
+  { km = 1.23, kind = "stop", label = "Estadio Olímpico", pos = [37.41728, -6.00751] },
+  { km = 2.466, kind = "station", label = "Cartuja", pos = [37.40724, -6.01012] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.172, kmTo = 0.303, length = 131 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mxlcFr|rc@jBfGpBfDfL~InGhIlEpCjrA~U" },
+]
+posts = [[0, 37.42615, -6.00026], [1, 37.41926, -6.00695], [2, 37.41131, -6.00914]]

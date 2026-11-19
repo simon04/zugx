@@ -1,0 +1,42 @@
+id = "224"
+ref = "224"
+name = "Línia Cerdanyola del Vallès - Cerdanyola-Universitat"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.264
+length = 3.264
+speeds = [[0, 1.805, 140, 140], [1.805, 2.087, 50, 50], [2.087, 3.264, 80, 80]]
+curves = [[1.7, 2.125, 290], [2.625, 3.15, 2070]]
+points = [
+  { km = 0, kind = "station", label = "Cerdanyola del Vallès", uic = "7178706", pos = [41.49263, 2.14762] },
+  { km = 3.264, kind = "station", label = "Cerdanyola-Universitat", uic = "7172503", pos = [41.49709, 2.11512] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.152, kmTo = 1.192, length = 40 },
+  { kind = "tunnel", kmFrom = 1.805, kmTo = 2.023, length = 218 },
+  { kind = "bridge", kmFrom = 2.151, kmTo = 2.16, length = 10 },
+  { kind = "bridge", kmFrom = 2.585, kmTo = 2.687, length = 102 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kfg|FwdbLaUv[id@nt@eIdO", v = 140 },
+  { line = "}ki|Fib_Lq@lFRpG", tunnel = true, v = 50 },
+  { line = "{li|Fir~Kt@bC", v = 50 },
+  { line = "eki|Fen~KtSrh@|GvLdGbI", v = 80 },
+  { line = "keh|Ful|KbAhA", tunnel = true, v = 80 },
+  { line = "gch|Fkj|K^^", v = 80 },
+]
+posts = [[0, 41.49366, 2.1462], [1, 41.49996, 2.13764], [2, 41.50498, 2.12817], [3, 41.4999, 2.11833]]
+
+[[connections]]
+km = 3.264
+station = "Cerdanyola-Universitat"
+lines = [
+  { id = "246", ref = "246", name = "Línia Castellbisbal/el Papiol-Mollet", km = 10.063 },
+]

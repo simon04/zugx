@@ -1,0 +1,43 @@
+id = "946"
+ref = "946"
+name = "Línea de Santa Catalina a Villaverde Bajo"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.904
+length = 1.904
+speeds = [[0, 0.142, 50, 50], [0.142, 0.198, "", ""], [0.198, 1.152, 55, 55], [1.152, 1.644, 80, 80], [1.644, 1.904, "", ""]]
+curves = [[0.1, 0.175, 1260], [0.275, 0.35, 2130], [0.5, 0.625, 1500], [0.775, 1.05, 1000], [1.25, 1.725, 730]]
+points = [
+  { km = 1.854, kind = "station", label = "Villaverde Bajo", pos = [40.35259, -3.68398] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0, kmTo = 0.142, length = 142 },
+  { kind = "tunnel", kmFrom = 0.198, kmTo = 0.571, length = 373 },
+  { kind = "bridge", kmFrom = 0.754, kmTo = 0.794, length = 41 },
+  { kind = "bridge", kmFrom = 0.921, kmTo = 0.992, length = 70 },
+  { kind = "bridge", kmFrom = 1.033, kmTo = 1.152, length = 119 },
+  { kind = "tunnel", kmFrom = 1.644, kmTo = 1.825, length = 181 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qpkuF`hmU~FJ", tunnel = true, v = 50 },
+  { line = "qhkuFlhmU`BT" },
+  { line = "oekuFbimUvSlC", tunnel = true, v = 55 },
+  { line = "wpjuFpmmUzOnFfKvI", v = 55 },
+  { line = "ssiuFx_nUxJdIjDvArFx@", v = 80 },
+  { line = "yzhuFpnnUdID", tunnel = true },
+  { line = "sphuFvnnUlCA" },
+]
+posts = [[0, 40.36889, -3.67761], [1, 40.36024, -3.68036]]
+
+[[connections]]
+km = 1.854
+station = "Villaverde Bajo"
+lines = [
+  { id = "300", ref = "300", name = "Línea Madrid-Valencia", km = 6.995 },
+]

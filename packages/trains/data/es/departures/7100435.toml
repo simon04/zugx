@@ -1,0 +1,15 @@
+id = "7100435"
+name = "Hellín"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A=="]
+deps = [
+  [565,"IC","11093","7100135",[],0,""],
+  [700,"IC","11092","7100053",["7100420","7100403","7100052","7100407","7100480"],0,""],
+  [1040,"IC","11183","7100135",[],0,""],
+  [1230,"IC","11182","7100053",["7100420","7100403","7100052","7100407","7100480"],0,""],
+]
+
+names = { 7100052 = "Murcia del Carmen", 7100053 = "Cartagena", 7100135 = "Albacete", 7100403 = "Archena-Fortuna", 7100407 = "Balsicas-Mar Menor", 7100420 = "Cieza", 7100480 = "Torre Pacheco" }

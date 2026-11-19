@@ -1,0 +1,32 @@
+id = "814"
+ref = "814"
+name = "Ponte Internacional Tui-Valença"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.611
+length = 4.611
+speeds = [[0, 4.611, 85, 85]]
+curves = [[0.375, 0.9, 370], [1.1, 1.5, 360], [1.55, 2.2, 310], [2.25, 2.65, 400], [3.3, 3.575, 560]]
+points = [
+  { km = 2.803, kind = "station", label = "Tui", pos = [42.0566, -8.64326] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0, kmTo = 0.192, length = 192 },
+  { kind = "bridge", kmFrom = 0.493, kmTo = 0.519, length = 25 },
+  { kind = "bridge", kmFrom = 0.597, kmTo = 0.61, length = 13 },
+  { kind = "bridge", kmFrom = 1.564, kmTo = 1.587, length = 23 },
+  { kind = "bridge", kmFrom = 1.745, kmTo = 1.755, length = 10 },
+  { kind = "bridge", kmFrom = 3.164, kmTo = 3.193, length = 29 },
+  { kind = "bridge", kmFrom = 3.993, kmTo = 4.043, length = 50 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "weq_Gnyws@wQvVsF|CaDVaEk@sQuJmEaA_Fx@}KfH}BR_Ei@kCcB}BsD}@yCwBkPaDcG_CwAye@mPyD_Csh@kdA", v = 85 },
+]
+posts = [[0, 42.03628, -8.6468], [1, 42.04383, -8.65033], [2, 42.05209, -8.64986], [3, 42.05828, -8.64248], [4, 42.06515, -8.63533]]

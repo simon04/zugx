@@ -1,0 +1,36 @@
+id = "916"
+ref = "916"
+name = "Línea Delicias-Santa Catalina"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.366
+length = 2.366
+speeds = [[0, 2.23, 65, 65], [2.23, 2.366, "", ""]]
+curves = [[0.1, 0.325, 340], [0.7, 0.875, 970], [0.95, 1.225, 730], [1.325, 1.475, 1510], [2.075, 2.25, 690]]
+points = [
+  { km = 0.611, kind = "station", label = "Arganzuela-Planetario", pos = [40.39323, -3.68841] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.979, kmTo = 1.041, length = 61 },
+  { kind = "bridge", kmFrom = 1.684, kmTo = 1.735, length = 51 },
+  { kind = "bridge", kmFrom = 1.783, kmTo = 1.854, length = 71 },
+  { kind = "bridge", kmFrom = 1.873, kmTo = 1.927, length = 53 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ciquFtloUzDwF`EaB|[qCfKj@rFMbMcDtg@_HbDgA", v = 65 },
+  { line = "mpmuFzmnUtEyC" },
+]
+posts = [[0, 40.39842, -3.68859], [1, 40.38995, -3.68635], [2, 40.38112, -3.68429]]
+
+[[connections]]
+km = 0.611
+station = "Arganzuela-Planetario"
+lines = [
+  { id = "932", ref = "932", km = 2.804 },
+]

@@ -1,0 +1,39 @@
+id = "468"
+ref = "468"
+name = "FFCC Bifurcación Las Maravillas a Antequera AV"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 12.629
+length = 12.629
+speeds = [[0, 10.374, 120, 120], [10.374, 12.629, "", ""]]
+curves = [[7.25, 9.1, 2310], [10.5, 10.825, 1120], [11.225, 11.725, 1940]]
+points = [
+  { km = 12.482, kind = "station", label = "Antequera Alta Velocidad", uic = "7102030", pos = [37.02948, -4.56137] },
+  { km = 12.567, kind = "stop", label = "Antequera AV", pos = [37.02926, -4.56042] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.462, kmTo = 2.506, length = 44 },
+  { kind = "bridge", kmFrom = 10.154, kmTo = 10.19, length = 36 },
+  { kind = "tunnel", kmFrom = 12.264, kmTo = 12.629, length = 365 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mbbaFh}s[vJsvArAuXNiUs@wx@eAir@uAo`@}WqbFYoOXcRfAgPtCaS~DkP~EgNnJaRhm@__A", v = 120 },
+  { line = "ge`aF|f~ZrFyIfDcIjEiPrDwQpBgYVwg@" },
+  { line = "ah_aF|jzZDuX", tunnel = true },
+]
+posts = [[0, 37.04375, -4.69477], [1, 37.04225, -4.68366], [2, 37.04138, -4.67247], [3, 37.04171, -4.66121], [4, 37.04244, -4.64998], [5, 37.04365, -4.63882], [6, 37.04489, -4.62766], [7, 37.04612, -4.6165], [8, 37.04602, -4.60531], [9, 37.04221, -4.5952], [10, 37.03622, -4.58679], [11, 37.03096, -4.57778], [12, 37.02933, -4.56681]]
+
+[[connections]]
+km = 12.482
+station = "Antequera Alta Velocidad"
+lines = [
+  { id = "036", ref = "036", name = "Línea de alta velocidad Antequera-Granada", km = 16.614 },
+  { id = "460", ref = "460", name = "FFCC Bifurcación Las Maravillas a Fuente de Piedra", km = 7.703 },
+]

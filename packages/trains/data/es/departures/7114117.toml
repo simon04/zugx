@@ -1,0 +1,16 @@
+id = "7114117"
+name = "El Carrion (APD.)"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwYPEA==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHPnw4A=="]
+deps = [
+  [611,"REG","18100","7100003",["7114101","7100012","7100004","7110605","7110604","7110603","7100375","7110610"],0,""],
+  [648,"REG","18101","7100014",["7114103","7100428","7100459","7114108","7100436","7100392","7100391","7100445"],1,""],
+  [744,"REG","18102","7100003",["7114101","7100012","7100004","7110605","7110604","7110603","7100375","7110610"],2,""],
+  [1161,"REG","18104","7100003",["7100012","7100004","7110610"],1,""],
+  [1167,"REG","18105","7100014",["7114102","7114103","7100428","7100459","7114108","7100436","7100392","7114113"],1,""],
+]
+
+names = { 7100003 = "Valladolid Campo Grande", 7100004 = "Venta de Baños", 7100012 = "Palencia", 7100014 = "Santander", 7100375 = "Cabezón del Pisuerga", 7100391 = "Aguilar de Campoo", 7100392 = "Alar del Rey-San Qui", 7100428 = "Frómista", 7100436 = "Herrera del Pisuerga", 7100445 = "Mataporquera", 7100459 = "Osorno", 7110603 = "Corcos-Aguilarejo (APT.)", 7110604 = "Cubillas de Santa Marta (APD.)", 7110605 = "Duenas (APT.-CGD.)", 7110610 = "Valladolid-Universidad", 7114101 = "Monzon de Campos (APT.-CGD.)", 7114102 = "Amusco (APD.)", 7114103 = "Pina (APD.)", 7114108 = "Espinosa de Villagonzalo (APD.)", 7114113 = "Mave (APT.-CGD.)" }

@@ -1,0 +1,138 @@
+id = "770"
+ref = "770"
+name = "Ferrocarril Oviedo - Santander"
+operator = "Adif"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 496.8
+kmTo = 530.679
+length = 33.794
+speeds = [[496.8, 497.134, 80, 80], [497.134, 498.823, 100, 100], [498.823, 499.167, 50, 50], [499.167, 500.121, 70, 70], [500.121, 504.725, 100, 100], [504.725, 506.189, 80, 80], [506.189, 507.962, 100, 100], [507.962, 508.392, 90, 90], [508.392, 508.469, 80, 80], [508.469, 508.965, 100, 100], [508.965, 509.275, 90, 90], [509.275, 510.779, 100, 100], [510.779, 511.206, 90, 90], [511.206, 513.016, 80, 80], [513.016, 513.644, 100, 100], [513.644, 514.094, 80, 80], [514.094, 514.555, 70, 70], [514.555, 515.873, 100, 100], [515.873, 516.209, 80, 80], [516.209, 516.637, 100, 100], [516.637, 516.643, 40, 40], [516.643, 517.11, 70, 70], [517.11, 518.125, 100, 100], [518.125, 518.263, 80, 80], [518.263, 518.559, 100, 100], [518.559, 519.56, 80, 80], [519.56, 520.016, 100, 100], [520.016, 520.697, 80, 80], [520.697, 523.247, 100, 100], [523.247, 523.656, 80, 80], [523.656, 526.463, 100, 100], [526.463, 526.616, 90, 90], [526.616, 527.183, 100, 100], [527.183, 527.537, 50, 50], [527.537, 528.611, 70, 70], [528.611, 529.416, 80, 80], [529.416, 529.637, "", ""], [529.637, 530.59, 80, 80], [530.59, 530.679, "", ""]]
+curves = [[496.931, 497.155, 530], [497.508, 497.834, 630], [498.335, 498.509, 1380], [498.786, 499.212, 360], [499.261, 499.437, 700], [499.487, 499.583, 1190], [499.707, 499.861, 1110], [499.911, 500.141, 680], [500.265, 500.438, 1160], [500.662, 500.787, 1200], [500.887, 500.962, 2600], [501.187, 501.337, 850], [501.813, 502.063, 830], [502.664, 502.739, 2110], [503.289, 503.564, 1220], [503.84, 504.39, 340], [504.741, 505.091, 770], [505.291, 505.466, 760], [505.516, 505.717, 720], [505.992, 506.192, 860], [507.993, 508.168, 930], [508.994, 509.294, 640], [510.796, 511.147, 400], [511.197, 511.572, 370], [511.748, 511.948, 400], [511.998, 512.625, 420], [512.75, 513.051, 430], [513.602, 513.978, 390], [514.078, 514.203, 790], [514.253, 514.604, 330], [515.28, 515.355, 2200], [515.856, 516.257, 310], [516.683, 517.134, 400], [517.861, 518.262, 840], [518.537, 518.788, 730], [518.888, 519.163, 570], [519.289, 519.614, 480], [519.99, 520.316, 490], [520.441, 520.742, 530], [520.892, 521.042, 1560], [521.293, 521.543, 1140], [522.145, 522.47, 1070], [523.222, 523.598, 580], [524.349, 524.75, 830], [525.802, 526.027, 1720], [526.474, 526.598, 1300], [526.97, 527.642, 610], [527.691, 527.915, 450], [528.102, 528.607, 230], [529.11, 529.432, 580], [530.047, 530.137, 1410], [530.434, 530.535, 1220]]
+points = [
+  { km = 497.124, kind = "signal", label = "E'1", signal = "distant", dir = -1 },
+  { km = 497.239, kind = "signal", signal = "catenary_mast", dir = -1 },
+  { km = 497.342, kind = "signal", signal = "catenary_mast", dir = -1 },
+  { km = 497.441, kind = "signal", signal = "catenary_mast", dir = -1 },
+  { km = 497.635, kind = "signal", signal = "crossing_hint", dir = 1 },
+  { km = 497.718, kind = "signal", signal = "crossing_hint", dir = 1 },
+  { km = 497.835, kind = "signal", signal = "crossing_repeated", dir = 1 },
+  { km = 498.272, kind = "signal", label = "SF1 PN60", signal = "crossing", dir = 1 },
+  { km = 498.321, kind = "signal", label = "SF2 PN60", signal = "crossing", dir = -1 },
+  { km = 498.362, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 499.072, kind = "station", label = "Santa Isabel", pos = [43.35904, -4.11185] },
+  { km = 499.083, kind = "stop", label = "Santa Isabel de Quijas", pos = [43.35907, -4.11177] },
+  { km = 499.603, kind = "signal", label = "RSF1", signal = "crossing_repeated", dir = 1 },
+  { km = 500.089, kind = "signal", label = "SF1 PN58", signal = "crossing", dir = 1 },
+  { km = 500.141, kind = "signal", label = "SF2", signal = "crossing", dir = -1 },
+  { km = 500.453, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 500.504, kind = "signal", label = "RSF2", signal = "crossing_repeated", dir = -1 },
+  { km = 500.536, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 501.089, kind = "station", label = "Puente San Miguel", pos = [43.35877, -4.08772] },
+  { km = 502.533, kind = "station", label = "Ganzo", pos = [43.35649, -4.07015] },
+  { km = 503.737, kind = "station", label = "Altamira", pos = [43.35191, -4.057] },
+  { km = 504.238, kind = "station", label = "Torrelavega-Centro", pos = [43.35104, -4.05127] },
+  { km = 506.96, kind = "station", label = "Barreda", pos = [43.37402, -4.04207] },
+  { km = 508.641, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 509.036, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 509.199, kind = "station", label = "Requejada", pos = [43.39133, -4.02854] },
+  { km = 510.886, kind = "station", label = "Mar", pos = [43.3983, -4.01003] },
+  { km = 513.351, kind = "station", label = "Gornazo", pos = [43.4098, -3.98848] },
+  { km = 516.701, kind = "station", label = "Mogro", pos = [43.425, -3.96043] },
+  { km = 518.172, kind = "station", label = "Boo de Piélagos", pos = [43.43169, -3.94632] },
+  { km = 520.566, kind = "station", label = "Mompía-Mortera", pos = [43.43522, -3.9182] },
+  { km = 522.207, kind = "station", label = "Bezana", pos = [43.44073, -3.89957] },
+  { km = 525.89, kind = "signal", label = "E2", signal = "main", dir = 1, measured = true },
+  { km = 526.12, kind = "station", label = "Adarzo", pos = [43.45346, -3.8558] },
+  { km = 526.186, kind = "signal", label = "S1", signal = "main", dir = 1, measured = true },
+  { km = 526.307, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 526.307, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 526.346, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 526.463, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 526.503, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 527.291, kind = "station", label = "Cazoña", pos = [43.45431, -3.84043] },
+  { km = 528.16, kind = "signal", label = "E'0", signal = "distant", dir = 1, measured = true },
+  { km = 528.611, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 528.886, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 529.013, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 529.218, kind = "station", label = "Valdecilla-La Marga", pos = [43.45269, -3.82857] },
+  { km = 529.332, kind = "station", label = "Valdecilla", pos = [43.45398, -3.8278] },
+  { km = 529.348, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 529.448, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 529.464, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 530.59, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 530.679, kind = "station", label = "Santander", pos = [43.45865, -3.81123] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 498.91, kmTo = 499.014, length = 105 },
+  { kind = "bridge", kmFrom = 499.1, kmTo = 499.11, length = 10 },
+  { kind = "bridge", kmFrom = 503.156, kmTo = 503.221, length = 65 },
+  { kind = "bridge", kmFrom = 507.962, kmTo = 507.986, length = 24 },
+  { kind = "bridge", kmFrom = 517.11, kmTo = 517.206, length = 96 },
+  { kind = "bridge", kmFrom = 517.731, kmTo = 517.759, length = 27 },
+  { kind = "bridge", kmFrom = 523.453, kmTo = 523.471, length = 18 },
+  { kind = "bridge", kmFrom = 526.249, kmTo = 526.259, length = 12 },
+  { kind = "bridge", kmFrom = 527.367, kmTo = 527.394, length = 26 },
+  { kind = "bridge", kmFrom = 527.842, kmTo = 527.894, length = 52 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sgtgG~agX~FcFnCgG", v = 80 },
+  { line = "c{sgGrrfXhJy\\hAyJ_@qr@}Caa@", v = 100 },
+  { line = "mssgGjsbXGsDnAmJYsE", v = 50 },
+  { line = "_rsgGt{aXaBkHcEgd@[yNl@wG", v = 70 },
+  { line = "szsgGnt_X`CeQtAy[rEmd@d@eq@`@uFnKuq@zLsm@fCwI~LeZz@qF[mHcC}F{SoQ", v = 100 },
+  { line = "kvrgGnsuWaGoDoGwAqPkAsOvAiU_CcFeB", v = 80 },
+  { line = "qfugGlduWi{Akr@", v = 100 },
+  { line = "{bxgG`qsWsEeCyLkL", v = 90 },
+  { line = "iwxgGn_sWoBmB", v = 80 },
+  { line = "yzxgG`|rWuUeU", v = 100 },
+  { line = "oqygGzerW_FaGoCmH", v = 90 },
+  { line = "_}ygGjtqWue@kfB", v = 100 },
+  { line = "uc{gG~lnW{AmGa@sFL_F`AiG", v = 90 },
+  { line = "ce{gGrmmWl@oHa@iGsJuXm@kE]gJaBkGmK_LoCu@yOw@kCkAmBqB", v = 80 },
+  { line = "k_}gGvqjWaYq_@", v = 100 },
+  { line = "my}gGdqiWmB_E{@oFj@_R", v = 80 },
+  { line = "k}}gGtphW`CkSMmEcAeF", v = 70 },
+  { line = "{{}gGtngWkVcp@iNqd@", v = 100 },
+  { line = "qb_hG~wdWkBuEgBgBoCaAcC?", v = 80 },
+  { line = "yq_hG~kdW{VjB", v = 100 },
+  { line = "ui`hGjodWI@", v = 40 },
+  { line = "_j`hGlodWmGNgEeAiC{BgB_F", v = 70 },
+  { line = "g`ahGzbdWmR{v@}A{N", v = 100 },
+  { line = "svahGb{aWWsI", v = 80 },
+  { line = "kwahGnpaWB{U", v = 100 },
+  { line = "gwahGry`Wa@eJ_EqUCwDrAwVSuD}@wD", v = 80 },
+  { line = "k~ahG|n~VmLy\\", v = 100 },
+  { line = "ykbhGbq}ViAcE_@wEnAq\\{@sG", v = 80 },
+  { line = "onbhG`~{VkE}QmLg^{K{u@eBaIe]ux@", v = 100 },
+  { line = "qpdhGfqvVgBaFiAkGUeM", v = 80 },
+  { line = "yvdhGrsuVWsz@u@_KiAiG}^ktAuGqe@", v = 100 },
+  { line = "edfhGvgoV_AsJ", v = 90 },
+  { line = "effhGb|nVsBk\\SiM", v = 100 },
+  { line = "mjfhGlpmVBoEp@uCnBkB~EcA", v = 50 },
+  { line = "g~ehGv_mV~IHlCe@nQaPnAqE@sEgAsEoCmD", v = 70 },
+  { line = "o`ehGptkVoXwZ{BoE{AgG", v = 80 },
+  { line = "w`fhG`jjVkCqN" },
+  { line = "cefhGnziVwGe^sKqc@", v = 80 },
+  { line = "ozfhGvvgVw@mE" },
+]
+posts = [[497, 43.36139, -4.13632], [498, 43.35852, -4.125], [499, 43.35914, -4.11234], [500, 43.36081, -4.10084], [501, 43.35893, -4.0888], [502, 43.35805, -4.07656], [503, 43.355, -4.06494], [504, 43.35069, -4.05418], [505, 43.35707, -4.04684], [506, 43.36598, -4.04628], [507, 43.37436, -4.04191], [508, 43.3827, -4.03728], [509, 43.3901, -4.03029], [510, 43.39467, -4.01977], [511, 43.3985, -4.00864], [512, 43.40018, -3.99724], [513, 43.40731, -3.99161], [514, 43.41235, -3.98222], [515, 43.41417, -3.97103], [516, 43.41885, -3.96051], [517, 43.42751, -3.95952], [518, 43.4314, -3.94841], [519, 43.43282, -3.93636], [520, 43.43494, -3.92498], [521, 43.43661, -3.91327], [522, 43.44018, -3.90201], [523, 43.44469, -3.89145], [524, 43.44706, -3.88001], [525, 43.44901, -3.8682], [526, 43.45305, -3.85717], [527, 43.45517, -3.84506], [528, 43.44941, -3.83875], [529, 43.45134, -3.83021], [530, 43.45553, -3.81994]]
+
+[[connections]]
+km = 529.218
+station = "Valdecilla-La Marga"
+lines = [
+  { id = "780", ref = "780", name = "Ferrocarril Santander - Bilbao", km = 532.232 },
+]
+
+[[connections]]
+km = 529.332
+station = "Valdecilla"
+lines = [
+  { id = "780", ref = "780", name = "Ferrocarril Santander - Bilbao", km = 532.128 },
+]

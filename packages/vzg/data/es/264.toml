@@ -1,0 +1,27 @@
+id = "264"
+ref = "264"
+name = "Línia Montcada Bifurcació-Bifurcació Aigües"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.936
+length = 1.936
+speeds = [[0, 0.036, 100, 100], [0.036, 1.936, 60, 60]]
+curves = [[0.1, 0.6, 480], [0.675, 1.3, 520], [1.35, 1.825, 360]]
+points = [
+  { km = 1.936, kind = "station", label = "Montcada Bifurcació", uic = "7178800", pos = [41.46993, 2.18003] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.066, kmTo = 1.108, length = 41 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ky_|Fe`kL[lA", v = 100 },
+  { line = "gz_|Fw}jLgC~I}EvF{EpByOnBsKvIsCdG_CnRuCdFcGdEsCZqC[", v = 60 },
+]
+posts = [[0, 41.45574, 2.19155], [1, 41.463, 2.18578]]

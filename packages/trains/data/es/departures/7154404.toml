@@ -1,0 +1,23 @@
+id = "7154404"
+name = "Las Mezillas (APT.)"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFQoRIA=="]
+deps = [
+  [582,"REG","13900","7100045",["7100187"],1,""],
+  [582,"REG","38900","7100045",["7100187"],1,""],
+  [631,"IC","10303","7154403",[],0,""],
+  [648,"IC","10312","7100045",[],0,""],
+  [794,"REG","13904","7100045",["7100187"],1,""],
+  [794,"REG","38904","7100045",["7100187"],1,""],
+  [973,"REG","13907","7100180",["7154403","7100044","7102003","7100235","7100494","7100146","7101003","7151103"],2,""],
+  [973,"REG","38907","7154403",[],2,""],
+  [988,"IC","10403","7154403",[],0,""],
+  [1004,"IC","10412","7100045",[],0,""],
+  [1074,"REG","13909","7100180",["7154403","7100044","7102003","7100235","7100494","7100146","7101003","7151103"],1,""],
+  [1074,"REG","38909","7154403",[],1,""],
+]
+
+names = { 7100044 = "Bobadilla", 7100045 = "Malaga", 7100146 = "Marchena", 7100180 = "Sevilla Santa Justa", 7100187 = "Álora", 7100235 = "Pedrera", 7100494 = "Osuna", 7101003 = "El Arahal (APT.)", 7102003 = "Antequera-Santa Ana", 7151103 = "Dos Hermanas (APT.-CGD.)", 7154403 = "El Chorro (APT.)" }

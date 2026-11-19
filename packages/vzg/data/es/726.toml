@@ -1,0 +1,43 @@
+id = "726"
+ref = "726"
+name = "Bifurcación La Casilla a Aguja de enlace"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.908
+length = 1.908
+speeds = [[0, 1.72, 65, 65], [1.72, 1.908, 50, 50]]
+curves = [[0.1, 0.325, 420], [0.425, 1.075, 460], [1.425, 1.8, 390]]
+points = [
+  { km = 0, kind = "station", label = "San Mamés", pos = [43.26211, -2.94928] },
+  { km = 0.319, kind = "station", label = "Autonomía", pos = [43.2586, -2.94611] },
+  { km = 0.884, kind = "station", label = "Ametzola", pos = [43.25454, -2.94313] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0, kmTo = 1.908, length = 1908 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}l`gGbw~PbD_EnCyAtNyAxEwAnC{B|D_GrAgIY}g@d@sEpAuE", tunnel = true, v = 65 },
+  { line = "y|~fGj|{P~FiH", tunnel = true, v = 50 },
+]
+posts = [[0, 43.26111, -2.94786], [1, 43.25388, -2.94204]]
+
+[[connections]]
+km = 0
+station = "San Mamés"
+lines = [
+  { id = "720", ref = "720", name = "Santurtzi-Bilbo trenbidea", km = 2.655 },
+]
+
+[[connections]]
+km = 0.884
+station = "Ametzola"
+lines = [
+  { id = "720", ref = "720", name = "Santurtzi-Bilbo trenbidea", km = 1.597 },
+]

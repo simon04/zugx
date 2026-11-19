@@ -1,0 +1,27 @@
+id = "304"
+ref = "304"
+name = "Línia Alfafar Benetússer - València Font de Sant Lluís"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.09
+length = 2.09
+speeds = [[0, 0.802, 70, 70], [0.802, 1.323, 90, 90], [1.323, 2.09, 120, 120]]
+curves = [[0.1, 0.7, 350], [1.35, 1.475, 2290]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.494, kmTo = 0.513, length = 18 },
+  { kind = "bridge", kmFrom = 0.802, kmTo = 1.043, length = 241 },
+  { kind = "bridge", kmFrom = 1.243, kmTo = 1.266, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "smvoF`eiAA|RzArHlE`FnKzC", v = 70 },
+  { line = "{wuoFpnjAl[|G", v = 90 },
+  { line = "m{toFnwjAzg@vP", v = 120 },
+]
+posts = [[0, 39.4417, -0.37985], [1, 39.43649, -0.38704], [2, 39.42788, -0.39038]]

@@ -1,0 +1,30 @@
+id = "800"
+ref = "800"
+name = "Línea León-A Coruña"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 278
+kmTo = 282
+length = 4.052
+speeds = [[278, 282, 120, 120]]
+curves = [[278.176, 278.276, 1190], [278.427, 278.98, 690], [279.218, 279.549, 630], [279.62, 279.881, 470], [280.644, 280.743, 1440], [281.041, 281.897, 440]]
+points = []
+structures = [
+  { kind = "tunnel", kmFrom = 278.341, kmTo = 278.897, length = 554 },
+  { kind = "tunnel", kmFrom = 279, kmTo = 279.124, length = 131 },
+  { kind = "bridge", kmFrom = 281.21, kmTo = 281.236, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eycbGhirh@vIfT", v = 120 },
+  { line = "mncbGp~rh@`FjKdFpEfI|C", tunnel = true, v = 120 },
+  { line = "}ubbGlvsh@tDZ", v = 120 },
+  { line = "gpbbGhwsh@hFX", tunnel = true, v = 120 },
+  { line = "}hbbGbxsh@vNCjDsAzH}FrC}@xt@|CbWa@dNaF`FQzB`@rErChBzBpDlI", v = 120 },
+]
+posts = [[278, 42.45923, -6.81637], [279, 42.45268, -6.82373], [280, 42.44355, -6.82196], [281, 42.4345, -6.82253], [282, 42.42668, -6.82444]]

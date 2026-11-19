@@ -1,0 +1,43 @@
+id = "104"
+ref = "104"
+name = "Línea Alcobendas y San Sebastián de los Reyes-Universidad Cantoblanco"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.304
+length = 7.304
+speeds = [[0, 0.102, 80, 80], [0.102, 0.217, 60, 60], [0.217, 1.327, 105, 105], [1.327, 7.304, 120, 120]]
+curves = [[0.1, 0.175, 40], [0.25, 1.275, 500], [2.625, 3.375, 1410], [5, 5.125, 1250], [5.275, 5.4, 1660], [5.65, 5.8, 1130], [6.025, 6.225, 580], [6.375, 7.15, 700]]
+points = [
+  { km = 0.102, kind = "station", label = "Universidad-Cantoblanco", pos = [40.5438, -3.70019] },
+  { km = 2.53, kind = "station", label = "Universidad Pontificia de Comillas", pos = [40.55406, -3.68349] },
+  { km = 5.06, kind = "station", label = "Valdelasfuentes", pos = [40.5474, -3.65439] },
+  { km = 6.862, kind = "station", label = "Alcobendas - San Sebastián de los Reyes", pos = [40.54675, -3.6346] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.44, kmTo = 0.618, length = 178 },
+  { kind = "tunnel", kmFrom = 3.593, kmTo = 7.304, length = 3711 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a`nvFv|qUbDiB", v = 80 },
+  { line = "}zmvFlyqU_EjB", v = 60 },
+  { line = "}`nvFx|qUwJnD", v = 105 },
+  { line = "ulnvFhbrU}HH", tunnel = true, v = 105 },
+  { line = "svnvFrbrUaI{CyE{FyCkJy@}K", v = 105 },
+  { line = "cnovFp}pUcHs_BQmLTcL`A_LhGg[", v = 120 },
+  { line = "wlovFbykUx_@acBbCeR~Bu[rFy]o@yWw@}DmBeE_FcGmFgEiN{D", tunnel = true, v = 120 },
+]
+posts = [[0, 40.54545, -3.7014], [1, 40.55192, -3.70004], [2, 40.55357, -3.68851], [3, 40.55426, -3.67674], [4, 40.55115, -3.66568], [5, 40.54758, -3.65481], [6, 40.54523, -3.64342], [7, 40.54806, -3.63341]]
+
+[[connections]]
+km = 0.102
+station = "Universidad-Cantoblanco"
+lines = [
+  { id = "102", ref = "102", name = "Línea directo Madrid-Burgos", km = 8.477 },
+]

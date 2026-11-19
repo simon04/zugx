@@ -1,0 +1,83 @@
+id = "110"
+ref = "110"
+name = "Línea Villalba-Segovia"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1
+kmTo = 62
+length = 61.031
+speeds = [[1, 2.128, 90, 90], [2.128, 2.165, "", ""], [2.165, 10.154, 90, 90], [10.154, 10.9, "", ""], [10.9, 11, 80, 80], [11, 19.219, 90, 90], [19.219, 20, 80, 80], [20, 26.203, 90, 90], [26.203, 26.743, "", ""], [26.743, 34.901, 90, 90], [34.901, 35.651, "", ""], [35.651, 43.158, 90, 90], [43.158, 43.65, 80, 80], [43.65, 49.148, 90, 90], [49.148, 52.988, 100, 100], [52.988, 62, 95, 95]]
+curves = [[2.889, 3.339, 440], [3.388, 4.167, 410], [4.219, 4.887, 410], [5.159, 6.004, 400], [6.078, 6.325, 640], [7.194, 7.522, 540], [7.572, 7.9, 590], [8.026, 8.533, 790], [8.583, 9.856, 400], [9.907, 10.107, 510], [10.23, 10.279, 2170], [10.698, 10.944, 720], [11.169, 12.002, 400], [12.054, 12.699, 400], [12.931, 13.224, 490], [13.272, 13.752, 410], [13.92, 14.614, 410], [14.664, 14.888, 720], [15.386, 15.959, 630], [16.057, 16.569, 620], [16.642, 16.911, 610], [17.168, 18.366, 400], [18.416, 18.817, 440], [19.236, 20.066, 420], [20.141, 20.663, 430], [20.738, 21.036, 550], [21.311, 21.811, 400], [21.861, 22.309, 420], [22.408, 22.681, 650], [22.905, 23.155, 660], [23.231, 23.432, 790], [23.659, 24.126, 420], [24.182, 24.575, 450], [24.631, 24.828, 800], [24.94, 25.228, 490], [25.298, 25.483, 670], [25.529, 25.83, 470], [25.876, 26.225, 620], [26.272, 26.319, 2620], [26.506, 27.121, 490], [29.26, 29.634, 450], [29.684, 30.676, 400], [30.915, 31.73, 720], [31.777, 31.99, 650], [32.235, 32.678, 430], [33.049, 33.362, 510], [33.883, 34.104, 930], [34.453, 34.825, 470], [34.872, 35.24, 540], [35.493, 35.569, 2720], [35.62, 35.696, 2550], [35.797, 36.18, 600], [36.771, 36.926, 830], [36.977, 37.923, 400], [37.974, 38.514, 410], [38.563, 38.955, 450], [39.004, 39.479, 430], [39.579, 40.053, 440], [40.103, 40.498, 530], [41.14, 41.314, 1850], [41.413, 41.685, 1140], [42.357, 43.132, 430], [43.182, 43.632, 510], [44.105, 44.401, 510], [44.45, 44.746, 480], [45.07, 45.327, 590], [45.893, 46.174, 790], [46.25, 46.631, 480], [47.628, 48.546, 500], [48.621, 49.093, 530], [49.432, 49.941, 560], [50.144, 50.582, 550], [53.061, 53.504, 440], [53.553, 54.072, 430], [55.493, 56.426, 720], [56.956, 57.511, 420], [57.945, 58.375, 450], [58.451, 58.808, 470], [59.638, 59.883, 1990]]
+points = [
+  { km = 1.981, kind = "stop", label = "Los Negrales (Vía 1)", pos = [40.63905, -4.02207] },
+  { km = 4.649, kind = "stop", label = "Alpedrete (Vía 1)", pos = [40.65814, -4.03526] },
+  { km = 10.651, kind = "stop", label = "Collado Mediano (Vía 2)", pos = [40.69264, -4.03606] },
+  { km = 14.283, kind = "stop", label = "Los Molinos (Vía 1)", pos = [40.70675, -4.06709] },
+  { km = 19.678, kind = "stop", label = "Cercedilla (Vía 2)", pos = [40.73756, -4.06589] },
+  { km = 19.686, kind = "station", label = "Cercedilla", pos = [40.73766, -4.06603] },
+  { km = 26.521, kind = "stop", label = "Tablada", pos = [40.70558, -4.12523] },
+  { km = 29.831, kind = "stop", label = "Gudillos", pos = [40.71697, -4.15761] },
+  { km = 32.148, kind = "stop", label = "San Rafael", pos = [40.71503, -4.18138] },
+  { km = 35.403, kind = "stop", label = "El Espinar", pos = [40.74087, -4.1894] },
+  { km = 40.732, kind = "stop", label = "Los Ángeles de San Rafael", pos = [40.77856, -4.20731] },
+  { km = 43.813, kind = "stop", label = "Otero-Herreros", pos = [40.80085, -4.20337] },
+  { km = 49.093, kind = "stop", label = "Ortigosa del Monte", pos = [40.83266, -4.16806] },
+  { km = 52.706, kind = "stop", label = "Navas de Riofrío-La Losa", pos = [40.85657, -4.14099] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.038, kmTo = 1.053, length = 15 },
+  { kind = "bridge", kmFrom = 2.128, kmTo = 2.137, length = 10 },
+  { kind = "tunnel", kmFrom = 2.165, kmTo = 2.234, length = 68 },
+  { kind = "tunnel", kmFrom = 11.78, kmTo = 12.032, length = 249 },
+  { kind = "tunnel", kmFrom = 12.709, kmTo = 12.952, length = 235 },
+  { kind = "bridge", kmFrom = 18.013, kmTo = 18.029, length = 16 },
+  { kind = "tunnel", kmFrom = 19.219, kmTo = 19.362, length = 146 },
+  { kind = "tunnel", kmFrom = 19.909, kmTo = 20, length = 94 },
+  { kind = "bridge", kmFrom = 22.882, kmTo = 22.893, length = 11 },
+  { kind = "tunnel", kmFrom = 26.778, kmTo = 29.328, length = 2552 },
+  { kind = "tunnel", kmFrom = 32.387, kmTo = 32.537, length = 152 },
+  { kind = "bridge", kmFrom = 34.331, kmTo = 34.347, length = 18 },
+  { kind = "tunnel", kmFrom = 42.572, kmTo = 42.801, length = 229 },
+  { kind = "bridge", kmFrom = 47.639, kmTo = 47.651, length = 12 },
+  { kind = "tunnel", kmFrom = 48.118, kmTo = 48.174, length = 57 },
+  { kind = "bridge", kmFrom = 49.364, kmTo = 49.377, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ax~vFbroWmw@nb@", v = 90 },
+  { line = "op`wFrupW}@d@" },
+  { line = "mr`wFxvpWmBdA", tunnel = true, v = 90 },
+  { line = "{u`wF~xpWka@rTwDrCaEnIkD~VaC`FoDdDuCjAyEZ}Cc@iI_DuE_@sEt@iDpBgEzGoK`^oEzEkGjBwEKkEaBwCsCeGcKsC{C{u@cb@eCkDgEqLgBaD{CqCoL}GkHgHmCyE}FsQkCeDiDmBuFs@kFv@}DdCgDlFoA|Ec@|EH|EhA|LYlK", v = 90 },
+  { line = "csjwFncrW{Drk@HzI" },
+  { line = "uxjwF~zsW^lF", v = 80 },
+  { line = "uwjwFlbtWlAhRc@|IeA~DeBfD}BbCoCvA", v = 90 },
+  { line = "edkwFxruWoE`AeFe@", tunnel = true, v = 90 },
+  { line = "{qkwFtsuWgHU}FlB}EzFiCvJ", v = 90 },
+  { line = "inlwF`jvWcCpO", tunnel = true, v = 90 },
+  { line = "mrlwFrzvWg@fL`BrNNvFYrEiA`FcLtRoC~CgGfC_G?kFsBgLoK}`@qN_GsDqGsJqGgVmEgImE_EgKyEgCsB{NwWiC{CcF_CiGOsD~@mCfBiChDyArDkArKfAvR_@|HmBxGaNhY", v = 90 },
+  { line = "sjswFnbxWsC|G", tunnel = true, v = 80 },
+  { line = "goswFlkxWkAjHHbJvAxGpD~F", v = 80 },
+  { line = "_iswFvpyWnCrB", tunnel = true, v = 80 },
+  { line = "odswFjtyW~K`F`C~BfB`D`BbHv@`Q|@fFzNjZ|AfFb@lEAvF{D`TI`Jt@jFvFrSv@za@xEdTfC|[`B~GzDzFnJnF|C`DbBhDlE|NdFlJnCzCbP`G~L~IvDp@hMFxC`AbExC", v = 90 },
+  { line = "wxmwFrgdXjRjPxD~G" },
+  { line = "q_mwF~aeXZpA", v = 90 },
+  { line = "u~lwFpdeXlA~L?fDa@|Byy@`qC", tunnel = true, v = 90 },
+  { line = "cxnwFxmjXaBfDuCtCiLjEyDvCcDrGoAnINzHzAdHlCtExMrPbF|JvAfHHvGeAvLsE`T}@x[o@lF", v = 90 },
+  { line = "afowFjfpXuCjH", tunnel = true, v = 90 },
+  { line = "wjowFvopXgDhD{RnNmHrCog@s@ib@nHgGgAoGuE", v = 90 },
+  { line = "{iswFbhqXeEmBwDa@g\\tD" },
+  { line = "astwFhiqXaMxAsFg@qd@cYcLsK_HwAgGx@qEzCkDlGkAhGeAzPgA~DkBjDcElDeLdDyDhCsClE_FrNyDhEcFlBeNrAsFrCqDrFiF|OwEzFyf@vTgVdNmj@xMwHH", v = 90 },
+  { line = "es~wFp`vX{DoAkDgD", tunnel = true, v = 90 },
+  { line = "m~~wFxxuXiDeI_AuL", v = 90 },
+  { line = "we_xF|`uX[wGwAuFcDgFyDaD", v = 80 },
+  { line = "it_xFddtX}ZqS{Do@{KHmEkAkTePaDqDyUwm@uBuC}IuHgDoGiAmGuMeqAwD_KuGgG", v = 90 },
+  { line = "_ndxFx`mX}Aq@", tunnel = true, v = 90 },
+  { line = "}pdxFf_mXcEs@{DBmPfFuE`@mFe@oHiD", v = 90 },
+  { line = "_ffxFp_mX_SiLgEoFwCkJeEs\\mBqFoB{CqrB_hB", v = 100 },
+  { line = "uekxFhlgXiF_FsCwFiAmGu@cVqA{EeDiFkDaCkhAsj@mFkBqFg@wELqE|@eF~B_HtG_Zzc@oF|CiG\\uDu@i[gNoEgAkGVsMlHmGx@cs@aLaLwD_lBi{@", v = 95 },
+]
+posts = [[1, 40.63121, -4.01714], [2, 40.6392, -4.02216], [3, 40.6473, -4.02734], [4, 40.65272, -4.03556], [5, 40.65986, -4.03854], [6, 40.66689, -4.04126], [7, 40.67469, -4.03534], [8, 40.68149, -4.02824], [9, 40.6878, -4.02057], [10, 40.69173, -4.02832], [11, 40.69259, -4.04023], [12, 40.6965, -4.04818], [13, 40.70211, -4.05487], [14, 40.70444, -4.06583], [15, 40.71254, -4.06364], [16, 40.71966, -4.05724], [17, 40.72625, -4.04932], [18, 40.73315, -4.04771], [19, 40.73536, -4.05859], [20, 40.7356, -4.0687], [21, 40.73084, -4.07768], [22, 40.72906, -4.08815], [23, 40.72731, -4.09963], [24, 40.7242, -4.11041], [25, 40.71878, -4.11776], [26, 40.70987, -4.12188], [27, 40.70354, -4.13037], [28, 40.70762, -4.14095], [29, 40.71174, -4.15126], [30, 40.71806, -4.15898], [31, 40.71504, -4.16806], [32, 40.71492, -4.1796], [33, 40.71969, -4.1887], [34, 40.72813, -4.18953], [35, 40.73734, -4.18912], [36, 40.74612, -4.19019], [37, 40.75374, -4.18464], [38, 40.75983, -4.18882], [39, 40.76619, -4.19645], [40, 40.77358, -4.20204], [41, 40.78083, -4.20851], [42, 40.78925, -4.21281], [43, 40.79702, -4.2108], [44, 40.80231, -4.20226], [45, 40.81069, -4.1984], [46, 40.81595, -4.18937], [47, 40.82029, -4.17986], [48, 40.82326, -4.16869], [49, 40.83187, -4.16851], [50, 40.83843, -4.16086], [51, 40.84387, -4.15249], [52, 40.85133, -4.14574], [53, 40.85876, -4.13901], [54, 40.86292, -4.12902], [55, 40.87097, -4.12422], [56, 40.87938, -4.12134], [57, 40.88608, -4.12888], [58, 40.89473, -4.12746], [59, 40.90318, -4.12854], [60, 40.91221, -4.12544], [61, 40.92023, -4.121], [62, 40.92841, -4.11648]]

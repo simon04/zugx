@@ -1,0 +1,28 @@
+id = "940"
+ref = "940"
+name = "Línea de O'Donnell a Vicálvaro Mercancías"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.109
+length = 4.109
+speeds = [[0, 0.746, 90, 90], [0.746, 4.109, 70, 70]]
+curves = [[0.675, 0.725, 2190], [0.9, 1.425, 470], [1.95, 2.325, 580], [2.875, 2.975, 1750], [3.3, 3.475, 840], [3.75, 3.875, 1300]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.704, kmTo = 0.736, length = 31 },
+  { kind = "tunnel", kmFrom = 1.128, kmTo = 1.205, length = 77 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "i|yuFvo|T|Cuu@", v = 90 },
+  { line = "kwyuF`yzTjAcRzA}F", v = 70 },
+  { line = "cryuF~}yTtAmC", tunnel = true, v = 70 },
+  { line = "moyuFpyyT`GaFf^cNzEaAbFB|d@pK~X|DbUdKfMvI", v = 70 },
+]
+posts = [[0, 40.44245, -3.5918], [1, 40.4413, -3.58009], [2, 40.43385, -3.57436], [3, 40.42508, -3.57633], [4, 40.41666, -3.58015]]

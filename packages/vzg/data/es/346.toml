@@ -1,0 +1,25 @@
+id = "346"
+ref = "346"
+name = "346 - Gandia Port - Gandia Mercaderies"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.413
+length = 2.413
+speeds = [[0, 2.413, "", ""]]
+curves = [[0.1, 0.2, 750], [1.4, 2.3, 400]]
+points = [
+  { km = 0.037, kind = "station", label = "Platja i Grau de Gandia", pos = [38.99022, -0.16242] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.31, kmTo = 2.347, length = 38 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sh~lFvt^lE`Ghy@dt@zE`HfAdE^zFSxEaAdFqAzCcCvC}CfBmEdA" },
+]
+posts = [[0, 38.99034, -0.1622], [1, 38.98315, -0.1691], [2, 38.97873, -0.17779]]

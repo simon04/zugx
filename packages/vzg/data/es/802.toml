@@ -1,0 +1,23 @@
+id = "802"
+ref = "802"
+name = "Toral de los Vados a Villafranca del Bierzo (CGD)"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.77
+length = 2.77
+speeds = [[0, 2.77, "", ""]]
+curves = [[0.1, 0.25, 480], [0.35, 0.5, 1310], [0.65, 0.975, 820], [1.2, 1.4, 1300], [2, 2.15, 1090], [2.425, 2.625, 870]]
+points = [
+  { km = 0, kind = "station", label = "Toral de los Vados", uic = "7120204", pos = [42.54097, -6.77679] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q{sbGt_jh@mCwGyLiJmKwLwC{B_EkAaQoCcl@YwW{CcNdA" },
+]
+posts = [[0, 42.54153, -6.77387], [1, 42.54884, -6.76728], [2, 42.55779, -6.76663]]

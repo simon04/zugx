@@ -1,0 +1,25 @@
+id = "064"
+ref = "064"
+name = "Línea Palencia-Magaz"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.409
+length = 7.409
+speeds = [[0, 7.409, 140, 140]]
+curves = [[0.45, 1.25, 710], [2.65, 2.775, 1610], [2.925, 3.025, 1300], [3.15, 3.25, 1930], [3.35, 3.425, 2110], [3.525, 3.8, 2550], [3.9, 4.1, 2210], [4.225, 4.375, 1800], [5.85, 5.925, 2450], [6.925, 7.3, 980]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.644, kmTo = 1.237, length = 594 },
+  { kind = "bridge", kmFrom = 4.405, kmTo = 4.42, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "i}d_Gn_aZhYrMnEnDdG|JlCdKz@zI`DbrBY|RaAvOqD~Y}DrQiEnNcG|NqWdf@wM|Z}Qhg@}WdbAcD|GkFpG", v = 140 },
+]
+posts = [[0, 41.97349, -4.434], [1, 41.96635, -4.44064], [2, 41.96548, -4.45263], [3, 41.96528, -4.46471], [4, 41.96808, -4.47611], [5, 41.97361, -4.48563], [6, 41.97863, -4.49566], [7, 41.98265, -4.50647]]

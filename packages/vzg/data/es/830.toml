@@ -1,0 +1,24 @@
+id = "830"
+ref = "830"
+name = "Bif. Uxes - Bif. San Cristóbal"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.733
+length = 0.733
+speeds = [[0, 0.733, 105, 105]]
+curves = [[0.225, 0.625, 420]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.32, kmTo = 0.336, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{bogG~_kr@}CpTSnGfAbKnDlI", v = 105 },
+]
+posts = [[0, 43.3363, -8.41744]]

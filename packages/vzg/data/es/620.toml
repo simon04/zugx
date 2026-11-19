@@ -1,0 +1,44 @@
+id = "620"
+ref = "620"
+name = "FFCC L'Aldea - Amposta - Tortosa-Tortosa"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 12.234
+length = 12.234
+speeds = [[0, 0.643, "", ""], [0.643, 1.004, 95, 95], [1.004, 1.331, 65, 65], [1.331, 2.762, 145, 145], [2.762, 4.162, 100, 100], [4.162, 5.793, 125, 125], [5.793, 6.854, 120, 120], [6.854, 11.793, 155, 155], [11.793, 12.234, 60, 60]]
+curves = [[0.95, 1.4, 550], [2.75, 3.325, 500], [3.45, 4.15, 540], [4.9, 5.4, 940], [5.85, 6.8, 1050], [9.825, 10.65, 1540], [11.95, 12.125, 550]]
+points = [
+  { km = 0.321, kind = "station", label = "L'Aldea - Amposta - Tortosa", pos = [40.75359, 0.61455] },
+  { km = 5.707, kind = "station", label = "Campredó", pos = [40.75908, 0.55586] },
+  { km = 12.223, kind = "station", label = "Tortosa", pos = [40.80712, 0.52288] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.794, kmTo = 0.843, length = 49 },
+  { kind = "bridge", kmFrom = 0.921, kmTo = 0.935, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "e~vwFiswB|Nxi@" },
+  { line = "gnvwFohvB|G~V", v = 95 },
+  { line = "ievwFopuBnAzIi@tK", v = 65 },
+  { line = "cdvwF}xtB_\\~aB", v = 145 },
+  { line = "cawwF}uqBgAbKd@hLzBxH`HpMxBnHb@`E?dLc@jDqCpI", v = 100 },
+  { line = "_vvwFmwnBeYnp@aB`GyA~O]ba@", v = 125 },
+  { line = "_wwwFwjkBo@tOkAtH_CrIoCrGkDlFqJjJ", v = 120 },
+  { line = "itxwFijiB}nCruBkM`HyKlCiKp@kaAi@", v = 155 },
+  { line = "cn`xF}eeBmNFqGpC", v = 60 },
+]
+posts = [[0, 40.75507, 0.61765], [1, 40.7511, 0.607], [2, 40.75305, 0.59577], [3, 40.75589, 0.58458], [4, 40.75304, 0.5739], [5, 40.75805, 0.56406], [6, 40.75925, 0.5524], [7, 40.76485, 0.54362], [8, 40.77249, 0.53735], [9, 40.78011, 0.53104], [10, 40.78777, 0.52484], [11, 40.79657, 0.5232], [12, 40.80556, 0.52338]]
+
+[[connections]]
+km = 0.321
+station = "L'Aldea - Amposta - Tortosa"
+lines = [
+  { id = "600", ref = "600", name = "FFCC València - Sant Vicenç de Calders", km = 77.589 },
+]

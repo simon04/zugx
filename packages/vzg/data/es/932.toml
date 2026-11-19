@@ -1,0 +1,67 @@
+id = "932"
+ref = "932"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 6.103
+length = 6.103
+speeds = [[0, 1.626, 50, 50], [1.626, 2.094, 70, 70], [2.094, 2.148, "", ""], [2.148, 2.192, 70, 70], [2.192, 4.423, 65, 65], [4.423, 5.928, "", ""], [5.928, 6.103, 50, 50]]
+curves = [[0.15, 0.35, 400], [0.4, 0.45, 730], [0.5, 0.55, 1160], [0.6, 1.65, 300], [2.05, 2.525, 430], [2.9, 3.075, 960], [3.15, 3.425, 770], [3.525, 3.675, 1480], [4.275, 4.5, 720], [4.625, 4.675, 2490], [4.85, 4.975, 1560], [5.225, 5.35, 1760], [5.525, 5.75, 780], [5.825, 6, 130]]
+points = [
+  { km = 1.296, kind = "stop", label = "Méndez Álvaro - Vía 2", pos = [40.3954, -3.67918] },
+  { km = 1.366, kind = "station", label = "Méndez Álvaro", pos = [40.3956, -3.67859], uic = "7118003" },
+  { km = 2.804, kind = "station", label = "Arganzuela-Planetario", pos = [40.39323, -3.68841] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.108, kmTo = 0.207, length = 99 },
+  { kind = "tunnel", kmFrom = 0.43, kmTo = 0.536, length = 106 },
+  { kind = "bridge", kmFrom = 1.317, kmTo = 1.386, length = 69 },
+  { kind = "bridge", kmFrom = 3.171, kmTo = 3.233, length = 61 },
+  { kind = "bridge", kmFrom = 3.877, kmTo = 3.927, length = 51 },
+  { kind = "bridge", kmFrom = 3.975, kmTo = 4.046, length = 71 },
+  { kind = "bridge", kmFrom = 4.066, kmTo = 4.119, length = 53 },
+  { kind = "tunnel", kmFrom = 4.623, kmTo = 4.805, length = 183 },
+  { kind = "tunnel", kmFrom = 5.677, kmTo = 5.815, length = 138 },
+  { kind = "tunnel", kmFrom = 5.928, kmTo = 6.071, length = 142 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ceruFjwnUlCkD", v = 50 },
+  { line = "u`ruF~qnU`C_D", tunnel = true, v = 50 },
+  { line = "s|quF~lnU`B{DbA{G", v = 50 },
+  { line = "mwquFf~mUrA_F", tunnel = true, v = 50 },
+  { line = "ytquFfwmUdB_I`DeEhFcB|Ez@bDhDxBnIHrGoBtI", v = 50 },
+  { line = "qxpuF|hnU{Lj\\", v = 70 },
+  { line = "mfquFhfoUk@pB" },
+  { line = "ygquFzioUi@xA", v = 70 },
+  { line = "ciquFtloUzDwF`EaB|[qCfKj@rFMbMcDtg@_HbDgA", v = 65 },
+  { line = "mpmuFzmnUzH}E" },
+  { line = "qfmuF|fnUxG}E", tunnel = true },
+  { line = "w}luF~_nUxWuNzNeFpCW" },
+  { line = "opkuFjhmUvFJ", tunnel = true },
+  { line = "whkuFvhmUfBJaBU" },
+  { line = "qhkuFlhmU_GK", tunnel = true, v = 50 },
+  { line = "qpkuF`hmUy@?", v = 50 },
+]
+posts = [[0, 40.4029, -3.68518], [1, 40.39731, -3.67699], [2, 40.39754, -3.68663], [3, 40.39167, -3.68613], [4, 40.38282, -3.68466], [5, 40.37457, -3.68036], [6, 40.36825, -3.67764]]
+
+[[connections]]
+km = 1.296
+station = "Méndez Álvaro - Vía 2"
+lines = [
+  { id = "910", ref = "910", name = "Pasillo verde ferroviario", km = 1.444 },
+]
+
+[[connections]]
+km = 1.366
+station = "Méndez Álvaro"
+lines = [
+  { id = "500", ref = "500", name = "Línea Madrid-Valencia de Alcántara", km = 7.04 },
+  { id = "910", ref = "910", name = "Pasillo verde ferroviario", km = 1.514 },
+  { id = "920", ref = "920", name = "Línea Móstoles-Parla", km = 4.274 },
+]

@@ -1,0 +1,98 @@
+id = "764"
+ref = "764"
+name = "Trubia - Collanzo"
+operator = "Adif"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.58
+kmTo = 16.9
+length = 16.265
+speeds = [[0.58, 16.9, "", ""]]
+curves = [[0.673, 0.771, 200], [0.822, 0.948, 920], [1.149, 1.426, 670], [2.256, 2.532, 2180], [2.809, 3.388, 800], [3.438, 3.941, 490], [4.042, 4.443, 730], [4.693, 5.297, 270], [5.341, 5.466, 730], [5.673, 5.823, 640], [6.174, 6.701, 820], [7.153, 7.328, 1120], [7.479, 7.629, 650], [7.93, 8.156, 390], [8.231, 8.883, 340], [8.934, 9.159, 290], [9.435, 9.887, 260], [9.962, 10.263, 240], [10.313, 10.564, 290], [11.091, 11.292, 250], [11.342, 11.693, 310], [11.818, 12.019, 640], [12.27, 12.471, 280], [13.374, 13.499, 2410], [13.775, 13.85, 2160], [14.051, 14.678, 320], [14.829, 15.13, 790], [15.28, 15.681, 540], [15.807, 16.007, 280], [16.058, 16.334, 340], [16.534, 16.785, 670]]
+points = [
+  { km = 0.723, kind = "signal", label = "E1", signal = "main", dir = -1, measured = true },
+  { km = 1.677, kind = "halt", label = "Palombar", pos = [43.30991, -5.9124] },
+  { km = 4.336, kind = "signal", label = "E2", signal = "main", dir = 1, measured = true },
+  { km = 4.597, kind = "signal", label = "S1/1", signal = "main", dir = -1, measured = true },
+  { km = 5.171, kind = "signal", label = "IS1/1", signal = "function", dir = -1, measured = true },
+  { km = 5.22, kind = "station", label = "Soto Ribera", pos = [43.30856, -5.87524] },
+  { km = 5.249, kind = "signal", label = "S2/1", signal = "main", dir = 1, measured = true },
+  { km = 5.261, kind = "signal", signal = "fouling_point", measured = true },
+  { km = 5.477, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.549, kind = "signal", label = "E1", signal = "main", dir = -1, measured = true },
+  { km = 5.735, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.49, kind = "halt", label = "Parteayer", pos = [43.28328, -5.87527] },
+  { km = 10.042, kind = "halt", label = "Peñamiel", pos = [43.28244, -5.85886] },
+  { km = 13.131, kind = "station", label = "Baiña", pos = [43.27449, -5.82827] },
+  { km = 14.483, kind = "station", label = "La Perea", pos = [43.27706, -5.81224] },
+  { km = 15.743, kind = "station", label = "Ablaña", pos = [43.26725, -5.80637] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 1.444, kmTo = 1.614, length = 169 },
+  { kind = "tunnel", kmFrom = 5.76, kmTo = 5.894, length = 133 },
+  { kind = "bridge", kmFrom = 5.917, kmTo = 5.932, length = 15 },
+  { kind = "tunnel", kmFrom = 7.667, kmTo = 7.845, length = 178 },
+  { kind = "bridge", kmFrom = 7.845, kmTo = 7.918, length = 73 },
+  { kind = "tunnel", kmFrom = 8.004, kmTo = 8.079, length = 75 },
+  { kind = "tunnel", kmFrom = 8.352, kmTo = 8.425, length = 73 },
+  { kind = "tunnel", kmFrom = 8.9, kmTo = 8.959, length = 59 },
+  { kind = "tunnel", kmFrom = 9.268, kmTo = 9.365, length = 97 },
+  { kind = "tunnel", kmFrom = 10.525, kmTo = 10.592, length = 67 },
+  { kind = "tunnel", kmFrom = 10.758, kmTo = 10.911, length = 153 },
+  { kind = "tunnel", kmFrom = 11.96, kmTo = 12.039, length = 78 },
+  { kind = "tunnel", kmFrom = 12.275, kmTo = 12.425, length = 150 },
+  { kind = "tunnel", kmFrom = 13.291, kmTo = 13.352, length = 60 },
+  { kind = "tunnel", kmFrom = 14.122, kmTo = 14.207, length = 85 },
+  { kind = "bridge", kmFrom = 14.225, kmTo = 14.312, length = 87 },
+  { kind = "bridge", kmFrom = 14.534, kmTo = 14.548, length = 14 },
+  { kind = "tunnel", kmFrom = 14.548, kmTo = 14.701, length = 153 },
+  { kind = "tunnel", kmFrom = 15.022, kmTo = 15.102, length = 80 },
+  { kind = "bridge", kmFrom = 15.918, kmTo = 15.928, length = 10 },
+  { kind = "tunnel", kmFrom = 15.936, kmTo = 16.119, length = 182 },
+  { kind = "bridge", kmFrom = 16.635, kmTo = 16.713, length = 77 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kwjgGr~cc@|B_@jB_CrBcIpL_ZVaJ" },
+  { line = "c~igGlibc@BcL", tunnel = true },
+  { line = "_~igGh|ac@Pov@nCoh@[_JeB}MiAeEcEoIa@eCa@qWsDaVQwKnB}]p@qCjByB~B_@zC~@tFjEzD`KxLdP" },
+  { line = "aaigGlm{b@tEpC", tunnel = true },
+  { line = "kzhgG~q{b@`P~IdEtA`Ih@hEa@l_@mIrOBjFeA" },
+  { line = "izegGls{b@rHsB", tunnel = true },
+  { line = "upegGxo{b@pGiB" },
+  { line = "chegGnl{b@dBuB", tunnel = true },
+  { line = "}degGxh{b@xBeH" },
+  { line = "caegGr_{b@d@aB", tunnel = true },
+  { line = "}_egGp|zb@zAwD" },
+  { line = "a}dgGxvzb@~AyB", tunnel = true },
+  { line = "azdgG~rzb@xCwFl@cEGiD_AgEiC_D" },
+  { line = "kzdgGptyb@uAsA", tunnel = true },
+  { line = "a}dgG|qyb@}@_A_AyDB}L" },
+  { line = "{`egGd|xb@BoF", tunnel = true },
+  { line = "w`egGttxb@ZkM`BaCtCyAvAyB" },
+  { line = "kudgGr{wb@RyA", tunnel = true },
+  { line = "wtdgGxxwb@nA}Nl@yBfEsBfIg@pBsAr@{A" },
+  { line = "c{cgGtzvb@|@kC", tunnel = true },
+  { line = "eycgGhvvb@~CwI" },
+  { line = "etcgGpkvb@rC}H", tunnel = true },
+  { line = "qocgGravb@bGgQDkCqAwJJeFf@qCx@eCbIwLnA{C" },
+  { line = "wybgGt|sb@|@mD", tunnel = true },
+  { line = "ywbgGfwsb@rDoO" },
+  { line = "erbgGvfsb@t@cF[yB", tunnel = true },
+  { line = "kqbgGx{rb@kQs|@" },
+  { line = "wccgGd~pb@i@iC", tunnel = true },
+  { line = "aecgGzypb@uMsv@" },
+  { line = "wscgGfbob@IoE", tunnel = true },
+  { line = "atcgGv{nb@tB{MnAeCbBsA" },
+  { line = "wjcgG`fnb@lGe@", tunnel = true },
+  { line = "ibcgGzdnb@bKKtD_A" },
+  { line = "opbgGnbnb@dCcA", tunnel = true },
+  { line = "ilbgGj`nb@|KeGxGoIpDmUAwC" },
+  { line = "aqagGnrlb@uCoK", tunnel = true },
+  { line = "wuagG~elb@AmDlAyEzJ_TlGgGnA{C" },
+]
+posts = [[1, 43.31157, -5.92005], [2, 43.30989, -5.90843], [3, 43.30922, -5.89624], [4, 43.31183, -5.88482], [5, 43.31032, -5.87407], [6, 43.30336, -5.88136], [7, 43.29474, -5.882], [8, 43.28598, -5.87993], [9, 43.28446, -5.87025], [10, 43.28254, -5.85936], [11, 43.27645, -5.85166], [12, 43.27324, -5.8411], [13, 43.27401, -5.82974], [14, 43.27716, -5.81823], [15, 43.27211, -5.81184], [16, 43.26715, -5.80338]]

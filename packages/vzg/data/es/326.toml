@@ -1,0 +1,35 @@
+id = "326"
+ref = "326"
+name = "Línea Cartagena-Escombreras"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 11.174
+length = 11.174
+speeds = [[0, 9.023, 60, 60], [9.023, 9.043, "", ""], [9.043, 11.174, 60, 60]]
+curves = [[0.2, 0.5, 590], [1.775, 2, 980], [3.1, 3.35, 910], [3.95, 4.325, 510], [4.65, 5.4, 400], [5.75, 6.2, 440], [6.8, 6.875, 2540], [8.2, 8.25, 2840], [9.175, 10.1, 1130]]
+points = [
+  { km = 3.721, kind = "halt", label = "Abrevadero", pos = [37.6097, -0.93183] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 6.393, kmTo = 6.414, length = 22 },
+  { kind = "bridge", kmFrom = 9.023, kmTo = 9.043, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "srqdFnb}D~E_P|@uH{AghBlOeuAZeJsAio@u@qGuBqFaRqWeCcIY}DHyEp@iElAkDnBwCdU{U`D_BlFm@th@fJflA|Ndj@pK", v = 60 },
+  { line = "unkdFhirDb@H" },
+  { line = "qmkdFrirDhKzBnInDnHxFnFzGdFhK`^rbA", v = 60 },
+]
+posts = [[0, 37.61466, -0.97336], [1, 37.61343, -0.96242], [2, 37.61352, -0.95109], [3, 37.61137, -0.94007], [4, 37.61136, -0.9288], [5, 37.61605, -0.91952], [6, 37.60999, -0.91185], [7, 37.60117, -0.91387], [8, 37.5923, -0.91569], [9, 37.58351, -0.91807], [10, 37.57596, -0.92363], [11, 37.57143, -0.93343]]
+
+[[connections]]
+km = 3.721
+station = "Abrevadero"
+lines = [
+  { id = "360", ref = "360", name = "Línea Cartagena - Los Nietos", km = 15.366 },
+]

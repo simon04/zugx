@@ -1,0 +1,100 @@
+id = "276"
+ref = "276"
+name = "Ramal Besòs"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 16.776
+length = 16.776
+speeds = [[0, 2.88, 140, 140], [2.88, 3.3, 110, 110], [3.3, 3.545, 140, 140], [3.545, 4.512, 60, 60], [4.512, 5.493, 140, 140], [5.493, 8.501, 75, 75], [8.501, 10.584, 60, 60], [10.584, 11.366, 80, 80], [11.366, 12.355, 85, 85], [12.355, 12.376, 30, 30], [12.376, 13.512, 60, 60], [13.512, 13.604, 50, 50], [13.604, 16.776, 60, 60]]
+curves = [[1.55, 1.725, 1940], [3, 3.15, 2330], [3.5, 3.625, 1500], [3.675, 3.8, 1610], [4.25, 4.375, 1100], [4.425, 4.55, 1390], [5.95, 6.5, 320], [8.3, 9.075, 370], [9.3, 9.475, 1060], [9.525, 9.675, 1060], [10.225, 10.325, 1960], [10.45, 10.5, 2430], [10.875, 11.075, 500], [11.325, 11.55, 400], [12.2, 12.275, 1340], [12.325, 12.4, 1660], [12.525, 13, 780], [13.225, 13.325, 1320], [13.45, 13.6, 850], [14.35, 14.425, 2400], [14.475, 14.6, 1280], [14.65, 14.7, 2610], [14.875, 15.275, 510], [15.35, 15.725, 440], [16.1, 16.175, 2390]]
+points = [
+  { km = 0, kind = "station", label = "Montgat", pos = [41.46291, 2.27221] },
+  { km = 2.725, kind = "station", label = "Badalona", uic = "7179404", pos = [41.44571, 2.2491] },
+  { km = 5.562, kind = "station", label = "Sant Adrià de Besòs", uic = "7179403", pos = [41.42436, 2.23057] },
+  { km = 10.52, kind = "station", label = "Bac de Roda", pos = [41.41488, 2.19511] },
+  { km = 11.312, kind = "station", label = "El Clot", pos = [41.41028, 2.18673] },
+  { km = 11.366, kind = "station", label = "Barcelona-El Clot", uic = "7100189", pos = [41.40907, 2.18741] },
+  { km = 12.138, kind = "station", label = "Glòries", pos = [41.40221, 2.18752] },
+  { km = 12.92, kind = "station", label = "Marina", pos = [41.395, 2.18627] },
+  { km = 13.441, kind = "station", label = "Barcelona-Arc de Triomf", uic = "7178804", pos = [41.39228, 2.18103] },
+  { km = 13.46, kind = "station", label = "Arc de Triomf", pos = [41.39211, 2.18091] },
+  { km = 14.228, kind = "station", label = "Urquinaona", pos = [41.38964, 2.17456] },
+  { km = 14.537, kind = "station", label = "Passeig de Gràcia", pos = [41.38996, 2.16794] },
+  { km = 14.545, kind = "station", label = "Catalunya", pos = [41.38769, 2.16919] },
+  { km = 14.553, kind = "stop", label = "Barcelona-Plaça de Catalunya", pos = [41.38754, 2.16932] },
+  { km = 14.71, kind = "station", label = "Barcelona-Plaça Catalunya", pos = [41.38577, 2.16833] },
+  { km = 15.017, kind = "station", label = "Universitat", pos = [41.38473, 2.16391] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.025, kmTo = 3.039, length = 14 },
+  { kind = "bridge", kmFrom = 5.781, kmTo = 5.961, length = 180 },
+  { kind = "bridge", kmFrom = 6.321, kmTo = 6.386, length = 65 },
+  { kind = "bridge", kmFrom = 6.686, kmTo = 6.715, length = 30 },
+  { kind = "bridge", kmFrom = 6.913, kmTo = 6.944, length = 32 },
+  { kind = "bridge", kmFrom = 7.181, kmTo = 7.347, length = 166 },
+  { kind = "tunnel", kmFrom = 8.757, kmTo = 16.776, length = 8018 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gfa|FgxzLnOn[di@l|@pv@||@", v = 140 },
+  { line = "_t}{Fk`vL`RnQ", v = 110 },
+  { line = "}`}{F{muLtJtH", v = 140 },
+  { line = "gu|{FeduLzFfGxXzThKdG", v = 60 },
+  { line = "gg{{F{}sLvm@`f@", v = 140 },
+  { line = "oxy{FyvrLtYfWtBtGF`J{AzGwv@jtB", v = 75 },
+  { line = "otz{FqlmLOb@", tunnel = true, v = 75 },
+  { line = "_uz{FmkmLyBzH", v = 75 },
+  { line = "yxz{FqamLm@|DMjE", v = 60 },
+  { line = "uzz{FgulLBx@", tunnel = true, v = 60 },
+  { line = "qzz{FmslLZnC", v = 60 },
+  { line = "uyz{F}nlLtBfFzDpClS`ExLbFnb@rJbOtE", tunnel = true, v = 60 },
+  { line = "gzw{FsckL|RrFxOdT", tunnel = true, v = 80 },
+  { line = "ouv{FyfjLhAjA~Bf@no@O", tunnel = true, v = 85 },
+  { line = "u~t{FucjLd@E", tunnel = true, v = 30 },
+  { line = "o}t{F{cjL`Qd@vElBdPvThHbN", tunnel = true, v = 60 },
+  { line = "ejs{FkzhLpA~D", tunnel = true, v = 50 },
+  { line = "sgs{FkthLnWb~@bJfa@HrC]vDsEjQC`Dh@`EpL~^vRni@", tunnel = true, v = 60 },
+]
+posts = [[0, 41.46292, 2.2722], [1, 41.45713, 2.26304], [2, 41.45076, 2.2546], [3, 41.44381, 2.24699], [4, 41.43636, 2.24028], [5, 41.42864, 2.23416], [6, 41.42108, 2.22766], [7, 41.42293, 2.21731], [8, 41.42775, 2.20718], [9, 41.42863, 2.19713], [10, 41.41998, 2.19398], [11, 41.41139, 2.19055], [12, 41.40346, 2.18689], [13, 41.39494, 2.18493], [14, 41.38985, 2.17518], [15, 41.38591, 2.16442], [16, 41.38505, 2.15346]]
+
+[[connections]]
+km = 10.52
+station = "Bac de Roda"
+lines = [
+  { id = "246", ref = "246", name = "Línia Castellbisbal/el Papiol-Mollet", km = 51.56 },
+]
+
+[[connections]]
+km = 11.312
+station = "El Clot"
+lines = [
+  { id = "270", ref = "270", name = "FFCC Cerbère - Barcelona", km = 1.431 },
+]
+
+[[connections]]
+km = 11.366
+station = "Barcelona-El Clot"
+lines = [
+  { id = "270", ref = "270", name = "FFCC Cerbère - Barcelona", km = 1.38 },
+]
+
+[[connections]]
+km = 12.92
+station = "Marina"
+lines = [
+  { id = "220", ref = "220", name = "Línia Barcelona-Manresa-Lleida", km = 299.782 },
+]
+
+[[connections]]
+km = 15.017
+station = "Universitat"
+lines = [
+  { id = "220", ref = "220", name = "Línia Barcelona-Manresa-Lleida", km = 297.685 },
+  { id = "246", ref = "246", name = "Línia Castellbisbal/el Papiol-Mollet", km = 45.177 },
+]

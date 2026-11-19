@@ -1,0 +1,125 @@
+id = "102"
+ref = "102"
+name = "Línea directo Madrid-Burgos"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1
+kmTo = 26
+length = 24.856
+speeds = [[1, 1.315, 60, 60], [1.315, 2.986, 120, 120], [2.986, 5.056, 125, 125], [5.056, 5.767, 90, 90], [5.767, 7.046, 125, 125], [7.046, 7.384, 120, 120], [7.384, 10.384, 80, 80], [10.384, 11.155, 130, 130], [11.155, 11.698, 120, 120], [11.698, 15.522, 130, 130], [15.522, 26, 120, 120]]
+curves = [[1.101, 1.555, 620], [2.708, 2.757, 2560], [3.779, 3.954, 1790], [5.041, 5.698, 760], [6.001, 6.708, 1120], [6.809, 7.087, 980], [7.263, 7.667, 390], [7.794, 8.1, 560], [8.622, 9.212, 490], [9.257, 9.747, 410], [11.135, 11.654, 640], [12.097, 12.49, 1120], [12.935, 13.192, 1310], [14.496, 14.875, 800], [15.778, 16.202, 1080], [16.705, 17.129, 670], [17.765, 18.283, 640], [19.695, 20.195, 590], [20.323, 22.01, 610], [22.268, 22.666, 620], [22.854, 23.072, 1640], [23.411, 24.237, 600], [25.291, 25.768, 680]]
+points = [
+  { km = 1.552, kind = "signal", label = "EB1", signal = "main" },
+  { km = 2.697, kind = "signal", label = "27", signal = "main" },
+  { km = 2.717, kind = "signal", label = "30", signal = "main" },
+  { km = 3.299, kind = "station", label = "Fuencarral", pos = [40.49473, -3.69307] },
+  { km = 3.797, kind = "signal", label = "39", signal = "main" },
+  { km = 3.816, kind = "signal", label = "38", signal = "main" },
+  { km = 4.757, kind = "signal", label = "47", signal = "main" },
+  { km = 5.538, kind = "signal", label = "56", signal = "main" },
+  { km = 6.804, kind = "signal", label = "69", signal = "main" },
+  { km = 6.825, kind = "signal", label = "68", signal = "main" },
+  { km = 8.033, kind = "signal", label = "E0*", signal = "main" },
+  { km = 8.24, kind = "signal", label = "S2/1", signal = "main" },
+  { km = 8.477, kind = "station", label = "Universidad-Cantoblanco", pos = [40.5438, -3.70019] },
+  { km = 8.5, kind = "signal", label = "S1/1", signal = "main" },
+  { km = 8.914, kind = "signal", label = "E8", signal = "main" },
+  { km = 10.201, kind = "signal", label = "101", signal = "main" },
+  { km = 10.224, kind = "signal", label = "102", signal = "main" },
+  { km = 10.612, kind = "station", label = "El Goloso", pos = [40.55847, -3.71383] },
+  { km = 11.618, kind = "signal", label = "115", signal = "main" },
+  { km = 11.64, kind = "signal", label = "114", signal = "main" },
+  { km = 13.023, kind = "signal", label = "129", signal = "main" },
+  { km = 13.043, kind = "signal", label = "126", signal = "main" },
+  { km = 14.647, kind = "signal", label = "E1", signal = "main" },
+  { km = 15.147, kind = "signal", label = "S2/2", signal = "main" },
+  { km = 15.481, kind = "station", label = "Tres Cantos", pos = [40.59891, -3.71565] },
+  { km = 15.557, kind = "signal", label = "S1/2", signal = "main" },
+  { km = 15.935, kind = "signal", label = "E4", signal = "main" },
+  { km = 17.354, kind = "signal", label = "169", signal = "main" },
+  { km = 17.378, kind = "signal", label = "168", signal = "main" },
+  { km = 18.736, kind = "signal", label = "183", signal = "main" },
+  { km = 20.083, kind = "signal", label = "197", signal = "main" },
+  { km = 20.108, kind = "signal", label = "198", signal = "main" },
+  { km = 21.366, kind = "signal", label = "209", signal = "main" },
+  { km = 22.751, kind = "signal", label = "225", signal = "main" },
+  { km = 22.774, kind = "signal", label = "226", signal = "main" },
+  { km = 24.125, kind = "signal", label = "239", signal = "main" },
+  { km = 25.553, kind = "signal", label = "E1", signal = "main" },
+  { km = 26, kind = "station", label = "Colmenar Viejo", pos = [40.6452, -3.77656] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 7.384, kmTo = 7.457, length = 72 },
+  { kind = "tunnel", kmFrom = 7.678, kmTo = 8.172, length = 483 },
+  { kind = "tunnel", kmFrom = 8.914, kmTo = 9.402, length = 534 },
+  { kind = "tunnel", kmFrom = 9.833, kmTo = 9.963, length = 146 },
+  { kind = "tunnel", kmFrom = 11.084, kmTo = 11.155, length = 68 },
+  { kind = "tunnel", kmFrom = 11.354, kmTo = 11.513, length = 152 },
+  { kind = "tunnel", kmFrom = 14.185, kmTo = 14.406, length = 204 },
+  { kind = "bridge", kmFrom = 18.91, kmTo = 18.934, length = 24 },
+  { kind = "tunnel", kmFrom = 22.249, kmTo = 22.328, length = 85 },
+  { kind = "tunnel", kmFrom = 23.051, kmTo = 23.223, length = 164 },
+  { kind = "tunnel", kmFrom = 24.618, kmTo = 24.903, length = 284 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uxavFzhmUyFaDuGg@", v = 60 },
+  { line = "eibvFpbmUgGn@_VrHkj@nN}NnC", v = 120 },
+  { line = "wcevFtanUao@rKsaAjD", v = 125 },
+  { line = "mvhvFtsnUoFx@uKfEeFdF{DnH", v = 90 },
+  { line = "uwivFlloUeJvQmI`KwI|FyOjFaGhD", v = 125 },
+  { line = "}pkvFz_qU}NdL", v = 120 },
+  { line = "{`lvF`mqU{Bp@", tunnel = true, v = 80 },
+  { line = "wdlvFrnqU_ENaE_A", v = 80 },
+  { line = "yplvFbmqU_KiCwLhE", tunnel = true, v = 80 },
+  { line = "qjmvFboqUyYfP_CzCiAfD", v = 80 },
+  { line = "uknvFnjrUe@zDKvKX`MgAvD", tunnel = true, v = 80 },
+  { line = "unnvF|psUwEpEyPbF", v = 80 },
+  { line = "ggovFr~sU_GrA", tunnel = true, v = 80 },
+  { line = "goovFfatUmVtF", v = 80 },
+  { line = "ufpvF|htUme@rK", v = 130 },
+  { line = "cmqvFputUuBd@", tunnel = true, v = 130 },
+  { line = "ypqvFvvtUuIh@", v = 120 },
+  { line = "o{qvF`xtUkGeA", tunnel = true, v = 120 },
+  { line = "{crvFzutU_HwD", v = 120 },
+  { line = "{lrvFbptUsSgN{G{Ci`@wFiJUaw@hE", v = 130 },
+  { line = "aovvFzysUkJh@", tunnel = true, v = 130 },
+  { line = "mzvvFd{sUgMvA", v = 130 },
+  { line = "uhwvF|}sUw@V", tunnel = true, v = 130 },
+  { line = "mjwvFt~sUoe@f[", v = 130 },
+  { line = "}pxvF|ztUqNtJmInDgGfAs_@bDsGtBsErDy`@`f@wFpDiGpAk|AiBeEqAqDeCaN{RqFsEgEcBoDg@_Kh@wElBqExDiDtF{B`H{@pGSzGtBf[", v = 120 },
+  { line = "wabwF`lxUZbE", tunnel = true, v = 120 },
+  { line = "{`bwFdrxU@hHy@~H{FhTiDjJ", v = 120 },
+  { line = "yobwFdfzUmDzH", tunnel = true, v = 120 },
+  { line = "gubwF`pzUkIjTaA`IEjIl@rG|ArGlOz[", v = 120 },
+  { line = "ambwF~g}UxHrO", tunnel = true, v = 120 },
+  { line = "gcbwFrx}UfN`YlCpI~@bLInU", v = 120 },
+]
+posts = [[1, 40.48283, -3.67774], [2, 40.49134, -3.67882], [3, 40.50008, -3.68175], [4, 40.50895, -3.68387], [5, 40.51782, -3.68452], [6, 40.52489, -3.69072], [7, 40.53244, -3.69651], [8, 40.54065, -3.69847], [9, 40.5475, -3.70454], [10, 40.55336, -3.71248], [11, 40.56219, -3.71538], [12, 40.57026, -3.71305], [13, 40.57848, -3.71021], [14, 40.58728, -3.71101], [15, 40.59525, -3.71335], [16, 40.6032, -3.71909], [17, 40.61191, -3.72134], [18, 40.61901, -3.72896], [19, 40.62801, -3.72926], [20, 40.63699, -3.7281], [21, 40.64436, -3.72299], [22, 40.64859, -3.73147], [23, 40.65012, -3.74339], [24, 40.65303, -3.75352], [25, 40.64783, -3.76308], [26, 40.64494, -3.77374]]
+
+[[connections]]
+km = 3.299
+station = "Fuencarral"
+lines = [
+  { id = "080", ref = "080", name = "Línea de Alta Velocidad Madrid-Segovia–Valladolid-Burgos", km = 3.466 },
+  { id = "902", ref = "902", name = "Línea Pitis-Hortaleza", km = 6.595 },
+]
+
+[[connections]]
+km = 8.477
+station = "Universidad-Cantoblanco"
+lines = [
+  { id = "104", ref = "104", name = "Línea Alcobendas y San Sebastián de los Reyes-Universidad Cantoblanco", km = 0.102 },
+]
+
+[[connections]]
+km = 10.612
+station = "El Goloso"
+lines = [
+  { id = "080", ref = "080", name = "Línea de Alta Velocidad Madrid-Segovia–Valladolid-Burgos", km = 10.557 },
+]

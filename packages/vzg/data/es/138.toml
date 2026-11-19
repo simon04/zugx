@@ -1,0 +1,21 @@
+id = "138"
+ref = "138"
+name = "Línea Bifurcación Galicia-Bifurcación Base León"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.885
+length = 0.885
+speeds = [[0, 0.885, 160, 160]]
+curves = [[0.1, 0.425, 480], [0.675, 0.775, 990]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "k|~bG|sda@|EyGfEgCpWiBhGiA", v = 160 },
+]
+posts = [[0, 42.59798, -5.59951]]

@@ -1,0 +1,24 @@
+id = "350"
+ref = "350"
+name = "350 - Bifurcación Benalúa - Bifurcación Alacant"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.168
+length = 2.168
+speeds = [[0, 1.071, 60, 60], [1.071, 2.168, 70, 70]]
+curves = [[0.1, 0.25, 390], [0.3, 0.75, 290], [0.8, 1.25, 1340], [1.375, 1.675, 1320]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.559, kmTo = 1.071, length = 513 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ul`iF`pdBaHVgIoCqBOoFnAuCpDsJfW", v = 60 },
+  { line = "k{aiFbleByD~FoKlLuSzLiKlE", v = 70 },
+]
+posts = [[0, 38.34587, -0.51985], [1, 38.35296, -0.52369], [2, 38.36015, -0.53033]]

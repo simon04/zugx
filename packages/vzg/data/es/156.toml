@@ -1,0 +1,28 @@
+id = "156"
+ref = "156"
+name = "Línea Cambiador Villamuriel-Bifurcación Cerrato"
+operator = "Adif"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.751
+length = 1.751
+speeds = [[0, 0.421, "", ""], [0.421, 0.582, 10, 10], [0.582, 1.224, 110, 110], [1.224, 1.751, 150, 150]]
+curves = [[0.625, 1.275, 2060]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 1.352, kmTo = 1.38, length = 28 },
+  { kind = "bridge", kmFrom = 1.537, kmTo = 1.574, length = 38 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a}e_G``mZjMiX" },
+  { line = "une_GvflZpDqH", v = 10 },
+  { line = "cie_Gd}kZlKiQrL{M", v = 110 },
+  { line = "aod_G~{jZhXyS", v = 150 },
+]
+posts = [[0, 41.97857, -4.49553], [1, 41.9728, -4.48629]]

@@ -1,0 +1,120 @@
+id = "240"
+ref = "240"
+name = "Línia Barcelona-Vilafranca-Tarragona"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 61.079
+length = 61.079
+speeds = [[0, 0.831, 105, 105], [0.831, 0.952, 80, 80], [0.952, 4.587, 100, 100], [4.587, 7.325, 120, 120], [7.325, 8.243, 100, 100], [8.243, 10.033, 135, 135], [10.033, 13.701, 140, 140], [13.701, 20.796, 130, 130], [20.796, 21.672, 110, 110], [21.672, 37.488, 140, 140], [37.488, 37.663, 90, 90], [37.663, 55.611, 140, 140], [55.611, 58.439, 60, 60], [58.439, 61.079, 140, 140]]
+curves = [[0.775, 0.975, 1210], [1.05, 1.3, 900], [1.425, 1.675, 1280], [2.1, 2.275, 1910], [2.425, 2.7, 1410], [2.85, 2.95, 1860], [3.05, 3.325, 1270], [4.1, 4.55, 1170], [4.725, 5.1, 930], [5.3, 5.525, 1570], [6.625, 7.025, 1720], [7.55, 8.15, 830], [8.725, 8.775, 2420], [9.525, 9.7, 2320], [9.9, 10, 2730], [10.125, 10.25, 2590], [11.3, 11.65, 1820], [12.625, 12.7, 2640], [13.725, 14.225, 1010], [14.5, 15.1, 1010], [17.825, 18.425, 1020], [20.9, 21.4, 1020], [22.075, 22.95, 1310], [23.4, 24.4, 1180], [27.575, 28.2, 1280], [33.875, 34.45, 2120], [41.15, 41.225, 1860], [41.625, 41.7, 2390], [52.1, 52.925, 1510], [54.6, 54.95, 1830], [55.675, 56.4, 510], [56.975, 57.125, 40], [57.625, 58.375, 470], [59.125, 59.45, 1580]]
+points = [
+  { km = 4.258, kind = "station", label = "Castellbisbal", pos = [41.47326, 1.96782], uic = "7172210" },
+  { km = 7.811, kind = "station", label = "Martorell Central", pos = [41.47909, 1.9267] },
+  { km = 7.866, kind = "station", label = "Martorell - Central", pos = [41.47935, 1.92572] },
+  { km = 13.991, kind = "stop", label = "Gelida", pos = [41.44862, 1.86538] },
+  { km = 14.058, kind = "station", label = "Gelida Inferior", pos = [41.44816, 1.86474] },
+  { km = 20.995, kind = "station", label = "Sant Sadurní d'Anoia", pos = [41.42033, 1.79468] },
+  { km = 24.694, kind = "stop", label = "Lavern-Subirats", pos = [41.39578, 1.76807] },
+  { km = 29.333, kind = "halt", label = "la Granada", pos = [41.3709, 1.72523] },
+  { km = 32.798, kind = "station", label = "Vilafranca del Penedès", pos = [41.34462, 1.70339] },
+  { km = 37.754, kind = "station", label = "els Monjos", pos = [41.31459, 1.66009] },
+  { km = 44.547, kind = "station", label = "l'Arboç", pos = [41.27367, 1.60041] },
+  { km = 52.378, kind = "station", label = "el Vendrell", pos = [41.2209, 1.53813] },
+  { km = 56.811, kind = "station", label = "Sant Vicenç de Calders", pos = [41.18608, 1.52579] },
+  { km = 57.248, kind = "stop", label = "Sant Vicenç de Calders", pos = [41.18605, 1.52508] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.831, kmTo = 0.952, length = 120 },
+  { kind = "tunnel", kmFrom = 2.513, kmTo = 2.581, length = 68 },
+  { kind = "tunnel", kmFrom = 5.648, kmTo = 6.511, length = 863 },
+  { kind = "bridge", kmFrom = 6.999, kmTo = 7.275, length = 276 },
+  { kind = "tunnel", kmFrom = 7.904, kmTo = 8.97, length = 1066 },
+  { kind = "bridge", kmFrom = 13.576, kmTo = 13.701, length = 125 },
+  { kind = "bridge", kmFrom = 15.133, kmTo = 15.232, length = 99 },
+  { kind = "tunnel", kmFrom = 15.352, kmTo = 15.42, length = 68 },
+  { kind = "bridge", kmFrom = 15.619, kmTo = 15.724, length = 104 },
+  { kind = "tunnel", kmFrom = 16.755, kmTo = 16.875, length = 120 },
+  { kind = "bridge", kmFrom = 20.349, kmTo = 20.63, length = 281 },
+  { kind = "tunnel", kmFrom = 22.557, kmTo = 22.636, length = 79 },
+  { kind = "tunnel", kmFrom = 27.164, kmTo = 27.292, length = 128 },
+  { kind = "tunnel", kmFrom = 32.274, kmTo = 32.766, length = 492 },
+  { kind = "tunnel", kmFrom = 32.856, kmTo = 33.595, length = 739 },
+  { kind = "bridge", kmFrom = 34.141, kmTo = 34.219, length = 77 },
+  { kind = "bridge", kmFrom = 36.868, kmTo = 36.905, length = 37 },
+  { kind = "tunnel", kmFrom = 41.22, kmTo = 41.665, length = 445 },
+  { kind = "bridge", kmFrom = 51.921, kmTo = 51.944, length = 22 },
+  { kind = "bridge", kmFrom = 53.078, kmTo = 53.147, length = 69 },
+  { kind = "bridge", kmFrom = 53.181, kmTo = 53.234, length = 52 },
+  { kind = "bridge", kmFrom = 60.817, kmTo = 60.87, length = 54 },
+  { kind = "bridge", kmFrom = 60.903, kmTo = 60.973, length = 69 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ub}{FuvdK{Uz\\aJ~K", v = 105 },
+  { line = "sd~{FykcKuCnE", tunnel = true, v = 80 },
+  { line = "ii~{FiecKkEdI{CvDyNpLc^|NmQrE", v = 100 },
+  { line = "}u`|FgqaKsBt@", tunnel = true, v = 100 },
+  { line = "qy`|FqoaKu[vQmJ~Ioa@rd@iDlGcFxN", v = 100 },
+  { line = "spc|F}s~JqDfMyA|IsAjb@{A|N", v = 120 },
+  { line = "o~c|Fmg|JqKp}@", tunnel = true, v = 120 },
+  { line = "akd|F{hzJsB`XHnb@", v = 120 },
+  { line = "knd|FilxJh@xX`CpO", v = 100 },
+  { line = "_id|F}awJhJlS", tunnel = true, v = 100 },
+  { line = "u}c|FomvJrXli@", tunnel = true, v = 135 },
+  { line = "adc|FacuJbSh`@hMp^", v = 135 },
+  { line = "sab|FebsJ`DtMdTfjAhFpQbWhm@|HjP~f@ty@", v = 140 },
+  { line = "_v~{Fi{kJbElIrCvJxFff@jClL`EnJdN~Q", v = 130 },
+  { line = "yi}{F}qhJxAlB", tunnel = true, v = 130 },
+  { line = "_g}{FonhJna@xh@", v = 130 },
+  { line = "od|{FudgJ~@dA", tunnel = true, v = 130 },
+  { line = "ob|{FobgJdRdV", v = 130 },
+  { line = "io{{FikfJ|C`E", tunnel = true, v = 130 },
+  { line = "kj{{FgefJni@fs@fF`NfAlFlDpc@vQpvC", v = 130 },
+  { line = "e~x{Fk~}I|@`LjCtMvCpHxJlR", v = 110 },
+  { line = "igx{Fse|IjTx`@lLtK", v = 140 },
+  { line = "odw{FcwzI~BrA", tunnel = true, v = 140 },
+  { line = "o`w{FotzI~LhEbZ`FbKpCnMrI|JvMvHjSleAbmD", v = 140 },
+  { line = "s`r{FufsIlBlG", tunnel = true, v = 140 },
+  { line = "e}q{Fg~rIdH`UhIpOzGjHtYhU", v = 140 },
+  { line = "cfp{F}wpIhA|@", tunnel = true, v = 140 },
+  { line = "ycp{F_vpI`hDtkC", v = 140 },
+  { line = "wzj{FiilIlVpR", tunnel = true, v = 140 },
+  { line = "icj{FwukIfCpB", v = 140 },
+  { line = "a_j{FerkIfb@h\\", tunnel = true, v = 140 },
+  { line = "y{h{F{tjItStRjMfRxgBdvD", v = 140 },
+  { line = "}od{FwvcIvDrI", v = 90 },
+  { line = "ejd{FclcIt{@tiBd|@fgB", v = 140 },
+  { line = "ip`{Fey|HjP|V", tunnel = true, v = 140 },
+  { line = "}~_{Fga|HtmL`aOjLxMxLbIdOxEd`BdRvN^vg@iD", v = 140 },
+  { line = "eklzFqpjHzJQlG|@dFzCjChDzAdF`F`r@uEym@uB_J_CkDgF_DiG{@yJP", v = 60 },
+  { line = "cklzFgpjHyg@fD}KOm|AeQ", v = 140 },
+]
+posts = [[0, 41.44187, 1.99547], [1, 41.44832, 1.98712], [2, 41.45591, 1.98103], [3, 41.46427, 1.97675], [4, 41.4715, 1.96968], [5, 41.47623, 1.95975], [6, 41.47786, 1.94798], [7, 41.47968, 1.93627], [8, 41.47827, 1.9246], [9, 41.47264, 1.91525], [10, 41.46743, 1.9055], [11, 41.46413, 1.89435], [12, 41.45989, 1.88384], [13, 41.45432, 1.87444], [14, 41.44856, 1.86527], [15, 41.44532, 1.85423], [16, 41.43869, 1.84612], [17, 41.43202, 1.83808], [18, 41.42557, 1.82977], [19, 41.42331, 1.81828], [20, 41.42184, 1.80644], [21, 41.42029, 1.79464], [22, 41.41516, 1.78488], [23, 41.40767, 1.77886], [24, 41.39933, 1.77484], [25, 41.39446, 1.76486], [26, 41.39019, 1.75431], [27, 41.38592, 1.74376], [28, 41.38098, 1.73385], [29, 41.37342, 1.72738], [30, 41.3658, 1.72101], [31, 41.35817, 1.71467], [32, 41.35055, 1.70831], [33, 41.34291, 1.70199], [34, 41.33539, 1.69544], [35, 41.32954, 1.68639], [36, 41.32409, 1.67686], [37, 41.31863, 1.66734], [38, 41.31323, 1.65777], [39, 41.30782, 1.64821], [40, 41.30234, 1.63872], [41, 41.29682, 1.62926], [42, 41.29055, 1.62072], [43, 41.28388, 1.61269], [44, 41.27718, 1.6047], [45, 41.27048, 1.59672], [46, 41.26379, 1.58873], [47, 41.2571, 1.58074], [48, 41.2504, 1.57275], [49, 41.24371, 1.56476], [50, 41.23701, 1.55679], [51, 41.23031, 1.54881], [52, 41.22361, 1.54083], [53, 41.21564, 1.53578], [54, 41.20674, 1.53405], [55, 41.19781, 1.53295], [56, 41.18889, 1.53336], [57, 41.1857, 1.52287], [58, 41.18848, 1.53307], [59, 41.19736, 1.53297], [60, 41.20629, 1.53391], [61, 41.21519, 1.53565]]
+
+[[connections]]
+km = 4.258
+station = "Castellbisbal"
+lines = [
+  { id = "050", ref = "050", name = "Línea de alta velocidad Madrid-Zaragoza-Barcelona-Frontera francesa", km = 183.832 },
+  { id = "220", ref = "220", name = "Línia Barcelona-Manresa-Lleida", km = 273.071 },
+]
+
+[[connections]]
+km = 44.547
+station = "l'Arboç"
+lines = [
+  { id = "050", ref = "050", name = "Línea de alta velocidad Madrid-Zaragoza-Barcelona-Frontera francesa", km = 143.362 },
+]
+
+[[connections]]
+km = 56.811
+station = "Sant Vicenç de Calders"
+lines = [
+  { id = "220", ref = "220", name = "Línia Barcelona-Manresa-Lleida", km = 220.518 },
+]

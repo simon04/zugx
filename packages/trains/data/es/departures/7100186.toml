@@ -1,0 +1,19 @@
+id = "7100186"
+name = "Lugo"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADfv14A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A=="]
+deps = [
+  [318,"IC","4114","7100017",["7100471","7100020","7100022","7108251","7108247","7100176","7100002"],1,""],
+  [318,"REG","37114","7100022",["7100471","7100020"],2,""],
+  [505,"REG","12641","7199143",["7120310","7120312","7120313","7100433","7120316","7100421","7120318","7120319"],2,""],
+  [535,"REG","12644","7100022",["7120306","7100471","7100020"],2,""],
+  [881,"REG","12696","7100022",["7100471","7100020"],2,""],
+  [1110,"IC","558","7100022",["7100471","7100020"],0,""],
+  [1288,"REG","12642","7100020",["7120306","7100471"],2,""],
+  [1289,"REG","12646","7199143",["7120310","7120312","7120313","7100433","7120316","7100421","7120318","7120319"],2,""],
+]
+
+names = { 7100002 = "Medina del Campo", 7100017 = "Madrid-Chamartin", 7100020 = "Monforte de Lemos", 7100022 = "Ourense", 7100176 = "Zamora", 7100421 = "Curtis", 7100433 = "Guitiriz", 7100471 = "Sarria", 7108247 = "Puebla de Sanabria Llegada", 7108251 = "A Gudina-Porta Galicia", 7120306 = "Pedrelo-Celtigos (APD.)", 7120310 = "Rábade", 7120312 = "Baamonde (APT.-CGD.)", 7120313 = "Parga (APD.-CGD.)", 7120316 = "Teijeiro", 7120318 = "Pinoy (APD.)", 7120319 = "Cesuras (APT.)", 7199143 = "A Coruna-Turistico" }

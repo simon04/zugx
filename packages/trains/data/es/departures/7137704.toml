@@ -1,0 +1,22 @@
+id = "7137704"
+name = "Villanueva de Córdoba-Los Pedroches"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHPnw4A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH58+cA=="]
+deps = [
+  [435,"AVE","2063","7100049",["7100159","7100100"],0,""],
+  [636,"AVLO","2096","7100180",["7100038"],1,""],
+  [723,"AVLO","2109","7100049",["7100159","7100100"],1,""],
+  [731,"AVLO","2108","7100045",["7100038","7102002","7102003"],2,""],
+  [862,"AVLO","2137","7100049",["7100159","7100100"],1,""],
+  [950,"AVLO","2149","7100049",["7100159","7100100"],2,""],
+  [999,"AVLO","2156","7100180",["7100038"],1,""],
+  [1121,"AVLO","2176","7100180",["7100038"],1,""],
+  [1201,"AVLO","2187","7100049",["7100159","7100100"],1,""],
+  [1211,"AVLO","2188","7100045",["7100038","7102002","7102003"],1,""],
+  [1318,"AVLO","2217","7100049",["7100159","7100100"],1,""],
+]
+
+names = { 7100038 = "Córdoba Central", 7100045 = "Malaga", 7100049 = "Madrid Puerta de Atocha", 7100100 = "Ciudad Real", 7100159 = "Puertollano", 7100180 = "Sevilla Santa Justa", 7102002 = "Puente Genil-Herrera", 7102003 = "Antequera-Santa Ana" }

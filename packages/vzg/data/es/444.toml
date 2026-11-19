@@ -1,0 +1,41 @@
+id = "444"
+ref = "444"
+name = "FFCC Bif. Tamarguillo-La Salud"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 11.939
+length = 11.939
+speeds = [[0, 11.939, "", ""]]
+curves = [[0.1, 0.325, 1810], [1.825, 1.9, 2790], [2.15, 2.25, 2280], [3, 3.05, 2810], [3.45, 3.5, 2770], [3.7, 3.775, 2250], [4.925, 5.1, 2310], [5.775, 6.125, 1820], [10.825, 11.325, 1180]]
+points = [
+  { km = 2.622, kind = "halt", label = "Palacio de Congresos", pos = [37.40368, -5.9364] },
+  { km = 6.369, kind = "halt", label = "Padre Pío-Palmete", pos = [37.37082, -5.93933] },
+  { km = 7.939, kind = "station", label = "Guadaíra", pos = [37.35819, -5.94729] },
+  { km = 11.109, kind = "station", label = "Jardines de Hércules", pos = [37.33292, -5.964] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.753, kmTo = 1.874, length = 120 },
+  { kind = "bridge", kmFrom = 2.503, kmTo = 2.561, length = 58 },
+  { kind = "bridge", kmFrom = 2.898, kmTo = 2.928, length = 30 },
+  { kind = "bridge", kmFrom = 7.328, kmTo = 7.5, length = 172 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}klcF~gic@~IgE" },
+  { line = "}`lcFvaic@jAs@", tunnel = true },
+  { line = "q~kcFb`ic@zdAcy@hS_LrXeK~\\{GtTeBfQQnz@rAdWlDjVtFrIbDrsFl~C~LlCth@j@" },
+]
+posts = [[0, 37.42415, -5.95088], [1, 37.41649, -5.945], [2, 37.40887, -5.93902], [3, 37.40041, -5.93528], [4, 37.39147, -5.9343], [5, 37.38249, -5.93474], [6, 37.37377, -5.93743], [7, 37.36577, -5.9426], [8, 37.35779, -5.94781], [9, 37.34981, -5.95303], [10, 37.34184, -5.95826], [11, 37.33381, -5.96333]]
+
+[[connections]]
+km = 11.109
+station = "Jardines de Hércules"
+lines = [
+  { id = "400", ref = "400", name = "FFCC Alcázar de San Juan-Cádiz", km = 430.526 },
+]

@@ -1,0 +1,21 @@
+id = "632"
+ref = "632"
+name = "Bifurcació la Feredat - Bifurcació Vila-seca"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.527
+length = 1.527
+speeds = [[0, 1.527, 50, 50]]
+curves = [[0.2, 1.425, 910]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "wd~yFce~EaJxMaDdHcCfJkArJUlMl@dLhBjK`EzL", v = 50 },
+]
+posts = [[0, 41.11964, 1.14274], [1, 41.12334, 1.13241]]

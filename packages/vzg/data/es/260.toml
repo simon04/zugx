@@ -1,0 +1,44 @@
+id = "260"
+ref = "260"
+name = "FFCC Figueres-Vilafant - Vilamalla"
+operator = "Adif"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.526
+length = 7.526
+speeds = [[0, 6.307, "", ""], [6.307, 7.283, 130, 130], [7.283, 7.526, "", ""]]
+curves = [[0.15, 0.225, 1850], [0.275, 0.375, 1280], [1.225, 1.275, 2540], [1.45, 1.525, 1950], [1.8, 1.85, 2250], [2.8, 3.825, 970], [4, 4.2, 1510], [4.25, 4.625, 1490], [5.175, 5.9, 1320]]
+points = [
+  { km = 0.657, kind = "station", label = "Figueres Vilafant", uic = "7104307", pos = [42.2647, 2.94268] },
+  { km = 7.162, kind = "station", label = "Vilamalla", pos = [42.21637, 2.97803] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 1.555, kmTo = 1.63, length = 75 },
+  { kind = "tunnel", kmFrom = 2.085, kmTo = 2.206, length = 121 },
+  { kind = "bridge", kmFrom = 3.055, kmTo = 3.101, length = 46 },
+  { kind = "bridge", kmFrom = 3.717, kmTo = 3.772, length = 55 },
+  { kind = "bridge", kmFrom = 4.059, kmTo = 4.884, length = 825 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q|~`Gch}P`R}Hhn@}RxO{D" },
+  { line = "ki|`G{k~P~Bw@", tunnel = true },
+  { line = "ke|`Gsm~PpWyH" },
+  { line = "yl{`Gmw~PpEeA", tunnel = true },
+  { line = "gf{`Gsy~Pnb@cHtFaBbM}JzHaOvCmMhC_TnEaRhFqMlRi[tLiNrMiIdGoBvXyE" },
+  { line = "ozu`GcgdQzt@uL", v = 130 },
+  { line = "sdt`GytdQhL{B" },
+]
+posts = [[0, 42.27033, 2.94034], [1, 42.26182, 2.94424], [2, 42.25319, 2.94764], [3, 42.24442, 2.95025], [4, 42.23934, 2.95966], [5, 42.23436, 2.96961], [6, 42.22664, 2.97532], [7, 42.2178, 2.97758]]
+
+[[connections]]
+km = 7.162
+station = "Vilamalla"
+lines = [
+  { id = "270", ref = "270", name = "FFCC Cerbère - Barcelona", km = 133.03 },
+]

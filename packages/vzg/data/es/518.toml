@@ -1,0 +1,24 @@
+id = "518"
+ref = "518"
+name = "Línea Bifurcación Casa de la Torre-Bifurcación Romanos"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.145
+length = 4.145
+speeds = [[0, 4.145, 75, 75]]
+curves = [[0.1, 0.575, 420], [0.95, 2.2, 400], [2.35, 3.325, 410], [3.75, 4.025, 2210]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 1.791, kmTo = 1.854, length = 63 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "g}voFnb_f@pClAvFv@rGq@jEyC|QcYfEsDvEeAfD?~Ct@lD|BpCfExAzEh@zGw@lKqIxRiAfGF~KnBvHnBzCzEfDnFx@p_@aCrP}C", v = 75 },
+]
+posts = [[0, 39.4442, -6.39032], [1, 39.43685, -6.38586], [2, 39.43087, -6.38994], [3, 39.43174, -6.40013], [4, 39.42293, -6.39996]]

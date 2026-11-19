@@ -1,0 +1,53 @@
+id = "772"
+ref = "772"
+name = "Ferrocarril Orejo-Liérganes"
+operator = "Adif"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.2
+kmTo = 9.8
+length = 9.623
+speeds = [[0.2, 9.8, 70, 70]]
+curves = [[0.282, 0.652, 860], [0.902, 1.302, 560], [1.726, 1.9, 580], [1.95, 2.125, 410], [2.175, 2.7, 320], [3.725, 4.2, 520], [4.35, 4.5, 1100], [4.85, 5, 1060], [5.225, 5.325, 1050], [5.375, 5.553, 1460], [6.005, 7.066, 310], [7.465, 7.689, 790], [8.886, 9.086, 1220]]
+points = [
+  { km = 0.2, kind = "station", label = "Orejo", pos = [43.39942, -3.73816] },
+  { km = 1.276, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 1.52, kind = "signal", label = "R6", signal = "main", dir = 1 },
+  { km = 1.724, kind = "station", label = "Solares", pos = [43.38723, -3.73145] },
+  { km = 3.544, kind = "station", label = "Ceceñas", pos = [43.37651, -3.71809] },
+  { km = 6.028, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.035, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 6.07, kind = "signal", label = "SF1", signal = "crossing", dir = 1 },
+  { km = 6.147, kind = "signal", label = "SF2", signal = "crossing", dir = -1 },
+  { km = 6.272, kind = "signal", label = "RSF1", signal = "crossing", dir = 1 },
+  { km = 6.821, kind = "station", label = "La Cavada", pos = [43.35061, -3.70719] },
+  { km = 7.207, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 7.242, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 9.774, kind = "station", label = "Liérganes", pos = [43.34499, -3.7418] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 1.87, kmTo = 1.947, length = 77 },
+  { kind = "bridge", kmFrom = 2.283, kmTo = 2.3, length = 17 },
+  { kind = "bridge", kmFrom = 2.513, kmTo = 2.528, length = 15 },
+  { kind = "bridge", kmFrom = 2.803, kmTo = 2.821, length = 18 },
+  { kind = "bridge", kmFrom = 4.971, kmTo = 4.982, length = 11 },
+  { kind = "bridge", kmFrom = 6.696, kmTo = 6.758, length = 63 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}k{gGz_yUfB}GnGoKjWeStHgAh^dDnDY", v = 70 },
+  { line = "iyxgGjxwUbCw@", tunnel = true, v = 70 },
+  { line = "euxgGrvwUnE{@rHdAvCgBn@yCZ}JbAkDjd@mfAdGiHlFmB|Nq@j[tBrR}@fIDfb@kF|BeApAqBvB{LxDgH`EyB|FOzB`AlBbCbL`c@|@|FhKjeBUn`A", v = 70 },
+]
+posts = [[1, 43.39371, -3.73125], [2, 43.38485, -3.73095], [3, 43.37935, -3.7235], [4, 43.37369, -3.71405], [5, 43.36478, -3.71396], [6, 43.3559, -3.71268], [7, 43.34925, -3.7083], [8, 43.3463, -3.71988], [9, 43.34487, -3.73212]]
+
+[[connections]]
+km = 0.2
+station = "Orejo"
+lines = [
+  { id = "780", ref = "780", name = "Ferrocarril Santander - Bilbao", km = 547.804 },
+]

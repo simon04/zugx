@@ -1,0 +1,29 @@
+id = "914"
+ref = "914"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.791
+length = 5.791
+speeds = [[0, 1.867, 125, 125], [1.867, 2.884, 100, 100], [2.884, 2.934, "", ""], [2.934, 3.901, 100, 100], [3.901, 5.008, 125, 125], [5.008, 5.791, 55, 55]]
+curves = [[0.25, 0.4, 1470], [0.5, 0.725, 1850], [0.825, 0.975, 1310], [2.825, 3, 550], [4.225, 4.425, 1060], [4.525, 5.05, 730], [5.1, 5.675, 510]]
+points = [
+  { km = 2.513, kind = "stop", label = "Pinar de Las Rozas. vía 3", pos = [40.52224, -3.88176] },
+  { km = 3.255, kind = "stop", label = "Pinar de Las Rozas. vía 4", pos = [40.52225, -3.88173] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}ievFlfsVkOlDyNtFgP~Dyp@fX", v = 125 },
+  { line = "emhvFxrtVit@bZ", v = 100 },
+  { line = "objvF|muVpAs@" },
+  { line = "}_jvFhluVtq@wX", v = 100 },
+  { line = "gmhvFprtVfTcJpQ{MfF{A|Hm@", v = 125 },
+  { line = "gtfvFftsVcI[uFwB", v = 55 },
+  { line = "afgvFrosVo@a@", tunnel = true, v = 55 },
+  { line = "qggvFpnsVeGsIwA}Eu@aG", v = 55 },
+]
+posts = [[0, 40.50095, -3.87191], [1, 40.50956, -3.8753], [2, 40.51794, -3.87958], [3, 40.5244, -3.88281], [4, 40.51601, -3.87855], [5, 40.50779, -3.87413]]

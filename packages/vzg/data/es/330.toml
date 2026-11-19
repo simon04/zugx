@@ -1,0 +1,93 @@
+id = "330"
+ref = "330"
+name = "Madrid-Alicante"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 78.256
+length = 78.256
+speeds = [[0, 1.265, 50, 50], [1.265, 1.631, 70, 70], [1.631, 2.979, 90, 90], [2.979, 3.888, 120, 120], [3.888, 6.926, 130, 130], [6.926, 6.998, 60, 60], [6.998, 28.799, 160, 160], [28.799, 28.817, "", ""], [28.817, 31.379, 160, 160], [31.379, 41.574, 90, 90], [41.574, 70.103, 160, 160], [70.103, 75.442, 90, 90], [75.442, 78.256, "", ""]]
+curves = [[0.5, 0.55, 2690], [1, 1.05, 2120], [1.35, 1.475, 2130], [1.525, 1.875, 950], [1.975, 2.275, 1220], [2.5, 2.875, 1270], [3.025, 3.125, 1710], [3.6, 3.8, 2100], [3.95, 4.125, 1840], [5.975, 7.175, 940], [7.475, 7.525, 1970], [7.575, 7.65, 2850], [11.75, 12.625, 1050], [15.5, 15.7, 1760], [15.75, 16.2, 2090], [20.325, 20.4, 2680], [20.625, 20.675, 2310], [20.75, 20.85, 2070], [24.8, 25.15, 1410], [28.675, 29.15, 960], [31.5, 31.975, 870], [32.65, 33.375, 980], [33.8, 34.6, 520], [36.175, 36.4, 1180], [36.55, 36.6, 2250], [37.025, 37.65, 860], [38.075, 38.725, 810], [38.9, 39.6, 760], [39.925, 40.45, 630], [41.275, 41.575, 900], [44.25, 44.6, 1190], [46.375, 46.825, 690], [47.25, 47.3, 2240], [52.125, 52.725, 1250], [57.05, 57.35, 1840], [64.1, 64.375, 1930], [64.475, 64.75, 2000], [64.875, 64.975, 2910], [66.05, 66.275, 1730], [66.325, 66.425, 1990], [66.55, 66.925, 1700], [67.3, 68.3, 750], [68.45, 69.025, 880], [70.725, 71.85, 640], [73.225, 73.325, 2320], [74.6, 75.775, 620], [75.975, 76.5, 870], [77.9, 78.15, 1390]]
+points = [
+  { km = 5.527, kind = "halt", label = "Universidad de Alicante", pos = [38.3841, -0.52842] },
+  { km = 6.727, kind = "halt", label = "Sant Vicent - Centre", pos = [38.39456, -0.52877] },
+  { km = 29.303, kind = "station", label = "Novelda-Aspe", pos = [38.40726, -0.77755] },
+  { km = 39.881, kind = "stop", label = "Elda-Petrer", pos = [38.48479, -0.80088] },
+  { km = 46.941, kind = "stop", label = "Sax", pos = [38.54529, -0.81453] },
+  { km = 57.965, kind = "station", label = "Villena", pos = [38.63227, -0.86795] },
+  { km = 70.847, kind = "station", label = "Caudete", pos = [38.71627, -0.95956] },
+  { km = 77.616, kind = "station", label = "La Encina", pos = [38.76545, -0.95385] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0, kmTo = 1.265, length = 1265 },
+  { kind = "bridge", kmFrom = 3.888, kmTo = 3.907, length = 19 },
+  { kind = "bridge", kmFrom = 5.842, kmTo = 5.911, length = 69 },
+  { kind = "bridge", kmFrom = 6.998, kmTo = 7.03, length = 32 },
+  { kind = "bridge", kmFrom = 8.778, kmTo = 8.914, length = 135 },
+  { kind = "bridge", kmFrom = 8.986, kmTo = 9.023, length = 37 },
+  { kind = "bridge", kmFrom = 11.996, kmTo = 12.008, length = 12 },
+  { kind = "bridge", kmFrom = 14.616, kmTo = 14.645, length = 29 },
+  { kind = "bridge", kmFrom = 22.182, kmTo = 22.209, length = 28 },
+  { kind = "bridge", kmFrom = 26.877, kmTo = 26.892, length = 15 },
+  { kind = "bridge", kmFrom = 28.139, kmTo = 28.211, length = 72 },
+  { kind = "bridge", kmFrom = 28.799, kmTo = 28.817, length = 18 },
+  { kind = "bridge", kmFrom = 31.379, kmTo = 31.422, length = 42 },
+  { kind = "bridge", kmFrom = 33.748, kmTo = 33.787, length = 39 },
+  { kind = "bridge", kmFrom = 35.422, kmTo = 35.46, length = 37 },
+  { kind = "bridge", kmFrom = 37.297, kmTo = 37.328, length = 31 },
+  { kind = "bridge", kmFrom = 37.403, kmTo = 37.424, length = 21 },
+  { kind = "bridge", kmFrom = 39.062, kmTo = 39.083, length = 21 },
+  { kind = "bridge", kmFrom = 39.607, kmTo = 39.629, length = 23 },
+  { kind = "bridge", kmFrom = 40.143, kmTo = 40.159, length = 16 },
+  { kind = "bridge", kmFrom = 40.169, kmTo = 40.19, length = 21 },
+  { kind = "tunnel", kmFrom = 40.822, kmTo = 41.309, length = 487 },
+  { kind = "bridge", kmFrom = 41.373, kmTo = 41.406, length = 34 },
+  { kind = "bridge", kmFrom = 42.16, kmTo = 42.17, length = 10 },
+  { kind = "bridge", kmFrom = 45.748, kmTo = 45.769, length = 21 },
+  { kind = "bridge", kmFrom = 46.613, kmTo = 46.625, length = 12 },
+  { kind = "bridge", kmFrom = 53.708, kmTo = 53.746, length = 38 },
+  { kind = "bridge", kmFrom = 55.936, kmTo = 55.953, length = 17 },
+  { kind = "bridge", kmFrom = 67.872, kmTo = 67.894, length = 22 },
+  { kind = "bridge", kmFrom = 75.442, kmTo = 75.464, length = 22 },
+  { kind = "bridge", kmFrom = 75.721, kmTo = 75.734, length = 12 },
+  { kind = "bridge", kmFrom = 75.909, kmTo = 75.922, length = 13 },
+  { kind = "bridge", kmFrom = 77.021, kmTo = 77.037, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eu`iFhqaBwIva@cK~q@", tunnel = true, v = 50 },
+  { line = "alaiF`gdBsExW", v = 70 },
+  { line = "uraiFz_eBaE~JkFlIoFhGyV|PgNhD", v = 90 },
+  { line = "unciFzufBsWjDsJl@kMA", v = 120 },
+  { line = "iaeiFr|fBgI[yOwBswAwW_Js@gJf@gI~BkF`DiGpH", v = 130 },
+  { line = "eejiFnqfBgAfC", v = 60 },
+  { line = "mgjiFvufBcBtEoJ~^ubA|hEo\\~iAcBhJu@rMJdLdApK|x@lgEpCzZKlXkV|rGYzWX|S`BzXhe@jjGEtKwBdo@}PzsE", v = 160 },
+  { line = "g_liFp{uCEf@" },
+  { line = "m_liFx|uCoAzH}ChIsjAf`C", v = 160 },
+  { line = "orniFfrzCkHpMkGxFqDfBgh@rP}KxGcFhG_DxFaOrh@gBpDaBrBoExCaD|@wDR{Fg@yyAg^mCWuMR_[jBgL{@sJsEmWsVaG{D}FeBkEe@cYlAuIq@}C_AyFsDsTeY{GkFkDmAmEa@_XX", v = 90 },
+  { line = "eb}iF~}zCkZf@", tunnel = true, v = 90 },
+  { line = "q}}iFf_{CuGl@wDxA", v = 90 },
+  { line = "_l~iFnc{C}x@|]qkAjd@sKdDgQfAu_BnAkIdBsFtDkSvSyrEp{EmLbJwF`C}HhB_hFbv@ePbE_dApg@ssG|uD}OrNcHhJoG`Lcd@t~@cK`OiKbKkH`Fy[vN_FfEoDhFwCnHeBdKUnJ`@p[{AvOuBrHe`@lbA", v = 160 },
+  { line = "iahkF~~xDgT~i@oFbIkFxDeG`BuFLkFs@{EuBwC}Bg|@g|@m`A{hAaGyCeIw@sH~@{GnD", v = 90 },
+  { line = "wkokF~mvDyGdJcLd[oIrKikArr@iGnC}HnB" },
+]
+posts = [[0, 38.34723, -0.50469], [1, 38.35027, -0.51547], [2, 38.35393, -0.52574], [3, 38.36174, -0.53109], [4, 38.37066, -0.53203], [5, 38.37948, -0.52982], [6, 38.38827, -0.52738], [7, 38.39624, -0.53103], [8, 38.39999, -0.54144], [9, 38.40353, -0.55199], [10, 38.40706, -0.56254], [11, 38.41075, -0.57301], [12, 38.41462, -0.58335], [13, 38.41315, -0.59444], [14, 38.41003, -0.60521], [15, 38.4069, -0.61597], [16, 38.40446, -0.62696], [17, 38.40522, -0.63838], [18, 38.40619, -0.64979], [19, 38.40716, -0.6612], [20, 38.40812, -0.67261], [21, 38.40803, -0.68404], [22, 38.40644, -0.69534], [23, 38.40479, -0.70662], [24, 38.40315, -0.7179], [25, 38.40165, -0.72921], [26, 38.40247, -0.74063], [27, 38.40343, -0.75204], [28, 38.40437, -0.76346], [29, 38.40575, -0.77474], [30, 38.41108, -0.78397], [31, 38.41643, -0.79319], [32, 38.42275, -0.80102], [33, 38.43107, -0.80522], [34, 38.43575, -0.81489], [35, 38.44412, -0.81543], [36, 38.4528, -0.81241], [37, 38.4617, -0.81213], [38, 38.46967, -0.80778], [39, 38.47819, -0.80583], [40, 38.48557, -0.79995], [41, 38.49428, -0.79863], [42, 38.50287, -0.80139], [43, 38.51122, -0.80565], [44, 38.51962, -0.80975], [45, 38.5284, -0.81162], [46, 38.53739, -0.81185], [47, 38.5457, -0.81496], [48, 38.55269, -0.82219], [49, 38.55966, -0.82945], [50, 38.56663, -0.83672], [51, 38.57361, -0.84397], [52, 38.58058, -0.85123], [53, 38.58875, -0.85553], [54, 38.5976, -0.85762], [55, 38.60644, -0.85972], [56, 38.61528, -0.86182], [57, 38.62412, -0.86393], [58, 38.63243, -0.86826], [59, 38.6405, -0.87335], [60, 38.64849, -0.87862], [61, 38.6565, -0.88386], [62, 38.66448, -0.88917], [63, 38.67248, -0.89443], [64, 38.68047, -0.89972], [65, 38.68727, -0.90709], [66, 38.69265, -0.91633], [67, 38.69962, -0.92339], [68, 38.70628, -0.93033], [69, 38.7074, -0.94156], [70, 38.71218, -0.95132], [71, 38.71726, -0.96079], [72, 38.72536, -0.95953], [73, 38.73245, -0.95243], [74, 38.73924, -0.94488], [75, 38.74642, -0.93822], [76, 38.75311, -0.94451], [77, 38.76033, -0.95107], [78, 38.76832, -0.95636]]
+
+[[connections]]
+km = 70.847
+station = "Caudete"
+lines = [
+  { id = "332", ref = "332", name = "332 - La Encina aguja km 296,3 - Caudete", km = 0.553 },
+]
+
+[[connections]]
+km = 77.616
+station = "La Encina"
+lines = [
+  { id = "042", ref = "042", name = "Línea de Alta Velocidad Madrid - Alacant-Terminal/Murcia", km = 413.905 },
+  { id = "320", ref = "320", name = "Línea Chinchilla-Cartagena", km = 1022.597 },
+]

@@ -1,0 +1,38 @@
+id = "206"
+ref = "206"
+name = "Línia Lleida-la Pobla de Segur"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.837
+length = 1.837
+speeds = [[0, 0.875, "", ""], [0.875, 1.721, 60, 60], [1.721, 1.837, 50, 50]]
+curves = [[0.1, 0.225, 770], [0.45, 1.175, 530]]
+points = [
+  { km = 0, kind = "station", label = "Lleida-Pirineus", uic = "7178400", pos = [41.62073, 0.63304] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.204, kmTo = 0.412, length = 208 },
+  { kind = "bridge", kmFrom = 0.652, kmTo = 0.68, length = 29 },
+  { kind = "bridge", kmFrom = 0.875, kmTo = 0.888, length = 13 },
+  { kind = "bridge", kmFrom = 1.171, kmTo = 1.196, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "u}_}Fm|zBpG{F|LsQzD}Kv@}H" },
+  { line = "q__}Fym|Bc@oG_B{EeYe^", v = 60 },
+  { line = "{}_}Fk|}ByCyD", v = 50 },
+]
+posts = [[0, 41.62027, 0.63447], [1, 41.61566, 0.64384]]
+
+[[connections]]
+km = 0
+station = "Lleida-Pirineus"
+lines = [
+  { id = "056", ref = "056", name = "Línia d'alta velocitat Madrid - Zaragoza - Barcelona - Frontera francesa", km = 7.59 },
+]

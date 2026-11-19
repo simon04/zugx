@@ -1,0 +1,67 @@
+id = "230"
+ref = "230"
+name = "FFCC la Plana - Picamoixons-Reus"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 20.93
+length = 20.93
+speeds = [[0, 0.671, 70, 70], [0.671, 1.894, 110, 110], [1.894, 3.152, 100, 100], [3.152, 4.121, 105, 105], [4.121, 5.38, 120, 120], [5.38, 17.604, 140, 140], [17.604, 19.506, 135, 135], [19.506, 20.228, 50, 50], [20.228, 20.93, 70, 70]]
+curves = [[0.1, 0.25, 430], [0.4, 0.95, 540], [1.125, 1.225, 1480], [1.425, 1.9, 1070], [2.175, 2.475, 880], [2.725, 3.1, 790], [3.625, 4.1, 560], [4.6, 5.1, 740], [6.125, 6.25, 2140], [6.775, 7.375, 1300], [7.625, 7.85, 1040], [9.475, 10.125, 1000], [10.375, 11.125, 1280], [11.775, 11.9, 1820], [14.625, 14.675, 2580], [15.475, 15.55, 2210], [16.225, 16.3, 2610], [16.45, 17.2, 1370], [17.975, 18.35, 840], [18.65, 20.825, 560]]
+points = [
+  { km = 0.097, kind = "station", label = "la Plana - Picamoixons", pos = [41.30608, 1.19495], uic = "7173100" },
+  { km = 5.606, kind = "station", label = "Alcover", pos = [41.2616, 1.17417], uic = "7173101" },
+  { km = 11.893, kind = "stop", label = "la Selva del Camp", pos = [41.21127, 1.14396], uic = "7173102" },
+  { km = 20.93, kind = "station", label = "Reus", uic = "7171400", pos = [41.1606, 1.09994] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.244, kmTo = 0.407, length = 164, name = "Pont de la Roixel·la" },
+  { kind = "bridge", kmFrom = 5.283, kmTo = 5.302, length = 19 },
+  { kind = "bridge", kmFrom = 6.248, kmTo = 6.297, length = 48 },
+  { kind = "bridge", kmFrom = 6.362, kmTo = 6.394, length = 32 },
+  { kind = "bridge", kmFrom = 6.527, kmTo = 6.549, length = 22 },
+  { kind = "bridge", kmFrom = 7.127, kmTo = 7.136, length = 10 },
+  { kind = "bridge", kmFrom = 9.909, kmTo = 9.989, length = 80 },
+  { kind = "bridge", kmFrom = 10.568, kmTo = 10.595, length = 26 },
+  { kind = "bridge", kmFrom = 11.127, kmTo = 11.188, length = 61 },
+  { kind = "bridge", kmFrom = 12.27, kmTo = 12.289, length = 19 },
+  { kind = "bridge", kmFrom = 15.612, kmTo = 15.622, length = 10 },
+  { kind = "bridge", kmFrom = 16.454, kmTo = 16.464, length = 10 },
+  { kind = "bridge", kmFrom = 17.139, kmTo = 17.178, length = 39 },
+  { kind = "bridge", kmFrom = 17.843, kmTo = 17.876, length = 32 },
+  { kind = "tunnel", kmFrom = 18.45, kmTo = 19.794, length = 1344 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mvb{FwdhFrCmD`FgBnLwBbIr@", v = 70 },
+  { line = "csa{FqohFhDjAvDrCjJrMzNdOvHxEfHvA", v = 110 },
+  { line = "yy_{Fe`gFnSzAfHxBfThLxEx@|HF", v = 100 },
+  { line = "av}zFcjfFr`@DjD`AfDvBzEdG", v = 105 },
+  { line = "}b|zF}{eF`Tx[nFnFdGrCvTpD", v = 120 },
+  { line = "mhzzFmmdFbk@nIjg@rCzKzCxGnD~PjNlDlBbtAzf@fMxGjEpEzCzEhMn]nDlHxIxKxJdHjf@zTn}B|m@jWpIpWpLfRnKbZlThSpRrCzDfEvHnEtLtJdh@", v = 140 },
+  { line = "ewgzFclxEtG`b@RzGq@dP", v = 135 },
+  { line = "mogzF_ovE{AfUHfStBlNnFzO", tunnel = true, v = 135 },
+  { line = "yfgzFedtE`B~BjCfBxEz@", tunnel = true, v = 50 },
+  { line = "qxfzFa{sE|DDrEu@`EmBzBeC", v = 50 },
+  { line = "abfzFedtEhFaMz@yGu@aLiDoI", v = 70 },
+]
+posts = [[0, 41.30679, 1.19388], [1, 41.29867, 1.19358], [2, 41.29102, 1.18791], [3, 41.2825, 1.18451], [4, 41.27374, 1.18323], [5, 41.26694, 1.17564], [6, 41.25809, 1.17347], [7, 41.24917, 1.1721], [8, 41.24113, 1.16689], [9, 41.23266, 1.1629], [10, 41.2249, 1.15732], [11, 41.21914, 1.14837], [12, 41.21082, 1.14386], [13, 41.20216, 1.14066], [14, 41.19349, 1.13746], [15, 41.185, 1.13356], [16, 41.17707, 1.12795], [17, 41.17061, 1.11987], [18, 41.16751, 1.10867], [19, 41.16787, 1.09685], [20, 41.16194, 1.0901]]
+
+[[connections]]
+km = 0.097
+station = "la Plana - Picamoixons"
+lines = [
+  { id = "220", ref = "220", name = "Línia Barcelona-Manresa-Lleida", km = 184.642 },
+]
+
+[[connections]]
+km = 20.93
+station = "Reus"
+lines = [
+  { id = "210", ref = "210", name = "FFCC Barcelona-Saragossa via Caspe", km = 233.141 },
+]

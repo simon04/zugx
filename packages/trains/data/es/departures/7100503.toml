@@ -1,0 +1,14 @@
+id = "7100503"
+name = "Caudete (APT.-CGD.)"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFw4dMA==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgQIA==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwYNEA=="]
+deps = [
+  [1069,"REG","18083","7100100",["7100400","7100135","7100440","7100490","7100474","7160402","7100050","7100145"],0,""],
+  [1180,"REG","18181","7100051",["7100491","7100201","7160914"],1,""],
+  [1180,"REG","18181","7100051",["7100491","7100201","7160913"],2,""],
+]
+
+names = { 7100050 = "Alcázar de San Juan", 7100051 = "Alacant-Terminal", 7100100 = "Ciudad Real", 7100135 = "Albacete", 7100145 = "Manzanares", 7100201 = "Elda-Petrier", 7100400 = "Almansa", 7100440 = "La Roda de Albacete", 7100474 = "Socuéllamos", 7100490 = "Villarrobledo", 7100491 = "Villena", 7160402 = "Criptana", 7160913 = "San Vicent Centre Apdro", 7160914 = "Alicante Universidad" }

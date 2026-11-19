@@ -1,0 +1,313 @@
+id = "040"
+ref = "040"
+name = "Línea de Alta Velocidad Madrid - Cuenca - Valencia"
+operator = "Adif"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 396.981
+length = 396.981
+speeds = [[0, 1.19, 50, 50], [1.19, 2.175, 70, 70], [2.175, 5.253, 100, 100], [5.253, 6.141, 70, 70], [6.141, 6.833, 45, 45], [6.833, 7.942, 30, 30], [7.942, 8.071, "", ""], [8.071, 9.124, 70, 70], [9.124, 11.617, 90, 90], [11.617, 12.726, 120, 120], [12.726, 13.702, 155, 155], [13.702, 38.748, 200, 200], [38.748, 49.686, 285, 285], [49.686, 57.08, 300, 300], [57.08, 63.509, 285, 285], [63.509, 289.989, 300, 300], [289.989, 293.369, 270, 270], [293.369, 295.55, 245, 245], [295.55, 385.943, 300, 300], [385.943, 390.614, 180, 180], [390.614, 392.068, 120, 120], [392.068, 393.939, 80, 80], [393.939, 396.116, 60, 60], [396.116, 396.981, 40, 40]]
+curves = [[0.25, 0.525, 550], [0.675, 1, 850], [1.25, 1.35, 1850], [1.625, 1.775, 1430], [2.375, 2.525, 1650], [4.175, 4.225, 2380], [5.025, 5.075, 2410], [5.675, 5.825, 1580], [6.175, 7.05, 290], [7.6, 7.8, 530], [7.925, 8.125, 560], [8.175, 9.1, 890], [9.225, 9.875, 690], [10.2, 10.475, 990], [10.525, 11.2, 610], [11.35, 11.6, 980], [12.075, 12.375, 2490], [12.7, 12.75, 2890], [13.575, 13.7, 2670], [13.775, 14.05, 2440], [14.15, 14.25, 2330], [17.05, 17.175, 1520], [17.3, 17.425, 1610], [17.575, 18, 2080], [18.05, 18.775, 2320], [18.825, 19.275, 2140], [20.025, 20.1, 2390], [20.325, 20.375, 2070], [22.625, 22.725, 1540], [22.95, 23.075, 1890], [23.25, 23.325, 1990], [23.525, 23.6, 2160], [24.2, 24.275, 1900], [24.525, 24.625, 1410], [24.9, 25.075, 1890], [25.3, 25.425, 1260], [25.65, 25.7, 2060], [25.825, 25.9, 1890], [26.5, 26.55, 2580], [26.675, 26.775, 1700], [27.2, 27.3, 1650], [27.825, 27.9, 2050], [28.175, 28.25, 1990], [28.4, 28.5, 1970], [28.775, 28.975, 1910], [29.4, 29.5, 1460], [29.775, 29.875, 1660], [30.075, 30.125, 2120], [35.975, 36.425, 2630], [36.525, 36.875, 2660], [36.975, 37.325, 2420], [37.5, 37.625, 2390], [37.675, 37.8, 2840], [37.875, 37.975, 2250], [47.65, 47.7, 2320], [47.925, 47.975, 2710], [48.075, 48.125, 2470], [48.6, 48.65, 2290], [48.95, 49, 2620], [49.4, 49.45, 2250], [54.525, 54.6, 2060], [54.85, 54.925, 2060], [57.325, 57.4, 2630], [58.15, 58.225, 2310], [58.725, 58.775, 2550], [59.1, 59.15, 2600], [60.475, 60.525, 2640], [60.7, 60.75, 2780], [61.075, 61.125, 2070], [61.35, 61.425, 2130], [61.625, 61.7, 2100], [61.9, 61.975, 2060], [62.175, 62.25, 2030], [62.45, 62.525, 2000], [62.7, 62.775, 2020], [62.975, 63.075, 1770], [64.95, 65.025, 2580], [69.775, 69.825, 2310], [72.325, 72.45, 1370], [73.175, 73.225, 2460], [73.55, 73.625, 2100], [73.9, 73.95, 2050], [74.225, 74.275, 2140], [115.825, 115.875, 2180], [121.8, 121.85, 2020], [123.65, 123.75, 1790], [130.025, 130.1, 1910], [130.825, 130.875, 2480], [133.775, 133.825, 2230], [139.825, 139.875, 2030], [158.05, 158.1, 2180], [158.45, 158.525, 2510], [158.875, 158.925, 2120], [159.275, 159.325, 2380], [174.7, 174.8, 1920], [180.975, 181.025, 2220], [181.275, 181.325, 2240], [181.6, 181.65, 2450], [181.925, 181.975, 2310], [182.225, 182.275, 2150], [182.55, 182.6, 2340], [190.825, 190.925, 1590], [191.9, 192.125, 1290], [205.3, 205.35, 2570], [210.225, 210.425, 2040], [211.925, 212, 2700], [216.825, 216.925, 1750], [217.35, 217.45, 1770], [228.65, 228.7, 2800], [290.625, 290.7, 2100], [291, 291.05, 2300], [291.2, 291.25, 2340], [291.425, 291.475, 2570], [291.65, 291.7, 2320], [291.85, 291.9, 2320], [292.3, 292.375, 2070], [292.55, 292.625, 2070], [293.025, 293.15, 2480], [293.825, 293.9, 2550], [294.05, 294.15, 1620], [294.4, 294.475, 2910], [295.175, 295.325, 2080], [300.25, 300.375, 1120], [300.55, 300.675, 930], [300.825, 300.95, 1000], [301.25, 301.35, 1740], [301.65, 301.75, 1700], [318.875, 318.925, 2170], [346.55, 346.625, 2810], [347.95, 348, 2110], [351.625, 351.7, 2420], [352.15, 352.225, 2480], [352.675, 352.75, 2380], [353.2, 353.275, 2280], [353.725, 353.8, 2190], [354.275, 354.325, 2070], [354.8, 354.875, 2150], [355.325, 355.4, 2240], [390.475, 390.575, 2960], [391.275, 391.675, 2710], [391.975, 392.075, 2010], [392.725, 393.025, 2320], [393.475, 393.975, 1060], [394.125, 395.3, 620], [395.425, 395.8, 560], [395.975, 396.125, 560], [396.175, 396.525, 410], [396.575, 396.8, 630]]
+points = [
+  { km = 0.069, kind = "station", label = "Duque de Pastrana", pos = [40.46748, -3.68059] },
+  { km = 2.662, kind = "station", label = "República Argentina", pos = [40.44432, -3.68464] },
+  { km = 4.77, kind = "station", label = "Serrano", pos = [40.42539, -3.6869] },
+  { km = 5.316, kind = "station", label = "Retiro", pos = [40.42046, -3.68643] },
+  { km = 6.732, kind = "station", label = "Estación del Arte", pos = [40.40884, -3.69147] },
+  { km = 7.143, kind = "station", label = "Atocha", pos = [40.40697, -3.6886] },
+  { km = 7.176, kind = "station", label = "Madrid-Puerta de Atocha-Almudena Grandes", uic = "7160000", pos = [40.40568, -3.69002] },
+  { km = 7.22, kind = "station", label = "Atocha-Cercanías", pos = [40.40597, -3.68877] },
+  { km = 9.951, kind = "station", label = "Estación de Mercancías Madrid - Abroñigal", pos = [40.38893, -3.67772] },
+  { km = 151.499, kind = "station", label = "Cuenca-Fernando Zóbel", uic = "7103208", pos = [40.03396, -2.14369], measured = true },
+  { km = 327.428, kind = "station", label = "Requena - Utiel", uic = "7103213", pos = [39.52175, -1.13473] },
+  { km = 339.295, kind = "halt", label = "El Rebollar", pos = [39.47736, -1.0117] },
+  { km = 348.962, kind = "halt", label = "Siete Aguas", pos = [39.45739, -0.90201] },
+  { km = 396.956, kind = "station", label = "València Joaquín Sorolla", pos = [39.46005, -0.38121], uic = "7103216" },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0, kmTo = 7.767, length = 7767 },
+  { kind = "bridge", kmFrom = 7.942, kmTo = 8.071, length = 129 },
+  { kind = "bridge", kmFrom = 9.124, kmTo = 9.203, length = 80 },
+  { kind = "bridge", kmFrom = 11.181, kmTo = 11.336, length = 156 },
+  { kind = "bridge", kmFrom = 12.145, kmTo = 12.726, length = 582 },
+  { kind = "bridge", kmFrom = 13.019, kmTo = 13.702, length = 683 },
+  { kind = "bridge", kmFrom = 17.622, kmTo = 17.704, length = 82 },
+  { kind = "tunnel", kmFrom = 17.981, kmTo = 18.388, length = 407 },
+  { kind = "bridge", kmFrom = 23.717, kmTo = 23.833, length = 117 },
+  { kind = "bridge", kmFrom = 24.936, kmTo = 25.041, length = 104 },
+  { kind = "bridge", kmFrom = 36.995, kmTo = 37.337, length = 342 },
+  { kind = "tunnel", kmFrom = 40.487, kmTo = 41.219, length = 731 },
+  { kind = "tunnel", kmFrom = 44.452, kmTo = 44.639, length = 188 },
+  { kind = "tunnel", kmFrom = 54.231, kmTo = 55.218, length = 987 },
+  { kind = "bridge", kmFrom = 55.381, kmTo = 56.45, length = 1069, name = "viaducto del Tajo" },
+  { kind = "bridge", kmFrom = 58.181, kmTo = 58.208, length = 27 },
+  { kind = "bridge", kmFrom = 58.518, kmTo = 58.692, length = 174 },
+  { kind = "bridge", kmFrom = 60.57, kmTo = 60.836, length = 266 },
+  { kind = "tunnel", kmFrom = 60.912, kmTo = 63.374, length = 2462 },
+  { kind = "tunnel", kmFrom = 69.817, kmTo = 70.221, length = 404 },
+  { kind = "bridge", kmFrom = 71.08, kmTo = 71.265, length = 184 },
+  { kind = "tunnel", kmFrom = 71.767, kmTo = 72.561, length = 794 },
+  { kind = "bridge", kmFrom = 74.803, kmTo = 74.995, length = 192 },
+  { kind = "bridge", kmFrom = 87.842, kmTo = 88.185, length = 342 },
+  { kind = "tunnel", kmFrom = 96.677, kmTo = 96.976, length = 299 },
+  { kind = "bridge", kmFrom = 119.031, kmTo = 119.153, length = 122 },
+  { kind = "bridge", kmFrom = 119.471, kmTo = 119.482, length = 11 },
+  { kind = "tunnel", kmFrom = 130.069, kmTo = 130.857, length = 788, name = "Túnel Sierra del Altomira" },
+  { kind = "bridge", kmFrom = 140.233, kmTo = 140.405, length = 172 },
+  { kind = "bridge", kmFrom = 141.383, kmTo = 141.513, length = 130 },
+  { kind = "bridge", kmFrom = 143.114, kmTo = 143.125, length = 11 },
+  { kind = "bridge", kmFrom = 146.564, kmTo = 146.656, length = 92 },
+  { kind = "bridge", kmFrom = 149.189, kmTo = 149.254, length = 65 },
+  { kind = "bridge", kmFrom = 155.433, kmTo = 156.914, length = 1481, name = "Viaducto sobre la N-400-Río Cigüela" },
+  { kind = "tunnel", kmFrom = 157.665, kmTo = 161.606, length = 3941, name = "Túnel de Horcajada" },
+  { kind = "bridge", kmFrom = 161.874, kmTo = 161.925, length = 51 },
+  { kind = "bridge", kmFrom = 162.741, kmTo = 162.885, length = 143 },
+  { kind = "bridge", kmFrom = 163.896, kmTo = 164.171, length = 275 },
+  { kind = "bridge", kmFrom = 169.112, kmTo = 170.172, length = 1060 },
+  { kind = "tunnel", kmFrom = 170.958, kmTo = 171.136, length = 179 },
+  { kind = "bridge", kmFrom = 171.151, kmTo = 171.352, length = 201 },
+  { kind = "tunnel", kmFrom = 171.406, kmTo = 171.694, length = 288 },
+  { kind = "bridge", kmFrom = 171.948, kmTo = 172.051, length = 103 },
+  { kind = "bridge", kmFrom = 172.128, kmTo = 172.797, length = 668 },
+  { kind = "tunnel", kmFrom = 173.908, kmTo = 174.192, length = 284 },
+  { kind = "tunnel", kmFrom = 174.753, kmTo = 176.67, length = 1917, name = "Túnel de Cabrejas" },
+  { kind = "bridge", kmFrom = 178.804, kmTo = 179.263, length = 460 },
+  { kind = "bridge", kmFrom = 180.175, kmTo = 180.25, length = 74 },
+  { kind = "tunnel", kmFrom = 180.673, kmTo = 182.898, length = 2225, name = "Túnel de La Loma del Carrascal" },
+  { kind = "bridge", kmFrom = 184.328, kmTo = 184.834, length = 505, name = "Viaducto sobre el arroyo de la Vega" },
+  { kind = "bridge", kmFrom = 187.721, kmTo = 188.038, length = 317, name = "Viaducto sobre la carretera de acceso a Colliguilla" },
+  { kind = "bridge", kmFrom = 189.384, kmTo = 189.966, length = 582, name = "Viaducto sobre el río Júcar" },
+  { kind = "tunnel", kmFrom = 190.838, kmTo = 193.956, length = 3117, name = "Túnel del Bosque" },
+  { kind = "bridge", kmFrom = 198.72, kmTo = 198.923, length = 203 },
+  { kind = "tunnel", kmFrom = 205.503, kmTo = 205.859, length = 356, name = "Túnel artificial de la Atalaya" },
+  { kind = "bridge", kmFrom = 210.148, kmTo = 210.483, length = 335, name = "Viaducto sobre el arroyo de la Motilla" },
+  { kind = "tunnel", kmFrom = 210.545, kmTo = 211.932, length = 1387, name = "Túnel de El Cubillo" },
+  { kind = "bridge", kmFrom = 215.523, kmTo = 216.141, length = 618 },
+  { kind = "tunnel", kmFrom = 216.376, kmTo = 217.898, length = 1522 },
+  { kind = "tunnel", kmFrom = 227.907, kmTo = 229.01, length = 1103 },
+  { kind = "bridge", kmFrom = 234.185, kmTo = 234.837, length = 652 },
+  { kind = "bridge", kmFrom = 235.984, kmTo = 235.997, length = 13 },
+  { kind = "bridge", kmFrom = 246.833, kmTo = 247.154, length = 321 },
+  { kind = "bridge", kmFrom = 257.261, kmTo = 257.43, length = 169 },
+  { kind = "bridge", kmFrom = 258.237, kmTo = 258.408, length = 171 },
+  { kind = "bridge", kmFrom = 259.052, kmTo = 259.189, length = 137 },
+  { kind = "bridge", kmFrom = 263.382, kmTo = 263.589, length = 207 },
+  { kind = "bridge", kmFrom = 270.041, kmTo = 270.539, length = 498 },
+  { kind = "bridge", kmFrom = 274.662, kmTo = 274.8, length = 138 },
+  { kind = "bridge", kmFrom = 277.257, kmTo = 277.54, length = 282 },
+  { kind = "bridge", kmFrom = 281.268, kmTo = 281.368, length = 100 },
+  { kind = "bridge", kmFrom = 281.454, kmTo = 281.669, length = 215 },
+  { kind = "bridge", kmFrom = 283.786, kmTo = 284.013, length = 227 },
+  { kind = "bridge", kmFrom = 284.243, kmTo = 284.378, length = 135 },
+  { kind = "bridge", kmFrom = 284.936, kmTo = 285.927, length = 991, name = "Viaducto sobre el arroyo de las Huertas de Mateo" },
+  { kind = "tunnel", kmFrom = 286.226, kmTo = 286.767, length = 541, name = "Túnel de Minglanilla" },
+  { kind = "bridge", kmFrom = 287.184, kmTo = 287.597, length = 413, name = "Viaducto sobre el barranco de la Peinera" },
+  { kind = "tunnel", kmFrom = 289.738, kmTo = 290.49, length = 752, name = "Túnel bajo la Autovía del Levante A-3" },
+  { kind = "tunnel", kmFrom = 290.799, kmTo = 292.825, length = 2026, name = "Túnel de la Hoya de Roda" },
+  { kind = "bridge", kmFrom = 292.89, kmTo = 293.13, length = 240, name = "viaducto de la Cuesta Negra" },
+  { kind = "bridge", kmFrom = 293.25, kmTo = 293.847, length = 598, name = "Viaducto del Embalse de Contreras" },
+  { kind = "tunnel", kmFrom = 293.893, kmTo = 294.311, length = 418, name = "túnel del Rabo de la Sartén" },
+  { kind = "bridge", kmFrom = 294.405, kmTo = 295.252, length = 847, name = "Viaducto del Istmo" },
+  { kind = "tunnel", kmFrom = 295.296, kmTo = 296.822, length = 1526, name = "Túnel de Umbría de los Molinos" },
+  { kind = "tunnel", kmFrom = 299.146, kmTo = 302.299, length = 3152, name = "túnel de Villargordo del Cabriel" },
+  { kind = "bridge", kmFrom = 303.085, kmTo = 303.113, length = 28 },
+  { kind = "bridge", kmFrom = 303.98, kmTo = 304.01, length = 31 },
+  { kind = "tunnel", kmFrom = 304.764, kmTo = 304.958, length = 195 },
+  { kind = "bridge", kmFrom = 306.244, kmTo = 306.278, length = 34 },
+  { kind = "bridge", kmFrom = 311.609, kmTo = 311.624, length = 15 },
+  { kind = "bridge", kmFrom = 312.437, kmTo = 312.582, length = 145 },
+  { kind = "bridge", kmFrom = 313.511, kmTo = 313.533, length = 22 },
+  { kind = "bridge", kmFrom = 314.719, kmTo = 314.822, length = 104 },
+  { kind = "bridge", kmFrom = 321.917, kmTo = 323.104, length = 1187 },
+  { kind = "bridge", kmFrom = 324.834, kmTo = 324.855, length = 22 },
+  { kind = "bridge", kmFrom = 325.205, kmTo = 325.265, length = 60 },
+  { kind = "bridge", kmFrom = 325.779, kmTo = 325.904, length = 124 },
+  { kind = "bridge", kmFrom = 326.281, kmTo = 326.296, length = 15 },
+  { kind = "bridge", kmFrom = 326.571, kmTo = 326.665, length = 94 },
+  { kind = "bridge", kmFrom = 330.494, kmTo = 330.591, length = 97 },
+  { kind = "tunnel", kmFrom = 343.539, kmTo = 343.769, length = 230 },
+  { kind = "bridge", kmFrom = 343.833, kmTo = 343.923, length = 90 },
+  { kind = "bridge", kmFrom = 346.114, kmTo = 346.141, length = 28 },
+  { kind = "tunnel", kmFrom = 346.586, kmTo = 347.968, length = 1383 },
+  { kind = "bridge", kmFrom = 348.26, kmTo = 348.51, length = 250 },
+  { kind = "bridge", kmFrom = 349.993, kmTo = 350.226, length = 233 },
+  { kind = "tunnel", kmFrom = 350.342, kmTo = 350.759, length = 417 },
+  { kind = "tunnel", kmFrom = 351.133, kmTo = 358.361, length = 7229 },
+  { kind = "bridge", kmFrom = 358.549, kmTo = 358.607, length = 58 },
+  { kind = "tunnel", kmFrom = 358.625, kmTo = 360.547, length = 1922 },
+  { kind = "bridge", kmFrom = 362.805, kmTo = 363.78, length = 976 },
+  { kind = "bridge", kmFrom = 364.36, kmTo = 364.387, length = 27 },
+  { kind = "tunnel", kmFrom = 365.11, kmTo = 365.762, length = 652 },
+  { kind = "bridge", kmFrom = 367.389, kmTo = 367.552, length = 163 },
+  { kind = "bridge", kmFrom = 371.651, kmTo = 372.098, length = 447 },
+  { kind = "bridge", kmFrom = 376.664, kmTo = 376.723, length = 59 },
+  { kind = "bridge", kmFrom = 378.471, kmTo = 378.522, length = 51 },
+  { kind = "bridge", kmFrom = 379.172, kmTo = 379.655, length = 483 },
+  { kind = "bridge", kmFrom = 379.992, kmTo = 380.254, length = 262 },
+  { kind = "bridge", kmFrom = 383.462, kmTo = 383.564, length = 102 },
+  { kind = "bridge", kmFrom = 384.461, kmTo = 384.808, length = 346 },
+  { kind = "bridge", kmFrom = 385.103, kmTo = 385.943, length = 839 },
+  { kind = "tunnel", kmFrom = 385.943, kmTo = 388.95, length = 3008 },
+  { kind = "bridge", kmFrom = 391.115, kmTo = 391.133, length = 18 },
+  { kind = "bridge", kmFrom = 391.552, kmTo = 391.676, length = 124 },
+  { kind = "bridge", kmFrom = 392.068, kmTo = 392.23, length = 162 },
+  { kind = "bridge", kmFrom = 393.002, kmTo = 393.571, length = 569 },
+  { kind = "tunnel", kmFrom = 394.264, kmTo = 395.459, length = 1195 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "o{~uFvinUtScAfCf@~S|ItCNjMu@", tunnel = true, v = 50 },
+  { line = "oz|uFrrnU|\\[dXpC", tunnel = true, v = 70 },
+  { line = "kc{uFhvnUnR`C~|A`Gny@vH", tunnel = true, v = 100 },
+  { line = "kwuuFdloUh\\dBnS]", tunnel = true, v = 70 },
+  { line = "qetuFlnoUhHRlCtCrB~FlBtCpDjBnDF", tunnel = true, v = 45 },
+  { line = "uesuF`dpUbCg@vBwAd\\c_@lBeE", tunnel = true, v = 30 },
+  { line = "e}quFvynUjCqJ", v = 30 },
+  { line = "yxquFdnnUfAaH" },
+  { line = "qvquFbenUjAwQdDqIrLwMjDwBpIuC", v = 70 },
+  { line = "mqpuFrplU~G}AdF[`Ht@tFzBbXrWtMhUrH|EhEt@|F?rNuBdIiD", v = 90 },
+  { line = "_wluF|`nU`ZyNzImCxScE", v = 120 },
+  { line = "g|juFpfmUvs@oR", v = 155 },
+  { line = "ogiuF`slUtOwHjMmJzcBcaBfYeU|KqFpLwDzRkC", v = 200 },
+  { line = "}zbuFzsgUzUH", tunnel = true, v = 200 },
+  { line = "adbuFdtgUzKxArJbC~RbJbKjHxNnMlUpXlkAnjB`KxPjIzQzGhSfEnPxKtm@`GrUtI~UzM`X`T|Wnd@xd@tSf[fUvb@pUr\\zU`UfXvPrR`Iz^xIbrCld@la@`CblC~GpOy@tN_CpOwExNmH|JcHvKeKd`@qg@", v = 200 },
+  { line = "{getFvzxUveAiwA", v = 285 },
+  { line = "cactFlbvUz\\}c@", tunnel = true, v = 285 },
+  { line = "gcbtFn}tUzvB}sChKcM", v = 285 },
+  { line = "a_~sFlzoUjGoG", tunnel = true, v = 285 },
+  { line = "uv}sF|qoUbRaPzTyNfnAol@xN_GpQgFpU}Df]aBb[z@p]~E", v = 285 },
+  { line = "qlusFdtlUjg@dHbNr@|VFvXmAzzB_OvWuC", v = 300 },
+  { line = "wnmsFbhlUdQuCxPoEjPeG", tunnel = true, v = 300 },
+  { line = "kyksFvtkUl\\yOp~@ql@", v = 300 },
+  { line = "k|hsFjviUjRgOfSuTdNaSrMsVlJsUjKo^zOi|@lH_[", v = 285 },
+  { line = "ydesFhubUbLu\\zGmOdSi]`VqYnKuJ|OkL", tunnel = true, v = 285 },
+  { line = "cfbsFfu~ThEiD", v = 285 },
+  { line = "y_bsF|o~TlY{VxWe[bU}]dLaUdHsPzLc^nJy_@rXa~AvIoa@lK{^jOaa@", v = 300 },
+  { line = "oe|rFxqrTvLsV", tunnel = true, v = 300 },
+  { line = "ww{rFdzqTbLcSpl@m~@", v = 300 },
+  { line = "a}yrFrfoTzTqa@lDiJ", tunnel = true, v = 300 },
+  { line = "wayrFvxmTrKoZnMmf@pEuUrFgb@fCcZhB}c@Pee@o@o[gEmo@qQwrAmEal@aA{ZSiVb@}u@Gu_@iAoc@iCab@uGml@ytAa{JgDyZ{BqZwAc^c@wW?}\\v@ca@lAwV~Cw`@|De\\bEkW~UciArFa\\vFkd@bDu`@fCml@f@{m@w@yi@wDks@", v = 300 },
+  { line = "gfzrFzcxRoBmT", tunnel = true, v = 300 },
+  { line = "wizrFlnwRiGse@iIed@yJsa@q\\ykAiLal@uFw`@aLelAwGsg@mGq]mg@yaC{Jal@wHyt@_C_d@sC}`Ac@cj@PcY~@{]nCce@bFog@vFu_@xGi]tUwbAfJoh@zGyk@`Def@rAih@@ao@cAqa@iDcj@{E{c@}Fg_@_z@itE_Mwi@oGqT}Pkf@yRac@qj@khAuK_YeSeq@iMkm@{EuZ_DmXyBuV{Be_@{Amn@Mez@u@yg@uBuc@{Cs_@", v = 300 },
+  { line = "{xesFlyoPiKqv@", tunnel = true, v = 300 },
+  { line = "eefsFzanPih@_|CwJko@oCsUkIqgAqe@}lHqBqf@c@g[Zcq@pBqj@~d@miG`Don@pEivBvHetA|Ame@Lop@kBmt@eG{v@iGwd@{Gi_@qYawAmH{ZiJw[m`@kfAmQal@eOar@eHef@", v = 300 },
+  { line = "ojlsFvtrNmDg\\aCs\\uA{\\k@a]c@uoAyC_wA", tunnel = true, v = 300 },
+  { line = "_~lsFfuiNuFshA_d@afG_Cud@_A}_@Amx@dC_w@rDcg@lIa{@nGsw@", v = 300 },
+  { line = "_tmsFtotMv@}K", tunnel = true, v = 300 },
+  { line = "grmsFvbtMlAqR", v = 300 },
+  { line = "yomsFdosMhA}S", tunnel = true, v = 300 },
+  { line = "ommsFfzrMnEmcAnBaZnDw]tF_`@", v = 300 },
+  { line = "ivlsF~zmMrDoR", tunnel = true, v = 300 },
+  { line = "uplsFngmMzKud@", v = 300 },
+  { line = "yclsFxalMdPeh@rFeT`FqT`Kek@", tunnel = true, v = 300 },
+  { line = "{wjsFtahM~Ema@dD{a@tBai@\\gZEu_@{A}h@kDch@sEmb@", v = 300 },
+  { line = "cvjsFz__MyIok@wEsTaOsh@mRcf@", tunnel = true, v = 300 },
+  { line = "eklsF~lzLuc@aeAuJmYoLcc@}H__@qHwe@qEgb@gCa_@wAy]m@_b@P{f@x@e[~A}ZpEwh@nGie@dIac@", v = 300 },
+  { line = "}lnsFjhiL`[egAxBuFzk@ijAvTs_@", tunnel = true, v = 300 },
+  { line = "mjksFplcLf|AybCjTa`@zUmi@bb@klAzRkg@pQm^jUo_@lW}\\bWiXt_Ce~BvMuLhToP", v = 300 },
+  { line = "uk}rF|qpKjP_L", tunnel = true, v = 300 },
+  { line = "iz|rF|dpKha@{T~tAgm@fW_I~|@{T|ZuKvJ_F", v = 300 },
+  { line = "adurFfmlK`eAok@", tunnel = true, v = 300 },
+  { line = "_~rrFv`kK`\\cNfUuH~]qIvb@qGl^kC|]q@xWRbf@rB", v = 300 },
+  { line = "sikrFbsiKn[`An[a@h[iC", tunnel = true, v = 300 },
+  { line = "ithrFxoiKv]mEfYwFpc@oMnZ}Lh~HyrDve@cX`f@q]", v = 300 },
+  { line = "cnxqFty`KzPqN|^k_@", tunnel = true, v = 300 },
+  { line = "i|vqFvi_KhrAu|Al[gZdd@s\\~a@oUjd@yQrTuGrVyFvi@wHff@eCd]Gdd@jBb]tDzYlFtZzHt~@n[~^|Ibc@xG~qDhd@tf@jJjr@zPlc@|Hn_@bDxSr@nyBxBz\\eA|OoAfTeC`\\aG~UgGpRoGtd@_S|d@yXtTsPnP_Oz_@qb@lJcMvRoZbUcc@|KsWvJcXpIaYnJu_@`Hi^jGac@lDw]jDsl@jAcn@[{j@cDivAb@ot@dAeZr]g}GnB_^zDee@lRixAzGcv@dCqk@rEa}BvDaq@xGyn@x]q|BtEsf@hCmf@|@gd@?{]o@e_@eBea@}Fop@qQkqAkFij@aBiXyA{a@oAg{AwAmg@cEqi@gJqo@", v = 300 },
+  { line = "y{dpFnluHeJsc@", tunnel = true, v = 300 },
+  { line = "_gepFzgtHu}@sgE", v = 300 },
+  { line = "uegpFf_nH{CeP", tunnel = true, v = 300 },
+  { line = "qjgpF`nmHqJi`@", tunnel = true, v = 270 },
+  { line = "cvgpFvllHkGuR", v = 270 },
+  { line = "o~gpF`ykHsLeYsNgWuZs`@kQ{X", tunnel = true, v = 270 },
+  { line = "yijpFbkhHyIgPoFoM", v = 270 },
+  { line = "c|jpFjkgHeMk`@", v = 245 },
+  { line = "ijkpF~ifHoGk[", tunnel = true, v = 245 },
+  { line = "yrkpFrmeHoE}`@yAsc@", v = 245 },
+  { line = "c|kpF`gcHLqQ", tunnel = true, v = 245 },
+  { line = "u{kpFntbHrAov@~A{c@", tunnel = true, v = 300 },
+  { line = "avkpFbx_HpCca@~D}\\`EqVtMmn@bFgY", v = 300 },
+  { line = "sojpFxvzGjTcpAjAqSSySyCu[}Aa\\w@uj@", tunnel = true, v = 300 },
+  { line = "_bjpFzvsGm@w`@Du\\jDmlAh@ke@", v = 300 },
+  { line = "q|ipFrcnGCeM", tunnel = true, v = 300 },
+  { line = "u|ipFlumGg@i]gBqb@}O_zByCgi@}@y`@wGavFiAeb@{Cqf@kJ_eAsBe[iR}jEi@{t@r@ih@|@qXbGqw@hGyf@pL{o@pl@_~Bb|@asCxhBytFjQwp@zKwl@rGmi@fDcc@pFgpAdGmt@dLaw@jPau@zKc_@|Nka@plBkhElPwa@vLe_@bL{c@`J}e@hGee@", v = 300 },
+  { line = "{p{oF~e~DBU", tunnel = true, v = 300 },
+  { line = "wp{oFhe~DpD_b@rE_w@", v = 300 },
+  { line = "qd{oFhj{DhAoO", tunnel = true, v = 300 },
+  { line = "gb{oFxyzD|b@ufE", v = 300 },
+  { line = "i~yoFbrtDfD{p@zAeq@", tunnel = true, v = 300 },
+  { line = "evyoF`nqDMi]o@iYyHkrB", v = 300 },
+  { line = "}azoF`blDcBa]", tunnel = true, v = 300 },
+  { line = "aezoF~ckDqByY", v = 300 },
+  { line = "shzoFdijDwC}d@{Age@]ke@\\me@xAge@vC}d@pEmd@jG{c@~w@amE", tunnel = true, v = 300 },
+  { line = "w`xoFrkzCzBoQ", v = 300 },
+  { line = "{|woFbyyCdHwy@bCqf@nA{f@", tunnel = true, v = 300 },
+  { line = "amwoF|nuCHyk@}@wk@iCmk@_HqfAeC{Z}Du]qHwc@{FgW", v = 300 },
+  { line = "qwxoFxikCsOgi@", tunnel = true, v = 300 },
+  { line = "ehyoFp_jCwKqY{[iv@wQkk@aHsYsGg]oIkr@eEmr@iCa|@kIgzFGeh@l@sd@hBug@dC_^rFse@zFe]nOoo@v\\idAfLoc@ju@udDl\\keBjG_c@hDc]`Dso@d@oe@", v = 300 },
+  { line = "ezvoFjn~A_A}g@kDog@mDmYaNg}@yEgj@", tunnel = true, v = 180 },
+  { line = "{|woF~xwAmBwb@g@g`@TuVhBwZ", v = 180 },
+  { line = "q}woFp`tA`Ley@rCuk@", v = 120 },
+  { line = "{kwoFtypAvHsy@xAks@jAmJzBuI", v = 80 },
+  { line = "ayvoFptlAzGsS", v = 60 },
+  { line = "epvoF|_lAtA_IXmIc@mI}BcKyC{GuCeDqDiBkJgC", tunnel = true, v = 60 },
+  { line = "elwoFh_jAiDi@oHPyO_E_CqA", v = 60 },
+  { line = "yoxoF~uiAgDyCyGeBuO`B{NoB", v = 40 },
+]
+posts = [[0, 40.46792, -3.683], [1, 40.45922, -3.68463], [2, 40.45026, -3.68467], [3, 40.44134, -3.68601], [4, 40.43236, -3.68677], [5, 40.42344, -3.68821], [6, 40.41448, -3.68892], [7, 40.40675, -3.69158], [8, 40.40073, -3.68307], [9, 40.39569, -3.67429], [10, 40.38735, -3.67599], [11, 40.38042, -3.68303], [12, 40.37192, -3.67967], [13, 40.36327, -3.67654], [14, 40.35475, -3.67283], [15, 40.34736, -3.66613], [16, 40.34017, -3.65905], [17, 40.33279, -3.65232], [18, 40.3243, -3.64876], [19, 40.3155, -3.65061], [20, 40.30792, -3.65689], [21, 40.30159, -3.66525], [22, 40.29548, -3.6739], [23, 40.28971, -3.68292], [24, 40.28605, -3.69365], [25, 40.28201, -3.70413], [26, 40.27566, -3.71239], [27, 40.26879, -3.71997], [28, 40.26294, -3.7289], [29, 40.25604, -3.73639], [30, 40.24782, -3.74109], [31, 40.23903, -3.74352], [32, 40.23019, -3.74571], [33, 40.22138, -3.74809], [34, 40.21243, -3.74903], [35, 40.20344, -3.74955], [36, 40.19447, -3.75029], [37, 40.18561, -3.74874], [38, 40.17784, -3.74295], [39, 40.17129, -3.73488], [40, 40.16478, -3.72677], [41, 40.15827, -3.71865], [42, 40.15175, -3.71055], [43, 40.14523, -3.70244], [44, 40.1387, -3.69435], [45, 40.13169, -3.68702], [46, 40.12366, -3.68175], [47, 40.11541, -3.67706], [48, 40.10682, -3.67369], [49, 40.09786, -3.67316], [50, 40.08901, -3.67518], [51, 40.08007, -3.67623], [52, 40.0711, -3.67532], [53, 40.06215, -3.67416], [54, 40.05321, -3.67294], [55, 40.04447, -3.67027], [56, 40.03624, -3.66557], [57, 40.02837, -3.65988], [58, 40.02112, -3.653], [59, 40.0154, -3.64397], [60, 40.01156, -3.63339], [61, 40.00824, -3.6225], [62, 40.00309, -3.61291], [63, 39.99633, -3.60521], [64, 39.9888, -3.59881], [65, 39.98215, -3.59094], [66, 39.97673, -3.5816], [67, 39.97273, -3.5711], [68, 39.96977, -3.56003], [69, 39.96639, -3.54916], [70, 39.96164, -3.53922], [71, 39.95576, -3.53036], [72, 39.94972, -3.52167], [73, 39.94465, -3.51202], [74, 39.94109, -3.50127], [75, 39.93913, -3.48984], [76, 39.93885, -3.47813], [77, 39.94025, -3.46656], [78, 39.9428, -3.45531], [79, 39.94428, -3.44376], [80, 39.94431, -3.43204], [81, 39.94458, -3.42032], [82, 39.94621, -3.4088], [83, 39.94872, -3.39754], [84, 39.95127, -3.38629], [85, 39.95382, -3.37504], [86, 39.95635, -3.36378], [87, 39.9589, -3.35253], [88, 39.96128, -3.34122], [89, 39.9625, -3.3296], [90, 39.96231, -3.31788], [91, 39.96074, -3.30634], [92, 39.95785, -3.29525], [93, 39.95456, -3.28433], [94, 39.95237, -3.27296], [95, 39.95138, -3.26131], [96, 39.95164, -3.2496], [97, 39.95314, -3.23804], [98, 39.95586, -3.22686], [99, 39.95969, -3.21626], [100, 39.96353, -3.20566], [101, 39.96627, -3.19449], [102, 39.9682, -3.18303], [103, 39.97092, -3.17186], [104, 39.97429, -3.16098], [105, 39.97763, -3.15008], [106, 39.98023, -3.13886], [107, 39.98162, -3.12727], [108, 39.98233, -3.11557], [109, 39.98204, -3.10385], [110, 39.98052, -3.09229], [111, 39.97776, -3.08113], [112, 39.97418, -3.07037], [113, 39.97131, -3.05926], [114, 39.96967, -3.04774], [115, 39.96933, -3.03602], [116, 39.97028, -3.02436], [117, 39.97251, -3.013], [118, 39.97552, -3.00195], [119, 39.97857, -2.99091], [120, 39.98163, -2.97987], [121, 39.98512, -2.96906], [122, 39.98974, -2.95901], [123, 39.99514, -2.94962], [124, 40.00045, -2.94016], [125, 40.00463, -2.92978], [126, 40.00769, -2.91875], [127, 40.00952, -2.90726], [128, 40.01015, -2.89556], [129, 40.01037, -2.88383], [130, 40.01169, -2.87222], [131, 40.01421, -2.86095], [132, 40.01713, -2.84985], [133, 40.02005, -2.83874], [134, 40.02271, -2.82753], [135, 40.02446, -2.81601], [136, 40.02595, -2.80443], [137, 40.02743, -2.79285], [138, 40.02892, -2.78126], [139, 40.03039, -2.76968], [140, 40.03147, -2.75802], [141, 40.03138, -2.74629], [142, 40.03011, -2.73467], [143, 40.02846, -2.72312], [144, 40.02679, -2.71158], [145, 40.02513, -2.70004], [146, 40.02387, -2.68842], [147, 40.02331, -2.6767], [148, 40.02229, -2.66504], [149, 40.02104, -2.65341], [150, 40.02088, -2.64168], [151, 40.02198, -2.63003], [152, 40.02428, -2.61869], [153, 40.02749, -2.60772], [154, 40.0309, -2.59686], [155, 40.03522, -2.58657], [156, 40.03985, -2.5765], [157, 40.04355, -2.56581], [158, 40.04607, -2.55454], [159, 40.04737, -2.54293], [160, 40.0476, -2.53119], [161, 40.04802, -2.51945], [162, 40.0489, -2.50776], [163, 40.05031, -2.49616], [164, 40.05195, -2.48461], [165, 40.05357, -2.47305], [166, 40.05521, -2.4615], [167, 40.05645, -2.44987], [168, 40.0566, -2.43813], [169, 40.0556, -2.42646], [170, 40.0537, -2.41498], [171, 40.05193, -2.40346], [172, 40.0506, -2.39184], [173, 40.04937, -2.38021], [174, 40.04696, -2.36891], [175, 40.04319, -2.35825], [176, 40.0393, -2.34767], [177, 40.03646, -2.33654], [178, 40.0349, -2.32498], [179, 40.03459, -2.31325], [180, 40.03561, -2.30159], [181, 40.0378, -2.29021], [182, 40.04125, -2.27937], [183, 40.04598, -2.2694], [184, 40.05109, -2.25973], [185, 40.05531, -2.24936], [186, 40.05838, -2.23833], [187, 40.06025, -2.22685], [188, 40.0609, -2.21514], [189, 40.06029, -2.20342], [190, 40.05844, -2.19194], [191, 40.05536, -2.18092], [192, 40.05121, -2.1705], [193, 40.04573, -2.16119], [194, 40.03996, -2.15219], [195, 40.03385, -2.14356], [196, 40.02776, -2.13493], [197, 40.02183, -2.1261], [198, 40.0168, -2.11637], [199, 40.01225, -2.10625], [200, 40.00713, -2.0966], [201, 40.00104, -2.08798], [202, 39.99411, -2.0805], [203, 39.98694, -2.07342], [204, 39.97977, -2.06633], [205, 39.97256, -2.05933], [206, 39.96485, -2.0533], [207, 39.95666, -2.04847], [208, 39.94835, -2.04398], [209, 39.93977, -2.04051], [210, 39.93113, -2.03727], [211, 39.9229, -2.03259], [212, 39.9148, -2.02748], [213, 39.90634, -2.02354], [214, 39.89756, -2.021], [215, 39.88862, -2.01988], [216, 39.87963, -2.02017], [217, 39.87066, -2.02079], [218, 39.8617, -2.01981], [219, 39.8529, -2.01749], [220, 39.84438, -2.01376], [221, 39.83611, -2.00914], [222, 39.82786, -2.00449], [223, 39.8196, -1.99985], [224, 39.81135, -1.9952], [225, 39.80309, -1.99056], [226, 39.79484, -1.98591], [227, 39.78672, -1.98089], [228, 39.77901, -1.97487], [229, 39.77181, -1.96788], [230, 39.765, -1.96023], [231, 39.75819, -1.9526], [232, 39.75081, -1.94591], [233, 39.74287, -1.94045], [234, 39.73446, -1.93633], [235, 39.72572, -1.93359], [236, 39.71679, -1.93228], [237, 39.7078, -1.93242], [238, 39.6989, -1.93401], [239, 39.69022, -1.93702], [240, 39.68172, -1.94085], [241, 39.67299, -1.9436], [242, 39.66411, -1.94547], [243, 39.65523, -1.94732], [244, 39.64635, -1.94915], [245, 39.63751, -1.95131], [246, 39.62881, -1.95427], [247, 39.62002, -1.95664], [248, 39.61105, -1.95752], [249, 39.60207, -1.95786], [250, 39.59307, -1.95804], [251, 39.58412, -1.95698], [252, 39.57535, -1.95448], [253, 39.56688, -1.95056], [254, 39.55886, -1.9453], [255, 39.55143, -1.93874], [256, 39.54476, -1.93094], [257, 39.53898, -1.92202], [258, 39.53419, -1.91216], [259, 39.53051, -1.90153], [260, 39.52798, -1.89035], [261, 39.52667, -1.87883], [262, 39.52661, -1.86718], [263, 39.52736, -1.85556], [264, 39.52723, -1.84391], [265, 39.52609, -1.83235], [266, 39.52486, -1.8208], [267, 39.52362, -1.80925], [268, 39.52238, -1.7977], [269, 39.52101, -1.78618], [270, 39.51874, -1.77491], [271, 39.51648, -1.76363], [272, 39.51527, -1.75209], [273, 39.51469, -1.74045], [274, 39.51386, -1.72885], [275, 39.512, -1.71745], [276, 39.50924, -1.70636], [277, 39.50665, -1.6952], [278, 39.50519, -1.68371], [279, 39.50496, -1.67207], [280, 39.50599, -1.6605], [281, 39.50821, -1.64921], [282, 39.51059, -1.63798], [283, 39.51195, -1.62646], [284, 39.51233, -1.61482], [285, 39.51296, -1.6032], [286, 39.51499, -1.59186], [287, 39.51823, -1.58099], [288, 39.5216, -1.57018], [289, 39.52498, -1.55937], [290, 39.52829, -1.54853], [291, 39.53241, -1.5382], [292, 39.53825, -1.52937], [293, 39.54451, -1.52102], [294, 39.54908, -1.51101], [295, 39.55135, -1.49977], [296, 39.55126, -1.48813], [297, 39.55034, -1.47653], [298, 39.54809, -1.46525], [299, 39.54484, -1.45438], [300, 39.54191, -1.44336], [301, 39.54092, -1.43195], [302, 39.5421, -1.42041], [303, 39.54248, -1.40877], [304, 39.54178, -1.39714], [305, 39.5414, -1.3855], [306, 39.54231, -1.37391], [307, 39.5439, -1.36243], [308, 39.5454, -1.35093], [309, 39.54605, -1.33931], [310, 39.54647, -1.32766], [311, 39.54688, -1.31601], [312, 39.54729, -1.30436], [313, 39.54835, -1.29278], [314, 39.55019, -1.28137], [315, 39.5515, -1.26983], [316, 39.55262, -1.25826], [317, 39.55372, -1.24668], [318, 39.55415, -1.23504], [319, 39.55345, -1.22342], [320, 39.55162, -1.21201], [321, 39.54871, -1.20098], [322, 39.54496, -1.19038], [323, 39.54108, -1.17986], [324, 39.53677, -1.16963], [325, 39.5326, -1.1593], [326, 39.52822, -1.14911], [327, 39.52384, -1.13893], [328, 39.51946, -1.12875], [329, 39.51508, -1.11857], [330, 39.51126, -1.10802], [331, 39.50859, -1.0969], [332, 39.50713, -1.08541], [333, 39.50594, -1.07386], [334, 39.50373, -1.06257], [335, 39.50045, -1.05172], [336, 39.49616, -1.04149], [337, 39.49107, -1.03189], [338, 39.48587, -1.02238], [339, 39.48067, -1.01287], [340, 39.4756, -1.00325], [341, 39.47144, -0.99293], [342, 39.46841, -0.98198], [343, 39.46656, -0.97058], [344, 39.46504, -0.95911], [345, 39.46297, -0.94777], [346, 39.4609, -0.93643], [347, 39.45918, -0.92501], [348, 39.45843, -0.91341], [349, 39.45899, -0.90179], [350, 39.45996, -0.89021], [351, 39.46118, -0.87867], [352, 39.46243, -0.86714], [353, 39.46267, -0.85551], [354, 39.46182, -0.84392], [355, 39.4599, -0.83256], [356, 39.45701, -0.82153], [357, 39.45395, -0.81058], [358, 39.4509, -0.79962], [359, 39.44852, -0.7884], [360, 39.44713, -0.7769], [361, 39.44666, -0.76528], [362, 39.4472, -0.75366], [363, 39.44855, -0.74215], [364, 39.45024, -0.73071], [365, 39.45313, -0.7197], [366, 39.4573, -0.70939], [367, 39.46233, -0.69973], [368, 39.46659, -0.68949], [369, 39.46958, -0.67851], [370, 39.47125, -0.66708], [371, 39.47208, -0.65548], [372, 39.47257, -0.64384], [373, 39.47306, -0.63221], [374, 39.47354, -0.62058], [375, 39.47373, -0.60893], [376, 39.47302, -0.59732], [377, 39.47112, -0.58595], [378, 39.4679, -0.57508], [379, 39.46359, -0.56487], [380, 39.45969, -0.55438], [381, 39.45617, -0.54366], [382, 39.45265, -0.53294], [383, 39.44937, -0.5221], [384, 39.44634, -0.51114], [385, 39.44433, -0.4998], [386, 39.44373, -0.48819], [387, 39.44476, -0.47664], [388, 39.4473, -0.46548], [389, 39.44933, -0.45415], [390, 39.45, -0.44255], [391, 39.44843, -0.43113], [392, 39.44662, -0.41977], [393, 39.44488, -0.40835], [394, 39.44325, -0.39707], [395, 39.44296, -0.38634], [396, 39.45134, -0.38309]]
+
+[[connections]]
+km = 0.069
+station = "Duque de Pastrana"
+lines = [
+  { id = "900", ref = "900", name = "Túnel de la Risa I", km = 0.568 },
+]
+
+[[connections]]
+km = 6.732
+station = "Estación del Arte"
+lines = [
+  { id = "920", ref = "920", name = "Línea Móstoles-Parla", km = 5.97 },
+]
+
+[[connections]]
+km = 7.22
+station = "Atocha-Cercanías"
+lines = [
+  { id = "900", ref = "900", name = "Túnel de la Risa I", km = 7.617 },
+  { id = "920", ref = "920", name = "Línea Móstoles-Parla", km = 5.647 },
+  { id = "930", ref = "930", name = "Línea Madrid Atocha-San Fernando de Henares", km = 0 },
+]
+
+[[connections]]
+km = 9.951
+station = "Estación de Mercancías Madrid - Abroñigal"
+lines = [
+  { id = "300", ref = "300", name = "Línea Madrid-Valencia", km = 2.876 },
+  { id = "500", ref = "500", name = "Línea Madrid-Valencia de Alcántara", km = 4.821 },
+]
+
+[[connections]]
+km = 151.499
+station = "Cuenca-Fernando Zóbel"
+lines = [
+  { id = "320", ref = "320", name = "Línea Chinchilla-Cartagena", km = 151.499 },
+]
+
+[[connections]]
+km = 348.962
+station = "Siete Aguas"
+lines = [
+  { id = "320", ref = "320", name = "Línea Chinchilla-Cartagena", km = 867.387 },
+]
+
+[[connections]]
+km = 396.956
+station = "València Joaquín Sorolla"
+lines = [
+  { id = "600", ref = "600", name = "FFCC València - Sant Vicenç de Calders", km = 266.216 },
+]

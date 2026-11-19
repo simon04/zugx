@@ -1,0 +1,23 @@
+id = "lav-sevilla-antequera"
+name = "LAV Sevilla – Antequera"
+operator = "Adif"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 8.99
+length = 8.99
+speeds = [[0, 8.99, 160, 160]]
+curves = []
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 1.857, kmTo = 1.976, length = 119 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_rhbFvyt]oP_i@uGaYoGm`@sDk`@eB{b@eBgpAd@g\\pBm_@hDc\\xGm`@lHeZ|JuZtH{QvJsR~w@onAzMoV", v = 160 },
+]
+posts = [[0, 37.2408, -5.027], [1, 37.24476, -5.01686], [2, 37.24717, -5.006], [3, 37.248, -4.99476], [4, 37.24817, -4.98347], [5, 37.2467, -4.97235], [6, 37.24349, -4.96182], [7, 37.23868, -4.9523], [8, 37.23269, -4.94386]]

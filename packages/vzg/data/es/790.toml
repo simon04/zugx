@@ -1,0 +1,21 @@
+id = "790"
+ref = "790"
+name = "Ferrocarril de La Robla (León - Matallana)"
+operator = "Adif"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 234.6
+kmTo = 237.2
+length = 2.59
+speeds = [[234.6, 237.2, 50, 50]]
+curves = [[235.206, 235.327, 1440], [235.555, 236.009, 300], [236.079, 236.326, 270], [236.632, 236.799, 500], [237.032, 237.085, 840]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "g_{eGjtzTWgC_@em@cBmYc@_CuDcHUgBLgC|DcOT}CkKw`@N_\\]sF", v = 50 },
+]
+posts = [[235, 43.06968, -3.5774], [236, 43.07111, -3.56591], [237, 43.07225, -3.55445]]

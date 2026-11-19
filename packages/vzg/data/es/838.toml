@@ -1,0 +1,26 @@
+id = "838"
+ref = "838"
+name = "Línea Bifurcación Torneros-Bifurcación Quintana"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.828
+length = 2.828
+speeds = [[0, 2.828, 90, 90]]
+curves = [[0.125, 0.85, 1070], [1.1, 1.35, 1010], [1.525, 2.45, 290], [2.5, 2.725, 820]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.489, kmTo = 0.792, length = 303 },
+  { kind = "bridge", kmFrom = 0.867, kmTo = 0.987, length = 120 },
+  { kind = "bridge", kmFrom = 2.152, kmTo = 2.179, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wfxbGz|`a@hQj@~J~BvCjBfCvEjJn^jLpTzAvEXlHcAvHcCfE}DpBsFKcNsIiJaC", v = 90 },
+]
+posts = [[0, 42.5638, -5.58046], [1, 42.55658, -5.5856], [2, 42.55356, -5.59605]]

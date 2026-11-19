@@ -1,0 +1,14 @@
+id = "7100214"
+name = "Pancorbo"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHv348A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHv378A=="]
+deps = [
+  [421,"REG","16018","7100005",["7100411"],0,""],
+  [498,"REG","18010","7100188",["7100411","7100005","7111009","7111006","7111004","7100012","7100004","7100003"],1,""],
+  [550,"REG","16019","7100080",["7100006","7100127","7111210","7111212","7111213","7180001","7180003","7180005"],0,""],
+]
+
+names = { 7100003 = "Valladolid Campo Grande", 7100004 = "Venta de Baños", 7100005 = "Burgos Rosa de Lima", 7100006 = "Miranda de Ebro", 7100012 = "Palencia", 7100080 = "Pamplona", 7100127 = "Vitoria/Gasteiz", 7100188 = "Madrid Principe Pio", 7100411 = "Briviesca", 7111004 = "Magaz", 7111006 = "Quintana del Puente", 7111009 = "Villaquirán", 7111210 = "Alegria de Alava", 7111212 = "Salvatierra de Alava", 7111213 = "Araya", 7180001 = "Alsasua-Pueblo(APD.)", 7180003 = "Echarri-Aranaz", 7180005 = "Huarte-Araquil" }

@@ -1,0 +1,58 @@
+id = "7100445"
+name = "Mataporquera"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwYPEA==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHPnw4A=="]
+deps = [
+  [535,"REG","18100","7100003",["7114115","7100391","7114113","7100392","7100436","7114108","7100459","7100428"],0,""],
+  [672,"REG","18102","7100003",["7114115","7100391","7114113","7100392","7100436","7114108","7100459","7100428"],2,""],
+  [722,"REG","18101","7100014",["7100163","7100408","7100444","7100013","7100464","7114220","7114230"],1,""],
+  [1092,"C","71891","7146471",["05744","05743","05742","05741","05740","05739","05738","05737"],1,""],
+  [1092,"REG","71891","7146471",["05744","05743","05742","05741","05740","05739","05738","05737"],1,""],
+  [1095,"C","71876","05803",["05747","05748","05749","05750","05751","05752","05753","05754"],1,""],
+  [1095,"REG","18104","7100003",["7100391","7100392","7100436","7114108","7100459","7100428","7114103","7114117"],1,""],
+  [1095,"REG","71876","05778",["05747","05748","05749","05750","05751","05752","05753","05754"],1,""],
+  [1243,"REG","18105","7100014",["7100163","7100408","7100444","7100013","7100464","7114220","7114230"],1,""],
+]
+
+[names]
+7100003 = "Valladolid Campo Grande"
+7100013 = "Torrelavega"
+7100014 = "Santander"
+7100163 = "Reinosa"
+7100391 = "Aguilar de Campoo"
+7100392 = "Alar del Rey-San Qui"
+7100408 = "Bárcena"
+7100428 = "Frómista"
+7100436 = "Herrera del Pisuerga"
+7100444 = "Los Corrales de Buel"
+7100459 = "Osorno"
+7100464 = "Renedo"
+7114103 = "Pina (APD.)"
+7114108 = "Espinosa de Villagonzalo (APD.)"
+7114113 = "Mave (APT.-CGD.)"
+7114115 = "Quintanilla de las Torres"
+7114117 = "El Carrion (APD.)"
+7114220 = "Camargo (APD.)"
+7114230 = "Valdecilla"
+7146471 = "Bilbao Abando"
+05737 = "Robredo Ahedo"
+05738 = "Soncillo"
+05739 = "Cabañas de Virtus"
+05740 = "Arija"
+05741 = "Llano"
+05742 = "Las Rozas de Valdearroyo"
+05743 = "Montes Claros"
+05744 = "Los Carabeos"
+05747 = "Cillamayor"
+05748 = "Salinas de Pisuerga"
+05749 = "Vado-Cervera"
+05750 = "Castrejón de la Peña"
+05751 = "Villaverde Tarilonte"
+05752 = "Santibáñez de la Peña"
+05753 = "Guardo Apeadero"
+05754 = "Guardo"
+05778 = "Feve-León"
+05803 = "La Asunción Universidad"

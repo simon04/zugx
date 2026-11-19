@@ -1,0 +1,43 @@
+id = "944"
+ref = "944"
+name = "Línea de Vicálvaro a Vicálvaro Mercancías"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.115
+length = 2.115
+speeds = [[0, 1.549, 65, 65], [1.549, 2.115, 85, 85]]
+curves = [[0.375, 0.5, 1250], [0.675, 0.9, 740], [0.95, 1.275, 830], [1.325, 1.6, 450], [1.65, 1.85, 1240]]
+points = [
+  { km = 2.115, kind = "station", label = "Puerta de Arganda", pos = [40.40124, -3.59573] },
+  { km = 2.115, kind = "station", label = "Vicálvaro", pos = [40.40126, -3.59593] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 1.296, kmTo = 1.352, length = 56 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yutuFzjzThVnJnKpGdEfD|HhLlIhG", v = 65 },
+  { line = "mwruFxy{TzAt@", tunnel = true, v = 65 },
+  { line = "qtruFn{{TlC~BtBtD", v = 65 },
+  { line = "mlruFde|TxChJ|LdU", v = 85 },
+]
+posts = [[0, 40.41581, -3.58078], [1, 40.40803, -3.58635], [2, 40.40172, -3.59441]]
+
+[[connections]]
+km = 2.115
+station = "Puerta de Arganda"
+lines = [
+  { id = "930", ref = "930", name = "Línea Madrid Atocha-San Fernando de Henares", km = 10.579 },
+]
+
+[[connections]]
+km = 2.115
+station = "Vicálvaro"
+lines = [
+  { id = "930", ref = "930", name = "Línea Madrid Atocha-San Fernando de Henares", km = 10.584 },
+]

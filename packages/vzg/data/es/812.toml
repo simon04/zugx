@@ -1,0 +1,31 @@
+id = "812"
+ref = "812"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.999
+length = 5.999
+speeds = [[0, 0.378, 60, 60], [0.378, 5.347, 80, 80], [5.347, 5.61, 60, 60], [5.61, 5.999, 30, 30]]
+curves = [[0.1, 0.425, 400], [0.65, 0.775, 2100], [0.9, 1.125, 1170], [1.825, 2.35, 930], [3, 3.2, 790], [3.425, 3.65, 790], [4.8, 5.25, 430], [5.425, 5.85, 700]]
+points = [
+  { km = 1.429, kind = "halt", label = "Chapela", pos = [42.26886, -8.67176] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.937, kmTo = 3.059, length = 122 },
+  { kind = "tunnel", kmFrom = 3.733, kmTo = 4.855, length = 1122 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wx`aGfg{s@vAhGtAvCzBfCpCzA", v = 60 },
+  { line = "{j`aGl{{s@dQlFxOdDni@b[tFzEjI~MpVnq@rPnUfEzL", v = 80 },
+  { line = "{{{`G|p`t@n\\hjA", tunnel = true, v = 80 },
+  { line = "k~z`Gf|bt@rAbDvDlEtChAnIn@", v = 80 },
+  { line = "yfz`Grkct@bH\\dDnA", v = 60 },
+  { line = "oxy`G`oct@pFhDjIlJ", v = 30 },
+]
+posts = [[0, 42.27996, -8.66436], [1, 42.27233, -8.66952], [2, 42.26432, -8.67499], [3, 42.25911, -8.68481], [4, 42.25374, -8.69438], [5, 42.24932, -8.70491]]

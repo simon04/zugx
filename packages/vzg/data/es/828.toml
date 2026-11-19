@@ -1,0 +1,37 @@
+id = "828"
+ref = "828"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 12.391
+length = 12.391
+speeds = [[0, 0.184, 60, 60], [0.184, 3.932, 85, 85], [3.932, 4.147, 45, 45], [4.147, 11.701, 85, 85], [11.701, 12.391, 30, 30]]
+curves = [[0.1, 0.2, 1420], [0.425, 0.55, 1490], [0.6, 0.7, 1720], [0.75, 1.05, 470], [1.1, 1.275, 980], [1.325, 1.45, 1100], [1.55, 1.9, 480], [1.975, 2.475, 650], [2.525, 2.8, 510], [2.85, 3.025, 520], [3.075, 3.475, 350], [3.85, 4.125, 470], [4.175, 4.4, 420], [4.45, 5.525, 400], [5.575, 5.9, 490], [5.95, 6.275, 470], [6.325, 7.225, 930], [7.3, 7.7, 390], [7.75, 8.15, 320], [8.2, 8.5, 440], [8.6, 8.8, 1150], [8.85, 9.35, 530], [9.425, 10.075, 550], [10.45, 10.775, 480], [10.9, 11.275, 580], [11.325, 11.825, 340]]
+points = [
+  { km = 3.411, kind = "station", label = "A Portela", pos = [42.5177, -8.65435] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 1.852, kmTo = 2.033, length = 180 },
+  { kind = "bridge", kmFrom = 5.05, kmTo = 5.071, length = 21 },
+  { kind = "bridge", kmFrom = 6.348, kmTo = 6.383, length = 35 },
+  { kind = "bridge", kmFrom = 6.883, kmTo = 6.981, length = 97 },
+  { kind = "bridge", kmFrom = 8.874, kmTo = 8.886, length = 12 },
+  { kind = "bridge", kmFrom = 9.734, kmTo = 9.746, length = 11 },
+  { kind = "bridge", kmFrom = 11.531, kmTo = 11.544, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_pibGbhxs@iIm@", v = 60 },
+  { line = "izibGtfxs@{NcCeVgBiCj@}I|FwI|CeKjGyD`AiEG", v = 85 },
+  { line = "uslbGvwxs@}HwA", tunnel = true, v = 85 },
+  { line = "s}lbG~txs@mIKcEl@iO|KcN~@uIdEgE`@eCa@iC}AqVgU", v = 85 },
+  { line = "s~obG~qxs@kDyAiEI", v = 45 },
+  { line = "ijpbGznxs@aHm@wKcIkDgAiCKgF`AqHlGyCxAiFXiDuAyHaJqEoCcMoAoCJoC`A}GbGkHdEiHbAmLcB}V{K{F\\_L~HqCh@qFq@aGoEqD{AmP~@kOGuDt@yDpBgP~SmCvBwGpBaHMq]sJ}BKeD|@yKpG_DxCyC~F_EbO_EzDyDx@", v = 85 },
+  { line = "ch|bGfdzs@ie@}F", v = 30 },
+]
+posts = [[0, 42.48848, -8.64914], [1, 42.49734, -8.64812], [2, 42.50573, -8.65128], [3, 42.51421, -8.65401], [4, 42.5221, -8.65039], [5, 42.5305, -8.649], [6, 42.53857, -8.64692], [7, 42.54699, -8.64934], [8, 42.55533, -8.64927], [9, 42.564, -8.64795], [10, 42.57173, -8.65312], [11, 42.58023, -8.65304], [12, 42.58716, -8.65825]]

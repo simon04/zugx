@@ -1,0 +1,15 @@
+id = "7155017"
+name = "Almoraima (APT.)"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A=="]
+deps = [
+  [519,"REG","35065","7102030",["7155015","7155014","7155013","7155012","7155011","7155010","7155008","7100046"],0,""],
+  [772,"REG","35077","7102030",["7155015","7155014","7155013","7155012","7155011","7155010","7155008","7100046"],0,""],
+  [919,"REG","35062","7100136",["7100383","7155019"],0,""],
+  [1215,"REG","35064","7100136",["7100383","7155019"],0,""],
+]
+
+names = { 7100046 = "Ronda", 7100136 = "Algeciras", 7100383 = "San Roque-La Línea", 7102030 = "Antequera Av", 7155008 = "Arriate (APT.)", 7155010 = "Benaojan-Montejaque (APT.)", 7155011 = "Jimera de Libar (APT.)", 7155012 = "Cortes de la Frontiera (APT.-CGD.)", 7155013 = "Gaucín", 7155014 = "San Pablo (APD.)", 7155015 = "Jimena de la Frontiera", 7155019 = "Los Barrios (APT.-CGD.)" }

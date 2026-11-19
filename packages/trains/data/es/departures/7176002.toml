@@ -1,0 +1,15 @@
+id = "7176002"
+name = "Vilabella (APD.)"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH34P8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/4P8A=="]
+deps = [
+  [572,"C","30542","7100067",["7176001","7172101","7100170","7100064","7100063"],1,""],
+  [572,"REG","15042","7100067",["7176001","7172101","7100170","7100064","7100063"],0,""],
+  [1119,"C","15045","7173100",["7176003","7100486"],2,""],
+  [1119,"REG","15045","7100073",["7176003","7100486","7173100","7173010","7173009","7100449","7173007","7173006"],0,""],
+]
+
+names = { 7100063 = "Barcelona Passeig de Gràcia", 7100064 = "Barcelona Sants", 7100067 = "Barcelona Franca", 7100073 = "Lerida/Lleida", 7100170 = "Sant Vicenc de Calde", 7100449 = "Montblanc", 7100486 = "Valls", 7172101 = "Roda de Mar (APD.)", 7173006 = "Vimbodi (APD.)", 7173007 = "Espluga", 7173009 = "Vilavert (APT.)", 7173010 = "La Riba (APD.)", 7173100 = "Plana-Picamoixons", 7176001 = "Salomo (APT.)", 7176003 = "Nulles-Brafim (APD.)" }

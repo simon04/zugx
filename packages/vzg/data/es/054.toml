@@ -1,0 +1,58 @@
+id = "054"
+ref = "054"
+name = "Línea Bifurcación Canal Imperial-Bifurcación Moncasi"
+operator = "Adif"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 25.66
+length = 25.66
+speeds = [[0, 8.444, 200, 200], [8.444, 11.052, 125, 125], [11.052, 11.4, 90, 90], [11.4, 13.7, 70, 70], [13.7, 25.66, "", ""]]
+curves = [[0.275, 0.45, 2740], [0.825, 1.675, 2450], [1.775, 2.45, 2470], [2.525, 2.9, 2630], [4.325, 5.05, 2580], [6.975, 7.3, 2630], [7.725, 8.35, 2440], [8.575, 10.05, 840], [11.35, 11.575, 760], [12.025, 12.225, 890], [12.425, 13.25, 920], [13.425, 13.525, 1440], [13.575, 13.775, 610], [13.975, 14.475, 470], [14.725, 14.9, 910], [16.9, 17.05, 1620], [22.225, 22.35, 2240], [22.5, 22.575, 2090], [22.95, 24.175, 2490]]
+points = [
+  { km = 11.77, kind = "station", label = "Zaragoza-Delicias", uic = "7104040", pos = [41.65857, -0.91139] },
+  { km = 13.289, kind = "station", label = "Zaragoza-Portillo", uic = "7170806", pos = [41.65274, -0.8959] },
+  { km = 14.376, kind = "station", label = "Zaragoza-Goya", uic = "7170807", pos = [41.64392, -0.89134] },
+  { km = 16.639, kind = "station", label = "Zaragoza-Miraflores", uic = "7171100", pos = [41.63319, -0.86832] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.652, kmTo = 1.761, length = 109 },
+  { kind = "bridge", kmFrom = 2.206, kmTo = 2.276, length = 70 },
+  { kind = "bridge", kmFrom = 2.675, kmTo = 2.701, length = 26 },
+  { kind = "bridge", kmFrom = 3.244, kmTo = 3.331, length = 87 },
+  { kind = "bridge", kmFrom = 5.733, kmTo = 5.773, length = 39 },
+  { kind = "bridge", kmFrom = 8.848, kmTo = 8.926, length = 78 },
+  { kind = "tunnel", kmFrom = 9.441, kmTo = 9.525, length = 84 },
+  { kind = "tunnel", kmFrom = 11.4, kmTo = 14.468, length = 3068 },
+  { kind = "bridge", kmFrom = 14.468, kmTo = 14.493, length = 26 },
+  { kind = "tunnel", kmFrom = 14.493, kmTo = 17.173, length = 2680 },
+  { kind = "bridge", kmFrom = 21.253, kmTo = 21.3, length = 47 },
+  { kind = "bridge", kmFrom = 21.51, kmTo = 22.06, length = 550 },
+  { kind = "bridge", kmFrom = 22.864, kmTo = 22.954, length = 90 },
+  { kind = "bridge", kmFrom = 23.89, kmTo = 23.929, length = 39 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qwb}FjrgEjEaYzLil@xB}RfAyTFoU}@eWiD_[aFkUqd@y}AkFgNoGgMmNeSsjAuuAmImMcX{f@eH{IaLiK", v = 200 },
+  { line = "suh}FnkwDcLiKqGiLkDwN}@iQ", v = 125 },
+  { line = "sri}FxouDFiE", tunnel = true, v = 125 },
+  { line = "kri}FniuDhB}OnD_Lrf@_~@", v = 125 },
+  { line = "}ah}FplrDrK}R", v = 90 },
+  { line = "iug}FrxqD|BgHvIie@jByd@|AmH|DyH`EkFd`@mT", tunnel = true, v = 70 },
+  { line = "cse}FdsmD|UwCfG}E`B_DbAkE", tunnel = true },
+  { line = "wnd}Fb|lDNy@" },
+  { line = "gnd}FhzlDrDsShAcD`w@wkBrIeQrHcL", tunnel = true },
+  { line = "_za}FntgDvfA}zApWgZn}BasBrM}It[kQ|JkIpIkJdIkLrIkPnl@w~A" },
+]
+posts = [[0, 41.63465, -1.0271], [1, 41.63145, -1.01587], [2, 41.63047, -1.00399], [3, 41.63304, -0.99254], [4, 41.63724, -0.9819], [5, 41.64233, -0.97205], [6, 41.64912, -0.96417], [7, 41.65594, -0.95632], [8, 41.66188, -0.94731], [9, 41.6687, -0.93961], [10, 41.66802, -0.92833], [11, 41.66221, -0.91913], [12, 41.6578, -0.90882], [13, 41.65492, -0.89786], [14, 41.64663, -0.89365], [15, 41.64144, -0.88466], [16, 41.63636, -0.87474], [17, 41.63102, -0.86506], [18, 41.62456, -0.85671], [19, 41.61804, -0.84842], [20, 41.61091, -0.8411], [21, 41.60348, -0.83432], [22, 41.59605, -0.82755], [23, 41.58814, -0.82187], [24, 41.58123, -0.8143], [25, 41.57629, -0.80427]]
+
+[[connections]]
+km = 16.639
+station = "Zaragoza-Miraflores"
+lines = [
+  { id = "210", ref = "210", name = "FFCC Barcelona-Saragossa via Caspe", km = 0 },
+]

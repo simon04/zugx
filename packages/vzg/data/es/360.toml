@@ -1,0 +1,66 @@
+id = "360"
+ref = "360"
+name = "Línea Cartagena - Los Nietos"
+operator = "Adif"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 19.505
+length = 19.505
+speeds = [[0, 0.142, "", ""], [0.142, 7.101, 80, 80], [7.101, 7.117, "", ""], [7.117, 9.313, 80, 80], [9.313, 9.332, "", ""], [9.332, 13.591, 80, 80], [13.591, 13.616, "", ""], [13.616, 19.505, 80, 80]]
+curves = [[0.725, 1.25, 180], [1.45, 2.025, 640], [2.675, 2.775, 1500], [3.175, 3.75, 560], [4.65, 4.9, 720], [5.525, 5.725, 1260], [5.925, 6, 1980], [6.075, 6.225, 1160], [6.675, 6.95, 590], [7.275, 7.6, 400], [7.825, 8.2, 610], [8.25, 8.575, 370], [8.65, 8.85, 450], [8.9, 9.05, 670], [9.15, 9.35, 560], [9.4, 9.55, 740], [9.625, 9.8, 500], [9.85, 9.975, 820], [10.075, 10.375, 470], [10.425, 10.825, 450], [10.875, 11.05, 890], [11.275, 11.4, 1360], [11.75, 12.325, 420], [12.45, 12.6, 680], [13.65, 13.8, 950], [14.25, 14.35, 1820], [14.425, 14.525, 1160], [16.45, 16.575, 1730], [17.075, 17.35, 960], [17.475, 17.65, 1300], [17.775, 18, 730], [18.05, 18.425, 520], [18.625, 18.825, 500], [18.875, 19, 1260]]
+points = [
+  { km = 0.038, kind = "halt", label = "Los Nietos", pos = [37.65186, -0.79707] },
+  { km = 0.923, kind = "stop", label = "Los Nietos-Pescadería", pos = [37.64934, -0.78789] },
+  { km = 1.422, kind = "halt", label = "Los Nietos Viejos", pos = [37.64695, -0.79151] },
+  { km = 5.726, kind = "halt", label = "El Estrecho", pos = [37.62755, -0.82959] },
+  { km = 6.333, kind = "halt", label = "Llano del Beal", pos = [37.62603, -0.8362] },
+  { km = 9.209, kind = "halt", label = "Sierra Minera", pos = [37.61983, -0.86484] },
+  { km = 10.242, kind = "halt", label = "La Unión", pos = [37.61558, -0.87514] },
+  { km = 10.825, kind = "halt", label = "La Unión Vieja", pos = [37.61545, -0.88162] },
+  { km = 11.71, kind = "halt", label = "La Esperanza", pos = [37.61381, -0.89137] },
+  { km = 13.891, kind = "stop", label = "Alumbres", pos = [37.60994, -0.91509], uic = "7105959" },
+  { km = 15.366, kind = "halt", label = "Abrevadero", pos = [37.6097, -0.93183] },
+  { km = 16.45, kind = "station", label = "Vista Alegre", pos = [37.60927, -0.94411] },
+  { km = 17.31, kind = "station", label = "Media Legua", pos = [37.60786, -0.95367] },
+  { km = 18.034, kind = "stop", label = "Hospital", pos = [37.60508, -0.961] },
+  { km = 19.29, kind = "station", label = "Cartagena", pos = [37.60359, -0.97727] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 7.101, kmTo = 7.117, length = 16 },
+  { kind = "bridge", kmFrom = 9.313, kmTo = 9.332, length = 19 },
+  { kind = "bridge", kmFrom = 13.591, kmTo = 13.616, length = 24 },
+  { kind = "bridge", kmFrom = 17.346, kmTo = 17.358, length = 12 },
+  { kind = "bridge", kmFrom = 18.057, kmTo = 18.069, length = 12 },
+  { kind = "bridge", kmFrom = 19.251, kmTo = 19.266, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a|xdFbwzCjAsH" },
+  { line = "uyxdFnmzCnIql@`AcBvC}AfDRvAvAj@lBvC|[zBpHlCpEnCrClc@zZlZjOvDxDdC~EdBrJbEvjArSbs@jIdg@fEli@Y`FwBvL", v = 80 },
+  { line = "sysdFj~cDG`@" },
+  { line = "{ysdFl_dDaCjNQhEZzCnGrR`FrKlB~AlJtD|B|B|AjDxCdPYbNr@pPp@bD", v = 80 },
+  { line = "cqrdFfchDPb@" },
+  { line = "qprdFjdhDfCjHrCxN`FtIrDnK~AlHBtBeAdNnA`KFjT~BlWnFv[|@`DdF~HpAvFLvEc@dRjIvgA", v = 80 },
+  { line = "mvpdFdaqDFv@" },
+  { line = "evpdF|bqD^xISnu@dDtnCdEhk@tHnW`DfRpFxLhBtGLjF_Cd\\rAlKhC|e@", v = 80 },
+]
+posts = [[0, 37.65201, -0.79746], [1, 37.64852, -0.78762], [2, 37.64431, -0.79688], [3, 37.6365, -0.80248], [4, 37.63193, -0.81112], [5, 37.63037, -0.82218], [6, 37.62684, -0.83258], [7, 37.62572, -0.84361], [8, 37.62441, -0.85395], [9, 37.62004, -0.86248], [10, 37.61654, -0.87268], [11, 37.61543, -0.88359], [12, 37.61247, -0.89412], [13, 37.6111, -0.90511], [14, 37.60996, -0.91633], [15, 37.60987, -0.92767], [16, 37.60948, -0.93902], [17, 37.6086, -0.9503], [18, 37.60526, -0.96073], [19, 37.60422, -0.97151]]
+
+[[connections]]
+km = 15.366
+station = "Abrevadero"
+lines = [
+  { id = "326", ref = "326", name = "Línea Cartagena-Escombreras", km = 3.721 },
+]
+
+[[connections]]
+km = 19.29
+station = "Cartagena"
+lines = [
+  { id = "352", ref = "352", name = "Línea Chinchilla-Cartagena", km = 57.79 },
+]

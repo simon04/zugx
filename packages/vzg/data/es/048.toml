@@ -1,0 +1,24 @@
+id = "048"
+ref = "048"
+name = "048 - Bifurcación Vinalopó - Monforte del Cid Alta Velocidad"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.639
+length = 2.639
+speeds = [[0, 2.639, 100, 100]]
+curves = [[0.1, 1.425, 610]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.422, kmTo = 0.478, length = 56 },
+  { kind = "bridge", kmFrom = 1.076, kmTo = 1.619, length = 543 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "u{iiF`sjCgEdGaE`DyD~AaGt@qEKmGaBuE{C}CwDwCoG{AeHkI}`AoCyV", v = 100 },
+]
+posts = [[0, 38.39435, -0.71489], [1, 38.40231, -0.71612], [2, 38.40515, -0.70548]]

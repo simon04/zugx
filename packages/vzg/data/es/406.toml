@@ -1,0 +1,35 @@
+id = "406"
+ref = "406"
+name = "FFCC Las Aletas-Universidad"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.546
+length = 2.546
+speeds = [[0, 0.073, "", ""], [0.073, 0.508, 40, 40], [0.508, 1.672, 80, 80], [1.672, 2.371, 40, 40], [2.371, 2.546, "", ""]]
+curves = [[0.45, 1, 710], [1.05, 1.65, 260]]
+points = [
+  { km = 0.073, kind = "stop", label = "Universidad", pos = [36.52948, -6.20598] },
+  { km = 2.371, kind = "station", label = "Las Aletas", pos = [36.54413, -6.19845] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}q}}Efe{d@}AoB" },
+  { line = "{t}}Eva{d@iQgS", v = 40 },
+  { line = "eg~}Enmzd@cDkFqBsFeA{FaAeP_BeFoCgCaDs@sD\\}DjB", v = 80 },
+  { line = "gl_~Et|xd@ya@tU", v = 40 },
+  { line = "ao`~Ejsyd@}G`D" },
+]
+posts = [[0, 36.52911, -6.20644], [1, 36.53441, -6.1978], [2, 36.54106, -6.19652]]
+
+[[connections]]
+km = 2.371
+station = "Las Aletas"
+lines = [
+  { id = "400", ref = "400", name = "FFCC Alcázar de San Juan-Cádiz", km = 549.491 },
+]

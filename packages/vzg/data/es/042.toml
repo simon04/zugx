@@ -1,0 +1,54 @@
+id = "042"
+ref = "042"
+name = "Línea de Alta Velocidad Madrid - Alacant-Terminal/Murcia"
+operator = "Adif"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 410
+kmTo = 438
+length = 27.817
+speeds = [[410, 425.207, 300, 300], [425.207, 438, 265, 265]]
+curves = [[414.039, 414.09, 2670], [414.771, 414.822, 2410], [419.517, 419.568, 2560], [420.83, 420.906, 2810], [422.446, 422.496, 2800], [427.217, 427.293, 2690], [427.672, 427.798, 2410], [428.959, 429.01, 2820], [429.616, 429.691, 1800], [430.575, 430.625, 2410], [433.397, 433.471, 2880], [433.646, 433.696, 2380], [433.845, 433.895, 2210], [434.269, 434.319, 2130], [434.493, 434.543, 2150], [437.808, 437.858, 2220]]
+points = [
+  { km = 413.905, kind = "station", label = "La Encina", pos = [38.76545, -0.95385] },
+  { km = 435.781, kind = "station", label = "Villena Alta Velocidad", uic = "7103309", pos = [38.58431, -0.87389] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 410.735, kmTo = 410.844, length = 108 },
+  { kind = "bridge", kmFrom = 414.563, kmTo = 414.583, length = 20 },
+  { kind = "bridge", kmFrom = 416.726, kmTo = 416.797, length = 70 },
+  { kind = "bridge", kmFrom = 418.566, kmTo = 418.648, length = 81 },
+  { kind = "bridge", kmFrom = 419.139, kmTo = 419.333, length = 193 },
+  { kind = "bridge", kmFrom = 419.413, kmTo = 419.542, length = 128 },
+  { kind = "bridge", kmFrom = 420.826, kmTo = 420.965, length = 138 },
+  { kind = "bridge", kmFrom = 423.298, kmTo = 423.307, length = 10 },
+  { kind = "bridge", kmFrom = 423.832, kmTo = 423.847, length = 15 },
+  { kind = "bridge", kmFrom = 429.801, kmTo = 429.837, length = 35 },
+  { kind = "bridge", kmFrom = 431.73, kmTo = 433.127, length = 1401, name = "viaducto sobre la acequia del Rey" },
+  { kind = "bridge", kmFrom = 436.339, kmTo = 437.833, length = 1499 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{txkFvn|Dt`D_`Aj`@cNzR{Hnd@}TjlA_v@l\\qPp\\_MhtAw^xTyEh^wEpRwAte@_AxgAbBzc@wAx^wDtMuB|`AmU", v = 300 },
+  { line = "gm_kFtvsDnlA}ZxPiHrQmKbMeJvPqP~LeOj\\ce@xRcTbTmPnXgOb\\iM`h@kN`XmKlUcN`g@u^`IkEvTiJvKeDftCso@`UcIpOwH", v = 265 },
+]
+posts = [[410, 38.79774, -0.9702], [411, 38.78924, -0.96678], [412, 38.78075, -0.96335], [413, 38.77224, -0.95995], [414, 38.76387, -0.95606], [415, 38.7558, -0.95124], [416, 38.74804, -0.94565], [417, 38.74007, -0.94058], [418, 38.73163, -0.93693], [419, 38.72307, -0.93379], [420, 38.71437, -0.93139], [421, 38.7055, -0.93046], [422, 38.6966, -0.93081], [423, 38.68771, -0.93063], [424, 38.67891, -0.92893], [425, 38.67029, -0.92603], [426, 38.66171, -0.92301], [427, 38.65326, -0.91943], [428, 38.64573, -0.91341], [429, 38.63934, -0.90548], [430, 38.63234, -0.89847], [431, 38.62428, -0.89368], [432, 38.61565, -0.89031], [433, 38.60757, -0.88525], [434, 38.59974, -0.87956], [435, 38.59114, -0.87613], [436, 38.58239, -0.87331], [437, 38.57364, -0.8705], [438, 38.56519, -0.86653]]
+
+[[connections]]
+km = 413.905
+station = "La Encina"
+lines = [
+  { id = "320", ref = "320", name = "Línea Chinchilla-Cartagena", km = 1022.597 },
+  { id = "330", ref = "330", name = "Madrid-Alicante", km = 77.616 },
+]
+
+[[connections]]
+km = 435.781
+station = "Villena Alta Velocidad"
+lines = [
+  { id = "320", ref = "320", name = "Línea Chinchilla-Cartagena", km = 114.696 },
+]

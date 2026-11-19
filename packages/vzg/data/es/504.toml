@@ -1,0 +1,26 @@
+id = "504"
+ref = "504"
+name = "Línea Villaluenga - Algodor"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 15.976
+length = 15.976
+speeds = [[0, 11.987, 70, 70], [11.987, 13.028, 80, 80], [13.028, 15.976, 70, 70]]
+curves = [[0.1, 0.25, 450], [0.8, 1.125, 580], [1.275, 1.625, 420], [1.7, 2.275, 320], [2.825, 3.25, 360], [3.5, 3.95, 330], [4.85, 5.625, 530], [5.975, 6.525, 440], [6.575, 6.95, 490], [7.725, 7.95, 870], [9.125, 9.325, 680], [11.25, 11.375, 1530], [11.5, 11.975, 370], [12.725, 12.9, 1200], [13.275, 13.475, 1280], [15.55, 15.875, 500]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 13.028, kmTo = 13.164, length = 136 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{pisFvgyVfIQ|e@gPhFK`O~BnEKxCgAjKoIbCm@`D@jDnA~CjDvTxi@~CvDlClAnCTnTiAxDkAtBkBvBqEhPkhAlAuEhDmGrEuDfGeB~CKf[`CrDInCw@fCwArBaClGcOvDsE`EgBdp@oQ`~@et@hCqDpRq`@`p@_uA|G{Q~AyBdDcBnDO`Dj@", v = 70 },
+  { line = "iryrFtynV|j@jLjLT", v = 80 },
+  { line = "_ywrFvgoVbWr@zuBda@nFrElE~I", v = 70 },
+]
+posts = [[0, 40.03102, -3.90284], [1, 40.0224, -3.89991], [2, 40.01393, -3.89831], [3, 40.00829, -3.9072], [4, 40.00084, -3.90391], [5, 39.99811, -3.89274], [6, 39.98996, -3.8904], [7, 39.98273, -3.88463], [8, 39.97425, -3.8809], [9, 39.96673, -3.87449], [10, 39.96083, -3.86577], [11, 39.95547, -3.85635], [12, 39.94922, -3.84943], [13, 39.94041, -3.85163], [14, 39.93154, -3.85325], [15, 39.92276, -3.85576]]

@@ -1,0 +1,32 @@
+id = "354"
+ref = "354"
+name = "Línea Chinchilla-Cartagena"
+operator = "Adif"
+gauge = "1435;1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.29
+length = 7.29
+speeds = [[0, 0.736, "", ""], [0.736, 3.62, 120, 120], [3.62, 7.29, 160, 160]]
+curves = [[0.275, 0.4, 2040], [0.525, 0.6, 1700], [2.725, 3.55, 860], [4.125, 4.2, 2570], [4.25, 4.325, 2800], [5.1, 5.5, 2840], [5.55, 5.7, 2460], [5.85, 6, 2630], [6.075, 6.175, 2500]]
+points = [
+  { km = 0.017, kind = "station", label = "Murcia del Carmen", pos = [37.97451, -1.13059] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.638, kmTo = 1.767, length = 1129 },
+  { kind = "bridge", kmFrom = 4.38, kmTo = 4.75, length = 370 },
+  { kind = "bridge", kmFrom = 5.691, kmTo = 5.846, length = 156 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ezwfFrz{EdAwVVqT" },
+  { line = "gwwfFhmzEP}E", tunnel = true },
+  { line = "uvwfFjfzExF{gA", tunnel = true, v = 120 },
+  { line = "{nwfFn}wE~EgcAD}M}@yJsBwIaDsHaFiH", v = 120 },
+  { line = "kywfFx`tEkx@ogA{IiOsF}LwGcScDcN_RmlA", v = 160 },
+]
+posts = [[0, 37.97427, -1.13082], [1, 37.9734, -1.11948], [2, 37.97219, -1.10817], [3, 37.97138, -1.09685], [4, 37.97658, -1.08782], [5, 37.98294, -1.07976], [6, 37.98797, -1.07038], [7, 37.99078, -1.05955]]

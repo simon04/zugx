@@ -1,0 +1,38 @@
+id = "702"
+ref = "702"
+name = "Línea Cabañas de Ebro-Grisén"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 6.511
+length = 6.511
+speeds = [[0, 6.134, 160, 160], [6.134, 6.511, 100, 100]]
+curves = [[0.25, 0.475, 1450], [0.625, 0.775, 1560], [1, 1.075, 2580], [1.525, 3.9, 1560], [5.7, 6.225, 1740]]
+points = [
+  { km = 0.571, kind = "station", label = "Grisén", uic = "7170706", pos = [41.74526, -1.16585] },
+  { km = 6.511, kind = "station", label = "Cabañas de Ebro", uic = "7181209", pos = [41.78831, -1.1684] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.813, kmTo = 0.844, length = 30 },
+  { kind = "bridge", kmFrom = 1.132, kmTo = 1.195, length = 62 },
+  { kind = "bridge", kmFrom = 2.025, kmTo = 2.055, length = 30 },
+  { kind = "bridge", kmFrom = 4.552, kmTo = 4.65, length = 98 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}uw}FtucFiJyLaGyKeE}JsHgW}L_^wJmR_IkJsKkI_LaFcOuCiNSkGd@_L|BeKjEwyAldAeJ~HuHdK", v = 160 },
+  { line = "ag`~FlibFqLvT", v = 100 },
+]
+posts = [[0, 41.74191, -1.17099], [1, 41.74732, -1.1615], [2, 41.75254, -1.15178], [3, 41.76077, -1.14741], [4, 41.76933, -1.1504], [5, 41.77713, -1.15641], [6, 41.78475, -1.16277]]
+
+[[connections]]
+km = 6.511
+station = "Cabañas de Ebro"
+lines = [
+  { id = "700", ref = "700", name = "Línea Bilbao-Casetas", km = 15.522 },
+]

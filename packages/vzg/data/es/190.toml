@@ -1,0 +1,21 @@
+id = "190"
+ref = "190"
+name = "Línea de Cambiador de Medina AV - Medina del Campo AV"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.46
+length = 0.46
+speeds = [[0, 0.115, 20, 20], [0.115, 0.46, 30, 30]]
+curves = []
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "o}_{Fbcc]^mG", v = 20 },
+  { line = "o|_{Ftzb]dAuX", v = 30 },
+]
+posts = [[0, 41.29256, -4.93634]]

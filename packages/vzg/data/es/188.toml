@@ -1,0 +1,26 @@
+id = "188"
+ref = "188"
+name = "Línea de Cambiador de Medina AV - Bifurcación Arroyo de La Golosa"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.948
+length = 2.948
+speeds = [[0, 0.281, 20, 20], [0.281, 0.857, 30, 30], [0.857, 2.009, 70, 70], [2.009, 2.948, 100, 100]]
+curves = [[0.525, 0.925, 2170], [0.975, 1.1, 2030], [1.225, 1.55, 1920], [1.65, 2.075, 2050], [2.15, 2.45, 2260]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 2.153, kmTo = 2.259, length = 106 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "o}_{Fbcc]iAxS", v = 20 },
+  { line = "y_`{F|wc]eApU@hS", v = 30 },
+  { line = "}a`{Fxbe]bA~TxBvRjF`V`FzN", v = 70 },
+  { line = "qm_{Fnsg]bM~UfUtZ", v = 100 },
+]
+posts = [[0, 41.29256, -4.93634], [1, 41.29315, -4.94824], [2, 41.29005, -4.95935]]

@@ -1,0 +1,55 @@
+id = "254"
+ref = "254"
+name = "Línia el Prat-Aeroport"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 6.734
+length = 6.734
+speeds = [[0, 1.932, 90, 90], [1.932, 4.953, 140, 140], [4.953, 6.734, 110, 110]]
+curves = [[0.1, 0.175, 1280], [0.3, 0.425, 1430], [0.525, 0.65, 1460], [2.95, 4.575, 1080], [5.025, 6.025, 630]]
+points = [
+  { km = 0.108, kind = "station", label = "el Prat Estació", pos = [41.33167, 2.09013] },
+  { km = 0.207, kind = "station", label = "el Prat de Llobregat", uic = "7171707", pos = [41.33089, 2.08926] },
+  { km = 6.702, kind = "station", label = "Aeroport T2", pos = [41.30345, 2.07432] },
+  { km = 6.734, kind = "station", label = "Aeroport", uic = "7172400", pos = [41.30427, 2.07347] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0, kmTo = 0.515, length = 515 },
+  { kind = "bridge", kmFrom = 2.897, kmTo = 3.239, length = 343 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wqg{F}nwKlFxVzC|I", tunnel = true, v = 90 },
+  { line = "meg{FelvK|`@z~A", v = 90 },
+  { line = "ocf{FilsKvYflAxGjNnJ|JpEhCtIdChMl@rNkCnX_N", v = 140 },
+  { line = "wkb{FempKlJoFlF{G`C{HpAkOYyIk@wD}Pus@", v = 110 },
+]
+posts = [[0, 41.33164, 2.09151], [1, 41.32775, 2.08074], [2, 41.32398, 2.06987], [3, 41.32025, 2.05897], [4, 41.3132, 2.05237], [5, 41.30469, 2.05562], [6, 41.3015, 2.0653]]
+
+[[connections]]
+km = 0.108
+station = "el Prat Estació"
+lines = [
+  { id = "050", ref = "050", name = "Línea de alta velocidad Madrid-Zaragoza-Barcelona-Frontera francesa", km = 1.223 },
+  { id = "256", ref = "256", name = "Línia el Prat-Aeroport", km = 2.059 },
+]
+
+[[connections]]
+km = 0.207
+station = "el Prat de Llobregat"
+lines = [
+  { id = "050", ref = "050", name = "Línea de alta velocidad Madrid-Zaragoza-Barcelona-Frontera francesa", km = 1.326 },
+]
+
+[[connections]]
+km = 6.734
+station = "Aeroport"
+lines = [
+  { id = "256", ref = "256", name = "Línia el Prat-Aeroport", km = 13.648 },
+]

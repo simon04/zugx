@@ -1,0 +1,31 @@
+id = "114"
+ref = "114"
+name = "Línea Bifurcación Canal del Duero-Fuente Amrarga"
+operator = "Adif"
+gauge = "1435;1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 9.213
+length = 9.213
+speeds = [[0, 0.917, 35, 35], [0.917, 5.475, 80, 80], [5.475, 9.213, "", ""]]
+curves = [[0.175, 0.925, 260], [1.125, 1.4, 1850], [1.625, 2.225, 1350], [4.025, 4.825, 2030], [6.95, 7, 2550], [7.05, 7.45, 600], [7.6, 7.9, 440], [8.425, 9.1, 520]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.693, kmTo = 0.751, length = 58 },
+  { kind = "bridge", kmFrom = 0.917, kmTo = 1.022, length = 105 },
+  { kind = "bridge", kmFrom = 5.282, kmTo = 5.331, length = 49 },
+  { kind = "bridge", kmFrom = 5.475, kmTo = 5.522, length = 47 },
+  { kind = "bridge", kmFrom = 6.106, kmTo = 6.248, length = 142 },
+  { kind = "bridge", kmFrom = 7.175, kmTo = 7.251, length = 76 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oun}F`_q[cMyJsAsDWgE~@_G`D}EfDiBpDI", v = 35 },
+  { line = "cun}Fxto[`Rn@n\\hGnMHzJqA~_By[tPwAnJFrJx@bf@xI", v = 80 },
+  { line = "gyf}Ftio[zp@zMvN`F|TdK|E`E`BdC~FxUrCbFva@fVpGn@dJ_D|E_@~GZhC|@" },
+]
+posts = [[0, 41.69576, -4.67969], [1, 41.69495, -4.67297], [2, 41.68608, -4.67458], [3, 41.67727, -4.67223], [4, 41.66849, -4.66962], [5, 41.65958, -4.66999], [6, 41.65077, -4.67244], [7, 41.64224, -4.67615], [8, 41.6361, -4.68421], [9, 41.62769, -4.68605]]

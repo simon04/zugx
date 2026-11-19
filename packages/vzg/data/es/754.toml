@@ -1,0 +1,30 @@
+id = "754"
+ref = "754"
+name = "Vía de enlace Pinzales - Aboño"
+operator = "Adif"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 3.7
+kmTo = 4.102
+length = 0.401
+speeds = [[3.7, 4.102, 60, 60]]
+curves = [[3.801, 3.926, 1220]]
+points = [
+  { km = 3.934, kind = "station", label = "Veriña", pos = [43.54176, -5.72261] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "avvhGjt|a@sPfR", v = 60 },
+]
+posts = [[4, 43.54116, -5.72473]]
+
+[[connections]]
+km = 3.934
+station = "Veriña"
+lines = [
+  { id = "750", ref = "750", name = "Ferrocarril Gijón - El Ferrol", km = 45.782 },
+]

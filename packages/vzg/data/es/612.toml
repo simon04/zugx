@@ -1,0 +1,24 @@
+id = "612"
+ref = "612"
+name = "FFCC Sagunt aguja km 28,3 - Sagunt aguja km 268,8"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.731
+length = 0.731
+speeds = [[0, 0.731, "", ""]]
+curves = [[0.1, 0.575, 300]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.184, kmTo = 0.207, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ckcqFrnu@vAsIbCuDzBwAlFa@|LhC" },
+]
+posts = [[0, 39.6717, -0.27898]]

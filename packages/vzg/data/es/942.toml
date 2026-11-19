@@ -1,0 +1,33 @@
+id = "942"
+ref = "942"
+name = "Línea de Villaverde Bajo a Vallecas-Industrial"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.27
+length = 7.27
+speeds = [[0, 1.576, 60, 60], [1.576, 1.64, "", ""], [1.64, 6.769, 60, 60], [6.769, 7.27, 100, 100]]
+curves = [[0.1, 0.4, 330], [0.575, 1.7, 300], [1.75, 2.05, 550], [3.1, 3.5, 630], [3.65, 4.375, 530], [4.525, 5.1, 560], [5.15, 5.8, 650], [5.925, 6.025, 2010]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.191, kmTo = 0.791, length = 600 },
+  { kind = "bridge", kmFrom = 0.994, kmTo = 1.008, length = 15 },
+  { kind = "bridge", kmFrom = 4.351, kmTo = 4.398, length = 47 },
+  { kind = "bridge", kmFrom = 4.507, kmTo = 4.534, length = 28 },
+  { kind = "bridge", kmFrom = 4.938, kmTo = 5.033, length = 95 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yzhuFzmnUgFwA_EwEyF_Wg@sH~@iH`CgEpCmB|GyBzBmCfA{Cx@yH", v = 60 },
+  { line = "suhuFxxkU]rC" },
+  { line = "qvhuFl}kUz@}Lg@sIyUymAaC{HiDeFoOsLuCiAyDc@{ERmEvAkQrPeDpBkCl@qGCeFmAmGcCiJmH", v = 60 },
+  { line = "{}luFx}gUc@g@", tunnel = true, v = 60 },
+  { line = "__muFp|gUeCcF_AuE{Dee@cGed@", v = 60 },
+  { line = "esmuFjceUeGmb@", v = 100 },
+]
+posts = [[0, 40.35517, -3.68366], [1, 40.35783, -3.67433], [2, 40.35445, -3.66663], [3, 40.35764, -3.65559], [4, 40.3643, -3.64879], [5, 40.37238, -3.65278], [6, 40.37774, -3.64465], [7, 40.38014, -3.63328]]

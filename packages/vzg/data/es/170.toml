@@ -1,0 +1,23 @@
+id = "170"
+ref = "170"
+operator = "Adif"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.383
+length = 4.383
+speeds = [[0, 4.383, 160, 160]]
+curves = [[0.3, 1.65, 2170], [1.725, 2.15, 2160], [2.2, 2.825, 2350], [2.9, 3.35, 2100], [3.775, 3.875, 2370]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 1.621, kmTo = 2.954, length = 1333 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yk__GnlaZjDtTdBhP~@pRFdRq@zRqA|NcDtRoExPoGxP{D|HuHrL_IhJ_LfJi[~RiXzT", v = 160 },
+]
+posts = [[0, 41.94509, -4.43608], [1, 41.94335, -4.44787], [2, 41.94556, -4.45947], [3, 41.9513, -4.46865], [4, 41.95909, -4.47467]]

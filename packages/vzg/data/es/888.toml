@@ -1,0 +1,22 @@
+id = "888"
+ref = "888"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.051
+length = 1.051
+speeds = [[0, 1.051, "", ""]]
+curves = [[0.375, 0.525, 1030], [0.7, 0.95, 1000]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.734, kmTo = 0.747, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ydq_Gtqyg@wGu^sB{YcD_P" },
+]
+posts = [[0, 42.03613, -6.68971], [1, 42.03873, -6.67817]]

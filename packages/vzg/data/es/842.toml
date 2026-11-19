@@ -1,0 +1,21 @@
+id = "842"
+ref = "842"
+name = "Desvío de Conxo"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.011
+length = 1.011
+speeds = [[0, 1.011, 50, 50]]
+curves = [[0.1, 0.175, 1330], [0.3, 0.65, 850], [0.8, 0.9, 740]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "gnqdGdqes@tAkc@pG{[l@oH", v = 50 },
+]
+posts = [[0, 42.85684, -8.55331], [1, 42.85482, -8.54149]]

@@ -1,0 +1,15 @@
+id = "7132006"
+name = "El Pedroso de la Armuña"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHPnw4A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A=="]
+deps = [
+  [529,"REG","18300","7117189",["7132007","7132008","7132009","7100027"],0,""],
+  [863,"REG","18306","7100012",["7100376","7132003","7132002","7100002","7110501","7110502","7110503","7110504"],1,""],
+  [919,"REG","18308","7117189",["7132008","7100027"],1,""],
+  [1263,"REG","18312","7100003",["7100376","7132003","7132002","7132001","7100002","7110501","7110502","7110503"],1,""],
+]
+
+names = { 7100002 = "Medina del Campo", 7100003 = "Valladolid Campo Grande", 7100012 = "Palencia", 7100027 = "Salamanca", 7100376 = "Cantalapiedra", 7110501 = "Pozaldez (APT.-CGD.)", 7110502 = "Matapozuelos (APD.)", 7110503 = "Valdestillas (APT.)", 7110504 = "Viana (APT.)", 7117189 = "Salamanca-la Alamedilla", 7132001 = "Campillo (APT.-CGD.)", 7132002 = "Cario del Campo (APT.)", 7132003 = "Fresno el Viejo", 7132007 = "Pitiegua (APD.)", 7132008 = "Gomecello", 7132009 = "Moriscos" }

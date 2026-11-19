@@ -1,0 +1,20 @@
+id = "892"
+ref = "892"
+operator = "Adif"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.446
+length = 0.446
+speeds = [[0, 0.446, 15, 15]]
+curves = [[0.25, 0.325, 1730]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "ed|`Gxmun@|@w`@", v = 15 },
+]
+posts = [[0, 42.25619, -7.81549]]

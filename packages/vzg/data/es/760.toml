@@ -1,0 +1,67 @@
+id = "760"
+ref = "760"
+name = "Ferrocarril Oviedo - San Esteban"
+operator = "ADIF"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 12.075
+length = 12.075
+speeds = [[0, 1.01, 70, 70], [1.01, 10.908, 80, 80], [10.908, 12.075, "", ""]]
+curves = [[0.1, 0.325, 590], [0.475, 0.625, 910], [0.675, 0.925, 370], [0.975, 1.375, 510], [1.8, 1.95, 1070], [2, 2.45, 430], [2.65, 3.3, 380], [3.375, 3.625, 500], [4.7, 5, 970], [5.75, 6.125, 880], [6.225, 6.475, 650], [6.675, 7.025, 1230], [8.725, 9.15, 780], [9.425, 9.75, 450], [9.975, 10.275, 1180], [10.675, 11.025, 440], [11.325, 11.875, 520]]
+points = [
+  { km = 0, kind = "station", label = "Trubia", pos = [43.34856, -5.96758] },
+  { km = 0.96, kind = "station", label = "Soto Udrión/Sotu-Udrión", pos = [43.35647, -5.96504] },
+  { km = 2.506, kind = "stop", label = "San Pedru Nora", pos = [43.36874, -5.95853] },
+  { km = 6.559, kind = "station", label = "San Claudio", pos = [43.35532, -5.91779] },
+  { km = 6.619, kind = "stop", label = "San Claudio/San Cloyo", pos = [43.35552, -5.9171] },
+  { km = 8.241, kind = "stop", label = "Les Maces", pos = [43.35864, -5.89759] },
+  { km = 9.562, kind = "stop", label = "Les Campes", pos = [43.36384, -5.88339] },
+  { km = 10.687, kind = "stop", label = "Argañosa-Lavapiés", pos = [43.3659, -5.8699] },
+  { km = 11.143, kind = "stop", label = "Vallobín", pos = [43.3652, -5.86459] },
+  { km = 12.075, kind = "stop", label = "Oviedo", pos = [43.36675, -5.85543] },
+  { km = 12.075, kind = "station", label = "Oviedo / Uviéu", pos = [43.36636, -5.85487] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.134, kmTo = 0.183, length = 49 },
+  { kind = "tunnel", kmFrom = 0.608, kmTo = 0.847, length = 238 },
+  { kind = "bridge", kmFrom = 1.472, kmTo = 1.87, length = 398 },
+  { kind = "tunnel", kmFrom = 2.094, kmTo = 2.386, length = 292 },
+  { kind = "tunnel", kmFrom = 2.739, kmTo = 3.002, length = 263 },
+  { kind = "bridge", kmFrom = 4.376, kmTo = 4.386, length = 10 },
+  { kind = "bridge", kmFrom = 5.421, kmTo = 5.432, length = 11 },
+  { kind = "bridge", kmFrom = 8.997, kmTo = 9.021, length = 24 },
+  { kind = "bridge", kmFrom = 9.579, kmTo = 9.607, length = 28 },
+  { kind = "tunnel", kmFrom = 10.908, kmTo = 12.075, length = 1167 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}oqgG~plc@qKhCkSwF", v = 70 },
+  { line = "{prgGpmlc@sFm@iC_D", tunnel = true, v = 70 },
+  { line = "y|rgGbglc@wDyH", v = 70 },
+  { line = "qbsgGh}kc@iCmDwGaDs_@qEoKM", v = 80 },
+  { line = "w|tgGxkkc@wEeBoE}G", tunnel = true, v = 80 },
+  { line = "_jugGt_kc@eImV", v = 80 },
+  { line = "etugGfhjc@{@wJ|@uF", tunnel = true, v = 80 },
+  { line = "ctugGxtic@fDyGnBwArIeCbEoCtl@qdAnDuJdRe~@l@mGk@g]mKse@eFm|@eLqqAoAmHsCgIsNwUeCkHoAmh@oIkk@SiDNwE", v = 80 },
+  { line = "a}tgGb}xb@zLme@f@mFkAcH{OuQ", tunnel = true },
+]
+posts = [[0, 43.34863, -5.96768], [1, 43.35667, -5.96462], [2, 43.3652, -5.96179], [3, 43.36978, -5.95295], [4, 43.36292, -5.94552], [5, 43.35729, -5.93595], [6, 43.35419, -5.9244], [7, 43.35666, -5.91269], [8, 43.35817, -5.9005], [9, 43.36052, -5.88862], [10, 43.36422, -5.87804], [11, 43.36578, -5.86617], [12, 43.36626, -5.85607]]
+
+[[connections]]
+km = 0
+station = "Trubia"
+lines = [
+  { id = "762", ref = "762", name = "Oviedo - San Esteban", km = 39.049 },
+]
+
+[[connections]]
+km = 0.96
+station = "Soto Udrión/Sotu-Udrión"
+lines = [
+  { id = "762", ref = "762", name = "Oviedo - San Esteban", km = 38.073 },
+]

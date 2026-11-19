@@ -1,0 +1,35 @@
+id = "510"
+ref = "510"
+name = "Línea Aljucén-Bifurcación Granja-Las Encinas"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.742
+length = 1.742
+speeds = [[0, 1.082, 100, 100], [1.082, 1.742, 120, 120]]
+curves = [[0.775, 1.625, 460]]
+points = [
+  { km = 0.333, kind = "station", label = "Aljucén", uic = "7137600", pos = [38.93625, -6.40788] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.487, kmTo = 0.783, length = 296 },
+  { kind = "bridge", kmFrom = 1.037, kmTo = 1.052, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wrslFtxaf@uHvz@aBpFuC~D", v = 100 },
+  { line = "edtlF~adf@oH|FiFfBeHAgGyB", v = 120 },
+]
+posts = [[0, 38.93564, -6.40411], [1, 38.93789, -6.4152]]
+
+[[connections]]
+km = 0.333
+station = "Aljucén"
+lines = [
+  { id = "520", ref = "520", name = "Línea Ciudad Real-Badajoz", km = 284.842 },
+]

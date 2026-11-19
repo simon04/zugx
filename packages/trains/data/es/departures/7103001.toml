@@ -1,0 +1,20 @@
+id = "7103001"
+name = "Mengibar-Artichuela (APD.-CGD.)"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHPnw4A=="]
+deps = [
+  [498,"REG","18033","7100037",[],0,""],
+  [503,"REG","18033","7100017",["7100124","7100401","7100469","7100123","7100145","7100050","7100488","7100083"],0,""],
+  [809,"REG","18030","7100204",[],0,""],
+  [911,"REG","18035","7100037",[],0,""],
+  [916,"REG","18035","7100017",["7100124","7100401","7100469","7100123","7100145","7100050","7100488","7100083"],0,""],
+  [1024,"REG","18037","7100037",[],0,""],
+  [1029,"REG","18037","7100017",["7100124","7100401","7100469","7100123","7100145","7100050","7100083","7100500"],0,""],
+  [1197,"REG","18032","7100204",[],1,""],
+  [1415,"REG","18036","7100204",[],0,""],
+]
+
+names = { 7100017 = "Madrid-Chamartin", 7100037 = "Linares-Baeza", 7100050 = "Alcázar de San Juan", 7100083 = "Aranjuez", 7100123 = "Valdepeñas", 7100124 = "Vilches", 7100145 = "Manzanares", 7100204 = "Jaén", 7100401 = "Almuradiel-V. del Ma", 7100469 = "Santa Cruz de Mudela", 7100488 = "Villacañas", 7100500 = "Madrid-Atocha Cercanías" }

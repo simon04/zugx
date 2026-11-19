@@ -1,0 +1,130 @@
+day = "2026-11-24"
+begin = "2026-11-18"
+end = "2027-12-11"
+source = "Renfe Operadora (data.renfe.com) 2026 (CC BY 4.0)"
+aliases = {}
+
+[[corridors]]
+id = "es-050"
+name = "Madrid – Zaragoza – Barcelona – Figueres (LAV)"
+from = "Madrid-Puerta de Atocha-Almudena Grandes"
+to = "Figueres-Vilafant"
+km = 768.6
+stations = 9
+trains = 197
+file = "es-050.toml"
+major = ["Madrid-Puerta de Atocha-Almudena Grandes", "Guadalajara-Yebes", "Calatayud", "Zaragoza Delicias", "Lleida-Pirineus", "Camp de Tarragona", "Barcelona-Sants", "Girona", "Figueres-Vilafant"]
+names = ["Madrid-Puerta de Atocha-Almudena Grandes", "Guadalajara-Yebes", "Calatayud", "Zaragoza Delicias", "Lleida-Pirineus", "Camp de Tarragona", "Barcelona-Sants", "Girona", "Figueres-Vilafant"]
+cats = { AVE = 96, AVANT = 56, IC = 24, EM = 15, REG = 6 }
+
+[[corridors]]
+id = "es-010"
+name = "Madrid – Ciudad Real – Córdoba – Sevilla (LAV)"
+from = "Madrid-Puerta de Atocha-Almudena Grandes"
+to = "Sevilla-Santa Justa"
+km = 485.3
+stations = 6
+trains = 154
+file = "es-010.toml"
+major = ["Madrid-Puerta de Atocha-Almudena Grandes", "Ciudad Real", "Puertollano", "Villanueva de Córdoba", "Córdoba-Julio Anguita", "Sevilla-Santa Justa"]
+names = ["Madrid-Puerta de Atocha-Almudena Grandes", "Ciudad Real", "Puertollano", "Villanueva de Córdoba", "Córdoba-Julio Anguita", "Sevilla-Santa Justa"]
+cats = { AVANT = 66, AVE = 58, IC = 16, AVLO = 8, REG = 6 }
+lines = [
+  { id = "030", ref = "030", name = "Línea de alta velocidad Córdoba - Málaga", stations = 4 },
+]
+
+[[corridors]]
+id = "es-030"
+name = "Córdoba – Málaga (LAV)"
+from = "Córdoba-Julio Anguita"
+to = "Málaga María Zambrano"
+km = 154.8
+stations = 4
+trains = 49
+file = "es-030.toml"
+major = ["Córdoba-Julio Anguita", "Málaga María Zambrano"]
+names = ["Córdoba-Julio Anguita", "Puente Genil-Herrera", "Antequera-Santa Ana", "Málaga María Zambrano"]
+cats = { AVE = 23, AVANT = 20, IC = 4, AVLO = 2 }
+lines = [
+  { id = "030", ref = "030", name = "Línea de alta velocidad Córdoba - Málaga", stations = 4 },
+]
+
+[[corridors]]
+id = "es-040"
+name = "Madrid – Cuenca – Valencia (LAV)"
+from = "Madrid-Puerta de Atocha-Almudena Grandes"
+to = "València-Joaquín Sorolla"
+km = 351.9
+stations = 4
+trains = 53
+file = "es-040.toml"
+major = ["Madrid-Puerta de Atocha-Almudena Grandes", "Cuenca-Fernando Zóbel", "Requena-Utiel", "València-Joaquín Sorolla"]
+names = ["Madrid-Puerta de Atocha-Almudena Grandes", "Cuenca-Fernando Zóbel", "Requena-Utiel", "València-Joaquín Sorolla"]
+cats = { AVE = 35, AVANT = 12, AVLO = 6 }
+lines = [
+  { id = "040", ref = "040", name = "Línea de Alta Velocidad Madrid - Cuenca - Valencia", stations = 3 },
+]
+
+[[corridors]]
+id = "es-042"
+name = "Madrid – Albacete – Alicante (LAV)"
+from = "Madrid-Puerta de Atocha-Almudena Grandes"
+to = "Alicante/Alacant-Terminal"
+km = 453.3
+stations = 5
+trains = 39
+file = "es-042.toml"
+major = ["Madrid-Puerta de Atocha-Almudena Grandes", "Cuenca-Fernando Zóbel", "Albacete-Los Llanos", "Villena Alta Velocidad", "Alicante/Alacant-Terminal"]
+names = ["Madrid-Puerta de Atocha-Almudena Grandes", "Cuenca-Fernando Zóbel", "Albacete-Los Llanos", "Villena Alta Velocidad", "Alicante/Alacant-Terminal"]
+cats = { AVE = 28, IC = 5, AVLO = 4, AVANT = 2 }
+lines = [
+  { id = "320", ref = "320", name = "Línea Chinchilla-Cartagena", stations = 3 },
+]
+
+[[corridors]]
+id = "es-080"
+name = "Madrid – Segovia – Valladolid (LAV)"
+from = "Madrid-Chamartín-Clara Campoamor"
+to = "Valladolid-Campo Grande"
+km = 180.5
+stations = 3
+trains = 107
+file = "es-080.toml"
+major = ["Madrid-Chamartín-Clara Campoamor", "Segovia-Guiomar", "Valladolid-Campo Grande"]
+names = ["Madrid-Chamartín-Clara Campoamor", "Segovia-Guiomar", "Valladolid-Campo Grande"]
+cats = { AVANT = 42, IC = 39, AVE = 16, AVLO = 10 }
+lines = [
+  { id = "080", ref = "080", name = "Línea de Alta Velocidad Madrid-Segovia–Valladolid-Burgos", stations = 3 },
+]
+
+[[corridors]]
+id = "es-600"
+name = "València – Castelló – Tarragona – Barcelona"
+from = "València-Estació del Nord"
+to = "Barcelona-Sants"
+km = 357.6
+stations = 39
+trains = 335
+file = "es-600.toml"
+major = ["València-Estació del Nord", "Castelló de la Plana", "Tarragona", "Barcelona-Sants"]
+names = ["València-Estació del Nord", "València-La Font de Sant Lluís", "València-Cabanyal", "Roca-Cúper", "Albuixech", "Massalfassar", "El Puig", "Puçol", "Sagunt", "Les Valls", "Almenara", "La Llosa", "Chilches/Xilxes", "Moncofa", "Nules la Villavella", "Burriana-Alquerías Niño Perdido", "Vila-Real", "Almassora", "Castelló de la Plana", "Benicàssim", "Orpesa", "Torreblanca", "Alcalá de Chivert", "Benicarló-Peñíscola", "Vinaròs", "Ulldecona-Alcanar-La Sénia", "Tortosa", "L'Aldea-Amposta-Tortosa", "L'Ampolla-El Perelló-Deltebre", "L'Ametlla de Mar", "L'Hospitalet de l'Infant", "Cambrils", "Vila-seca", "Tarragona", "Altafulla-Tamarit", "Torredembarra", "Sant Vicenç de Calders", "Vilanova i la Geltrú", "Barcelona-Sants"]
+cats = { C = 193, REG = 121, EM = 15, IC = 4, AVANT = 2 }
+lines = [
+  { id = "600", ref = "600", name = "FFCC València - Sant Vicenç de Calders", stations = 29 },
+]
+
+[[corridors]]
+id = "es-200"
+name = "Madrid – Alcalá de Henares – Guadalajara (Cercanías C2)"
+from = "Madrid-Atocha Cercanías"
+to = "Guadalajara"
+km = 59.9
+stations = 16
+trains = 210
+file = "es-200.toml"
+major = ["Madrid-Atocha Cercanías", "Alcalá de Henares", "Guadalajara"]
+names = ["Madrid-Atocha Cercanías", "Asamblea de Madrid-Entrevías", "El Pozo", "Vallecas", "Santa Eugenia", "Vicálvaro", "Coslada", "San Fernando de Henares", "Torrejón de Ardoz", "Soto del Henares", "La Garena", "Alcalá de Henares", "Alcalá de Henares-Universidad", "Meco", "Azuqueca", "Guadalajara"]
+cats = { C = 191, REG = 19 }
+lines = [
+  { id = "930", ref = "930", name = "Línea Madrid Atocha-San Fernando de Henares", stations = 8 },
+]

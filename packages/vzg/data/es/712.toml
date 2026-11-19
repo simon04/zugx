@@ -1,0 +1,30 @@
+id = "712"
+ref = "712"
+name = "Altsasu-Castejón de Ebro trenbidea"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.733
+length = 0.733
+speeds = [[0, 0.733, 60, 60]]
+curves = [[0.1, 0.45, 1150]]
+points = [
+  { km = 0, kind = "halt", label = "Altsasu–Herria", uic = "7180001", pos = [42.89333, -2.16745] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sqxdGhlfLzEpRfOjY", v = 60 },
+]
+posts = [[0, 42.89322, -2.16789]]
+
+[[connections]]
+km = 0
+station = "Altsasu–Herria"
+lines = [
+  { id = "710", ref = "710", name = "Altsasu-Castejón de Ebro trenbidea", km = 1.872 },
+]

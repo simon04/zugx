@@ -1,0 +1,26 @@
+id = "7100082"
+name = "Toledo"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHPnw4A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A=="]
+deps = [
+  [385,"AVANT","8063","7100049",[],0,""],
+  [405,"AVANT","8273","7100049",[],0,""],
+  [445,"AVANT","8073","7100049",[],0,""],
+  [475,"AVANT","8283","7100049",[],0,""],
+  [565,"AVANT","8093","7100049",[],1,""],
+  [625,"AVANT","8103","7100049",[],1,""],
+  [745,"AVANT","8123","7100049",[],1,""],
+  [805,"AVANT","8133","7100049",[],1,""],
+  [925,"AVANT","8153","7100049",[],0,""],
+  [985,"AVANT","8163","7100135",["7100049","7103208"],1,""],
+  [1043,"AVANT","8173","7100049",[],1,""],
+  [1125,"AVANT","8183","7100049",[],1,""],
+  [1165,"AVANT","8193","7100049",[],1,""],
+  [1225,"AVANT","8203","7100049",[],1,""],
+  [1297,"AVANT","8213","7100049",[],1,""],
+]
+
+names = { 7100049 = "Madrid Puerta de Atocha", 7100135 = "Albacete", 7103208 = "Cuenca Fernando Zobel" }

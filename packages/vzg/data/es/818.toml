@@ -1,0 +1,50 @@
+id = "818"
+ref = "818"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 28.189
+length = 28.189
+speeds = [[0, 1.002, 80, 80], [1.002, 28.189, 135, 135]]
+curves = [[0.1, 0.475, 460], [0.9, 1.175, 550], [1.225, 1.45, 660], [1.55, 1.95, 510], [2.3, 2.5, 1670], [2.95, 3.325, 530], [3.7, 3.9, 790], [3.975, 4.175, 610], [4.775, 4.975, 720], [5.225, 5.65, 440], [5.7, 6, 430], [6.725, 7.075, 440], [7.125, 7.375, 940], [7.725, 7.9, 990], [8.05, 8.3, 990], [8.375, 8.475, 1820], [8.575, 8.825, 1260], [9.05, 9.4, 460], [9.75, 10.075, 640], [10.5, 10.875, 640], [11.1, 11.375, 710], [11.45, 11.825, 630], [11.875, 12.275, 540], [12.4, 12.725, 550], [13.1, 13.4, 920], [13.55, 13.925, 600], [14.325, 14.525, 1520], [15.175, 15.525, 1590], [16.05, 16.575, 600], [17.075, 17.4, 970], [18.2, 18.65, 550], [18.925, 19.075, 1240], [19.3, 19.425, 2550], [19.625, 20.125, 570], [20.475, 20.9, 550], [21.225, 21.7, 1090], [22.375, 22.875, 1520], [23.05, 23.55, 1580], [24.025, 24.225, 1410], [25.475, 25.925, 440], [26, 26.6, 740], [26.75, 27.8, 1570]]
+points = [
+  { km = 0.529, kind = "stop", label = "Vilagarcía de Arousa", pos = [42.602, -8.76205] },
+  { km = 9.916, kind = "stop", label = "Catoira", pos = [42.67231, -8.72541] },
+  { km = 21.481, kind = "halt", label = "Padrón", pos = [42.73898, -8.65241] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.686, kmTo = 1.708, length = 22 },
+  { kind = "bridge", kmFrom = 9.315, kmTo = 9.336, length = 22 },
+  { kind = "bridge", kmFrom = 16.344, kmTo = 16.36, length = 16 },
+  { kind = "bridge", kmFrom = 17.903, kmTo = 17.918, length = 15 },
+  { kind = "bridge", kmFrom = 20.157, kmTo = 20.313, length = 156 },
+  { kind = "bridge", kmFrom = 22.22, kmTo = 22.238, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{a_cGpnmt@mC~LeDjF{a@tQ", v = 80 },
+  { line = "kn`cGrvnt@yCfCwDpIsC~DaKtIqD~A}EX}YwCcPL", v = 135 },
+  { line = "ebccGruot@u@B", tunnel = true, v = 135 },
+  { line = "{cccGvuot@kPb@uFw@oDuBkVyVyOkHu_@gf@_TuLoC_CeDoHkBwPiBaGwe@wj@cGwCuO`@q[cFuPcIaEiDeN}Q}DuHmHySwCsE_EaCyUoGoF}BmFoGgQyY{FuFyWqGiFCcKdBwDBkFkAcIwDsFg@iDX}ObFaHSc\\cJqFwEsJaLeDeHk@mCsD}Y_B}RmB{_ArDoy@D{Ge@uG}BoIyVce@eBmFqR{hAaCuGoF{EgUgJ_OoJ_RkJiFw@{Gz@qYtNgFvAyH[gYoIwJi@mw@hLsKAaUcCwIGsIt@ib@xH{hAxD{FSuGqDeJcPcFoFuCcBqDcAi[{C_IcCaLcGuJmJmQq]", v = 135 },
+]
+posts = [[0, 42.59886, -8.75769], [1, 42.60597, -8.76409], [2, 42.61343, -8.76955], [3, 42.62239, -8.76926], [4, 42.63019, -8.76362], [5, 42.63721, -8.7561], [6, 42.64282, -8.7475], [7, 42.65007, -8.74053], [8, 42.65882, -8.73855], [9, 42.66516, -8.73019], [10, 42.67291, -8.72479], [11, 42.67993, -8.71774], [12, 42.68868, -8.71639], [13, 42.69742, -8.7164], [14, 42.70374, -8.70863], [15, 42.70512, -8.69658], [16, 42.70454, -8.68442], [17, 42.70813, -8.67392], [18, 42.71176, -8.66283], [19, 42.71796, -8.65523], [20, 42.72628, -8.65156], [21, 42.73477, -8.65371], [22, 42.74358, -8.65344], [23, 42.75247, -8.65417], [24, 42.76134, -8.65535], [25, 42.7703, -8.65631], [26, 42.77856, -8.65394], [27, 42.78674, -8.65002], [28, 42.79399, -8.64325]]
+
+[[connections]]
+km = 0.529
+station = "Vilagarcía de Arousa"
+lines = [
+  { id = "810", ref = "810", name = "Línea Monforte de Lemos - Redondela", km = 56.778 },
+  { id = "824", ref = "824", name = "Eje Atlántico de Alta Velocidad Vigo - A Coruña", km = 40.288 },
+]
+
+[[connections]]
+km = 21.481
+station = "Padrón"
+lines = [
+  { id = "810", ref = "810", name = "Línea Monforte de Lemos - Redondela", km = 77.73 },
+]

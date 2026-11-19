@@ -1,0 +1,20 @@
+id = "904"
+ref = "904"
+name = "Línea de Bif. Fuencarral a Fuencarral aguja km 4,5"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.649
+length = 0.649
+speeds = [[0, 0.649, 80, 80]]
+curves = []
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "srgvFljnUyb@fH", v = 80 },
+]
+posts = [[0, 40.51258, -3.68311]]

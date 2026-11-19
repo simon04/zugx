@@ -1,0 +1,21 @@
+id = "212"
+ref = "212"
+name = "FFCC Hoya de Huesca - Bifurcación Hoya de Huesca"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.749
+length = 1.749
+speeds = [[0, 1.749, 100, 100]]
+curves = [[0.1, 1.625, 710]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "sw}_GpwpAvKfEtHpHbF|KxB`NHtNaBbNeEhLgIjK", v = 100 },
+]
+posts = [[0, 42.10058, -0.41865], [1, 42.09515, -0.4271]]

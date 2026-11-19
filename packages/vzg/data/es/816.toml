@@ -1,0 +1,23 @@
+id = "816"
+ref = "816"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.995
+length = 0.995
+speeds = [[0, 0.995, 85, 85]]
+curves = [[0.225, 0.65, 890], [0.75, 0.875, 1540]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.292, kmTo = 0.335, length = 44 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kvx_Gtzrs@jMpIfFrFpPd`@", v = 85 },
+]
+posts = [[0, 42.07478, -8.62139]]

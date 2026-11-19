@@ -1,0 +1,37 @@
+id = "724"
+ref = "724"
+name = "Línea Bilbao Mercancías-Santurtzi"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.741
+length = 3.741
+speeds = [[0, 3.741, "", ""]]
+curves = [[1.2, 1.4, 500], [1.45, 1.825, 450], [1.875, 2.325, 610], [2.375, 2.5, 580], [2.775, 2.825, 1590], [2.875, 2.925, 1910], [2.975, 3.05, 1180], [3.5, 3.6, 1630]]
+points = [
+  { km = 0.494, kind = "station", label = "Bilbao - Mercancías / Merkantziak", pos = [43.34472, -3.06072] },
+  { km = 0.551, kind = "halt", label = "Puerto (CLH)", pos = [43.3442, -3.06035] },
+  { km = 3.642, kind = "station", label = "Santurtzi", pos = [43.32863, -3.0296] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 1.913, kmTo = 2.366, length = 453 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "efqgG|xuQld@qqA`AsFt@cLnAwFjBqDfGyE" },
+  { line = "{nogGn}qQbCaCpBkDhDuJt@qE", tunnel = true },
+  { line = "e`ogGxaqQhA{ElPu_@v[ki@" },
+]
+posts = [[0, 43.34707, -3.06591], [1, 43.3423, -3.05543], [2, 43.33758, -3.04554], [3, 43.33265, -3.0353]]
+
+[[connections]]
+km = 3.642
+station = "Santurtzi"
+lines = [
+  { id = "720", ref = "720", name = "Santurtzi-Bilbo trenbidea", km = 13.387 },
+]

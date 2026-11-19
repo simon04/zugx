@@ -1,0 +1,17 @@
+id = "7100136"
+name = "Algeciras"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "Renfe Operadora (data.renfe.com) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH///8A=="]
+deps = [
+  [330,"REG","13063","7102030",["7100383","7100046","7102003"],1,""],
+  [471,"REG","35065","7102030",["7155019","7100383","7155017","7155015","7155014","7155013","7155012","7155011"],1,""],
+  [620,"REG","13065","7102030",["7100383","7100046","7102003"],1,""],
+  [724,"REG","35077","7102030",["7155019","7100383","7155017","7155015","7155014","7155013","7155012","7155011"],1,""],
+  [870,"REG","13077","7102030",["7100383","7100046","7102003"],1,""],
+  [963,"IC","9331","7100049",["7100383","7102003","7100038"],0,""],
+]
+
+names = { 7100038 = "Córdoba Central", 7100046 = "Ronda", 7100049 = "Madrid Puerta de Atocha", 7100383 = "San Roque-La Línea", 7102003 = "Antequera-Santa Ana", 7102030 = "Antequera Av", 7155011 = "Jimera de Libar (APT.)", 7155012 = "Cortes de la Frontiera (APT.-CGD.)", 7155013 = "Gaucín", 7155014 = "San Pablo (APD.)", 7155015 = "Jimena de la Frontiera", 7155017 = "Almoraima (APT.)", 7155019 = "Los Barrios (APT.-CGD.)" }
