@@ -57,7 +57,7 @@ import { categoryBadgeColor, categoryColor } from "../lib/products.ts";
 import { slugToTrain, trainSlug } from "../lib/url.ts";
 import { lineFor } from "../lib/lines.ts";
 import { liveMode } from "../lib/live.ts";
-import { country, countryOfPath } from "../lib/country.ts";
+import { country, countryOfPath, loadPerCountry } from "../lib/country.ts";
 import { useKeys } from "../lib/keys.ts";
 import { usePageTitle } from "../lib/title.ts";
 import type { TipContent } from "../lib/tip.ts";
@@ -301,9 +301,8 @@ useIntervalFn(() => (now.value = viennaNow()), 30_000);
 
 onMounted(async () => {
   if (indexFiles.length) {
-    const loaded = await Promise.all(
-      indexFiles.map(async ([p, load]) => [countryOfPath(p), (await load()).default] as const),
-    );
+    // each country on its own: a broken index leaves out only that country's sheets
+    const loaded = (await loadPerCountry(indexFiles)).map(([c, m]) => [c, m.default] as const);
     indexes.value = Object.fromEntries(loaded);
     list.value = loaded.flatMap(([c, ix]) => ix.corridors.map((e) => ({ ...e, country: c })));
     // old corridor ids (e.g. /bf/brenner) now live under their ÖBB number

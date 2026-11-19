@@ -49,3 +49,22 @@ export const countryOfStation = (hafasId: string): string | undefined =>
 export function ofCountry<T>(files: Record<string, T>, c: string): Record<string, T> {
   return Object.fromEntries(Object.entries(files).filter(([p]) => countryOfPath(p) === c));
 }
+
+/**
+ * load one file per country, each on its own: a country whose file fails to load (a broken data
+ * chunk, a subtle bug) is left out with a warning instead of failing the others. Returns the
+ * country id with each loaded value, the selected country first.
+ */
+export async function loadPerCountry<T>(
+  entries: (readonly [path: string, load: () => Promise<T>])[],
+): Promise<[country: string, value: T][]> {
+  const settled = await Promise.allSettled(
+    entries.map(async ([p, load]) => [countryOfPath(p), await load()] as [string, T]),
+  );
+  const out: [string, T][] = [];
+  settled.forEach((r, i) => {
+    if (r.status === "fulfilled") out.push(r.value);
+    else console.warn(`zugx: ${entries[i]![0]} not loaded, left out:`, r.reason);
+  });
+  return out.sort((a, b) => Number(b[0] === country.value) - Number(a[0] === country.value));
+}

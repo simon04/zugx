@@ -3,6 +3,7 @@ import type { TrainIndex } from "@zugx/trains";
 import { fromLocalInput, toLocalInput, viennaDate, viennaMinutes } from "./format.ts";
 import { normalize, searchKeys } from "./normalize.ts";
 import { categoryBadgeColor } from "./products.ts";
+import { loadPerCountry } from "./country.ts";
 import { _setStations, searchStations } from "./stations.ts";
 import { dayIndex, daysSummary, runsOnDay, type TrainEntry } from "./trains.ts";
 import { b64url, unb64url } from "./url.ts";
@@ -159,5 +160,22 @@ describe("Slovenian train colours (no category in the GTFS)", () => {
     expect(categoryBadgeColor("SŽ", "640")).toBe(categoryBadgeColor("IC"));
     expect(categoryBadgeColor("SŽ", "2502")).toBe(categoryBadgeColor("S"));
     expect(categoryBadgeColor("SŽ")).toBe(categoryBadgeColor("S"));
+  });
+});
+
+describe("countries are independent", () => {
+  it("a country whose file fails to load is left out, the others load", async () => {
+    const warn = console.warn;
+    console.warn = () => {};
+    try {
+      const got = await loadPerCountry([
+        ["/packages/x/data/stations.toml", async () => "at"],
+        ["/packages/x/data/si/stations.toml", async () => Promise.reject(new Error("broken"))],
+        ["/packages/x/data/es/stations.toml", async () => "es"],
+      ]);
+      expect(got.map(([c]) => c).sort()).toEqual(["at", "es"]);
+    } finally {
+      console.warn = warn;
+    }
   });
 });

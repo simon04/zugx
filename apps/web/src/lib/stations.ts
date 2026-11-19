@@ -1,5 +1,6 @@
 // Local station index of all countries: lazy-loaded, content-hashed chunks
 // (packages/stations/data/stations.toml, data/<country>/stations.toml).
+import { loadPerCountry } from "./country.ts";
 import { normalize, searchKeys, tokenPrefixMatch } from "./normalize.ts";
 
 export interface Station {
@@ -32,11 +33,14 @@ let loading: Promise<Indexed[]> | undefined;
 
 export function loadStations(): Promise<Indexed[]> {
   loading ??= (async () => {
-    const parts = await Promise.all(Object.values(STATION_FILES).map((load) => load()));
-    // a station listed by two countries (none so far): the first
+    // each country on its own: one that fails to load is left out, the others still work
+    const parts = await loadPerCountry(Object.entries(STATION_FILES));
+    // a station listed by two countries (none so far): the selected country's; broken entries
+    // (no id, no position) are skipped
     byId = new Map();
-    for (const p of parts)
-      for (const s of p.default.stations) if (!byId.has(s.id)) byId.set(s.id, s);
+    for (const [, p] of parts)
+      for (const s of p.default.stations ?? [])
+        if (s?.id && Number.isFinite(s.lat) && !byId.has(s.id)) byId.set(s.id, s);
     const list = [...byId.values()];
     index = list.map((s) => {
       const names = [s.name, ...(s.alias ?? [])];

@@ -3,7 +3,7 @@
 // a Trip without realtime data, so the train page can show them like any other.
 import type { Line, ProductId, Trip } from "@zugx/hafas";
 import { runsBucket, runsOn, type RunsFile } from "@zugx/trains";
-import { COUNTRIES, countryOfPath } from "./country.ts";
+import { COUNTRIES, loadPerCountry } from "./country.ts";
 import { LONG_DISTANCE, NIGHT, REGIONAL, SUBURBAN } from "./products.ts";
 import { loadStations, stationById } from "./stations.ts";
 
@@ -29,17 +29,19 @@ export async function timetableTrip(name: string, date: string): Promise<Trip | 
   const bucket = runsBucket(nr);
   const paths = Object.keys(files).filter((p) => p.endsWith(`/${bucket}.toml`));
   if (!paths.length) return undefined;
-  const [, ...loaded] = await Promise.all([
+  const [, loaded] = await Promise.all([
     loadStations(),
-    ...paths.map(async (p) => ({ p, f: (await files[p]!()).default })),
+    // each country on its own (a broken file doesn't hide the other countries' trains), the
+    // selected country first
+    loadPerCountry(paths.map((p) => [p, async () => (await files[p]!()).default] as const)),
   ]);
-  for (const { p, f } of loaded) {
+  for (const [countryId, f] of loaded) {
     const key = Object.keys(f.trains).find(
       (k) => k.endsWith(` ${nr}`) && (!cat || k.split(" ")[0] === cat.toUpperCase()),
     );
     const run = key && f.trains[key]!.find((r) => runsOn(r, date, f.begin));
     if (!key || !run) continue;
-    const country = COUNTRIES.find((c) => c.id === countryOfPath(p));
+    const country = COUNTRIES.find((x) => x.id === countryId);
     const midnight = Temporal.PlainDate.from(date).toZonedDateTime({
       timeZone: country?.timezone ?? "Europe/Vienna",
     });

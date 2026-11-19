@@ -11,19 +11,21 @@ import { normalize } from "../lib/normalize.ts";
 import { loadStations, type Station } from "../lib/stations.ts";
 import { usePageTitle } from "../lib/title.ts";
 import { liveMode } from "../lib/live.ts";
-import { country, countryOfStation } from "../lib/country.ts";
+import { country, countryOfStation, loadPerCountry } from "../lib/country.ts";
 
 const { t } = useI18n();
-/** operating-point abbreviations of all countries (station ids are unique across them) */
-const ABBR: Record<string, string> = Object.assign(
-  {},
-  ...Object.values(
+/**
+ * operating-point abbreviations of all countries (station ids are unique across them), each
+ * country on its own: a broken file leaves out only its abbreviations
+ */
+const abbr = shallowRef<Record<string, string>>({});
+void loadPerCountry(
+  Object.entries(
     import.meta.glob<Record<string, string>>("../../../../packages/stations/data/**/abbr.toml", {
-      eager: true,
       import: "default",
     }),
   ),
-);
+).then((parts) => (abbr.value = Object.assign({}, ...parts.reverse().map(([, a]) => a))));
 /** stations with a departure plan (the files are loaded only when opened) */
 const POSTERS = new Set(
   Object.keys(import.meta.glob("../../../../packages/trains/data/**/departures/*.toml")).map(
@@ -51,7 +53,7 @@ const q = computed({
 /** "Kitzbühel" instead of "Kitzbühel Bahnhof" */
 const short = (n: string) => n.replace(/\s+(Bahnhof|Bahnhst|Bhf)$/, "");
 /** lower-case abbreviations that exist */
-const KNOWN = new Set(Object.values(ABBR).map((a) => a.toLowerCase()));
+const known = computed(() => new Set(Object.values(abbr.value).map((a) => a.toLowerCase())));
 /**
  * search terms: comma-separated parts; a part of space-separated known abbreviations ("Kt Vb Vps")
  * splits further, anything else stays a name ("St. Veit")
@@ -63,7 +65,7 @@ const terms = computed(() =>
     .filter(Boolean)
     .flatMap((p) => {
       const ws = p.split(/\s+/);
-      return ws.length > 1 && ws.every((w) => KNOWN.has(w.toLowerCase())) ? ws : [p];
+      return ws.length > 1 && ws.every((w) => known.value.has(w.toLowerCase())) ? ws : [p];
     }),
 );
 /**
@@ -72,10 +74,10 @@ const terms = computed(() =>
  */
 function rankFor(s: Station, term: string, list: boolean): number | undefined {
   const lower = term.toLowerCase();
-  const a = ABBR[s.id]?.toLowerCase();
+  const a = abbr.value[s.id]?.toLowerCase();
   if (a === lower) return 0;
   // in a list of several terms, a known abbreviation means just that station
-  if (list && KNOWN.has(lower)) return undefined;
+  if (list && known.value.has(lower)) return undefined;
   if (a?.startsWith(lower)) return 1;
   const n = normalize(s.name);
   const t = normalize(term);
@@ -132,7 +134,7 @@ usePageTitle(() => [t("stations.title")]);
       <h2 v-if="l" :id="`l-${l}`" class="m-0 mb-1 text-base">{{ l }}</h2>
       <ul class="cols m-0 list-none p-0">
         <li v-for="s in ss" :key="s.id" class="row">
-          <span class="abbr mono" :class="!ABBR[s.id] && 'none'">{{ ABBR[s.id] ?? "" }}</span>
+          <span class="abbr mono" :class="!abbr[s.id] && 'none'">{{ abbr[s.id] ?? "" }}</span>
           <RouterLink :to="link(s)" class="name">{{ short(s.name) }}</RouterLink>
           <span class="cats">
             <LineBadge v-for="c in (s.p ?? []).slice(0, 4)" :key="c" :cat="c" small />
