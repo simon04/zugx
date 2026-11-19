@@ -93,10 +93,16 @@ export default defineConfig({
         navigateFallbackDenylist: [/^\/api\//, /\.txt$/],
         // big, rarely used data (67 Bildfahrplan corridors, 156 VzG lines, full train index): not precached on
         // install, cached on first use instead (hashed file names → cache-first is safe)
-        globIgnores: ["**/corridor-*.js", "**/vzg-*.js", "**/dep-*.js", "**/trains-*.full-*.js"],
+        globIgnores: [
+          "**/corridor-*.js",
+          "**/vzg-*.js",
+          "**/dep-*.js",
+          "**/runs-*.js",
+          "**/trains-*.full-*.js",
+        ],
         runtimeCaching: [
           {
-            urlPattern: /\/assets\/(corridor-|vzg-|dep-|trains-\d{4}\.full-)[^/]+\.js$/,
+            urlPattern: /\/assets\/(corridor-|vzg-|dep-|runs-|trains-\d{4}\.full-)[^/]+\.js$/,
             handler: "CacheFirst",
             options: { cacheName: "zugx-data", expiration: { maxEntries: 40 } },
           },
@@ -137,6 +143,9 @@ export default defineConfig({
           if (id.includes("/vzg/data/")) return "assets/vzg-[name]-[hash].js";
           if (/\/trains\/data\/(?:[a-z]{2}\/)?departures\//.test(id))
             return "assets/dep-[name]-[hash].js";
+          // stops and times of trains HAFAS doesn't know (runs-<year>/<nn>.toml)
+          if (/\/trains\/data\/(?:[a-z]{2}\/)?runs-\d{4}\//.test(id))
+            return "assets/runs-[name]-[hash].js";
           return "assets/[name]-[hash].js";
         },
       },
