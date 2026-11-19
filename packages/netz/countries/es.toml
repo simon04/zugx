@@ -1,0 +1,93 @@
+# Bildfahrplan sheets (corridors) of Spain, along the ADIF lines (OSM ref, packages/vzg/data/es):
+# the high-speed corridors from Madrid, the Mediterranean corridor and one Cercanías trunk. Anchors:
+# stop ids of the Renfe feeds (ADIF station codes) in corridor order (stations of the sheet between
+# them are found from the trains); see CorridorDef in src/corridors.ts.
+
+[[corridors]]
+id = "es-050"
+name = "Madrid – Zaragoza – Barcelona – Figueres (LAV)"
+anchors = [
+  "60000", # Madrid-Puerta de Atocha-Almudena Grandes
+  "04007", # Guadalajara-Yebes
+  "70600", # Calatayud
+  "04040", # Zaragoza Delicias
+  "78400", # Lleida-Pirineus
+  "04104", # Camp de Tarragona
+  "71801", # Barcelona-Sants
+  "79300", # Girona
+  "04307", # Figueres-Vilafant
+]
+# the high-speed line has no stations between the anchors: the conventional lines' stations
+# (Jalón valley, Huesca – Monzón, Granollers) belong to their own lines
+nonstop = ["60000", "04007", "70600", "04040", "78400", "04104", "71801", "79300"]
+
+[[corridors]]
+id = "es-010"
+name = "Madrid – Ciudad Real – Córdoba – Sevilla (LAV)"
+anchors = [
+  "60000", # Madrid-Puerta de Atocha-Almudena Grandes
+  "37200", # Ciudad Real
+  "37300", # Puertollano
+  "37704", # Villanueva de Córdoba-Los Pedroches
+  "50500", # Córdoba-Julio Anguita
+  "51003", # Sevilla-Santa Justa
+]
+nonstop = ["60000", "37200", "37300", "37704", "50500"]
+
+[[corridors]]
+id = "es-030"
+name = "Córdoba – Málaga (LAV)"
+anchors = [
+  "50500", # Córdoba-Julio Anguita
+  "54413", # Málaga María Zambrano
+]
+
+[[corridors]]
+id = "es-040"
+name = "Madrid – Cuenca – Valencia (LAV)"
+anchors = [
+  "60000", # Madrid-Puerta de Atocha-Almudena Grandes
+  "03208", # Cuenca-Fernando Zóbel
+  "03213", # Requena-Utiel
+  "03216", # València-Joaquín Sorolla
+]
+
+[[corridors]]
+id = "es-042"
+name = "Madrid – Albacete – Alicante (LAV)"
+anchors = [
+  "60000", # Madrid-Puerta de Atocha-Almudena Grandes
+  "03208", # Cuenca-Fernando Zóbel
+  "60600", # Albacete-Los Llanos
+  "03309", # Villena Alta Velocidad
+  "60911", # Alicante/Alacant-Terminal
+]
+nonstop = ["60000", "03208", "60600", "03309"]
+
+[[corridors]]
+id = "es-080"
+name = "Madrid – Segovia – Valladolid (LAV)"
+anchors = [
+  "17000", # Madrid-Chamartín-Clara Campoamor
+  "08004", # Segovia-Guiomar
+  "10600", # Valladolid-Campo Grande
+]
+
+[[corridors]]
+id = "es-600"
+name = "València – Castelló – Tarragona – Barcelona"
+anchors = [
+  "65000", # València-Estació del Nord
+  "65300", # Castelló de la Plana
+  "71500", # Tarragona
+  "71801", # Barcelona-Sants
+]
+
+[[corridors]]
+id = "es-200"
+name = "Madrid – Alcalá de Henares – Guadalajara (Cercanías C2)"
+anchors = [
+  "18000", # Madrid-Atocha Cercanías
+  "70103", # Alcalá de Henares
+  "70200", # Guadalajara
+]

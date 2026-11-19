@@ -9,7 +9,7 @@ import { CACHE_DIR, REPO_ROOT } from "./feed.ts";
 export interface Country {
   id: string;
   /** name per app language (UI, data headers) */
-  name: { de: string; en: string; it: string; sl: string };
+  name: { de: string; en: string; it: string; sl: string; es: string };
   /** UIC country code: station ids (HAFAS/UIC) of this country start with it, e.g. "81" */
   uic: string;
   timezone: string;

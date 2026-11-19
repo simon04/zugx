@@ -5,7 +5,7 @@
 # fix-ups run after the import.
 
 [at]
-name = { de = "Österreich", en = "Austria", it = "Austria", sl = "Avstrija" }
+name = { de = "Österreich", en = "Austria", it = "Austria", sl = "Avstrija", es = "Austria" }
 # UIC country code: station ids (HAFAS/UIC) of this country start with it
 uic = "81"
 timezone = "Europe/Vienna"
@@ -17,7 +17,7 @@ lineRef = '^\d{3} \d{2}$'
 licence = { name = "CC BY 4.0", url = "https://creativecommons.org/licenses/by/4.0/", source = "ÖBB GTFS", page = "https://data.oebb.at/de/datensaetze~soll-fahrplan-gtfs~" }
 
 [si]
-name = { de = "Slowenien", en = "Slovenia", it = "Slovenia", sl = "Slovenija" }
+name = { de = "Slowenien", en = "Slovenia", it = "Slovenia", sl = "Slovenija", es = "Eslovenia" }
 uic = "79"
 timezone = "Europe/Ljubljana"
 # the national timetable (IJPP) as published by DUJPP, linked from the NAP Slovenija dataset
@@ -45,6 +45,57 @@ fixups = [
     select route_id from routes
      where agency_id = '1161' and route_short_name glob 'Ž[0-9]*'
        and (route_type = 2 or route_type between 100 and 117))
+  """,
+  """
+  update trips set trip_headsign = (
+    select s.stop_name from stop_times st join stops s using (stop_id)
+     where st.trip_id = trips.trip_id order by st.stop_sequence desc limit 1)
+  where coalesce(trim(trip_headsign), '') = ''
+    and route_id in (select route_id from routes where route_type = 2 or route_type between 100 and 117)
+  """,
+]
+
+[es]
+name = { de = "Spanien", en = "Spain", it = "Spagna", sl = "Španija", es = "España" }
+uic = "71"
+timezone = "Europe/Madrid"
+# Renfe's own open data portal (data.renfe.com, CC BY 4.0 on the dataset pages and in the CKAN
+# metadata, licence check 2026-11-19): high-speed, long-distance and regional (AV/LD/MD) and the
+# Cercanías/Rodalies networks. Not the NAP copies: the NAP licence adds share-alike and "Powered by
+# MITRAMS", and the stricter one prevails. Renfe's conditions: cite "Origen de los datos: Renfe
+# Operadora" with the update date, don't distort the data or suggest Renfe endorses the reuse.
+feeds = [
+  "https://ssl.renfe.com/gtransit/Fichero_AV_LD/google_transit.zip",
+  "https://ssl.renfe.com/ftransit/Fichero_CER_FOMENTO/fomento_transit.zip",
+]
+osm = "spain"
+# ADIF line numbers in OSM (route=tracks ref, e.g. "100" Madrid-Chamartín – Hendaye)
+lineRef = '^\d{3}$'
+# reference day of the Bildfahrplan sheets: a regular Tuesday (the Cercanías feed covers ~1 month)
+day = "2026-11-24"
+licence = { name = "CC BY 4.0", url = "https://creativecommons.org/licenses/by/4.0/", source = "Renfe Operadora (data.renfe.com)", page = "https://data.renfe.com/dataset/horarios-de-alta-velocidad-larga-distancia-y-media-distancia" }
+# The Cercanías feed pads its fields with spaces; the AV/LD/MD feed has zero-padded train numbers
+# ("00190") and Renfe's product names as the route name; the Cercanías feed has no train number
+# field (it's the block id after the service id: "1021X19799" → 19799) and its route is the line
+# (C1, R2N): the train is "C <number>", its line the route. Neither feed has headsigns.
+fixups = [
+  "update routes set route_id = trim(route_id), route_short_name = trim(route_short_name), route_long_name = trim(route_long_name)",
+  "update trips set trip_id = trim(trip_id), route_id = trim(route_id), service_id = trim(service_id), block_id = trim(block_id), trip_headsign = trim(trip_headsign), shape_id = trim(shape_id)",
+  "update stop_times set trip_id = trim(trip_id), stop_id = trim(stop_id) where trip_id <> trim(trip_id) or stop_id <> trim(stop_id)",
+  "update stops set stop_id = trim(stop_id), stop_name = trim(stop_name)",
+  """
+  update trips set trip_short_name = (
+    select case r.route_short_name
+      when 'AVE' then 'AVE' when 'AVLO' then 'AVLO' when 'AVANT' then 'AVANT'
+      when 'AVANT EXP' then 'AVANT' when 'AVE Euromed' then 'EM' when 'Intercity' then 'IC'
+      when 'Regional' then 'REG' else upper(r.route_short_name) end
+    from routes r where r.route_id = trips.route_id) || ' ' || ltrim(trip_short_name, '0')
+  where trip_short_name glob '[0-9]*'
+  """,
+  """
+  update trips set trip_short_name = 'C ' || ltrim(substr(block_id, length(service_id) + 1), '0')
+  where coalesce(trip_short_name, '') = '' and block_id like service_id || '%'
+    and route_id in (select route_id from routes where route_type = 2)
   """,
   """
   update trips set trip_headsign = (

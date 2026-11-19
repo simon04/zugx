@@ -7,7 +7,7 @@ import countriesToml from "@zugx/gtfs/countries.toml";
 
 export interface CountryInfo {
   id: string;
-  name: { de: string; en: string; it: string; sl: string };
+  name: { de: string; en: string; it: string; sl: string; es: string };
   /** UIC country code: its HAFAS station ids start with it ("81", "79") */
   uic: string;
   /** licence of its timetable data (attribution) */

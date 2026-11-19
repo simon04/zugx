@@ -17,7 +17,9 @@ async function main() {
   await importGtfs({
     sqlitePath: DB_PATH,
     agencies: feeds.map((f) => ({ path: f.path, exclude: ["shapes", "pathways", "levels"] })),
-    ignoreDuplicates: false,
+    // several feeds of one country may share rows (Renfe: AV/LD/MD and Cercanías list the same
+    // stations under the same ADIF ids): the first feed's row is kept
+    ignoreDuplicates: feeds.length > 1,
     verbose: true,
   });
   const country = currentCountry();

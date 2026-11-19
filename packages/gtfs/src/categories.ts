@@ -5,6 +5,9 @@ export const CATEGORY_ORDER = [
   "RJX",
   "RJ",
   "ICE",
+  "AVE",
+  "AVLO",
+  "EM",
   "ECE",
   "TGV",
   "FR",
@@ -16,6 +19,7 @@ export const CATEGORY_ORDER = [
   "IR",
   "D",
   "WB",
+  "AVANT",
   "CAT",
   "ATB",
   "SP",
@@ -27,7 +31,9 @@ export const CATEGORY_ORDER = [
   "RR",
   "OS",
   "R",
+  "REG",
   "S",
+  "C",
 ] as const;
 
 /** Long-distance + night categories: the default train index (everything else is in the full one). */
@@ -47,8 +53,12 @@ export const LONG_DISTANCE_CATEGORIES: readonly string[] = [
   "D",
   "WB",
   // other countries' long-distance trains: Slovenia InterCity Slovenija, Croatia international,
-  // Montenegro / Serbia brzi voz, Bulgaria бърз, експресен, международен бърз влак
+  // Montenegro / Serbia brzi voz, Bulgaria бърз, експресен, международен бърз влак; Spain
+  // (Renfe) AVE, AVLO (low-cost AVE), Euromed
   "ICS",
+  "AVE",
+  "AVLO",
+  "EM",
   "INT",
   "B",
   "BV",

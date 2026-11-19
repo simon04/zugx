@@ -14,6 +14,10 @@ const DATA = dataDir("trains", COUNTRY);
 
 /** route_short_name → line for a category: "S1" → "S 1", "RX50" for REX → "REX 50" */
 export function lineOf(cat: string, routeShort: string): string | undefined {
+  // Spain: Cercanías/Rodalies trains ("C 19799") run in lines named as Renfe writes them (C1, C4a,
+  // R2N, RG1, T1)
+  if (cat === "C")
+    return /^[A-Z]{1,2}\d+[A-Za-z]{0,2}$/.test(routeShort.trim()) ? routeShort.trim() : undefined;
   const m = /^([A-Z]+)(\d+)$/.exec(routeShort.trim());
   if (!m) return undefined;
   const rc = m[1] === "RX" ? "REX" : m[1];
