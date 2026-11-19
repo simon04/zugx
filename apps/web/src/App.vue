@@ -86,6 +86,8 @@ interface NavItem {
   to: string;
   key: MessageKey;
   live?: boolean;
+  /** only for these countries (the others: struck through in the navbar, still reachable) */
+  countries?: string[];
 }
 const nav: { main?: boolean; items: NavItem[] }[] = [
   {
@@ -106,7 +108,7 @@ const nav: { main?: boolean; items: NavItem[] }[] = [
   {
     items: [
       { to: "/bf", key: "nav.bildfahrplan" },
-      { to: "/netz", key: "nav.netz" },
+      { to: "/netz", key: "nav.netz", countries: ["at"] },
     ],
   },
   {
@@ -118,6 +120,9 @@ const nav: { main?: boolean; items: NavItem[] }[] = [
   { main: true, items: [{ to: "/help", key: "nav.help" }] },
 ];
 /** the entry of the current page (/vzg/netz is the network map, not the line index) */
+/** a feature not (yet) available for the selected country */
+const missing = (n: NavItem) => !!n.countries && !n.countries.includes(country.value);
+
 function isActive(to: string): boolean {
   const p = route.path;
   if (to === "/") return p === "/" || p.startsWith("/j/") || p.startsWith("/trip/") || p === "/s";
@@ -214,8 +219,13 @@ const shortcuts: [string, string][] = [
               <RouterLink
                 :to="n.to"
                 class="block whitespace-nowrap text-[var(--muted)] hover:text-[var(--fg)]"
-                :class="[!navWide && 'px-3 py-2', isActive(n.to) && '!text-[var(--fg)]']"
+                :class="[
+                  !navWide && 'px-3 py-2',
+                  isActive(n.to) && '!text-[var(--fg)]',
+                  missing(n) && 'line-through',
+                ]"
                 :aria-current="isActive(n.to) ? 'page' : undefined"
+                v-tip="missing(n) ? $t('nav.notInCountry') : undefined"
                 @click="closeMenu"
                 >{{ $t(n.key)
                 }}<span

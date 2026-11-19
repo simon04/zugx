@@ -48,6 +48,7 @@ export default {
     countryTip:
       "Paese delle panoramiche: treni, orari grafici, linee, mappa della rete, stazioni (ricerca e viaggi coprono tutti i paesi)",
     liveNone: "Il tempo reale è disponibile solo per l’Austria",
+    notInCountry: "non ancora disponibile per questo paese",
     liveOnly: "sempre in tempo reale",
   },
   search: {

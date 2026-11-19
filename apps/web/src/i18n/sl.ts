@@ -45,6 +45,7 @@ export default {
     countryTip:
       "Država preglednih strani: vlaki, grafikoni voznega reda, proge, zemljevid omrežja, postaje (iskanje in povezave zajemajo vse države)",
     liveNone: "Podatki v realnem času so na voljo samo za Avstrijo",
+    notInCountry: "za to državo še ni na voljo",
     liveOnly: "vedno v realnem času",
   },
   search: {
