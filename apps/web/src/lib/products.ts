@@ -105,9 +105,19 @@ export function lineColor(line?: Pick<Line, "category" | "product" | "operator">
   return onSurface(lineBadgeColor(line));
 }
 
-/** colour of a category as a line or text (depends on light/dark) */
-export function categoryColor(cat: string): string {
-  return onSurface(categoryBadgeColor(cat));
+/**
+ * the category whose colour a train gets: Slovenian trains carry no category in the GTFS ("SŽ
+ * 4205"); by number, below 1000 are the long-distance trains (IC, EC, ICS), the others regional and
+ * suburban — the category alone (legend, filters) counts as the latter, the majority
+ */
+function colorCategory(cat: string, nr?: string): string {
+  if (cat === "SŽ") return nr && /^\d+$/.test(nr) && Number(nr) < 1000 ? "IC" : "S";
+  return cat;
+}
+
+/** colour of a category (and train number, see colorCategory) as a line or text (light/dark) */
+export function categoryColor(cat: string, nr?: string): string {
+  return onSurface(categoryBadgeColor(cat, nr));
 }
 
 /** background of a badge with white text (the same in light and dark) */
@@ -122,7 +132,8 @@ export function lineBadgeColor(line: Pick<Line, "category" | "product" | "operat
 }
 
 /** background of a category badge with white text (the same in light and dark) */
-export function categoryBadgeColor(cat: string): string {
+export function categoryBadgeColor(cat: string, nr?: string): string {
+  cat = colorCategory(cat, nr);
   return (
     CAT_COLORS[cat] ?? (SUBURBAN.has(cat) ? "#1659c9" : REGIONAL.has(cat) ? "#2773d1" : "#6b6b6b")
   );

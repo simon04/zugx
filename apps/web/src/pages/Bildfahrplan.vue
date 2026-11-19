@@ -699,7 +699,7 @@ function trainTip(tr: CorridorTrain): TipContent {
   return {
     badge: {
       text: lineFor(tr.cat, tr.nr) ? `${lineFor(tr.cat, tr.nr)} · ${tr.nr}` : `${tr.cat} ${tr.nr}`,
-      color: categoryBadgeColor(tr.cat),
+      color: categoryBadgeColor(tr.cat, tr.nr),
     },
     lines: [
       [tr.origin, tr.headsign].filter(Boolean).join(" → "),
@@ -730,7 +730,7 @@ const liveDrawn = computed(() => {
     .filter((r) => !hidden.value.has(r.cat) && showsDir(r.pts.at(-1)!.i >= r.pts[0]!.i ? 1 : -1))
     .map((r) => ({
       r,
-      color: categoryColor(r.cat),
+      color: categoryColor(r.cat, r.nr),
       ...livePaths(r, xi, y, nowMin, c.bypass),
     }))
     .filter((p) => p.past || p.future);
@@ -763,7 +763,7 @@ const drawn = computed<Drawn[]>(() => {
     out.push({
       t,
       d: path,
-      color: categoryColor(t.cat),
+      color: categoryColor(t.cat, t.nr),
       label: mid ? { x: mid[0], y: mid[1] } : undefined,
       ...(live ? { live } : {}),
     });
@@ -1283,9 +1283,9 @@ watch([plan, nodeHafas, date, t0, t1, nodeAll], () => void loadNodeBoards(), {
               :y="y(b.start)"
               :width="Math.max(1, Math.abs(x(b.to) - x(b.from)))"
               :height="Math.max(1, y(b.end) - y(b.start))"
-              :fill="b.conflict ? 'var(--bad)' : categoryColor(b.t.cat)"
+              :fill="b.conflict ? 'var(--bad)' : categoryColor(b.t.cat, b.t.nr)"
               :fill-opacity="b.conflict ? 0.45 : hover && hover === b.t ? 0.45 : 0.16"
-              :stroke="b.conflict ? 'var(--bad)' : categoryColor(b.t.cat)"
+              :stroke="b.conflict ? 'var(--bad)' : categoryColor(b.t.cat, b.t.nr)"
               :stroke-opacity="b.conflict ? 0.9 : b.res ? 0.8 : 0.35"
               :stroke-width="b.res ? 0.8 : 0.5"
               :stroke-dasharray="b.res ? '3 2' : undefined"

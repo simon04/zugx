@@ -36,7 +36,7 @@ const title = computed(() => {
   return parts.filter(Boolean).join(" · ") || undefined;
 });
 const color = computed(() =>
-  props.line ? lineBadgeColor(props.line) : categoryBadgeColor(props.cat ?? ""),
+  props.line ? lineBadgeColor(props.line) : categoryBadgeColor(props.cat ?? "", props.nr),
 );
 </script>
 

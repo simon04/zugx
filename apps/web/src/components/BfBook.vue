@@ -188,7 +188,7 @@ watch(
               :data-c="c"
               :data-run="runs.indexOf(r)"
               :class="hover === r.t && 'hovered'"
-              :style="{ color: categoryColor(r.t.cat) }"
+              :style="{ color: categoryColor(r.t.cat, r.t.nr) }"
             >
               <RouterLink
                 :to="{ query: { ...$route.query, train: trainSlug(`${r.t.cat} ${r.t.nr}`) } }"
@@ -241,7 +241,7 @@ watch(
               :data-c="c"
               class="mono"
               :class="hover === r.t && 'hovered'"
-              :style="{ color: categoryColor(r.t.cat) }"
+              :style="{ color: categoryColor(r.t.cat, r.t.nr) }"
             >
               <span v-if="cell(r, row) === '|'" class="pass" />
               <template v-else-if="live && cell(r, row) && liveAt(r, row)"

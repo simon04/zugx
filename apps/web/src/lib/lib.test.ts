@@ -2,6 +2,7 @@ import { describe, expect, it } from "vite-plus/test";
 import type { TrainIndex } from "@zugx/trains";
 import { fromLocalInput, toLocalInput, viennaDate, viennaMinutes } from "./format.ts";
 import { normalize, searchKeys } from "./normalize.ts";
+import { categoryBadgeColor } from "./products.ts";
 import { _setStations, searchStations } from "./stations.ts";
 import { dayIndex, daysSummary, runsOnDay, type TrainEntry } from "./trains.ts";
 import { b64url, unb64url } from "./url.ts";
@@ -150,5 +151,13 @@ describe("running days tooltip", () => {
     const tip = daysTooltip(ec164!, idx, "de-AT", labels);
     expect(tip).toMatch(/^Verkehrt täglich\n\d+ Tage, 14\.12\.2025 – 12\.12\.2026\nNicht am: /);
     expect(daysSummary(ec164!, idx, labels)).toMatch(/^täglich −\d+$/);
+  });
+});
+
+describe("Slovenian train colours (no category in the GTFS)", () => {
+  it("colours SŽ trains below 1000 like IC, the others like S", () => {
+    expect(categoryBadgeColor("SŽ", "640")).toBe(categoryBadgeColor("IC"));
+    expect(categoryBadgeColor("SŽ", "2502")).toBe(categoryBadgeColor("S"));
+    expect(categoryBadgeColor("SŽ")).toBe(categoryBadgeColor("S"));
   });
 });
