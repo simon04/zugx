@@ -3,7 +3,8 @@ import type { TrainIndex } from "@zugx/trains";
 import { fromLocalInput, toLocalInput, viennaDate, viennaMinutes } from "./format.ts";
 import { normalize, searchKeys } from "./normalize.ts";
 import { categoryBadgeColor } from "./products.ts";
-import { loadPerCountry } from "./country.ts";
+import countriesToml from "@zugx/gtfs/countries.toml";
+import { COUNTRIES, completeCountry, loadPerCountry } from "./country.ts";
 import { _setStations, searchStations } from "./stations.ts";
 import { dayIndex, daysSummary, runsOnDay, type TrainEntry } from "./trains.ts";
 import { b64url, unb64url } from "./url.ts";
@@ -164,6 +165,11 @@ describe("Slovenian train colours (no category in the GTFS)", () => {
 });
 
 describe("countries are independent", () => {
+  it("every country in countries.toml is complete (else it's left out of the app)", () => {
+    for (const [id, c] of Object.entries(countriesToml as Record<string, object>))
+      expect(completeCountry(c), id).toBe(true);
+    expect(COUNTRIES.length).toBe(Object.keys(countriesToml).length);
+  });
   it("a country whose file fails to load is left out, the others load", async () => {
     const warn = console.warn;
     console.warn = () => {};

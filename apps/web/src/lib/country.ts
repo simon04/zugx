@@ -16,9 +16,28 @@ export interface CountryInfo {
   licence: { name: string; url: string; source: string; page: string };
 }
 
+/** a usable country entry: everything the selector, footer and data lookups read */
+export function completeCountry(c: Partial<Omit<CountryInfo, "id">> | undefined): boolean {
+  return (
+    !!c &&
+    !!c.uic &&
+    !!c.timezone &&
+    !!c.name &&
+    (["de", "en", "it", "sl", "es"] as const).every((l) => !!c.name![l]) &&
+    !!c.licence &&
+    (["name", "url", "source", "page"] as const).every((k) => !!c.licence![k])
+  );
+}
+
+/** the countries; an incomplete entry is left out (with a warning), not breaking the others */
 export const COUNTRIES: CountryInfo[] = Object.entries(
-  countriesToml as Record<string, Omit<CountryInfo, "id">>,
-).map(([id, c]) => ({ id, name: c.name, uic: c.uic, timezone: c.timezone, licence: c.licence }));
+  countriesToml as Record<string, Partial<Omit<CountryInfo, "id">>>,
+).flatMap(([id, c]) => {
+  if (completeCountry(c))
+    return [{ id, name: c.name!, uic: c.uic!, timezone: c.timezone!, licence: c.licence! }];
+  console.warn(`zugx: country "${id}" in countries.toml is incomplete, left out`);
+  return [];
+});
 
 export const DEFAULT_COUNTRY = "at";
 const known = (id: unknown): id is string => COUNTRIES.some((c) => c.id === id);
