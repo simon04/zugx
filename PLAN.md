@@ -1058,6 +1058,21 @@ Next: GTFS-RT (derp.si) for the Live switch in Slovenia; dedupe the cross-border
 
 **Open decisions**: (1) scope of the first step — (a) station index, departure plan, train index, timetable search (recommended) or (b) also Bildfahrplan sheets (SŽ has no ÖBB-style sheets; corridors along OSM lines?); (2) GTFS (anonymous) or NeTEx (registration) — start with GTFS; (3) ~~update rhythm~~ — decided: no automatic updates; (4) ~~country switch~~ — decided: country selector in the menu.
 
+### Spain (built 2026-11-19)
+
+**Decided (2026-11-19)**: everything like Slovenia (stations, trains, departure plans, timetable search, VzG lines, Bildfahrplan sheets); both Renfe feeds from data.renfe.com (AV/LD/MD + Cercanías, CC BY 4.0, licence check in docs/europe-rail-data.md; not the NAP copies); routing merged with AT + SI (ids `es:`); Spanish UI. OSM extract: `.cache/spain-261117.osm.pbf` (1.5 GB).
+
+**Findings**:
+
+- AV/LD/MD feed: train numbers zero-padded in `trip_short_name`, Renfe's product as the route name (AVE, AVLO, AVANT, AVANT EXP, AVE Euromed, Intercity, Regional) → AVE, AVLO, AVANT, EM, IC, REG; no headsigns, no shapes; valid to 2027-09. Cercanías feed: fields padded with spaces, no train number field (block id = service id + number), route = line (C1, R2N, RG1, T1 Cádiz tram-train; BUS/ER24 are buses), shapes; only ~1 month ahead.
+- HAFAS (ÖBB) names Renfe trains its own way (AVL, ARC = Arco/Alvia/Avant/Intercity, IR = Regional, EM, AVE) and knows **no Cercanías trains**; the train page finds Renfe trains by number + operator. HAFAS station ids are mostly `71` + ADIF code (Gualba 79105 → 7179105), major stations 7100xxx; **700 of 1477 stops aren't in HAFAS** (Majadahonda, Calafell, FEVE): left out of the station index, departure plans under GTFS ids.
+- OSM ways carry ADIF line numbers as `ref` ("050", "100"): 175 lines; few `route=tracks` relations. Line names partly in Catalan/Basque/Galician (`name`).
+- Live: none for Spain (HAFAS knows only long-distance trains; Renfe has GTFS-RT — a later step).
+
+**Built**: 752 stations, 8,017 trains (381 long-distance), 751 departure plans, 6,783 Cercanías lines, 175 lines, 8 sheets (es-050, -010, -030, -040, -042, -080 high-speed with `nonstop`, es-600 Mediterranean, es-200 C2).
+
+Next: stations not in HAFAS (GTFS-only stations, id `71` + ADIF code?); prefer `name:es` for line names; Renfe GTFS-RT for Live; shapes from the Cercanías zip (sheets/density show 0 shapes); more sheets (Cercanías Madrid/Barcelona, Galicia, North).
+
 ## Sources
 
 - public-transport-enabler `OebbProvider`: https://github.com/schildbach/public-transport-enabler/blob/master/src/de/schildbach/pte/OebbProvider.java

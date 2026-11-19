@@ -15,6 +15,16 @@ COUNTRY=si vp run route:export      # routing input → packages/route/data/si/t
 vp run route:build                  # timetable search over all countries, from the committed input
 ```
 
+Spain the same way (`COUNTRY=es`; Renfe's train names aren't HAFAS's, so skip the name lookups with `NAMES=0`; the Cercanías lines come from `lines:build`):
+
+```sh
+COUNTRY=es vp run db:build && COUNTRY=es vp run stations:build
+COUNTRY=es NAMES=0 vp run trains:build && COUNTRY=es vp run departures:build && COUNTRY=es vp run lines:build
+COUNTRY=es vp run vzg:extract && COUNTRY=es vp run vzg:build && COUNTRY=es vp run vzg:boundaries
+COUNTRY=es vp run stations:abbr && COUNTRY=es vp run netz:build && COUNTRY=es vp run route:export
+vp run route:build
+```
+
 The diagram shows the Austrian pipeline; the others are the same.
 
 ```mermaid
