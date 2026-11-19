@@ -116,7 +116,16 @@ function countryTables(c: Country, days: string[]) {
 function writeRoutingGtfs() {
   const days = windowDays();
   const countries = Object.values(COUNTRIES);
-  const parts = countries.map((c) => countryTables(c, days));
+  // each country on its own: one whose input fails to read is left out of the search (with a
+  // warning) instead of failing the build — and with it the deploy — for every country
+  const parts = countries.flatMap((c) => {
+    try {
+      return [{ ...countryTables(c, days), country: c }];
+    } catch (e) {
+      console.warn(`route: ${c.id}: routing input not usable, left out —`, e);
+      return [];
+    }
+  });
   const all = <K extends "trips" | "stopTimes" | "stops" | "dates">(k: K) =>
     parts.flatMap((t) => t[k]);
   const trains = new Set(parts.flatMap((t) => t.names));
@@ -126,7 +135,7 @@ function writeRoutingGtfs() {
       [
         [
           "zugx",
-          countries.map((c) => c.licence.source).join(", "),
+          parts.map((t) => t.country.licence.source).join(", "),
           "https://zugx.legner.me",
           "Europe/Vienna",
         ],
@@ -168,12 +177,10 @@ function writeRoutingGtfs() {
   // a HAFAS id mapped in several feeds (border stations): the station of its own country's feed
   // (UIC prefix: Ljubljana 79… → the Slovenian feed, which has all its trains), else the first
   const hafas: Record<string, string> = {};
-  parts.forEach((t, i) => {
-    for (const [h, g] of t.hafas)
-      if (!(h in hafas) || h.startsWith(countries[i]!.uic)) hafas[h] = g;
-  });
+  for (const t of parts)
+    for (const [h, g] of t.hafas) if (!(h in hafas) || h.startsWith(t.country.uic)) hafas[h] = g;
   return {
-    countries: countries.filter((_, i) => parts[i]!.files).map((c) => c.id),
+    countries: parts.filter((t) => t.files).map((t) => t.country.id),
     trains: trains.size,
     trips: parts.reduce((n, t) => n + t.trips.length, 0),
     hafas,
