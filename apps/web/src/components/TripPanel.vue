@@ -10,6 +10,7 @@ import Status from "./Status.vue";
 import TrainParts from "./TrainParts.vue";
 import TripStops from "./TripStops.vue";
 import { api } from "../lib/api.ts";
+import { findTrains } from "../lib/find-train.ts";
 import { delayColor, fmtSignedDelay } from "../lib/delay.ts";
 import { fromLocalInput } from "../lib/format.ts";
 import { useKeys } from "../lib/keys.ts";
@@ -28,17 +29,10 @@ const trip = shallowRef<Trip>();
 const error = ref<string>();
 const now = ref(Date.now());
 
-/** the HAFAS journey of a train name on a day (exact category and number), if unambiguous */
+/** the HAFAS journey of a train name on a day (exact category/operator and number, if any) */
 async function findJourney(name: string, date: string): Promise<string | undefined> {
   const when = fromLocalInput(date) || Temporal.Now.instant();
-  const found = await api().tripsByName(name, when);
-  const [cat, nr] = name.split(" ");
-  const exact = found.filter(
-    (m) =>
-      (m.line.trainNumber ?? m.line.number) === nr &&
-      m.line.category.toUpperCase() === cat?.toUpperCase(),
-  );
-  return (exact[0] ?? found[0])?.journeyId;
+  return (await findTrains(name, when))[0]?.journeyId;
 }
 
 let jid: string | undefined;

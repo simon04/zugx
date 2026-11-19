@@ -10,6 +10,7 @@ import TrainParts from "../components/TrainParts.vue";
 import TripStops from "../components/TripStops.vue";
 import Status from "../components/Status.vue";
 import { api } from "../lib/api.ts";
+import { findTrains } from "../lib/find-train.ts";
 import { addDays, fromLocalInput, hhmm, ms } from "../lib/format.ts";
 import { delayColor, fmtSignedDelay } from "../lib/delay.ts";
 import { lineColor } from "../lib/products.ts";
@@ -38,14 +39,7 @@ async function load(background = false) {
     if (!isJourneyId(jid)) {
       const name = slugToTrain(jid);
       const when = (date.value && fromLocalInput(date.value)) || Temporal.Now.instant();
-      const found = await api().tripsByName(name, when);
-      const [cat, nr] = name.includes(" ") ? name.split(" ") : ["", name];
-      const exact = found.filter(
-        (m) =>
-          (m.line.trainNumber ?? m.line.number) === nr &&
-          (!cat || m.line.category.toUpperCase() === cat!.toUpperCase()),
-      );
-      matches.value = exact.length ? exact : found;
+      matches.value = await findTrains(name, when);
       if (matches.value.length !== 1) {
         trip.value = undefined;
         if (!matches.value.length) error.value = "notFound";
