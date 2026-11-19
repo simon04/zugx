@@ -127,6 +127,7 @@ export default {
     map: "Mappa",
     remarks: "Informazioni",
     runningDays: "Giorni di circolazione",
+    fromTimetable: "Dall’orario – nessun dato in tempo reale per questo treno.",
     notFound: "Treno non trovato.",
     pickDate: "Data",
     delayProfile: "Ritardo lungo il percorso",

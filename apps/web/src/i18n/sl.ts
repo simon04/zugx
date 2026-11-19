@@ -126,6 +126,7 @@ export default {
     map: "Zemljevid",
     remarks: "Informacije",
     runningDays: "Dnevi vožnje",
+    fromTimetable: "Iz voznega reda – za ta vlak ni podatkov v realnem času.",
     notFound: "Vlak ni najden.",
     pickDate: "Datum",
     delayProfile: "Zamuda vzdolž poti",

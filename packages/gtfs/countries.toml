@@ -74,6 +74,8 @@ lineRef = '^\d{3}$'
 # stations ÖBB HAFAS doesn't know (700 of 1477: many Cercanías and FEVE stops): "71" + ADIF code,
 # as HAFAS numbers most Spanish stations (Gualba 79105 → 7179105)
 localStationPrefix = "71"
+# HAFAS knows no Cercanías trains: their stops and times from the timetable for the train page
+trainRuns = true
 # reference day of the Bildfahrplan sheets: a regular Tuesday (the Cercanías feed covers ~1 month)
 day = "2026-11-24"
 licence = { name = "CC BY 4.0", url = "https://creativecommons.org/licenses/by/4.0/", source = "Renfe Operadora (data.renfe.com)", page = "https://data.renfe.com/dataset/horarios-de-alta-velocidad-larga-distancia-y-media-distancia" }

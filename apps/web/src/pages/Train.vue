@@ -11,7 +11,8 @@ import TripStops from "../components/TripStops.vue";
 import Status from "../components/Status.vue";
 import { api } from "../lib/api.ts";
 import { findTrains } from "../lib/find-train.ts";
-import { addDays, fromLocalInput, hhmm, ms } from "../lib/format.ts";
+import { addDays, fromLocalInput, hhmm, ms, viennaDate } from "../lib/format.ts";
+import { timetableTrip } from "../lib/train-runs.ts";
 import { delayColor, fmtSignedDelay } from "../lib/delay.ts";
 import { lineColor } from "../lib/products.ts";
 import { isJourneyId, slugToTrain, trainSlug } from "../lib/url.ts";
@@ -29,6 +30,8 @@ const trip = shallowRef<Trip>();
 const matches = shallowRef<TripMatch[]>([]);
 const loading = ref(false);
 const error = ref<string>();
+/** the trip comes from the timetable (HAFAS doesn't know the train): no realtime data */
+const fromTimetable = ref(false);
 const now = ref(Date.now());
 
 async function load(background = false) {
@@ -40,13 +43,22 @@ async function load(background = false) {
       const name = slugToTrain(jid);
       const when = (date.value && fromLocalInput(date.value)) || Temporal.Now.instant();
       matches.value = await findTrains(name, when);
+      if (!matches.value.length) {
+        // not in HAFAS (Spain: Cercanías): the train from the timetable, without realtime data
+        const day = date.value || viennaDate();
+        trip.value = await timetableTrip(name, day);
+        fromTimetable.value = !!trip.value;
+        if (trip.value) document.title = `${trip.value.line.name} → ${trip.value.direction} · zugx`;
+        else error.value = "notFound";
+        return;
+      }
       if (matches.value.length !== 1) {
         trip.value = undefined;
-        if (!matches.value.length) error.value = "notFound";
         return;
       }
       jid = matches.value[0]!.journeyId;
     }
+    fromTimetable.value = false;
     trip.value = await api(background).trip(jid, true);
     document.title = `${trip.value.line.name} → ${trip.value.direction} · zugx`;
   } catch (e) {
@@ -60,7 +72,7 @@ watch([id, date], () => load());
 onMounted(() => load());
 useAutoRefresh(() => {
   now.value = Date.now();
-  if (trip.value) void load(true);
+  if (trip.value && !fromTimetable.value) void load(true);
 }, 30_000);
 
 const t = (s: Stopover) => ms(s.dep?.actual ?? s.dep?.planned ?? s.arr?.actual ?? s.arr?.planned);
@@ -153,6 +165,7 @@ function goDay(delta: number) {
     </ul>
 
     <template v-if="trip">
+      <p v-if="fromTimetable" class="muted m-0 mb-1 text-xs">{{ $t("trip.fromTimetable") }}</p>
       <div class="flex flex-wrap items-center gap-2">
         <LineBadge :line="trip.line" />
         <h1 class="m-0 text-xl">→ {{ trip.direction }}</h1>
@@ -192,7 +205,7 @@ function goDay(delta: number) {
       <div class="grid gap-3 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
         <div class="card p-3">
           <h2 class="muted m-0 mb-1 text-xs uppercase">{{ $t("trip.delayProfile") }}</h2>
-          <DelaySparkline :stops="trip.stopovers" />
+          <DelaySparkline v-if="!fromTimetable" :stops="trip.stopovers" />
           <TripStops :trip="trip" :now="now" class="mt-2" />
         </div>
         <MapView

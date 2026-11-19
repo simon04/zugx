@@ -111,3 +111,24 @@ const longDistance = new Set(LONG_DISTANCE_CATEGORIES);
 
 /** Is this a long-distance / night train (i.e. part of the default index)? */
 export const isLongDistance = (e: { cat: string }) => longDistance.has(e.cat);
+
+/** a stop of a run: station id, arrival and departure in minutes after midnight of the start day */
+export type RunStop = [id: string, arr: number, dep: number];
+/** a train's stops with times on a set of days (runs-<year>/<nn>.toml, Country.trainRuns) */
+export interface TrainRun {
+  /** running days, base64 bitset from the file's `begin` (like TrainEntry.days) */
+  days: string;
+  stops: RunStop[];
+}
+/** a runs file: the trains whose numbers end in its two digits */
+export interface RunsFile {
+  year: number;
+  begin: string;
+  end: string;
+  source: string;
+  /** names of stations outside the country's station index */
+  stations: Record<string, string>;
+  trains: Record<string, TrainRun[]>;
+}
+/** the runs file of a train number: its last two digits ("19799" → "99", "7" → "07") */
+export const runsBucket = (nr: string) => nr.replace(/\D/g, "").padStart(2, "0").slice(-2);

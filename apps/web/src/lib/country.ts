@@ -10,13 +10,15 @@ export interface CountryInfo {
   name: { de: string; en: string; it: string; sl: string; es: string };
   /** UIC country code: its HAFAS station ids start with it ("81", "79") */
   uic: string;
+  /** time zone of its timetable */
+  timezone: string;
   /** licence of its timetable data (attribution) */
   licence: { name: string; url: string; source: string; page: string };
 }
 
 export const COUNTRIES: CountryInfo[] = Object.entries(
   countriesToml as Record<string, Omit<CountryInfo, "id">>,
-).map(([id, c]) => ({ id, name: c.name, uic: c.uic, licence: c.licence }));
+).map(([id, c]) => ({ id, name: c.name, uic: c.uic, timezone: c.timezone, licence: c.licence }));
 
 export const DEFAULT_COUNTRY = "at";
 const known = (id: unknown): id is string => COUNTRIES.some((c) => c.id === id);

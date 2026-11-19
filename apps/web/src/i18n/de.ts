@@ -128,6 +128,7 @@ export default {
     map: "Karte",
     remarks: "Hinweise",
     runningDays: "Verkehrstage",
+    fromTimetable: "Aus dem Fahrplan – keine Echtzeitdaten für diesen Zug.",
     notFound: "Zug nicht gefunden.",
     pickDate: "Datum",
     delayProfile: "Verspätung entlang der Strecke",

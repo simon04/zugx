@@ -126,6 +126,7 @@ export default {
     map: "Map",
     remarks: "Information",
     runningDays: "Running days",
+    fromTimetable: "From the timetable – no live data for this train.",
     notFound: "Train not found.",
     pickDate: "Date",
     delayProfile: "Delay along the route",

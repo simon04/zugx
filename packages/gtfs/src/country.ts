@@ -31,6 +31,11 @@ export interface Country {
    * → 7179105) and the station lies inside the country. Without it they are left out.
    */
   localStationPrefix?: string;
+  /**
+   * write every train's stops with times (packages/trains/data/<id>/runs-<year>/): the train page
+   * shows trains HAFAS doesn't know from them (Spain: Cercanías)
+   */
+  trainRuns?: boolean;
   /** reference day of the timetable sheets (a regular Tuesday; default: netz DEFAULT_DAY) */
   day?: string;
   /** licence of the timetable data, for the data files and the attribution */

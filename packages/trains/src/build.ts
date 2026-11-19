@@ -2,6 +2,7 @@
 // from open data GTFS. Run after stations:build (uses its GTFS → HAFAS station map).
 // Run: vp run trains:build   (env: GTFS_ZIP, TRAINS_YEAR, NAMES=0 to skip HAFAS name lookups)
 import { readToml, sortKeys, writeToml } from "@zugx/toml";
+import { mkdirSync, rmSync } from "node:fs";
 import { join } from "node:path";
 import {
   dayFromIso,
@@ -28,6 +29,9 @@ import {
   decodeDays,
   encodeDays,
   isLongDistance,
+  runsBucket,
+  type RunStop,
+  type TrainRun,
   type StopRef,
   type TrainEntry,
   type TrainIndex,
@@ -90,6 +94,44 @@ export function chainTrips(trips: StopEv[][]): StopEv[] {
     } else out.push(...t.map((s) => ({ ...s })));
   }
   return out;
+}
+
+const toMin = (secs: number) => Math.round(secs / 60);
+
+/**
+ * the runs files (Country.trainRuns): every train's stops with times per set of running days, for
+ * trains HAFAS doesn't know (the train page shows them from here); grouped by the last two digits
+ * of the train number (runs-<year>/<nn>.toml), names only of stations outside the station index
+ */
+function writeRuns(
+  dir: string,
+  runs: Map<string, TrainRun[]>,
+  names: Map<string, string>,
+  head: { year: number; begin: string; end: string; source: string },
+): number {
+  rmSync(dir, { recursive: true, force: true });
+  mkdirSync(dir, { recursive: true });
+  const buckets = new Map<string, [string, TrainRun[]][]>();
+  for (const [k, r] of runs) {
+    const b = runsBucket(k.split(" ")[1]!);
+    const l = buckets.get(b) ?? [];
+    l.push([k, r]);
+    buckets.set(b, l);
+  }
+  for (const [b, list] of buckets) {
+    const ids = new Set(list.flatMap(([, rs]) => rs.flatMap((r) => r.stops.map((x) => x[0]))));
+    const stations: Record<string, string> = {};
+    for (const id of [...ids].sort())
+      if (!id.startsWith(COUNTRY.uic)) stations[id] = names.get(id) ?? id;
+    writeToml(join(dir, `${b}.toml`), {
+      ...head,
+      stations,
+      trains: Object.fromEntries(
+        list.sort(([a], [c]) => a.localeCompare(c, "en", { numeric: true })),
+      ),
+    });
+  }
+  return buckets.size;
 }
 
 export function stopRef(id: string, secs: number): StopRef {
@@ -268,6 +310,7 @@ async function main() {
 
   // ---- per train: days, patterns ----
   const entries: TrainEntry[] = [];
+  const trainRuns = new Map<string, TrainRun[]>();
   let noHome = 0;
   for (const t of trains.values()) {
     const inCountry = t.trips.some((tr) =>
@@ -290,14 +333,18 @@ async function main() {
     }
     if (!byDay.size) continue;
     // identical trip combinations → one chained stop sequence
-    const combos = new Map<string, { trips: string[]; days: number }>();
-    for (const ids of byDay.values()) {
+    const combos = new Map<string, { trips: string[]; days: number; idx: number[] }>();
+    for (const [i, ids] of byDay) {
       ids.sort();
       const k = ids.join(" ");
       const c = combos.get(k);
-      if (c) c.days++;
-      else combos.set(k, { trips: ids, days: 1 });
+      if (c) {
+        c.days++;
+        c.idx.push(i);
+      } else combos.set(k, { trips: ids, days: 1, idx: [i] });
     }
+    /** stops with times → the days they run (for the runs files) */
+    const runs = new Map<string, { idx: number[]; stops: StopEv[] }>();
     const patterns = new Map<string, { days: number; best: number; stops: StopEv[] }>();
     for (const c of combos.values()) {
       const stops = chainTrips(
@@ -308,6 +355,12 @@ async function main() {
         ),
       );
       if (stops.length < 2) continue;
+      if (COUNTRY.trainRuns) {
+        const rk = stops.map((s) => `${s.g}@${s.arr}/${s.dep}`).join(">");
+        const r = runs.get(rk);
+        if (r) r.idx.push(...c.idx);
+        else runs.set(rk, { idx: [...c.idx], stops });
+      }
       const pk = stops.map((s) => s.g).join(">");
       const p = patterns.get(pk);
       if (!p) patterns.set(pk, { days: c.days, best: c.days, stops });
@@ -374,6 +427,17 @@ async function main() {
     };
     if (patterns.size > 1) e.var = patterns.size;
     entries.push(e);
+    if (COUNTRY.trainRuns)
+      trainRuns.set(
+        `${t.cat} ${t.nr}`,
+        [...runs.values()]
+          .map((r) => ({ idx: r.idx.sort((a, b) => a - b), stops: r.stops }))
+          .sort((a, b) => b.idx.length - a.idx.length)
+          .map((r) => ({
+            days: encodeDays(r.idx, nDays),
+            stops: r.stops.map((x): RunStop => [hafasId(x.g), toMin(x.arr), toMin(x.dep)]),
+          })),
+      );
   }
   entries.sort(compareTrains);
   log(
@@ -432,6 +496,15 @@ async function main() {
   };
   await write(`trains-${year}.full.toml`, all);
   await write(`trains-${year}.toml`, ld);
+  if (COUNTRY.trainRuns) {
+    const n = writeRuns(join(DATA, `runs-${year}`), trainRuns, stationNames, {
+      year,
+      begin: tty.begin,
+      end: tty.end,
+      source,
+    });
+    log(`trains: runs of ${trainRuns.size} trains → ${join(DATA, `runs-${year}`)} (${n} files)`);
+  }
   if (unmapped.size) {
     log(`trains: ${unmapped.size} stations without HAFAS id (GTFS id used instead):`);
     for (const [gid, n] of [...unmapped].sort((a, b) => b[1] - a[1]))
