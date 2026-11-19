@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// Datenschutzerklärung (DSGVO). German is authoritative; English and Slovenian as a courtesy.
+// Datenschutzerklärung (DSGVO). German is authoritative; English, Slovenian and Spanish as a courtesy.
 // Keep in sync with the actual data flows: deploy/Caddyfile (log, proxy), MapView (tile hosts),
 // lib/store.ts + useLocalStorage keys, StationInput (geolocation).
 import { useI18n } from "../i18n/index.ts";
@@ -233,6 +233,120 @@ const EMAIL = "simon.legner@gmail.com";
         <a href="https://www.dsb.gv.at/">dsb.gv.at</a>.
       </p>
       <p><RouterLink to="/imprint">Kolofon</RouterLink></p>
+    </template>
+    <template v-else-if="locale === 'es'">
+      <h1>Política de privacidad</h1>
+      <p class="muted">
+        Versión de noviembre de 2026. La
+        <a href="#" @click.prevent="setLocale('de')">versión alemana</a> es la vinculante.
+      </p>
+      <p>
+        zugx no utiliza cookies, seguimiento, herramientas de análisis ni publicidad. No hay cuentas
+        de usuario. A continuación se indica qué datos se generan, aun así, por motivos técnicos.
+      </p>
+
+      <h2>1. Responsable</h2>
+      <p>
+        Simon Legner, Innsbruck, Austria –
+        <a :href="`mailto:${EMAIL}`">{{ EMAIL }}</a>
+      </p>
+
+      <h2>2. Alojamiento y Cloudflare</h2>
+      <p>
+        El sitio web funciona en un servidor propio en Austria (servidor web Caddy). El servidor
+        está conectado a Internet mediante un <em>Cloudflare Tunnel</em>: todas las peticiones pasan
+        por Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, EE. UU. Cloudflare trata su
+        dirección IP y los datos de la petición (dirección solicitada, identificación del navegador,
+        hora) para servir la página y protegerla frente a ataques; la conexión cifrada termina en
+        Cloudflare. Cloudflare está certificada en el marco EU-US Data Privacy Framework (decisión
+        de adecuación, art. 45 RGPD). La base jurídica es nuestro interés legítimo en un
+        funcionamiento seguro y accesible (art. 6.1.f RGPD). Más información:
+        <a href="https://www.cloudflare.com/privacypolicy/">política de privacidad de Cloudflare</a
+        >.
+      </p>
+
+      <h2>3. Registros del servidor</h2>
+      <p>
+        El servidor web registra cada petición: hora, dirección IP abreviada (IPv4 a /24, IPv6 a /48
+        – la dirección completa no se guarda), método, dirección solicitada con sus parámetros (p.
+        ej. números de estación), código de estado, tamaño y duración. Las cabeceras del navegador y
+        las cookies no se registran. Los registros se guardan en el diario del sistema (systemd) del
+        servidor, solo se utilizan para depurar errores y prevenir abusos y se sobrescriben
+        automáticamente según su tamaño, normalmente al cabo de pocas semanas. Base jurídica: art.
+        6.1.f RGPD.
+      </p>
+
+      <h2>4. Consultas de horarios</h2>
+      <p>
+        Las búsquedas de salidas, conexiones, trenes e incidencias las reenvía nuestro servidor al
+        planificador de viajes de ÖBB-Personenverkehr AG (fahrplan.oebb.at). Solo se transmite el
+        contenido de la consulta (p. ej. estaciones, fecha, hora, número de tren). Su dirección IP,
+        sus cookies y las cabeceras del navegador <strong>no</strong> se transmiten – ÖBB solo ve
+        nuestro servidor. La búsqueda de estaciones se realiza primero localmente en el navegador.
+        Base jurídica: art. 6.1.b y f RGPD (prestación de la información solicitada).
+      </p>
+
+      <h2>5. Mapas</h2>
+      <p>
+        Cuando se muestra un mapa (radar, mapas de trenes y de conexiones, plano de la estación), su
+        navegador carga las teselas directamente de estos servicios, que reciben así su dirección
+        IP, la zona del mapa mostrada y la identificación del navegador:
+      </p>
+      <ul>
+        <li>
+          OpenFreeMap (tiles.openfreemap.org) – mapa base,
+          <a href="https://openfreemap.org/">openfreemap.org</a>
+        </li>
+        <li>
+          OpenStreetMap Foundation, St John’s Innovation Centre, Cowley Road, Cambridge, CB4 0WS,
+          Reino Unido (tile.openstreetmap.org) – plano de la estación,
+          <a href="https://osmfoundation.org/wiki/Privacy_Policy">política de privacidad</a>
+          (decisión de adecuación para el Reino Unido)
+        </li>
+        <li>
+          OpenRailwayMap (a.tiles.openrailwaymap.org) – capa de líneas ferroviarias, desactivable en
+          el mapa,
+          <a href="https://www.openrailwaymap.org/">openrailwaymap.org</a>
+        </li>
+      </ul>
+      <p>La base jurídica es nuestro interés legítimo en mostrar mapas (art. 6.1.f RGPD).</p>
+
+      <h2>6. Almacenamiento en el navegador</h2>
+      <p>
+        zugx guarda sus ajustes (idioma, esquema de colores, opciones del mapa, país) así como las
+        estaciones y conexiones buscadas recientemente y favoritas en el <em>localStorage</em> de su
+        navegador. Para el uso sin conexión, un service worker guarda los archivos de la aplicación
+        en la caché del navegador. Estos datos permanecen en su dispositivo y no se nos transmiten.
+        El almacenamiento es estrictamente necesario para las funciones que usted utiliza (§ 165.3
+        de la Ley austriaca de telecomunicaciones de 2021, TKG). Puede eliminarlos en cualquier
+        momento en los ajustes del navegador («borrar datos del sitio»).
+      </p>
+
+      <h2>7. Ubicación</h2>
+      <p>
+        Solo si elige «Cerca de mí», el navegador le pide su ubicación. Se utiliza exclusivamente en
+        el navegador para encontrar la estación más cercana y no se transmite ni se guarda. Base
+        jurídica: su consentimiento (art. 6.1.a RGPD), que puede revocar en los ajustes del
+        navegador.
+      </p>
+
+      <h2>8. Calendario y compartir</h2>
+      <p>
+        Las entradas de calendario (.ics) y los enlaces para compartir se generan localmente en el
+        navegador. Usted decide qué comparte con ellos.
+      </p>
+
+      <h2>9. Sus derechos</h2>
+      <p>
+        Tiene derecho de acceso, rectificación, supresión, limitación del tratamiento, portabilidad
+        de los datos y oposición (arts. 15–21 RGPD). Como solo guardamos direcciones IP abreviadas,
+        por lo general no podemos asociar las entradas de los registros a ninguna persona. Envíe sus
+        solicitudes a
+        <a :href="`mailto:${EMAIL}`">{{ EMAIL }}</a>. También puede presentar una reclamación ante
+        la autoridad austriaca de protección de datos (Datenschutzbehörde): Barichgasse 40–42, 1030
+        Viena, <a href="https://www.dsb.gv.at/">dsb.gv.at</a>.
+      </p>
+      <p><RouterLink to="/imprint">Aviso legal</RouterLink></p>
     </template>
     <template v-else>
       <h1>Privacy policy</h1>

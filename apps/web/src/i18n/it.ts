@@ -3,7 +3,7 @@ import type en from "./en.ts";
 export default {
   app: {
     tagline:
-      "Treni in Austria e Slovenia, veloci. Partenze, collegamenti, percorsi dei treni – in tempo reale.",
+      "Treni in Austria, Slovenia e Spagna, veloci. Partenze, collegamenti, percorsi dei treni – in tempo reale.",
   },
   stations: {
     title: "Stazioni",

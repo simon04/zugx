@@ -64,9 +64,9 @@ test("raw API view shows request/response", async ({ page }) => {
 
 test("language switch", async ({ page }) => {
   await page.goto("/station/8103000");
-  await page.getByRole("button", { name: /Language|Sprache|Lingua|Jezik/ }).click();
+  await page.getByRole("button", { name: /Language|Sprache|Lingua|Jezik|Idioma/ }).click();
   await page
-    .getByRole("combobox", { name: /^(Language|Sprache|Lingua|Jezik)$/ })
+    .getByRole("combobox", { name: /^(Language|Sprache|Lingua|Jezik|Idioma)$/ })
     .selectOption("de");
   await expect(page.getByText("Abfahrten").first()).toBeVisible();
 });
@@ -508,7 +508,7 @@ test("command palette is a native modal dialog (Esc and backdrop close it)", asy
 
 test("accessibility basics: lang, skip link, named controls", async ({ page }) => {
   await page.goto("/station/8103000");
-  await expect(page.locator("html")).toHaveAttribute("lang", /^(en|de|it)$/);
+  await expect(page.locator("html")).toHaveAttribute("lang", /^(en|de|it|sl|es)$/);
   // the app must have rendered (under load, Tab could otherwise land before it exists)
   await expect(page.locator("h1").first()).toBeVisible();
   await page.locator("body").focus();

@@ -18,6 +18,7 @@ const LOCALE_NAMES: Record<Locale, string> = {
   de: "Deutsch",
   it: "Italiano",
   sl: "Slovenščina",
+  es: "Español",
 };
 
 const router = useRouter();

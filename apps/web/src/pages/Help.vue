@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // End-user help: all views and features, keyboard shortcuts, where the data comes from.
-// German, English and Slovenian (Italian UI shows the English text).
+// German, English, Slovenian and Spanish (Italian UI shows the English text).
 import { useI18n } from "../i18n/index.ts";
 const { locale } = useI18n();
 </script>
@@ -32,10 +32,10 @@ const { locale } = useI18n();
         Abfahrtstafel oder Abfahrtsplan, im Bildfahrplan die Echtzeit-Überlagerung, und in der
         Suche: mit Live aus werden Verbindungen ohne Server direkt im Browser aus dem ÖBB-Fahrplan
         berechnet (Bahn, die nächsten Tage, ohne Verspätungen). Die Wahl wird gemerkt. Die
-        <strong>Länderauswahl</strong> (AT/SI) bestimmt, welches Landes Züge, Bildfahrpläne,
+        <strong>Länderauswahl</strong> (AT/SI/ES) bestimmt, welches Landes Züge, Bildfahrpläne,
         Strecken, Netzkarte und Bahnhöfe gezeigt werden; Suche und Verbindungen umfassen alle
-        Länder. Für Slowenien gibt es keine Echtzeit, dort ist der Live-Schalter aus. Schnellzugriff
-        (<kbd>⌘K</kbd>) und Roh-JSON (<kbd>d</kbd>) stehen in der Fußzeile.
+        Länder. Für Slowenien und Spanien gibt es keine Echtzeit, dort ist der Live-Schalter aus.
+        Schnellzugriff (<kbd>⌘K</kbd>) und Roh-JSON (<kbd>d</kbd>) stehen in der Fußzeile.
       </p>
 
       <h2 id="suche">Suche &amp; Verbindungen</h2>
@@ -343,9 +343,9 @@ const { locale } = useI18n();
     <template v-else-if="locale === 'sl'">
       <h1>Pomoč</h1>
       <p>
-        zugx prikazuje vozni red in podatke v realnem času za vlake v Avstriji in Sloveniji – hitro,
-        pregledno, na telefonu in računalniku. Ta stran pojasnjuje vse poglede, kako jih uporabljati
-        in od kod so podatki.
+        zugx prikazuje vozni red in podatke v realnem času za vlake v Avstriji, Sloveniji in Španiji
+        – hitro, pregledno, na telefonu in računalniku. Ta stran pojasnjuje vse poglede, kako jih
+        uporabljati in od kod so podatki.
       </p>
       <nav aria-label="Vsebina" class="toc">
         <a href="#suche">Iskanje in povezave</a> · <a href="#abfahrten">Tabla odhodov</a> ·
@@ -365,10 +365,10 @@ const { locale } = useI18n();
         tabla odhodov ali plakat odhodov za postajo, prikaz v realnem času v grafikonu voznega reda
         in iskanje: pri izklopljenem načinu V živo se povezave izračunajo v brskalniku iz voznega
         reda (železnica, naslednji dnevi, brez zamud). Nastavitev se zapomni. Izbirnik
-        <strong>države</strong> (AT/SI) določa, katere države vlaki, grafikoni voznega reda, proge,
-        zemljevid omrežja in postaje so prikazani; iskanje in povezave zajemajo vse države. Za
-        Slovenijo ni podatkov v realnem času, zato je stikalo V živo tam izklopljeno. Hitri skok
-        (<kbd>⌘K</kbd>) in surovi JSON (<kbd>d</kbd>) sta v nogi strani.
+        <strong>države</strong> (AT/SI/ES) določa, katere države vlaki, grafikoni voznega reda,
+        proge, zemljevid omrežja in postaje so prikazani; iskanje in povezave zajemajo vse države.
+        Za Slovenijo in Španijo ni podatkov v realnem času, zato je stikalo V živo tam izklopljeno.
+        Hitri skok (<kbd>⌘K</kbd>) in surovi JSON (<kbd>d</kbd>) sta v nogi strani.
       </p>
 
       <h2 id="suche">Iskanje in povezave</h2>
@@ -633,7 +633,9 @@ const { locale } = useI18n();
           >, CC BY 4.0, redno posodobljeno; samo ÖBB (in nekateri partnerji) – ne WESTbahn, GKB,
           Raaberbahn ipd. Slovenija – nacionalni vozni red IJPP (<a href="https://www.nap.si/"
             >NAP Slovenija</a
-          >), CC BY-SA 4.0.
+          >), CC BY-SA 4.0. Španija – Renfe Operadora (<a href="https://data.renfe.com/"
+            >data.renfe.com</a
+          >), CC BY 4.0.
         </li>
         <li>
           <strong>Proge, omejitve hitrosti, signali, kilometri, enotirnost/dvotirnost, meje</strong>
@@ -660,6 +662,353 @@ const { locale } = useI18n();
         radarju in časi prevoza so izračunani ali ocenjeni; diagram hitrosti ni uradni VzG.
       </p>
     </template>
+    <template v-else-if="locale === 'es'">
+      <h1>Ayuda</h1>
+      <p>
+        zugx muestra horarios y datos en tiempo real de los trenes en Austria, Eslovenia y España –
+        rápido, compacto, en el móvil y en el ordenador. Esta página explica todas las vistas, cómo
+        usarlas y de dónde proceden los datos.
+      </p>
+      <nav aria-label="Índice" class="toc">
+        <a href="#suche">Búsqueda y conexiones</a> · <a href="#abfahrten">Panel de salidas</a> ·
+        <a href="#zuglauf">Recorrido del tren</a> · <a href="#zuege">Trenes</a> ·
+        <a href="#radar">Radar</a> · <a href="#bildfahrplan">Gráfico de circulación</a> ·
+        <a href="#vzg">Diagrama VzG</a> · <a href="#netzgrafik">Netzgrafik</a> ·
+        <a href="#stoerungen">Incidencias</a> · <a href="#tasten">Teclado</a> ·
+        <a href="#daten">Datos y fuentes</a> · <a href="#grenzen">Limitaciones</a>
+      </nav>
+
+      <h2 id="navigation">Menú, país e interruptor En directo</h2>
+      <p>
+        El menú muestra todo a un clic: primero Buscar, Radar e Incidencias (siempre en tiempo real,
+        punto rojo ●), después Estaciones y Trenes, luego el gráfico de circulación y la Netzgrafik
+        (horario) y, por último, Líneas y el mapa de la red de infraestructura. El interruptor
+        <strong>● En directo</strong> arriba a la derecha (tecla <kbd>e</kbd>) elige entre tiempo
+        real y horario donde una página ofrece ambos: panel de salidas o cartel de salidas de una
+        estación, la superposición en tiempo real en el gráfico de circulación y la búsqueda: con En
+        directo desactivado, las conexiones se calculan en el navegador a partir del horario de ÖBB
+        (tren, los próximos días, sin retrasos). La elección se recuerda. El selector de
+        <strong>país</strong> (AT/SI/ES) determina de qué país se muestran los trenes, gráficos de
+        circulación, líneas, mapa de la red y estaciones; la búsqueda y las conexiones abarcan todos
+        los países. Para Eslovenia y España no hay datos en tiempo real, por lo que allí En directo
+        está desactivado. El salto rápido (<kbd>⌘K</kbd>) y el JSON en bruto (<kbd>d</kbd>) están en
+        el pie de página.
+      </p>
+
+      <h2 id="suche">Búsqueda y conexiones</h2>
+      <p>
+        En la página de inicio introduzca origen y destino (sugerencias mientras escribe, a partir
+        de la lista de estaciones integrada) y, opcionalmente, una hora y «por». Sin destino se abre
+        el panel de salidas de la estación.
+      </p>
+      <ul>
+        <li>
+          <strong>Cronograma</strong>: cada conexión como una barra, los trayectos en el color del
+          tren, los tiempos de transbordo entre ellos (los justos, resaltados), retrasos y
+          supresiones marcados; o como <strong>tabla</strong>.
+        </li>
+        <li>
+          <strong>Antes / Después</strong> carga más conexiones; marque varias y
+          <strong>compárelas</strong> una junto a otra.
+        </li>
+        <li>
+          Un clic abre los detalles: todas las paradas, vías, tiempo real, avisos; «¿Y si lo
+          pierdo?» busca la siguiente opción desde la estación de transbordo. Las conexiones se
+          pueden compartir o añadir al calendario.
+        </li>
+      </ul>
+
+      <h2 id="abfahrten">Panel de salidas</h2>
+      <p>
+        Salidas o llegadas con tiempo real: retraso, vía (cambios resaltados), supresiones y avisos.
+        Filtro por medio de transporte (p. ej. solo larga distancia), «Antes / Después» pasa de
+        página, la lista se actualiza automáticamente. Las grandes estaciones como Wien Hbf también
+        muestran tranvías y autobuses – actívelos con los filtros. La estrella guarda la estación
+        como favorita; el enlace a Wikidata abre la estación en Wikidata.
+      </p>
+      <p>
+        <strong>Cartel de salidas</strong> (enlace en el panel de salidas): todas las salidas de un
+        día según el horario anual, por horas en columnas como el cartel de la estación – con tren,
+        destino, paradas siguientes (enlazadas) y vía; fecha seleccionable (←/→). Sin tiempo real.
+      </p>
+
+      <h2 id="zuglauf">Recorrido del tren</h2>
+      <p>
+        Un tren con todas sus paradas, horas programadas y reales, vías, evolución del retraso y
+        mapa. Haga clic en un tren en cualquier lugar o abra p. ej.
+        <code>/train/RJX-162</code> (añada <code>?d=2026-11-13</code> para otra fecha). Si hay
+        retraso, la hora real prevista aparece bajo la programada. Signos como en el Kursbuch de
+        ÖBB: ◗ solo para subir, ◖ solo para bajar, | sin parada para viajeros.
+      </p>
+
+      <h2 id="bahnhoefe">Estaciones</h2>
+      <p>
+        Todas las estaciones del país seleccionado de la A a la Z con la abreviatura del punto de
+        servicio (de OpenStreetMap) y las categorías de tren que paran allí. El filtro busca por
+        nombres y abreviaturas, también varios a la vez separados por comas o espacios, sin
+        distinguir mayúsculas y minúsculas («Kt, Vb, Vps» o «kt vb vps»); una estación abre su
+        cartel de salidas según el horario.
+      </p>
+
+      <h2 id="zuege">Trenes (índice de trenes)</h2>
+      <p>
+        Todos los trenes del año de horario del país seleccionado – número, nombre, recorrido, días
+        de circulación – para buscar y filtrar por operador, categoría, estación o fecha.
+      </p>
+
+      <h2 id="radar">Radar</h2>
+      <p>
+        Mapa en directo de todos los trenes en la vista, coloreados por retraso o categoría; unas
+        pequeñas flechas indican el sentido de la marcha. Haga clic en un tren para abrir su
+        recorrido en un panel lateral. Las posiciones las calcula el planificador de viajes de ÖBB a
+        partir del horario y los datos en tiempo real – no son posiciones GPS. «Mapa ferroviario»
+        añade las vías de OpenRailwayMap.
+      </p>
+      <p>
+        <strong>Partes del tren</strong>: los trenes acoplados (trenes nocturnos, Railjets con una
+        parte para otro destino) aparecen en el mapa como un solo tren, p. ej. «NJ 466 / EN 40462» –
+        primero el probable tren operativo (los números solo comerciales a partir de 40000 al final;
+        si no, el número menor). En el recorrido se elige la parte haciendo clic en su distintivo.
+        El recuadro «Partes del tren» (también en la página del tren) indica por tramo con qué
+        trenes circula acoplado y – en los números solo comerciales – el tren operativo (EN 40462:
+        EC 462 hasta Salzburgo, «desde aquí NJ 466»). Se basa en los datos del planificador de
+        viajes de ÖBB; qué número es el operativo en un tramo acoplado no siempre se aprecia en
+        ellos.
+      </p>
+
+      <h2 id="bildfahrplan">Gráfico de circulación (Bildfahrplan)</h2>
+      <p>
+        Diagramas espacio–tiempo de líneas (los gráficos de horario de ÖBB, algunos corredores más
+        largos y líneas de SŽ en Eslovenia): estaciones en horizontal según el punto kilométrico,
+        tiempo hacia abajo. Cada tren es una línea del color de su categoría; las líneas empinadas
+        son lentas, los tramos verticales son paradas. Haga clic en un tren (en el gráfico o en las
+        tablas) para abrir su recorrido en un panel lateral, Ctrl/⌘ + clic para la página completa
+        del tren. Los colores siguen el nivel de oferta, como es habitual en la planificación de
+        horarios: RJX magenta, RJ rojo, EC/IC rojo pardo, ICE gris oscuro, IR y CJX violeta, REX
+        verde, R azul pizarra, S azul, Nightjet azul noche, operadores privados de larga distancia
+        (WESTbahn, RegioJet) naranja.
+      </p>
+      <ul>
+        <li>
+          Cualquier día del año de horario, tramo y sentido, una franja de 1–24 horas; la rueda del
+          ratón desplaza en el tiempo, Ctrl/⌘ + rueda amplía. Fecha y hora se mantienen al cambiar
+          de hoja.
+        </li>
+        <li>
+          Las horas en las estaciones por las que un tren pasa sin parar son estimadas, ponderadas
+          según la velocidad permitida (más tarde en los tramos lentos, antes en los rápidos).
+        </li>
+        <li>
+          Pase el ratón por encima para ver número y recorrido, haga clic para el recorrido del
+          tren; una estación abre su panel de salidas; los enlaces de línea abren el diagrama VzG.
+        </li>
+        <li>
+          <strong>En directo</strong> (solo hoy): marchas reales del planificador de viajes de ÖBB,
+          dibujadas en trazo grueso sobre lo programado – continuas hasta ahora, discontinuas como
+          previsión, puntos en las horas comunicadas, el retraso actual en la línea de «ahora»; lo
+          programado sustituido queda fino y tenue. También aparecen trenes que faltan en los datos
+          del horario (p. ej. WESTbahn).
+        </li>
+        <li>
+          <strong>Escala</strong> 1×/2×/4× estira el eje del tiempo (teclas
+          <kbd>+</kbd>/<kbd>−</kbd>). Una o dos líneas finas en el borde superior indican vía única
+          o doble.
+        </li>
+        <li>
+          <strong>Tablas de horario</strong> bajo el gráfico, para ambos sentidos: como en el
+          Kursbuch de ÖBB (estaciones como filas, un tren por columna, «|» = pasa sin parar; el
+          nombre de la estación abre su cartel de salidas del día y, a su lado, los números de las
+          hojas que se bifurcan allí, como enlaces; con tiempo real, retraso y hora prevista por
+          parada); <strong>Trasponer</strong> muestra una fila por tren. El
+          <a href="/kursbuch">libro de horarios</a> completo (todas las hojas del país seleccionado
+          para un día, A4 con números de página) se puede imprimir como PDF.
+        </li>
+        <li>
+          <strong>Segundo monitor</strong>: el gráfico y las tablas pueden abrirse en ventanas
+          propias; día, hora, tramo y el tren bajo el cursor permanecen sincronizados.
+        </li>
+      </ul>
+      <h3 id="planning">Planificación</h3>
+      <p>
+        Bajo el gráfico, cinco vistas evalúan el horario mostrado – para transbordos más cortos,
+        trenes más fiables en vía única y viajes más rápidos:
+      </p>
+      <ul>
+        <li>
+          <strong>Nodo</strong>: para una estación (selecciónela o haga clic en su nombre en el
+          gráfico), las líneas con sus minutos habituales de llegada y salida y su intervalo, si
+          coinciden en torno a un minuto de nodo (nodo completo :00, semi-nodo :30), el minuto de
+          simetría; y para cada llegada la primera conexión por sentido (verde ≤ 10′, ámbar ≤ 20′,
+          rojo más) y las conexiones perdidas por poco. El tiempo mínimo de transbordo es ajustable.
+          Con «todas las líneas» se añaden todos los demás trenes de la estación desde el
+          planificador de viajes de ÖBB (otras líneas, WESTbahn …).
+        </li>
+        <li>
+          <strong>Cruces</strong>: dónde se encuentran trenes de ambos sentidos junto a vía única –
+          con el margen en cada sentido (cuánto retraso del tren contrario se absorbe) y, con datos
+          en directo, el retraso inducido previsto. En el gráfico: vía única sombreada, cruces como
+          puntos, encuentros entre dos estaciones como ✕ (a menudo un apartadero sin parada de
+          viajeros).
+        </li>
+        <li>
+          <strong>Margen de tiempo de recorrido</strong>: tiempo de recorrido programado entre dos
+          paradas frente al mínimo posible a la velocidad permitida (incl. arranque y frenado) – por
+          tramo, categoría y sentido. Mucho margen significa espacio para trenes más rápidos.
+          Ajustable: aceleración de arranque (automotor, remolcado por locomotora), frenado,
+          suplemento estándar y el umbral de «mucho margen».
+        </li>
+        <li>
+          <strong>Capacidad</strong>: la escalera de tiempos de ocupación – por tren y cantón (de
+          señal principal a señal principal, con ETCS nivel 2 de marcador ETCS a marcador ETCS, de
+          OpenStreetMap) el tiempo durante el cual el cantón está bloqueado para otros trenes,
+          dibujado como rectángulos en el gráfico; rojo = conflicto. La tabla muestra por cantón la
+          ocupación de la franja horaria, el tiempo de ocupación más largo y el cuello de botella.
+          Ajustable: distancia de la señal avanzada, tiempo de establecimiento del itinerario y de
+          reacción, tiempo de liberación, longitudes de tren, tolerancia.
+        </li>
+        <li>
+          <strong>Puntualidad (en directo)</strong>: dónde pierden tiempo los trenes, por tramo y
+          parada, a partir de las horas en tiempo real comunicadas. Se recoge en su navegador
+          mientras está activo En directo (7 días).
+        </li>
+      </ul>
+      <p class="muted">
+        Limitaciones: cruces, margen de tiempo de recorrido y puntualidad solo para trenes de esta
+        hoja; vía única/doble de OpenStreetMap, horas de paso y tiempos mínimos de recorrido
+        estimados.
+      </p>
+
+      <h2 id="vzg">Diagrama de velocidades (VzG)</h2>
+      <p>
+        Velocidades permitidas a lo largo de una línea, siguiendo el modelo del VzG de ÖBB (relación
+        de velocidades permitidas): puntos kilométricos hacia abajo en el sentido de la marcha,
+        estaciones y señales, los PK de los cambios de velocidad, la banda de velocidad (sentido de
+        la marcha continua, sentido contrario trazo y punto) y los radios de curva. Elija la vía
+        (vía principal 1/2), el sentido y la escala; pase el ratón por encima para ver detalles.
+      </p>
+      <ul>
+        <li>
+          Todas las líneas de ÖBB por número de línea y otros ferrocarriles (p. ej. Stubaitalbahn,
+          Zillertalbahn, Lokalbahn Wien–Baden); en Eslovenia, las líneas de SŽ por su número (10,
+          20, 30 …).
+        </li>
+        <li>
+          <strong>Líneas de enlace</strong>: en las estaciones de bifurcación, los enlaces («↗ 222
+          01») abren el diagrama de la otra línea.
+        </li>
+        <li>
+          <strong>⤓ SVG</strong> descarga el diagrama como archivo independiente con título, leyenda
+          y fuentes – p. ej. para Wikimedia Commons (licencia ODbL, como los datos de
+          OpenStreetMap).
+        </li>
+        <li>
+          <strong>Vista general</strong> (<code>/vzg</code>): todas las líneas con nombre,
+          desde–hasta, vía única/doble, longitud, estaciones y señales; filtro por número («10101»
+          encuentra «101 01»), nombre o estación, ordenable.
+        </li>
+        <li>Estaciones con su <strong>altitud</strong>, donde figura en OpenStreetMap.</li>
+        <li>
+          <strong>Esquema de la línea</strong> (Streckenband): la línea como banda esquemática, como
+          en los diagramas de líneas de Wikipedia – estaciones por tipo, puentes y túneles con
+          nombre y longitud, bifurcaciones.
+        </li>
+        <li>
+          <strong>Perfil de la línea</strong> bajo el diagrama: longitud, estaciones y apeaderos,
+          velocidad máxima y media, túneles y puentes, curva más cerrada, electrificación,
+          protección del tren (ETCS/PZB), proporción de vía doble, ancho de vía, altitudes, trenes
+          al día y líneas de enlace.
+        </li>
+        <li>
+          <strong>Mapa de la línea</strong>: un mapa de la línea listo para imprimir y para
+          Wikipedia, con túneles, estaciones (enlazadas a su panel de salidas) y líneas de enlace
+          (enlazadas a su mapa); opcionalmente coloreado por velocidad permitida y con puntos
+          kilométricos; descargable como SVG.
+        </li>
+        <li>
+          <strong>Mapa de la red de infraestructura</strong> (<code>/vzg/netz</code>): todas las
+          líneas del país seleccionado, coloreadas por velocidad, electrificación, ETCS, PZB, número
+          de vías, ancho de vía, administrador o <strong>trenes al día</strong> (densidad de tráfico
+          según el horario); con la frontera nacional (en Austria también los límites de los estados
+          federados), para todo el país o un solo estado federado. Pase el ratón por encima para ver
+          los valores, haga clic para el mapa de la línea; descargable como SVG.
+        </li>
+        <li>
+          Datos de OpenStreetMap, no el VzG oficial: sin distancias de frenado, rampas ni
+          observaciones; los radios de curva se estiman a partir de la geometría de la vía.
+        </li>
+      </ul>
+
+      <h2 id="netzgrafik">Netzgrafik</h2>
+      <p>
+        El horario cadenciado como red: nodos con sus minutos de llegada y salida, líneas con
+        frecuencia y tiempo de recorrido, reconstruido a partir del horario de un día laborable,
+        sábado o domingo. Se puede abrir en el Netzgrafik-Editor (Open Rail Association) o exportar.
+        Por ahora solo para Austria.
+      </p>
+
+      <h2 id="stoerungen">Incidencias</h2>
+      <p>Avisos actuales de incidencias y obras de ÖBB con su período de validez.</p>
+
+      <h2 id="tasten">Atajos de teclado</h2>
+      <p>
+        En el ordenador, <kbd>?</kbd> muestra todos los atajos. Los más comunes:
+        <kbd>/</kbd> buscar, <kbd>Ctrl/⌘ K</kbd> salto rápido, <kbd>j</kbd>/<kbd>k</kbd> fila
+        siguiente/anterior, <kbd>h</kbd>/<kbd>l</kbd> antes/después, <kbd>g</kbd> inicio,
+        <kbd>t</kbd> trenes, <kbd>r</kbd> radar. Gráfico de circulación: <kbd>←</kbd>/<kbd>→</kbd>
+        día, <kbd>↑</kbd>/<kbd>↓</kbd> dos horas (Mayús: una franja completa), <kbd>+</kbd>/<kbd
+          >−</kbd
+        >
+        escala, <kbd>n</kbd> ahora.
+      </p>
+
+      <h2 id="daten">Datos y fuentes</h2>
+      <ul>
+        <li>
+          <strong
+            >Tiempo real, conexiones, paneles de salidas, recorridos de trenes, radar,
+            incidencias</strong
+          >: el planificador de viajes de ÖBB (Scotty/HAFAS) – interfaz no oficial, las peticiones
+          pasan por zugx hasta ÖBB.
+        </li>
+        <li>
+          <strong>Año de horario</strong> (lista de estaciones, índice de trenes, gráfico de
+          circulación, Netzgrafik): Austria –
+          <a href="https://data.oebb.at/de/datensaetze~soll-fahrplan-gtfs~"
+            >datos abiertos de ÖBB (GTFS)</a
+          >, CC BY 4.0, actualizados periódicamente; solo ÖBB (y algunos socios) – no WESTbahn, GKB,
+          Raaberbahn, etc. Eslovenia – horario nacional IJPP (<a href="https://www.nap.si/"
+            >NAP Slovenija</a
+          >), CC BY-SA 4.0. España – Renfe Operadora (<a href="https://data.renfe.com/"
+            >data.renfe.com</a
+          >), CC BY 4.0.
+        </li>
+        <li>
+          <strong
+            >Líneas, limitaciones de velocidad, señales, PK, vía única/doble, fronteras</strong
+          >
+          (diagrama VzG, mapa de la línea y de la red de infraestructura, horas de paso y número de
+          vías en el gráfico de circulación):
+          <a href="https://www.openstreetmap.org/copyright">© colaboradores de OpenStreetMap</a>,
+          ODbL.
+        </li>
+        <li>
+          <strong>Mapas</strong>: OpenFreeMap, OpenStreetMap, OpenRailwayMap (créditos en la esquina
+          del mapa).
+        </li>
+        <li>
+          <strong>Wikidata</strong>: enlaces a estaciones mediante DinoData, a líneas mediante los
+          datos de OpenStreetMap.
+        </li>
+      </ul>
+      <p>Privacidad y tratamiento de datos: <RouterLink to="/privacy">Privacidad</RouterLink>.</p>
+
+      <h2 id="grenzen">Limitaciones</h2>
+      <p>
+        zugx no es un servicio de ÖBB, SŽ ni Renfe; sin garantía, la información vinculante es la
+        del operador. Las posiciones del radar y las horas de paso son calculadas o estimadas; el
+        diagrama VzG no es el VzG oficial.
+      </p>
+    </template>
     <template v-else>
       <h1>Help</h1>
       <p>
@@ -684,10 +1033,10 @@ const { locale } = useI18n();
         where a page has both: live board or departure plan for a station, the realtime overlay in
         the graphic timetable, and the search: with Live off, journeys are computed in the browser
         from the ÖBB timetable (rail, the next days, no delays). It is remembered. The
-        <strong>country</strong> selector (AT/SI) chooses whose trains, graphic timetables, lines,
-        network map and stations are shown; search and journeys cover all countries. Slovenia has no
-        realtime data, so Live is off there. Quick jump (<kbd>⌘K</kbd>) and raw JSON (<kbd>d</kbd>)
-        are in the footer.
+        <strong>country</strong> selector (AT/SI/ES) chooses whose trains, graphic timetables,
+        lines, network map and stations are shown; search and journeys cover all countries. Slovenia
+        and Spain have no realtime data, so Live is off there. Quick jump (<kbd>⌘K</kbd>) and raw
+        JSON (<kbd>d</kbd>) are in the footer.
       </p>
 
       <h2 id="suche">Search &amp; journeys</h2>
