@@ -121,7 +121,10 @@ function main() {
   const year = Number(process.env.TRAINS_YEAR) || feedYear({ services });
   const tty = timetableYear(year);
   const begin = dayFromIso(tty.begin);
-  const named = `${RAIL_ROUTE_TYPES} and trim(coalesce(t.trip_short_name, '')) <> ''`;
+  const skip = (country.routeSkip ?? []).map((c) => `'${c.replaceAll("'", "''")} %'`);
+  const named =
+    `${RAIL_ROUTE_TYPES} and trim(coalesce(t.trip_short_name, '')) <> ''` +
+    skip.map((c) => ` and trim(t.trip_short_name) not like ${c}`).join("");
   const st = rows<{
     trip: string;
     stop: string;

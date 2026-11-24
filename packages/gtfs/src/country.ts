@@ -36,6 +36,11 @@ export interface Country {
    * shows trains HAFAS doesn't know from them (Spain: Cercanías)
    */
   trainRuns?: boolean;
+  /**
+   * train categories left out of the timetable routing input (route:export): Germany's S-Bahn,
+   * a third of its trains, would make the day files of the journey search five times as big
+   */
+  routeSkip?: string[];
   /** reference day of the timetable sheets (a regular Tuesday; default: netz DEFAULT_DAY) */
   day?: string;
   /** licence of the timetable data, for the data files and the attribution */

@@ -28,6 +28,9 @@ feeds = [".cache/de-rail"]
 osm = "germany"
 # DB InfraGO line numbers (VzG Streckennummer, "5600" München – Nürnberg)
 lineRef = '^\d{4}$'
+# the S-Bahn (71,600 of 181,700 trips) stays out of the timetable journey search (the day files
+# would grow from 2 to 10 MB for every user); boards, departure plans and sheets have it
+routeSkip = ["S"]
 day = "2026-11-24"
 licence = { name = "CC BY 4.0", url = "https://creativecommons.org/licenses/by/4.0/", source = "DELFI e.V. (opendata-oepnv.de)", page = "https://www.opendata-oepnv.de/ht/de/organisation/delfi/startseite" }
 # DELFI's quirks:
