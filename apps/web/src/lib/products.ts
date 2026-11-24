@@ -25,6 +25,9 @@ export const LONG_DISTANCE = new Set([
   "AVE",
   "AVLO",
   "EM",
+  // Germany: Eurostar (ex Thalys), FlixTrain
+  "EUR",
+  "FLX",
 ]);
 export const REGIONAL = new Set([
   ...["CJX", "REX", "R", "RB", "RE", "ER", "Os", "SB"],
@@ -32,6 +35,8 @@ export const REGIONAL = new Set([
   ...["LP", "LPV", "RG", "MV", "MO", "PV"],
   // Spain: Avant (high-speed medium distance), Regional
   ...["AVANT", "REG"],
+  // Germany: Interregio-Express, Metropol-Express (Baden-Württemberg), Flughafen-Express (Berlin)
+  ...["IRE", "MEX", "FEX"],
 ]);
 /** S-Bahn and suburban trains (Bulgaria: KPV крайградски, Spain: C Cercanías/Rodalies) */
 export const SUBURBAN = new Set(["S", "KPV", "C"]);
@@ -39,7 +44,7 @@ export const NIGHT = new Set(["NJ", "EN"]);
 
 /** private long-distance operators (WESTbahn, RegioJet, Leo Express): orange */
 const PRIVATE_LD = "#b35800";
-const PRIVATE_LD_CATS = new Set(["WB", "RGJ", "LEO"]);
+const PRIVATE_LD_CATS = new Set(["WB", "RGJ", "LEO", "FLX"]);
 const PRIVATE_LD_OPERATORS = /westbahn|regiojet|leo express|flixtrain/i;
 
 // Colours by offer level, as common among Austrian timetable planners (FBS): RJX ≠ RJ (two levels
@@ -63,6 +68,7 @@ const CAT_COLORS: Record<string, string> = {
   WB: PRIVATE_LD,
   RGJ: PRIVATE_LD,
   LEO: PRIVATE_LD,
+  FLX: PRIVATE_LD,
   // Spain, by offer level like the Austrian ones: AVE top (RJ), AVLO second (RJX), Euromed and
   // Intercity long-distance (EC/IC), Avant fast regional (IR/CJX), Regional (R), Cercanías (S)
   AVE: "#d0102a",

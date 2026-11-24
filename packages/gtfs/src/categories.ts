@@ -10,6 +10,7 @@ export const CATEGORY_ORDER = [
   "EM",
   "ECE",
   "TGV",
+  "EUR",
   "FR",
   "EC",
   "IC",
@@ -19,6 +20,7 @@ export const CATEGORY_ORDER = [
   "IR",
   "D",
   "WB",
+  "FLX",
   "AVANT",
   "CAT",
   "ATB",
@@ -26,6 +28,9 @@ export const CATEGORY_ORDER = [
   "ER",
   "CJX",
   "REX",
+  "IRE",
+  "MEX",
+  "FEX",
   "RE",
   "RB",
   "RR",
@@ -52,6 +57,9 @@ export const LONG_DISTANCE_CATEGORIES: readonly string[] = [
   "IR",
   "D",
   "WB",
+  // Germany: Eurostar (ex Thalys), FlixTrain
+  "EUR",
+  "FLX",
   // other countries' long-distance trains: Slovenia InterCity Slovenija, Croatia international,
   // Montenegro / Serbia brzi voz, Bulgaria бърз, експресен, международен бърз влак; Spain
   // (Renfe) AVE, AVLO (low-cost AVE), Euromed

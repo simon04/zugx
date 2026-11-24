@@ -11,8 +11,8 @@ const files = import.meta.glob<{ default: Record<string, string> }>(
 /** per country, the selected one first */
 const maps = shallowRef<Record<string, string>[]>();
 let loading: Promise<void> | undefined;
-/** categories with lines (Spain: C Cercanías/Rodalies, lines C1, R2N …) */
-const LINE_CATS = new Set(["S", "R", "REX", "CJX", "C"]);
+/** categories with lines (Spain: C Cercanías/Rodalies, lines C1, R2N …; Germany: RE 1, RB 54, MEX 13) */
+const LINE_CATS = new Set(["S", "R", "REX", "CJX", "C", "RE", "RB", "IRE", "MEX", "FEX"]);
 
 function load() {
   loading ??= (async () => {
