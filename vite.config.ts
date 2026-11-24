@@ -62,6 +62,7 @@ export default defineConfig({
   run: {
     cache: true,
     tasks: {
+      "gtfs:rail": { command: "vpx packages/gtfs/src/rail-extract.ts", cache: false },
       "db:build": { command: "vpx packages/db/src/build.ts", cache: false },
       "stations:build": { command: "vpx packages/stations/src/build.ts", cache: false },
       "stations:abbr": { command: "vpx packages/stations/src/abbr.ts", cache: false },

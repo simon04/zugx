@@ -3,7 +3,7 @@
  * rail trips that run on one reference day and resolves stops to their parent
  * stations.
  */
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { Unzip, UnzipInflate } from "fflate";
 import { fetchFeeds } from "@zugx/gtfs";
@@ -299,13 +299,15 @@ export async function loadShapes(ids: Set<string>): Promise<Map<string, Shape>> 
     rest = final ? "" : lines.pop()!;
     for (const l of lines) line(l);
   };
-  const dir = process.env.GTFS_DIR;
+  const feed = process.env.GTFS_DIR ? undefined : await feedZip();
+  // an unpacked feed (GTFS_DIR, or the country's feed is a directory: the German rail extract)
+  const dir = process.env.GTFS_DIR ?? (feed && statSync(feed).isDirectory() ? feed : undefined);
   if (dir) {
     const p = join(dir, "shapes.txt");
     if (existsSync(p)) for (const c of textChunks(readFileSync(p))) text(c, false);
     text("", true);
   } else {
-    const zip = readFileSync(await feedZip());
+    const zip = readFileSync(feed!);
     await new Promise<void>((resolve, reject) => {
       const decoder = new TextDecoder();
       const uz = new Unzip();

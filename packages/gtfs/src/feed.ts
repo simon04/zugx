@@ -42,8 +42,15 @@ export async function fetchFeeds(
   const out: FeedSource[] = [];
   for (const source of configuredFeeds(env)) {
     if (!isUrl(source)) {
-      const path = isAbsolute(source) ? source : resolve(process.cwd(), source);
-      if (!existsSync(path)) throw new Error(`GTFS zip not found: ${path}`);
+      // a zip or an unpacked directory (Germany: the rail extract, vp run gtfs:rail); relative to
+      // the working directory, else to the repository (countries.toml: ".cache/de-rail")
+      const local = resolve(process.cwd(), source);
+      const path = isAbsolute(source)
+        ? source
+        : existsSync(local)
+          ? local
+          : resolve(REPO_ROOT, source);
+      if (!existsSync(path)) throw new Error(`GTFS feed not found: ${path}`);
       out.push({ source, path });
       continue;
     }
