@@ -184,8 +184,9 @@ export function loadFeed(src: Source, day: string | null): Feed {
       parentOf.set(id, r.parent_station);
     } else {
       // some platforms (e.g. Feldkirch, Bludenz) lack parent_station: derive the
-      // parent DHID from the stop DHID (`at:48:817:0:2` → `Pat:48:817`)
-      const parent = parentDhid(id);
+      // parent DHID from the stop DHID (`at:48:817:0:2` → `Pat:48:817`); a stop with a
+      // station-level DHID (Germany: Hannover Hbf `de:03241:31`) is its own station
+      const parent = /^[a-z]{2}:[^:]+:[^:]+$/.test(id) ? id : parentDhid(id);
       parentOf.set(id, parent);
       orphans.push({ ...st, id: parent });
     }
