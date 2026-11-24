@@ -1,0 +1,94 @@
+id = "2840"
+ref = "2840"
+name = "2840 Schwerte (Ruhr) - Holzwickede"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q19991739"
+from = "Schwerte (Ruhr)"
+to = "Holzwickede"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 155.185
+kmTo = 165.443
+length = 10.268
+speeds = [[155.185, 155.919, 110, 110], [155.919, 157.023, 100, 100], [157.023, 160.822, 150, 150], [160.822, 161.997, 120, 120], [161.997, 165.331, 140, 140], [165.331, 165.443, "", ""]]
+curves = [[155.51, 155.585, 2960], [155.66, 155.86, 1660], [155.985, 156.285, 940], [156.585, 156.735, 1870], [156.885, 157.01, 2440], [157.385, 158.21, 1110], [158.86, 159.314, 1170], [160.349, 161.715, 1160], [163.574, 163.749, 1570]]
+points = [
+  { km = 155.358, kind = "signal", label = "58 ZU4", signal = "combined,route,speed_limit,traversable", dir = -1 },
+  { km = 155.558, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 155.601, kind = "signal", signal = "main_repeated" },
+  { km = 155.629, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 155.634, kind = "station", label = "Schwerte (Ruhr)", pos = [51.44259, 7.55921], uic = "8000037" },
+  { km = 155.721, kind = "signal", label = "58 N4", signal = "main,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 155.919, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 156.323, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 156.586, kind = "signal", label = "58 H", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 156.809, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 156.917, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 157.023, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 158.013, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 158.313, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 158.355, kind = "signal", label = "60 113", signal = "main,traversable,wrong_road", dir = 1 },
+  { km = 158.953, kind = "signal", label = "60 14", signal = "main,route,speed_limit,traversable", dir = -1 },
+  { km = 159.169, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 159.292, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 160.265, kind = "signal", signal = "route_distant", dir = -1 },
+  { km = 160.313, kind = "signal", signal = "distant,main,speed_limit_distant,traversable", dir = -1 },
+  { km = 160.822, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 160.822, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 161.303, kind = "signal", signal = "distant", dir = -1 },
+  { km = 162.004, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 162.005, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 162.484, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 162.753, kind = "signal", label = "7618", signal = "main,traversable", dir = -1 },
+  { km = 163.498, kind = "signal", label = "X2", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 163.751, kind = "signal", signal = "distant", dir = -1 },
+  { km = 163.836, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 163.863, kind = "signal", label = "243", signal = "minor", dir = 1 },
+  { km = 163.96, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 164.033, kind = "signal", signal = "minor", dir = -1 },
+  { km = 164.137, kind = "signal", signal = "minor", dir = 1 },
+  { km = 164.519, kind = "signal", label = "P203", signal = "main,minor,traversable", dir = -1 },
+  { km = 164.525, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 164.681, kind = "station", label = "Holzwickede", pos = [51.50482, 7.61929], uic = "8000392" },
+  { km = 165.233, kind = "signal", label = "203", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 157.161, kmTo = 157.176, length = 16 },
+  { kind = "tunnel", kmFrom = 159.301, kmTo = 160.167, length = 858, name = "Ostberger Tunnel" },
+  { kind = "bridge", kmFrom = 161.977, kmTo = 161.997, length = 20 },
+  { kind = "bridge", kmFrom = 164.493, kmTo = 164.506, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ms}xH{}bm@qYiNqJoH", v = 110 },
+  { line = "qy~xHuvcm@qFkFkDiFkOk^iMyV", v = 100 },
+  { line = "ee`yHq|em@eNo[uDoG}GyHcImF{JwCif@qF_LHuH`B", v = 150 },
+  { line = "_wcyHw{gm@km@`T", tunnel = true, v = 150 },
+  { line = "keeyHufgm@}QhFwO?", v = 150 },
+  { line = "aifyHk_gm@_GoAkGuCqKqJyHmMuLm[", v = 120 },
+  { line = "o}gyH_}hm@ww@qxBy\\y|AoLaf@", v = 140 },
+  { line = "qakyHm{pm@yA_H" },
+]
+posts = [[156, 51.44552, 7.5615], [157, 51.45174, 7.57184], [158, 51.45853, 7.58092], [159, 51.46744, 7.5828], [160, 51.47607, 7.57948], [161, 51.4848, 7.57822], [162, 51.49162, 7.58755], [163, 51.4971, 7.59919], [164, 51.50206, 7.61119], [165, 51.50616, 7.62405]]
+
+[[connections]]
+km = 155.634
+station = "Schwerte"
+lines = [
+  { id = "2113", ref = "2113", name = "2113 Dortmund-Hörde - Schwerte (Ruhr)", km = 10.247 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 155.665 },
+  { id = "2841", ref = "2841", name = "2841 Iserlohn - Schwerte (Ruhr)", km = 19.685 },
+  { id = "2843", ref = "2843", name = "2843 Abzw Hohensyburg - Schwerte (Ruhr) Ost", km = 155.665 },
+  { id = "2850", ref = "2850", name = "2850 Letmathe - Fröndenberg", km = -14.723 },
+]
+
+[[connections]]
+km = 164.681
+station = "Holzwickede"
+lines = [
+  { id = "2103", ref = "2103", km = 181.968 },
+]

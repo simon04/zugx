@@ -1,0 +1,79 @@
+id = "3240"
+ref = "3240"
+name = "3240 Saarbrücken Hbf - Neunkirchen (Saar) Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Saarbrücken Hbf"
+to = "Neunkirchen (Saar) Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 26.447
+length = 26.447
+speeds = [[0, 0.123, 40, 40], [0.123, 0.827, 60, 60], [0.827, 2.44, 90, 90], [2.44, 12.091, 100, 100], [12.091, 18.213, 80, 80], [18.213, 18.324, 40, 40], [18.324, 20.736, 90, 90], [20.736, 25.127, 80, 80], [25.127, 26.447, "", ""]]
+curves = [[0.1, 0.575, 430], [0.8, 0.925, 1760], [1.45, 1.6, 1330], [1.95, 2.4, 490], [2.875, 3.2, 690], [3.4, 3.875, 550], [4.125, 4.3, 1370], [5.35, 5.65, 1330], [5.7, 5.875, 1490], [6.4, 6.675, 850], [7.1, 7.25, 1470], [7.625, 7.925, 930], [8.6, 8.95, 940], [9.1, 9.35, 1570], [9.625, 9.825, 1120], [10, 10.25, 970], [10.65, 10.9, 820], [11.25, 11.55, 770], [11.75, 12.075, 840], [12.15, 12.575, 450], [12.675, 13, 500], [13.55, 13.9, 590], [14.475, 14.975, 470], [15.25, 15.675, 520], [16.975, 17.525, 570], [17.8, 18.175, 1290], [18.35, 18.625, 630], [19.075, 19.25, 1590], [19.525, 19.825, 710], [20.075, 20.4, 620], [20.75, 21.2, 450], [21.275, 21.525, 500], [21.725, 21.775, 2540], [21.85, 21.9, 2400], [22.1, 22.45, 700], [22.575, 23.075, 420], [23.2, 23.5, 590], [24, 24.475, 460], [24.875, 24.95, 2320], [25, 25.175, 880], [25.275, 25.35, 1710], [25.425, 25.625, 1230], [25.7, 26.325, 600]]
+points = [
+  { km = 0.123, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.343, kind = "signal", label = "20 W402", signal = "combined,speed_limit", dir = -1 },
+  { km = 0.475, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.663, kind = "signal", label = "202402Y", signal = "minor", dir = 1 },
+  { km = 0.8, kind = "signal", label = "201401X", signal = "minor", dir = -1 },
+  { km = 0.827, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.831, kind = "signal", label = "V451", signal = "distant", dir = 1 },
+  { km = 1.098, kind = "signal", signal = "main", dir = 1 },
+  { km = 1.522, kind = "signal", label = "451", signal = "main", dir = 1 },
+  { km = 1.91, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.44, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.845, kind = "stop", label = "Fischbach-Camphausen", pos = [49.30474, 7.03121], uic = "8001990" },
+  { km = 11.049, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 12.016, kind = "stop", label = "Quierschied", pos = [49.32485, 7.05924], uic = "8004909" },
+  { km = 12.091, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.745, kind = "station", label = "Merchweiler", uic = "8003980", pos = [49.35619, 7.06559] },
+  { km = 18.121, kind = "stop", label = "Wemmetsweiler Rathaus", pos = [49.36953, 7.08617], uic = "8000378" },
+  { km = 21.6, kind = "stop", label = "Schiffweiler", uic = "8005346", pos = [49.36367, 7.12957] },
+  { km = 25.74, kind = "station", label = "Neunkirchen (Saar) Hbf", uic = "8000272", pos = [49.35328, 7.17687] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.141, kmTo = 0.163, length = 21 },
+  { kind = "bridge", kmFrom = 0.242, kmTo = 0.289, length = 47 },
+  { kind = "bridge", kmFrom = 2.007, kmTo = 2.034, length = 27 },
+  { kind = "bridge", kmFrom = 3.239, kmTo = 3.269, length = 31 },
+  { kind = "bridge", kmFrom = 8.971, kmTo = 8.995, length = 24 },
+  { kind = "bridge", kmFrom = 10.886, kmTo = 10.915, length = 29 },
+  { kind = "bridge", kmFrom = 11.931, kmTo = 11.955, length = 24 },
+  { kind = "tunnel", kmFrom = 15.871, kmTo = 16.494, length = 623, name = "Merchweiler Tunnel" },
+  { kind = "bridge", kmFrom = 16.898, kmTo = 16.915, length = 17 },
+  { kind = "tunnel", kmFrom = 18.266, kmTo = 18.324, length = 58 },
+  { kind = "bridge", kmFrom = 20.969, kmTo = 21.043, length = 73 },
+  { kind = "bridge", kmFrom = 23.361, kmTo = 23.381, length = 19 },
+  { kind = "bridge", kmFrom = 23.978, kmTo = 24, length = 22 },
+  { kind = "bridge", kmFrom = 24.655, kmTo = 24.675, length = 20 },
+  { kind = "bridge", kmFrom = 25.127, kmTo = 25.183, length = 56 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{rpkHmuri@}@bI", v = 40 },
+  { line = "ytpkHikri@gCtHgEtEeG~BiNhC", v = 60 },
+  { line = "yvqkHsrqi@yd@fN{ZzCoDUeDoA}CkCcD}E", v = 90 },
+  { line = "gmtkH_mqi@gVma@kBkHcF{\\eBqF}BeEwDsDsRcM}SkTke@ya@oMwSiT{i@oDuG{[sZoVwNaG_Fg_@il@eGkMaHuYuDkLyK}WiQaYsPsg@qCqFiSeWqFaEwUmGeKfA", v = 100 },
+  { line = "{{`lHmvaj@uHvA{Fu@cD{BsJyKyEsBqe@hAgGm@_FkCo_@q\\wF_C_DIgDr@wUnPyDpAmGa@eNeH", v = 80 },
+  { line = "oaglHsccj@i_@uS", tunnel = true, v = 80 },
+  { line = "yahlHixcj@}\\mReCkDuEyM_AmGsAaa@BkOrAsJ", v = 80 },
+  { line = "olilHmfgj@^gC", v = 40 },
+  { line = "okilHujgj@l@oC", tunnel = true, v = 40 },
+  { line = "ajilHeogj@jAkHV{Eu@is@nA_k@k@aJcFg^]eIzCaf@", v = 90 },
+  { line = "ujilHi{mj@|@{IzBoHdCmDxKwHlCiDrZws@tE_FdNyHfEsFbCyIxB{ZhAsGtXmn@fAiIC{JkIi}@", v = 80 },
+  { line = "_|elHsdwj@{I{a@oDaL}B{DwDuBcH_@uF|@sHpC" },
+]
+posts = [[0, 49.24222, 6.98215], [1, 49.24949, 6.976], [2, 49.25829, 6.97338], [3, 49.26544, 6.98102], [4, 49.2706, 6.99151], [5, 49.27832, 6.99854], [6, 49.28521, 7.00714], [7, 49.29166, 7.01648], [8, 49.29945, 7.02317], [9, 49.30544, 7.0333], [10, 49.31097, 7.04402], [11, 49.31663, 7.05461], [12, 49.32478, 7.05936], [13, 49.33311, 7.06223], [14, 49.34182, 7.06371], [15, 49.34993, 7.06714], [16, 49.35827, 7.06703], [17, 49.36658, 7.07234], [18, 49.36966, 7.08444], [19, 49.36855, 7.09787], [20, 49.36909, 7.11142], [21, 49.36796, 7.12462], [22, 49.36149, 7.13384], [23, 49.35487, 7.14246], [24, 49.3505, 7.1541], [25, 49.35089, 7.16722], [26, 49.35568, 7.17818]]
+
+[[connections]]
+km = 25.74
+station = "Neunkirchen Hbf"
+lines = [
+  { id = "3282", ref = "3282", name = "3282 Homburg (Saar) Hbf - Neunkirchen (Saar) Hbf", km = 13.689 },
+  { id = "3511", ref = "3511", name = "3511 Bingen (Rhein) Hbf - Saarbrücken Hbf", km = 120.635 },
+]

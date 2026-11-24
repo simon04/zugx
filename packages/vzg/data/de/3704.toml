@@ -1,0 +1,28 @@
+id = "3704"
+ref = "3704"
+name = "3704 Gießen - Gießen-Bergwald"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Gießen"
+to = "Gießen-Bergwald"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.354
+length = 1.354
+speeds = [[0, 0.28, 60, 60], [0.28, 1.354, "", ""]]
+curves = [[0.2, 0.325, 1470], [0.6, 0.775, 1460], [1.025, 1.15, 1290], [1.2, 1.25, 800]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.941, kmTo = 0.976, length = 35 },
+  { kind = "bridge", kmFrom = 1.075, kmTo = 1.102, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "opqsH_gys@cNnE", v = 60 },
+  { line = "s_rsHo`ys@eUhDwVY_MuA" },
+]
+posts = [[0, 50.55768, 8.65408], [1, 50.56654, 8.65226]]

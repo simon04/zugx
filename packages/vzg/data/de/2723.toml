@@ -1,0 +1,144 @@
+id = "2723"
+ref = "2723"
+name = "2723 Wuppertal-Vohwinkel - Essen-Kupferdreh Hespertalbahn"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Wuppertal-Vohwinkel"
+to = "Essen-Kupferdreh Hespertalbahn"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.748
+kmTo = 26.371
+length = 27.018
+speeds = [[-0.748, 0.036, 80, 80], [0.036, 0.497, 60, 60], [0.497, 0.586, 80, 80], [0.586, 2.612, 120, 120], [2.612, 2.757, 100, 100], [2.757, 4.491, 120, 120], [4.491, 4.803, 100, 100], [4.803, 9.636, 120, 120], [9.636, 12.836, 100, 100], [12.836, 17.605, 120, 120], [17.605, 18.481, 80, 80], [18.481, 19.019, 40, 40], [19.019, 20.793, 80, 80], [20.793, 20.99, 20, 20], [20.99, 25.581, 100, 100], [25.581, 26.371, 60, 60]]
+curves = [[-0.423, -0.173, 870], [-0.098, 0.002, 950], [0.056, 0.541, 430], [1.214, 2.017, 660], [2.107, 2.299, 1260], [3.548, 3.993, 760], [4.497, 4.85, 860], [5.908, 6.41, 860], [6.535, 6.987, 1020], [8.361, 8.509, 1520], [8.903, 9.477, 840], [9.727, 11.303, 470], [11.378, 11.954, 790], [12.259, 12.64, 1430], [12.856, 14.063, 720], [14.253, 14.988, 930], [15.091, 15.664, 830], [15.794, 16.029, 1250], [16.237, 16.394, 1870], [16.498, 16.839, 1740], [16.926, 17.462, 1480], [17.644, 17.92, 1160], [17.97, 18.818, 560], [18.867, 19.67, 850], [20.053, 21.205, 600], [21.255, 21.554, 870], [22.151, 22.397, 750], [22.52, 23.12, 820], [23.647, 23.979, 1320], [24.053, 25.041, 590], [25.928, 26.253, 540]]
+points = [
+  { km = -0.513, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = -0.386, kind = "signal", label = "80 V12207", signal = "distant", dir = -1 },
+  { km = -0.146, kind = "halt", label = "Bruch", pos = [51.23425, 7.07703] },
+  { km = 0.036, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.165, kind = "signal", label = "80 N12", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 0.229, kind = "station", label = "Wuppertal-Vohwinkel", uic = "8006718", pos = [51.23395, 7.07183] },
+  { km = 0.328, kind = "signal", label = "80 P12", signal = "combined,minor,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 0.497, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.586, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.586, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.835, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.062, kind = "signal", label = "80 CC", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 1.259, kind = "signal", label = "79 001", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 1.345, kind = "signal", label = "80 VWcc", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.579, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.018, kind = "signal", label = "79 102", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.191, kind = "signal", label = "79 003", signal = "main,route,speed_limit,traversable", dir = 1 },
+  { km = 2.375, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.985, kind = "signal", label = "79 004", signal = "combined,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 4.012, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.491, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.655, kind = "stop", label = "Wülfrath-Aprath", pos = [51.26787, 7.07202], uic = "8006575" },
+  { km = 4.923, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.924, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 7.398, kind = "signal", label = "938", signal = "main,traversable", dir = -1 },
+  { km = 8.341, kind = "signal", label = "938", signal = "distant", dir = -1 },
+  { km = 8.868, kind = "stop", label = "Velbert Rosenhügel", pos = [51.30012, 7.10169], uic = "8006064" },
+  { km = 9.472, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 9.509, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 9.636, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.568, kind = "stop", label = "Velbert-Neviges", pos = [51.31304, 7.0908], uic = "8004340" },
+  { km = 13.202, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.605, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 13.757, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 13.802, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 14.213, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 16.586, kind = "signal", signal = "distant", dir = 1 },
+  { km = 17.605, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.865, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 17.893, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.449, kind = "signal", label = "P 502", signal = "main,minor,traversable", dir = -1 },
+  { km = 18.481, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.563, kind = "station", label = "Velbert-Langenberg", pos = [51.35497, 7.12248], uic = "8003529" },
+  { km = 18.644, kind = "signal", signal = "distant", dir = -1 },
+  { km = 18.747, kind = "signal", signal = "distant", dir = 1 },
+  { km = 19.09, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.598, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 19.844, kind = "signal", label = "F 522", signal = "distant,main,traversable", dir = -1 },
+  { km = 20.011, kind = "signal", signal = "distant", dir = -1 },
+  { km = 20.096, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 20.635, kind = "signal", signal = "distant", dir = -1 },
+  { km = 20.769, kind = "stop", label = "Velbert-Nierenhof", pos = [51.37204, 7.13448], uic = "8004430" },
+  { km = 20.793, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 20.886, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 20.944, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 21.018, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.013, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 22.993, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 25.262, kind = "signal", label = "946", signal = "main,traversable", dir = -1 },
+  { km = 25.601, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 25.74, kind = "signal", signal = "distant", dir = -1 },
+  { km = 25.932, kind = "stop", label = "Essen-Kupferdreh", pos = [51.39304, 7.07778], uic = "8001912" },
+  { km = 26.301, kind = "signal", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = -0.187, kmTo = -0.105, length = 82 },
+  { kind = "bridge", kmFrom = 1.41, kmTo = 1.433, length = 22 },
+  { kind = "bridge", kmFrom = 1.549, kmTo = 1.572, length = 22 },
+  { kind = "bridge", kmFrom = 2.568, kmTo = 2.588, length = 21 },
+  { kind = "bridge", kmFrom = 4.733, kmTo = 4.803, length = 69 },
+  { kind = "bridge", kmFrom = 5.012, kmTo = 5.051, length = 39 },
+  { kind = "bridge", kmFrom = 8.416, kmTo = 8.442, length = 25 },
+  { kind = "bridge", kmFrom = 8.771, kmTo = 8.798, length = 27 },
+  { kind = "bridge", kmFrom = 10.164, kmTo = 10.201, length = 37 },
+  { kind = "bridge", kmFrom = 10.893, kmTo = 10.92, length = 27 },
+  { kind = "bridge", kmFrom = 11.405, kmTo = 11.429, length = 24 },
+  { kind = "bridge", kmFrom = 12.412, kmTo = 12.422, length = 10 },
+  { kind = "bridge", kmFrom = 12.806, kmTo = 12.836, length = 31 },
+  { kind = "bridge", kmFrom = 15.582, kmTo = 15.625, length = 41 },
+  { kind = "bridge", kmFrom = 17.844, kmTo = 17.857, length = 13 },
+  { kind = "bridge", kmFrom = 18.456, kmTo = 18.481, length = 25 },
+  { kind = "bridge", kmFrom = 18.6, kmTo = 18.626, length = 26 },
+  { kind = "bridge", kmFrom = 23.835, kmTo = 23.85, length = 16 },
+  { kind = "bridge", kmFrom = 25.746, kmTo = 26.024, length = 278 },
+  { kind = "bridge", kmFrom = 26.102, kmTo = 26.14, length = 38 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sqvwHqmfj@bLtXhDxM", v = 80 },
+  { line = "e_vwHaeej@n@~E", tunnel = true, v = 80 },
+  { line = "u}uwHa~dj@dBjJ", v = 80 },
+  { line = "ozuwHurdj@hArG\\jMe@jF_BrE", v = 60 },
+  { line = "m{uwHumcj@cClE", v = 80 },
+  { line = "q_vwHggcj@q[lk@aE`EiG~C_Fp@{EWaRuHoUwE", v = 120 },
+  { line = "}aywHk_bj@cG_A", v = 100 },
+  { line = "ajywHkabj@cl@_LiGcCmHeHqVqa@", v = 120 },
+  { line = "o`|wHg~cj@eFaHiFaE", v = 100 },
+  { line = "_o|wHkmdj@s}@sd@_KyLgLwYyHiLokAq_A}U{Y}EmIaEaNiDc[", v = 120 },
+  { line = "mfcxH}ykj@wAmNuAiGmD{GeFuDaGcAoFr@iFzDeE|H{BlL]nK`@`J`DnTh@~HH~J[nIiI|n@gLf_@", v = 100 },
+  { line = "akexHwegj@cEtJ{HfH_JrByKg@oF}BeGsFyPwXoJ}IwJkD_UGuJ{BiGkEwMqNo[gSgLyLmHcLqEoJyE_OkEkS", v = 120 },
+  { line = "iklxHe}kj@sBcLqBaWmAiHwDkJuF{F", v = 80 },
+  { line = "kbmxH}~mj@iE}BuEy@}OR", v = 40 },
+  { line = "i`nxHadnj@kKcDeIgI{DiHoPcc@uF}H_F}CkFsAcDAqEfB", v = 80 },
+  { line = "_ppxHeopj@iGpG", v = 20 },
+  { line = "ixpxHsfpj@{BbEgGzRmCnFgb@bl@aJdZ{B`TI`PvG|}@~H~`@b@|KUpHeCnNuBxFeDxFuDlDu[vS", v = 100 },
+  { line = "swsxH}efj@yWfPoG\\oGuA", v = 60 },
+]
+posts = [[0, 51.23526, 7.0743], [1, 51.23845, 7.06296], [2, 51.2462, 7.05842], [3, 51.2551, 7.06148], [4, 51.26358, 7.06586], [5, 51.27077, 7.074], [6, 51.27912, 7.07903], [7, 51.28568, 7.08853], [8, 51.29342, 7.095], [9, 51.30109, 7.10285], [10, 51.30493, 7.11555], [11, 51.31184, 7.11171], [12, 51.31121, 7.09776], [13, 51.31556, 7.08528], [14, 51.324, 7.08596], [15, 51.33192, 7.09213], [16, 51.33981, 7.0967], [17, 51.34771, 7.10441], [18, 51.35151, 7.11676], [19, 51.35876, 7.12271], [20, 51.36556, 7.13101], [21, 51.37305, 7.13331], [22, 51.37942, 7.12331], [23, 51.38379, 7.11108], [24, 51.38152, 7.09746], [25, 51.38356, 7.08549], [26, 51.39167, 7.07957]]
+
+[[connections]]
+km = -0.146
+station = "Bruch"
+lines = [
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 26.81 },
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 32.185 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 109.462 },
+]
+
+[[connections]]
+km = 0.229
+station = "Wuppertal-Vohwinkel"
+lines = [
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 26.26 },
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 31.881 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 109.164 },
+]

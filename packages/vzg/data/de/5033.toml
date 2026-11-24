@@ -1,0 +1,44 @@
+id = "5033"
+ref = "5033"
+name = "5033 Selb-Plößberg - Selb Stadt"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q109252749"
+from = "Selb-Plößberg"
+to = "Selb Stadt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.425
+length = 3.425
+speeds = [[0, 3.377, 50, 50], [3.377, 3.425, 60, 60]]
+curves = [[0.175, 0.5, 340], [0.575, 0.775, 900], [0.85, 1.05, 900], [1.5, 2.2, 200], [2.45, 3.125, 280], [3.175, 3.325, 260]]
+points = [
+  { km = 0.052, kind = "stop", label = "Selb Stadt", pos = [50.17423, 12.12657], uic = "8026044" },
+  { km = 0.867, kind = "stop", label = "Selb Nord", pos = [50.17892, 12.13465], uic = "8026043" },
+  { km = 1.876, kind = "halt", label = "Erkersreuth", uic = "8026042", pos = [50.18652, 12.14151] },
+  { km = 3.254, kind = "signal", label = "13B", signal = "main", dir = 1 },
+  { km = 3.377, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.425, kind = "station", label = "Selb-Plößberg", uic = "8026041", pos = [50.18918, 12.11982] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.129, kmTo = 0.169, length = 40 },
+  { kind = "bridge", kmFrom = 0.908, kmTo = 0.938, length = 30 },
+  { kind = "bridge", kmFrom = 2.945, kmTo = 2.987, length = 42 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "usfqHwh_iAqAcS{@yDaBiDeMeL}KiPc[oX{DsHgBiAqBIiEhCcB~GdCnj@oAfIcFjI{@dEA~GrBbO_@fH", v = 50 },
+  { line = "imiqHgv~hA]|B", v = 60 },
+]
+posts = [[0, 50.17419, 12.12572], [1, 50.17983, 12.13569], [2, 50.18745, 12.14063], [3, 50.18899, 12.12785]]
+
+[[connections]]
+km = 3.425
+station = "Selb-Plößberg"
+lines = [
+  { id = "5027", ref = "5027", name = "Bahnstrecke Cheb–Oberkotzau", km = 5.223 },
+]

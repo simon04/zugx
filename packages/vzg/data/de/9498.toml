@@ -1,0 +1,69 @@
+id = "9498"
+ref = "9498"
+operator = "Albtal-Verkehrs-Gesellschaft mbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.962
+length = 1.962
+speeds = [[0, 0.079, 40, 40], [0.079, 0.288, "", ""], [0.288, 0.402, 50, 50], [0.402, 0.758, 70, 70], [0.758, 0.825, 35, 30], [0.825, 1.094, 70, 70], [1.094, 1.12, 70, 30], [1.12, 1.416, 70, 70], [1.416, 1.484, 30, 35], [1.484, 1.838, 70, 70], [1.838, 1.962, "", ""]]
+curves = [[0.175, 0.35, 430], [0.4, 0.65, 780], [0.7, 0.925, 690], [1.05, 1.2, 40], [1.3, 1.55, 840], [1.6, 1.85, 1040]]
+points = [
+  { km = 0.003, kind = "signal", signal = "train_protection", dir = -1 },
+  { km = 0.079, kind = "signal", label = "74C", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.089, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.115, kind = "stop", label = "Wörth (Rhein) Alte Bahnmeisterei", pos = [49.04858, 8.26648] },
+  { km = 0.121, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.462, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.519, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.521, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.564, kind = "stop", label = "Wörth (Rhein) Bienwaldhalle", pos = [49.04975, 8.26087] },
+  { km = 0.565, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.659, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.751, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.758, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.824, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.828, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.831, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.895, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.966, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.997, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.048, kind = "stop", label = "Wörth (Rhein) Bürgerpark", pos = [49.05082, 8.25451] },
+  { km = 1.192, kind = "stop", label = "Wörth (Rhein) Bürgerpark", pos = [49.05085, 8.25452] },
+  { km = 1.355, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.409, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.412, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.416, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.484, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.49, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.501, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.592, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.683, kind = "stop", label = "Wörth (Rhein) Bienwaldhalle", pos = [49.04978, 8.26097] },
+  { km = 1.838, kind = "signal", signal = "main", dir = -1 },
+  { km = 13.036, kind = "signal", signal = "main", dir = 1, measured = true },
+]
+
+[tracks.geo]
+segments = [
+  { line = "otjjHeymq@qArD", v = 40 },
+  { line = "awjjHqsmq@iE`N" },
+  { line = "k}jjHodmq@KrH", v = 50 },
+  { line = "w}jjH{zlq@u@fJ_DhP", v = 70 },
+  { line = "mdkjHi~kq@_@nD", v = 35 },
+  { line = "mekjHyxkq@o@fXh@iX", v = 70 },
+  { line = "sekjH{xkq@`@qD", v = 35 },
+  { line = "qdkjHm~kq@pDmS^aG", v = 70 },
+  { line = "_~jjH}zlq@RkI" },
+]
+posts = [[0, 49.04792, 8.26787], [1, 49.05079, 8.25518]]
+
+[[connections]]
+km = 0.115
+station = "Wörth Alte Bahnmeisterei"
+lines = [
+  { id = "3400", ref = "3400", name = "3400 Schifferstadt - Berg (Pfalz) Grenze", km = 13.2 },
+  { id = "3443", ref = "3443", name = "3443 Winden (Pfalz) - Karlsruhe Hbf", km = 13.188 },
+]

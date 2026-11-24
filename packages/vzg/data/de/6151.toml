@@ -1,0 +1,101 @@
+id = "6151"
+ref = "6151"
+name = "6151 Abzw Glasower Damm Nord - Abzw Bohnsdorf Süd"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q23785346"
+from = "Glasower Damm Nord"
+to = "Bohnsdorf Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 26.918
+kmTo = 43.784
+length = 16.825
+speeds = [[26.918, 28.412, 100, 100], [28.412, 33.8, 120, 120], [33.8, 33.816, 80, 80], [33.816, 34.321, 120, 120], [34.321, 34.87, 80, 80], [34.87, 40.717, 120, 120], [40.717, 42.273, 100, 100], [42.273, 43.784, 120, 120]]
+curves = [[27.018, 27.812, 440], [28.742, 28.839, 2500], [30.186, 31.1, 830], [31.277, 31.582, 1350], [31.734, 32.115, 1860], [32.521, 33.409, 1230], [34.278, 34.346, 2170], [34.98, 35.027, 2240], [35.654, 36.454, 940], [36.556, 37.289, 760], [38.085, 38.134, 2680], [38.333, 38.684, 790], [38.809, 39.159, 770], [41.059, 42.034, 460], [42.234, 42.334, 30], [42.659, 43.134, 1690]]
+points = [
+  { km = 27.087, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 27.188, kind = "signal", label = "57 22", signal = "main", dir = -1 },
+  { km = 27.229, kind = "signal", signal = "distant", dir = -1 },
+  { km = 27.272, kind = "signal", signal = "distant", dir = -1 },
+  { km = 27.319, kind = "signal", signal = "distant", dir = -1 },
+  { km = 27.476, kind = "signal", signal = "distant", dir = 1 },
+  { km = 27.559, kind = "signal", label = "58 21", signal = "main", dir = 1 },
+  { km = 27.842, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 28.406, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.412, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 28.749, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 28.761, kind = "signal", label = "5824", signal = "main,route,speed_limit,wrong_road", dir = -1 },
+  { km = 29.053, kind = "signal", signal = "distant", dir = 1 },
+  { km = 29.395, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 29.79, kind = "signal", label = "60 22", signal = "combined,route_distant,speed_limit_distant", dir = -1 },
+  { km = 29.937, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 31, kind = "signal", label = "60 24", signal = "combined", dir = -1, measured = true },
+  { km = 33.113, kind = "signal", signal = "combined", dir = -1 },
+  { km = 33.446, kind = "signal", signal = "combined,speed_limit", dir = 1 },
+  { km = 33.688, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 34.3, kind = "signal", label = "61P4", signal = "combined,departure,traversable,wrong_road", dir = -1, measured = true },
+  { km = 34.345, kind = "station", label = "Flughafen BER", pos = [52.36399, 13.50833], uic = "8084407" },
+  { km = 34.482, kind = "signal", signal = "stop", dir = 1 },
+  { km = 34.507, kind = "signal", signal = "stop", dir = 1 },
+  { km = 34.7, kind = "signal", label = "61N4", signal = "main,traversable,wrong_road", dir = 1, measured = true },
+  { km = 35.471, kind = "signal", label = "61Vp4", signal = "distant", dir = -1 },
+  { km = 35.708, kind = "signal", label = "91V21", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 35.816, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 35.903, kind = "signal", label = "61 F", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 36.647, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 36.839, kind = "signal", label = "9121", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 36.915, kind = "signal", label = "61Vf", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 37.628, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 37.806, kind = "signal", label = "91 22", signal = "combined,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 39.06, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 39.249, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 39.934, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 40.39, kind = "signal", label = "38 61", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 40.717, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 41.031, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 41.228, kind = "signal", label = "38 34", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 41.332, kind = "signal", signal = "distant", dir = -1 },
+  { km = 41.751, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 41.9, kind = "signal", label = "39 F", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 42.098, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 42.465, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 42.595, kind = "signal", label = "39 G", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 42.776, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 43.14, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 43.444, kind = "signal", label = "39 03", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 43.583, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 30.326, kmTo = 30.453, length = 120 },
+  { kind = "tunnel", kmFrom = 30.856, kmTo = 30.931, length = 72 },
+  { kind = "tunnel", kmFrom = 32.181, kmTo = 35.104, length = 2990 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_vp~HkbzpA`HsCrEkFfCoHjAcMCoG_AaKqMgy@", v = 100 },
+  { line = "kpp~Hyt}pAwDsS{GmX}i@i`B", v = 120 },
+  { line = "}ir~HedbqAyA}H", tunnel = true, v = 120 },
+  { line = "wlr~HcnbqAoA_OC}Q", v = 120 },
+  { line = "kor~HaqcqATqE", tunnel = true, v = 120 },
+  { line = "unr~HswcqA|Gii@fCkg@dD_Y", v = 120 },
+  { line = "i|q~HidgqApHoh@fAm\\{@_Y{Hqj@", tunnel = true, v = 120 },
+  { line = "g|q~HypkqAO{@", tunnel = true, v = 80 },
+  { line = "w|q~HurkqAoKqn@", tunnel = true, v = 120 },
+  { line = "gir~HgbmqAuIyn@", tunnel = true, v = 80 },
+  { line = "}sr~HarnqAwCgU", tunnel = true, v = 120 },
+  { line = "uxr~HihoqAwKqs@{FkSuEqIeFwF{RsLkDgDuEwHmDiK_D{RoQg|AqC_LkLyVwCeLs\\ghC", v = 120 },
+  { line = "klw~H{x|qAiFca@}AyHeDkH}EoEoGyAuHxA{EpEmKlP", v = 100 },
+  { line = "ghy~Hu|}qA`Q}YbIsJnNmKv[oQ", v = 120 },
+]
+posts = [[27, 52.35496, 13.41014], [28, 52.35344, 13.42284], [29, 52.35712, 13.4355], [30, 52.36239, 13.44736], [31, 52.3646, 13.46025], [32, 52.36235, 13.47423], [33, 52.35992, 13.48807], [34, 52.36275, 13.50302], [35, 52.366, 13.51681], [36, 52.36965, 13.52996], [37, 52.37714, 13.53776], [38, 52.38043, 13.55187], [39, 52.38488, 13.56442], [40, 52.38798, 13.57823], [41, 52.39082, 13.59144], [42, 52.39769, 13.59585], [43, 52.39449, 13.59992]]
+
+[[connections]]
+km = 34.345
+station = "Flughafen BER"
+lines = [
+  { id = "6008", ref = "6008", name = "6008 Grünauer Kr - Bln Flughafen", km = 13.615 },
+]

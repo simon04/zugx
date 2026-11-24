@@ -1,0 +1,147 @@
+id = "6396"
+ref = "6396"
+name = "6396 City-Tunnel Leipzig"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q106392915"
+from = "Leipzig Bayerischer Bahnhof"
+to = "Leipzig Nordkopf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.514
+kmTo = 7.231
+length = 5.779
+speeds = [[1.514, 4.963, 80, 80], [4.963, 5.242, 100, 80], [5.242, 7.231, 100, 100]]
+curves = [[1.618, 1.943, 700], [2.093, 2.468, 530], [2.793, 3.368, 600], [3.418, 3.643, 1100], [3.818, 3.918, 2140], [4.584, 4.702, 1610], [4.958, 5.011, 2510], [5.783, 6.551, 870], [6.806, 7.029, 1040], [7.064, 7.152, 1280]]
+points = [
+  { km = 1.559, kind = "signal", label = "87ZU901", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 1.636, kind = "stop", label = "Leipzig Bayerischer Bahnhof", pos = [51.32952, 12.38152], uic = "8023546" },
+  { km = 1.654, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.437, kind = "station", label = "Leipzig Wilhelm-Leuschner-Platz", pos = [51.33544, 12.37534] },
+  { km = 3.03, kind = "station", label = "Leipzig Markt", pos = [51.34062, 12.37458] },
+  { km = 3.528, kind = "signal", signal = "combined", dir = -1 },
+  { km = 3.589, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.664, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.691, kind = "stop", label = "Leipzig Hauptbahnhof (tief)", uic = "8010205", pos = [51.34548, 12.38] },
+  { km = 3.691, kind = "station", label = "Leipzig Hauptbahnhof (Tiefgleise)", uic = "8015378", pos = [51.34543, 12.38013] },
+  { km = 3.751, kind = "signal", signal = "combined", dir = 1 },
+  { km = 3.917, kind = "station", label = "Leipzig Hauptbahnhof", uic = "8023179", pos = [51.34655, 12.38309] },
+  { km = 4.254, kind = "signal", signal = "combined", dir = -1 },
+  { km = 4.574, kind = "signal", label = "85ZR101", signal = "combined,route,speed_limit,speed_limit_distant,wrong_road", dir = 1 },
+  { km = 4.78, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.927, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.963, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.242, kind = "signal", label = "85ZU201", signal = "combined,minor,route,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 5.328, kind = "signal", label = "84Vzs201", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.144, kind = "signal", label = "84ZW201", signal = "combined,minor,route_distant,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 6.196, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 6.21, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.224, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 6.254, kind = "stop", label = "Leipzig Nord", pos = [51.36445, 12.40112] },
+  { km = 6.284, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 6.343, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.345, kind = "signal", label = "84 ZS301", signal = "combined,speed_limit", dir = 1 },
+  { km = 6.537, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 6.577, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.579, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.811, kind = "signal", label = "84ZV301", signal = "combined,speed_limit", dir = -1 },
+  { km = 7.075, kind = "signal", label = "84N301", signal = "main,speed_limit", dir = 1 },
+  { km = 7.137, kind = "signal", label = "84L1302X", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 1.514, kmTo = 4.405, length = 2892, name = "City-Tunnel" },
+  { kind = "bridge", kmFrom = 4.604, kmTo = 4.638, length = 35 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "szpxH_ptjAlSwDlWuJvFSpDf@|HrDnHxFrf@dn@", v = 100 },
+  { line = "kemxHedsjAbNfOnI`M", v = 80 },
+  { line = "wklxH{erjAlV~]xMnOlK`RpEnDlElAxG@zTyCtDmA`FkEtOgWbMcH", tunnel = true, v = 80 },
+]
+posts = [[7, 51.37058, 12.39903], [6, 51.36225, 12.39987], [5, 51.35487, 12.39151], [4, 51.34772, 12.38263], [3, 51.34045, 12.37448], [2, 51.33216, 12.37849]]
+
+[[tracks]]
+track = "2"
+kmFrom = 1.514
+kmTo = 7.231
+length = 5.779
+speeds = [[1.514, 4.963, 80, 80], [4.963, 5.242, 100, 80], [5.242, 7.231, 100, 100]]
+curves = [[1.618, 1.943, 700], [2.093, 2.468, 530], [2.793, 3.368, 600], [3.418, 3.643, 1100], [3.818, 3.918, 2140], [4.584, 4.702, 1610], [4.958, 5.011, 2510], [5.783, 6.551, 870], [6.806, 7.029, 1040], [7.064, 7.152, 1280]]
+points = [
+  { km = 1.559, kind = "signal", label = "87ZU901", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 1.636, kind = "stop", label = "Leipzig Bayerischer Bahnhof", pos = [51.32952, 12.38152], uic = "8023546" },
+  { km = 1.654, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.437, kind = "station", label = "Leipzig Wilhelm-Leuschner-Platz", pos = [51.33544, 12.37534] },
+  { km = 3.03, kind = "station", label = "Leipzig Markt", pos = [51.34062, 12.37458] },
+  { km = 3.528, kind = "signal", signal = "combined", dir = -1 },
+  { km = 3.589, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.664, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.691, kind = "stop", label = "Leipzig Hauptbahnhof (tief)", uic = "8010205", pos = [51.34548, 12.38] },
+  { km = 3.691, kind = "station", label = "Leipzig Hauptbahnhof (Tiefgleise)", uic = "8015378", pos = [51.34543, 12.38013] },
+  { km = 3.751, kind = "signal", signal = "combined", dir = 1 },
+  { km = 3.917, kind = "station", label = "Leipzig Hauptbahnhof", uic = "8023179", pos = [51.34655, 12.38309] },
+  { km = 4.254, kind = "signal", signal = "combined", dir = -1 },
+  { km = 4.574, kind = "signal", label = "85ZR101", signal = "combined,route,speed_limit,speed_limit_distant,wrong_road", dir = 1 },
+  { km = 4.78, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.927, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.963, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.242, kind = "signal", label = "85ZU201", signal = "combined,minor,route,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 5.328, kind = "signal", label = "84Vzs201", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.144, kind = "signal", label = "84ZW201", signal = "combined,minor,route_distant,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 6.196, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 6.21, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.224, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 6.254, kind = "stop", label = "Leipzig Nord", pos = [51.36445, 12.40112] },
+  { km = 6.284, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 6.343, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.345, kind = "signal", label = "84 ZS301", signal = "combined,speed_limit", dir = 1 },
+  { km = 6.537, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 6.577, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.579, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.811, kind = "signal", label = "84ZV301", signal = "combined,speed_limit", dir = -1 },
+  { km = 7.075, kind = "signal", label = "84N301", signal = "main,speed_limit", dir = 1 },
+  { km = 7.137, kind = "signal", label = "84L1302X", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 1.514, kmTo = 4.405, length = 2892, name = "City-Tunnel" },
+  { kind = "bridge", kmFrom = 4.604, kmTo = 4.638, length = 35 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "szpxH_ptjAlSwDlWuJvFSpDf@|HrDnHxFrf@dn@", v = 100 },
+  { line = "kemxHedsjAbNfOnI`M", v = 80 },
+  { line = "wklxH{erjAlV~]xMnOlK`RpEnDlElAxG@zTyCtDmA`FkEtOgWbMcH", tunnel = true, v = 80 },
+]
+posts = [[7, 51.37058, 12.39903], [6, 51.36225, 12.39987], [5, 51.35487, 12.39151], [4, 51.34772, 12.38263], [3, 51.34045, 12.37448], [2, 51.33216, 12.37849]]
+
+[[connections]]
+km = 1.636
+station = "Leipzig Bayerischer Bahnhof"
+lines = [
+  { id = "6377", ref = "6377", name = "6377 Leipzig Bayerischer Bahnhof - Markkleeberg-Gaschwitz", km = 0.172 },
+]
+
+[[connections]]
+km = 3.691
+station = "Leipzig Hauptbahnhof"
+lines = [
+  { id = "5919", ref = "5919", name = "5919 Eltersdorf - Leipzig Hbf", km = 311.76 },
+  { id = "6363", ref = "6363", name = "6363 Leipzig Hbf - Dresden-Neustadt", km = -0.114 },
+  { id = "6366", ref = "6366", name = "6366 Leipzig - Geithain", km = -0.009 },
+  { id = "6367", ref = "6367", name = "6367 Leipzig Hbf - Großkorbetha", km = -0.341 },
+  { id = "6382", ref = "6382", name = "6382 Leipzig-Wahren - Leipzig Hbf", km = 9.155 },
+  { id = "6411", ref = "6411", name = "6411 Trebnitz – Leipzig", km = 81.148 },
+]
+
+[[connections]]
+km = 6.254
+station = "Leipzig Nord"
+lines = [
+  { id = "5919", ref = "5919", name = "5919 Eltersdorf - Leipzig Hbf", km = 309.331 },
+  { id = "6360", ref = "6360", name = "6360 Leipzig Nordkopf - Eilenburg", km = 1.732 },
+  { id = "6411", ref = "6411", name = "6411 Trebnitz – Leipzig", km = 78.707 },
+]

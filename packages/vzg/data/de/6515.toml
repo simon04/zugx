@@ -1,0 +1,27 @@
+id = "6515"
+ref = "6515"
+name = "K. Wusterh. - Schöneicher Plan"
+gauge = "1435"
+wikidata = "Q107564775"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.786
+length = 3.786
+speeds = [[0, 3.786, "", ""]]
+curves = [[0.1, 0.325, 310], [1.175, 1.35, 960], [2.025, 2.35, 620], [2.4, 2.8, 290], [3.05, 3.1, 2180], [3.175, 3.475, 620]]
+points = [
+  { km = 0.019, kind = "halt", label = "Schöneicher Plan", pos = [52.24324, 13.51825] },
+  { km = 2.969, kind = "station", label = "Mittenwalde (Ost)", pos = [52.25938, 13.54991] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.884, kmTo = 1.909, length = 25 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kwz}HgfoqAQ_I_CmIcl@{x@o\\{_AuCmEoJ_H}CiHm@aJrByr@jAiH~Ic[" },
+]
+posts = [[0, 52.24326, 13.51796], [1, 52.24934, 13.52804], [2, 52.25513, 13.53915], [3, 52.25928, 13.55035]]

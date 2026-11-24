@@ -1,0 +1,119 @@
+id = "9413"
+ref = "9413"
+name = "Kraichtalbahn"
+operator = "Albtal-Verkehrs-Gesellschaft mbH"
+gauge = "1435"
+wikidata = "Q1684995"
+from = "Ubstadt Ort"
+to = "Menzingen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.132
+kmTo = 14.78
+length = 14.821
+speeds = [[-0.132, 0.415, 50, 50], [0.415, 0.887, 80, 60], [0.887, 3.17, 80, 80], [3.17, 3.374, 40, 80], [3.374, 3.436, 40, 40], [3.436, 3.645, 60, 60], [3.645, 4.192, 80, 60], [4.192, 7.637, 80, 80], [7.637, 7.705, 40, 80], [7.705, 7.763, 40, 40], [7.763, 7.934, 60, 60], [7.934, 8.069, 80, 60], [8.069, 10.121, 80, 80], [10.121, 10.427, 60, 80], [10.427, 10.498, 50, 80], [10.498, 10.56, 40, 40], [10.56, 10.755, 50, 50], [10.755, 10.87, 80, 50], [10.87, 11.055, 80, 60], [11.055, 14.581, 80, 80], [14.581, 14.78, 30, 80]]
+curves = [[-0.032, 0.528, 260], [0.653, 0.978, 470], [1.029, 1.255, 750], [1.782, 1.932, 1100], [2.782, 2.932, 830], [3.008, 3.232, 1420], [3.585, 3.911, 410], [4.136, 4.362, 720], [4.664, 4.765, 1660], [5.04, 5.313, 410], [5.388, 5.563, 830], [5.764, 5.988, 550], [6.663, 6.964, 410], [7.014, 7.19, 490], [7.291, 7.417, 1690], [7.492, 7.643, 840], [7.943, 8.068, 1470], [9.325, 9.425, 1730], [9.851, 10.101, 610], [10.302, 10.832, 370], [10.995, 11.286, 610], [11.827, 11.98, 1190], [12.18, 12.255, 1590], [12.355, 12.48, 1090], [13.106, 13.382, 800], [13.605, 14.05, 530], [14.1, 14.421, 1180]]
+points = [
+  { km = -0.081, kind = "signal", label = "31ZU2", signal = "main,minor,traversable", dir = -1 },
+  { km = -0.063, kind = "signal", signal = "other", dir = -1 },
+  { km = -0.048, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.02, kind = "signal", label = "31L02Y", signal = "minor", dir = -1 },
+  { km = -0.011, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = -0.006, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.005, kind = "station", label = "Ubstadt Ort", pos = [49.15671, 8.62547] },
+  { km = 0.032, kind = "stop", label = "Ubstadt Ort", pos = [49.15693, 8.62587] },
+  { km = 0.035, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.046, kind = "signal", label = "31N2", signal = "main,minor,traversable", dir = 1 },
+  { km = 0.226, kind = "signal", label = "31LW07Y", signal = "minor", dir = -1 },
+  { km = 0.275, kind = "signal", signal = "shunting", dir = 1, measured = true },
+  { km = 0.312, kind = "signal", signal = "crossing_distant,crossing_hint,speed_limit_distant", dir = 1 },
+  { km = 0.415, kind = "signal", label = "31G", signal = "main,speed_limit,speed_limit_distant,traversable", dir = -1, measured = true },
+  { km = 0.67, kind = "signal", signal = "speed_limit_distant,stop", dir = -1 },
+  { km = 0.692, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.708, kind = "halt", label = "Ubstadt Salzbrunnenstraße", pos = [49.15519, 8.6331] },
+  { km = 0.728, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.752, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.826, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.887, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.007, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.016, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.021, kind = "stop", label = "Unteröwisheim Martin-Luther-Straße", pos = [49.14649, 8.66206] },
+  { km = 3.089, kind = "stop", label = "Unteröwisheim Martin-Luther-Straße", pos = [49.14645, 8.66255] },
+  { km = 3.17, kind = "signal", label = "35A", signal = "main,traversable", dir = 1, measured = true },
+  { km = 3.297, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.436, kind = "signal", label = "35P1", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 3.512, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.517, kind = "station", label = "Unteröwisheim Bahnhof", pos = [49.14636, 8.6689] },
+  { km = 3.558, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.815, kind = "signal", label = "35F", signal = "main,traversable", dir = -1 },
+  { km = 4.192, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.004, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.035, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.06, kind = "stop", label = "Oberöwisheim", pos = [49.14014, 8.68626] },
+  { km = 5.08, kind = "signal", signal = "stop", dir = 1 },
+  { km = 7.637, kind = "signal", label = "36A", signal = "main,traversable", dir = 1 },
+  { km = 7.763, kind = "signal", label = "36P1", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 7.778, kind = "signal", signal = "stop", dir = -1 },
+  { km = 7.781, kind = "station", label = "Münzesheim", pos = [49.12597, 8.71616] },
+  { km = 7.804, kind = "signal", signal = "stop", dir = -1 },
+  { km = 8.069, kind = "signal", label = "36F", signal = "main,traversable", dir = 1 },
+  { km = 8.691, kind = "signal", signal = "stop", dir = -1 },
+  { km = 8.701, kind = "stop", label = "Münzesheim Ost", pos = [49.12132, 8.72651] },
+  { km = 8.747, kind = "signal", signal = "stop", dir = 1 },
+  { km = 8.765, kind = "stop", label = "Münzesheim Ost", pos = [49.12121, 8.72681] },
+  { km = 8.773, kind = "signal", signal = "stop", dir = 1 },
+  { km = 10.121, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 10.427, kind = "signal", label = "37ZR2", signal = "main,traversable", dir = 1 },
+  { km = 10.56, kind = "signal", label = "37P1", signal = "main,speed_limit,traversable", dir = -1, measured = true },
+  { km = 10.594, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.622, kind = "station", label = "Gochsheim", pos = [49.10953, 8.74434] },
+  { km = 10.643, kind = "signal", signal = "stop", dir = 1 },
+  { km = 10.87, kind = "signal", label = "37F", signal = "main,traversable", dir = -1 },
+  { km = 11.055, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 12.608, kind = "signal", signal = "stop", dir = -1 },
+  { km = 12.619, kind = "stop", label = "Bahnbrücken", pos = [49.11928, 8.76483] },
+  { km = 12.642, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.7, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.118, kind = "signal", signal = "catenary_mast,speed_limit_distant", dir = 1 },
+  { km = 14.285, kind = "signal", label = "38A", signal = "main,traversable", dir = 1 },
+  { km = 14.341, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 14.503, kind = "signal", label = "38LW01X", signal = "minor", dir = 1 },
+  { km = 14.569, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.581, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.698, kind = "signal", label = "38P1", signal = "main,minor", dir = -1 },
+  { km = 14.745, kind = "station", label = "Menzingen", pos = [49.13626, 8.77519] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.995, kmTo = 4.012, length = 16 },
+  { kind = "bridge", kmFrom = 5.633, kmTo = 5.651, length = 18 },
+  { kind = "bridge", kmFrom = 8.261, kmTo = 8.284, length = 23 },
+  { kind = "bridge", kmFrom = 9.014, kmTo = 9.03, length = 16 },
+  { kind = "bridge", kmFrom = 10.87, kmTo = 10.884, length = 12 },
+  { kind = "bridge", kmFrom = 11.099, kmTo = 11.115, length = 15 },
+  { kind = "bridge", kmFrom = 13.146, kmTo = 13.155, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}v_kHmmss@mGmJoAyEGiJlBcI", v = 50 },
+  { line = "u~_kHcuts@rKyNzAeD|@eE`AoNfA_H|Sir@dTqkAtAcTDsU", v = 80 },
+  { line = "}{}jHmt{s@?eD", v = 40 },
+  { line = "}{}jHsy{s@BwP", v = 60 },
+  { line = "y{}jHkk|s@\\sElA}EbNsUlB_FjIu^nHoa@fCaErKoInNuUpOyhA`CoEbHyGlOq^tB_I", v = 80 },
+  { line = "w_zjHubet@r@iC", v = 40 },
+  { line = "c~yjH_get@vCyK", v = 60 },
+  { line = "kyyjHyset@dm@kaB~R{a@xC_EvRwLxCoD", v = 80 },
+  { line = "yyvjHirjt@hAaC", v = 40 },
+  { line = "owvjHkvjt@bAuEXeH", v = 50 },
+  { line = "qtvjHgfkt@{@mX}AaImV_k@sT{Zkj@c_@mOcZoDmCsI{AyK}EaHa@iTL", v = 80 },
+]
+posts = [[0, 49.15672, 8.62557], [1, 49.15408, 8.63659], [2, 49.14985, 8.64858], [3, 49.14659, 8.66135], [4, 49.14466, 8.6741], [5, 49.14024, 8.68581], [6, 49.13413, 8.69533], [7, 49.13046, 8.70745], [8, 49.12521, 8.71837], [9, 49.11997, 8.72942], [10, 49.11416, 8.73983], [11, 49.10959, 8.7492], [12, 49.11456, 8.7598], [13, 49.12219, 8.76688], [14, 49.1296, 8.77401]]
+
+[[connections]]
+km = -0.005
+station = "Ubstadt Ort"
+lines = [
+  { id = "9412", ref = "9412", name = "Katzbachbahn", km = 4.444 },
+]

@@ -1,0 +1,32 @@
+id = "4402"
+ref = "4402"
+name = "4402 Waldshut - Waldshut (DB-Grenze)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Waldshut"
+to = "Waldshut Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.663
+length = 1.663
+speeds = [[0, 0.32, 30, 30], [0.32, 1.663, 60, 60]]
+curves = [[0.1, 0.3, 770], [0.425, 0.625, 990], [0.85, 0.975, 1690], [1.25, 1.45, 1090]]
+points = [
+  { km = 0.018, kind = "station", label = "Waldshut", uic = "8006167", pos = [47.62121, 8.21952] },
+  { km = 0.318, kind = "signal", signal = "main_repeated" },
+  { km = 0.738, kind = "signal", signal = "distant,type", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.475, kmTo = 1.549, length = 74 },
+  { kind = "bridge", kmFrom = 1.6, kmTo = 1.663, length = 63 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "s{saHkmdq@fHwFlDmF", v = 30 },
+  { line = "}lsaHq|dq@~FqJbQ{P|NiRnDeGrGqO", v = 60 },
+]
+posts = [[0, 47.62058, 8.2199], [1, 47.6134, 8.22782]]

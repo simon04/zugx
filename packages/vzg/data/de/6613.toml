@@ -1,0 +1,38 @@
+id = "6613"
+ref = "6613"
+name = "Bahnstrecke Riesa–Nossen (stillgelegter Abschnitt Riesa–Ziegenhain)"
+operator = "Nossen-Riesaer Eisenbahn-Compagnie GmbH"
+gauge = "1435"
+wikidata = "Q121106988"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 29.787
+kmTo = 33.775
+length = 3.985
+speeds = [[29.787, 33.775, "", ""]]
+curves = [[30.371, 30.742, 670], [30.891, 31.782, 420], [32.128, 32.178, 2110], [32.252, 32.506, 720], [32.555, 32.805, 870], [32.855, 33.189, 870], [33.575, 33.675, 480]]
+points = [
+  { km = 32.6, kind = "signal", label = "C", signal = "combined", dir = 1 },
+  { km = 33.199, kind = "signal", label = "H", signal = "main,minor", dir = -1 },
+  { km = 33.358, kind = "station", label = "Nossen", pos = [51.06089, 13.29323], measured = true, uic = "8006259" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 30.533, kmTo = 30.546, length = 13 },
+  { kind = "bridge", kmFrom = 31.744, kmTo = 31.83, length = 87 },
+  { kind = "bridge", kmFrom = 32.004, kmTo = 32.017, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "e~svHuldpACtK|E~h@JpGqCnYg@|Xk@nIkJbr@gDtIoCxC{DfBwCT{Di@kF{DeMsVuD_E{D_Cga@{N" },
+]
+posts = [[33, 51.06052, 13.28828], [32, 51.06259, 13.27446], [31, 51.06893, 13.26865], [30, 51.07659, 13.27555]]
+
+[[connections]]
+km = 33.358
+station = "Nossen"
+lines = [
+  { id = "6386", ref = "6386", name = "6386 Borsdorf (Sachs) - Coswig (bei Dresden), Stw 1", km = 73.408 },
+]

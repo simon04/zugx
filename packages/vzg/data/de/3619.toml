@@ -1,0 +1,33 @@
+id = "3619"
+ref = "3619"
+name = "Homburger Damm"
+operator = "DB InfraGO"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.4
+kmTo = 2.4
+length = 0.931
+speeds = [[1.4, 1.422, 60, ""], [1.422, 1.676, 60, 60], [1.676, 1.795, 80, 60], [1.795, 2.4, 80, ""]]
+curves = [[1.615, 1.674, 1550], [2.028, 2.291, 300]]
+points = [
+  { km = 1.613, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.634, kind = "signal", label = "04 N3", signal = "combined,route_distant,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 1.676, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.723, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.795, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.865, kind = "signal", label = "04 ZU4", signal = "combined,speed_limit", dir = -1 },
+  { km = 2.383, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.143, kmTo = 2.194, length = 48 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sixpHskws@hDtN", v = 60 },
+  { line = "idxpH}{vs@hMnd@X~H}@lH", v = 80 },
+]
+posts = [[2, 50.09842, 8.63794]]

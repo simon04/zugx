@@ -1,0 +1,32 @@
+id = "2251"
+ref = "2251"
+name = "2251 Gladbeck West - Abzw Gladbeck-Zweckel"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Gladbeck West"
+to = "Gladbeck-Zweckel"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.258
+length = 1.258
+speeds = [[0, 1.258, 60, 60]]
+curves = [[0.1, 0.375, 470]]
+points = [
+  { km = 0.255, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.885, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 0.956, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.957, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.165, kmTo = 0.185, length = 19 },
+  { kind = "bridge", kmFrom = 0.527, kmTo = 0.538, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "swzyHejsi@fHm@`F|Axn@pg@", v = 60 },
+]
+posts = [[0, 51.58794, 6.98547], [1, 51.57974, 6.98044]]

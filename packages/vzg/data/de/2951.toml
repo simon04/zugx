@@ -1,0 +1,27 @@
+id = "2951"
+ref = "2951"
+name = "2951 Lippstadt - Rheda-Wiedenbrück"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q20667927"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.926
+length = 0.926
+speeds = [[0, 0.926, 50, 50]]
+curves = [[0.325, 0.825, 340]]
+points = [
+  { km = 0.861, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.059, kmTo = 0.138, length = 79 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{flzH}k_r@jTqAxFnAvCvCjBbEjAhGb@xH", v = 50 },
+]
+posts = [[0, 51.67742, 8.35791]]

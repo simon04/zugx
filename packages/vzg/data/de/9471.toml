@@ -1,0 +1,45 @@
+id = "9471"
+ref = "9471"
+name = "9471 Amstetten - Laichingen"
+operator = "Ulmer Eisenbahnfreunde e.V. Sektion Alb-Bähnle"
+gauge = "1000"
+wikidata = "Q266774"
+from = "Amstetten"
+to = "Laichingen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.83
+length = 5.83
+speeds = [[0, 5.83, "", ""]]
+curves = [[0.275, 0.4, 1690], [0.55, 0.875, 210], [0.925, 1.575, 390], [1.625, 1.75, 870], [1.875, 2.025, 510], [2.075, 2.325, 290], [2.45, 2.55, 990], [2.6, 3.325, 790], [3.5, 3.7, 410], [3.75, 5.175, 350], [5.3, 5.45, 710], [5.525, 5.725, 320]]
+points = [
+  { km = 0.016, kind = "station", label = "Amstetten (Württemberg)", uic = "8029096", pos = [48.57845, 9.87293] },
+  { km = 0.031, kind = "station", label = "Amstetten (Württ) Alb-Bähnle", pos = [48.57817, 9.87251] },
+  { km = 0.11, kind = "halt", label = "Amstetten (Württ) Lokalbahn", pos = [48.57787, 9.874] },
+  { km = 5.747, kind = "station", label = "Oppingen", pos = [48.54575, 9.8272] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "c~ngHeeg{@tO{KzLeGnB_@jBh@nBtCfEjQtI|KjBzN~EfK`KpNxBnInAfCvCbBhKpBtIj@rEzEjBjEzBdKzAdN|AnXz@bE`DvHrAxKjCrDzGv@lBlAzClHnBfKpD~JrBpBzF`BbC`DrEtUnFdONnC]~L" },
+]
+posts = [[0, 48.57842, 9.87235], [1, 48.57116, 9.87256], [2, 48.56542, 9.86258], [3, 48.55823, 9.85626], [4, 48.55523, 9.84369], [5, 48.54861, 9.836]]
+
+[[connections]]
+km = 0.016
+station = "Amstetten"
+lines = [
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 67.005 },
+  { id = "9470", ref = "9470", name = "9470 Amstetten - Gerstetten", km = -0.003 },
+]
+
+[[connections]]
+km = 0.11
+station = "Amstetten Lokalbahn"
+lines = [
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 67.1 },
+  { id = "9470", ref = "9470", name = "9470 Amstetten - Gerstetten", km = 0.092 },
+]

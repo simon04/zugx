@@ -1,0 +1,47 @@
+id = "2656"
+ref = "2656"
+name = "2656 Abzw Köln Südbrücke - Abzw Gremberg Nord"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Köln Südbrücke"
+to = "Gremberg Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.04
+kmTo = 3.121
+length = 3.063
+speeds = [[0.04, 2.987, 60, 60], [2.987, 3.029, "", ""], [3.029, 3.121, 60, 60]]
+curves = [[0.152, 0.302, 2240], [0.377, 1.099, 670], [1.414, 1.777, 830], [2.696, 2.896, 530], [2.946, 3.021, 1010]]
+points = [
+  { km = 0.393, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.402, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.095, kind = "signal", label = "263", signal = "main", dir = 1 },
+  { km = 1.104, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.782, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.591, kind = "signal", label = "12C", signal = "main", dir = 1 },
+  { km = 2.83, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.909, kind = "signal", label = "12L 2006X", signal = "minor", dir = 1 },
+  { km = 2.912, kind = "signal", signal = "distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.161, kmTo = 0.183, length = 22 },
+  { kind = "bridge", kmFrom = 0.227, kmTo = 0.246, length = 19 },
+  { kind = "bridge", kmFrom = 0.34, kmTo = 0.362, length = 22 },
+  { kind = "bridge", kmFrom = 0.509, kmTo = 0.547, length = 38 },
+  { kind = "bridge", kmFrom = 0.816, kmTo = 0.848, length = 32 },
+  { kind = "bridge", kmFrom = 1.33, kmTo = 1.351, length = 22 },
+  { kind = "bridge", kmFrom = 1.5, kmTo = 1.529, length = 30 },
+  { kind = "bridge", kmFrom = 1.679, kmTo = 1.701, length = 23 },
+  { kind = "bridge", kmFrom = 2.389, kmTo = 2.418, length = 27 },
+  { kind = "bridge", kmFrom = 2.802, kmTo = 2.887, length = 86 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "scwuHa|yi@{AxE", v = 60 },
+  { line = "ofwuHguyi@n@{A" },
+  { line = "_ewuHcxyi@wBbHu@dFaH|wAs@tHsB`KeM|`@yB~POxK`@~IrIzh@", v = 60 },
+]
+posts = [[3, 50.91431, 7.01828], [2, 50.91616, 7.00557], [1, 50.91979, 6.99228]]

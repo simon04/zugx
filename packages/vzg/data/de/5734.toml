@@ -1,0 +1,43 @@
+id = "5734"
+ref = "5734"
+name = "5734 Abzw Hufschlag - Waging"
+operator = "DB InfraGO AG;DB RegioNetz Infrastruktur GmbH;Südostbayernbahn"
+gauge = "1435"
+from = "Hufschlag Abzw"
+to = "Waging"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.027
+kmTo = 10.579
+length = 10.555
+speeds = [[0.027, 0.145, 40, 50], [0.145, 0.205, 40, 30], [0.205, 0.398, 30, 50], [0.398, 1.738, 50, 50], [1.738, 1.88, 50, 40], [1.88, 6.77, 50, 50], [6.77, 6.849, 20, 50], [6.849, 9.795, 50, 50], [9.795, 10.002, 50, 40], [10.002, 10.579, 30, 50]]
+curves = [[0.127, 0.377, 410], [1.666, 1.912, 970], [2.159, 2.357, 1460], [3.613, 3.784, 1300], [4.472, 4.55, 2500], [4.966, 5.402, 600], [5.607, 6.573, 200], [6.621, 6.96, 260], [7.11, 7.692, 250], [7.97, 8.315, 360], [8.413, 8.561, 890], [8.61, 9.233, 620], [9.565, 9.999, 520]]
+points = [
+  { km = 0.145, kind = "signal", label = "G", signal = "main", dir = -1 },
+  { km = 0.17, kind = "stop", label = "Hufschlag", pos = [47.87562, 12.66493], uic = "8003023" },
+  { km = 3.426, kind = "stop", label = "Weibhausen", pos = [47.8986, 12.69243], uic = "8006255" },
+  { km = 6.889, kind = "stop", label = "Unteraschau", pos = [47.92296, 12.69778], uic = "8005977" },
+  { km = 8.269, kind = "stop", label = "Otting", pos = [47.92877, 12.70353], uic = "8004730" },
+  { km = 10.534, kind = "stop", label = "Waging am See", pos = [47.93148, 12.72707], uic = "8006138" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 8.792, kmTo = 8.803, length = 12 },
+  { kind = "bridge", kmFrom = 9.304, kmTo = 9.327, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "orecHwghlAgAgH", v = 50 },
+  { line = "wtecH_qhlAw@iC", v = 40 },
+  { line = "ovecHiuhlAoEuGw_A_`AuSia@_}@gjAif@s^kYqP}JaLmSsDaEt@qBfCcA~DMrDv@vNo@hEyAlCiBnAeCV{H_DmDLaDnCsJnSkBpBiFdAiEoB{BgG}Ea^G}FbBiI|FsM|IsObC}Kl@{G@{HcBce@iAyGoEsIy^}Z", v = 50 },
+]
+posts = [[1, 47.88157, 12.67149], [2, 47.88876, 12.67977], [3, 47.89552, 12.68877], [4, 47.90294, 12.69674], [5, 47.91071, 12.7024], [6, 47.91802, 12.70302], [7, 47.92367, 12.69661], [8, 47.9291, 12.70006], [9, 47.9249, 12.71149], [10, 47.92733, 12.72335]]
+
+[[connections]]
+km = 0.17
+station = "Hufschlag"
+lines = [
+  { id = "5703", ref = "5703", name = "5703 Rosenheim - Salzburg Grenze", km = 55.566 },
+]

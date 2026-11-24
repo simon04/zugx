@@ -1,0 +1,49 @@
+id = "6208"
+ref = "6208"
+name = "6208 Horka Gbf - Horka Pbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Horka Gbf"
+to = "Horka Pbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -1.22
+kmTo = 2.076
+length = 3.299
+speeds = [[-1.22, 0.184, 60, 60], [0.184, 0.238, "", ""], [0.238, 1.236, 40, 40], [1.236, 2.076, 60, 60]]
+curves = [[-1.12, -1.07, 2390], [-0.37, 0.155, 1100], [0.766, 1.153, 220], [1.203, 1.353, 2060], [1.903, 1.953, 1520]]
+points = [
+  { km = -1.037, kind = "signal", signal = "electricity", dir = -1 },
+  { km = -0.844, kind = "signal", signal = "main", dir = -1 },
+  { km = -0.252, kind = "signal", signal = "distant", dir = 1 },
+  { km = -0.07, kind = "signal", label = "95 N4", signal = "main,speed_limit,wrong_road", dir = 1 },
+  { km = 0.238, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.262, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.288, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.342, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.472, kind = "signal", label = "Vh", signal = "main", dir = -1 },
+  { km = 0.935, kind = "signal", label = "H", signal = "main", dir = 1 },
+  { km = 0.994, kind = "station", label = "Horka Pbf", uic = "8047969", pos = [51.3039, 14.90208] },
+  { km = 1.083, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.161, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 1.296, kind = "signal", label = "E", signal = "main", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "m`cxHewczAeOzoAi@lRl@pT", v = 60 },
+  { line = "opcxHi}_zARxC" },
+  { line = "{ocxHox_zAbEft@AxD{@lE}AbC}HfB", v = 40 },
+  { line = "qxcxHso}yAcm@lO", v = 60 },
+]
+posts = [[-1, 51.30329, 14.9308], [0, 51.30542, 14.9169], [1, 51.30452, 14.90286], [2, 51.31321, 14.89953]]
+
+[[connections]]
+km = 0.994
+station = "Horka Pbf"
+lines = [
+  { id = "6142", ref = "6142", name = "6142 Berlin - Görlitz", km = 187.024 },
+  { id = "6207", ref = "6207", name = "6207 Horka Grenze – Roßlau", km = 22.83 },
+]

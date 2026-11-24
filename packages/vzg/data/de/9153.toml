@@ -1,0 +1,64 @@
+id = "9153"
+ref = "9153"
+operator = "Borkumer Kleinbahn und Dampfschiffahrtgesellschaft mbH"
+gauge = "900"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.154
+kmTo = 6.49
+length = 6.634
+speeds = [[0.154, 0.19, 50, 50], [0.19, 0.338, "", ""], [0.338, 6.49, 50, 50]]
+curves = [[0.214, 0.573, 220], [0.733, 1.108, 630], [1.359, 1.76, 630], [2.061, 2.161, 1720], [2.412, 2.588, 1140], [2.94, 3.141, 700], [3.618, 3.668, 2320], [3.869, 3.995, 1250], [6.004, 6.13, 1020]]
+points = [
+  { km = 0.159, kind = "signal", label = "1Ne5/2", signal = "stop", dir = -1 },
+  { km = 0.189, kind = "station", label = "Borkum (Nordseebad)", pos = [53.5874, 6.66295] },
+  { km = 0.19, kind = "stop", label = "Borkum Bahnhof", pos = [53.5874, 6.66298] },
+  { km = 0.338, kind = "signal", label = "1Ne5/1", signal = "stop", dir = 1 },
+  { km = 0.345, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.359, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.404, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.417, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 0.447, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.455, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 0.479, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.593, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 0.662, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 0.677, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.724, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.732, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.763, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 0.772, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 0.867, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.914, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.173, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.243, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.535, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.601, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.956, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.971, kind = "stop", label = "Jakob-van-Dyken-Weg", pos = [53.57937, 6.68233] },
+  { km = 2.095, kind = "signal", label = "3Ne1/1", signal = "main", dir = 1 },
+  { km = 2.097, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.202, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.33, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.633, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.05, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.209, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 3.343, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.49, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.801, kind = "signal", label = "4Ne1/1", signal = "main", dir = 1 },
+  { km = 3.805, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.961, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.393, kind = "signal", label = "4.1Ne1/1", signal = "main", dir = 1 },
+  { km = 5.582, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 6.079, kind = "signal", signal = "crossing", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "meafImgtg@yAeB", v = 50 },
+  { line = "ghafIsjtg@eDuArFvD" },
+  { line = "yeafIqgtg@lBbChBj@zCw@vBmCrJwYnCqRtKs\\dBsIv@kNgA{c@{Bie@Xcn@XaFlIqo@jDs\\`p@woDlMqb@", v = 50 },
+]
+posts = [[1, 53.58206, 6.66973], [2, 53.57942, 6.68338], [3, 53.58, 6.69836], [4, 53.57719, 6.71265], [5, 53.57345, 6.72634], [6, 53.56961, 6.73996]]

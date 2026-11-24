@@ -1,0 +1,46 @@
+id = "2533"
+ref = "2533"
+name = "2533 Neuss Hbf - Abzweig Neuss Erftkanal"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Neuss Hbf"
+to = "Neuss Erftkanal"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.103
+length = 2.103
+speeds = [[0, 2.103, "", ""]]
+curves = [[0.1, 0.65, 400], [0.7, 0.9, 770], [1.075, 1.6, 900], [1.7, 1.8, 1200], [1.95, 2, 1430]]
+points = [
+  { km = 0.369, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.387, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.5, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.599, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.232, kind = "signal", label = "80", signal = "minor", dir = 1 },
+  { km = 1.464, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.737, kind = "station", label = "Neuss Hbf", uic = "8000274", pos = [51.20349, 6.68471] },
+  { km = 1.747, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.874, kmTo = 1.893, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ivrwHqgyg@~A~DhChD`H~BhDWhU}H|Nq@jFjAxHdEzCrCxHbKpKzR" },
+]
+posts = [[0, 51.21909, 6.68809], [1, 51.21079, 6.68748], [2, 51.203, 6.68148]]
+
+[[connections]]
+km = 1.737
+station = "Neuss Hbf"
+lines = [
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 0.261 },
+  { id = "2530", ref = "2530", name = "Bahnstrecke Neuss-Kaarst", km = -0.013 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 80.959 },
+  { id = "2580", ref = "2580", name = "Bahnstrecke Düren–Neuss", km = 49.011 },
+  { id = "2610", ref = "2610", name = "2610 Köln - Kleve", km = 36.193 },
+]

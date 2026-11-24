@@ -1,0 +1,126 @@
+id = "6268"
+ref = "6268"
+name = "6268 Gößnitz - Abzw Gera-Debschwitz"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802382"
+from = "Gößnitz"
+to = "Gera-Debschwitz"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -2.057
+kmTo = 32.658
+length = 34.677
+speeds = [[-2.057, -2.045, "", ""], [-2.045, -0.667, 120, 120], [-0.667, 3.14, 160, 160], [3.14, 4.31, 50, 50], [4.31, 6.195, 90, 90], [6.195, 9.003, 80, 80], [9.003, 15.003, 100, 100], [15.003, 16.302, 90, 90], [16.302, 17.113, 80, 80], [17.113, 22.395, 90, 90], [22.395, 22.622, 80, 80], [22.622, 23.672, 90, 90], [23.672, 23.868, 90, 100], [23.868, 24.716, 100, 100], [24.716, 28.753, 110, 110], [28.753, 32.658, 80, 80]]
+curves = [[0.643, 1.993, 1170], [2.468, 3.043, 1140], [3.093, 3.293, 380], [3.468, 4.218, 350], [4.293, 4.643, 640], [4.868, 5.118, 800], [5.268, 5.693, 1050], [5.843, 6.218, 680], [6.267, 6.854, 350], [6.903, 7.172, 450], [7.873, 8.148, 860], [8.574, 8.775, 490], [8.825, 9.245, 1060], [9.725, 9.845, 1570], [10.013, 10.229, 1230], [10.661, 10.948, 1030], [12.129, 12.548, 580], [12.6, 13.042, 620], [13.93, 14.76, 590], [14.789, 14.953, 630], [15.027, 15.381, 440], [15.431, 16.029, 340], [16.286, 17.027, 350], [17.365, 18.066, 1140], [18.453, 18.791, 670], [18.984, 19.25, 730], [19.733, 20.062, 530], [20.168, 20.274, 1620], [20.57, 21.036, 470], [21.226, 21.757, 570], [22.354, 22.706, 620], [23.032, 23.333, 620], [23.483, 23.805, 600], [24.471, 25.163, 740], [25.952, 27.04, 860], [27.238, 27.708, 1510], [28.414, 29.137, 700], [29.186, 29.433, 450], [29.853, 30.198, 560], [30.396, 30.569, 910], [30.618, 30.89, 540], [30.989, 31.384, 390], [31.557, 32.383, 350], [32.507, 32.556, 2700]]
+points = [
+  { km = -2.045, kind = "station", label = "Gößnitz", pos = [50.89332, 12.42936], uic = "8006694", ele = 208 },
+  { km = -1.963, kind = "signal", label = "98 ZV6", signal = "combined,route,speed_limit", dir = 1 },
+  { km = -1.25, kind = "signal", label = "98 P16", signal = "main,speed_limit", dir = 1 },
+  { km = -0.667, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -0.453, kind = "signal", label = "98 A", signal = "combined,speed_limit", dir = -1 },
+  { km = 0.873, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.457, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.031, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.062, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.409, kind = "signal", label = "84 FF", signal = "combined,speed_limit", dir = -1 },
+  { km = 3.027, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.182, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.226, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.384, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.089, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.502, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 9.61, kind = "signal", label = "41A", signal = "combined,speed_limit", dir = 1 },
+  { km = 10.112, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.114, kind = "signal", label = "41P1", signal = "main,minor,traversable", dir = -1 },
+  { km = 10.239, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10.306, kind = "signal", label = "41ZU1", signal = "main,minor,traversable", dir = -1 },
+  { km = 10.313, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.375, kind = "signal", label = "41L501Y", signal = "minor", dir = -1 },
+  { km = 10.377, kind = "station", label = "Schmölln (Thür)", uic = "8012889", pos = [50.89819, 12.35487], ele = 209 },
+  { km = 10.465, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 10.517, kind = "signal", label = "41N1", signal = "main,traversable", dir = 1 },
+  { km = 10.684, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.007, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 15.199, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 16.753, kind = "signal", signal = "distant", dir = -1 },
+  { km = 16.77, kind = "signal", signal = "distant", dir = 1 },
+  { km = 16.784, kind = "station", label = "Nöbdenitz", pos = [50.87892, 12.28068], ele = 238 },
+  { km = 16.845, kind = "signal", signal = "distant", dir = -1 },
+  { km = 21.517, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 22.626, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 23.201, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 23.335, kind = "signal", label = "38A", signal = "combined,speed_limit", dir = 1 },
+  { km = 23.647, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 23.672, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 23.674, kind = "signal", label = "38L202X", signal = "minor", dir = 1 },
+  { km = 23.868, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.868, kind = "signal", label = "38P2", signal = "combined", dir = -1 },
+  { km = 23.871, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.191, kind = "signal", label = "38ZU2", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 24.197, kind = "signal", signal = "stop", dir = -1 },
+  { km = 24.222, kind = "station", label = "Ronneburg", pos = [50.85959, 12.18219], ele = 282 },
+  { km = 24.424, kind = "signal", label = "38N2", signal = "main", dir = 1 },
+  { km = 24.716, kind = "signal", signal = "shunting,speed_limit", dir = 1 },
+  { km = 24.917, kind = "signal", label = "38F", signal = "combined", dir = -1 },
+  { km = 25.08, kind = "signal", label = "38Vf", signal = "distant", dir = -1 },
+  { km = 25.4, kind = "signal", signal = "whistle", dir = 1, measured = true },
+  { km = 27.907, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 32.287, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.357, kmTo = -0.303, length = 54 },
+  { kind = "bridge", kmFrom = 0.841, kmTo = 0.856, length = 15 },
+  { kind = "bridge", kmFrom = 3.879, kmTo = 3.947, length = 68 },
+  { kind = "bridge", kmFrom = 9.953, kmTo = 9.984, length = 33 },
+  { kind = "bridge", kmFrom = 10.854, kmTo = 10.877, length = 24 },
+  { kind = "bridge", kmFrom = 15.487, kmTo = 15.503, length = 16 },
+  { kind = "bridge", kmFrom = 15.977, kmTo = 16.046, length = 40 },
+  { kind = "bridge", kmFrom = 17.005, kmTo = 17.034, length = 30 },
+  { kind = "bridge", kmFrom = 19.352, kmTo = 19.366, length = 14 },
+  { kind = "bridge", kmFrom = 20.728, kmTo = 20.738, length = 11 },
+  { kind = "bridge", kmFrom = 20.94, kmTo = 20.956, length = 19 },
+  { kind = "bridge", kmFrom = 23.344, kmTo = 23.359, length = 15 },
+  { kind = "bridge", kmFrom = 23.922, kmTo = 23.975, length = 53 },
+  { kind = "bridge", kmFrom = 24.431, kmTo = 24.491, length = 54 },
+  { kind = "bridge", kmFrom = 24.8, kmTo = 24.905, length = 112, name = "Gessentalbrücke" },
+  { kind = "tunnel", kmFrom = 25.516, kmTo = 25.714, length = 200, name = "Ronneburger Tunnel" },
+  { kind = "bridge", kmFrom = 28.044, kmTo = 28.064, length = 18 },
+  { kind = "bridge", kmFrom = 29.559, kmTo = 29.581, length = 22 },
+  { kind = "bridge", kmFrom = 30.966, kmTo = 30.977, length = 11 },
+  { kind = "bridge", kmFrom = 31.538, kmTo = 31.562, length = 25 },
+  { kind = "bridge", kmFrom = 31.6, kmTo = 31.617, length = 17 },
+  { kind = "bridge", kmFrom = 32.457, kmTo = 32.47, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kcsuHerzjASI" },
+  { line = "_dsuHorzjAkhAof@", v = 120 },
+  { line = "kmuuH_z{jAekAgg@sLyAuI^aMbEgLhJ}GfKyShd@{EbIeJlJsKtF", v = 160 },
+  { line = "si{uHyczjAzU{IxD?nDtArD~E~A`Gr@lKKnM", v = 50 },
+  { line = "q}yuH_byjAHpI~@hJ~Ilb@pCde@jCpMvIdYpAhR", v = 90 },
+  { line = "_zxuHmftjAh@jQ~@tElBfE|BdCpCnArLXvDzAjd@tk@bFfKhOfh@~KnO", v = 80 },
+  { line = "qmuuHajojAvEzNfNlm@tHxUdDbHvTf^bFjLfOti@hQ~t@fBvOa@f[l@zLz\\fuA|A|Ib@zOmA`UEnJl@bJzCjQ", v = 100 },
+  { line = "_`quHor`jAbBdI~AxDtCnDhIbGtDbJr@tG@jFaC~R", v = 90 },
+  { line = "qgpuHue~iAu@bKn@hJ`ClHbG~H", v = 80 },
+  { line = "q{ouHyz|iA`QdTfIdRjEdS`I~o@|C|IzKvQnCvGlMhw@b@vHSfJcB~R{Gnf@c@hJLlG`AvHbOpb@tAhI^~FU~PmJbz@", v = 90 },
+  { line = "olmuHo}niA_@~HHxH", v = 80 },
+  { line = "emmuHuiniAnFpl@rBfHtIhR|AtG", v = 90 },
+  { line = "mtluH{vkiA`FpgAHbQ", v = 100 },
+  { line = "amluHe|hiA{@~LwB`KiQp`@", v = 110 },
+  { line = "_emuHq`giAqFhL", tunnel = true, v = 110 },
+  { line = "qlmuHgsfiAkLnWaE~Qw@~IW~LfAxTtHj^hGlRlFtKt^hl@pCfGtBxH", v = 110 },
+  { line = "{~kuHaz_iAnBfR}AhW@|F|H~l@b@bLaE|e@k@jUoAxFcF~NiAxIPvJxDz[IlJu@bFuA`EqBzCqCpB_Fz@qUI", v = 80 },
+]
+posts = [[-2, 50.89399, 12.42957], [-1, 50.9025, 12.43417], [0, 50.91102, 12.43872], [1, 50.91965, 12.44257], [2, 50.92761, 12.43699], [3, 50.93427, 12.42766], [4, 50.92863, 12.42596], [5, 50.92629, 12.41248], [6, 50.92305, 12.39943], [7, 50.91789, 12.39044], [8, 50.91063, 12.38206], [9, 50.90539, 12.37173], [10, 50.90068, 12.35891], [11, 50.89432, 12.3481], [12, 50.89002, 12.33604], [13, 50.88829, 12.32306], [14, 50.88374, 12.31008], [15, 50.88273, 12.29628], [16, 50.87844, 12.28552], [17, 50.87774, 12.27808], [18, 50.8714, 12.26766], [19, 50.86705, 12.25506], [20, 50.86371, 12.2416], [21, 50.865, 12.2256], [22, 50.86319, 12.21125], [23, 50.86356, 12.19745], [24, 50.85989, 12.18486], [25, 50.86001, 12.171], [26, 50.86598, 12.16017], [27, 50.86684, 12.14667], [28, 50.86118, 12.13557], [29, 50.85638, 12.12541], [30, 50.85509, 12.11152], [31, 50.8575, 12.0979], [32, 50.85819, 12.08456]]
+
+[[connections]]
+km = -2.045
+station = "Gößnitz"
+lines = [
+  { id = "6265", ref = "6265", name = "6265 Glauchau-Schönbörnchen - Gößnitz", km = 12.161 },
+  { id = "6362", ref = "6362", name = "6362 Leipzig - Hof", km = 53.57 },
+]

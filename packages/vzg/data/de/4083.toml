@@ -1,0 +1,37 @@
+id = "4083"
+ref = "4083"
+name = "4083 Abzw Ubstadt-Weiher - Abzw Bruchsal Rollenberg"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q336762"
+from = "Ubstadt-Weiher"
+to = "Bruchsal Rollenberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 46.771
+kmTo = 49
+length = 2.219
+speeds = [[46.771, 47.021, 160, 160], [47.021, 48.958, 160, 150], [48.958, 48.96, 160, 160], [48.96, 49, 160, 150]]
+curves = [[47.22, 48.881, 1310]]
+points = [
+  { km = 47.021, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 47.145, kind = "signal", label = "36 362", signal = "main,speed_limit", dir = -1 },
+  { km = 47.481, kind = "signal", label = "v41", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 48.163, kind = "signal", label = "v362", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 48.302, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 48.527, kind = "signal", label = "41", signal = "main,speed_limit", dir = 1 },
+  { km = 48.935, kind = "signal", signal = "radio" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 47.057, kmTo = 47.07, length = 13 },
+  { kind = "bridge", kmFrom = 48.436, kmTo = 48.653, length = 208 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "efakH}srs@tUhTlGdE|IjC`L\\xMmCfMuGpLcLhJgO", v = 160 },
+  { line = "cy}jHs}rs@r@kA", tunnel = true, v = 160 },
+]
+posts = [[47, 49.16164, 8.61865], [48, 49.15338, 8.61532], [49, 49.14568, 8.62224]]

@@ -1,0 +1,25 @@
+id = "3121"
+ref = "3121"
+name = "3121 Abzw Karthaus Nordwest - Karthaus Moselbrücke"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Karthaus Nordwest"
+to = "Karthaus Moselbrücke"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.021
+kmTo = 0.404
+length = 0.379
+speeds = [[0.021, 0.404, 40, 40]]
+curves = [[0.121, 0.298, 400]]
+points = [
+  { km = 0.241, kind = "signal", label = "R116", signal = "distant,main", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}gknHarag@o@iGCwFd@oGlAwE", v = 40 },
+]
+posts = []

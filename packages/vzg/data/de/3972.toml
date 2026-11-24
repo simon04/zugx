@@ -1,0 +1,24 @@
+id = "3972"
+ref = "3972"
+name = "Butzbach-Licher Eisenbahn"
+operator = "HLB Basis AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.438
+length = 0.438
+speeds = [[0, 0.438, 25, 25]]
+curves = [[0.1, 0.325, 320]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.211, kmTo = 0.231, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gtzrHsi|s@lF{CzC_@|Cf@|DrC", v = 25 },
+]
+posts = [[0, 50.44052, 8.66986]]

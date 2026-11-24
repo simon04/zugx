@@ -1,0 +1,37 @@
+id = "4411"
+ref = "4411"
+name = "4411 Weil am Rhein - Basel Bad Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Weil am Rhein"
+to = "Basel Bad Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.555
+length = 2.555
+speeds = [[0, 2.555, 60, 60]]
+curves = [[0.125, 0.2, 1440], [0.475, 2.05, 310], [2.2, 2.45, 280]]
+points = [
+  { km = 264.3, kind = "station", label = "Haltingen", uic = "8014424", pos = [47.61141, 7.61309], measured = true },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 1.119, kmTo = 1.19, length = 72 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eapaHo}mm@}XqPiIuBaFDmDz@wChCmBdE", v = 60 },
+  { line = "czqaHefnm@u@jD", tunnel = true, v = 60 },
+  { line = "y{qaHy`nm@SnI~A|I`EdGtEzAxDW|CoBfLuQ~BuBbEu@lDp@", v = 60 },
+]
+posts = [[0, 47.60099, 7.6132], [1, 47.60939, 7.61576], [2, 47.60578, 7.60977]]
+
+[[connections]]
+km = 264.3
+station = "Haltingen"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 264.893 },
+]

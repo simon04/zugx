@@ -1,0 +1,115 @@
+id = "6078"
+ref = "6078"
+name = "6078 Berlin Warschauer Straße - Küstrin-Kietz Grenze"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q60196426"
+from = "Berlin Warschauer Straße"
+to = "Küstrin-Kietz Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 4.8
+kmTo = 28.314
+length = 23.559
+speeds = [[4.8, 6.049, 60, 60], [6.049, 6.134, "", ""], [6.134, 19.826, 100, 100], [19.826, 28.314, 120, 120]]
+curves = [[4.899, 5.326, 1150], [5.4, 5.768, 1790], [6.009, 6.06, 2620], [6.966, 7.295, 710], [7.379, 7.957, 740], [8.125, 8.785, 1680], [8.883, 8.93, 2380], [9.457, 9.505, 2390], [9.649, 9.768, 1930], [11.774, 11.949, 1730], [12.2, 12.35, 1590], [27.123, 27.325, 1060]]
+points = [
+  { km = 4.8, kind = "station", label = "Lichtenberg", pos = [52.51023, 13.49781], uic = "8010036" },
+  { km = 5.026, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.038, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 5.112, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.29, kind = "signal", signal = "main", dir = -1 },
+  { km = 5.722, kind = "signal", label = "25 337", signal = "main,route,traversable", dir = 1 },
+  { km = 6.003, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.204, kind = "halt", label = "Friedrichsfelde Ost", uic = "8089059", pos = [52.51411, 13.52009] },
+  { km = 6.47, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.618, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.715, kind = "signal", label = "25334", signal = "combined,route,speed_limit,traversable", dir = -1 },
+  { km = 6.799, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 7.27, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 7.4, kind = "signal", label = "25351", signal = "combined,route,traversable", dir = 1, measured = true },
+  { km = 7.564, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 7.669, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 7.709, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 7.721, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = 7.725, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.084, kind = "signal", label = "25352", signal = "main,traversable", dir = -1 },
+  { km = 8.2, kind = "signal", label = "25355", signal = "main,traversable", dir = 1, measured = true },
+  { km = 8.492, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.535, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.656, kind = "halt", label = "Biesdorf", uic = "8089055", pos = [52.51309, 13.55585] },
+  { km = 8.8, kind = "signal", label = "25350", signal = "combined,route,traversable", dir = -1, measured = true },
+  { km = 9.935, kind = "station", label = "Wuhletal", uic = "8089049", pos = [52.51261, 13.57521] },
+  { km = 10.48, kind = "signal", label = "78 P3", signal = "main,minor,traversable", dir = -1 },
+  { km = 10.952, kind = "station", label = "Kaulsdorf", uic = "8089068", pos = [52.51214, 13.59019] },
+  { km = 11.251, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = 11.712, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 12.333, kind = "station", label = "Mahlsdorf", pos = [52.51209, 13.61041] },
+  { km = 12.37, kind = "station", label = "Berlin-Mahlsdorf", pos = [52.5119, 13.6108], uic = "8003258" },
+  { km = 12.495, kind = "signal", label = "78 N23", signal = "main,traversable", dir = 1 },
+  { km = 14.902, kind = "halt", label = "Birkenstein", uic = "8070002", pos = [52.51569, 13.64782] },
+  { km = 16.719, kind = "station", label = "Hoppegarten (Mark)", uic = "8080750", pos = [52.51824, 13.67426] },
+  { km = 18.488, kind = "halt", label = "Neuenhagen", pos = [52.52082, 13.69998] },
+  { km = 22.636, kind = "station", label = "Fredersdorf (b Berlin)", uic = "8080440", pos = [52.52625, 13.76045] },
+  { km = 24.596, kind = "halt", label = "Petershagen Nord", uic = "8081150", pos = [52.52887, 13.78901] },
+  { km = 26.03, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 27.616, kind = "station", label = "Strausberg", pos = [52.53212, 13.83366], uic = "8003263" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 6.507, kmTo = 6.525, length = 20 },
+  { kind = "bridge", kmFrom = 12.439, kmTo = 12.477, length = 37 },
+  { kind = "bridge", kmFrom = 16.555, kmTo = 16.57, length = 15 },
+  { kind = "bridge", kmFrom = 19.757, kmTo = 19.826, length = 69 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cfo_IaykqAmFiQaDkT{Ak[Fog@", v = 60 },
+  { line = "guo_IseoqAAuF" },
+  { line = "iuo_IimoqA|@_wAu@mK_EqW[aM|@mPlI{k@hAuVbAmmAn@gXF}_@`DekDs@g`@aEks@cz@mxR", v = 100 },
+  { line = "cgq_IgrvrAo}@ezSEqM~B}~A", v = 120 },
+]
+posts = [[5, 52.5129, 13.50293], [6, 52.5143, 13.51716], [7, 52.51397, 13.53176], [8, 52.51456, 13.54613], [9, 52.51287, 13.56092], [10, 52.51239, 13.57616], [11, 52.51201, 13.59088], [12, 52.51162, 13.60559], [13, 52.51297, 13.62015], [14, 52.51433, 13.63471], [15, 52.5157, 13.64928], [16, 52.51706, 13.66384], [17, 52.51845, 13.6784], [18, 52.51981, 13.69296], [19, 52.52114, 13.70753], [20, 52.5225, 13.72209], [21, 52.52386, 13.73666], [22, 52.52524, 13.75122], [23, 52.5266, 13.76578], [24, 52.52799, 13.78034], [25, 52.52934, 13.79491], [26, 52.5307, 13.80948], [27, 52.53205, 13.82401], [28, 52.53187, 13.83861]]
+
+[[connections]]
+km = 4.8
+station = "Lichtenberg"
+lines = [
+  { id = "6006", ref = "6006", name = "6006 Berlin Warschauer Straße - Strausberg", km = 4.668 },
+  { id = "6072", ref = "6072", name = "6072 Berlin-Lichtenberg - Ahrensfelde", km = 4.642 },
+]
+
+[[connections]]
+km = 6.204
+station = "Friedrichsfelde Ost"
+lines = [
+  { id = "6072", ref = "6072", name = "6072 Berlin-Lichtenberg - Ahrensfelde", km = 6.204 },
+]
+
+[[connections]]
+km = 8.656
+station = "Biesdorf"
+lines = [
+  { id = "6011", ref = "6011", name = "6011 Biesdorfer Kreuz - Ahrensfelde", km = 8.572 },
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 9.669 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 8.716 },
+]
+
+[[connections]]
+km = 16.719
+station = "Hoppegarten"
+lines = [
+  { id = "6011", ref = "6011", name = "6011 Biesdorfer Kreuz - Ahrensfelde", km = 13.666 },
+]
+
+[[connections]]
+km = 27.616
+station = "Strausberg"
+lines = [
+  { id = "6006", ref = "6006", name = "6006 Berlin Warschauer Straße - Strausberg", km = 27.591 },
+  { id = "6079", ref = "6079", name = "6079 Strausberg - Strausberg Nord", km = 0 },
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 27.616 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 27.616 },
+]

@@ -1,0 +1,174 @@
+id = "1283"
+ref = "1283"
+name = "1283 Rotenburg (Wümme) - Buchholz (drittes Gleis)"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q110548599"
+from = "Rotenburg (Wümme)"
+to = "Buchholz (Nordheide)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 280.901
+kmTo = 323.459
+length = 42.492
+speeds = [[280.901, 281.035, "", ""], [281.035, 319.363, 200, 200], [319.363, 323.459, 140, 140]]
+curves = [[282.526, 282.626, 2610], [282.876, 282.951, 2230], [288.406, 288.506, 1390], [319.616, 320.416, 1480], [323.241, 323.341, 1580]]
+points = [
+  { km = 281.243, kind = "signal", label = "P023", signal = "main,minor,route,speed_limit", dir = -1 },
+  { km = 281.523, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 281.684, kind = "signal", signal = "minor", dir = 1 },
+  { km = 281.86, kind = "signal", signal = "minor", dir = -1 },
+  { km = 282.117, kind = "signal", signal = "route_distant", dir = -1 },
+  { km = 282.168, kind = "signal", label = "S 043", signal = "distant,main,minor,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 282.536, kind = "station", label = "Rotenburg (Wümme)", uic = "8000321", pos = [53.11247, 9.39085] },
+  { km = 282.713, kind = "signal", label = "N 043", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 283.084, kind = "signal", label = "053 I", signal = "minor", dir = 1 },
+  { km = 283.199, kind = "signal", signal = "route", dir = 1 },
+  { km = 283.308, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 283.733, kind = "signal", label = "G 006", signal = "main,speed_limit", dir = -1 },
+  { km = 283.767, kind = "signal", label = "361", signal = "distant,main,traversable", dir = 1 },
+  { km = 284.959, kind = "signal", label = "363", signal = "main,traversable", dir = 1 },
+  { km = 285.068, kind = "signal", label = "362", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 286.147, kind = "signal", signal = "distant", dir = -1 },
+  { km = 286.37, kind = "signal", signal = "distant", dir = 1 },
+  { km = 287.371, kind = "signal", label = "365", signal = "main,traversable", dir = 1 },
+  { km = 287.495, kind = "signal", label = "364", signal = "main,traversable", dir = -1 },
+  { km = 288.665, kind = "signal", signal = "distant", dir = -1 },
+  { km = 288.759, kind = "signal", signal = "distant", dir = 1 },
+  { km = 289.769, kind = "signal", label = "367", signal = "main,traversable", dir = 1 },
+  { km = 289.886, kind = "signal", label = "366", signal = "main", dir = -1 },
+  { km = 290.248, kind = "signal", signal = "distant", dir = 1 },
+  { km = 290.786, kind = "signal", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 290.887, kind = "signal", signal = "distant", dir = -1 },
+  { km = 291.31, kind = "signal", label = "B 103", signal = "distant,main", dir = 1 },
+  { km = 291.669, kind = "signal", label = "P 133", signal = "main", dir = -1 },
+  { km = 291.981, kind = "station", label = "Scheeßel", pos = [53.1658, 9.49688] },
+  { km = 292.045, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 292.428, kind = "signal", label = "N 133", signal = "main,minor", dir = 1 },
+  { km = 292.732, kind = "signal", signal = "distant", dir = -1 },
+  { km = 292.814, kind = "signal", signal = "minor", dir = -1 },
+  { km = 292.974, kind = "signal", signal = "distant", dir = 1 },
+  { km = 293.091, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 293.32, kind = "signal", label = "G 106", signal = "main", dir = -1 },
+  { km = 293.994, kind = "signal", label = "371", signal = "main,traversable", dir = 1 },
+  { km = 294.32, kind = "signal", signal = "distant", dir = -1 },
+  { km = 295.318, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 295.626, kind = "signal", label = "372", signal = "main", dir = -1 },
+  { km = 296.442, kind = "signal", label = "B 203", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 296.589, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 296.6, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 296.635, kind = "signal", signal = "distant", dir = -1 },
+  { km = 296.714, kind = "signal", signal = "minor", dir = -1 },
+  { km = 297.223, kind = "signal", label = "P 233", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 297.652, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 297.741, kind = "station", label = "Lauenbrück", pos = [53.19712, 9.56408], uic = "8003576" },
+  { km = 297.958, kind = "signal", label = "N 233", signal = "main,minor", dir = 1 },
+  { km = 298.179, kind = "signal", signal = "minor", dir = 1 },
+  { km = 298.291, kind = "signal", signal = "minor", dir = -1 },
+  { km = 298.297, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 298.446, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 298.534, kind = "signal", signal = "distant", dir = 1 },
+  { km = 298.684, kind = "signal", label = "G 206", signal = "distant,main,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 299.538, kind = "signal", label = "381", signal = "main,traversable", dir = 1 },
+  { km = 299.688, kind = "signal", label = "382", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 300.375, kind = "signal", signal = "distant", dir = 1 },
+  { km = 300.731, kind = "signal", label = "V 382", signal = "distant", dir = -1 },
+  { km = 300.994, kind = "signal", signal = "train_protection" },
+  { km = 301.381, kind = "signal", label = "383", signal = "main,traversable", dir = 1 },
+  { km = 301.522, kind = "signal", label = "384", signal = "main,traversable", dir = -1 },
+  { km = 301.993, kind = "signal", signal = "distant", dir = 1 },
+  { km = 302.543, kind = "signal", signal = "distant", dir = -1 },
+  { km = 303.225, kind = "signal", label = "385", signal = "main,traversable", dir = 1 },
+  { km = 303.517, kind = "signal", label = "386", signal = "main", dir = -1 },
+  { km = 304.254, kind = "signal", signal = "distant", dir = 1 },
+  { km = 304.522, kind = "signal", signal = "distant", dir = -1 },
+  { km = 305.247, kind = "signal", label = "387", signal = "main,traversable", dir = 1 },
+  { km = 305.522, kind = "signal", label = "388", signal = "main", dir = -1 },
+  { km = 306.277, kind = "signal", signal = "distant", dir = 1 },
+  { km = 306.585, kind = "signal", signal = "distant", dir = -1 },
+  { km = 307.301, kind = "signal", label = "389", signal = "main", dir = 1 },
+  { km = 307.467, kind = "signal", label = "390", signal = "main,traversable", dir = -1 },
+  { km = 308.448, kind = "signal", signal = "distant", dir = 1 },
+  { km = 308.469, kind = "signal", signal = "distant", dir = -1 },
+  { km = 309.541, kind = "signal", label = "391", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 309.663, kind = "signal", label = "392", signal = "main", dir = -1 },
+  { km = 310.014, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 310.684, kind = "signal", signal = "distant", dir = -1 },
+  { km = 310.836, kind = "signal", label = "B 403", signal = "distant,main,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 311.021, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 311.488, kind = "signal", label = "P 433", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 311.539, kind = "signal", signal = "stop", dir = -1 },
+  { km = 311.591, kind = "signal", signal = "stop", dir = -1 },
+  { km = 311.66, kind = "station", label = "Tostedt", pos = [53.27175, 9.73137] },
+  { km = 311.741, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 311.797, kind = "signal", signal = "stop", dir = 1 },
+  { km = 312.289, kind = "signal", label = "N 433", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 312.408, kind = "signal", signal = "minor", dir = -1 },
+  { km = 312.601, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 312.649, kind = "signal", signal = "minor", dir = 1 },
+  { km = 312.716, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 312.817, kind = "signal", signal = "distant", dir = 1 },
+  { km = 313.012, kind = "signal", label = "G 406", signal = "main,speed_limit", dir = -1 },
+  { km = 313.816, kind = "signal", label = "393", signal = "main,traversable", dir = 1 },
+  { km = 314.087, kind = "signal", label = "394", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 314.945, kind = "signal", signal = "distant", dir = 1 },
+  { km = 315.088, kind = "signal", signal = "distant", dir = -1 },
+  { km = 315.972, kind = "signal", label = "395", signal = "distant,main,traversable", dir = 1 },
+  { km = 316.229, kind = "signal", label = "396", signal = "main", dir = -1 },
+  { km = 317.226, kind = "signal", signal = "distant", dir = -1 },
+  { km = 317.355, kind = "signal", label = "397", signal = "distant,main,traversable", dir = 1 },
+  { km = 318.068, kind = "signal", label = "398", signal = "main,traversable", dir = -1 },
+  { km = 318.359, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 318.441, kind = "stop", label = "Sprötze", pos = [53.30913, 9.81172] },
+  { km = 318.776, kind = "signal", label = "399", signal = "distant,main,speed_limit_distant,traversable", dir = 1 },
+  { km = 319.315, kind = "signal", label = "400", signal = "distant,main", dir = -1 },
+  { km = 319.363, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 319.787, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 320.016, kind = "signal", label = "C", signal = "distant,main,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 320.122, kind = "signal", signal = "route_distant", dir = 1 },
+  { km = 320.536, kind = "signal", label = "P76", signal = "distant,main,route", dir = -1 },
+  { km = 321.263, kind = "signal", label = "R 76", signal = "distant,main,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 321.363, kind = "signal", signal = "route", dir = 1 },
+  { km = 321.6, kind = "signal", label = "Z176", signal = "distant,main,minor,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 322.003, kind = "signal", label = "146 I", signal = "minor", dir = 1 },
+  { km = 322.095, kind = "signal", signal = "distant", dir = 1 },
+  { km = 322.111, kind = "signal", label = "146 II", signal = "minor", dir = 1 },
+  { km = 322.225, kind = "signal", signal = "minor", dir = -1 },
+  { km = 322.65, kind = "signal", signal = "distant", dir = -1 },
+  { km = 322.889, kind = "signal", signal = "minor", dir = 1 },
+  { km = 322.993, kind = "signal", label = "S 6", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 323.176, kind = "station", label = "Buchholz (Nordheide)", pos = [53.32436, 9.87494], uic = "8000056" },
+  { km = 323.323, kind = "signal", label = "N 6", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 323.364, kind = "signal", signal = "wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 283.069, kmTo = 283.141, length = 72 },
+  { kind = "bridge", kmFrom = 289.088, kmTo = 289.121, length = 33 },
+  { kind = "bridge", kmFrom = 291.762, kmTo = 291.776, length = 13 },
+  { kind = "bridge", kmFrom = 313.992, kmTo = 314.019, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_}ccI_ndx@y@cK" },
+  { line = "y~ccIczdx@wQuqCqG{d@gOmu@mLwa@{`CqaH}Mc^{Re^c_FymHiNuVoMoZgLs^sIc_@__AwoFwHy\\mGcT}tPmee@e_BakEiNu\\yU}f@", v = 200 },
+  { line = "w`ldIij}z@uJuS}EuMcEsPqCqRqNaxByPgtCmByR", v = 140 },
+]
+posts = [[281, 53.10965, 9.36832], [282, 53.11149, 9.38298], [283, 53.11385, 9.3974], [284, 53.11802, 9.41065], [285, 53.12336, 9.42271], [286, 53.12873, 9.43474], [287, 53.1341, 9.44674], [288, 53.13946, 9.45873], [289, 53.14558, 9.46959], [290, 53.15254, 9.479], [291, 53.15951, 9.48841], [292, 53.16657, 9.49795], [293, 53.17363, 9.50747], [294, 53.18069, 9.51701], [295, 53.18679, 9.52787], [296, 53.19102, 9.54101], [297, 53.19463, 9.55469], [298, 53.19824, 9.56837], [299, 53.20238, 9.58159], [300, 53.20782, 9.59345], [301, 53.21331, 9.60527], [302, 53.2188, 9.61708], [303, 53.22428, 9.6289], [304, 53.22977, 9.64073], [305, 53.23525, 9.65256], [306, 53.24073, 9.66438], [307, 53.24622, 9.67621], [308, 53.2517, 9.68804], [309, 53.25718, 9.69988], [310, 53.26265, 9.71172], [311, 53.26813, 9.72357], [312, 53.2736, 9.73542], [313, 53.27908, 9.74728], [314, 53.28458, 9.75918], [315, 53.29008, 9.77109], [316, 53.2956, 9.78296], [317, 53.30114, 9.79481], [318, 53.30674, 9.80659], [319, 53.31257, 9.81804], [320, 53.31846, 9.82935], [321, 53.32084, 9.8438], [322, 53.32269, 9.85853], [323, 53.32445, 9.8733]]
+
+[[connections]]
+km = 282.536
+station = "Rotenburg"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 282.511 },
+]
+
+[[connections]]
+km = 323.176
+station = "Buchholz"
+lines = [
+  { id = "1280", ref = "1280", name = "1280 Buchholz - Abzw Hamburg-Allermöhe", km = -0.254 },
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 323.177 },
+]

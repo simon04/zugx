@@ -1,0 +1,29 @@
+id = "217-11"
+ref = "217 11"
+name = "217 11"
+operator = "ÖBB-Infrastruktur AG"
+gauge = "1435"
+from = "Staatsgrenze nächst Liefering"
+to = "Salzburg Liefering (in Sb)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 82.757
+kmTo = 83.052
+length = 0.293
+speeds = [[82.757, 83.052, 120, 120]]
+curves = []
+points = [
+  { km = 82.904, kind = "signal", label = "H457", signal = "distant,main,traversable", dir = -1 },
+  { km = 83.052, kind = "signal", label = "Cc14/e", signal = "distant,main,speed_limit_distant", dir = 1, measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 82.757, kmTo = 82.851, length = 94, name = "Saalachbrücke" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sy|bHwnhnAcIjR", v = 120 },
+]
+posts = [[83, 47.83048, 12.99142]]

@@ -1,0 +1,27 @@
+id = "3734"
+ref = "3734"
+name = "Kerkerbachbahn Dehrn - Kerkerbach"
+gauge = "1435"
+wikidata = "Q1739254"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.552
+length = 2.552
+speeds = [[0, 2.552, 20, 20]]
+curves = [[0.1, 0.175, 620], [0.225, 0.775, 590], [1, 1.2, 510], [1.5, 1.7, 760], [2.1, 2.45, 320]]
+points = [
+  { km = 2.407, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.552, kind = "station", label = "Kerkerbach", uic = "8003235", pos = [50.40192, 8.13611] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.91, kmTo = 1.922, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "egvrHcipp@Js\\|BqHvF{JtTePf\\kBf\\eO|BuCvAwFd@}FKyG", v = 20 },
+]
+posts = [[0, 50.41795, 8.11682], [1, 50.41332, 8.12721], [2, 50.40462, 8.13008]]

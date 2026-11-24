@@ -1,0 +1,87 @@
+id = "4262"
+ref = "4262"
+name = "4262 Appenweier - Bad Griesbach"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q314757"
+from = "Appenweier"
+to = "Bad Griesbach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.523
+kmTo = 29.169
+length = 28.516
+speeds = [[0.523, 0.635, 70, 70], [0.635, 7.341, 60, 60], [7.341, 7.414, 20, 20], [7.414, 8.399, 50, 50], [8.399, 9.375, 80, 80], [9.375, 10, 70, 70], [10, 12.611, 60, 60], [12.611, 17.58, 60, ""], [17.58, 17.605, 40, 40], [17.605, 18.499, 60, 60], [18.499, 18.742, 50, 50], [18.742, 21.1, 60, 60], [21.1, 21.109, 40, 40], [21.109, 21.658, 60, 60], [21.658, 21.671, 40, 40], [21.671, 24.027, 60, 60], [24.027, 26.763, "", ""], [26.763, 27.6, 60, 60], [27.6, 28.501, 50, ""], [28.501, 29.169, 30, ""]]
+curves = [[0.639, 1.314, 420], [6.451, 6.551, 2500], [6.702, 6.802, 2420], [7.203, 7.278, 2140], [7.428, 7.828, 580], [9.081, 9.459, 1470], [10.611, 10.812, 1430], [11.366, 11.913, 700], [13.407, 13.577, 880], [13.625, 14.496, 370], [14.596, 14.946, 1480], [15.512, 15.847, 590], [16.063, 16.368, 730], [16.789, 16.921, 1570], [17.075, 17.324, 970], [17.498, 18.062, 630], [18.127, 18.17, 2650], [18.3, 19.098, 340], [19.148, 19.473, 460], [19.548, 19.873, 1090], [20.37, 20.47, 1740], [20.595, 20.948, 500], [20.999, 21.798, 580], [21.998, 22.497, 380], [22.547, 22.671, 870], [22.821, 23.02, 670], [23.07, 23.22, 430], [23.27, 24.751, 350], [24.806, 24.915, 580], [24.97, 25.339, 330], [25.632, 25.734, 1390], [25.79, 25.929, 550], [25.985, 26.21, 850], [26.26, 27.004, 520], [27.054, 27.328, 800], [27.428, 27.528, 790], [27.579, 27.629, 1250], [27.729, 28.754, 330]]
+points = [
+  { km = 0.706, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 4, kind = "halt", label = "Zusenhofen", uic = "8014297", pos = [48.54479, 8.01835], measured = true },
+  { km = 8.659, kind = "station", label = "Oberkirch", pos = [48.52925, 8.07672], uic = "8014298" },
+  { km = 9.8, kind = "stop", label = "Koehlersiedlung", pos = [48.52479, 8.08993], measured = true, uic = "8014306" },
+  { km = 11.9, kind = "halt", label = "Lautenbach (Baden)", uic = "8014299", pos = [48.51945, 8.11616], measured = true },
+  { km = 12.562, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.859, kind = "stop", label = "Hubacker", pos = [48.50709, 8.13593], uic = "8014300" },
+  { km = 15.3, kind = "stop", label = "Ramsbach-Höfle", pos = [48.4948, 8.13968], measured = true, uic = "8014314" },
+  { km = 16.2, kind = "stop", label = "Ramsbach Birkhof", pos = [48.48837, 8.14556], measured = true, uic = "8014313" },
+  { km = 18.19, kind = "signal", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 18.355, kind = "station", label = "Oppenau", pos = [48.47212, 8.1596], uic = "8014301" },
+  { km = 18.38, kind = "signal", label = "11N2", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 20.5, kind = "halt", label = "Ibach", uic = "8014302", pos = [48.45524, 8.1627], measured = true },
+  { km = 23, kind = "halt", label = "Löcherberg", uic = "8014303", pos = [48.43513, 8.17217], measured = true },
+  { km = 25.594, kind = "signal", signal = "catenary_mast,crossing_info", dir = 1 },
+  { km = 25.608, kind = "signal", signal = "catenary_mast,crossing_info", dir = -1 },
+  { km = 25.62, kind = "signal", signal = "catenary_mast,crossing", dir = -1 },
+  { km = 25.7, kind = "halt", label = "Bad Peterstal", uic = "8014304", pos = [48.42876, 8.20196], measured = true },
+  { km = 27.199, kind = "signal", signal = "catenary_mast,speed_limit_distant", dir = 1 },
+  { km = 27.6, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 27.601, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+  { km = 28.1, kind = "signal", signal = "catenary_mast,speed_limit_distant", dir = 1 },
+  { km = 28.501, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 29.1, kind = "stop", label = "Bad Griesbach", pos = [48.44865, 8.23072], measured = true, uic = "8014305" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 7.349, kmTo = 7.401, length = 53 },
+  { kind = "bridge", kmFrom = 11.402, kmTo = 11.411, length = 10 },
+  { kind = "bridge", kmFrom = 12.568, kmTo = 12.611, length = 44 },
+  { kind = "bridge", kmFrom = 17.58, kmTo = 17.605, length = 26 },
+  { kind = "bridge", kmFrom = 18.714, kmTo = 18.742, length = 25 },
+  { kind = "bridge", kmFrom = 21.1, kmTo = 21.109, length = 10 },
+  { kind = "bridge", kmFrom = 21.658, kmTo = 21.671, length = 13 },
+  { kind = "bridge", kmFrom = 22.321, kmTo = 22.334, length = 14 },
+  { kind = "bridge", kmFrom = 22.814, kmTo = 22.826, length = 11 },
+  { kind = "bridge", kmFrom = 23.687, kmTo = 23.709, length = 22 },
+  { kind = "bridge", kmFrom = 24.027, kmTo = 24.049, length = 24 },
+  { kind = "bridge", kmFrom = 24.438, kmTo = 24.5, length = 67 },
+  { kind = "bridge", kmFrom = 26.763, kmTo = 26.777, length = 15 },
+  { kind = "bridge", kmFrom = 26.976, kmTo = 26.99, length = 14 },
+  { kind = "bridge", kmFrom = 27.299, kmTo = 27.316, length = 17 },
+  { kind = "bridge", kmFrom = 27.984, kmTo = 28, length = 15 },
+  { kind = "bridge", kmFrom = 28.278, kmTo = 28.308, length = 30 },
+  { kind = "bridge", kmFrom = 28.338, kmTo = 28.363, length = 25 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "euufHypfq@dUK~Cx@nCxB", v = 30 },
+  { line = "outfHqkfq@vAdCtAxEt@rPxAlGrBfC|ExBpGxI", v = 50 },
+  { line = "mxsfHssdq@zDtGtIhKbIzNtEvK", v = 60 },
+  { line = "awrfH_bcq@rDhFvEzCrChFfCbRzDvRbMb_@hC~IXhCSlKmDzN}@|H{AzFwDfHeAzF?dKzCdN" },
+  { line = "svqfHq}|p@`@nIUlEu@lDoBbEyMrM{InDkH`ImQtHoG|EeDZmIq@kCl@uQdO", v = 60 },
+  { line = "c`ufHiazp@QT", v = 40 },
+  { line = "u`ufHs`zp@_EvH{FlFgKvC", v = 60 },
+  { line = "yzufHujyp@Q?", v = 40 },
+  { line = "k{ufHujyp@gLqCiG\\an@zXkJhAiKEqCu@_CqBoIgMkDiBqDE", v = 60 },
+  { line = "uuyfHiiyp@iDhAiD`E", v = 50 },
+  { line = "i`zfH}`yp@mC|HqHzZwBvFeEdGyGnE", v = 60 },
+  { line = "aa{fHudwp@m@P", v = 40 },
+  { line = "ob{fHcdwp@mThEsQfLa[dNcGpGcLxRkGhFkj@hN{UhNoDDaGiBoDWmE~@_EjD{BzEsDxLqp@xnA}NrVwBjFmC~OoEx~@aKhw@", v = 60 },
+  { line = "wkdgH}nkp@eJfq@", v = 70 },
+  { line = "}vdgHu|ip@uExQ}Vhp@", v = 80 },
+  { line = "quegHqxgp@cUxl@aBpJa@dM", v = 50 },
+  { line = "yofgH_qep@AdE", v = 20 },
+  { line = "{ofgHyjep@c@`XwAzX{AbPmDfWojBhdKWjMnAbKdCtGrFjF", v = 60 },
+  { line = "_zigHs~to@|D~A", v = 70 },
+]
+posts = [[29, 48.44827, 8.23068], [28, 48.44224, 8.22377], [27, 48.43531, 8.21543], [26, 48.42995, 8.20504], [25, 48.42684, 8.19321], [24, 48.42868, 8.18115], [23, 48.4346, 8.17263], [22, 48.44307, 8.169], [21, 48.45086, 8.16339], [20, 48.4594, 8.16042], [19, 48.46759, 8.16218], [18, 48.47368, 8.1551], [17, 48.48171, 8.14974], [16, 48.48968, 8.1438], [15, 48.4977, 8.13873], [14, 48.50623, 8.13628], [13, 48.51248, 8.12705], [12, 48.51866, 8.11723], [11, 48.52191, 8.10515], [10, 48.52428, 8.09215], [9, 48.52777, 8.07976], [8, 48.53309, 8.06886], [7, 48.53542, 8.05616], [6, 48.5379, 8.0432], [5, 48.54135, 8.0307], [4, 48.5448, 8.01822], [3, 48.54827, 8.00569], [2, 48.55171, 7.99316], [1, 48.5543, 7.98044]]

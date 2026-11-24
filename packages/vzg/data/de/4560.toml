@@ -1,0 +1,75 @@
+id = "4560"
+ref = "4560"
+name = "4560 Kißlegg - Hergatz"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q802536"
+from = "Kißlegg"
+to = "Hergatz"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.449
+kmTo = 19.172
+length = 19.624
+speeds = [[-0.449, 0.2, 80, 80], [0.2, 0.273, 70, 80], [0.273, 0.698, 70, 70], [0.698, 8.266, 120, 120], [8.266, 8.45, 100, 100], [8.45, 8.667, 80, 80], [8.667, 11.774, 100, 100], [11.774, 12.765, 90, 90], [12.765, 13.198, 70, 70], [13.198, 13.636, 80, 80], [13.636, 14.202, 90, 80], [14.202, 17.549, 100, 100], [17.549, 19.172, 80, 80]]
+curves = [[-0.349, -0.199, 600], [0.244, 0.82, 360], [2.415, 2.665, 2410], [6.24, 6.565, 840], [6.865, 7.34, 1330], [8.364, 8.715, 490], [10.091, 10.367, 1480], [11.368, 11.995, 620], [12.745, 13.12, 400], [13.17, 13.22, 2740], [13.47, 14.221, 420], [14.521, 15.447, 1500], [16.572, 16.747, 2410], [16.847, 17.247, 2020], [17.672, 18.272, 430], [18.522, 18.797, 1110]]
+points = [
+  { km = 0.031, kind = "station", label = "Kißlegg", pos = [47.79358, 9.88177], uic = "8029204" },
+  { km = 0.2, kind = "signal", label = "83 P1", signal = "main,minor,speed_limit", dir = 1, measured = true },
+  { km = 0.273, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.4, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 0.698, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.7, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.135, kind = "signal", label = "P2", signal = "main", dir = -1 },
+  { km = 13.31, kind = "station", label = "Wangen(Allgäu)", pos = [47.68918, 9.83059], uic = "8029207" },
+  { km = 13.541, kind = "signal", label = "N2", signal = "main", dir = 1 },
+  { km = 14.202, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.549, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.962, kind = "signal", label = "B", signal = "distant,main", dir = 1 },
+  { km = 18.582, kind = "station", label = "Hergatz", pos = [47.6468, 9.82726], uic = "8000387", ele = 555 },
+  { km = 58, kind = "signal", label = "83 N1", signal = "main,minor", dir = -1, measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.404, kmTo = 0.419, length = 16 },
+  { kind = "bridge", kmFrom = 8.266, kmTo = 8.385, length = 119 },
+  { kind = "bridge", kmFrom = 8.45, kmTo = 8.608, length = 157 },
+  { kind = "bridge", kmFrom = 13.636, kmTo = 13.672, length = 36 },
+  { kind = "bridge", kmFrom = 14.036, kmTo = 14.06, length = 24 },
+  { kind = "bridge", kmFrom = 14.356, kmTo = 14.473, length = 118 },
+  { kind = "bridge", kmFrom = 14.739, kmTo = 14.774, length = 36 },
+  { kind = "bridge", kmFrom = 16.157, kmTo = 16.171, length = 14 },
+  { kind = "bridge", kmFrom = 16.58, kmTo = 16.598, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_uubHygj{@r@zMaA`i@", v = 80 },
+  { line = "muubH{nh{@HbIfA`HdCjFfDzC", v = 70 },
+  { line = "miubHmog{@nEjAzbBtTjoExChHvAfVvMnLlD~{@lA", v = 120 },
+  { line = "schbHeye{@jIN", v = 100 },
+  { line = "gygbHuxe{@zEtAjCrB", v = 80 },
+  { line = "_ngbHkre{@nWp\\be@fr@hKzVv]fdA~D|EzE|C", v = 100 },
+  { line = "mwcbHqx_{@xHhArl@_B", v = 90 },
+  { line = "_`bbHgy_{@hCDxD~AtBjCrDrI", v = 70 },
+  { line = "qlabHag_{@lO`Z", v = 80 },
+  { line = "c|`bH_l~z@lGrE`Fb@zEkAvEgE", v = 90 },
+  { line = "__`bH{l~z@nPeS|E{DfFkCfJqBdRc@jfAvHpJGpJgAvVsG", v = 100 },
+  { line = "sjzaHkq_{@vGoBtE_@dFhApDrC~CzGzKfa@vQj\\", v = 80 },
+]
+posts = [[0, 47.79351, 9.88217], [1, 47.78899, 9.87323], [2, 47.78011, 9.87122], [3, 47.77117, 9.87005], [4, 47.76218, 9.86985], [5, 47.75319, 9.86964], [6, 47.7442, 9.86945], [7, 47.7356, 9.86627], [8, 47.72665, 9.86536], [9, 47.71847, 9.86143], [10, 47.71175, 9.85258], [11, 47.7064, 9.84193], [12, 47.69983, 9.83414], [13, 47.69099, 9.83371], [14, 47.68415, 9.82627], [15, 47.67642, 9.83275], [16, 47.66747, 9.83242], [17, 47.65851, 9.83174], [18, 47.64976, 9.8335], [19, 47.64443, 9.82295]]
+
+[[connections]]
+km = 0.031
+station = "Kißlegg"
+lines = [
+  { id = "4550", ref = "4550", name = "4550 Herbertingen - Isny", km = 57.637 },
+]
+
+[[connections]]
+km = 18.582
+station = "Hergatz"
+lines = [
+  { id = "5362", ref = "5362", name = "5362 Buchloe - Lindau", km = 129.828 },
+]

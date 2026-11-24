@@ -1,0 +1,34 @@
+id = "3034"
+ref = "3034"
+name = "3034 Grenzau - Hillscheid"
+operator = "Eifelbahn Verkehrsgesellschaft mbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.608
+length = 1.608
+speeds = [[0, 1.608, 20, 20]]
+curves = [[0.275, 0.85, 500], [1.375, 1.5, 460]]
+points = [
+  { km = 1.608, kind = "halt", label = "Bahnhof Grenzau", pos = [50.4567, 7.66506] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.915, kmTo = 0.932, length = 17 },
+  { kind = "bridge", kmFrom = 1.36, kmTo = 1.391, length = 31 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uk{rHyuym@kUkGcDLkEnBgGlHsWti@aB~AyCX", v = 20 },
+]
+posts = [[0, 50.44427, 7.67341], [1, 50.45217, 7.67054]]
+
+[[connections]]
+km = 1.608
+station = "Bahnhof Grenzau"
+lines = [
+  { id = "3032", ref = "3032", name = "3032 Altenkirchen - Au (Sieg)", km = 61.957 },
+]

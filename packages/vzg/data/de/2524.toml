@@ -1,0 +1,113 @@
+id = "2524"
+ref = "2524"
+name = "2524 Rheydt Hbf - Dalheim"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Rheydt Hbf"
+to = "Dalheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.341
+kmTo = 19.885
+length = 20.184
+speeds = [[-0.341, 0.121, 80, 80], [0.121, 0.712, 60, 60], [0.712, 2.647, 40, 40], [2.647, 3.05, 60, 60], [3.05, 4.202, 80, 80], [4.202, 7.278, 100, 100], [7.278, 10.052, "", ""], [10.052, 13.376, 100, 100], [13.376, 13.389, "", ""], [13.389, 19.5, 100, 100], [19.5, 19.885, 70, 70]]
+curves = [[-0.157, -0.107, 2400], [0.093, 0.693, 1090], [1.118, 1.193, 1490], [1.268, 1.418, 1200], [1.468, 1.518, 2350], [2.318, 2.368, 2380], [2.418, 3.068, 340], [3.844, 4.144, 500], [4.595, 4.821, 1560], [6.728, 6.926, 1590], [11.24, 11.34, 1840], [13.268, 13.619, 1980], [18.105, 18.708, 1250], [19.535, 19.785, 660]]
+points = [
+  { km = -0.125, kind = "signal", label = "61 N4", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 0.007, kind = "station", label = "Rheydt Hauptbahnhof", pos = [51.16323, 6.43967], uic = "8000318" },
+  { km = 0.121, kind = "signal", signal = "combined,route,speed_limit", dir = 1 },
+  { km = 0.712, kind = "signal", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 1.149, kind = "signal", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 1.465, kind = "signal", signal = "combined,minor,route,speed_limit,traversable", dir = -1 },
+  { km = 2.176, kind = "signal", signal = "main,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 2.337, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.443, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.524, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.552, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.733, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.748, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.796, kind = "signal", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 3.103, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.46, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.475, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.087, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.121, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.202, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.549, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.797, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.838, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.165, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.95, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.973, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.57, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 6.672, kind = "signal", signal = "main", dir = 1 },
+  { km = 7.277, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.372, kind = "signal", signal = "main", dir = -1 },
+  { km = 7.404, kind = "station", label = "Mönchengladbach-Rheindahlen", pos = [51.15067, 6.35717], uic = "8004063" },
+  { km = 8.017, kind = "signal", signal = "main", dir = 1 },
+  { km = 8.073, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.416, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 8.501, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 8.606, kind = "signal", signal = "main", dir = -1 },
+  { km = 8.735, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.794, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 9.303, kind = "signal", signal = "distant", dir = -1 },
+  { km = 9.401, kind = "stop", label = "Mönchengladbach-Genhausen", pos = [51.14815, 6.3295] },
+  { km = 9.492, kind = "stop", label = "Mönchengladbach-Genhausen", pos = [51.14811, 6.32882], uic = "8004061" },
+  { km = 9.522, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 9.693, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.143, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.158, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 10.91, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.22, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 11.611, kind = "signal", signal = "main", dir = 1 },
+  { km = 11.827, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 12.322, kind = "signal", label = "B", signal = "main", dir = -1 },
+  { km = 12.79, kind = "station", label = "Wegberg", pos = [51.14518, 6.28133], uic = "8006243" },
+  { km = 12.817, kind = "signal", label = "E", signal = "catenary_mast,main", dir = 1 },
+  { km = 13.021, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 13.12, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 13.302, kind = "signal", signal = "catenary_mast,main", dir = -1 },
+  { km = 13.451, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.068, kind = "signal", signal = "distant", dir = -1 },
+  { km = 14.958, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 17.254, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 18.045, kind = "stop", label = "Arsbeck", pos = [51.15191, 6.20724], uic = "8000611" },
+  { km = 18.854, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 19.55, kind = "signal", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 19.838, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.885, kind = "station", label = "Dalheim", uic = "8001365", pos = [51.14905, 6.17877] },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.303, kmTo = -0.279, length = 24 },
+  { kind = "bridge", kmFrom = 1.595, kmTo = 1.627, length = 32 },
+  { kind = "bridge", kmFrom = 13.376, kmTo = 13.389, length = 12 },
+  { kind = "bridge", kmFrom = 13.764, kmTo = 13.786, length = 21 },
+  { kind = "bridge", kmFrom = 19.855, kmTo = 19.885, length = 30 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q_ewHojvd@F}OwA{O", v = 70 },
+  { line = "abewHilwd@yNwhAaA}PEwPtj@}rKl@aU", v = 100 },
+  { line = "_gdwHwche@?c@" },
+  { line = "_gdwH{dhe@gDywDsHanB", v = 100 },
+  { line = "{udwHwlqe@yT_tF" },
+  { line = "ukewHwaye@eBim@r@slDXgNvC_f@", v = 100 },
+  { line = "ugewH}saf@|@}KvBkIpa@yu@", v = 80 },
+  { line = "m_dwHabdf@zBiF`AoFVuHa@iG", v = 60 },
+  { line = "yycwH{bef@uAiFeB}C_u@kv@o[s^", v = 40 },
+  { line = "erfwHcfhf@cLaIyHwBmGg@", v = 60 },
+  { line = "qqgwHeuhf@}Xj@", v = 80 },
+]
+posts = [[19, 51.15075, 6.19379], [18, 51.15189, 6.20775], [17, 51.15035, 6.22191], [16, 51.14882, 6.23607], [15, 51.14731, 6.25008], [14, 51.14576, 6.26412], [13, 51.14506, 6.27832], [12, 51.1455, 6.29263], [11, 51.14616, 6.30687], [10, 51.14741, 6.32103], [9, 51.14865, 6.33517], [8, 51.14993, 6.34928], [7, 51.15115, 6.36346], [6, 51.15124, 6.37781], [5, 51.15111, 6.39206], [4, 51.14969, 6.40611], [3, 51.14344, 6.41637], [2, 51.14736, 6.42674], [1, 51.15483, 6.4347], [0, 51.1631, 6.43939]]
+
+[[connections]]
+km = 0.007
+station = "Rheydt Hauptbahnhof"
+lines = [
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 60.082 },
+  { id = "2611", ref = "2611", name = "2611 Köln-Ehrenfeld - Rheydt Hbf", km = 49.445 },
+]

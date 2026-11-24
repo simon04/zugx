@@ -1,0 +1,77 @@
+id = "6217"
+ref = "6217"
+name = "6217 Neukirch (Lausitz) West - Bischofswerda"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q802849"
+from = "Neukirch (Lausitz) West"
+to = "Bischofswerda"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.192
+kmTo = 9.714
+length = 9.496
+speeds = [[0.192, 1.606, 110, 110], [1.606, 8.382, 120, 120], [8.382, 8.767, 80, 80], [8.767, 9.372, 60, 60], [9.372, 9.562, 50, 50], [9.562, 9.714, 60, 60]]
+curves = [[0.292, 0.586, 1080], [0.832, 1.595, 610], [2.97, 3.611, 800], [4.461, 4.94, 700], [6.424, 7.045, 1020], [7.729, 8.643, 1020], [8.743, 8.818, 1690], [8.868, 8.943, 1480], [9.368, 9.443, 1580], [9.493, 9.543, 1470]]
+points = [
+  { km = 0.192, kind = "station", label = "Neukirch (Lausitz) West", uic = "8006131", pos = [51.0843, 14.27085] },
+  { km = 0.241, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.513, kind = "signal", label = "51F", signal = "combined", dir = -1 },
+  { km = 0.517, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.606, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.608, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.829, kind = "stop", label = "Putzkau", pos = [51.10303, 14.23559], uic = "8006132" },
+  { km = 5.841, kind = "stop", label = "Schmölln (Oberlausitz)", pos = [51.11972, 14.228], uic = "8006133" },
+  { km = 6.925, kind = "signal", signal = "crossing_distant" },
+  { km = 7.193, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 7.868, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 8.143, kind = "signal", label = "76A", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 8.382, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.035, kind = "signal", label = "76P6", signal = "main,minor,speed_limit,wrong_road", dir = -1 },
+  { km = 9.297, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 9.305, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 9.372, kind = "station", label = "Bischofswerda", uic = "8010049", pos = [51.12547, 14.18587] },
+  { km = 9.456, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 9.493, kind = "signal", label = "76N6", signal = "main,minor,speed_limit,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.222, kmTo = 0.241, length = 19 },
+  { kind = "bridge", kmFrom = 0.475, kmTo = 0.493, length = 19 },
+  { kind = "bridge", kmFrom = 1.475, kmTo = 1.487, length = 12 },
+  { kind = "bridge", kmFrom = 1.957, kmTo = 1.971, length = 14 },
+  { kind = "bridge", kmFrom = 2.311, kmTo = 2.327, length = 16 },
+  { kind = "bridge", kmFrom = 2.491, kmTo = 2.534, length = 43 },
+  { kind = "bridge", kmFrom = 2.685, kmTo = 2.695, length = 10 },
+  { kind = "bridge", kmFrom = 2.901, kmTo = 3.305, length = 401 },
+  { kind = "bridge", kmFrom = 5.484, kmTo = 5.505, length = 22 },
+  { kind = "bridge", kmFrom = 8.52, kmTo = 8.547, length = 23 },
+  { kind = "bridge", kmFrom = 9.534, kmTo = 9.559, length = 25 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ymxvHaxavACdU~Dni@HxLm@zIeBfJmChHkDlF", v = 110 },
+  { line = "avxvHub~uAg}@vjAuHtG{FpBwI`@{v@eHiFRgEnA{IjH}dAnhAgHrMuExOwObdAaAnK[jLL`LdAzM", v = 120 },
+  { line = "{gawHmbtuA`Hp[", v = 80 },
+  { line = "y~`wH{esuArPfm@", v = 60 },
+  { line = "em`wHswquA~C`N", v = 50 },
+  { line = "eh`wHqhquA~B|J", v = 60 },
+]
+posts = [[1, 51.0836, 14.2569], [2, 51.08873, 14.24615], [3, 51.09589, 14.23743], [4, 51.1046, 14.2359], [5, 51.11327, 14.23477], [6, 51.12073, 14.22697], [7, 51.12722, 14.21729], [8, 51.13011, 14.20377], [9, 51.12717, 14.19093]]
+
+[[connections]]
+km = 0.192
+station = "Neukirch West"
+lines = [
+  { id = "6216", ref = "6216", name = "6216 Bautzen - Bad Schandau", km = 23.366 },
+]
+
+[[connections]]
+km = 9.372
+station = "Bischofswerda"
+lines = [
+  { id = "6212", ref = "6212", name = "6212 Görlitz - Dresden-Neustadt", km = 64.824 },
+  { id = "6216", ref = "6216", name = "6216 Bautzen - Bad Schandau", km = 24.69 },
+]

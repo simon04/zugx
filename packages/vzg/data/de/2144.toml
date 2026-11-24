@@ -1,0 +1,38 @@
+id = "2144"
+ref = "2144"
+name = "2144 Witten Streckenwechsel 2143/2144 - Wengern Ost"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q803496"
+from = "Witten Streckenwechsel 2143/2144"
+to = "Wengern Ost"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.785
+length = 2.785
+speeds = [[0, 2.785, "", ""]]
+curves = [[0.175, 0.225, 1910], [0.3, 0.475, 1100], [0.65, 1.2, 730], [1.475, 1.575, 2170], [1.9, 2.05, 1170]]
+points = [
+  { km = 0.285, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.326, kind = "signal", label = "F 100", signal = "distant,main,traversable", dir = 1 },
+  { km = 1.713, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.004, kind = "halt", label = "Wengern Ost", pos = [51.39953, 7.35084] },
+  { km = 2.46, kind = "signal", label = "P103", signal = "main,minor,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ifyxHmqyk@`TvAjUfFvFG|F_BtToPfUeV|_@}q@" },
+]
+posts = [[0, 51.41621, 7.34503], [1, 51.40732, 7.34368], [2, 51.39952, 7.35073]]
+
+[[connections]]
+km = 2.004
+station = "Wengern Ost"
+lines = [
+  { id = "2143", ref = "2143", name = "2143 Witten Hbf - Schwelm", km = 67.616 },
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 67.611 },
+]

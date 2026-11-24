@@ -1,0 +1,47 @@
+id = "5440"
+ref = "5440"
+name = "Biessenhofen - Marktoberdorf"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q103908673"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.161
+length = 7.161
+speeds = [[0, 0.52, 60, 60], [0.52, 6.137, 80, 80], [6.137, 7.161, "", ""]]
+curves = [[2.6, 2.675, 2540], [4.325, 5.2, 1010], [6.15, 6.6, 730], [6.775, 7.05, 860]]
+points = [
+  { km = 0.147, kind = "station", label = "Marktoberdorf", uic = "8003885", pos = [47.77908, 10.61424] },
+  { km = 1.309, kind = "halt", label = "Marktoberdorf Nord", uic = "8001622", pos = [47.78949, 10.61553] },
+  { km = 4.128, kind = "halt", label = "Ebenhofen", uic = "8001622", pos = [47.81475, 10.61853] },
+  { km = 6.638, kind = "station", label = "Biessenhofen", pos = [47.82989, 10.64038] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.622, kmTo = 2.663, length = 40 },
+  { kind = "bridge", kmFrom = 4.559, kmTo = 4.59, length = 31 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "arrbHe`x_A_\\gC", v = 60 },
+  { line = "aosbHmdx_AivEuXmKgCeJ{FuGoJ{CwJ_WmfA", v = 80 },
+  { line = "qc|bH}h|_AkDsKiGeJqM_KsFuCgJw@" },
+]
+posts = [[0, 47.77777, 10.61395], [1, 47.78672, 10.61515], [2, 47.79568, 10.61621], [3, 47.80465, 10.61728], [4, 47.81361, 10.61835], [5, 47.82192, 10.62235], [6, 47.8261, 10.63419], [7, 47.83275, 10.64243]]
+
+[[connections]]
+km = 0.147
+station = "Marktoberdorf"
+lines = [
+  { id = "5441", ref = "5441", km = 0 },
+]
+
+[[connections]]
+km = 6.638
+station = "Biessenhofen"
+lines = [
+  { id = "5362", ref = "5362", name = "5362 Buchloe - Lindau", km = 25.838 },
+]

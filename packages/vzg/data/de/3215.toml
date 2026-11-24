@@ -1,0 +1,26 @@
+id = "3215"
+ref = "3215"
+name = "3215 Abzw Dillingen (Saar) Süd - Abzw Dillingen (Saar) Ost W 205"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Dillingen (Saar) Süd"
+to = "Dillingen (Saar) Ost W 205"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.044
+length = 1.044
+speeds = [[0, 1.044, "", ""]]
+curves = [[0.325, 0.925, 250]]
+points = [
+  { km = 0.297, kind = "signal", label = "14", signal = "main", dir = -1 },
+  { km = 0.462, kind = "signal", signal = "distant", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_|clHq}bh@ePjU}BtAuBHwCoA}A{BaDoPeCwF" },
+]
+posts = [[0, 49.34096, 6.73769], [1, 49.34736, 6.73826]]

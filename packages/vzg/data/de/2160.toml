@@ -1,0 +1,109 @@
+id = "2160"
+ref = "2160"
+name = "2160 Essen Hbf - Bochum Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q3187033"
+from = "Essen Hbf"
+to = "Bochum Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.108
+kmTo = 16.078
+length = 15.82
+speeds = [[0.108, 0.877, 110, 110], [0.877, 3.821, 130, 130], [3.821, 4.277, 150, 150], [4.277, 15.779, 160, 160], [15.779, 16.078, 120, 120]]
+curves = [[0.283, 0.758, 790], [0.933, 1.744, 980], [2.059, 2.4, 1180], [2.794, 3.572, 1600], [3.672, 4.174, 1390], [7.044, 7.419, 1360], [8.677, 8.776, 1830], [9.496, 9.6, 2700], [9.862, 10.697, 1120], [11.704, 12.687, 1100], [14.459, 14.734, 1260]]
+points = [
+  { km = 0.108, kind = "station", label = "Essen Hauptbahnhof", pos = [51.4502, 7.01266], uic = "8010184" },
+  { km = 0.14, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 0.271, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.275, kind = "signal", label = "R6", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 0.339, kind = "signal", label = "136I", signal = "minor", dir = -1 },
+  { km = 0.486, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.574, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.806, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.914, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.914, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.914, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.057, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.13, kind = "signal", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 2.612, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.876, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 3.448, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 3.799, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 4.275, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.44, kind = "signal", signal = "distant,main,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 4.492, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.754, kind = "stop", label = "Essen-Kray Süd", pos = [51.45803, 7.07461], uic = "8001911" },
+  { km = 4.875, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.933, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 5.404, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.469, kind = "signal", signal = "main", dir = 1 },
+  { km = 5.993, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.245, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.109, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.25, kind = "signal", label = "10 959", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 8.191, kind = "signal", label = "10 01", signal = "main,speed_limit", dir = 1 },
+  { km = 8.979, kind = "signal", signal = "distant", dir = 1 },
+  { km = 9.356, kind = "signal", label = "10 92", signal = "main,speed_limit", dir = -1 },
+  { km = 9.548, kind = "stop", label = "Wattenscheid", uic = "8006226", pos = [51.47319, 7.13935] },
+  { km = 9.723, kind = "signal", signal = "distant", dir = 1 },
+  { km = 9.729, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 9.98, kind = "signal", label = "10 05", signal = "combined", dir = 1 },
+  { km = 10.775, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 11.389, kind = "signal", label = "10 07", signal = "combined", dir = 1 },
+  { km = 12.19, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.449, kind = "signal", label = "14 09", signal = "combined", dir = 1 },
+  { km = 13.45, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 14.063, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 14.642, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 14.74, kind = "signal", label = "14 P5", signal = "main,speed_limit", dir = -1 },
+  { km = 14.743, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.864, kind = "halt", label = "Bochum-Ehrenfeld", uic = "8001039", pos = [51.47207, 7.20905] },
+  { km = 15.204, kind = "signal", label = "14 ZR5", signal = "combined,speed_limit", dir = 1 },
+  { km = 15.779, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.078, kind = "stop", label = "Bochum Hbf", uic = "8000041", pos = [51.47851, 7.22322] },
+  { km = 16.078, kind = "station", label = "Bochum Hauptbahnhof", pos = [51.4789, 7.22287] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.04, kmTo = 5.066, length = 28 },
+  { kind = "bridge", kmFrom = 5.3, kmTo = 5.311, length = 11 },
+  { kind = "bridge", kmFrom = 8.953, kmTo = 8.976, length = 24 },
+  { kind = "bridge", kmFrom = 9.76, kmTo = 9.781, length = 21 },
+  { kind = "bridge", kmFrom = 10.05, kmTo = 10.074, length = 24 },
+  { kind = "bridge", kmFrom = 10.728, kmTo = 10.742, length = 14 },
+  { kind = "bridge", kmFrom = 13.747, kmTo = 13.765, length = 18 },
+  { kind = "bridge", kmFrom = 14.977, kmTo = 15.003, length = 26 },
+  { kind = "bridge", kmFrom = 15.412, kmTo = 15.445, length = 33 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}a`yHu{xi@_A{TmAsKsBcJkGuO", v = 110 },
+  { line = "kr`yH_zzi@cF_N{CsM_B_O_@eO`@ya@n@kOtIsm@dD_a@DmTiBo[", v = 130 },
+  { line = "as`yHqmbj@{BwO{EgS", v = 150 },
+  { line = "y}`yHqrcj@}lAynE}C{MoCyUwNerBgF_iB@cTrA{RnCuOxa@usAnCcLxCsXJaXeAaPq_@yaD}Kga@oX{w@", v = 160 },
+  { line = "uaeyHmbak@_IuT", v = 120 },
+]
+posts = [[1, 51.45467, 7.02522], [2, 51.45641, 7.03828], [3, 51.45404, 7.05141], [4, 51.45464, 7.06523], [5, 51.45915, 7.07764], [6, 51.4638, 7.09004], [7, 51.46835, 7.10219], [8, 51.47089, 7.11606], [9, 51.47262, 7.13041], [10, 51.47351, 7.14448], [11, 51.4703, 7.15763], [12, 51.46569, 7.16968], [13, 51.46646, 7.18371], [14, 51.46918, 7.19749], [15, 51.47281, 7.21062], [16, 51.47809, 7.22232]]
+
+[[connections]]
+km = 0.108
+station = "Essen Hauptbahnhof"
+lines = [
+  { id = "2161", ref = "2161", name = "2161 Essen Werden - Essen Hbf", km = 8.522 },
+  { id = "2163", ref = "2163", name = "2163 Essen Hbf - Essen-Kray Nord", km = 0.189 },
+  { id = "2291", ref = "2291", name = "2291 Mülheim (Ruhr)-Styrum - Bochum Hbf", km = 129.581 },
+  { id = "2300", ref = "2300", name = "2300 Mülheim (Rhur)-Styrum - Essen Hbf", km = 129.482 },
+]
+
+[[connections]]
+km = 16.078
+station = "Bochum Hbf"
+lines = [
+  { id = "2158", ref = "2158", name = "2158 Bochum Hbf - Dortmund Hbf (Ferngleise)", km = 146.027 },
+  { id = "2190", ref = "2190", name = "2190 Bochum Hbf - Dortmund Hbf (S-Bahn-Gleise)", km = 0.059 },
+  { id = "2291", ref = "2291", name = "2291 Mülheim (Ruhr)-Styrum - Bochum Hbf", km = 146.041 },
+]

@@ -1,0 +1,127 @@
+id = "2320"
+ref = "2320"
+name = "2320 Duisburg-Wedau - Oberhausen-Osterfeld"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q2049348"
+from = "Duisburg-Wedau"
+to = "Oberhausen-Osterfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.245
+kmTo = 11.937
+length = 11.366
+speeds = [[1.245, 1.387, 40, 40], [1.387, 2.417, "", ""], [2.417, 2.514, 60, 60], [2.514, 4.627, 70, 70], [4.627, 4.661, 80, 70], [4.661, 5.201, 70, 70], [5.201, 6.183, 80, 80], [6.183, 6.185, 80, 100], [6.185, 6.971, 80, 80], [6.971, 7.151, 60, 80], [7.151, 7.338, 60, 60], [7.338, 9.545, 80, 80], [9.545, 9.585, 40, 80], [9.585, 9.96, 40, 40], [9.96, 11.937, "", ""]]
+curves = [[1.362, 1.487, 2410], [1.562, 1.887, 600], [2.037, 4.325, 420], [5.007, 5.285, 780], [5.432, 5.514, 1590], [5.58, 5.792, 1140], [6.752, 7.282, 640], [7.887, 8.137, 1140], [8.612, 8.687, 2640], [9.537, 10.062, 830], [10.212, 10.287, 1730], [10.712, 10.987, 670], [11.137, 11.312, 700], [11.637, 11.762, 1560]]
+points = [
+  { km = 1.617, kind = "signal", label = "05 B", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.768, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.514, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.866, kind = "signal", signal = "combined", dir = -1 },
+  { km = 3.063, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.203, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.563, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.153, kind = "signal", label = "32D", signal = "combined,speed_limit", dir = 1 },
+  { km = 4.461, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.48, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.538, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.627, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.848, kind = "signal", label = "32 P40", signal = "main,route,speed_limit", dir = -1 },
+  { km = 4.885, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.128, kind = "station", label = "Duisburg Hauptbahnhof", uic = "8010316", pos = [51.42967, 6.77618] },
+  { km = 5.201, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.306, kind = "station", label = "Duisburg Hauptbahnhof U", pos = [51.43185, 6.77721] },
+  { km = 5.518, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = 5.535, kind = "signal", label = "32 N40", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 5.791, kind = "signal", signal = "minor", dir = -1 },
+  { km = 5.797, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.815, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 5.89, kind = "halt", label = "Duissern", pos = [51.43919, 6.78297] },
+  { km = 6.009, kind = "signal", label = "32 F", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 6.079, kind = "signal", label = "36845", signal = "combined,route,traversable", dir = 1 },
+  { km = 6.183, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.502, kind = "signal", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 6.971, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 7.151, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.202, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.401, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 7.81, kind = "signal", label = "36", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 7.923, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 8.209, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.69, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 8.695, kind = "signal", signal = "distant,main,traversable", dir = -1 },
+  { km = 9.545, kind = "signal", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 9.585, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.233, kind = "signal", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 11.004, kind = "signal", signal = "minor", dir = -1 },
+  { km = 11.065, kind = "signal", signal = "minor", dir = 1 },
+  { km = 11.245, kind = "signal", label = "76 ZV 45", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 11.844, kind = "signal", label = "76 ZS 45", signal = "main,minor,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.185, kmTo = 2.2, length = 15 },
+  { kind = "bridge", kmFrom = 3.683, kmTo = 3.713, length = 31 },
+  { kind = "tunnel", kmFrom = 3.825, kmTo = 4.018, length = 192 },
+  { kind = "bridge", kmFrom = 6.286, kmTo = 6.299, length = 13 },
+  { kind = "bridge", kmFrom = 6.542, kmTo = 6.554, length = 12 },
+  { kind = "bridge", kmFrom = 6.742, kmTo = 6.773, length = 31 },
+  { kind = "bridge", kmFrom = 7.263, kmTo = 7.329, length = 65 },
+  { kind = "bridge", kmFrom = 7.45, kmTo = 7.802, length = 350 },
+  { kind = "bridge", kmFrom = 8.856, kmTo = 8.879, length = 23 },
+  { kind = "bridge", kmFrom = 9.021, kmTo = 9.048, length = 27 },
+  { kind = "bridge", kmFrom = 9.589, kmTo = 9.611, length = 22 },
+  { kind = "bridge", kmFrom = 9.864, kmTo = 9.89, length = 26 },
+  { kind = "bridge", kmFrom = 10.194, kmTo = 10.222, length = 27 },
+  { kind = "bridge", kmFrom = 10.529, kmTo = 10.547, length = 18 },
+  { kind = "bridge", kmFrom = 10.646, kmTo = 10.695, length = 49 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gaeyH{puh@tFxRxH|a@tAt\\tAlKvMlg@jHxT" },
+  { line = "grcyHwqph@rGdL`GvE", v = 40 },
+  { line = "qacyHy}oh@lpApd@~F|@b`@fA", v = 80 },
+  { line = "_g_yHatnh@lIX", v = 60 },
+  { line = "q|~xHgsnh@jFrAfEnEpVjp@", v = 80 },
+  { line = "kw}xHwxlh@@B", v = 100 },
+  { line = "iw}xHsxlh@lNv`@~DlIdKjNhSrQ", v = 80 },
+  { line = "ka|xHmjjh@nFrB~Ej@l^A", v = 70 },
+  { line = "mszxHoejh@|A@", v = 80 },
+  { line = "opzxHmejh@dWo@xEh@rEbB", v = 70 },
+  { line = "{jyxHobjh@nCx@bEM", tunnel = true, v = 70 },
+  { line = "g`yxHcajh@dHmDjIqH~CoGjA}IAuGgAsHkBqEgHeJyBuI", v = 70 },
+  { line = "axxxHirlh@s@mG", v = 60 },
+  { line = "uyxxHwzlh@AaJ`AmItK}TtFgGlNeF" },
+  { line = "{swxHsunh@nFeC", v = 40 },
+]
+posts = [[11, 51.4737, 6.82058], [10, 51.46955, 6.80792], [9, 51.4616, 6.80191], [8, 51.45293, 6.79808], [7, 51.44407, 6.79696], [6, 51.43844, 6.78599], [5, 51.42808, 6.7748], [4, 51.41679, 6.77423], [3, 51.41152, 6.78305], [2, 51.41287, 6.79375]]
+
+[[connections]]
+km = 5.128
+station = "Duisburg Hauptbahnhof"
+lines = [
+  { id = "2184", ref = "2184", name = "2184 Mülheim (Ruhr)-Styrum - Duisburg Hbf", km = 6.304 },
+  { id = "2290", ref = "2290", name = "2290 Mülheim-Styrum - Duisburg Hbf", km = 7.219 },
+  { id = "2326", ref = "2326", name = "2326 Duisburg Bissingheim - Duisburg", km = 5.46 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 63.087 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 63.104 },
+]
+
+[[connections]]
+km = 5.306
+station = "Duisburg Hauptbahnhof U"
+lines = [
+  { id = "2326", ref = "2326", name = "2326 Duisburg Bissingheim - Duisburg", km = 5.723 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 63.369 },
+]
+
+[[connections]]
+km = 5.89
+station = "Duissern"
+lines = [
+  { id = "2184", ref = "2184", name = "2184 Mülheim (Ruhr)-Styrum - Duisburg Hbf", km = 5.166 },
+  { id = "2290", ref = "2290", name = "2290 Mülheim-Styrum - Duisburg Hbf", km = 6.12 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 64.13 },
+]

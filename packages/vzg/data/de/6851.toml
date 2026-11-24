@@ -1,0 +1,146 @@
+id = "6851"
+ref = "6851"
+name = "6851 Könnern – Baalberge"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802585"
+from = "Könnern"
+to = "Baalberge"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.558
+kmTo = 12.154
+length = 12.739
+speeds = [[-0.558, 0.281, 60, 60], [0.281, 1.5, 50, 50], [1.5, 1.951, 40, 40], [1.951, 3.083, 50, 50], [3.083, 3.299, 20, 20], [3.299, 3.774, 50, 50], [3.774, 4.153, 20, 20], [4.153, 6.043, 50, 50], [6.043, 6.077, 10, 10], [6.077, 6.751, 50, 50], [6.751, 7.088, 20, 20], [7.088, 7.407, 50, 50], [7.407, 10.432, 80, 80], [10.432, 11.179, 50, 50], [11.179, 12.154, 40, 40]]
+curves = [[0.367, 0.667, 790], [0.717, 1.2, 320], [1.246, 1.407, 970], [3.87, 4.076, 730], [4.212, 4.51, 630], [5.208, 6.124, 780], [7.052, 7.75, 970], [10.362, 10.891, 530], [11.019, 11.128, 1170]]
+points = [
+  { km = -0.307, kind = "signal", label = "25 P3", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = -0.01, kind = "station", label = "Könnern", pos = [51.67412, 11.77978], uic = "8024176" },
+  { km = 0.23, kind = "signal", label = "25N3", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 0.299, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.359, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.426, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.455, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.519, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.804, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.862, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.92, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.101, kind = "signal", label = "25G", signal = "combined,traversable", dir = -1 },
+  { km = 1.135, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.135, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.467, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.803, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.951, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.197, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.601, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 2.743, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.089, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 3.134, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.249, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.292, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.428, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.447, kind = "signal", signal = "crossing_distant" },
+  { km = 3.67, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.774, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 3.83, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 3.865, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.897, kind = "stop", label = "Trebitz", pos = [51.70494, 11.76316] },
+  { km = 3.935, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.999, kind = "signal", signal = "crossing_distant" },
+  { km = 4.061, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.144, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.24, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 4.605, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.789, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.942, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.291, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 5.396, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 5.551, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.642, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.782, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.942, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 6.026, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.043, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 6.077, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.32, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.353, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.695, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 6.728, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.79, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.837, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.871, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.998, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.051, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.078, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.166, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 7.172, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.325, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.384, kind = "signal", signal = "crossing_distant" },
+  { km = 7.482, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 7.502, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 7.622, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 7.757, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.001, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.38, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.4, kind = "signal", signal = "crossing_distant" },
+  { km = 8.412, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 9.005, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 9.161, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 9.164, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 9.558, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 9.579, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 9.682, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 9.97, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.127, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.319, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 10.427, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 10.432, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.679, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.681, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 10.836, kind = "signal", label = "A", signal = "combined,traversable", dir = 1 },
+  { km = 10.906, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.938, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 11.023, kind = "signal", label = "104", signal = "shunting", dir = 1 },
+  { km = 11.125, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 11.192, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 11.328, kind = "station", label = "Baalberge", pos = [51.76313, 11.78446], uic = "8024186" },
+  { km = 11.349, kind = "signal", label = "D4", signal = "main,traversable", dir = -1 },
+  { km = 11.966, kind = "signal", label = "E4", signal = "main,minor,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}|jzHka}fA{\\xy@", v = 60 },
+  { line = "yzkzHqf{fAmGzQoC|UiDnIaClBiCp@_Mo@yHr@", v = 50 },
+  { line = "gmmzHcmyfAgXnD", v = 40 },
+  { line = "ofnzHsgyfAa~@pM", v = 50 },
+  { line = "qepzHayxfA_KvA", v = 20 },
+  { line = "qqpzHivxfAoY~D", v = 50 },
+  { line = "alqzHipxfAeIbAgIcA", v = 20 },
+  { line = "o`rzHipxfA_Gy@eDV_l@pXcIrBiHI}H}BoEoCmEcH", v = 50 },
+  { line = "_euzHafxfAe@oA", v = 10 },
+  { line = "efuzHqhxfAiTgq@", v = 50 },
+  { line = "o{uzHyzyfAcIyX", v = 20 },
+  { line = "sevzHstzfA}DuK_EaH", v = 50 },
+  { line = "qqvzHkj{fAaIgIeYcLo~Bkr@", v = 80 },
+  { line = "iu{zHcu}fAcHG_G`CqLbN_DfF", v = 50 },
+  { line = "_y|zH}z|fAeg@`z@", v = 40 },
+]
+posts = [[0, 51.67393, 11.78042], [1, 51.67875, 11.7685], [2, 51.68804, 11.76703], [3, 51.69695, 11.76498], [4, 51.70587, 11.76309], [5, 51.71436, 11.76068], [6, 51.72295, 11.76131], [7, 51.728, 11.77324], [8, 51.73516, 11.78111], [9, 51.74396, 11.78473], [10, 51.75267, 11.78824], [11, 51.76111, 11.78713], [12, 51.76763, 11.77761]]
+
+[[connections]]
+km = -0.01
+station = "Könnern"
+lines = [
+  { id = "6344", ref = "6344", name = "Bahnstrecke 6344 Halle (Saale) Hbf – Vienenburg", km = 28.462 },
+]
+
+[[connections]]
+km = 11.328
+station = "Baalberge"
+lines = [
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 136.873 },
+  { id = "6420", ref = "6420", name = "6420 Köthen – Aschersleben", km = 15.932 },
+]

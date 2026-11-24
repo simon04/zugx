@@ -1,0 +1,93 @@
+id = "3731"
+ref = "3731"
+name = "3731 Staffel - Siershahn"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Staffel"
+to = "Siershahn"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.213
+kmTo = 29.526
+length = 29.331
+speeds = [[-0.213, -0.077, 50, 50], [-0.077, 0.501, 60, 60], [0.501, 22.987, 50, 50], [22.987, 23.101, 20, 50], [23.101, 24.357, 50, 50], [24.357, 24.453, 20, 50], [24.453, 24.469, 60, 50], [24.469, 24.567, 60, 20], [24.567, 29.128, 60, 60], [29.128, 29.435, 40, 60], [29.435, 29.526, 40, 40]]
+curves = [[0.437, 0.887, 730], [0.937, 1.087, 680], [1.561, 1.711, 1220], [3.513, 3.841, 1180], [4.07, 4.66, 640], [4.726, 5.381, 520], [5.643, 5.901, 1040], [6.005, 6.087, 1820], [6.17, 6.459, 370], [6.5, 6.975, 300], [7.016, 7.987, 330], [8.07, 8.731, 300], [8.875, 9.371, 390], [9.557, 9.66, 1390], [9.722, 9.928, 900], [10.032, 10.842, 300], [11.042, 11.691, 420], [12.016, 12.066, 2690], [13.031, 13.458, 860], [13.698, 13.939, 1250], [14.019, 14.446, 830], [14.687, 15.087, 860], [15.808, 16.076, 980], [16.717, 17.171, 1010], [17.571, 17.901, 940], [18.04, 18.854, 400], [19.063, 19.69, 520], [19.9, 20.295, 860], [21.015, 21.271, 380], [21.364, 21.411, 1900], [21.457, 21.505, 1560], [22.021, 22.086, 2630], [22.15, 23.241, 490], [23.442, 23.968, 420], [24.294, 26.047, 920], [26.497, 26.797, 1060], [27.647, 28.824, 720], [29.096, 29.42, 320]]
+points = [
+  { km = -0.119, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = -0.053, kind = "signal", label = "11P2", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = -0.01, kind = "station", label = "Staffel", pos = [50.39963, 8.04584], uic = "8005668" },
+  { km = 0.353, kind = "signal", label = "11N2", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 0.842, kind = "signal", label = "11G", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 1.274, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.477, kind = "stop", label = "Elz Süd", pos = [50.40863, 8.03221], uic = "8001765" },
+  { km = 6.709, kind = "stop", label = "Niedererbach", pos = [50.42507, 7.97716], uic = "8004373" },
+  { km = 10.497, kind = "stop", label = "Dreikirchen", pos = [50.44985, 7.95815], uic = "8004538" },
+  { km = 11.855, kind = "signal", label = "62A", signal = "combined,minor,traversable", dir = 1 },
+  { km = 12.02, kind = "signal", label = "62 P2", signal = "main,traversable", dir = -1 },
+  { km = 12.078, kind = "station", label = "Steinefrenz", pos = [50.44801, 7.93956], uic = "8005700" },
+  { km = 12.393, kind = "signal", label = "62N2", signal = "main,traversable", dir = 1 },
+  { km = 15.02, kind = "stop", label = "Girod", pos = [50.45432, 7.90295], uic = "8002280" },
+  { km = 17.078, kind = "signal", label = "61P2", signal = "main,traversable", dir = -1 },
+  { km = 17.451, kind = "signal", label = "61N2", signal = "main,traversable", dir = 1 },
+  { km = 17.464, kind = "station", label = "Goldhausen", pos = [50.46141, 7.87375], uic = "8002321" },
+  { km = 17.602, kind = "signal", label = "61F", signal = "main,traversable", dir = -1 },
+  { km = 21.3, kind = "signal", signal = "distant", dir = -1 },
+  { km = 21.504, kind = "signal", label = "02 P5", signal = "main,minor", dir = -1 },
+  { km = 21.633, kind = "station", label = "Montabaur", pos = [50.44483, 7.82522], uic = "8000667" },
+  { km = 21.906, kind = "stop", label = "Montabaur", pos = [50.44491, 7.82366] },
+  { km = 22.023, kind = "signal", label = "02 N5", signal = "main,minor", dir = 1 },
+  { km = 22.987, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.101, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 24.357, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 24.453, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 24.469, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.567, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 25.811, kind = "stop", label = "Dernbach/Ww", pos = [50.45686, 7.78393], uic = "8001418" },
+  { km = 25.905, kind = "stop", label = "Dernbach/Ww", pos = [50.45723, 7.78369] },
+  { km = 27.189, kind = "stop", label = "Wirges", pos = [50.46862, 7.7854], uic = "8006498" },
+  { km = 29.128, kind = "signal", signal = "main", dir = 1 },
+  { km = 29.435, kind = "signal", signal = "main", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 6.257, kmTo = 6.267, length = 12 },
+  { kind = "bridge", kmFrom = 6.346, kmTo = 6.371, length = 31 },
+  { kind = "bridge", kmFrom = 7.756, kmTo = 7.837, length = 98 },
+  { kind = "bridge", kmFrom = 8.678, kmTo = 8.69, length = 15 },
+  { kind = "bridge", kmFrom = 9.745, kmTo = 9.776, length = 37 },
+  { kind = "bridge", kmFrom = 9.872, kmTo = 9.898, length = 32 },
+  { kind = "bridge", kmFrom = 12.508, kmTo = 12.524, length = 16 },
+  { kind = "bridge", kmFrom = 14.494, kmTo = 14.519, length = 24 },
+  { kind = "bridge", kmFrom = 16.744, kmTo = 16.76, length = 15 },
+  { kind = "bridge", kmFrom = 18.278, kmTo = 18.329, length = 55 },
+  { kind = "bridge", kmFrom = 18.97, kmTo = 18.981, length = 13 },
+  { kind = "bridge", kmFrom = 23.622, kmTo = 23.663, length = 41 },
+  { kind = "bridge", kmFrom = 23.707, kmTo = 23.73, length = 23 },
+  { kind = "bridge", kmFrom = 27.693, kmTo = 27.727, length = 34 },
+  { kind = "bridge", kmFrom = 29.23, kmTo = 29.301, length = 71 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "whrrHcwbp@wEpD", v = 50 },
+  { line = "oorrHqqbp@m\\vT", v = 60 },
+  { line = "}lsrHy{ap@gFrFgCzEsE|TmRjj@{Sj~@mPzw@}Dfb@eBhJ_E~JmIvLsC|IgApK?bd@mDbk@_CjIiLjMyAdF_@xDCfFf@jFfG~Rn@vFO`KqBtIaElF}CnAcDFaDaA_FaGcGuV{AaDuF}DmEC_EvBuC~E_A~D_E|]cBtEkElFsFjBqSc@eKr@qEO}LeCcD?}CjAeCrCcBfEo@`EMtIxAbJdBjDrMjQ`CpGpAjKIrJoAfIoh@|dB}BpL}@rK_Ah`@mDha@BpMbBb_@i@bT_LleAyYxdAmArN{Aro@iAbJwF~Xc@jIPpGlAtHfBxE|D~ExFlBzVbBdEnBpFpGrDfLhEj^zCrMnCvGba@zu@tAvFVjGQdiAi@lFoAxCcB|AiBh@}FAmEzB{DrD_OjX}B~J[jHXlH~Ijn@", v = 50 },
+  { line = "_w|rH}hrn@z@vTk@tOsAvKmCxKyC`IiFdIiF`F}GlD_GpAo`@j@oJaByp@}U{Fk@}H|@oIxEsDjEsCnFqBxFqAnGuFhj@eCdG}CjC", v = 60 },
+  { line = "g~bsHy`mn@{Cz@", v = 40 },
+]
+posts = [[0, 50.39943, 8.04603], [1, 50.40622, 8.0377], [2, 50.41082, 8.02631], [3, 50.4139, 8.01669], [4, 50.41641, 8.00672], [5, 50.42029, 7.9982], [6, 50.42123, 7.987], [7, 50.42424, 7.97265], [8, 50.42913, 7.9679], [9, 50.43563, 7.96387], [10, 50.44592, 7.96174], [11, 50.44738, 7.95266], [12, 50.44766, 7.94049], [13, 50.45235, 7.92907], [14, 50.45432, 7.91637], [15, 50.45432, 7.90331], [16, 50.45671, 7.89066], [17, 50.46098, 7.87929], [18, 50.46274, 7.86571], [19, 50.45818, 7.85639], [20, 50.45216, 7.84652], [21, 50.44578, 7.8352], [22, 50.44491, 7.82263], [23, 50.44917, 7.81652], [24, 50.4526, 7.80534], [25, 50.45139, 7.79176], [26, 50.45807, 7.78346], [27, 50.46696, 7.78452], [28, 50.47568, 7.78745], [29, 50.48107, 7.77739]]
+
+[[connections]]
+km = -0.01
+station = "Staffel"
+lines = [
+  { id = "3730", ref = "3730", name = "3730 Limburg (Lahn) - Altenkirchen", km = 5.281 },
+]
+
+[[connections]]
+km = 21.633
+station = "Montabaur"
+lines = [
+  { id = "2690", ref = "2690", name = "2690 Köln - Frankfurt am Main", km = 89.099 },
+]

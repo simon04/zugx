@@ -1,0 +1,118 @@
+id = "4530"
+ref = "4530"
+name = "4530 Friedrichshafen Stadt - Abzw Lindau-Aeschach"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Friedrichshafen Stadt"
+to = "Lindau-Aeschach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.245
+kmTo = 22.509
+length = 21.216
+speeds = [[1.245, 1.402, 80, 80], [1.402, 1.726, 100, 100], [1.726, 2.306, 110, 110], [2.306, 8.707, 120, 120], [8.707, 9.503, 100, 100], [9.503, 13.055, 120, 120], [13.055, 13.357, 100, 100], [13.357, 14.254, 60, 60], [14.254, 22.209, 100, 100], [22.209, 22.372, 80, 80], [22.372, 22.509, 60, 60]]
+curves = [[1.361, 2.32, 600], [2.916, 3.43, 840], [4.861, 5.154, 2090], [6.516, 6.889, 930], [8.68, 9.509, 600], [11.29, 11.617, 1050], [12.902, 13.559, 690], [14.115, 14.498, 1070], [15.746, 16.08, 920], [16.318, 16.848, 1230], [16.978, 17.366, 730], [17.834, 18.402, 1650], [19.212, 19.502, 810], [19.569, 19.848, 970], [19.974, 20.187, 1060], [20.257, 20.9, 1690], [21.062, 21.164, 2440], [21.543, 22.409, 590]]
+points = [
+  { km = 1.348, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.402, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.603, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 1.726, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.039, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.306, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.4, kind = "halt", label = "Friedrichshafen Ost", uic = "8029169", pos = [47.65141, 9.50209], measured = true },
+  { km = 2.4, kind = "stop", label = "Friedrichshafen Ost", pos = [47.6516, 9.50203], measured = true },
+  { km = 3.025, kind = "signal", label = "11", signal = "main", dir = 1 },
+  { km = 5.6, kind = "stop", label = "Eriskirch Gleis 2", uic = "8001838", pos = [47.62773, 9.52727], measured = true },
+  { km = 5.6, kind = "station", label = "Eriskirch", uic = "8029167", pos = [47.62823, 9.52685], measured = true },
+  { km = 5.988, kind = "signal", label = "1N2", signal = "main", dir = 1 },
+  { km = 7.441, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.779, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.065, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.661, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.707, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.061, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 9.299, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 9.434, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.501, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.503, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.588, kind = "signal", label = "P2", signal = "main", dir = -1 },
+  { km = 9.643, kind = "station", label = "Langenargen", pos = [47.59941, 9.54487], uic = "8029168" },
+  { km = 10.085, kind = "signal", label = "N2", signal = "main", dir = 1 },
+  { km = 10.344, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 10.565, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 11.558, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.818, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 12.018, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.169, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 12.43, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 12.948, kind = "signal", label = "2A", signal = "distant,main", dir = 1 },
+  { km = 13.055, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.172, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 13.551, kind = "signal", signal = "main", dir = -1 },
+  { km = 13.995, kind = "station", label = "Kressbronn", pos = [47.59416, 9.59893], uic = "8029170" },
+  { km = 14.136, kind = "signal", label = "2N1", signal = "main", dir = 1 },
+  { km = 14.335, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 14.543, kind = "signal", signal = "main", dir = -1 },
+  { km = 15.148, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 15.529, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.842, kind = "signal", label = "70 A", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 16, kind = "station", label = "Nonnenhorn", pos = [47.57528, 9.61246], measured = true },
+  { km = 16.313, kind = "signal", label = "70 P2", signal = "main", dir = -1 },
+  { km = 16.331, kind = "stop", label = "Nonnenhorn Gleis 2", pos = [47.5753, 9.61249] },
+  { km = 16.529, kind = "signal", signal = "distant", dir = 1 },
+  { km = 16.723, kind = "signal", label = "70 N2", signal = "main", dir = 1 },
+  { km = 17.114, kind = "signal", label = "70 F", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 17.351, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 17.81, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 18.1, kind = "halt", label = "Wasserburg (Bodensee)", uic = "8006218", pos = [47.57188, 9.63898], measured = true },
+  { km = 18.453, kind = "stop", label = "Wasserburg (Bodensee)", pos = [47.5719, 9.63891] },
+  { km = 19.534, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 20.649, kind = "station", label = "Enzisweiler", pos = [47.56413, 9.66531], uic = "8001806" },
+  { km = 20.717, kind = "signal", label = "69N2", signal = "main", dir = 1 },
+  { km = 21.186, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 21.514, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 21.634, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 21.689, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 21.798, kind = "signal", label = "66 B", signal = "combined,route_distant,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 21.995, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 22.208, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.209, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.241, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 22.3, kind = "halt", label = "Lindau-Aeschach", pos = [47.55944, 9.6847], measured = true },
+  { km = 22.3, kind = "stop", label = "Lindau-Aeschach", pos = [47.5595, 9.68468], measured = true },
+  { km = 22.308, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 22.372, kind = "signal", label = "66 ZR3", signal = "combined,route,speed_limit,speed_limit_distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.963, kmTo = 2.01, length = 42 },
+  { kind = "bridge", kmFrom = 6.438, kmTo = 6.492, length = 54 },
+  { kind = "bridge", kmFrom = 10.54, kmTo = 10.551, length = 15 },
+  { kind = "bridge", kmFrom = 11.007, kmTo = 11.097, length = 81 },
+  { kind = "bridge", kmFrom = 19.664, kmTo = 19.678, length = 14 },
+  { kind = "bridge", kmFrom = 22.373, kmTo = 22.39, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}pgaHmpbz@{Fa@", v = 60 },
+  { line = "yxgaHoqbz@aHpB", v = 80 },
+  { line = "{ahaH}mbz@eH~HsBzEgBlHcArK_Bzx@sB~TqDxRcHhTiFd[cLn[{Fni@sFj`@oAjO]~LlDrt@FlIqApNsFbX_IhRqLvQaFpFskApc@cIbG", v = 100 },
+  { line = "sjnaH_hry@kZrc@oFnL", v = 60 },
+  { line = "omoaH{upy@yB~Jq@rK", v = 100 },
+  { line = "{roaHg}oy@JjK`JviBPxMeQd}C", v = 120 },
+  { line = "ayoaHcyfy@aBjNqEzLwGlHsIzC", v = 100 },
+  { line = "avpaHqmey@weB~R_LnDgkAdfAibAb|AoFrGoJjFk]~G", v = 120 },
+  { line = "wjzaHwv~x@eGrCsG`IuDvKwAtL", v = 110 },
+  { line = "_d{aHsm}x@ApL`A|J", v = 100 },
+  { line = "_b{aHct|x@dCnJ", v = 80 },
+]
+posts = [[22, 47.56157, 9.68276], [21, 47.56342, 9.66999], [20, 47.56677, 9.65759], [19, 47.57044, 9.64583], [18, 47.57275, 9.63302], [17, 47.57226, 9.61991], [16, 47.57755, 9.60943], [15, 47.58596, 9.60492], [14, 47.5941, 9.59908], [13, 47.59871, 9.58879], [12, 47.59736, 9.57514], [11, 47.59737, 9.56238], [10, 47.59894, 9.54915], [9, 47.60193, 9.53717], [8, 47.61076, 9.53451], [7, 47.61999, 9.53272], [6, 47.62706, 9.52788], [5, 47.63528, 9.52004], [4, 47.64186, 9.51095], [3, 47.64909, 9.50276], [2, 47.65695, 9.49798]]
+
+[[connections]]
+km = 22.3
+station = "Lindau-Aeschach"
+lines = [
+  { id = "5362", ref = "5362", name = "5362 Buchloe - Lindau", km = 22.3 },
+]

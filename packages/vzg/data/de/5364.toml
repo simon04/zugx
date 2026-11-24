@@ -1,0 +1,57 @@
+id = "5364"
+ref = "5364"
+name = "Kaufering - Landsberg"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q801978"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.42
+kmTo = 4.832
+length = 5.268
+speeds = [[-0.42, 0.674, 60, 60], [0.674, 0.873, 80, ""], [0.873, 4.832, "", ""]]
+curves = [[0.424, 1.357, 460], [2.732, 3.107, 1820], [3.732, 4.082, 670], [4.157, 4.582, 520]]
+points = [
+  { km = -0.305, kind = "signal", label = "N4", signal = "main,minor,traversable", dir = -1 },
+  { km = 0.01, kind = "station", label = "Kaufering", uic = "8000195", pos = [48.0812, 10.85487] },
+  { km = 0.185, kind = "signal", label = "P4", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 0.452, kind = "signal", signal = "route", dir = 1 },
+  { km = 0.454, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.518, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.522, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.637, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.674, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.873, kind = "signal", label = "B", signal = "distant,main,traversable", dir = -1 },
+  { km = 1.571, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.065, kind = "station", label = "Landsberg (Lech) Schule", pos = [48.0536, 10.86948], uic = "8005389" },
+  { km = 4.781, kind = "station", label = "Landsberg (Lech)", pos = [48.04762, 10.8714], uic = "8003512" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.402, kmTo = 0.433, length = 31 },
+  { kind = "bridge", kmFrom = 0.881, kmTo = 0.898, length = 17 },
+  { kind = "bridge", kmFrom = 2.631, kmTo = 2.731, length = 100 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kfgdH{jjaAqMjLeH~BqEEiKoCuG]qj@xLmJr@czAeEsHbCaGxH" },
+  { line = "o}mdH}giaAcBfFeAlG", v = 80 },
+  { line = "ybndHgxhaAQdGZrFlOjgA", v = 60 },
+]
+posts = [[4, 48.0542, 10.86966], [3, 48.06303, 10.86746], [2, 48.07201, 10.86784], [1, 48.08084, 10.86723], [0, 48.08103, 10.85483]]
+
+[[connections]]
+km = 0.01
+station = "Kaufering"
+lines = [
+  { id = "5520", ref = "5520", name = "5520 München-Pasing - Buchloe", km = 56.218 },
+]
+
+[[connections]]
+km = 4.781
+station = "Landsberg"
+lines = [
+  { id = "5365", ref = "5365", name = "Landsberg - Schongau", km = 28.891 },
+]

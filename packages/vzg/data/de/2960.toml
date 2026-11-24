@@ -1,0 +1,137 @@
+id = "2960"
+ref = "2960"
+name = "2960 Paderborn Hbf - Brackwede"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q185604"
+from = "Paderborn Hbf"
+to = "Brackwede"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.386
+kmTo = 40.55
+length = 40.911
+speeds = [[-0.386, 30.358, "", ""], [30.358, 31.314, 50, 50], [31.314, 40.55, "", ""]]
+curves = [[-0.261, -0.161, 1120], [0.039, 0.114, 2880], [0.164, 0.239, 2080], [0.314, 0.708, 1010], [0.806, 1.207, 990], [1.407, 1.632, 660], [1.683, 2.612, 350], [2.986, 3.185, 1360], [3.761, 4.311, 1060], [5.313, 5.788, 990], [6.464, 7.04, 810], [8.566, 8.842, 1020], [10.018, 10.168, 1080], [17.526, 17.851, 1100], [21.733, 21.935, 1470], [22.978, 23.029, 2760], [24.457, 24.732, 1240], [30.084, 30.435, 630], [32.609, 32.834, 1150], [35.034, 35.209, 1280], [36.433, 36.608, 1460], [36.958, 37.283, 1240], [37.733, 38.083, 1120], [38.457, 38.857, 340], [38.907, 39.033, 1050], [39.46, 39.764, 1770], [39.939, 40.089, 1720], [40.364, 40.439, 1440]]
+points = [
+  { km = -0.285, kind = "signal", label = "R10", signal = "distant,main,minor", dir = -1 },
+  { km = -0.271, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.167, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.106, kind = "signal", label = "S33", signal = "main,minor", dir = 1 },
+  { km = -0.075, kind = "signal", label = "R30", signal = "main,minor", dir = -1 },
+  { km = -0.046, kind = "station", label = "Paderborn Hauptbahnhof", uic = "8000297", pos = [51.71286, 8.74044] },
+  { km = -0.015, kind = "stop", label = "Paderborn Hbf", uic = "8000297", pos = [51.71293, 8.74089] },
+  { km = 0.009, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.081, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.101, kind = "signal", label = "P30", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 0.127, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.13, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.347, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.398, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.549, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.696, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.891, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 0.893, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.444, kind = "stop", label = "Paderborn Kasseler Tor", pos = [51.71618, 8.76153], uic = "8004744" },
+  { km = 1.595, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.645, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.272, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.987, kind = "signal", signal = "main", dir = 1 },
+  { km = 3.612, kind = "station", label = "Paderborn Nord", pos = [51.72861, 8.75836], uic = "8004745" },
+  { km = 7.278, kind = "stop", label = "Paderborn-Schloß Neuhaus", pos = [51.74928, 8.72091], uic = "8005370" },
+  { km = 9.691, kind = "station", label = "Paderborn-Sennelager", pos = [51.77037, 8.71378], uic = "8005534" },
+  { km = 16.435, kind = "signal", label = "94 L202X", signal = "minor", dir = 1 },
+  { km = 16.617, kind = "signal", label = "94 P2", signal = "main,minor,traversable", dir = -1 },
+  { km = 16.663, kind = "station", label = "Hövelhof", pos = [51.82401, 8.66165], uic = "8002920" },
+  { km = 16.796, kind = "signal", label = "94 N2", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 21.349, kind = "signal", signal = "crossing_distant,crossing_hint,crossing_info", dir = -1 },
+  { km = 21.449, kind = "stop", label = "Hövelriege", pos = [51.86494, 8.64198], uic = "8002921" },
+  { km = 21.519, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 21.562, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 21.589, kind = "stop", label = "Hövelriege", pos = [51.86619, 8.64161] },
+  { km = 21.73, kind = "signal", signal = "crossing_distant,crossing_hint,crossing_info", dir = 1 },
+  { km = 26.233, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 26.505, kind = "signal", label = "95 P1", signal = "main,traversable", dir = -1 },
+  { km = 26.72, kind = "station", label = "Schloß Holte", pos = [51.90777, 8.61142], uic = "8005369" },
+  { km = 26.775, kind = "signal", label = "95 N1", signal = "main,traversable", dir = 1 },
+  { km = 27.082, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 27.37, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 27.394, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 27.569, kind = "signal", signal = "crossing_hint", dir = 1 },
+  { km = 27.668, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 27.981, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 28.006, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 28.202, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 28.344, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 28.453, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 28.995, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 29.149, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 30.089, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 30.104, kind = "signal", signal = "distant", dir = 1 },
+  { km = 30.184, kind = "signal", signal = "distant", dir = 1 },
+  { km = 30.255, kind = "signal", signal = "distant", dir = 1 },
+  { km = 30.358, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 30.775, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 31.557, kind = "station", label = "Bielefeld-Sennestadt", pos = [51.94065, 8.56733], uic = "8005535" },
+  { km = 31.817, kind = "signal", label = "96N1", signal = "main,traversable", dir = 1 },
+  { km = 34.406, kind = "stop", label = "Bielefeld-Windelsbleiche", pos = [51.95562, 8.53391], uic = "8006466" },
+  { km = 35.811, kind = "stop", label = "Bielefeld-Senne", pos = [51.96517, 8.52002], uic = "8000956" },
+  { km = 39.16, kind = "signal", label = "G", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 39.325, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 39.458, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 39.678, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 39.694, kind = "signal", signal = "minor", dir = 1 },
+  { km = 39.869, kind = "signal", label = "N3", signal = "main,minor,traversable", dir = -1 },
+  { km = 40.032, kind = "station", label = "Bielefeld-Brackwede", uic = "8000048", pos = [51.99727, 8.49848] },
+  { km = 40.139, kind = "signal", label = "S3", signal = "distant,main,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 40.22, kind = "signal", signal = "minor", dir = -1 },
+  { km = 40.368, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.282, kmTo = 2.306, length = 24 },
+  { kind = "bridge", kmFrom = 6.781, kmTo = 6.798, length = 17 },
+  { kind = "bridge", kmFrom = 9.125, kmTo = 9.142, length = 16 },
+  { kind = "bridge", kmFrom = 15.792, kmTo = 15.803, length = 11 },
+  { kind = "bridge", kmFrom = 21.249, kmTo = 21.261, length = 12 },
+  { kind = "bridge", kmFrom = 23.644, kmTo = 23.656, length = 12 },
+  { kind = "bridge", kmFrom = 26.213, kmTo = 26.233, length = 20 },
+  { kind = "bridge", kmFrom = 26.322, kmTo = 26.336, length = 14 },
+  { kind = "bridge", kmFrom = 35.168, kmTo = 35.179, length = 10 },
+  { kind = "bridge", kmFrom = 38.136, kmTo = 38.203, length = 67 },
+  { kind = "bridge", kmFrom = 38.599, kmTo = 38.639, length = 40 },
+  { kind = "bridge", kmFrom = 38.887, kmTo = 38.916, length = 29 },
+  { kind = "bridge", kmFrom = 39.461, kmTo = 39.483, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "y}rzH{eit@cBuOaHg`@{CuTa@sIC}[]wJw@{IgFg]@wTm@uHgCcI_FkF{EaAgGxA_DjDgUze@c]te@cFvJeF~PsUr|AuDrPcEhKk_@jp@kGrHsFhD_HbBw|AdMkGdCaaAri@mpExjEsoAhsA_bAh_AmFnD{~EpqAm`A~g@cqAbj@ugGdhGqDbFaCzF" },
+  { line = "us~{Hshks@uXnkA", v = 50 },
+  { line = "km_|Hc|hs@oe@~pBi{@~nBiVxg@eGfKsz@ddAyXre@gf@xb@mY`i@oDfCkDX}HwBwf@{EmTgJcQ_MqD{D" },
+]
+posts = [[0, 51.71298, 8.74109], [1, 51.71485, 8.75517], [2, 51.71726, 8.76878], [3, 51.72441, 8.76385], [4, 51.7312, 8.75437], [5, 51.73481, 8.74115], [6, 51.7396, 8.7292], [7, 51.74686, 8.7212], [8, 51.75581, 8.71991], [9, 51.76459, 8.7174], [10, 51.77294, 8.71204], [11, 51.78068, 8.7047], [12, 51.78835, 8.69715], [13, 51.79606, 8.68969], [14, 51.80378, 8.68226], [15, 51.81139, 8.67457], [16, 51.81893, 8.66667], [17, 51.82664, 8.65919], [18, 51.83472, 8.65309], [19, 51.84349, 8.64989], [20, 51.85226, 8.64669], [21, 51.86102, 8.6435], [22, 51.86967, 8.63996], [23, 51.87809, 8.6346], [24, 51.88662, 8.63015], [25, 51.89483, 8.62438], [26, 51.9024, 8.61677], [27, 51.90997, 8.60916], [28, 51.91775, 8.60133], [29, 51.92539, 8.59365], [30, 51.93302, 8.58597], [31, 51.93824, 8.57446], [32, 51.94251, 8.56161], [33, 51.94726, 8.5493], [34, 51.95319, 8.53832], [35, 51.95925, 8.52753], [36, 51.96644, 8.5188], [37, 51.97336, 8.50951], [38, 51.98101, 8.50194], [39, 51.98834, 8.49594], [40, 51.99711, 8.49834]]
+
+[[connections]]
+km = -0.046
+station = "Paderborn Hauptbahnhof"
+lines = [
+  { id = "1760", ref = "1760", name = "1760 Hannover - Soest", km = 128.245 },
+]
+
+[[connections]]
+km = 1.444
+station = "Paderborn Kasseler Tor"
+lines = [
+  { id = "1760", ref = "1760", name = "1760 Hannover - Soest", km = 126.788 },
+]
+
+[[connections]]
+km = 40.032
+station = "Bielefeld-Brackwede"
+lines = [
+  { id = "1700", ref = "1700", name = "1700 Hannover - Hamm", km = 113.777 },
+  { id = "2950", ref = "2950", name = "2950 Brackwede - Osnabrück", km = -0.037 },
+  { id = "2990", ref = "2990", name = "2990 Minden - Hamm", km = 113.778 },
+]

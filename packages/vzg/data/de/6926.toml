@@ -1,0 +1,76 @@
+id = "6926"
+ref = "6926"
+name = "6926 Priemerburg - Abzw Plaaz"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q803049"
+from = "Priemerburg"
+to = "Plaaz"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -1.456
+kmTo = 9.111
+length = 10.575
+speeds = [[-1.456, 9.111, 60, 60]]
+curves = [[0.094, 0.344, 580], [0.394, 0.744, 550], [0.869, 1.369, 1060], [2.719, 3.194, 840], [3.569, 3.644, 2350], [3.944, 4.344, 610], [6.162, 6.387, 1060], [7.612, 7.887, 1060], [8.937, 8.987, 1320]]
+points = [
+  { km = -1.376, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = -1.342, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = -1.332, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = -1.275, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -1.166, kind = "signal", label = "63 P4", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = -0.353, kind = "signal", label = "63 ZR4", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = -0.063, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = -0.052, kind = "signal", label = "63 ZS4", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = -0.034, kind = "station", label = "Priemerburg", pos = [53.79593, 12.22287], uic = "8010284" },
+  { km = 0.081, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.119, kind = "signal", label = "63 N4", signal = "main,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 0.2, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.496, kind = "signal", label = "63 H", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.676, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.901, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.171, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.773, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.137, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.752, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.302, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.914, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.495, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.982, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 5.076, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.181, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 5.182, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 5.389, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.44, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 5.442, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 5.644, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 5.996, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 7.27, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.669, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.71, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.213, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.298, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 8.736, kind = "signal", label = "5", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 8.967, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.738, kmTo = 0.775, length = 37 },
+  { kind = "bridge", kmFrom = 0.81, kmTo = 0.83, length = 20 },
+  { kind = "bridge", kmFrom = 2.778, kmTo = 2.798, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}ajgIg~miArBivCr@cKbEcRx@kLs@gc@wAsNeBmJai@irBaC}GuIwM}VyTgOcPiDsEiCiGwBaLoc@_iDoBeJwh@ifB{HiOgn@{~@{D{D", v = 60 },
+]
+posts = [[-1, 53.79613, 12.20777], [0, 53.79583, 12.22299], [1, 53.79443, 12.23764], [2, 53.79858, 12.25103], [3, 53.80363, 12.26355], [4, 53.81137, 12.27129], [5, 53.81512, 12.28489], [6, 53.81821, 12.29932], [7, 53.82274, 12.3124], [8, 53.82833, 12.32421], [9, 53.83537, 12.3337]]
+
+[[connections]]
+km = -0.034
+station = "Priemerburg"
+lines = [
+  { id = "1122", ref = "1122", name = "1122 Lübeck - Strasburg (Uckerm)", km = 116.672 },
+  { id = "6939", ref = "6939", name = "6939 Meyenburg - Güstrow", km = 111.526 },
+]

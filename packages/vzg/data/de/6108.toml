@@ -1,0 +1,50 @@
+id = "6108"
+ref = "6108"
+name = "6108 Wustermark Rbf - Wustermark"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131705012"
+from = "Wustermark Rbf"
+to = "Wustermark"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.858
+length = 2.858
+speeds = [[0, 0.152, 40, 40], [0.152, 2.783, 80, 80], [2.783, 2.858, 60, 60]]
+curves = [[0.1, 0.15, 1220], [1.3, 1.35, 2370], [1.45, 1.7, 2050], [1.825, 2.15, 2030], [2.425, 2.525, 1910]]
+points = [
+  { km = 0.163, kind = "halt", label = "Elstal", uic = "8003523", pos = [52.54752, 13.00054] },
+  { km = 0.165, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.553, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.57, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.788, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 1.311, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.791, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.821, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 2.506, kind = "signal", label = "4D", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 2.783, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.848, kmTo = 1.865, length = 17 },
+  { kind = "bridge", kmFrom = 2.24, kmTo = 2.257, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sbv_IasjnAK`M", v = 40 },
+  { line = "_cv_I_ejnAcHn_Cu@zi@sGhdA", v = 80 },
+  { line = "mvv_IitbnAOxE", v = 60 },
+]
+posts = [[0, 52.54714, 13.00289], [1, 52.54803, 12.98818], [2, 52.54891, 12.97347]]
+
+[[connections]]
+km = 0.163
+station = "Elstal"
+lines = [
+  { id = "6068", ref = "6068", name = "6068 Golm - Priort", km = 78.454 },
+  { id = "6107", ref = "6107", name = "6107 Berlin Hbf (tief) - Lehrte", km = 26.26 },
+  { id = "6185", ref = "6185", name = "6185 Spandau - Oebisfelde", km = 126.275 },
+]

@@ -1,0 +1,60 @@
+id = "6956"
+ref = "6956"
+name = "6956 Rheinsberg (Mark) - Stechlinsee"
+operator = "EWN GmbH"
+gauge = "1435"
+wikidata = "Q107428228"
+from = "Rheinsberg (Mark)"
+to = "Stechlinsee"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 10.205
+length = 10.205
+speeds = [[0, 9.718, 40, 40], [9.718, 10.205, 10, 10]]
+curves = [[0.1, 0.75, 300], [3.4, 3.6, 2100], [5.125, 5.75, 1000], [7.7, 7.875, 1600], [8.5, 8.975, 1040], [9.675, 10.1, 510]]
+points = [
+  { km = 0.132, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.133, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.191, kind = "signal", label = "B", signal = "main", dir = -1 },
+  { km = 0.279, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.625, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.392, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.702, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.541, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.853, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.757, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.062, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.235, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.515, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.245, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.511, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.135, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.412, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 7.117, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.411, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 7.839, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.129, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.283, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.572, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 9.271, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.287, kind = "signal", signal = "distant", dir = 1 },
+  { km = 9.61, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 9.645, kind = "signal", signal = "main", dir = 1 },
+  { km = 9.688, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.688, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.883, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 9.989, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 10.088, kind = "station", label = "Stechlinsee", pos = [53.1493, 12.9853] },
+  { km = 10.132, kind = "signal", signal = "stop", dir = 1 },
+  { km = 10.205, kind = "signal", signal = "minor" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wn_cIalxmA~CoK^eGK_Fm@wEsAkEkCuDkCuAe`DiV_wAy]kGsCeHiGwHwL}jA_kCcXw}@kCwMwA_OeD}kA", v = 40 },
+  { line = "y{kcIodfnAFaJdAgKhByGvC_G", v = 10 },
+]
+posts = [[0, 53.08668, 12.90961], [1, 53.0908, 12.91794], [2, 53.09976, 12.91918], [3, 53.10872, 12.92043], [4, 53.11761, 12.92258], [5, 53.12641, 12.92567], [6, 53.13377, 12.93354], [7, 53.1398, 12.94466], [8, 53.1456, 12.95609], [9, 53.14952, 12.96938], [10, 53.14971, 12.98418]]

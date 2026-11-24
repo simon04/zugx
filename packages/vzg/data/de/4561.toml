@@ -1,0 +1,33 @@
+id = "4561"
+ref = "4561"
+name = "4561 Roßberg - Bad Wurzach"
+operator = "DB Netz AG;Stadt Bad Wurzach"
+gauge = "1435"
+wikidata = "Q2171322"
+from = "Roßberg"
+to = "Bad Wurzach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 11.479
+length = 11.479
+speeds = [[0, 1.733, "", ""], [1.733, 6.418, 50, 50], [6.418, 6.639, 20, 20], [6.639, 7.614, 50, 50], [7.614, 7.62, 20, 20], [7.62, 8.641, 50, 50], [8.641, 8.842, 20, 20], [8.842, 11.479, "", ""]]
+curves = [[0.425, 0.65, 1280], [2, 2.075, 2540], [3.475, 3.8, 620], [4.6, 5.675, 2000], [7.675, 8.4, 1000], [8.85, 9.75, 320], [9.825, 10.15, 370], [10.2, 10.425, 530], [10.475, 10.925, 610], [11.175, 11.225, 2040]]
+points = [
+  { km = 0.014, kind = "station", label = "Bad Wurzach", pos = [47.91025, 9.8898] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "knlcH{qj{@`Irb@vBhIvc@plA" },
+  { line = "y{jcHkvf{@vJnXxi@djB|@rM`@rkAp@|PtArOxCrRxDbPxXny@", v = 50 },
+  { line = "qygcHst{z@zElN", v = 20 },
+  { line = "urgcHee{z@h]`cA", v = 50 },
+  { line = "ktfcHcayz@DH", v = 20 },
+  { line = "etfcHy`yz@nEbPtBdRTpPsA~Z", v = 50 },
+  { line = "}kfcH}nvz@u@rO", v = 20 },
+  { line = "smfcHi~uz@O~IxAnGxFnGlBd@vBQfCiBbD{FhFsTvCkE~MkBhC^lIvDzEInH{Dz[wZ" },
+]
+posts = [[0, 47.9103, 9.88974], [1, 47.90603, 9.878], [2, 47.90083, 9.86706], [3, 47.89617, 9.85558], [4, 47.89313, 9.84332], [5, 47.89256, 9.82997], [6, 47.88857, 9.81805], [7, 47.88359, 9.80688], [8, 47.87905, 9.79538], [9, 47.87948, 9.78211], [10, 47.87337, 9.78581], [11, 47.86489, 9.78734]]

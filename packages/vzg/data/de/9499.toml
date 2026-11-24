@@ -1,0 +1,226 @@
+id = "9499"
+ref = "9499"
+operator = "Albtal-Verkehrs-Gesellschaft mbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.118
+kmTo = 2.997
+length = 10.482
+speeds = [[-0.118, 0.6, 80, 80], [0.6, 0.639, 40, 40], [0.639, 0.819, 80, 80], [0.819, 0.875, 70, 70], [0.875, 0.904, 40, 40], [0.904, 1.088, 70, 70], [1.088, 1.113, 30, 30], [1.113, 1.131, 40, 40], [1.131, 1.463, 70, 70], [1.463, 1.496, 40, 40], [1.496, 1.509, 20, 20], [1.509, 1.579, 60, 60], [1.579, 1.612, 40, 40], [1.612, 1.708, "", ""], [1.708, 1.873, 60, 60], [1.873, 1.887, 20, 20], [1.887, 1.902, 60, 60], [1.902, 1.924, 20, 60], [1.924, 2.086, 60, 60], [2.086, 2.148, 50, 50], [2.148, 2.195, 15, 15], [2.195, 2.214, 50, 50], [2.214, 2.257, 30, 30], [2.257, 2.29, 50, 50], [2.29, 2.442, 20, 20], [2.442, 2.516, 60, 20], [2.516, 2.997, 60, 60]]
+curves = [[-0.01, 0.596, 950], [0.647, 0.782, 1180], [0.796, 0.829, 1260], [0.838, 0.912, 540], [0.922, 1.01, 1540], [1.029, 1.047, 2090], [1.066, 1.126, 980], [1.485, 1.494, 2560], [1.55, 1.559, 2420], [1.573, 1.587, 2230], [1.676, 1.727, 1760], [1.862, 1.899, 120], [1.908, 1.922, 2430], [2.053, 2.09, 700], [2.127, 2.372, 520], [2.422, 2.822, 490]]
+points = [
+  { km = -0.118, kind = "station", label = "Grötzingen Oberausstraße", pos = [49.00522, 8.50368] },
+  { km = 0, kind = "signal", signal = "main,request", dir = 1, measured = true },
+  { km = 0.4, kind = "signal", label = "N226", signal = "main,minor,route,speed_limit,train_protection", dir = 1, measured = true },
+  { km = 0.6, kind = "signal", label = "N2", signal = "distant,main,minor,route,train_protection,workrules", dir = -1 },
+  { km = 0.602, kind = "station", label = "Grötzingen", pos = [49.00613, 8.49279] },
+  { km = 0.604, kind = "stop", label = "Grötzingen Bahnhof", pos = [49.00613, 8.49262] },
+  { km = 0.628, kind = "signal", signal = "train_protection", dir = -1 },
+  { km = 0.639, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.672, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.72, kind = "signal", signal = "catenary_mast,speed_limit_distant", dir = -1 },
+  { km = 0.759, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 0.768, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 0.768, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 0.8, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 0.8, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 0.819, kind = "signal", label = "C", signal = "main,route,train_protection", dir = -1 },
+  { km = 0.875, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+  { km = 0.882, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.887, kind = "stop", label = "Hubstraße", uic = "724001", pos = [49.00727, 8.47267] },
+  { km = 0.889, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.904, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+  { km = 0.909, kind = "signal", signal = "main,request", dir = -1 },
+  { km = 0.928, kind = "signal", signal = "catenary_mast,speed_limit_distant", dir = -1 },
+  { km = 0.937, kind = "signal", signal = "catenary_mast,distant", dir = -1 },
+  { km = 0.99, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.993, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.997, kind = "signal", label = "D4", signal = "main,switch", dir = -1 },
+  { km = 1.022, kind = "signal", label = "D4", signal = "main,switch", dir = -1 },
+  { km = 1.037, kind = "signal", label = "D4", signal = "main,request,switch", dir = -1 },
+  { km = 1.046, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.052, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.065, kind = "station", label = "Karlsruhe-Durlach", uic = "8014043", ele = 116, pos = [49.0021, 8.46225] },
+  { km = 1.088, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+  { km = 1.096, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.131, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.152, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.165, kind = "stop", label = "Untermühlstraße", uic = "721456", pos = [49.00206, 8.45509] },
+  { km = 1.166, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.167, kind = "stop", label = "Untermühlstraße", uic = "721456", pos = [49.00208, 8.45495] },
+  { km = 1.169, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.171, kind = "signal", signal = "departure,main,request", dir = 1 },
+  { km = 1.315, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.34, kind = "signal", signal = "main,request", dir = 1 },
+  { km = 1.361, kind = "stop", label = "Weinweg", uic = "721461", pos = [49.00449, 8.44114] },
+  { km = 1.365, kind = "stop", label = "Weinweg", uic = "721461", pos = [49.00454, 8.44088] },
+  { km = 1.463, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 1.463, kind = "signal", signal = "electricity" },
+  { km = 1.467, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.482, kind = "signal", signal = "catenary_mast,stop,switch", dir = 1 },
+  { km = 1.482, kind = "stop", label = "Tullastraße/Alter Schlachthof", uic = "723632", pos = [49.0061, 8.43263] },
+  { km = 1.483, kind = "signal", label = "24", signal = "catenary_mast,departure,request,speed_limit_distant,switch", dir = 1 },
+  { km = 1.494, kind = "signal", signal = "catenary_mast,stop,switch", dir = 1 },
+  { km = 1.495, kind = "stop", label = "Tullastraße/Alter Schlachthof", uic = "723632", pos = [49.00628, 8.43171] },
+  { km = 1.496, kind = "signal", label = "24", signal = "catenary_mast,departure,main,request,speed_limit,switch", dir = 1 },
+  { km = 1.509, kind = "signal", signal = "electricity" },
+  { km = 1.509, kind = "signal", label = "21", signal = "main,speed_limit,switch", dir = -1 },
+  { km = 1.527, kind = "signal", signal = "catenary_mast,distant,speed_limit_distant", dir = -1 },
+  { km = 1.559, kind = "signal", label = "21", signal = "switch", dir = -1 },
+  { km = 1.579, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+  { km = 1.581, kind = "signal", signal = "catenary_mast,stop", dir = -1 },
+  { km = 1.582, kind = "stop", label = "Gottesauer Platz/BGV", uic = "723616", pos = [49.00736, 8.42547] },
+  { km = 1.585, kind = "signal", signal = "catenary_mast,stop", dir = -1 },
+  { km = 1.586, kind = "stop", label = "Gottesauer Platz/BGV", uic = "723616", pos = [49.00741, 8.42522] },
+  { km = 1.607, kind = "signal", signal = "catenary_mast,main,request", dir = -1 },
+  { km = 1.612, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+  { km = 1.615, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.625, kind = "signal", signal = "catenary_mast,distant,main,train_protection,traversable", dir = -1 },
+  { km = 1.627, kind = "signal", signal = "catenary_mast,speed_limit_distant", dir = -1 },
+  { km = 1.645, kind = "signal", signal = "catenary_mast,distant", dir = -1 },
+  { km = 1.647, kind = "signal", label = "143", signal = "catenary_mast,combined,traversable", dir = -1 },
+  { km = 1.691, kind = "stop", label = "Durlacher Tor/KIT-Campus Süd (U)", pos = [49.00882, 8.41778] },
+  { km = 1.695, kind = "stop", label = "Durlacher Tor/KIT-Campus Süd (U)", pos = [49.00886, 8.41752] },
+  { km = 1.709, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.76, kind = "signal", signal = "combined,speed_limit", dir = -1 },
+  { km = 1.78, kind = "signal", label = "131", signal = "combined,traversable", dir = -1 },
+  { km = 1.783, kind = "stop", label = "Kronenplatz (U)", pos = [49.00928, 8.41102] },
+  { km = 1.786, kind = "stop", label = "Kronenplatz (U)", pos = [49.00928, 8.41085] },
+  { km = 1.857, kind = "signal", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 1.887, kind = "stop", label = "Marktplatz (Pyramide U)", pos = [49.00916, 8.40377] },
+  { km = 1.887, kind = "signal", label = "200", signal = "combined,request", dir = -1 },
+  { km = 1.889, kind = "signal", signal = "states,stop,switch" },
+  { km = 1.889, kind = "signal", signal = "states,stop,switch" },
+  { km = 1.891, kind = "stop", label = "Marktplatz (Pyramide U)", pos = [49.009, 8.40377] },
+  { km = 1.902, kind = "signal", label = "204", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 1.955, kind = "stop", label = "Ettlinger Tor (U)", pos = [49.0059, 8.40359] },
+  { km = 1.958, kind = "stop", label = "Ettlinger Tor (U)", pos = [49.00576, 8.40358] },
+  { km = 2.014, kind = "stop", label = "Kongresszentrum (U)", pos = [49.00305, 8.40324] },
+  { km = 2.018, kind = "stop", label = "Kongresszentrum (U)", pos = [49.00285, 8.40322] },
+  { km = 2.085, kind = "signal", label = "226", signal = "combined,speed_limit,speed_limit_distant,train_protection,traversable", dir = -1 },
+  { km = 2.085, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.095, kind = "signal", signal = "departure,main,request", dir = -1 },
+  { km = 2.098, kind = "stop", label = "Augartenstraße", pos = [48.99906, 8.40353] },
+  { km = 2.1, kind = "stop", label = "Augartenstraße", pos = [48.99895, 8.40357] },
+  { km = 2.122, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.132, kind = "signal", signal = "main,request", dir = -1 },
+  { km = 2.148, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.178, kind = "signal", signal = "main", dir = 1 },
+  { km = 2.2, kind = "stop", label = "Poststraße", pos = [48.99503, 8.40301] },
+  { km = 2.202, kind = "signal", label = "351", signal = "catenary_mast,speed_limit,speed_limit_distant,switch", dir = 1 },
+  { km = 2.202, kind = "signal", signal = "catenary_mast,switch", dir = 1 },
+  { km = 2.209, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 2.216, kind = "signal", label = "351", signal = "catenary_mast,main,request,switch", dir = 1 },
+  { km = 2.219, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 2.219, kind = "station", label = "Karlsruhe Hauptbahnhof", uic = "8014228", pos = [48.99362, 8.40205] },
+  { km = 2.22, kind = "signal", signal = "catenary_mast,switch", dir = 1 },
+  { km = 2.233, kind = "signal", label = "355", signal = "switch", dir = 1 },
+  { km = 2.255, kind = "stop", label = "Bahnhofsvorplatz", pos = [48.99431, 8.39916] },
+  { km = 2.256, kind = "signal", signal = "stop,switch", dir = 1 },
+  { km = 2.257, kind = "signal", signal = "departure,main,request,speed_limit", dir = 1 },
+  { km = 2.272, kind = "signal", signal = "catenary_mast,distant", dir = 1 },
+  { km = 2.286, kind = "signal", signal = "main,request,switch", dir = 1 },
+  { km = 2.33, kind = "signal", signal = "stop", dir = -1 },
+  { km = 2.353, kind = "station", label = "Albtalbahnhof", pos = [48.99366, 8.39609] },
+  { km = 2.367, kind = "signal", label = "1", signal = "stop", dir = 1 },
+  { km = 2.368, kind = "signal", label = "1L01X", signal = "main,route", dir = 1 },
+  { km = 2.399, kind = "signal", label = "1LW07X", signal = "main,route", dir = 1 },
+  { km = 2.4, kind = "signal", label = "2", signal = "stop", dir = 1 },
+  { km = 2.436, kind = "signal", signal = "main_repeated,radio,request,stop", dir = 1 },
+  { km = 2.437, kind = "signal", label = "1L11Y", signal = "main,route", dir = -1 },
+  { km = 2.517, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.614, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.719, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.834, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.934, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.64, kmTo = 0.644, length = 21 },
+  { kind = "bridge", kmFrom = 0.879, kmTo = 0.897, length = 96 },
+  { kind = "bridge", kmFrom = 0.984, kmTo = 0.988, length = 20 },
+  { kind = "bridge", kmFrom = 1.226, kmTo = 1.237, length = 61 },
+  { kind = "bridge", kmFrom = 1.301, kmTo = 1.307, length = 37 },
+  { kind = "tunnel", kmFrom = 1.408, kmTo = 1.419, length = 62 },
+  { kind = "tunnel", kmFrom = 1.653, kmTo = 1.708, length = 299 },
+  { kind = "tunnel", kmFrom = 1.708, kmTo = 1.873, length = 888, name = "Gerlinde-Tunnel" },
+  { kind = "tunnel", kmFrom = 1.873, kmTo = 1.902, length = 152 },
+  { kind = "tunnel", kmFrom = 1.902, kmTo = 1.953, length = 273, name = "Sabine-Tunnel" },
+  { kind = "tunnel", kmFrom = 1.953, kmTo = 2.053, length = 538 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wg_jHower@}JiYuBkCcDuA", v = 60 },
+  { line = "o|_jH{xfr@wGiA]wA", v = 20 },
+  { line = "ef`jH}}fr@\\_N", v = 50 },
+  { line = "ge`jH}lgr@cB{Q", v = 30 },
+  { line = "kh`jHy_hr@aA_G", v = 50 },
+  { line = "mj`jHyghr@q@sDsAg@QaAe@dA}BB", v = 15 },
+  { line = "it`jHmnhr@iQzE", v = 50 },
+  { line = "sfajHqghr@uHl@", v = 60 },
+  { line = "ipajHcfhr@aq@mC", tunnel = true, v = 60 },
+  { line = "kbcjHqjhr@y@_@O}A", tunnel = true, v = 20 },
+  { line = "udcjHonhr@pB{jA", tunnel = true, v = 60 },
+  { line = "cacjHkzjr@`CyW", tunnel = true },
+  { line = "a}bjHeskr@jByP" },
+  { line = "uybjH_elr@|AqM", v = 40 },
+  { line = "wvbjHqslr@nDc^", v = 60 },
+  { line = "gqbjHurmr@\\aE", v = 20 },
+  { line = "ipbjHwxmr@vAiM", v = 40 },
+  { line = "qmbjHagnr@tBmR", v = 70 },
+  { line = "{ibjHoznr@\\aD", tunnel = true, v = 70 },
+  { line = "}hbjHq_or@pHsq@`KogA", v = 70 },
+  { line = "isajHuzrr@h@yF", v = 40 },
+  { line = "_rajHobsr@qAyI", v = 30 },
+  { line = "qtajHimsr@qPwn@eEiKiFmH", v = 70 },
+  { line = "ssbjHyrur@oAeD]gE", v = 40 },
+  { line = "awbjHg~ur@O_JwAcM", v = 70 },
+  { line = "izbjHkwvr@kAcVHsRrBuTrCaO", v = 80 },
+  { line = "ctbjH{gyr@nDuN", v = 40 },
+  { line = "snbjHqwyr@`CsLnAsMP_L_@}K", v = 80 },
+]
+posts = [[2, 49.00373, 8.40332], [1, 49.00388, 8.46622], [0, 49.0049, 8.49996]]
+
+[[connections]]
+km = -0.118
+station = "Grötzingen Oberausstraße"
+lines = [
+  { id = "4200", ref = "4200", name = "4200 Karlsruhe - Mühlacker", km = 3.382 },
+  { id = "4201", ref = "4201", name = "Kraichgaubahn", km = 0.838 },
+]
+
+[[connections]]
+km = 0.602
+station = "Grötzingen"
+lines = [
+  { id = "4201", ref = "4201", name = "Kraichgaubahn", km = 0 },
+]
+
+[[connections]]
+km = 1.065
+station = "Karlsruhe-Durlach"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 68.216 },
+]
+
+[[connections]]
+km = 2.219
+station = "Karlsruhe Hauptbahnhof"
+lines = [
+  { id = "3443", ref = "3443", name = "3443 Winden (Pfalz) - Karlsruhe Hbf", km = 26.785 },
+  { id = "4020", ref = "4020", name = "4020 Mannheim Hbf - Rastatt", km = 60.729 },
+]
+
+[[connections]]
+km = 2.353
+station = "Albtalbahnhof"
+lines = [
+  { id = "3443", ref = "3443", name = "3443 Winden (Pfalz) - Karlsruhe Hbf", km = 26.65 },
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 73.201 },
+  { id = "4020", ref = "4020", name = "4020 Mannheim Hbf - Rastatt", km = 61.313 },
+  { id = "4200", ref = "4200", name = "4200 Karlsruhe - Mühlacker", km = -4.603 },
+  { id = "9420", ref = "9420", name = "9420 Albtalbahn", km = 0.55 },
+]

@@ -1,0 +1,24 @@
+id = "9209"
+ref = "9209"
+name = "Ochtrup-Brechte - Achterberg"
+operator = "BE Netz GmbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.647
+length = 5.647
+speeds = [[0, 5.647, 40, 40]]
+curves = [[0.1, 0.25, 410], [0.3, 0.65, 460], [1.05, 1.6, 510], [1.65, 1.825, 690], [2.5, 2.75, 340], [3.725, 3.85, 1130], [3.9, 4.1, 520], [5.1, 5.275, 590], [5.35, 5.525, 280]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.974, kmTo = 1.005, length = 30 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yx~}H_|qj@IdFuA~I}@~TsB|G_\\dVeDvKeCtRqFjMkd@pb@_DxEs@nEeJvuAi@zIE|Kk@`H}Xr`BoIlPsC`AgDu@", v = 40 },
+]
+posts = [[0, 52.26397, 7.14192], [1, 52.26882, 7.13131], [2, 52.27466, 7.12097], [3, 52.28027, 7.11087], [4, 52.28188, 7.09644], [5, 52.28542, 7.08293]]

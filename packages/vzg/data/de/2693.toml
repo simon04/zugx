@@ -1,0 +1,39 @@
+id = "2693"
+ref = "2693"
+name = "2693 Porz-Wahn Nord - Porz-Wahn"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Porz-Wahn Nord"
+to = "Porz-Wahn"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.914
+length = 0.914
+speeds = [[0, 0.914, 80, 80]]
+curves = [[0.1, 0.15, 2370], [0.275, 0.8, 1160]]
+points = [
+  { km = 0.095, kind = "signal", label = "78 N1", signal = "combined,traversable", dir = -1 },
+  { km = 0.151, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.212, kind = "station", label = "Porz-Wahn", pos = [50.85816, 7.07923], uic = "8004873" },
+  { km = 0.272, kind = "signal", signal = "combined,route,speed_limit,traversable", dir = 1 },
+  { km = 0.73, kind = "signal", signal = "combined,speed_limit,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "s|kuHezej@mQbI{Ej@sIcC}KiG", v = 80 },
+]
+posts = [[0, 50.85658, 7.08019]]
+
+[[connections]]
+km = 0.212
+station = "Porz-Wahn"
+lines = [
+  { id = "2324", ref = "2324", name = "2324 Mülheim (Ruhr)-Speldorf - Niederlahnstein", km = 73.882 },
+  { id = "2651", ref = "2651", name = "2651 Köln Messe/Deutz - Gießen", km = 12.404 },
+  { id = "2690", ref = "2690", name = "2690 Köln - Frankfurt am Main", km = 14.419 },
+  { id = "2691", ref = "2691", name = "2691 Abzweig Flughafen Nordwest - Porz-Wahn Süd", km = 19.524 },
+]

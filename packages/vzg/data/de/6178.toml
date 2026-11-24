@@ -1,0 +1,42 @@
+id = "6178"
+ref = "6178"
+name = "6178 Berlin-Grunewald Stw Gdr - Berlin-Halensee Südkopf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131723556"
+from = "Berlin-Grunewald Stw Gdr"
+to = "Berlin-Halensee Südkopf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.227
+kmTo = 2.322
+length = 1.083
+speeds = [[1.227, 2.322, 60, 60]]
+curves = [[1.335, 1.435, 1300], [1.485, 2.068, 330]]
+points = [
+  { km = 1.321, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.499, kind = "signal", label = "F", signal = "combined,traversable", dir = -1 },
+  { km = 1.64, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.793, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.902, kind = "signal", label = "H", signal = "main,route", dir = 1 },
+  { km = 2.211, kind = "station", label = "Halensee", uic = "8007806", pos = [52.49602, 13.29056] },
+  { km = 2.256, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.53, kmTo = 1.609, length = 79 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "o}k_I_~bpAkMhTuA`Fm@|GFhGr@lFvK~Y", v = 60 },
+]
+posts = [[2, 52.49725, 13.28827]]
+
+[[connections]]
+km = 2.211
+station = "Halensee"
+lines = [
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 29.663 },
+]

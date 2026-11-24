@@ -1,0 +1,108 @@
+id = "6618"
+ref = "6618"
+name = "6618: Pockau-Lengefeld - Neuhausen (Erzgeb)"
+operator = "DB RegioNetz Infrastruktur GmbH;Erzgebirgsbahn;Haustein Eisenbahngesellschaft mbH"
+gauge = "1435"
+wikidata = "Q14551617"
+from = "Pockau-Lengefeld"
+to = "Neuhausen (Erzgeb)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.277
+kmTo = 12.963
+length = 12.679
+speeds = [[0.277, 0.662, 10, 60], [0.662, 0.853, 60, 60], [0.853, 2.857, 70, 70], [2.857, 2.929, 10, 10], [2.929, 6.296, 70, 70], [6.296, 6.721, 60, 60], [6.721, 6.9, 40, 40], [6.9, 10.461, 60, 60], [10.461, 11.103, 40, 40], [11.103, 11.75, 50, 50], [11.75, 12.002, 30, 30], [12.002, 12.85, 50, 50], [12.85, 12.963, "", ""]]
+curves = [[0.577, 0.803, 810], [0.878, 1.053, 550], [1.103, 1.429, 380], [1.504, 1.732, 570], [1.782, 2.152, 430], [2.721, 3.932, 340], [3.982, 4.684, 310], [4.734, 5.259, 300], [5.309, 5.71, 490], [5.91, 6.285, 790], [6.36, 6.561, 810], [6.636, 6.786, 1300], [7.111, 7.284, 1070], [7.703, 7.827, 1580], [7.902, 8.303, 1000], [9.105, 9.406, 730], [9.782, 10.183, 460], [11.386, 11.561, 770], [11.661, 11.786, 1230], [11.836, 12.088, 460], [12.414, 12.609, 840]]
+points = [
+  { km = 0.277, kind = "station", label = "Pockau-Lengefeld", uic = "8010277", pos = [50.70712, 13.22647] },
+  { km = 0.811, kind = "signal", signal = "main", dir = -1 },
+  { km = 2.825, kind = "stop", label = "Nennigmühle", pos = [50.69115, 13.25292], measured = true, uic = "8012426" },
+  { km = 6.856, kind = "stop", label = "Blumenau", pos = [50.67128, 13.29105], uic = "8011212" },
+  { km = 8.421, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 8.537, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.643, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 8.929, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.933, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 8.949, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 9.315, kind = "stop", label = "Olbernhau West", pos = [50.66028, 13.32076], uic = "8012571" },
+  { km = 9.385, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 9.399, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 9.4, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 9.539, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 9.543, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 9.548, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 10.231, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.235, kind = "signal", signal = "resetting_switch_distant", dir = 1 },
+  { km = 10.304, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 10.31, kind = "signal", signal = "main", dir = 1 },
+  { km = 10.374, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 10.4, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 10.431, kind = "signal", signal = "resetting_switch", dir = 1 },
+  { km = 10.433, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.461, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.537, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 10.594, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 10.624, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.625, kind = "signal", signal = "speed_limit,stop", dir = -1 },
+  { km = 10.667, kind = "station", label = "Olbernhau", pos = [50.65631, 13.33671], uic = "8012558" },
+  { km = 10.729, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.733, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 10.911, kind = "signal", signal = "resetting_switch", dir = -1 },
+  { km = 10.93, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 11.03, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 11.032, kind = "signal", signal = "main", dir = -1 },
+  { km = 11.857, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.886, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 11.902, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.113, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 12.234, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 12.29, kind = "signal", signal = "main", dir = 1 },
+  { km = 12.359, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 12.363, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 12.395, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 12.433, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 12.448, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 12.717, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 12.791, kind = "signal", signal = "stop", dir = -1 },
+  { km = 12.818, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 12.852, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.86, kind = "signal", signal = "stop" },
+  { km = 12.918, kind = "station", label = "Olbernhau-Grünthal", pos = [50.64981, 13.36491], uic = "8006404" },
+  { km = 12.963, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.662, kmTo = 0.71, length = 47 },
+  { kind = "bridge", kmFrom = 3.867, kmTo = 3.88, length = 13 },
+  { kind = "bridge", kmFrom = 4.6, kmTo = 4.647, length = 47 },
+  { kind = "bridge", kmFrom = 4.899, kmTo = 4.946, length = 47 },
+  { kind = "bridge", kmFrom = 5.436, kmTo = 5.485, length = 49 },
+  { kind = "bridge", kmFrom = 5.994, kmTo = 6.006, length = 12 },
+  { kind = "bridge", kmFrom = 7.628, kmTo = 7.641, length = 14 },
+  { kind = "bridge", kmFrom = 10.265, kmTo = 10.279, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qrntHk}voA~Ei_@zDaM", v = 60 },
+  { line = "uentHwkxoAlCeIrBwNvCgGfM{HvCc@~JRhF{BlCmDn[on@", v = 70 },
+  { line = "sqktHcq{oAj@sD", v = 10 },
+  { line = "gpktHwv{oAPiGsAsPAoFzA_MrAwEdCuDfDcBxCGnM~BjDeAnCyCpBoFn@oEGmGiBwSX}FbAwEjDmF~K}ErEkEfCeF~J_]nDqGjD{D", v = 70 },
+  { line = "umhtHg{apAxGqHzGgN", v = 60 },
+  { line = "_|gtHatbpArFiI", v = 40 },
+  { line = "ktgtHk~bpApLwRfPed@zH{PxD_NrRcsAXwJg@}h@d@eJ~BeJ|LuU", v = 60 },
+  { line = "q_etHaokpAdXmg@", v = 40 },
+  { line = "kfdtHowlpAjMoWxEmT", v = 50 },
+  { line = "eqctHmenpAxCmJl@aG", v = 30 },
+  { line = "}jctH}xnpAJaj@yCo^", v = 50 },
+  { line = "koctHocqpAw@sH" },
+]
+posts = [[1, 50.7037, 13.23896], [2, 50.69645, 13.24483], [3, 50.69067, 13.25534], [4, 50.6867, 13.26404], [5, 50.68342, 13.274], [6, 50.67696, 13.28302], [7, 50.67027, 13.29235], [8, 50.66447, 13.30332], [9, 50.661, 13.31631], [10, 50.6601, 13.33018], [11, 50.65399, 13.34048], [12, 50.64895, 13.35197]]
+
+[[connections]]
+km = 0.277
+station = "Pockau-Lengefeld"
+lines = [
+  { id = "6619", ref = "6619", name = "6619: Reitzenhain - Flöha", km = 31.218 },
+]

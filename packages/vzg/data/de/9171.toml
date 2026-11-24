@@ -1,0 +1,25 @@
+id = "9171"
+ref = "9171"
+name = "9171 Soltau–Neuenkirchen"
+operator = "Christian Thal"
+gauge = "1435"
+wikidata = "Q803238"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 10.632
+kmTo = 11.684
+length = 1.054
+speeds = [[10.632, 11.684, "", ""]]
+curves = [[10.733, 10.858, 1150], [11.232, 11.278, 2710], [11.362, 11.478, 1670]]
+points = [
+  { km = 11.48, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 11.672, kind = "station", label = "Draisinenbahnhof Neuenkirchen", pos = [53.03687, 9.71161] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yltbIqziz@mEzEcIfNgOzXiI|Q" },
+]
+posts = [[11, 53.0327, 9.71863]]

@@ -1,0 +1,96 @@
+id = "4811"
+ref = "4811"
+name = "4811 Stuttgart-Zuffenhausen - Kornwestheim Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Stuttgart-Zuffenhausen"
+to = "Kornwestheim Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 4.107
+kmTo = 9.521
+length = 5.438
+speeds = [[4.107, 4.262, 80, 80], [4.262, 4.443, "", ""], [4.443, 5.532, 40, 40], [5.532, 5.937, 90, 90], [5.937, 6.086, "", ""], [6.086, 7.229, 100, 100], [7.229, 9.521, 90, 90]]
+curves = [[4.207, 4.307, 1290], [4.357, 4.957, 570], [5.207, 5.307, 1290], [5.382, 5.582, 70], [5.732, 5.882, 1550], [6.032, 6.132, 30], [6.357, 6.482, 1850], [6.714, 7.199, 660], [7.326, 7.656, 940], [7.985, 8.76, 620], [9.049, 9.408, 560]]
+points = [
+  { km = 4.271, kind = "signal", label = "114II", signal = "minor", dir = 1 },
+  { km = 4.355, kind = "signal", label = "116I", signal = "minor", dir = -1 },
+  { km = 4.439, kind = "signal", label = "116II", signal = "minor", dir = 1 },
+  { km = 4.441, kind = "signal", label = "P III", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.569, kind = "signal", label = "P127", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 4.639, kind = "halt", label = "Friedrichswahl", pos = [48.82285, 9.17286] },
+  { km = 4.762, kind = "signal", label = "Wvp127", signal = "distant", dir = -1 },
+  { km = 4.949, kind = "signal", label = "R127", signal = "distant,main,minor,traversable", dir = 1 },
+  { km = 5.092, kind = "signal", label = "U 14", signal = "distant,main,minor", dir = -1 },
+  { km = 5.384, kind = "signal", label = "N14", signal = "distant,main,minor,traversable", dir = 1 },
+  { km = 5.595, kind = "signal", label = "N12", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 5.611, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.664, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.721, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.732, kind = "station", label = "Stuttgart-Zuffenhausen", pos = [48.82953, 9.16721], uic = "8029038" },
+  { km = 5.805, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.811, kind = "signal", label = "U 12", signal = "distant,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 5.933, kind = "signal", label = "012 I", signal = "minor", dir = 1 },
+  { km = 6.475, kind = "signal", label = "U2", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 6.484, kind = "signal", signal = "stop", dir = -1 },
+  { km = 6.52, kind = "signal", signal = "stop", dir = -1 },
+  { km = 6.543, kind = "signal", signal = "stop", dir = -1 },
+  { km = 6.567, kind = "stop", label = "Stuttgart-Zuffenhausen", pos = [48.82957, 9.16694] },
+  { km = 6.602, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 6.784, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.964, kind = "signal", label = "T2", signal = "distant,main,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 6.993, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 7.141, kind = "signal", label = "702", signal = "minor", dir = 1 },
+  { km = 7.219, kind = "signal", label = "X", signal = "route", dir = 1 },
+  { km = 7.223, kind = "signal", label = "704I", signal = "minor", dir = -1 },
+  { km = 7.311, kind = "signal", label = "801", signal = "minor", dir = -1 },
+  { km = 7.349, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.377, kind = "signal", label = "803I", signal = "minor", dir = -1 },
+  { km = 7.606, kind = "signal", label = "805", signal = "minor", dir = -1 },
+  { km = 7.776, kind = "signal", label = "3A", signal = "distant,main,speed_limit_distant,traversable", dir = 1 },
+  { km = 7.928, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.946, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 8.464, kind = "signal", label = "3G", signal = "distant,main,minor,route,traversable,wrong_road", dir = -1 },
+  { km = 8.706, kind = "signal", label = "Wv3g", signal = "distant", dir = -1 },
+  { km = 8.819, kind = "signal", label = "A", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 9.098, kind = "signal", signal = "minor", dir = -1 },
+  { km = 9.139, kind = "signal", label = "rII", signal = "distant", dir = 1 },
+  { km = 9.407, kind = "signal", label = "3gII", signal = "distant", dir = -1 },
+  { km = 9.439, kind = "signal", label = "339II", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.975, kmTo = 5.006, length = 31 },
+  { kind = "bridge", kmFrom = 6.059, kmTo = 6.114, length = 55 },
+  { kind = "bridge", kmFrom = 6.863, kmTo = 6.883, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uy}hHcx}v@aGeD", v = 80 },
+  { line = "wa~hHi}}v@_HcF" },
+  { line = "wj~hHmd~v@yIuA_JnB_RbOaMtM", v = 40 },
+  { line = "sa`iHyd}v@rQuR", v = 90 },
+  { line = "_o_iHox}v@bFuE" },
+  { line = "{g_iHe_~v@uObMySvKqJt@iKyC", v = 100 },
+  { line = "geaiHmg}v@sGyCyFqEoWk\\oDcCcF{AmHG{D~@oUvM{E~AsHBiGoB", v = 90 },
+]
+posts = [[5, 48.82585, 9.16965], [6, 48.8264, 9.16934], [7, 48.83338, 9.16536], [8, 48.84124, 9.17176], [9, 48.84946, 9.17162]]
+
+[[connections]]
+km = 4.639
+station = "Friedrichswahl"
+lines = [
+  { id = "4800", ref = "4800", name = "4800 Stuttgart - Bretten Strw 4130/4800", km = 5.753 },
+  { id = "4801", ref = "4801", name = "4801 Stuttgart Hbf - Bietigheim-Bissingen", km = 5.765 },
+]
+
+[[connections]]
+km = 5.732
+station = "Stuttgart-Zuffenhausen"
+lines = [
+  { id = "4800", ref = "4800", name = "4800 Stuttgart - Bretten Strw 4130/4800", km = 6.557 },
+  { id = "4801", ref = "4801", name = "4801 Stuttgart Hbf - Bietigheim-Bissingen", km = 6.567 },
+  { id = "4810", ref = "4810", name = "4810 Stuttgart-Zuffenhausen - Calw", km = 0.043 },
+]

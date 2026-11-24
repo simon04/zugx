@@ -1,0 +1,43 @@
+id = "2123"
+ref = "2123"
+name = "2123 Abzw Dortmund Buschstraße - Abzw Dortmund-Deusen"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q4703772"
+from = "Dortmund Buschstraße"
+to = "Dortmund-Deusen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.654
+kmTo = 4.138
+length = 2.508
+speeds = [[1.654, 2.915, "", ""], [2.915, 3.411, 60, 60], [3.411, 3.424, "", ""], [3.424, 4.138, 60, 60]]
+curves = [[1.762, 2.349, 400], [3.113, 3.413, 920], [3.888, 3.988, 1210]]
+points = [
+  { km = 2.236, kind = "signal", label = "992", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 2.691, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.768, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.768, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.896, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.897, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 3.189, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.696, kind = "signal", signal = "main", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.915, kmTo = 2.969, length = 54 },
+  { kind = "bridge", kmFrom = 3.236, kmTo = 3.255, length = 19 },
+  { kind = "bridge", kmFrom = 3.346, kmTo = 3.361, length = 14 },
+  { kind = "bridge", kmFrom = 3.411, kmTo = 3.424, length = 14 },
+  { kind = "bridge", kmFrom = 3.605, kmTo = 3.618, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ipsyHc_hl@fAnQfGtj@", v = 60 },
+  { line = "yesyH}`fl@Dd@" },
+  { line = "sesyHw_fl@~BxN|HrU", v = 60 },
+  { line = "uwryHiydl@nTlm@zDjGdEbCjF^pEiAhEiE" },
+]
+posts = [[4, 51.5507, 7.41694], [3, 51.54744, 7.4036], [2, 51.54132, 7.39308]]

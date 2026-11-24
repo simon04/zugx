@@ -1,0 +1,27 @@
+id = "3144"
+ref = "3144"
+name = "3144 Ehrang"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Ehrang"
+to = "Ehrang"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.272
+length = 0.272
+speeds = [[0, 0.272, "", ""]]
+curves = [[0.1, 0.15, 620]]
+points = [
+  { km = 0.016, kind = "signal", signal = "electricity,speed_limit", dir = -1 },
+  { km = 0.101, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.157, kind = "signal", signal = "minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_v~nH}vxg@hDeBlHsA" },
+]
+posts = [[0, 49.80592, 6.68543]]

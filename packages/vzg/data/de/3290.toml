@@ -1,0 +1,40 @@
+id = "3290"
+ref = "3290"
+name = "Bahnstrecke Völklingen–Thionville"
+gauge = "1435"
+wikidata = "Q803416"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 10.185
+kmTo = 12.049
+length = 1.857
+speeds = [[10.185, 12.049, "", ""]]
+curves = [[10.285, 10.865, 590], [11.192, 11.392, 890], [11.767, 11.942, 650]]
+points = [
+  { km = 10.508, kind = "signal", label = "R3", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 10.654, kind = "signal", signal = "main_repeated" },
+  { km = 10.661, kind = "station", label = "Völklingen", pos = [49.24881, 6.84923], uic = "8000175" },
+  { km = 10.737, kind = "signal", signal = "main_repeated" },
+  { km = 10.758, kind = "signal", signal = "stop", dir = 1 },
+  { km = 10.841, kind = "signal", label = "N3", signal = "main,minor", dir = 1 },
+  { km = 10.947, kind = "signal", label = "3 I", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 11.419, kmTo = 11.55, length = 131 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wwqkHg|yh@\\hGGdIm@tKyA|HwBvF{Ql[sPri@mBrD}C|C" },
+]
+posts = [[11, 49.2506, 6.84546], [12, 49.25608, 6.83468]]
+
+[[connections]]
+km = 10.661
+station = "Völklingen"
+lines = [
+  { id = "3230", ref = "3230", name = "Saarstrecke", km = 10.731 },
+  { id = "3274", ref = "3274", name = "3274 Wemmetsweiler - Nonnweiler", km = 42.763 },
+]

@@ -1,0 +1,36 @@
+id = "3539"
+ref = "3539"
+name = "3539 Abzweig Raunheim Mönchwald - Abzweig Raunheim Mönchhof"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q803072"
+from = "Raunheim Mönchwald"
+to = "Raunheim Mönchhof"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.182
+kmTo = 2.614
+length = 2.393
+speeds = [[0.182, 2.614, 130, 130]]
+curves = [[0.655, 1.493, 970], [1.718, 2.414, 1810]]
+points = [
+  { km = 0.636, kind = "signal", signal = "combined", dir = -1 },
+  { km = 0.889, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.908, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.5, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.114, kind = "signal", label = "14 811", signal = "main,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.951, kmTo = 0.983, length = 31 },
+  { kind = "tunnel", kmFrom = 1.225, kmTo = 1.368, length = 186 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wijpHiuzr@xF|VlDjWnA`SfAjc@", v = 130 },
+  { line = "wwipHqlwr@zApN", tunnel = true, v = 130 },
+  { line = "{tipH_}vr@tCnLpElKzXr_@", v = 130 },
+]
+posts = [[2, 50.02709, 8.48977], [1, 50.02515, 8.47624]]

@@ -1,0 +1,38 @@
+id = "3243"
+ref = "3243"
+name = "3243 Merchweiler - Göttelborn Grube"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Merchweiler"
+to = "Göttelborn Grube"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.194
+length = 2.194
+speeds = [[0, 2.194, "", ""]]
+curves = [[0.125, 0.45, 810], [0.5, 1.025, 310], [1.15, 1.475, 420], [1.525, 1.65, 1610], [1.75, 2.075, 340]]
+points = [
+  { km = 0, kind = "station", label = "Merchweiler", uic = "8003980", pos = [49.35619, 7.06559] },
+  { km = 2.081, kind = "signal", signal = "main", dir = 1 },
+  { km = 2.137, kind = "signal", signal = "shunting", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.908, kmTo = 1.979, length = 72 },
+  { kind = "bridge", kmFrom = 2.043, kmTo = 2.068, length = 25 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gtflHyzbj@xG~DtHlCfNx@pEhEbCtIfAhZh@rD|BbGtSbXnBdKE|K" },
+]
+posts = [[0, 49.35508, 7.06493], [1, 49.34783, 7.05902], [2, 49.34299, 7.04829]]
+
+[[connections]]
+km = 0
+station = "Merchweiler"
+lines = [
+  { id = "3240", ref = "3240", name = "3240 Saarbrücken Hbf - Neunkirchen (Saar) Hbf", km = 15.745 },
+]

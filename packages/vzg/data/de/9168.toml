@@ -1,0 +1,67 @@
+id = "9168"
+ref = "9168"
+name = "Wittlager Kreisbahn"
+operator = "Verkehrsgesellschaft Landkreis Osnabrück"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 20.621
+length = 20.621
+speeds = [[0, 20.621, 30, 30]]
+curves = [[0.1, 0.725, 400], [0.775, 1.15, 380], [1.75, 1.975, 810], [2.05, 2.375, 850], [2.45, 2.675, 790], [2.725, 2.95, 700], [3.025, 3.15, 1060], [3.925, 4.1, 1010], [4.4, 4.625, 850], [4.9, 4.95, 2710], [6.175, 6.275, 1660], [6.45, 6.85, 1110], [7.025, 7.175, 940], [7.5, 7.8, 1250], [8.075, 8.325, 780], [8.975, 9.2, 1410], [10.35, 10.8, 1100], [12.075, 12.15, 1830], [12.575, 12.85, 850], [13.15, 13.2, 2460], [13.475, 13.525, 2770], [14.15, 14.325, 1270], [16.075, 16.35, 1140], [16.525, 17.075, 1350], [17.15, 17.3, 960], [18.075, 18.2, 1470], [19.175, 19.325, 1720], [19.675, 19.8, 1600], [19.925, 20.15, 620], [20.4, 20.5, 700]]
+points = [
+  { km = 0, kind = "station", label = "Bad Holzhausen", uic = "8002978", pos = [52.28907, 8.54592] },
+  { km = 4.314, kind = "station", label = "Preußisch Oldendorf", pos = [52.30393, 8.489] },
+  { km = 8.422, kind = "halt", label = "Lintorf", pos = [52.30926, 8.43] },
+  { km = 10.093, kind = "station", label = "Rabber", pos = [52.31025, 8.40561] },
+  { km = 12.669, kind = "station", label = "Wittlage", pos = [52.31913, 8.37139] },
+  { km = 14.232, kind = "halt", label = "Bad Essen Marina", pos = [52.32196, 8.34891] },
+  { km = 14.555, kind = "signal", signal = "main", dir = 1 },
+  { km = 14.751, kind = "station", label = "Bad Essen", pos = [52.32366, 8.3418] },
+  { km = 16.664, kind = "halt", label = "Wehrendorf", pos = [52.33131, 8.31694] },
+  { km = 19.851, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 19.959, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 20.008, kind = "signal", signal = "main", dir = 1 },
+  { km = 20.024, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 20.067, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 20.071, kind = "station", label = "Bohmte", pos = [52.36102, 8.30731] },
+  { km = 20.09, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 20.147, kind = "station", label = "Bohmte Ost", pos = [52.36169, 8.30836] },
+  { km = 20.162, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 20.203, kind = "signal", signal = "crossing", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 17.053, kmTo = 17.14, length = 86 },
+  { kind = "bridge", kmFrom = 17.4, kmTo = 17.421, length = 20 },
+  { kind = "bridge", kmFrom = 19.092, kmTo = 19.12, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "usc~H{zcs@v@tGDjHOlIo@lFcAvD}BdEqNfJwAjBmBrFoLxbA}A~GwFtPiAdGuB|YwExTeBvVqOzjA{Mpd@mAvH{C~]{MbuB}BnSw@xMI|Nf@`Z{Ahg@ExOfB|m@eHtlAl@`xB]vJuApOgRpaAwNjm@qQrm@mOpgCeh@bgDeLhX{JbPeF`EeGfBoMdAoi@Fwy@zJg\\lJeOzGcUsEuHI", v = 30 },
+]
+posts = [[0, 52.28875, 8.54462], [1, 52.29301, 8.5339], [2, 52.29623, 8.52026], [3, 52.29946, 8.50675], [4, 52.30238, 8.49286], [5, 52.30597, 8.47959], [6, 52.30778, 8.46518], [7, 52.30904, 8.45076], [8, 52.30915, 8.43613], [9, 52.3103, 8.42167], [10, 52.31027, 8.40697], [11, 52.31176, 8.39273], [12, 52.31587, 8.37965], [13, 52.3199, 8.36671], [14, 52.32149, 8.35224], [15, 52.3245, 8.33841], [16, 52.32785, 8.32475], [17, 52.3338, 8.31421], [18, 52.34274, 8.31338], [19, 52.35167, 8.31182], [20, 52.36038, 8.30834]]
+
+[[connections]]
+km = 0
+station = "Bad Holzhausen"
+lines = [
+  { id = "2982", ref = "2982", name = "2982 Bünde - Bassum", km = 13.971 },
+]
+
+[[connections]]
+km = 20.071
+station = "Bohmte"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 142.07 },
+]
+
+[[connections]]
+km = 20.147
+station = "Bohmte Ost"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 142.169 },
+]

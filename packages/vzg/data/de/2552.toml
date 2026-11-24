@@ -1,0 +1,74 @@
+id = "2552"
+ref = "2552"
+name = "2552 Aachen West - Aachen West Grenze"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q30766055"
+from = "Aachen West"
+to = "Aachen West Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -1.367
+kmTo = 5.366
+length = 6.815
+speeds = [[-1.367, 0.693, "", ""], [0.693, 1.539, 60, 60], [1.539, 3.136, 80, 80], [3.136, 3.161, "", ""], [3.161, 5.366, 80, 80]]
+curves = [[-1.067, -0.867, 810], [-0.742, -0.642, 840], [0.058, 0.225, 670], [0.281, 1.222, 360], [1.322, 1.95, 690], [3.446, 3.791, 720], [3.936, 4.401, 630]]
+points = [
+  { km = -1.261, kind = "signal", signal = "minor", dir = -1 },
+  { km = -1.21, kind = "signal", signal = "minor", dir = 1 },
+  { km = -1.186, kind = "signal", signal = "minor", dir = -1 },
+  { km = -1.151, kind = "signal", signal = "distant", dir = 1 },
+  { km = -1.096, kind = "signal", signal = "minor", dir = 1 },
+  { km = -0.687, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.025, kind = "station", label = "Aachen West", uic = "8000404", pos = [50.78072, 6.06961] },
+  { km = -0.014, kind = "signal", signal = "brake_test", dir = 1 },
+  { km = 0.043, kind = "signal", label = "P15", signal = "distant,main,minor,route", dir = 1 },
+  { km = 0.325, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.355, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.432, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.487, kind = "signal", label = "W18", signal = "minor", dir = -1 },
+  { km = 0.602, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.605, kind = "signal", label = "R206", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 1.055, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.226, kind = "signal", label = "P 206", signal = "main,minor,wrong_road", dir = 1 },
+  { km = 1.539, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.763, kind = "signal", label = "B", signal = "distant,main", dir = -1 },
+  { km = 1.93, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.756, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.233, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.705, kind = "signal", label = "320", signal = "main", dir = -1 },
+  { km = 4.034, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.212, kind = "signal", label = "341", signal = "distant,main,route", dir = 1 },
+  { km = 4.503, kind = "signal", signal = "helper_engine", dir = 1 },
+  { km = 4.541, kind = "signal", signal = "helper_engine", dir = 1 },
+  { km = 4.633, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.636, kind = "signal", label = "322/320", signal = "distant,main,wrong_road", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.612, kmTo = 0.77, length = 157 },
+  { kind = "bridge", kmFrom = 0.924, kmTo = 0.946, length = 22 },
+  { kind = "bridge", kmFrom = 2.494, kmTo = 2.56, length = 67 },
+  { kind = "bridge", kmFrom = 3.136, kmTo = 3.161, length = 20 },
+  { kind = "bridge", kmFrom = 4.063, kmTo = 4.082, length = 20 },
+  { kind = "tunnel", kmFrom = 4.755, kmTo = 5.366, length = 611, name = "Gemmenicher Tunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qp~tHoq}c@fOgSlHqQlUk~@xA}DlGsK~D_DpFg@nEpB" },
+  { line = "ca|tH}lad@pGpJ~BhKJhH}A|U@`I", v = 60 },
+  { line = "aw{tHwj_d@v@tL~CxMbl@`uA", v = 80 },
+  { line = "ecztHex{c@Tj@" },
+  { line = "obztHyv{c@`Od\\`EhEtNfJ`FnGxC~HtIlb@", v = 80 },
+  { line = "cfxtHcrxc@jMfp@", tunnel = true, v = 80 },
+]
+posts = [[-1, 50.7855, 6.05802], [0, 50.78077, 6.07005], [1, 50.77352, 6.07146], [2, 50.77206, 6.05817], [3, 50.7661, 6.04683], [4, 50.75948, 6.03807], [5, 50.75479, 6.02614]]
+
+[[connections]]
+km = -0.025
+station = "Aachen West"
+lines = [
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 4.793 },
+]

@@ -1,0 +1,26 @@
+id = "6890"
+ref = "6890"
+name = "6890 Blankenburg (Harz) - Blankenburg (Harz) Nord"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Blankenburg (Harz)"
+to = "Blankenburg (Harz) Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.849
+length = 1.849
+speeds = [[0, 1.185, "", ""], [1.185, 1.849, 40, 40]]
+curves = [[0.1, 0.225, 770], [1.3, 1.675, 590]]
+points = [
+  { km = 1.688, kind = "signal", label = "E153", signal = "main,minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ize{HskxaAtBeMl^clA" },
+  { line = "ewd{H}f{aAvDmM|@_HByJu@qT", v = 40 },
+]
+posts = [[0, 51.80853, 10.94346], [1, 51.80383, 10.95581]]

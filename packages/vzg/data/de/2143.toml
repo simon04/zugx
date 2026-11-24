@@ -1,0 +1,249 @@
+id = "2143"
+ref = "2143"
+name = "2143 Witten Hbf - Schwelm"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q803496"
+from = "Witten Hbf"
+to = "Schwelm"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 63
+kmTo = 96.306
+length = 33.281
+speeds = [[63, 66.427, "", ""], [66.427, 70.897, 80, 80], [70.897, 72.701, 90, 90], [72.701, 72.754, "", ""], [72.754, 74.291, 90, 90], [74.291, 75.881, 80, 80], [75.881, 76.095, "", ""], [76.095, 76.464, 80, 80], [76.464, 79.439, 90, 90], [79.439, 80.77, "", ""], [80.77, 81.604, 70, 70], [81.604, 84.198, 80, 80], [84.198, 86.628, 100, 100], [86.628, 87.204, 90, 90], [87.204, 91.443, 100, 100], [91.443, 95.01, 80, 80], [95.01, 95.12, "", ""], [95.12, 96.306, 80, 80]]
+curves = [[63.107, 63.432, 1110], [63.832, 63.957, 1240], [64.032, 64.557, 770], [64.657, 64.932, 730], [65.907, 66.082, 1570], [66.182, 66.407, 920], [66.507, 66.832, 900], [67.257, 67.357, 1980], [67.482, 67.632, 1270], [68.365, 68.788, 1040], [69.437, 69.768, 750], [70.236, 70.698, 470], [70.876, 71.359, 620], [71.614, 71.944, 810], [72.071, 73.125, 800], [73.448, 73.646, 1090], [74.147, 74.423, 760], [74.473, 74.896, 390], [75.806, 75.881, 2280], [76.081, 76.656, 1280], [76.781, 77.506, 1630], [77.581, 78.106, 1010], [78.406, 78.506, 1790], [78.756, 78.831, 2520], [78.931, 79.181, 950], [79.231, 79.431, 780], [79.831, 79.981, 900], [80.031, 80.081, 2460], [80.231, 80.581, 920], [80.656, 81.006, 710], [81.156, 81.656, 410], [81.756, 82.081, 610], [82.131, 82.306, 1050], [82.381, 82.481, 1000], [82.531, 82.731, 680], [82.856, 83.156, 750], [83.456, 83.881, 430], [83.931, 84.231, 520], [84.506, 84.731, 940], [85.006, 85.131, 1770], [85.306, 85.681, 620], [85.931, 86.381, 530], [86.656, 87.006, 760], [87.606, 87.781, 1450], [88.381, 88.631, 1640], [89.656, 89.856, 1510], [90.431, 91.056, 1830], [91.431, 91.606, 890], [91.656, 91.931, 700], [92.056, 92.156, 1760], [92.931, 93.731, 530], [94.656, 94.856, 1020], [95.281, 96.081, 500]]
+points = [
+  { km = 44.63, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 63, kind = "station", label = "Witten Hbf", uic = "8000251", pos = [51.43559, 7.32939] },
+  { km = 63.331, kind = "signal", label = "P5", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 64.152, kind = "signal", label = "B", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 65.645, kind = "signal", label = "2", signal = "distant,main,speed_limit_distant,traversable", dir = -1 },
+  { km = 66.031, kind = "signal", signal = "distant", dir = 1 },
+  { km = 67.031, kind = "signal", signal = "minor", dir = 1 },
+  { km = 67.041, kind = "signal", signal = "distant", dir = -1 },
+  { km = 67.326, kind = "signal", signal = "minor", dir = 1 },
+  { km = 67.557, kind = "signal", label = "N 102", signal = "main,minor,traversable,wrong_road", dir = -1 },
+  { km = 67.616, kind = "stop", label = "Wengern Ost", pos = [51.39953, 7.35084] },
+  { km = 68.14, kind = "signal", label = "P 102", signal = "main,minor,traversable", dir = 1 },
+  { km = 68.613, kind = "signal", signal = "distant,main,traversable", dir = -1 },
+  { km = 69.711, kind = "signal", signal = "distant", dir = -1 },
+  { km = 69.8, kind = "signal", signal = "speed_limit_distant", dir = 1, measured = true },
+  { km = 70.404, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 70.577, kind = "signal", signal = "distant", dir = -1 },
+  { km = 70.888, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 71.095, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 71.137, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 71.403, kind = "signal", signal = "distant", dir = 1 },
+  { km = 71.422, kind = "signal", signal = "distant", dir = -1 },
+  { km = 71.608, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 72.314, kind = "signal", signal = "crossing_hint", dir = -1 },
+  { km = 72.406, kind = "signal", signal = "main", dir = 1 },
+  { km = 72.669, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 72.797, kind = "signal", signal = "distant", dir = 1 },
+  { km = 73.17, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 73.597, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 73.999, kind = "signal", label = "566", signal = "distant,main,traversable", dir = 1 },
+  { km = 74.168, kind = "signal", signal = "distant", dir = 1 },
+  { km = 74.401, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 74.402, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 74.679, kind = "signal", signal = "distant", dir = 1 },
+  { km = 74.972, kind = "signal", label = "H564", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 75.122, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 75.326, kind = "signal", signal = "distant", dir = 1 },
+  { km = 75.566, kind = "signal", signal = "minor", dir = -1 },
+  { km = 75.749, kind = "signal", signal = "minor", dir = -1 },
+  { km = 75.782, kind = "signal", signal = "minor", dir = 1 },
+  { km = 75.956, kind = "signal", label = "533 II", signal = "minor", dir = -1 },
+  { km = 76.002, kind = "station", label = "Hagen-Vorhalle", uic = "8000977", pos = [51.38814, 7.43367] },
+  { km = 76.021, kind = "signal", label = "533 II", signal = "minor", dir = 1 },
+  { km = 76.101, kind = "signal", label = "P522", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 76.486, kind = "signal", signal = "minor", dir = -1 },
+  { km = 76.5, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 76.818, kind = "signal", signal = "minor", dir = -1 },
+  { km = 76.851, kind = "signal", signal = "distant", dir = 1 },
+  { km = 77.744, kind = "signal", signal = "distant", dir = 1 },
+  { km = 77.896, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 78.061, kind = "signal", signal = "distant", dir = -1 },
+  { km = 78.216, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 79.233, kind = "signal", label = "F 044", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 79.479, kind = "signal", signal = "minor", dir = -1 },
+  { km = 79.665, kind = "signal", signal = "minor", dir = 1 },
+  { km = 79.774, kind = "signal", signal = "minor", dir = -1 },
+  { km = 79.829, kind = "signal", signal = "minor", dir = 1 },
+  { km = 80.013, kind = "signal", label = "N 018", signal = "distant,main,minor,route,traversable", dir = -1 },
+  { km = 80.02, kind = "signal", signal = "brake_test", dir = -1 },
+  { km = 80.021, kind = "signal", signal = "stop", dir = -1 },
+  { km = 80.059, kind = "signal", label = "018II", signal = "minor", dir = -1 },
+  { km = 80.063, kind = "signal", signal = "stop", dir = -1 },
+  { km = 80.108, kind = "signal", label = "019 II", signal = "minor", dir = 1 },
+  { km = 80.137, kind = "station", label = "Hagen Hbf", pos = [51.36296, 7.46061] },
+  { km = 80.165, kind = "signal", signal = "main_repeated" },
+  { km = 80.188, kind = "signal", label = "018 I", signal = "minor", dir = 1 },
+  { km = 80.274, kind = "signal", label = "033 I", signal = "minor", dir = 1 },
+  { km = 80.491, kind = "signal", signal = "minor", dir = -1 },
+  { km = 80.684, kind = "signal", signal = "minor", dir = 1 },
+  { km = 80.77, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 80.78, kind = "signal", label = "163 II", signal = "minor", dir = -1 },
+  { km = 80.795, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 81.076, kind = "signal", label = "ZR 063", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 81.25, kind = "signal", label = "064 I", signal = "minor", dir = 1 },
+  { km = 81.252, kind = "signal", label = "Vw ZR 063", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 81.363, kind = "stop", label = "Hagen-Wehringhausen", pos = [51.35357, 7.45278] },
+  { km = 81.523, kind = "signal", signal = "distant", dir = 1 },
+  { km = 81.674, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 81.679, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 81.703, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 81.737, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 82.055, kind = "signal", signal = "distant,main,speed_limit_distant,traversable", dir = -1 },
+  { km = 82.372, kind = "signal", signal = "distant", dir = 1 },
+  { km = 82.529, kind = "signal", label = "F 662", signal = "distant,main,traversable", dir = 1 },
+  { km = 82.666, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 82.692, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 83.16, kind = "signal", label = "N 601", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 83.478, kind = "station", label = "Hagen-Heubing", pos = [51.35239, 7.42345], uic = "8002512" },
+  { km = 83.517, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 84.136, kind = "signal", label = "A 651", signal = "distant,main,traversable", dir = -1 },
+  { km = 84.365, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 85.138, kind = "signal", signal = "distant", dir = -1 },
+  { km = 85.364, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 85.719, kind = "stop", label = "Hagen-Westerbauer", pos = [51.34179, 7.39673], uic = "8004440" },
+  { km = 86.583, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 87.084, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 87.242, kind = "halt", label = "Gevelsberg-Knapp", uic = "8001943", pos = [51.33692, 7.37771] },
+  { km = 87.788, kind = "signal", label = "691", signal = "main,traversable", dir = -1 },
+  { km = 88.094, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 88.805, kind = "signal", signal = "distant", dir = -1 },
+  { km = 90.251, kind = "stop", label = "Gevelsberg Hbf", pos = [51.32447, 7.3399] },
+  { km = 90.368, kind = "signal", signal = "distant", dir = 1 },
+  { km = 91.287, kind = "stop", label = "Gevelsberg-Kipp", uic = "8002509", pos = [51.31988, 7.32694] },
+  { km = 91.374, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 92.176, kind = "signal", label = "N 951", signal = "main,minor,traversable", dir = -1 },
+  { km = 92.256, kind = "station", label = "Gevelsberg West", pos = [51.31731, 7.31394] },
+  { km = 92.979, kind = "signal", signal = "minor", dir = 1 },
+  { km = 93.452, kind = "signal", label = "A 991", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 93.571, kind = "signal", signal = "distant", dir = -1 },
+  { km = 93.644, kind = "signal", signal = "distant", dir = -1 },
+  { km = 93.652, kind = "signal", signal = "distant,route_distant", dir = 1 },
+  { km = 93.681, kind = "signal", signal = "distant", dir = -1 },
+  { km = 94.555, kind = "signal", signal = "distant", dir = 1 },
+  { km = 94.604, kind = "signal", signal = "distant", dir = -1 },
+  { km = 94.67, kind = "signal", signal = "distant,main,route,traversable", dir = -1 },
+  { km = 95.271, kind = "signal", label = "483", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 95.403, kind = "signal", signal = "distant", dir = -1 },
+  { km = 95.49, kind = "signal", signal = "distant", dir = 1 },
+  { km = 95.496, kind = "signal", signal = "distant", dir = -1 },
+  { km = 95.593, kind = "signal", signal = "distant", dir = 1 },
+  { km = 95.673, kind = "signal", signal = "distant", dir = 1 },
+  { km = 95.769, kind = "signal", signal = "distant,main,traversable", dir = 1 },
+  { km = 96.306, kind = "station", label = "Schwelm", uic = "8000033", pos = [51.29054, 7.28966] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 63.282, kmTo = 63.296, length = 14 },
+  { kind = "bridge", kmFrom = 63.647, kmTo = 63.665, length = 18 },
+  { kind = "bridge", kmFrom = 64.217, kmTo = 64.923, length = 706 },
+  { kind = "bridge", kmFrom = 66.352, kmTo = 66.427, length = 75 },
+  { kind = "bridge", kmFrom = 74.247, kmTo = 74.291, length = 45 },
+  { kind = "bridge", kmFrom = 77.21, kmTo = 77.276, length = 66 },
+  { kind = "bridge", kmFrom = 80.8, kmTo = 80.818, length = 18 },
+  { kind = "bridge", kmFrom = 81.254, kmTo = 81.272, length = 18 },
+  { kind = "bridge", kmFrom = 81.604, kmTo = 81.677, length = 73 },
+  { kind = "bridge", kmFrom = 81.917, kmTo = 81.982, length = 66 },
+  { kind = "bridge", kmFrom = 82.874, kmTo = 82.916, length = 42 },
+  { kind = "bridge", kmFrom = 84.809, kmTo = 84.898, length = 89 },
+  { kind = "bridge", kmFrom = 85.755, kmTo = 85.798, length = 43 },
+  { kind = "bridge", kmFrom = 86.179, kmTo = 86.2, length = 21 },
+  { kind = "bridge", kmFrom = 87.887, kmTo = 87.902, length = 15 },
+  { kind = "bridge", kmFrom = 88.409, kmTo = 88.487, length = 78 },
+  { kind = "bridge", kmFrom = 90.404, kmTo = 90.425, length = 21 },
+  { kind = "bridge", kmFrom = 90.469, kmTo = 90.52, length = 51 },
+  { kind = "bridge", kmFrom = 91.464, kmTo = 91.476, length = 12 },
+  { kind = "bridge", kmFrom = 92.157, kmTo = 92.178, length = 21 },
+  { kind = "tunnel", kmFrom = 93.658, kmTo = 94.594, length = 935, name = "Linderhauser Tunnel" },
+  { kind = "tunnel", kmFrom = 95.813, kmTo = 95.991, length = 178, name = "Präsident-Hoefft-Tunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qv`xHilok@Ug[", v = 80 },
+  { line = "gw`xHqhpk@uByM", tunnel = true, v = 80 },
+  { line = "}z`xHkwpk@cE}ImF{EyF{AaL?", v = 80 },
+  { line = "k}axHalqk@eEG" },
+  { line = "qcbxHilqk@iLJ{H`B", v = 80 },
+  { line = "wzbxH{hqk@er@fR", tunnel = true, v = 80 },
+  { line = "}mdxHsupk@kFB{FoBiEeEqDmHyByI_PmbAwEsT", v = 80 },
+  { line = "sdfxHoltk@YgB", tunnel = true, v = 80 },
+  { line = "mefxHwotk@_Cyb@", v = 80 },
+  { line = "mifxHqsuk@{Foc@yHk]kD{J_Ysn@ud@}`BwN{}@gFgm@", v = 100 },
+  { line = "ewixH_a`l@aDs\\wAkFcDkH", v = 90 },
+  { line = "cdjxHkoal@_KqSqCgMe@cJ`@we@yAgQyF{UgI{c@eNk]", v = 100 },
+  { line = "{xkxHmpgl@}C}FoLcHgEmFoCkK}Ds]{@_Px@cZGeHwAe`@aBmTHoGnBaT", v = 80 },
+  { line = "i~lxHm}ml@JmNmBcLmLsSeG{F", v = 70 },
+  { line = "_wmxHovol@wLwDqLUuPoBa\\V" },
+  { line = "aapxHu_pl@iFb@mOnFi[~AmUlEkG|BoHnFaQfW}HdRmA~Gi@~Ig@v^", v = 90 },
+  { line = "m~sxH_cll@nA`RzAzK", v = 80 },
+  { line = "aysxHackl@jDfP" },
+  { line = "ussxHyqjl@rWnwAvBrElBtBnO~F", v = 80 },
+  { line = "kcrxH_ggl@tLlMjTlYrRbf@nClP", v = 90 },
+  { line = "ehpxHqedl@JxC" },
+  { line = "ygpxHw`dl@`@zRy@rMoCbNeIvUoDxFwRxRoHhCqHM", v = 90 },
+  { line = "qcrxH{x`l@wLoB}DDwE`BmDdDmUd^yDzIuAjFkR~hAmE`M{N`XiTd^cMvMsZlT{DhAyHh@", v = 80 },
+  { line = "yzwxHkjyk@wGCiQ{D}y@mG_GXqIhDaFjDsG`KuIfYcOda@iEpIyHjJ" },
+]
+posts = [[96, 51.2909, 7.2974], [95, 51.2981, 7.30325], [94, 51.30691, 7.30074], [93, 51.31473, 7.30394], [92, 51.31819, 7.31721], [91, 51.32074, 7.3309], [90, 51.32591, 7.34256], [89, 51.33092, 7.35447], [88, 51.33497, 7.36727], [87, 51.33743, 7.38109], [86, 51.3419, 7.39316], [85, 51.34372, 7.40684], [84, 51.34886, 7.41835], [83, 51.3534, 7.42955], [82, 51.35404, 7.44378], [81, 51.35573, 7.45664], [80, 51.36426, 7.45996], [79, 51.37312, 7.45856], [78, 51.38202, 7.45672], [77, 51.38876, 7.44762], [76, 51.38811, 7.43366], [75, 51.38444, 7.42053], [74, 51.37772, 7.41274], [73, 51.37137, 7.40274], [72, 51.3718, 7.38931], [71, 51.37902, 7.38193], [70, 51.38693, 7.37863], [69, 51.39168, 7.36668], [68, 51.39711, 7.35457], [67, 51.40437, 7.34622], [66, 51.41303, 7.34474], [65, 51.42199, 7.34606], [64, 51.42951, 7.34004]]
+
+[[connections]]
+km = 63
+station = "Witten Hbf"
+lines = [
+  { id = "2140", ref = "2140", name = "2140 Bochum-Langendreer - Witten Hbf", km = 6.791 },
+  { id = "2801", ref = "2801", name = "2801 Hagen - Dortmund", km = 15.198 },
+]
+
+[[connections]]
+km = 67.616
+station = "Wengern Ost"
+lines = [
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 67.611 },
+]
+
+[[connections]]
+km = 76.002
+station = "Hagen-Vorhalle"
+lines = [
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 58.99 },
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = 6.336 },
+  { id = "2820", ref = "2820", name = "2820 Hagen-Vorhalle - Hagen-Kabel", km = 76.044 },
+]
+
+[[connections]]
+km = 80.137
+station = "Hagen Hbf"
+lines = [
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 80.164 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 141.818 },
+  { id = "2801", ref = "2801", name = "2801 Hagen - Dortmund", km = 0.052 },
+  { id = "2811", ref = "2811", name = "2811 Abzw Hagen Rehsiepen - Hagen Streckenwechsel 2811/2823", km = 141.791 },
+  { id = "2843", ref = "2843", name = "2843 Abzw Hohensyburg - Schwerte (Ruhr) Ost", km = 140.932 },
+  { id = "2850", ref = "2850", name = "2850 Letmathe - Fröndenberg", km = -1.026 },
+]
+
+[[connections]]
+km = 81.363
+station = "Hagen-Wehringhausen"
+lines = [
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = 4.935 },
+  { id = "2811", ref = "2811", name = "2811 Abzw Hagen Rehsiepen - Hagen Streckenwechsel 2811/2823", km = 141.54 },
+]
+
+[[connections]]
+km = 96.306
+station = "Schwelm"
+lines = [
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 48.726 },
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 48.73 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 126.027 },
+  { id = "2701", ref = "2701", name = "2701 Wuppertal-Oberbarmen - Schwelm", km = 5.098 },
+]

@@ -1,0 +1,156 @@
+id = "5812"
+ref = "5812"
+name = "5812 Straubing - Miltach"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q803276"
+from = "Straubing"
+to = "Miltach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.242
+kmTo = 9.873
+length = 10.098
+speeds = [[-0.242, -0.081, "", ""], [-0.081, 1.335, "", 60], [1.335, 3.512, 80, 80], [3.512, 3.53, 60, 80], [3.53, 4.264, 60, 50], [4.264, 4.277, 20, 50], [4.277, 4.304, 70, 20], [4.304, 5.398, 70, 70], [5.398, 6.005, 60, 70], [6.005, 6.102, 50, 60], [6.102, 7.828, 60, 60], [7.828, 7.877, 10, 60], [7.877, 8.032, 50, 30], [8.032, 8.604, 50, 40], [8.604, 9.584, 40, 40], [9.584, 9.641, 20, 40], [9.641, 9.873, 20, ""]]
+curves = [[0.333, 0.408, 2820], [1.083, 1.383, 790], [1.808, 1.933, 1280], [2.664, 2.841, 1120], [3.724, 3.825, 1760], [4.455, 4.758, 760], [5.472, 5.845, 590], [6.044, 6.144, 1870], [6.743, 6.868, 1480], [8.15, 8.5, 590], [9.15, 9.675, 630]]
+points = [
+  { km = -0.081, kind = "signal", label = "N2", signal = "main,minor", dir = -1 },
+  { km = 0.029, kind = "station", label = "Straubing", pos = [48.87688, 12.57493], uic = "8000095" },
+  { km = 0.341, kind = "signal", label = "P2", signal = "main,minor", dir = 1 },
+  { km = 0.44, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.759, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.879, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.944, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.193, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.25, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.333, kind = "signal", label = "A", signal = "main", dir = -1 },
+  { km = 1.335, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.378, kind = "stop", label = "Straubing Ost", pos = [48.8765, 12.59262], uic = "8006745" },
+  { km = 1.733, kind = "signal", label = "Va", signal = "distant", dir = -1 },
+  { km = 1.736, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.903, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.068, kind = "signal", signal = "crossing_distant,crossing_info", dir = 1 },
+  { km = 3.385, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.512, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.53, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.678, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.713, kind = "signal", signal = "crossing_distant,crossing_info", dir = 1 },
+  { km = 3.757, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.774, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 3.873, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.194, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.256, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 4.262, kind = "signal", signal = "crossing_info,speed_limit", dir = -1 },
+  { km = 4.264, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.29, kind = "signal", signal = "crossing_distant,crossing_info", dir = -1 },
+  { km = 4.292, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.294, kind = "signal", signal = "crossing_info,speed_limit", dir = 1 },
+  { km = 4.304, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.351, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.415, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.424, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 4.447, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 4.452, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.477, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 4.513, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.567, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 4.569, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.773, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.82, kind = "stop", label = "Ittling", pos = [48.88488, 12.63723], uic = "8003100" },
+  { km = 4.847, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.849, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.858, kind = "signal", signal = "crossing_distant,crossing_info", dir = -1 },
+  { km = 4.872, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.9, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.905, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.089, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 5.129, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.208, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.302, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.398, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.454, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 5.579, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 5.587, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.856, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.005, kind = "signal", signal = "speed_limit" },
+  { km = 6.102, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.251, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 6.272, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 6.273, kind = "signal", signal = "crossing_distant,crossing_info", dir = 1 },
+  { km = 6.641, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.696, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 6.84, kind = "halt", label = "Straubing Hafen", pos = [48.89151, 12.66217] },
+  { km = 6.926, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 6.949, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 6.984, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.018, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 7.337, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.373, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 7.398, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 7.4, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.461, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 7.784, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.798, kind = "signal", signal = "stop", dir = -1 },
+  { km = 7.828, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 7.834, kind = "stop", label = "Sand (Niederbayern)", pos = [48.89712, 12.67262], uic = "8005279" },
+  { km = 7.84, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.865, kind = "signal", signal = "crossing_info,speed_limit", dir = -1 },
+  { km = 7.867, kind = "signal", signal = "stop", dir = 1 },
+  { km = 7.869, kind = "signal", signal = "crossing_info,speed_limit,whistle", dir = 1 },
+  { km = 7.986, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.032, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 8.128, kind = "signal", signal = "crossing_distant,crossing_info", dir = -1 },
+  { km = 8.198, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.414, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.604, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.041, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 9.048, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.241, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 9.584, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.602, kind = "signal", signal = "crossing_info,speed_limit", dir = -1 },
+  { km = 9.663, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.68, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.687, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 9.719, kind = "stop", label = "Bogen", pos = [48.91073, 12.68655], uic = "8001069" },
+  { km = 9.768, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.108, kmTo = -0.091, length = 17 },
+  { kind = "bridge", kmFrom = 0.72, kmTo = 0.739, length = 19 },
+  { kind = "bridge", kmFrom = 5.025, kmTo = 5.057, length = 33 },
+  { kind = "bridge", kmFrom = 8.619, kmTo = 9.194, length = 575 },
+  { kind = "bridge", kmFrom = 9.449, kmTo = 9.525, length = 76 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cjiiHgevkA^sL" },
+  { line = "ciiiH{rvkAxAie@|Ag`Aa@_P", v = 60 },
+  { line = "mdiiHmkzkAeGml@cEsgAiMi}@", v = 80 },
+  { line = "aajiHy_`lAwCcSeJad@", v = 60 },
+  { line = "_qjiH_yalAI]", v = 50 },
+  { line = "iqjiH}yalAuD{Q_A}JmBioAqBsKqGuO", v = 70 },
+  { line = "qhkiHkfflAuX{x@kd@kdA", v = 60 },
+  { line = "sgmiHsejlAwJuTkC_EkDoCyHyC", v = 50 },
+  { line = "}fniHsjklA{b@oPwFaH}DqL", v = 40 },
+  { line = "oxoiHwrllAeEqP", v = 20 },
+]
+posts = [[0, 48.87707, 12.57389], [1, 48.87635, 12.58751], [2, 48.87783, 12.60087], [3, 48.8794, 12.61416], [4, 48.88254, 12.62683], [5, 48.88498, 12.63966], [6, 48.88726, 12.65264], [7, 48.89242, 12.66385], [8, 48.89808, 12.67435], [9, 48.90579, 12.68057]]
+
+[[connections]]
+km = 0.029
+station = "Straubing"
+lines = [
+  { id = "5634", ref = "5634", name = "5634 Landshut (Bay) Hbf - Bayerisch Eisenstein Grenze", km = 56.425 },
+  { id = "5830", ref = "5830", name = "5830 Passau Hbf - Obertraubling", km = 76.775 },
+]
+
+[[connections]]
+km = 1.378
+station = "Straubing Ost"
+lines = [
+  { id = "5634", ref = "5634", name = "5634 Landshut (Bay) Hbf - Bayerisch Eisenstein Grenze", km = 63.642 },
+  { id = "5830", ref = "5830", name = "5830 Passau Hbf - Obertraubling", km = 75.434 },
+]

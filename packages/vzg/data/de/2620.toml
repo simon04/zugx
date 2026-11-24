@@ -1,0 +1,295 @@
+id = "2620"
+ref = "2620"
+name = "2620 Köln Hbf - Köln-Worringen"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Köln Hbf"
+to = "Köln-Worringen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.005
+kmTo = 16.145
+length = 17.213
+speeds = [[0.005, 0.284, 50, 50], [0.284, 0.316, 60, 60], [0.316, 0.331, 50, 50], [0.331, 1.106, 60, 60], [1.106, 1.167, 80, 60], [1.167, 1.914, 80, 80], [1.914, 2.21, 70, 60], [2.21, 2.236, 70, 80], [2.236, 3.102, 80, 80], [3.102, 4.249, 120, 120], [4.249, 4.325, 150, 120], [4.325, 7.554, 150, 150], [7.554, 7.713, 60, 60], [7.713, 10.498, 120, 120], [10.498, 12.737, "", ""], [12.737, 14.619, 120, 120], [14.619, 14.704, 120, 100], [14.704, 16.145, 100, 100]]
+curves = [[0.169, 0.415, 760], [0.536, 0.576, 2350], [0.761, 1.04, 710], [1.09, 1.636, 490], [1.684, 2.31, 420], [2.43, 2.873, 1350], [3.548, 4.073, 860], [7.497, 7.647, 1030], [8.497, 8.647, 2060], [8.797, 10.096, 1630], [10.521, 11.096, 470], [11.596, 11.946, 1280], [12.121, 13.001, 940], [13.054, 13.441, 810], [13.74, 14.083, 1880], [15.467, 15.562, 1630], [15.645, 15.802, 2290], [15.938, 15.996, 2260]]
+points = [
+  { km = 0.006, kind = "station", label = "Köln Hauptbahnhof", uic = "8015458", pos = [50.94278, 6.95907] },
+  { km = 0.075, kind = "signal", label = "94 ZR 0210", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.158, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.238, kind = "signal", label = "94 ZU 0210", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 0.331, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 0.439, kind = "signal", label = "ZR 0701", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 0.562, kind = "signal", label = "95 ZU 0701", signal = "combined,route,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 0.563, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.747, kind = "signal", label = "ZR 0401", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 0.749, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.763, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.844, kind = "station", label = "Köln Hansaring", pos = [50.94908, 6.95264], uic = "8003392" },
+  { km = 0.852, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.869, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.882, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.91, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.916, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.928, kind = "signal", label = "95 ZU 0401", signal = "combined,route_distant,speed_limit,speed_limit_distant,traversable,wrong_road", dir = 1 },
+  { km = 1.106, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.112, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.167, kind = "signal", label = "95 ZR 0101", signal = "combined,speed_limit", dir = -1 },
+  { km = 1.277, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.291, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.507, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.672, kind = "signal", label = "B502", signal = "distant,main", dir = 1 },
+  { km = 1.675, kind = "signal", label = "95 A", signal = "combined,speed_limit", dir = -1 },
+  { km = 1.747, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.914, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.915, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 2.207, kind = "signal", label = "P504", signal = "distant,main", dir = -1 },
+  { km = 2.21, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.236, kind = "signal", signal = "distant,speed_limit", dir = 1 },
+  { km = 2.296, kind = "station", label = "Köln-Nippes", pos = [50.95899, 6.94178], uic = "8003372" },
+  { km = 2.385, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.392, kind = "signal", label = "N504", signal = "distant,main", dir = 1 },
+  { km = 3.108, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.278, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.332, kind = "signal", label = "F522", signal = "distant,main", dir = -1 },
+  { km = 3.44, kind = "stop", label = "Köln Geldernstraße/Parkgürtel", pos = [50.9685, 6.94135], uic = "8003360" },
+  { km = 4.249, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.314, kind = "signal", label = "524", signal = "main", dir = -1 },
+  { km = 4.325, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.708, kind = "signal", label = "526", signal = "distant,main,traversable", dir = -1 },
+  { km = 6.045, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.753, kind = "signal", signal = "main", dir = -1 },
+  { km = 7.04, kind = "signal", label = "A530", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 7.713, kind = "signal", label = "P803", signal = "distant,main,minor", dir = 1 },
+  { km = 7.794, kind = "station", label = "Köln-Longerich", uic = "8003371", pos = [50.99824, 6.90148] },
+  { km = 8.002, kind = "signal", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 8.667, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 9.743, kind = "stop", label = "Köln Volkhovener Weg", pos = [51.01409, 6.89321], uic = "8003362" },
+  { km = 10.498, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.593, kind = "stop", label = "Köln-Chorweiler", pos = [51.02117, 6.89803], uic = "8003365" },
+  { km = 11.372, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 11.489, kind = "station", label = "Köln-Chorweiler Nord", pos = [51.02803, 6.89286], uic = "8003366" },
+  { km = 12.749, kind = "signal", signal = "stop", dir = -1 },
+  { km = 12.808, kind = "stop", label = "Köln-Blumenberg", pos = [51.0374, 6.88198], uic = "8079140" },
+  { km = 13.156, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 13.691, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 13.926, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 14.619, kind = "signal", label = "P402", signal = "main,speed_limit", dir = -1 },
+  { km = 14.704, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.821, kind = "station", label = "Köln-Worringen", pos = [51.05217, 6.85208], uic = "8003373" },
+  { km = 14.844, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.86, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.866, kind = "signal", label = "R402", signal = "distant,main,minor", dir = 1 },
+  { km = 15.449, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.959, kind = "signal", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.161, kmTo = 0.745, length = 596 },
+  { kind = "bridge", kmFrom = 0.829, kmTo = 0.866, length = 38 },
+  { kind = "bridge", kmFrom = 0.93, kmTo = 0.944, length = 15 },
+  { kind = "bridge", kmFrom = 1.393, kmTo = 1.405, length = 12 },
+  { kind = "bridge", kmFrom = 1.526, kmTo = 1.632, length = 108 },
+  { kind = "tunnel", kmFrom = 1.696, kmTo = 1.747, length = 53 },
+  { kind = "bridge", kmFrom = 2.253, kmTo = 2.286, length = 35 },
+  { kind = "bridge", kmFrom = 3.406, kmTo = 3.497, length = 92 },
+  { kind = "bridge", kmFrom = 6.956, kmTo = 7.001, length = 44 },
+  { kind = "bridge", kmFrom = 7.521, kmTo = 7.554, length = 33 },
+  { kind = "bridge", kmFrom = 7.786, kmTo = 7.802, length = 17 },
+  { kind = "tunnel", kmFrom = 10.231, kmTo = 10.498, length = 267, name = "S-Bahntunnel Köln-Chorweiler" },
+  { kind = "tunnel", kmFrom = 10.498, kmTo = 10.721, length = 223 },
+  { kind = "tunnel", kmFrom = 10.721, kmTo = 12.737, length = 2017, name = "S-Bahntunnel Köln-Chorweiler" },
+  { kind = "tunnel", kmFrom = 12.856, kmTo = 13.156, length = 851, name = "S-Bahntunnel Köln-Kreuzberg" },
+  { kind = "bridge", kmFrom = 14.377, kmTo = 14.388, length = 12 },
+  { kind = "bridge", kmFrom = 15.035, kmTo = 15.059, length = 19 },
+  { kind = "tunnel", kmFrom = 15.496, kmTo = 15.766, length = 240 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yktvH}~wh@|U{J", v = 100 },
+  { line = "{tsvHyjxh@jKoG", tunnel = true, v = 100 },
+  { line = "ohsvHisxh@|h@cV", v = 100 },
+  { line = "q~qvHmjyh@rf@yTfHqFxRuRtEgHjD_JlCsM~@{L", v = 120 },
+  { line = "kgovHgl|h@F}OeC}d@t@gS", tunnel = true, v = 120 },
+  { line = "siovHkw~h@|CaQ", v = 120 },
+  { line = "udovHmi_i@pE{MxGkLrDeDpPkItF_E~a@wi@dCsAdFa@|EjAzCpB", tunnel = true },
+  { line = "g|kvHwcbi@nLnI", tunnel = true, v = 120 },
+  { line = "wnkvHgyai@rNpJfMvDrPfAzOkAzHcDbMoIxS_ShS{T", v = 120 },
+  { line = "gmgvHqaci@hFcG", v = 60 },
+  { line = "}egvHuici@r{AooCfh@e{@", v = 150 },
+  { line = "a`cvHkvii@rKoP`JgHdGiBt[sD", v = 120 },
+  { line = "ocavHazji@fS{ApXvD", v = 80 },
+  { line = "uu_vHewji@hFqA~DqF", v = 70 },
+  { line = "kh_vHiaki@pCwJ", v = 80 },
+  { line = "yc_vHamki@^mC", tunnel = true, v = 80 },
+  { line = "yb_vHoqki@lBqMlCsHjEuFtFcC", v = 80 },
+  { line = "{l~uHouli@|FuAzD}BzVwY", v = 60 },
+  { line = "eg}uH{vmi@P_@", v = 50 },
+  { line = "sf}uH{wmi@f@aA", v = 60 },
+  { line = "ke}uH}ymi@vKiM", v = 50 },
+]
+posts = [[16, 51.06256, 6.84601], [15, 51.0541, 6.85092], [14, 51.04574, 6.85547], [13, 51.0379, 6.87429], [12, 51.03202, 6.88934], [11, 51.02461, 6.89723], [10, 51.01633, 6.89428], [9, 51.0075, 6.89312], [8, 50.99961, 6.89987], [7, 50.99274, 6.90901], [6, 50.98633, 6.91903], [5, 50.97986, 6.92896], [4, 50.97322, 6.9386], [3, 50.9643, 6.94211], [2, 50.95622, 6.94234], [1, 50.9504, 6.95173]]
+
+[[tracks]]
+track = "2"
+kmFrom = 0.005
+kmTo = 16.145
+length = 17.213
+speeds = [[0.005, 0.284, 50, 50], [0.284, 0.316, 60, 60], [0.316, 0.331, 50, 50], [0.331, 1.106, 60, 60], [1.106, 1.167, 80, 60], [1.167, 1.914, 80, 80], [1.914, 2.21, 70, 60], [2.21, 2.236, 70, 80], [2.236, 3.102, 80, 80], [3.102, 4.249, 120, 120], [4.249, 4.325, 150, 120], [4.325, 7.554, 150, 150], [7.554, 7.713, 60, 60], [7.713, 10.498, 120, 120], [10.498, 12.737, "", ""], [12.737, 14.619, 120, 120], [14.619, 14.704, 120, 100], [14.704, 16.145, 100, 100]]
+curves = [[0.169, 0.415, 760], [0.536, 0.576, 2350], [0.761, 1.04, 710], [1.09, 1.636, 490], [1.684, 2.31, 420], [2.43, 2.873, 1350], [3.548, 4.073, 860], [7.497, 7.647, 1030], [8.497, 8.647, 2060], [8.797, 10.096, 1630], [10.521, 11.096, 470], [11.596, 11.946, 1280], [12.121, 13.001, 940], [13.054, 13.441, 810], [13.74, 14.083, 1880], [15.467, 15.562, 1630], [15.645, 15.802, 2290], [15.938, 15.996, 2260]]
+points = [
+  { km = 0.006, kind = "station", label = "Köln Hauptbahnhof", uic = "8015458", pos = [50.94278, 6.95907] },
+  { km = 0.075, kind = "signal", label = "94 ZR 0210", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.158, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.238, kind = "signal", label = "94 ZU 0210", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 0.331, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 0.439, kind = "signal", label = "ZR 0701", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 0.562, kind = "signal", label = "95 ZU 0701", signal = "combined,route,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 0.563, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.747, kind = "signal", label = "ZR 0401", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 0.749, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.763, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.844, kind = "station", label = "Köln Hansaring", pos = [50.94908, 6.95264], uic = "8003392" },
+  { km = 0.852, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.869, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.882, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.91, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.916, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.928, kind = "signal", label = "95 ZU 0401", signal = "combined,route_distant,speed_limit,speed_limit_distant,traversable,wrong_road", dir = 1 },
+  { km = 1.106, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.112, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.167, kind = "signal", label = "95 ZR 0101", signal = "combined,speed_limit", dir = -1 },
+  { km = 1.277, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.291, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.507, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.672, kind = "signal", label = "B502", signal = "distant,main", dir = 1 },
+  { km = 1.675, kind = "signal", label = "95 A", signal = "combined,speed_limit", dir = -1 },
+  { km = 1.747, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.914, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.915, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 2.207, kind = "signal", label = "P504", signal = "distant,main", dir = -1 },
+  { km = 2.21, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.236, kind = "signal", signal = "distant,speed_limit", dir = 1 },
+  { km = 2.296, kind = "station", label = "Köln-Nippes", pos = [50.95899, 6.94178], uic = "8003372" },
+  { km = 2.385, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.392, kind = "signal", label = "N504", signal = "distant,main", dir = 1 },
+  { km = 3.108, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.278, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.332, kind = "signal", label = "F522", signal = "distant,main", dir = -1 },
+  { km = 3.44, kind = "stop", label = "Köln Geldernstraße/Parkgürtel", pos = [50.9685, 6.94135], uic = "8003360" },
+  { km = 4.249, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.314, kind = "signal", label = "524", signal = "main", dir = -1 },
+  { km = 4.325, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.708, kind = "signal", label = "526", signal = "distant,main,traversable", dir = -1 },
+  { km = 6.045, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.753, kind = "signal", signal = "main", dir = -1 },
+  { km = 7.04, kind = "signal", label = "A530", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 7.713, kind = "signal", label = "P803", signal = "distant,main,minor", dir = 1 },
+  { km = 7.794, kind = "station", label = "Köln-Longerich", uic = "8003371", pos = [50.99824, 6.90148] },
+  { km = 8.002, kind = "signal", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 8.667, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 9.743, kind = "stop", label = "Köln Volkhovener Weg", pos = [51.01409, 6.89321], uic = "8003362" },
+  { km = 10.498, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.593, kind = "stop", label = "Köln-Chorweiler", pos = [51.02117, 6.89803], uic = "8003365" },
+  { km = 11.372, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 11.489, kind = "station", label = "Köln-Chorweiler Nord", pos = [51.02803, 6.89286], uic = "8003366" },
+  { km = 12.749, kind = "signal", signal = "stop", dir = -1 },
+  { km = 12.808, kind = "stop", label = "Köln-Blumenberg", pos = [51.0374, 6.88198], uic = "8079140" },
+  { km = 13.156, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 13.691, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 13.926, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 14.619, kind = "signal", label = "P402", signal = "main,speed_limit", dir = -1 },
+  { km = 14.704, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.821, kind = "station", label = "Köln-Worringen", pos = [51.05217, 6.85208], uic = "8003373" },
+  { km = 14.844, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.86, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.866, kind = "signal", label = "R402", signal = "distant,main,minor", dir = 1 },
+  { km = 15.449, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.959, kind = "signal", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.161, kmTo = 0.745, length = 596 },
+  { kind = "bridge", kmFrom = 0.829, kmTo = 0.866, length = 38 },
+  { kind = "bridge", kmFrom = 0.93, kmTo = 0.944, length = 15 },
+  { kind = "bridge", kmFrom = 1.393, kmTo = 1.405, length = 12 },
+  { kind = "bridge", kmFrom = 1.526, kmTo = 1.632, length = 108 },
+  { kind = "tunnel", kmFrom = 1.696, kmTo = 1.747, length = 53 },
+  { kind = "bridge", kmFrom = 2.253, kmTo = 2.286, length = 35 },
+  { kind = "bridge", kmFrom = 3.406, kmTo = 3.497, length = 92 },
+  { kind = "bridge", kmFrom = 6.956, kmTo = 7.001, length = 44 },
+  { kind = "bridge", kmFrom = 7.521, kmTo = 7.554, length = 33 },
+  { kind = "bridge", kmFrom = 7.786, kmTo = 7.802, length = 17 },
+  { kind = "tunnel", kmFrom = 10.231, kmTo = 10.498, length = 267, name = "S-Bahntunnel Köln-Chorweiler" },
+  { kind = "tunnel", kmFrom = 10.498, kmTo = 10.721, length = 223 },
+  { kind = "tunnel", kmFrom = 10.721, kmTo = 12.737, length = 2017, name = "S-Bahntunnel Köln-Chorweiler" },
+  { kind = "tunnel", kmFrom = 12.856, kmTo = 13.156, length = 851, name = "S-Bahntunnel Köln-Kreuzberg" },
+  { kind = "bridge", kmFrom = 14.377, kmTo = 14.388, length = 12 },
+  { kind = "bridge", kmFrom = 15.035, kmTo = 15.059, length = 19 },
+  { kind = "tunnel", kmFrom = 15.496, kmTo = 15.766, length = 240 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yktvH}~wh@|U{J", v = 100 },
+  { line = "{tsvHyjxh@jKoG", tunnel = true, v = 100 },
+  { line = "ohsvHisxh@|h@cV", v = 100 },
+  { line = "q~qvHmjyh@rf@yTfHqFxRuRtEgHjD_JlCsM~@{L", v = 120 },
+  { line = "kgovHgl|h@F}OeC}d@t@gS", tunnel = true, v = 120 },
+  { line = "siovHkw~h@|CaQ", v = 120 },
+  { line = "udovHmi_i@pE{MxGkLrDeDpPkItF_E~a@wi@dCsAdFa@|EjAzCpB", tunnel = true },
+  { line = "g|kvHwcbi@nLnI", tunnel = true, v = 120 },
+  { line = "wnkvHgyai@rNpJfMvDrPfAzOkAzHcDbMoIxS_ShS{T", v = 120 },
+  { line = "gmgvHqaci@hFcG", v = 60 },
+  { line = "}egvHuici@r{AooCfh@e{@", v = 150 },
+  { line = "a`cvHkvii@rKoP`JgHdGiBt[sD", v = 120 },
+  { line = "ocavHazji@fS{ApXvD", v = 80 },
+  { line = "uu_vHewji@hFqA~DqF", v = 70 },
+  { line = "kh_vHiaki@pCwJ", v = 80 },
+  { line = "yc_vHamki@^mC", tunnel = true, v = 80 },
+  { line = "yb_vHoqki@lBqMlCsHjEuFtFcC", v = 80 },
+  { line = "{l~uHouli@|FuAzD}BzVwY", v = 60 },
+  { line = "eg}uH{vmi@P_@", v = 50 },
+  { line = "sf}uH{wmi@f@aA", v = 60 },
+  { line = "ke}uH}ymi@vKiM", v = 50 },
+]
+posts = [[16, 51.06256, 6.84601], [15, 51.0541, 6.85092], [14, 51.04574, 6.85547], [13, 51.0379, 6.87429], [12, 51.03202, 6.88934], [11, 51.02461, 6.89723], [10, 51.01633, 6.89428], [9, 51.0075, 6.89312], [8, 50.99961, 6.89987], [7, 50.99274, 6.90901], [6, 50.98633, 6.91903], [5, 50.97986, 6.92896], [4, 50.97322, 6.9386], [3, 50.9643, 6.94211], [2, 50.95622, 6.94234], [1, 50.9504, 6.95173]]
+
+[[connections]]
+km = 0.006
+station = "Köln Hauptbahnhof"
+lines = [
+  { id = "2600", ref = "2600", name = "2600 Köln Hbf - Aachen Süd Grenze", km = 0.053 },
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = -1.977 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 0.171 },
+]
+
+[[connections]]
+km = 0.844
+station = "Köln Hansaring"
+lines = [
+  { id = "2600", ref = "2600", name = "2600 Köln Hbf - Aachen Süd Grenze", km = 0.912 },
+  { id = "2610", ref = "2610", name = "2610 Köln - Kleve", km = 1 },
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = -1.144 },
+]
+
+[[connections]]
+km = 2.296
+station = "Köln-Nippes"
+lines = [
+  { id = "2615", ref = "2615", name = "2615 Köln West - Köln-Longerich", km = 1.4 },
+]
+
+[[connections]]
+km = 7.794
+station = "Köln-Longerich"
+lines = [
+  { id = "2615", ref = "2615", name = "2615 Köln West - Köln-Longerich", km = 6.869 },
+]
+
+[[connections]]
+km = 14.821
+station = "Köln-Worringen"
+lines = [
+  { id = "2610", ref = "2610", name = "2610 Köln - Kleve", km = 14.809 },
+]

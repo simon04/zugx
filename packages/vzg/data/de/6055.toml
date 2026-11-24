@@ -1,0 +1,40 @@
+id = "6055"
+ref = "6055"
+name = "6055 Gröbers - Gröbers Ost"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Gröbers"
+to = "Gröbers Ost"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.796
+length = 1.796
+speeds = [[0, 1.796, 160, 160]]
+curves = []
+points = [
+  { km = 0.433, kind = "signal", label = "81N8", signal = "catenary_mast,main,train_protection", dir = -1 },
+  { km = 1.331, kind = "halt", label = "Gröbers", uic = "8023452", pos = [51.43236, 12.11666] },
+  { km = 1.355, kind = "signal", label = "81P8", signal = "main", dir = 1 },
+  { km = 1.399, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.223, kmTo = 1.257, length = 34 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yc|xHggaiA{GvkAwDhrA", v = 160 },
+]
+posts = [[0, 51.43117, 12.13572], [1, 51.43275, 12.12153]]
+
+[[connections]]
+km = 1.331
+station = "Gröbers"
+lines = [
+  { id = "5919", ref = "5919", name = "5919 Eltersdorf - Leipzig Hbf", km = 285.658 },
+  { id = "6053", ref = "6053", name = "S-Bahn", km = 10.733 },
+  { id = "6403", ref = "6403", name = "Magdeburg-Leipzig", km = 96.738 },
+]

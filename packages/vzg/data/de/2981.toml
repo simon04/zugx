@@ -1,0 +1,85 @@
+id = "2981"
+ref = "2981"
+name = "2981 Herford - Kichlengern"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q21696304"
+from = "Herford"
+to = "Kirchlengern"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.585
+kmTo = 8.991
+length = 9.527
+speeds = [[-0.585, -0.457, "", ""], [-0.457, -0.259, 60, 60], [-0.259, 0.054, "", ""], [0.054, 1.425, 60, 60], [1.425, 1.474, "", ""], [1.474, 8.405, 100, 100], [8.405, 8.443, "", ""], [8.443, 8.991, 100, 100]]
+curves = [[0.165, 0.315, 1400], [0.414, 0.833, 1080], [5.295, 5.903, 740], [6.15, 6.71, 720], [7.447, 7.73, 1520], [8.033, 8.889, 740]]
+points = [
+  { km = -0.398, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.313, kind = "signal", label = "N 3", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = -0.086, kind = "signal", signal = "main_repeated" },
+  { km = -0.053, kind = "station", label = "Herford", pos = [52.11964, 8.66377], uic = "8000162" },
+  { km = 0.146, kind = "signal", label = "S3", signal = "distant,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 0.258, kind = "signal", signal = "minor" },
+  { km = 0.324, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.386, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.758, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.76, kind = "signal", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.945, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.211, kind = "signal", label = "P123", signal = "main,minor,traversable", dir = 1 },
+  { km = 1.507, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.789, kind = "signal", label = "C", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 2.803, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.28, kind = "station", label = "Hiddenhausen-Schweicheln", pos = [52.15854, 8.6683], uic = "8002824" },
+  { km = 5.764, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 6.309, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 6.357, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 6.88, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 7.316, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.318, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.382, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.384, kind = "signal", label = "1C", signal = "distant,main,traversable", dir = 1 },
+  { km = 8.904, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.259, kmTo = -0.239, length = 20 },
+  { kind = "bridge", kmFrom = 1.425, kmTo = 1.442, length = 17 },
+  { kind = "bridge", kmFrom = 2.561, kmTo = 2.582, length = 24 },
+  { kind = "bridge", kmFrom = 4.359, kmTo = 4.373, length = 16 },
+  { kind = "bridge", kmFrom = 5.35, kmTo = 5.37, length = 12 },
+  { kind = "tunnel", kmFrom = 5.472, kmTo = 5.577, length = 106 },
+  { kind = "bridge", kmFrom = 8.405, kmTo = 8.443, length = 36 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{xa}Hakzs@}DkE" },
+  { line = "y~a}Hmqzs@qHkH", v = 60 },
+  { line = "khb}Hyzzs@iNgM" },
+  { line = "uwb}Hai{s@aKgI}OkHuGq@mb@I", v = 60 },
+  { line = "y`e}Hq~{s@sA?" },
+  { line = "mce}Hq~{s@c`Fa@", v = 100 },
+  { line = "qdl}Hs_|s@yDdA", tunnel = true, v = 100 },
+  { line = "kjl}Hm}{s@mHhFwStWiIdF}HbAkk@wA}KTsYhGuFzCeEfE", v = 100 },
+  { line = "s~p}Hwbzs@q@~@" },
+  { line = "e`q}Hw`zs@aChEaD|IaBjIqA|M", v = 100 },
+]
+posts = [[0, 52.12, 8.66425], [1, 52.12841, 8.66807], [2, 52.13704, 8.66812], [3, 52.14621, 8.66817], [4, 52.15581, 8.66821], [5, 52.16433, 8.6683], [6, 52.17233, 8.66518], [7, 52.18113, 8.66151], [8, 52.18979, 8.66073]]
+
+[[connections]]
+km = -0.053
+station = "Herford"
+lines = [
+  { id = "1700", ref = "1700", name = "1700 Hannover - Hamm", km = 95.593 },
+  { id = "2980", ref = "2980", name = "2980 Herford - Himmighausen", km = 0.325 },
+  { id = "2990", ref = "2990", name = "2990 Minden - Hamm", km = 95.587 },
+]
+
+[[connections]]
+km = 4.28
+station = "Hiddenhausen-Schweicheln"
+lines = [
+  { id = "1700", ref = "1700", name = "1700 Hannover - Hamm", km = 91.204 },
+  { id = "2990", ref = "2990", name = "2990 Minden - Hamm", km = 91.204 },
+]

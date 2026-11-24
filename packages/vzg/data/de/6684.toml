@@ -1,0 +1,55 @@
+id = "6684"
+ref = "6684"
+name = "6684 Orlamünde–Oppurg"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q1720091"
+from = "Orlamünde"
+to = "Oppurg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.517
+kmTo = 11.728
+length = 12.187
+speeds = [[-0.517, 0.002, "", ""], [0.002, 0.05, 40, 40], [0.05, 11.728, "", ""]]
+curves = [[-0.055, 0.395, 560], [0.47, 0.545, 1500], [0.769, 0.969, 940], [1.218, 1.641, 390], [1.691, 2.064, 380], [2.114, 2.687, 460], [2.787, 3.135, 540], [3.26, 3.658, 440], [3.758, 4.331, 1040], [4.704, 5.053, 340], [5.103, 5.476, 480], [5.7, 5.974, 700], [6.174, 6.796, 360], [6.846, 7.17, 390], [7.424, 7.78, 370], [7.907, 8.34, 340], [9.23, 9.408, 1390], [10.045, 10.274, 760], [10.63, 11.397, 410]]
+points = [
+  { km = -0.433, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = -0.42, kind = "signal", label = "21 P3", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = -0.124, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = -0.06, kind = "station", label = "Orlamünde", pos = [50.7757, 11.54517], uic = "8016324" },
+  { km = -0.006, kind = "signal", label = "21 ZR3", signal = "main,route,speed_limit,traversable", dir = 1 },
+  { km = -0.003, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.013, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.05, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.064, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 0.55, kind = "stop", label = "Freienorla", pos = [50.77137, 11.54016], uic = "8016409" },
+  { km = 5.522, kind = "stop", label = "Langenorla West", pos = [50.74193, 11.57981], uic = "8016408" },
+  { km = 7.278, kind = "stop", label = "Langenorla Ost", pos = [50.73077, 11.59242], uic = "8016407" },
+  { km = 11.416, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 11.67, kind = "stop", label = "Pößneck unterer Bahnhof", pos = [50.70047, 11.60691] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.177, kmTo = 0.274, length = 97 },
+  { kind = "bridge", kmFrom = 0.383, kmTo = 0.448, length = 66 },
+  { kind = "bridge", kmFrom = 3.008, kmTo = 3.028, length = 20 },
+  { kind = "bridge", kmFrom = 3.671, kmTo = 3.684, length = 13 },
+  { kind = "bridge", kmFrom = 6.403, kmTo = 6.424, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ykmtHcyyeAiGi_@uBsG_DoEiCcBsCu@{DDkFzBwTdTqB`Ayl@zKgv@d\\mCbE}ArGkBn_@iBfGcChD{MrOqAp@uEJoJwD_EYyEzAgCjCeBnDiAnEyCnXgBxIsMnZoA`F{@rIAjOu@nHgClGcUtYeCdFqAdFuAdKaBr]_AjGgDvHwKrLaCrEgAnE_DnUkCbGcKzG{LXoDbAcEhEsIzPsCpB_En@mScBoFuAsWoLkGaGoBwE" },
+  { line = "m`|tHyqmeA]_C", v = 40 },
+  { line = "ka|tHyumeAeGgk@" },
+]
+posts = [[11, 50.7037, 11.61419], [10, 50.71178, 11.60972], [9, 50.7204, 11.60679], [8, 50.72799, 11.60077], [7, 50.73295, 11.5906], [6, 50.73959, 11.5855], [5, 50.74334, 11.57306], [4, 50.74912, 11.56266], [3, 50.75339, 11.55108], [2, 50.75965, 11.54306], [1, 50.76754, 11.53841], [0, 50.77543, 11.54416]]
+
+[[connections]]
+km = -0.06
+station = "Orlamünde"
+lines = [
+  { id = "6305", ref = "6305", name = "6305 - Saalbahn", km = 47.288 },
+]

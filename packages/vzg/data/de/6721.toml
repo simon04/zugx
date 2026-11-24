@@ -1,0 +1,97 @@
+id = "6721"
+ref = "6721"
+name = "Pfefferminzbahn"
+operator = "Thüringer Eisenbahn GmbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 13.8
+kmTo = 51.6
+length = 37.7
+speeds = [[13.8, 20.648, 80, 80], [20.648, 21.039, 60, 60], [21.039, 28.331, 80, 80], [28.331, 29.085, 40, 40], [29.085, 29.975, 50, 50], [29.975, 34.742, 80, 80], [34.742, 35.12, 60, 60], [35.12, 35.215, 40, 40], [35.215, 37.119, 60, 60], [37.119, 44.797, 80, 80], [44.797, 45.6, 40, 40], [45.6, 46.566, 50, 50], [46.566, 51.6, 80, 80]]
+curves = [[17.913, 18.064, 2040], [18.139, 18.264, 1420], [19.758, 20.358, 1640], [20.695, 20.851, 1240], [21.101, 21.225, 1720], [21.573, 21.622, 2430], [21.746, 22.044, 980], [30.126, 30.598, 2090], [32.019, 32.174, 2270], [34.241, 34.918, 1140], [35.071, 35.145, 1770], [35.195, 35.245, 1650], [35.694, 36.043, 800], [36.89, 37.414, 780], [37.738, 38.087, 790], [40.953, 41.153, 1660], [43.471, 43.695, 2030], [47.015, 47.256, 1290], [48.238, 48.685, 820], [49.007, 49.28, 1200], [49.478, 50.428, 1250]]
+points = [
+  { km = 17.1, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 18.327, kind = "station", label = "Kiebitzhöhe", uic = "8012007", pos = [51.18111, 11.20387] },
+  { km = 21.039, kind = "signal", label = "P3", signal = "main", dir = -1 },
+  { km = 21.283, kind = "signal", signal = "stop", dir = -1 },
+  { km = 21.526, kind = "station", label = "Kölleda", uic = "8012064", pos = [51.17961, 11.24855] },
+  { km = 21.576, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 24.611, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 24.658, kind = "stop", label = "Großneuhausen", uic = "8011754", pos = [51.16436, 11.28639] },
+  { km = 28.621, kind = "signal", signal = "stop", dir = 1 },
+  { km = 28.648, kind = "station", label = "Olbersleben-Ellersleben", uic = "8012562", pos = [51.14387, 11.33346] },
+  { km = 29.504, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 29.597, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 29.751, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 30.174, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 30.223, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 30.872, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 30.98, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 31.014, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 31.187, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 31.22, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 31.253, kind = "station", label = "Guthmannshausen", uic = "8011791", pos = [51.13239, 11.36616] },
+  { km = 32.027, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 35.104, kind = "station", label = "Buttstädt", uic = "8011304", pos = [51.12671, 11.41788] },
+  { km = 35.12, kind = "signal", signal = "speed_limit,stop", dir = 1 },
+  { km = 36.043, kind = "signal", signal = "main", dir = -1 },
+  { km = 36.867, kind = "signal", signal = "distant", dir = -1 },
+  { km = 37.874, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 39.329, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 39.767, kind = "signal", signal = "stop", dir = -1 },
+  { km = 39.829, kind = "station", label = "Tromsdorf", pos = [51.11847, 11.48127], uic = "8013152" },
+  { km = 39.852, kind = "signal", signal = "stop", dir = 1 },
+  { km = 44.083, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 44.218, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 44.932, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 45.055, kind = "signal", signal = "stop", dir = -1 },
+  { km = 46.463, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 47.026, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 47.306, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 47.609, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 47.619, kind = "signal", signal = "stop", dir = -1 },
+  { km = 48.317, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 50.346, kind = "signal", signal = "stop", dir = -1 },
+  { km = 50.438, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 50.675, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 50.881, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 51.159, kind = "signal", signal = "crossing", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 15.768, kmTo = 15.779, length = 11 },
+  { kind = "bridge", kmFrom = 16.683, kmTo = 16.695, length = 13 },
+  { kind = "bridge", kmFrom = 17.078, kmTo = 17.09, length = 12 },
+  { kind = "bridge", kmFrom = 20.758, kmTo = 20.768, length = 10 },
+  { kind = "bridge", kmFrom = 23.037, kmTo = 23.052, length = 15 },
+  { kind = "bridge", kmFrom = 24.932, kmTo = 24.947, length = 14 },
+  { kind = "bridge", kmFrom = 27.904, kmTo = 27.929, length = 25 },
+  { kind = "bridge", kmFrom = 34.04, kmTo = 34.055, length = 14 },
+  { kind = "bridge", kmFrom = 40.302, kmTo = 40.313, length = 11 },
+  { kind = "bridge", kmFrom = 48.335, kmTo = 48.346, length = 11 },
+  { kind = "bridge", kmFrom = 49.936, kmTo = 49.948, length = 13 },
+  { kind = "bridge", kmFrom = 51.085, kmTo = 51.099, length = 13 },
+  { kind = "bridge", kmFrom = 51.569, kmTo = 51.581, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}lhwHon_cA_sAmlIqEe_@cMuvC\\oYvD_e@", v = 80 },
+  { line = "}nkwHitqcAlFe_@", v = 60 },
+  { line = "ogkwHotrcA|AyJlHgu@vCcN|jEqsM", v = 80 },
+  { line = "mjdwHgzcdA~Vav@", v = 40 },
+  { line = "mrcwHiqedAr[k`A", v = 50 },
+  { line = "yubwHurgdA`FyOvFaW~[e`CnSinC", v = 80 },
+  { line = "ou`wHalqdAP}B", tunnel = true, v = 80 },
+  { line = "}t`wH_pqdA~E{s@BkNm@iM", v = 80 },
+  { line = "go`wHqbtdAgEk^", v = 60 },
+  { line = "ou`wH}audAcAyF", v = 40 },
+  { line = "sw`wHwiudAmIum@u@_PtBouApA_P", v = 60 },
+  { line = "o}`wH}pzdArDgO~P}^vDqNnp@_}FfAeOhS{sElSajB", v = 80 },
+  { line = "sc}vHy~neAdLybA", v = 40 },
+  { line = "mv|vHsbqeApOisA", v = 50 },
+  { line = "{e|vH}vseA|Fyg@x@kMhBgbBj@aL~BaOfLa`@bCqL~Eed@fA_Z[mQaCyQs]uvA", v = 80 },
+]
+posts = [[14, 51.16706, 11.14626], [15, 51.17041, 11.15952], [16, 51.17374, 11.17279], [17, 51.17708, 11.18606], [18, 51.18039, 11.19935], [19, 51.18197, 11.21349], [20, 51.18314, 11.22775], [21, 51.18101, 11.24132], [22, 51.17809, 11.25495], [23, 51.17293, 11.26682], [24, 51.16778, 11.27866], [25, 51.16261, 11.29056], [26, 51.1574, 11.30251], [27, 51.15227, 11.31428], [28, 51.14719, 11.32594], [29, 51.14211, 11.3376], [30, 51.13696, 11.34937], [31, 51.13333, 11.36174], [32, 51.13016, 11.37593], [33, 51.12816, 11.38943], [34, 51.12628, 11.40298], [35, 51.12644, 11.41644], [36, 51.12908, 11.4301], [37, 51.12839, 11.44443], [38, 51.12341, 11.45618], [39, 51.12072, 11.4699], [40, 51.11805, 11.48363], [41, 51.11539, 11.49735], [42, 51.11396, 11.51154], [43, 51.11262, 11.52574], [44, 51.11073, 11.53976], [45, 51.10801, 11.55361], [46, 51.1054, 11.56701], [47, 51.10262, 11.58118], [48, 51.10186, 11.59578], [49, 51.09899, 11.6091], [50, 51.09661, 11.62287], [51, 51.09977, 11.63488]]

@@ -1,0 +1,77 @@
+id = "4082"
+ref = "4082"
+name = "Rheinbahn"
+operator = "DB InfraGO"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 32.538
+kmTo = 40.459
+length = 7.892
+speeds = [[32.538, 40.39, 200, 200], [40.39, 40.459, 80, 80]]
+curves = [[33.529, 33.763, 2380], [33.942, 34.096, 2340]]
+points = [
+  { km = 33.108, kind = "signal", label = "v223", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 33.166, kind = "signal", label = "30", signal = "main", dir = -1 },
+  { km = 33.696, kind = "signal", label = "Wv223", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 34.07, kind = "signal", label = "37 223", signal = "main,speed_limit", dir = 1 },
+  { km = 34.117, kind = "signal", label = "v30", signal = "distant", dir = -1 },
+  { km = 34.387, kind = "signal", label = "37 294", signal = "main,speed_limit,wrong_road", dir = -1 },
+  { km = 34.424, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 34.786, kind = "signal", signal = "distant", dir = 1 },
+  { km = 35.497, kind = "signal", label = "37 224", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 35.882, kind = "signal", label = "37 225", signal = "main", dir = 1 },
+  { km = 36.52, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 36.828, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 37.299, kind = "signal", signal = "catenary_mast,train_protection" },
+  { km = 37.417, kind = "signal", label = "37 226", signal = "main", dir = -1 },
+  { km = 37.841, kind = "halt", label = "Graben-Neudorf Nord", uic = "8039278", pos = [49.17794, 8.49407] },
+  { km = 37.908, kind = "signal", label = "38AA", signal = "main,speed_limit", dir = 1 },
+  { km = 38.386, kind = "signal", signal = "minor", dir = -1 },
+  { km = 38.454, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 38.456, kind = "signal", signal = "distant", dir = -1 },
+  { km = 38.883, kind = "signal", label = "38 P2", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 39.63, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 39.662, kind = "station", label = "Graben-Neudorf", pos = [49.16171, 8.49057], uic = "8014068" },
+  { km = 39.685, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 39.685, kind = "signal", label = "38 N2", signal = "main,minor,route,speed_limit", dir = 1 },
+  { km = 39.802, kind = "signal", label = "38L 22X", signal = "minor", dir = 1 },
+  { km = 39.872, kind = "signal", signal = "minor", dir = -1 },
+  { km = 39.927, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 40.025, kind = "signal", label = "38L 52X", signal = "minor", dir = 1 },
+  { km = 40.096, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 40.1, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 33.792, kmTo = 33.87, length = 87 },
+  { kind = "bridge", kmFrom = 34.728, kmTo = 34.742, length = 16 },
+  { kind = "bridge", kmFrom = 38.865, kmTo = 38.883, length = 18 },
+  { kind = "bridge", kmFrom = 40.187, kmTo = 40.198, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ggmkHwpzr@ps@kMxNeA", v = 200 },
+  { line = "{bkkHia{r@zCA", tunnel = true, v = 200 },
+  { line = "_~jkHka{r@vNT`s@xG`fHxv@", v = 200 },
+  { line = "cs_kHa`yr@xBl@", v = 80 },
+]
+posts = [[33, 49.22108, 8.49794], [34, 49.21198, 8.49959], [35, 49.20324, 8.49819], [36, 49.19433, 8.49653], [37, 49.18539, 8.49484], [38, 49.17644, 8.49319], [39, 49.16751, 8.49156], [40, 49.15873, 8.48991]]
+
+[[connections]]
+km = 37.841
+station = "Graben-Neudorf Nord"
+lines = [
+  { id = "4020", ref = "4020", name = "4020 Mannheim Hbf - Rastatt", km = 37.841 },
+  { id = "4132", ref = "4132", name = "4132 Bruchsal - Rheinsheim Streckenwechsel 4132/3450", km = 10.655 },
+]
+
+[[connections]]
+km = 39.662
+station = "Graben-Neudorf"
+lines = [
+  { id = "4020", ref = "4020", name = "4020 Mannheim Hbf - Rastatt", km = 39.662 },
+  { id = "4132", ref = "4132", name = "4132 Bruchsal - Rheinsheim Streckenwechsel 4132/3450", km = 9.107 },
+]

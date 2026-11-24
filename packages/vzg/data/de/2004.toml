@@ -1,0 +1,43 @@
+id = "2004"
+ref = "2004"
+name = "2004 Münster (Westf) Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Münster (Westf) Hbf"
+to = "Münster (Westf) Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.756
+length = 0.756
+speeds = [[0, 0.055, 60, 40], [0.055, 0.756, 25, 25]]
+curves = [[0.125, 0.25, 1350], [0.475, 0.65, 1220]]
+points = [
+  { km = 0.207, kind = "signal", label = "18II", signal = "minor", dir = -1 },
+  { km = 0.266, kind = "station", label = "Münster (Westf) Hauptbahnhof", uic = "8000263", pos = [51.95641, 7.63579] },
+  { km = 0.601, kind = "signal", label = "18I", signal = "minor", dir = 1 },
+  { km = 0.687, kind = "signal", label = "28II", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.645, kmTo = 0.668, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_ec|Hoprm@`BR", v = 60 },
+  { line = "}ac|H{orm@nGTxQfDvJG", v = 25 },
+]
+posts = [[0, 51.95872, 7.63672]]
+
+[[connections]]
+km = 0.266
+station = "Münster Hauptbahnhof"
+lines = [
+  { id = "2000", ref = "2000", name = "2000 Lünen - Münster", km = 45.249 },
+  { id = "2013", ref = "2013", name = "2013 Münster (Westf) - Rheda-Wiedenbrück", km = -0.197 },
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 67.671 },
+  { id = "2273", ref = "2273", name = "2273 Bottrop Nord - Quakenbrück", km = 170.221 },
+  { id = "2931", ref = "2931", name = "2931 Hamm (Westf) - Emden", km = 170.355 },
+]

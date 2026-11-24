@@ -1,0 +1,26 @@
+id = "9490"
+ref = "9490"
+name = "Jagsttalbahn"
+operator = "JAGSTTALBAHN AG"
+gauge = "750"
+wikidata = "Q1678482"
+from = "Widdern"
+to = "Dörzbach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 37.973
+kmTo = 39.171
+length = 1.197
+speeds = [[37.973, 39.171, "", ""]]
+curves = [[38.073, 38.223, 250], [38.774, 38.874, 1620]]
+points = [
+  { km = 39.12, kind = "station", label = "Dörzbach", pos = [49.38482, 9.70144] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "e{llHyzbz@|CwEz@qEjDwt@^o^" },
+]
+posts = [[38, 49.38672, 9.6866], [39, 49.38487, 9.69978]]

@@ -1,0 +1,127 @@
+id = "6996"
+ref = "6996"
+name = "Mecklenburgische Bäderbahn"
+operator = "Mecklenburgische Bäderbahn Molli"
+gauge = "900"
+wikidata = "Q9643"
+from = "Bad Doberan"
+to = "Kühlungsborn West"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.159
+kmTo = 15.606
+length = 15.711
+speeds = [[-0.159, 0.011, "", ""], [0.011, 0.35, 15, 20], [0.35, 1.573, 15, ""], [1.573, 15.606, "", ""]]
+curves = [[-0.059, 0.29, 350], [0.339, 0.637, 530], [0.687, 0.99, 520], [1.293, 1.52, 400], [1.923, 2.048, 1520], [2.749, 2.975, 460], [4.453, 4.529, 1930], [4.579, 4.981, 560], [5.055, 5.179, 2000], [5.281, 5.456, 2290], [5.557, 5.88, 1780], [5.93, 6.005, 1450], [6.055, 6.23, 500], [6.282, 6.596, 400], [6.825, 7.023, 270], [7.146, 7.244, 880], [7.295, 7.624, 280], [7.902, 8.231, 370], [8.306, 8.625, 360], [10.188, 10.29, 1830], [10.807, 11.004, 710], [11.63, 11.884, 540], [12.138, 12.638, 310], [12.89, 13.14, 720], [13.242, 13.481, 440], [13.548, 13.828, 220], [14.543, 14.719, 500], [15.169, 15.42, 320]]
+points = [
+  { km = -0.103, kind = "signal", signal = "catenary_mast,stop", dir = -1 },
+  { km = -0.072, kind = "station", label = "Bad Doberan", uic = "8027123", pos = [54.09998, 11.90497] },
+  { km = 0.011, kind = "signal", signal = "catenary_mast,ring,speed_limit", dir = 1 },
+  { km = 0.017, kind = "signal", signal = "catenary_mast,ring", dir = -1 },
+  { km = 0.107, kind = "signal", signal = "catenary_mast,crossing_distant", dir = 1 },
+  { km = 0.112, kind = "signal", signal = "catenary_mast,shunting", dir = 1 },
+  { km = 0.126, kind = "signal", signal = "catenary_mast,speed_limit_distant,whistle", dir = -1 },
+  { km = 0.196, kind = "signal", signal = "catenary_mast,main", dir = -1 },
+  { km = 0.266, kind = "signal", signal = "catenary_mast,crossing_distant", dir = 1 },
+  { km = 0.311, kind = "signal", signal = "catenary_mast,crossing", dir = 1 },
+  { km = 0.345, kind = "signal", signal = "catenary_mast,crossing_info", dir = 1 },
+  { km = 0.35, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+  { km = 0.476, kind = "signal", signal = "catenary_mast,crossing_info", dir = -1 },
+  { km = 0.52, kind = "stop", label = "Bad Doberan Stadtmitte", pos = [54.10446, 11.90219], uic = "8017791" },
+  { km = 1.014, kind = "stop", label = "Bad Doberan Goethestraße", pos = [54.10851, 11.89993], uic = "8027901" },
+  { km = 1.608, kind = "signal", signal = "catenary_mast,ring", dir = 1 },
+  { km = 1.772, kind = "signal", signal = "catenary_mast,ring,speed_limit_distant", dir = -1 },
+  { km = 2.369, kind = "signal", signal = "catenary_mast,whistle", dir = 1 },
+  { km = 2.573, kind = "signal", signal = "catenary_mast,whistle", dir = -1 },
+  { km = 3.711, kind = "signal", signal = "main", dir = 1 },
+  { km = 3.874, kind = "halt", label = "Heiligendamm Rennbahn", pos = [54.12685, 11.87366] },
+  { km = 3.877, kind = "stop", label = "Rennbahn", pos = [54.12688, 11.87363] },
+  { km = 3.883, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.04, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 4.638, kind = "signal", signal = "catenary_mast,crossing_info", dir = 1 },
+  { km = 4.672, kind = "signal", signal = "catenary_mast,crossing_info", dir = -1 },
+  { km = 4.877, kind = "signal", signal = "catenary_mast,crossing_info", dir = 1 },
+  { km = 4.922, kind = "signal", signal = "catenary_mast,crossing_info", dir = -1 },
+  { km = 5.298, kind = "signal", signal = "catenary_mast,crossing", dir = -1 },
+  { km = 5.396, kind = "signal", signal = "catenary_mast,crossing_distant", dir = -1 },
+  { km = 5.524, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 5.787, kind = "signal", signal = "catenary_mast,ring,speed_limit_distant", dir = 1 },
+  { km = 5.964, kind = "signal", signal = "catenary_mast,distant", dir = 1 },
+  { km = 5.984, kind = "signal", signal = "catenary_mast,ring", dir = -1 },
+  { km = 6.37, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 6.602, kind = "station", label = "Heiligendamm", pos = [54.14165, 11.84279], uic = "8027902" },
+  { km = 6.694, kind = "signal", signal = "stop", dir = 1 },
+  { km = 6.936, kind = "signal", label = "B", signal = "main", dir = -1 },
+  { km = 8.409, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 9.907, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 10.046, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 10.047, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.053, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 10.175, kind = "stop", label = "Steilküste", pos = [54.14479, 11.79386], uic = "8069675" },
+  { km = 10.218, kind = "signal", signal = "stop", dir = 1 },
+  { km = 10.225, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 10.377, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 10.379, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 11.459, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 11.502, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 11.633, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 11.729, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 12.03, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 12.037, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 12.061, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 12.105, kind = "signal", signal = "crossing_distant" },
+  { km = 12.251, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 12.296, kind = "signal", signal = "speed_limit_distant,whistle", dir = 1 },
+  { km = 12.348, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.395, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 12.396, kind = "signal", signal = "main", dir = 1 },
+  { km = 12.459, kind = "signal", signal = "crossing_distant" },
+  { km = 12.511, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 12.601, kind = "signal", signal = "speed_limit_distant,whistle", dir = -1 },
+  { km = 12.611, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 12.666, kind = "signal", signal = "crossing_info,stop", dir = -1 },
+  { km = 12.7, kind = "station", label = "Kühlungsborn Ost", pos = [54.14765, 11.75972], measured = true, uic = "8027903" },
+  { km = 12.758, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.839, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.846, kind = "signal", signal = "ring,speed_limit_distant", dir = 1 },
+  { km = 12.941, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 12.947, kind = "signal", signal = "ring", dir = -1 },
+  { km = 12.995, kind = "signal", signal = "main", dir = -1 },
+  { km = 13.238, kind = "signal", signal = "crossing_distant" },
+  { km = 13.297, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.501, kind = "stop", label = "Kühlungsborn Mitte", pos = [54.14172, 11.75362], uic = "8027904" },
+  { km = 13.562, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 13.617, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 13.621, kind = "signal", signal = "ring", dir = 1 },
+  { km = 13.861, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 14.008, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.155, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 14.324, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 14.499, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 15.014, kind = "signal", signal = "ring,speed_limit_distant", dir = 1 },
+  { km = 15.087, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 15.132, kind = "signal", signal = "main", dir = 1 },
+  { km = 15.172, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 15.194, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 15.334, kind = "signal", signal = "ring", dir = 1 },
+  { km = 15.456, kind = "station", label = "Kühlungsborn West", pos = [54.14653, 11.72757], uic = "8027905" },
+  { km = 15.479, kind = "signal", signal = "stop", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{jeiIomtgAqB`N" },
+  { line = "mneiIm~sgA_AnEuBjCaI}@", v = 20 },
+  { line = "e~eiIousgAmCUcDhAeLnJaE|AyZgAuA~@_DjF", v = 15 },
+  { line = "o~giIi~rgA{QlYuf@hl@_BrFam@nuCmEvIaQtPaO`TcFpKaHnXaJ~M}@|DOtZ^lPhIxQbFhH`BfIFbFiC|e@uC~IaM~KqCvI_Mp|CuFxu@cBxMgUh~@c@hHi@t_@BlFl@`GxChI`DpC~TxJbLlTlDbClFfJfAnFsMrrAaU|p@WrG`ApV" },
+]
+posts = [[0, 54.10035, 11.90406], [1, 54.10841, 11.89995], [2, 54.11615, 11.89463], [3, 54.12322, 11.88549], [4, 54.12739, 11.87197], [5, 54.13226, 11.8595], [6, 54.13897, 11.8496], [7, 54.14114, 11.83665], [8, 54.13894, 11.8236], [9, 54.14324, 11.81143], [10, 54.14456, 11.79631], [11, 54.14675, 11.78147], [12, 54.1504, 11.76788], [13, 54.14517, 11.75839], [14, 54.14143, 11.74689], [15, 54.14509, 11.7332]]
+
+[[connections]]
+km = -0.072
+station = "Bad Doberan"
+lines = [
+  { id = "6921", ref = "6921", name = "6921 Wismar - Rostock Hbf", km = 40.751 },
+]

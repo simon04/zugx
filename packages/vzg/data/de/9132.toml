@@ -1,0 +1,114 @@
+id = "9132"
+ref = "9132"
+name = "Bremervörde–Osterholz-Scharmbeck"
+operator = "Eisenbahnen und Verkehrsbetriebe Elbe-Weser"
+gauge = "1435"
+wikidata = "Q19838703"
+from = "Bremervörde"
+to = "Osterholz-Scharmbeck"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.626
+kmTo = 47.447
+length = 46.629
+speeds = [[0.626, 0.943, "", ""], [0.943, 18.525, 60, 60], [18.525, 19.17, 40, 40], [19.17, 19.304, 30, 30], [19.304, 36.344, "", ""], [36.344, 38.479, 60, 60], [38.479, 44.372, "", ""], [44.372, 45.474, 60, 60], [45.474, 45.889, 50, 50], [45.889, 46.716, 60, 60], [46.716, 47.364, 30, 30], [47.364, 47.447, "", ""]]
+curves = [[0.726, 0.826, 460], [0.876, 0.951, 860], [1.001, 1.552, 1050], [6.413, 6.563, 1400], [7.34, 7.866, 540], [8.242, 8.367, 1630], [10.822, 11.173, 550], [11.849, 12.124, 1120], [13.3, 13.951, 1080], [15.478, 15.853, 660], [17.055, 17.68, 810], [18.331, 18.693, 560], [20.091, 20.442, 1440], [22.373, 22.875, 990], [23.552, 23.928, 1050], [24.379, 24.906, 510], [25.157, 25.282, 1780], [26.11, 26.285, 750], [26.335, 26.536, 850], [28.718, 29.044, 660], [29.269, 29.646, 660], [31.928, 32.103, 1270], [33.855, 33.93, 2160], [34.656, 35.432, 1140], [36.053, 36.355, 660], [40.375, 40.872, 1030], [41.455, 41.796, 500], [41.844, 42.136, 360], [42.307, 42.501, 720], [43.304, 43.7, 1170], [44.634, 44.684, 2130], [45.351, 45.675, 810], [45.945, 46.663, 490], [46.813, 46.873, 1320], [47.218, 47.318, 1140]]
+points = [
+  { km = 0.631, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.818, kind = "signal", label = "35 ZS8", signal = "combined,minor,traversable", dir = -1 },
+  { km = 0.898, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.997, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.343, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 1.466, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 7.918, kind = "halt", label = "Barchel", pos = [53.47187, 9.02732] },
+  { km = 10.124, kind = "halt", label = "Basdahl", pos = [53.4542, 9.01242] },
+  { km = 14.776, kind = "halt", label = "Brillit", pos = [53.41457, 9.01365] },
+  { km = 17.208, kind = "halt", label = "Gnarrenburg Nord", pos = [53.39341, 9.01541] },
+  { km = 18.501, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 18.501, kind = "signal", signal = "resetting_switch_distant", dir = 1 },
+  { km = 18.525, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 18.525, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.629, kind = "signal", signal = "resetting_switch", dir = 1 },
+  { km = 18.692, kind = "station", label = "Gnarrenburg", pos = [53.38118, 9.00813] },
+  { km = 18.722, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 18.766, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 18.959, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.98, kind = "signal", signal = "stop", dir = 1 },
+  { km = 19.086, kind = "signal", signal = "resetting_switch", dir = -1 },
+  { km = 19.182, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.187, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 19.23, kind = "signal", signal = "main", dir = -1 },
+  { km = 19.261, kind = "signal", signal = "resetting_switch_distant", dir = -1 },
+  { km = 19.304, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 24.877, kind = "halt", label = "Nordsode", pos = [53.33248, 8.9803] },
+  { km = 26.884, kind = "halt", label = "Ostersode", pos = [53.31478, 8.97542] },
+  { km = 31.641, kind = "station", label = "Hüttenbusch", pos = [53.27349, 8.96227] },
+  { km = 33.657, kind = "station", label = "Neu St Jürgen", pos = [53.25552, 8.95897] },
+  { km = 36.378, kind = "station", label = "Weyerdeelen-Umbeck", pos = [53.23428, 8.94515] },
+  { km = 38.479, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 38.495, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 38.497, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 38.497, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 38.523, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 38.524, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 38.525, kind = "signal", signal = "stop", dir = -1 },
+  { km = 38.533, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 38.545, kind = "station", label = "Worpswede", pos = [53.22661, 8.91548] },
+  { km = 39.387, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 40.61, kind = "halt", label = "Weyermoor", pos = [53.21882, 8.8879] },
+  { km = 45.47, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 45.472, kind = "signal", signal = "main", dir = 1 },
+  { km = 45.474, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 45.486, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 45.683, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 45.721, kind = "station", label = "Ahrensfelde (Bz Bremen)", pos = [53.2334, 8.81826] },
+  { km = 45.759, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 45.762, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 45.774, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 45.826, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 45.857, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 45.889, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 45.894, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 45.955, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 46.165, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 46.169, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 46.207, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 46.356, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 46.379, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 46.398, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 46.588, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 46.604, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 46.71, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 46.716, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 46.718, kind = "signal", signal = "stop", dir = -1 },
+  { km = 46.722, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 46.725, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 46.727, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 47.364, kind = "signal", label = "31LW331Y", signal = "minor", dir = 1 },
+  { km = 47.375, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 19.906, kmTo = 19.923, length = 17 },
+  { kind = "bridge", kmFrom = 28.327, kmTo = 28.338, length = 11 },
+  { kind = "bridge", kmFrom = 41.799, kmTo = 41.863, length = 65 },
+  { kind = "bridge", kmFrom = 42.297, kmTo = 42.315, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ojmeIkvvv@iBzKq@rN" },
+  { line = "komeI{yuv@eA`NYrLn@jX~aAlaM|Et|AlChN`FdJrXdY|}BvdBfG|BvEArn@qK|cAap@rFwBvI}@tN|BxsAli@jF`AhHm@teAk]pGo@|EZhJrD~d@ba@bGtC", v = 60 },
+  { line = "chydIgl~u@rETxZgC", v = 40 },
+  { line = "uexdIyo~u@lFe@", v = 30 },
+  { line = "g~wdI_q~u@~m@kF~KRnmBva@hHxCvK~J`b@|p@|FnO`Pdq@fEzHnGpEfXpDnq@|PhLObDh@t{B~l@~HQ`ToIbIC|cCz_Ad~A|Ipt@k@rN`B|IhFxHhId_@pm@pBjF~AzH" },
+  { line = "_j|cIaeru@bn@vuD", v = 60 },
+  { line = "{zzcIinlu@`n@|`DpBrQb@`Ss@deAiArHoGhPgAvHZdh@{HvtAkDzUyU~y@" },
+  { line = "_{zcI_j|t@yNfd@}S|i@", v = 60 },
+  { line = "w_|cIyyyt@yEx]", v = 50 },
+  { line = "qf|cI_{xt@aBtQAbIn@|IhAxFtBzF`IjJ", v = 60 },
+  { line = "cx{cIexvt@|XjUvBlC", v = 30 },
+  { line = "mzzcIk}ut@|BfC" },
+]
+posts = [[1, 53.48627, 9.12731], [2, 53.48533, 9.11254], [3, 53.48316, 9.0979], [4, 53.48099, 9.08327], [5, 53.47883, 9.06864], [6, 53.47666, 9.05401], [7, 53.47505, 9.03921], [8, 53.47125, 9.02667], [9, 53.4633, 9.01972], [10, 53.45521, 9.01322], [11, 53.44702, 9.0071], [12, 53.43814, 9.00918], [13, 53.42989, 9.0151], [14, 53.42125, 9.01697], [15, 53.41264, 9.01267], [16, 53.40394, 9.01105], [17, 53.39524, 9.01482], [18, 53.38681, 9.01158], [19, 53.37859, 9.00853], [20, 53.36966, 9.00992], [21, 53.3608, 9.00833], [22, 53.35199, 9.00553], [23, 53.34385, 9.00005], [24, 53.3376, 8.98945], [25, 53.33138, 8.98009], [26, 53.32258, 8.97728], [27, 53.31377, 8.97504], [28, 53.30501, 8.97179], [29, 53.29623, 8.96944], [30, 53.28757, 8.96917], [31, 53.27897, 8.96494], [32, 53.27037, 8.96073], [33, 53.26144, 8.95958], [34, 53.25244, 8.9589], [35, 53.2435, 8.95845], [36, 53.23628, 8.94958], [37, 53.23211, 8.9366], [38, 53.22862, 8.92288], [39, 53.22484, 8.90942], [40, 53.22097, 8.89613], [41, 53.21862, 8.88191], [42, 53.22088, 8.86753], [43, 53.22175, 8.85228], [44, 53.22506, 8.83839], [45, 53.23019, 8.82624], [46, 53.23416, 8.81438], [47, 53.22964, 8.80368]]

@@ -1,0 +1,34 @@
+id = "2900"
+ref = "2900"
+name = "2900 Lünen Süd - Lünen Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Lünen Süd"
+to = "Lünen Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.618
+length = 0.618
+speeds = [[0, 0.618, 60, 60]]
+curves = [[0.1, 0.45, 230]]
+points = [
+  { km = 0.04, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.041, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.27, kind = "signal", label = "805", signal = "distant,main,traversable", dir = -1 },
+  { km = 0.286, kind = "signal", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 0.531, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.546, kind = "signal", signal = "shunting", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.109, kmTo = 0.128, length = 19 },
+  { kind = "bridge", kmFrom = 0.382, kmTo = 0.406, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "id_zHya~l@nCOtBn@nDnF|@xG`@hT", v = 60 },
+]
+posts = [[0, 51.61045, 7.53197]]

@@ -1,0 +1,63 @@
+id = "9700"
+ref = "9700"
+name = "Harzquerbahn"
+operator = "Harzer Schmalspurbahnen GmbH - HSB"
+gauge = "1000"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 47.9
+kmTo = 56.3
+length = 8.402
+speeds = [[47.9, 48.912, 30, 30], [48.912, 49.307, 20, 20], [49.307, 49.72, 30, 30], [49.72, 49.934, 20, 20], [49.934, 54.396, 30, 30], [54.396, 55.163, 20, 20], [55.163, 55.601, 30, 20], [55.601, 55.713, 20, 20], [55.713, 55.901, 40, 20], [55.901, 56.104, 40, 30], [56.104, 56.293, 30, 40], [56.293, 56.3, 30, 30]]
+curves = [[48, 48.95, 360], [49, 49.825, 130], [49.875, 50.249, 230], [50.299, 50.474, 450], [50.524, 50.599, 610], [50.649, 50.824, 190], [50.874, 51.024, 140], [51.074, 51.474, 260], [51.524, 51.749, 140], [51.874, 52.374, 230], [52.499, 53.349, 270], [53.449, 53.549, 1250], [53.599, 54.198, 270], [54.273, 54.573, 470], [54.623, 54.923, 100], [55.073, 55.248, 970], [55.523, 55.948, 450], [55.998, 56.148, 510]]
+points = [
+  { km = 48.903, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 48.912, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 49.3, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 49.307, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 49.713, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 49.72, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 49.921, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 49.934, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 54.39, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 54.396, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 54.551, kind = "station", label = "Steinerne Renne", pos = [51.8168, 10.72645] },
+  { km = 54.674, kind = "signal", signal = "resetting_switch", dir = -1 },
+  { km = 54.684, kind = "signal", label = "42N", signal = "main", dir = 1 },
+  { km = 55.16, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 55.314, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 55.596, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 55.708, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 55.901, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 56.223, kind = "station", label = "Wernigerode-Hasserode", pos = [51.82009, 10.74357], uic = "8059804" },
+  { km = 56.285, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 56.29, kind = "signal", label = "5N1", signal = "combined", dir = 1 },
+  { km = 56.293, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 51.606, kmTo = 51.669, length = 62, name = "Thumkuhlenkopftunnel" },
+  { kind = "bridge", kmFrom = 52.107, kmTo = 52.127, length = 20 },
+  { kind = "bridge", kmFrom = 54.777, kmTo = 54.789, length = 12 },
+  { kind = "bridge", kmFrom = 55.234, kmTo = 55.251, length = 17 },
+  { kind = "bridge", kmFrom = 55.693, kmTo = 55.704, length = 11 },
+  { kind = "bridge", kmFrom = 55.988, kmTo = 56.009, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "in`{Ho`p`AiA_AoBL_E~DqErBqBwAqBuH_HiEmH{AkAr@w@pC", v = 30 },
+  { line = "k~a{H{gp`A_ChEq@`Hu@lAsBK{AqD", v = 20 },
+  { line = "clb{H_|o`AgBqA_BnAq@zFn@rGoApF", v = 30 },
+  { line = "}tb{H_do`Ag@z@kARkC{CmAM", v = 20 },
+  { line = "k_c{Hyfo`A_FtFmEr@}ExG{S`C_AvAgBnJ_Av@sEu@yDNkDwHcFg@kCyAcBV", v = 30 },
+  { line = "ipe{H{nn`Am@v@MpA", tunnel = true, v = 30 },
+  { line = "ere{Hqjn`Ap@v^qA~C{BAiB{FyD{X}BeK{@yAgDa@w@sAU{BRkFs@gDeA{@wGCmReImEmEmAZm@jAk@fN\\tCvGpT", v = 30 },
+  { line = "aog{Hupn`AT~JvAlLYzBgA|@cA[s@eBqCgY", v = 20 },
+  { line = "_wg{Hwon`AgLo`@", v = 30 },
+  { line = "gdh{Hgqo`AaAuH", v = 20 },
+  { line = "ifh{H}zo`AGmNlBcNTaT", v = 40 },
+  { line = "mbh{Hqnq`A?S", v = 30 },
+]
+posts = [[48, 51.78185, 10.73717], [49, 51.78924, 10.73717], [50, 51.79447, 10.73224], [51, 51.80205, 10.72663], [52, 51.80696, 10.72346], [53, 51.81156, 10.73206], [54, 51.8185, 10.73425], [55, 51.81781, 10.72681], [56, 51.82036, 10.74004]]

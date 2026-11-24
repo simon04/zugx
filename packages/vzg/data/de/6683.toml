@@ -1,0 +1,50 @@
+id = "6683"
+ref = "6683"
+name = "6683 Triptis - Marxgrün"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q803338"
+from = "Triptis"
+to = "Marxgrün"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 54.2
+kmTo = 62.6
+length = 8.399
+speeds = [[54.2, 54.721, "", ""], [54.721, 57.695, 40, 40], [57.695, 59.32, 50, 50], [59.32, 62.306, 40, 40], [62.306, 62.6, "", ""]]
+curves = [[54.298, 54.444, 790], [54.713, 55.006, 410], [55.08, 55.422, 370], [55.569, 55.869, 390], [55.919, 56.447, 310], [56.522, 56.673, 790], [56.723, 58.637, 540], [58.688, 59.348, 380], [59.399, 59.958, 310], [60.008, 60.769, 370], [60.843, 60.941, 1250], [61.015, 61.414, 370], [61.667, 62.375, 360]]
+points = [
+  { km = 54.357, kind = "station", label = "Bad Lobenstein", uic = "8016382", ele = 489, pos = [50.45246, 11.64188] },
+  { km = 54.721, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 57.695, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 58.912, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 59.32, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 60.008, kind = "stop", label = "Harra", pos = [50.41847, 11.68602], uic = "8016385", ele = 435 },
+  { km = 62.306, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 62.365, kind = "signal", label = "56L 302X", signal = "minor", dir = 1 },
+  { km = 62.419, kind = "signal", label = "56 P2", signal = "main,minor,traversable", dir = -1 },
+  { km = 62.445, kind = "station", label = "Blankenstein (Saale)", pos = [50.40118, 11.69794], uic = "8016386", ele = 435 },
+  { km = 62.569, kind = "signal", label = "56L 402X", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 54.487, kmTo = 54.508, length = 22 },
+  { kind = "bridge", kmFrom = 54.936, kmTo = 54.951, length = 15 },
+  { kind = "bridge", kmFrom = 55.536, kmTo = 55.617, length = 83 },
+  { kind = "bridge", kmFrom = 57.614, kmTo = 57.684, length = 72 },
+  { kind = "bridge", kmFrom = 58.297, kmTo = 58.349, length = 53 },
+  { kind = "tunnel", kmFrom = 59.006, kmTo = 59.232, length = 222, name = "Totenfels Tunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "og}rHmt`fAdIwCxO_N" },
+  { line = "ol|rHehafAtCmBpCg@`NxB~DSfDuB|MkPzDcA~JBtBy@jCmCtBkFt@qGf@eRi@sYxAyWbCyH~IgI`CmF", v = 40 },
+  { line = "wdyrHayefAnCyJrGiIrFqJ~DkWpIoKhG{O", v = 50 },
+  { line = "cwwrHophfAzDoDnDg@", tunnel = true, v = 50 },
+  { line = "wkwrHgwhfAxCd@", v = 50 },
+  { line = "}fwrHavhfAbKtBxCm@fCmBhDuHlCiTdB{DnD_DnFm@hLxBtTiC~By@pBkBfBgDjJoa@rEuKtCgChCq@`DLzC~A", v = 40 },
+  { line = "aesrHa_lfApLxM" },
+]
+posts = [[55, 50.44706, 11.6449], [56, 50.4387, 11.64825], [57, 50.43636, 11.66034], [58, 50.43109, 11.67073], [59, 50.42566, 11.68146], [60, 50.41847, 11.6859], [61, 50.41057, 11.68951], [62, 50.40485, 11.69929]]

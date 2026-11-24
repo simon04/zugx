@@ -1,0 +1,88 @@
+id = "2183"
+ref = "2183"
+name = "2183 Mülheim (Ruhr)-Styrum - Oberhausen Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q2937476"
+from = "Mülheim (Ruhr)-Styrum"
+to = "Oberhausen Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.845
+length = 4.845
+speeds = [[0, 0.285, 40, 40], [0.285, 2.407, "", ""], [2.407, 3.294, 100, 100], [3.294, 3.496, "", ""], [3.496, 3.855, 100, 100], [3.855, 3.91, "", ""], [3.91, 4.845, 100, 100]]
+curves = [[0.275, 0.375, 1860], [0.45, 0.625, 1600], [1.9, 1.975, 2570], [2.25, 3.7, 670], [3.775, 4.25, 1310]]
+points = [
+  { km = 0.091, kind = "signal", label = "R012", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 0.093, kind = "signal", signal = "departure", dir = -1 },
+  { km = 0.275, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.276, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.278, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.285, kind = "station", label = "Oberhausen Hbf", uic = "8000286", pos = [51.47491, 6.85168] },
+  { km = 0.338, kind = "signal", signal = "main_repeated" },
+  { km = 0.524, kind = "signal", signal = "departure", dir = 1 },
+  { km = 0.526, kind = "signal", label = "P012", signal = "distant,main", dir = 1 },
+  { km = 0.532, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.682, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.824, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.062, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.112, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.141, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.302, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 1.386, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 1.932, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 3.294, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.184, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.225, kind = "signal", label = "38P3", signal = "main,wrong_road", dir = -1 },
+  { km = 4.316, kind = "station", label = "Mülheim (Ruhr)-Styrum", pos = [51.44918, 6.85269], uic = "8000687" },
+  { km = 4.475, kind = "signal", label = "38 N3", signal = "combined,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.004, kmTo = 1.025, length = 20 },
+  { kind = "bridge", kmFrom = 1.246, kmTo = 1.264, length = 18 },
+  { kind = "bridge", kmFrom = 1.515, kmTo = 1.537, length = 22 },
+  { kind = "tunnel", kmFrom = 1.941, kmTo = 2.132, length = 191 },
+  { kind = "bridge", kmFrom = 2.387, kmTo = 2.407, length = 19 },
+  { kind = "bridge", kmFrom = 2.776, kmTo = 2.82, length = 44 },
+  { kind = "bridge", kmFrom = 2.997, kmTo = 3.022, length = 25 },
+  { kind = "bridge", kmFrom = 3.855, kmTo = 3.91, length = 54 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ybeyHcsyh@nLxL", v = 40 },
+  { line = "iudyHieyh@vJxI~Y`]jf@`g@" },
+  { line = "egbyHktvh@lHjG", tunnel = true },
+  { line = "w}ayH_lvh@nLxJ" },
+  { line = "gpayHe`vh@tDbBjGv@tJwAxHwFjCwDnCoG", v = 100 },
+  { line = "yc`yHatvh@`DeO" },
+  { line = "w~_yHgdwh@r@mKTuR", v = 100 },
+  { line = "m|_yHkdxh@NyC" },
+  { line = "}{_yHeixh@`DgYrN_r@", v = 100 },
+]
+posts = [[0, 51.47709, 6.85378], [1, 51.46956, 6.84592], [2, 51.46196, 6.8382], [3, 51.45361, 6.83577], [4, 51.45021, 6.84834]]
+
+[[connections]]
+km = 0.285
+station = "Oberhausen Hbf"
+lines = [
+  { id = "2184", ref = "2184", name = "2184 Mülheim (Ruhr)-Styrum - Duisburg Hbf", km = -4.082 },
+  { id = "2270", ref = "2270", name = "2270 Oberhausen Hbf - Emmerich Grenze", km = -0.011 },
+  { id = "2274", ref = "2274", name = "2274 Oberhausen Hbf - Duisburg-Ruhrort", km = 0.018 },
+  { id = "2277", ref = "2277", name = "2277 Oberhausen Hbf - Essen-Altenessen", km = 70.901 },
+  { id = "2300", ref = "2300", name = "2300 Mülheim (Rhur)-Styrum - Essen Hbf", km = 111.086 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 70.737 },
+]
+
+[[connections]]
+km = 4.316
+station = "Mülheim-Styrum"
+lines = [
+  { id = "2184", ref = "2184", name = "2184 Mülheim (Ruhr)-Styrum - Duisburg Hbf", km = -9.171 },
+  { id = "2290", ref = "2290", name = "2290 Mülheim-Styrum - Duisburg Hbf", km = 0.098 },
+  { id = "2291", ref = "2291", name = "2291 Mülheim (Ruhr)-Styrum - Bochum Hbf", km = 116.346 },
+  { id = "2300", ref = "2300", name = "2300 Mülheim (Rhur)-Styrum - Essen Hbf", km = 115.658 },
+]

@@ -1,0 +1,27 @@
+id = "3605"
+ref = "3605"
+name = "Main-Neckar-Bahn"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 25.343
+kmTo = 25.758
+length = 0.446
+speeds = [[25.343, 25.758, 100, 100]]
+curves = [[25.608, 25.658, 2230]]
+points = [
+  { km = 25.666, kind = "signal", signal = "distant,main", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 25.343, kmTo = 25.367, length = 24 },
+  { kind = "bridge", kmFrom = 25.743, kmTo = 25.758, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "__ooHasts@iPe[", v = 100 },
+]
+posts = []

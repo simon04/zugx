@@ -1,0 +1,40 @@
+id = "2706"
+ref = "2706"
+name = "2706 Remscheid Hbf - Remscheid-Bliedinghausen"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Remscheid Hbf"
+to = "Remscheid-Bliedinghausen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.732
+length = 2.732
+speeds = [[0, 2.732, "", ""]]
+curves = [[0.125, 0.225, 1390], [0.45, 0.575, 970], [0.625, 0.925, 870], [1.225, 2.125, 510], [2.2, 2.3, 1310], [2.35, 2.425, 1670]]
+points = [
+  { km = 0.082, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 0.266, kind = "station", label = "Remscheid Hbf", uic = "8005033", pos = [51.17723, 7.20001] },
+  { km = 0.505, kind = "signal", label = "P4", signal = "main,traversable", dir = 1 },
+  { km = 1.415, kind = "signal", signal = "main,traversable", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.581, kmTo = 0.624, length = 43 },
+  { kind = "bridge", kmFrom = 1.803, kmTo = 1.814, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "iljwHep|j@iEaj@KkVxGgl@vAgFnBuCjDcBfDFlEtBjEjEbEbI`Txo@" },
+]
+posts = [[0, 51.17653, 7.19635], [1, 51.17698, 7.21034], [2, 51.17087, 7.21414]]
+
+[[connections]]
+km = 0.266
+station = "Remscheid Hbf"
+lines = [
+  { id = "2700", ref = "2700", name = "2700 Wuppertal Oberbarmen - Remscheid", km = 17.203 },
+  { id = "2705", ref = "2705", name = "2705 Remscheid-Lennep - Remscheid Hbf", km = 17.769 },
+]

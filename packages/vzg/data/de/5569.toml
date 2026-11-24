@@ -1,0 +1,29 @@
+id = "5569"
+ref = "5569"
+name = "5569 München Nord Rbf Ost - München Nord Rbf Richtungsgruppe Süd"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "München Nord Rbf"
+to = "München Nord Richtungsgruppe Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.941
+length = 0.941
+speeds = [[0, 0.941, "", ""]]
+curves = [[0.1, 0.825, 380]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.322, kmTo = 0.364, length = 42 },
+  { kind = "bridge", kmFrom = 0.675, kmTo = 0.778, length = 103 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{jbeHirgeA}FkIyEuC}FOgF`D" },
+  { line = "yhceHy|geAg@r@", tunnel = true },
+  { line = "ajceHe{geAqCpHkBvK" },
+]
+posts = [[0, 48.18622, 11.51285]]

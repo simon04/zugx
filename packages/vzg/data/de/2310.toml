@@ -1,0 +1,75 @@
+id = "2310"
+ref = "2310"
+name = "2310 Duisburg Großenbaum - Duisburg Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Duisburg-Großenbaum"
+to = "Duisburg Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.421
+kmTo = 6.353
+length = 6.678
+speeds = [[-0.421, 0.048, 160, 160], [0.048, 4.679, 130, 130], [4.679, 5.202, 100, 130], [5.202, 5.862, 100, 100], [5.862, 6.121, 70, 100], [6.121, 6.353, 70, 70]]
+curves = [[-0.293, -0.093, 2410], [5.186, 5.578, 790], [5.778, 6.128, 810]]
+points = [
+  { km = -0.335, kind = "signal", label = "34P6", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = -0.229, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = -0.123, kind = "station", label = "Duisburg-Großenbaum", uic = "8001602", pos = [51.36474, 6.77748] },
+  { km = 0.013, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.245, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.572, kind = "signal", label = "34N8", signal = "combined,minor", dir = 1 },
+  { km = 0.575, kind = "signal", label = "34 ZS8", signal = "combined,minor,speed_limit_distant", dir = -1 },
+  { km = 1.079, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.158, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.61, kind = "signal", label = "34 H", signal = "combined,speed_limit", dir = -1 },
+  { km = 2, kind = "halt", label = "Duisburg-Buchholz", uic = "8001600", pos = [51.38281, 6.77541] },
+  { km = 2.549, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.637, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.164, kind = "halt", label = "Duisburg-Schlenk", uic = "8001596", pos = [51.40229, 6.77315] },
+  { km = 4.679, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 4.918, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 5.202, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.33, kind = "halt", label = "Grunewald", pos = [51.41297, 6.77003] },
+  { km = 5.861, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.862, kind = "signal", label = "32E", signal = "combined", dir = -1 },
+  { km = 6.121, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.69, kmTo = 0.711, length = 20 },
+  { kind = "bridge", kmFrom = 2.078, kmTo = 2.116, length = 38 },
+  { kind = "bridge", kmFrom = 2.83, kmTo = 2.851, length = 21 },
+  { kind = "bridge", kmFrom = 4.048, kmTo = 4.064, length = 19 },
+  { kind = "bridge", kmFrom = 4.548, kmTo = 4.581, length = 39 },
+  { kind = "bridge", kmFrom = 5.451, kmTo = 5.475, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "chzxHwejh@`LI", v = 70 },
+  { line = "a{yxHafjh@jJ~@tSxLrFjB", v = 100 },
+  { line = "ksxxH{rih@dAP", tunnel = true, v = 100 },
+  { line = "eqxxHirih@pEF", v = 100 },
+  { line = "sjxxHarih@twAgJl|@cE~dBiNt_@eA", v = 130 },
+  { line = "ymoxH}tjh@nKOhLmA", v = 160 },
+]
+posts = [[6, 51.41845, 6.7748], [5, 51.40982, 6.77187], [4, 51.40053, 6.77309], [3, 51.39184, 6.77404], [2, 51.38279, 6.7752], [1, 51.37409, 6.77658], [0, 51.36585, 6.77727]]
+
+[[connections]]
+km = -0.123
+station = "Duisburg-Großenbaum"
+lines = [
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 55.784 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 55.872 },
+]
+
+[[connections]]
+km = 5.33
+station = "Grunewald"
+lines = [
+  { id = "2505", ref = "2505", name = "2505 Krefeld-Oppum - Mülheim (Ruhr)-Speldorf", km = 14.983 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 61.174 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 61.186 },
+]

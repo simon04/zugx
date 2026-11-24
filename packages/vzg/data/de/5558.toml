@@ -1,0 +1,28 @@
+id = "5558"
+ref = "5558"
+name = "5558 München Flughafen West - München Flughafen Tanklager"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "München Flughafen West"
+to = "München Flughafen Tanklager"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.75
+length = 0.75
+speeds = [[0, 0.563, 60, 60], [0.563, 0.75, 80, 80]]
+curves = [[0.6, 0.65, 2180]]
+points = [
+  { km = 0, kind = "signal", label = "4N1", signal = "main", dir = -1 },
+  { km = 0.483, kind = "signal", label = "412", signal = "minor", dir = 1 },
+  { km = 0.57, kind = "signal", signal = "wrong_road", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "urbfH{{vfArBhn@", v = 60 },
+  { line = "aobfHqlufAZvN", v = 80 },
+]
+posts = [[0, 48.35131, 11.75502]]

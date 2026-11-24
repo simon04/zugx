@@ -1,0 +1,228 @@
+id = "2675"
+ref = "2675"
+name = "2675 Solingen - Remscheid"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Solingen Jbf"
+to = "Remscheid Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.749
+kmTo = 17.394
+length = 18.159
+speeds = [[-0.749, -0.439, "", ""], [-0.439, 0.3, 40, 40], [0.3, 0.782, 50, 50], [0.782, 4.898, 80, 80], [4.898, 6.606, 60, 60], [6.606, 6.952, 70, 70], [6.952, 14.506, 80, 80], [14.506, 15.357, 70, 70], [15.357, 17.004, 60, 60], [17.004, 17.394, 50, 50]]
+curves = [[-0.624, -0.424, 1080], [-0.274, -0.224, 2640], [-0.124, -0.074, 2040], [0.076, 0.802, 350], [1.047, 1.428, 930], [2.59, 2.923, 1130], [3.202, 3.552, 1260], [3.999, 4.327, 1180], [4.679, 4.829, 1690], [4.929, 5.331, 280], [5.407, 5.628, 670], [5.676, 6.47, 460], [6.523, 6.71, 940], [6.764, 7.02, 690], [7.203, 7.54, 460], [8.193, 8.495, 710], [8.662, 9.473, 470], [10.248, 10.498, 530], [11.599, 11.901, 530], [12.127, 12.651, 320], [12.801, 13.101, 470], [13.325, 13.998, 800], [14.148, 14.45, 510], [14.774, 15.15, 580], [15.302, 15.935, 310], [16.036, 16.537, 310], [16.985, 17.285, 460]]
+points = [
+  { km = -0.743, kind = "signal", label = "28L210X", signal = "minor", dir = -1 },
+  { km = -0.3, kind = "signal", label = "28 P8", signal = "combined,speed_limit", dir = -1 },
+  { km = -0.195, kind = "signal", label = "28L 108X", signal = "minor", dir = 1 },
+  { km = -0.101, kind = "signal", label = "28 ZU8", signal = "combined", dir = -1 },
+  { km = -0.048, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 0.009, kind = "station", label = "Solingen Hauptbahnhof", uic = "8000087", pos = [51.16112, 7.00422] },
+  { km = 0.011, kind = "stop", label = "Solingen Hbf", pos = [51.1611, 7.00431] },
+  { km = 0.053, kind = "signal", label = "28 ZR8", signal = "combined,route,speed_limit", dir = 1 },
+  { km = 0.319, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.361, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.436, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 0.465, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.468, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 0.782, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.854, kind = "signal", label = "28 GG", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 1.152, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 1.175, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 1.881, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.885, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 2.209, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.196, kind = "signal", label = "12", signal = "main,traversable", dir = 1 },
+  { km = 3.867, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 3.882, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.898, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.94, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.861, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.975, kind = "stop", label = "Solingen Grünewald", pos = [51.1639, 7.07898], uic = "8005597" },
+  { km = 5.992, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.055, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 6.076, kind = "signal", label = "3A", signal = "distant,main,traversable", dir = 1 },
+  { km = 6.08, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 6.606, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.788, kind = "station", label = "Solingen Mitte", pos = [51.16571, 7.08864], uic = "8005598" },
+  { km = 6.819, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.952, kind = "signal", signal = "snowplow,speed_limit", dir = 1 },
+  { km = 6.976, kind = "signal", label = "N301", signal = "main,traversable", dir = 1 },
+  { km = 7.089, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 7.4, kind = "signal", signal = "snowplow", dir = 1, measured = true },
+  { km = 7.442, kind = "signal", signal = "main", dir = -1 },
+  { km = 8.403, kind = "signal", signal = "distant", dir = -1 },
+  { km = 9.52, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 9.523, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.28, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.351, kind = "stop", label = "Solingen-Schaberg", pos = [51.16335, 7.12805], uic = "8005590" },
+  { km = 10.475, kind = "signal", label = "1", signal = "main,traversable", dir = 1 },
+  { km = 12.514, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 13.507, kind = "signal", label = "1A", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 14.118, kind = "station", label = "Remscheid-Güldenwerth", pos = [51.16901, 7.16311], uic = "8005034" },
+  { km = 14.229, kind = "signal", signal = "distant", dir = 1 },
+  { km = 14.506, kind = "signal", signal = "speed_limit,speed_limit_distant" },
+  { km = 14.508, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 14.91, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 15.357, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.897, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.987, kind = "signal", signal = "distant", dir = 1 },
+  { km = 16.986, kind = "signal", label = "F", signal = "distant,main,traversable", dir = 1 },
+  { km = 17.004, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.539, kmTo = -0.512, length = 26 },
+  { kind = "bridge", kmFrom = -0.465, kmTo = -0.439, length = 26 },
+  { kind = "bridge", kmFrom = 0.436, kmTo = 0.552, length = 143 },
+  { kind = "bridge", kmFrom = 1.152, kmTo = 1.175, length = 21 },
+  { kind = "bridge", kmFrom = 1.6, kmTo = 1.808, length = 226 },
+  { kind = "bridge", kmFrom = 1.866, kmTo = 1.877, length = 12 },
+  { kind = "bridge", kmFrom = 2.921, kmTo = 2.935, length = 13 },
+  { kind = "bridge", kmFrom = 3.212, kmTo = 3.228, length = 16 },
+  { kind = "bridge", kmFrom = 4.552, kmTo = 4.576, length = 24 },
+  { kind = "bridge", kmFrom = 5.077, kmTo = 5.092, length = 15 },
+  { kind = "tunnel", kmFrom = 5.688, kmTo = 5.743, length = 57, name = "Weyersberger Tunnel" },
+  { kind = "bridge", kmFrom = 7.36, kmTo = 7.392, length = 35 },
+  { kind = "bridge", kmFrom = 7.528, kmTo = 7.554, length = 26 },
+  { kind = "bridge", kmFrom = 8.283, kmTo = 8.296, length = 13 },
+  { kind = "bridge", kmFrom = 9.528, kmTo = 9.7, length = 173, name = "Windfelner Brücke" },
+  { kind = "bridge", kmFrom = 10.539, kmTo = 11.058, length = 517, name = "Müngstener Brücke" },
+  { kind = "tunnel", kmFrom = 15.459, kmTo = 15.563, length = 103, name = "Büchener Tunnel" },
+  { kind = "bridge", kmFrom = 16.42, kmTo = 16.436, length = 16 },
+  { kind = "bridge", kmFrom = 16.736, kmTo = 16.767, length = 31 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gygwHqbwi@yJ[" },
+  { line = "aehwHmcwi@l^bChDIzBkA", v = 40 },
+  { line = "m|fwH_bwi@JK", tunnel = true, v = 40 },
+  { line = "a|fwHkbwi@VY", tunnel = true, v = 50 },
+  { line = "i{fwHecwi@fCmFt@gGY}LyAeI", v = 50 },
+  { line = "_yfwH_kxi@sGaWaB}LiJg|B}AkNyH{_@{AuKmFe`AgKij@cE_P", v = 80 },
+  { line = "myhwHuhcj@}AwFi@oEDiFh@sDlHyPzHgH", v = 60 },
+  { line = "{hhwH}~dj@xAqA", tunnel = true, v = 60 },
+  { line = "afhwHoaej@nCmEnBuFnAmGb@uGG{DcAcImF{O", v = 60 },
+  { line = "gdhwHsagj@yDsQ_CeG", v = 70 },
+  { line = "anhwHm|gj@}L_ToCoKuCukAsAkKuHg\\a@_JZoHpBmJ~FoLzk@}b@`FmHhf@u{AjAmLV_`@iAuIkCsFoDiCqNgCqDqB}Q_^kJmJoDiAqD?_T|FeDSsFwB", v = 80 },
+  { line = "gtiwHyavj@kPwG_E{CqD_GaHkR", v = 70 },
+  { line = "gzjwHyjwj@mAeG", v = 60 },
+  { line = "u|jwH_swj@QcH", tunnel = true, v = 60 },
+  { line = "g}jwHc|wj@t@sH`ByEpBiCnM}JpBgEbA}EJoKwFsm@", v = 60 },
+  { line = "chjwHce{j@c@wHP}Ky@sJ", v = 50 },
+]
+posts = [[0, 51.1612, 7.00432], [1, 51.15898, 7.01368], [2, 51.16088, 7.02737], [3, 51.16281, 7.04175], [4, 51.16518, 7.05548], [5, 51.16886, 7.06839], [6, 51.16379, 7.07917], [7, 51.16691, 7.09131], [8, 51.17002, 7.10441], [9, 51.17234, 7.11792], [10, 51.16549, 7.12632], [11, 51.15931, 7.13616], [12, 51.15537, 7.14868], [13, 51.16092, 7.15706], [14, 51.16828, 7.16353], [15, 51.17679, 7.16596], [16, 51.17673, 7.17689], [17, 51.17585, 7.1894]]
+
+[[tracks]]
+track = "2"
+kmFrom = -0.27
+kmTo = 17.394
+length = 17.612
+speeds = [[-0.27, -0.033, "", ""], [-0.033, 0.764, 40, 40], [0.764, 4.898, 80, 80], [4.898, 6.056, "", ""], [6.056, 6.965, 60, 60], [6.965, 13.798, 80, 80], [13.798, 13.929, 60, 60], [13.929, 15.79, 80, 80], [15.79, 17.004, 70, 70], [17.004, 17.333, 50, 50], [17.333, 17.394, "", ""]]
+curves = [[-0.17, -0.07, 2100], [0.055, 0.681, 260], [1.007, 1.359, 1140], [2.566, 2.932, 1140], [3.211, 3.537, 1220], [4.007, 4.336, 1220], [4.689, 4.839, 1630], [4.914, 5.338, 310], [5.412, 5.633, 680], [5.682, 6.477, 510], [6.527, 6.679, 780], [6.729, 7.006, 930], [7.182, 7.56, 490], [8.189, 8.492, 690], [8.659, 9.489, 470], [10.239, 10.515, 600], [11.592, 11.895, 560], [12.122, 12.674, 320], [12.799, 13.1, 450], [13.324, 13.977, 790], [14.102, 14.451, 590], [14.774, 15.148, 580], [15.298, 15.927, 310], [16.028, 16.535, 320], [17.007, 17.282, 480]]
+points = [
+  { km = -0.192, kind = "signal", label = "28 P9", signal = "combined", dir = -1 },
+  { km = -0.183, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.121, kind = "signal", label = "28L 209Y", signal = "minor", dir = -1 },
+  { km = -0.106, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.048, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.033, kind = "stop", label = "Solingen Hbf", uic = "8000087", pos = [51.16112, 7.00437] },
+  { km = -0.032, kind = "station", label = "Solingen Hauptbahnhof", uic = "8000087", pos = [51.16112, 7.00422] },
+  { km = -0.004, kind = "signal", label = "28 ZR9", signal = "combined,speed_limit", dir = 1 },
+  { km = 0.043, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.086, kind = "signal", label = "28 N9", signal = "main,speed_limit", dir = 1 },
+  { km = 0.314, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.807, kind = "signal", label = "28 G", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 1.095, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 1.115, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 1.816, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.819, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 4.898, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.94, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.95, kind = "stop", label = "Solingen Grünewald", pos = [51.1639, 7.07898], uic = "8005597" },
+  { km = 6.067, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 6.076, kind = "signal", signal = "main", dir = 1 },
+  { km = 6.084, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 6.534, kind = "signal", label = "P302", signal = "main,traversable", dir = -1 },
+  { km = 6.598, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.666, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 6.666, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.731, kind = "station", label = "Solingen Mitte", pos = [51.16571, 7.08864], uic = "8005598" },
+  { km = 6.806, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.908, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 6.935, kind = "signal", label = "N302", signal = "main,traversable", dir = 1 },
+  { km = 6.965, kind = "signal", signal = "speed_limit" },
+  { km = 7.059, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 7.445, kind = "signal", label = "3F", signal = "distant,main,traversable", dir = -1 },
+  { km = 8.103, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.403, kind = "signal", signal = "distant", dir = -1 },
+  { km = 9.99, kind = "signal", label = "2", signal = "main,traversable", dir = -1 },
+  { km = 10.219, kind = "stop", label = "Solingen-Schaberg", pos = [51.16335, 7.12805], uic = "8005590" },
+  { km = 10.233, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.305, kind = "signal", signal = "distant,snowplow", dir = -1 },
+  { km = 11.203, kind = "signal", signal = "distant", dir = -1 },
+  { km = 12.511, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.8, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.507, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 13.798, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.929, kind = "signal", label = "P202", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 14.119, kind = "station", label = "Remscheid-Güldenwerth", pos = [51.16901, 7.16311], uic = "8005034" },
+  { km = 14.909, kind = "signal", label = "1F", signal = "distant,main,speed_limit_distant,traversable", dir = -1 },
+  { km = 15.79, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.898, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.987, kind = "signal", signal = "distant", dir = 1 },
+  { km = 16.986, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 17.004, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.463, kmTo = 0.5, length = 37 },
+  { kind = "bridge", kmFrom = 1.095, kmTo = 1.115, length = 20 },
+  { kind = "bridge", kmFrom = 1.508, kmTo = 1.735, length = 226 },
+  { kind = "bridge", kmFrom = 1.799, kmTo = 1.811, length = 12 },
+  { kind = "bridge", kmFrom = 2.92, kmTo = 2.933, length = 13 },
+  { kind = "bridge", kmFrom = 3.211, kmTo = 3.227, length = 16 },
+  { kind = "bridge", kmFrom = 4.552, kmTo = 4.576, length = 24 },
+  { kind = "bridge", kmFrom = 5.077, kmTo = 5.093, length = 15 },
+  { kind = "tunnel", kmFrom = 5.69, kmTo = 5.745, length = 56, name = "Weyersberger Tunnel" },
+  { kind = "bridge", kmFrom = 7.359, kmTo = 7.394, length = 35 },
+  { kind = "bridge", kmFrom = 7.528, kmTo = 7.554, length = 25 },
+  { kind = "bridge", kmFrom = 8.283, kmTo = 8.296, length = 13 },
+  { kind = "bridge", kmFrom = 9.53, kmTo = 9.7, length = 171, name = "Windfelner Brücke" },
+  { kind = "bridge", kmFrom = 10.538, kmTo = 11.057, length = 517, name = "Müngstener Brücke" },
+  { kind = "tunnel", kmFrom = 15.457, kmTo = 15.563, length = 105, name = "Büchener Tunnel" },
+  { kind = "bridge", kmFrom = 16.421, kmTo = 16.436, length = 15 },
+  { kind = "bridge", kmFrom = 16.738, kmTo = 16.768, length = 30 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gygwHqbwi@fLfA" },
+  { line = "_lgwHi`wi@bIPjDsA", v = 40 },
+  { line = "o|fwHkbwi@b@c@", tunnel = true, v = 40 },
+  { line = "k{fwHocwi@~BeFx@gIWgGcCuL", v = 40 },
+  { line = "mzfwH{jxi@kF_WqBeP_IoqB{@eMmMst@qEsz@kAyKuKki@iCiJ", v = 80 },
+  { line = "syhwHohcj@}AyFi@sEFoFf@qDlH{P|HuH" },
+  { line = "_ihwHq_ej@tAoA", tunnel = true },
+  { line = "ifhwHabej@hDsF|CaN" },
+  { line = "a|gwHwxej@ZoJ_AuIuGeT_DsOuDyI", v = 60 },
+  { line = "qphwHq_hj@sJuPoCqKuCwkAuAkKqH}[c@_IZcJjB}I~FuLzk@ac@hFsHdf@o{AjAkL\\m[o@eKgDmIkDcCqNiCaDaBiT{`@uGoG_FuA", v = 80 },
+  { line = "qmhwHydvj@eFf@", v = 60 },
+  { line = "wthwHqcvj@qLzDmFR{[uLcDkCsDaGaHmRoAgG", v = 80 },
+  { line = "}|jwH{rwj@QiH", tunnel = true, v = 80 },
+  { line = "o}jwHe|wj@v@uHzB_G", v = 80 },
+  { line = "{wjwH{mxj@hPgNrBeE~@yEDkLsFol@", v = 70 },
+  { line = "khjwH_e{j@a@aGRyJ_@eH", v = 50 },
+  { line = "yijwHab|j@UkD" },
+]
+posts = [[0, 51.16083, 7.00434], [1, 51.15926, 7.01419], [2, 51.16098, 7.02814], [3, 51.16284, 7.04172], [4, 51.16521, 7.05548], [5, 51.16889, 7.06837], [6, 51.16388, 7.07922], [7, 51.16719, 7.09164], [8, 51.17006, 7.1044], [9, 51.17237, 7.11792], [10, 51.1655, 7.12637], [11, 51.15934, 7.1362], [12, 51.1554, 7.14869], [13, 51.16093, 7.15701], [14, 51.16825, 7.16334], [15, 51.17682, 7.16592], [16, 51.17675, 7.17694], [17, 51.17589, 7.18939]]
+
+[[connections]]
+km = 0.009
+station = "Solingen Hauptbahnhof"
+lines = [
+  { id = "2671", ref = "2671", name = "2671 Hilden - Solingen Hbf", km = 7.09 },
+  { id = "2730", ref = "2730", name = "2730 Gruiten - Köln Neurather Ring Strw 2652/2659/2730", km = 6.554 },
+]

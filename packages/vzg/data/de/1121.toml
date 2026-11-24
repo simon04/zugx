@@ -1,0 +1,107 @@
+id = "1121"
+ref = "1121"
+name = "1121 Lübeck Hgbf Abzw - Büchen"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Lübeck Hgbf Abzw"
+to = "Büchen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 2.498
+kmTo = 47.282
+length = 46.473
+speeds = [[2.498, 4.303, 80, 80], [4.303, 4.918, 90, 90], [4.918, 4.923, 80, 80], [4.923, 13.02, 120, 120], [13.02, 13.407, 90, 90], [13.407, 19.633, 120, 120], [19.633, 20.902, 100, 100], [20.902, 28.941, 120, 120], [28.941, 29.187, 100, 100], [29.187, 46.6, 120, 120], [46.6, 46.826, 60, 120], [46.826, 47.282, 60, 60]]
+curves = [[2.623, 2.673, 1980], [3.048, 4.027, 560], [4.228, 4.474, 840], [4.718, 4.867, 740], [4.88, 4.921, 560], [10.7, 10.798, 1400], [10.946, 11.17, 1390], [11.22, 11.346, 1430], [11.497, 11.747, 1270], [12.224, 12.776, 1990], [12.902, 13.203, 1770], [13.278, 13.755, 2020], [14.382, 14.508, 2220], [14.633, 14.709, 2060], [14.784, 14.934, 1960], [15.16, 15.286, 1600], [15.386, 15.511, 2350], [15.938, 16.09, 1670], [16.291, 16.416, 1040], [16.542, 17.068, 1970], [17.597, 17.774, 1970], [18.832, 19.259, 1990], [19.409, 19.558, 1310], [19.834, 20.637, 840], [21.312, 21.362, 2170], [21.587, 21.736, 1850], [21.836, 21.936, 1900], [22.11, 22.21, 1390], [22.335, 22.434, 1960], [22.634, 22.758, 2010], [22.858, 22.908, 2880], [23.107, 23.232, 1890], [23.282, 23.656, 1780], [23.756, 23.855, 1610], [23.93, 24.03, 1840], [25.526, 26.025, 2030], [27.807, 28.587, 1580], [28.813, 29.19, 730], [30.09, 30.19, 950], [30.365, 30.464, 1330], [30.889, 30.989, 1720], [31.139, 31.189, 2130], [37.559, 37.684, 1700], [37.734, 37.859, 1610], [37.959, 38.508, 1670], [38.558, 38.958, 1830], [41.681, 41.806, 1720], [42.033, 42.133, 1790], [42.259, 42.36, 1630], [42.511, 42.612, 1570], [42.763, 42.814, 2210], [42.965, 43.065, 1860], [43.141, 43.217, 2590], [43.342, 43.418, 2060], [43.594, 43.67, 2270], [43.796, 44.073, 2520], [44.199, 44.274, 2370], [44.4, 44.501, 1830], [46.845, 46.942, 1820], [46.99, 47.16, 370]]
+points = [
+  { km = 2.733, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.737, kind = "signal", signal = "route", dir = -1 },
+  { km = 2.814, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.702, kind = "signal", label = "90J", signal = "main,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 3.902, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.303, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.657, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.864, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.889, kind = "signal", signal = "crossing_hint", dir = -1 },
+  { km = 4.891, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 4.91, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 4.918, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.965, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 4.966, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.971, kind = "halt", label = "Lübeck-Hochschulstadtteil", uic = "8003785", pos = [53.83049, 10.68896] },
+  { km = 5.004, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.437, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.661, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 7.501, kind = "halt", label = "Lübeck Flughafen", uic = "8003781", pos = [53.80454, 10.69733] },
+  { km = 13.02, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.405, kind = "signal", label = "52P1", signal = "main", dir = -1 },
+  { km = 13.407, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.683, kind = "signal", label = "52N1", signal = "main", dir = 1 },
+  { km = 14.358, kind = "signal", label = "52F", signal = "combined", dir = -1 },
+  { km = 14.361, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 14.53, kind = "signal", label = "52VWf", signal = "distant", dir = -1 },
+  { km = 15.364, kind = "signal", label = "52Vf", signal = "distant", dir = -1 },
+  { km = 15.995, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 16.997, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 17.382, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 19.194, kind = "signal", label = "53A", signal = "main", dir = 1 },
+  { km = 19.633, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.922, kind = "signal", label = "53P1", signal = "main,speed_limit", dir = -1 },
+  { km = 19.931, kind = "signal", signal = "stop", dir = -1 },
+  { km = 19.957, kind = "station", label = "Ratzeburg", uic = "8004952", pos = [53.69818, 10.74068] },
+  { km = 20.009, kind = "signal", signal = "main_repeated" },
+  { km = 20.392, kind = "signal", label = "53N1", signal = "main", dir = 1 },
+  { km = 20.688, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 20.902, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 20.903, kind = "signal", label = "53F", signal = "combined,speed_limit", dir = -1 },
+  { km = 21.902, kind = "signal", label = "53Vf", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 22.891, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 23.88, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 25.057, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 26.508, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 27.52, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 27.609, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 27.773, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 28.676, kind = "signal", label = "54A", signal = "combined", dir = 1 },
+  { km = 28.709, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 28.941, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 29.187, kind = "signal", label = "54P1", signal = "main,speed_limit", dir = -1 },
+  { km = 29.194, kind = "signal", signal = "stop", dir = -1 },
+  { km = 29.206, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 29.24, kind = "stop", label = "Mölln (Lauenburg)", pos = [53.62433, 10.68308], uic = "8004057" },
+  { km = 29.788, kind = "signal", label = "54N1", signal = "main", dir = 1 },
+  { km = 41.85, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 46.826, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.001, kmTo = 3.044, length = 43, name = "Eisenbahnbrücke Genin Nord" },
+  { kind = "bridge", kmFrom = 4.687, kmTo = 4.716, length = 29 },
+  { kind = "bridge", kmFrom = 9.719, kmTo = 9.779, length = 60 },
+  { kind = "bridge", kmFrom = 14.382, kmTo = 14.392, length = 10 },
+  { kind = "bridge", kmFrom = 14.712, kmTo = 14.771, length = 59 },
+  { kind = "bridge", kmFrom = 16.798, kmTo = 16.87, length = 72 },
+  { kind = "bridge", kmFrom = 22.338, kmTo = 22.416, length = 78 },
+  { kind = "bridge", kmFrom = 28.263, kmTo = 28.279, length = 16 },
+  { kind = "bridge", kmFrom = 34.06, kmTo = 34.132, length = 72 },
+  { kind = "bridge", kmFrom = 36.061, kmTo = 36.073, length = 12 },
+  { kind = "bridge", kmFrom = 40.592, kmTo = 40.644, length = 52 },
+  { kind = "bridge", kmFrom = 43.651, kmTo = 43.661, length = 11 },
+  { kind = "bridge", kmFrom = 46.965, kmTo = 46.995, length = 30 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "crtgIyd``Afc@oEfGmDbE_G~CkJdBiQBeNeBg_@", v = 80 },
+  { line = "kzrgI{ec`A?uHjBka@tAsKdJa\\nFaI~FwC", v = 90 },
+  { line = "syqgImjf`AxA_@", v = 80 },
+  { line = "yvqgImkf`AnvJuwBvReJlGiFlLaN|_@{v@jM}OhNuK", v = 120 },
+  { line = "awbgIe{m`AjHsDjJmC", v = 90 },
+  { line = "ibbgIgen`AfPkAnj@lAzRcBvSwFvNcInZeTtMkGbKiB~SWxk@hI`u@iAlM{@dIiBxKeFrJiH", v = 120 },
+  { line = "}mwfIoip`AhRiOxGoCdFq@|Jz@nStL", v = 100 },
+  { line = "ejufIipp`A~g@pYxVrS|JfMbJbO`Q~_@vGrLtJ`MxHxGlG`EjtAzm@`MdIbF|ExsAtbBrJtIdIhEhJjCbY`B", v = 120 },
+  { line = "}~hfIa{e`AhGdClCbC", v = 100 },
+  { line = "erhfIwre`A`l@xl@xMpIz[rLjXlEd[z@|sGdAxk@~@dIrA~HlClQ~KrLhNzDfGxKhVr{A~~DlMrVfI`MbJtKlUpRzQjJbNjEbOhCvOj@xJQvcCsW", v = 120 },
+  { line = "{pleIcyx_AxMw@`DgBpCiE", v = 60 },
+]
+posts = [[3, 53.84562, 10.65644], [4, 53.84072, 10.66665], [5, 53.82758, 10.68998], [6, 53.81833, 10.69294], [7, 53.80909, 10.69591], [8, 53.8, 10.69879], [9, 53.79092, 10.70171], [10, 53.78211, 10.70456], [11, 53.77318, 10.70788], [12, 53.76603, 10.71673], [13, 53.7589, 10.72567], [14, 53.75011, 10.72764], [15, 53.7412, 10.72835], [16, 53.73288, 10.73374], [17, 53.72411, 10.73604], [18, 53.71526, 10.73447], [19, 53.70634, 10.7352], [20, 53.69784, 10.74095], [21, 53.68929, 10.73885], [22, 53.68097, 10.73303], [23, 53.67406, 10.72339], [24, 53.66675, 10.71479], [25, 53.65819, 10.71005], [26, 53.64981, 10.70454], [27, 53.64243, 10.69593], [28, 53.63505, 10.68745], [29, 53.62636, 10.6846], [30, 53.61856, 10.67714], [31, 53.61011, 10.67212], [32, 53.60116, 10.67094], [33, 53.59216, 10.67085], [34, 53.58316, 10.67074], [35, 53.57416, 10.67067], [36, 53.56516, 10.67057], [37, 53.55616, 10.67054], [38, 53.54724, 10.66909], [39, 53.53985, 10.6608], [40, 53.53418, 10.64905], [41, 53.5285, 10.6373], [42, 53.52262, 10.6259], [43, 53.51518, 10.61773], [44, 53.50656, 10.61406], [45, 53.4975, 10.61492], [46, 53.48841, 10.61659], [47, 53.47966, 10.61811]]

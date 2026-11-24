@@ -1,0 +1,72 @@
+id = "1204"
+ref = "1204"
+name = "1204 Abzw Hörn - Tönning Hafen"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q22679087"
+from = "Hörn"
+to = "Tönning"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 4.65
+kmTo = 21.372
+length = 16.7
+speeds = [[4.65, 4.859, 60, 60], [4.859, 20.925, 80, 80], [20.925, 21.072, 40, 50], [21.072, 21.079, 40, 60], [21.079, 21.316, 40, 50], [21.316, 21.372, 40, 40]]
+curves = [[4.75, 4.901, 340], [5.967, 6.446, 620], [6.534, 7.013, 1070], [9.573, 9.97, 1670], [10.009, 10.584, 1820], [10.723, 11.42, 1840], [16.25, 16.399, 2120], [16.449, 16.947, 1710], [17.021, 17.096, 2180], [20.527, 21.172, 570]]
+points = [
+  { km = 4.682, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 4.695, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.859, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.92, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.922, kind = "signal", signal = "main", dir = -1 },
+  { km = 5.658, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.783, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.256, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.448, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 11.742, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 11.8, kind = "stop", label = "Witzwort", pos = [54.3858, 8.99832], measured = true, uic = "8006527" },
+  { km = 11.878, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 12.053, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.491, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 14.594, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 15.304, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 15.34, kind = "stop", label = "Harblek", pos = [54.36191, 8.96258], uic = "8002592" },
+  { km = 15.546, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 15.978, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 16.257, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 20.102, kind = "signal", signal = "distant", dir = 1 },
+  { km = 20.122, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 20.822, kind = "signal", signal = "combined,main", dir = 1 },
+  { km = 20.925, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 20.928, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 21.153, kind = "signal", label = "49P1", signal = "main,route,speed_limit", dir = -1 },
+  { km = 21.154, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 21.215, kind = "station", label = "Tönning", pos = [54.31384, 8.93812], uic = "8005885" },
+  { km = 21.263, kind = "signal", label = "49N1", signal = "main", dir = 1 },
+  { km = 21.316, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 11.58, kmTo = 11.593, length = 13 },
+  { kind = "bridge", kmFrom = 15.86, kmTo = 15.874, length = 14 },
+  { kind = "bridge", kmFrom = 20.939, kmTo = 20.954, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "m}fkI_iiv@rEdB|BtC", v = 60 },
+  { line = "{rfkIcaiv@rf@`aA|ClEdQbL|RbVdQfPjkBfxA`GzFdIxKtIzPjHjSdEzPdLzo@tFbRdHfP|kEnqHjKtNhMzKhMbGzyDnkAnIlAnJmC", v = 80 },
+  { line = "gpojIcfpu@|EoF", v = 50 },
+  { line = "iiojIsmpu@FM", v = 60 },
+  { line = "aiojIanpu@rGgP", v = 50 },
+  { line = "m`ojIi_qu@~@gC", v = 40 },
+]
+posts = [[5, 54.433, 9.06125], [6, 54.4277, 9.0524], [7, 54.42318, 9.04828], [8, 54.41662, 9.04164], [9, 54.40639, 9.03323], [10, 54.39661, 9.02357], [11, 54.39077, 9.00705], [12, 54.3846, 8.99649], [13, 54.37795, 8.98654], [14, 54.37128, 8.97659], [15, 54.36427, 8.96612], [16, 54.35744, 8.95595], [17, 54.34985, 8.94782], [18, 54.34118, 8.94421], [19, 54.33252, 8.94067], [20, 54.32387, 8.93713], [21, 54.31512, 8.93606]]
+
+[[connections]]
+km = 21.215
+station = "Tönning"
+lines = [
+  { id = "1205", ref = "1205", name = "1205 Tönning - Bad St Peter-Ording", km = 21.033 },
+]

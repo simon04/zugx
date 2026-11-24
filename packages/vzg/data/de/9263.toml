@@ -1,0 +1,26 @@
+id = "9263"
+ref = "9263"
+name = "Bahnstrecke Köln-Sülz–Berrenrath"
+operator = "HGK"
+gauge = "1435"
+wikidata = "Q1774438"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.457
+length = 2.457
+speeds = [[0, 2.457, "", ""]]
+curves = [[0.25, 0.475, 1150], [0.6, 0.9, 1270], [0.975, 1.3, 610], [1.35, 1.55, 610], [1.725, 1.925, 1270], [2.025, 2.35, 840]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 2.144, kmTo = 2.185, length = 42 },
+  { kind = "bridge", kmFrom = 2.283, kmTo = 2.314, length = 30 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "etouHgd`i@\\b[t@~KpBxQpHnZjF~HrLdJbLzSpKnMtEbJ~BtN" },
+]
+posts = [[0, 50.87571, 6.88724], [1, 50.87338, 6.87373], [2, 50.8664, 6.86499]]

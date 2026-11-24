@@ -1,0 +1,120 @@
+id = "5250"
+ref = "5250"
+name = "5250 Steinach (b Rothenburg o d Tauber) - Bad Windsheim"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q96081157"
+from = "Steinach (b Rothenburg o d Tauber)"
+to = "Bad Windsheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.539
+kmTo = 13.702
+length = 14.26
+speeds = [[-0.539, 2.946, 60, 60], [2.946, 3.944, "", ""], [3.944, 6.379, 60, 60], [6.379, 6.395, "", ""], [6.395, 10.169, 60, 60], [10.169, 10.209, "", ""], [10.209, 13.517, 60, 60], [13.517, 13.702, "", ""]]
+curves = [[-0.439, -0.139, 650], [-0.014, 1.086, 600], [1.261, 1.536, 850], [3.813, 3.938, 1310], [5.88, 6.256, 690], [7.106, 7.455, 770], [8.179, 8.478, 750], [9.052, 9.5, 620], [9.924, 10.199, 570], [10.249, 10.549, 420], [10.973, 11.098, 1090], [12.414, 13.002, 660], [13.222, 13.592, 320]]
+points = [
+  { km = -0.481, kind = "signal", label = "96N1", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = -0.48, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = -0.41, kind = "signal", label = "96WVn1II", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = -0.338, kind = "signal", label = "96WVn1I", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = -0.329, kind = "signal", signal = "electricity", dir = 1 },
+  { km = -0.31, kind = "signal", signal = "minor", dir = 1 },
+  { km = -0.177, kind = "signal", label = "96WVp1I", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = -0.136, kind = "signal", label = "96ZR1", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = -0.135, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 0.058, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.059, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.096, kind = "signal", label = "96WVp1II", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.119, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.227, kind = "signal", label = "96P1", signal = "main,minor,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 0.304, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.322, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.394, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.397, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.543, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.007, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.053, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.198, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.312, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.457, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.65, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.713, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.946, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.702, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.71, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.739, kind = "stop", label = "Burgbernheim", pos = [49.45431, 10.32017], uic = "8001277" },
+  { km = 3.824, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.908, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.944, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.007, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.017, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 4.304, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.847, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.965, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 5.292, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.486, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.004, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.082, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.351, kind = "station", label = "Ottenhofen-Bergel", pos = [49.45584, 10.3561], uic = "8004724" },
+  { km = 6.379, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.395, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.558, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.624, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.785, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.906, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.023, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 7.963, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 9.813, kind = "station", label = "Illesheim", pos = [49.47972, 10.38264], uic = "8003058" },
+  { km = 10.524, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.652, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.912, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 12.504, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.531, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.542, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 12.916, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 13.015, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 13.075, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 13.168, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 13.496, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.506, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.517, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.689, kind = "station", label = "Bad Windsheim", uic = "8000767", pos = [49.50663, 10.41303] },
+  { km = 13.695, kind = "signal", signal = "stop", dir = 1 },
+  { km = 83.1, kind = "station", label = "Steinach (b Rothenburg o d Tauber)", uic = "8000091", pos = [49.45324, 10.27346], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.332, kmTo = 0.351, length = 20 },
+  { kind = "bridge", kmFrom = 5.537, kmTo = 5.554, length = 17 },
+  { kind = "bridge", kmFrom = 10.169, kmTo = 10.209, length = 40 },
+  { kind = "bridge", kmFrom = 11.971, kmTo = 11.99, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uwzlHwuu}@xFzCpDv@`VsB|EgCxDkEtBmFz@sG@gMs@}KmJw`@o@eGgJo~B", v = 60 },
+  { line = "uzylHar|}@{EktA" },
+  { line = "qazlHmg_~@DikDgAkNoEcQ", v = 60 },
+  { line = "cjzlHgue~@Og@" },
+  { line = "sjzlHove~@yUey@iGwKsf@ef@gEuCqh@wJmHqDkFwGkSqb@qBcCaDeB", v = 60 },
+  { line = "_o_mHgnk~@cA_@" },
+  { line = "cq_mHgok~@qF{BaD_EkRyh@oy@y{AoDwCgFyBwIS}RhB}Ck@kDkC", v = 60 },
+  { line = "kadmHkkp~@}D}K" },
+]
+posts = [[0, 49.45331, 10.27357], [1, 49.4498, 10.28354], [2, 49.45225, 10.29664], [3, 49.45346, 10.31035], [4, 49.45449, 10.32404], [5, 49.45446, 10.33771], [6, 49.4545, 10.35148], [7, 49.45874, 10.36358], [8, 49.46555, 10.37232], [9, 49.47402, 10.3764], [10, 49.48091, 10.3847], [11, 49.48737, 10.3936], [12, 49.49356, 10.40366], [13, 49.50106, 10.41051]]
+
+[[connections]]
+km = 13.689
+station = "Bad Windsheim"
+lines = [
+  { id = "5914", ref = "5914", name = "5914 Neustadt (Aisch) Bahnhof - Bad Windsheim", km = 15.313 },
+]
+
+[[connections]]
+km = 83.1
+station = "Steinach"
+lines = [
+  { id = "5321", ref = "5321", name = "5321 Treuchtlingen - Würzburg", km = 83.1 },
+]

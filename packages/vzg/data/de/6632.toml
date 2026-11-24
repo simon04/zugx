@@ -1,0 +1,23 @@
+id = "6632"
+ref = "6632"
+name = "Frelsbachtalbahn"
+operator = "IG Muldental Bahn Tourismus e.V."
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 6.3
+kmTo = 8.6
+length = 2.296
+speeds = [[6.3, 8.6, "", ""]]
+curves = [[6.4, 6.575, 480], [7.827, 8.278, 870]]
+points = [
+  { km = 6.784, kind = "halt", label = "Breitenborn", pos = [51.02619, 12.74601] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mxmvHcaylAbFjAxDzCh{@bfAlDnH`C|HlH~b@" },
+]
+posts = [[7, 51.02465, 12.74414], [8, 51.01756, 12.73541]]

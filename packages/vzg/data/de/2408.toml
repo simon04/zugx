@@ -1,0 +1,25 @@
+id = "2408"
+ref = "2408"
+name = "2408 Düsseldorf Flughafen W 884 - Düsseldorf-Unterrath"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Düsseldorf Flughafen W 884"
+to = "Düsseldorf-Unterrath Karthäuser Weg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.522
+length = 0.522
+speeds = [[0, 0.522, 60, 60]]
+curves = [[0.1, 0.4, 240]]
+points = [
+  { km = 0.197, kind = "signal", label = "G877", signal = "distant,main", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{|~wHavkh@{@mP_AsEuC_EmFq@", v = 60 },
+]
+posts = [[0, 51.28158, 6.78257]]

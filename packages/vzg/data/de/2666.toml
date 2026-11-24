@@ -1,0 +1,70 @@
+id = "2666"
+ref = "2666"
+name = "2666 Köln-Kalk Nord - Gremberg Süd"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Köln-Kalk Nord"
+to = "Gremberg Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 64.006
+kmTo = 70.075
+length = 6.106
+speeds = [[64.006, 65.41, "", ""], [65.41, 65.895, 40, 40], [65.895, 65.937, "", ""], [65.937, 66.296, 60, 60], [66.296, 69.212, 100, 100], [69.212, 69.754, 110, 110], [69.754, 70.075, 120, 120]]
+curves = [[64.106, 64.206, 1400], [64.506, 64.881, 1060], [65.106, 65.756, 770], [65.856, 66.006, 1620], [66.056, 66.28, 1170], [66.674, 66.869, 1100], [68.672, 68.745, 2700], [68.819, 69.157, 740], [69.277, 69.349, 2900], [69.612, 69.707, 2290]]
+points = [
+  { km = 64.384, kind = "signal", label = "H", signal = "main,speed_limit_distant", dir = -1 },
+  { km = 64.41, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 64.658, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 65.044, kind = "signal", signal = "distant", dir = -1 },
+  { km = 65.41, kind = "signal", label = "12B", signal = "main,speed_limit", dir = 1 },
+  { km = 65.657, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 65.755, kind = "signal", signal = "distant", dir = 1 },
+  { km = 66.056, kind = "signal", label = "12L W41X", signal = "minor", dir = -1 },
+  { km = 66.066, kind = "signal", label = "12L W42X", signal = "minor", dir = 1 },
+  { km = 66.296, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 66.462, kind = "signal", signal = "distant", dir = 1 },
+  { km = 67.119, kind = "signal", signal = "distant", dir = -1 },
+  { km = 67.488, kind = "signal", label = "0751", signal = "combined", dir = 1 },
+  { km = 68.288, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 68.476, kind = "signal", label = "0753", signal = "combined,route,speed_limit", dir = 1 },
+  { km = 69.212, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 69.453, kind = "signal", signal = "distant", dir = 1 },
+  { km = 69.455, kind = "halt", label = "Köln Steinstraße", uic = "8003379", pos = [50.89528, 7.05762] },
+  { km = 69.754, kind = "signal", label = "07 57", signal = "combined,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 64.259, kmTo = 64.278, length = 19 },
+  { kind = "bridge", kmFrom = 64.448, kmTo = 64.473, length = 26 },
+  { kind = "bridge", kmFrom = 64.684, kmTo = 64.703, length = 19 },
+  { kind = "bridge", kmFrom = 65.547, kmTo = 65.565, length = 19 },
+  { kind = "bridge", kmFrom = 65.782, kmTo = 65.847, length = 65 },
+  { kind = "bridge", kmFrom = 67.663, kmTo = 67.676, length = 13 },
+  { kind = "bridge", kmFrom = 68.557, kmTo = 68.57, length = 13 },
+  { kind = "bridge", kmFrom = 69.481, kmTo = 69.534, length = 55 },
+  { kind = "bridge", kmFrom = 69.561, kmTo = 69.598, length = 39 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yfzuHyhyi@`HjC~SfLtIzBzUAjKsD" },
+  { line = "yzwuH_yxi@jIyI|HmP", v = 40 },
+  { line = "ofwuHguyi@n@{A" },
+  { line = "_ewuHcxyi@nEyNjBcK", v = 60 },
+  { line = "c{vuHatzi@nIeh@d^ohAtd@qiAhEiGlIqF", v = 100 },
+  { line = "_{suHeaaj@~\\wO", v = 110 },
+  { line = "_}ruH}qaj@dPwJ", v = 120 },
+]
+posts = [[65, 50.92132, 7.01247], [66, 50.91392, 7.01916], [67, 50.90989, 7.03212], [68, 50.905, 7.04326], [69, 50.89908, 7.05436], [70, 50.89035, 7.05984]]
+
+[[connections]]
+km = 69.455
+station = "Köln Steinstraße"
+lines = [
+  { id = "2324", ref = "2324", name = "2324 Mülheim (Ruhr)-Speldorf - Niederlahnstein", km = 69.49 },
+  { id = "2621", ref = "2621", name = "2621 Abzw Köln Posthof - Abzw Köln Steinstraße", km = 7.484 },
+  { id = "2651", ref = "2651", name = "2651 Köln Messe/Deutz - Gießen", km = 8.049 },
+  { id = "2690", ref = "2690", name = "2690 Köln - Frankfurt am Main", km = 10.043 },
+]

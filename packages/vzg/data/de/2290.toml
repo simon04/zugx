@@ -1,0 +1,103 @@
+id = "2290"
+ref = "2290"
+name = "2290 Mülheim-Styrum - Duisburg Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Mülheim (Ruhr)-Styrum"
+to = "Duisburg Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.098
+kmTo = 7.219
+length = 6.169
+speeds = [[0.098, 0.721, 120, 120], [0.721, 3.703, 140, 140], [3.703, 6.054, 130, 130], [6.054, 6.809, 90, 90], [6.809, 7.219, 80, 80]]
+curves = [[0.198, 1.123, 1060], [2.839, 2.989, 2340], [3.321, 3.531, 2100], [3.953, 4.344, 1270], [4.736, 4.977, 2560], [6.25, 6.875, 1190], [7.05, 7.1, 1910]]
+points = [
+  { km = 0.098, kind = "station", label = "Mülheim (Ruhr)-Styrum", pos = [51.44918, 6.85269], uic = "8000687" },
+  { km = 0.182, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.189, kind = "signal", label = "38P5", signal = "combined", dir = 1 },
+  { km = 0.721, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.127, kind = "signal", label = "38/BB", signal = "combined,speed_limit", dir = -1 },
+  { km = 1.399, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.401, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.786, kind = "signal", label = "32113", signal = "main", dir = 1 },
+  { km = 3.649, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.703, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.561, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.913, kind = "signal", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 6.051, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.054, kind = "signal", label = "32 J", signal = "combined,route_distant,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 6.12, kind = "halt", label = "Duissern", pos = [51.43919, 6.78297] },
+  { km = 6.234, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.434, kind = "signal", signal = "minor", dir = 1 },
+  { km = 6.507, kind = "signal", signal = "minor", dir = -1 },
+  { km = 6.682, kind = "signal", signal = "minor", dir = 1 },
+  { km = 6.966, kind = "station", label = "Duisburg Hauptbahnhof U", pos = [51.43185, 6.77721] },
+  { km = 7.028, kind = "signal", label = "32N6", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = 7.219, kind = "station", label = "Duisburg Hauptbahnhof", uic = "8000086", pos = [51.42967, 6.77618] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.533, kmTo = 0.592, length = 54 },
+  { kind = "tunnel", kmFrom = 0.872, kmTo = 0.958, length = 71 },
+  { kind = "bridge", kmFrom = 1.651, kmTo = 1.672, length = 17 },
+  { kind = "bridge", kmFrom = 2.104, kmTo = 2.313, length = 173 },
+  { kind = "bridge", kmFrom = 2.435, kmTo = 2.508, length = 61 },
+  { kind = "bridge", kmFrom = 2.616, kmTo = 2.703, length = 72 },
+  { kind = "bridge", kmFrom = 3.782, kmTo = 3.921, length = 115 },
+  { kind = "bridge", kmFrom = 4.401, kmTo = 4.504, length = 85 },
+  { kind = "bridge", kmFrom = 5.077, kmTo = 5.114, length = 31 },
+  { kind = "bridge", kmFrom = 5.337, kmTo = 5.352, length = 12 },
+  { kind = "bridge", kmFrom = 5.645, kmTo = 5.66, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gu_yHglyh@{Ev\\w@bR", v = 120 },
+  { line = "{}_yHk{wh@DfJ", v = 140 },
+  { line = "u}_yHcpwh@LjE", tunnel = true, v = 140 },
+  { line = "g}_yHwiwh@nF~l@vIrvAjCzu@", v = 140 },
+  { line = "sf_yHgmqh@J`B", tunnel = true, v = 140 },
+  { line = "gf_yHejqh@j@~H", v = 140 },
+  { line = "{d_yHe`qh@lDz`@fIl^fGzSd]t`A", v = 130 },
+  { line = "wn}xHihlh@xFbPpDnH|HdKjF|E", v = 90 },
+  { line = "ap|xHqzjh@pT~K", v = 80 },
+]
+posts = [[1, 51.45054, 6.84154], [2, 51.44881, 6.82989], [3, 51.44744, 6.81812], [4, 51.44622, 6.80632], [5, 51.44276, 6.79576], [6, 51.43833, 6.78611], [7, 51.43155, 6.77711]]
+
+[[connections]]
+km = 0.098
+station = "Mülheim-Styrum"
+lines = [
+  { id = "2184", ref = "2184", name = "2184 Mülheim (Ruhr)-Styrum - Duisburg Hbf", km = -9.171 },
+  { id = "2291", ref = "2291", name = "2291 Mülheim (Ruhr)-Styrum - Bochum Hbf", km = 116.346 },
+  { id = "2300", ref = "2300", name = "2300 Mülheim (Rhur)-Styrum - Essen Hbf", km = 115.658 },
+]
+
+[[connections]]
+km = 6.12
+station = "Duissern"
+lines = [
+  { id = "2320", ref = "2320", name = "2320 Duisburg-Wedau - Oberhausen-Osterfeld", km = 5.89 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 64.13 },
+]
+
+[[connections]]
+km = 6.966
+station = "Duisburg Hauptbahnhof U"
+lines = [
+  { id = "2326", ref = "2326", name = "2326 Duisburg Bissingheim - Duisburg", km = 5.723 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 63.369 },
+]
+
+[[connections]]
+km = 7.219
+station = "Duisburg Hauptbahnhof"
+lines = [
+  { id = "2184", ref = "2184", name = "2184 Mülheim (Ruhr)-Styrum - Duisburg Hbf", km = 6.304 },
+  { id = "2320", ref = "2320", name = "2320 Duisburg-Wedau - Oberhausen-Osterfeld", km = 5.128 },
+  { id = "2326", ref = "2326", name = "2326 Duisburg Bissingheim - Duisburg", km = 5.46 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 63.087 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 63.104 },
+]

@@ -1,0 +1,59 @@
+id = "1751"
+ref = "1751"
+name = "1751 Wunstorf - Abzw Gümmerwald"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q110548242"
+from = "Wunstorf"
+to = "Gümmerwald"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.727
+length = 4.727
+speeds = [[0, 4.727, "", ""]]
+curves = [[0.1, 0.175, 1830], [0.8, 1.2, 750], [1.275, 1.6, 770], [3.425, 3.525, 1640], [3.8, 3.9, 2130], [4.25, 4.625, 780]]
+points = [
+  { km = 0.426, kind = "signal", label = "67", signal = "main", dir = -1 },
+  { km = 1.302, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.683, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.028, kind = "signal", label = "65", signal = "main", dir = -1 },
+  { km = 2.31, kind = "signal", label = "CC", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 2.789, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.85, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.048, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.286, kind = "signal", label = "R2", signal = "distant,main,minor,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 3.393, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.464, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 3.63, kind = "signal", label = "P102", signal = "main", dir = -1 },
+  { km = 3.795, kind = "signal", label = "P2", signal = "main,route,speed_limit", dir = -1 },
+  { km = 4.031, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 4.051, kind = "station", label = "Wunstorf", pos = [52.42216, 9.45141], uic = "8000268" },
+  { km = 4.127, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 4.133, kind = "signal", label = "WVp2", signal = "distant", dir = -1 },
+  { km = 4.137, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.154, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.179, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.208, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.287, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.444, kind = "signal", label = "N2", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 4.606, kind = "signal", signal = "wrong_road", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{i{~Hey_y@cLxpAaC|KmIjSaDjNy]z~CuHnd@_Htg@kElQmGjL" },
+]
+posts = [[0, 52.41006, 9.50691], [1, 52.41246, 9.49272], [2, 52.41649, 9.47978], [3, 52.41914, 9.46569], [4, 52.42233, 9.45191]]
+
+[[connections]]
+km = 4.051
+station = "Wunstorf"
+lines = [
+  { id = "1700", ref = "1700", name = "1700 Hannover - Hamm", km = 21.381 },
+  { id = "1711", ref = "1711", name = "Heidebahn", km = 21.402 },
+  { id = "1740", ref = "1740", name = "Wunstorf, W 18 - DB-Grenze, (Bremerhaven-Seehafen)", km = 21.412 },
+  { id = "1750", ref = "1750", name = "1750 Wunstorf - Lehrte", km = -0.022 },
+]

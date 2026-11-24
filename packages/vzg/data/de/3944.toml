@@ -1,0 +1,111 @@
+id = "3944"
+ref = "3944"
+name = "3944 Wega - Brilon Wald"
+operator = "DB Netz AG;DB RegioNetz Infrastruktur GmbH;Kurhessenbahn"
+gauge = "1435"
+wikidata = "Q803417"
+from = "Wega"
+to = "Brilon Wald"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 39.366
+kmTo = 69.939
+length = 30.512
+speeds = [[39.366, 39.635, "", ""], [39.635, 40.856, 60, 60], [40.856, 45.608, 80, 80], [45.608, 49.106, 100, 100], [49.106, 56.884, "", ""], [56.884, 57.347, 50, 50], [57.347, 62.222, 80, 80], [62.222, 62.338, "", ""], [62.338, 62.79, 50, 50], [62.79, 62.817, "", ""], [62.817, 66.221, 80, 80], [66.221, 66.232, "", ""], [66.232, 68.912, 80, 80], [68.912, 69.352, 70, 70], [69.352, 69.939, 40, 40]]
+curves = [[39.503, 39.778, 1350], [40.153, 40.253, 2130], [40.303, 40.573, 910], [40.898, 41.405, 860], [42.115, 42.587, 770], [42.691, 42.769, 2030], [42.898, 43.549, 1290], [43.633, 43.864, 1020], [44.249, 45.062, 570], [46.339, 46.564, 1320], [46.666, 47.246, 520], [47.396, 47.569, 1070], [48.49, 48.917, 790], [49.092, 49.545, 520], [49.644, 50.244, 330], [50.319, 50.964, 640], [51.013, 51.359, 360], [51.433, 51.778, 520], [51.976, 53.061, 440], [53.11, 53.283, 960], [53.505, 53.678, 1340], [53.875, 54.541, 560], [54.59, 54.738, 1950], [54.985, 55.577, 320], [55.676, 56.021, 680], [56.564, 56.687, 1040], [57.688, 58.039, 800], [58.181, 58.404, 450], [58.465, 58.623, 1420], [58.738, 59.159, 760], [59.293, 59.616, 410], [59.697, 60.126, 370], [60.21, 60.713, 400], [60.812, 61.428, 970], [62.02, 62.219, 830], [62.742, 63.04, 410], [63.165, 63.439, 600], [63.488, 63.737, 740], [63.936, 64.086, 900], [64.16, 64.559, 790], [64.608, 64.758, 900], [64.832, 65.081, 540], [65.181, 65.405, 1200], [65.729, 66.077, 500], [66.475, 66.749, 840], [66.948, 67.197, 700], [67.521, 67.745, 570], [67.919, 68.417, 580], [68.641, 68.815, 1170], [68.914, 69.239, 550], [69.364, 69.564, 910], [69.739, 69.789, 2300]]
+points = [
+  { km = 39.508, kind = "signal", label = "20ZS3", signal = "main,traversable", dir = -1 },
+  { km = 39.581, kind = "station", label = "Korbach Hauptbahnhof", pos = [51.2789, 8.87267], uic = "8000210" },
+  { km = 39.771, kind = "signal", label = "20P3", signal = "main,traversable", dir = 1 },
+  { km = 40.856, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 41.616, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 45.608, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 45.609, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 45.842, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 46.074, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 46.3, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 48.379, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 49.106, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 50.333, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 57.051, kind = "station", label = "Usseln", pos = [51.28055, 8.66912], uic = "8006043" },
+  { km = 57.347, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 57.429, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 57.71, kind = "signal", signal = "main", dir = -1 },
+  { km = 58.115, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 58.376, kind = "signal", signal = "distant", dir = -1 },
+  { km = 60.115, kind = "stop", label = "Stryck", pos = [51.28241, 8.63062], uic = "8005762" },
+  { km = 60.669, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 60.93, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 61.285, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 62.222, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 62.487, kind = "station", label = "Willingen", pos = [51.29335, 8.60354], uic = "8006453" },
+  { km = 68.912, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 69.352, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 69.576, kind = "station", label = "Brilon Wald", pos = [51.35003, 8.57651], uic = "8008513" },
+  { km = 69.82, kind = "signal", label = "N 509", signal = "main,minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 39.394, kmTo = 39.412, length = 18 },
+  { kind = "bridge", kmFrom = 41.312, kmTo = 41.36, length = 44 },
+  { kind = "bridge", kmFrom = 42.086, kmTo = 42.096, length = 10 },
+  { kind = "bridge", kmFrom = 42.428, kmTo = 42.448, length = 19 },
+  { kind = "bridge", kmFrom = 43.667, kmTo = 43.682, length = 18 },
+  { kind = "bridge", kmFrom = 44.128, kmTo = 44.168, length = 34 },
+  { kind = "bridge", kmFrom = 44.422, kmTo = 44.443, length = 18 },
+  { kind = "bridge", kmFrom = 45.62, kmTo = 45.633, length = 13 },
+  { kind = "bridge", kmFrom = 46.004, kmTo = 46.022, length = 18 },
+  { kind = "bridge", kmFrom = 47.122, kmTo = 47.236, length = 114 },
+  { kind = "bridge", kmFrom = 47.75, kmTo = 47.772, length = 22 },
+  { kind = "bridge", kmFrom = 48.683, kmTo = 48.7, length = 16 },
+  { kind = "bridge", kmFrom = 49.171, kmTo = 49.288, length = 123 },
+  { kind = "bridge", kmFrom = 51.778, kmTo = 51.796, length = 19 },
+  { kind = "bridge", kmFrom = 53.198, kmTo = 53.217, length = 19 },
+  { kind = "bridge", kmFrom = 55.093, kmTo = 55.122, length = 29 },
+  { kind = "bridge", kmFrom = 57.344, kmTo = 57.358, length = 14 },
+  { kind = "bridge", kmFrom = 57.77, kmTo = 57.903, length = 107 },
+  { kind = "bridge", kmFrom = 61.376, kmTo = 61.664, length = 292 },
+  { kind = "bridge", kmFrom = 62.228, kmTo = 62.239, length = 11 },
+  { kind = "bridge", kmFrom = 62.971, kmTo = 62.996, length = 25 },
+  { kind = "bridge", kmFrom = 65.321, kmTo = 65.332, length = 10 },
+  { kind = "bridge", kmFrom = 66.221, kmTo = 66.232, length = 11 },
+  { kind = "bridge", kmFrom = 67.642, kmTo = 67.66, length = 18 },
+  { kind = "tunnel", kmFrom = 69.065, kmTo = 69.117, length = 52 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_{lxHcjjs@~VlGxF`D", v = 40 },
+  { line = "e{kxHs|is@bKjG", v = 70 },
+  { line = "aokxHgtis@zAP", tunnel = true, v = 70 },
+  { line = "elkxHusis@nGaA", v = 70 },
+  { line = "uckxHwuis@`IqBvVq@hDiAjFsEfNqY~DwDnVcMjZcAxRgJ", v = 80 },
+  { line = "gyfxHs_ls@PK" },
+  { line = "uxfxH_`ls@fLqFnE[|]~L|L`AlEg@jKwFlIqBnEyBzEkErIoLbP_N`SeGfMyNpBuEf@uC", v = 80 },
+  { line = "qjaxH_ons@LiA" },
+  { line = "cjaxHiqns@lD{f@", v = 50 },
+  { line = "udaxHeyos@j@eI" },
+  { line = "icaxHkcps@rAoLhRi{@fCyGtEgGhGaFxLiGxDqElBkI\\uYhAoInB_FdLcOzAiFhBiTPuKe@uIiB}OmEaX?qFfCoXTeHuCgg@", v = 80 },
+  { line = "as~wHkk{s@gDgh@", v = 50 },
+  { line = "ix~wHst|s@gB}WsMoy@[gMt@sW_@kGgAqEmBwDkE{CmRk@wOh@oDu@_CmC_BgDmEcTmLqZcHaXyEm\\eFsNs@wFIsFbAgIdGiNlAiFbCgb@e@uM{D_R[_F^aJnEyXXyMuAeNiG}UUwDTkI|AyFvCuEtL{GhD{DpCyIhAaJ" },
+  { line = "glaxH_dnt@xB}[UgNgNm}AqFe[a@iMZgHxAwJfJgVrQg`A", v = 100 },
+  { line = "m_axHsfwt@`Mcw@P{Lc@mIkBaKwCoH_Y{_@sHwTiDqQc@oF]aOJkW|Aa[pAoHhD}JvZau@dH_JtKeG", v = 80 },
+  { line = "gh`xHo`bu@dRqHnF_EhGwHhVk`@", v = 60 },
+  { line = "}m~wHe{cu@fHcR" },
+]
+posts = [[69, 51.34489, 8.57424], [68, 51.33626, 8.57734], [67, 51.3287, 8.58436], [66, 51.32, 8.58749], [65, 51.31119, 8.58519], [64, 51.30306, 8.59092], [63, 51.29498, 8.59696], [62, 51.29217, 8.61043], [61, 51.28719, 8.62232], [60, 51.28238, 8.63172], [59, 51.2783, 8.64265], [58, 51.27937, 8.65711], [57, 51.28064, 8.66997], [56, 51.28344, 8.68377], [55, 51.28651, 8.69541], [54, 51.29419, 8.69968], [53, 51.2988, 8.71212], [52, 51.29847, 8.72481], [51, 51.29875, 8.73876], [50, 51.29974, 8.75227], [49, 51.29404, 8.76268], [48, 51.29513, 8.77622], [47, 51.2976, 8.7901], [46, 51.2936, 8.80268], [45, 51.29011, 8.81587], [44, 51.29342, 8.82654], [43, 51.29825, 8.83942], [42, 51.29594, 8.85226], [41, 51.28984, 8.86223], [40, 51.28161, 8.86881]]
+
+[[connections]]
+km = 39.581
+station = "Korbach Hauptbahnhof"
+lines = [
+  { id = "2972", ref = "2972", name = "2972 Warburg (Westf) - Sarnau", km = 43.678 },
+]
+
+[[connections]]
+km = 69.576
+station = "Brilon Wald"
+lines = [
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 242.191 },
+]

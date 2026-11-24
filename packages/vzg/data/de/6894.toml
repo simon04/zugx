@@ -1,0 +1,98 @@
+id = "6894"
+ref = "6894"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q2342672"
+from = "Stendal"
+to = "Tangermünde"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.446
+kmTo = 10.286
+length = 9.819
+speeds = [[0.446, 0.488, "", ""], [0.488, 0.802, 80, 40], [0.802, 3.3, 80, 80], [3.3, 3.501, 40, 80], [3.501, 3.518, 40, 40], [3.518, 3.7, 80, 40], [3.7, 9.403, 80, 80], [9.403, 9.55, 40, 80], [9.55, 9.594, 60, 10], [9.594, 10.286, 60, 60]]
+curves = [[0.839, 0.989, 990], [1.265, 1.391, 1560], [1.516, 1.842, 700], [8.598, 8.929, 820], [9.46, 10.136, 310]]
+points = [
+  { km = 0.488, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 0.739, kind = "signal", signal = "catenary_mast,station_distant", dir = 1 },
+  { km = 0.802, kind = "signal", signal = "combined,short_route,speed_limit,traversable", dir = -1 },
+  { km = 0.938, kind = "signal", signal = "catenary_mast,distant,speed_limit_distant", dir = -1 },
+  { km = 1.134, kind = "halt", label = "Stendal Vorbahnhof", uic = "8024566", pos = [52.59547, 11.87145] },
+  { km = 1.139, kind = "stop", label = "Stendal Vorbf", pos = [52.59543, 11.87152] },
+  { km = 1.367, kind = "signal", signal = "catenary_mast,distant,speed_limit_distant", dir = -1 },
+  { km = 1.468, kind = "signal", signal = "catenary_mast,distant", dir = -1 },
+  { km = 1.538, kind = "signal", signal = "catenary_mast,station_distant", dir = -1 },
+  { km = 1.54, kind = "signal", signal = "catenary_mast,distant", dir = -1 },
+  { km = 1.617, kind = "signal", signal = "catenary_mast,distant", dir = -1 },
+  { km = 2.9, kind = "signal", signal = "catenary_mast,speed_limit_distant", dir = 1 },
+  { km = 3.156, kind = "signal", signal = "catenary_mast,whistle", dir = 1 },
+  { km = 3.235, kind = "signal", signal = "catenary_mast,station_distant", dir = 1 },
+  { km = 3.3, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 3.43, kind = "stop", label = "Bindfelde", pos = [52.58421, 11.89864], uic = "8024576" },
+  { km = 3.48, kind = "signal", signal = "catenary_mast,whistle", dir = 1 },
+  { km = 3.501, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+  { km = 3.518, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 3.652, kind = "signal", signal = "catenary_mast,station_distant", dir = -1 },
+  { km = 3.7, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+  { km = 3.867, kind = "signal", signal = "catenary_mast,whistle", dir = -1 },
+  { km = 4.099, kind = "signal", signal = "catenary_mast,speed_limit_distant", dir = -1 },
+  { km = 6.479, kind = "signal", signal = "catenary_mast,whistle", dir = 1 },
+  { km = 6.501, kind = "signal", signal = "catenary_mast,station_distant", dir = 1 },
+  { km = 6.608, kind = "signal", signal = "catenary_mast,whistle", dir = 1 },
+  { km = 6.901, kind = "signal", signal = "catenary_mast,whistle", dir = -1 },
+  { km = 6.903, kind = "stop", label = "Miltern", pos = [52.56332, 11.93676], uic = "8024568" },
+  { km = 7.075, kind = "signal", signal = "catenary_mast,whistle", dir = 1 },
+  { km = 7.079, kind = "signal", signal = "catenary_mast,whistle", dir = -1 },
+  { km = 7.218, kind = "signal", signal = "catenary_mast,whistle", dir = -1 },
+  { km = 7.304, kind = "signal", signal = "catenary_mast,station_distant", dir = -1 },
+  { km = 7.485, kind = "signal", signal = "catenary_mast,whistle", dir = -1 },
+  { km = 7.972, kind = "signal", signal = "catenary_mast,crossing_distant", dir = 1 },
+  { km = 8.167, kind = "signal", signal = "catenary_mast,crossing_distant", dir = 1 },
+  { km = 8.322, kind = "signal", signal = "catenary_mast,crossing", dir = 1 },
+  { km = 8.686, kind = "signal", signal = "catenary_mast,crossing_info", dir = 1 },
+  { km = 8.721, kind = "signal", signal = "catenary_mast,crossing_info", dir = -1 },
+  { km = 8.92, kind = "signal", signal = "catenary_mast,station_distant", dir = 1 },
+  { km = 9, kind = "signal", signal = "catenary_mast,speed_limit_distant", dir = 1 },
+  { km = 9.124, kind = "signal", signal = "catenary_mast,crossing", dir = -1 },
+  { km = 9.15, kind = "signal", signal = "catenary_mast,whistle", dir = 1 },
+  { km = 9.266, kind = "signal", signal = "catenary_mast,crossing_distant", dir = 1 },
+  { km = 9.281, kind = "signal", signal = "catenary_mast,crossing_distant", dir = -1 },
+  { km = 9.327, kind = "stop", label = "Tangermünde West", pos = [52.5476, 11.96051], uic = "8060480" },
+  { km = 9.34, kind = "signal", signal = "catenary_mast,whistle", dir = 1 },
+  { km = 9.403, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 9.415, kind = "signal", signal = "catenary_mast,whistle", dir = 1 },
+  { km = 9.428, kind = "signal", signal = "catenary_mast,whistle", dir = -1 },
+  { km = 9.46, kind = "signal", signal = "catenary_mast,crossing_distant", dir = 1 },
+  { km = 9.476, kind = "signal", signal = "catenary_mast,crossing_distant", dir = -1 },
+  { km = 9.542, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 9.554, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+  { km = 9.594, kind = "signal", signal = "catenary_mast,speed_limit,whistle", dir = -1 },
+  { km = 9.609, kind = "signal", signal = "catenary_mast,crossing", dir = 1 },
+  { km = 9.616, kind = "signal", signal = "catenary_mast,whistle", dir = -1 },
+  { km = 9.721, kind = "signal", signal = "catenary_mast", dir = -1 },
+  { km = 10.011, kind = "signal", signal = "catenary_mast,speed_limit_distant", dir = -1 },
+  { km = 10.08, kind = "signal", signal = "catenary_mast,crossing_info", dir = 1 },
+  { km = 10.106, kind = "signal", signal = "catenary_mast,crossing_info", dir = -1 },
+  { km = 10.17, kind = "signal", signal = "catenary_mast,crossing", dir = -1 },
+  { km = 10.18, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+  { km = 10.202, kind = "stop", label = "Tangermünde", uic = "8013084", pos = [52.54566, 11.97004] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "s|u_Io`ahA~G|NzAbKAjFw@rGcB`FuBpC", v = 60 },
+  { line = "kyu_Iyh_hAcb@xWoGdI}`Ex`J", v = 80 },
+  { line = "}f}_I_dsgAUd@", v = 40 },
+  { line = "sg}_IybsgAm~@|rBeBpFkAlJsAtTkAnb@v@ri@", v = 80 },
+  { line = "{o_`IaxkgAB|B" },
+]
+posts = [[10, 52.54459, 11.96784], [9, 52.55021, 11.95868], [8, 52.55675, 11.94876], [7, 52.56274, 11.93785], [6, 52.56863, 11.92712], [5, 52.5748, 11.91587], [4, 52.58078, 11.90496], [3, 52.58678, 11.89399], [2, 52.59278, 11.88305], [1, 52.59557, 11.86949]]
+
+[[connections]]
+km = 1.134
+station = "Stendal Vorbahnhof"
+lines = [
+  { id = "6107", ref = "6107", name = "6107 Berlin Hbf (tief) - Lehrte", km = 103.958 },
+]

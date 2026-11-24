@@ -1,0 +1,117 @@
+id = "1224"
+ref = "1224"
+name = "1224 Hamburg-Altona - Hamburg-Blankenese"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q22671106"
+from = "Hamburg-Altona"
+to = "Hamburg-Blankenese"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.923
+kmTo = 9.514
+length = 8.58
+speeds = [[0.923, 1.363, "", ""], [1.363, 1.708, 70, 60], [1.708, 1.808, 80, 60], [1.808, 2.814, 80, 80], [2.814, 2.815, "", ""], [2.815, 2.988, 70, 70], [2.988, 2.99, "", ""], [2.99, 8.82, 90, 90], [8.82, 9.098, 40, ""], [9.098, 9.17, "", ""], [9.17, 9.278, 40, 40], [9.278, 9.514, "", ""]]
+curves = [[1.023, 1.673, 520], [2.048, 2.123, 2150], [2.623, 2.898, 2310], [5.502, 5.552, 2800], [5.826, 5.926, 1230], [6.026, 6.225, 880], [6.275, 7.479, 1330], [7.579, 7.704, 1160], [7.804, 8.48, 1430], [8.858, 9.334, 930]]
+points = [
+  { km = 0.923, kind = "station", label = "Hamburg-Altona", uic = "8001093", pos = [53.55215, 9.93457] },
+  { km = 1.09, kind = "signal", label = "93", signal = "combined,minor", dir = 1 },
+  { km = 1.203, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.363, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.471, kind = "signal", signal = "combined", dir = 1 },
+  { km = 1.568, kind = "signal", label = "695", signal = "combined", dir = -1 },
+  { km = 1.708, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.808, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.818, kind = "stop", label = "Ottensen", pos = [53.55959, 9.92657] },
+  { km = 2.138, kind = "signal", label = "307", signal = "combined", dir = 1 },
+  { km = 2.157, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.427, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.6, kind = "signal", label = "311", signal = "combined", dir = 1 },
+  { km = 2.644, kind = "signal", label = "309", signal = "combined", dir = 1 },
+  { km = 2.742, kind = "signal", label = "697", signal = "combined", dir = -1 },
+  { km = 2.814, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.815, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.847, kind = "stop", label = "Bahrenfeld", pos = [53.56005, 9.91105], uic = "8000780" },
+  { km = 2.888, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.892, kind = "signal", label = "313", signal = "combined", dir = 1 },
+  { km = 2.988, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.99, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.236, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.455, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.098, kind = "signal", label = "317", signal = "combined", dir = 1 },
+  { km = 4.474, kind = "signal", label = "699", signal = "combined", dir = -1 },
+  { km = 4.544, kind = "station", label = "Othmarschen", pos = [53.55915, 9.88528], uic = "8004719" },
+  { km = 4.636, kind = "signal", label = "319", signal = "departure,main,minor", dir = 1 },
+  { km = 4.681, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.937, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.02, kind = "signal", label = "701", signal = "combined", dir = -1 },
+  { km = 5.498, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.592, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 6.135, kind = "station", label = "Klein Flottbek (Botanischer Garten)", pos = [53.55816, 9.86088], uic = "8003312" },
+  { km = 6.222, kind = "signal", label = "E", signal = "main", dir = 1 },
+  { km = 6.429, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.592, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.676, kind = "signal", signal = "main", dir = -1 },
+  { km = 7.288, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 7.575, kind = "stop", label = "Hochkamp", pos = [53.56166, 9.84153], uic = "8002873" },
+  { km = 7.762, kind = "signal", label = "D", signal = "main", dir = 1 },
+  { km = 8.096, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.82, kind = "signal", signal = "main,speed_limit_distant", dir = 1 },
+  { km = 9.101, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 9.103, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.27, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 9.285, kind = "signal", label = "D", signal = "main", dir = -1 },
+  { km = 9.432, kind = "station", label = "Blankenese", pos = [53.56446, 9.81527], uic = "8001007" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.729, kmTo = 1.748, length = 20 },
+  { kind = "bridge", kmFrom = 2.208, kmTo = 2.245, length = 37 },
+  { kind = "bridge", kmFrom = 2.719, kmTo = 2.736, length = 16 },
+  { kind = "bridge", kmFrom = 2.899, kmTo = 2.946, length = 47 },
+  { kind = "bridge", kmFrom = 3.528, kmTo = 3.554, length = 26 },
+  { kind = "bridge", kmFrom = 3.658, kmTo = 3.743, length = 84 },
+  { kind = "bridge", kmFrom = 4.42, kmTo = 4.45, length = 30 },
+  { kind = "bridge", kmFrom = 4.811, kmTo = 4.824, length = 13 },
+  { kind = "bridge", kmFrom = 5.029, kmTo = 5.041, length = 12 },
+  { kind = "bridge", kmFrom = 5.896, kmTo = 5.91, length = 14 },
+  { kind = "bridge", kmFrom = 6.862, kmTo = 6.881, length = 19 },
+  { kind = "bridge", kmFrom = 7.146, kmTo = 7.163, length = 17 },
+  { kind = "bridge", kmFrom = 7.478, kmTo = 7.491, length = 13 },
+  { kind = "bridge", kmFrom = 8.661, kmTo = 8.678, length = 17 },
+  { kind = "bridge", kmFrom = 8.962, kmTo = 8.977, length = 14 },
+  { kind = "bridge", kmFrom = 9.126, kmTo = 9.137, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "k|zeIqjs{@gE?eE|@iEbCqCxC" },
+  { line = "us{eIu_s{@eBpDgA~Eg@tO", v = 70 },
+  { line = "kz{eImbr{@kBjgB", v = 80 },
+  { line = "w}{eIazn{@?B" },
+  { line = "w}{eI}yn{@VhO", v = 70 },
+  { line = "_}{eIsin{@?D" },
+  { line = "_}{eImin{@|FrkFfAz_@PhZ~AxV?pOcBbZeErWkDdMeJvRgE|LyGvYqCtYyApd@", v = 90 },
+  { line = "q_}eIsy}z@CbY", v = 40 },
+  { line = "u_}eIo_}z@ZrE" },
+  { line = "y~|eI{x|z@v@xH", v = 40 },
+  { line = "a}|eIao|z@nDfS" },
+]
+posts = [[1, 53.55547, 9.93468], [2, 53.55971, 9.92382], [3, 53.55999, 9.90872], [4, 53.5595, 9.89363], [5, 53.55899, 9.87858], [6, 53.55833, 9.86343], [7, 53.55873, 9.84863], [8, 53.56389, 9.83638], [9, 53.56563, 9.82172]]
+
+[[connections]]
+km = 0.923
+station = "Hamburg-Altona"
+lines = [
+  { id = "1240", ref = "1240", name = "1240 Hamburg Hbf - Hamburg-Altona", km = 2.95 },
+  { id = "1270", ref = "1270", name = "1270 Hamburg Hbf - Hamburg Diebsteich", km = 5.937 },
+  { id = "6100", ref = "6100", name = "6100 Berlin - Hamburg", km = 293.127 },
+]
+
+[[connections]]
+km = 9.432
+station = "Blankenese"
+lines = [
+  { id = "1226", ref = "1226", name = "1226 Hamburg-Blankenese - Wedel (Holst)", km = 9.792 },
+]

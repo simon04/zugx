@@ -1,0 +1,56 @@
+id = "2195"
+ref = "2195"
+name = "2195 Essen-Steele"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Essen-Steele"
+to = "Essen-Steele"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.954
+length = 1.954
+speeds = [[0, 0.991, 100, 100], [0.991, 1.371, 60, 60], [1.371, 1.954, 80, 80]]
+curves = [[0.1, 0.175, 1400], [0.3, 0.525, 1390], [1.325, 1.375, 2370], [1.475, 1.825, 520]]
+points = [
+  { km = 0, kind = "station", label = "Essen-Steele", uic = "8000099", pos = [51.45068, 7.07555] },
+  { km = 0.402, kind = "signal", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 0.561, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.729, kind = "signal", label = "S2", signal = "distant,main,minor,speed_limit_distant", dir = -1 },
+  { km = 0.991, kind = "station", label = "Essen-Steele Ost", pos = [51.44417, 7.08861] },
+  { km = 1.134, kind = "signal", label = "N2", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 1.449, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.054, kmTo = 0.079, length = 25 },
+  { kind = "bridge", kmFrom = 0.197, kmTo = 0.215, length = 18 },
+  { kind = "bridge", kmFrom = 0.794, kmTo = 0.871, length = 77 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wx_yHeiej@lQ{^|O{c@", v = 100 },
+  { line = "ku~xH}mgj@zKgZ", v = 60 },
+  { line = "oh~xHeihj@nEcKpCwDnDsBzImB", v = 80 },
+]
+posts = [[0, 51.44988, 7.07747], [1, 51.44417, 7.08857]]
+
+[[connections]]
+km = 0
+station = "Essen-Steele"
+lines = [
+  { id = "2165", ref = "2165", name = "2165 Essen-Überruhr - Bochum-Langendreer", km = 0.969 },
+  { id = "2291", ref = "2291", name = "2291 Mülheim (Ruhr)-Styrum - Bochum Hbf", km = 134.214 },
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 38.495 },
+]
+
+[[connections]]
+km = 0.991
+station = "Essen-Steele Ost"
+lines = [
+  { id = "2165", ref = "2165", name = "2165 Essen-Überruhr - Bochum-Langendreer", km = 2.04 },
+  { id = "2291", ref = "2291", name = "2291 Mülheim (Ruhr)-Styrum - Bochum Hbf", km = 135.348 },
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 39.712 },
+]

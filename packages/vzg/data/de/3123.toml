@@ -1,0 +1,39 @@
+id = "3123"
+ref = "3123"
+name = "Bahnstrecke 3123 Karthaus Moselbrücke - Karthaus Mitte"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Karthaus Moselbrücke"
+to = "Karthaus Mitte"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.668
+kmTo = 1.219
+length = 0.566
+speeds = [[0.668, 1.219, "", ""]]
+curves = [[0.768, 1.111, 390]]
+points = [
+  { km = 0.784, kind = "signal", signal = "catenary_mast,main_repeated", dir = -1 },
+  { km = 0.801, kind = "signal", label = "103 I", signal = "catenary_mast,minor,traversable", dir = -1 },
+  { km = 0.83, kind = "stop", label = "Kreuz Konz", pos = [49.70385, 6.57659], uic = "8003434" },
+  { km = 0.944, kind = "signal", label = "S103", signal = "distant,main,minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.873, kmTo = 0.91, length = 36 },
+  { kind = "bridge", kmFrom = 1.034, kmTo = 1.057, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "m}jnHqbcg@rDyLbAoIKuIiBuH" },
+]
+posts = [[1, 49.70345, 6.57871]]
+
+[[connections]]
+km = 0.83
+station = "Kreuz Konz"
+lines = [
+  { id = "3010", ref = "3010", name = "Moselstrecke", km = 119.968 },
+]

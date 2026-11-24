@@ -1,0 +1,72 @@
+id = "2321"
+ref = "2321"
+name = "2321 Duisburg Wedau - Oberhausen West"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Duisburg Wedau"
+to = "Oberhausen West"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 11.812
+length = 11.812
+speeds = [[0, 1.846, 80, 80], [1.846, 2.443, 60, 60], [2.443, 11.283, 80, 80], [11.283, 11.812, 50, 50]]
+curves = [[0.15, 0.85, 670], [0.9, 1.15, 1570], [1.2, 1.325, 1530], [2.2, 2.3, 1980], [3.575, 3.85, 550], [3.9, 4.55, 600], [5.15, 5.225, 1920], [5.3, 5.4, 1740], [5.925, 6.15, 1130], [6.6, 7.125, 1580], [7.225, 7.4, 1230], [7.575, 8.95, 970], [9.725, 10.05, 1020], [10.15, 10.65, 980], [11.4, 11.5, 1720], [11.625, 11.7, 1270]]
+points = [
+  { km = 0.008, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.333, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.418, kind = "signal", label = "206", signal = "main,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.482, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.49, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.528, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.586, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.588, kind = "signal", signal = "distant,traversable", dir = -1 },
+  { km = 0.738, kind = "signal", signal = "distant,main,traversable", dir = 1 },
+  { km = 0.979, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 1.045, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.846, kind = "signal", signal = "main,route,traversable", dir = 1 },
+  { km = 2.443, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.582, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.26, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 5.771, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.899, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.127, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 7.405, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.592, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 7.875, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 8.508, kind = "signal", signal = "distant,speed_limit", dir = 1 },
+  { km = 8.796, kind = "signal", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 9.556, kind = "signal", signal = "main", dir = -1 },
+  { km = 10.269, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 10.93, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10.998, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 11.283, kind = "signal", label = "05 A", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 11.528, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.812, kind = "signal", label = "05 P4", signal = "combined,route,speed_limit,speed_limit_distant,traversable", dir = -1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.501, kmTo = 0.588, length = 86 },
+  { kind = "bridge", kmFrom = 3.38, kmTo = 3.397, length = 17 },
+  { kind = "bridge", kmFrom = 3.429, kmTo = 3.481, length = 52 },
+  { kind = "bridge", kmFrom = 3.827, kmTo = 3.85, length = 23 },
+  { kind = "bridge", kmFrom = 4.153, kmTo = 4.175, length = 22 },
+  { kind = "bridge", kmFrom = 4.445, kmTo = 4.467, length = 22 },
+  { kind = "bridge", kmFrom = 4.995, kmTo = 5.024, length = 28 },
+  { kind = "bridge", kmFrom = 5.169, kmTo = 5.192, length = 23 },
+  { kind = "bridge", kmFrom = 6.245, kmTo = 6.596, length = 350 },
+  { kind = "bridge", kmFrom = 6.721, kmTo = 6.796, length = 76 },
+  { kind = "bridge", kmFrom = 7.019, kmTo = 7.083, length = 64 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uqgyHsbyh@|PmDfDEpCv@", v = 80 },
+  { line = "}ufyHofyh@bC~B", tunnel = true, v = 80 },
+  { line = "yqfyHobyh@hFtKpFbSrGxPfPvh@", v = 80 },
+  { line = "aieyHcfvh@dQdl@", v = 60 },
+  { line = "{vdyH}xth@d`@p|Az@fJ@fRbAnHfGrLbIhGdpA`d@fL|@t[d@zGgBlIiHzFgGfOgWjGiG~KkFrFu@lHJpKxCvGvEll@ru@hFxDbKdEjHfArI_@nf@kL", v = 80 },
+  { line = "q`xxHgqnh@pJgCvOwH", v = 50 },
+]
+posts = [[0, 51.48971, 6.85114], [1, 51.48243, 6.84636], [2, 51.47733, 6.83448], [3, 51.47264, 6.82216], [4, 51.46952, 6.80896], [5, 51.46202, 6.80223], [6, 51.45337, 6.79833], [7, 51.44451, 6.79885], [8, 51.43721, 6.80706], [9, 51.42877, 6.80442], [10, 51.42146, 6.79612], [11, 51.41266, 6.7963]]

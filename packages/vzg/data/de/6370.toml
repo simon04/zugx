@@ -1,0 +1,45 @@
+id = "6370"
+ref = "6370"
+name = "6370 Wiederitzsch - Leipzig Messe Nord"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131694605"
+from = "Wiederitzsch"
+to = "Leipzig Messe Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.051
+kmTo = 1.394
+length = 1.407
+speeds = [[-0.051, 1.394, 60, 60]]
+curves = [[0.331, 0.481, 600], [0.531, 1.08, 270]]
+points = [
+  { km = 0.08, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.207, kind = "signal", label = "416", signal = "combined", dir = -1 },
+  { km = 0.381, kind = "signal", label = "38 J", signal = "combined,speed_limit", dir = -1 },
+  { km = 0.822, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.972, kind = "signal", label = "83 H", signal = "combined,speed_limit", dir = -1 },
+  { km = 1.037, kind = "station", label = "Leipzig Messe", uic = "8023176", pos = [51.39597, 12.38918] },
+  { km = 1.081, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.317, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.83, kmTo = 0.881, length = 44 },
+  { kind = "bridge", kmFrom = 1.042, kmTo = 1.062, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}{uxHmnrjApUqG~CPbDrBpAzBjAnEpA|RvHpb@", v = 60 },
+]
+posts = [[1, 51.39558, 12.38912], [0, 51.39141, 12.37856]]
+
+[[connections]]
+km = 1.037
+station = "Leipzig Messe"
+lines = [
+  { id = "5919", ref = "5919", name = "5919 Eltersdorf - Leipzig Hbf", km = 305.688 },
+  { id = "6411", ref = "6411", name = "6411 Trebnitz – Leipzig", km = 75.038 },
+]

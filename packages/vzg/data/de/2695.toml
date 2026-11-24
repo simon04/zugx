@@ -1,0 +1,96 @@
+id = "2695"
+ref = "2695"
+name = "2695 Troisdorf Nord - Troisdorf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Troisdorf Nord"
+to = "Troisdorf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 79.91
+kmTo = 90.042
+length = 10.08
+speeds = [[79.91, 81.075, 80, 80], [81.075, 81.553, 25, 25], [81.553, 81.726, "", ""], [81.726, 83.189, 100, 100], [83.189, 84.382, 120, 120], [84.382, 84.389, 140, 140], [84.389, 88.095, 120, 120], [88.095, 88.099, "", ""], [88.099, 89.283, 120, 120], [89.283, 89.298, 80, 80], [89.298, 90.042, "", ""]]
+curves = [[80.11, 80.235, 1820], [81.41, 81.86, 650], [82.11, 82.76, 710], [82.835, 83.185, 1520], [84.273, 84.469, 1320], [84.962, 85.062, 2010], [85.162, 85.237, 2340], [88.537, 88.787, 1660], [89.612, 89.937, 590]]
+points = [
+  { km = 80.025, kind = "signal", signal = "distant", dir = 1 },
+  { km = 80.355, kind = "signal", label = "80ZW05", signal = "combined,route,speed_limit", dir = -1 },
+  { km = 80.854, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 80.943, kind = "station", label = "Troisdorf", uic = "8000135", pos = [50.81441, 7.14914] },
+  { km = 81.07, kind = "signal", label = "80ZT05", signal = "main", dir = 1 },
+  { km = 81.361, kind = "signal", label = "80W466Y", signal = "minor", dir = -1 },
+  { km = 81.473, kind = "signal", label = "82 605Y", signal = "minor", dir = -1 },
+  { km = 81.789, kind = "signal", label = "82 ZV05", signal = "combined,speed_limit,speed_limit_distant,train_protection,traversable", dir = 1 },
+  { km = 81.792, kind = "signal", label = "82 ZU05", signal = "combined,speed_limit,speed_limit_distant,train_protection,traversable", dir = -1 },
+  { km = 82.351, kind = "signal", label = "82ZS44", signal = "combined,minor,route,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 82.498, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 82.585, kind = "signal", label = "82VWN44", signal = "distant", dir = 1 },
+  { km = 82.714, kind = "station", label = "Friedrich-Wilhelms-Hütte", pos = [50.80251, 7.15991], uic = "8002104" },
+  { km = 82.749, kind = "signal", label = "82N44", signal = "main", dir = 1 },
+  { km = 82.753, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 83.159, kind = "signal", label = "744Y", signal = "minor", dir = -1 },
+  { km = 83.186, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 83.189, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 83.482, kind = "signal", signal = "distant", dir = 1 },
+  { km = 83.568, kind = "signal", label = "83 Vaa", signal = "distant", dir = 1 },
+  { km = 83.571, kind = "signal", label = "82 F", signal = "combined,traversable", dir = -1 },
+  { km = 83.832, kind = "signal", label = "82F", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 84.078, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 84.197, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 84.244, kind = "signal", signal = "distant", dir = 1 },
+  { km = 84.367, kind = "signal", label = "83 VWaa", signal = "distant", dir = 1 },
+  { km = 84.529, kind = "signal", label = "A32", signal = "distant,main,traversable", dir = 1 },
+  { km = 84.551, kind = "signal", label = "83 AA", signal = "combined,traversable", dir = 1 },
+  { km = 84.553, kind = "signal", label = "82 Vf", signal = "distant", dir = -1 },
+  { km = 84.759, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 84.803, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 84.847, kind = "signal", signal = "minor", dir = 1 },
+  { km = 85.264, kind = "signal", label = "83 416", signal = "main,traversable", dir = -1 },
+  { km = 85.355, kind = "station", label = "Sankt Augustin - Menden", uic = "8003966", pos = [50.77968, 7.14958] },
+  { km = 85.661, kind = "signal", label = "83 N1", signal = "combined,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 86.739, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 89.015, kind = "signal", label = "84 BB", signal = "main,traversable", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 80.653, kmTo = 80.663, length = 10 },
+  { kind = "bridge", kmFrom = 81.827, kmTo = 81.854, length = 28 },
+  { kind = "bridge", kmFrom = 83.194, kmTo = 83.396, length = 203 },
+  { kind = "bridge", kmFrom = 85.301, kmTo = 85.313, length = 13 },
+  { kind = "bridge", kmFrom = 88.239, kmTo = 88.249, length = 10 },
+  { kind = "bridge", kmFrom = 89.283, kmTo = 89.298, length = 15 },
+  { kind = "bridge", kmFrom = 89.933, kmTo = 89.969, length = 36 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}oduHivpj@rGoU|TcdA", v = 80 },
+  { line = "kqcuH}qsj@pKmd@", v = 25 },
+  { line = "ydcuHkwtj@pFsH" },
+  { line = "g}buH_auj@bWiNtJgApJrBpRhMnIrC", v = 100 },
+  { line = "yo`uH_|tj@r}@|P", v = 120 },
+  { line = "eq~tHajtj@JD", v = 140 },
+  { line = "yp~tH{itj@tr@x[~nCduA", v = 120 },
+  { line = "cmxtH{vpj@DB" },
+  { line = "}lxtHwvpj@h[hOl_@hY", v = 120 },
+  { line = "epvtHcloj@VR", v = 80 },
+  { line = "movtHokoj@zU~ObFh@dHgA" },
+]
+posts = [[80, 50.81831, 7.13701], [81, 50.81412, 7.14959], [82, 50.80833, 7.15959], [83, 50.79984, 7.15799], [84, 50.79161, 7.15545], [85, 50.7829, 7.15134], [86, 50.77446, 7.14645], [87, 50.76603, 7.14148], [88, 50.75761, 7.13649], [89, 50.74935, 7.13095], [90, 50.74105, 7.12631]]
+
+[[connections]]
+km = 80.943
+station = "Troisdorf"
+lines = [
+  { id = "2324", ref = "2324", name = "2324 Mülheim (Ruhr)-Speldorf - Niederlahnstein", km = 81.029 },
+  { id = "2651", ref = "2651", name = "2651 Köln Messe/Deutz - Gießen", km = 19.528 },
+  { id = "2690", ref = "2690", name = "2690 Köln - Frankfurt am Main", km = 21.477 },
+]
+
+[[connections]]
+km = 85.355
+station = "Sankt Augustin - Menden"
+lines = [
+  { id = "2324", ref = "2324", name = "2324 Mülheim (Ruhr)-Speldorf - Niederlahnstein", km = 85.385 },
+]

@@ -1,0 +1,37 @@
+id = "6667"
+ref = "6667"
+name = "6667 Lengenfeld–Göltzschtalbrücke"
+operator = "Deutsche Reichsbahn"
+gauge = "1435"
+wikidata = "Q802641"
+from = "Lengenfeld"
+to = "Göltzschtalbrücke"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.29
+length = 0.29
+speeds = [[0, 0.29, "", ""]]
+curves = [[0.1, 0.175, 420]]
+points = [
+  { km = 0, kind = "station", label = "Lengenfeld (Vogtland)", uic = "8059006", pos = [50.57312, 12.37329] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0, kmTo = 0.071, length = 71 },
+  { kind = "bridge", kmFrom = 0.237, kmTo = 0.29, length = 54 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sttsHonojAoFlHkE|A" },
+]
+posts = [[0, 50.5737, 12.3724]]
+
+[[connections]]
+km = 0
+station = "Lengenfeld"
+lines = [
+  { id = "6650", ref = "6650", name = "6650 Zwickau (Sachs) Hbf - Falkenstein (Vogtl)", km = 20.552 },
+]

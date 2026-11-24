@@ -1,0 +1,70 @@
+id = "6xxx-abzw-xx-magdeburg-sudenburg"
+ref = "6xxx"
+name = "6xxx Abzw xx - Magdeburg-Sudenburg"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Magdeburg Hbf"
+to = "Bf Magdeburg-Sudenburg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 141.259
+kmTo = 144.646
+length = 3.384
+speeds = [[141.259, 144.646, 60, 60]]
+curves = [[141.534, 141.609, 2400], [141.709, 141.809, 2300], [142.434, 142.559, 1670], [142.734, 143.734, 660]]
+points = [
+  { km = 141.572, kind = "signal", label = "37 ZW13", signal = "combined,minor,route,speed_limit,traversable", dir = -1 },
+  { km = 141.731, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 141.918, kind = "station", label = "Magdeburg Hauptbahnhof", uic = "8024001", pos = [52.13052, 11.62672] },
+  { km = 142.319, kind = "signal", label = "37 ZT13", signal = "combined,minor,route,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 142.323, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 142.695, kind = "signal", signal = "minor", dir = -1 },
+  { km = 142.783, kind = "halt", label = "Magdeburg Hasselbachplatz", uic = "8024122", pos = [52.12252, 11.62538] },
+  { km = 142.927, kind = "signal", label = "37 ZU70", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 143.078, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 143.263, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 143.383, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 143.467, kind = "signal", label = "38 ZR70", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 143.818, kind = "signal", label = "38 ZV27", signal = "combined,traversable", dir = -1 },
+  { km = 144.451, kind = "signal", label = "38 N27", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 144.59, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 144.612, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 144.646, kind = "station", label = "Magdeburg-Sudenburg", uic = "8024027", pos = [52.12045, 11.59703] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 141.746, kmTo = 141.769, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_{e}Had~eA`YrLrf@hKfNbFxHdFbGfJbEdOfA|NEjMsFxvA", v = 60 },
+]
+posts = [[142, 52.12992, 11.6254], [143, 52.12135, 11.62138], [144, 52.11959, 11.60789]]
+
+[[connections]]
+km = 141.918
+station = "Magdeburg Hauptbahnhof"
+lines = [
+  { id = "6110", ref = "6110", name = "6110 Potsdam Griebnitzsee - Eilsleben", km = 141.814 },
+  { id = "6402", ref = "6402", name = "6402 Magdeburg Hbf - Stendal", km = 0.002 },
+  { id = "6404", ref = "6404", name = "6404 Magdeburg Hbf – Halberstadt", km = -0.065 },
+  { id = "6406", ref = "6406", name = "6406 Schönebeck - Abzw Glindenberg", km = 15.164 },
+]
+
+[[connections]]
+km = 142.783
+station = "Magdeburg Hasselbachplatz"
+lines = [
+  { id = "6404", ref = "6404", name = "6404 Magdeburg Hbf – Halberstadt", km = 0.846 },
+  { id = "6406", ref = "6406", name = "6406 Schönebeck - Abzw Glindenberg", km = 14.292 },
+]
+
+[[connections]]
+km = 144.646
+station = "Magdeburg-Sudenburg"
+lines = [
+  { id = "6110", ref = "6110", name = "6110 Potsdam Griebnitzsee - Eilsleben", km = 144.702 },
+  { id = "6400", ref = "6400", name = "6400 Eilsleben - Helmstedt", km = 144.807 },
+]

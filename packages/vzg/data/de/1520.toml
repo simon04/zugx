@@ -1,0 +1,167 @@
+id = "1520"
+ref = "1520"
+name = "1520 Oldenburg - Leer"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q802932"
+from = "Oldenburg (Oldb) Hbf"
+to = "Leer (Ostfriesl)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.851
+kmTo = 55.513
+length = 54.475
+speeds = [[0.851, 1.234, "", ""], [1.234, 28.038, 120, 120], [28.038, 28.056, "", ""], [28.056, 32.272, 120, 120], [32.272, 33.079, 110, 110], [33.079, 54.112, 120, 120], [54.112, 54.513, 110, 110], [54.513, 54.54, 120, 120], [54.54, 55.056, 60, 60], [55.056, 55.513, "", ""]]
+curves = [[1.001, 1.076, 2770], [15.819, 15.869, 2220], [18.115, 18.191, 2450], [18.393, 18.468, 2060], [28.299, 28.349, 2780], [29.101, 29.327, 1840], [32.267, 32.616, 820], [35.436, 35.536, 1920], [35.985, 36.359, 800], [37.357, 37.831, 870], [37.931, 38.28, 960], [39.727, 40.526, 850], [41.399, 41.773, 1730], [42.447, 42.983, 940], [43.758, 43.945, 1970], [43.995, 44.096, 2100], [44.573, 45.025, 2240], [46.581, 47.51, 1100], [48.79, 49.292, 870], [53.107, 54.438, 810], [54.813, 54.863, 1810], [54.938, 55.013, 2150], [55.313, 55.413, 1330]]
+points = [
+  { km = 1.067, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.24, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.378, kind = "signal", signal = "main", dir = -1 },
+  { km = 2.546, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.548, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.839, kind = "signal", label = "4", signal = "main", dir = -1 },
+  { km = 3.066, kind = "stop", label = "Oldenburg-Wechloy", pos = [53.15175, 8.17868], uic = "8004670" },
+  { km = 4.17, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.297, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.23, kind = "signal", label = "5", signal = "main", dir = 1 },
+  { km = 6.334, kind = "signal", signal = "main", dir = -1 },
+  { km = 7.467, kind = "signal", signal = "distant", dir = -1 },
+  { km = 9.253, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.3, kind = "signal", label = "1A", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 10.599, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 10.748, kind = "signal", label = "20 I", signal = "minor", dir = 1 },
+  { km = 10.956, kind = "signal", signal = "main", dir = -1 },
+  { km = 11.01, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 11.454, kind = "signal", signal = "main", dir = 1 },
+  { km = 11.592, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 11.613, kind = "signal", signal = "minor", dir = -1 },
+  { km = 12.051, kind = "signal", label = "1F", signal = "distant,main", dir = -1 },
+  { km = 14.225, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 14.955, kind = "signal", signal = "main", dir = -1 },
+  { km = 15.224, kind = "station", label = "Bad Zwischenahn", pos = [53.18247, 8.00378], uic = "8000770" },
+  { km = 15.332, kind = "signal", signal = "main_repeated" },
+  { km = 15.479, kind = "signal", label = "N1", signal = "main", dir = 1 },
+  { km = 15.876, kind = "signal", signal = "minor", dir = 1 },
+  { km = 16.448, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 17.447, kind = "signal", signal = "distant", dir = -1 },
+  { km = 22.329, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 22.843, kind = "signal", label = "P3", signal = "main,minor,traversable", dir = -1 },
+  { km = 22.884, kind = "halt", label = "Draisinen-Ostbahnhof Ocholt", pos = [53.2013, 7.89427] },
+  { km = 23.202, kind = "signal", signal = "main_repeated" },
+  { km = 23.341, kind = "station", label = "Westerstede-Ocholt", pos = [53.20216, 7.88678], uic = "8004610" },
+  { km = 23.439, kind = "signal", signal = "main", dir = 1 },
+  { km = 23.754, kind = "signal", signal = "minor", dir = -1 },
+  { km = 24.063, kind = "signal", signal = "distant,main,traversable", dir = -1 },
+  { km = 25.063, kind = "signal", signal = "distant", dir = -1 },
+  { km = 30.452, kind = "signal", signal = "distant", dir = 1 },
+  { km = 31.465, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 31.903, kind = "signal", label = "P1", signal = "main", dir = -1 },
+  { km = 32.2, kind = "station", label = "Augustfehn", uic = "8000664", pos = [53.22091, 7.75925] },
+  { km = 32.272, kind = "signal", signal = "main_repeated,speed_limit", dir = 1 },
+  { km = 32.434, kind = "signal", signal = "distant", dir = 1 },
+  { km = 32.572, kind = "signal", label = "N1", signal = "main,minor", dir = 1 },
+  { km = 33.046, kind = "signal", label = "F", signal = "distant,main,traversable", dir = -1 },
+  { km = 33.079, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 34.061, kind = "signal", signal = "distant", dir = -1 },
+  { km = 34.122, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 37.339, kind = "signal", signal = "distant", dir = 1 },
+  { km = 38.835, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 39.04, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 39.294, kind = "signal", label = "P1", signal = "main", dir = -1 },
+  { km = 39.921, kind = "signal", label = "N1", signal = "main", dir = 1 },
+  { km = 40.474, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 40.675, kind = "signal", label = "F", signal = "distant,main", dir = -1 },
+  { km = 41.319, kind = "signal", signal = "distant", dir = -1 },
+  { km = 41.469, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 41.554, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 41.741, kind = "signal", signal = "distant", dir = -1 },
+  { km = 41.876, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 42.791, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 42.811, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 43.932, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 43.966, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 46.128, kind = "signal", signal = "distant", dir = 1 },
+  { km = 46.469, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 46.516, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 46.929, kind = "signal", signal = "distant", dir = 1 },
+  { km = 47.126, kind = "signal", label = "A 751", signal = "distant,main,traversable", dir = 1 },
+  { km = 47.387, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 47.557, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 47.583, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 47.605, kind = "signal", label = "P701", signal = "main,minor,traversable", dir = -1 },
+  { km = 48.221, kind = "signal", label = "N701", signal = "main,minor,traversable", dir = 1 },
+  { km = 48.428, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 48.637, kind = "signal", label = "F754", signal = "distant,main,traversable", dir = -1 },
+  { km = 49.639, kind = "signal", signal = "distant", dir = -1 },
+  { km = 49.938, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 53.141, kind = "signal", signal = "distant", dir = 1 },
+  { km = 53.217, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 53.769, kind = "signal", signal = "distant", dir = 1 },
+  { km = 54.112, kind = "signal", label = "G", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 54.242, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 54.313, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 54.513, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 54.534, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 54.535, kind = "signal", signal = "minor", dir = 1 },
+  { km = 54.774, kind = "signal", signal = "minor", dir = 1 },
+  { km = 54.893, kind = "signal", label = "N14", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 54.999, kind = "station", label = "Leer (Ostfriesland)", pos = [53.23139, 7.46516], uic = "8000225" },
+  { km = 55.002, kind = "signal", label = "S14", signal = "main,minor", dir = 1 },
+  { km = 55.091, kind = "signal", label = "N4", signal = "distant,main,minor", dir = -1 },
+  { km = 55.328, kind = "signal", label = "S4", signal = "distant,main,minor", dir = 1 },
+  { km = 55.436, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.331, kmTo = 1.354, length = 23 },
+  { kind = "bridge", kmFrom = 2.811, kmTo = 2.827, length = 16 },
+  { kind = "bridge", kmFrom = 3.345, kmTo = 3.412, length = 67 },
+  { kind = "bridge", kmFrom = 8.309, kmTo = 8.33, length = 22 },
+  { kind = "bridge", kmFrom = 14.063, kmTo = 14.116, length = 53 },
+  { kind = "bridge", kmFrom = 15.88, kmTo = 15.901, length = 21 },
+  { kind = "bridge", kmFrom = 24.042, kmTo = 24.054, length = 12 },
+  { kind = "bridge", kmFrom = 28.038, kmTo = 28.056, length = 18 },
+  { kind = "bridge", kmFrom = 29.843, kmTo = 29.865, length = 21 },
+  { kind = "bridge", kmFrom = 31.922, kmTo = 31.939, length = 20 },
+  { kind = "bridge", kmFrom = 40.58, kmTo = 40.61, length = 30 },
+  { kind = "bridge", kmFrom = 44.812, kmTo = 44.831, length = 20 },
+  { kind = "bridge", kmFrom = 45.3, kmTo = 45.315, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cbkcIyrbq@{Dna@" },
+  { line = "_hkcIipaq@av@puHwMt_BolCxjWqQl_C_S~~DsE`k@{aAf}Hk_BlvO", v = 120 },
+  { line = "wkxcIakvn@Gr@" },
+  { line = "_lxcImivn@eDxZkKlw@eClX_EnbAiMvoE", v = 120 },
+  { line = "avycIogjn@KhLZpIpHjp@", v = 110 },
+  { line = "_lycIg~gn@fi@rsEjLrq@j@zGVdUsAjzAe@zMiCrQeHjUuBfKoW`pCkBfL}C`K}FlK}F~Fsq@``@uLtJkd@dm@yD`IuB|G_ClMiMdkAaAlQuBnu@mAzRaa@`xCsBjYBjWvB|Udd@vtBfC|TNjSqKvlJlAdSdErQfDfHfDrEpHpF", v = 120 },
+  { line = "ki}cImeql@~IdCfJP", v = 110 },
+  { line = "cs|cIu`ql@n@@", v = 120 },
+  { line = "sq|cIs`ql@~[c@", v = 60 },
+  { line = "st{cIwaql@rXd@" },
+]
+posts = [[1, 53.14651, 8.2084], [2, 53.14898, 8.19399], [3, 53.15155, 8.17962], [4, 53.1541, 8.16524], [5, 53.15656, 8.15064], [6, 53.15891, 8.13599], [7, 53.1616, 8.1215], [8, 53.16425, 8.10699], [9, 53.16688, 8.09247], [10, 53.16939, 8.07861], [11, 53.17189, 8.06455], [12, 53.17456, 8.04991], [13, 53.17717, 8.03548], [14, 53.17978, 8.02111], [15, 53.18208, 8.00675], [16, 53.18406, 7.99226], [17, 53.18558, 7.97761], [18, 53.18713, 7.96296], [19, 53.18979, 7.94879], [20, 53.19274, 7.93475], [21, 53.19567, 7.92071], [22, 53.19861, 7.90667], [23, 53.2012, 7.89241], [24, 53.20378, 7.87807], [25, 53.20636, 7.86373], [26, 53.20894, 7.84939], [27, 53.21151, 7.83505], [28, 53.2141, 7.82072], [29, 53.21702, 7.80657], [30, 53.21865, 7.79187], [31, 53.21969, 7.77681], [32, 53.22069, 7.76223], [33, 53.21958, 7.74758], [34, 53.21676, 7.73328], [35, 53.21393, 7.719], [36, 53.21065, 7.705], [37, 53.21038, 7.6901], [38, 53.2128, 7.67602], [39, 53.21554, 7.66174], [40, 53.21832, 7.64748], [41, 53.22601, 7.64019], [42, 53.23395, 7.63327], [43, 53.23986, 7.62262], [44, 53.24223, 7.60909], [45, 53.24368, 7.59436], [46, 53.24683, 7.58035], [47, 53.24939, 7.56609], [48, 53.24627, 7.55227], [49, 53.24223, 7.53893], [50, 53.24237, 7.52402], [51, 53.2429, 7.50908], [52, 53.24342, 7.49414], [53, 53.24395, 7.4792], [54, 53.24034, 7.46665], [55, 53.23149, 7.46539]]
+
+[[connections]]
+km = 3.066
+station = "Oldenburg-Wechloy"
+lines = [
+  { id = "1570", ref = "1570", name = "1570 Emden - Jever", km = -1.19 },
+]
+
+[[connections]]
+km = 22.884
+station = "Draisinen-Ostbahnhof Ocholt"
+lines = [
+  { id = "1534", ref = "1534", name = "Draisinenbahn Westerstede - Ocholt", km = 6.153 },
+]
+
+[[connections]]
+km = 54.999
+station = "Leer"
+lines = [
+  { id = "1570", ref = "1570", name = "1570 Emden - Jever", km = -53.963 },
+  { id = "2931", ref = "2931", name = "2931 Hamm (Westf) - Emden", km = 323.144 },
+]

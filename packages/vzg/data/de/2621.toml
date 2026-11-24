@@ -1,0 +1,88 @@
+id = "2621"
+ref = "2621"
+name = "2621 Abzw Köln Posthof - Abzw Köln Steinstraße"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Köln Posthof"
+to = "Köln Steinstraße Abzw"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.007
+kmTo = 7.911
+length = 7.881
+speeds = [[0.007, 1.111, 80, 80], [1.111, 3.152, 100, 100], [3.152, 4.428, 120, 120], [4.428, 4.434, "", ""], [4.434, 4.935, 100, 100], [4.935, 7.493, 120, 120], [7.493, 7.7, 120, 100], [7.7, 7.911, 100, 100]]
+curves = [[0.107, 0.232, 1310], [0.307, 0.532, 650], [2.629, 2.838, 2170], [3.837, 3.891, 2940], [5.579, 5.712, 2140], [6.407, 6.452, 2810], [6.651, 6.74, 2310], [7.58, 7.655, 2700]]
+points = [
+  { km = 0.465, kind = "signal", signal = "combined", dir = -1 },
+  { km = 0.779, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.055, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 1.111, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.113, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.154, kind = "stop", label = "Köln Trimbornstraße", pos = [50.93588, 6.99687], uic = "8003320" },
+  { km = 1.265, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.73, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.746, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.146, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.748, kind = "signal", label = "167", signal = "main", dir = -1 },
+  { km = 2.994, kind = "signal", label = "317", signal = "distant,main", dir = 1 },
+  { km = 3.152, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.815, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 3.965, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 4.965, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 5.422, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.562, kind = "stop", label = "Köln Airport-Businesspark", pos = [50.91024, 7.04472], uic = "8003370" },
+  { km = 6.016, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.623, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 7.484, kind = "stop", label = "Köln Steinstraße", uic = "8003379", pos = [50.89528, 7.05762] },
+  { km = 7.493, kind = "signal", label = "77 71", signal = "main,speed_limit,wrong_road", dir = 1 },
+  { km = 7.7, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.239, kmTo = 0.346, length = 107 },
+  { kind = "bridge", kmFrom = 0.549, kmTo = 0.58, length = 31 },
+  { kind = "bridge", kmFrom = 0.89, kmTo = 0.935, length = 43 },
+  { kind = "bridge", kmFrom = 1.21, kmTo = 1.236, length = 25 },
+  { kind = "bridge", kmFrom = 1.487, kmTo = 1.514, length = 25 },
+  { kind = "bridge", kmFrom = 2.63, kmTo = 2.645, length = 17 },
+  { kind = "bridge", kmFrom = 2.677, kmTo = 2.701, length = 26 },
+  { kind = "bridge", kmFrom = 2.758, kmTo = 2.785, length = 30 },
+  { kind = "bridge", kmFrom = 3.478, kmTo = 3.533, length = 61 },
+  { kind = "bridge", kmFrom = 4.354, kmTo = 4.428, length = 75 },
+  { kind = "tunnel", kmFrom = 4.802, kmTo = 4.935, length = 136 },
+  { kind = "bridge", kmFrom = 5.875, kmTo = 5.927, length = 47 },
+  { kind = "bridge", kmFrom = 6.578, kmTo = 6.61, length = 36 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ug|uHqxri@fEwd@~R{o@", v = 80 },
+  { line = "mm{uHeoui@bp@krB~Oe^", v = 100 },
+  { line = "ikyuHwazi@b[uo@fTia@", v = 120 },
+  { line = "}ywuHwt|i@FM" },
+  { line = "uywuHeu|i@xMiW", v = 100 },
+  { line = "{jwuHom}i@nDoG", tunnel = true, v = 100 },
+  { line = "kewuH_v}i@tZii@~[o`@bW}Rnp@_]", v = 120 },
+  { line = "acsuHwsaj@hJoD", v = 100 },
+]
+posts = [[1, 50.93672, 6.99491], [2, 50.93172, 7.00682], [3, 50.92636, 7.01846], [4, 50.92025, 7.02899], [5, 50.91386, 7.03922], [6, 50.90717, 7.04862], [7, 50.89977, 7.05492]]
+
+[[connections]]
+km = 1.154
+station = "Köln Trimbornstraße"
+lines = [
+  { id = "2641", ref = "2641", name = "2641 Abzw Köln Süd - Köln-Kalk Nord Ksf", km = 5.9 },
+  { id = "2651", ref = "2651", name = "2651 Köln Messe/Deutz - Gießen", km = 1.719 },
+  { id = "2660", ref = "2660", name = "2660 Köln-Mülheim - Köln-Kalk", km = 5.445 },
+]
+
+[[connections]]
+km = 7.484
+station = "Köln Steinstraße"
+lines = [
+  { id = "2324", ref = "2324", name = "2324 Mülheim (Ruhr)-Speldorf - Niederlahnstein", km = 69.49 },
+  { id = "2651", ref = "2651", name = "2651 Köln Messe/Deutz - Gießen", km = 8.049 },
+  { id = "2666", ref = "2666", name = "2666 Köln-Kalk Nord - Gremberg Süd", km = 69.455 },
+  { id = "2690", ref = "2690", name = "2690 Köln - Frankfurt am Main", km = 10.043 },
+]

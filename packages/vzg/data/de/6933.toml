@@ -1,0 +1,114 @@
+id = "6933"
+ref = "6933"
+name = "6933 Schwerin-Görries - Parchim"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q803191"
+from = "Schwerin"
+to = "Parchim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 5.029
+kmTo = 45.281
+length = 40.164
+speeds = [[5.029, 5.63, "", ""], [5.63, 24.226, 100, 100], [24.226, 24.949, 60, 60], [24.949, 37.205, 100, 100], [37.205, 37.294, 90, 90], [37.294, 42.378, 100, 100], [42.378, 44.702, 90, 90], [44.702, 45.172, 80, 80], [45.172, 45.281, 60, 60]]
+curves = [[5.179, 6.054, 860], [14.747, 15.358, 1040], [20.177, 20.506, 1040], [21.419, 21.694, 1040], [22.524, 23.713, 1270], [24.642, 25.041, 660], [26.135, 26.36, 980], [29.922, 30.022, 2130], [31.265, 31.811, 1250], [37.07, 37.328, 870], [42.403, 42.701, 780], [42.776, 42.826, 1530], [43.624, 43.999, 1230], [44.691, 45.166, 360]]
+points = [
+  { km = 5.31, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.431, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 5.452, kind = "signal", signal = "crossing_distant" },
+  { km = 5.573, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 5.726, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.595, kind = "stop", label = "Schwerin-Wüstmark", pos = [53.58385, 11.40032], uic = "8058190" },
+  { km = 7.652, kind = "signal", signal = "crossing_distant" },
+  { km = 7.849, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 8.01, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.823, kind = "signal", signal = "catenary_mast,crossing_hint,crossing_info", dir = 1 },
+  { km = 8.864, kind = "signal", label = "ÜSW2", signal = "catenary_mast,crossing", dir = -1 },
+  { km = 8.873, kind = "signal", signal = "catenary_mast,crossing_info", dir = -1 },
+  { km = 8.881, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+  { km = 8.908, kind = "stop", label = "Schwerin Industriepark", pos = [53.57512, 11.4318], uic = "8030128" },
+  { km = 9.029, kind = "signal", signal = "catenary_mast,crossing", dir = 1 },
+  { km = 12.728, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 12.75, kind = "signal", signal = "crossing_distant" },
+  { km = 13.379, kind = "signal", signal = "distant,speed_limit", dir = 1 },
+  { km = 13.823, kind = "signal", label = "A", signal = "combined", dir = 1 },
+  { km = 14.392, kind = "station", label = "Plate (Mecklenburg)", pos = [53.55326, 11.50679], uic = "8058185" },
+  { km = 14.514, kind = "signal", signal = "main", dir = 1 },
+  { km = 15.142, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 15.302, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.426, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.233, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 17.987, kind = "stop", label = "Sukow (bei Schwerin)", pos = [53.55482, 11.55989], uic = "8058199" },
+  { km = 20.045, kind = "signal", signal = "crossing_distant" },
+  { km = 20.184, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 20.388, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 22.493, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 23.437, kind = "signal", label = "12A", signal = "combined,speed_limit", dir = 1 },
+  { km = 23.5, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 24.334, kind = "station", label = "Crivitz", pos = [53.57254, 11.6448], uic = "8058181" },
+  { km = 24.358, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 24.36, kind = "signal", label = "12N1", signal = "main", dir = 1 },
+  { km = 24.904, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 25.063, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 25.138, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 25.647, kind = "signal", signal = "distant", dir = -1 },
+  { km = 25.7, kind = "signal", signal = "crossing_distant" },
+  { km = 25.888, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 26.087, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 28.67, kind = "signal", signal = "crossing_distant" },
+  { km = 28.736, kind = "signal", signal = "crossing_distant" },
+  { km = 28.909, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 29.063, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 29.54, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 29.761, kind = "stop", label = "Ruthenbeck", pos = [53.54489, 11.7117], uic = "8058186" },
+  { km = 29.776, kind = "signal", signal = "stop", dir = 1 },
+  { km = 29.78, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 31.64, kind = "signal", signal = "crossing_distant" },
+  { km = 31.786, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 31.967, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 32.465, kind = "signal", signal = "crossing_distant" },
+  { km = 32.611, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 32.728, kind = "stop", label = "Friedrichsruhe (Mecklenburg)", pos = [53.52451, 11.73938], uic = "8058183" },
+  { km = 32.81, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 35.128, kind = "signal", signal = "crossing_distant" },
+  { km = 35.325, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 35.525, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 36.329, kind = "signal", signal = "crossing_distant" },
+  { km = 36.394, kind = "signal", signal = "crossing_distant" },
+  { km = 36.522, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 36.666, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 37.486, kind = "stop", label = "Domsühl", pos = [53.48532, 11.76605], uic = "8058191" },
+  { km = 38.073, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 38.342, kind = "signal", signal = "crossing_distant" },
+  { km = 38.545, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 38.75, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 42.787, kind = "signal", signal = "crossing_distant" },
+  { km = 43.105, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 43.294, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 44.219, kind = "signal", signal = "distant", dir = 1 },
+  { km = 44.784, kind = "signal", signal = "distant", dir = 1 },
+  { km = 44.913, kind = "signal", label = "T", signal = "combined", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 12.563, kmTo = 12.616, length = 54 },
+  { kind = "bridge", kmFrom = 14.005, kmTo = 14.041, length = 35 },
+  { kind = "bridge", kmFrom = 24.598, kmTo = 24.618, length = 21 },
+  { kind = "bridge", kmFrom = 32.318, kmTo = 32.333, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{mbfIgvndApK_AbEqA|DwBdFmF" },
+  { line = "anafI_fodArGqKtCmJ|hCsqNjlA_yFzBkWFgU_@oJqh@k`McDoTk[erAaCyGeh@g{@uBuEoF_SeC}OaBcZJoVxCqp@", v = 100 },
+  { line = "{k~eIucafA|C}n@fAsGxBkG", v = 60 },
+  { line = "{`~eIsdcfAvr@qoArBeF|nBw{Gfp@wcBhD_HbHaJfGaFfzGwwD", v = 100 },
+  { line = "kvmeIwqxfAbCkC", v = 90 },
+  { line = "grmeIcvxfA~t@}dAhpDknE", v = 100 },
+  { line = "}jfeImkagAzFmInAeDx]eaBtFiKx^_i@", v = 90 },
+  { line = "gzceIqsfgAjEwElDgAbEPpElC", v = 80 },
+  { line = "waceIqwfgAlC~E", v = 60 },
+]
+posts = [[6, 53.58612, 11.39212], [7, 53.58234, 11.40587], [8, 53.57857, 11.41952], [9, 53.57478, 11.4332], [10, 53.571, 11.44684], [11, 53.5672, 11.46053], [12, 53.56336, 11.47411], [13, 53.55919, 11.4875], [14, 53.55493, 11.50131], [15, 53.55123, 11.5146], [16, 53.55203, 11.5294], [17, 53.55341, 11.54432], [18, 53.55486, 11.56003], [19, 53.55617, 11.57433], [20, 53.55753, 11.58913], [21, 53.56096, 11.60292], [22, 53.56649, 11.6147], [23, 53.57251, 11.62567], [24, 53.57294, 11.64024], [25, 53.57055, 11.6546], [26, 53.56389, 11.66489], [27, 53.55851, 11.67691], [28, 53.55355, 11.68956], [29, 53.54864, 11.7021], [30, 53.54366, 11.71462], [31, 53.53789, 11.72633], [32, 53.53078, 11.73528], [33, 53.52256, 11.74057], [34, 53.51423, 11.74598], [35, 53.50584, 11.75145], [36, 53.49745, 11.75691], [37, 53.4889, 11.76245], [38, 53.48161, 11.77078], [39, 53.4744, 11.77971], [40, 53.467, 11.78837], [41, 53.45965, 11.79696], [42, 53.45242, 11.80541], [43, 53.44634, 11.8162], [44, 53.44169, 11.829], [45, 53.43422, 11.83705]]

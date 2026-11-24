@@ -1,0 +1,83 @@
+id = "3435"
+ref = "3435"
+name = "3435 Frankenthal Hbf - Freinsheim"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Frankenthal Hbf"
+to = "Freinsheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 13.654
+length = 13.614
+speeds = [[0, 0.8, 50, 50], [0.8, 13.281, 100, 100], [13.281, 13.654, "", ""]]
+curves = [[0.161, 0.654, 290], [0.827, 1.053, 1170], [1.933, 2.561, 660], [3.34, 4.094, 610], [9.596, 9.823, 2250], [10.953, 11.831, 700], [11.929, 11.981, 2110], [13.203, 13.253, 1760], [13.328, 13.378, 1700], [13.478, 13.553, 1800]]
+points = [
+  { km = 0.101, kind = "signal", label = "N1", signal = "main,speed_limit", dir = -1 },
+  { km = 0.104, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.135, kind = "station", label = "Freinsheim", pos = [49.50131, 8.20529], uic = "8000374" },
+  { km = 0.152, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.201, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.22, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.234, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.247, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.8, kind = "signal", label = "B", signal = "combined,speed_limit", dir = -1, measured = true },
+  { km = 1.502, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.153, kind = "station", label = "Weisenheim (Sand)", pos = [49.51386, 8.25014], uic = "8006292" },
+  { km = 6.608, kind = "stop", label = "Lambsheim", pos = [49.51186, 8.28369], uic = "8003498" },
+  { km = 10.153, kind = "stop", label = "Flomersheim", pos = [49.51363, 8.33231] },
+  { km = 10.312, kind = "stop", label = "Flomersheim", pos = [49.51391, 8.33352], uic = "8002014" },
+  { km = 11.617, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.914, kind = "stop", label = "Frankenthal Süd", pos = [49.52257, 8.34958], uic = "8002025" },
+  { km = 12.693, kind = "signal", label = "G", signal = "distant,main,speed_limit", dir = 1, measured = true },
+  { km = 12.841, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 12.872, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 12.921, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 12.931, kind = "signal", signal = "minor", dir = 1 },
+  { km = 13.104, kind = "signal", signal = "minor", dir = -1 },
+  { km = 13.253, kind = "signal", signal = "minor", dir = 1 },
+  { km = 13.255, kind = "signal", label = "N13", signal = "main,minor,wrong_road", dir = -1 },
+  { km = 13.333, kind = "signal", label = "13II", signal = "minor", dir = -1 },
+  { km = 13.381, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 13.392, kind = "station", label = "Frankenthal Hbf", pos = [49.53562, 8.34974], uic = "8000332" },
+  { km = 13.436, kind = "signal", label = "13I", signal = "minor", dir = 1 },
+  { km = 13.485, kind = "signal", label = "W89", signal = "minor", dir = -1 },
+  { km = 13.587, kind = "signal", label = "S13", signal = "distant,main,minor,wrong_road", dir = 1 },
+  { km = 13.587, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.873, kmTo = 2.883, length = 10 },
+  { kind = "bridge", kmFrom = 3.035, kmTo = 3.051, length = 16 },
+  { kind = "bridge", kmFrom = 8.551, kmTo = 8.562, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kmjmH{x}q@zSX" },
+  { line = "oximHax}q@z`APtWz@bIbEbFbGrD`IfD~NbKds@bHdq@rDbgA|@rg@JhdAsA~kAaMl`FLxLlCnP~EnKrJlJrb@`^tDfExDnIpAxEnA~LfFzpAhBtO", v = 100 },
+  { line = "a_cmH_dcq@tC|SExJw@lDuBbEoKzH", v = 50 },
+]
+posts = [[13, 49.53207, 8.34961], [12, 49.52341, 8.34944], [11, 49.51613, 8.34334], [10, 49.51325, 8.33029], [9, 49.5118, 8.31673], [8, 49.51128, 8.30298], [7, 49.51157, 8.28921], [5, 49.51318, 8.26176], [6, 49.51232, 8.27548], [4, 49.51398, 8.24804], [3, 49.50833, 8.2384], [2, 49.50193, 8.22955], [1, 49.50069, 8.21591]]
+
+[[connections]]
+km = 0.135
+station = "Freinsheim"
+lines = [
+  { id = "3430", ref = "3430", name = "3430 Bad Dürkheim - Monsheim", km = 19.713 },
+]
+
+[[connections]]
+km = 11.914
+station = "Frankenthal Süd"
+lines = [
+  { id = "3522", ref = "3522", name = "3522 Mainz - Mannheim", km = 58.395 },
+]
+
+[[connections]]
+km = 13.392
+station = "Frankenthal Hbf"
+lines = [
+  { id = "3522", ref = "3522", name = "3522 Mainz - Mannheim", km = 56.886 },
+]

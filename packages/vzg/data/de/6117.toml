@@ -1,0 +1,64 @@
+id = "6117"
+ref = "6117"
+name = "6117 Michendorf - Saarmund"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131693557"
+from = "Michendorf"
+to = "Saarmund"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.005
+kmTo = 8.639
+length = 8.621
+speeds = [[-0.005, 6.262, 120, 120], [6.262, 7.025, 100, 100], [7.025, 8.639, 120, 120]]
+curves = [[0.934, 2.279, 1510], [3.596, 3.944, 1120], [6.229, 6.505, 1020], [6.788, 6.84, 2550], [6.968, 7.02, 2370], [7.725, 7.766, 2600]]
+points = [
+  { km = 0.048, kind = "station", label = "Michendorf", pos = [52.3166, 13.03099], uic = "8003497" },
+  { km = 0.095, kind = "signal", label = "41 P3", signal = "main,route,speed_limit", dir = 1 },
+  { km = 0.138, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.277, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.089, kind = "signal", label = "41B", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 1.138, kind = "signal", label = "41 BB", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 1.313, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.39, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.918, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.225, kind = "signal", label = "77C", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 6.262, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.493, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 6.792, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.295, kind = "signal", label = "77 ZR12", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 7.693, kind = "signal", label = "77 P2", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 7.781, kind = "station", label = "Saarmund", uic = "8003471", pos = [52.32362, 13.13921] },
+  { km = 8.331, kind = "signal", label = "77 N2", signal = "main,traversable,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.174, kmTo = 0.227, length = 52 },
+  { kind = "bridge", kmFrom = 0.63, kmTo = 0.641, length = 10 },
+  { kind = "bridge", kmFrom = 1.251, kmTo = 1.271, length = 21 },
+  { kind = "bridge", kmFrom = 1.317, kmTo = 1.334, length = 17 },
+  { kind = "bridge", kmFrom = 2.344, kmTo = 2.361, length = 17 },
+  { kind = "bridge", kmFrom = 3.199, kmTo = 3.219, length = 21 },
+  { kind = "bridge", kmFrom = 5.902, kmTo = 5.912, length = 10 },
+  { kind = "bridge", kmFrom = 6.322, kmTo = 6.336, length = 15 },
+  { kind = "bridge", kmFrom = 7.011, kmTo = 7.063, length = 51 },
+  { kind = "bridge", kmFrom = 7.422, kmTo = 7.454, length = 27 },
+  { kind = "bridge", kmFrom = 8.48, kmTo = 8.509, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "y_i~Hq_pnAwa@m}@aF}MgDsM{BoMgCuZYkSZyQvNi{Bl@oQuFwsBcJelB", v = 120 },
+  { line = "qxj~Hu}`oAK{MrCet@", v = 100 },
+  { line = "itj~HwacoAlMioC", v = 120 },
+]
+posts = [[0, 52.31631, 13.03054], [1, 52.32227, 13.04129], [2, 52.32524, 13.05494], [3, 52.32369, 13.06949], [4, 52.32248, 13.08407], [5, 52.32352, 13.09878], [6, 52.32498, 13.1134], [7, 52.32473, 13.12777], [8, 52.32327, 13.14243]]
+
+[[connections]]
+km = 0.048
+station = "Michendorf"
+lines = [
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 28.473 },
+]

@@ -1,0 +1,115 @@
+id = "6641"
+ref = "6641"
+name = "Bahnstrecke Stollberg–St. Egidien"
+operator = "Verkehrsverbund Mittelsachsen GmbH;Regio Infra Service Sachsen GmbH"
+gauge = "1435"
+wikidata = "Q803269"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.448
+kmTo = 20.409
+length = 19.934
+speeds = [[0.448, 0.554, 50, 50], [0.554, 3.39, 60, 60], [3.39, 3.615, 70, 70], [3.615, 5.206, 80, 80], [5.206, 5.739, "", ""], [5.739, 5.786, 80, ""], [5.786, 6.865, 80, 80], [6.865, 6.951, 70, 80], [6.951, 7.188, 70, 70], [7.188, 7.291, 80, 70], [7.291, 8.505, 80, 80], [8.505, 8.594, "", ""], [8.594, 9.3, 50, 50], [9.3, 9.904, "", ""], [9.904, 11.208, 80, 80], [11.208, 19.038, "", ""], [19.038, 19.5, 50, 50], [19.5, 20.409, "", ""]]
+curves = [[0.557, 0.682, 870], [0.732, 1.307, 360], [1.674, 2.522, 450], [2.699, 3.233, 350], [3.311, 3.825, 410], [3.972, 4.799, 510], [4.926, 5.332, 730], [5.562, 5.792, 850], [6.017, 6.267, 520], [6.317, 6.718, 420], [6.768, 7.194, 430], [7.573, 8.151, 320], [8.299, 8.521, 830], [8.719, 9.164, 510], [10.43, 10.78, 510], [11.104, 11.229, 1060], [11.379, 11.579, 830], [11.904, 12.253, 480], [12.328, 12.778, 410], [12.828, 13.003, 860], [13.127, 13.302, 1150], [13.552, 14.027, 1050], [14.626, 15.15, 630], [15.325, 15.375, 2320], [15.425, 15.475, 2360], [15.65, 15.75, 2060], [15.8, 15.85, 1960], [15.95, 16.05, 1630], [16.699, 17.074, 510], [17.173, 17.448, 790], [18.145, 18.496, 530], [18.95, 19.383, 410], [19.509, 19.584, 1860], [19.634, 19.709, 1520], [19.984, 20.309, 880]]
+points = [
+  { km = 0.448, kind = "station", label = "Stollberg (Sachs)", uic = "8042909", pos = [50.70931, 12.7735] },
+  { km = 0.45, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.48, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.554, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.008, kind = "halt", label = "Stollberg Schlachthofstraße", uic = "8042914", pos = [50.71434, 12.77878] },
+  { km = 3.347, kind = "halt", label = "Niederwürschnitz", uic = "8042961", pos = [50.71822, 12.75418] },
+  { km = 3.39, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.615, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.739, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.786, kind = "stop", label = "Neuoelsnitz", uic = "8042962", pos = [50.71946, 12.72312] },
+  { km = 6.865, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.951, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.998, kind = "stop", label = "Mitteloelsnitz", pos = [50.71804, 12.70664] },
+  { km = 7.188, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.291, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.505, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.556, kind = "stop", label = "Oelsnitz Bahnhofstraße", pos = [50.72723, 12.69805], uic = "8042962" },
+  { km = 9.3, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.409, kind = "station", label = "Oelsnitz (Erzgeb)", uic = "8042963", pos = [50.73416, 12.69395] },
+  { km = 9.904, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.136, kind = "halt", label = "Hohndorf Mitte", pos = [50.74303, 12.67566] },
+  { km = 12.744, kind = "halt", label = "Rödlitz-Hohndorf", uic = "8042964", pos = [50.74225, 12.65403] },
+  { km = 14.102, kind = "halt", label = "Lichtenstein Hartensteiner Straße", pos = [50.74615, 12.63611] },
+  { km = 15.652, kind = "station", label = "Lichtenstein (Sachs)", pos = [50.75731, 12.6264], uic = "8042959" },
+  { km = 16.418, kind = "halt", label = "Lichtenstein Ernst-Schneller-Siedlung", pos = [50.76465, 12.62588] },
+  { km = 17.58, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.721, kind = "halt", label = "Lichtenstein Gewerbegebiet", pos = [50.77529, 12.63209] },
+  { km = 17.763, kind = "signal", signal = "stop", dir = 1 },
+  { km = 17.872, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.244, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.433, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 19.477, kind = "signal", signal = "minor", dir = 1 },
+  { km = 19.5, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.669, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 19.67, kind = "signal", label = "67ZU3", signal = "main,minor,route,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 19.691, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 19.753, kind = "signal", signal = "stop", dir = -1 },
+  { km = 19.789, kind = "station", label = "St Egidien", pos = [50.78938, 12.62278], uic = "8006634" },
+  { km = 20.07, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 20.137, kind = "signal", label = "67N3", signal = "main,minor,speed_limit,traversable,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.722, kmTo = 0.745, length = 23 },
+  { kind = "bridge", kmFrom = 1.349, kmTo = 1.367, length = 18 },
+  { kind = "bridge", kmFrom = 2, kmTo = 2.064, length = 63 },
+  { kind = "bridge", kmFrom = 3.071, kmTo = 3.083, length = 12 },
+  { kind = "bridge", kmFrom = 4.161, kmTo = 4.246, length = 85 },
+  { kind = "bridge", kmFrom = 4.344, kmTo = 4.357, length = 14 },
+  { kind = "bridge", kmFrom = 5.143, kmTo = 5.153, length = 10 },
+  { kind = "bridge", kmFrom = 7.678, kmTo = 7.698, length = 20 },
+  { kind = "bridge", kmFrom = 7.879, kmTo = 7.997, length = 116 },
+  { kind = "bridge", kmFrom = 8.255, kmTo = 8.269, length = 14 },
+  { kind = "bridge", kmFrom = 8.924, kmTo = 8.938, length = 14 },
+  { kind = "bridge", kmFrom = 10.219, kmTo = 10.248, length = 29 },
+  { kind = "bridge", kmFrom = 11.208, kmTo = 11.219, length = 11 },
+  { kind = "bridge", kmFrom = 11.993, kmTo = 12.01, length = 18 },
+  { kind = "bridge", kmFrom = 12.285, kmTo = 12.426, length = 141, name = "Rödlitzbachtalviadukt" },
+  { kind = "bridge", kmFrom = 15.291, kmTo = 15.328, length = 37 },
+  { kind = "bridge", kmFrom = 15.821, kmTo = 15.839, length = 18 },
+  { kind = "bridge", kmFrom = 17.585, kmTo = 17.595, length = 11 },
+  { kind = "bridge", kmFrom = 18.773, kmTo = 18.893, length = 118, name = "Viadukt Lungwitzbachtal" },
+  { kind = "bridge", kmFrom = 19.022, kmTo = 19.038, length = 16 },
+  { kind = "bridge", kmFrom = 19.523, kmTo = 19.534, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yg_uH{x~kA~DeIpD_LtGep@" },
+  { line = "qs~tHgaalA~BwSxBcFzCaD", v = 50 },
+  { line = "{f~tHebblAx_@mPrHObn@vWvDxDtJxOzDhCtDj@bf@DdR}@hb@eE|CaAnE{CnGqJn[{t@hD{ObEw`@r@w[|BwRFeJmAiKqHmUy@yLn@mg@jDaX" },
+  { line = "}wutHwojlAnDoh@rAsIvBiFzWoa@", v = 80 },
+  { line = "esttHummlA`Xga@" },
+  { line = "czstH}onlA|HgLdE{CvGcAdJv@", v = 50 },
+  { line = "avrtHmbolA`DZ" },
+  { line = "_qrtHqaolAnE|@|Q`KnCBhDgA`CcClByErHue@", v = 80 },
+  { line = "s|ptHigplAz@sHA{I", v = 70 },
+  { line = "yzptHy{plA_AuHqDeNu@{H@yHpBqV{Bua@", v = 80 },
+  { line = "idqtHsbtlAFaMhBu^" },
+  { line = "w`qtHkpulAt@cHnAqExIyOtBqF`BkJ`@eJYoJoAcImKoWmBqJ", v = 80 },
+  { line = "c}ptHuhylAWcIf@iI", v = 70 },
+  { line = "s|ptHc}ylA`EgSTeGOcFwBeKkMaTwC{Jq@yGI_GZmGlAmHtA}DrCwEpRmV`F}CvEQ~DvArBrBxIdN", v = 60 },
+  { line = "unotHqd~lA|C`D", v = 50 },
+]
+posts = [[20, 50.78977, 12.61943], [19, 50.78623, 12.63176], [18, 50.77766, 12.63337], [17, 50.76971, 12.62718], [16, 50.76089, 12.62592], [15, 50.75195, 12.62745], [14, 50.74557, 12.63722], [13, 50.7428, 12.65051], [12, 50.74427, 12.66365], [11, 50.74277, 12.67756], [10, 50.73794, 12.68885], [9, 50.73115, 12.69782], [8, 50.72239, 12.69572], [7, 50.71801, 12.70664], [6, 50.71913, 12.72015], [5, 50.71827, 12.73372], [4, 50.71642, 12.74582], [3, 50.71727, 12.75867], [2, 50.72119, 12.77038], [1, 50.71427, 12.77874]]
+
+[[connections]]
+km = 0.448
+station = "Stollberg"
+lines = [
+  { id = "6639", ref = "6639", name = "6639 Zwönitz - Chemnitz Süd", km = 125.533 },
+]
+
+[[connections]]
+km = 19.789
+station = "St Egidien"
+lines = [
+  { id = "6258", ref = "6258", name = "6258 Dresden - Abzweig Werdau Bogendreieck", km = 104.91 },
+  { id = "6639", ref = "6639", name = "6639 Zwönitz - Chemnitz Süd", km = 104.894 },
+]

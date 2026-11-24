@@ -1,0 +1,74 @@
+id = "6810"
+ref = "6810"
+name = "6810 Merseburg - Leipzig-Leutzsch"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q802758"
+from = "Merseburg"
+to = "Leipzig-Leutzsch"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.027
+kmTo = 8.139
+length = 8.16
+speeds = [[-0.027, 0.334, 120, 120], [0.334, 0.351, "", ""], [0.351, 0.572, 120, 120], [0.572, 0.597, "", ""], [0.597, 0.907, 120, 120], [0.907, 2.824, 80, 80], [2.824, 8.139, "", ""]]
+curves = [[0.887, 1.013, 1380], [1.223, 1.407, 1600], [1.539, 1.591, 2530], [2.689, 3.464, 510], [4.514, 4.814, 640], [4.989, 5.289, 630], [7.914, 8.039, 1090]]
+points = [
+  { km = -0.026, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -0.025, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = -0.021, kind = "station", label = "Merseburg Hauptbahnhof", uic = "8023008", pos = [51.35685, 11.99043] },
+  { km = 0.109, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.305, kind = "signal", label = "41 ZR1", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 0.608, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.655, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.747, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.907, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.121, kind = "signal", label = "41 ZU11", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.112, kind = "signal", label = "41 N11", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 2.156, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.253, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.345, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.384, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 2.439, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 2.651, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.737, kind = "signal", label = "41 H", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 2.861, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.334, kmTo = 0.351, length = 17 },
+  { kind = "bridge", kmFrom = 0.572, kmTo = 0.597, length = 25 },
+  { kind = "bridge", kmFrom = 0.793, kmTo = 0.824, length = 31 },
+  { kind = "bridge", kmFrom = 2.227, kmTo = 2.261, length = 37 },
+  { kind = "bridge", kmFrom = 2.824, kmTo = 2.859, length = 35 },
+  { kind = "bridge", kmFrom = 3.007, kmTo = 3.028, length = 20 },
+  { kind = "bridge", kmFrom = 4.852, kmTo = 5.017, length = 165 },
+  { kind = "bridge", kmFrom = 5.772, kmTo = 5.801, length = 29 },
+  { kind = "bridge", kmFrom = 6.367, kmTo = 6.398, length = 31 },
+  { kind = "bridge", kmFrom = 6.787, kmTo = 6.802, length = 15 },
+  { kind = "bridge", kmFrom = 6.999, kmTo = 7.015, length = 16 },
+  { kind = "bridge", kmFrom = 7.308, kmTo = 7.323, length = 15 },
+  { kind = "bridge", kmFrom = 7.477, kmTo = 7.487, length = 10 },
+  { kind = "bridge", kmFrom = 7.686, kmTo = 7.718, length = 32 },
+  { kind = "bridge", kmFrom = 8.05, kmTo = 8.092, length = 43 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cemxHq~phAtHrLjzBzfCpFpKnGdVxAbLnCjhBU|M{A`KsC~HuE|F" },
+  { line = "qwhxH{afhAgjArc@cHbBoRtA", v = 80 },
+  { line = "m_lxHmwdhAkPS", v = 120 },
+  { line = "yplxHaxdhAk@C" },
+  { line = "erlxHexdhAiKq@", v = 120 },
+  { line = "o~lxHwydhA]E" },
+  { line = "m_mxH}ydhAcS}A", v = 120 },
+]
+posts = [[8, 51.35368, 12.05102], [7, 51.3463, 12.04279], [6, 51.33889, 12.03462], [5, 51.33185, 12.02586], [4, 51.32988, 12.01211], [3, 51.33069, 11.99818], [2, 51.33942, 11.99297], [1, 51.34772, 11.98989], [0, 51.35665, 11.99066]]
+
+[[connections]]
+km = -0.021
+station = "Merseburg Hauptbahnhof"
+lines = [
+  { id = "6340", ref = "6340", name = "6340 Halle (Saale) Hbf - Baunatal-Guntershausen", km = 13.532 },
+]

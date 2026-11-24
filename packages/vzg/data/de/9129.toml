@@ -1,0 +1,46 @@
+id = "9129"
+ref = "9129"
+name = "9129 Tornesch - Uetersen"
+operator = "neg Niebüll"
+gauge = "1435"
+from = "Tornesch"
+to = "Uetersen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.14
+length = 3.14
+speeds = [[0, 0.405, "", ""], [0.405, 1.041, 30, 30], [1.041, 1.049, 10, 10], [1.049, 2.481, 30, 30], [2.481, 2.481, 10, 30], [2.481, 2.746, 10, 10], [2.746, 3.14, "", ""]]
+curves = [[0.325, 0.45, 1330], [0.5, 0.65, 1220], [0.875, 1.075, 680], [1.25, 1.425, 830], [1.975, 2.1, 1840], [2.275, 2.85, 450], [2.95, 3.025, 1820]]
+points = [
+  { km = 1.041, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.041, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.049, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.049, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.227, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.301, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.481, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.481, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.674, kind = "station", label = "Tornesch", uic = "8005887", pos = [53.697, 9.71529] },
+  { km = 2.746, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q~sfIshbz@gOyY" },
+  { line = "yntfImccz@mFsHsM{WyAgG", v = 30 },
+  { line = "ugufIendz@EU", v = 10 },
+  { line = "{gufI{ndz@gF}WsXao@_IeUmBkM", v = 30 },
+  { line = "evvfIm|gz@FgK~CiH", v = 10 },
+  { line = "}pvfI_rhz@zOcW" },
+]
+posts = [[0, 53.68313, 9.68346], [1, 53.68953, 9.69405], [2, 53.69486, 9.70612], [3, 53.69452, 9.71808]]
+
+[[connections]]
+km = 2.674
+station = "Tornesch"
+lines = [
+  { id = "1220", ref = "1220", name = "1220 Hamburg-Altona - Kiel Hbf", km = 23.115 },
+]

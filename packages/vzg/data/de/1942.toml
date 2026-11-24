@@ -1,0 +1,45 @@
+id = "1942"
+ref = "1942"
+name = "Südelmbahn"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 14
+kmTo = 17.165
+length = 3.202
+speeds = [[14, 14.456, 80, 80], [14.456, 14.557, 50, 50], [14.557, 16.505, 80, 80], [16.505, 16.601, 50, 50], [16.601, 17.165, 80, 80]]
+curves = [[14.089, 14.718, 1380], [16.659, 16.785, 2270]]
+points = [
+  { km = 14.242, kind = "signal", signal = "main", dir = 1 },
+  { km = 14.271, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.456, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.459, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.556, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.557, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.581, kind = "signal", label = "g", signal = "distant", dir = -1 },
+  { km = 14.695, kind = "signal", signal = "main", dir = -1 },
+  { km = 14.927, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 15.136, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 15.16, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 15.588, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 15.676, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 15.882, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 16.313, kind = "signal", signal = "main", dir = 1 },
+  { km = 16.505, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.506, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.601, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.795, kind = "signal", signal = "main", dir = -1 },
+  { km = 16.842, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_yg}Horl_Az@eTMuT", v = 80 },
+  { line = "qwg}Hk}m_A]qG", v = 50 },
+  { line = "oxg}H}en_AeTkmBaN}{@", v = 80 },
+  { line = "w|h}Hgqs_AcAaG", v = 50 },
+  { line = "{~h}Hiys_AmMml@", v = 80 },
+]
+posts = [[14, 52.14624, 10.55544], [15, 52.14728, 10.56982], [16, 52.15001, 10.58342], [17, 52.15391, 10.59753]]

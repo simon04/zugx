@@ -1,0 +1,24 @@
+id = "6256"
+ref = "6256"
+name = "6256 Riesa Rbf - Riesa Stw 4"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131702033"
+from = "Riesa Rbf"
+to = "Riesa Stw 4"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.185
+length = 1.185
+speeds = [[0, 1.185, "", ""]]
+curves = [[0.1, 0.475, 350], [0.75, 1, 1110]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "sqcxHer`pAiJV_DjBiBnCyLxb@_E|[" },
+]
+posts = [[0, 51.30538, 13.27923], [1, 51.31124, 13.27005]]

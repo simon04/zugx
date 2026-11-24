@@ -1,0 +1,68 @@
+id = "2420"
+ref = "2420"
+name = "2420 Düsseldorf-Gerresheim - Abzw Düsseldorf Hardt"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q19838713"
+from = "Düsseldorf-Gerresheim"
+to = "Düsseldorf Hardt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.166
+length = 2.166
+speeds = [[0, 1.106, 40, 40], [1.106, 1.341, 60, 60], [1.341, 2.078, 90, 90], [2.078, 2.166, 60, 60]]
+curves = [[0.175, 0.225, 2040], [1.125, 1.225, 1960], [1.325, 1.925, 570], [2, 2.05, 1720]]
+points = [
+  { km = 0, kind = "station", label = "Düsseldorf-Gerresheim", uic = "8008093", pos = [51.22027, 6.86394] },
+  { km = 0, kind = "station", label = "Gerresheim S", pos = [51.22084, 6.8663] },
+  { km = 0.074, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.075, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.135, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.154, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.193, kind = "signal", signal = "route", dir = -1 },
+  { km = 0.26, kind = "signal", label = "N 105", signal = "main,minor,traversable", dir = -1 },
+  { km = 0.784, kind = "signal", label = "P 105", signal = "main,minor,traversable", dir = 1 },
+  { km = 1.124, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.161, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.222, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.341, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.521, kind = "signal", label = "C 194", signal = "main,traversable" },
+  { km = 1.601, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.698, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.877, kind = "signal", label = "378", signal = "main,traversable,wrong_road", dir = 1 },
+  { km = 2.046, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.054, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.006, kmTo = 1.025, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "m~rwHip{h@XdbB", v = 40 },
+  { line = "s}rwHcmxh@UbT", v = 60 },
+  { line = "i~rwH_xwh@mA|M}CnI}F|GuK`G", v = 90 },
+  { line = "izswHqmvh@oC~A", v = 60 },
+]
+posts = [[0, 51.22039, 6.86357], [1, 51.22027, 6.84922], [2, 51.2242, 6.83796]]
+
+[[connections]]
+km = 0
+station = "Düsseldorf-Gerresheim"
+lines = [
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 4.897 },
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 16.476 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 93.778 },
+]
+
+[[connections]]
+km = 0
+station = "Gerresheim S"
+lines = [
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 5.054 },
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 16.635 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 93.935 },
+]

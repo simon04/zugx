@@ -1,0 +1,44 @@
+id = "3260"
+ref = "3260"
+name = "3260 Saarbrücken Rbf - Saarbrücken-Burbach"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q41340192"
+from = "Saarbrücken Rbf"
+to = "Saarbrücken-Burbach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.547
+length = 3.547
+speeds = [[0, 3.547, "", ""]]
+curves = [[0.1, 0.4, 1200], [0.65, 1.35, 380], [1.4, 1.675, 680], [1.925, 2.5, 780], [2.975, 3.25, 1190], [3.3, 3.425, 710]]
+points = [
+  { km = 0.069, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.096, kind = "signal", label = "S278", signal = "main,minor,traversable", dir = -1 },
+  { km = 0.266, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.544, kind = "signal", label = "N278", signal = "main,minor", dir = 1 },
+  { km = 0.606, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.657, kind = "signal", label = "321 I", signal = "minor", dir = -1 },
+  { km = 0.851, kind = "signal", label = "321 II", signal = "minor", dir = 1 },
+  { km = 0.921, kind = "signal", label = "8", signal = "minor", dir = -1 },
+  { km = 1.457, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.052, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.128, kind = "signal", label = "20 E", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 2.733, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.923, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.239, kind = "signal", label = "20 ZV400", signal = "combined,minor,speed_limit,speed_limit_distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.162, kmTo = 2.21, length = 48 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mkrkHyivi@rFaAxGIjUlCbEvBtDfGbApFJrKe@zGuBhNWhM^b]fCtNTvG" },
+  { line = "_vpkHojri@CfC", tunnel = true },
+  { line = "cvpkHgfri@fBp~@jDhV^hL" },
+]
+posts = [[0, 49.25127, 7.00077], [1, 49.24298, 6.99798], [2, 49.24353, 6.98447], [3, 49.24234, 6.97096]]

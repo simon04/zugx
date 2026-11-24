@@ -1,0 +1,142 @@
+id = "9120"
+ref = "9120"
+name = "9120 Elmshorn - Henstedt-Ulzburg"
+operator = "AKN Eisenbahn GmbH"
+gauge = "1435"
+from = "Elmshorn"
+to = "Henstedt-Ulzburg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.013
+kmTo = 24.413
+length = 24.342
+speeds = [[-0.013, 0.031, "", ""], [0.031, 0.343, 60, 30], [0.343, 0.608, 60, 80], [0.608, 9.672, 80, 80], [9.672, 10.525, 60, 60], [10.525, 11.399, 80, 80], [11.399, 11.409, "", ""], [11.409, 11.885, 80, 80], [11.885, 13.203, 80, 60], [13.203, 19.21, 80, 80], [19.21, 23.658, 70, 70], [23.658, 24.067, 60, 60], [24.067, 24.413, 40, 40]]
+curves = [[1.104, 1.504, 430], [2.579, 3.229, 2050], [3.504, 3.729, 860], [3.929, 4.004, 2630], [4.379, 4.479, 2430], [5.231, 5.682, 910], [5.757, 6.057, 1240], [7.836, 8.212, 1080], [9.415, 9.565, 1490], [9.665, 9.84, 1070], [10.314, 10.44, 1760], [11.861, 11.988, 1420], [12.368, 12.419, 2610], [17.793, 17.868, 2250], [18.776, 19.077, 1370], [19.955, 20.632, 1130], [21.283, 21.834, 990], [22.686, 23.037, 400], [23.663, 24.313, 250]]
+points = [
+  { km = 0.031, kind = "station", label = "Elmshorn", pos = [53.75423, 9.65926], uic = "8000092" },
+  { km = 0.08, kind = "signal", label = "N108", signal = "main,minor", dir = 1 },
+  { km = 0.115, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.343, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.546, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.608, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.761, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.873, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.008, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.009, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.095, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.409, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.143, kind = "stop", label = "Langenmoor", pos = [53.7726, 9.66394], uic = "8007065" },
+  { km = 3.078, kind = "signal", label = "v8a", signal = "distant", dir = 1 },
+  { km = 3.476, kind = "signal", label = "8A", signal = "main,traversable", dir = 1 },
+  { km = 3.598, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 3.804, kind = "signal", label = "8P1", signal = "main,traversable", dir = -1 },
+  { km = 3.881, kind = "station", label = "Sparrieshoop", pos = [53.78129, 9.68506], uic = "8007066" },
+  { km = 3.91, kind = "signal", label = "8N1", signal = "main,traversable", dir = 1 },
+  { km = 4.384, kind = "signal", label = "8F", signal = "main,traversable", dir = -1 },
+  { km = 4.651, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.665, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.783, kind = "signal", label = "v8f", signal = "distant", dir = -1 },
+  { km = 6.091, kind = "stop", label = "Bokholt", pos = [53.78611, 9.7168], uic = "8007067" },
+  { km = 7.444, kind = "stop", label = "Voßloch", pos = [53.79063, 9.73598], uic = "8007068" },
+  { km = 9.201, kind = "stop", label = "Barmstedt Brunnenstraße", pos = [53.7926, 9.76197], uic = "8007069" },
+  { km = 9.432, kind = "signal", label = "9A", signal = "main,traversable", dir = 1 },
+  { km = 9.637, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 9.796, kind = "signal", label = "9P1", signal = "main", dir = -1 },
+  { km = 9.818, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.838, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.864, kind = "station", label = "Barmstedt", pos = [53.79293, 9.77227], uic = "8007070" },
+  { km = 9.875, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.909, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.96, kind = "signal", label = "9N1", signal = "main", dir = 1 },
+  { km = 10.024, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 10.311, kind = "signal", label = "Ls98III", signal = "minor", dir = -1 },
+  { km = 10.523, kind = "signal", label = "9F", signal = "main,traversable", dir = -1 },
+  { km = 10.634, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.657, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.71, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.885, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.876, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 13.203, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.227, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.478, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 14.167, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.552, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.596, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.886, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 15.244, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 15.274, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 15.302, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 15.752, kind = "stop", label = "Langeln", pos = [53.79184, 9.86211], uic = "8007137" },
+  { km = 15.793, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 15.813, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 16.703, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 16.745, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 16.915, kind = "signal", signal = "distant", dir = 1 },
+  { km = 17.151, kind = "signal", label = "Üs 216749", signal = "crossing", dir = -1 },
+  { km = 17.332, kind = "signal", signal = "main", dir = 1 },
+  { km = 17.43, kind = "signal", signal = "main", dir = -1 },
+  { km = 17.613, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 17.826, kind = "signal", signal = "distant", dir = -1 },
+  { km = 17.996, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 18.021, kind = "signal", label = "ÜS 1 km 18,423", signal = "crossing", dir = 1 },
+  { km = 18.044, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 18.398, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 18.407, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 18.652, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 19.21, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.424, kind = "stop", label = "Alveslohe", pos = [53.79145, 9.91647], uic = "8070185" },
+  { km = 19.638, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 19.658, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 22.628, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 22.67, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 22.705, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.338, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 23.351, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 23.56, kind = "signal", signal = "distant", dir = 1 },
+  { km = 23.658, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.66, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 23.848, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 23.868, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 23.962, kind = "signal", label = "G 833", signal = "distant,main,traversable", dir = 1 },
+  { km = 24.067, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.342, kind = "signal", label = "Ls 833", signal = "minor", dir = 1 },
+  { km = 24.413, kind = "station", label = "Henstedt-Ulzburg", uic = "8007053", pos = [53.79525, 9.98223] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.113, kmTo = 5.174, length = 61 },
+  { kind = "bridge", kmFrom = 10.296, kmTo = 10.308, length = 12 },
+  { kind = "bridge", kmFrom = 11.399, kmTo = 11.409, length = 10 },
+  { kind = "bridge", kmFrom = 20.673, kmTo = 20.754, length = 81 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "u`jgIyu|{@mIs@uBdAyBhD", v = 40 },
+  { line = "srjgI}o|{@iAdFStHv@jHbClG", v = 60 },
+  { line = "uojgIgm{{@nYpo@bBnJ@rJiE~wAV|VdAnLzStdAtAfNZ|L[fVyFhfA", v = 70 },
+  { line = "seigIueo{@iAfb@nBtzABzVaCbiMgBblALzq@", v = 80 },
+  { line = "ekigIwdxz@@\\" },
+  { line = "ckigIycxz@^~pA", v = 80 },
+  { line = "cjigIyquz@ChSmAno@J|J", v = 60 },
+  { line = "iligIaasz@l@lS@vzB\\dJfArLdf@~dDzDlP`GxQlBzKtAlShDp}@hCfnAj@zGnGd]nDdNxKtVzx@xlA~DhBzDHrl@kK", v = 80 },
+  { line = "esbgIuk}y@fP_D", v = 60 },
+  { line = "}abgIup}y@lAW" },
+]
+posts = [[24, 53.79929, 9.98072], [23, 53.79449, 9.96871], [22, 53.79453, 9.95394], [21, 53.79283, 9.93947], [20, 53.7905, 9.92517], [19, 53.79208, 9.91024], [18, 53.79167, 9.8952], [17, 53.79166, 9.88009], [16, 53.79179, 9.8659], [15, 53.79192, 9.84964], [14, 53.79207, 9.83446], [13, 53.7922, 9.81932], [12, 53.7927, 9.80434], [11, 53.79259, 9.78934], [10, 53.79277, 9.77414], [9, 53.7926, 9.7591], [8, 53.79239, 9.74395], [7, 53.78917, 9.72977], [6, 53.78583, 9.71568], [5, 53.7824, 9.70194], [4, 53.78142, 9.68683], [3, 53.77841, 9.67277], [2, 53.7717, 9.6627], [1, 53.76395, 9.65676], [0, 53.75508, 9.65923]]
+
+[[connections]]
+km = 0.031
+station = "Elmshorn"
+lines = [
+  { id = "1210", ref = "1210", name = "1210 Elmshorn, W 104 - Westerland (Sylt)", km = 30.679 },
+  { id = "1220", ref = "1220", name = "1220 Hamburg-Altona - Kiel Hbf", km = 30.612 },
+]
+
+[[connections]]
+km = 24.413
+station = "Henstedt-Ulzburg"
+lines = [
+  { id = "9121", ref = "9121", name = "9121 Hamburg-Langenfelde Gbf - Neumünster Süd", km = 29.553 },
+]

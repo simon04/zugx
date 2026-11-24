@@ -1,0 +1,29 @@
+id = "4542"
+ref = "4542"
+name = "4542 Ulm Hbf - Ulm Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Ulm Hbf"
+to = "Ulm Hbf Bft Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 92.976
+kmTo = 94.555
+length = 1.578
+speeds = [[92.976, 94.555, 40, 40]]
+curves = [[93.064, 93.149, 690], [93.191, 93.374, 620], [93.453, 93.662, 580], [93.714, 93.95, 550]]
+points = [
+  { km = 93.139, kind = "signal", signal = "main", dir = -1 },
+  { km = 93.486, kind = "signal", signal = "distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 93.486, kmTo = 93.637, length = 144 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "comfHgx}{@vA~IxDzNtArTaAnOFlEhJvv@", v = 40 },
+]
+posts = [[93, 48.40699, 9.98774], [94, 48.40523, 9.97486]]

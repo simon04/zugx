@@ -1,0 +1,34 @@
+id = "1269"
+ref = "1269"
+name = "1269 Buxtehude"
+operator = "DB Netz AG;Eisenbahnen und Verkehrsbetriebe Elbe-Weser GmbH"
+gauge = "1435"
+from = "Buxtehude"
+to = "Buxtehude"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.516
+length = 0.516
+speeds = [[0, 0.516, 30, 30]]
+curves = [[0.1, 0.175, 1630]]
+points = [
+  { km = 0, kind = "station", label = "Buxtehude", uic = "8001315", pos = [53.47049, 9.68831] },
+  { km = 0.122, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.143, kind = "signal", signal = "electricity", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}ojeIqrbz@_D|n@", v = 30 },
+]
+posts = [[0, 53.47087, 9.68505]]
+
+[[connections]]
+km = 0
+station = "Buxtehude"
+lines = [
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 190.304 },
+]

@@ -1,0 +1,57 @@
+id = "6375"
+ref = "6375"
+name = "6375 Leipzig-Engelsdorf - Leipzig Tabakmühle Strw 6375/6376"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q21588006"
+from = "Leipzig-Engelsdorf"
+to = "Leipzig Tabakmühle Strw 6375/6376"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.848
+length = 4.848
+speeds = [[0, 1.728, "", ""], [1.728, 2.053, 60, 60], [2.053, 3.319, 80, 80], [3.319, 4.848, 60, 60]]
+curves = [[0.1, 0.25, 820], [0.9, 1.15, 1170], [1.475, 1.575, 1970], [2.075, 2.225, 1410], [2.425, 2.75, 520], [2.875, 3.125, 530], [3.275, 3.65, 1000], [4.075, 4.575, 370], [4.625, 4.725, 1330]]
+points = [
+  { km = 0.33, kind = "signal", label = "60 11", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 0.917, kind = "stop", label = "Leipzig Völkerschlachtdenkmal", pos = [51.31868, 12.40619] },
+  { km = 1.232, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.541, kind = "signal", label = "60 N2", signal = "main", dir = -1 },
+  { km = 1.66, kind = "station", label = "Leipzig-Stötteritz", pos = [51.32433, 12.4112], uic = "8023544" },
+  { km = 2.296, kind = "signal", label = "60 A", signal = "main,route,speed_limit", dir = -1 },
+  { km = 2.776, kind = "stop", label = "Leipzig-Anger-Crottendorf", pos = [51.33244, 12.42035], uic = "8023180" },
+  { km = 2.831, kind = "signal", label = "4618", signal = "main,route,wrong_road", dir = 1 },
+  { km = 4.274, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.848, kind = "halt", label = "Leipzig-Paunsdorf", uic = "8023470", pos = [51.3442, 12.44383] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.701, kmTo = 1.728, length = 27 },
+  { kind = "bridge", kmFrom = 2.342, kmTo = 2.38, length = 38 },
+  { kind = "bridge", kmFrom = 2.825, kmTo = 2.867, length = 42 },
+  { kind = "bridge", kmFrom = 3.381, kmTo = 3.407, length = 27 },
+  { kind = "bridge", kmFrom = 3.652, kmTo = 3.667, length = 15 },
+  { kind = "bridge", kmFrom = 3.94, kmTo = 3.96, length = 21 },
+  { kind = "bridge", kmFrom = 4.096, kmTo = 4.118, length = 22 },
+  { kind = "bridge", kmFrom = 4.368, kmTo = 4.392, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "o~dxHwjtjAgF{Lw`@el@yXwUcJiG" },
+  { line = "mlgxH{dwjAwOyJ", v = 60 },
+  { line = "e}gxHupwjA}NmMaGkH{BiHuE}XwKsS", v = 80 },
+  { line = "olixHk`zjAkI_Jc]kR}DsEeBwEcAcH_@wb@", v = 60 },
+]
+posts = [[0, 51.31256, 12.3974], [1, 51.31923, 12.40697], [2, 51.32727, 12.4134], [3, 51.33326, 12.42322], [4, 51.34078, 12.43068]]
+
+[[connections]]
+km = 4.848
+station = "Leipzig-Paunsdorf"
+lines = [
+  { id = "6363", ref = "6363", name = "6363 Leipzig Hbf - Dresden-Neustadt", km = 4.693 },
+  { id = "6366", ref = "6366", name = "6366 Leipzig - Geithain", km = 4.924 },
+  { id = "6369", ref = "6369", name = "6369 Leipzig-Wahren - Engelsdorf", km = 14.898 },
+]

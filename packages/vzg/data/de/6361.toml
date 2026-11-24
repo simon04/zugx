@@ -1,0 +1,37 @@
+id = "6361"
+ref = "6361"
+name = "6361 Leipzig Hbf - Leipzig Strw 6361/6362"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q802637"
+from = "Leipzig Hbf"
+to = "Leipzig-Connewitz Streckenw 6361/6362"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.958
+length = 2.958
+speeds = [[0, 0.122, "", ""], [0.122, 0.325, 60, 60], [0.325, 1.183, "", ""], [1.183, 2.958, 120, 120]]
+curves = [[0.1, 0.15, 2880], [0.9, 1.15, 1150], [1.825, 2.1, 780], [2.225, 2.8, 640]]
+points = [
+  { km = 0.394, kind = "station", label = "Leipzig-Stötteritz", pos = [51.32433, 12.4112], uic = "8023544" },
+  { km = 0.512, kind = "signal", label = "60 N2", signal = "main", dir = 1 },
+  { km = 1.137, kind = "halt", label = "Leipzig Völkerschlachtdenkmal", pos = [51.31868, 12.40619] },
+  { km = 1.274, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.792, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.756, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.325, kmTo = 0.352, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a}gxHaqwjAdExC" },
+  { line = "{vgxHglwjAlIjF", v = 60 },
+  { line = "mlgxH{dwjAx^fXhIxJ" },
+  { line = "ibfxHy_vjAx^pj@lKj^fEzHfH|FxMtD", v = 120 },
+]
+posts = [[0, 51.32769, 12.41377], [1, 51.31961, 12.40746], [2, 51.31279, 12.39812]]

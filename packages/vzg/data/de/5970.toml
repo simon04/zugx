@@ -1,0 +1,95 @@
+id = "5970"
+ref = "5970"
+name = "5970 Nürnberg-Dürrenhof - Feucht"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q120061414"
+from = "Nürnberg-Dürrenhof"
+to = "Feucht"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.232
+kmTo = 12.849
+length = 11.521
+speeds = [[1.232, 3.517, 80, 80], [3.517, 7.797, 100, 120], [7.797, 8.093, 100, 100], [8.093, 10.962, 100, 120], [10.962, 12.275, 120, 120], [12.275, 12.5, "", ""], [12.5, 12.849, 60, 60]]
+curves = [[1.332, 1.639, 600], [1.763, 2.406, 1070], [2.984, 3.503, 960], [5.318, 5.441, 2310], [5.614, 5.737, 2130], [6.057, 6.378, 1900], [7.675, 8.017, 960], [8.279, 8.517, 1170], [8.637, 8.906, 1850], [11.139, 11.943, 990], [12.528, 12.603, 2800]]
+points = [
+  { km = 1.232, kind = "station", label = "Nürnberg-Dürrenhof", uic = "8004442", pos = [49.44801, 11.09764] },
+  { km = 1.327, kind = "signal", label = "WVr71", signal = "distant", dir = -1 },
+  { km = 1.878, kind = "signal", label = "D", signal = "distant,main,traversable", dir = -1 },
+  { km = 2.171, kind = "signal", label = "WVd", signal = "distant", dir = -1 },
+  { km = 2.3, kind = "stop", label = "Nürnberg-Gleißhammer", uic = "8005304", pos = [49.44458, 11.11126], measured = true },
+  { km = 2.435, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.873, kind = "signal", label = "Vd", signal = "distant", dir = -1 },
+  { km = 3.189, kind = "signal", label = "3458", signal = "main,traversable", dir = -1 },
+  { km = 3.2, kind = "stop", label = "Nürnberg-Dutzendteich", uic = "8004476", pos = [49.43679, 11.1177], measured = true },
+  { km = 3.517, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.517, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.53, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 4.239, kind = "signal", label = "34N360", signal = "distant,main,speed_limit_distant,traversable", dir = -1 },
+  { km = 4.248, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.4, kind = "station", label = "Nürnberg Frankenstadion", uic = "8004493", pos = [49.43091, 11.12984], measured = true },
+  { km = 4.595, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.236, kind = "signal", label = "34C", signal = "distant,main,traversable", dir = -1 },
+  { km = 6.239, kind = "signal", label = "34Vc", signal = "distant", dir = -1 },
+  { km = 7.797, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.093, kind = "signal", label = "3564", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 8.198, kind = "halt", label = "Fischbach (b Nürnberg)", uic = "8001989", pos = [49.41308, 11.1744] },
+  { km = 8.2, kind = "stop", label = "Fischbach (bei Nürnberg)", uic = "8001989", pos = [49.41308, 11.17444], measured = true },
+  { km = 9.214, kind = "signal", label = "35V64", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 9.96, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.747, kind = "signal", label = "3562", signal = "main,traversable", dir = -1 },
+  { km = 10.962, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 11.9, kind = "signal", label = "35V62", signal = "distant", dir = -1 },
+  { km = 12.08, kind = "signal", signal = "minor", dir = 1 },
+  { km = 12.275, kind = "signal", label = "51N105", signal = "main,minor,traversable", dir = -1 },
+  { km = 12.5, kind = "station", label = "Feucht", uic = "8001978", pos = [49.38193, 11.20402], measured = true },
+  { km = 12.567, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.581, kind = "signal", label = "51P105", signal = "distant,main,minor,route,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.62, kmTo = 1.726, length = 129 },
+  { kind = "bridge", kmFrom = 1.878, kmTo = 1.923, length = 37 },
+  { kind = "bridge", kmFrom = 2.3, kmTo = 2.326, length = 33 },
+  { kind = "bridge", kmFrom = 3.011, kmTo = 3.161, length = 68 },
+  { kind = "bridge", kmFrom = 3.411, kmTo = 3.425, length = 37 },
+  { kind = "bridge", kmFrom = 6.828, kmTo = 6.848, length = 21 },
+  { kind = "bridge", kmFrom = 8.192, kmTo = 8.209, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "szxlHevvbAm@qNf@yJnGkY~EqM|GoJzf@_]~F}HnFeM", v = 80 },
+  { line = "_kvlHc|zbAlz@y{BpJm[tN{`@pD}Nl`@ynB", v = 120 },
+  { line = "imrlH_wdcAjCeHbEgH", v = 100 },
+  { line = "ybrlHmiecAxKqPzQcOd|Akq@zTkL|NoJxG_IdFgK`D{KbGoZ", v = 120 },
+  { line = "}bllH_ujcAnDsQ" },
+  { line = "m}klHsgkcA|GyY", v = 60 },
+]
+posts = [[2, 49.44627, 11.10882], [3, 49.43883, 11.1156], [4, 49.43296, 11.12567], [5, 49.42774, 11.13648], [6, 49.42258, 11.14803], [7, 49.41843, 11.16055], [8, 49.41428, 11.1727], [9, 49.4067, 11.18003], [10, 49.39832, 11.18443], [11, 49.38996, 11.18929], [12, 49.38397, 11.19773]]
+
+[[connections]]
+km = 1.232
+station = "Nürnberg-Dürrenhof"
+lines = [
+  { id = "5850", ref = "5850", name = "5850 Regensburg - Nürnberg", km = 99.43 },
+  { id = "5903", ref = "5903", name = "5903 Nürnberg Hbf - Schirnding Grenze", km = 1.166 },
+  { id = "5904", ref = "5904", name = "5904 Nürnberg Hbf - Irrenlohe", km = 1.094 },
+]
+
+[[connections]]
+km = 8.198
+station = "Fischbach"
+lines = [
+  { id = "5963", ref = "5963", name = "5963 Nürnberg Rbf - Abzw Nürnberg Reichswald", km = 8.085 },
+]
+
+[[connections]]
+km = 12.5
+station = "Feucht"
+lines = [
+  { id = "5850", ref = "5850", name = "5850 Regensburg - Nürnberg", km = 88.1 },
+  { id = "5933", ref = "5933", name = "5933 Feucht - Altdorf (b Nürnberg)", km = 0.231 },
+]

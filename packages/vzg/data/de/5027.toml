@@ -1,0 +1,75 @@
+id = "5027"
+ref = "5027"
+name = "Bahnstrecke Cheb–Oberkotzau"
+operator = "DB Netz AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 25.12
+length = 25.12
+speeds = [[0, 4.905, 80, 80], [4.905, 4.988, 70, 70], [4.988, 5.371, 60, 60], [5.371, 15.883, 70, 70], [15.883, 16.356, 60, 60], [16.356, 16.624, 40, 40], [16.624, 17.295, 60, 60], [17.295, 18.257, 70, 70], [18.257, 20.127, 80, 80], [20.127, 20.146, 20, 20], [20.146, 24.204, 80, 80], [24.204, 24.479, 70, 70], [24.479, 25.12, 50, 50]]
+curves = [[0.1, 0.225, 400], [0.275, 0.65, 320], [0.7, 1.775, 350], [1.975, 3.05, 520], [3.6, 3.8, 680], [3.875, 4.425, 440], [4.475, 5.175, 470], [5.25, 5.65, 710], [5.7, 6.325, 450], [6.925, 7.125, 810], [7.375, 7.775, 680], [8.075, 8.55, 740], [8.6, 9.3, 300], [9.35, 9.65, 390], [9.7, 9.95, 480], [10, 10.2, 460], [10.275, 10.5, 850], [10.55, 10.725, 720], [11.45, 11.675, 580], [11.75, 12.05, 340], [12.3, 12.45, 1830], [12.525, 12.65, 1730], [12.8, 13.525, 400], [13.625, 14.5, 370], [14.575, 14.8, 740], [14.975, 15.225, 800], [15.35, 15.85, 300], [15.9, 16.6, 320], [17.425, 18.15, 440], [18.2, 18.875, 550], [18.925, 19.375, 410], [20.075, 20.375, 1000], [20.425, 20.625, 720], [20.8, 21.1, 440], [21.15, 21.325, 650], [21.375, 21.6, 920], [22.125, 22.425, 650], [22.825, 23.275, 480], [24.1, 24.225, 1430], [24.3, 24.95, 480]]
+points = [
+  { km = 4.608, kind = "signal", label = "13A", signal = "main", dir = 1 },
+  { km = 4.988, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.161, kind = "signal", label = "13P1", signal = "main", dir = -1 },
+  { km = 5.223, kind = "station", label = "Selb-Plößberg", pos = [50.18918, 12.11982], uic = "8026041" },
+  { km = 5.274, kind = "signal", label = "13N1", signal = "main", dir = 1 },
+  { km = 5.829, kind = "signal", label = "13F", signal = "main", dir = -1 },
+  { km = 7.51, kind = "stop", label = "Schönwald", pos = [50.19908, 12.09655], uic = "8026040" },
+  { km = 15.883, kind = "signal", label = "11F", signal = "main", dir = 1 },
+  { km = 16.624, kind = "signal", label = "11P1", signal = "main,speed_limit", dir = -1 },
+  { km = 16.631, kind = "station", label = "Rehau", pos = [50.25056, 12.03241], uic = "8026039" },
+  { km = 16.931, kind = "signal", label = "11N1", signal = "main", dir = 1 },
+  { km = 17.295, kind = "signal", label = "11F", signal = "main", dir = -1 },
+  { km = 20.074, kind = "stop", label = "Wurlitz", pos = [50.25323, 11.98994], uic = "8026038" },
+  { km = 20.127, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 20.146, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.032, kind = "signal", label = "A493", signal = "main", dir = 1 },
+  { km = 24.479, kind = "signal", label = "P402", signal = "main", dir = -1 },
+  { km = 24.801, kind = "station", label = "Oberkotzau", pos = [50.26638, 11.93196], uic = "8026024" },
+  { km = 24.978, kind = "signal", label = "R402", signal = "main", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.04, kmTo = 1.072, length = 32 },
+  { kind = "bridge", kmFrom = 4.276, kmTo = 4.362, length = 86 },
+  { kind = "bridge", kmFrom = 6.823, kmTo = 6.926, length = 103 },
+  { kind = "bridge", kmFrom = 7.378, kmTo = 7.4, length = 22 },
+  { kind = "tunnel", kmFrom = 9.677, kmTo = 9.748, length = 71 },
+  { kind = "bridge", kmFrom = 9.997, kmTo = 10.061, length = 64 },
+  { kind = "bridge", kmFrom = 13.343, kmTo = 13.364, length = 22 },
+  { kind = "bridge", kmFrom = 13.624, kmTo = 13.679, length = 55 },
+  { kind = "bridge", kmFrom = 16.162, kmTo = 16.176, length = 13 },
+  { kind = "bridge", kmFrom = 16.27, kmTo = 16.29, length = 20 },
+  { kind = "bridge", kmFrom = 19.224, kmTo = 19.242, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "acnqHushiApEhE|JzApDlCbCnF|CvPrCxE|DnBdIIbEx@xC~BlC`FfBtJt@za@dBzKpHtN|O`LzCrItIxy@DnZfAlK|DdKzNvPdCpH|@`I", v = 80 },
+  { line = "gmiqHy~~hAGhF", v = 70 },
+  { line = "omiqHow~hAyDf_@", v = 60 },
+  { line = "isiqHgw}hAKvMbDrSZrGOrG{@hG_BfF{B~Du]tf@mVhPkE~AcFb@e\\oCkGsE_LaRqDaBwCCkFhCwCxFkCfVuApEeE`G", v = 70 },
+  { line = "ypnqHi_yhAgBrB", tunnel = true, v = 70 },
+  { line = "atnqHu{xhAiCxE_EpQ}JhPqGxScb@`p@yBxBoKjEqCdDgArCoG`\\}EpQkIdT{DjGcH|CcF]}CiB_LgMmGcCqG|@gFpFsBvFm@hE[x[yEn`@Ox`@kApFyAxCuC`C{E`A", v = 70 },
+  { line = "geuqHmqnhAeDh@sD`DmCtHq@xI", v = 60 },
+  { line = "avuqHqvmhAv@dJxBlI", v = 40 },
+  { line = "opuqH}`mhAjSpp@", v = 60 },
+  { line = "c|tqHkokhAzDjMdAnGRfHY`JcAtHkAhD{AtBuG|E", v = 70 },
+  { line = "iduqHqjihA_FtHeElSyAjEmJ`NqC|Je@fK|B`dA", v = 80 },
+  { line = "qavqHwydhADr@", v = 20 },
+  { line = "kavqHcxdhAt@rJzCtS~@`]s@vKyD~LgCdTeArEqRzq@sEjHgW`VyAzBoCvI{@dIuCltA", v = 80 },
+  { line = "_gxqHsa{gA@zNe@bG", v = 70 },
+  { line = "chxqHsizgAmB|H}E|KyCjC{JlD", v = 50 },
+]
+posts = [[0, 50.21249, 12.17355], [1, 50.20575, 12.16577], [2, 50.2007, 12.15728], [3, 50.195, 12.14746], [4, 50.19332, 12.13377], [5, 50.18858, 12.1228], [6, 50.18869, 12.10926], [7, 50.19501, 12.09955], [8, 50.20355, 12.09649], [9, 50.21146, 12.1011], [10, 50.21646, 12.09003], [11, 50.22235, 12.07961], [12, 50.22951, 12.07154], [13, 50.23424, 12.05971], [14, 50.24242, 12.06201], [15, 50.24567, 12.04988], [16, 50.2497, 12.03973], [17, 50.24866, 12.02787], [18, 50.24658, 12.01526], [19, 50.25268, 12.00548], [20, 50.25332, 11.99198], [21, 50.252, 11.97826], [22, 50.25608, 11.96583], [23, 50.26276, 11.95683], [24, 50.2642, 11.94311], [25, 50.2678, 11.9317]]
+
+[[connections]]
+km = 24.801
+station = "Oberkotzau"
+lines = [
+  { id = "5050", ref = "5050", name = "5050 Weiden (Oberpf) - Oberkotzau", km = 86.96 },
+]

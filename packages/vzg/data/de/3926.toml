@@ -1,0 +1,23 @@
+id = "3926"
+ref = "3926"
+name = "3926 Kassel Rbf - Abzw Kassel Nordwest"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Kassel Rbf"
+to = "Kassel Nordwest"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.239
+length = 0.239
+speeds = [[0, 0.239, "", ""]]
+curves = []
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "klhxH_`xx@iJuJ" },
+]
+posts = [[0, 51.33014, 9.46704]]

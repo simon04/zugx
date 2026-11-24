@@ -1,0 +1,41 @@
+id = "5227"
+ref = "5227"
+name = "5227 Abzw Mainaschaff - Abzw Mainaschaff Steinerts"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Mainaschaff Abzw"
+to = "Mainaschaff Steinerts"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.107
+length = 1.107
+speeds = [[0, 1.107, 60, 60]]
+curves = [[0.1, 0.9, 320]]
+points = [
+  { km = 0.119, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.331, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.351, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 0.81, kind = "halt", label = "Mainaschaff", uic = "8003810", pos = [49.98239, 9.08598] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.232, kmTo = 0.313, length = 81 },
+  { kind = "bridge", kmFrom = 0.428, kmTo = 0.454, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ajbpHcwmv@bIyK", v = 60 },
+  { line = "}_bpH}cnv@fCoA", tunnel = true, v = 60 },
+  { line = "u{apHmfnv@jEU`Ch@fCvBvBhEpApI^fX", v = 60 },
+]
+posts = [[0, 49.98833, 9.08674], [1, 49.98254, 9.08324]]
+
+[[connections]]
+km = 0.81
+station = "Mainaschaff"
+lines = [
+  { id = "3557", ref = "3557", name = "3557 Darmstadt Hbf - Aschaffenburg Hbf", km = 73.564 },
+]

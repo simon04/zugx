@@ -1,0 +1,104 @@
+id = "3656"
+ref = "3656"
+name = "3656 Frankfurt (M) Flughafen Fernbahnhof - Zeppelinheim (Verbindungskurve Zeppelinheim)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Frankfurt am Main Flughafen Fernbahnhof"
+to = "Zeppelinheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 70.153
+kmTo = 78.504
+length = 8.347
+speeds = [[70.153, 73.559, 160, 160], [73.559, 73.676, 160, 120], [73.676, 74.504, 100, 100], [74.504, 74.985, 100, 150], [74.985, 75.662, 160, 150], [75.662, 77.328, 160, 160], [77.328, 77.741, 80, 80], [77.741, 78.504, 100, 100]]
+curves = [[73.631, 73.731, 30], [73.831, 73.906, 2480], [74.156, 75.231, 980], [76.781, 77.056, 2550], [77.706, 77.756, 2330], [78.156, 78.231, 1840]]
+points = [
+  { km = 70.335, kind = "signal", label = "18L 202Y", signal = "minor", dir = -1 },
+  { km = 70.431, kind = "signal", label = "18 P2", signal = "combined,minor,speed_limit,train_protection,traversable", dir = -1 },
+  { km = 70.556, kind = "station", label = "Zeppelinheim", pos = [50.0368, 8.60536] },
+  { km = 71.051, kind = "signal", label = "18 N2", signal = "combined,minor,speed_limit_distant,traversable,wrong_road", dir = 1 },
+  { km = 71.372, kind = "signal", label = "18 ZU12", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 71.686, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 72.249, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 72.358, kind = "signal", label = "18 F", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 72.456, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 72.458, kind = "signal", label = "64CC", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 72.727, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 72.869, kind = "signal", label = "64L 544Y", signal = "minor", dir = -1 },
+  { km = 72.938, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 73.402, kind = "signal", label = "64 ZR543", signal = "main,speed_limit", dir = 1 },
+  { km = 73.404, kind = "signal", label = "64 P593", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 73.559, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 74.053, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 74.078, kind = "signal", label = "64 DD", signal = "combined,speed_limit", dir = -1 },
+  { km = 74.306, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 74.371, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 74.471, kind = "signal", signal = "distant", dir = -1 },
+  { km = 74.504, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 74.645, kind = "signal", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 74.861, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 74.985, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 75.015, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 75.119, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 75.662, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 76.231, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 76.582, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 76.643, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 76.917, kind = "signal", label = "15F", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 77.275, kind = "signal", label = "15 845", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 77.502, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 77.724, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 77.741, kind = "signal", label = "15 N7", signal = "departure,main,route,speed_limit", dir = -1 },
+  { km = 77.832, kind = "station", label = "Terminal 1", pos = [50.0515, 8.57227] },
+  { km = 77.874, kind = "station", label = "Frankfurt am Main Flughafen Regionalbahnhof", uic = "8070004", pos = [50.0513, 8.57175] },
+  { km = 77.95, kind = "signal", label = "1527", signal = "minor", dir = 1 },
+  { km = 77.97, kind = "station", label = "Frankfurt am Main Flughafen Fernbahnhof", pos = [50.05293, 8.56991], uic = "8070003" },
+  { km = 78.172, kind = "signal", signal = "stop", dir = 1 },
+  { km = 78.176, kind = "signal", label = "15 P7", signal = "departure,main,speed_limit", dir = 1 },
+  { km = 78.201, kind = "signal", label = "15 VWn7", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 173.414, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 74.349, kmTo = 74.48, length = 132 },
+  { kind = "tunnel", kmFrom = 75.066, kmTo = 76.945, length = 1879, name = "Frankfurter-Kreuz-Tunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "w`kpHoeos@ysDe|B", v = 160 },
+  { line = "quppHubss@vZnS~DzD", v = 100 },
+  { line = "ysopHihrs@lDvF", tunnel = true, v = 100 },
+  { line = "knopHq`rs@Zp@", v = 100 },
+  { line = "omopH__rs@~ElOxC`T", v = 150 },
+  { line = "uaopHoyps@V|E", v = 160 },
+  { line = "}`opHqrps@JnUa@pf@wDplA[dW", tunnel = true, v = 160 },
+  { line = "ghopHwnks@n@n`@", v = 160 },
+  { line = "wfopHgmjs@pCjb@", v = 80 },
+  { line = "ebopH{iis@lFre@zDxW", v = 100 },
+]
+posts = [[71, 50.03992, 8.60749], [72, 50.04818, 8.6132], [73, 50.05614, 8.61872], [74, 50.05923, 8.62069], [75, 50.05353, 8.61076], [76, 50.05374, 8.5968], [77, 50.05459, 8.58286], [78, 50.05297, 8.56914]]
+
+[[connections]]
+km = 70.556
+station = "Zeppelinheim"
+lines = [
+  { id = "4010", ref = "4010", name = "4010 Mannheim Hbf - Frankfurt am Main Stadion", km = 70.556 },
+]
+
+[[connections]]
+km = 77.832
+station = "Terminal 1"
+lines = [
+  { id = "2690", ref = "2690", name = "2690 Köln - Frankfurt am Main", km = 169.413 },
+  { id = "3683", ref = "3683", name = "3683 Abzw Frankfurt am Main Kleyerstraße - Kelsterbach", km = 11.268 },
+]
+
+[[connections]]
+km = 77.97
+station = "Frankfurt am Main Flughafen Fernbahnhof"
+lines = [
+  { id = "2690", ref = "2690", name = "2690 Köln - Frankfurt am Main", km = 169.334 },
+  { id = "3683", ref = "3683", name = "3683 Abzw Frankfurt am Main Kleyerstraße - Kelsterbach", km = 169.3 },
+]

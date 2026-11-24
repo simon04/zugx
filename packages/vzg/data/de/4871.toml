@@ -1,0 +1,163 @@
+id = "4871"
+ref = "4871"
+name = "4871 Böblingen - Dettenhausen"
+operator = "DB Netz AG;Zweckverband Schönbuchbahn (ZVS)"
+gauge = "1435"
+wikidata = "Q2258875"
+from = "Böblingen"
+to = "Dettenhausen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.156
+kmTo = 16.993
+length = 17.149
+speeds = [[-0.156, 0, "", ""], [0, 0.214, "", 50], [0.214, 0.3, "", ""], [0.3, 0.577, 60, 50], [0.577, 0.729, 60, ""], [0.729, 0.788, "", ""], [0.788, 1.078, 80, 80], [1.078, 1.104, 70, 70], [1.104, 1.419, "", ""], [1.419, 1.552, 80, ""], [1.552, 1.557, 70, 70], [1.557, 2.157, 80, 70], [2.157, 4.136, 80, 80], [4.136, 4.137, 70, 80], [4.137, 4.544, 70, 70], [4.544, 5.325, 80, 80], [5.325, 8.17, 100, 100], [8.17, 10.532, 80, 80], [10.532, 10.55, 30, 30], [10.55, 10.645, "", ""], [10.645, 12.194, 100, 100], [12.194, 12.215, "", ""], [12.215, 12.913, 70, 70], [12.913, 13.195, 60, 60], [13.195, 13.811, 70, 70], [13.811, 16.817, 80, 80], [16.817, 16.856, 50, 50], [16.856, 16.993, 30, 50]]
+curves = [[0.163, 0.214, 2380], [0.713, 1.496, 300], [1.648, 1.722, 2870], [2.234, 2.523, 770], [2.702, 3.032, 390], [3.113, 3.686, 830], [3.808, 5.013, 410], [5.06, 5.335, 430], [5.562, 6.048, 1230], [6.621, 6.938, 870], [8.728, 9.36, 740], [9.622, 9.942, 1060], [10.48, 10.673, 720], [11.553, 11.966, 900], [12.161, 12.708, 440], [12.886, 13.595, 330], [13.646, 14, 1000], [14.047, 14.118, 2270], [14.237, 14.853, 370], [14.903, 15.42, 310], [15.826, 16.103, 440], [16.152, 16.3, 730], [16.767, 16.845, 1690]]
+points = [
+  { km = -0.086, kind = "signal", signal = "minor", dir = 1 },
+  { km = -0.072, kind = "signal", label = "P1", signal = "main,minor,traversable", dir = -1 },
+  { km = -0.009, kind = "signal", label = "01L101X", signal = "minor", dir = 1 },
+  { km = -0.009, kind = "signal", label = "01L201Y", signal = "minor", dir = -1 },
+  { km = 0, kind = "station", label = "Böblingen", uic = "8001055", pos = [48.68804, 9.00473], measured = true, ele = 437 },
+  { km = 0.162, kind = "signal", label = "01N1", signal = "main,minor", dir = 1 },
+  { km = 0.163, kind = "signal", label = "01Zf1", signal = "speed_limit", dir = -1 },
+  { km = 0.281, kind = "signal", label = "01L122Y", signal = "minor", dir = -1 },
+  { km = 0.3, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.474, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.577, kind = "signal", label = "01F", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.733, kind = "signal", label = "02V61", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.814, kind = "signal", label = "01F", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.041, kind = "signal", label = "01VWf", signal = "distant", dir = -1 },
+  { km = 1.116, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.257, kind = "signal", label = "01Vf", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.328, kind = "stop", label = "Böblingen Danziger Straße", pos = [48.67897, 8.99717] },
+  { km = 1.395, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.419, kind = "signal", label = "0261", signal = "main,speed_limit", dir = 1 },
+  { km = 1.557, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.157, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 2.293, kind = "stop", label = "Südbahnhof", pos = [48.67727, 9.01037] },
+  { km = 2.3, kind = "halt", label = "Böblingen Südbahnhof", pos = [48.67726, 9.01037], measured = true },
+  { km = 2.33, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.548, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.807, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.408, kind = "signal", label = "03V21", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.433, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.468, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.495, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.496, kind = "stop", label = "Böblingen Heusteigstraße", pos = [48.67565, 9.02572] },
+  { km = 3.545, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.56, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 3.573, kind = "signal", label = "03VW21", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.136, kind = "signal", label = "0321", signal = "main,speed_limit", dir = 1 },
+  { km = 4.137, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.233, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.362, kind = "signal", label = "0372", signal = "main", dir = -1 },
+  { km = 4.447, kind = "stop", label = "Böblingen Zimmerschlag", pos = [48.67071, 9.03513] },
+  { km = 4.469, kind = "signal", label = "03VW72", signal = "distant", dir = -1 },
+  { km = 4.544, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.325, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.875, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 5.895, kind = "signal", label = "Üs 2a", signal = "crossing", dir = -1 },
+  { km = 5.944, kind = "signal", label = "Üsw 1a", signal = "crossing", dir = 1 },
+  { km = 6.017, kind = "signal", label = "Üs 1a", signal = "crossing", dir = 1 },
+  { km = 6.028, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 7.482, kind = "signal", label = "05Va", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 8.17, kind = "signal", label = "05A", signal = "combined,speed_limit", dir = -1 },
+  { km = 8.179, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.185, kind = "signal", signal = "stop", dir = 1 },
+  { km = 8.27, kind = "stop", label = "Holzgerlingen Hülben", pos = [48.64472, 9.00861] },
+  { km = 8.277, kind = "signal", label = "05ZR1", signal = "combined,speed_limit", dir = -1 },
+  { km = 8.494, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.078, kind = "signal", label = "05P1", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 9.09, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.134, kind = "station", label = "Holzgerlingen Bahnhof", pos = [48.63669, 9.00726] },
+  { km = 9.172, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.173, kind = "signal", label = "05N1", signal = "main", dir = 1 },
+  { km = 10.532, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.534, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.645, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.9, kind = "halt", label = "Holzgerlingen Buch", pos = [48.62677, 9.02484], measured = true },
+  { km = 11.249, kind = "signal", label = "ÜS2 10,5", signal = "crossing", dir = -1 },
+  { km = 11.376, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 11.408, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 12.194, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.215, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 12.299, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.387, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.435, kind = "signal", signal = "stop", dir = -1 },
+  { km = 12.448, kind = "stop", label = "Weil im Schönbuch Troppel", pos = [48.62017, 9.04292] },
+  { km = 12.913, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.022, kind = "stop", label = "Weil im Schönbuch Röte", pos = [48.62088, 9.05034] },
+  { km = 13.195, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.811, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.929, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 14.012, kind = "stop", label = "Weil im Schönbuch Untere Halde", pos = [48.62032, 9.06295] },
+  { km = 14.021, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.078, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 14.213, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 14.215, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 15.589, kind = "signal", label = "06Va", signal = "distant", dir = 1 },
+  { km = 15.894, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 16.301, kind = "signal", signal = "main,speed_limit_distant", dir = 1 },
+  { km = 16.411, kind = "signal", signal = "main,speed_limit_distant", dir = 1 },
+  { km = 16.423, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 16.512, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 16.815, kind = "signal", label = "06L201X", signal = "minor", dir = 1 },
+  { km = 16.817, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.818, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 16.834, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 16.856, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.901, kind = "signal", label = "06P1", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 16.937, kind = "signal", signal = "stop", dir = -1 },
+  { km = 16.963, kind = "station", label = "Dettenhausen", pos = [48.60674, 9.09315] },
+  { km = 16.993, kind = "signal", label = "06L301X", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.078, kmTo = 1.104, length = 26 },
+  { kind = "bridge", kmFrom = 1.291, kmTo = 1.319, length = 29 },
+  { kind = "bridge", kmFrom = 2.821, kmTo = 2.855, length = 33 },
+  { kind = "bridge", kmFrom = 3.521, kmTo = 3.545, length = 24 },
+  { kind = "bridge", kmFrom = 9.923, kmTo = 9.966, length = 47 },
+  { kind = "bridge", kmFrom = 14.104, kmTo = 14.113, length = 10 },
+  { kind = "bridge", kmFrom = 14.17, kmTo = 14.213, length = 45 },
+  { kind = "bridge", kmFrom = 16.128, kmTo = 16.157, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "opdhHka~u@|DxH" },
+  { line = "qjdhHqw}u@`HpN", v = 50 },
+  { line = "oadhH_h}u@fB`D" },
+  { line = "g~chH}b}u@~NtZ", v = 60 },
+  { line = "gnchHgg|u@dAnB" },
+  { line = "alchHwc|u@vE~D|FT", v = 80 },
+  { line = "k}bhHa}{u@l@O", v = 70 },
+  { line = "}{bhHq}{u@jC{AnBgC`CkJ" },
+  { line = "_pbhHap|u@v@uI", v = 80 },
+  { line = "gnbhHwz|u@@M", v = 70 },
+  { line = "enbhHe{|u@|EcbAnAiHnHqWr@sFAkGiCmYPgRlF_YbCuGrCwE", v = 80 },
+  { line = "gmahHigcv@fIcJfDcAbDL", v = 70 },
+  { line = "sx`hHctcv@nFtDlChHh@pGM~QpBjK", v = 80 },
+  { line = "gh`hHe}av@nIrW|FpLtFnHp_@~`@`FxBveAzV", v = 100 },
+  { line = "w_|gHyo~u@|d@|JbIMtGoBxRcRbGyIpVwo@", v = 80 },
+  { line = "osxgHov`v@Pi@", v = 30 },
+  { line = "}rxgHyw`v@dAuF" },
+  { line = "wpxgHo_av@`QsnAdEeNnMkT", v = 100 },
+  { line = "_jwgHusdv@Ve@" },
+  { line = "giwgH{tdv@tCsHhAiKGeGaCmV", v = 70 },
+  { line = "qfwgHmjfv@S{J|AuI", v = 60 },
+  { line = "gdwgH_agv@rBmGv@oJWkF_BoJa@wH", v = 70 },
+  { line = "ucwgHqqhv@Qal@~A{JdCgFzDkDjCu@dLMtCaB~BmDzAoFpGeq@lB_FzF{I~Qkg@", v = 80 },
+  { line = "estgHuunv@hDuK", v = 50 },
+]
+posts = [[0, 48.68793, 9.00489], [1, 48.68143, 8.99548], [2, 48.67762, 9.00649], [3, 48.67508, 9.01962], [4, 48.6738, 9.03181], [5, 48.66759, 9.03054], [6, 48.66326, 9.01904], [7, 48.65571, 9.01229], [8, 48.6468, 9.00929], [9, 48.63782, 9.00688], [10, 48.63075, 9.01408], [11, 48.62646, 9.02606], [12, 48.62249, 9.03839], [13, 48.62086, 9.05001], [14, 48.62036, 9.06279], [15, 48.61567, 9.07165], [16, 48.61201, 9.08288]]
+
+[[connections]]
+km = 0
+station = "Böblingen"
+lines = [
+  { id = "4860", ref = "4860", name = "Gäubahn", km = 25.914 },
+  { id = "4870", ref = "4870", name = "4870 Böblingen - Renningen", km = 0.029 },
+]

@@ -1,0 +1,189 @@
+id = "6406"
+ref = "6406"
+name = "6406 Schönebeck - Abzw Glindenberg"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q803198"
+from = "Schönebeck (Elbe)"
+to = "Glindenberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.695
+kmTo = 24.409
+length = 25.028
+speeds = [[-0.695, 1.636, 100, 100], [1.636, 6.892, 120, 120], [6.892, 11.195, 60, 60], [11.195, 11.521, "", ""], [11.521, 11.944, 40, 40], [11.944, 12.785, "", ""], [12.785, 17.941, 60, 60], [17.941, 20.83, "", ""], [20.83, 21.046, 40, 40], [21.046, 22.383, "", ""], [22.383, 24.409, 80, 80]]
+curves = [[4.472, 4.871, 2090], [4.938, 5.639, 2040], [6.505, 6.683, 1700], [6.912, 7.091, 1760], [8.262, 8.517, 1100], [8.823, 9.13, 600], [9.259, 9.31, 2300], [9.388, 9.568, 890], [9.775, 9.904, 1510], [10.213, 10.342, 1890], [11.179, 11.278, 1380], [11.527, 11.576, 2240], [11.725, 11.85, 910], [11.899, 12.048, 880], [13.216, 13.465, 1030], [13.937, 14.235, 560], [14.534, 14.658, 1770], [15.254, 15.379, 2390], [15.851, 16.074, 1270], [16.98, 17.264, 840], [17.655, 17.778, 1900], [18.194, 18.537, 680], [18.586, 19.337, 420], [20.089, 20.24, 1190], [20.593, 20.744, 870], [20.795, 20.896, 1640], [20.997, 21.198, 1020], [21.501, 21.728, 1520], [21.879, 21.955, 1960], [22.357, 22.582, 1580]]
+points = [
+  { km = -0.546, kind = "signal", signal = "shunting", dir = -1 },
+  { km = -0.087, kind = "signal", label = "55 N4", signal = "main,route,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 0.086, kind = "station", label = "Schönebeck (Elbe)", uic = "8024129", pos = [52.01882, 11.73294] },
+  { km = 0.339, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.346, kind = "signal", label = "55 ZS4", signal = "combined,route_distant,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 0.705, kind = "signal", label = "55 ZR4", signal = "combined,route_distant,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.094, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.355, kind = "signal", label = "55 P4", signal = "main,route,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 1.588, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.64, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.642, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.854, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 2.187, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.188, kind = "signal", label = "55 AA", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.51, kind = "halt", label = "Schönebeck-Frohse", uic = "8081270", pos = [52.03388, 11.70728] },
+  { km = 2.601, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.409, kind = "signal", label = "55 17", signal = "main,traversable", dir = 1 },
+  { km = 3.41, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.238, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.778, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.461, kind = "signal", label = "54 G", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 6.86, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.892, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.072, kind = "signal", label = "54 N4", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 7.401, kind = "station", label = "Magdeburg Südost", uic = "8024127", pos = [52.07007, 11.6701] },
+  { km = 7.467, kind = "signal", signal = "main_repeated" },
+  { km = 7.544, kind = "signal", label = "54 P4", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 7.749, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 7.796, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 8.018, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 8.065, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 8.202, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 8.485, kind = "signal", label = "54 BB", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 8.939, kind = "signal", label = "52E", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 8.942, kind = "halt", label = "Magdeburg-Salbke", uic = "8024126", pos = [52.08067, 11.65654] },
+  { km = 9.016, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.108, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 10.522, kind = "signal", label = "52 N52", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 11.16, kind = "signal", label = "52 ZS51", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 11.26, kind = "halt", label = "Magdeburg SKET Industriepark", uic = "8024125", pos = [52.09764, 11.63824] },
+  { km = 11.41, kind = "signal", signal = "minor", dir = -1 },
+  { km = 11.447, kind = "signal", signal = "minor", dir = 1 },
+  { km = 11.46, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 11.629, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 11.948, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.978, kind = "signal", label = "51 ZT5", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 12.645, kind = "station", label = "Magdeburg-Buckau", uic = "8024124", pos = [52.10912, 11.63007] },
+  { km = 12.671, kind = "signal", signal = "route", dir = 1 },
+  { km = 12.672, kind = "signal", label = "51 ZU5", signal = "combined,speed_limit,speed_limit_distant,traversable,wrong_road", dir = 1 },
+  { km = 12.672, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 12.785, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.215, kind = "signal", signal = "minor", dir = -1 },
+  { km = 13.437, kind = "signal", label = "51 CC", signal = "combined,route,speed_limit,traversable", dir = -1 },
+  { km = 13.53, kind = "signal", label = "51 CC", signal = "combined,route_distant,speed_limit", dir = -1 },
+  { km = 13.835, kind = "signal", signal = "combined", dir = 1 },
+  { km = 13.893, kind = "signal", label = "37H", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 14.078, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.292, kind = "halt", label = "Magdeburg Hasselbachplatz", uic = "8024122", pos = [52.12252, 11.62538] },
+  { km = 14.424, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 14.521, kind = "signal", signal = "minor", dir = -1 },
+  { km = 14.723, kind = "signal", label = "37 ZT10", signal = "combined,minor,route,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 15.164, kind = "station", label = "Magdeburg Hauptbahnhof", uic = "8024001", pos = [52.13052, 11.62672] },
+  { km = 15.349, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 15.466, kind = "signal", label = "37 ZW10", signal = "combined,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 15.618, kind = "signal", signal = "minor", dir = 1 },
+  { km = 15.983, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.984, kind = "signal", label = "35 P10", signal = "combined,speed_limit_distant,traversable,wrong_road", dir = 1 },
+  { km = 15.986, kind = "signal", label = "35 ZR10", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 16.705, kind = "signal", label = "34 BB", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 17.106, kind = "signal", label = "33 G", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 17.572, kind = "station", label = "Magdeburg-Neustadt", uic = "8024002", pos = [52.14891, 11.6418] },
+  { km = 17.745, kind = "signal", label = "33 P5", signal = "combined,speed_limit,speed_limit_distant,traversable,wrong_road", dir = 1 },
+  { km = 17.747, kind = "signal", label = "33 N5", signal = "combined,speed_limit,speed_limit_distant,traversable,wrong_road", dir = -1 },
+  { km = 17.941, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.113, kind = "signal", signal = "minor", dir = -1 },
+  { km = 18.792, kind = "signal", signal = "distant", dir = 1 },
+  { km = 18.799, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.037, kind = "signal", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 19.11, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.63, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.68, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 19.774, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.785, kind = "signal", label = "H", signal = "main,traversable", dir = 1 },
+  { km = 19.918, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 20.257, kind = "halt", label = "Magdeburg-Eichenweiler", uic = "8024075", pos = [52.16637, 11.65803] },
+  { km = 20.509, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 20.981, kind = "signal", label = "S1", signal = "main,route,traversable", dir = -1 },
+  { km = 21.105, kind = "signal", label = "T1", signal = "main,traversable", dir = -1 },
+  { km = 22.204, kind = "signal", label = "YL", signal = "main,traversable", dir = -1 },
+  { km = 22.664, kind = "halt", label = "Magdeburg-Rothensee", uic = "8024003", pos = [52.18656, 11.64793] },
+  { km = 22.81, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.812, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 22.909, kind = "signal", signal = "distant", dir = -1 },
+  { km = 23.536, kind = "signal", label = "7033", signal = "main,route,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 23.685, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.167, kmTo = -0.14, length = 27 },
+  { kind = "bridge", kmFrom = 1.907, kmTo = 1.919, length = 13 },
+  { kind = "bridge", kmFrom = 7.484, kmTo = 7.501, length = 17 },
+  { kind = "bridge", kmFrom = 8.17, kmTo = 8.191, length = 21 },
+  { kind = "bridge", kmFrom = 8.219, kmTo = 8.243, length = 24 },
+  { kind = "bridge", kmFrom = 10.307, kmTo = 10.339, length = 31 },
+  { kind = "bridge", kmFrom = 11.167, kmTo = 11.195, length = 29 },
+  { kind = "tunnel", kmFrom = 11.856, kmTo = 11.944, length = 88 },
+  { kind = "bridge", kmFrom = 12.598, kmTo = 12.637, length = 39 },
+  { kind = "bridge", kmFrom = 13.144, kmTo = 13.176, length = 32 },
+  { kind = "bridge", kmFrom = 13.534, kmTo = 13.588, length = 55 },
+  { kind = "bridge", kmFrom = 13.898, kmTo = 13.937, length = 39 },
+  { kind = "bridge", kmFrom = 15.312, kmTo = 15.335, length = 23 },
+  { kind = "bridge", kmFrom = 16.225, kmTo = 16.267, length = 42 },
+  { kind = "bridge", kmFrom = 16.636, kmTo = 16.652, length = 19 },
+  { kind = "bridge", kmFrom = 17.366, kmTo = 17.409, length = 44 },
+  { kind = "bridge", kmFrom = 17.535, kmTo = 17.563, length = 29 },
+  { kind = "bridge", kmFrom = 18.824, kmTo = 19.021, length = 204 },
+  { kind = "bridge", kmFrom = 19.159, kmTo = 19.218, length = 61 },
+  { kind = "bridge", kmFrom = 23.623, kmTo = 23.649, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}~m|HiftfAsIlOynAnhC", v = 100 },
+  { line = "kyp|HklofAakBxwDaH`MgGnIcOnOwO~J}JnDon@pOcPzH", v = 120 },
+  { line = "edx|Hq~ffAcHnE{UfSoZf[_LfNaTpb@e[dQ}L|MeRrXwh@jk@", v = 60 },
+  { line = "yh~|Hsm`fAgO`M" },
+  { line = "ay~|Hq_`fAqOvM", v = 40 },
+  { line = "si_}Hyp_fA{B|C", tunnel = true, v = 40 },
+  { line = "om_}H{k_fA{h@tc@" },
+  { line = "kw`}Heg~eAi[rWce@lNgFa@aWiJme@yJic@eQ{r@km@yCcEaHmO}HqQwFmP", v = 60 },
+  { line = "iwh}HmrafAiImV{AgH_Cs_@oAoJ{D}ImFgEiG]cr@zNoWnMeG|F" },
+  { line = "mtl}HakcfAwIrG", v = 40 },
+  { line = "e_m}HmbcfAm[`KyPzA{Xd@" },
+  { line = "igo}HirbfAyNrBy~Ab`@", v = 80 },
+]
+posts = [[0, 52.01844, 11.7341], [1, 52.0246, 11.72343], [2, 52.0309, 11.71265], [3, 52.03706, 11.70213], [4, 52.04324, 11.69156], [5, 52.05002, 11.68167], [6, 52.05852, 11.6768], [7, 52.067, 11.67294], [8, 52.07464, 11.66577], [9, 52.08126, 11.65641], [10, 52.08889, 11.64984], [11, 52.09608, 11.64167], [12, 52.10388, 11.63427], [13, 52.11185, 11.62729], [14, 52.12034, 11.6225], [15, 52.12916, 11.62541], [16, 52.13787, 11.6293], [17, 52.14571, 11.63631], [18, 52.15141, 11.64671], [19, 52.15517, 11.66002], [20, 52.16421, 11.65923], [21, 52.17247, 11.65396], [22, 52.18116, 11.65123], [23, 52.18983, 11.64953], [24, 52.19864, 11.64653]]
+
+[[connections]]
+km = 11.26
+station = "Magdeburg SKET Industriepark"
+lines = [
+  { id = "6404", ref = "6404", name = "6404 Magdeburg Hbf – Halberstadt", km = 3.844 },
+]
+
+[[connections]]
+km = 14.292
+station = "Magdeburg Hasselbachplatz"
+lines = [
+  { id = "6110", ref = "6110", name = "6110 Potsdam Griebnitzsee - Eilsleben", km = 142.686 },
+]
+
+[[connections]]
+km = 15.164
+station = "Magdeburg Hauptbahnhof"
+lines = [
+  { id = "6402", ref = "6402", name = "6402 Magdeburg Hbf - Stendal", km = 0.002 },
+  { id = "6404", ref = "6404", name = "6404 Magdeburg Hbf – Halberstadt", km = -0.065 },
+]
+
+[[connections]]
+km = 17.572
+station = "Magdeburg-Neustadt"
+lines = [
+  { id = "6110", ref = "6110", name = "6110 Potsdam Griebnitzsee - Eilsleben", km = 139.476 },
+]
+
+[[connections]]
+km = 22.664
+station = "Magdeburg-Rothensee"
+lines = [
+  { id = "6402", ref = "6402", name = "6402 Magdeburg Hbf - Stendal", km = 7.498 },
+]

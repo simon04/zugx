@@ -1,0 +1,61 @@
+id = "5833"
+ref = "5833"
+name = "Bahnstrecke Vilshofen (Niederbay)–Ortenburg"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Vilshofen (Niederbay)"
+to = "Ortenburg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.531
+length = 5.531
+speeds = [[0, 0.036, 40, 40], [0.036, 1.044, 50, 40], [1.044, 1.053, 20, 40], [1.053, 1.056, 40, 20], [1.056, 1.867, 40, 30], [1.867, 2.27, 50, 30], [2.27, 4.41, 50, 50], [4.41, 4.5, 20, 50], [4.5, 4.567, 20, 20], [4.567, 5.531, 50, 50]]
+curves = [[0.1, 0.45, 200], [0.5, 0.75, 290], [0.8, 1.275, 380], [1.5, 1.725, 790], [2, 2.05, 2580], [2.275, 2.65, 410], [2.7, 2.775, 1240], [2.825, 3.35, 290], [3.4, 3.7, 240], [3.975, 4.475, 580], [4.525, 5.2, 420], [5.325, 5.425, 640]]
+points = [
+  { km = 0.069, kind = "signal", label = "4I", signal = "minor", dir = -1 },
+  { km = 0.129, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.315, kind = "signal", label = "B", signal = "distant,main,traversable", dir = -1 },
+  { km = 0.622, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.692, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.044, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.045, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.056, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.057, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.446, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.551, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.867, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.201, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.265, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 2.27, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.022, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.129, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.35, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.41, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 4.44, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.47, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.492, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.57, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.666, kind = "signal", signal = "main", dir = 1 },
+  { km = 4.749, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 5.012, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.531, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.202, kmTo = 0.242, length = 40 },
+  { kind = "bridge", kmFrom = 1.449, kmTo = 1.501, length = 52 },
+  { kind = "bridge", kmFrom = 4.795, kmTo = 4.82, length = 25 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wuxgH{~poAh@kA", v = 40 },
+  { line = "mtxgHgaqoAzDkC`Er@dCdDhF~QhBdBjG|AdHpH", v = 50 },
+  { line = "chwgHc|ooAzAhAxCj@xT}BxN`C", v = 40 },
+  { line = "yzugHixooAdZ`KpB~C`BvGrJdR~A`BbCl@fF_AlCqBlA{BtB{HtCoDpDg@bTbApFUtF}BtGcI", v = 50 },
+  { line = "c}qgHomooAvAyB", v = 20 },
+  { line = "kzqgHiqooAbBuBtB}@rI`AzI{CfLgNjC_H", v = 50 },
+]
+posts = [[0, 48.62828, 13.19934], [1, 48.62131, 13.19413], [2, 48.61256, 13.19274], [3, 48.60552, 13.18528], [4, 48.59767, 13.1891], [5, 48.58951, 13.19296]]

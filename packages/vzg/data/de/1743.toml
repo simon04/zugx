@@ -1,0 +1,41 @@
+id = "1743"
+ref = "1743"
+name = "1743 Nienburg (Weser) - Rahden (Kr Lübbecke)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802875"
+from = "Nienburg (Weser)"
+to = "Rahden (Kr Lübbecke)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 2.16
+kmTo = 14.6
+length = 12.333
+speeds = [[2.16, 2.529, 50, 50], [2.529, 14.6, "", ""]]
+curves = [[2.263, 2.495, 540], [4.811, 5.867, 830], [6.536, 6.611, 2730], [6.686, 6.736, 2390], [7.663, 8.09, 1100], [9.612, 9.738, 1340], [11.539, 12.215, 490], [13.243, 13.919, 510]]
+points = [
+  { km = 5.167, kind = "signal", label = "K", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 5.511, kind = "signal", label = "L", signal = "main,minor,speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.049, kmTo = 3.086, length = 36 },
+  { kind = "bridge", kmFrom = 3.515, kmTo = 3.681, length = 161 },
+  { kind = "bridge", kmFrom = 3.762, kmTo = 3.798, length = 35 },
+  { kind = "bridge", kmFrom = 4.238, kmTo = 4.594, length = 346 },
+  { kind = "bridge", kmFrom = 4.846, kmTo = 4.9, length = 52 },
+  { kind = "bridge", kmFrom = 5.172, kmTo = 5.265, length = 90 },
+  { kind = "bridge", kmFrom = 5.445, kmTo = 5.467, length = 21 },
+  { kind = "bridge", kmFrom = 10.534, kmTo = 10.548, length = 14 },
+  { kind = "bridge", kmFrom = 12.534, kmTo = 12.56, length = 25 },
+  { kind = "bridge", kmFrom = 13.931, kmTo = 13.958, length = 27 },
+  { kind = "bridge", kmFrom = 14.264, kmTo = 14.334, length = 70 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oxl`Iomfw@gDvJgBtP", v = 50 },
+  { line = "_am`Iapew@_Y`pE@tN|@pL~BtMzD|KfHhK|j@tg@bo@ri@zIhFtf@`Ilz@xI`cB~h@pHxDbDrEnBzE~B|Nl@dlBf@xItAxH|DlJdEjEji@|X" },
+]
+posts = [[3, 52.66548, 9.20185], [4, 52.66725, 9.18775], [5, 52.66885, 9.1736], [6, 52.66396, 9.1626], [7, 52.65622, 9.15552], [8, 52.64816, 9.14917], [9, 52.63921, 9.14725], [10, 52.63036, 9.145], [11, 52.62165, 9.14132], [12, 52.61383, 9.1353], [13, 52.61334, 9.12062], [14, 52.60924, 9.10923]]

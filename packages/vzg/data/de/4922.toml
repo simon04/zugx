@@ -1,0 +1,41 @@
+id = "4922"
+ref = "4922"
+name = "4922 Königshofen (Baden) - Bad Mergentheim Strw 4922/4953"
+operator = "DB InfraGO AG;DB RegioNetz Infrastruktur GmbH;Westfrankenbahn"
+gauge = "1435"
+from = "Königshofen (Baden)"
+to = "Bad Mergentheim Streckenw 4922/4953"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.052
+kmTo = 6.121
+length = 6.065
+speeds = [[0.052, 0.202, 80, 80], [0.202, 6.121, 100, 100]]
+curves = [[0.202, 0.327, 1500], [1.377, 1.602, 900], [2.027, 2.353, 720], [2.453, 2.778, 830], [3.003, 3.202, 830], [3.725, 4.003, 1190], [4.329, 4.604, 1110], [4.654, 5.305, 790], [5.58, 5.705, 1590], [5.78, 6.006, 1800]]
+points = [
+  { km = 0.201, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.202, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.915, kind = "stop", label = "Edelfingen", pos = [49.51312, 9.74318] },
+  { km = 113.62, kind = "station", label = "Königshofen (Baden)", uic = "8029753", pos = [49.5463, 9.72441], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.303, kmTo = 0.324, length = 20 },
+  { kind = "bridge", kmFrom = 1.037, kmTo = 1.049, length = 12 },
+  { kind = "bridge", kmFrom = 4.879, kmTo = 4.899, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cykmHkmjz@fFsE", v = 80 },
+  { line = "{qkmH_tjz@jVkPng@qY~DeAz`@_EdDaBpN{M|EeBhSuC~g@cZb\\iGtSd@hKiBzJqH|OeTtFuJhImS", v = 100 },
+]
+posts = [[1, 49.53762, 9.73085], [2, 49.529, 9.73423], [3, 49.52061, 9.73852], [4, 49.51224, 9.74343], [5, 49.50336, 9.74472], [6, 49.4965, 9.75342]]
+
+[[connections]]
+km = 113.62
+station = "Königshofen"
+lines = [
+  { id = "4120", ref = "4120", name = "4120 Mosbach-Neckarelz - Würzburg-Heidingsfeld West", km = 113.681 },
+]

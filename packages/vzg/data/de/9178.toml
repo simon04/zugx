@@ -1,0 +1,32 @@
+id = "9178"
+ref = "9178"
+name = "9178 Wunstorf - Mesmerode"
+operator = "Osthannoversche Eisenbahn AG"
+gauge = "1435"
+wikidata = "Q1771139"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.971
+length = 5.971
+speeds = [[0, 5.87, 30, 30], [5.87, 5.971, 25, 25]]
+curves = [[0.15, 1.1, 720], [1.725, 1.925, 840], [2.325, 2.45, 1490], [2.9, 3.1, 870], [3.975, 4.35, 330], [4.4, 4.9, 390], [4.975, 5.625, 410]]
+points = [
+  { km = 5.522, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 5.72, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 5.892, kind = "signal", label = "W129A", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.276, kmTo = 5.302, length = 27 },
+  { kind = "bridge", kmFrom = 5.397, kmTo = 5.422, length = 25 },
+  { kind = "bridge", kmFrom = 5.541, kmTo = 5.557, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}m~~H{{dx@|OcDhDuAnBqBlBuFbBoM|@oUeHwhAoNyk@uTen@}U_zAD}Gj@yEbFcNjA{ISwJ{F_`@G_Hd@uGlAwFvCmG~OyN", v = 30 },
+  { line = "iu~~H{|rx@vC_D", v = 25 },
+]
+posts = [[0, 52.42607, 9.3691], [1, 52.4206, 9.37811], [2, 52.42286, 9.39227], [3, 52.42794, 9.40441], [4, 52.43147, 9.41797], [5, 52.43098, 9.43149]]

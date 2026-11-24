@@ -1,0 +1,31 @@
+id = "6823"
+ref = "6823"
+name = "6823 Beucha - Trebsen (Mulde)"
+operator = "DB Netz AG;Deutsche Regionaleisenbahn GmbH"
+gauge = "1435"
+wikidata = "Q801959"
+from = "Beucha"
+to = "Trebsen (Mulde)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.349
+kmTo = 16.787
+length = 16.399
+speeds = [[0.349, 0.892, 20, 20], [0.892, 16.787, "", ""]]
+curves = [[0.449, 0.941, 300], [2.103, 2.248, 2150], [2.627, 3.01, 410], [3.236, 3.611, 410], [7.189, 7.857, 1210], [8.477, 8.856, 760], [9.21, 9.412, 2010], [10.146, 10.272, 1230], [10.601, 11.105, 330], [11.725, 11.976, 1110], [12.753, 13.329, 460], [13.555, 13.731, 1060], [13.856, 13.982, 1120], [14.082, 14.433, 390], [14.509, 14.785, 470], [15.262, 15.912, 410], [15.962, 16.138, 510], [16.363, 16.538, 1260], [16.588, 16.663, 880]]
+points = [
+  { km = 0.419, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 8.332, kmTo = 8.344, length = 11 },
+  { kind = "bridge", kmFrom = 16.457, kmTo = 16.467, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cqfxHq}vkAxFoEhC}Gr@_KaAsK", v = 20 },
+  { line = "mefxHsexkAig@ivAqVyi@o@mFEmGnBi^lAiHfAyChC}CdsDiyCdHgIfFiJdFqN`Ryu@fCwRZks@cCqmAeDai@HiFn@wEhBaFvBmChc@s[~EaFzf@mt@lB{EzAuH^_HCuGwC}^}EwUwHwVa@eK|@ePAuGmN}z@AyGdAyNOeMvBeUg@e]yA_UCmJ" },
+]
+posts = [[1, 51.31942, 12.58231], [2, 51.32453, 12.59335], [3, 51.32921, 12.60494], [4, 51.32396, 12.61516], [5, 51.31604, 12.62195], [6, 51.30811, 12.62873], [7, 51.30019, 12.63551], [8, 51.29378, 12.64548], [9, 51.29083, 12.65861], [10, 51.29133, 12.67279], [11, 51.2912, 12.68631], [12, 51.28329, 12.6932], [13, 51.27672, 12.70284], [14, 51.27877, 12.71629], [15, 51.2809, 12.72962], [16, 51.28142, 12.74335]]

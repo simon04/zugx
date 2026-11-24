@@ -1,0 +1,59 @@
+id = "6864"
+ref = "6864"
+name = "6864 Michaelstein - Königshütte (Harz)"
+operator = "Fels Netz GmbH"
+gauge = "1435"
+from = "Michaelstein"
+to = "Königshütte (Harz)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 5.031
+kmTo = 21.065
+length = 16
+speeds = [[5.031, 13.4, "", ""], [13.4, 13.602, 50, 50], [13.602, 14.088, 20, 20], [14.088, 14.388, 50, 50], [14.388, 21.065, "", ""]]
+curves = [[5.156, 6.056, 390], [6.331, 6.606, 510], [6.681, 6.981, 560], [7.081, 7.581, 310], [7.731, 8.081, 420], [8.706, 9.03, 700], [9.08, 9.406, 380], [9.532, 9.633, 1210], [10.112, 10.944, 790], [10.995, 11.17, 1100], [11.67, 11.994, 2020], [12.044, 12.394, 680], [12.843, 13.317, 260], [13.367, 13.844, 230], [13.893, 16.156, 430], [16.206, 16.783, 680], [16.859, 16.909, 2700], [17.009, 17.536, 600], [17.686, 18.012, 470], [18.188, 18.764, 710], [18.964, 19.715, 410], [19.79, 20.09, 390], [20.665, 20.965, 960]]
+points = [
+  { km = 5.121, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.57, kind = "signal", signal = "resetting_switch", dir = 1 },
+  { km = 5.72, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 6.211, kind = "signal", signal = "main", dir = -1 },
+  { km = 9.136, kind = "signal", signal = "main", dir = 1 },
+  { km = 9.549, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.882, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 13.404, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 13.483, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.619, kind = "signal", label = "B", signal = "main,minor,traversable", dir = -1 },
+  { km = 13.633, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 13.993, kind = "signal", label = "C", signal = "combined,minor,traversable", dir = 1 },
+  { km = 14.088, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 14.154, kind = "signal", label = "F1", signal = "combined,minor,traversable", dir = -1 },
+  { km = 14.207, kind = "station", label = "Rübeland (Harz)", pos = [51.75437, 10.84443] },
+  { km = 19.591, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 21.053, kind = "signal", signal = "shunting", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 7.837, kmTo = 7.868, length = 32 },
+  { kind = "bridge", kmFrom = 11.497, kmTo = 11.518, length = 21 },
+  { kind = "tunnel", kmFrom = 12.06, kmTo = 12.366, length = 306, name = "Krumme-Grube-Tunnel" },
+  { kind = "bridge", kmFrom = 12.404, kmTo = 12.502, length = 98, name = "Kreuztalviadukt" },
+  { kind = "tunnel", kmFrom = 12.527, kmTo = 12.619, length = 92, name = "Nebelholztunnel" },
+  { kind = "bridge", kmFrom = 13.346, kmTo = 13.4, length = 54, name = "Brücke am Haus am Stein" },
+  { kind = "bridge", kmFrom = 14.749, kmTo = 14.765, length = 16 },
+  { kind = "bridge", kmFrom = 17.795, kmTo = 17.807, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wh|zHgxt`AwDkKaCwKiL{~@HiIxDkUSeKwC}HyFeEqDkFaIsWcDmQe@}QdDi]NmGm@eGoGgVa@wD?yEt@wOjH}a@dA_ML{IfAuGfBkDfFyF~EaOpG}Jz@{DtAcOfBcFbBoB|GsDjEsGxLcL~DwHbAmE" },
+  { line = "_h{zH_qdaA`@}EEcE_C}J", v = 50 },
+  { line = "ck{zH_jeaAuAaC}KsKgB_Ee@gE", v = 20 },
+  { line = "e_|zH}ffaAJiHtA_F", v = 50 },
+  { line = "c|{zHgwfaAjFkLh@iEAaF{A_IqKoR" },
+  { line = "}b|zHoohaAyBuD", tunnel = true },
+  { line = "wf|zHeuhaAqE}H" },
+  { line = "im|zHc_iaAyCmImBsL", tunnel = true },
+  { line = "qu|zHewiaAmAyLcFuUyMmg@wGkO}CsK}@kIUaPkBcO_Qan@uEgTeAqC_CuCkKgDmEcDma@}l@aBaEgAwF_Ci_@uCiIyF{DiRw@kQsNcDKuVjCwBzAgClE}DzMo@fGHrEhAnGxCzHtDdF" },
+]
+posts = [[21, 51.76002, 10.76188], [20, 51.76333, 10.77531], [19, 51.76563, 10.78694], [18, 51.76729, 10.80032], [17, 51.76812, 10.81388], [16, 51.76416, 10.8262], [15, 51.75852, 10.83641], [14, 51.75551, 10.84675], [13, 51.75637, 10.85815], [12, 51.76181, 10.86937], [11, 51.76619, 10.88199], [10, 51.76965, 10.89489], [9, 51.77513, 10.90544], [8, 51.7823, 10.91403], [7, 51.78727, 10.9239], [6, 51.79583, 10.92615]]

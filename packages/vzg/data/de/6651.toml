@@ -1,0 +1,40 @@
+id = "6651"
+ref = "6651"
+name = "Bahnstrecke 6651 Zwotental–Klingenthal"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q803560"
+from = "Bahnhof Zwotental"
+to = "Klingenthal Staatsgrenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.235
+kmTo = 8.8
+length = 8.519
+speeds = [[0.235, 8.8, "", ""]]
+curves = [[0.335, 0.681, 300], [0.782, 1.11, 340], [1.413, 1.69, 480], [1.816, 2.119, 300], [2.169, 2.547, 830], [2.598, 2.774, 480], [2.825, 3.001, 430], [3.077, 3.253, 840], [3.304, 3.557, 460], [3.608, 3.735, 1100], [3.786, 4.67, 500], [5.004, 5.161, 1070], [5.343, 5.604, 600], [5.806, 6.182, 600], [6.257, 6.457, 780], [6.632, 6.857, 870], [6.982, 7.207, 910], [7.656, 7.831, 1000], [7.983, 8.137, 1490], [8.266, 8.549, 360]]
+points = [
+  { km = 0.48, kind = "signal", signal = "shunting", dir = 1, measured = true },
+  { km = 0.697, kind = "signal", label = "8G", signal = "combined,traversable", dir = -1, measured = true },
+  { km = 1.397, kind = "signal", label = "8Vg", signal = "distant", dir = -1, measured = true },
+  { km = 3.46, kind = "halt", label = "Zwota-Zechenbach", uic = "8059027", pos = [50.35112, 12.40003] },
+  { km = 5.707, kind = "halt", label = "Zwota", uic = "8059026", pos = [50.35263, 12.42779] },
+  { km = 7.9, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 7.9, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 8.294, kind = "halt", label = "Klingenthal", uic = "8059005", pos = [50.35726, 12.46266] },
+  { km = 8.8, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.797, kmTo = 2.815, length = 17 },
+  { kind = "bridge", kmFrom = 6.034, kmTo = 6.053, length = 19 },
+  { kind = "bridge", kmFrom = 7.383, kmTo = 7.401, length = 19 },
+  { kind = "bridge", kmFrom = 8.582, kmTo = 8.636, length = 53 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "o|jrHmymjArHfEvEOjCmBtHkJzB_G^sFIui@dA{EhH{Px@{FA{DsAiMEoFn@eMdByN_@eSdCaV^oSlJia@jHcPhA{JSmLsAeJsQgg@mGeYg@iHEyZ[qG}AeJaG}QiEg[_@kGY_\\kHur@Mo[hAqX`ByEzJkK|AqC" },
+]
+posts = [[1, 50.35432, 12.36719], [2, 50.35218, 12.38008], [3, 50.35184, 12.39373], [4, 50.34845, 12.40645], [5, 50.35062, 12.41895], [6, 50.35285, 12.43187], [7, 50.35571, 12.44491], [8, 50.35738, 12.45864]]

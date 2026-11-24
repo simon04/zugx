@@ -1,0 +1,31 @@
+id = "2553"
+ref = "2553"
+name = "2553 Aachen West"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Aachen West"
+to = "Aachen West"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.516
+length = 0.516
+speeds = [[0, 0.516, "", ""]]
+curves = [[0.1, 0.4, 410]]
+points = [
+  { km = 0.031, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.164, kind = "signal", label = "R201", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 0.393, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.296, kmTo = 0.316, length = 20 },
+  { kind = "bridge", kmFrom = 0.497, kmTo = 0.516, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}p|tH{kad@xEaA~E`AlEnDjDjG" },
+]
+posts = [[0, 50.77791, 6.07438]]

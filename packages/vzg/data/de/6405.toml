@@ -1,0 +1,125 @@
+id = "6405"
+ref = "6405"
+name = "6405 Wegeleben – Thale Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q28369870"
+from = "Wegeleben"
+to = "Thale Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 66.236
+kmTo = 86.896
+length = 20.657
+speeds = [[66.236, 66.327, 80, 80], [66.327, 85.172, 100, 100], [85.172, 86.2, 70, 70], [86.2, 86.896, 40, 40]]
+curves = [[71.69, 72.412, 1110], [73.986, 74.935, 1880], [82.791, 83.542, 1090], [85.144, 85.395, 1260], [85.47, 86.221, 1830]]
+points = [
+  { km = 66.345, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 66.689, kind = "signal", label = "64B", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 67.429, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 68.989, kind = "signal", signal = "crossing_distant" },
+  { km = 69.496, kind = "signal", signal = "crossing_distant" },
+  { km = 69.528, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 69.738, kind = "signal", signal = "crossing_distant" },
+  { km = 69.739, kind = "signal", signal = "crossing_distant" },
+  { km = 69.86, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 69.903, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 70.485, kind = "stop", label = "Ditfurt", pos = [51.83281, 11.18703], uic = "8024157" },
+  { km = 70.533, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 70.577, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 70.792, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 70.833, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 71.189, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 71.269, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 71.308, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 71.411, kind = "signal", signal = "crossing_distant" },
+  { km = 71.701, kind = "signal", signal = "crossing_distant" },
+  { km = 71.702, kind = "signal", signal = "crossing_distant" },
+  { km = 71.702, kind = "signal", signal = "crossing_distant" },
+  { km = 72.177, kind = "signal", signal = "crossing_distant" },
+  { km = 72.177, kind = "signal", signal = "crossing_distant" },
+  { km = 72.695, kind = "signal", signal = "crossing_distant" },
+  { km = 73.703, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 73.771, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 74.026, kind = "signal", signal = "distant", dir = 1 },
+  { km = 74.737, kind = "signal", signal = "crossing_distant" },
+  { km = 74.973, kind = "signal", label = "P", signal = "combined,minor,traversable", dir = 1 },
+  { km = 75.573, kind = "signal", label = "O", signal = "main,minor,traversable", dir = -1 },
+  { km = 75.921, kind = "signal", label = "A", signal = "combined,minor,traversable", dir = 1 },
+  { km = 75.96, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 76.026, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 76.082, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 76.139, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 76.249, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 76.36, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 76.403, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 76.588, kind = "signal", label = "C", signal = "combined,minor,traversable", dir = -1 },
+  { km = 76.851, kind = "station", label = "Quedlinburg", pos = [51.78504, 11.15194], uic = "8024158" },
+  { km = 76.858, kind = "signal", label = "F", signal = "main,minor,traversable", dir = 1 },
+  { km = 77.112, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 77.124, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 77.169, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 77.341, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 77.387, kind = "signal", label = "L", signal = "combined,traversable", dir = -1 },
+  { km = 77.391, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 77.66, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 77.716, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 77.749, kind = "signal", label = "M", signal = "combined,traversable", dir = -1 },
+  { km = 78.22, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 78.251, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 78.45, kind = "signal", signal = "distant", dir = -1 },
+  { km = 79.723, kind = "signal", signal = "crossing_distant" },
+  { km = 81.55, kind = "signal", signal = "distant", dir = 1 },
+  { km = 82.083, kind = "signal", signal = "distant", dir = 1 },
+  { km = 82.249, kind = "signal", label = "A", signal = "main,traversable", dir = 1 },
+  { km = 82.776, kind = "stop", label = "Neinstedt", pos = [51.75243, 11.08524], uic = "8024159" },
+  { km = 82.848, kind = "signal", signal = "stop", dir = 1 },
+  { km = 82.912, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 82.943, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 83.373, kind = "signal", label = "B", signal = "main,traversable", dir = -1 },
+  { km = 84.072, kind = "signal", signal = "distant", dir = -1 },
+  { km = 84.415, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 84.471, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 84.473, kind = "signal", signal = "distant", dir = 1 },
+  { km = 85.099, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 85.17, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 85.172, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 85.332, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 85.468, kind = "stop", label = "Thale Musestieg", pos = [51.75145, 11.04691], uic = "8064604" },
+  { km = 85.575, kind = "signal", signal = "distant", dir = 1 },
+  { km = 85.697, kind = "signal", label = "D", signal = "main", dir = -1 },
+  { km = 86.175, kind = "signal", label = "F", signal = "main", dir = 1 },
+  { km = 86.201, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 86.254, kind = "signal", signal = "distant", dir = -1 },
+  { km = 86.303, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 86.446, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 86.581, kind = "signal", label = "I", signal = "main", dir = -1 },
+  { km = 86.745, kind = "signal", signal = "stop", dir = 1 },
+  { km = 86.753, kind = "station", label = "Thale Hauptbahnhof", uic = "8024161", pos = [51.74592, 11.0308] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 71.64, kmTo = 71.676, length = 35 },
+  { kind = "bridge", kmFrom = 72.051, kmTo = 72.063, length = 12 },
+  { kind = "bridge", kmFrom = 72.523, kmTo = 72.541, length = 18 },
+  { kind = "bridge", kmFrom = 73.725, kmTo = 73.769, length = 45 },
+  { kind = "bridge", kmFrom = 82.395, kmTo = 82.412, length = 17 },
+  { kind = "bridge", kmFrom = 84.99, kmTo = 85.003, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "inyzH_cibAmVoq@", v = 40 },
+  { line = "wezzHoujbAqFwSuDoUsBkYSuP", v = 70 },
+  { line = "gwzzHylmbAjFi{CgA}WiEqVyY{x@_wF_|NsKoT}LgOiMaKwtA{v@uLoDsLK{JxBu_HpgC", v = 100 },
+  { line = "wqq{HusdcA}ChA", v = 80 },
+]
+posts = [[86, 51.74985, 11.03968], [85, 51.75163, 11.05366], [84, 51.75089, 11.06812], [83, 51.75141, 11.0824], [82, 51.75666, 11.09415], [81, 51.76222, 11.10555], [80, 51.76777, 11.11696], [79, 51.77335, 11.12842], [78, 51.77892, 11.13978], [77, 51.78447, 11.15116], [76, 51.79001, 11.16258], [75, 51.79557, 11.17402], [74, 51.80264, 11.18275], [73, 51.81098, 11.1882], [72, 51.81952, 11.19256], [71, 51.82827, 11.18912], [70, 51.83691, 11.185], [69, 51.84554, 11.18092], [68, 51.85416, 11.17685], [67, 51.86279, 11.17278]]
+
+[[connections]]
+km = 76.851
+station = "Quedlinburg"
+lines = [
+  { id = "6862", ref = "6862", name = "Bahnstrecke Frose–Quedlinburg", km = 0.176 },
+]

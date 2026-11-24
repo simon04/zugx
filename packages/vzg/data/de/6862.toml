@@ -1,0 +1,77 @@
+id = "6862"
+ref = "6862"
+name = "Bahnstrecke Frose–Quedlinburg"
+operator = "Harzer Schmalspurbahnen GmbH - HSB"
+gauge = "1000"
+wikidata = "Q802303"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.02
+kmTo = 8.625
+length = 8.7
+speeds = [[-0.02, 0.399, "", ""], [0.399, 8.625, 50, 50]]
+curves = [[0.28, 0.355, 1830], [0.43, 0.505, 1770], [2.605, 3.33, 640], [3.93, 4.005, 2480], [5.177, 5.72, 610], [6.116, 6.882, 610], [7.129, 7.925, 910]]
+points = [
+  { km = 0.049, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.176, kind = "station", label = "Quedlinburg", pos = [51.78504, 11.15194], uic = "8024158" },
+  { km = 0.277, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.416, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 0.496, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.504, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.716, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 0.816, kind = "signal", signal = "crossing_distant" },
+  { km = 0.985, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.041, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 1.057, kind = "signal", signal = "crossing_distant" },
+  { km = 1.157, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.412, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.542, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.572, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.96, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.056, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 2.333, kind = "signal", signal = "crossing_distant" },
+  { km = 2.955, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.079, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.454, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.86, kind = "stop", label = "Quedlinburg-Quarmbeck", pos = [51.75271, 11.1266], uic = "8024442" },
+  { km = 4.871, kind = "signal", signal = "stop_demand", dir = 1 },
+  { km = 4.875, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.205, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.341, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.406, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.453, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.843, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.102, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.13, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.144, kind = "stop", label = "Bad Suderode", pos = [51.73374, 11.12581], uic = "8024441" },
+  { km = 7.161, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.181, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.481, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.585, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.72, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.853, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.304, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.502, kind = "signal", signal = "main", dir = 1 },
+  { km = 8.507, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.598, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.602, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.621, kind = "signal", signal = "resetting_switch_distant", dir = 1 },
+  { km = 8.625, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.625, kind = "station", label = "Gernrode (Harz)", pos = [51.72978, 11.1493] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mqvzHq}_cAw@xcAm@`LmAnJuCxLsD`JoR|WaDxCoEpBsDh@mJ{@wFkDyXgZaFiCmGs@uFt@aRlF}q@pTga@dJ{FV_FgA_EaCgImLmnAwaD", v = 50 },
+  { line = "aaa{H_y`cAkMg]" },
+]
+posts = [[8, 51.73053, 11.13695], [7, 51.73484, 11.12448], [6, 51.74307, 11.12405], [5, 51.75145, 11.12705], [4, 51.76016, 11.12337], [3, 51.76898, 11.12172], [2, 51.7751, 11.13213], [1, 51.78069, 11.14351], [0, 51.78619, 11.15501]]
+
+[[connections]]
+km = 0.176
+station = "Quedlinburg"
+lines = [
+  { id = "6405", ref = "6405", name = "6405 Wegeleben – Thale Hbf", km = 76.851 },
+]

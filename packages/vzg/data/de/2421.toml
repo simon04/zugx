@@ -1,0 +1,40 @@
+id = "2421"
+ref = "2421"
+name = "2421 Abzw Düsseldorf Fortuna - Abzw Düsseldorf Hardt"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q19838727"
+from = "Düsseldorf Fortuna"
+to = "Düsseldorf Hardt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 2.32
+kmTo = 3.614
+length = 1.324
+speeds = [[2.32, 2.409, 40, 40], [2.409, 3, 60, 60], [3, 3.614, 50, 50]]
+curves = [[2.437, 2.606, 1300], [3.051, 3.515, 260]]
+points = [
+  { km = 2.409, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.409, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.604, kind = "signal", label = "932", signal = "distant,main", dir = -1 },
+  { km = 2.616, kind = "signal", label = "v374", signal = "distant", dir = 1 },
+  { km = 3, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.194, kind = "signal", label = "Wv374", signal = "distant", dir = 1 },
+  { km = 3.319, kind = "signal", label = "v932", signal = "distant", dir = -1 },
+  { km = 3.332, kind = "signal", label = "374", signal = "main,wrong_road", dir = 1 },
+  { km = 3.397, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.494, kmTo = 2.525, length = 36 },
+  { kind = "bridge", kmFrom = 3.444, kmTo = 3.455, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wftwHyevh@dG{@vB|@~ArB~BtI@zM", v = 50 },
+  { line = "wsswHqhuh@iA|h@{@`N", v = 60 },
+  { line = "}wswHqosh@o@vF", v = 40 },
+]
+posts = [[3, 51.2238, 6.8316]]

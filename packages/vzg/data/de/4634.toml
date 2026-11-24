@@ -1,0 +1,77 @@
+id = "4634"
+ref = "4634"
+name = "4634 Balingen (Württ) - Rottweil"
+operator = "DB Netz AG;Hohenzollerische Landesbahn AG"
+gauge = "1435"
+wikidata = "Q801890"
+from = "Balingen (Württ)"
+to = "Rottweil"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.321
+kmTo = 13.04
+length = 13.706
+speeds = [[-0.321, 4.282, "", ""], [4.282, 4.288, "", 40], [4.288, 4.296, "", 20], [4.296, 13.04, "", ""]]
+curves = [[-0.221, -0.171, 1290], [0.129, 0.354, 1160], [1.392, 1.683, 1150], [1.755, 2.263, 450], [2.36, 2.529, 1390], [2.783, 3.223, 460], [3.534, 3.845, 700], [4.156, 4.311, 1660], [4.829, 5.14, 430], [5.191, 5.347, 610], [5.398, 5.657, 470], [5.813, 6.098, 520], [6.149, 6.253, 1670], [6.9, 7.522, 460], [7.574, 7.729, 790], [7.858, 8.247, 550], [8.299, 8.454, 790], [8.785, 8.963, 420], [9.003, 9.221, 390], [9.478, 9.716, 370], [9.755, 10.51, 400], [10.56, 11.51, 270], [11.56, 12.41, 1140]]
+points = [
+  { km = -0.24, kind = "signal", signal = "catenary_mast,minor", dir = 1 },
+  { km = -0.152, kind = "signal", label = "P4", signal = "catenary_mast,main,traversable", dir = -1 },
+  { km = -0.059, kind = "signal", label = "p4", signal = "catenary_mast,main_repeated", dir = -1 },
+  { km = 0.043, kind = "signal", label = "n4", signal = "catenary_mast,main_repeated", dir = 1 },
+  { km = 0.218, kind = "signal", signal = "catenary_mast,crossing_distant", dir = 1 },
+  { km = 0.283, kind = "signal", label = "N4", signal = "catenary_mast,main,traversable", dir = 1 },
+  { km = 0.367, kind = "signal", signal = "catenary_mast,crossing", dir = 1 },
+  { km = 1.055, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.08, kind = "signal", label = "G", signal = "distant,main,traversable", dir = -1 },
+  { km = 2.542, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.569, kind = "signal", signal = "stop", dir = -1 },
+  { km = 2.6, kind = "stop", label = "Balingen-Endingen", uic = "8029356", pos = [48.25745, 8.83694], measured = true },
+  { km = 2.627, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.281, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.282, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.296, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.318, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.344, kind = "stop", label = "Erzingen (Württ)", pos = [48.25532, 8.81534] },
+  { km = 4.374, kind = "signal", signal = "stop", dir = 1 },
+  { km = 8.57, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 8.575, kind = "signal", signal = "stop", dir = -1 },
+  { km = 8.6, kind = "stop", label = "Dotternhausen-Dormettingen", uic = "8029358", pos = [48.22829, 8.78112], measured = true },
+  { km = 8.625, kind = "signal", signal = "stop", dir = 1 },
+  { km = 10.5, kind = "stop", label = "Schömberg Stausee", uic = "8072211", pos = [48.21127, 8.77165], measured = true },
+  { km = 12.373, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.38, kind = "signal", signal = "speed_limit,stop", dir = -1 },
+  { km = 12.407, kind = "station", label = "Schömberg", pos = [48.2058, 8.75825], uic = "8029359" },
+  { km = 12.436, kind = "signal", signal = "stop", dir = 1 },
+  { km = 41.7, kind = "station", label = "Balingen", uic = "8029345", pos = [48.27828, 8.85021], measured = true },
+  { km = 42.8, kind = "halt", label = "Balingen Süd", uic = "8029355", pos = [48.2687, 8.84633], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 10.98, kmTo = 11.064, length = 84, name = "Schlichem-Viadukt" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "w|teHgr_u@b`@xC~|@b]fIbBlOp@jDvAdD`D~B|EnGtU`K`WvAjHNfMoDti@bEfn@" },
+  { line = "}{oeHq{xt@@L", v = 40 },
+  { line = "{{oeHc{xt@DR", v = 20 },
+  { line = "u{oeHozxt@`Ill@lBrGrJnKlI~M~PtHdCzBva@fy@nJlJlHdMpHtDrNnLlIbCzHtGtYzMvDf@vIqAhExAjWnWfBfFvAzMvAtFpDdG`ElC|Hb@lCw@hBaBfCgG~AwPpAaDrB}BzB{@jCAxEdCrCjGn@bIUnEsDdSoAjM]bNx@nItAxDpBlCd]bXjCpA" },
+]
+posts = [[0, 48.27837, 8.85004], [1, 48.26972, 8.84665], [2, 48.26073, 8.84354], [3, 48.25565, 8.83251], [4, 48.25605, 8.81968], [5, 48.25335, 8.80734], [6, 48.24612, 8.80056], [7, 48.24031, 8.79088], [8, 48.23304, 8.78407], [9, 48.22391, 8.77986], [10, 48.2159, 8.76951], [11, 48.20835, 8.77523], [12, 48.20814, 8.76333], [13, 48.20168, 8.75513]]
+
+[[connections]]
+km = 41.7
+station = "Balingen"
+lines = [
+  { id = "4630", ref = "4630", name = "4630 Tübingen Hbf - Sigmaringen", km = 41.701 },
+  { id = "9461", ref = "9461", name = "Schwäbische Albbahn", km = 41.701 },
+]
+
+[[connections]]
+km = 42.8
+station = "Balingen Süd"
+lines = [
+  { id = "4630", ref = "4630", name = "4630 Tübingen Hbf - Sigmaringen", km = 42.771 },
+  { id = "9461", ref = "9461", name = "Schwäbische Albbahn", km = 42.771 },
+]

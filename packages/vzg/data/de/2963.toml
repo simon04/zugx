@@ -1,0 +1,29 @@
+id = "2963"
+ref = "2963"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.4
+kmTo = 1.2
+length = 0.802
+speeds = [[0.4, 1.2, 30, 30]]
+curves = [[0.574, 0.649, 770]]
+points = [
+  { km = 0.45, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 0.815, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.874, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.885, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.058, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.088, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.114, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.179, kind = "signal", signal = "whistle", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "atezHwf~r@lRg`A", v = 30 },
+]
+posts = [[1, 51.64134, 8.52362]]

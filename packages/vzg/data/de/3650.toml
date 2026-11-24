@@ -1,0 +1,104 @@
+id = "3650"
+ref = "3650"
+name = "3650 Frankfurt am Main Stadion - Frankfurt (Main) Süd"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q121433988"
+from = "Frankfurt am Main Stadion"
+to = "Frankfurt (Main) Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 31.467
+kmTo = 37.007
+length = 5.566
+speeds = [[31.467, 32.109, 100, 100], [32.109, 32.945, 120, 120], [32.945, 33.505, 60, 120], [33.505, 34.132, 120, 120], [34.132, 34.527, 70, 70], [34.527, 36.187, 120, 120], [36.187, 37.007, 70, 70]]
+curves = [[34.28, 35.468, 1110], [36.208, 36.608, 390]]
+points = [
+  { km = 31.467, kind = "station", label = "Frankfurt am Main Stadion", uic = "8002040", pos = [50.06821, 8.63305] },
+  { km = 31.588, kind = "signal", label = "64L W562Y", signal = "minor", dir = -1 },
+  { km = 31.776, kind = "signal", signal = "minor", dir = 1 },
+  { km = 31.916, kind = "signal", signal = "distant", dir = 1 },
+  { km = 31.974, kind = "signal", label = "64L W571Y", signal = "minor", dir = -1 },
+  { km = 32.112, kind = "signal", label = "64 ZU572", signal = "combined,route_distant,speed_limit", dir = -1 },
+  { km = 32.117, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 32.651, kind = "signal", label = "64 H", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 32.959, kind = "signal", label = "732", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 33.128, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 33.162, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 33.21, kind = "signal", signal = "route,wrong_road", dir = 1 },
+  { km = 33.886, kind = "signal", label = "782", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 34.132, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 34.388, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 34.527, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 34.649, kind = "signal", signal = "distant", dir = 1 },
+  { km = 35.126, kind = "signal", label = "065", signal = "distant,main,speed_limit_distant,traversable", dir = -1 },
+  { km = 35.225, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 35.278, kind = "signal", signal = "distant", dir = -1 },
+  { km = 35.388, kind = "signal", signal = "distant", dir = 1 },
+  { km = 35.453, kind = "signal", signal = "distant", dir = -1 },
+  { km = 35.454, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 35.651, kind = "signal", label = "C 069", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 35.944, kind = "signal", signal = "distant", dir = -1 },
+  { km = 35.949, kind = "signal", signal = "minor", dir = 1 },
+  { km = 36.069, kind = "signal", signal = "distant", dir = 1 },
+  { km = 36.187, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 36.187, kind = "signal", signal = "minor", dir = -1 },
+  { km = 36.189, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 36.553, kind = "signal", signal = "minor", dir = 1 },
+  { km = 36.792, kind = "signal", label = "S 507", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 36.866, kind = "signal", signal = "departure" },
+  { km = 36.909, kind = "signal", signal = "stop", dir = -1 },
+  { km = 36.976, kind = "signal", signal = "main_repeated" },
+  { km = 37.007, kind = "station", label = "Frankfurt (Main) Süd", uic = "8011065", pos = [50.09936, 8.6863] },
+  { km = 37.007, kind = "station", label = "Südbahnhof", pos = [50.09922, 8.68671] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 32.14, kmTo = 32.169, length = 30 },
+  { kind = "bridge", kmFrom = 32.906, kmTo = 32.945, length = 41 },
+  { kind = "bridge", kmFrom = 33.477, kmTo = 33.503, length = 24 },
+  { kind = "bridge", kmFrom = 34.209, kmTo = 34.288, length = 80 },
+  { kind = "bridge", kmFrom = 34.37, kmTo = 34.384, length = 14 },
+  { kind = "bridge", kmFrom = 34.482, kmTo = 34.491, length = 10 },
+  { kind = "bridge", kmFrom = 36.203, kmTo = 36.226, length = 23 },
+  { kind = "bridge", kmFrom = 36.444, kmTo = 36.475, length = 31 },
+  { kind = "bridge", kmFrom = 36.755, kmTo = 36.785, length = 30 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "e~qpHmius@kNet@", v = 100 },
+  { line = "qmrpHs~vs@mn@k_D", v = 120 },
+  { line = "_}spH__|s@uDkQyCqJ", v = 70 },
+  { line = "ogtpH}||s@{DmIwF_IsEiEoK{F_LiB_h@y@", v = 120 },
+  { line = "g~vpHud~s@yFc@kF{DiBoDcMm^", v = 70 },
+]
+posts = [[32, 50.07042, 8.64102], [33, 50.0743, 8.65428], [34, 50.07795, 8.66662], [35, 50.08332, 8.67723], [36, 50.09223, 8.67923], [37, 50.09914, 8.68626]]
+
+[[connections]]
+km = 31.467
+station = "Frankfurt am Main Stadion"
+lines = [
+  { id = "3520", ref = "3520", name = "3520 Mainz Hbf - Frankfurt (Main) Hbf", km = 31.362 },
+  { id = "3683", ref = "3683", name = "3683 Abzw Frankfurt am Main Kleyerstraße - Kelsterbach", km = 6.136 },
+  { id = "4010", ref = "4010", name = "4010 Mannheim Hbf - Frankfurt am Main Stadion", km = 74.738 },
+]
+
+[[connections]]
+km = 37.007
+station = "Frankfurt Süd"
+lines = [
+  { id = "3600", ref = "3600", name = "3600 Frankfurt (M) Hbf - Göttingen", km = 4.425 },
+  { id = "3660", ref = "3660", name = "3660 Frankfurt (Main) Süd - Aschaffenburg Hbf", km = 0.001 },
+  { id = "3688", ref = "3688", name = "3688 Frankfurt Süd - Darmstadt Hbf", km = 54.991 },
+]
+
+[[connections]]
+km = 37.007
+station = "Südbahnhof"
+lines = [
+  { id = "3600", ref = "3600", name = "3600 Frankfurt (M) Hbf - Göttingen", km = 4.443 },
+  { id = "3660", ref = "3660", name = "3660 Frankfurt (Main) Süd - Aschaffenburg Hbf", km = 0.018 },
+  { id = "3688", ref = "3688", name = "3688 Frankfurt Süd - Darmstadt Hbf", km = 54.987 },
+]

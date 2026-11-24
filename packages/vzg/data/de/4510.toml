@@ -1,0 +1,55 @@
+id = "4510"
+ref = "4510"
+name = "4510 Laupheim West - Schwendi"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Laupheim West"
+to = "Schwendi"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.594
+kmTo = 2.429
+length = 3.012
+speeds = [[-0.594, 0.192, 50, 50], [0.192, 0.242, "", ""], [0.242, 0.388, 80, 50], [0.388, 1.667, 80, 80], [1.667, 1.966, "", ""], [1.966, 2.192, "", 50], [2.192, 2.429, 30, 40]]
+curves = [[-0.294, 0.268, 260], [1.932, 2.314, 300]]
+points = [
+  { km = -0.176, kind = "signal", signal = "main", dir = -1 },
+  { km = -0.175, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = -0.097, kind = "station", label = "Laupheim West", pos = [48.23041, 9.84825], uic = "8029115" },
+  { km = -0.029, kind = "signal", label = "58 N6", signal = "main,speed_limit", dir = 1 },
+  { km = -0.028, kind = "signal", label = "58 P6", signal = "main,speed_limit", dir = -1 },
+  { km = 0.242, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.386, kind = "signal", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 0.388, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.875, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = 2.192, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.192, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.302, kind = "signal", label = "60 P2", signal = "main,speed_limit", dir = -1 },
+  { km = 2.378, kind = "station", label = "Laupheim Stadt", pos = [48.2335, 9.87845], uic = "8029116" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.36, kmTo = 0.383, length = 22 },
+  { kind = "bridge", kmFrom = 1.667, kmTo = 1.68, length = 15 },
+  { kind = "bridge", kmFrom = 1.776, kmTo = 1.801, length = 28 },
+  { kind = "bridge", kmFrom = 1.845, kmTo = 1.866, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gzkeH}yb{@vOjE~Hz@xB{@dCqC`AyC\\aE", v = 50 },
+  { line = "otjeH_cc{@EsC" },
+  { line = "utjeHsgc{@yIupB", v = 80 },
+  { line = "o_keHiyf{@qAkZ" },
+  { line = "abkeHutg{@kAoI}C_F", v = 50 },
+  { line = "kikeHefh{@sJ{D", v = 40 },
+]
+posts = [[0, 48.2296, 9.84929], [1, 48.22956, 9.86072], [2, 48.23095, 9.87531]]
+
+[[connections]]
+km = -0.097
+station = "Laupheim West"
+lines = [
+  { id = "4500", ref = "4500", name = "4500 Ulm Hbf - Friedrichshafen Stadt", km = 116.298 },
+]

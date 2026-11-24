@@ -1,0 +1,40 @@
+id = "5964"
+ref = "5964"
+name = "5964 Nürnberg Rbf Minervabrücke - Nürnberg Rbf Einfahrt"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q120436090"
+from = "Nürnberg Rbf Minervabrücke"
+to = "Nürnberg Rbf Einfahrt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.506
+length = 3.506
+speeds = [[0, 2.014, 30, 30], [2.014, 3.506, 80, 80]]
+curves = [[0.1, 0.375, 370], [0.425, 0.475, 1490], [0.575, 1.075, 890], [2.025, 2.175, 1350], [2.375, 2.575, 1170], [2.675, 3, 1160]]
+points = [
+  { km = 0.213, kind = "signal", label = "433II", signal = "minor", dir = -1 },
+  { km = 0.38, kind = "signal", label = "433I", signal = "minor", dir = 1 },
+  { km = 0.645, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.652, kind = "signal", label = "423II", signal = "minor", dir = -1 },
+  { km = 0.811, kind = "signal", label = "B4", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 1.883, kind = "signal", label = "773", signal = "distant,main,traversable", dir = -1 },
+  { km = 1.894, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.014, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.89, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.989, kind = "signal", label = "V773", signal = "distant,speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.997, kmTo = 2.014, length = 17 },
+  { kind = "bridge", kmFrom = 3.033, kmTo = 3.105, length = 73 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ofqlHq}wbAcD~HoA~GRvb@qBpSsBrIo[ndA", v = 30 },
+  { line = "eqrlHcbsbAeOp^qFrToBbPwDhl@", v = 80 },
+]
+posts = [[0, 49.4092, 11.10505], [1, 49.41118, 11.09205], [2, 49.41597, 11.08034], [3, 49.42044, 11.06854]]

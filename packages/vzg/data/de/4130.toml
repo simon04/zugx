@@ -1,0 +1,180 @@
+id = "4130"
+ref = "4130"
+name = "4130 Bruchsal - Bretten Strw 4130/4800"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q877526"
+from = "Bruchsal"
+to = "Bretten Streckenwechsel 4130/4800"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -1.114
+kmTo = 16.025
+length = 17.121
+speeds = [[-1.114, -0.638, 80, 80], [-0.638, -0.412, "", ""], [-0.412, 0.685, 70, 70], [0.685, 0.716, 70, 60], [0.716, 1.219, 60, 60], [1.219, 4.57, 100, 100], [4.57, 4.626, 130, 100], [4.626, 9.983, 130, 130], [9.983, 13.112, 100, 100], [13.112, 13.892, 60, 100], [13.892, 14.264, 60, 80], [14.264, 15.792, 80, 80], [15.792, 15.803, 100, 100], [15.803, 15.876, 80, 100], [15.876, 16.023, 100, 100], [16.023, 16.025, 100, 90]]
+curves = [[-0.989, -0.864, 1180], [-0.714, -0.489, 1330], [-0.314, 1.628, 350], [1.905, 2.13, 1130], [2.702, 3.161, 930], [3.23, 3.788, 440], [3.903, 4.56, 590], [5.593, 6.536, 1170], [7.336, 8.592, 2490], [9.435, 10.366, 890], [10.439, 11.113, 580], [12.519, 12.996, 1170], [13.09, 14.167, 730], [15.01, 15.774, 440]]
+points = [
+  { km = -0.997, kind = "signal", label = "37 P1", signal = "combined,minor,route,speed_limit", dir = -1 },
+  { km = -0.991, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.923, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.874, kind = "station", label = "Bruchsal", pos = [49.12443, 8.58979], uic = "8014040" },
+  { km = -0.87, kind = "signal", signal = "main_repeated" },
+  { km = -0.856, kind = "signal", label = "37 201X", signal = "minor", dir = 1 },
+  { km = -0.842, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.835, kind = "signal", label = "37 301Y", signal = "minor,stop", dir = -1 },
+  { km = -0.822, kind = "signal", label = "VWn1", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = -0.807, kind = "stop", label = "Bruchsal", pos = [49.12439, 8.58994] },
+  { km = -0.798, kind = "signal", signal = "stop", dir = 1 },
+  { km = -0.793, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = -0.757, kind = "signal", signal = "stop", dir = 1 },
+  { km = -0.716, kind = "signal", signal = "stop", dir = 1 },
+  { km = -0.638, kind = "signal", label = "37 N1", signal = "combined,minor,route,speed_limit", dir = 1 },
+  { km = -0.234, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = -0.219, kind = "signal", signal = "minor", dir = 1 },
+  { km = -0.01, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.134, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.205, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.685, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.716, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.961, kind = "signal", label = "37 80", signal = "combined,route,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.01, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.079, kind = "signal", label = "37VW2 80", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.087, kind = "halt", label = "Bruchsal Tunnelstraße", pos = [49.11956, 8.59443] },
+  { km = 1.219, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.219, kind = "signal", label = "37VW2 80", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.219, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.676, kind = "signal", label = "15 v195", signal = "distant", dir = 1 },
+  { km = 2.146, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.208, kind = "signal", label = "15 180", signal = "combined,route_distant,speed_limit_distant", dir = -1 },
+  { km = 2.231, kind = "signal", signal = "stop", dir = -1 },
+  { km = 2.285, kind = "halt", label = "Bruchsal Schlachthof", pos = [49.11891, 8.60973] },
+  { km = 2.62, kind = "signal", label = "195", signal = "main", dir = 1 },
+  { km = 3.179, kind = "signal", label = "15 v180", signal = "distant", dir = -1 },
+  { km = 4.57, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.626, kind = "signal", label = "15 182", signal = "main", dir = -1 },
+  { km = 4.626, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.921, kind = "signal", label = "15 v197", signal = "distant", dir = 1 },
+  { km = 5.32, kind = "signal", label = "15 WV182", signal = "distant", dir = -1 },
+  { km = 5.322, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.392, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.421, kind = "halt", label = "Heidelsheim Nord", pos = [49.10522, 8.64507] },
+  { km = 5.541, kind = "signal", label = "15 WV2 197", signal = "distant", dir = 1 },
+  { km = 5.639, kind = "signal", label = "15 v182", signal = "distant", dir = -1 },
+  { km = 5.785, kind = "signal", label = "15 WV1 197", signal = "distant", dir = 1 },
+  { km = 5.907, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.928, kind = "stop", label = "Heidelsheim", uic = "8002688", pos = [49.10191, 8.6492] },
+  { km = 5.947, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.952, kind = "signal", label = "15 197", signal = "main", dir = 1 },
+  { km = 5.999, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 6.035, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 6.684, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 6.812, kind = "signal", label = "15 184", signal = "main", dir = -1 },
+  { km = 6.94, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 7.677, kind = "signal", label = "15 WV184", signal = "distant", dir = -1 },
+  { km = 7.682, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 7.704, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 7.716, kind = "signal", signal = "stop", dir = -1 },
+  { km = 7.736, kind = "halt", label = "Helmsheim", pos = [49.08568, 8.65141] },
+  { km = 7.872, kind = "signal", label = "15 v184", signal = "distant", dir = -1 },
+  { km = 8.667, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 8.955, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.111, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 9.297, kind = "signal", label = "15 186", signal = "main", dir = -1 },
+  { km = 9.641, kind = "signal", label = "15 v199", signal = "distant", dir = 1 },
+  { km = 9.983, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.983, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.052, kind = "signal", label = "15 Wv186", signal = "distant", dir = -1 },
+  { km = 10.148, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.178, kind = "stop", label = "Gondelsheim Schloßstadion", uic = "8070011", pos = [49.06558, 8.66283] },
+  { km = 10.283, kind = "signal", label = "15 WV2 199", signal = "distant", dir = 1 },
+  { km = 10.313, kind = "signal", label = "15 v186", signal = "distant", dir = -1 },
+  { km = 10.694, kind = "signal", label = "15 WV1 193", signal = "distant", dir = 1 },
+  { km = 10.769, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.812, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.83, kind = "stop", label = "Gondelsheim Bf", uic = "8002326", pos = [49.06034, 8.66011] },
+  { km = 10.874, kind = "signal", label = "15 199", signal = "main", dir = -1 },
+  { km = 10.896, kind = "halt", label = "Gondelsheim (Baden)", pos = [49.05968, 8.66022] },
+  { km = 10.909, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 10.952, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 11.473, kind = "signal", label = "15 188", signal = "main", dir = -1 },
+  { km = 11.822, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 12.136, kind = "signal", label = "bb", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.331, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 12.549, kind = "signal", label = "15 v188", signal = "distant", dir = -1 },
+  { km = 12.921, kind = "signal", label = "WVbb", signal = "distant", dir = 1 },
+  { km = 13.112, kind = "signal", label = "BB", signal = "main,speed_limit", dir = 1 },
+  { km = 13.32, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 13.364, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 13.378, kind = "signal", signal = "stop", dir = -1 },
+  { km = 13.404, kind = "stop", label = "Diedelsheim", uic = "8070012", pos = [49.03922, 8.67456] },
+  { km = 13.645, kind = "signal", label = "n", signal = "distant", dir = 1 },
+  { km = 13.892, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.052, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 14.169, kind = "signal", label = "4I", signal = "minor", dir = 1 },
+  { km = 14.424, kind = "signal", label = "P4", signal = "main,minor", dir = -1 },
+  { km = 14.923, kind = "station", label = "Bretten Bahnhof", uic = "8014094", pos = [49.03686, 8.6932] },
+  { km = 15.185, kind = "signal", label = "N4", signal = "main,minor", dir = 1 },
+  { km = 15.481, kind = "signal", label = "4II", signal = "minor", dir = -1 },
+  { km = 15.529, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 15.568, kind = "signal", label = "4III", signal = "minor", dir = 1 },
+  { km = 15.677, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.726, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.727, kind = "halt", label = "Bretten Rinklingen", pos = [49.03669, 8.67369], measured = true },
+  { km = 15.763, kind = "stop", label = "Bretten-Rechberg", uic = "8001138", pos = [49.03309, 8.70151], measured = true },
+  { km = 15.803, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.876, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.024, kind = "signal", label = "F", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 18.022, kind = "halt", label = "Bretten Stadtmitte", pos = [49.03388, 8.70298], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.064, kmTo = -0.035, length = 29 },
+  { kind = "tunnel", kmFrom = 0.254, kmTo = 0.656, length = 412, name = "Personenzug-Tunnel" },
+  { kind = "tunnel", kmFrom = 1.694, kmTo = 1.795, length = 120, name = "Friedhoftunnel" },
+  { kind = "bridge", kmFrom = 2.346, kmTo = 2.373, length = 28 },
+  { kind = "bridge", kmFrom = 12.014, kmTo = 12.025, length = 11 },
+  { kind = "bridge", kmFrom = 14.128, kmTo = 14.157, length = 25 },
+  { kind = "bridge", kmFrom = 15.221, kmTo = 15.246, length = 25 },
+  { kind = "bridge", kmFrom = 15.785, kmTo = 15.792, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ybzjHe~ls@jIjCvMlH", v = 80 },
+  { line = "uiyjHkpls@tInI" },
+  { line = "__yjH{els@tIzI|FhBjGyAvDoF", v = 70 },
+  { line = "g~wjH_bls@|@_F^kHm@aH}AqF", tunnel = true, v = 70 },
+  { line = "u_xjH_cms@uAmB", v = 70 },
+  { line = "kbxjHmfms@mNoGiBgCiBwF", v = 60 },
+  { line = "mxxjH}zms@mAcH_@qGBwGx@sL", v = 100 },
+  { line = "}yxjH_cos@n@aI", tunnel = true, v = 100 },
+  { line = "mxxjHamos@pBmSxPg{@fFsLlMeQ|BoHp@qFL_GqAm[JoKxBsNtF}L", v = 100 },
+  { line = "c~vjHc}us@bn@}`A|GqHfHuEdFoB`IqAhx@h@hOaAfL_ChNgFdL{Ght@}n@vHmCrJg@", v = 130 },
+  { line = "omnjH{_{s@bLdBpOvKdEtAnGLhG}AjpAafAzKiE|P{BbI{DnIwKxFwP", v = 100 },
+  { line = "elhjHke~s@l@_FHuGmDgkA?}NdB_KpDuHpEwDpG{A", v = 80 },
+  { line = "_xgjHqobt@jMkB", v = 100 },
+]
+posts = [[-1, 49.12602, 8.59082], [0, 49.11799, 8.58508], [1, 49.11896, 8.59373], [2, 49.11984, 8.60637], [3, 49.11597, 8.61844], [4, 49.1128, 8.63041], [5, 49.10803, 8.64116], [6, 49.10126, 8.64975], [7, 49.09213, 8.65116], [8, 49.08315, 8.65228], [9, 49.0755, 8.65796], [10, 49.06711, 8.66317], [11, 49.05885, 8.6606], [12, 49.05073, 8.66771], [13, 49.04279, 8.67322], [14, 49.03609, 8.68083], [15, 49.03695, 8.69424], [16, 49.03105, 8.70202]]
+
+[[connections]]
+km = -0.874
+station = "Bruchsal"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 51.573 },
+  { id = "4132", ref = "4132", name = "4132 Bruchsal - Rheinsheim Streckenwechsel 4132/3450", km = -0.043 },
+]
+
+[[connections]]
+km = 14.923
+station = "Bretten Bahnhof"
+lines = [
+  { id = "4201", ref = "4201", name = "Kraichgaubahn", km = 14.92 },
+]
+
+[[connections]]
+km = 18.022
+station = "Bretten Stadtmitte"
+lines = [
+  { id = "4201", ref = "4201", name = "Kraichgaubahn", km = 18.061 },
+]

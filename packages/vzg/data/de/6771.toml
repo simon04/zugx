@@ -1,0 +1,66 @@
+id = "6771"
+ref = "6771"
+name = "6771 Jatznick - Ueckermünde"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802478"
+from = "Jatznick"
+to = "Ueckermünde Stadthafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 143.123
+kmTo = 163.171
+length = 20.117
+speeds = [[143.123, 143.628, 60, 60], [143.628, 144.188, 50, 60], [144.188, 144.23, 50, 50], [144.23, 144.924, 80, 50], [144.924, 148.622, 80, 80], [148.622, 149.657, 40, 40], [149.657, 150.744, 60, 60], [150.744, 156.159, 80, 80], [156.159, 163.171, "", ""]]
+curves = [[143.237, 143.704, 520], [144.221, 144.77, 520], [147.03, 147.37, 1770], [151.431, 151.581, 1510], [152.933, 153.008, 2430], [153.108, 153.333, 1830], [153.458, 153.884, 1990], [155.665, 155.782, 1540], [155.828, 155.992, 1420], [157.296, 158.446, 1190], [161.671, 161.796, 2180], [162.296, 162.496, 690], [162.871, 163.071, 310]]
+points = [
+  { km = 143.19, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 143.439, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 143.628, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 143.811, kind = "signal", signal = "distant", dir = -1 },
+  { km = 143.827, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 144.188, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 144.23, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 144.702, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 144.924, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 145.408, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 147.792, kind = "signal", signal = "distant", dir = 1 },
+  { km = 148.154, kind = "signal", label = "A", signal = "combined,traversable", dir = 1 },
+  { km = 148.378, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 148.527, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 148.828, kind = "signal", label = "B1", signal = "main,traversable", dir = -1 },
+  { km = 149.395, kind = "station", label = "Torgelow", pos = [53.6346, 14.00869], uic = "8028442" },
+  { km = 149.511, kind = "signal", label = "C1", signal = "main,traversable", dir = 1 },
+  { km = 149.742, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 149.932, kind = "signal", label = "D", signal = "combined,traversable", dir = -1 },
+  { km = 150.043, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 150.339, kind = "signal", signal = "distant", dir = -1 },
+  { km = 150.353, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 150.624, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 151.266, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 152.693, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 155.641, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 156.292, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 156.4, kind = "stop", label = "Eggesin", uic = "8011456", pos = [53.68146, 14.07256], measured = true },
+  { km = 162.878, kind = "stop", label = "Ueckermünde", pos = [53.73404, 14.05399], uic = "8028447" },
+  { km = 163.151, kind = "stop", label = "Ueckermünde Stadthafen", pos = [53.73623, 14.05221], uic = "8087319" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 151.126, kmTo = 151.177, length = 51 },
+  { kind = "bridge", kmFrom = 156.159, kmTo = 156.174, length = 16 },
+  { kind = "bridge", kmFrom = 156.795, kmTo = 156.805, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "km~fIcrwtAjDJdDqApYib@ta@kR~fDibCtKmErH_AnGNvHtAbMxGnz@bcA" },
+  { line = "kksfIsf{tAxKdM~IrGjfBvx@hKzHpJvKfM`T|u@hfBbW`|@", v = 80 },
+  { line = "_wkfI_frtAr`@vtA", v = 60 },
+  { line = "kujfIgpotAvU`y@", v = 40 },
+  { line = "s~ifIevmtAtj@tnBnDbPzEn_@he@riEnCtLtBlE|DrE", v = 80 },
+  { line = "crffIooatA|@p@", v = 50 },
+  { line = "epffI}matAb[vXvEnBvCVdFm@tJkG", v = 60 },
+]
+posts = [[163, 53.73518, 14.05255], [162, 53.72754, 14.06012], [161, 53.71926, 14.06603], [160, 53.71111, 14.07245], [159, 53.70296, 14.07886], [158, 53.69454, 14.08379], [157, 53.68635, 14.07833], [156, 53.6788, 14.06953], [155, 53.66984, 14.0638], [154, 53.66131, 14.05904], [153, 53.65371, 14.05127], [152, 53.64769, 14.04002], [151, 53.64222, 14.02804], [150, 53.63727, 14.01539], [149, 53.63323, 14.00506], [148, 53.62859, 13.99323], [147, 53.62356, 13.97891], [146, 53.62053, 13.963], [145, 53.6175, 13.94709], [144, 53.61268, 13.93758]]

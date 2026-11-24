@@ -1,0 +1,76 @@
+id = "3824"
+ref = "3824"
+name = "Fulda - Gersfeld"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q802307"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.869
+kmTo = 23.407
+length = 22.5
+speeds = [[0.869, 1.178, 60, 60], [1.178, 3.187, 80, 80], [3.187, 3.592, 60, 60], [3.592, 5.999, 80, 80], [5.999, 9.04, 60, 60], [9.04, 9.564, 40, 40], [9.564, 22.756, 60, 60], [22.756, 23.267, 50, 50], [23.267, 23.407, 30, 30]]
+curves = [[0.969, 1.295, 470], [1.47, 1.596, 1820], [1.821, 2.097, 1040], [2.147, 2.272, 1630], [2.373, 2.473, 930], [2.523, 2.673, 590], [2.723, 2.799, 2310], [3.099, 3.35, 740], [3.4, 3.475, 1170], [3.701, 4.002, 510], [4.252, 4.377, 1070], [4.428, 4.578, 1100], [4.728, 4.803, 2170], [5.505, 5.706, 840], [5.881, 5.956, 2750], [6.432, 6.758, 380], [6.808, 7.034, 490], [7.159, 7.335, 1460], [7.936, 8.212, 480], [8.613, 8.763, 1000], [8.863, 9.039, 910], [9.54, 10.091, 200], [10.216, 10.467, 620], [10.843, 10.968, 1430], [11.946, 12.146, 710], [12.397, 13.224, 380], [13.274, 13.449, 620], [13.524, 13.675, 710], [13.9, 14.325, 460], [14.579, 14.894, 450], [14.946, 15.091, 530], [15.161, 15.323, 710], [15.392, 15.461, 1980], [15.535, 15.932, 810], [17.231, 17.401, 730], [17.449, 17.692, 600], [17.886, 18.061, 770], [18.114, 18.533, 620], [18.583, 18.683, 1970], [18.883, 19.608, 790], [19.658, 19.858, 600], [19.908, 20.033, 1110], [20.158, 20.258, 1440], [20.333, 20.608, 750], [20.658, 20.783, 890], [20.858, 21.308, 950], [21.558, 22.183, 680], [22.658, 22.933, 1020], [22.983, 23.283, 840]]
+points = [
+  { km = 0.948, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.178, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.187, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.49, kind = "stop", label = "Eichenzell", pos = [50.49438, 9.69433], uic = "8001704" },
+  { km = 3.592, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.999, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.104, kind = "stop", label = "Welkers", pos = [50.48086, 9.72288], uic = "8006313" },
+  { km = 7.608, kind = "stop", label = "Rönshausen", pos = [50.47847, 9.74335], uic = "8005131" },
+  { km = 8.641, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.04, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.283, kind = "station", label = "Lütter", uic = "8003790", pos = [50.48089, 9.76556] },
+  { km = 9.285, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.287, kind = "signal", label = "N101", signal = "main", dir = 1 },
+  { km = 9.564, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.073, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 12.276, kind = "stop", label = "Ried", pos = [50.4591, 9.7698], uic = "8005083" },
+  { km = 13.834, kind = "stop", label = "Schmalnau", pos = [50.45601, 9.78809], uic = "8005374" },
+  { km = 13.88, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.907, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.912, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.485, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 15.975, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 16.018, kind = "signal", signal = "stop", dir = -1 },
+  { km = 16.046, kind = "signal", signal = "stop", dir = -1 },
+  { km = 16.069, kind = "station", label = "Hettenhausen", uic = "8002814", pos = [50.4485, 9.81529] },
+  { km = 16.094, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 16.778, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 18.173, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 18.241, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 18.556, kind = "stop", label = "Altenfeld (Rhön)", pos = [50.45084, 9.84945], uic = "8000525" },
+  { km = 18.576, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 22.756, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.267, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.375, kind = "stop", label = "Gersfeld (Rhön)", pos = [50.44938, 9.91452], uic = "8002254" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.602, kmTo = 3.619, length = 17 },
+  { kind = "bridge", kmFrom = 3.951, kmTo = 3.965, length = 14 },
+  { kind = "bridge", kmFrom = 8.504, kmTo = 8.521, length = 17 },
+  { kind = "bridge", kmFrom = 9.445, kmTo = 9.46, length = 15 },
+  { kind = "bridge", kmFrom = 9.852, kmTo = 9.865, length = 12 },
+  { kind = "bridge", kmFrom = 10.009, kmTo = 10.037, length = 29 },
+  { kind = "bridge", kmFrom = 14.404, kmTo = 14.449, length = 46 },
+  { kind = "bridge", kmFrom = 16.394, kmTo = 16.415, length = 21 },
+  { kind = "bridge", kmFrom = 16.716, kmTo = 16.728, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "s~hsHmz`z@hG~BnGQ", v = 60 },
+  { line = "ymhsH_w`z@dPoLnQgRlSe^hEqJhYi^", v = 80 },
+  { line = "auesHyadz@~BqB|O_I", v = 60 },
+  { line = "c`esHkodz@`JgG`CqEpJ{\\dEkJlGuSlYix@xH_b@", v = 80 },
+  { line = "qrbsHmxiz@rJ}e@j@_FKqIaCePRcNx@aPlKoy@`@yG]oHsGuf@gFcT}@iH", v = 60 },
+  { line = "ylbsHguqz@mFsk@", v = 40 },
+  { line = "gtbsH{asz@MkGv@eFpBiD|CmAbDh@|K~HxCbA|]Dh}@vInXyF~FkIjBgH^sKuAwNTgQwA}ULu\\\\wGxCmLpPeVdCgGdCwRjFqS~CmYzC{R_H{iA_Dot@wDsWVq_@hCaWIaNwByPaF{X_AqLOkEV{Ja@kL{DuWc@uPsEqf@DmXaB{Z`@_HdMmb@dBgMReFUeTvFiu@", v = 60 },
+  { line = "yv|rH}ym{@pF{WfBwO", v = 50 },
+  { line = "_l|rHqco{@HiK", v = 30 },
+]
+posts = [[1, 50.51275, 9.67549], [2, 50.50489, 9.68153], [3, 50.49831, 9.69103], [4, 50.4908, 9.69817], [5, 50.48576, 9.7098], [6, 50.4812, 9.72184], [7, 50.47983, 9.73503], [8, 50.47738, 9.74855], [9, 50.48019, 9.76173], [10, 50.47928, 9.77305], [11, 50.4706, 9.77085], [12, 50.46168, 9.76928], [13, 50.45534, 9.77626], [14, 50.45592, 9.79018], [15, 50.45096, 9.80102], [16, 50.44836, 9.81434], [17, 50.44999, 9.82821], [18, 50.45108, 9.8424], [19, 50.45236, 9.85549], [20, 50.45388, 9.86923], [21, 50.45526, 9.88307], [22, 50.45241, 9.89594], [23, 50.45023, 9.9095]]

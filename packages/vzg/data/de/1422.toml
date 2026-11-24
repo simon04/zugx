@@ -1,0 +1,59 @@
+id = "1422"
+ref = "1422"
+name = "1422 Bremen Rbf - Bremen Inlandshafen DB-Grenze"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Bremen Rbf"
+to = "Bremen Inlandshafen DB-Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.962
+kmTo = 2.271
+length = 3.226
+speeds = [[-0.962, 0.087, 40, 40], [0.087, 0.175, "", ""], [0.175, 2.2, 40, 40], [2.2, 2.271, "", ""]]
+curves = [[-0.411, -0.286, 1450], [-0.211, 0.389, 1110], [0.77, 1.371, 1190], [1.671, 2.171, 640]]
+points = [
+  { km = -0.889, kind = "signal", label = "S1", signal = "main", dir = -1 },
+  { km = -0.887, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.214, kind = "signal", signal = "minor", dir = 1 },
+  { km = -0.211, kind = "signal", label = "O 1", signal = "main", dir = 1 },
+  { km = -0.065, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.029, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.043, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.057, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.061, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.085, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.237, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.318, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.34, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 0.548, kind = "signal", label = "Y", signal = "main", dir = -1 },
+  { km = 0.686, kind = "halt", label = "Bremen-Oslebshausen", uic = "8001162", pos = [53.13518, 8.74134] },
+  { km = 1.142, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.259, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.888, kind = "signal", label = "A", signal = "main,speed_limit", dir = 1 },
+  { km = 2.158, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.197, kind = "signal", label = "KL1", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.739, kmTo = -0.722, length = 17 },
+  { kind = "bridge", kmFrom = 0.825, kmTo = 0.842, length = 17 },
+  { kind = "bridge", kmFrom = 2.247, kmTo = 2.271, length = 25 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_hjcIalft@MsE" },
+  { line = "mhjcIurft@p@qOpCsMxCqHdPgZfFaOfDwRrFam@bB}K", v = 40 },
+  { line = "auhcIoukt@nAaF" },
+  { line = "qrhcIq|kt@tMi_@xUmj@", v = 40 },
+]
+posts = [[2, 53.14168, 8.72545], [1, 53.13602, 8.73693], [0, 53.13293, 8.75078]]
+
+[[connections]]
+km = 0.686
+station = "Bremen-Oslebshausen"
+lines = [
+  { id = "1740", ref = "1740", name = "Wunstorf, W 18 - DB-Grenze, (Bremerhaven-Seehafen)", km = 130.047 },
+]

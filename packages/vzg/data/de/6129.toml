@@ -1,0 +1,64 @@
+id = "6129"
+ref = "6129"
+name = "6129 Genshagener Heide Mitte - Ludwigsfelde"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131688843"
+from = "Genshagener Heide Mitte"
+to = "Ludwigsfelde"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.072
+kmTo = 7.232
+length = 7.241
+speeds = [[-0.072, 7.232, 100, 100]]
+curves = [[0.103, 2.18, 650], [2.468, 3.926, 650], [4.739, 4.839, 2100]]
+points = [
+  { km = 0.109, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.333, kind = "signal", label = "76N8", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.428, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.925, kind = "signal", label = "78 L8", signal = "main,traversable", dir = 1 },
+  { km = 1.431, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.58, kind = "signal", signal = "distant,route_distant", dir = 1 },
+  { km = 1.65, kind = "signal", label = "78I", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.738, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.483, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.55, kind = "signal", label = "23 53", signal = "combined,route,traversable", dir = 1 },
+  { km = 2.631, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.209, kind = "signal", label = "23 52", signal = "main,traversable", dir = -1 },
+  { km = 3.36, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.517, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.746, kind = "signal", label = "24C", signal = "main,traversable", dir = 1 },
+  { km = 3.947, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 4.165, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.398, kind = "signal", label = "24 P3", signal = "combined,route,speed_limit_distant,traversable", dir = -1 },
+  { km = 5.254, kind = "signal", label = "24 N3", signal = "main,minor,traversable", dir = 1 },
+  { km = 5.257, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.318, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 5.545, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 5.636, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 5.833, kind = "signal", label = "24F", signal = "combined,route_distant,traversable", dir = -1 },
+  { km = 6.214, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.333, kind = "station", label = "Birkengrund", pos = [52.3159, 13.27203], uic = "8003436" },
+  { km = 6.433, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.853, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.928, kind = "signal", label = "25 C", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 7.154, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 7.203, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.22, kind = "signal", signal = "minor,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kdl~Hc|~oAlBfSf@lOg@rMmBlLoD~JsGvIwGpDwHv@_Fm@gF{B}E{EsDsGcEmO_Hqh@QcIT_K|@mIbB}HnG_NdJsHbGsA|GVjv@tU|_Cra@", v = 100 },
+]
+posts = [[0, 52.33219, 13.26956], [1, 52.33453, 13.25669], [2, 52.34221, 13.25942], [3, 52.34384, 13.27374], [4, 52.33628, 13.27855], [5, 52.32743, 13.27503], [6, 52.31864, 13.27259], [7, 52.31005, 13.27033]]
+
+[[connections]]
+km = 6.333
+station = "Birkengrund"
+lines = [
+  { id = "6132", ref = "6132", name = "6132 Berlin - Halle (Saale) Hbf", km = 22.503 },
+]

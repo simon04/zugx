@@ -1,0 +1,36 @@
+id = "6584"
+ref = "6584"
+name = "Bahnstrecke Großpostwitz–Löbau"
+gauge = "1435"
+wikidata = "Q802364"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.041
+length = 1.041
+speeds = [[0, 1.041, "", ""]]
+curves = [[0.1, 0.525, 450], [0.675, 0.925, 530]]
+points = [
+  { km = 0, kind = "halt", label = "Haltepunkt Maschinenhaus", pos = [51.10057, 14.66391] },
+  { km = 0.938, kind = "halt", label = "Haltepunkt Alte Ziegelei", pos = [51.10327, 14.64982] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.226, kmTo = 0.25, length = 24 },
+  { kind = "bridge", kmFrom = 0.548, kmTo = 0.576, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sy{vHyunxAcEjGgAhEm@rFOnIxAb`@c@fImAvH" },
+]
+posts = [[0, 51.10186, 14.66221], [1, 51.10347, 14.64898]]
+
+[[connections]]
+km = 0
+station = "Haltepunkt Maschinenhaus"
+lines = [
+  { id = "6212", ref = "6212", name = "6212 Görlitz - Dresden-Neustadt", km = 24.876 },
+  { id = "6214", ref = "6214", name = "6214 Zittau Grenze - Löbau (Sachs)", km = 27.69 },
+]

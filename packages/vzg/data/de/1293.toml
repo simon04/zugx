@@ -1,0 +1,31 @@
+id = "1293"
+ref = "1293"
+name = "1293 Hamburg-Hausbruch - Hamburg-Hausbruch Mitte"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hamburg-Hausbruch"
+to = "Hamburg-Hausbruch Mitte"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.083
+length = 1.083
+speeds = [[0, 0.143, 140, 140], [0.143, 1.083, "", ""]]
+curves = [[0.1, 0.15, 2180], [0.875, 0.95, 1870]]
+points = [
+  { km = 0.142, kind = "signal", label = "3102x", signal = "minor", dir = 1 },
+  { km = 0.252, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 0.369, kind = "signal", label = "31 P3", signal = "main,minor", dir = -1 },
+  { km = 0.577, kind = "signal", label = "r 801", signal = "distant", dir = 1 },
+  { km = 0.758, kind = "signal", label = "31p3", signal = "distant", dir = -1 },
+  { km = 0.976, kind = "signal", label = "R801", signal = "main", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kujeIqgp{@ApL", v = 140 },
+  { line = "mujeI_zo{@oBnwA" },
+]
+posts = [[0, 53.47174, 9.91881], [1, 53.47224, 9.90373]]

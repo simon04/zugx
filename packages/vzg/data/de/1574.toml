@@ -1,0 +1,49 @@
+id = "1574"
+ref = "1574"
+name = "1574 Norden - Norddeich Mole"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q2219272"
+from = "Norden"
+to = "Norddeich Mole"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 30.943
+kmTo = 36.644
+length = 5.69
+speeds = [[30.943, 31.341, 60, 60], [31.341, 35.495, 80, 80], [35.495, 35.703, 40, 80], [35.703, 35.753, 40, 50], [35.753, 36.188, 40, 40], [36.188, 36.644, 10, 40]]
+curves = [[31.043, 31.343, 450], [31.92, 32.296, 1100], [34.126, 34.226, 1840], [34.727, 34.978, 1170], [36.126, 36.428, 610]]
+points = [
+  { km = 31.328, kind = "signal", label = "F", signal = "distant,main", dir = -1 },
+  { km = 31.341, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 32.368, kind = "signal", label = "f", signal = "distant", dir = -1 },
+  { km = 32.382, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 35.495, kind = "signal", label = "21A", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 35.703, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 35.867, kind = "signal", label = "21P2", signal = "main,minor", dir = -1 },
+  { km = 35.872, kind = "signal", signal = "stop", dir = -1 },
+  { km = 35.947, kind = "signal", signal = "stop", dir = -1 },
+  { km = 35.997, kind = "signal", signal = "stop", dir = -1 },
+  { km = 36.022, kind = "signal", signal = "stop", dir = -1 },
+  { km = 36.163, kind = "station", label = "Norddeich", pos = [53.62141, 7.16108], uic = "8004449" },
+  { km = 36.178, kind = "signal", signal = "stop", dir = 1 },
+  { km = 36.188, kind = "signal", label = "21 ZR2", signal = "combined,minor,speed_limit", dir = 1 },
+  { km = 36.309, kind = "signal", label = "21 ZU21", signal = "combined,crossing_info,minor,speed_limit", dir = -1 },
+  { km = 36.412, kind = "signal", signal = "main_repeated" },
+  { km = 36.512, kind = "stop", label = "Norddeich Mole", pos = [53.62427, 7.15857], uic = "8007768" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 31.442, kmTo = 31.477, length = 34 },
+  { kind = "bridge", kmFrom = 35.029, kmTo = 35.041, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "e}afI}s`k@yKQoG|E", v = 60 },
+  { line = "orbfIqm`k@a]da@aHvMs}@~uCwRfx@y^py@", v = 80 },
+  { line = "ykgfIyqvj@}@lB", v = 50 },
+  { line = "wmgfIknvj@uO`\\oDzFuBhAsMbC", v = 40 },
+]
+posts = [[31, 53.59127, 7.2175], [32, 53.59905, 7.21083], [33, 53.60452, 7.19891], [34, 53.60961, 7.18646], [35, 53.61438, 7.1737], [36, 53.62054, 7.16264]]

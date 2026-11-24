@@ -1,0 +1,59 @@
+id = "2530"
+ref = "2530"
+name = "Bahnstrecke Neuss-Kaarst"
+operator = "DB Netz AG;Regiobahn GmbH"
+gauge = "1435"
+from = "Neuss Hauptbahnhof"
+to = "Neersen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.013
+kmTo = 7.32
+length = 7.301
+speeds = [[-0.013, 0.31, "", ""], [0.31, 0.846, 60, 60], [0.846, 6.76, "", ""], [6.76, 6.959, 40, 80], [6.959, 7.1, 20, 80], [7.1, 7.32, 80, 20]]
+curves = [[0.092, 0.408, 1000], [0.48, 0.931, 340], [2.756, 3.225, 800], [4.614, 4.983, 1100], [6.158, 6.241, 2050], [6.317, 6.368, 1790], [7.116, 7.22, 1500]]
+points = [
+  { km = -0.013, kind = "halt", label = "Neuss Hbf", pos = [51.20349, 6.68471] },
+  { km = 0.269, kind = "signal", label = "38II", signal = "minor", dir = -1 },
+  { km = 0.31, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.494, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.513, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.844, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 4.4, kind = "station", label = "Kaarst IKEA", uic = "8000438", pos = [51.21704, 6.62972], measured = true },
+  { km = 5.3, kind = "stop", label = "Kaarst-Mitte/Holzbüttgen", uic = "8000432", pos = [51.21945, 6.61743], measured = true },
+  { km = 6.1, kind = "stop", label = "Kaarster Bahnhof", uic = "8003141", pos = [51.22258, 6.60719], measured = true },
+  { km = 6.76, kind = "signal", label = "1A", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 6.904, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 6.952, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.041, kind = "signal", label = "1P102", signal = "main", dir = -1 },
+  { km = 7.1, kind = "station", label = "Kaarster See", uic = "8000430", pos = [51.22669, 6.59401], measured = true },
+  { km = 7.162, kind = "signal", signal = "stop", dir = 1 },
+  { km = 7.215, kind = "signal", signal = "minor" },
+  { km = 7.257, kind = "signal", signal = "stop", dir = 1 },
+  { km = 7.283, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.412, kmTo = 0.476, length = 67 },
+  { kind = "bridge", kmFrom = 3.2, kmTo = 3.227, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kitwH}mfg@jAsIxI_b@", v = 80 },
+  { line = "e|swHq{gg@fRg{@|Zy{AjAcQtF}`CbAuIfCsItDwH|oAqqB" },
+  { line = "}eowHizug@~AyGT_ImD}X", v = 60 },
+  { line = "ugowHagwg@mB_IaEyK" },
+]
+posts = [[7, 51.22611, 6.59603], [6, 51.22207, 6.60877], [5, 51.21814, 6.62158], [4, 51.21667, 6.63572], [3, 51.21537, 6.64979], [2, 51.20891, 6.65953], [1, 51.20216, 6.66903], [0, 51.20283, 6.68128]]
+
+[[connections]]
+km = -0.013
+station = "Neuss Hbf"
+lines = [
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 0.261 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 80.959 },
+  { id = "2580", ref = "2580", name = "Bahnstrecke Düren–Neuss", km = 49.011 },
+  { id = "2610", ref = "2610", name = "2610 Köln - Kleve", km = 36.193 },
+]

@@ -1,0 +1,151 @@
+id = "6270"
+ref = "6270"
+name = "6270 Plauen (Vogtl) ob Bf - Bad Brambach Grenze"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q803006"
+from = "Plauen (Vogtl) ob Bf"
+to = "Bad Brambach Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 50
+length = 49.818
+speeds = [[0, 0.159, 60, 60], [0.159, 0.44, "", ""], [0.44, 0.855, 60, 60], [0.855, 1.155, 70, 70], [1.155, 1.173, "", ""], [1.173, 2.997, 70, 70], [2.997, 7.533, 80, 80], [7.533, 7.718, "", ""], [7.718, 13.58, 80, 80], [13.58, 18.841, "", ""], [18.841, 24.655, 80, 80], [24.655, 24.667, "", ""], [24.667, 26.398, 80, 80], [26.398, 26.902, 70, 70], [26.902, 33.137, 80, 80], [33.137, 33.277, 60, 60], [33.277, 33.697, "", ""], [33.697, 36.363, 70, 70], [36.363, 50, 60, 60]]
+curves = [[0.1, 0.426, 550], [0.476, 0.601, 1680], [0.651, 1.473, 370], [1.548, 1.772, 770], [1.947, 2.291, 480], [2.389, 3.052, 570], [3.177, 3.475, 640], [3.88, 4.202, 500], [4.252, 4.425, 970], [4.996, 5.222, 840], [5.348, 5.498, 1070], [5.95, 6.277, 900], [6.628, 7.005, 810], [7.432, 7.682, 830], [8.781, 9.132, 660], [9.511, 9.925, 470], [10.001, 10.279, 830], [10.836, 11.798, 420], [12.431, 12.633, 560], [12.988, 13.089, 1500], [13.669, 14.201, 720], [14.379, 14.683, 1270], [14.911, 15.19, 1620], [16.145, 16.589, 710], [16.694, 17.086, 700], [17.295, 17.583, 890], [17.688, 18.027, 860], [18.838, 18.89, 2330], [20.049, 20.247, 760], [20.296, 20.643, 370], [21.682, 21.88, 1060], [22.028, 22.498, 580], [22.746, 23.067, 500], [23.168, 23.473, 620], [23.65, 23.803, 1930], [23.853, 24.082, 1080], [24.133, 24.26, 1190], [24.31, 24.437, 1160], [24.488, 24.691, 560], [24.767, 24.869, 1300], [25.123, 25.3, 1520], [25.377, 25.707, 550], [26.033, 26.334, 540], [26.484, 26.91, 400], [26.961, 27.437, 460], [27.687, 27.836, 700], [28.357, 28.978, 350], [29.052, 29.524, 550], [29.625, 29.756, 1590], [30.017, 30.367, 350], [30.417, 30.717, 310], [30.817, 31.017, 1330], [31.092, 31.317, 910], [31.592, 31.892, 1260], [32.017, 32.117, 1970], [32.592, 32.817, 1110], [33.328, 33.581, 600], [33.719, 33.833, 1680], [34.096, 34.34, 530], [34.413, 34.807, 380], [34.856, 35.004, 750], [35.176, 35.398, 1140], [35.498, 35.75, 540], [35.922, 36.557, 610], [36.633, 36.735, 1340], [36.785, 37.063, 620], [37.112, 37.309, 650], [37.359, 37.704, 360], [37.901, 38.075, 880], [38.125, 38.377, 370], [38.427, 38.628, 410], [38.678, 39.03, 330], [39.105, 39.681, 610], [39.731, 40.006, 590], [40.306, 40.531, 750], [40.606, 40.982, 470], [41.107, 41.707, 240], [42.057, 42.783, 290], [42.833, 43.159, 300], [43.209, 43.534, 370], [43.659, 44.31, 230], [44.61, 45.486, 350], [45.536, 45.987, 290], [46.037, 46.487, 310], [46.688, 47.263, 260], [47.464, 48.461, 290], [48.511, 48.81, 410], [48.86, 49.359, 440], [49.509, 49.833, 470]]
+points = [
+  { km = 0.159, kind = "signal", label = "85 P2", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 0.26, kind = "station", label = "Plauen (Vogtl) ob Bf", uic = "8006712", pos = [50.50603, 12.12966] },
+  { km = 0.376, kind = "stop", label = "Plauen(Vogtl) ob Bf", pos = [50.50636, 12.12812] },
+  { km = 0.44, kind = "signal", label = "85N2", signal = "main,speed_limit", dir = 1 },
+  { km = 0.855, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.927, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 2.135, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.761, kind = "stop", label = "Plauen (Vogtl) West", pos = [50.49419, 12.11332], uic = "8098111" },
+  { km = 2.997, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.691, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.004, kind = "stop", label = "Plauen (Vogtl)-Straßberg", pos = [50.48011, 12.09215], uic = "8098112" },
+  { km = 7.517, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.69, kind = "halt", label = "Kürbitz", pos = [50.46264, 12.06974] },
+  { km = 8.399, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 8.949, kind = "signal", label = "E", signal = "main", dir = -1 },
+  { km = 9.375, kind = "station", label = "Weischlitz", pos = [50.44864, 12.06078], uic = "8059067" },
+  { km = 9.513, kind = "signal", label = "K", signal = "main", dir = 1 },
+  { km = 9.71, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 9.95, kind = "signal", label = "L", signal = "main", dir = -1 },
+  { km = 13.372, kind = "halt", label = "Pirk", pos = [50.42755, 12.07612] },
+  { km = 13.58, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.915, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 19.833, kind = "station", label = "Oelsnitz (Vogtl)", pos = [50.41335, 12.15907], uic = "8098119" },
+  { km = 19.969, kind = "signal", label = "K", signal = "main", dir = 1 },
+  { km = 20.327, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 22.09, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 25.698, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 26.398, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 26.6, kind = "halt", label = "Hundsgrün", pos = [50.3661, 12.21163] },
+  { km = 26.902, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 27.601, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 30.893, kind = "signal", label = "10Va", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 31.863, kind = "signal", label = "10A", signal = "main,speed_limit", dir = 1 },
+  { km = 32.269, kind = "signal", label = "10Vn4", signal = "distant", dir = 1 },
+  { km = 32.555, kind = "signal", label = "10P4", signal = "main,speed_limit", dir = -1 },
+  { km = 32.97, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 33.08, kind = "station", label = "Adorf (Vogtl)", pos = [50.32386, 12.26096], uic = "8006725" },
+  { km = 33.137, kind = "signal", label = "10N4", signal = "main,speed_limit", dir = 1 },
+  { km = 33.467, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 33.527, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 36.271, kind = "halt", label = "Bad Elster", uic = "8098108", pos = [50.29671, 12.25636] },
+  { km = 36.363, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 36.641, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 37.458, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 38.791, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 39.552, kind = "halt", label = "Sohl", pos = [50.27522, 12.28273] },
+  { km = 40.361, kind = "signal", signal = "distant", dir = 1 },
+  { km = 41.15, kind = "signal", signal = "main", dir = 1 },
+  { km = 41.548, kind = "halt", label = "Raun", pos = [50.25972, 12.29313] },
+  { km = 41.948, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 46.727, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 49.92, kind = "station", label = "Bad Brambach", uic = "8098107", pos = [50.21759, 12.31147] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.122, kmTo = 0.159, length = 37 },
+  { kind = "bridge", kmFrom = 1.173, kmTo = 1.188, length = 16 },
+  { kind = "bridge", kmFrom = 1.448, kmTo = 1.46, length = 13 },
+  { kind = "bridge", kmFrom = 1.851, kmTo = 2.058, length = 208, name = "Syratalbrücke" },
+  { kind = "bridge", kmFrom = 3.209, kmTo = 3.225, length = 16 },
+  { kind = "bridge", kmFrom = 3.76, kmTo = 3.772, length = 11 },
+  { kind = "bridge", kmFrom = 3.914, kmTo = 3.932, length = 18 },
+  { kind = "bridge", kmFrom = 5.067, kmTo = 5.091, length = 24 },
+  { kind = "bridge", kmFrom = 5.689, kmTo = 5.717, length = 29 },
+  { kind = "bridge", kmFrom = 6.096, kmTo = 6.224, length = 127 },
+  { kind = "bridge", kmFrom = 6.672, kmTo = 6.702, length = 29 },
+  { kind = "bridge", kmFrom = 9.907, kmTo = 9.928, length = 21 },
+  { kind = "bridge", kmFrom = 12.408, kmTo = 12.451, length = 43 },
+  { kind = "bridge", kmFrom = 13.824, kmTo = 13.871, length = 46 },
+  { kind = "bridge", kmFrom = 14.572, kmTo = 14.606, length = 34 },
+  { kind = "bridge", kmFrom = 19.216, kmTo = 19.227, length = 10 },
+  { kind = "bridge", kmFrom = 24.655, kmTo = 24.667, length = 12 },
+  { kind = "bridge", kmFrom = 25.822, kmTo = 25.84, length = 18 },
+  { kind = "bridge", kmFrom = 29.562, kmTo = 29.595, length = 34 },
+  { kind = "bridge", kmFrom = 30.251, kmTo = 30.279, length = 28 },
+  { kind = "bridge", kmFrom = 33.488, kmTo = 33.517, length = 26 },
+  { kind = "bridge", kmFrom = 33.697, kmTo = 33.712, length = 16 },
+  { kind = "bridge", kmFrom = 35.412, kmTo = 35.426, length = 14 },
+  { kind = "bridge", kmFrom = 35.781, kmTo = 35.796, length = 15 },
+  { kind = "bridge", kmFrom = 35.89, kmTo = 36, length = 113 },
+  { kind = "bridge", kmFrom = 37.749, kmTo = 37.76, length = 11 },
+  { kind = "bridge", kmFrom = 38.875, kmTo = 38.887, length = 12 },
+  { kind = "bridge", kmFrom = 39.722, kmTo = 39.753, length = 31 },
+  { kind = "bridge", kmFrom = 39.811, kmTo = 39.826, length = 15 },
+  { kind = "bridge", kmFrom = 41.718, kmTo = 41.73, length = 12 },
+  { kind = "bridge", kmFrom = 42.408, kmTo = 42.433, length = 25 },
+  { kind = "bridge", kmFrom = 47.083, kmTo = 47.098, length = 16 },
+  { kind = "bridge", kmFrom = 49.624, kmTo = 49.65, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ulgsHww`iAT|L", v = 60 },
+  { line = "_lgsHyi`iAy@zJyB~I" },
+  { line = "sqgsH}r_iA}GlRsAvJ", v = 60 },
+  { line = "e}gsHws~hABlMhBzI", v = 70 },
+  { line = "wygsHmz}hARf@" },
+  { line = "cygsHey}hAxBjD`ChBdPbCvTvNpFPhOaDvFt@fFvCjGzJ", v = 70 },
+  { line = "a{dsHyn|hApF`ObEhH`[|SxEfGxG|UdXlo@`Gt\\`O`i@bEfJnTjYhFtEhFlBn^~G", v = 80 },
+  { line = "sf_sHkpthAjH|E" },
+  { line = "g}~rHmithAvx@vr@tF|A|\\|@lFrAnDfEjGhQ~DpGt_@f`@~ElBhE?fEwAlEwElCaFfBsH~D{jAnLuc@dMcp@", v = 80 },
+  { line = "o~wrHgdvhApDkRx@iLUuJ{Dsa@Yik@tKeaBv@oFjBcGfP}WnCwJhEo_@Qy]n@gMlQicA" },
+  { line = "g}urH}gciAfWidBzAw[r@qDhC_Gnu@gz@bMuUxCoD`J}D~So@hFeBfO{T``@_SbRoTvEiHbDuC", v = 80 },
+  { line = "a{nrH_gmiATM" },
+  { line = "kznrHmgmiA`FcC~RwN`OkHlD_GvNga@bD}DrFcD", v = 80 },
+  { line = "imlrH_zoiAvGaEdCaDxBqGx@aI", v = 70 },
+  { line = "wzkrHwwpiAz@}KhAgF`CsEdDqC~TwJfe@}ChCmArCcDzBiGp@_FNwE]oVvBiP`ByDvFiItToWjBuHb@cRfAeGnAeCfKsLbKoQ|ScRpGsDvLeEx^uP~WiD", v = 80 },
+  { line = "eycrHcvyiA~E[", v = 60 },
+  { line = "ercrH_wyiAnIDbJtD" },
+  { line = "q|brHcqyiA`[pJdD`DlHnK~B`B~Ct@zKuAbST|SoEdRdEtCHvDcBlFqI", v = 70 },
+  { line = "{m~qH}~xiAbCaHpHo`@tJcRjEePbCaExDuB|O}C~N?dMuKjJuAvBgA|C{EpGwV`IeNnE{BdNcA`XuTxRcGhDwE|IgVlD{CfEG~D~CzAlE~I|e@~BdEbDpAbGi@|DuBrBaEvBgO`AcD~C_DrKyA`CoAxB_DrHwSvBaChCs@vCZzAbAhCdFn@tFfArb@h@bFhAfEpBnDvFxDfENpEeBzCuD~E{L~BqChB}@rECfKhFnCFjDeA`DgEvJeWlB_CrCiAnDLnDlC`L~YlCrDxFdB|EoAtB{BrBiFr@eGAeEiAcIuFkLyAwF{@_TqA}KCiEzA}HjNiUdBgIpA}Q", v = 60 },
+]
+posts = [[0, 50.50587, 12.13324], [1, 50.50853, 12.12032], [2, 50.50105, 12.11391], [3, 50.4928, 12.11131], [4, 50.48561, 12.10341], [5, 50.48009, 12.09219], [6, 50.47582, 12.07989], [7, 50.46863, 12.07196], [8, 50.46024, 12.06751], [9, 50.45234, 12.06085], [10, 50.44421, 12.05705], [11, 50.43702, 12.04906], [12, 50.43182, 12.05753], [13, 50.42925, 12.07058], [14, 50.42562, 12.08441], [15, 50.42681, 12.0981], [16, 50.42515, 12.11159], [17, 50.42054, 12.12248], [18, 50.4192, 12.13563], [19, 50.41587, 12.14808], [20, 50.41273, 12.16123], [21, 50.40803, 12.17235], [22, 50.40083, 12.18096], [23, 50.39251, 12.18526], [24, 50.38481, 12.19172], [25, 50.37738, 12.19908], [26, 50.37051, 12.2071], [27, 50.36459, 12.21651], [28, 50.35702, 12.22234], [29, 50.35067, 12.2289], [30, 50.34593, 12.2394], [31, 50.34098, 12.25018], [32, 50.33326, 12.25702], [33, 50.32464, 12.26079], [34, 50.31616, 12.259], [35, 50.30777, 12.25519], [36, 50.29884, 12.25509], [37, 50.29348, 12.26499], [38, 50.28632, 12.27229], [39, 50.2784, 12.27702], [40, 50.27136, 12.28404], [41, 50.26363, 12.29049], [42, 50.25796, 12.28742], [43, 50.25192, 12.28985], [44, 50.24452, 12.29598], [45, 50.24106, 12.28399], [46, 50.23332, 12.28772], [47, 50.22609, 12.29328], [48, 50.21908, 12.28798], [49, 50.22092, 12.30062], [50, 50.21731, 12.31253]]
+
+[[connections]]
+km = 0.26
+station = "Plauen ob Bf"
+lines = [
+  { id = "6362", ref = "6362", name = "6362 Leipzig - Hof", km = 115.973 },
+]
+
+[[connections]]
+km = 7.69
+station = "Kürbitz"
+lines = [
+  { id = "6269", ref = "6269", name = "6269 Elstertalbahn", km = 58.15 },
+]
+
+[[connections]]
+km = 9.375
+station = "Weischlitz"
+lines = [
+  { id = "6269", ref = "6269", name = "6269 Elstertalbahn", km = 59.902 },
+]

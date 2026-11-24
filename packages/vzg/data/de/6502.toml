@@ -1,0 +1,41 @@
+id = "6502"
+ref = "6502"
+name = "6502 Basdorf - Groß Schönebeck"
+operator = "Niederbarnimer Eisenbahn"
+gauge = "1435"
+wikidata = "Q108525975"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 23.964
+length = 23.964
+speeds = [[0, 7.178, "", ""], [7.178, 23.964, 80, 80]]
+curves = [[0.725, 1.025, 1050], [1.925, 2.175, 1210], [3.375, 3.925, 810], [4.625, 4.75, 1530], [4.8, 5.175, 540], [5.35, 5.425, 2040], [6.625, 6.975, 780], [7.225, 7.5, 870], [7.85, 7.975, 1650], [9.625, 9.75, 1410], [10.875, 11.55, 720], [11.875, 12.425, 830], [13.275, 13.675, 690], [14.7, 14.85, 1170], [15.425, 15.525, 1550], [17.25, 17.5, 1230], [18.2, 18.475, 710], [18.975, 19.225, 690], [20.275, 20.475, 1110], [22.2, 22.425, 870], [22.475, 22.775, 750], [23.4, 23.625, 720], [23.7, 23.85, 720]]
+points = [
+  { km = 0.089, kind = "stop", label = "Groß Schönebeck (Schorfheide)", pos = [52.90437, 13.53739] },
+  { km = 0.104, kind = "station", label = "Groß Schönebeck", uic = "8003607", pos = [52.90424, 13.53748] },
+  { km = 3.322, kind = "stop", label = "Klandorf", pos = [52.87799, 13.55594], uic = "8003606" },
+  { km = 3.36, kind = "stop", label = "Klandorf", pos = [52.87786, 13.55594] },
+  { km = 7.387, kind = "stop", label = "Ruhlsdorf-Zerpenschleuse", pos = [52.84361, 13.542], uic = "8003605" },
+  { km = 7.432, kind = "stop", label = "Ruhlsdorf-Zerpenschleuse", pos = [52.84328, 13.54164] },
+  { km = 11.86, kind = "stop", label = "Lottschesee", pos = [52.81563, 13.49857] },
+  { km = 11.892, kind = "stop", label = "Lottschesee", pos = [52.8155, 13.49855] },
+  { km = 14.752, kind = "station", label = "Klosterfelde", pos = [52.79121, 13.48817] },
+  { km = 14.81, kind = "stop", label = "Klosterfelde", pos = [52.79108, 13.48815] },
+  { km = 18.853, kind = "stop", label = "Wandlitzsee", pos = [52.75601, 13.47397], uic = "8003602" },
+  { km = 20.173, kind = "stop", label = "Wandlitz", pos = [52.74483, 13.46622], uic = "8003601" },
+  { km = 20.218, kind = "stop", label = "Wandlitz", pos = [52.74485, 13.46616] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 6.981, kmTo = 7.048, length = 67 },
+  { kind = "bridge", kmFrom = 7.13, kmTo = 7.178, length = 48 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a_|aIezrqAb^yl@xEgGzt@}h@dHcDjY_Hnn@oKbJ\\nIhDzf@va@jJzJjEtBj~A~CvGpBfNzK" },
+  { line = "qipaIyftqAjJnJtPl^bz@fjCbl@`pAbElHvC~CvElChHxAp[gBvLlB`HnEvk@xp@fInFtCd@tYGxe@cBxf@tFddBpc@t[pTbP`NlErB~c@|D`F|Ax|@`s@xpAzjB~OnLtCfDd_@`s@pMhKvHdB", v = 80 },
+]
+posts = [[0, 52.90497, 13.53651], [1, 52.89804, 13.54595], [2, 52.88986, 13.55214], [3, 52.88106, 13.55509], [4, 52.87235, 13.55413], [5, 52.86443, 13.54713], [6, 52.85545, 13.5467], [7, 52.84662, 13.54489], [8, 52.8399, 13.53531], [9, 52.83477, 13.52309], [10, 52.82932, 13.51128], [11, 52.82318, 13.50042], [12, 52.81454, 13.49855], [13, 52.80667, 13.49179], [14, 52.79836, 13.48765], [15, 52.78939, 13.48783], [16, 52.78053, 13.48538], [17, 52.77174, 13.48222], [18, 52.76338, 13.47695], [19, 52.75474, 13.47374], [20, 52.74659, 13.46761], [21, 52.7392, 13.45928], [22, 52.73217, 13.45001], [23, 52.72493, 13.44146]]

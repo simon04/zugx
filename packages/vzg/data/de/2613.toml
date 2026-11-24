@@ -1,0 +1,97 @@
+id = "2613"
+ref = "2613"
+name = "2613 Köln West - Köln-Ehrenfeld"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q19818814"
+from = "Köln West"
+to = "Köln-Ehrenfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.14
+kmTo = 6.56
+length = 6.578
+speeds = [[-0.14, -0.043, 40, 40], [-0.043, 0.302, 60, 60], [0.302, 0.324, "", ""], [0.324, 2.386, 60, 60], [2.386, 6.56, 100, 100]]
+curves = [[-0.04, 0.308, 750], [0.913, 1.103, 750], [1.258, 1.382, 1140], [1.432, 2.447, 320], [2.501, 2.693, 1050], [3.276, 3.489, 1890], [3.589, 3.842, 1830]]
+points = [
+  { km = 0.279, kind = "signal", label = "60N4", signal = "combined,traversable,wrong_road", dir = -1 },
+  { km = 0.491, kind = "station", label = "Köln West", uic = "8003363", pos = [50.94217, 6.93285] },
+  { km = 0.711, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.919, kind = "signal", label = "60P4", signal = "combined,route,speed_limit,speed_limit_distant,traversable,wrong_road", dir = 1 },
+  { km = 1.282, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.547, kind = "signal", label = "60BB", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 1.625, kind = "signal", label = "60VWbb", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.951, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.01, kind = "signal", label = "36A", signal = "combined,speed_limit", dir = 1 },
+  { km = 2.385, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.386, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.477, kind = "signal", label = "60Vbb", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.71, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.382, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.455, kind = "signal", label = "36ZR6", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 3.568, kind = "signal", label = "36P6", signal = "combined,speed_limit", dir = -1 },
+  { km = 3.771, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.814, kind = "station", label = "Köln-Ehrenfeld", uic = "8000208", pos = [50.9515, 6.91653] },
+  { km = 4.587, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.635, kind = "signal", label = "36ZT6", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 5.015, kind = "signal", signal = "minor", dir = 1 },
+  { km = 5.019, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 5.324, kind = "signal", label = "36ZU6", signal = "main", dir = -1 },
+  { km = 5.825, kind = "halt", label = "Köln-Müngersdorf/Technologiepark", uic = "8003375", pos = [50.94842, 6.88843] },
+  { km = 6.084, kind = "signal", label = "36M6", signal = "combined,minor,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 6.219, kind = "signal", signal = "minor", dir = 1 },
+  { km = 6.271, kind = "signal", signal = "minor", dir = 1 },
+  { km = 6.399, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 6.416, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.302, kmTo = 0.324, length = 21 },
+  { kind = "bridge", kmFrom = 0.605, kmTo = 0.624, length = 20 },
+  { kind = "bridge", kmFrom = 2.015, kmTo = 2.055, length = 55 },
+  { kind = "tunnel", kmFrom = 2.055, kmTo = 2.179, length = 171 },
+  { kind = "bridge", kmFrom = 2.641, kmTo = 2.704, length = 57 },
+  { kind = "bridge", kmFrom = 3.244, kmTo = 3.281, length = 40 },
+  { kind = "bridge", kmFrom = 3.642, kmTo = 3.68, length = 34 },
+  { kind = "bridge", kmFrom = 3.889, kmTo = 3.907, length = 26 },
+  { kind = "bridge", kmFrom = 4.469, kmTo = 4.493, length = 22 },
+  { kind = "bridge", kmFrom = 5.163, kmTo = 5.179, length = 22 },
+  { kind = "bridge", kmFrom = 5.827, kmTo = 5.859, length = 31 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gu{uHkvhi@kDW", v = 40 },
+  { line = "sz{uHcwhi@qFG_EkB", v = 60 },
+  { line = "eh|uHwzhi@_@Y" },
+  { line = "ei|uHq{hi@uc@gZyKqQ{EaLgDsDmEeAmEz@oDhDwBpF", v = 60 },
+  { line = "}|~uHooji@s@vEM|F", tunnel = true, v = 60 },
+  { line = "___vHy`ji@p@tK", v = 60 },
+  { line = "m}~uHctii@hChRrEpx@jAdb@`Frt@hH`aBrIj_B", v = 100 },
+]
+posts = [[0, 50.93857, 6.93121], [1, 50.9461, 6.93603], [2, 50.95352, 6.94112], [3, 50.95278, 6.9281], [4, 50.95113, 6.91278], [5, 50.94995, 6.90102], [6, 50.94837, 6.88597]]
+
+[[connections]]
+km = 0.491
+station = "Köln West"
+lines = [
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = 1.28 },
+]
+
+[[connections]]
+km = 3.814
+station = "Köln-Ehrenfeld"
+lines = [
+  { id = "2600", ref = "2600", name = "2600 Köln Hbf - Aachen Süd Grenze", km = 3.744 },
+  { id = "2622", ref = "2622", name = "2622 Köln Hbf - Düren", km = 3.746 },
+]
+
+[[connections]]
+km = 5.825
+station = "Köln-Müngersdorf/Technologiepark"
+lines = [
+  { id = "2600", ref = "2600", name = "2600 Köln Hbf - Aachen Süd Grenze", km = 5.82 },
+  { id = "2622", ref = "2622", name = "2622 Köln Hbf - Düren", km = 5.845 },
+  { id = "9604", ref = "9604", name = "9604 Köln-Niehl Hafen - Benzelrath", km = 10.501 },
+]

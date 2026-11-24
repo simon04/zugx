@@ -1,0 +1,22 @@
+id = "2027"
+ref = "2027"
+operator = "BE Netz GmbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.319
+length = 0.319
+speeds = [[0, 0.319, 70, 70]]
+curves = [[0.1, 0.2, 300]]
+points = [
+  { km = 0.069, kind = "signal", label = "20Z?", signal = "combined,speed_limit,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sth~Hyiwj@vBi@|CRzCbB`BvB", v = 70 },
+]
+posts = [[0, 52.3145, 7.16973]]

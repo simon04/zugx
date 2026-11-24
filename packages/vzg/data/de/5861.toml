@@ -1,0 +1,43 @@
+id = "5861"
+ref = "5861"
+name = "5861 Regensburg Ost - Regensburg Hafenbrücke"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q119950241"
+from = "Regensburg Ost"
+to = "Regensburg Hafenbrücke"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.768
+kmTo = 1.764
+length = 2.552
+speeds = [[-0.768, 0.581, 50, 50], [0.581, 1.764, 80, 80]]
+curves = [[0.409, 0.459, 1340], [0.509, 1.371, 810], [1.614, 1.664, 1310]]
+points = [
+  { km = -0.41, kind = "signal", label = "F3", signal = "main", dir = -1 },
+  { km = -0.408, kind = "signal", label = "3I", signal = "minor", dir = -1 },
+  { km = 0.32, kind = "signal", label = "3II", signal = "minor", dir = 1 },
+  { km = 0.322, kind = "signal", label = "H", signal = "main,wrong_road", dir = 1 },
+  { km = 0.581, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.754, kind = "signal", label = "V1c", signal = "distant", dir = 1 },
+  { km = 0.786, kind = "signal", label = "O", signal = "distant,main", dir = -1 },
+  { km = 0.789, kind = "signal", label = "fII", signal = "distant", dir = -1 },
+  { km = 1.461, kind = "signal", label = "1C", signal = "main", dir = 1 },
+  { km = 1.506, kind = "signal", label = "o", signal = "distant", dir = -1 },
+  { km = 1.569, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.604, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.645, kind = "signal", label = "V2aII", signal = "distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.2, kmTo = 1.231, length = 30, name = "Regensburg Ost -- Regensburg Hafenbrücke" },
+  { kind = "bridge", kmFrom = 1.344, kmTo = 1.4, length = 54, name = "Regensburg Ost -- Regensburg Hafenbrücke" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}pdjHy|`iAzVxNxJrDvFVdEa@jMoF", v = 80 },
+  { line = "}pbjHeo`iAv_Ayz@", v = 50 },
+]
+posts = [[1, 49.00985, 12.1305], [0, 49.00194, 12.13602]]

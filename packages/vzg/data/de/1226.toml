@@ -1,0 +1,74 @@
+id = "1226"
+ref = "1226"
+name = "1226 Hamburg-Blankenese - Wedel (Holst)"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hamburg-Blankenese"
+to = "Wedel (Holst)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 9.792
+kmTo = 18.959
+length = 9.014
+speeds = [[9.792, 10.079, "", ""], [10.079, 11.116, 80, 80], [11.116, 14.907, "", ""], [14.907, 14.922, 80, ""], [14.922, 15.223, 80, 80], [15.223, 18.801, "", ""], [18.801, 18.956, 30, 70], [18.956, 18.959, "", ""]]
+curves = [[9.892, 10.126, 210], [10.477, 10.619, 1270], [10.763, 11.279, 930], [11.512, 11.839, 1200], [12.014, 12.165, 1170], [12.465, 12.685, 1110], [13.999, 14.299, 1390], [14.652, 14.729, 2580], [15.084, 15.135, 2660], [15.429, 15.707, 700], [15.809, 16.114, 620], [16.491, 16.658, 920], [17.015, 17.229, 700], [17.277, 17.42, 640], [17.61, 17.777, 550], [17.824, 18.062, 490], [18.526, 18.845, 640]]
+points = [
+  { km = 9.792, kind = "station", label = "Blankenese", uic = "8001007", pos = [53.56446, 9.81527] },
+  { km = 9.813, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.079, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.338, kind = "stop", label = "Iserbrook", uic = "8003088", pos = [53.57656, 9.81439] },
+  { km = 11.44, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.74, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.132, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 12.299, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.482, kind = "signal", label = "C", signal = "departure,main", dir = -1 },
+  { km = 12.593, kind = "station", label = "Sülldorf", pos = [53.58113, 9.79742], uic = "8005785" },
+  { km = 12.618, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.632, kind = "signal", label = "E", signal = "departure,main", dir = 1 },
+  { km = 12.668, kind = "signal", signal = "minor", dir = 1 },
+  { km = 12.821, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.043, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 13.917, kind = "signal", signal = "distant", dir = 1 },
+  { km = 14.496, kind = "signal", label = "1", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 14.907, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.223, kind = "signal", label = "22", signal = "main,speed_limit", dir = -1 },
+  { km = 15.257, kind = "stop", label = "Rissen", pos = [53.58318, 9.75728], uic = "8005106" },
+  { km = 15.363, kind = "signal", label = "12", signal = "combined,wrong_road", dir = 1 },
+  { km = 17.24, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.452, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.709, kind = "signal", label = "81", signal = "combined", dir = -1 },
+  { km = 18.02, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.2, kind = "signal", label = "71", signal = "combined", dir = 1 },
+  { km = 18.318, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 18.795, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.801, kind = "signal", label = "101", signal = "combined,departure,minor,speed_limit", dir = -1 },
+  { km = 18.908, kind = "station", label = "Wedel", uic = "8006236", pos = [53.58215, 9.70541] },
+  { km = 18.954, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 9.882, kmTo = 9.906, length = 24 },
+  { kind = "bridge", kmFrom = 11.116, kmTo = 11.161, length = 43 },
+  { kind = "bridge", kmFrom = 11.539, kmTo = 11.594, length = 54 },
+  { kind = "bridge", kmFrom = 16.521, kmTo = 16.539, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "i~|eIqt|z@q@sD}AcDkBwAaCQ" },
+  { line = "gj}eIsb}z@uVdEwMxFgJpJ", v = 80 },
+  { line = "}{~eIai|z@uNf[iFrQ{EnY{Djc@c@bMd@xdCy@|SeG`x@" },
+  { line = "si`fIkyqz@gB`\\", v = 80 },
+  { line = "{l`fIi|pz@kAnWy@jHeGxUoAlIwAht@nDps@{@xXt@ba@mArO?fH`Hxp@nErN" },
+  { line = "al`fIaxfz@nEvH", v = 70 },
+  { line = "qe`fIinfz@BD" },
+]
+posts = [[10, 53.56659, 9.82065], [11, 53.57436, 9.81761], [12, 53.57968, 9.80608], [13, 53.58104, 9.79131], [14, 53.5809, 9.77626], [15, 53.58267, 9.76159], [16, 53.58541, 9.74746], [17, 53.5851, 9.73212], [18, 53.58532, 9.7164]]
+
+[[connections]]
+km = 9.792
+station = "Blankenese"
+lines = [
+  { id = "1224", ref = "1224", name = "1224 Hamburg-Altona - Hamburg-Blankenese", km = 9.432 },
+]

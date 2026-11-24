@@ -1,0 +1,40 @@
+id = "4821"
+ref = "4821"
+name = "4821 Kornwestheim Rbf - Korntal"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Kornwestheim Rbf"
+to = "Korntal"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.008
+kmTo = 3.52
+length = 3.501
+speeds = [[-0.008, 0.203, 60, 60], [0.203, 0.443, 90, 60], [0.443, 3.113, 90, 90], [3.113, 3.52, 60, 60]]
+curves = [[0.118, 0.601, 550], [0.769, 1.113, 780], [1.404, 1.712, 1330], [2.808, 3.031, 1100], [3.319, 3.419, 1790]]
+points = [
+  { km = 0.076, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 0.203, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.443, kind = "signal", label = "3B", signal = "distant,main,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.783, kind = "halt", label = "Wimpfener Straße", pos = [48.83828, 9.16095] },
+  { km = 1.475, kind = "signal", label = "3b", signal = "distant", dir = -1 },
+  { km = 2.11, kind = "signal", label = "c", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.113, kind = "signal", label = "C", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 3.301, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 3.445, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.745, kmTo = 1.776, length = 34 },
+  { kind = "bridge", kmFrom = 2.143, kmTo = 2.184, length = 37 },
+  { kind = "bridge", kmFrom = 3.02, kmTo = 3.03, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mdbiHsd~v@~DvI", v = 60 },
+  { line = "m~aiH{y}v@zApHl@zJ_Ab_@FjJxFle@hDfOpe@|sA`ElR", v = 90 },
+  { line = "cb`iH{yvv@pHb_@", v = 60 },
+]
+posts = [[0, 48.8405, 9.17074], [1, 48.83918, 9.15871], [2, 48.83527, 9.14585], [3, 48.83037, 9.13478]]

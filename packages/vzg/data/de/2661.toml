@@ -1,0 +1,28 @@
+id = "2661"
+ref = "2661"
+name = "2661 Köln-Mülheim - Abzw Höhenhaus"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Köln-Mülheim"
+to = "Höhenhaus"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.83
+length = 0.83
+speeds = [[0, 0.482, 50, 50], [0.482, 0.83, 60, 60]]
+curves = [[0.1, 0.425, 270], [0.475, 0.725, 390]]
+points = [
+  { km = 0.009, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.482, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.557, kind = "signal", signal = "main", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wsbvHsrzi@vBxGlDfDtE^xEoB", v = 50 },
+  { line = "a}avHagzi@hGeAlIlD", v = 60 },
+]
+posts = [[0, 50.97292, 7.02266]]

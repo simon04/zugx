@@ -1,0 +1,46 @@
+id = "6257"
+ref = "6257"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.224
+length = 3.228
+speeds = [[0, 2.734, 100, 100], [2.734, 3.224, 80, 80]]
+curves = [[0.103, 0.353, 510], [0.403, 0.83, 540], [0.93, 1.338, 590], [1.511, 2.336, 600], [2.745, 3.124, 850]]
+points = [
+  { km = 0.007, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.367, kind = "halt", label = "Technikmuseum Seilablaufanlage", pos = [50.86193, 12.95574] },
+  { km = 0.491, kind = "stop", label = "Chemnitz-Hilbersdorf", pos = [50.86196, 12.95382], uic = "8006376" },
+  { km = 1.504, kind = "signal", label = "6275", signal = "combined", dir = 1 },
+  { km = 2.734, kind = "signal", label = "62A", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.614, kmTo = 0.639, length = 24 },
+  { kind = "bridge", kmFrom = 1.096, kmTo = 1.107, length = 12 },
+  { kind = "bridge", kmFrom = 2.773, kmTo = 2.788, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ocjuHah}mA}LoD}KT", v = 80 },
+  { line = "k~juH{l}mAsWjEmHMsE{AyDwCuCsDmC{FcG}XyAiM?oKvBoVNyJq@uJkEaVYmGH{H", v = 100 },
+]
+posts = [[3, 50.84939, 12.93539], [2, 50.85806, 12.93474], [1, 50.86234, 12.94667], [0, 50.86306, 12.96035]]
+
+[[connections]]
+km = 0.367
+station = "Technikmuseum Seilablaufanlage"
+lines = [
+  { id = "6258", ref = "6258", name = "6258 Dresden - Abzweig Werdau Bogendreieck", km = 75.987 },
+]
+
+[[connections]]
+km = 0.491
+station = "Chemnitz-Hilbersdorf"
+lines = [
+  { id = "6258", ref = "6258", name = "6258 Dresden - Abzweig Werdau Bogendreieck", km = 76.104 },
+]

@@ -1,0 +1,34 @@
+id = "4840"
+ref = "4840"
+name = "4840 Mühlacker Em Süd - Mühlacker Em Nord"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q130235107"
+from = "Mühlacker Em Süd"
+to = "Mühlacker Em Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 37.765
+kmTo = 39.085
+length = 1.31
+speeds = [[37.765, 38.038, 50, 50], [38.038, 39.085, "", ""]]
+curves = [[37.984, 38.66, 390], [38.71, 38.76, 2240]]
+points = [
+  { km = 38.121, kind = "signal", label = "N80", signal = "main,minor", dir = -1 },
+  { km = 38.441, kind = "signal", label = "N80", signal = "main", dir = 1 },
+  { km = 38.86, kind = "signal", signal = "minor", dir = 1 },
+  { km = 38.98, kind = "signal", signal = "minor", dir = -1 },
+  { km = 38.99, kind = "signal", signal = "wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 38.038, kmTo = 38.054, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eayiHkw{t@``@sb@tCUbC~@zAnB~AzE" },
+  { line = "mqwiHio|t@dEjS", v = 50 },
+]
+posts = [[39, 48.95718, 8.83148], [38, 48.94999, 8.83415]]

@@ -1,0 +1,27 @@
+id = "1721"
+ref = "1721"
+name = "Bahnstrecke Celle - Wahnebergen"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q108324441"
+from = "Celle"
+to = "Wahnebergen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 39.363
+kmTo = 40.537
+length = 1.168
+speeds = [[39.363, 40.113, 80, 80], [40.113, 40.438, 60, 80], [40.438, 40.537, 80, 80]]
+curves = []
+points = [
+  { km = 40.113, kind = "station", label = "Schwarmstedt", pos = [52.67846, 9.62427] },
+  { km = 40.224, kind = "signal", signal = "main", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mnn`Iwavy@s}@s_@", v = 80 },
+]
+posts = [[40, 52.67738, 9.62375]]

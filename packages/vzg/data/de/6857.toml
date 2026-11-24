@@ -1,0 +1,55 @@
+id = "6857"
+ref = "6857"
+name = "Dessau–Gohrau-Rehsen"
+operator = "Dessauer Verkehrs- und Eisenbahngesellschaft"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.3
+kmTo = 2.5
+length = 1.958
+speeds = [[0.3, 0.322, 50, 50], [0.322, 0.733, 50, 40], [0.733, 0.802, 30, 40], [0.802, 0.938, 10, 40], [0.938, 1.027, 10, 10], [1.027, 1.106, 30, 10], [1.106, 1.597, 30, 30], [1.597, 1.648, 10, 30], [1.648, 1.721, 10, 10], [1.721, 1.801, 50, 10], [1.801, 2.5, 50, 50]]
+curves = [[0.661, 0.739, 880], [0.791, 0.842, 1820], [0.894, 1.333, 330], [1.539, 2.124, 470], [2.257, 2.357, 1120]]
+points = [
+  { km = 0.322, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.331, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.544, kind = "signal", label = "26B", signal = "combined,speed_limit", dir = 1 },
+  { km = 0.65, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.733, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.799, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.802, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.803, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 0.829, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 0.938, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.958, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.034, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.106, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.238, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.277, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.466, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.492, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.597, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 1.618, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.642, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.655, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.705, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.71, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.733, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.791, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.801, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 1.837, kind = "signal", signal = "main", dir = 1 },
+  { km = 2.307, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qvl{H_duiAwUaI", v = 50 },
+  { line = "imm{HanuiAmIkE", v = 40 },
+  { line = "wwm{HmtuiA_CiC", v = 10 },
+  { line = "w{m{HwxuiAuBaFeAqG_@_c@", v = 30 },
+  { line = "sbn{HklwiA`@wD", v = 10 },
+  { line = "qan{HcrwiAnC_IdSoW", v = 50 },
+]
+posts = [[1, 51.84954, 12.24068], [2, 51.84942, 12.25237]]

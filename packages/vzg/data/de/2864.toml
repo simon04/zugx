@@ -1,0 +1,113 @@
+id = "2864"
+ref = "2864"
+name = "2864 Finnentrop - Olpe"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802272"
+from = "Finnentrop"
+to = "Olpe"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.114
+kmTo = 23.493
+length = 23.83
+speeds = [[-0.114, 2.298, "", ""], [2.298, 6.149, 70, 70], [6.149, 6.328, 60, 60], [6.328, 8.045, 70, 70], [8.045, 8.474, "", ""], [8.474, 11.231, 60, 60], [11.231, 18.528, 80, 80], [18.528, 18.594, 90, 90], [18.594, 20.848, 80, 80], [20.848, 22.445, 70, 70], [22.445, 23.335, 50, 50], [23.335, 23.493, 30, 30]]
+curves = [[0.017, 0.267, 760], [0.342, 0.767, 440], [0.842, 1.567, 660], [1.717, 2.317, 530], [3.392, 3.642, 700], [3.817, 4.467, 400], [4.592, 5.117, 350], [5.392, 6.167, 380], [6.292, 7.017, 330], [7.142, 7.892, 450], [8.317, 8.917, 490], [9.267, 9.842, 410], [10.042, 10.665, 350], [10.815, 11.239, 360], [11.339, 11.514, 920], [11.988, 12.612, 430], [12.836, 14.138, 500], [15.487, 15.91, 540], [16.171, 16.226, 2300], [16.672, 16.867, 2190], [17.454, 17.747, 770], [18.56, 18.861, 710], [19.046, 19.463, 470], [19.717, 20.226, 500], [20.273, 20.782, 370], [20.828, 21.291, 340], [21.36, 22.138, 370], [22.346, 22.76, 420]]
+points = [
+  { km = -0.051, kind = "signal", label = "20S3", signal = "main,speed_limit", dir = -1 },
+  { km = -0.004, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.022, kind = "station", label = "Finnentrop", uic = "8000102", pos = [51.17319, 7.96458] },
+  { km = 0.142, kind = "signal", label = "20N3", signal = "main,speed_limit", dir = 1 },
+  { km = 0.334, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.401, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.719, kind = "signal", label = "20G", signal = "combined", dir = -1 },
+  { km = 2.4, kind = "stop", label = "Heggen", pos = [51.15369, 7.96339], uic = "8002682" },
+  { km = 6.149, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.328, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.045, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.444, kind = "station", label = "Attendorn", pos = [51.12463, 7.90851], uic = "8000638" },
+  { km = 8.474, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.475, kind = "signal", label = "19 N1", signal = "main", dir = 1 },
+  { km = 8.678, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 11.231, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.771, kind = "stop", label = "Kraghammer", pos = [51.10913, 7.87374], uic = "8003420" },
+  { km = 11.832, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 13.516, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 13.738, kind = "stop", label = "Listerscheid", pos = [51.10869, 7.84974], uic = "8003715" },
+  { km = 15.895, kind = "stop", label = "Attendorn-Hohen Hagen", pos = [51.09016, 7.85523], uic = "8087039" },
+  { km = 18.031, kind = "stop", label = "Sondern", pos = [51.07273, 7.84245], uic = "8005600" },
+  { km = 19.41, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 19.658, kind = "stop", label = "Eichhagen", pos = [51.05859, 7.83692], uic = "8001706" },
+  { km = 20.171, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 20.848, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.725, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 22.445, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.453, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 23.335, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.421, kind = "stop", label = "Olpe", pos = [51.02945, 7.84063], uic = "8004674" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.552, kmTo = 0.621, length = 69 },
+  { kind = "bridge", kmFrom = 1.385, kmTo = 1.437, length = 52 },
+  { kind = "bridge", kmFrom = 4.28, kmTo = 4.291, length = 11 },
+  { kind = "bridge", kmFrom = 4.459, kmTo = 4.527, length = 68 },
+  { kind = "bridge", kmFrom = 5.745, kmTo = 5.76, length = 15 },
+  { kind = "bridge", kmFrom = 6.714, kmTo = 6.78, length = 65 },
+  { kind = "bridge", kmFrom = 9.042, kmTo = 9.057, length = 15 },
+  { kind = "bridge", kmFrom = 10, kmTo = 10.023, length = 23 },
+  { kind = "bridge", kmFrom = 10.173, kmTo = 10.231, length = 58 },
+  { kind = "bridge", kmFrom = 10.905, kmTo = 10.936, length = 31 },
+  { kind = "bridge", kmFrom = 11.094, kmTo = 11.121, length = 27 },
+  { kind = "tunnel", kmFrom = 14.018, kmTo = 15.149, length = 1145, name = "Bausenbergtunnel" },
+  { kind = "tunnel", kmFrom = 15.482, kmTo = 15.591, length = 92, name = "Listertaltunnel" },
+  { kind = "tunnel", kmFrom = 16.344, kmTo = 16.409, length = 66, name = "Dumicketal-Tunnel" },
+  { kind = "bridge", kmFrom = 16.409, kmTo = 16.69, length = 284, name = "Doppelstockbrücke Dumicketal" },
+  { kind = "tunnel", kmFrom = 16.69, kmTo = 17.731, length = 1065, name = "Erbscheid-Tunnel" },
+  { kind = "bridge", kmFrom = 18.233, kmTo = 18.252, length = 20 },
+  { kind = "tunnel", kmFrom = 18.594, kmTo = 18.797, length = 219, name = "Hanemicker Tunnel" },
+  { kind = "bridge", kmFrom = 21.214, kmTo = 21.287, length = 80 },
+  { kind = "bridge", kmFrom = 21.811, kmTo = 21.867, length = 61 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cqmvHmlzn@oGfC", v = 30 },
+  { line = "symvHehzn@ea@dPaDvCwCnG", v = 50 },
+  { line = "seovHwiyn@}Gh]kAnDmDzEcFnBeFUoE{CqB{C{GsPgDuDoEcAuFvA", v = 70 },
+  { line = "akqvHu|xn@kI~E_DTiDm@yE}D{GiNiCsD_HgDgEAcWjFcGc@wFkDaN{Q", v = 80 },
+  { line = "aztvHshzn@uDqCwDkA", tunnel = true, v = 80 },
+  { line = "oeuvHqozn@_C]", v = 90 },
+  { line = "oiuvHopzn@wk@mI", v = 80 },
+  { line = "gvvvH}zzn@aFmAkDgCaf@qg@", tunnel = true, v = 80 },
+  { line = "wixvHej|n@gMmJ", v = 80 },
+  { line = "_xxvHsu|n@kBmA", tunnel = true, v = 80 },
+  { line = "k{xvHax|n@yX}OyDe@yD\\", v = 80 },
+  { line = "y`zvHgi}n@}ChA", tunnel = true, v = 80 },
+  { line = "wezvH}f}n@gP~G", v = 80 },
+  { line = "_wzvH}}|n@m|@h]", tunnel = true, v = 80 },
+  { line = "mt|vHs_|n@cIg@oH_F}E{IcCiMQaLbAwKdBiGdNg\\dAwGV{HaAeNoPgn@gCyR", v = 80 },
+  { line = "at}vHiebo@mB}JyCyEkC{AwQoEaCuB{BaEuAsFg@aGlBge@UcHcA{GuE{J_XoTiBkC_CwHoAaM", v = 60 },
+  { line = "eh`wHupgo@?eGfBw\\" },
+  { line = "}d`wHsvho@nA_Xi@}GoAoFcDeIuDiEmBy@iPsBuF_FqBiFy@wGByHfAoH", v = 70 },
+  { line = "opawHk`lo@|C_M", v = 60 },
+  { line = "qkawHknlo@nAeIDgH{@sHuBwFoIsHsXgKmCqCcBwDuA_Ja@o`@sAmGmB_EqCaC{CgA}RqBkDiAmy@{q@", v = 70 },
+  { line = "cafwHkmro@mGuCkLMkDdBeOxNyIrC{GXkG}B_J{N_F{D{DYgOpC_MkB" },
+]
+posts = [[23, 51.03305, 7.83872], [22, 51.03892, 7.82981], [21, 51.0469, 7.83366], [20, 51.0553, 7.83692], [19, 51.06455, 7.8383], [18, 51.07333, 7.84263], [17, 51.08155, 7.84834], [16, 51.08932, 7.85479], [15, 51.09762, 7.85326], [14, 51.10632, 7.84905], [13, 51.11081, 7.85854], [12, 51.10805, 7.87093], [11, 51.11229, 7.88344], [10, 51.11797, 7.89171], [9, 51.12187, 7.90256], [8, 51.12407, 7.91481], [7, 51.12869, 7.92412], [6, 51.12989, 7.93534], [5, 51.13663, 7.94278], [4, 51.14034, 7.9546], [3, 51.14872, 7.95907], [2, 51.15685, 7.96481], [1, 51.16524, 7.9611], [0, 51.17335, 7.96456]]
+
+[[connections]]
+km = 0.022
+station = "Finnentrop"
+lines = [
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = 61.121 },
+  { id = "2800", ref = "2800", name = "2800 Hagen - Haiger", km = 61.171 },
+]
+
+[[connections]]
+km = 23.421
+station = "Olpe"
+lines = [
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = 84.742 },
+]

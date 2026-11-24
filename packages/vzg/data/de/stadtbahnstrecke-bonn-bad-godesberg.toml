@@ -1,0 +1,105 @@
+id = "stadtbahnstrecke-bonn-bad-godesberg"
+name = "Stadtbahnstrecke Bonn–Bad Godesberg"
+operator = "SWB"
+gauge = "1435"
+wikidata = "Q2326668"
+from = "Bonn Hbf"
+to = "Bad Godesberg Stadthalle"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.902
+length = 7.902
+speeds = [[0, 1.165, 50, 50], [1.165, 3.563, 80, 80], [3.563, 4.328, 70, 70], [4.328, 4.76, 50, 50], [4.76, 5.578, 70, 70], [5.578, 6.106, 80, 80], [6.106, 6.267, "", ""], [6.267, 6.809, 80, 80], [6.809, 7.337, 70, 70], [7.337, 7.794, 60, 60], [7.794, 7.902, "", ""]]
+curves = [[0.175, 0.5, 290], [0.55, 0.875, 180], [2.175, 2.425, 1690], [3.875, 3.925, 2070], [4.1, 4.225, 1520], [4.275, 4.35, 1820], [5.825, 6, 1270], [6.925, 7.075, 710], [7.125, 7.3, 880], [7.4, 7.775, 380]]
+points = [
+  { km = 0, kind = "signal", label = "318", signal = "main", dir = 1 },
+  { km = 0.05, kind = "station", label = "Bonn Hauptbahnhof", uic = "8015485", pos = [50.73204, 7.09676] },
+  { km = 0.484, kind = "signal", label = "323", signal = "main", dir = -1 },
+  { km = 0.538, kind = "stop", label = "Universität / Markt", pos = [50.73307, 7.10329] },
+  { km = 0.587, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.59, kind = "signal", label = "328", signal = "main", dir = 1 },
+  { km = 1.161, kind = "signal", label = "333", signal = "main", dir = -1 },
+  { km = 1.165, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.213, kind = "stop", label = "Juridicum", pos = [50.72985, 7.10861] },
+  { km = 1.266, kind = "signal", label = "338", signal = "main", dir = 1 },
+  { km = 1.555, kind = "signal", signal = "main", dir = 1 },
+  { km = 1.675, kind = "signal", label = "343", signal = "main", dir = -1 },
+  { km = 1.717, kind = "stop", label = "Bundesrechnungshof/Auswärtiges Amt", pos = [50.72571, 7.11151] },
+  { km = 1.78, kind = "signal", label = "348", signal = "main", dir = 1 },
+  { km = 2.135, kind = "signal", label = "353", signal = "main", dir = -1 },
+  { km = 2.186, kind = "stop", label = "Museum Koenig", pos = [50.72192, 7.11442] },
+  { km = 2.238, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.24, kind = "signal", label = "358", signal = "main", dir = 1 },
+  { km = 2.897, kind = "stop", label = "Heussallee/Museumsmeile", pos = [50.71682, 7.12048] },
+  { km = 3.688, kind = "stop", label = "Ollenhauerstraße", pos = [50.71102, 7.127] },
+  { km = 4.328, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 4.384, kind = "stop", label = "Olof-Palme-Allee", pos = [50.70576, 7.1323] },
+  { km = 4.638, kind = "signal", signal = "main,train_protection", dir = -1 },
+  { km = 4.701, kind = "signal", signal = "main", dir = -1 },
+  { km = 4.755, kind = "signal", signal = "main", dir = -1 },
+  { km = 4.76, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.884, kind = "signal", signal = "departure", dir = -1 },
+  { km = 4.91, kind = "stop", label = "Max-Löbner-Straße", pos = [50.70183, 7.13647] },
+  { km = 4.966, kind = "signal", signal = "main", dir = 1 },
+  { km = 5.003, kind = "signal", signal = "main", dir = -1 },
+  { km = 5.336, kind = "signal", signal = "main", dir = 1 },
+  { km = 5.357, kind = "signal", signal = "main", dir = -1 },
+  { km = 5.502, kind = "signal", signal = "main", dir = 1 },
+  { km = 5.568, kind = "signal", signal = "main", dir = -1 },
+  { km = 5.578, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.619, kind = "stop", label = "Hochkreuz / Deutsches Museum Bonn", pos = [50.69643, 7.14183] },
+  { km = 5.65, kind = "signal", label = "512", signal = "main,train_protection", dir = 1 },
+  { km = 5.738, kind = "signal", signal = "train_protection", dir = -1 },
+  { km = 6.18, kind = "signal", signal = "main", dir = -1 },
+  { km = 6.267, kind = "stop", label = "Wurzerstraße", pos = [50.6919, 7.14757] },
+  { km = 6.809, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 6.897, kind = "stop", label = "Plittersdorfer Straße", pos = [50.68783, 7.15379] },
+  { km = 7.334, kind = "signal", signal = "main", dir = -1 },
+  { km = 7.337, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.345, kind = "signal", signal = "stop", dir = -1 },
+  { km = 7.388, kind = "stop", label = "Bad Godesberg Bahnhof", pos = [50.68437, 7.15803] },
+  { km = 7.44, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.502, kind = "station", label = "Bonn-Bad Godesberg", uic = "8001082", pos = [50.68381, 7.15968] },
+  { km = 7.794, kind = "signal", label = "561", signal = "main,speed_limit", dir = -1 },
+  { km = 7.837, kind = "stop", label = "Stadthalle", pos = [50.68071, 7.15858] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0, kmTo = 3.563, length = 3563 },
+  { kind = "bridge", kmFrom = 4.359, kmTo = 4.415, length = 56 },
+  { kind = "tunnel", kmFrom = 5.854, kmTo = 7.902, length = 2049 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{wstH_aij@~DmSJaCuAeIgGaLG_GnBgDbQaK", tunnel = true, v = 50 },
+  { line = "agstHajkj@pg@u[bNwKd`@sg@jXu[", tunnel = true, v = 80 },
+  { line = "ytotHyxnj@~[yZdFqG", v = 70 },
+  { line = "spntHe}oj@bSqT", v = 50 },
+  { line = "o|mtHwrpj@ze@we@", v = 70 },
+  { line = "sultHoyqj@~KgL", v = 80 },
+  { line = "shltHwfrj@rIwM", tunnel = true, v = 80 },
+  { line = "_~ktHourj@rEyH", tunnel = true },
+  { line = "kwktHi_sj@xTm`@", tunnel = true, v = 80 },
+  { line = "qaktHw`tj@pE}HbI_InE{G", tunnel = true, v = 70 },
+  { line = "kjjtHq}tj@fEcHlCyAfETvDfB", tunnel = true, v = 60 },
+  { line = "usitHqeuj@tDpB", tunnel = true },
+]
+posts = [[0, 50.73294, 7.09664], [1, 50.73161, 7.1074], [2, 50.7234, 7.1132], [3, 50.71609, 7.12139], [4, 50.70862, 7.12928], [5, 50.70115, 7.13716], [6, 50.69365, 7.14496], [7, 50.68715, 7.15477]]
+
+[[connections]]
+km = 0.05
+station = "Bonn Hauptbahnhof"
+lines = [
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = 31.966 },
+  { id = "2645", ref = "2645", name = "2645 Bonn Hbf - Euskirchen", km = -0.071 },
+]
+
+[[connections]]
+km = 7.502
+station = "Bonn-Bad Godesberg"
+lines = [
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = 38.993 },
+]

@@ -1,0 +1,117 @@
+id = "9460"
+ref = "9460"
+name = "Eyach–Hechingen"
+operator = "SWEG Schienenwege"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 27.5
+length = 27.523
+speeds = [[0, 0.391, 40, 30], [0.391, 0.607, 40, 40], [0.607, 0.61, "", 40], [0.61, 0.693, 50, 40], [0.693, 0.802, 30, 30], [0.802, 1.042, 40, 40], [1.042, 2.5, 50, 50], [2.5, 3.5, 20, 20], [3.5, 3.788, 50, 50], [3.788, 4.062, "", ""], [4.062, 6.064, 50, 50], [6.064, 6.166, 10, 50], [6.166, 6.24, 50, 10], [6.24, 9.041, 50, 50], [9.041, 9.699, 40, 40], [9.699, 10.735, 50, 50], [10.735, 10.856, "", ""], [10.856, 12.863, 50, 50], [12.863, 13.014, 30, 30], [13.014, 13.761, 40, 40], [13.761, 14.748, 60, 60], [14.748, 15.054, 40, 40], [15.054, 18.025, 60, 60], [18.025, 18.273, 50, 50], [18.273, 21.3, 60, 60], [21.3, 22.697, 50, 50], [22.697, 25.101, 60, 60], [25.101, 25.216, 50, 50], [25.216, 25.587, 60, 60], [25.587, 25.8, 50, 50], [25.8, 27.5, 60, 60]]
+curves = [[0.096, 0.677, 360], [0.809, 1.068, 560], [1.239, 1.361, 680], [1.41, 1.751, 230], [1.971, 2.306, 410], [2.419, 2.55, 1480], [2.668, 2.95, 290], [2.997, 3.589, 490], [3.788, 3.888, 800], [3.937, 4.639, 340], [4.895, 5.217, 510], [5.991, 6.192, 340], [6.242, 6.494, 580], [6.594, 6.87, 470], [6.921, 7.271, 320], [7.496, 8.334, 260], [8.382, 8.633, 440], [8.917, 9.168, 270], [9.218, 9.714, 290], [9.763, 9.838, 1050], [9.887, 10.683, 320], [10.874, 11.082, 540], [11.149, 11.642, 280], [11.996, 12.636, 210], [12.685, 13.007, 200], [13.058, 13.183, 1610], [13.233, 13.359, 750], [13.409, 13.641, 660], [13.772, 14.114, 290], [14.166, 14.402, 390], [14.455, 14.748, 290], [14.821, 15.063, 300], [15.111, 15.572, 310], [15.897, 16.147, 550], [16.422, 16.796, 330], [16.896, 17.877, 380], [20.1, 20.186, 910], [20.248, 20.323, 780], [20.842, 21.339, 660], [21.671, 21.878, 1360], [22.379, 22.563, 1520], [22.836, 23.159, 690], [24.351, 24.528, 1360], [24.781, 25.009, 520], [25.084, 25.435, 370], [25.607, 25.875, 900], [26.31, 26.614, 560], [26.795, 27.014, 1670], [27.285, 27.358, 2230]]
+points = [
+  { km = 0.013, kind = "station", label = "Eyach", uic = "8029325", ele = 374, pos = [48.44643, 8.78328] },
+  { km = 0.097, kind = "station", label = "Eyach HzL", pos = [48.44616, 8.7831], ele = 374 },
+  { km = 0.12, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.206, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.21, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.258, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.29, kind = "signal", signal = "crossing_info,speed_limit", dir = 1 },
+  { km = 0.374, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.391, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 0.607, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 0.693, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 3.732, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.788, kind = "stop", label = "Mühringen", pos = [48.41989, 8.75991], ele = 387 },
+  { km = 3.8, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.9, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.943, kind = "station", label = "Bad Imnau", pos = [48.40433, 8.7702], ele = 394 },
+  { km = 5.961, kind = "signal", signal = "stop", dir = 1 },
+  { km = 10.781, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.795, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.809, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.828, kind = "station", label = "Haigerloch", pos = [48.37046, 8.80072], ele = 425 },
+  { km = 10.875, kind = "signal", signal = "stop", dir = 1 },
+  { km = 10.945, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 10.965, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.306, kind = "signal", signal = "stop", dir = -1 },
+  { km = 13.416, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.631, kind = "signal", signal = "stop", dir = -1 },
+  { km = 13.675, kind = "stop", label = "Stetten (b. Haigerloch)", pos = [48.35337, 8.81253] },
+  { km = 13.676, kind = "station", label = "Stetten bei Haigerloch", ele = 440, pos = [48.35341, 8.81256] },
+  { km = 13.701, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.732, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 18.116, kind = "signal", signal = "stop", dir = -1 },
+  { km = 21.49, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 21.516, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 21.519, kind = "signal", signal = "stop", dir = -1 },
+  { km = 21.563, kind = "signal", signal = "stop", dir = -1 },
+  { km = 21.589, kind = "station", label = "Rangendingen", pos = [48.38105, 8.89392], ele = 419 },
+  { km = 21.614, kind = "signal", signal = "stop", dir = 1 },
+  { km = 27.476, kind = "signal", signal = "crossing_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.61, kmTo = 0.681, length = 67 },
+  { kind = "bridge", kmFrom = 4.051, kmTo = 4.062, length = 11 },
+  { kind = "tunnel", kmFrom = 11.333, kmTo = 11.476, length = 160, name = "Haigerloch-Tunnel" },
+  { kind = "bridge", kmFrom = 12.845, kmTo = 12.863, length = 19 },
+  { kind = "bridge", kmFrom = 13.299, kmTo = 13.409, length = 109 },
+  { kind = "bridge", kmFrom = 14.032, kmTo = 14.07, length = 37 },
+  { kind = "bridge", kmFrom = 14.087, kmTo = 14.122, length = 33 },
+  { kind = "bridge", kmFrom = 20.256, kmTo = 20.273, length = 34 },
+  { kind = "bridge", kmFrom = 20.769, kmTo = 20.79, length = 25 },
+  { kind = "bridge", kmFrom = 23.402, kmTo = 23.438, length = 37 },
+  { kind = "bridge", kmFrom = 25.023, kmTo = 25.035, length = 12 },
+  { kind = "bridge", kmFrom = 25.171, kmTo = 25.216, length = 45 },
+  { kind = "bridge", kmFrom = 26.296, kmTo = 26.347, length = 49 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mcufHsort@^dQxAvH|CfDbIbA", v = 40 },
+  { line = "qptfHilqt@zBdB", v = 50 },
+  { line = "ultfHciqt@bDfC", v = 30 },
+  { line = "qgtfH{dqt@zDzDrB|E", v = 40 },
+  { line = "a~sfHaxpt@`GnSlAxJhCxEfDfAlSqAxCR~CbB|InJ", v = 50 },
+  { line = "y`rfH_bot@xH`LlB|AdDXrI_CrEBtEzBxGlI", v = 20 },
+  { line = "smpfHwfnt@vMlI", v = 50 },
+  { line = "{~ofHi|mt@lH|G~B~@" },
+  { line = "mqofHkqmt@jFWlDwC`AmCzB_NhLwWlC{DjEmChp@{QpJiPrOkM`BuD`DqMjBaD~DsBjSk@rCeApCmF`AeQpCsH|DaCdK_@~Bs@~QiT|BaB", v = 50 },
+  { line = "ivhfHwbtt@~BSpIfB|Cs@fDkEbCqM", v = 40 },
+  { line = "mygfHuvtt@fEwXlB}DrAo@~BFpE`EpCz@`Fc@tFaE", v = 50 },
+  { line = "goffH{vut@dEkD" },
+  { line = "aiffHg|ut@|EgDrNSnDsB", v = 50 },
+  { line = "_mefHwevt@`CaC`CW", tunnel = true, v = 50 },
+  { line = "{defHqjvt@|CpAjR|VdD~AjBUvAgAjDgI~AiBvBo@vGDdDmC", v = 50 },
+  { line = "egcfHicvt@`AgDPsE", v = 30 },
+  { line = "qdcfHeovt@nAsUJcTrB}O", v = 40 },
+  { line = "a~bfH{kxt@t@aIg@iG_IkNg@uCq@qMq@gDiBwC{CcB", v = 60 },
+  { line = "etcfH_nzt@_IsC}EtA", v = 40 },
+  { line = "cedfH}ozt@{DbCyBb@kDSaCkAoCkDoQka@eWePgBmBsBoGaA{WaDgOwDiFoJeB}D{C}ByFiC}Q", v = 60 },
+  { line = "{tgfHye_u@kC_S", v = 50 },
+  { line = "gygfHyy_u@sL}x@yRaz@yBcVHukAbA_MrCwK", v = 60 },
+  { line = "mwhfHkmgu@fPk`@xOwo@`FwN", v = 50 },
+  { line = "ingfHgoju@zEiN`BuKvGqwBrDu\\nA{DvDyG", v = 60 },
+  { line = "wmffHeppu@xByF", v = 50 },
+  { line = "}iffH_xpu@r@qIc@qS", v = 60 },
+  { line = "miffHcwqu@FsQ", v = 50 },
+  { line = "eiffHwiru@bFml@bCuK~M}UxYy`@", v = 60 },
+]
+posts = [[0, 48.44615, 8.78346], [1, 48.44038, 8.77507], [2, 48.43389, 8.76833], [3, 48.42626, 8.76368], [4, 48.41821, 8.75838], [5, 48.41222, 8.76658], [6, 48.4036, 8.77043], [7, 48.39711, 8.77907], [8, 48.39052, 8.78524], [9, 48.38295, 8.79143], [10, 48.37706, 8.79868], [11, 48.36904, 8.80171], [12, 48.36094, 8.79936], [13, 48.35418, 8.80368], [14, 48.35307, 8.81655], [15, 48.35892, 8.82477], [16, 48.36596, 8.83027], [17, 48.37145, 8.83928], [18, 48.37719, 8.84813], [19, 48.38014, 8.86092], [20, 48.38214, 8.86698], [21, 48.38385, 8.88662], [22, 48.37926, 8.89816], [23, 48.37479, 8.9098], [24, 48.37376, 8.92341], [25, 48.37164, 8.93619], [26, 48.36987, 8.949], [27, 48.3655, 8.96009]]
+
+[[connections]]
+km = 0.013
+station = "Eyach"
+lines = [
+  { id = "4600", ref = "4600", name = "4600 Plochingen - Immendingen", km = 72.329 },
+]
+
+[[connections]]
+km = 0.097
+station = "Eyach HzL"
+lines = [
+  { id = "4600", ref = "4600", name = "4600 Plochingen - Immendingen", km = 72.37 },
+]

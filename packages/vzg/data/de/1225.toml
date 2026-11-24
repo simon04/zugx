@@ -1,0 +1,138 @@
+id = "1225"
+ref = "1225"
+name = "1225 Hamburg Holstenstraße - Pinneberg"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hamburg Holstenstraße D"
+to = "Pinneberg (S-Bahn)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.046
+kmTo = 15.913
+length = 14.767
+speeds = [[0.046, 1.469, "", ""], [1.469, 2.119, 80, 80], [2.119, 4.324, 80, 60], [4.324, 7.288, 80, 80], [7.288, 7.386, "", ""], [7.386, 15.7, 100, 100], [15.7, 15.913, 30, 30]]
+curves = [[0.399, 0.5, 1250], [0.551, 1.423, 510], [1.703, 1.912, 910], [1.982, 2.215, 750], [2.379, 2.495, 2520], [2.542, 3.754, 2020], [3.941, 4.039, 2490], [4.204, 4.35, 2580], [5.958, 6.104, 1790], [6.251, 6.376, 1380], [6.527, 6.629, 2020], [6.806, 6.882, 2700], [7.641, 7.793, 1370], [7.869, 8.147, 1000], [8.299, 8.476, 1860], [9.413, 9.464, 2450], [13.693, 13.894, 1950], [14.22, 14.396, 2580]]
+points = [
+  { km = 0.046, kind = "halt", label = "Holstenstraße", uic = "8002550", pos = [53.56188, 9.94925] },
+  { km = 0.069, kind = "signal", label = "Nh 116", signal = "minor", dir = 1 },
+  { km = 0.307, kind = "signal", label = "401", signal = "combined", dir = 1 },
+  { km = 0.315, kind = "signal", label = "603", signal = "combined", dir = -1 },
+  { km = 0.64, kind = "signal", label = "403", signal = "combined", dir = 1 },
+  { km = 1.233, kind = "signal", label = "405", signal = "combined", dir = 1 },
+  { km = 1.478, kind = "signal", label = "407", signal = "combined,traversable", dir = 1 },
+  { km = 1.482, kind = "signal", label = "601", signal = "combined,traversable,wrong_road", dir = -1 },
+  { km = 1.564, kind = "station", label = "Diebsteich", pos = [53.56889, 9.93426], uic = "8001282" },
+  { km = 1.669, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.685, kind = "signal", label = "409", signal = "combined,traversable,wrong_road", dir = 1 },
+  { km = 2.119, kind = "signal", label = "651", signal = "combined,wrong_road", dir = -1 },
+  { km = 2.331, kind = "signal", label = "413", signal = "combined", dir = 1 },
+  { km = 2.595, kind = "signal", label = "415", signal = "combined,traversable", dir = 1 },
+  { km = 2.629, kind = "signal", label = "6051", signal = "combined", dir = 1 },
+  { km = 2.714, kind = "signal", signal = "stop", dir = -1 },
+  { km = 2.723, kind = "stop", label = "Langenfelde", pos = [53.57969, 9.93083], uic = "8003541" },
+  { km = 2.749, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.781, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.816, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.826, kind = "signal", label = "417", signal = "combined,traversable", dir = 1 },
+  { km = 3.257, kind = "signal", label = "421", signal = "combined,traversable", dir = 1 },
+  { km = 3.633, kind = "signal", label = "423", signal = "combined,traversable", dir = 1 },
+  { km = 3.923, kind = "signal", label = "425", signal = "combined,traversable", dir = 1 },
+  { km = 3.951, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.974, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.051, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.078, kind = "stop", label = "Stellingen", pos = [53.58965, 9.91855], uic = "8002559" },
+  { km = 4.091, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.126, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.154, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.167, kind = "signal", label = "427", signal = "combined,traversable", dir = 1 },
+  { km = 4.188, kind = "signal", label = "Nh 427", signal = "minor", dir = 1 },
+  { km = 4.608, kind = "signal", label = "429", signal = "combined,traversable", dir = 1 },
+  { km = 5.116, kind = "signal", label = "431", signal = "combined,traversable", dir = 1 },
+  { km = 5.471, kind = "signal", label = "433", signal = "combined,minor,traversable", dir = 1 },
+  { km = 5.629, kind = "signal", label = "653", signal = "combined,minor,wrong_road", dir = -1 },
+  { km = 5.678, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.773, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.804, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.855, kind = "station", label = "Eidelstedt", uic = "8002555", pos = [53.59568, 9.90739] },
+  { km = 5.951, kind = "signal", signal = "stop", dir = 1 },
+  { km = 6.033, kind = "signal", signal = "stop", dir = 1 },
+  { km = 6.055, kind = "signal", label = "435", signal = "combined,route", dir = 1 },
+  { km = 6.411, kind = "signal", label = "Z42", signal = "wrong_road", dir = 1 },
+  { km = 6.698, kind = "signal", label = "437", signal = "combined,traversable", dir = 1 },
+  { km = 6.87, kind = "signal", label = "439", signal = "combined,traversable", dir = 1 },
+  { km = 7.075, kind = "signal", label = "441", signal = "combined", dir = 1 },
+  { km = 7.101, kind = "signal", label = "657", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = 7.113, kind = "signal", signal = "stop", dir = -1 },
+  { km = 7.167, kind = "signal", signal = "stop", dir = -1 },
+  { km = 7.234, kind = "signal", signal = "stop", dir = -1 },
+  { km = 7.241, kind = "signal", signal = "stop", dir = 1 },
+  { km = 7.288, kind = "station", label = "Elbgaustraße", pos = [53.60269, 9.89339], uic = "8001739" },
+  { km = 7.323, kind = "signal", label = "443", signal = "combined,departure,minor,traversable", dir = 1 },
+  { km = 7.388, kind = "signal", label = "Nh 443", signal = "minor", dir = 1 },
+  { km = 9.556, kind = "stop", label = "Krupunder", uic = "8003460", pos = [53.61571, 9.86796] },
+  { km = 9.59, kind = "signal", label = "449", signal = "combined", dir = 1 },
+  { km = 11.259, kind = "signal", signal = "combined", dir = -1 },
+  { km = 11.563, kind = "signal", signal = "combined", dir = 1 },
+  { km = 12.046, kind = "stop", label = "Halstenbek", pos = [53.63041, 9.8391], uic = "8002545" },
+  { km = 12.143, kind = "signal", label = "455", signal = "combined,departure", dir = 1 },
+  { km = 12.728, kind = "signal", signal = "combined", dir = 1 },
+  { km = 13.851, kind = "signal", signal = "combined", dir = 1 },
+  { km = 14.27, kind = "stop", label = "Thesdorf", pos = [53.64407, 9.81434], uic = "8005858" },
+  { km = 14.373, kind = "signal", label = "461", signal = "combined,departure", dir = 1 },
+  { km = 14.669, kind = "signal", signal = "combined", dir = 1 },
+  { km = 15.194, kind = "signal", signal = "combined", dir = 1 },
+  { km = 15.7, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.701, kind = "signal", label = "663", signal = "combined,departure,minor,wrong_road", dir = -1 },
+  { km = 15.864, kind = "station", label = "Pinneberg", pos = [53.65503, 9.79769], uic = "8004819" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.193, kmTo = 0.232, length = 38 },
+  { kind = "bridge", kmFrom = 0.492, kmTo = 0.515, length = 23 },
+  { kind = "bridge", kmFrom = 0.673, kmTo = 0.775, length = 101 },
+  { kind = "bridge", kmFrom = 1.35, kmTo = 1.374, length = 26 },
+  { kind = "bridge", kmFrom = 2.549, kmTo = 2.584, length = 37 },
+  { kind = "bridge", kmFrom = 3.83, kmTo = 3.86, length = 32 },
+  { kind = "bridge", kmFrom = 6.075, kmTo = 6.143, length = 35 },
+  { kind = "bridge", kmFrom = 6.495, kmTo = 6.558, length = 63 },
+  { kind = "bridge", kmFrom = 6.692, kmTo = 6.751, length = 58 },
+  { kind = "bridge", kmFrom = 7.357, kmTo = 7.386, length = 28 },
+  { kind = "bridge", kmFrom = 10.319, kmTo = 10.34, length = 21 },
+  { kind = "bridge", kmFrom = 12.167, kmTo = 12.204, length = 38 },
+  { kind = "bridge", kmFrom = 12.598, kmTo = 12.616, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uj|eI{~u{@wDjc@o@~NwAtH{CfIsElGoDdBkGj@" },
+  { line = "an}eIqis{@aRvA{QbJuQrA}N|C_O|HeOxNuN`U{Xzm@i]vx@ih@nqA", v = 80 },
+  { line = "_hdfIeik{@qB|E" },
+  { line = "qkdfIgbk{@kK`VmJlP}Ohg@_~D`sJuqAdzB", v = 100 },
+  { line = "_fnfIebyz@gHvK", v = 30 },
+]
+posts = [[1, 53.56469, 9.93637], [2, 53.57283, 9.93287], [3, 53.58217, 9.92935], [4, 53.58948, 9.91896], [5, 53.59314, 9.91241], [6, 53.59617, 9.90654], [7, 53.60103, 9.8967], [8, 53.60712, 9.88584], [9, 53.61257, 9.87405], [10, 53.61843, 9.86263], [11, 53.62439, 9.85111], [12, 53.63018, 9.83968], [13, 53.63649, 9.82746], [14, 53.64211, 9.81716], [15, 53.64883, 9.80713]]
+
+[[connections]]
+km = 0.046
+station = "Holstenstraße"
+lines = [
+  { id = "1240", ref = "1240", name = "1240 Hamburg Hbf - Hamburg-Altona", km = -0.081 },
+  { id = "6100", ref = "6100", name = "6100 Berlin - Hamburg", km = 290.981 },
+]
+
+[[connections]]
+km = 1.564
+station = "Diebsteich"
+lines = [
+  { id = "1232", ref = "1232", name = "1232 Abzw Rainweg - Eidelstedt", km = 3.042 },
+  { id = "1240", ref = "1240", name = "1240 Hamburg Hbf - Hamburg-Altona", km = 0.965 },
+  { id = "1270", ref = "1270", name = "1270 Hamburg Hbf - Hamburg Diebsteich", km = 7.824 },
+]
+
+[[connections]]
+km = 9.556
+station = "Krupunder"
+lines = [
+  { id = "1232", ref = "1232", name = "1232 Abzw Rainweg - Eidelstedt", km = -2.145 },
+]

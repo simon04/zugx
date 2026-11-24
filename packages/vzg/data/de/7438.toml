@@ -1,0 +1,31 @@
+id = "7438"
+ref = "7438"
+name = "7438 Abzw Berliner Straße - Köln-Mülheim Gbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Abzw Berliner Straße"
+to = "Köln-Mülheim Gbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.072
+length = 1.072
+speeds = [[0, 0.384, "", ""], [0.384, 1.072, 40, 40]]
+curves = [[0.15, 0.225, 2500], [0.675, 0.775, 1580]]
+points = [
+  { km = 0.384, kind = "signal", label = "P305", signal = "distant,main", dir = -1 },
+  { km = 0.968, kind = "signal", label = "N305", signal = "main", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.305, kmTo = 0.322, length = 17 },
+  { kind = "bridge", kmFrom = 0.9, kmTo = 0.921, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "etbvHqpyi@}QnO" },
+  { line = "cgcvHa`yi@{NrOgNtR", v = 40 },
+]
+posts = [[0, 50.97299, 7.01721], [1, 50.9805, 7.00941]]

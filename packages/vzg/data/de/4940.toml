@@ -1,0 +1,135 @@
+id = "4940"
+ref = "4940"
+name = "4940 Goldshöfe - Crailsheim"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q540298"
+from = "Goldshöfe"
+to = "Crailsheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.496
+kmTo = 30.141
+length = 30.645
+speeds = [[-0.496, 0.411, 90, 90], [0.411, 0.486, "", ""], [0.486, 3.283, 120, 120], [3.283, 4.596, 100, 100], [4.596, 6.869, 110, 110], [6.869, 8.622, 100, 100], [8.622, 15.445, 90, 90], [15.445, 17.594, 100, 100], [17.594, 18.117, 90, 90], [18.117, 19.005, 110, 110], [19.005, 26.883, 120, 120], [26.883, 29.525, 130, 120], [29.525, 29.723, 40, 120], [29.723, 30.141, 40, 40]]
+curves = [[-0.151, 0.382, 630], [1.687, 2.477, 1240], [3.315, 3.924, 530], [4.017, 4.5, 530], [5.086, 5.291, 1690], [5.376, 5.755, 910], [6.356, 6.607, 1140], [6.849, 7.946, 580], [8.34, 8.923, 500], [9.671, 10.088, 860], [10.442, 11.12, 500], [11.171, 12.15, 480], [12.2, 13.122, 480], [13.213, 14.265, 570], [14.368, 14.677, 770], [15.101, 15.451, 590], [15.716, 16.13, 600], [16.485, 17.097, 870], [17.326, 17.527, 1220], [17.62, 18.155, 560], [18.341, 18.547, 1060], [18.762, 19.939, 1670], [20.561, 20.883, 1180], [25.002, 25.226, 1070], [26.722, 27.423, 1250], [27.731, 28.32, 1870], [28.844, 29.438, 910], [29.733, 30.016, 500]]
+points = [
+  { km = -0.146, kind = "signal", label = "C", signal = "main", dir = -1 },
+  { km = -0.005, kind = "station", label = "Goldshöfe", pos = [48.89436, 10.12826], uic = "8029552" },
+  { km = 0.096, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.222, kind = "signal", label = "J", signal = "main,minor", dir = 1 },
+  { km = 0.411, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.961, kind = "signal", label = "P", signal = "distant,main", dir = -1 },
+  { km = 1.602, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.937, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.631, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 2.875, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.072, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.278, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.283, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.735, kind = "halt", label = "Schwabsberg", uic = "8029695", pos = [48.92519, 10.13891] },
+  { km = 4.059, kind = "signal", label = "11", signal = "main", dir = 1 },
+  { km = 4.213, kind = "signal", signal = "main", dir = -1 },
+  { km = 4.596, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.803, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 5.195, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.58, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.866, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.233, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 6.836, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.869, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.118, kind = "stop", label = "Schrezheim", pos = [48.95126, 10.11772], uic = "8029694" },
+  { km = 7.509, kind = "signal", label = "Va", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 8.452, kind = "signal", label = "A", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 8.622, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.875, kind = "signal", signal = "minor", dir = 1 },
+  { km = 8.946, kind = "signal", label = "P1", signal = "main,minor", dir = 1 },
+  { km = 9.012, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.06, kind = "station", label = "Ellwangen", pos = [48.96412, 10.12962], uic = "8029693" },
+  { km = 9.07, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.114, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.224, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.313, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.34, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.521, kind = "signal", label = "N1", signal = "main", dir = -1 },
+  { km = 10.126, kind = "signal", label = "F", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 12.419, kind = "signal", label = "V21", signal = "distant", dir = 1 },
+  { km = 13.945, kind = "signal", label = "22", signal = "crossing_distant,main", dir = -1 },
+  { km = 14.92, kind = "signal", label = "V22", signal = "distant", dir = -1 },
+  { km = 15.445, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.451, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.865, kind = "signal", label = "V6a", signal = "distant", dir = 1 },
+  { km = 16.529, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 16.6, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 16.87, kind = "signal", label = "6A", signal = "distant,main", dir = 1 },
+  { km = 17.084, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 17.274, kind = "signal", label = "6P2", signal = "main", dir = -1 },
+  { km = 17.594, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.771, kind = "signal", signal = "main_repeated" },
+  { km = 17.798, kind = "stop", label = "Jagstzell", pos = [49.03122, 10.09875], uic = "8029690" },
+  { km = 17.842, kind = "signal", signal = "distant", dir = 1 },
+  { km = 18.014, kind = "signal", label = "6N2", signal = "main", dir = 1 },
+  { km = 18.116, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.117, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.61, kind = "signal", label = "6F", signal = "distant,main", dir = -1 },
+  { km = 19.005, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.084, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 19.601, kind = "signal", signal = "distant", dir = 1 },
+  { km = 20.115, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 24.237, kind = "signal", label = "5A", signal = "distant,main", dir = 1 },
+  { km = 24.779, kind = "signal", signal = "main", dir = -1 },
+  { km = 25.133, kind = "signal", label = "WV5n2", signal = "distant", dir = 1 },
+  { km = 25.359, kind = "signal", label = "5N2", signal = "main", dir = 1 },
+  { km = 25.903, kind = "signal", label = "5F", signal = "distant,main" },
+  { km = 26.883, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.528, kind = "signal", signal = "distant", dir = 1 },
+  { km = 29.525, kind = "signal", label = "1B", signal = "distant,main", dir = 1 },
+  { km = 29.723, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 29.735, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 29.854, kind = "signal", label = "104 II", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.714, kmTo = 1.735, length = 22 },
+  { kind = "bridge", kmFrom = 3.222, kmTo = 3.238, length = 23 },
+  { kind = "bridge", kmFrom = 4.807, kmTo = 4.818, length = 12 },
+  { kind = "bridge", kmFrom = 5.682, kmTo = 5.722, length = 37 },
+  { kind = "bridge", kmFrom = 6.539, kmTo = 6.574, length = 31 },
+  { kind = "bridge", kmFrom = 7.334, kmTo = 7.396, length = 48 },
+  { kind = "bridge", kmFrom = 11.208, kmTo = 11.223, length = 16 },
+  { kind = "bridge", kmFrom = 14.131, kmTo = 14.147, length = 19 },
+  { kind = "bridge", kmFrom = 15.462, kmTo = 15.521, length = 49 },
+  { kind = "bridge", kmFrom = 16.171, kmTo = 16.185, length = 11 },
+  { kind = "bridge", kmFrom = 17.181, kmTo = 17.195, length = 17 },
+  { kind = "bridge", kmFrom = 17.61, kmTo = 17.643, length = 31 },
+  { kind = "bridge", kmFrom = 25.435, kmTo = 25.461, length = 23 },
+  { kind = "bridge", kmFrom = 26.515, kmTo = 26.521, length = 14 },
+  { kind = "bridge", kmFrom = 29.974, kmTo = 29.994, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gy{jHwvl|@|KWbHuE", v = 40 },
+  { line = "ec{jHe~l|@vHwH", v = 120 },
+  { line = "myzjH}gm|@lJaIdLmD`HM|^zC|RtFfb@tW`ItB`Hb@", v = 130 },
+  { line = "omvjHyml|@pwA{JtR}Bt}E}qB~IwAhd@w@nLiAvNoElI{ElGkF", v = 120 },
+  { line = "cbijHclq|@xFsIbLiWxMgQ", v = 110 },
+  { line = "k~gjHias|@pEkElFaCjESpFnA", v = 90 },
+  { line = "mbgjH{is|@fGdBzRdBfLe@jEwAfFkD~UsZdEsDpH_CzOw@", v = 100 },
+  { line = "yscjHyst|@nEi@hE}BrYe_@jDoHtIe\\hDwF`FuE|G}D`Hm@dGfBlK~JzEhC~Ej@hHaBjE}DjDiHvEuXhBoFpEuGzDyB~Fq@dF~@fDpBzL~NdEpBpF`@jHcCdXcV|JyDzp@eD`Gn@jEzC", v = 90 },
+  { line = "_qyiHahy|@dDdFbB|EjL|h@hCjFnCzCxGfCvIMpFwB`HiH", v = 100 },
+  { line = "inwiH_mw|@bSaYxe@{\\rHkCfRyAn^eJ", v = 110 },
+  { line = "_wsiHiwy|@bImC`FsErCiGfGmUhEcHpF{DvK_B", v = 100 },
+  { line = "i~qiHcs{|@~o@cFzKZxHlB~MlIrx@dx@", v = 120 },
+  { line = "_nmiHiry|@lBtB" },
+  { line = "qjmiHsny|@fI~GxHhBzEGxUsD", v = 90 },
+]
+posts = [[30, 49.13445, 10.06463], [29, 49.12662, 10.06984], [28, 49.11744, 10.06816], [27, 49.10932, 10.06328], [26, 49.09838, 10.06448], [25, 49.09042, 10.06594], [24, 49.08282, 10.06988], [23, 49.07385, 10.07452], [22, 49.0655, 10.07884], [21, 49.05696, 10.08326], [20, 49.04798, 10.08479], [19, 49.03982, 10.08854], [18, 49.03319, 10.09794], [17, 49.02443, 10.09733], [16, 49.01678, 10.10371], [15, 49.00819, 10.10795], [14, 49.00238, 10.11834], [13, 48.99468, 10.11811], [12, 48.98813, 10.1248], [11, 48.98058, 10.12476], [10, 48.97252, 10.12807], [9, 48.96387, 10.12971], [8, 48.95753, 10.12185], [7, 48.95012, 10.11877], [6, 48.94279, 10.12638], [5, 48.93431, 10.12993], [4, 48.92659, 10.13568], [3, 48.91948, 10.1411], [2, 48.91002, 10.14127], [1, 48.90222, 10.13426], [0, 48.8943, 10.12787]]
+
+[[connections]]
+km = -0.005
+station = "Goldshöfe"
+lines = [
+  { id = "4710", ref = "4710", name = "4710 Stuttgart-Bad Cannstatt - Nördlingen", km = 78.846 },
+]

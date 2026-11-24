@@ -1,0 +1,115 @@
+id = "4570"
+ref = "4570"
+name = "4570 Leutkirch - Memmingen"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Leutkirch"
+to = "Memmingen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.336
+kmTo = 31.122
+length = 31.423
+speeds = [[-0.336, -0.26, 120, 120], [-0.26, -0.184, 120, 90], [-0.184, 0.5, 90, 90], [0.5, 5.593, 120, 120], [5.593, 8.7, 130, 130], [8.7, 9.1, 110, 110], [9.1, 16.3, 130, 130], [16.3, 16.576, 100, 100], [16.576, 22.9, 120, 120], [22.9, 23.596, 110, 110], [23.596, 23.703, 100, 100], [23.703, 29.434, 120, 120], [29.434, 29.7, 80, 120], [29.7, 30.3, 80, 100], [30.3, 30.7, 80, 80], [30.7, 31.122, 60, 60]]
+curves = [[-0.163, 0.965, 820], [3.263, 4.214, 830], [4.639, 5.04, 960], [5.318, 5.62, 1050], [5.742, 5.865, 2050], [5.965, 6.015, 2850], [6.967, 7.115, 1870], [7.267, 7.365, 2150], [7.464, 7.615, 2120], [7.717, 8.019, 2420], [8.77, 9.106, 760], [9.37, 11.674, 1570], [14.898, 15.385, 1050], [16.294, 16.626, 700], [17.363, 17.412, 2210], [19.149, 19.524, 1220], [19.974, 20.3, 930], [21.758, 22.903, 720], [26.011, 26.936, 1290], [29.77, 30.969, 520]]
+points = [
+  { km = -0.089, kind = "signal", signal = "distant", dir = -1 },
+  { km = -0.012, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 0.033, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 0.038, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.053, kind = "station", label = "Leutkirch", pos = [47.8264, 10.01622], uic = "8029212", ele = 652 },
+  { km = 0.1, kind = "signal", signal = "distant", dir = 1, measured = true },
+  { km = 0.2, kind = "signal", label = "N1", signal = "main,minor", dir = 1, measured = true },
+  { km = 0.391, kind = "signal", label = "W30", signal = "minor", dir = -1 },
+  { km = 0.5, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 0.9, kind = "signal", label = "F", signal = "distant,main", dir = -1, measured = true },
+  { km = 1.5, kind = "signal", signal = "speed_limit_distant", dir = -1, measured = true },
+  { km = 2, kind = "signal", signal = "distant", dir = -1, measured = true },
+  { km = 5.6, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 6.6, kind = "signal", signal = "speed_limit_distant", dir = -1, measured = true },
+  { km = 7.1, kind = "signal", label = "852", signal = "main", dir = -1, measured = true },
+  { km = 7.525, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 8.1, kind = "signal", signal = "distant", dir = -1, measured = true },
+  { km = 8.3, kind = "signal", signal = "distant,speed_limit_distant", dir = 1, measured = true },
+  { km = 8.7, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 9.1, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 9.3, kind = "signal", label = "85 A", signal = "combined,speed_limit", dir = 1, measured = true },
+  { km = 9.462, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 9.8, kind = "signal", label = "85 P1", signal = "main,minor", dir = -1, measured = true },
+  { km = 9.9, kind = "signal", signal = "distant", dir = -1, measured = true },
+  { km = 10, kind = "signal", signal = "distant", dir = 1, measured = true },
+  { km = 10.135, kind = "station", label = "Aichstetten", pos = [47.88792, 10.07513], uic = "8029216" },
+  { km = 10.194, kind = "signal", signal = "stop", dir = 1 },
+  { km = 10.2, kind = "signal", label = "85 N1", signal = "main,minor", dir = 1, measured = true },
+  { km = 10.6, kind = "signal", label = "85 F", signal = "combined,speed_limit,speed_limit_distant", dir = -1, measured = true },
+  { km = 11.711, kind = "signal", signal = "distant", dir = -1 },
+  { km = 16.3, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 16.6, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 16.781, kind = "stop", label = "Marstetten-Aitrach", pos = [47.94362, 10.08021], uic = "8029217" },
+  { km = 17.6, kind = "signal", signal = "speed_limit_distant", dir = -1, measured = true },
+  { km = 17.8, kind = "signal", signal = "station_distant", dir = -1, measured = true },
+  { km = 21.6, kind = "signal", signal = "distant,speed_limit_distant", dir = 1, measured = true },
+  { km = 22.5, kind = "signal", signal = "distant,speed_limit_distant", dir = 1, measured = true },
+  { km = 22.6, kind = "signal", label = "87 A", signal = "combined,speed_limit", dir = 1, measured = true },
+  { km = 22.9, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 23.191, kind = "signal", signal = "stop", dir = -1 },
+  { km = 23.225, kind = "signal", signal = "stop", dir = -1 },
+  { km = 23.256, kind = "station", label = "Tannheim (Württemberg)", uic = "8005823", pos = [47.99489, 10.0968] },
+  { km = 23.6, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 23.6, kind = "signal", label = "87 N1", signal = "main,minor,speed_limit", dir = 1, measured = true },
+  { km = 23.6, kind = "signal", label = "87 P1", signal = "main,minor", dir = -1, measured = true },
+  { km = 24.1, kind = "signal", label = "87 F", signal = "combined,speed_limit,speed_limit_distant", dir = -1, measured = true },
+  { km = 24.6, kind = "signal", signal = "speed_limit_distant", dir = -1, measured = true },
+  { km = 25.5, kind = "signal", label = "874", signal = "combined,speed_limit_distant", dir = -1, measured = true },
+  { km = 26.3, kind = "signal", signal = "distant", dir = -1, measured = true },
+  { km = 27.3, kind = "signal", signal = "distant", dir = 1, measured = true },
+  { km = 28.5, kind = "signal", signal = "speed_limit_distant", dir = 1, measured = true },
+  { km = 28.6, kind = "signal", label = "155", signal = "main", dir = 1, measured = true },
+  { km = 29.5, kind = "signal", label = "156", signal = "main", dir = -1, measured = true },
+  { km = 29.5, kind = "signal", signal = "distant,speed_limit,speed_limit_distant", dir = 1, measured = true },
+  { km = 29.7, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 30.3, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 30.3, kind = "signal", signal = "distant,speed_limit_distant", dir = 1, measured = true },
+  { km = 30.5, kind = "signal", label = "15B", signal = "combined,speed_limit,speed_limit_distant", dir = 1, measured = true },
+  { km = 30.5, kind = "signal", signal = "distant", dir = -1, measured = true },
+  { km = 30.7, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 68.3, kind = "signal", label = "P1", signal = "main,minor,speed_limit", dir = -1, measured = true },
+  { km = 68.4, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.331, kmTo = 0.365, length = 31 },
+  { kind = "bridge", kmFrom = 0.45, kmTo = 0.491, length = 38 },
+  { kind = "bridge", kmFrom = 0.771, kmTo = 0.787, length = 14 },
+  { kind = "bridge", kmFrom = 2.251, kmTo = 2.269, length = 19 },
+  { kind = "bridge", kmFrom = 4.465, kmTo = 4.504, length = 39 },
+  { kind = "bridge", kmFrom = 5.421, kmTo = 5.441, length = 20 },
+  { kind = "bridge", kmFrom = 8.151, kmTo = 8.175, length = 25 },
+  { kind = "bridge", kmFrom = 8.489, kmTo = 8.513, length = 23 },
+  { kind = "bridge", kmFrom = 14.71, kmTo = 14.783, length = 82 },
+  { kind = "bridge", kmFrom = 16.243, kmTo = 16.289, length = 46 },
+  { kind = "bridge", kmFrom = 23.926, kmTo = 23.947, length = 23 },
+  { kind = "bridge", kmFrom = 24.924, kmTo = 25.016, length = 92 },
+  { kind = "bridge", kmFrom = 25.245, kmTo = 25.264, length = 20 },
+  { kind = "bridge", kmFrom = 25.727, kmTo = 25.74, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{izcHmqd}@hOdApDjB", v = 60 },
+  { line = "_tycH{kd}@jGdIzBlGv@vE", v = 80 },
+  { line = "_fycHorc}@f@fLu@bL}BzIwDdI", v = 100 },
+  { line = "cpycHacb}@udBbqDuEbM_D`OkBnRUnObDddE", v = 120 },
+  { line = "m`}cHqit|@FnH", v = 100 },
+  { line = "e`}cHa`t|@l@hw@", v = 110 },
+  { line = "w~|cHwgr|@\\bKr@bG`EvN`DxFbDpDlFhDdElAnDZ`zAs@vGfB|]~QzI`C|aB{Dhr@tB", v = 120 },
+  { line = "}trcHgwo|@rFc@dFaC", v = 100 },
+  { line = "cfrcHm|o|@ln@u`@bGqBtGy@f{DhJvN|ArLjEhLzHlHrIpGjKjGxOzDrOrCrSdA|UGx\\", v = 130 },
+  { line = "cxgcHecl|@d@~Q`CbN", v = 110 },
+  { line = "{rgcHaak|@vP|{@rFhRnFhNfNjW|m@f{@tJnR", v = 130 },
+  { line = "chdcHkyd|@lDvJnJ|e@lFzMnW~a@pIxG`JtBjIAjGwAx`CygAzIeBxG?", v = 120 },
+  { line = "ky|bHcwc|@vGhAbJjFnEjIhBrI", v = 90 },
+  { line = "u{{bHmxb|@fBtJ", v = 120 },
+]
+posts = [[31, 47.98017, 10.18652], [30, 47.97559, 10.17746], [29, 47.98117, 10.16702], [28, 47.987, 10.15682], [27, 47.99282, 10.14662], [26, 47.99592, 10.13444], [25, 47.99557, 10.12105], [24, 47.99523, 10.10765], [23, 47.99488, 10.09427], [22, 47.99026, 10.084], [21, 47.98129, 10.08381], [20, 47.97238, 10.08314], [19, 47.96382, 10.07978], [18, 47.95484, 10.08035], [17, 47.94585, 10.08035], [16, 47.93723, 10.08261], [15, 47.92942, 10.08712], [14, 47.91987, 10.08659], [13, 47.91088, 10.08602], [12, 47.90189, 10.08545], [11, 47.89318, 10.08281], [10, 47.88731, 10.07321], [9, 47.88626, 10.06009], [8, 47.88298, 10.04748], [7, 47.87772, 10.03682], [6, 47.87087, 10.02809], [5, 47.866, 10.01705], [4, 47.85991, 10.00736], [3, 47.85132, 10.00795], [2, 47.84292, 10.01267], [1, 47.83447, 10.01742], [0, 47.82615, 10.01585]]

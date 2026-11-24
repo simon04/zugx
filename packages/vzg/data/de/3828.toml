@@ -1,0 +1,36 @@
+id = "3828"
+ref = "3828"
+name = "3828 Fulda"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Fulda"
+to = "Fulda"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.926
+length = 2.926
+speeds = [[0, 2.885, 80, 80], [2.885, 2.926, "", ""]]
+curves = [[0.75, 0.925, 800], [1, 1.175, 1200], [1.25, 1.45, 890], [1.65, 1.7, 2340]]
+points = [
+  { km = 0.403, kind = "signal", signal = "main,minor,route,speed_limit,traversable", dir = -1 },
+  { km = 0.878, kind = "signal", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 1.156, kind = "signal", label = "Y352", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 1.618, kind = "signal", label = "X352", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 1.824, kind = "signal", signal = "train_protection", dir = -1 },
+  { km = 1.984, kind = "signal", label = "W 252", signal = "distant,main,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 2.73, kind = "signal", label = "O252", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 2.869, kind = "signal", signal = "train_protection", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.905, kmTo = 1.037, length = 133 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "amjsHc}az@{h@e`@wM_DsK}EoQcBccAeC", v = 80 },
+  { line = "}hosHqqcz@gAQ" },
+]
+posts = [[0, 50.52129, 9.68162], [1, 50.52945, 9.68741], [2, 50.53827, 9.68953]]

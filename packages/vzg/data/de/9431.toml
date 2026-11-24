@@ -1,0 +1,176 @@
+id = "9431"
+ref = "9431"
+name = "9431 Riegel - Breisach"
+operator = "Südwestdeutsche Landesverkehrs-AG"
+gauge = "1435"
+wikidata = "Q108806130"
+from = "Riegel"
+to = "Breisach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 25.936
+length = 25.873
+speeds = [[0, 0.152, 30, 30], [0.152, 0.249, 40, 30], [0.249, 0.493, 40, 60], [0.493, 0.741, 70, 60], [0.741, 1.306, 70, 70], [1.306, 1.513, 50, 50], [1.513, 1.531, 40, 50], [1.531, 1.835, 40, 40], [1.835, 2.047, 60, 40], [2.047, 2.065, 80, 70], [2.065, 2.241, 70, 70], [2.241, 2.282, 100, 70], [2.282, 4.843, 100, 80], [4.843, 5.375, 80, 80], [5.375, 5.502, 40, 80], [5.502, 5.634, 40, 40], [5.634, 5.826, 50, 40], [5.826, 12.391, 80, 80], [12.391, 12.45, 40, 40], [12.45, 13.104, 70, 80], [13.104, 13.157, 80, 80], [13.157, 13.953, 70, 70], [13.953, 14.329, 80, 80], [14.329, 14.487, 70, 80], [14.487, 14.682, 70, 70], [14.682, 15, "", 70], [15, 15.12, 70, 70], [15.12, 15.488, 80, 70], [15.488, 16.468, 80, 80], [16.468, 16.505, 60, 80], [16.505, 16.701, 60, 60], [16.701, 18.509, 70, 70], [18.509, 18.573, 70, 50], [18.573, 18.592, 50, 50], [18.592, 18.984, 60, 50], [18.984, 19.024, 50, 50], [19.024, 19.117, 70, 50], [19.117, 19.391, 80, 50], [19.391, 22.196, 80, 80], [22.196, 22.249, 80, 60], [22.249, 25.614, 80, 80], [25.614, 25.936, 50, 80]]
+curves = [[0.212, 0.581, 350], [1.064, 1.334, 440], [1.878, 2.251, 440], [2.688, 2.723, 2380], [4.838, 5.042, 550], [5.888, 6.021, 1600], [7.003, 7.452, 550], [8.801, 8.963, 1420], [9.778, 10.124, 430], [11.565, 12.068, 370], [12.535, 12.709, 1100], [13.071, 13.469, 370], [13.517, 13.974, 780], [14.155, 14.278, 1180], [14.801, 15.111, 330], [15.199, 15.72, 440], [16.026, 16.227, 650], [16.364, 16.461, 1250], [16.533, 17.015, 330], [17.064, 17.46, 380], [17.523, 18.011, 310], [18.07, 19.099, 420], [19.397, 19.691, 440], [19.77, 19.945, 1210], [20.028, 20.258, 910], [20.836, 20.968, 990], [21.324, 21.418, 1290], [23.403, 23.777, 640], [25.484, 25.836, 1180]]
+points = [
+  { km = 0, kind = "station", label = "Riegel-Malterdingen", uic = "8014328", pos = [48.15174, 7.77111] },
+  { km = 0.013, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 0.034, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.086, kind = "station", label = "Riegel-Malterdingen SWEG", pos = [48.15226, 7.76976] },
+  { km = 0.152, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 0.249, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.493, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.741, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.305, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.306, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.531, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.533, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.612, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.617, kind = "signal", label = "2P2", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 1.626, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.628, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 1.7, kind = "stop", label = "Riegel am Kaiserstuhl Ort", pos = [48.15418, 7.74947] },
+  { km = 1.716, kind = "station", label = "Riegel Ort", uic = "8007284", pos = [48.15418, 7.74935] },
+  { km = 1.739, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.781, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.835, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.062, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.065, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.241, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.282, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.843, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.374, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.502, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.507, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.541, kind = "station", label = "Endingen am Kaiserstuhl", pos = [48.14424, 7.70235], uic = "8007285" },
+  { km = 5.552, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.567, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.585, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.634, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.826, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.498, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.173, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.86, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.927, kind = "signal", signal = "main", dir = -1 },
+  { km = 8.928, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.998, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.024, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.039, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.053, kind = "station", label = "Königschaffhausen", pos = [48.1373, 7.65834], uic = "8007286" },
+  { km = 9.082, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.086, kind = "signal", signal = "main", dir = 1 },
+  { km = 9.779, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.577, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.046, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.047, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.221, kind = "station", label = "Sasbach am Kaiserstuhl", uic = "8007287", pos = [48.13864, 7.62029] },
+  { km = 12.366, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.156, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.157, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.953, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.957, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.329, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.487, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.608, kind = "stop", label = "Jechtingen", uic = "8007288", pos = [48.12038, 7.6106] },
+  { km = 14.722, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.116, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.12, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.488, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.468, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.505, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.565, kind = "stop", label = "Burkheim-Bischoffingen", pos = [48.10414, 7.6119], uic = "8007289" },
+  { km = 16.701, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.703, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.508, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.509, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.511, kind = "signal", signal = "stop", dir = -1 },
+  { km = 18.531, kind = "station", label = "Oberrotweil", pos = [48.08938, 7.62064] },
+  { km = 18.538, kind = "signal", signal = "stop", dir = -1 },
+  { km = 18.549, kind = "signal", signal = "stop", dir = -1 },
+  { km = 18.566, kind = "signal", signal = "stop", dir = 1 },
+  { km = 18.577, kind = "signal", signal = "stop", dir = 1 },
+  { km = 18.587, kind = "signal", signal = "stop", dir = 1 },
+  { km = 18.592, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.701, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.964, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.024, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.117, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.391, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.172, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.175, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 22.196, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.249, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.3, kind = "station", label = "Achkarren", uic = "8007291", pos = [48.05956, 7.60805], measured = true },
+  { km = 22.353, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 22.376, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 22.406, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 22.422, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 22.425, kind = "signal", signal = "main", dir = -1 },
+  { km = 22.464, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 25.614, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 25.867, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 25.903, kind = "signal", signal = "crossing_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.306, kmTo = 1.391, length = 94 },
+  { kind = "bridge", kmFrom = 20.23, kmTo = 20.246, length = 20 },
+  { kind = "bridge", kmFrom = 23.681, kmTo = 23.69, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q{cdHkljm@{FqIwFwF_wAw`AyHyD}Di@gFNwkBzQy]Ayf@sI{Y{PiEiGiIsY", v = 80 },
+  { line = "ayndHusnm@}AeF", v = 70 },
+  { line = "_|ndH{znm@{@{A", v = 50 },
+  { line = "{}ndHw}nm@kG_H{DuC", v = 60 },
+  { line = "clodHmkom@s@_@", v = 50 },
+  { line = "wmodHmlom@cDmAgCG_D|@uBdBcDvHmCbQgBhDkBdBsFnAoLqBwDFmEdCuHdK}CjAuCB", v = 70 },
+  { line = "sdrdHqsmm@oHaD", v = 60 },
+  { line = "cnrdHsxmm@qT_Qs[_FyDl@wC~BkEnIgApD", v = 80 },
+  { line = "ostdHc|mm@eCbGmE~CoUv@", v = 70 },
+  { line = "studHgmmm@gN`@cOjD", v = 80 },
+  { line = "_tvdHyfmm@sDd@cJkAqMTiDaAqCsC", v = 70 },
+  { line = "e}wdH_nmm@qQya@gE}G", v = 80 },
+  { line = "_vxdHwynm@y@oA", v = 40 },
+  { line = "ywxdHg|nm@eR_ZiBmIKmJj@kFpb@{tBn@sF?yEmT{lA_l@agBcC}KWsOtHiwAT_L", v = 80 },
+  { line = "eezdHsq~m@LmL", v = 50 },
+  { line = "wdzdHa__n@P}M", v = 40 },
+  { line = "edzdH_n_n@d@ye@mAiL", v = 80 },
+  { line = "mezdHcban@sq@cbDwKwb@", v = 100 },
+  { line = "yd|dH_ign@cAuE[yE", v = 70 },
+  { line = "yg|dHovgn@?i@", v = 80 },
+  { line = "yg|dHywgn@ZaGnAcI", v = 60 },
+  { line = "md|dH_jhn@jDcT", v = 40 },
+  { line = "a_|dHc_in@dC}O", v = 50 },
+  { line = "{z{dHapin@j@kFC}EwCuV", v = 70 },
+  { line = "k~{dHavjn@QkA", tunnel = true, v = 70 },
+  { line = "}~{dHmxjn@mCsT", v = 70 },
+  { line = "kc|dHankn@MeE`@_HhAsE|AgC", v = 60 },
+  { line = "o}{dHchln@|BuC", v = 40 },
+  { line = "qy{dHylln@fEqF", v = 30 },
+]
+posts = [[25, 48.03696, 7.60125], [24, 48.04499, 7.60722], [23, 48.05402, 7.60898], [22, 48.06298, 7.60743], [21, 48.07154, 7.60655], [20, 48.08065, 7.60929], [19, 48.08673, 7.61818], [18, 48.09344, 7.61711], [17, 48.10109, 7.61273], [16, 48.10959, 7.61571], [15, 48.11626, 7.61222], [14, 48.12597, 7.60968], [13, 48.1339, 7.61267], [12, 48.14016, 7.62244], [11, 48.1382, 7.63485], [10, 48.13463, 7.64697], [9, 48.13763, 7.65939], [8, 48.14238, 7.67083], [7, 48.14596, 7.68265], [6, 48.14446, 7.69626], [5, 48.14401, 7.70875], [4, 48.14763, 7.72165], [3, 48.15144, 7.73395], [2, 48.15497, 7.74599], [1, 48.15312, 7.75868]]
+
+[[connections]]
+km = 0
+station = "Riegel-Malterdingen"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 185.87 },
+]
+
+[[connections]]
+km = 0.086
+station = "Riegel-Malterdingen SWEG"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 185.788 },
+]
+
+[[connections]]
+km = 1.716
+station = "Riegel Ort"
+lines = [
+  { id = "9432", ref = "9432", name = "9432 Gottenheim - Riegel Ort", km = -0.003 },
+]

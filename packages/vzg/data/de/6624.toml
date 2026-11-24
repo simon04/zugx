@@ -1,0 +1,148 @@
+id = "6624"
+ref = "6624"
+name = "6624 Annaberg-Buchholz Süd - Schwarzenberg (Erzgeb)"
+operator = "DB RegioNetz Infrastruktur GmbH;Erzgebirgsbahn"
+gauge = "1435"
+wikidata = "Q801842"
+from = "Annaberg-Buchholz Süd"
+to = "Schwarzenberg (Erzgeb)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.114
+kmTo = 24.718
+length = 24.765
+speeds = [[-0.114, 6.855, 50, 50], [6.855, 6.906, 40, 50], [6.906, 7.406, 40, 40], [7.406, 7.886, 50, 40], [7.886, 10.514, 50, 50], [10.514, 10.952, "", ""], [10.952, 14.204, 50, 50], [14.204, 17.25, 40, 40], [17.25, 17.369, 30, ""], [17.369, 17.426, 40, 30], [17.426, 19.145, 40, 40], [19.145, 19.175, 20, 10], [19.175, 20.453, 40, 40], [20.453, 20.481, 10, 10], [20.481, 21.789, 40, 40], [21.789, 23.964, 50, 50], [23.964, 24.558, 40, 40], [24.558, 24.718, "", ""]]
+curves = [[0.159, 0.208, 2560], [0.332, 0.43, 1510], [0.554, 1.049, 620], [1.094, 1.342, 460], [1.387, 1.587, 980], [2.039, 2.354, 250], [2.409, 2.901, 250], [3.108, 3.366, 380], [3.444, 3.884, 280], [3.961, 4.561, 200], [4.781, 5.074, 420], [5.123, 5.343, 960], [5.392, 5.612, 620], [5.905, 6.174, 430], [6.775, 7.026, 810], [7.277, 7.569, 460], [7.865, 8.154, 450], [8.231, 8.665, 420], [9.19, 9.407, 860], [9.527, 9.815, 880], [9.896, 10.241, 560], [10.374, 10.626, 440], [10.768, 11.177, 380], [11.656, 11.917, 430], [11.998, 12.244, 450], [12.343, 12.761, 460], [13.352, 13.63, 470], [13.677, 14.161, 320], [14.21, 14.432, 430], [14.481, 14.902, 270], [15.152, 15.404, 370], [15.46, 15.956, 330], [16.227, 17.902, 240], [18.346, 18.469, 1120], [18.519, 18.69, 620], [18.739, 18.958, 370], [19.012, 19.211, 320], [19.343, 19.478, 440], [19.708, 19.97, 570], [20.364, 20.776, 860], [20.934, 21.295, 510], [22.223, 22.446, 620], [22.796, 23.124, 710], [23.253, 23.357, 1790], [23.976, 24.303, 830], [24.453, 24.603, 820]]
+points = [
+  { km = -0.013, kind = "signal", label = "15 N2", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 0.11, kind = "station", label = "Annaberg-Buchholz Süd", pos = [50.55601, 12.99752], uic = "8006431" },
+  { km = 0.182, kind = "signal", label = "15 P2", signal = "main,speed_limit", dir = 1 },
+  { km = 0.398, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.202, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.373, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.795, kind = "signal", label = "A", signal = "combined,traversable", dir = 1 },
+  { km = 5.89, kind = "stop", label = "Walthersdorf (Erzgeb)", pos = [50.54599, 12.96426] },
+  { km = 6.508, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.623, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 6.855, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.906, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.059, kind = "signal", label = "D", signal = "distant,main", dir = -1 },
+  { km = 7.222, kind = "station", label = "Schlettau (Erzgeb)", ele = 586, pos = [50.55513, 12.95323] },
+  { km = 7.285, kind = "signal", label = "I", signal = "distant,main", dir = 1 },
+  { km = 7.406, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.492, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 7.884, kind = "signal", label = "M", signal = "combined,traversable", dir = -1 },
+  { km = 7.886, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.998, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.29, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.311, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 10.64, kind = "halt", label = "Scheibenberg", pos = [50.54756, 12.91106] },
+  { km = 10.83, kind = "signal", signal = "main", dir = 1 },
+  { km = 11.325, kind = "signal", label = "F", signal = "main", dir = -1 },
+  { km = 14.204, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.205, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.25, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.257, kind = "signal", signal = "distant", dir = 1 },
+  { km = 17.369, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.388, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.426, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.644, kind = "signal", label = "A", signal = "combined", dir = 1 },
+  { km = 17.847, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 17.88, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 18.106, kind = "station", label = "Markersbach", pos = [50.53454, 12.8606] },
+  { km = 18.32, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 18.329, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 18.398, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 18.494, kind = "signal", label = "B", signal = "combined", dir = -1 },
+  { km = 18.768, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.145, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.145, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.174, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.175, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.329, kind = "halt", label = "Raschau", pos = [50.53381, 12.84121] },
+  { km = 19.37, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.904, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.99, kind = "signal", signal = "distant", dir = 1 },
+  { km = 20.453, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 20.453, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 20.481, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 20.66, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 20.662, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 20.711, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 20.714, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 20.719, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 20.837, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 20.838, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 20.839, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 21.356, kind = "station", label = "Grünstädtel", uic = "8006457", pos = [50.52996, 12.81756] },
+  { km = 21.786, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.789, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 21.937, kind = "signal", signal = "distant", dir = 1 },
+  { km = 22.368, kind = "signal", signal = "distant", dir = -1 },
+  { km = 22.864, kind = "signal", signal = "distant", dir = 1 },
+  { km = 23.494, kind = "signal", label = "21 B", signal = "combined", dir = 1 },
+  { km = 23.964, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.156, kind = "signal", label = "21P4", signal = "main,speed_limit", dir = -1 },
+  { km = 24.226, kind = "station", label = "Schwarzenberg (Erzgebirge)", pos = [50.545, 12.78767], uic = "8006665" },
+  { km = 24.459, kind = "signal", label = "21N4", signal = "main,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.323, kmTo = 1.368, length = 50 },
+  { kind = "bridge", kmFrom = 2.04, kmTo = 2.05, length = 10 },
+  { kind = "bridge", kmFrom = 2.618, kmTo = 2.635, length = 16 },
+  { kind = "bridge", kmFrom = 5.594, kmTo = 5.645, length = 51 },
+  { kind = "bridge", kmFrom = 6.343, kmTo = 6.398, length = 55 },
+  { kind = "bridge", kmFrom = 6.448, kmTo = 6.497, length = 49 },
+  { kind = "bridge", kmFrom = 7.48, kmTo = 7.49, length = 10 },
+  { kind = "bridge", kmFrom = 13.415, kmTo = 13.432, length = 17 },
+  { kind = "bridge", kmFrom = 15.986, kmTo = 16.251, length = 245, name = "Eisenbahnviadukt Markersbach" },
+  { kind = "bridge", kmFrom = 16.69, kmTo = 16.791, length = 88 },
+  { kind = "bridge", kmFrom = 17.025, kmTo = 17.122, length = 97 },
+  { kind = "bridge", kmFrom = 18.584, kmTo = 18.6, length = 16 },
+  { kind = "bridge", kmFrom = 19.511, kmTo = 19.535, length = 18 },
+  { kind = "bridge", kmFrom = 19.6, kmTo = 19.775, length = 134 },
+  { kind = "bridge", kmFrom = 21, kmTo = 21.044, length = 14 },
+  { kind = "bridge", kmFrom = 22.411, kmTo = 22.438, length = 31 },
+  { kind = "bridge", kmFrom = 23.161, kmTo = 23.233, length = 70 },
+  { kind = "bridge", kmFrom = 23.562, kmTo = 23.588, length = 28 },
+  { kind = "bridge", kmFrom = 23.706, kmTo = 23.733, length = 29 },
+  { kind = "bridge", kmFrom = 23.834, kmTo = 23.854, length = 21 },
+  { kind = "bridge", kmFrom = 23.874, kmTo = 23.91, length = 36 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "woqsHozinArVlUzNlIjJVjCa@dJ}DnEb@~IhGzY~_@nCpBnEQzEyEpB_AvCLrBrAzClH~Cn^YhGsDtQAdJbBbHnI~LfAfGEdFq@fD_BvCmBlAmYcAiDzAiKdLwJrFqCRuVmAeDt@ad@fl@", v = 50 },
+  { line = "kvpsHksanAgNvc@", v = 40 },
+  { line = "seqsHsn`nA]zH~Brg@vA`GpHvObBtL@pH{Czw@zAj`@hElSbC|GpC`EpLhJfB`C", v = 50 },
+  { line = "guosH__ymAdHpX|@~I" },
+  { line = "cjosHmzwmAi@lJcRtr@a@lFFzOYxEsGdVkAlKNnJlIz}@SnG{ChQKzH|ApJxEtH", v = 50 },
+  { line = "k|osHgtomAnDzGvBlQnA`E|CpCpE@xSqE~BkCxD{KvAwB|BgAhGe@dCaBzPgV`AuFX_PjAuDrBaClBy@~BC`E`CpBlG?fI", v = 40 },
+  { line = "oglsHeupmAsBrG", v = 30 },
+  { line = "cklsHqlpmA{KpJyBtFy@vEeCxs@JzOlBrNV|FcBhMIrD", v = 40 },
+  { line = "u`msHkalmAFbB", v = 20 },
+  { line = "m`msHg~kmA`Fpg@rMjY`Ivc@", v = 40 },
+  { line = "u`lsHqvhmAJx@", v = 10 },
+  { line = "i`lsHwthmA~@lP?ng@ePzl@", v = 40 },
+  { line = "oolsH}lemA}N|f@kZj\\{CbFk]rcA", v = 50 },
+  { line = "a~nsH{{`mAsB|G}@jHaB~[", v = 40 },
+  { line = "ufosHql_mALbM" },
+]
+posts = [[0, 50.55669, 12.9981], [1, 50.54858, 12.99381], [2, 50.54052, 12.98876], [3, 50.53387, 12.98448], [4, 50.53266, 12.97248], [5, 50.53833, 12.96745], [6, 50.54694, 12.96435], [7, 50.55403, 12.95583], [8, 50.5554, 12.94268], [9, 50.55343, 12.93005], [10, 50.55195, 12.9167], [11, 50.54642, 12.90608], [12, 50.54983, 12.89357], [13, 50.55098, 12.88034], [14, 50.55062, 12.86691], [15, 50.54437, 12.85913], [16, 50.537, 12.86503], [17, 50.53132, 12.87323], [18, 50.53439, 12.86212], [19, 50.53446, 12.84802], [20, 50.53076, 12.83387], [21, 50.52926, 12.81935], [22, 50.53289, 12.80999], [23, 50.53954, 12.80039], [24, 50.54463, 12.78893]]
+
+[[connections]]
+km = 0.11
+station = "Annaberg-Buchholz Süd"
+lines = [
+  { id = "6623", ref = "6623", name = "6623 Bärenstein Grenze - Annaberg-Buchholz unt Bf", km = 16.25 },
+]
+
+[[connections]]
+km = 24.226
+station = "Schwarzenberg"
+lines = [
+  { id = "6264", ref = "6264", name = "6264 Schwarzenberg (Erzgeb) - Zwickau (Sachs) Hbf", km = 0.186 },
+  { id = "6626", ref = "6626", name = "6626 Johanngeorgenstadt Grenze - Schwarzenberg (Erzgeb)", km = 17.233 },
+]

@@ -1,0 +1,139 @@
+id = "6264"
+ref = "6264"
+name = "6264 Schwarzenberg (Erzgeb) - Zwickau (Sachs) Hbf"
+operator = "DB Netz AG;DB RegioNetz Infrastruktur GmbH;Erzgebirgsbahn"
+gauge = "1435"
+wikidata = "Q803193"
+from = "Schwarzenberg (Erzgeb)"
+to = "Zwickau (Sachs) Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.135
+kmTo = 38.655
+length = 38.643
+speeds = [[-0.135, 0.133, 60, 60], [0.133, 3.114, 80, 80], [3.114, 3.679, 60, 60], [3.679, 6.191, 70, 70], [6.191, 8.014, 60, 60], [8.014, 8.432, 50, 50], [8.432, 8.871, 60, 60], [8.871, 9.799, 100, 100], [9.799, 10.554, 60, 60], [10.554, 12.396, 70, 70], [12.396, 13.261, 60, 60], [13.261, 37.692, 70, 70], [37.692, 38.655, "", ""]]
+curves = [[-0.017, 0.26, 1020], [0.412, 0.589, 1650], [0.817, 1.349, 470], [1.4, 1.602, 700], [2.008, 2.083, 2770], [2.438, 2.919, 600], [3.046, 3.755, 250], [4.11, 4.337, 1710], [4.54, 5.148, 410], [5.199, 6.136, 410], [6.186, 6.515, 350], [6.566, 6.997, 320], [7.073, 8.782, 240], [9.133, 9.785, 710], [9.86, 10.259, 510], [10.359, 10.609, 490], [11.012, 11.087, 1750], [11.162, 11.312, 850], [11.413, 11.787, 710], [12.162, 12.312, 810], [12.362, 12.712, 450], [12.762, 13.038, 940], [13.138, 13.388, 1420], [14.039, 14.139, 1230], [14.29, 14.891, 370], [15.341, 15.667, 490], [16.042, 16.643, 300], [16.693, 17.194, 390], [17.494, 18.02, 530], [18.221, 19.297, 480], [19.548, 19.998, 1150], [20.123, 20.724, 630], [20.9, 21.623, 300], [21.823, 22.78, 350], [23.03, 23.83, 610], [23.905, 24.056, 960], [24.331, 24.557, 520], [24.682, 24.908, 1050], [25.159, 25.409, 880], [25.585, 25.811, 910], [26.362, 26.462, 1960], [26.713, 26.939, 810], [27.039, 27.24, 1020], [27.666, 27.867, 940], [27.942, 28.142, 1540], [28.243, 28.97, 300], [29.02, 29.872, 520], [30.223, 30.424, 890], [30.474, 30.574, 1480], [30.775, 31.427, 430], [31.678, 31.778, 1940], [31.953, 32.204, 560], [32.254, 32.53, 970], [32.83, 33.38, 600], [33.755, 34.13, 1010], [34.205, 34.53, 480], [34.655, 34.805, 2130], [34.955, 35.48, 690], [35.555, 36.23, 440], [36.33, 36.58, 1220], [36.855, 37.205, 1560], [37.38, 37.53, 920], [37.58, 38.105, 410], [38.18, 38.305, 1510]]
+points = [
+  { km = 0.133, kind = "signal", label = "21P2", signal = "main,speed_limit", dir = -1 },
+  { km = 0.186, kind = "station", label = "Schwarzenberg (Erzgebirge)", pos = [50.545, 12.78767], uic = "8006665" },
+  { km = 0.247, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.385, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.386, kind = "signal", label = "21N2", signal = "main", dir = 1 },
+  { km = 0.745, kind = "signal", label = "21L302Y", signal = "minor", dir = -1 },
+  { km = 0.806, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 2.174, kind = "stop", label = "Schwarzenberg-Neuwelt", pos = [50.5544, 12.76567] },
+  { km = 4.434, kind = "stop", label = "Lauter (Sachs)", pos = [50.56807, 12.74898] },
+  { km = 7.701, kind = "signal", label = "Vh", signal = "distant", dir = 1, measured = true },
+  { km = 8.4, kind = "signal", label = "Vwh", signal = "distant", dir = 1, measured = true },
+  { km = 8.475, kind = "signal", label = "H", signal = "main,traversable", dir = 1, measured = true },
+  { km = 8.775, kind = "signal", signal = "shunting", dir = -1, measured = true },
+  { km = 9.007, kind = "signal", label = "Vb", signal = "distant", dir = 1, measured = true },
+  { km = 9.026, kind = "signal", label = "A1'", signal = "shunting", dir = 1, measured = true },
+  { km = 9.599, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 9.644, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 9.977, kind = "signal", label = "B", signal = "combined,traversable", dir = 1, measured = true },
+  { km = 10.277, kind = "signal", label = "201''", signal = "shunting", dir = 1 },
+  { km = 10.501, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 10.535, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 10.549, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.552, kind = "signal", label = "I", signal = "main,traversable", dir = -1, measured = true },
+  { km = 10.606, kind = "station", label = "Aue (Sachsen)", pos = [50.59172, 12.69859], uic = "8006661" },
+  { km = 10.931, kind = "signal", label = "T", signal = "main,minor,traversable", dir = 1, measured = true },
+  { km = 11.102, kind = "signal", label = "101", signal = "shunting", dir = -1 },
+  { km = 11.344, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 11.543, kind = "signal", label = "X", signal = "combined,traversable", dir = -1, measured = true },
+  { km = 12.243, kind = "signal", label = "Vx", signal = "distant", dir = -1, measured = true },
+  { km = 14.196, kind = "station", label = "Bad Schlema", pos = [50.61892, 12.68009], uic = "8006659" },
+  { km = 19.339, kind = "stop", label = "Hartenstein", pos = [50.65177, 12.65824] },
+  { km = 20.97, kind = "signal", label = "Val", signal = "distant", dir = 1, measured = true },
+  { km = 21.902, kind = "signal", label = "Al", signal = "combined,traversable", dir = 1, measured = true },
+  { km = 22.18, kind = "signal", signal = "shunting", dir = -1, measured = true },
+  { km = 22.657, kind = "signal", label = "'1", signal = "shunting", dir = 1, measured = true },
+  { km = 22.857, kind = "signal", label = "B", signal = "main,traversable", dir = -1, measured = true },
+  { km = 22.914, kind = "station", label = "Fährbrücke", pos = [50.6501, 12.61978] },
+  { km = 23.035, kind = "signal", label = "Vwe", signal = "distant", dir = 1, measured = true },
+  { km = 23.11, kind = "signal", label = "Vwb", signal = "distant", dir = -1 },
+  { km = 23.144, kind = "signal", label = "E", signal = "main,traversable", dir = 1, measured = true },
+  { km = 23.633, kind = "signal", label = "1''", signal = "shunting", dir = -1, measured = true },
+  { km = 23.7, kind = "signal", label = "Vb,d", signal = "distant", dir = -1, measured = true },
+  { km = 23.76, kind = "signal", signal = "shunting", dir = 1, measured = true },
+  { km = 24.003, kind = "signal", label = "H", signal = "main,traversable", dir = -1, measured = true },
+  { km = 24.865, kind = "signal", label = "Vh", signal = "distant", dir = -1, measured = true },
+  { km = 27.092, kind = "stop", label = "Wiesenburg", pos = [50.65254, 12.56688] },
+  { km = 28.96, kind = "stop", label = "Silberstraße", pos = [50.66179, 12.54924] },
+  { km = 32.37, kind = "stop", label = "Wilkau-Haßlau", pos = [50.67541, 12.51331], uic = "8006652" },
+  { km = 34.217, kind = "stop", label = "Cainsdorf", pos = [50.68662, 12.49645] },
+  { km = 36.014, kind = "stop", label = "Zwickau-Schedewitz", pos = [50.70184, 12.49498], uic = "8013434" },
+  { km = 37.92, kind = "signal", label = "K4", signal = "main,traversable", dir = 1 },
+  { km = 38.074, kind = "station", label = "Zwickau (Sachsen) Hauptbahnhof", uic = "8010397", pos = [50.71485, 12.47578], ele = 288 },
+  { km = 38.3, kind = "signal", label = "L4", signal = "main,minor,traversable", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.135, kmTo = -0.087, length = 48 },
+  { kind = "bridge", kmFrom = 1.32, kmTo = 1.337, length = 16 },
+  { kind = "bridge", kmFrom = 1.555, kmTo = 1.582, length = 27 },
+  { kind = "bridge", kmFrom = 3.482, kmTo = 3.531, length = 49 },
+  { kind = "bridge", kmFrom = 4.32, kmTo = 4.37, length = 49 },
+  { kind = "bridge", kmFrom = 8.107, kmTo = 8.195, length = 89 },
+  { kind = "bridge", kmFrom = 8.3, kmTo = 8.366, length = 67 },
+  { kind = "bridge", kmFrom = 9.799, kmTo = 9.845, length = 46 },
+  { kind = "bridge", kmFrom = 13.261, kmTo = 13.311, length = 50 },
+  { kind = "tunnel", kmFrom = 13.327, kmTo = 13.674, length = 347 },
+  { kind = "bridge", kmFrom = 14.103, kmTo = 14.128, length = 25 },
+  { kind = "bridge", kmFrom = 15.593, kmTo = 15.603, length = 11 },
+  { kind = "bridge", kmFrom = 15.629, kmTo = 15.765, length = 136 },
+  { kind = "bridge", kmFrom = 20.294, kmTo = 20.349, length = 55 },
+  { kind = "bridge", kmFrom = 20.786, kmTo = 20.863, length = 77 },
+  { kind = "bridge", kmFrom = 20.986, kmTo = 21.009, length = 23 },
+  { kind = "bridge", kmFrom = 22.106, kmTo = 22.177, length = 71 },
+  { kind = "bridge", kmFrom = 23.964, kmTo = 23.98, length = 16 },
+  { kind = "bridge", kmFrom = 36.235, kmTo = 36.289, length = 54 },
+  { kind = "bridge", kmFrom = 36.663, kmTo = 36.682, length = 20 },
+  { kind = "bridge", kmFrom = 37.692, kmTo = 37.715, length = 23 },
+  { kind = "bridge", kmFrom = 37.819, kmTo = 37.845, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oxotHo~akAqGca@sBeSn@aNfCmI" },
+  { line = "}~otHindkA`JiL|OwXtW}XvOcWtFiGbEsAvEN~ObKdJnBxFUn^oG~F{DpG{KzHiJ`]mP|IqKbDoJxFid@dAwa@nFiX|I{]pAeTlA}FlEqGf[aQtT{TnEeHbF{Oj@{Is@iJqBuF{GmJsBiIMmIlA{I|DuGrOaJlMcMdVib@~GwShAuGhDc]jFey@lIka@lDqh@hFg\\]gh@f@cSU}FqBeLuAqFuBsEyGsHcWcNyCiFoAcHKeF`@{FhEkMvEwEnQaGfCkBjDqHz@eJO_GkAaGcOwWaCgIiAcI]aKZ_WQoNqIss@NiItAwGbGcKtLoEfGBdR~GjEf@|HuAdI}GhN}OnDiHbAoFTgFgA{SPwGvBwIrE_F`]cE|DH~FlDtYf[hDtAhFFzCwA|BcDvG_U|L_\\", v = 70 },
+  { line = "u}|sH_wllA`KcW", tunnel = true, v = 70 },
+  { line = "sq|sHcomlApAgC", v = 70 },
+  { line = "ao|sHksmlA|JgOdGgF`KiEtDAtCbA", v = 60 },
+  { line = "od{sHconlAdJnEdX`FzGA|P}G`a@sY", v = 70 },
+  { line = "gcxsHeeolA`CaCdBoD|DaLfD{O|GkH", v = 60 },
+  { line = "{gwsHavplApDqDdCaEzD{MvAoMv@s\\", v = 100 },
+  { line = "wsvsHu|rlAZiMd@eD|AuD~DkE", v = 60 },
+  { line = "whvsHg|slAdBeFDmH_ByFgD_C", v = 50 },
+  { line = "smvsHuxtlAaHk@eEwEcD_LWkER}D|AsFtCqCfOg@hDoAnBuB|AyF\\uL~BuL?eG", v = 60 },
+  { line = "qyusHcywlACqKtAuKbC{GrDqCzHiAtDLdDhBxGbJvErDlE^rDeBjDwEfLqU`Pef@", v = 70 },
+  { line = "eyrsHitzlAl@mGSyLj@gEpCuEdEs@", v = 60 },
+  { line = "glrsHcy{lAhPvDxDMlC}@bYoWrWqZvJmEtCuCtBkFtAcKn@gf@tBy\\", v = 80 },
+  { line = "}aosHom`mAtAwInCyH", v = 60 },
+]
+posts = [[38, 50.71451, 12.47588], [37, 50.70893, 12.48637], [36, 50.70182, 12.49497], [35, 50.69328, 12.49347], [34, 50.68518, 12.49848], [33, 50.67729, 12.50491], [32, 50.67502, 12.51842], [31, 50.67149, 12.53128], [30, 50.66367, 12.5379], [29, 50.6614, 12.54882], [28, 50.65874, 12.55832], [27, 50.65215, 12.56772], [26, 50.64954, 12.58113], [25, 50.64684, 12.59449], [24, 50.64549, 12.60821], [23, 50.6494, 12.61939], [22, 50.65199, 12.62895], [21, 50.64694, 12.63743], [20, 50.65053, 12.64946], [19, 50.65214, 12.66316], [18, 50.64431, 12.66598], [17, 50.63648, 12.6713], [16, 50.63298, 12.68199], [15, 50.62471, 12.67873], [14, 50.61787, 12.6824], [13, 50.61201, 12.69304], [12, 50.60355, 12.69356], [11, 50.595, 12.69593], [10, 50.5885, 12.70481], [9, 50.5839, 12.71591], [8, 50.58295, 12.72734], [7, 50.58318, 12.73475], [6, 50.57954, 12.74539], [5, 50.57243, 12.74646], [4, 50.56577, 12.75359], [3, 50.56113, 12.76287], [2, 50.55311, 12.76706], [1, 50.54609, 12.77499], [0, 50.54467, 12.7887]]
+
+[[connections]]
+km = 0.186
+station = "Schwarzenberg"
+lines = [
+  { id = "6624", ref = "6624", name = "6624 Annaberg-Buchholz Süd - Schwarzenberg (Erzgeb)", km = 24.226 },
+  { id = "6626", ref = "6626", name = "6626 Johanngeorgenstadt Grenze - Schwarzenberg (Erzgeb)", km = 17.233 },
+]
+
+[[connections]]
+km = 10.606
+station = "Aue"
+lines = [
+  { id = "6645", ref = "6645", name = "6645 Chemnitz Hbf - Blauenthal", km = 50.795 },
+]
+
+[[connections]]
+km = 38.074
+station = "Zwickau Hauptbahnhof"
+lines = [
+  { id = "6258", ref = "6258", name = "6258 Dresden - Abzweig Werdau Bogendreieck", km = 128.404 },
+  { id = "6650", ref = "6650", name = "6650 Zwickau (Sachs) Hbf - Falkenstein (Vogtl)", km = -2.024 },
+]

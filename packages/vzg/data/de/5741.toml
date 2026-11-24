@@ -1,0 +1,77 @@
+id = "5741"
+ref = "5741"
+name = "5741 Bad Reichenhall - Berchtesgaden Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q109561009"
+from = "Bad Reichenhall"
+to = "Berchtesgaden Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.011
+kmTo = 19.131
+length = 19.095
+speeds = [[0.011, 0.945, 50, 50], [0.945, 18.375, "", ""], [18.375, 18.382, 20, 50], [18.382, 18.439, 40, 20], [18.439, 19.131, "", ""]]
+curves = [[0.131, 0.508, 390], [0.76, 1.591, 450], [1.691, 2.069, 310], [2.17, 2.321, 1610], [2.519, 2.765, 1420], [2.815, 2.938, 1470], [3.209, 3.805, 320], [3.854, 4.278, 250], [4.403, 4.553, 830], [4.603, 4.653, 910], [4.702, 4.877, 280], [4.927, 5.451, 380], [5.501, 5.575, 510], [5.7, 5.924, 470], [5.974, 6.698, 280], [6.748, 7.246, 290], [7.471, 7.72, 440], [7.77, 8.05, 560], [8.101, 8.305, 320], [8.356, 8.841, 800], [8.892, 9.096, 400], [9.811, 10.092, 450], [10.242, 10.456, 1010], [10.504, 10.575, 1380], [10.646, 10.718, 1890], [11.22, 11.524, 340], [11.625, 12.459, 790], [12.61, 13.333, 490], [13.582, 13.657, 2590], [13.782, 14.006, 490], [14.405, 14.903, 630], [15.003, 15.202, 330], [15.252, 16.074, 340], [16.124, 17.836, 410], [17.882, 18.045, 390], [18.121, 18.451, 230], [18.502, 18.682, 320], [18.733, 19.031, 430]]
+points = [
+  { km = 0.011, kind = "station", label = "Bad Reichenhall", uic = "8000737", pos = [47.73138, 12.88189] },
+  { km = 0.036, kind = "signal", label = "95N1", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 1.68, kind = "stop", label = "Bad Reichenhall-Kirchberg", pos = [47.71848, 12.87428], uic = "8000738" },
+  { km = 3.344, kind = "stop", label = "Bayerisch Gmain", pos = [47.72027, 12.8944], uic = "8000831" },
+  { km = 7.384, kind = "signal", label = "96P2", signal = "main,traversable", dir = -1 },
+  { km = 7.621, kind = "signal", label = "96N2", signal = "main,traversable", dir = 1 },
+  { km = 13.625, kind = "station", label = "Bischofswiesen", pos = [47.65186, 12.96024], uic = "8000997" },
+  { km = 17.681, kind = "signal", signal = "distant", dir = 1 },
+  { km = 17.888, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 18.005, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 18.136, kind = "signal", label = "99 A", signal = "main,traversable", dir = 1 },
+  { km = 18.209, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 18.242, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 18.323, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 18.375, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.388, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.394, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.419, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 18.439, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.505, kind = "signal", signal = "distant", dir = 1 },
+  { km = 18.573, kind = "signal", label = "99L 201X", signal = "minor", dir = 1 },
+  { km = 18.779, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 18.779, kind = "signal", label = "99 P1", signal = "main,minor,traversable", dir = -1 },
+  { km = 18.812, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 18.88, kind = "stop", label = "Berchtesgaden Hbf", pos = [47.62664, 12.99978] },
+  { km = 18.881, kind = "station", label = "Berchtesgaden Hauptbahnhof", uic = "8000885", pos = [47.62672, 12.99972] },
+  { km = 19.037, kind = "signal", label = "99L 101X", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.381, kmTo = 0.398, length = 16 },
+  { kind = "bridge", kmFrom = 0.467, kmTo = 0.482, length = 15 },
+  { kind = "bridge", kmFrom = 0.572, kmTo = 0.588, length = 16 },
+  { kind = "bridge", kmFrom = 0.706, kmTo = 0.727, length = 21 },
+  { kind = "bridge", kmFrom = 1.262, kmTo = 1.31, length = 48 },
+  { kind = "bridge", kmFrom = 5.179, kmTo = 5.21, length = 31 },
+  { kind = "bridge", kmFrom = 5.981, kmTo = 5.994, length = 13 },
+  { kind = "bridge", kmFrom = 6.5, kmTo = 6.512, length = 12 },
+  { kind = "bridge", kmFrom = 9.906, kmTo = 9.92, length = 14 },
+  { kind = "bridge", kmFrom = 12.775, kmTo = 12.81, length = 34 },
+  { kind = "bridge", kmFrom = 15.197, kmTo = 15.217, length = 20 },
+  { kind = "bridge", kmFrom = 17.492, kmTo = 17.506, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_luaHmmjnAlDbD|BbEzAtFxBxOpAlCxBrB" },
+  { line = "qutaHsainAhAdB", v = 40 },
+  { line = "gstaHm~hnAFL", v = 50 },
+  { line = "_staH_~hnAp@~CBpEaDbQoA`DwGbI}AzFEbGrArIJtDyCrPPhNo@fDqAhC{FzFeI|CyDfDgExAmGfE{L|A_CiAyD{D_De@cF~@wEpEmBz@gO@qLbD}BjDmN~c@yB|D_\\dT{BdCiDpGuGtEgBh@yFHeNnFwIpF_F`FsGjNcF~YoCjFen@~ZcFbEgNjHuECsl@qNoC@sF|AaIc@eGfBeLvA}BtAoD`F_Bt@eSv@qQpPkBdE}@fKmAtDsLtI}DpEmAdHVjLoAnGyGlI}AxG}DpKkEvGyAhJyAzDsE|DuHjNoBtW[pWeAzEqAnBwBlAsJOkBb@{BhC{@jD]hG\\bKdFz]jErT`D~ZhAzVs@jHcDzEoItFyCx@mD]yHwEcJa@" },
+  { line = "_fhbHmoqmAyEuBeQwOqAgCkBcJaHiI", v = 50 },
+]
+posts = [[19, 47.62734, 13.00102], [18, 47.62482, 12.98978], [17, 47.62741, 12.97814], [16, 47.63408, 12.97094], [15, 47.64251, 12.97024], [14, 47.6492, 12.96318], [13, 47.65659, 12.9559], [12, 47.66477, 12.95112], [11, 47.6704, 12.94192], [10, 47.67882, 12.93653], [9, 47.68743, 12.93902], [8, 47.69576, 12.9362], [7, 47.70319, 12.93069], [6, 47.70786, 12.92068], [5, 47.7135, 12.91076], [4, 47.71653, 12.89886], [3, 47.71941, 12.89013], [2, 47.7169, 12.87728], [1, 47.72416, 12.87422]]
+
+[[connections]]
+km = 0.011
+station = "Bad Reichenhall"
+lines = [
+  { id = "5740", ref = "5740", name = "5740 Freilassing - Bad Reichenhall", km = 14.834 },
+]

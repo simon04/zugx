@@ -1,0 +1,32 @@
+id = "6381"
+ref = "6381"
+name = "6381 Wahren Viadukt - Wiederitzsch Strw 6381/6369"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131694612"
+from = "Leipzig Wahrener Viadukt"
+to = "Wiederitzsch Streckenwechsel 6381/6369"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.212
+length = 1.212
+speeds = [[0, 1.212, 60, 60]]
+curves = [[0.125, 0.525, 440], [0.9, 1.1, 600]]
+points = [
+  { km = 0.42, kind = "signal", label = "33 G", signal = "main", dir = -1 },
+  { km = 1.061, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.13, kind = "signal", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0, kmTo = 0.123, length = 123 },
+  { kind = "bridge", kmFrom = 0.315, kmTo = 0.336, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kdqxHmxfjAwKyEcE_FcBuFkJ{g@yGcO", v = 60 },
+]
+posts = [[0, 51.37494, 12.32791], [1, 51.38041, 12.33822]]

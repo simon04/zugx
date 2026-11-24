@@ -1,0 +1,89 @@
+id = "6140"
+ref = "6140"
+name = "6140 Berlin-Lichtenberg - Rummelsburg"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q801944"
+from = "Berlin Frankfurter Allee"
+to = "Berlin-Rummelsburg (Rgbo)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.039
+kmTo = 4.138
+length = 4.182
+speeds = [[-0.039, 0.446, 60, 60], [0.446, 1.172, 50, 50], [1.172, 4.138, 60, 60]]
+curves = [[0.211, 0.633, 430], [0.752, 1.019, 430], [1.341, 1.947, 790], [2.067, 2.216, 1210], [3.911, 3.96, 2590]]
+points = [
+  { km = -0.039, kind = "station", label = "Frankfurter Allee", pos = [52.51362, 13.47544] },
+  { km = 0.059, kind = "signal", signal = "minor,traversable", dir = -1 },
+  { km = 0.258, kind = "signal", label = "44 GG", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 0.446, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.448, kind = "signal", label = "B", signal = "combined,route,traversable", dir = 1 },
+  { km = 0.764, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.874, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 1.074, kind = "halt", label = "Nöldnerplatz", uic = "8089026", pos = [52.50369, 13.48494] },
+  { km = 1.172, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 1.172, kind = "signal", label = "06A", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1, measured = true },
+  { km = 1.489, kind = "signal", label = "Vf", signal = "distant", dir = -1, measured = true },
+  { km = 1.53, kind = "signal", signal = "shunting", dir = -1, measured = true },
+  { km = 1.683, kind = "signal", label = "06L604X", signal = "minor,traversable", dir = 1 },
+  { km = 1.786, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.855, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.879, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.888, kind = "signal", label = "06L614Y", signal = "minor,traversable", dir = -1 },
+  { km = 2.1, kind = "signal", label = "06P614", signal = "main,minor,route,traversable", dir = -1, measured = true },
+  { km = 2.102, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.157, kind = "signal", label = "06VWzr614", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.409, kind = "signal", label = "06 ZR 614", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1, measured = true },
+  { km = 2.624, kind = "halt", label = "Betriebsbahnhof Rummelsburg", uic = "8089006", pos = [52.49389, 13.49773] },
+  { km = 2.886, kind = "signal", label = "06ZV654", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 3.501, kind = "signal", label = "06ZS654", signal = "combined,speed_limit,traversable", dir = 1, measured = true },
+  { km = 3.577, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 3.596, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.604, kind = "signal", label = "06L664Y", signal = "minor", dir = -1 },
+  { km = 3.779, kind = "signal", label = "06L664X", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.206, kmTo = 0.238, length = 32 },
+  { kind = "bridge", kmFrom = 0.333, kmTo = 0.352, length = 19 },
+  { kind = "bridge", kmFrom = 0.603, kmTo = 0.635, length = 40 },
+  { kind = "bridge", kmFrom = 1.062, kmTo = 1.125, length = 63 },
+  { kind = "bridge", kmFrom = 1.207, kmTo = 1.224, length = 18 },
+  { kind = "bridge", kmFrom = 1.349, kmTo = 1.386, length = 37 },
+  { kind = "bridge", kmFrom = 1.573, kmTo = 1.669, length = 101 },
+  { kind = "bridge", kmFrom = 1.923, kmTo = 1.953, length = 31 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{eo_Ie~fqAjQuC~EmD", v = 60 },
+  { line = "oln_IihgqAlNwZhDqCzJaD", v = 50 },
+  { line = "{km_IumhqAnSwHrEeEhD}FjIs]v~@wqC", v = 60 },
+]
+posts = [[0, 52.51148, 13.47579], [1, 52.50404, 13.48269], [2, 52.49654, 13.48946], [3, 52.49145, 13.50174], [4, 52.48618, 13.51378]]
+
+[[connections]]
+km = -0.039
+station = "Frankfurter Allee"
+lines = [
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 48.837 },
+]
+
+[[connections]]
+km = 1.074
+station = "Nöldnerplatz"
+lines = [
+  { id = "6006", ref = "6006", name = "6006 Berlin Warschauer Straße - Strausberg", km = 3.512 },
+]
+
+[[connections]]
+km = 2.624
+station = "Betriebsbahnhof Rummelsburg"
+lines = [
+  { id = "6004", ref = "6004", name = "6004 Berlin Ostbahnhof - Erkner", km = 4.669 },
+  { id = "6070", ref = "6070", name = "6070 Berlin-Rummelsburg - Abzw Biesdorfer Kreuz Süd-West", km = 4.795 },
+  { id = "6152", ref = "6152", name = "6152 Berlin Ostbahnhof - Berlin-Rummelsburg", km = 4.797 },
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 4.815 },
+]

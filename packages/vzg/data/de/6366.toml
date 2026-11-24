@@ -1,0 +1,166 @@
+id = "6366"
+ref = "6366"
+name = "6366 Leipzig - Geithain"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q802638"
+from = "Leipzig"
+to = "Geithain"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.009
+kmTo = 43.966
+length = 43.483
+speeds = [[-0.009, 0.522, 40, 40], [0.522, 1.095, "", ""], [1.095, 5.102, 100, 100], [5.102, 6.104, 60, 60], [6.104, 6.376, "", ""], [6.376, 11.364, 160, 160], [11.364, 13.785, 150, 150], [13.785, 13.979, 100, 100], [13.979, 29.023, 160, 160], [29.023, 29.674, 90, 90], [29.674, 33.539, 150, 150], [33.539, 34.125, 90, 90], [34.125, 36.618, 110, 110], [36.618, 38.005, 90, 90], [38.005, 43.303, 110, 110], [43.303, 43.966, 80, 80]]
+curves = [[0.191, 0.316, 1640], [0.366, 0.591, 1330], [0.716, 1.091, 500], [1.966, 2.325, 1000], [2.548, 2.659, 1940], [3.244, 3.857, 1230], [5.027, 5.312, 570], [5.718, 5.996, 470], [6.071, 6.371, 770], [11.302, 11.677, 1390], [12.34, 12.392, 2660], [13.603, 13.708, 2370], [13.787, 14.077, 890], [16.261, 16.34, 2410], [17.366, 17.498, 2610], [21.656, 21.709, 1990], [21.946, 21.998, 2200], [22.235, 22.288, 2840], [22.367, 22.446, 2620], [22.577, 22.656, 2920], [24.433, 24.784, 1520], [25.534, 25.956, 1420], [29.033, 29.383, 480], [29.433, 29.733, 550], [33.533, 33.883, 480], [33.933, 34.158, 610], [34.383, 34.558, 1250], [34.983, 35.383, 730], [36.658, 37.183, 410], [37.608, 37.958, 480], [38.808, 39.358, 660], [39.808, 40.133, 1010], [40.208, 40.583, 680], [40.733, 41.358, 610], [41.808, 42.258, 550], [43.358, 43.858, 410]]
+points = [
+  { km = -0.009, kind = "station", label = "Leipzig Hauptbahnhof (Tiefgleise)", uic = "8015378", pos = [51.34543, 12.38013] },
+  { km = 0.08, kind = "station", label = "Leipzig Hauptbahnhof", pos = [51.34655, 12.38309], uic = "8023179" },
+  { km = 0.227, kind = "signal", label = "50Q23", signal = "combined,speed_limit", dir = 1 },
+  { km = 0.522, kind = "signal", label = "50ZV24", signal = "combined", dir = 1 },
+  { km = 1.095, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.102, kind = "signal", label = "50ZR24", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = 1.106, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.487, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.722, kind = "signal", label = "50ZU24", signal = "combined", dir = -1 },
+  { km = 2.057, kind = "signal", label = "50N24", signal = "main", dir = -1 },
+  { km = 2.124, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 2.637, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.803, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 3.136, kind = "signal", label = "50F", signal = "combined", dir = -1 },
+  { km = 3.4, kind = "halt", label = "Leipzig-Sellerhausen", uic = "8023182", pos = [51.34527, 12.42427] },
+  { km = 3.557, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.67, kind = "signal", label = "53 41", signal = "combined,wrong_road", dir = 1 },
+  { km = 4.924, kind = "stop", label = "Leipzig-Paunsdorf", pos = [51.3442, 12.44383], uic = "8023470" },
+  { km = 5.145, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.846, kind = "stop", label = "Leipzig Werkstättenstraße", pos = [51.34056, 12.45637], uic = "8047958" },
+  { km = 6.376, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.568, kind = "stop", label = "Leipzig-Mölkau", pos = [51.3255, 12.45976] },
+  { km = 9.727, kind = "stop", label = "Leipzig-Holzhausen", pos = [51.30597, 12.46147], uic = "8047982" },
+  { km = 10.352, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.364, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.717, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 12.093, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 12.133, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 12.141, kind = "signal", label = "1P2", signal = "main,traversable", dir = -1 },
+  { km = 12.251, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 12.302, kind = "station", label = "Leipzig-Liebertwolkwitz", pos = [51.28377, 12.46939], uic = "8023519" },
+  { km = 12.343, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 12.436, kind = "signal", signal = "distant", dir = -1 },
+  { km = 12.495, kind = "signal", label = "1N2", signal = "main,traversable", dir = 1 },
+  { km = 13.785, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.979, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.813, kind = "stop", label = "Großpösna", uic = "8011755", pos = [51.26669, 12.48891] },
+  { km = 16.469, kind = "stop", label = "Oberholz", uic = "8012526", pos = [51.25778, 12.50651] },
+  { km = 18.323, kind = "signal", signal = "distant,speed_limit_distant" },
+  { km = 19.388, kind = "signal", signal = "combined,speed_limit" },
+  { km = 20.174, kind = "signal", label = "2P2", signal = "main,traversable", dir = -1 },
+  { km = 20.272, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 20.343, kind = "station", label = "Belgershain", uic = "8011132", pos = [51.23389, 12.54283] },
+  { km = 20.403, kind = "signal", label = "2N2", signal = "main,traversable", dir = 1 },
+  { km = 25.053, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 25.985, kind = "stop", label = "Otterwisch", uic = "8012597", pos = [51.20029, 12.60186] },
+  { km = 28.859, kind = "stop", label = "Lauterbach-Steinbach", uic = "8012178", pos = [51.17501, 12.61945] },
+  { km = 29.023, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 29.674, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 31.152, kind = "signal", signal = "distant,speed_limit_distant" },
+  { km = 32.155, kind = "signal", label = "3A", signal = "combined,speed_limit", dir = 1 },
+  { km = 32.588, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 32.687, kind = "signal", label = "3P1", signal = "main,traversable", dir = -1 },
+  { km = 32.889, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 32.973, kind = "station", label = "Bad Lausick", pos = [51.14394, 12.64857], uic = "8023525" },
+  { km = 33.111, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 33.115, kind = "signal", label = "3N1", signal = "main,traversable", dir = 1 },
+  { km = 33.352, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 33.539, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 33.649, kind = "signal", label = "3F", signal = "combined,speed_limit", dir = -1 },
+  { km = 34.125, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 35.603, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 36.618, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 37.579, kind = "stop", label = "Hopfgarten (Sachs)", pos = [51.10569, 12.66261], uic = "8023526" },
+  { km = 37.656, kind = "signal", signal = "distant", dir = 1 },
+  { km = 38.005, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 39.808, kind = "stop", label = "Tautenhain", pos = [51.08992, 12.67945], uic = "8047988" },
+  { km = 42.599, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 43.303, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 43.544, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 43.557, kind = "signal", label = "4A", signal = "combined,short_route,speed_limit", dir = 1 },
+  { km = 43.609, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 43.866, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 43.913, kind = "signal", signal = "crossing_info", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.622, kmTo = 3.644, length = 19 },
+  { kind = "bridge", kmFrom = 4.137, kmTo = 4.163, length = 23 },
+  { kind = "bridge", kmFrom = 5.015, kmTo = 5.042, length = 24 },
+  { kind = "bridge", kmFrom = 6.774, kmTo = 6.808, length = 34 },
+  { kind = "bridge", kmFrom = 11.854, kmTo = 11.883, length = 28 },
+  { kind = "bridge", kmFrom = 13.785, kmTo = 13.807, length = 21 },
+  { kind = "bridge", kmFrom = 14.489, kmTo = 14.545, length = 53 },
+  { kind = "bridge", kmFrom = 14.604, kmTo = 14.623, length = 17 },
+  { kind = "bridge", kmFrom = 16.235, kmTo = 16.258, length = 22 },
+  { kind = "bridge", kmFrom = 20.699, kmTo = 20.723, length = 23 },
+  { kind = "bridge", kmFrom = 21.402, kmTo = 21.42, length = 17 },
+  { kind = "bridge", kmFrom = 24.289, kmTo = 24.316, length = 28 },
+  { kind = "bridge", kmFrom = 25.065, kmTo = 25.088, length = 25 },
+  { kind = "bridge", kmFrom = 25.702, kmTo = 25.72, length = 19 },
+  { kind = "bridge", kmFrom = 28.307, kmTo = 28.321, length = 15 },
+  { kind = "bridge", kmFrom = 30.86, kmTo = 30.883, length = 24 },
+  { kind = "bridge", kmFrom = 31.78, kmTo = 31.811, length = 31 },
+  { kind = "bridge", kmFrom = 31.886, kmTo = 31.931, length = 45 },
+  { kind = "bridge", kmFrom = 33.751, kmTo = 33.766, length = 15 },
+  { kind = "bridge", kmFrom = 34.128, kmTo = 34.14, length = 13 },
+  { kind = "bridge", kmFrom = 34.349, kmTo = 34.389, length = 40 },
+  { kind = "bridge", kmFrom = 38.398, kmTo = 38.41, length = 12 },
+  { kind = "bridge", kmFrom = 38.83, kmTo = 38.873, length = 43 },
+  { kind = "bridge", kmFrom = 39.507, kmTo = 39.517, length = 10 },
+  { kind = "bridge", kmFrom = 40.276, kmTo = 40.287, length = 11 },
+  { kind = "bridge", kmFrom = 40.553, kmTo = 40.565, length = 12 },
+  { kind = "bridge", kmFrom = 40.649, kmTo = 40.661, length = 12 },
+  { kind = "bridge", kmFrom = 40.776, kmTo = 40.801, length = 25 },
+  { kind = "bridge", kmFrom = 42.866, kmTo = 42.888, length = 22 },
+  { kind = "bridge", kmFrom = 43.421, kmTo = 43.44, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "afkxHqoqjAwJeK{JwO", v = 40 },
+  { line = "u}kxHolrjAuI{Vy@gHAkK" },
+  { line = "gjlxH_zsjA|BepAr@_MhGs_@~Owr@hC}Tl@{TdAk`B", v = 100 },
+  { line = "mckxHwz}jAnAiMzOgl@fEeHnHeF", v = 60 },
+  { line = "i`jxHuf`kAdFoBtFk@" },
+  { line = "mqixHqk`kAphEoOtlAgM", v = 160 },
+  { line = "ez`xHijakAdEgAxGqD~eBirA", v = 150 },
+  { line = "ed}wHmedkAhGwH", v = 100 },
+  { line = "{{|wHeodkAbmAczCnh@ugA|pDmaGhJqQhG_O|GmSpr@acCpGiNx`@mp@tG}IzIuHvhDeuB", v = 160 },
+  { line = "oziwHa|_lAnDeChCeD`H{U`EkG", v = 90 },
+  { line = "qaiwHudalAb_Ew`D", v = 150 },
+  { line = "macwHmfflA~CqBhEs@dMzBpEO", v = 90 },
+  { line = "kabwHghflArRyEj[{QzGwBfIJ`dA|N", v = 110 },
+  { line = "ey}vHkuflAnJZnGiDfDsFfR_l@xDuEdGoC", v = 90 },
+  { line = "u~{vHsyhlAxm@yThFoDbEqFnD{IxPin@dDiHvGmK`DiIfGwa@tB{HtDmHpGaGn]qOlDq@|DFjHnCpu@vd@", v = 110 },
+  { line = "cttvHo|mlAlHnDfHGfG{DdE{H", v = 80 },
+]
+posts = [[0, 51.34456, 12.38288], [1, 51.35031, 12.39335], [2, 51.34965, 12.40771], [3, 51.34659, 12.41958], [4, 51.3444, 12.43181], [5, 51.34411, 12.44473], [6, 51.3393, 12.45756], [7, 51.33047, 12.45939], [8, 51.3215, 12.46013], [9, 51.31253, 12.46088], [10, 51.30356, 12.46164], [11, 51.29463, 12.46324], [12, 51.28615, 12.46744], [13, 51.27847, 12.47355], [14, 51.27106, 12.48025], [15, 51.26568, 12.49086], [16, 51.26033, 12.5015], [17, 51.25474, 12.5118], [18, 51.24866, 12.52138], [19, 51.24234, 12.53055], [20, 51.23601, 12.53973], [21, 51.22972, 12.54896], [22, 51.22339, 12.55811], [23, 51.21815, 12.56882], [24, 51.2136, 12.58057], [25, 51.20776, 12.59259], [26, 51.2002, 12.60187], [27, 51.19141, 12.60801], [28, 51.18261, 12.61411], [29, 51.17387, 12.6202], [30, 51.1671, 12.62903], [31, 51.15915, 12.63573], [32, 51.1512, 12.64242], [33, 51.14324, 12.64911], [34, 51.13494, 12.65293], [35, 51.12639, 12.65695], [36, 51.11753, 12.65637], [37, 51.10874, 12.65592], [38, 51.10271, 12.666], [39, 51.09414, 12.67027], [40, 51.08889, 12.6817], [41, 51.08417, 12.69355], [42, 51.07599, 12.6989], [43, 51.06764, 12.6938]]
+
+[[connections]]
+km = -0.009
+station = "Leipzig Hauptbahnhof"
+lines = [
+  { id = "5919", ref = "5919", name = "5919 Eltersdorf - Leipzig Hbf", km = 311.76 },
+  { id = "6363", ref = "6363", name = "6363 Leipzig Hbf - Dresden-Neustadt", km = -0.114 },
+  { id = "6367", ref = "6367", name = "6367 Leipzig Hbf - Großkorbetha", km = -0.341 },
+  { id = "6382", ref = "6382", name = "6382 Leipzig-Wahren - Leipzig Hbf", km = 9.155 },
+  { id = "6396", ref = "6396", name = "6396 City-Tunnel Leipzig", km = 3.691 },
+  { id = "6411", ref = "6411", name = "6411 Trebnitz – Leipzig", km = 81.148 },
+]
+
+[[connections]]
+km = 4.924
+station = "Leipzig-Paunsdorf"
+lines = [
+  { id = "6363", ref = "6363", name = "6363 Leipzig Hbf - Dresden-Neustadt", km = 4.693 },
+  { id = "6369", ref = "6369", name = "6369 Leipzig-Wahren - Engelsdorf", km = 14.898 },
+]

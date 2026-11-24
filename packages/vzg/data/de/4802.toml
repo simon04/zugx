@@ -1,0 +1,73 @@
+id = "4802"
+ref = "4802"
+operator = "DB Netz"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.276
+length = 1.276
+speeds = [[0, 0.93, "", ""], [0.93, 1.276, 60, 60]]
+curves = [[0.325, 0.525, 660], [0.65, 0.75, 1020], [0.975, 1.175, 650]]
+points = [
+  { km = 0.023, kind = "station", label = "Stuttgart Hauptbahnhof", pos = [48.78561, 9.1834], uic = "8029034" },
+  { km = 0.07, kind = "signal", signal = "departure", dir = 1 },
+  { km = 0.179, kind = "signal", label = "013 II", signal = "minor", dir = 1 },
+  { km = 0.19, kind = "signal", label = "014 I", signal = "minor", dir = 1 },
+  { km = 0.383, kind = "signal", label = "014 II", signal = "minor", dir = 1 },
+  { km = 0.384, kind = "signal", label = "IX", signal = "minor,speed_limit", dir = -1 },
+  { km = 0.426, kind = "signal", label = "R 015", signal = "distant,main", dir = 1 },
+  { km = 0.566, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.57, kind = "station", label = "Budapester Platz", pos = [48.79047, 9.18572] },
+  { km = 0.596, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.619, kind = "signal", label = "184 II", signal = "minor", dir = 1 },
+  { km = 0.679, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.767, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.881, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.93, kind = "signal", label = "S 566", signal = "distant,main", dir = -1 },
+  { km = 1.004, kind = "station", label = "Milchhof", pos = [48.79349, 9.18986] },
+  { km = 1.128, kind = "signal", label = "N 564", signal = "distant,main,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.601, kmTo = 0.627, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "amwhHuk`w@mS}Q}HgOyFcP" },
+  { line = "gsxhH_`bw@kDwIkGsH", v = 60 },
+]
+posts = [[0, 48.78561, 9.18219], [1, 48.79208, 9.19134]]
+
+[[connections]]
+km = 0.023
+station = "Stuttgart Hauptbahnhof"
+lines = [
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 0.196 },
+  { id = "4713", ref = "4713", name = "4713 Stuttgart-Bad Cannstatt - Waiblingen", km = 0.423 },
+  { id = "4800", ref = "4800", name = "4800 Stuttgart - Bretten Strw 4130/4800", km = 0.213 },
+  { id = "4801", ref = "4801", name = "4801 Stuttgart Hbf - Bietigheim-Bissingen", km = 0.261 },
+  { id = "4860", ref = "4860", name = "Gäubahn", km = 0.203 },
+  { id = "4861", ref = "4861", name = "4861 Stuttgart Hbf - Filderstadt", km = -0.016 },
+]
+
+[[connections]]
+km = 0.57
+station = "Budapester Platz"
+lines = [
+  { id = "4701", ref = "4701", name = "4701 Stuttgart Hbf - Plochingen", km = 0.768 },
+]
+
+[[connections]]
+km = 1.004
+station = "Milchhof"
+lines = [
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 1.14 },
+  { id = "4701", ref = "4701", name = "4701 Stuttgart Hbf - Plochingen", km = 1.166 },
+  { id = "4713", ref = "4713", name = "4713 Stuttgart-Bad Cannstatt - Waiblingen", km = -0.36 },
+  { id = "4800", ref = "4800", name = "4800 Stuttgart - Bretten Strw 4130/4800", km = 1.221 },
+  { id = "4801", ref = "4801", name = "4801 Stuttgart Hbf - Bietigheim-Bissingen", km = 1.166 },
+  { id = "4860", ref = "4860", name = "Gäubahn", km = 1.192 },
+]

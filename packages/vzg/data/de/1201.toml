@@ -1,0 +1,85 @@
+id = "1201"
+ref = "1201"
+name = "1201 Niebüll - Süderlügum (Grenze)"
+operator = "DB Netz AG;neg Niebüll"
+gauge = "1435"
+wikidata = "Q3916243"
+from = "Niebüll"
+to = "Süderlügum (Grenze)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 161.51
+kmTo = 175.296
+length = 13.78
+speeds = [[161.51, 162.063, 40, 40], [162.063, 162.205, 50, 50], [162.205, 162.354, "", ""], [162.354, 163.946, 80, ""], [163.946, 175.296, "", ""]]
+curves = [[161.615, 161.715, 1060], [162.115, 162.165, 2020], [162.215, 162.515, 1000], [162.59, 162.64, 2220], [167.09, 167.439, 1850], [170.493, 171.396, 1630], [172.946, 173.696, 1780], [175.146, 175.196, 2160]]
+points = [
+  { km = 161.665, kind = "signal", label = "P4", signal = "main", dir = -1 },
+  { km = 161.667, kind = "signal", signal = "minor", dir = -1 },
+  { km = 161.686, kind = "signal", signal = "stop", dir = -1 },
+  { km = 161.963, kind = "signal", signal = "stop", dir = -1 },
+  { km = 161.99, kind = "station", label = "Niebüll neg", uic = "8074343", pos = [54.78938, 8.83278] },
+  { km = 162, kind = "station", label = "Niebüll", pos = [54.78928, 8.83467], uic = "8004343" },
+  { km = 162.062, kind = "signal", signal = "stop", dir = 1 },
+  { km = 162.063, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 162.065, kind = "signal", label = "4 II", signal = "minor", dir = 1 },
+  { km = 162.067, kind = "signal", label = "N4", signal = "main", dir = 1 },
+  { km = 162.18, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 162.348, kind = "signal", signal = "crossing_distant,crossing_hint,crossing_info", dir = 1 },
+  { km = 162.354, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 162.636, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 162.664, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 162.869, kind = "signal", label = "G", signal = "main", dir = -1 },
+  { km = 162.99, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 163.121, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 163.299, kind = "signal", signal = "distant", dir = -1 },
+  { km = 165.673, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 166.478, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 167.188, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 167.378, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 167.446, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 167.736, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 167.786, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 167.807, kind = "stop", label = "Uphusum", uic = "8006026", pos = [54.83881, 8.86324] },
+  { km = 167.997, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 168.208, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 171.822, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 171.848, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 171.875, kind = "stop", label = "Süderlügum", pos = [54.87101, 8.88931], uic = "8005789" },
+  { km = 171.913, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 172.233, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 172.306, kind = "signal", signal = "crossing", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 163.946, kmTo = 163.959, length = 13 },
+  { kind = "bridge", kmFrom = 167.273, kmTo = 167.3, length = 28 },
+  { kind = "bridge", kmFrom = 175.274, kmTo = 175.296, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "upanIg~cu@jIiHjcA}dAnPeLnGuBhKsAbyAoEzNdA`MdFxLtJnwC`jDzIrF~fDl~A" },
+  { line = "kjomIi`~t@llAtk@tFpA", v = 80 },
+  { line = "gulmIaq|t@jGD" },
+  { line = "{llmI{p|t@|FQ", v = 50 },
+  { line = "}dlmImq|t@rTClHcA", v = 40 },
+]
+posts = [[175, 54.89713, 8.87503], [174, 54.88938, 8.88296], [173, 54.8811, 8.88858], [172, 54.87211, 8.88927], [171, 54.86315, 8.88912], [170, 54.85531, 8.8818], [169, 54.84781, 8.87333], [168, 54.84029, 8.86483], [167, 54.8324, 8.85728], [166, 54.82385, 8.85243], [165, 54.8153, 8.84757], [164, 54.80676, 8.84271], [163, 54.79821, 8.83785], [162, 54.7895, 8.83497]]
+
+[[connections]]
+km = 161.99
+station = "Niebüll neg"
+lines = [
+  { id = "1210", ref = "1210", name = "1210 Elmshorn, W 104 - Westerland (Sylt)", km = 198.429 },
+  { id = "9100", ref = "9100", name = "9100 Niebüll - Dagebüll Mole", km = 0.066 },
+]
+
+[[connections]]
+km = 162
+station = "Niebüll"
+lines = [
+  { id = "1210", ref = "1210", name = "1210 Elmshorn, W 104 - Westerland (Sylt)", km = 198.439 },
+  { id = "9100", ref = "9100", name = "9100 Niebüll - Dagebüll Mole", km = 0 },
+]

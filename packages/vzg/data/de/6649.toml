@@ -1,0 +1,31 @@
+id = "6649"
+ref = "6649"
+name = "2"
+operator = "DB Netz AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 8.668
+kmTo = 9.723
+length = 1.055
+speeds = [[8.668, 9.723, "", ""]]
+curves = [[8.768, 9.219, 250], [9.294, 9.469, 560], [9.545, 9.62, 860]]
+points = [
+  { km = 8.668, kind = "signal", label = "7Va", signal = "distant", dir = 1, measured = true },
+  { km = 8.7, kind = "signal", signal = "speed_limit_distant", dir = 1, measured = true },
+  { km = 9.41, kind = "signal", label = "7A", signal = "combined,traversable", dir = 1, measured = true },
+  { km = 9.41, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 9.61, kind = "signal", signal = "shunting", dir = -1, measured = true },
+  { km = 9.723, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 8.844, kmTo = 8.859, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "suyrHalsjAy@sFBqGhAaGjBgDvCiBdMsAbJuFfEoA" },
+]
+posts = [[9, 50.43529, 12.3968]]

@@ -1,0 +1,68 @@
+id = "4724"
+ref = "4724"
+name = "4724 Stuttgart-Untertürkheim - Stuttgart Hafen"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q15856797"
+from = "Stuttgart-Untertürkheim"
+to = "Stuttgart Hafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.25
+kmTo = 2.169
+length = 1.925
+speeds = [[0.25, 0.274, "", ""], [0.274, 0.845, 40, 40], [0.845, 1.216, 30, 40], [1.216, 2.169, 30, 30]]
+curves = [[0.374, 0.428, 1710], [0.602, 0.955, 590], [1.228, 1.419, 830]]
+points = [
+  { km = 0.25, kind = "station", label = "Stuttgart-Untertürkheim", uic = "8029045", pos = [48.77982, 9.25047] },
+  { km = 0.25, kind = "station", label = "Untertürkheim Bf", pos = [48.77924, 9.24995] },
+  { km = 0.323, kind = "signal", label = "090", signal = "minor", dir = -1 },
+  { km = 0.443, kind = "signal", label = "Va 800", signal = "distant", dir = 1 },
+  { km = 0.529, kind = "signal", signal = "combined,minor,train_protection,traversable", dir = -1 },
+  { km = 0.532, kind = "signal", label = "C 355", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 0.845, kind = "signal", label = "A 800", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 0.849, kind = "signal", label = "60 VWm 899", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.005, kind = "signal", label = "Vc 355", signal = "distant", dir = -1 },
+  { km = 1.065, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 1.116, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.221, kind = "signal", label = "871", signal = "minor", dir = -1 },
+  { km = 1.223, kind = "signal", label = "P 801", signal = "main,minor,route,speed_limit", dir = -1 },
+  { km = 1.273, kind = "signal", label = "60Vzr", signal = "distant", dir = 1 },
+  { km = 1.373, kind = "signal", label = "872", signal = "minor", dir = 1 },
+  { km = 1.457, kind = "signal", signal = "catenary_mast,combined,minor,speed_limit,train_protection,traversable", dir = -1 },
+  { km = 1.482, kind = "signal", label = "808 I", signal = "minor", dir = -1 },
+  { km = 2.169, kind = "signal", label = "808 II", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.869, kmTo = 0.964, length = 83 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "washHmjpw@ah@nZaHhB", v = 30 },
+  { line = "{sthHskow@aM|A", v = 40 },
+  { line = "}auhHuhow@qCb@", tunnel = true, v = 40 },
+  { line = "ofuhHqgow@kCrAkBvB{N|[", v = 40 },
+  { line = "c~uhHgdnw@[p@" },
+]
+posts = [[2, 48.76471, 9.26298], [1, 48.7733, 9.25857]]
+
+[[connections]]
+km = 0.25
+station = "Stuttgart-Untertürkheim"
+lines = [
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 7.05 },
+  { id = "4701", ref = "4701", name = "4701 Stuttgart Hbf - Plochingen", km = 7.054 },
+  { id = "4720", ref = "4720", name = "4720 Stuttgart-Untertürkheim - Kornwestheim Pbf", km = -0.037 },
+]
+
+[[connections]]
+km = 0.25
+station = "Untertürkheim Bf"
+lines = [
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 6.985 },
+  { id = "4701", ref = "4701", name = "4701 Stuttgart Hbf - Plochingen", km = 6.994 },
+  { id = "4720", ref = "4720", name = "4720 Stuttgart-Untertürkheim - Kornwestheim Pbf", km = 0.047 },
+]

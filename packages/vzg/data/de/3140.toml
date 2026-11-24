@@ -1,0 +1,87 @@
+id = "3140"
+ref = "3140"
+name = "3140 Biewer Streckenwechsel 3141/3140 - Igel Grenze"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Biewer Streckenwechsel 3141/3140"
+to = "Igel Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 2.954
+kmTo = 19.187
+length = 16.155
+speeds = [[2.954, 3.478, 60, 60], [3.478, 7, 90, 90], [7, 8.4, 80, 80], [8.4, 8.607, 70, 70], [8.607, 8.9, "", ""], [8.9, 13.861, 90, 90], [13.861, 14.419, 80, 80], [14.419, 14.44, "", 80], [14.44, 14.485, 80, 80], [14.485, 15.578, "", ""], [15.578, 18.064, 90, 90], [18.064, 18.369, "", 90], [18.369, 19.023, "", 80], [19.023, 19.187, 80, 80]]
+curves = [[3.504, 4.011, 1260], [4.605, 4.764, 1440], [4.974, 5.099, 1810], [5.202, 5.418, 1210], [5.585, 5.706, 1720], [5.938, 6.327, 1580], [7.008, 7.291, 680], [8.189, 8.842, 860], [12.355, 12.507, 1900], [12.559, 12.792, 1530], [13.836, 14.004, 1010], [14.052, 14.385, 430], [14.61, 15.088, 610], [15.25, 15.343, 2160], [15.724, 15.932, 880], [16.106, 16.183, 2430], [16.753, 16.915, 1540], [17.309, 17.824, 560], [18.432, 18.978, 590], [19.032, 19.082, 650]]
+points = [
+  { km = 3.478, kind = "signal", label = "P1", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 4.475, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.715, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.177, kind = "stop", label = "Trier-Pallien", pos = [49.76391, 6.62986] },
+  { km = 6.806, kind = "signal", signal = "minor", dir = -1 },
+  { km = 7.001, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.261, kind = "signal", signal = "minor", dir = 1 },
+  { km = 7.323, kind = "signal", signal = "minor", dir = -1 },
+  { km = 7.592, kind = "signal", label = "S11", signal = "main,minor", dir = -1 },
+  { km = 7.686, kind = "station", label = "Trier West", pos = [49.7514, 6.62359] },
+  { km = 8.402, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.512, kind = "signal", label = "11 II", signal = "minor", dir = 1 },
+  { km = 8.607, kind = "signal", label = "11 VI", signal = "distant,minor,speed_limit", dir = -1 },
+  { km = 8.708, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 8.713, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 8.928, kind = "signal", label = "F", signal = "main,speed_limit", dir = -1 },
+  { km = 9.491, kind = "stop", label = "Trier-Euren", pos = [49.73807, 6.61227] },
+  { km = 9.912, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 10.762, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 11.469, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 11.702, kind = "signal", label = "2", signal = "main,traversable", dir = -1 },
+  { km = 12.528, kind = "stop", label = "Trier-Zewen", pos = [49.72004, 6.58097] },
+  { km = 12.805, kind = "signal", signal = "distant", dir = -1 },
+  { km = 12.853, kind = "signal", signal = "distant", dir = 1 },
+  { km = 13.657, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 13.861, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.878, kind = "signal", signal = "main", dir = 1 },
+  { km = 14.101, kind = "signal", signal = "distant", dir = 1 },
+  { km = 14.485, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.705, kind = "signal", label = "S117", signal = "distant,main,route", dir = -1 },
+  { km = 14.833, kind = "signal", signal = "minor", dir = 1 },
+  { km = 15.251, kind = "signal", label = "S202", signal = "distant,main,minor", dir = -1 },
+  { km = 15.527, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 15.578, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.621, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 15.659, kind = "station", label = "Igel", pos = [49.70753, 6.55012] },
+  { km = 15.753, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 15.842, kind = "signal", signal = "main", dir = 1 },
+  { km = 15.989, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 16.386, kind = "signal", label = "F", signal = "distant,main", dir = -1 },
+  { km = 17.104, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 17.375, kind = "signal", signal = "distant", dir = -1 },
+  { km = 18.064, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.151, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 18.369, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.023, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.102, kind = "signal", label = "Rj380", signal = "distant", dir = 1 },
+  { km = 19.141, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 19.143, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 8.847, kmTo = 8.858, length = 10 },
+  { kind = "bridge", kmFrom = 8.881, kmTo = 8.9, length = 19 },
+  { kind = "bridge", kmFrom = 19.108, kmTo = 19.187, length = 79 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{nynH_gug@hOh_@", v = 60 },
+  { line = "q~xnHuftg@rEnM|BdKdNvjAbGpYhGpStKnUhNhTtIbJpb@p\\", v = 90 },
+  { line = "cjunHs|lg@|CvBrEnArv@fBvJ|A", v = 80 },
+  { line = "e{rnHeplg@xHlF", v = 70 },
+  { line = "kqrnHwhlg@`J~N" },
+  { line = "ifrnHwxkg@vcChgFpKfO|r@~p@", v = 90 },
+  { line = "aalnHenbg@lPjJvCvF`CxK", v = 80 },
+  { line = "yfknHgnag@fD~QVdNu@`JaEbWuCdV" },
+  { line = "gmknHuq~f@uDlVc]hbA{Khe@iApH_@`Lb@tJbLnt@", v = 90 },
+  { line = "_slnHyxwf@~AvLP`Nk@dIgCxNg@xG", v = 80 },
+]
+posts = [[3, 49.77893, 6.66701], [4, 49.77457, 6.6567], [5, 49.77137, 6.64236], [6, 49.76559, 6.63173], [7, 49.75794, 6.6249], [8, 49.74894, 6.62348], [9, 49.7414, 6.61816], [10, 49.73528, 6.60742], [11, 49.7293, 6.59693], [12, 49.72374, 6.58719], [13, 49.71683, 6.57756], [14, 49.70922, 6.57059], [15, 49.70552, 6.55904], [16, 49.70865, 6.54647], [17, 49.71373, 6.53471], [18, 49.71444, 6.52143], [19, 49.71332, 6.50906]]

@@ -1,0 +1,276 @@
+id = "3520"
+ref = "3520"
+name = "3520 Mainz Hbf - Frankfurt (Main) Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q327289"
+from = "Mainz Hbf"
+to = "Frankfurt (Main) Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.039
+kmTo = 37.512
+length = 37.499
+speeds = [[-0.039, 2.856, 80, 80], [2.856, 3.796, 120, 120], [3.796, 7.393, 140, 140], [7.393, 7.919, "", ""], [7.919, 8.037, 60, 60], [8.037, 8.15, "", ""], [8.15, 9.071, 120, 120], [9.071, 9.396, "", ""], [9.396, 10.281, 130, 130], [10.281, 12.022, 140, 140], [12.022, 12.149, 100, 100], [12.149, 16.529, 160, 160], [16.529, 16.703, "", ""], [16.703, 29.392, 160, 160], [29.392, 29.404, "", ""], [29.404, 30.41, 160, 160], [30.41, 31.41, 100, 100], [31.41, 33.171, 90, 90], [33.171, 33.538, 60, 60], [33.538, 33.701, 90, 90], [33.701, 33.891, 90, 60], [33.891, 35.058, 60, 60], [35.058, 36.385, "", 80], [36.385, 37.145, 60, 60], [37.145, 37.512, 30, 60]]
+curves = [[0.185, 0.31, 1820], [0.457, 0.528, 2490], [0.623, 1.341, 500], [1.416, 1.762, 580], [2.111, 2.335, 1230], [2.435, 2.883, 420], [3.481, 3.755, 1130], [6.854, 7.471, 1430], [7.992, 8.327, 1450], [8.945, 9.292, 1140], [9.363, 10.154, 1050], [10.399, 10.543, 1590], [10.736, 10.905, 1900], [11.493, 11.625, 1600], [11.873, 12.057, 1860], [13.056, 13.107, 2400], [13.208, 13.486, 2560], [13.638, 13.765, 2060], [16.124, 16.22, 2380], [23.962, 24.792, 1120], [30.554, 30.756, 1790], [30.959, 31.314, 1520], [31.768, 32.502, 500], [32.845, 32.893, 2350], [32.964, 33.014, 2620], [33.973, 34.126, 1110], [34.456, 35.047, 450]]
+points = [
+  { km = -0.039, kind = "stop", label = "Mainz Hauptbahnhof", pos = [50.00159, 8.25825] },
+  { km = 0, kind = "station", label = "Hauptbahnhof (tief)", uic = "8067016", pos = [50.10717, 8.66233], measured = true },
+  { km = 0.003, kind = "stop", label = "Mainz Hauptbahnhof", pos = [50.00126, 8.25854] },
+  { km = 0.033, kind = "station", label = "Mainz Hauptbahnhof", pos = [50.00111, 8.25872], uic = "8000240" },
+  { km = 0.137, kind = "signal", label = "P4", signal = "distant,main,minor,route", dir = 1 },
+  { km = 0.142, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.259, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.311, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.371, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.507, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.813, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.881, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.951, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.011, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.097, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.169, kind = "signal", label = "A445", signal = "distant,main,route_distant,traversable", dir = 1 },
+  { km = 1.765, kind = "signal", label = "P403", signal = "distant,main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 1.773, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.809, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.884, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.886, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.91, kind = "station", label = "Mainz Römisches Theater", pos = [49.99332, 8.27827], uic = "8003816" },
+  { km = 1.943, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.993, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.175, kind = "signal", label = "N 403", signal = "main,minor,route,traversable", dir = -1 },
+  { km = 2.339, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.59, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.605, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.769, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.837, kind = "signal", signal = "distant,main,route", dir = -1 },
+  { km = 3.284, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.743, kind = "signal", label = "A", signal = "distant,main,minor,traversable", dir = 1 },
+  { km = 3.796, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.806, kind = "signal", signal = "route_distant", dir = -1 },
+  { km = 3.825, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.015, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 4.52, kind = "station", label = "Mainz-Gustavsburg", pos = [49.99431, 8.31405], uic = "8003818" },
+  { km = 4.675, kind = "signal", label = "N2", signal = "main,minor", dir = 1 },
+  { km = 5.571, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 5.927, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.568, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.907, kind = "signal", label = "A", signal = "distant,main,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 7.037, kind = "signal", signal = "route_distant", dir = 1 },
+  { km = 7.699, kind = "signal", label = "P1", signal = "main,minor,traversable", dir = -1 },
+  { km = 7.721, kind = "signal", signal = "main_repeated" },
+  { km = 7.797, kind = "station", label = "Mainz-Bischofsheim", pos = [49.9931, 8.35788], uic = "8000241" },
+  { km = 7.812, kind = "signal", signal = "stop", dir = 1 },
+  { km = 7.865, kind = "signal", signal = "stop", dir = 1 },
+  { km = 7.912, kind = "signal", signal = "stop", dir = 1 },
+  { km = 7.919, kind = "signal", label = "R1", signal = "distant,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 8.146, kind = "signal", signal = "minor", dir = -1 },
+  { km = 8.15, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.893, kind = "signal", label = "N 201", signal = "distant,main,minor", dir = 1 },
+  { km = 9.275, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10, kind = "station", label = "Hauptbahnhof", pos = [50.10774, 8.66379], measured = true },
+  { km = 11.081, kind = "station", label = "Rüsselsheim Opelwerk", uic = "8005221", pos = [49.98775, 8.39954] },
+  { km = 11.708, kind = "signal", label = "28 ZS22", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 12.149, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.165, kind = "signal", label = "28 ZU2", signal = "combined,speed_limit", dir = -1 },
+  { km = 12.24, kind = "station", label = "Rüsselsheim", pos = [49.9917, 8.41383], uic = "8005220" },
+  { km = 12.268, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.301, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.348, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.382, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.65, kind = "signal", label = "28 N2", signal = "combined,speed_limit", dir = 1 },
+  { km = 12.759, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 13.143, kind = "signal", label = "28 FF", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 13.282, kind = "signal", signal = "distant", dir = -1 },
+  { km = 13.554, kind = "signal", signal = "distant", dir = 1 },
+  { km = 13.58, kind = "signal", signal = "distant", dir = 1 },
+  { km = 13.747, kind = "signal", signal = "combined", dir = 1 },
+  { km = 14.723, kind = "signal", signal = "combined", dir = 1 },
+  { km = 15.683, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.853, kind = "station", label = "Raunheim", pos = [50.0099, 8.45507], uic = "8004962" },
+  { km = 15.887, kind = "signal", signal = "stop", dir = 1 },
+  { km = 15.894, kind = "signal", label = "30 N2", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 16.703, kind = "signal", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 20.959, kind = "signal", signal = "distant", dir = 1 },
+  { km = 21.978, kind = "signal", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 23.151, kind = "signal", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 23.832, kind = "station", label = "Kelsterbach", uic = "8003228", pos = [50.06238, 8.52961] },
+  { km = 28.651, kind = "signal", signal = "main", dir = 1 },
+  { km = 29.249, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 29.792, kind = "signal", label = "64 A", signal = "combined", dir = 1 },
+  { km = 30.41, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 30.414, kind = "signal", label = "64 P306", signal = "main,minor,route,speed_limit,traversable", dir = -1 },
+  { km = 30.415, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 30.818, kind = "signal", label = "64 ZS304", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 31.05, kind = "signal", signal = "minor", dir = 1 },
+  { km = 31.206, kind = "signal", label = "64 ZV504", signal = "combined,minor,route,speed_limit,traversable", dir = -1 },
+  { km = 31.355, kind = "signal", signal = "main_repeated" },
+  { km = 31.362, kind = "station", label = "Frankfurt am Main Stadion", pos = [50.06821, 8.63305], uic = "8002040" },
+  { km = 31.403, kind = "signal", signal = "stop", dir = 1 },
+  { km = 31.41, kind = "signal", label = "64 N504", signal = "combined,minor,route,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 31.575, kind = "signal", signal = "minor", dir = 1 },
+  { km = 31.577, kind = "signal", label = "64L 583Y", signal = "minor", dir = -1 },
+  { km = 31.815, kind = "signal", signal = "minor", dir = -1 },
+  { km = 31.848, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 32.003, kind = "signal", label = "64 FF", signal = "combined,route_distant,speed_limit,traversable", dir = -1 },
+  { km = 32.085, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 32.251, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 32.352, kind = "signal", label = "67 A", signal = "combined,route,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 32.686, kind = "signal", label = "67L101X", signal = "minor", dir = 1 },
+  { km = 33.037, kind = "signal", label = "67 P1", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 33.126, kind = "signal", signal = "stop", dir = -1 },
+  { km = 33.211, kind = "station", label = "Frankfurt-Niederrad", pos = [50.08077, 8.63724], uic = "8002050" },
+  { km = 33.295, kind = "signal", signal = "stop", dir = 1 },
+  { km = 33.331, kind = "signal", signal = "stop", dir = 1 },
+  { km = 33.342, kind = "signal", label = "67 ZR1", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 33.523, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 33.701, kind = "signal", label = "67 ZV 11", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 33.702, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 33.891, kind = "signal", label = "67 N11", signal = "combined,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 34.145, kind = "signal", label = "67 ZU21", signal = "combined,minor,speed_limit_distant,traversable", dir = -1 },
+  { km = 34.563, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 34.61, kind = "signal", label = "67 305", signal = "combined,traversable", dir = 1 },
+  { km = 34.803, kind = "signal", label = "67 FF", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 34.966, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 35.026, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 35.057, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 35.058, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 35.358, kind = "signal", label = "67 307", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 35.456, kind = "signal", label = "67 308", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 36.113, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 36.114, kind = "signal", label = "02 K", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 36.254, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 36.372, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 36.385, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 36.406, kind = "signal", signal = "minor", dir = 1 },
+  { km = 36.606, kind = "signal", label = "02N 558", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 36.738, kind = "signal", label = "02ZU 558", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 36.739, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 36.995, kind = "signal", signal = "minor", dir = 1 },
+  { km = 36.998, kind = "signal", signal = "minor", dir = -1 },
+  { km = 37.082, kind = "signal", label = "02A 518", signal = "combined,speed_limit", dir = -1 },
+  { km = 37.145, kind = "signal", label = "Z528", signal = "speed_limit", dir = 1 },
+  { km = 37.286, kind = "signal", label = "518Y", signal = "minor", dir = 1 },
+  { km = 37.29, kind = "signal", label = "528X", signal = "minor", dir = -1 },
+  { km = 37.476, kind = "station", label = "Frankfurt (Main) Hauptbahnhof", pos = [50.10665, 8.66258], uic = "8011068" },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.407, kmTo = 1.673, length = 1287, name = "Neuer Mainzer Tunnel" },
+  { kind = "bridge", kmFrom = 2.185, kmTo = 2.224, length = 39 },
+  { kind = "bridge", kmFrom = 2.771, kmTo = 2.824, length = 54 },
+  { kind = "bridge", kmFrom = 2.856, kmTo = 3.73, length = 877, name = "Südbrücke" },
+  { kind = "bridge", kmFrom = 13.042, kmTo = 13.07, length = 28 },
+  { kind = "bridge", kmFrom = 13.939, kmTo = 13.958, length = 19 },
+  { kind = "bridge", kmFrom = 14.68, kmTo = 14.714, length = 32 },
+  { kind = "bridge", kmFrom = 21.541, kmTo = 21.584, length = 43 },
+  { kind = "bridge", kmFrom = 22.273, kmTo = 22.31, length = 36 },
+  { kind = "bridge", kmFrom = 25.378, kmTo = 25.413, length = 36 },
+  { kind = "bridge", kmFrom = 29.392, kmTo = 29.404, length = 13 },
+  { kind = "bridge", kmFrom = 29.679, kmTo = 29.756, length = 80 },
+  { kind = "bridge", kmFrom = 32.427, kmTo = 32.459, length = 27 },
+  { kind = "bridge", kmFrom = 33.171, kmTo = 33.225, length = 48 },
+  { kind = "bridge", kmFrom = 33.7, kmTo = 33.724, length = 24 },
+  { kind = "bridge", kmFrom = 34.131, kmTo = 34.363, length = 229, name = "Alte Niederräder Brücke" },
+  { kind = "bridge", kmFrom = 34.506, kmTo = 34.543, length = 37 },
+  { kind = "bridge", kmFrom = 34.627, kmTo = 34.676, length = 49 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gqypHs|zs@v_@`sA", v = 60 },
+  { line = "opxpHqhxs@ff@n`B", v = 80 },
+  { line = "giwpHagus@lCrH|BdDfDhClFlAvE[pS}HhJ_G", v = 60 },
+  { line = "qmupHidus@nPwL", v = 90 },
+  { line = "a|tpHarus@rOuK", v = 60 },
+  { line = "mktpHw~us@lb@eZlDeAhEGpHrC`GrHrBhGzG`]", v = 90 },
+  { line = "c~qpHwgus@zCxP`BpPpA~YN~T", v = 100 },
+  { line = "csqpHksrs@XbuA", v = 160 },
+  { line = "irqpHg}os@?b@" },
+  { line = "irqpHc|os@tB`yKbAjT~DlUlEfMn~AxjDhQh\\pMbRrkDrjE", v = 160 },
+  { line = "asgpHc`tr@bFtH" },
+  { line = "}kgpHmvsr@dOvWxoAhnC`I|RfHtU`FzTxRhlA", v = 160 },
+  { line = "w|bpHq`jr@pAtH", v = 100 },
+  { line = "ezbpH{vir@nMrk@xIvi@lEhb@~B|N", v = 140 },
+  { line = "mvapHgler@`DvUp@zOUpQqBpR", v = 130 },
+  { line = "atapHo~br@oC~NaCjI" },
+  { line = "s|apHcdbr@{Wvj@uFrN", v = 120 },
+  { line = "e}bpHwh`r@eBfG" },
+  { line = "k`cpHo``r@yA~G", v = 60 },
+  { line = "eccpHow_r@mLrh@" },
+  { line = "spcpH{m~q@aC|V[fWvCfkD~DzyA", v = 140 },
+  { line = "yjcpHqvtq@rAbT`Njw@", v = 120 },
+  { line = "cybpHairq@x@rI[`K_Jb^qHli@", v = 80 },
+  { line = "wlcpHyhoq@S|LhBz\\MhEoAdJaFlKwQvN", tunnel = true, v = 80 },
+  { line = "yfdpHiolq@cUfQ", v = 80 },
+]
+posts = [[37, 50.10484, 8.65657], [36, 50.10022, 8.64473], [35, 50.09537, 8.63278], [34, 50.08703, 8.63249], [33, 50.07947, 8.63836], [32, 50.07086, 8.64064], [31, 50.06707, 8.62806], [30, 50.06653, 8.61502], [29, 50.06639, 8.60062], [28, 50.06626, 8.58622], [27, 50.06612, 8.57179], [26, 50.06598, 8.55818], [25, 50.06586, 8.54425], [24, 50.06347, 8.53124], [23, 50.05759, 8.52075], [22, 50.05175, 8.51021], [21, 50.04579, 8.49985], [20, 50.0388, 8.49119], [19, 50.03167, 8.4828], [18, 50.02455, 8.47443], [17, 50.01741, 8.46604], [16, 50.01089, 8.45671], [15, 50.00482, 8.44594], [14, 49.99896, 8.43554], [13, 49.99425, 8.42389], [12, 49.99083, 8.41059], [11, 49.98728, 8.39857], [10, 49.98438, 8.38504], [9, 49.98657, 8.37127], [8, 49.99204, 8.36075], [7, 49.99526, 8.34767], [6, 49.99496, 8.3334], [5, 49.99462, 8.32047], [4, 49.99378, 8.30644], [3, 49.99124, 8.29276], [2, 49.99291, 8.27984], [1, 49.99379, 8.26616], [0, 50.00129, 8.25851]]
+
+[[connections]]
+km = -0.039
+station = "Mainz Hauptbahnhof"
+lines = [
+  { id = "3510", ref = "3510", name = "3510 Bingen Hbf - Mainz", km = 30.562 },
+  { id = "3522", ref = "3522", name = "3522 Mainz - Mannheim", km = 0.005 },
+  { id = "3523", ref = "3523", name = "3523 Morschheim - Mainz Hbf, W 326", km = 50.029 },
+]
+
+[[connections]]
+km = 0
+station = "Hauptbahnhof"
+lines = [
+  { id = "3601", ref = "3601", name = "3601 Frankfurt (Main) Hbf - Abzw Heidelberg-Wieblingen", km = 0 },
+  { id = "3603", ref = "3603", name = "3603 Frankfurt (Main) Hbf - Wiesbaden Hbf", km = 0 },
+  { id = "3610", ref = "3610", name = "3610 Frankfurt (Main) Hbf (tief) - Eschhofen", km = 0.056 },
+  { id = "3613", ref = "3613", name = "3613 Frankfurt (Main) Hbf - Frankfurt-Rödelheim", km = 0 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 0 },
+]
+
+[[connections]]
+km = 1.91
+station = "Mainz Römisches Theater"
+lines = [
+  { id = "3522", ref = "3522", name = "3522 Mainz - Mannheim", km = 1.931 },
+]
+
+[[connections]]
+km = 7.797
+station = "Mainz-Bischofsheim"
+lines = [
+  { id = "3525", ref = "3525", name = "3525 Umgehungsbahn Mainz", km = 12.705 },
+  { id = "3530", ref = "3530", name = "3530 Mainz-Bischofsheim - Darmstadt Hbf", km = 7.728 },
+]
+
+[[connections]]
+km = 23.832
+station = "Kelsterbach"
+lines = [
+  { id = "3683", ref = "3683", name = "3683 Abzw Frankfurt am Main Kleyerstraße - Kelsterbach", km = 15.992 },
+]
+
+[[connections]]
+km = 31.362
+station = "Frankfurt am Main Stadion"
+lines = [
+  { id = "3650", ref = "3650", name = "3650 Frankfurt am Main Stadion - Frankfurt (Main) Süd", km = 31.467 },
+  { id = "4010", ref = "4010", name = "4010 Mannheim Hbf - Frankfurt am Main Stadion", km = 74.738 },
+]
+
+[[connections]]
+km = 33.211
+station = "Frankfurt-Niederrad"
+lines = [
+  { id = "3683", ref = "3683", name = "3683 Abzw Frankfurt am Main Kleyerstraße - Kelsterbach", km = 4.338 },
+]
+
+[[connections]]
+km = 37.476
+station = "Frankfurt Hauptbahnhof"
+lines = [
+  { id = "3601", ref = "3601", name = "3601 Frankfurt (Main) Hbf - Abzw Heidelberg-Wieblingen", km = 0.059 },
+  { id = "3603", ref = "3603", name = "3603 Frankfurt (Main) Hbf - Wiesbaden Hbf", km = 0.041 },
+  { id = "3610", ref = "3610", name = "3610 Frankfurt (Main) Hbf (tief) - Eschhofen", km = 0.057 },
+  { id = "3613", ref = "3613", name = "3613 Frankfurt (Main) Hbf - Frankfurt-Rödelheim", km = 0.06 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 199.756 },
+]

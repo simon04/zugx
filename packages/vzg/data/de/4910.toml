@@ -1,0 +1,68 @@
+id = "4910"
+ref = "4910"
+name = "4910 Heilbronn-Klingenberg - Heilbronn Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Heilbronn-Klingenberg"
+to = "Heilbronn Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.985
+length = 4.985
+speeds = [[0, 3.395, "", ""], [3.395, 4.985, 60, 60]]
+curves = [[0.35, 0.5, 1730], [0.55, 0.725, 1040], [1.125, 1.25, 1330], [1.3, 1.4, 1190], [1.45, 1.55, 1750], [1.675, 2.05, 450], [2.5, 3.475, 900]]
+points = [
+  { km = 0.002, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 0.155, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.16, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.252, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.334, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.38, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.473, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.569, kind = "signal", label = "N9", signal = "main,minor,traversable,wrong_road", dir = -1 },
+  { km = 1.187, kind = "signal", label = "S9", signal = "distant,main,minor,traversable", dir = 1 },
+  { km = 1.372, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.617, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.62, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.721, kind = "signal", label = "R61-65", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 1.869, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.357, kind = "signal", label = "S62", signal = "distant,main,minor,traversable", dir = 1 },
+  { km = 2.489, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.77, kind = "signal", label = "200 II", signal = "minor", dir = 1 },
+  { km = 2.835, kind = "signal", label = "R90", signal = "main,minor,traversable", dir = -1 },
+  { km = 3.316, kind = "signal", label = "S90", signal = "distant,main,minor,traversable", dir = 1 },
+  { km = 3.463, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.738, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.958, kind = "signal", label = "R 242", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 4.709, kind = "signal", label = "P 242", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 117.957, kind = "station", label = "Heilbronn Hauptbahnhof", uic = "8029629", pos = [49.14314, 9.20766], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.153, kmTo = 0.215, length = 62 },
+  { kind = "bridge", kmFrom = 0.315, kmTo = 0.398, length = 84 },
+  { kind = "bridge", kmFrom = 0.432, kmTo = 0.472, length = 40 },
+  { kind = "bridge", kmFrom = 1.285, kmTo = 1.308, length = 23 },
+  { kind = "bridge", kmFrom = 1.365, kmTo = 1.477, length = 113 },
+  { kind = "bridge", kmFrom = 1.518, kmTo = 1.528, length = 10 },
+  { kind = "bridge", kmFrom = 1.543, kmTo = 1.572, length = 28 },
+  { kind = "bridge", kmFrom = 2.717, kmTo = 2.738, length = 21 },
+  { kind = "bridge", kmFrom = 3.291, kmTo = 3.318, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}g~jHofgw@nOrXvEnLdMjj@rNvf@zBpEnA~AnCtApa@pAjGnBfE`DfFpGhEpIlEdM" },
+  { line = "ybzjHqsaw@bb@p|B", v = 60 },
+]
+posts = [[0, 49.14831, 9.2172], [1, 49.14303, 9.20624], [2, 49.13779, 9.19563], [3, 49.12923, 9.19277], [4, 49.12489, 9.18091]]
+
+[[connections]]
+km = 117.957
+station = "Heilbronn Hauptbahnhof"
+lines = [
+  { id = "4900", ref = "4900", name = "4900 Bietigheim-Bissingen - Osterburken", km = 52.57 },
+  { id = "4950", ref = "4950", name = "4950 Crailsheim - Eppingen", km = 118.603 },
+]

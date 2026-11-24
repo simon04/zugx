@@ -1,0 +1,136 @@
+id = "5551"
+ref = "5551"
+name = "5551 München Ost Pbf - Deisenhofen"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "München Ost Pbf"
+to = "Deisenhofen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.372
+kmTo = 13.497
+length = 13.868
+speeds = [[-0.372, -0.077, "", ""], [-0.077, 0.173, 60, 60], [0.173, 1.346, 90, 90], [1.346, 2.57, "", ""], [2.57, 12.356, 120, 120], [12.356, 12.407, 80, 120], [12.407, 13.362, 80, 80], [13.362, 13.497, 140, 140]]
+curves = [[0.003, 0.103, 1010], [0.153, 0.328, 1170], [0.724, 1.096, 600], [1.165, 1.262, 1990], [1.411, 1.961, 1260], [3.125, 3.271, 1560], [4.036, 4.383, 2510], [6.968, 7.169, 1280], [8.079, 8.409, 1190], [9.114, 9.444, 1140], [12.332, 12.77, 460]]
+points = [
+  { km = -0.314, kind = "signal", signal = "distant", dir = -1 },
+  { km = -0.19, kind = "signal", label = "45 ZS 304", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = -0.093, kind = "station", label = "München Ost", uic = "8000262", pos = [48.12772, 11.60552] },
+  { km = -0.077, kind = "station", label = "Ostbahnhof", uic = "8000262", pos = [48.12808, 11.60363] },
+  { km = 0.033, kind = "signal", label = "45 P304", signal = "combined,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 0.173, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.454, kind = "signal", label = "45 BB", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.655, kind = "signal", label = "701", signal = "distant,main,traversable", dir = 1 },
+  { km = 1.132, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.246, kind = "stop", label = "Sankt-Martin-Straße", uic = "8004138", pos = [48.11856, 11.59578] },
+  { km = 1.346, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.346, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.357, kind = "signal", label = "705", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 1.665, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.923, kind = "signal", label = "P403", signal = "main", dir = -1 },
+  { km = 1.984, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.07, kind = "station", label = "Giesing", uic = "8004148", pos = [48.11104, 11.59582] },
+  { km = 2.21, kind = "signal", label = "R403", signal = "distant,main", dir = 1 },
+  { km = 2.401, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.566, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.569, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.722, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.836, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.926, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.115, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.291, kind = "signal", label = "S483", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 3.316, kind = "signal", label = "N483", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 3.673, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.126, kind = "signal", signal = "distant,main,minor,speed_limit_distant", dir = -1 },
+  { km = 4.17, kind = "stop", label = "Fasangarten", uic = "8004146", pos = [48.09317, 11.60582] },
+  { km = 4.348, kind = "signal", label = "707", signal = "main,minor", dir = 1 },
+  { km = 4.352, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.166, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.168, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 5.585, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.67, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.731, kind = "stop", label = "Fasanenpark", uic = "8001963", pos = [48.07958, 11.60947] },
+  { km = 5.733, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.79, kind = "signal", signal = "stop", dir = 1 },
+  { km = 7.424, kind = "stop", label = "Unterhaching", pos = [48.06522, 11.61239], uic = "8005991" },
+  { km = 7.621, kind = "signal", label = "709", signal = "main,wrong_road", dir = 1 },
+  { km = 8.27, kind = "signal", label = "762", signal = "main,wrong_road", dir = -1 },
+  { km = 8.471, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.898, kind = "stop", label = "Taufkirchen", pos = [48.05187, 11.60946], uic = "8005831" },
+  { km = 9.04, kind = "signal", signal = "distant", dir = 1 },
+  { km = 9.237, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10.026, kind = "signal", label = "713", signal = "main", dir = 1 },
+  { km = 11.078, kind = "stop", label = "Furth", pos = [48.0359, 11.59374], uic = "8002161" },
+  { km = 11.343, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.356, kind = "signal", label = "A", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 12.407, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.796, kind = "signal", label = "6", signal = "minor", dir = 1 },
+  { km = 12.867, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 12.992, kind = "signal", label = "P2", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 13.1, kind = "station", label = "Deisenhofen", uic = "8001404", pos = [48.01946, 11.58361], measured = true },
+  { km = 13.25, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.252, kind = "signal", label = "N2", signal = "main,minor,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.368, kmTo = 0.956, length = 541 },
+  { kind = "bridge", kmFrom = 1.221, kmTo = 1.246, length = 25 },
+  { kind = "bridge", kmFrom = 1.613, kmTo = 1.641, length = 28 },
+  { kind = "bridge", kmFrom = 2.57, kmTo = 2.607, length = 31 },
+  { kind = "bridge", kmFrom = 3.128, kmTo = 3.18, length = 43 },
+  { kind = "bridge", kmFrom = 3.403, kmTo = 3.652, length = 401 },
+  { kind = "bridge", kmFrom = 7.22, kmTo = 7.27, length = 32 },
+  { kind = "bridge", kmFrom = 7.326, kmTo = 7.367, length = 27 },
+  { kind = "bridge", kmFrom = 7.654, kmTo = 7.676, length = 26 },
+  { kind = "bridge", kmFrom = 8.012, kmTo = 8.049, length = 26 },
+  { kind = "bridge", kmFrom = 8.544, kmTo = 8.576, length = 35 },
+  { kind = "bridge", kmFrom = 9.498, kmTo = 9.522, length = 23 },
+  { kind = "bridge", kmFrom = 10.253, kmTo = 10.325, length = 84 },
+  { kind = "bridge", kmFrom = 11.15, kmTo = 11.187, length = 38 },
+  { kind = "bridge", kmFrom = 12.014, kmTo = 12.064, length = 43 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mhwdH}ezeAtJpP" },
+  { line = "w|vdHktyeAfHzN", v = 60 },
+  { line = "osvdHodyeAdEzHjSjY|EfCfSrC", v = 90 },
+  { line = "w}tdHkwweA~KrArKo@vd@sN" },
+  { line = "k~rdH{exeA~Z{Kdu@i`@hQeFpqCcd@d~@zAlK~Blf@`RhKbHveCjvC", v = 120 },
+  { line = "eacdH}eueA~FpCnFBbf@yP", v = 80 },
+  { line = "qjadHasueAdFoB", v = 140 },
+]
+posts = [[0, 48.12715, 11.6046], [1, 48.1208, 11.59632], [2, 48.11176, 11.59601], [3, 48.10436, 11.59929], [4, 48.09485, 11.60498], [5, 48.08614, 11.60778], [6, 48.07703, 11.61009], [7, 48.06833, 11.6123], [8, 48.05906, 11.61204], [9, 48.05087, 11.60891], [10, 48.04331, 11.60206], [11, 48.03594, 11.59373], [12, 48.02854, 11.58538], [13, 48.02059, 11.58311]]
+
+[[connections]]
+km = -0.093
+station = "München Ost"
+lines = [
+  { id = "5510", ref = "5510", name = "5510 München Hbf - Rosenheim", km = 9.813 },
+  { id = "5550", ref = "5550", name = "5550 München Hbf tief - München Ost Pbf", km = 0.066 },
+  { id = "5600", ref = "5600", name = "5600 München Ost Pbf - Simbach (Inn) Grenze", km = 0.083 },
+]
+
+[[connections]]
+km = -0.077
+station = "Ostbahnhof"
+lines = [
+  { id = "5510", ref = "5510", name = "5510 München Hbf - Rosenheim", km = 9.758 },
+  { id = "5550", ref = "5550", name = "5550 München Hbf tief - München Ost Pbf", km = 0.05 },
+  { id = "5600", ref = "5600", name = "5600 München Ost Pbf - Simbach (Inn) Grenze", km = 0.011 },
+]
+
+[[connections]]
+km = 4.17
+station = "Fasangarten"
+lines = [
+  { id = "5552", ref = "5552", name = "5552 München Ost Frankenwaldstraße - Kreuzstraße", km = 1.894 },
+]
+
+[[connections]]
+km = 13.1
+station = "Deisenhofen"
+lines = [
+  { id = "5505", ref = "5505", name = "5505 München Hbf - Lenggries", km = 18.4 },
+]

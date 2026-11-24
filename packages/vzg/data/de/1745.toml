@@ -1,0 +1,124 @@
+id = "1745"
+ref = "1745"
+name = "1745 Verden (Aller) - Rotenburg (Wümme)"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q803387"
+from = "Verden (Aller)"
+to = "Rotenburg (Wümme)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.284
+kmTo = 25.447
+length = 25.719
+speeds = [[-0.284, 1.596, "", ""], [1.596, 25.32, 120, 120], [25.32, 25.447, 100, 100]]
+curves = [[-0.159, -0.059, 1200], [0.216, 0.266, 2090], [0.466, 0.516, 2190], [1.066, 1.116, 1740], [1.191, 1.491, 1190], [1.566, 1.641, 2770], [1.791, 1.917, 1780], [2.685, 3.082, 1080], [4.309, 5.234, 920], [7.149, 7.903, 1550], [10.906, 11.055, 2240], [11.13, 11.54, 2140], [14.055, 14.232, 1960], [16.547, 17.364, 1050], [21.245, 21.533, 1790], [23.454, 24.404, 950], [24.678, 25.078, 1510]]
+points = [
+  { km = -0.103, kind = "signal", label = "P4", signal = "main,minor", dir = -1 },
+  { km = -0.099, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.008, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.005, kind = "station", label = "Verden (Aller)", pos = [52.9208, 9.23788], uic = "8006076" },
+  { km = 0.098, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.106, kind = "signal", label = "R4", signal = "main", dir = 1 },
+  { km = 0.184, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.192, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.257, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.307, kind = "signal", label = "S25", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 0.578, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.623, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.066, kind = "signal", label = "N14", signal = "main", dir = 1 },
+  { km = 1.218, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.249, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.342, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.463, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.59, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.596, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.597, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.936, kind = "signal", label = "G", signal = "main,speed_limit", dir = -1 },
+  { km = 2.953, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.392, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 5.406, kind = "signal", label = "63A", signal = "combined,speed_limit", dir = 1 },
+  { km = 5.767, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 5.78, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 5.795, kind = "signal", label = "63P1", signal = "main", dir = -1 },
+  { km = 6.558, kind = "signal", label = "63N1", signal = "main", dir = 1 },
+  { km = 6.986, kind = "signal", label = "63F", signal = "combined,speed_limit", dir = -1 },
+  { km = 7.998, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 8.538, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 9.482, kind = "signal", label = "62A", signal = "combined,speed_limit", dir = 1 },
+  { km = 9.608, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 9.652, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 9.944, kind = "signal", label = "62P1", signal = "main", dir = -1 },
+  { km = 10.702, kind = "signal", label = "62N1", signal = "main", dir = 1 },
+  { km = 10.758, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 10.794, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 11.183, kind = "signal", label = "62F", signal = "combined,speed_limit", dir = -1 },
+  { km = 12.213, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 13.083, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 14.222, kind = "signal", label = "61A", signal = "combined,speed_limit", dir = 1 },
+  { km = 14.298, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 14.323, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 14.945, kind = "signal", label = "61 P1", signal = "main", dir = -1 },
+  { km = 15.655, kind = "signal", label = "61 N1", signal = "main", dir = 1 },
+  { km = 15.705, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 15.732, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 16.077, kind = "signal", label = "61 F", signal = "combined,speed_limit", dir = -1 },
+  { km = 17.302, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 18.521, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 19.489, kind = "signal", label = "60A", signal = "combined,speed_limit", dir = 1 },
+  { km = 20.16, kind = "signal", label = "60P1", signal = "main", dir = -1 },
+  { km = 20.952, kind = "signal", label = "60N1", signal = "main", dir = 1 },
+  { km = 21.483, kind = "signal", label = "60F", signal = "combined,speed_limit", dir = -1 },
+  { km = 22.442, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 23.703, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 24.807, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 24.823, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 24.999, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 25.001, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 25.053, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 25.317, kind = "signal", label = "014 I", signal = "minor", dir = 1 },
+  { km = 25.319, kind = "signal", signal = "distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.362, kmTo = 0.385, length = 22 },
+  { kind = "bridge", kmFrom = 1.694, kmTo = 1.707, length = 13 },
+  { kind = "bridge", kmFrom = 2.212, kmTo = 2.24, length = 27 },
+  { kind = "bridge", kmFrom = 2.273, kmTo = 2.296, length = 23 },
+  { kind = "bridge", kmFrom = 2.901, kmTo = 2.914, length = 13 },
+  { kind = "bridge", kmFrom = 3.36, kmTo = 3.396, length = 39 },
+  { kind = "bridge", kmFrom = 3.68, kmTo = 3.695, length = 15 },
+  { kind = "bridge", kmFrom = 3.94, kmTo = 3.954, length = 15 },
+  { kind = "bridge", kmFrom = 4.288, kmTo = 4.33, length = 42 },
+  { kind = "bridge", kmFrom = 4.627, kmTo = 4.664, length = 32 },
+  { kind = "bridge", kmFrom = 4.808, kmTo = 4.866, length = 59 },
+  { kind = "bridge", kmFrom = 5.463, kmTo = 5.481, length = 19 },
+  { kind = "bridge", kmFrom = 11.223, kmTo = 11.236, length = 12 },
+  { kind = "bridge", kmFrom = 12.403, kmTo = 12.418, length = 16 },
+  { kind = "bridge", kmFrom = 16.751, kmTo = 16.775, length = 24 },
+  { kind = "bridge", kmFrom = 22.362, kmTo = 22.374, length = 12 },
+  { kind = "bridge", kmFrom = 22.617, kmTo = 22.643, length = 25 },
+  { kind = "bridge", kmFrom = 22.795, kmTo = 22.836, length = 41 },
+  { kind = "bridge", kmFrom = 22.902, kmTo = 22.918, length = 16 },
+  { kind = "bridge", kmFrom = 23.322, kmTo = 23.357, length = 35 },
+  { kind = "bridge", kmFrom = 23.551, kmTo = 23.567, length = 16 },
+  { kind = "bridge", kmFrom = 24.048, kmTo = 24.06, length = 11 },
+  { kind = "bridge", kmFrom = 25.377, kmTo = 25.403, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gs~aIqnkw@wGtAi`@lOwe@xMqIpAoJ?" },
+  { line = "czabIajjw@sOf@ae@lFcIZ_G_@aoAif@qL}J{H}NyEoRcb@{qDcDmRcD_MiJ}Tu|B{|D}LyP}KcKi|B{vAoKeIspBg{B{FwEyMuEyNJm_FpfAkzBq@kGyAyGyDmGyG{FwK}Jo^yDsQ}AkL_CmZ", v = 120 },
+  { line = "mzccIw|cx@y@oJ", v = 100 },
+]
+posts = [[0, 52.92092, 9.238], [1, 52.92961, 9.23423], [2, 52.93851, 9.23273], [3, 52.94731, 9.23201], [4, 52.95612, 9.23643], [5, 52.9635, 9.24344], [6, 52.96673, 9.25846], [7, 52.96936, 9.27191], [8, 52.97402, 9.28425], [9, 52.98066, 9.29427], [10, 52.98732, 9.30433], [11, 52.99399, 9.31434], [12, 53.00166, 9.32113], [13, 53.01018, 9.32705], [14, 53.01847, 9.33292], [15, 53.02605, 9.34085], [16, 53.03346, 9.34898], [17, 53.04127, 9.35593], [18, 53.04995, 9.35406], [19, 53.05906, 9.35113], [20, 53.06787, 9.3483], [21, 53.07662, 9.3455], [22, 53.08577, 9.34443], [23, 53.09477, 9.34459], [24, 53.10346, 9.34711], [25, 53.10833, 9.35948]]
+
+[[connections]]
+km = 0.005
+station = "Verden"
+lines = [
+  { id = "1711", ref = "1711", name = "Heidebahn", km = 85.907 },
+  { id = "1740", ref = "1740", name = "Wunstorf, W 18 - DB-Grenze, (Bremerhaven-Seehafen)", km = 86.445 },
+]

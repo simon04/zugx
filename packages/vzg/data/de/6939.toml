@@ -1,0 +1,159 @@
+id = "6939"
+ref = "6939"
+name = "6939 Meyenburg - Güstrow"
+operator = "Regio Infra Nord-Ost GmbH & Co. KG"
+gauge = "1435"
+wikidata = "Q802378"
+from = "Meyenburg"
+to = "Güstrow"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 61.469
+kmTo = 114.239
+length = 61.461
+speeds = [[61.469, 68.957, "", ""], [68.957, 76.062, 60, 60], [76.062, 76.499, 10, 10], [76.499, 110.717, "", ""], [110.717, 111.28, 60, 60], [111.28, 111.295, "", ""], [111.295, 114.239, 60, 60]]
+curves = [[64.576, 64.789, 1090], [65.45, 65.94, 1000], [67.966, 68.35, 850], [72.443, 72.742, 1290], [73.829, 74.255, 1180], [74.874, 75.108, 1340], [75.684, 75.94, 620], [76.025, 76.068, 2210], [76.707, 77.027, 540], [78.498, 78.839, 1190], [81.142, 81.547, 1020], [82.549, 83.018, 1040], [83.637, 83.871, 1100], [83.956, 84.17, 680], [84.212, 84.297, 1210], [84.468, 84.511, 2240], [84.724, 84.767, 2700], [84.809, 84.873, 2380], [85.022, 85.449, 770], [86.024, 86.195, 1270], [86.579, 86.728, 2280], [87.965, 88.583, 1350], [90.672, 91.269, 770], [91.802, 92.016, 1250], [93.124, 93.252, 1480], [94.318, 94.382, 2170], [95.15, 95.363, 640], [95.512, 95.811, 660], [96.088, 96.216, 590], [96.258, 96.493, 670], [96.685, 96.919, 550], [97.388, 97.708, 440], [97.815, 98.326, 440], [98.412, 98.646, 650], [98.689, 98.966, 510], [101.162, 101.333, 1010], [101.844, 102.1, 1020], [102.271, 102.399, 1800], [102.505, 102.932, 540], [102.996, 103.124, 980], [103.358, 103.87, 410], [104.509, 104.68, 1400], [106.279, 106.386, 1640], [109.733, 111.417, 1720], [113.784, 114.139, 560]]
+points = [
+  { km = 61.469, kind = "station", label = "Meyenburg", pos = [53.31117, 12.24739], uic = "8043010" },
+  { km = 64.798, kind = "stop", label = "Wendisch Priborn", pos = [53.34112, 12.26523] },
+  { km = 68.895, kind = "signal", signal = "stop", dir = 1 },
+  { km = 68.957, kind = "station", label = "Ganzlin", pos = [53.38258, 12.24715] },
+  { km = 72.571, kind = "stop", label = "Plau Silbermühle", pos = [53.42018, 12.25249] },
+  { km = 76.499, kind = "station", label = "Plau am See", pos = [53.46038, 12.25605] },
+  { km = 79.397, kind = "stop", label = "Plau-Quetzin", pos = [53.49024, 12.25441] },
+  { km = 84.025, kind = "signal", label = "D", signal = "main", dir = -1 },
+  { km = 84.242, kind = "signal", signal = "distant", dir = 1 },
+  { km = 84.307, kind = "signal", label = "Hs2", signal = "minor", dir = -1 },
+  { km = 84.487, kind = "station", label = "Karow (Meckl)", uic = "8010188", pos = [53.54032, 12.27217] },
+  { km = 84.577, kind = "signal", label = "M", signal = "main", dir = 1 },
+  { km = 95.221, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 95.325, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 95.414, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 95.422, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 95.579, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 95.979, kind = "stop", label = "Krakow am See (Meckl)", uic = "8012091", pos = [53.65135, 12.26468] },
+  { km = 96.517, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 96.61, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 96.683, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 96.973, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 96.987, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 97.049, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 98.012, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 98.375, kind = "stop", label = "Marienhof", pos = [53.67201, 12.25147] },
+  { km = 98.434, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 98.449, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 98.787, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 98.866, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 99.931, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 101.198, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 101.282, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 101.292, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 101.304, kind = "stop", label = "Klein Grabow", pos = [53.70214, 12.25792] },
+  { km = 101.373, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 102.862, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 103.067, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 103.078, kind = "signal", signal = "distant", dir = 1 },
+  { km = 103.297, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 103.422, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = 103.947, kind = "signal", label = "B", signal = "main,minor,traversable", dir = -1 },
+  { km = 103.95, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 104.34, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 104.618, kind = "signal", label = "F", signal = "combined,traversable", dir = -1 },
+  { km = 104.663, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 104.956, kind = "signal", signal = "distant", dir = -1 },
+  { km = 105.031, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 105.327, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 105.484, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 105.686, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 105.775, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 105.798, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 105.887, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 106.762, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 106.978, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 107.099, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 107.667, kind = "signal", signal = "crossing_distant" },
+  { km = 108.215, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 108.381, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 108.615, kind = "stop", label = "Klueß", pos = [53.7737, 12.25031] },
+  { km = 108.68, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 108.694, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 108.723, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 108.779, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 108.972, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 109.127, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 109.142, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 109.153, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 109.24, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 109.332, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 109.459, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 109.646, kind = "signal", signal = "crossing_distant" },
+  { km = 110.379, kind = "signal", signal = "distant", dir = 1 },
+  { km = 110.713, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 110.718, kind = "signal", label = "63 F", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 110.749, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 110.786, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 110.938, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 111.163, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 111.457, kind = "signal", label = "63 N3", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 111.526, kind = "station", label = "Priemerburg", uic = "8010284", pos = [53.79593, 12.22287] },
+  { km = 111.592, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 111.661, kind = "signal", label = "63 ZS3", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 112.301, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 112.514, kind = "signal", label = "63 P3", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 112.656, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 112.693, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 112.858, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 112.981, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 113.236, kind = "signal", label = "63 A", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 113.39, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 113.572, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 113.731, kind = "signal", label = "61 G", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 113.884, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 113.917, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 113.944, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 114.145, kind = "signal", signal = "minor", dir = 1 },
+  { km = 114.178, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 61.962, kmTo = 61.985, length = 23 },
+  { kind = "bridge", kmFrom = 76.062, kmTo = 76.107, length = 52 },
+  { kind = "bridge", kmFrom = 103.594, kmTo = 103.606, length = 14 },
+  { kind = "bridge", kmFrom = 104.568, kmTo = 104.577, length = 10 },
+  { kind = "bridge", kmFrom = 107.022, kmTo = 107.033, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mojgIaeiiAtFyMpAkH^{GnCctFbAke@", v = 60 },
+  { line = "q}igIsasiADs@" },
+  { line = "k}igIgcsiArDk]lGkZ", v = 60 },
+  { line = "ioigI_}tiAjIcVbIsOrIeLnKeHnbFucApjBou@pm@yd@lHcC~FbAzEnEbOr^nHtXdDnFvF~D~c@tO~HHxa@eB|EV|tCbs@xF_AbKuHpCg@hOD|CiA|CmCrE}KxDi\\~CkKhDuE~]u[dGgBrU`AxDbBtGvF|[dLvD`EzLfUdFjE|s@z[fiAt]vkApv@di@fN~Hx@`KeBhIqGrnByxCdHcItIeG`N_EdvAuNna@Nbn@zMhIBdIoCvm@}c@vJmJ|QoEdH?dk@dFbKpDhJdI|z@hgAhI~FpIhCj{Cxh@tMeAncBkb@dIlA~OpL" },
+  { line = "ynheIowxiAvXnT", v = 10 },
+  { line = "augeI_bxiAjIxFvFdBpi@kBvHN`\\dIvTlHvH~@dLcA|hAgXdJg@tgBdPziBjMdUn@", v = 60 },
+  { line = "_fydIy_wiA`k@hA`Gs@fEcBb}BilB|IgE|LkAfp@jFnGtAbpD|lB" },
+]
+posts = [[114, 53.79711, 12.17912], [113, 53.7964, 12.19657], [112, 53.79606, 12.21442], [111, 53.79471, 12.232], [110, 53.78796, 12.24531], [109, 53.7777, 12.24911], [108, 53.76731, 12.25222], [107, 53.75693, 12.25532], [106, 53.74663, 12.25907], [105, 53.73653, 12.26418], [104, 53.7268, 12.27093], [103, 53.71842, 12.2653], [102, 53.70947, 12.25751], [101, 53.69899, 12.25708], [100, 53.68866, 12.25348], [99, 53.67834, 12.24984], [98, 53.66839, 12.25341], [97, 53.6616, 12.26582], [96, 53.65157, 12.26477], [95, 53.6424, 12.2568], [94, 53.63229, 12.25176], [93, 53.62214, 12.24709], [92, 53.61248, 12.23996], [91, 53.60217, 12.23675], [90, 53.59359, 12.24673], [89, 53.58544, 12.25801], [88, 53.5765, 12.26692], [87, 53.56602, 12.2689], [86, 53.55551, 12.26911], [85, 53.54522, 12.26828], [84, 53.53572, 12.2759], [83, 53.52524, 12.27544], [82, 53.51619, 12.26679], [81, 53.50693, 12.25897], [80, 53.49652, 12.25613], [79, 53.48611, 12.25329], [78, 53.47572, 12.25482], [77, 53.46541, 12.2585], [76, 53.45573, 12.25218], [75, 53.44534, 12.25139], [74, 53.43502, 12.24787], [73, 53.42467, 12.25117], [72, 53.41422, 12.25158], [71, 53.40373, 12.24984], [70, 53.39321, 12.2485], [69, 53.3827, 12.2472], [68, 53.37227, 12.24802], [67, 53.36292, 12.25619], [66, 53.35356, 12.26434], [65, 53.34326, 12.26562], [64, 53.33317, 12.26092], [63, 53.32406, 12.25528], [62, 53.31563, 12.25004]]
+
+[[connections]]
+km = 61.469
+station = "Meyenburg"
+lines = [
+  { id = "6938", ref = "6938", name = "6938 Neustadt (Dosse) - Meyenburg", km = 61.467 },
+]
+
+[[connections]]
+km = 84.487
+station = "Karow"
+lines = [
+  { id = "6935", ref = "6935", name = "6935 Parchim - Waren (Müritz)", km = 60.992 },
+]
+
+[[connections]]
+km = 111.526
+station = "Priemerburg"
+lines = [
+  { id = "1122", ref = "1122", name = "1122 Lübeck - Strasburg (Uckerm)", km = 116.672 },
+  { id = "6926", ref = "6926", name = "6926 Priemerburg - Abzw Plaaz", km = -0.034 },
+]

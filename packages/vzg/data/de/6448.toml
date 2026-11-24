@@ -1,0 +1,50 @@
+id = "6448"
+ref = "6448"
+name = "6448 Kavelstorf - Rostock Seehafen"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q109538351"
+from = "Kavelstorf"
+to = "Rostock Seehafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.227
+kmTo = 13.926
+length = 13.681
+speeds = [[0.227, 0.773, 80, 80], [0.773, 1.114, 120, ""], [1.114, 10.956, 120, 120], [10.956, 13.926, "", ""]]
+curves = [[0.333, 0.383, 1680], [0.708, 0.874, 2290], [0.943, 1.018, 2530], [1.971, 2.017, 2790], [2.173, 2.249, 2770], [2.338, 2.485, 2670], [2.688, 2.752, 2890], [2.876, 2.963, 2430], [3.053, 3.099, 2250], [4.843, 4.908, 2100], [5.028, 5.1, 2530], [5.222, 5.299, 2520], [10.141, 11.076, 1180], [12.851, 12.901, 1590], [12.976, 13.026, 1960]]
+points = [
+  { km = 0.227, kind = "station", label = "Kavelstorf", uic = "8012002", pos = [54.00735, 12.19733] },
+  { km = 0.581, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.77, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.114, kind = "signal", label = "69 H", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 11.407, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 11.664, kind = "signal", label = "478", signal = "main,substitute_signal", dir = -1 },
+  { km = 12.458, kind = "signal", label = "447", signal = "combined", dir = 1 },
+  { km = 12.644, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 13.024, kind = "signal", label = "524", signal = "combined,substitute_signal", dir = -1 },
+  { km = 13.745, kind = "signal", signal = "humping", dir = 1 },
+  { km = 13.787, kind = "signal", signal = "main,shunting,substitute_signal", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.444, kmTo = 5.512, length = 70 },
+  { kind = "bridge", kmFrom = 6.024, kmTo = 6.116, length = 75 },
+  { kind = "bridge", kmFrom = 10.706, kmTo = 10.723, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "iqiiIa}diAttB}hE" },
+  { line = "s{eiI_gkiAnGeIrGaFfIqDrHgAnvGjF`SpBnbBfc@rYlApVuBxUqGbXcNtL{I|JwJ", v = 120 },
+  { line = "ykthIm`liAbXa]", v = 80 },
+]
+posts = [[13, 54.11546, 12.16466], [12, 54.10916, 12.1756], [11, 54.10281, 12.18645], [10, 54.09479, 12.19088], [9, 54.08563, 12.19067], [8, 54.0764, 12.19047], [7, 54.06752, 12.19011], [6, 54.05906, 12.18989], [5, 54.04949, 12.18934], [4, 54.04089, 12.18627], [3, 54.03207, 12.18321], [2, 54.02279, 12.18417], [1, 54.01484, 12.18907]]
+
+[[connections]]
+km = 0.227
+station = "Kavelstorf"
+lines = [
+  { id = "6325", ref = "6325", name = "6325 Neustrelitz Hbf - Warnemünde", km = 103.938 },
+]

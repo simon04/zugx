@@ -1,0 +1,67 @@
+id = "2617"
+ref = "2617"
+name = "2617 Köln Hbf - Köln West (Schlundgleis)"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Köln Hbf"
+to = "Köln West"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.353
+length = 2.353
+speeds = [[0, 0.088, 40, 30], [0.088, 0.104, "", ""], [0.104, 0.783, 40, 30], [0.783, 2.353, 40, 40]]
+curves = [[0.1, 0.775, 410], [0.825, 0.875, 1450], [1.125, 1.475, 1120], [2.1, 2.25, 500]]
+points = [
+  { km = 0, kind = "station", label = "Köln Hansaring", uic = "8003392", pos = [50.94908, 6.95264] },
+  { km = 0.048, kind = "signal", label = "70LW75Y", signal = "minor", dir = -1 },
+  { km = 0.108, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.232, kind = "signal", label = "60Vd", signal = "distant", dir = 1 },
+  { km = 0.417, kind = "signal", label = "70F", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 0.783, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.986, kind = "signal", label = "60D", signal = "combined,traversable", dir = 1 },
+  { km = 1.089, kind = "signal", label = "70Vf", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.262, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.472, kind = "signal", label = "60P7", signal = "combined,route,speed_limit,speed_limit_distant,traversable,wrong_road", dir = -1 },
+  { km = 1.892, kind = "station", label = "Köln West", uic = "8003363", pos = [50.94217, 6.93285] },
+  { km = 2.148, kind = "signal", label = "60N7", signal = "combined,route,speed_limit,speed_limit_distant,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0, kmTo = 0.023, length = 23 },
+  { kind = "bridge", kmFrom = 0.088, kmTo = 0.104, length = 16 },
+  { kind = "tunnel", kmFrom = 0.483, kmTo = 0.547, length = 64 },
+  { kind = "bridge", kmFrom = 1.758, kmTo = 1.778, length = 20 },
+  { kind = "bridge", kmFrom = 2.087, kmTo = 2.107, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "c~}uH_{li@uBfD", v = 40 },
+  { line = "ya~uHwuli@Q`@" },
+  { line = "kb~uHutli@sBbIoBjT", v = 40 },
+  { line = "oi~uHeuki@ItD", tunnel = true, v = 40 },
+  { line = "yi~uHooki@T`E", v = 40 },
+  { line = "ci~uHmiki@Z|B", tunnel = true, v = 40 },
+  { line = "gh~uHoeki@tQza@tGfK~f@l\\fIx@", v = 40 },
+]
+posts = [[0, 50.94898, 6.95232], [1, 50.94864, 6.9401], [2, 50.94121, 6.9325]]
+
+[[connections]]
+km = 0
+station = "Köln Hansaring"
+lines = [
+  { id = "2600", ref = "2600", name = "2600 Köln Hbf - Aachen Süd Grenze", km = 0.912 },
+  { id = "2610", ref = "2610", name = "2610 Köln - Kleve", km = 1 },
+  { id = "2620", ref = "2620", name = "2620 Köln Hbf - Köln-Worringen", km = 0.844 },
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = -1.144 },
+]
+
+[[connections]]
+km = 1.892
+station = "Köln West"
+lines = [
+  { id = "2613", ref = "2613", name = "2613 Köln West - Köln-Ehrenfeld", km = 0.491 },
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = 1.28 },
+]

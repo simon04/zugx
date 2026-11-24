@@ -1,0 +1,304 @@
+id = "4540"
+ref = "4540"
+name = "4540 Ulm Hbf - Sigmaringen"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q884364"
+from = "Ulm Hbf"
+to = "Sigmaringen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.436
+kmTo = 92.676
+length = 92.958
+speeds = [[-0.436, -0.333, "", ""], [-0.333, -0.279, 40, 40], [-0.279, 0.011, "", ""], [0.011, 0.195, 40, 40], [0.195, 1.111, "", ""], [1.111, 2.459, 100, 100], [2.459, 3.089, "", ""], [3.089, 6.687, 120, 120], [6.687, 7.901, "", ""], [7.901, 10.672, 110, 110], [10.672, 10.82, 40, 40], [10.82, 15.525, 110, 110], [15.525, 16.163, 100, 100], [16.163, 22.293, 110, 110], [22.293, 22.528, 100, 100], [22.528, 32.612, 120, 120], [32.612, 33.21, 100, 100], [33.21, 33.897, 40, 40], [33.897, 34.764, 100, 100], [34.764, 34.988, 90, 90], [34.988, 37.327, 100, 100], [37.327, 42.081, 120, 120], [42.081, 42.851, 100, 100], [42.851, 44.981, 110, 110], [44.981, 45.33, 90, 90], [45.33, 46.993, 110, 110], [46.993, 49.838, 120, 120], [49.838, 52.052, 100, 100], [52.052, 52.179, 90, 90], [52.179, 56.398, 110, 110], [56.398, 59.242, 120, 120], [59.242, 62.821, 160, 160], [62.821, 63.829, 120, 120], [63.829, 71.893, 160, 160], [71.893, 75.108, 140, 140], [75.108, 76.107, 130, 130], [76.107, 76.268, 160, 130], [76.268, 81.484, 160, 160], [81.484, 85.866, 120, 120], [85.866, 92.307, 90, 90], [92.307, 92.509, 70, 70], [92.509, 92.676, 90, 90]]
+curves = [[-0.336, -0.111, 450], [0.14, 0.216, 1950], [0.266, 1.12, 430], [1.368, 1.567, 1000], [1.666, 1.715, 2440], [1.839, 1.938, 1800], [2.063, 2.563, 860], [2.763, 2.913, 1790], [4.392, 4.492, 1960], [4.617, 4.667, 2620], [4.817, 4.917, 2410], [6.094, 7.023, 850], [7.449, 7.974, 1040], [8.751, 9.881, 920], [10.331, 11.357, 780], [11.858, 12.735, 690], [13.211, 13.712, 720], [13.862, 14.037, 1210], [14.488, 15.44, 890], [15.765, 16.518, 1090], [16.945, 17.122, 1210], [17.576, 18.65, 610], [19.076, 19.751, 620], [22.351, 22.4, 2270], [24.009, 24.81, 1990], [24.935, 25.26, 1920], [25.31, 25.885, 1500], [28.611, 29.361, 1130], [29.736, 30.137, 1090], [30.387, 31.113, 840], [31.438, 32.314, 840], [32.764, 33.39, 630], [33.791, 33.841, 2050], [33.891, 33.941, 2150], [33.992, 34.918, 550], [35.168, 35.368, 1060], [35.693, 36.993, 1020], [37.069, 37.394, 730], [37.944, 38.044, 1750], [39.171, 39.571, 1570], [40.798, 41.149, 950], [41.425, 41.676, 1260], [42.102, 42.852, 540], [44.004, 44.506, 1450], [45.105, 45.709, 600], [46.136, 47.014, 610], [47.24, 47.691, 770], [47.791, 47.967, 1690], [48.418, 48.819, 1410], [49.497, 49.622, 1860], [49.697, 49.772, 2720], [49.898, 50.625, 580], [50.675, 51.128, 590], [51.383, 51.74, 610], [51.817, 52.193, 610], [53.257, 54.407, 570], [54.832, 55.458, 580], [55.808, 56.409, 580], [56.559, 57.21, 730], [58.712, 59.287, 700], [60.487, 60.887, 2010], [60.937, 61.162, 2050], [61.212, 61.862, 2010], [65.584, 65.677, 2520], [67.941, 68.016, 2440], [71.841, 72.167, 1460], [75.169, 76.02, 1170], [80.884, 81.034, 2750], [82.838, 83.392, 1180], [84.795, 85.696, 890], [85.922, 86.973, 490], [87.075, 87.326, 690], [87.876, 88.352, 640], [88.798, 89.104, 630], [89.304, 89.78, 900], [90.031, 90.106, 2950], [91.431, 91.857, 930], [92.037, 92.166, 1740], [92.292, 92.517, 730]]
+points = [
+  { km = -0.342, kind = "signal", signal = "minor", dir = 1 },
+  { km = -0.334, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.279, kind = "signal", label = "N6", signal = "departure,main,minor", dir = -1 },
+  { km = -0.038, kind = "stop", label = "Ulm Hbf", pos = [48.3993, 9.98237] },
+  { km = -0.03, kind = "signal", label = "DS6 S", signal = "minor", dir = 1 },
+  { km = -0.026, kind = "station", label = "Ulm Hauptbahnhof", uic = "8029103", pos = [48.39942, 9.9826] },
+  { km = -0.022, kind = "signal", label = "DS6 N", signal = "minor", dir = -1 },
+  { km = 0.011, kind = "stop", label = "Ulm Hbf", pos = [48.39974, 9.98234] },
+  { km = 0.043, kind = "signal", label = "L 106", signal = "minor", dir = 1 },
+  { km = 0.136, kind = "signal", label = "S 006", signal = "main,minor", dir = 1 },
+  { km = 0.219, kind = "signal", signal = "route", dir = 1 },
+  { km = 0.351, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.451, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.605, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.714, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.805, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.111, kind = "signal", label = "U 502", signal = "distant,main,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 2.291, kind = "signal", label = "76 ZW502", signal = "combined,speed_limit_distant" },
+  { km = 2.354, kind = "stop", label = "Ulm-Söflingen", pos = [48.4027, 9.95854], uic = "8029227" },
+  { km = 2.459, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.071, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.606, kind = "signal", label = "76 K", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 4.605, kind = "signal", signal = "distant,speed_limit_distant" },
+  { km = 5.523, kind = "station", label = "Blaustein", pos = [48.41475, 9.91906], uic = "8029228" },
+  { km = 5.586, kind = "signal", signal = "stop", dir = 1 },
+  { km = 7.403, kind = "station", label = "Herrlingen", pos = [48.41777, 9.8977], uic = "8029230" },
+  { km = 14.261, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 15.237, kind = "stop", label = "Gerhausen", pos = [48.39977, 9.80571], uic = "8029232" },
+  { km = 15.525, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.163, kind = "signal", signal = "speed_limit" },
+  { km = 16.21, kind = "signal", label = "12 P2", signal = "combined,minor", dir = -1 },
+  { km = 16.444, kind = "station", label = "Blaubeuren", pos = [48.40379, 9.7913], uic = "8029233" },
+  { km = 16.652, kind = "signal", label = "12 N2", signal = "combined,minor", dir = 1 },
+  { km = 16.933, kind = "signal", signal = "minor", dir = -1 },
+  { km = 16.935, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.971, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 17.417, kind = "signal", label = "12 F", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 17.649, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 18.612, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 18.715, kind = "signal", signal = "distant", dir = -1 },
+  { km = 18.78, kind = "signal", signal = "distant", dir = -1 },
+  { km = 18.866, kind = "signal", signal = "distant", dir = -1 },
+  { km = 21.414, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 22.293, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.513, kind = "signal", label = "5P2", signal = "main,minor", dir = -1 },
+  { km = 22.528, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.61, kind = "station", label = "Schelklingen", pos = [48.37163, 9.73525], uic = "8029234" },
+  { km = 23.096, kind = "signal", label = "5N2", signal = "main,minor", dir = 1 },
+  { km = 24.074, kind = "halt", label = "Schmiechen", uic = "8029235", pos = [48.36278, 9.72079] },
+  { km = 28.217, kind = "station", label = "Allmendingen", uic = "8029236", pos = [48.32773, 9.72239] },
+  { km = 28.223, kind = "signal", signal = "stop", dir = 1 },
+  { km = 31.642, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 32.612, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 33.447, kind = "station", label = "Ehingen", pos = [48.28579, 9.72468], uic = "8029238" },
+  { km = 33.504, kind = "signal", signal = "main_repeated" },
+  { km = 34.764, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 34.988, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 37.327, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 40.585, kind = "station", label = "Rottenacker", pos = [48.23491, 9.69462] },
+  { km = 41.098, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 42.081, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 42.851, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 42.854, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 43.791, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 43.926, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 44.089, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 44.664, kind = "signal", signal = "main", dir = -1 },
+  { km = 44.798, kind = "station", label = "Munderkingen", pos = [48.23775, 9.64567], uic = "8029241" },
+  { km = 44.854, kind = "signal", signal = "main_repeated" },
+  { km = 44.89, kind = "signal", signal = "main_repeated" },
+  { km = 44.981, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 45.177, kind = "signal", signal = "main", dir = 1 },
+  { km = 45.33, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 46.993, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 48.73, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 49.838, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 50.823, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 51.995, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 52.052, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 52.179, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 52.502, kind = "station", label = "Rechtenstein", pos = [48.24004, 9.55183] },
+  { km = 52.581, kind = "signal", label = "N1", signal = "main,minor,stop,traversable", dir = 1 },
+  { km = 56.398, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 59.242, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 61.751, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 63.829, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 64.709, kind = "signal", label = "P1", signal = "main,minor", dir = -1 },
+  { km = 65.184, kind = "station", label = "Riedlingen", uic = "8029246", pos = [48.14966, 9.48507] },
+  { km = 65.271, kind = "signal", label = "N1", signal = "main,minor", dir = 1 },
+  { km = 65.378, kind = "signal", label = "W29", signal = "minor", dir = -1 },
+  { km = 65.495, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 65.723, kind = "signal", label = "F", signal = "distant,main", dir = -1 },
+  { km = 66.872, kind = "signal", signal = "distant", dir = -1 },
+  { km = 70.793, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 71.893, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 74.102, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 75.108, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 75.571, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 76.107, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 76.266, kind = "signal", label = "P1", signal = "main,minor", dir = -1 },
+  { km = 76.268, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 76.459, kind = "station", label = "Herbertingen", pos = [48.06367, 9.41411], uic = "8029249" },
+  { km = 77.049, kind = "signal", label = "N1", signal = "main,minor", dir = 1 },
+  { km = 77.288, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 79.989, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 80.494, kind = "signal", label = "Va", signal = "distant", dir = 1 },
+  { km = 81.484, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 81.487, kind = "signal", label = "Vn", signal = "distant", dir = 1 },
+  { km = 81.491, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 82.034, kind = "signal", label = "P1", signal = "main", dir = -1 },
+  { km = 82.337, kind = "station", label = "Mengen", uic = "8029250", pos = [48.05335, 9.33659] },
+  { km = 82.392, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 82.405, kind = "stop", label = "Mengen Bahnhof", pos = [48.0534, 9.33564] },
+  { km = 82.531, kind = "signal", label = "N1", signal = "main", dir = 1 },
+  { km = 83.038, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 83.259, kind = "signal", label = "F", signal = "main", dir = -1 },
+  { km = 83.262, kind = "signal", label = "Vp", signal = "distant", dir = -1 },
+  { km = 84.247, kind = "signal", label = "Vf", signal = "distant", dir = -1 },
+  { km = 84.92, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 85.866, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 88.474, kind = "signal", label = "2A", signal = "main", dir = 1 },
+  { km = 89.005, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 89.048, kind = "halt", label = "Sigmaringendorf", uic = "8029253", pos = [48.06885, 9.26079] },
+  { km = 89.4, kind = "signal", signal = "distant", dir = 1 },
+  { km = 90.002, kind = "signal", signal = "distant", dir = -1 },
+  { km = 90.594, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 90.707, kind = "signal", label = "302", signal = "main", dir = -1 },
+  { km = 90.956, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 91.584, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 91.706, kind = "signal", label = "V302", signal = "distant", dir = -1 },
+  { km = 92.096, kind = "signal", signal = "minor", dir = 1 },
+  { km = 92.307, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 92.4, kind = "signal", label = "P1", signal = "main,minor", dir = -1 },
+  { km = 92.509, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 92.524, kind = "signal", signal = "stop", dir = -1 },
+  { km = 92.676, kind = "station", label = "Sigmaringen", pos = [48.08711, 9.22199], uic = "8029254" },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.436, kmTo = -0.399, length = 37 },
+  { kind = "bridge", kmFrom = 3.039, kmTo = 3.073, length = 33 },
+  { kind = "bridge", kmFrom = 4.848, kmTo = 4.867, length = 19 },
+  { kind = "bridge", kmFrom = 5.132, kmTo = 5.148, length = 16 },
+  { kind = "bridge", kmFrom = 5.203, kmTo = 5.228, length = 25 },
+  { kind = "bridge", kmFrom = 7.033, kmTo = 7.061, length = 28 },
+  { kind = "bridge", kmFrom = 12.94, kmTo = 13.022, length = 82 },
+  { kind = "bridge", kmFrom = 13.48, kmTo = 13.498, length = 17 },
+  { kind = "bridge", kmFrom = 15.387, kmTo = 15.4, length = 13 },
+  { kind = "bridge", kmFrom = 15.767, kmTo = 15.781, length = 14 },
+  { kind = "bridge", kmFrom = 15.868, kmTo = 15.958, length = 89 },
+  { kind = "bridge", kmFrom = 17.428, kmTo = 17.447, length = 18 },
+  { kind = "bridge", kmFrom = 17.939, kmTo = 17.961, length = 22 },
+  { kind = "bridge", kmFrom = 18.243, kmTo = 18.257, length = 13 },
+  { kind = "bridge", kmFrom = 22.331, kmTo = 22.354, length = 24 },
+  { kind = "bridge", kmFrom = 22.376, kmTo = 22.392, length = 16 },
+  { kind = "bridge", kmFrom = 22.477, kmTo = 22.494, length = 16 },
+  { kind = "bridge", kmFrom = 23.681, kmTo = 23.749, length = 68 },
+  { kind = "bridge", kmFrom = 24.144, kmTo = 24.166, length = 21 },
+  { kind = "bridge", kmFrom = 24.693, kmTo = 24.707, length = 14 },
+  { kind = "bridge", kmFrom = 27.421, kmTo = 27.441, length = 20 },
+  { kind = "bridge", kmFrom = 28.619, kmTo = 28.64, length = 21 },
+  { kind = "bridge", kmFrom = 32.083, kmTo = 32.12, length = 37 },
+  { kind = "bridge", kmFrom = 33.028, kmTo = 33.062, length = 35 },
+  { kind = "bridge", kmFrom = 33.176, kmTo = 33.201, length = 24 },
+  { kind = "bridge", kmFrom = 34.144, kmTo = 34.165, length = 21 },
+  { kind = "bridge", kmFrom = 34.513, kmTo = 34.523, length = 10 },
+  { kind = "bridge", kmFrom = 35.001, kmTo = 35.02, length = 19 },
+  { kind = "bridge", kmFrom = 45.965, kmTo = 45.976, length = 12 },
+  { kind = "bridge", kmFrom = 49.98, kmTo = 49.995, length = 15 },
+  { kind = "bridge", kmFrom = 50.096, kmTo = 50.138, length = 42 },
+  { kind = "bridge", kmFrom = 52.696, kmTo = 52.782, length = 88 },
+  { kind = "bridge", kmFrom = 57.284, kmTo = 57.354, length = 70 },
+  { kind = "bridge", kmFrom = 58.343, kmTo = 58.47, length = 126 },
+  { kind = "bridge", kmFrom = 61.977, kmTo = 61.991, length = 14 },
+  { kind = "bridge", kmFrom = 67.675, kmTo = 67.689, length = 14 },
+  { kind = "bridge", kmFrom = 78.619, kmTo = 78.635, length = 16 },
+  { kind = "bridge", kmFrom = 81.832, kmTo = 81.861, length = 29 },
+  { kind = "bridge", kmFrom = 82.84, kmTo = 82.853, length = 13 },
+  { kind = "bridge", kmFrom = 83.178, kmTo = 83.191, length = 14 },
+  { kind = "bridge", kmFrom = 83.203, kmTo = 83.217, length = 14 },
+  { kind = "tunnel", kmFrom = 86.271, kmTo = 86.366, length = 94, name = "Schlossberg-Tunnel" },
+  { kind = "bridge", kmFrom = 86.402, kmTo = 86.536, length = 134 },
+  { kind = "bridge", kmFrom = 88.789, kmTo = 88.828, length = 40 },
+  { kind = "bridge", kmFrom = 90.903, kmTo = 90.951, length = 48 },
+  { kind = "bridge", kmFrom = 91.386, kmTo = 91.397, length = 11 },
+  { kind = "bridge", kmFrom = 92.201, kmTo = 92.267, length = 66 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sikfH}}|{@yCxC" },
+  { line = "mnkfHcy|{@yAv@", v = 40 },
+  { line = "gqkfHkw|{@yD~@iIV" },
+  { line = "kalfHst|{@gIP", v = 40 },
+  { line = "sklfHat|{@eMRkCrAuBnCmBlFgCzMQnFXlG" },
+  { line = "iimfHaf{{@rCx]tNvu@h@dJI~J", v = 100 },
+  { line = "_tlfHiyw{@qB|]gC|S" },
+  { line = "y{lfHmev{@{SjuAoFbWsLv^ol@|qA_EtPoApR", v = 120 },
+  { line = "y{ofH__n{@p@pSpJts@`@fL_@|K" },
+  { line = "snofHq{j{@wK`mAI~RbAdNrC|MzG`Od_@z`@vHlN", v = 110 },
+  { line = "cbnfH_zd{@vBdJ", v = 40 },
+  { line = "k~mfHynd{@~AnOCtOoJnv@k@`NPvHdCbPfCpGbCxDj\\r_@nEjJxBvJtCpYtKnm@zBpWEdK}@vLuAvH{EvO", v = 110 },
+  { line = "_jlfH_pyz@eItWwBxKw@rI", v = 100 },
+  { line = "uylfH{_xz@UnV|Blq@s@~u@lAvMnDhL`GjHjItDhGNd[wDrHSzGlBfEhDhD~El|AjhD", v = 110 },
+  { line = "u}ffHq`mz@|G~M", v = 100 },
+  { line = "wtffHqqlz@|w@`|AzMhRvMpLtK`GtL`ExNfB~LWtH_BrqCq~@jHaBdLO`HhA~_@`RrFxArFh@fWYfH{B`HkFzEcHzPk^fF_HrEeDlHgC`Gc@hXpD", v = 120 },
+  { line = "y}veHerkz@fJ`BnGvC`CxB|DpG", v = 100 },
+  { line = "a`veH_~jz@tOds@", v = 40 },
+  { line = "koueHyiiz@jEhQ`CbElDfD~HnC`DBzE_A", v = 100 },
+  { line = "qiteHoihz@bJqG", v = 90 },
+  { line = "m~seHarhz@zLcL`Vc_@hIyElKwCvGa@vGThFxAhEpDdJxPrGdH", v = 100 },
+  { line = "yopeH{giz@za@~Tt{@xq@vGrItw@vzA|CzLtHdc@zNdb@", v = 120 },
+  { line = "ipjeHmcaz@fEvOp@fMItEcAjI}CjJ", v = 100 },
+  { line = "{ojeH_h_z@_n@ftA_GnVyG~f@", v = 110 },
+  { line = "uoleHgszy@gB|NSvK", v = 90 },
+  { line = "qsleHqvyy@^vIdAjH~R`k@xBxMJnMy@dKmAlFaE|I", v = 110 },
+  { line = "obleHozuy@_NzSoDnJ}Eb^iLjl@{BxV_Ch{@oBhY", v = 120 },
+  { line = "svmeHe_oy@cA~PRpHbAfI~CxJpJpMvCvF`B|Gx@zHzAxWHlI]|GaD~Rc@lK", v = 100 },
+  { line = "w_meHywiy@XvI", v = 90 },
+  { line = "}~leHamiy@rL`fBlDvLnD`G`DtCfFxBzJ\\xFiBtXeTtDoB~Ds@bHd@jItEjWzVhEdLz@tFh@tJ", v = 110 },
+  { line = "skheHaddy@v@dUtA`KlCzInF`JfjAvmA`JlE|Eb@pE]", v = 120 },
+  { line = "mwdeHov_y@`fAwVpNaApNb@rPhD|M`Gdv@hm@", v = 160 },
+  { line = "oy~dHos~x@`p@fi@", v = 120 },
+  { line = "mh}dHgi}x@tyA~kA~sBvjAbqEhgB", v = 160 },
+  { line = "sfpdHehux@rKrHniCbiC", v = 140 },
+  { line = "ookdHmtpx@jKrMhGnNjEnRfB|P", v = 130 },
+  { line = "eqjdH{pnx@ny@taKnC~t@", v = 160 },
+  { line = "erhdHex`x@`GjtBOvQyAnPg]ltBiCpKsEhKmG~HiIjFiN~D", v = 120 },
+  { line = "uxjdH{xvw@aLhEiF~F", v = 90 },
+  { line = "amkdHqjvw@cBjE", tunnel = true, v = 90 },
+  { line = "epkdHedvw@uA~Fe@rFNjLjB~JvIfT|ClRvGng@NnMw@`JuNvp@cC`F{OzSoFlM{Ilg@w`@|hBoFfJeXdY", v = 90 },
+  { line = "orndHo|hw@mC`E_BrE", v = 70 },
+  { line = "}yndHyohw@uCbK", v = 90 },
+]
+posts = [[0, 48.39964, 9.98235], [1, 48.40626, 9.9764], [2, 48.40354, 9.96345], [3, 48.40372, 9.95033], [4, 48.40675, 9.93762], [5, 48.41102, 9.92578], [6, 48.41677, 9.91539], [7, 48.41891, 9.90305], [8, 48.41742, 9.88999], [9, 48.41935, 9.87684], [10, 48.41478, 9.866], [11, 48.40905, 9.8562], [12, 48.41104, 9.84316], [13, 48.40648, 9.83255], [14, 48.40178, 9.82166], [15, 48.39928, 9.80884], [16, 48.40323, 9.79682], [17, 48.40313, 9.78349], [18, 48.40247, 9.7703], [19, 48.39422, 9.76781], [20, 48.38673, 9.76239], [21, 48.38099, 9.752], [22, 48.37527, 9.7416], [23, 48.3693, 9.7315], [24, 48.36323, 9.72154], [25, 48.35572, 9.71437], [26, 48.34689, 9.7141], [27, 48.33825, 9.71785], [28, 48.32962, 9.7216], [29, 48.32089, 9.72451], [30, 48.31234, 9.72055], [31, 48.30387, 9.72337], [32, 48.29709, 9.73175], [33, 48.28831, 9.72967], [34, 48.28385, 9.71823], [35, 48.27629, 9.71577], [36, 48.26917, 9.72384], [37, 48.26088, 9.72204], [38, 48.25311, 9.71566], [39, 48.24525, 9.70911], [40, 48.23853, 9.70032], [41, 48.23257, 9.69027], [42, 48.22846, 9.6784], [43, 48.22884, 9.66647], [44, 48.2346, 9.65613], [45, 48.23824, 9.64395], [46, 48.23618, 9.63169], [47, 48.23612, 9.61969], [48, 48.24077, 9.60857], [49, 48.24341, 9.59583], [50, 48.24473, 9.58254], [51, 48.24036, 9.57147], [52, 48.24073, 9.5586], [53, 48.23918, 9.54514], [54, 48.23458, 9.53478], [55, 48.22632, 9.53926], [56, 48.21836, 9.53401], [57, 48.21545, 9.52156], [58, 48.20822, 9.5136], [59, 48.20063, 9.50651], [60, 48.19182, 9.50872], [61, 48.18295, 9.51054], [62, 48.17449, 9.50638], [63, 48.16669, 9.49968], [64, 48.15889, 9.49298], [65, 48.15118, 9.48636], [66, 48.14312, 9.48009], [67, 48.13487, 9.47474], [68, 48.1266, 9.46948], [69, 48.11807, 9.46523], [70, 48.10953, 9.46099], [71, 48.101, 9.45677], [72, 48.0925, 9.4524], [73, 48.08497, 9.44507], [74, 48.07749, 9.43761], [75, 48.07001, 9.43016], [76, 48.06457, 9.41994], [77, 48.0626, 9.40685], [78, 48.06057, 9.39378], [79, 48.0586, 9.38069], [80, 48.05662, 9.3676], [81, 48.05473, 9.35449], [82, 48.05379, 9.34115], [83, 48.05297, 9.3278], [84, 48.05566, 9.31507], [85, 48.05904, 9.30265], [86, 48.0667, 9.29645], [87, 48.06867, 9.28584], [88, 48.06534, 9.27352], [89, 48.06854, 9.26123], [90, 48.07386, 9.25082], [91, 48.07758, 9.23861], [92, 48.08286, 9.22822]]
+
+[[connections]]
+km = -0.038
+station = "Ulm Hbf"
+lines = [
+  { id = "4500", ref = "4500", name = "4500 Ulm Hbf - Friedrichshafen Stadt", km = 93.957 },
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 93.956 },
+  { id = "4813", ref = "4813", name = "4813 Schnellfahrstrecke Stuttgart – Ulm", km = 88.569 },
+]
+
+[[connections]]
+km = 22.61
+station = "Schelklingen"
+lines = [
+  { id = "4620", ref = "4620", name = "4620 Reutlingen - Schelklingen", km = 58.239 },
+]
+
+[[connections]]
+km = 24.074
+station = "Schmiechen"
+lines = [
+  { id = "4620", ref = "4620", name = "4620 Reutlingen - Schelklingen", km = 56.857 },
+]
+
+[[connections]]
+km = 76.459
+station = "Herbertingen"
+lines = [
+  { id = "4550", ref = "4550", name = "4550 Herbertingen - Isny", km = -0.049 },
+]
+
+[[connections]]
+km = 82.337
+station = "Mengen"
+lines = [
+  { id = "4330", ref = "4330", name = "4330 Radolfzell - Mengen", km = 56.646 },
+]
+
+[[connections]]
+km = 89.048
+station = "Sigmaringendorf"
+lines = [
+  { id = "9461", ref = "9461", name = "Schwäbische Albbahn", km = 90.95 },
+]
+
+[[connections]]
+km = 92.676
+station = "Sigmaringen"
+lines = [
+  { id = "4630", ref = "4630", name = "4630 Tübingen Hbf - Sigmaringen", km = 87.504 },
+  { id = "9461", ref = "9461", name = "Schwäbische Albbahn", km = 87.49 },
+]

@@ -1,0 +1,48 @@
+id = "2417"
+ref = "2417"
+name = "2417 Abzw Düsseldorf Sturm - Düsseldorf Berg"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q19838776"
+from = "Düsseldorf Sturm"
+to = "Düsseldorf Berg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.788
+length = 0.788
+speeds = [[0, 0.225, "", ""], [0.225, 0.788, 70, 70]]
+curves = [[0.1, 0.575, 600]]
+points = [
+  { km = 0, kind = "halt", label = "Düsseldorf-Eller Mitte", uic = "8001308", pos = [51.20204, 6.83857] },
+  { km = 0, kind = "halt", label = "Eller Mitte S", pos = [51.20125, 6.83845] },
+  { km = 0.186, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 0.225, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.088, kmTo = 0.117, length = 30 },
+  { kind = "bridge", kmFrom = 0.37, kmTo = 0.389, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kiowHqfvh@^bS" },
+  { line = "khowHmruh@QxHkAzHaK~U", v = 70 },
+]
+posts = [[0, 51.20166, 6.83641]]
+
+[[connections]]
+km = 0
+station = "Düsseldorf-Eller Mitte"
+lines = [
+  { id = "2413", ref = "2413", name = "2413 Düsseldorf-Eller - Düsseldorf Hbf", km = 1.001 },
+]
+
+[[connections]]
+km = 0
+station = "Eller Mitte S"
+lines = [
+  { id = "2413", ref = "2413", name = "2413 Düsseldorf-Eller - Düsseldorf Hbf", km = 1.046 },
+]

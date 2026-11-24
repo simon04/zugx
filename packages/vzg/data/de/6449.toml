@@ -1,0 +1,33 @@
+id = "6449"
+ref = "6449"
+name = "6449 Abzw Rostock Warnowbrücke West - Dalwitzhof Nordkopf"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131688127"
+from = "Rostock Warnowbrücke West"
+to = "Dalwitzhof Nordkopf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.092
+kmTo = 0.725
+length = 0.787
+speeds = [[-0.092, 0.015, 80, 80], [0.015, 0.725, 60, 60]]
+curves = [[0.025, 0.406, 400], [0.455, 0.625, 480]]
+points = [
+  { km = 0.015, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.288, kind = "signal", label = "592", signal = "combined,traversable", dir = -1 },
+  { km = 0.296, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.442, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.641, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 0.715, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.723, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kh_iIgjciAmHn@uIhHkCfAsDBkEcB", v = 60 },
+  { line = "{l`iIe`ciAcDyC", v = 80 },
+]
+posts = [[0, 54.07464, 12.1449]]

@@ -1,0 +1,75 @@
+id = "1600"
+ref = "1600"
+name = "1600 Osnabrück Hbf - Osnabrück Stahlwerkskurve"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q67651934"
+from = "Osnabrück Hbf Po"
+to = "Osnabrück Hbf Pu"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.841
+length = 4.841
+speeds = [[0, 4.841, "", ""]]
+curves = [[0.1, 0.2, 1980], [0.25, 0.325, 2320], [0.45, 1.25, 690], [1.875, 3.575, 590], [4.325, 4.675, 2230]]
+points = [
+  { km = 0.048, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.137, kind = "signal", label = "P4 I", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 0.151, kind = "signal", signal = "brake_test,departure,main_repeated" },
+  { km = 0.249, kind = "station", label = "Osnabrück Hauptbahnhof", pos = [52.27291, 8.06157], uic = "8000294" },
+  { km = 0.347, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.445, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.45, kind = "signal", label = "R4", signal = "departure,distant,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 0.619, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.69, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.694, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.782, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.866, kind = "signal", signal = "combined", dir = -1 },
+  { km = 0.881, kind = "signal", label = "SS", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 1.58, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.581, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.7, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.702, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.925, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.965, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.613, kind = "signal", label = "PS", signal = "distant,main,minor", dir = 1 },
+  { km = 2.629, kind = "signal", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 3.032, kind = "signal", label = "RS", signal = "main", dir = -1 },
+  { km = 3.289, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.527, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.602, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.659, kind = "signal", label = "Ls W251", signal = "minor", dir = 1 },
+  { km = 4.732, kind = "signal", signal = "electricity", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.025, kmTo = 0.061, length = 37 },
+  { kind = "bridge", kmFrom = 0.249, kmTo = 0.308, length = 59 },
+  { kind = "bridge", kmFrom = 0.614, kmTo = 0.649, length = 34 },
+  { kind = "bridge", kmFrom = 1.004, kmTo = 1.03, length = 26 },
+  { kind = "bridge", kmFrom = 1.115, kmTo = 1.131, length = 16 },
+  { kind = "bridge", kmFrom = 1.375, kmTo = 1.388, length = 13 },
+  { kind = "bridge", kmFrom = 1.519, kmTo = 1.533, length = 14 },
+  { kind = "bridge", kmFrom = 1.619, kmTo = 1.633, length = 14 },
+  { kind = "bridge", kmFrom = 1.774, kmTo = 1.788, length = 14 },
+  { kind = "bridge", kmFrom = 2.925, kmTo = 2.945, length = 19 },
+  { kind = "bridge", kmFrom = 3.07, kmTo = 3.106, length = 36 },
+  { kind = "bridge", kmFrom = 3.427, kmTo = 3.451, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ob`~Haeep@kKsIsMeIqDsDoC_FgD_KgBiL]qL?}aAf@cKfBwJbFiMpG{G~IwChFWnDt@hDpC~CzG~@rFVjHkFnkAwBbWyCnT" },
+]
+posts = [[0, 52.27064, 8.05985], [1, 52.27773, 8.06818], [2, 52.27804, 8.08281], [3, 52.27143, 8.09045], [4, 52.26965, 8.07782]]
+
+[[connections]]
+km = 0.249
+station = "Osnabrück Hauptbahnhof"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 117.742 },
+  { id = "2950", ref = "2950", name = "2950 Brackwede - Osnabrück", km = 52.992 },
+  { id = "2992", ref = "2992", name = "2992 Löhne (Westf) - Rheine", km = 132.393 },
+]

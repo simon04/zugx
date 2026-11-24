@@ -1,0 +1,48 @@
+id = "2575"
+ref = "2575"
+name = "2575 Langerwehe - Eschweiler-Weisweiler"
+operator = "EVS EUREGIO Verkehrsschienennetz GmbH"
+gauge = "1435"
+wikidata = "Q186874"
+from = "Langerwehe"
+to = "Eschweiler-Weisweiler"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.042
+kmTo = 2.465
+length = 2.5
+speeds = [[-0.042, 0.158, 50, 30], [0.158, 0.265, 50, 40], [0.265, 0.345, 80, 40], [0.345, 2.028, 80, 80], [2.028, 2.465, "", ""]]
+curves = [[0.133, 0.183, 1940], [0.233, 0.631, 1060], [0.705, 0.78, 2250], [1.181, 1.484, 1090], [1.965, 2.365, 410]]
+points = [
+  { km = 0.037, kind = "station", label = "Langerwehe", uic = "8003553", pos = [50.8179, 6.35348] },
+  { km = 0.147, kind = "signal", label = "01N5", signal = "main,speed_limit", dir = 1 },
+  { km = 0.158, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.265, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.345, kind = "signal", label = "01H", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 0.801, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.69, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.094, kind = "signal", label = "03A", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.396, kmTo = 0.675, length = 281, name = "Ulhaus" },
+  { kind = "bridge", kmFrom = 2.028, kmTo = 2.077, length = 50 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "k|euHy|qe@oBmFiAwHMeHb@yH" },
+  { line = "oafuH_ase@tMov@zU{m@", v = 80 },
+  { line = "}{duHkgve@lH}R", tunnel = true, v = 80 },
+  { line = "orduHi{ve@pA}I", v = 80 },
+  { line = "}oduHgfwe@xCgY", v = 50 },
+]
+posts = [[2, 50.82656, 6.32902], [1, 50.82248, 6.3414], [0, 50.81805, 6.35359]]
+
+[[connections]]
+km = 0.037
+station = "Langerwehe"
+lines = [
+  { id = "2600", ref = "2600", name = "2600 Köln Hbf - Aachen Süd Grenze", km = 49.038 },
+]

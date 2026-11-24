@@ -1,0 +1,87 @@
+id = "1023"
+ref = "1023"
+name = "1023 Kiel Hbf - Eutin"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q204241"
+from = "Kiel Hbf"
+to = "Eutin"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.6
+kmTo = 28.4
+length = 26.736
+speeds = [[1.6, 1.696, 70, 70], [1.696, 2.327, 90, 90], [2.327, 2.602, 70, 70], [2.602, 16.196, 100, 100], [16.196, 25.777, 140, 140], [25.777, 26.006, 120, 120], [26.006, 27.368, 80, 80], [27.368, 28.4, 100, 100]]
+curves = [[1.864, 2.356, 700], [2.757, 3.483, 1160], [3.582, 4.511, 1120], [4.889, 5.594, 1160], [7.211, 7.567, 1810], [8.56, 9.747, 830], [10.854, 11.506, 1340], [12.409, 13.061, 1370], [13.762, 14.236, 1500], [15.287, 15.337, 2350], [15.638, 15.97, 1270], [16.067, 17.01, 1390], [17.78, 18.55, 1150], [18.947, 19.701, 1390], [21.596, 22.258, 950], [22.426, 22.883, 1030], [23.388, 23.661, 1480], [25.96, 26.666, 450], [26.745, 27.091, 780], [27.257, 28.239, 1230]]
+points = [
+  { km = 2.009, kind = "signal", label = "20 2", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.015, kind = "signal", label = "21 3", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 2.177, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.327, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.393, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.534, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.602, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.995, kind = "signal", label = "216", signal = "combined", dir = -1 },
+  { km = 3.601, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.997, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.817, kind = "signal", label = "78P1", signal = "main", dir = -1 },
+  { km = 5.184, kind = "station", label = "Kiel-Elmschenhagen", uic = "8003477", pos = [54.28713, 10.18025] },
+  { km = 5.263, kind = "signal", label = "78N1", signal = "main", dir = 1 },
+  { km = 5.916, kind = "signal", label = "78F", signal = "combined,speed_limit", dir = -1 },
+  { km = 6.422, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 6.927, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 9.449, kind = "signal", signal = "distant", dir = 1 },
+  { km = 9.501, kind = "signal", label = "77P2", signal = "main", dir = -1 },
+  { km = 9.564, kind = "station", label = "Raisdorf", pos = [54.28087, 10.24372] },
+  { km = 9.729, kind = "signal", label = "77N2", signal = "main", dir = 1 },
+  { km = 10.176, kind = "signal", label = "77F", signal = "combined,speed_limit", dir = -1 },
+  { km = 10.92, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.569, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 14.861, kind = "signal", label = "76A", signal = "combined,speed_limit", dir = 1 },
+  { km = 15.267, kind = "signal", label = "76P2", signal = "main,speed_limit", dir = -1 },
+  { km = 15.429, kind = "station", label = "Preetz", uic = "8004879", pos = [54.23361, 10.27586] },
+  { km = 15.567, kind = "signal", label = "76N2", signal = "main", dir = 1 },
+  { km = 16.195, kind = "signal", label = "76F", signal = "combined,speed_limit", dir = -1 },
+  { km = 16.196, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.42, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 17.196, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 17.547, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 25.777, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 26.006, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 26.408, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 26.604, kind = "signal", label = "75P3", signal = "main,speed_limit", dir = -1 },
+  { km = 26.606, kind = "signal", signal = "stop", dir = -1 },
+  { km = 26.71, kind = "stop", label = "Ascheberg (Holstein)", pos = [54.1486, 10.34006] },
+  { km = 26.736, kind = "station", label = "Ascheberg (Holst)", uic = "8000011", pos = [54.14859, 10.34046] },
+  { km = 26.892, kind = "signal", label = "75N3", signal = "main,speed_limit", dir = 1 },
+  { km = 26.914, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 27.368, kind = "signal", label = "75F", signal = "combined,speed_limit", dir = -1 },
+  { km = 27.6, kind = "signal", signal = "distant,speed_limit_distant", dir = -1, measured = true },
+  { km = 27.95, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 28.354, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.696, kmTo = 1.771, length = 69 },
+  { kind = "bridge", kmFrom = 1.955, kmTo = 1.968, length = 13 },
+  { kind = "bridge", kmFrom = 9.101, kmTo = 9.139, length = 38 },
+  { kind = "bridge", kmFrom = 9.782, kmTo = 9.821, length = 41 },
+  { kind = "bridge", kmFrom = 14.903, kmTo = 14.925, length = 22 },
+  { kind = "bridge", kmFrom = 14.975, kmTo = 14.986, length = 11 },
+  { kind = "bridge", kmFrom = 15.212, kmTo = 15.234, length = 22 },
+  { kind = "bridge", kmFrom = 15.821, kmTo = 15.832, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eyljIonz|@lCqB", v = 70 },
+  { line = "wtljIarz|@bJwGpDcE|D}HrC_K", v = 90 },
+  { line = "oykjI{v{|@fFsV", v = 70 },
+  { line = "grkjIon||@|EmWnBgVPcTyAsc@XkKhAsKlC_MdFkPdZgq@|D}PvB{Q~KmjBtBiw@QkYyEg`B?qNl@uKvAuKjCgM|CyJhE{HtFiFdaA{d@lMcKxL_Rjg@ghAhJgMjJsHrh@uWjKaDdIk@vz@v@bTk@hK{AlPsI", v = 100 },
+  { line = "ie~iIimv}@pQsCnPvAjKjEve@|YnOvD`HApHoAl^yOvKeJ~KuPvfAokChJuOdKuHvUuF`HiDhG{FnYm`@rG}G~pB}pA", v = 140 },
+  { line = "iuoiImp`~@zJqG", v = 120 },
+  { line = "mioiI_y`~@hEkE`DoHdBuJV{LqA}SkAuI}L{^", v = 80 },
+  { line = "_moiI}ad~@gGqXwAwLi@mLRcRzCgY", v = 100 },
+]
+posts = [[2, 54.29863, 10.13764], [3, 54.29415, 10.15071], [4, 54.29374, 10.16612], [5, 54.28797, 10.17819], [6, 54.28515, 10.19184], [7, 54.28355, 10.20689], [8, 54.28387, 10.22194], [9, 54.284, 10.23688], [10, 54.27705, 10.24619], [11, 54.2685, 10.25125], [12, 54.26183, 10.26133], [13, 54.25498, 10.27099], [14, 54.24645, 10.27576], [15, 54.23746, 10.27581], [16, 54.22863, 10.2771], [17, 54.21915, 10.27739], [18, 54.21152, 10.27244], [19, 54.20272, 10.27503], [20, 54.19597, 10.2842], [21, 54.19019, 10.29557], [22, 54.18395, 10.30596], [23, 54.17531, 10.31148], [24, 54.16744, 10.31928], [25, 54.15913, 10.32521], [26, 54.15085, 10.33116], [27, 54.14951, 10.34397], [28, 54.15334, 10.35776]]

@@ -1,0 +1,89 @@
+id = "2252"
+ref = "2252"
+name = "2252 Gelsenkirchen Buer Nord - Abzweig Marl Lippe"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Gelsenkirchen-Buer Nord"
+to = "Marl Lippe"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.236
+kmTo = 16.827
+length = 16.604
+speeds = [[0.236, 0.334, 60, 60], [0.334, 0.521, 90, 90], [0.521, 2.456, 110, 110], [2.456, 4.103, 120, 120], [4.103, 14.74, 140, 140], [14.74, 16.827, 100, 100]]
+curves = [[0.365, 0.44, 1980], [0.854, 1.252, 1180], [1.964, 2.738, 870], [3.936, 4.023, 2260], [4.421, 5.014, 2560], [5.057, 5.21, 2520], [5.289, 5.426, 2170], [5.594, 5.741, 2560], [12.282, 12.326, 2780], [13.654, 13.716, 2470], [13.979, 14.104, 2720], [14.941, 15.072, 1930], [15.529, 15.866, 2620], [15.918, 16.196, 2440], [16.526, 16.652, 2690]]
+points = [
+  { km = 0.334, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.521, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.556, kind = "signal", label = "52 G", signal = "combined,speed_limit", dir = -1 },
+  { km = 0.71, kind = "stop", label = "Gelsenkirchen Buer-Nord", pos = [51.58733, 7.05103], uic = "8010018" },
+  { km = 1.596, kind = "signal", label = "52 Vg", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.455, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.456, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.799, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 2.959, kind = "signal", label = "52 V921", signal = "distant", dir = 1 },
+  { km = 3.534, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.889, kind = "stop", label = "Gelsenkirchen-Hassel", pos = [51.61086, 7.06654], uic = "8002226" },
+  { km = 3.981, kind = "signal", label = "52 921", signal = "main", dir = 1 },
+  { km = 4.103, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.104, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.205, kind = "signal", label = "52 922", signal = "main", dir = -1 },
+  { km = 5.096, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.361, kind = "signal", label = "52 V922", signal = "distant", dir = -1 },
+  { km = 8.115, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 9.291, kind = "stop", label = "Marl Mitte", pos = [51.65381, 7.09963], uic = "8003888" },
+  { km = 10.134, kind = "signal", label = "53 Va", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 11.183, kind = "signal", label = "53 A", signal = "main,speed_limit", dir = 1 },
+  { km = 11.35, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 11.375, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.68, kind = "signal", label = "53 924", signal = "main", dir = -1 },
+  { km = 12.084, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 12.661, kind = "signal", label = "53 V924", signal = "distant", dir = -1 },
+  { km = 13.177, kind = "stop", label = "Marl-Hamm", pos = [51.68297, 7.13145], uic = "8003890" },
+  { km = 13.228, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.711, kind = "signal", label = "91 V911", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 14.223, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 14.657, kind = "signal", label = "91 911", signal = "main,speed_limit,wrong_road", dir = 1 },
+  { km = 14.74, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.221, kind = "signal", label = "91 914", signal = "main,speed_limit", dir = -1 },
+  { km = 15.387, kind = "signal", label = "91 V913", signal = "distant", dir = 1 },
+  { km = 16.187, kind = "signal", label = "91 V914", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 16.366, kind = "signal", label = "91 913", signal = "combined,speed_limit", dir = 1 },
+  { km = 16.598, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.6, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.5, kmTo = 0.514, length = 14 },
+  { kind = "bridge", kmFrom = 0.629, kmTo = 0.653, length = 28 },
+  { kind = "bridge", kmFrom = 3.948, kmTo = 3.967, length = 22 },
+  { kind = "bridge", kmFrom = 4.409, kmTo = 4.442, length = 39 },
+  { kind = "bridge", kmFrom = 11.22, kmTo = 11.253, length = 38 },
+  { kind = "bridge", kmFrom = 11.636, kmTo = 11.666, length = 35 },
+  { kind = "bridge", kmFrom = 12.409, kmTo = 12.488, length = 60 },
+  { kind = "bridge", kmFrom = 13.22, kmTo = 13.256, length = 44 },
+  { kind = "bridge", kmFrom = 13.663, kmTo = 13.695, length = 37 },
+  { kind = "bridge", kmFrom = 14.276, kmTo = 14.282, length = 10 },
+  { kind = "bridge", kmFrom = 15.006, kmTo = 15.031, length = 25 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q{rzHoytj@rN`GzYtIxM`HdLtIfUpT|LzN", v = 100 },
+  { line = "{pozHqmrj@n\\db@zThVd{@biAhcApcArcA`kAnkBviBlcAlgAtOzL~RfJzUrEfVd@", v = 140 },
+  { line = "st_zHedcj@zS_A|v@aH|I?", v = 120 },
+  { line = "{||yHgocj@b@H", tunnel = true, v = 120 },
+  { line = "w{|yH}ncj@z@L", v = 120 },
+  { line = "{y|yHoncj@|IfD~GpGp`@lt@zHvRzJjc@", v = 110 },
+  { line = "snzyHcs_j@dDrM", v = 90 },
+  { line = "mizyHod_j@|ApF", v = 60 },
+]
+posts = [[16, 51.70391, 7.15348], [15, 51.69599, 7.14662], [14, 51.68908, 7.13844], [13, 51.68186, 7.13002], [12, 51.67457, 7.12154], [11, 51.66676, 7.11376], [10, 51.65919, 7.10544], [9, 51.65156, 7.09735], [8, 51.64388, 7.08981], [7, 51.63621, 7.08221], [6, 51.62913, 7.0747], [5, 51.62099, 7.06793], [4, 51.61199, 7.06646], [3, 51.60326, 7.06783], [2, 51.59471, 7.06499], [1, 51.58873, 7.05498]]
+
+[[connections]]
+km = 0.71
+station = "Gelsenkirchen Buer-Nord"
+lines = [
+  { id = "2250", ref = "2250", name = "2250 Oberhausen-Osterfeld - Hamm (Westf) Pbf", km = 18.362 },
+]

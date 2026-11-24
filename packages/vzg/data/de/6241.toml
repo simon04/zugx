@@ -1,0 +1,120 @@
+id = "6241"
+ref = "6241"
+name = "Dresden Hbf - Dresden-Neustadt"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131673566"
+from = "Dresden Hbf"
+to = "Dresden-Neustadt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 61.884
+kmTo = 67.152
+length = 5.3
+speeds = [[61.884, 64.193, 60, 60], [64.193, 67.152, 80, 80]]
+curves = [[62.138, 62.302, 960], [62.57, 62.738, 1330], [63.09, 64.345, 870], [64.43, 64.545, 1870], [64.631, 64.831, 1310], [65.163, 65.264, 1200], [65.305, 65.527, 570], [65.678, 65.874, 710], [65.976, 66.077, 1390], [66.127, 66.227, 1390], [66.677, 66.752, 1760]]
+points = [
+  { km = 62.045, kind = "signal", label = "30P240", signal = "main,minor,speed_limit,wrong_road", dir = -1 },
+  { km = 62.213, kind = "signal", label = "30VW1p240", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 62.261, kind = "signal", label = "30VW2p240", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 62.434, kind = "station", label = "Dresden Hbf", uic = "8006050", pos = [51.04025, 13.73208] },
+  { km = 62.589, kind = "signal", label = "30ZS240", signal = "combined,speed_limit", dir = -1 },
+  { km = 62.857, kind = "signal", label = "30L310Y", signal = "minor", dir = -1 },
+  { km = 62.979, kind = "signal", label = "30L310X", signal = "minor", dir = 1 },
+  { km = 63.163, kind = "signal", label = "30Wzt360", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 63.265, kind = "signal", label = "30ZT360", signal = "combined,minor,route,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 63.307, kind = "signal", label = "30ZV360", signal = "combined,minor,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 63.349, kind = "signal", signal = "minor" },
+  { km = 63.751, kind = "halt", label = "Dresden Freiberger Straße", uic = "8073449", pos = [51.04809, 13.71983] },
+  { km = 64.021, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 64.129, kind = "signal", label = "33Vr526", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 64.193, kind = "signal", label = "33ZR526", signal = "combined,minor,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 64.198, kind = "signal", label = "30ZU526", signal = "combined,minor,route,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 64.67, kind = "signal", label = "33Wzs535", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 64.742, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 64.743, kind = "signal", label = "33W2u525", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 64.852, kind = "station", label = "Dresden Mitte", uic = "8006218", pos = [51.05607, 13.72419] },
+  { km = 64.867, kind = "signal", label = "33ZV535", signal = "combined,minor,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 64.934, kind = "signal", label = "33ZS535", signal = "combined,minor,route_distant,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 65.162, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 65.471, kind = "signal", label = "33ZU545", signal = "combined,minor,route,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 65.473, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 65.632, kind = "signal", label = "20ZR545", signal = "combined,route,route_distant,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 66.154, kind = "signal", label = "20ZW708", signal = "combined,minor,route_distant,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 66.166, kind = "signal", signal = "stop", dir = 1 },
+  { km = 66.253, kind = "signal", signal = "stop", dir = 1 },
+  { km = 66.263, kind = "signal", signal = "stop", dir = 1 },
+  { km = 66.316, kind = "station", label = "Dresden-Neustadt", pos = [51.06587, 13.74054], uic = "8006216" },
+  { km = 66.475, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 66.501, kind = "signal", label = "20L708X", signal = "minor,traversable", dir = 1 },
+  { km = 66.639, kind = "signal", label = "20N738", signal = "combined,speed_limit", dir = 1 },
+  { km = 66.863, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 66.88, kind = "signal", label = "20ZU758", signal = "combined,speed_limit", dir = -1 },
+  { km = 67.024, kind = "signal", label = "20Wzu758", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 67.091, kind = "signal", signal = "minor", dir = 1 },
+  { km = 67.105, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 67.136, kind = "halt", label = "Dresden Bischofsplatz", pos = [51.07224, 13.74642] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 61.998, kmTo = 62.024, length = 25 },
+  { kind = "bridge", kmFrom = 62.286, kmTo = 62.354, length = 75 },
+  { kind = "bridge", kmFrom = 63.188, kmTo = 63.256, length = 70 },
+  { kind = "bridge", kmFrom = 63.605, kmTo = 63.622, length = 16 },
+  { kind = "bridge", kmFrom = 63.892, kmTo = 63.929, length = 24 },
+  { kind = "bridge", kmFrom = 64.532, kmTo = 64.554, length = 20 },
+  { kind = "bridge", kmFrom = 64.711, kmTo = 64.739, length = 24 },
+  { kind = "bridge", kmFrom = 65.017, kmTo = 65.037, length = 25 },
+  { kind = "bridge", kmFrom = 65.132, kmTo = 65.15, length = 22 },
+  { kind = "bridge", kmFrom = 65.297, kmTo = 65.722, length = 506, name = "Marienbrücke" },
+  { kind = "bridge", kmFrom = 65.935, kmTo = 65.962, length = 27 },
+  { kind = "bridge", kmFrom = 66.047, kmTo = 66.065, length = 18 },
+  { kind = "bridge", kmFrom = 66.222, kmTo = 66.249, length = 27 },
+  { kind = "bridge", kmFrom = 66.663, kmTo = 66.687, length = 23 },
+  { kind = "bridge", kmFrom = 66.939, kmTo = 67.019, length = 80 },
+  { kind = "bridge", kmFrom = 67.035, kmTo = 67.059, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{|uvHsd|rAdQjVdc@fu@lC~G`GbWnBlExHpI|Tz\\nIfI|KnH", v = 80 },
+  { line = "i_rvHgsvrA`KpAjJg@xJsD~IwIbFuJ~N}_@`I{]rDe^", v = 60 },
+]
+posts = [[67, 51.07057, 13.74677], [66, 51.06392, 13.73717], [65, 51.05706, 13.7252], [64, 51.04964, 13.71931], [63, 51.04257, 13.72493], [62, 51.03829, 13.73764]]
+
+[[connections]]
+km = 62.434
+station = "Dresden Hbf"
+lines = [
+  { id = "6200", ref = "6200", name = "6200 Kamenz (Sachs) - Pirna", km = 49.733 },
+  { id = "6216", ref = "6216", name = "6216 Bautzen - Bad Schandau", km = 30.375 },
+  { id = "6240", ref = "6240", name = "6240 Bad Schandau Grenze - Dresden Hbf", km = 62.498 },
+  { id = "6258", ref = "6258", name = "6258 Dresden - Abzweig Werdau Bogendreieck", km = 0.004 },
+]
+
+[[connections]]
+km = 64.852
+station = "Dresden Mitte"
+lines = [
+  { id = "6240", ref = "6240", name = "6240 Bad Schandau Grenze - Dresden Hbf", km = 64.74 },
+]
+
+[[connections]]
+km = 66.316
+station = "Dresden-Neustadt"
+lines = [
+  { id = "6212", ref = "6212", name = "6212 Görlitz - Dresden-Neustadt", km = 102.093 },
+  { id = "6363", ref = "6363", name = "6363 Leipzig Hbf - Dresden-Neustadt", km = 115.941 },
+]
+
+[[connections]]
+km = 67.136
+station = "Dresden Bischofsplatz"
+lines = [
+  { id = "6198", ref = "6198", name = "6198 Brieske - Hosena Streckenwechsel 6198/6194", km = 21.8 },
+  { id = "6200", ref = "6200", name = "6200 Kamenz (Sachs) - Pirna", km = 44.916 },
+  { id = "6212", ref = "6212", name = "6212 Görlitz - Dresden-Neustadt", km = 101.263 },
+  { id = "6216", ref = "6216", name = "6216 Bautzen - Bad Schandau", km = 29.727 },
+  { id = "6363", ref = "6363", name = "6363 Leipzig Hbf - Dresden-Neustadt", km = 115.053 },
+]

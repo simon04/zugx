@@ -1,0 +1,55 @@
+id = "1622"
+ref = "1622"
+name = "1622 Lüstringen - Osnabrück Hbf Pu"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Lüstringen"
+to = "Osnabrück Hbf Pu"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.483
+length = 3.483
+speeds = [[0, 3.483, "", ""]]
+curves = [[0.1, 0.375, 1300], [0.625, 0.75, 1070], [0.8, 1.175, 680], [1.3, 1.35, 2420], [1.4, 1.45, 2380], [3.275, 3.325, 2010]]
+points = [
+  { km = 0.138, kind = "signal", label = "N 18", signal = "main,minor", dir = -1 },
+  { km = 0.536, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.568, kind = "station", label = "Osnabrück Hauptbahnhof", uic = "8000294", pos = [52.27291, 8.06157] },
+  { km = 0.63, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.81, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.812, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.008, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.106, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.266, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.294, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.407, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.419, kind = "signal", label = "R201", signal = "distant,main", dir = -1 },
+  { km = 2.118, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.179, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.542, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.615, kind = "signal", signal = "distant,main,traversable", dir = -1 },
+  { km = 3.155, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.265, kind = "signal", signal = "main,minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.759, kmTo = 0.807, length = 47 },
+  { kind = "bridge", kmFrom = 2.689, kmTo = 2.719, length = 30 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mca~Hefdp@nJ{RlJy\\vFcNzBaLbOs|CbDq}@" },
+]
+posts = [[0, 52.27591, 8.05491], [1, 52.27057, 8.06662], [2, 52.26897, 8.08106], [3, 52.26756, 8.09557]]
+
+[[connections]]
+km = 0.568
+station = "Osnabrück Hauptbahnhof"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 117.742 },
+  { id = "2950", ref = "2950", name = "2950 Brackwede - Osnabrück", km = 52.992 },
+  { id = "2992", ref = "2992", name = "2992 Löhne (Westf) - Rheine", km = 132.393 },
+]

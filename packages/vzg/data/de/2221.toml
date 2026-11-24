@@ -1,0 +1,69 @@
+id = "2221"
+ref = "2221"
+name = "2221 Recklinghausen Süd - Herne"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q19520763"
+from = "Recklinghausen Süd"
+to = "Herne"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.031
+kmTo = 4.101
+length = 4.132
+speeds = [[0.031, 4.101, "", ""]]
+curves = [[0.491, 0.966, 1760], [1.356, 2.194, 550], [2.369, 2.519, 1470], [2.894, 3.219, 410], [3.269, 3.394, 940]]
+points = [
+  { km = 0.036, kind = "station", label = "Recklinghausen Süd", uic = "8000887", pos = [51.56209, 7.19552] },
+  { km = 0.186, kind = "signal", label = "82L 204X", signal = "minor", dir = -1 },
+  { km = 0.34, kind = "signal", label = "82L 204Y", signal = "minor", dir = 1 },
+  { km = 0.486, kind = "signal", label = "82 Vn", signal = "distant", dir = -1 },
+  { km = 0.834, kind = "signal", label = "82 B", signal = "main,speed_limit", dir = -1 },
+  { km = 0.854, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.872, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.299, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.839, kind = "signal", signal = "distant,main,traversable", dir = 1 },
+  { km = 2.679, kind = "signal", signal = "main,route,traversable", dir = -1 },
+  { km = 3.119, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.165, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.535, kind = "signal", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 3.691, kind = "station", label = "Herne", pos = [51.54355, 7.21765], uic = "8000164" },
+  { km = 3.731, kind = "signal", signal = "main_repeated" },
+  { km = 3.882, kind = "signal", signal = "main,minor,traversable", dir = 1 },
+  { km = 3.889, kind = "station", label = "Herne Bahnhof", pos = [51.54463, 7.21875] },
+  { km = 4.076, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.625, kmTo = 0.662, length = 36 },
+  { kind = "bridge", kmFrom = 0.737, kmTo = 0.819, length = 79 },
+  { kind = "bridge", kmFrom = 1.317, kmTo = 1.327, length = 13 },
+  { kind = "bridge", kmFrom = 2.143, kmTo = 2.297, length = 154 },
+  { kind = "bridge", kmFrom = 2.521, kmTo = 2.665, length = 144 },
+  { kind = "bridge", kmFrom = 2.884, kmTo = 2.926, length = 43 },
+  { kind = "bridge", kmFrom = 3.06, kmTo = 3.072, length = 12 },
+  { kind = "bridge", kmFrom = 3.321, kmTo = 3.335, length = 13 },
+  { kind = "bridge", kmFrom = 3.893, kmTo = 3.911, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gvuyHal|j@hYjAlLfBlIrCnXfOpErA`D@lEeAfD}BdDkElEeKxGgZvHyk@X}F[cHkCmMwFqe@{EwZ" },
+]
+posts = [[1, 51.55343, 7.19364], [2, 51.54488, 7.19396], [3, 51.54136, 7.20718], [4, 51.54413, 7.22082]]
+
+[[connections]]
+km = 0.036
+station = "Recklinghausen Süd"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 4.606 },
+]
+
+[[connections]]
+km = 3.691
+station = "Herne"
+lines = [
+  { id = "2208", ref = "2208", name = "2208 Wanne-Eickel Hbf - Herne", km = 4.544 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 98.377 },
+]

@@ -1,0 +1,43 @@
+id = "5941"
+ref = "5941"
+name = "5941 Nürnberg-Eibach - Nürnberg Hafen"
+operator = "Bayernhafen GmbH & Co. KG;DB Netz AG"
+gauge = "1435"
+wikidata = "Q119726247"
+from = "Nürnberg-Eibach"
+to = "Nürnberg Hafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.511
+length = 0.511
+speeds = [[0, 0.36, 30, 30], [0.36, 0.375, "", ""], [0.375, 0.511, 40, 30]]
+curves = [[0.1, 0.175, 930], [0.225, 0.4, 640]]
+points = [
+  { km = 0.049, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.05, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.134, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.197, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.36, kind = "signal", signal = "radio,speed_limit", dir = 1 },
+  { km = 0.375, kind = "signal", label = "2C", signal = "distant,main,minor,route,route_distant", dir = 1 },
+  { km = 0.511, kind = "halt", label = "Nürnberg-Eibach", uic = "8004477", pos = [49.40969, 11.04775] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gaplHavlbAqD[oM~A", v = 30 },
+  { line = "iuplH}slbAYA" },
+  { line = "cvplH_tlbAqF_A", v = 40 },
+]
+posts = [[0, 49.40324, 11.04753]]
+
+[[connections]]
+km = 0.511
+station = "Nürnberg-Eibach"
+lines = [
+  { id = "5320", ref = "5320", name = "5320 Treuchtlingen - Nürnberg Hbf, W 44", km = 56.553 },
+  { id = "5943", ref = "5943", name = "5943 Nürnberg Rbf Minervabrücke - Nürnberg-Reichelsdorf", km = 3.552 },
+  { id = "5971", ref = "5971", name = "5971 Nürnberg Hbf - Roth", km = 5.3 },
+]

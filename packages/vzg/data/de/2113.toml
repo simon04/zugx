@@ -1,0 +1,86 @@
+id = "2113"
+ref = "2113"
+name = "2113 Dortmund-Hörde - Schwerte (Ruhr)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Dortmund-Hörde"
+to = "Schwerte (Ruhr)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.139
+kmTo = 10.247
+length = 10.373
+speeds = [[-0.139, 0.014, 40, 40], [0.014, 5.563, 80, 80], [5.563, 6.412, 70, 70], [6.412, 7.396, 80, 80], [7.396, 7.411, "", ""], [7.411, 8.665, 80, 80], [8.665, 10.247, "", ""]]
+curves = [[-0.016, 0.059, 1260], [0.359, 0.484, 1370], [0.684, 0.809, 1890], [1.184, 1.684, 1130], [1.784, 2.335, 940], [2.688, 3.04, 560], [3.166, 3.57, 460], [3.696, 3.796, 1430], [4.3, 4.578, 960], [4.83, 5.611, 860], [6.316, 6.669, 450], [6.845, 7.35, 380], [7.624, 8.472, 1160], [8.872, 8.972, 2270], [9.097, 9.222, 1810], [9.597, 9.822, 780], [9.972, 10.147, 1610]]
+points = [
+  { km = 0.014, kind = "signal", label = "P3", signal = "main,traversable", dir = -1 },
+  { km = 0.018, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.039, kind = "station", label = "Dortmund-Hörde", pos = [51.48776, 7.50023], uic = "8000961" },
+  { km = 0.152, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.926, kind = "signal", label = "S3", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 1.702, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.844, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.167, kind = "signal", label = "G", signal = "distant,main,traversable", dir = -1 },
+  { km = 3.225, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.893, kind = "stop", label = "Dortmund-Aplerbeck Süd", pos = [51.48435, 7.55016], uic = "8001524" },
+  { km = 5.571, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.418, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.424, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.085, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 7.128, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 7.64, kind = "signal", label = "60 20", signal = "main,route,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 7.642, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.057, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.77, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 8.928, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = 10.011, kind = "signal", label = "58 N5", signal = "main,minor,traversable", dir = -1 },
+  { km = 10.216, kind = "signal", signal = "main_repeated" },
+  { km = 10.229, kind = "signal", label = "58L305X", signal = "minor", dir = 1 },
+  { km = 10.232, kind = "signal", signal = "minor", dir = -1 },
+  { km = 10.247, kind = "station", label = "Schwerte (Ruhr)", pos = [51.44259, 7.55921], uic = "8000037" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.865, kmTo = 1.902, length = 37 },
+  { kind = "bridge", kmFrom = 2.096, kmTo = 2.129, length = 33 },
+  { kind = "bridge", kmFrom = 2.394, kmTo = 2.406, length = 12 },
+  { kind = "bridge", kmFrom = 2.921, kmTo = 2.932, length = 12 },
+  { kind = "bridge", kmFrom = 3.205, kmTo = 3.221, length = 16 },
+  { kind = "bridge", kmFrom = 3.619, kmTo = 3.642, length = 22 },
+  { kind = "bridge", kmFrom = 4.472, kmTo = 4.491, length = 19 },
+  { kind = "tunnel", kmFrom = 5.591, kmTo = 6.391, length = 794 },
+  { kind = "bridge", kmFrom = 8.665, kmTo = 8.681, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oi~xH}icm@wJcGkOaPqPm`@{Roa@" },
+  { line = "ak`yHagfm@wLgW_KcLaNaHiRoC", v = 80 },
+  { line = "egbyH_zgm@YC" },
+  { line = "_hbyHczgm@iI[{C`AsCdCqC~F_HxY}EzI", v = 80 },
+  { line = "ipcyHagfm@]^", v = 70 },
+  { line = "gqcyHaffm@oh@rY", tunnel = true, v = 70 },
+  { line = "wzdyHmkem@m@\\", v = 70 },
+  { line = "e|dyHojem@sInIqFxKaEbPkI|i@kUrk@eJnQcC`L]nZb@tKvA|GrNlc@bBbIjBxQZjWSlJeAdNwL~o@uD|WmDje@", v = 80 },
+  { line = "gfgyHcuwl@uAdL", v = 40 },
+]
+posts = [[10, 51.44435, 7.56031], [9, 51.45081, 7.57016], [8, 51.45728, 7.58003], [7, 51.46606, 7.58061], [6, 51.47241, 7.57153], [5, 51.4796, 7.56376], [4, 51.48381, 7.55132], [3, 51.48775, 7.53921], [2, 51.48376, 7.5266], [1, 51.48512, 7.51269], [0, 51.48791, 7.49902]]
+
+[[connections]]
+km = 0.039
+station = "Dortmund-Hörde"
+lines = [
+  { id = "2103", ref = "2103", km = 173.038 },
+]
+
+[[connections]]
+km = 10.247
+station = "Schwerte"
+lines = [
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 155.665 },
+  { id = "2840", ref = "2840", name = "2840 Schwerte (Ruhr) - Holzwickede", km = 155.634 },
+  { id = "2841", ref = "2841", name = "2841 Iserlohn - Schwerte (Ruhr)", km = 19.685 },
+  { id = "2843", ref = "2843", name = "2843 Abzw Hohensyburg - Schwerte (Ruhr) Ost", km = 155.665 },
+  { id = "2850", ref = "2850", name = "2850 Letmathe - Fröndenberg", km = -14.723 },
+]

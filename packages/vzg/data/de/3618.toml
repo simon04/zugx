@@ -1,0 +1,28 @@
+id = "3618"
+ref = "3618"
+name = "3618 Frankfurt (Main) Hbf - Frankfurt (Main) Außenbahnhof"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Frankfurt (Main) Hbf"
+to = "Frankfurt (Main) Außenbahnhof"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.478
+kmTo = 2.23
+length = 0.744
+speeds = [[1.478, 2.23, "", ""]]
+curves = [[1.756, 1.883, 1590], [2.034, 2.11, 1370]]
+points = [
+  { km = 1.551, kind = "signal", label = "N720", signal = "combined,minor,route,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.833, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.058, kind = "signal", label = "P726", signal = "main,minor", dir = 1 },
+  { km = 2.159, kind = "signal", signal = "minor", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ogxpHmnws@`GdYjJj^" },
+]
+posts = [[2, 50.0984, 8.63863]]

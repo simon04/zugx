@@ -1,0 +1,161 @@
+id = "9466"
+ref = "9466"
+name = "9466 Hechingen–Gammertingen"
+operator = "SWEG Schienenwege"
+gauge = "1435"
+wikidata = "Q105978604"
+from = "Hechingen"
+to = "Gammertingen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.114
+kmTo = 27.215
+length = 27.148
+speeds = [[0.114, 0.377, "", ""], [0.377, 0.895, 40, 40], [0.895, 4.535, 60, 60], [4.535, 5.058, 50, 50], [5.058, 7.065, 60, 60], [7.065, 7.071, 30, 30], [7.071, 7.277, 60, 60], [7.277, 7.327, 30, 30], [7.327, 8.573, 60, 60], [8.573, 9.435, "", ""], [9.435, 14.506, 60, 60], [14.506, 14.867, 40, 40], [14.867, 15.449, 60, 60], [15.449, 19.052, 80, 80], [19.052, 19.13, 40, 40], [19.13, 19.327, 50, 50], [19.327, 22.526, 80, 80], [22.526, 22.562, 60, 60], [22.562, 22.916, 40, 40], [22.916, 23.532, 60, 60], [23.532, 24.802, 50, 50], [24.802, 26.467, 60, 60], [26.467, 26.757, 50, 50], [26.757, 27.215, 40, 40]]
+curves = [[0.237, 0.387, 440], [0.637, 0.712, 2070], [1.262, 1.437, 670], [1.662, 1.737, 2290], [2.037, 2.187, 1000], [2.487, 2.737, 740], [2.962, 3.312, 650], [4.487, 4.662, 600], [4.962, 5.562, 410], [5.612, 5.762, 350], [5.812, 6.012, 320], [6.062, 6.512, 340], [6.737, 6.937, 470], [7.762, 7.937, 1050], [8.137, 8.287, 970], [8.412, 8.662, 430], [8.712, 9.137, 420], [9.412, 9.462, 2010], [9.512, 9.562, 1630], [9.612, 9.787, 650], [9.862, 10.062, 660], [10.362, 10.562, 740], [10.612, 10.762, 530], [10.812, 10.912, 1140], [11.186, 11.633, 570], [11.682, 11.906, 1070], [12.254, 12.477, 910], [12.601, 12.8, 360], [12.85, 13.073, 590], [14.067, 14.191, 1160], [14.538, 14.861, 680], [15.234, 15.432, 990], [16.103, 16.525, 680], [16.798, 16.947, 1130], [17.394, 17.568, 910], [17.816, 17.941, 890], [17.99, 18.065, 1980], [18.363, 18.611, 910], [19.059, 19.383, 340], [19.533, 19.633, 1780], [20.282, 20.507, 720], [21.582, 21.881, 720], [22.228, 22.379, 730], [22.429, 22.581, 840], [22.69, 22.916, 610], [23.092, 23.318, 400], [23.419, 23.746, 560], [23.872, 24.023, 890], [24.097, 25.118, 310], [25.391, 25.59, 870], [25.99, 26.19, 940], [26.34, 26.84, 210]]
+points = [
+  { km = 0.114, kind = "stop", label = "Verkehrsverbund Neckar-Alb-Donau", pos = [48.35898, 8.9682] },
+  { km = 0.118, kind = "station", label = "Hechingen Landesbahn", ele = 492, pos = [48.35893, 8.96818] },
+  { km = 0.159, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.181, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.263, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 0.265, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.288, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.291, kind = "signal", label = "40S", signal = "main", dir = 1 },
+  { km = 0.377, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.397, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.422, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.895, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.542, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.669, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.72, kind = "stop", label = "Schlatt (Hohenzollern)", pos = [48.34355, 9.02491] },
+  { km = 4.732, kind = "halt", label = "Schlatt", ele = 553, pos = [48.34352, 9.02507] },
+  { km = 4.749, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.058, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.065, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.222, kind = "signal", signal = "stop", dir = 1 },
+  { km = 7.231, kind = "station", label = "Jungingen", ele = 590, pos = [48.32627, 9.03791] },
+  { km = 7.262, kind = "signal", signal = "stop", dir = 1 },
+  { km = 7.327, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.432, kind = "signal", signal = "main", dir = -1 },
+  { km = 9.255, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.297, kind = "halt", label = "Killer", ele = 632, pos = [48.31633, 9.06044] },
+  { km = 9.316, kind = "signal", signal = "stop", dir = 1 },
+  { km = 10.947, kind = "signal", label = "48E", signal = "main", dir = -1 },
+  { km = 10.961, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.963, kind = "signal", signal = "stop", dir = -1 },
+  { km = 11.003, kind = "station", label = "Hausen-Starzeln", ele = 674, pos = [48.30196, 9.06795] },
+  { km = 11.027, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.238, kind = "signal", signal = "main", dir = -1 },
+  { km = 13.656, kind = "signal", signal = "main", dir = 1 },
+  { km = 13.687, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 13.695, kind = "signal", signal = "stop", dir = -1 },
+  { km = 13.719, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.726, kind = "halt", label = "Burladingen West", ele = 734, pos = [48.29222, 9.09926] },
+  { km = 13.789, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.816, kind = "signal", signal = "main", dir = -1 },
+  { km = 14.125, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.371, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.639, kind = "signal", label = "50E", signal = "main", dir = -1 },
+  { km = 14.685, kind = "signal", label = "50J1", signal = "stop", dir = -1 },
+  { km = 14.73, kind = "station", label = "Burladingen", ele = 729, pos = [48.29002, 9.11246] },
+  { km = 15.449, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.884, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.954, kind = "signal", signal = "stop", dir = -1 },
+  { km = 18.998, kind = "signal", signal = "stop", dir = -1 },
+  { km = 19.004, kind = "station", label = "Gauselfingen", ele = 700, pos = [48.27619, 9.16327] },
+  { km = 19.13, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.266, kind = "signal", signal = "main", dir = -1 },
+  { km = 19.413, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.526, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.922, kind = "signal", signal = "stop", dir = -1 },
+  { km = 22.966, kind = "halt", label = "Neufra (Hohenzollern)", ele = 682, pos = [48.2461, 9.18632] },
+  { km = 23.003, kind = "signal", signal = "stop", dir = 1 },
+  { km = 23.158, kind = "signal", signal = "main", dir = -1 },
+  { km = 24.061, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 24.7, kind = "station", label = "Hechingen", uic = "8029341", ele = 498, pos = [48.35956, 8.96867], measured = true },
+  { km = 24.802, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.966, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 25.051, kind = "signal", signal = "helper_engine", dir = -1 },
+  { km = 25.574, kind = "stop", label = "Gammertingen Europastraße", pos = [48.24217, 9.21029] },
+  { km = 26.771, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 26.94, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 26.95, kind = "signal", label = "P1", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 27.022, kind = "station", label = "Gammertingen", pos = [48.2506, 9.21744], ele = 673 },
+  { km = 27.054, kind = "signal", label = "ZR1", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 27.154, kind = "signal", label = "N1", signal = "main,minor,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.502, kmTo = 1.526, length = 24 },
+  { kind = "bridge", kmFrom = 6.737, kmTo = 6.779, length = 41 },
+  { kind = "bridge", kmFrom = 8.55, kmTo = 8.573, length = 23 },
+  { kind = "bridge", kmFrom = 16.787, kmTo = 16.801, length = 14 },
+  { kind = "bridge", kmFrom = 22.545, kmTo = 22.562, length = 16 },
+  { kind = "bridge", kmFrom = 23.51, kmTo = 23.532, length = 22 },
+  { kind = "bridge", kmFrom = 24.34, kmTo = 24.351, length = 11 },
+  { kind = "bridge", kmFrom = 26.181, kmTo = 26.203, length = 23 },
+  { kind = "bridge", kmFrom = 26.467, kmTo = 26.486, length = 18 },
+  { kind = "bridge", kmFrom = 26.608, kmTo = 26.659, length = 51 },
+  { kind = "bridge", kmFrom = 26.715, kmTo = 26.742, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ezneHsugw@aGvc@", v = 40 },
+  { line = "gboeH{pfw@FtDx@bE~AhClBdA", v = 50 },
+  { line = "wyneHq~ew@lBL~P}AzIz@bU~CvPlI", v = 60 },
+  { line = "qqleHwoew@rAp@", tunnel = true, v = 60 },
+  { line = "}nleHenew@dC`BtA~Br@|CHhF", v = 60 },
+  { line = "cfleH{zdw@aAzI[dLu@zC{AdCgFhD}AdCkFpM{EbSmDlG", v = 50 },
+  { line = "okmeHcebw@eOjMyEzS", v = 60 },
+  { line = "obneH{aaw@aCfI{FhK", v = 40 },
+  { line = "mnneHik`w@m@`A", v = 60 },
+  { line = "{oneHgi`w@mIxIkOd[uFzHq|@ni@qIpBuf@|CwLA", v = 80 },
+  { line = "}oseHme}v@{Cd@wCrD", v = 50 },
+  { line = "qyseHs~|v@eAvD", v = 40 },
+  { line = "w{seH{x|v@yN|i@iWz`@yMlYeO~k@oN~]yAdHu@tHyAn}@", v = 80 },
+  { line = "uyveHgttv@DbLxCrb@", v = 60 },
+  { line = "utveHocsv@X|EIhIgAzK", v = 40 },
+  { line = "mvveHkerv@}Eh^yIlyAGjJ~@lN_@vEoD`UeRlf@uCbPwCfIoEzFsUtJuFjDmLbCgXjOsN~AkKzG", v = 60 },
+  { line = "aq{eH{whv@mPjLkDfE_DbKqAjQ" },
+  { line = "mo|eHwegv@qApEkJ~OyIzUwJzh@", v = 60 },
+  { line = "}s}eHmmdv@c@|B", v = 30 },
+  { line = "au}eHoidv@mC`O", v = 60 },
+  { line = "oy}eHmycv@CN", v = 30 },
+  { line = "sy}eH}xcv@kCnNiArCoM|QwFvE{FFcKsGqK`@sI{CcDYmD^gCjAcFdG", v = 60 },
+  { line = "uw`fHqlbv@sNjd@", v = 50 },
+  { line = "igafHegav@iPpiB_FlNwHdZwDnl@cFl^iDl[_Md`@", v = 60 },
+  { line = "qicfHmgxu@yMrd@", v = 40 },
+  { line = "kxcfHyawu@}A~EiFpG" },
+]
+posts = [[27, 48.25072, 9.21686], [26, 48.24586, 9.2111], [25, 48.23725, 9.20752], [24, 48.24036, 9.19656], [23, 48.24601, 9.18676], [22, 48.25191, 9.17702], [21, 48.25951, 9.17012], [20, 48.26803, 9.1663], [19, 48.27618, 9.1632], [18, 48.28159, 9.15249], [17, 48.28681, 9.14154], [16, 48.29067, 9.1296], [15, 48.29043, 9.11609], [14, 48.29176, 9.10292], [13, 48.29335, 9.08952], [12, 48.29598, 9.07719], [11, 48.302, 9.06797], [10, 48.31039, 9.06333], [9, 48.31864, 9.05844], [8, 48.32334, 9.04731], [7, 48.32704, 9.03502], [6, 48.33391, 9.02945], [5, 48.34219, 9.0281], [4, 48.34546, 9.01569], [3, 48.34833, 9.00305], [2, 48.35102, 8.99029], [1, 48.35445, 8.9779]]
+
+[[connections]]
+km = 0.118
+station = "Hechingen Landesbahn"
+lines = [
+  { id = "4630", ref = "4630", name = "4630 Tübingen Hbf - Sigmaringen", km = 24.757 },
+]
+
+[[connections]]
+km = 4.72
+station = "Schlatt"
+lines = [
+  { id = "9461", ref = "9461", name = "Schwäbische Albbahn", km = 25.574 },
+]
+
+[[connections]]
+km = 24.7
+station = "Hechingen"
+lines = [
+  { id = "4630", ref = "4630", name = "4630 Tübingen Hbf - Sigmaringen", km = 24.737 },
+]
+
+[[connections]]
+km = 27.022
+station = "Gammertingen"
+lines = [
+  { id = "9461", ref = "9461", name = "Schwäbische Albbahn", km = 19.723 },
+]

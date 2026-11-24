@@ -1,0 +1,72 @@
+id = "1423"
+ref = "1423"
+name = "1423 Bremen-Burg - Bremen-Vegesack"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q802017"
+from = "Bremen-Burg"
+to = "Bremen-Vegesack"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.209
+kmTo = 5.946
+length = 6.149
+speeds = [[-0.209, 0.686, 80, 80], [0.686, 1.709, 90, 90], [1.709, 5.039, 100, 100], [5.039, 5.514, 50, 50], [5.514, 5.946, 60, 60]]
+curves = [[-0.035, 0.04, 2060], [0.415, 0.747, 790], [1.232, 1.696, 500], [2.084, 2.191, 1240], [4.344, 4.464, 1510], [5.132, 5.561, 1060]]
+points = [
+  { km = -0.155, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = -0.136, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.019, kind = "signal", label = "32P2", signal = "combined,speed_limit", dir = -1 },
+  { km = 0.024, kind = "station", label = "Bremen-Burg", pos = [53.16003, 8.70479], uic = "8001156" },
+  { km = 0.308, kind = "signal", label = "32N2", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 0.484, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 0.686, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.689, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.963, kind = "signal", label = "32G", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.383, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.685, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.687, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.739, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.815, kind = "stop", label = "Bremen-Lesum", pos = [53.17072, 8.68606], uic = "8001159" },
+  { km = 2.395, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.953, kind = "stop", label = "Bremen-St. Magnus", pos = [53.17157, 8.66967], uic = "8001165" },
+  { km = 3.667, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.807, kind = "signal", label = "332", signal = "main", dir = -1 },
+  { km = 4.255, kind = "stop", label = "Bremen-Schönebeck", pos = [53.17281, 8.64933], uic = "8001163" },
+  { km = 4.507, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.642, kind = "signal", label = "33AA", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 5.039, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.166, kind = "signal", label = "33L202Y", signal = "minor", dir = -1 },
+  { km = 5.328, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.334, kind = "signal", label = "33L202X", signal = "minor", dir = 1 },
+  { km = 5.603, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.617, kind = "signal", label = "33P1", signal = "main,route,speed_limit,wrong_road", dir = -1 },
+  { km = 5.82, kind = "signal", label = "33L501X", signal = "minor", dir = 1 },
+  { km = 5.823, kind = "signal", label = "33L401Y", signal = "minor", dir = -1 },
+  { km = 5.908, kind = "station", label = "Bremen-Vegesack", pos = [53.16982, 8.62998], uic = "8001166" },
+  { km = 5.921, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.141, kmTo = 1.183, length = 44 },
+  { kind = "bridge", kmFrom = 1.26, kmTo = 1.273, length = 12 },
+  { kind = "bridge", kmFrom = 5.192, kmTo = 5.219, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "erocIwgts@iMi^", v = 60 },
+  { line = "o`pcIagus@sE}Q_@kU", v = 50 },
+  { line = "chpcIkpvs@Sc`A|KklECkf@", v = 100 },
+  { line = "}{ocIgf`t@h@yQlCiLt[mi@", v = 90 },
+  { line = "oyncIypbt@`GoGze@wP", v = 80 },
+]
+posts = [[5, 53.17267, 8.64082], [4, 53.1724, 8.65636], [3, 53.17148, 8.67031], [2, 53.17069, 8.68554], [1, 53.16736, 8.69849], [0, 53.15948, 8.70499]]
+
+[[connections]]
+km = 0.024
+station = "Bremen-Burg"
+lines = [
+  { id = "1740", ref = "1740", name = "Wunstorf, W 18 - DB-Grenze, (Bremerhaven-Seehafen)", km = 133.941 },
+]

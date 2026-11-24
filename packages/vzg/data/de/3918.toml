@@ -1,0 +1,44 @@
+id = "3918"
+ref = "3918"
+name = "3918 Abzw Vellmar-Niedervellmar - Kassel Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Vellmar-Niedervellmar"
+to = "Kassel Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.824
+length = 1.824
+speeds = [[0, 1.824, 60, 60]]
+curves = [[0.1, 0.25, 1890], [0.4, 0.725, 690], [1.35, 1.7, 1120]]
+points = [
+  { km = 0, kind = "halt", label = "Vellmar-Niedervellmar", uic = "8005358", pos = [51.35131, 9.47773] },
+  { km = 0.323, kind = "signal", signal = "main,traversable" },
+  { km = 0.488, kind = "signal", label = "C 238", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 0.576, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.699, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.78, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.99, kind = "signal", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 1.479, kind = "signal", label = "R 276", signal = "main,speed_limit,traversable", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.302, kmTo = 0.387, length = 85 },
+  { kind = "bridge", kmFrom = 1.244, kmTo = 1.266, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "milxHsxyx@hSlSjH`Ebo@iArK~A|E|B", v = 60 },
+]
+posts = [[0, 51.35015, 9.4761], [1, 51.34188, 9.47194]]
+
+[[connections]]
+km = 0
+station = "Vellmar-Niedervellmar"
+lines = [
+  { id = "1732", ref = "1732", name = "1732 Hannover Bismarckstr - Kassel Hbf", km = 161.134 },
+  { id = "1733", ref = "1733", name = "1733 Hannover - Würzburg", km = 139.028 },
+]

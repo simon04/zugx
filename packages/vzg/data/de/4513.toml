@@ -1,0 +1,39 @@
+id = "4513"
+ref = "4513"
+name = "4513 Südkurve Laupheim"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q116981464"
+from = "Laupheim Kurve Süd"
+to = "Laupheim Kurve Ost"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.11
+kmTo = 0.451
+length = 0.467
+speeds = [[-0.11, 0.451, 50, 50]]
+curves = [[0.01, 0.336, 240]]
+points = [
+  { km = 0.049, kind = "signal", label = "58 N7", signal = "main,speed_limit", dir = -1 },
+  { km = 0.095, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.209, kind = "station", label = "Laupheim West", uic = "8029115", pos = [48.23041, 9.84825] },
+  { km = 0.305, kind = "signal", label = "58 P7", signal = "main,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.103, kmTo = 0.139, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "otjeH_cc{@YnKf@hGlBjE|DjC", v = 50 },
+]
+posts = [[0, 48.22804, 9.8471]]
+
+[[connections]]
+km = 0.209
+station = "Laupheim West"
+lines = [
+  { id = "4500", ref = "4500", name = "4500 Ulm Hbf - Friedrichshafen Stadt", km = 116.298 },
+]

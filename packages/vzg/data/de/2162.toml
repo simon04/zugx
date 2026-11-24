@@ -1,0 +1,25 @@
+id = "2162"
+ref = "2162"
+name = "Kaiserkurve"
+operator = "DB Netz AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.401
+length = 0.401
+speeds = [[0, 0.401, 40, 40]]
+curves = [[0.1, 0.3, 210]]
+points = [
+  { km = 0.09, kind = "signal", label = "N124", signal = "main", dir = -1 },
+  { km = 0.187, kind = "signal", signal = "main", dir = 1 },
+  { km = 0.343, kind = "signal", signal = "minor", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oz_yHglzi@oDrAwCEuBuAoDaH", v = 40 },
+]
+posts = [[0, 51.45016, 7.02164]]

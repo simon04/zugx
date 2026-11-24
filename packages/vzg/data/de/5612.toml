@@ -1,0 +1,50 @@
+id = "5612"
+ref = "5612"
+name = "5612 München Ost Rbf - München-Riem"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "München Ost Rbf"
+to = "München-Riem"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.037
+kmTo = 3.816
+length = 3.764
+speeds = [[0.037, 0.205, "", ""], [0.205, 1.363, 60, 60], [1.363, 1.371, 140, 140], [1.371, 1.452, 60, 60], [1.452, 1.459, 140, 140], [1.459, 2.88, 60, 60], [2.88, 3.816, "", ""]]
+curves = [[0.293, 0.374, 2090], [0.455, 1.117, 670], [2.381, 2.724, 1060], [2.903, 3.053, 1430]]
+points = [
+  { km = 0.167, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.205, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.371, kind = "signal", label = "D", signal = "main,speed_limit", dir = -1 },
+  { km = 0.491, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.785, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.875, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.094, kind = "signal", label = "53B", signal = "distant,main,route", dir = 1 },
+  { km = 1.456, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 1.672, kind = "signal", label = "53 P3", signal = "main,route,traversable", dir = -1 },
+  { km = 2.464, kind = "signal", label = "53 ZR3", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 3.022, kind = "signal", label = "53 ZV3", signal = "distant,main,minor,route_distant,traversable", dir = 1 },
+  { km = 3.225, kind = "station", label = "Riem", uic = "8004160", pos = [48.14397, 11.67777] },
+  { km = 3.635, kind = "signal", label = "53 N3", signal = "main,minor,speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sbxdHqm`fAh@_M" },
+  { line = "iaxdHq{`fAxByYe@}QsCgNiJgU", v = 60 },
+  { line = "snxdHyncfAGS", v = 140 },
+  { line = "{nxdHmocfAmByE", v = 60 },
+  { line = "irxdHgvcfAIS", v = 140 },
+  { line = "srxdH{vcfAsc@mgAoBiIkC_R", v = 60 },
+  { line = "c_zdHs|ffAgAmJwF}`A" },
+]
+posts = [[1, 48.1336, 11.65156], [2, 48.1396, 11.66358], [3, 48.1437, 11.67477]]
+
+[[connections]]
+km = 3.225
+station = "Riem"
+lines = [
+  { id = "5600", ref = "5600", name = "5600 München Ost Pbf - Simbach (Inn) Grenze", km = 6.124 },
+]

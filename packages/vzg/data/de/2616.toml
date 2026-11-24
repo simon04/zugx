@@ -1,0 +1,84 @@
+id = "2616"
+ref = "2616"
+name = "2616 Köln Hbf - Köln Bbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Köln Hbf"
+to = "Köln Bbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.336
+kmTo = 0.981
+length = 1.241
+speeds = [[-0.336, 0.362, 30, 30], [0.362, 0.895, 40, 40], [0.895, 0.981, "", ""]]
+curves = [[-0.22, -0.02, 290]]
+points = [
+  { km = -0.328, kind = "signal", signal = "distant", dir = -1 },
+  { km = -0.252, kind = "signal", label = "234", signal = "minor", dir = 1 },
+  { km = -0.203, kind = "signal", label = "97 TZ 2205", signal = "combined,minor,speed_limit,traversable", dir = -1 },
+  { km = -0.202, kind = "signal", label = "051", signal = "departure,distant,main,minor,route,speed_limit", dir = -1 },
+  { km = -0.152, kind = "signal", label = "052 I", signal = "minor", dir = 1 },
+  { km = -0.103, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -0.1, kind = "signal", label = "052 II", signal = "minor", dir = -1 },
+  { km = -0.084, kind = "signal", label = "053 I", signal = "minor", dir = -1 },
+  { km = -0.075, kind = "signal", label = "053 II", signal = "minor", dir = -1 },
+  { km = -0.061, kind = "signal", label = "054 I", signal = "minor", dir = 1 },
+  { km = -0.022, kind = "signal", label = "054 II", signal = "minor", dir = -1 },
+  { km = -0.018, kind = "station", label = "Köln Hauptbahnhof", uic = "8015458", pos = [50.94278, 6.95907] },
+  { km = -0.01, kind = "signal", label = "055 I", signal = "minor", dir = 1 },
+  { km = 0.021, kind = "signal", label = "055 II", signal = "minor", dir = -1 },
+  { km = 0.034, kind = "signal", label = "056 I", signal = "minor", dir = 1 },
+  { km = 0.08, kind = "signal", label = "057 I", signal = "minor", dir = 1 },
+  { km = 0.1, kind = "signal", label = "057 II", signal = "minor", dir = -1 },
+  { km = 0.117, kind = "signal", label = "058 I", signal = "minor", dir = 1 },
+  { km = 0.161, kind = "signal", label = "058 II", signal = "minor", dir = -1 },
+  { km = 0.164, kind = "signal", signal = "departure", dir = -1 },
+  { km = 0.198, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.31, kind = "signal", label = "99 ZW 1205", signal = "combined,traversable", dir = 1 },
+  { km = 0.362, kind = "signal", label = "059", signal = "departure,distant,main,minor,route", dir = 1 },
+  { km = 0.363, kind = "signal", label = "98 ZW 1005", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 0.477, kind = "signal", label = "332", signal = "minor", dir = -1 },
+  { km = 0.578, kind = "signal", label = "335", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 0.61, kind = "signal", label = "70L2335Y", signal = "minor", dir = -1 },
+  { km = 0.785, kind = "signal", label = "70L2335X", signal = "minor", dir = 1 },
+  { km = 0.891, kind = "station", label = "Köln Hansaring", uic = "8003392", pos = [50.94908, 6.95264] },
+  { km = 0.894, kind = "signal", label = "70LW72Y", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.401, kmTo = 0.417, length = 16 },
+  { kind = "bridge", kmFrom = 0.509, kmTo = 0.532, length = 23 },
+  { kind = "bridge", kmFrom = 0.607, kmTo = 0.622, length = 15 },
+  { kind = "bridge", kmFrom = 0.717, kmTo = 0.731, length = 14 },
+  { kind = "bridge", kmFrom = 0.795, kmTo = 0.808, length = 13 },
+  { kind = "bridge", kmFrom = 0.879, kmTo = 0.918, length = 39 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cb~uHsvli@~BkC" },
+  { line = "c~}uH_{li@rW_Z", v = 40 },
+  { line = "oe}uH_vmi@dOcPvBmD|@cETmH", v = 30 },
+]
+posts = [[0, 50.9429, 6.9589]]
+
+[[connections]]
+km = -0.018
+station = "Köln Hauptbahnhof"
+lines = [
+  { id = "2600", ref = "2600", name = "2600 Köln Hbf - Aachen Süd Grenze", km = 0.053 },
+  { id = "2620", ref = "2620", name = "2620 Köln Hbf - Köln-Worringen", km = 0.006 },
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = -1.977 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 0.171 },
+]
+
+[[connections]]
+km = 0.891
+station = "Köln Hansaring"
+lines = [
+  { id = "2600", ref = "2600", name = "2600 Köln Hbf - Aachen Süd Grenze", km = 0.912 },
+  { id = "2610", ref = "2610", name = "2610 Köln - Kleve", km = 1 },
+  { id = "2620", ref = "2620", name = "2620 Köln Hbf - Köln-Worringen", km = 0.844 },
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = -1.144 },
+]

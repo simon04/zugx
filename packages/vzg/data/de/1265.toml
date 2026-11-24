@@ -1,0 +1,32 @@
+id = "1265"
+ref = "1265"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q107861367"
+from = "Cuxhaven, Stw Cs"
+to = "Neuer Fischereihafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.212
+length = 2.212
+speeds = [[0, 2.212, "", ""]]
+curves = [[0.1, 0.95, 290], [1.15, 1.35, 1090], [1.5, 1.6, 1280], [1.725, 1.8, 1390]]
+points = [
+  { km = 0.207, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.097, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.13, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.149, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.689, kind = "signal", label = "Q", signal = "main", dir = -1 },
+  { km = 1.815, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 1.995, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.021, kind = "signal", signal = "shunting", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ejugIk{gt@nCcF~CkCpDk@vCn@rFnElBdEd@hEWlGoA|DeQlTcJ|RwFrOsL|`@" },
+]
+posts = [[0, 53.85395, 8.72902], [1, 53.85026, 8.72444], [2, 53.85639, 8.71347]]

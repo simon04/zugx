@@ -1,0 +1,173 @@
+id = "1271"
+ref = "1271"
+name = "1271 Hamburg Hbf - Hamburg-Neugraben"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hamburg Hbf (S-Bahn)"
+to = "Hamburg-Neugraben (S-Bahn)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.676
+kmTo = 23.338
+length = 22.657
+speeds = [[0.676, 0.758, 40, 40], [0.758, 1.156, "", ""], [1.156, 1.618, 60, 60], [1.618, 3.1, 90, 90], [3.1, 7.028, 100, 100], [7.028, 15.489, "", ""], [15.489, 20.322, 100, 100], [20.322, 23.338, "", ""]]
+curves = [[0.776, 0.901, 580], [0.951, 1.426, 300], [1.701, 1.751, 2170], [1.851, 1.926, 2470], [2.026, 2.401, 610], [2.801, 3.076, 990], [4.101, 4.226, 1990], [4.651, 4.801, 1310], [5.126, 5.176, 2320], [5.576, 5.926, 1290], [6.051, 6.101, 2810], [6.451, 6.726, 1670], [6.951, 7.026, 2240], [7.351, 7.401, 1850], [7.551, 7.601, 2010], [10.451, 10.951, 780], [11.226, 12.301, 510], [12.376, 12.651, 770], [12.726, 13.251, 910], [13.301, 13.526, 530], [13.676, 13.976, 680], [14.251, 14.476, 690], [15.026, 15.126, 1360], [15.276, 15.726, 610], [15.851, 15.976, 2480], [16.326, 16.401, 2880], [21.806, 21.856, 2450], [21.981, 22.031, 2590], [22.981, 23.081, 1080], [23.131, 23.231, 1230]]
+points = [
+  { km = 1.156, kind = "signal", label = "701", signal = "combined", dir = 1 },
+  { km = 1.543, kind = "signal", label = "671", signal = "combined,minor,wrong_road", dir = -1 },
+  { km = 1.618, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.631, kind = "stop", label = "Hammerbrook", pos = [53.54677, 10.02352], uic = "8004266" },
+  { km = 1.761, kind = "signal", label = "703", signal = "combined,departure,minor,wrong_road", dir = 1 },
+  { km = 2.206, kind = "signal", label = "705", signal = "combined", dir = 1 },
+  { km = 2.21, kind = "signal", label = "673", signal = "combined", dir = -1 },
+  { km = 2.878, kind = "signal", label = "7205", signal = "combined", dir = 1 },
+  { km = 2.983, kind = "station", label = "Elbbrücken", pos = [53.53514, 10.02501] },
+  { km = 3.083, kind = "signal", label = "707", signal = "combined,speed_limit", dir = 1 },
+  { km = 3.863, kind = "signal", label = "7107", signal = "combined,traversable", dir = 1 },
+  { km = 3.865, kind = "signal", label = "6175", signal = "combined,wrong_road", dir = -1 },
+  { km = 4.215, kind = "signal", label = "709", signal = "combined", dir = 1 },
+  { km = 4.488, kind = "signal", label = "7109", signal = "combined", dir = 1 },
+  { km = 4.512, kind = "signal", label = "675", signal = "combined,departure,wrong_road", dir = 1 },
+  { km = 4.648, kind = "stop", label = "Veddel (Ballin Stadt)", pos = [53.52171, 10.0133] },
+  { km = 4.676, kind = "halt", label = "Hamburg-Veddel", uic = "8006062", pos = [53.52146, 10.01322] },
+  { km = 4.731, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.752, kind = "signal", label = "711", signal = "combined,departure", dir = 1 },
+  { km = 4.895, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.551, kind = "signal", label = "713", signal = "combined", dir = 1 },
+  { km = 6.206, kind = "signal", label = "715", signal = "combined", dir = 1 },
+  { km = 7.122, kind = "signal", label = "677", signal = "combined,departure,minor,wrong_road", dir = -1 },
+  { km = 7.284, kind = "station", label = "Wilhelmsburg", pos = [53.49847, 10.00686], uic = "8002561" },
+  { km = 7.334, kind = "signal", signal = "stop", dir = 1 },
+  { km = 7.348, kind = "signal", label = "717", signal = "combined,departure,minor,wrong_road", dir = 1 },
+  { km = 7.516, kind = "signal", label = "11 I", signal = "minor", dir = -1 },
+  { km = 7.729, kind = "signal", signal = "minor", dir = 1 },
+  { km = 8.018, kind = "signal", label = "726", signal = "combined", dir = -1 },
+  { km = 9.165, kind = "signal", label = "728", signal = "combined", dir = -1 },
+  { km = 9.908, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.969, kind = "signal", label = "730", signal = "combined,traversable", dir = -1 },
+  { km = 10.777, kind = "signal", label = "732", signal = "combined,traversable", dir = -1 },
+  { km = 12.322, kind = "station", label = "Hamburg-Harburg", uic = "8001134", pos = [53.45572, 9.99177] },
+  { km = 12.357, kind = "signal", signal = "combined", dir = -1 },
+  { km = 12.39, kind = "stop", label = "Harburg", pos = [53.45695, 9.99134], uic = "8098147" },
+  { km = 12.44, kind = "signal", label = "680", signal = "combined", dir = 1 },
+  { km = 13.133, kind = "signal", label = "11", signal = "combined,departure,minor", dir = -1 },
+  { km = 13.227, kind = "station", label = "Harburg Rathaus", pos = [53.46073, 9.98035], uic = "8004267" },
+  { km = 13.331, kind = "signal", label = "21", signal = "combined,minor,wrong_road", dir = 1 },
+  { km = 14.531, kind = "stop", label = "Heimfeld (TU Hamburg)", pos = [53.46544, 9.96306], uic = "8006749" },
+  { km = 15.909, kind = "signal", label = "752", signal = "combined,traversable", dir = -1 },
+  { km = 16.533, kind = "signal", signal = "distant", dir = 1 },
+  { km = 17.157, kind = "signal", label = "684", signal = "combined", dir = 1 },
+  { km = 17.166, kind = "signal", label = "754", signal = "combined", dir = -1 },
+  { km = 18.03, kind = "signal", label = "756", signal = "combined,wrong_road", dir = -1 },
+  { km = 19.196, kind = "signal", label = "758", signal = "combined,traversable", dir = -1 },
+  { km = 19.86, kind = "signal", label = "760", signal = "combined,traversable", dir = -1 },
+  { km = 20.322, kind = "signal", label = "762", signal = "combined,departure,traversable", dir = -1 },
+  { km = 20.332, kind = "signal", signal = "stop", dir = -1 },
+  { km = 20.395, kind = "signal", signal = "stop", dir = -1 },
+  { km = 20.429, kind = "stop", label = "Neuwiedenthal", uic = "8006750", pos = [53.473, 9.87748] },
+  { km = 20.431, kind = "signal", signal = "stop", dir = 1 },
+  { km = 20.497, kind = "signal", signal = "stop", dir = 1 },
+  { km = 20.528, kind = "signal", signal = "stop", dir = 1 },
+  { km = 20.816, kind = "signal", label = "764", signal = "combined", dir = -1 },
+  { km = 21.282, kind = "signal", signal = "combined", dir = 1 },
+  { km = 21.307, kind = "signal", label = "766", signal = "combined", dir = 1 },
+  { km = 22.01, kind = "signal", label = "11", signal = "combined,departure,wrong_road", dir = -1 },
+  { km = 22.02, kind = "signal", signal = "stop", dir = -1 },
+  { km = 22.034, kind = "signal", signal = "stop", dir = -1 },
+  { km = 22.095, kind = "signal", signal = "stop", dir = 1 },
+  { km = 22.107, kind = "station", label = "Neugraben", pos = [53.47422, 9.85168], uic = "8001186" },
+  { km = 22.164, kind = "signal", signal = "stop", dir = 1 },
+  { km = 22.221, kind = "signal", signal = "stop", dir = 1 },
+  { km = 22.237, kind = "signal", label = "21", signal = "main,minor,speed_limit,wrong_road", dir = 1 },
+  { km = 22.319, kind = "signal", signal = "minor", dir = -1 },
+  { km = 22.512, kind = "signal", signal = "minor", dir = -1 },
+  { km = 22.593, kind = "signal", signal = "minor", dir = 1 },
+  { km = 22.658, kind = "signal", label = "768", signal = "combined,speed_limit", dir = -1 },
+  { km = 22.786, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 22.793, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 22.853, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 22.925, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 22.942, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 23.139, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 23.217, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.891, kmTo = 2.873, length = 1982 },
+  { kind = "bridge", kmFrom = 3.021, kmTo = 3.041, length = 20 },
+  { kind = "bridge", kmFrom = 3.1, kmTo = 3.408, length = 308 },
+  { kind = "bridge", kmFrom = 3.713, kmTo = 3.73, length = 16 },
+  { kind = "bridge", kmFrom = 3.76, kmTo = 3.784, length = 24 },
+  { kind = "bridge", kmFrom = 4.32, kmTo = 4.349, length = 29 },
+  { kind = "bridge", kmFrom = 4.586, kmTo = 4.636, length = 50 },
+  { kind = "bridge", kmFrom = 4.686, kmTo = 4.711, length = 25 },
+  { kind = "bridge", kmFrom = 5.197, kmTo = 5.249, length = 53 },
+  { kind = "bridge", kmFrom = 5.622, kmTo = 5.651, length = 29 },
+  { kind = "bridge", kmFrom = 9.176, kmTo = 9.21, length = 33 },
+  { kind = "bridge", kmFrom = 9.778, kmTo = 9.81, length = 32 },
+  { kind = "bridge", kmFrom = 9.981, kmTo = 10.331, length = 350 },
+  { kind = "bridge", kmFrom = 10.432, kmTo = 10.468, length = 36 },
+  { kind = "bridge", kmFrom = 10.504, kmTo = 10.542, length = 38 },
+  { kind = "tunnel", kmFrom = 11.067, kmTo = 12.232, length = 1165 },
+  { kind = "tunnel", kmFrom = 12.232, kmTo = 15.333, length = 3102, name = "Harburger S-Bahn-Tunnel" },
+  { kind = "bridge", kmFrom = 15.333, kmTo = 15.489, length = 156 },
+  { kind = "bridge", kmFrom = 20.708, kmTo = 20.738, length = 30 },
+  { kind = "bridge", kmFrom = 21.768, kmTo = 21.823, length = 55 },
+  { kind = "bridge", kmFrom = 22.955, kmTo = 22.987, length = 32 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_|yeImtb|@CwF", v = 40 },
+  { line = "c|yeIe|b|@oCsVCqE^}D" },
+  { line = "w_zeIi`d|@x@qCjBmCxOqK", v = 60 },
+  { line = "wiyeI{ud|@tV_R|FuArERdZnG|EnBrElD", v = 90 },
+  { line = "wzveIoyd|@zr@dp@t]vT|VzJzYbJzHj@td@LbZnG", v = 100 },
+  { line = "ujpeIgqa|@z]jGnt@dIla@`IhWtHju@zYnICfMaE" },
+  { line = "mlieIgv_|@`KwDzIsArD?bGnAzEtDvBhD|CxKf@fIuAbTqMbZaCxK{@|FmBd[kNxa@wDve@}@fGoWfq@wIvP", tunnel = true },
+  { line = "{kjeIacw{@sClK" },
+  { line = "opjeIsvv{@_AlKi@~T_@btE{FvnE", v = 100 },
+  { line = "u|jeIioh{@uCtcBuC|tCuAv_@" },
+]
+posts = [[1, 53.55029, 10.01774], [2, 53.54359, 10.02601], [3, 53.53484, 10.02477], [4, 53.527, 10.0174], [5, 53.51869, 10.01171], [6, 53.50992, 10.00888], [7, 53.501, 10.00748], [8, 53.4921, 10.00538], [9, 53.48319, 10.0033], [10, 53.47448, 9.99961], [11, 53.46577, 9.99768], [12, 53.45738, 9.99664], [13, 53.46003, 9.98372], [14, 53.46371, 9.97029], [15, 53.46812, 9.95753], [16, 53.47152, 9.94432], [17, 53.47152, 9.92921], [18, 53.47163, 9.9141], [19, 53.47216, 9.89902], [20, 53.47276, 9.88395], [21, 53.47339, 9.86889], [22, 53.47393, 9.85388], [23, 53.47442, 9.83879]]
+
+[[connections]]
+km = 2.983
+station = "Elbbrücken"
+lines = [
+  { id = "1280", ref = "1280", name = "1280 Buchholz - Abzw Hamburg-Allermöhe", km = 38.503 },
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 352.441 },
+]
+
+[[connections]]
+km = 7.284
+station = "Wilhelmsburg"
+lines = [
+  { id = "1255", ref = "1255", km = 9.647 },
+  { id = "hamburg-wilhelmsburg-hamburg-sued", name = "Hamburg-Wilhelmsburg – Hamburg-Süd", km = 9.67 },
+]
+
+[[connections]]
+km = 12.322
+station = "Hamburg-Harburg"
+lines = [
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 169.175 },
+]
+
+[[connections]]
+km = 12.39
+station = "Harburg"
+lines = [
+  { id = "1255", ref = "1255", km = 4.882 },
+  { id = "1280", ref = "1280", name = "1280 Buchholz - Abzw Hamburg-Allermöhe", km = 29.49 },
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 343.337 },
+  { id = "hamburg-wilhelmsburg-hamburg-sued", name = "Hamburg-Wilhelmsburg – Hamburg-Süd", km = 6.856 },
+]
+
+[[connections]]
+km = 22.107
+station = "Neugraben"
+lines = [
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 179.317 },
+]

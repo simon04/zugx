@@ -1,0 +1,36 @@
+id = "6556"
+ref = "6556"
+name = "Bötzowbahn"
+operator = "Havelländische Eisenbahn"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.572
+length = 5.572
+speeds = [[0, 0.577, "", ""], [0.577, 4.452, 30, 30], [4.452, 5.572, 40, 40]]
+curves = [[0.1, 0.225, 560], [0.275, 0.775, 580], [0.9, 1.125, 410], [1.4, 1.8, 260], [4.075, 4.5, 330]]
+points = [
+  { km = 0.478, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 0.515, kind = "signal", signal = "minor,traversable", dir = 1 },
+  { km = 0.577, kind = "signal", signal = "shunting,speed_limit", dir = 1 },
+  { km = 0.603, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.608, kind = "signal", signal = "minor,traversable", dir = -1 },
+  { km = 0.652, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.528, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.671, kind = "stop", label = "Falkenseer Chaussee", pos = [52.54981, 13.16968] },
+  { km = 3.064, kind = "signal", signal = "crossing", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.48, kmTo = 0.502, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uzs_Ig~noAQhMbA`UUnO" },
+  { line = "yys_IkimoA_BtGyLnP_A~DaFfd@uBhEmDhBagCe\\eCyAkBaCuAoD}@eF", v = 30 },
+  { line = "aqy_IakloAwNicB", v = 40 },
+]
+posts = [[0, 52.53563, 13.189], [1, 52.5382, 13.17632], [2, 52.54383, 13.16838], [3, 52.55274, 13.17034], [4, 52.56166, 13.17228], [5, 52.56604, 13.18354]]

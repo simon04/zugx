@@ -1,0 +1,52 @@
+id = "5233"
+ref = "5233"
+name = "5233 Ebenhausen (Unterfr) - Bad Kissingen"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q108822705"
+from = "Ebenhausen (Unterfr)"
+to = "Bad Kissingen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 8.535
+length = 8.535
+speeds = [[0, 0.191, 80, 80], [0.191, 0.37, 90, 80], [0.37, 7.585, 90, 90], [7.585, 7.656, "", ""], [7.656, 8.535, 60, 60]]
+curves = [[0.1, 0.425, 560], [0.65, 1.8, 500], [1.85, 1.9, 1970], [2, 2.6, 470], [3.075, 3.725, 740], [3.825, 3.875, 1760], [4.025, 4.2, 1050], [4.375, 4.7, 1020], [5, 5.3, 1010], [5.6, 6.325, 1140], [6.4, 6.775, 1090], [7.025, 7.125, 1270], [7.225, 7.275, 2200], [8.325, 8.4, 2050]]
+points = [
+  { km = 0.191, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.37, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.373, kind = "signal", label = "91B", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 1.731, kind = "signal", label = "91Va", signal = "distant", dir = -1 },
+  { km = 6.628, kind = "stop", label = "Oerlenbach", pos = [50.14334, 10.13079], uic = "8004629" },
+  { km = 7.734, kind = "signal", label = "92 N2", signal = "main,traversable", dir = -1 },
+  { km = 7.741, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.958, kind = "station", label = "Ebenhausen (Unterfr)", pos = [50.13177, 10.13775], uic = "8001620" },
+  { km = 8.219, kind = "signal", label = "92 P2", signal = "main,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.211, kmTo = 0.247, length = 35 },
+  { kind = "bridge", kmFrom = 1.062, kmTo = 1.136, length = 73 },
+  { kind = "bridge", kmFrom = 1.382, kmTo = 1.406, length = 25 },
+  { kind = "bridge", kmFrom = 1.971, kmTo = 1.981, length = 11 },
+  { kind = "bridge", kmFrom = 2.411, kmTo = 2.427, length = 16 },
+  { kind = "bridge", kmFrom = 3.751, kmTo = 3.771, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}ugqH_}o|@pIjA", v = 80 },
+  { line = "kkgqHszo|@xGhFbQpWrF~DfEl@zFq@vCwA|EqFdB_EtAeGp@gHrAq_@xAqGvAgDdDiEhD{Ble@wLvKaJ`EqHnK_b@zMuYhEuQzF}_@pAyi@|AyQfCmNfE{MdJoP|GeHnPqLbZwL", v = 90 },
+  { line = "ia_qHytz|@zBw@" },
+  { line = "m}~pHqvz|@`n@eV", v = 60 },
+]
+posts = [[0, 50.17967, 10.08096], [1, 50.172, 10.07439], [2, 50.16692, 10.08347], [3, 50.16002, 10.09041], [4, 50.15346, 10.09884], [5, 50.14875, 10.11062], [6, 50.14698, 10.12427], [7, 50.14037, 10.13329], [8, 50.13183, 10.13764]]
+
+[[connections]]
+km = 7.958
+station = "Ebenhausen"
+lines = [
+  { id = "5240", ref = "5240", name = "5240 Schweinfurt Hbf - Meiningen", km = 13.976 },
+]

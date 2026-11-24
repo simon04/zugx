@@ -1,0 +1,49 @@
+id = "5216"
+ref = "5216"
+name = "5216 Abzw Nantenbach - Rohrbach"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q1964766"
+from = "Nantenbach"
+to = "Rohrbach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.097
+kmTo = 10.652
+length = 10.653
+speeds = [[-0.097, 0.141, 160, 150], [0.141, 0.584, 150, 150], [0.584, 10.652, 200, 200]]
+curves = [[0.6, 0.677, 2170], [1.014, 1.248, 2600], [1.351, 1.573, 2130], [1.698, 1.773, 2450], [1.872, 1.947, 2310], [2.047, 2.247, 2160], [2.347, 2.447, 2060], [2.522, 2.572, 2670], [2.672, 2.747, 2390], [2.847, 2.897, 2350], [2.997, 3.047, 2040], [3.147, 3.222, 2180], [3.522, 3.647, 1480], [3.921, 3.996, 1840], [4.146, 4.246, 1270], [4.421, 4.546, 1510], [4.746, 4.846, 1330], [5.021, 5.121, 1510], [6.257, 6.331, 2900], [6.948, 7.003, 2280], [8.002, 8.073, 2470], [8.989, 9.103, 1740], [9.247, 9.33, 1850], [10.069, 10.172, 2500]]
+points = [
+  { km = -0.087, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.079, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.173, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 0.584, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 0.796, kind = "signal", signal = "distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.827, kmTo = 1.595, length = 726, name = "Maintalbrücke Nantenbach" },
+  { kind = "tunnel", kmFrom = 1.595, kmTo = 5.525, length = 3932, name = "Schönraintunnel" },
+  { kind = "tunnel", kmFrom = 5.769, kmTo = 6.289, length = 530, name = "Harrbachtunnel" },
+  { kind = "bridge", kmFrom = 6.406, kmTo = 6.49, length = 77 },
+  { kind = "tunnel", kmFrom = 6.603, kmTo = 7.252, length = 597, name = "Ständelbergtunnel" },
+  { kind = "bridge", kmFrom = 7.344, kmTo = 7.38, length = 33 },
+  { kind = "tunnel", kmFrom = 7.554, kmTo = 8.845, length = 1364, name = "Rammersberg-Tunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ei~oHkfgz@o`@zFuj@vM}UhB", v = 200 },
+  { line = "imapHmlfz@yn@j@s[jD", tunnel = true, v = 200 },
+  { line = "wycpHuefz@sOpB", v = 200 },
+  { line = "kjdpHcbfz@yLjBaRzE", tunnel = true, v = 200 },
+  { line = "gkepH{wez@iOnE", v = 200 },
+  { line = "q{epHkqez@g[xM", tunnel = true, v = 200 },
+  { line = "ywfpHqbez@gL~E", v = 200 },
+  { line = "aegpHq{dz@}V~LyLvImMhM{KhOmHxMmL`YwIl]qBpKsFtf@aBpf@@jNv@~Z", tunnel = true, v = 200 },
+  { line = "etjpHuu|y@~Cl`@nJvm@", v = 200 },
+  { line = "ucjpHoezy@`Eb^", v = 150 },
+  { line = "s}ipHkfyy@tB~R", v = 160 },
+]
+posts = [[10, 49.97385, 9.70718], [9, 49.9822, 9.70467], [8, 49.99176, 9.70427], [7, 50.00068, 9.7024], [6, 50.00901, 9.6989], [5, 50.01752, 9.69406], [4, 50.02477, 9.68593], [3, 50.02955, 9.67417], [2, 50.0312, 9.66049], [1, 50.02962, 9.64729], [0, 50.02695, 9.63513]]

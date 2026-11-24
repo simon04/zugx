@@ -1,0 +1,234 @@
+id = "1940"
+ref = "1940"
+name = "1940 Kreiensen - Holzminden"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q801833"
+from = "Kreiensen"
+to = "Holzminden"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 45.089
+kmTo = 150.444
+length = 105.185
+speeds = [[45.089, 45.991, 5, 5], [45.991, 46.619, 20, 20], [46.619, 59.951, "", ""], [59.951, 60.295, 60, 60], [60.295, 64.873, 100, 100], [64.873, 65.158, 60, 60], [65.158, 78.562, 100, 100], [78.562, 79.935, 80, 80], [79.935, 85.972, 100, 100], [85.972, 86.797, 80, 80], [86.797, 99.513, 100, 100], [99.513, 99.994, 90, 90], [99.994, 104.732, 100, 100], [104.732, 106.087, "", ""], [106.087, 106.601, 50, 50], [106.601, 106.868, 80, 80], [106.868, 127.955, 100, 100], [127.955, 128.23, 80, 80], [128.23, 134.438, 100, 100], [134.438, 135.738, 90, 90], [135.738, 150.444, 100, 100]]
+curves = [[45.774, 45.824, 1440], [45.974, 46.699, 930], [46.849, 46.999, 1440], [49.524, 50.224, 1460], [50.699, 52.249, 1380], [52.374, 52.474, 1500], [53.874, 53.924, 2370], [56.649, 56.799, 2250], [57.799, 58.574, 1840], [59.599, 59.649, 2430], [59.724, 59.849, 1900], [59.899, 59.999, 2200], [60.399, 60.599, 1950], [61.164, 61.335, 1610], [61.431, 62.039, 2430], [62.114, 62.239, 2230], [66.195, 66.624, 1790], [66.75, 67.012, 2120], [67.058, 67.129, 1790], [67.691, 68.477, 1750], [69.783, 70.178, 1150], [70.498, 70.597, 2180], [70.695, 71.09, 1300], [71.164, 71.361, 1350], [71.509, 71.583, 2180], [71.983, 72.085, 1470], [72.162, 72.34, 1620], [72.493, 72.672, 1800], [73.352, 73.451, 2100], [73.501, 74.049, 1620], [74.464, 74.586, 2090], [74.712, 74.762, 2920], [75.465, 75.591, 1550], [76.567, 77.369, 1370], [77.751, 79.035, 1200], [79.16, 79.26, 2070], [79.859, 80.082, 2390], [80.229, 81.746, 1150], [82.14, 82.632, 1410], [82.681, 83.148, 1650], [83.271, 83.947, 1560], [84.148, 84.75, 1170], [85.2, 85.843, 1010], [86.486, 86.666, 1700], [86.794, 87.051, 1970], [89.579, 90.379, 1530], [90.755, 91.255, 1420], [91.33, 91.63, 960], [91.83, 92.13, 1730], [92.205, 92.355, 2160], [93.181, 94.181, 1370], [94.532, 95.207, 1290], [95.532, 96.082, 1830], [96.158, 96.508, 1770], [99.195, 99.647, 1130], [99.697, 99.873, 1140], [100.148, 100.248, 2480], [100.347, 100.446, 2370], [100.495, 100.643, 2070], [100.717, 100.842, 2370], [102.786, 102.861, 2510], [103.257, 104.426, 580], [105.477, 106.017, 830], [106.067, 106.918, 430], [107.294, 108.822, 610], [108.872, 109.749, 570], [109.824, 110.275, 570], [110.475, 110.65, 1350], [110.776, 110.926, 900], [111.051, 111.226, 930], [111.302, 111.427, 1220], [111.853, 112.303, 980], [112.829, 113.18, 690], [114.032, 114.382, 780], [116.386, 117.163, 1620], [117.288, 118.039, 1140], [119.016, 119.993, 1030], [120.644, 120.92, 1330], [121.37, 122.147, 790], [122.297, 123.299, 830], [123.374, 124.251, 740], [124.351, 125.052, 800], [125.378, 126.029, 970], [126.254, 126.755, 990], [128.008, 128.509, 1310], [129.36, 130.011, 740], [130.537, 131.063, 740], [131.189, 132.04, 710], [132.767, 132.942, 1180], [133.393, 133.643, 1080], [134.344, 134.67, 820], [134.795, 135.472, 720], [135.947, 137.926, 1080], [138.101, 138.753, 940], [139.905, 140.055, 1590], [140.306, 140.706, 1050], [141.157, 142.46, 1280], [142.735, 143.311, 1030], [144.238, 144.563, 840], [146.066, 146.166, 1820], [146.467, 146.818, 930], [147.043, 148.396, 930], [148.521, 149.873, 930]]
+points = [
+  { km = 45.246, kind = "station", label = "Börßum", uic = "8013302", pos = [52.06092, 10.56866] },
+  { km = 45.28, kind = "stop", label = "Börßum WTB", pos = [52.06079, 10.56863] },
+  { km = 45.917, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 45.991, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 45.995, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 47.054, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 54.816, kind = "signal", signal = "main", dir = 1 },
+  { km = 55.138, kind = "station", label = "Klein Mahner", pos = [52.04558, 10.44536] },
+  { km = 55.441, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 55.647, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 55.654, kind = "signal", signal = "main", dir = -1 },
+  { km = 55.655, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 59.392, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 59.951, kind = "signal", label = "49A", signal = "combined,main,speed_limit", dir = 1 },
+  { km = 60.397, kind = "signal", label = "49P1", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 60.488, kind = "station", label = "Salzgitter-Bad", pos = [52.04977, 10.37219], uic = "8005265" },
+  { km = 60.533, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 60.534, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 60.539, kind = "signal", label = "49WVp1", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 61.111, kind = "signal", label = "49N1", signal = "main", dir = 1 },
+  { km = 61.472, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 61.804, kind = "signal", label = "49F", signal = "combined,speed_limit", dir = -1 },
+  { km = 62.523, kind = "signal", signal = "distant", dir = 1 },
+  { km = 62.807, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 63.503, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 63.743, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 64.213, kind = "signal", label = "N7", signal = "main", dir = -1 },
+  { km = 64.729, kind = "station", label = "Salzgitter-Ringelheim", pos = [52.03807, 10.31451], uic = "8000325" },
+  { km = 64.873, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 64.875, kind = "signal", label = "P7", signal = "main", dir = 1 },
+  { km = 65.304, kind = "signal", label = "B", signal = "main,speed_limit", dir = -1 },
+  { km = 65.309, kind = "signal", signal = "distant", dir = -1 },
+  { km = 66.335, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 73.08, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 73.273, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 74.309, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 74.487, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 75.51, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 75.559, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 77.261, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 77.816, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 78.24, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 78.562, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 78.711, kind = "signal", signal = "distant", dir = 1 },
+  { km = 78.798, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 78.871, kind = "signal", label = "B355", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 79.277, kind = "signal", label = "P302", signal = "main", dir = -1 },
+  { km = 79.283, kind = "stop", label = "Neuekrug-Hahausen", pos = [51.93702, 10.21825] },
+  { km = 79.774, kind = "signal", label = "Ls302", signal = "minor", dir = 1 },
+  { km = 80.316, kind = "signal", label = "F354", signal = "distant,main", dir = -1 },
+  { km = 80.318, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 80.409, kind = "signal", signal = "distant", dir = -1 },
+  { km = 81.317, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 81.318, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 81.831, kind = "signal", signal = "snowplow" },
+  { km = 84.477, kind = "signal", signal = "distant", dir = 1 },
+  { km = 85.432, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 85.87, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 85.972, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 86.092, kind = "station", label = "Seesen", uic = "8013095", pos = [51.88717, 10.17397] },
+  { km = 86.101, kind = "signal", label = "29 P2", signal = "main,traversable", dir = -1 },
+  { km = 86.136, kind = "stop", label = "Seesen, Bahnhof", pos = [51.887, 10.17335] },
+  { km = 86.145, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 86.664, kind = "signal", label = "29N2", signal = "main,speed_limit", dir = 1 },
+  { km = 99.513, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 99.994, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 100.01, kind = "stop", label = "Bad Gandersheim", pos = [51.8674, 10.02026], uic = "8013098" },
+  { km = 101.013, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 101.047, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 103.66, kind = "signal", signal = "distant", dir = 1 },
+  { km = 104.549, kind = "signal", signal = "main", dir = 1 },
+  { km = 104.795, kind = "signal", signal = "minor", dir = 1 },
+  { km = 105.195, kind = "signal", signal = "minor", dir = 1 },
+  { km = 105.235, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 105.291, kind = "signal", signal = "minor", dir = 1 },
+  { km = 105.391, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 105.421, kind = "signal", label = "40 P52", signal = "main,minor", dir = -1 },
+  { km = 105.581, kind = "signal", signal = "distant", dir = -1 },
+  { km = 105.677, kind = "signal", label = "40VW2p52", signal = "distant", dir = -1 },
+  { km = 105.693, kind = "signal", signal = "distant,route_distant", dir = 1 },
+  { km = 105.746, kind = "station", label = "Kreiensen", pos = [51.85136, 9.96751], uic = "8013060" },
+  { km = 105.855, kind = "signal", label = "40 ZR52", signal = "combined,minor,route,speed_limit", dir = -1 },
+  { km = 106.129, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 106.153, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 106.601, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 106.868, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 115.869, kind = "signal", signal = "distant", dir = 1 },
+  { km = 127.005, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 127.955, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 128.23, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 133.157, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 134.438, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 135.268, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 135.677, kind = "station", label = "Stadtoldendorf", pos = [51.88096, 9.62041], uic = "8005665" },
+  { km = 135.738, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 136.33, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 136.544, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 137.433, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 150.444, kind = "station", label = "Holzminden", pos = [51.82021, 9.45382], uic = "8000391" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 46.619, kmTo = 46.634, length = 16 },
+  { kind = "bridge", kmFrom = 46.752, kmTo = 46.839, length = 88 },
+  { kind = "bridge", kmFrom = 59.085, kmTo = 59.1, length = 15 },
+  { kind = "bridge", kmFrom = 60.295, kmTo = 60.33, length = 35 },
+  { kind = "bridge", kmFrom = 65.52, kmTo = 65.533, length = 13 },
+  { kind = "bridge", kmFrom = 66.591, kmTo = 66.618, length = 27 },
+  { kind = "bridge", kmFrom = 66.731, kmTo = 66.81, length = 80 },
+  { kind = "bridge", kmFrom = 67.451, kmTo = 67.47, length = 21 },
+  { kind = "bridge", kmFrom = 77.029, kmTo = 77.045, length = 15 },
+  { kind = "bridge", kmFrom = 80.155, kmTo = 80.177, length = 22 },
+  { kind = "bridge", kmFrom = 81.803, kmTo = 81.831, length = 28 },
+  { kind = "bridge", kmFrom = 83.894, kmTo = 83.911, length = 18 },
+  { kind = "bridge", kmFrom = 84.783, kmTo = 84.8, length = 17 },
+  { kind = "bridge", kmFrom = 89.396, kmTo = 89.423, length = 26 },
+  { kind = "bridge", kmFrom = 89.706, kmTo = 89.743, length = 37 },
+  { kind = "bridge", kmFrom = 93.114, kmTo = 93.137, length = 23 },
+  { kind = "bridge", kmFrom = 93.744, kmTo = 93.767, length = 23 },
+  { kind = "bridge", kmFrom = 94.656, kmTo = 94.683, length = 27 },
+  { kind = "bridge", kmFrom = 96.204, kmTo = 96.234, length = 31 },
+  { kind = "bridge", kmFrom = 96.782, kmTo = 96.8, length = 18 },
+  { kind = "bridge", kmFrom = 99.212, kmTo = 99.246, length = 34 },
+  { kind = "bridge", kmFrom = 99.698, kmTo = 99.736, length = 38 },
+  { kind = "bridge", kmFrom = 102.842, kmTo = 102.86, length = 18 },
+  { kind = "bridge", kmFrom = 103.867, kmTo = 103.883, length = 20 },
+  { kind = "bridge", kmFrom = 104.204, kmTo = 104.233, length = 29 },
+  { kind = "bridge", kmFrom = 104.732, kmTo = 104.745, length = 22 },
+  { kind = "bridge", kmFrom = 104.896, kmTo = 104.947, length = 19 },
+  { kind = "bridge", kmFrom = 106.307, kmTo = 106.327, length = 20 },
+  { kind = "bridge", kmFrom = 106.506, kmTo = 106.581, length = 75 },
+  { kind = "bridge", kmFrom = 106.677, kmTo = 106.784, length = 107 },
+  { kind = "bridge", kmFrom = 107.011, kmTo = 107.068, length = 57 },
+  { kind = "bridge", kmFrom = 107.9, kmTo = 107.917, length = 17 },
+  { kind = "tunnel", kmFrom = 108.651, kmTo = 108.86, length = 208, name = "Ippenser Tunnel" },
+  { kind = "bridge", kmFrom = 110.622, kmTo = 110.739, length = 116 },
+  { kind = "tunnel", kmFrom = 113.133, kmTo = 114.018, length = 883, name = "Naenser Tunnel" },
+  { kind = "bridge", kmFrom = 114.871, kmTo = 114.884, length = 13 },
+  { kind = "bridge", kmFrom = 125.212, kmTo = 125.222, length = 10 },
+  { kind = "bridge", kmFrom = 129.25, kmTo = 129.312, length = 62 },
+  { kind = "bridge", kmFrom = 130.228, kmTo = 130.311, length = 83 },
+  { kind = "bridge", kmFrom = 134.602, kmTo = 134.672, length = 70 },
+  { kind = "bridge", kmFrom = 135.417, kmTo = 135.458, length = 41 },
+  { kind = "bridge", kmFrom = 138.164, kmTo = 138.205, length = 41 },
+  { kind = "bridge", kmFrom = 144.562, kmTo = 144.586, length = 24 },
+  { kind = "bridge", kmFrom = 147.448, kmTo = 147.484, length = 36 },
+  { kind = "bridge", kmFrom = 147.737, kmTo = 147.82, length = 83 },
+  { kind = "bridge", kmFrom = 148.792, kmTo = 148.814, length = 21 },
+  { kind = "bridge", kmFrom = 149.537, kmTo = 149.574, length = 37 },
+  { kind = "bridge", kmFrom = 149.731, kmTo = 149.742, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "och{Hmlux@}e@uUyJwLuGsPeDeR_A}QN}NjBq]OmRgCuTaFyPmD_H{GcIcZqPoKuMqLqR{x@}aB_FgMsJ_m@gLc{@]_YpEsk@PyV{AkYqFy[_EwLuVsb@gFaMwKgj@wf@qfBiDuGyGwHa[_P{IaJ}HuOiFwRaB{Lu@oML{]|@_JrBoJpJwV", v = 100 },
+  { line = "obt{Hsxuy@bLkYdB_JfAcLHyPqB_XSyM", v = 90 },
+  { line = "yss{Hwdyy@xFcnACuK_Cku@qM{eAmBeJsB_GmEmHkD}CaIkD_T{BwJiGsYye@qH{O{CiOw@kP?osAx@mT", v = 100 },
+  { line = "kew{Hgtgz@zCuV", v = 80 },
+  { line = "o`w{H}khz@xZqoBj@cLD}KkAef@dAqVbC}NtL_b@jCsRTqUsCy\\]iJJyJj@}HrBwLbCqHjO}XdCoJfBaNb@sPUkJ_F{`@g@aJ?kMr@kLtBeM~Okg@pD{NlNc`AtAgP@gMk@mPmCmReEcNi`@ueA_FoTwAeNk@kQNmTt@iRbBsPpEyUj|@o_DhBaKbAgO", v = 100 },
+  { line = "etr{Hsil{@lEunA", tunnel = true, v = 100 },
+  { line = "wmr{Hiyn{@h@yG|A{HxTen@vDmHjHmIlYySlJyJfQuJhJoJnNiSlDeInBkLrBcYlEmNrDaFbDkChHcBlFP", v = 100 },
+  { line = "ccm{Hijv{@|Eh@tCW", tunnel = true, v = 100 },
+  { line = "owl{Hwiv{@nHaD|FoHlB}EfBgIrAwPYgOaBaL_DaLyO_c@", v = 100 },
+  { line = "mvl{Hsiz{@mCeFsFwE", v = 80 },
+  { line = "obm{Hqwz{@mFaBsEb@mD`CeEbH", v = 50 },
+  { line = "e|m{Hilz{@qFdLcJhJwEpBk^jI" },
+  { line = "_uo{H{ey{@m_@dIiE?mDy@qEkCoFuH{C{IaB_LSkPhDco@dLysDQka@cCed@", v = 100 },
+  { line = "_jq{Hiad|@eAoQ@uW", v = 90 },
+  { line = "clq{Hole|@dA{MvAcJ||@s}EvDqP`HeS`JgQhHsJbRqRfIkMpC_HvDeNrIic@`BkLvAwZ]{Y_Fie@mK{t@eHyYsOa_@uM_OeI_F{IoCo\\oGoHcDqKmIcHeJweBkuCeLaU", v = 100 },
+  { line = "opt{Hmm`}@iG}PePak@", v = 80 },
+  { line = "_ju{Hmkb}@yHkUwIsMiF_Fs]oSgI_I{GeLuKiYsFyKwHmKoImHsPgJmIsBmJaAeQrAgZbLcH~AqKNkKmBcGkC}FgEyIiLeHgPsJw\\", v = 100 },
+  { line = "{f~{Hehi}@mWuq@wG}MgFiHgIaG", v = 80 },
+  { line = "qy_|He{k}@{EyB_JiBcOVkHpBkVdMoHlC_KrAmLQ_JqBkt@yVeu@uMqZuLeKsGuGmG{H}K}\\qn@kKuWcIsOqTyZaMeNeN_JaHeCgKmAiYu@yLsDogAur@sJqIqJeM_GwKeVam@gFqPwE}TiEo^mIo`B", v = 100 },
+  { line = "mrr|Hsk|}@_BiX", v = 60 },
+  { line = "mur|H}d}}@aVccFeDe`@iEcXiHiYcXqr@iHgW", v = 100 },
+  { line = "wcu|Hoii~@iHoZ", v = 60 },
+  { line = "amu|H_ej~@kE_WmC{V{Ek_Ak@g_@d@_U|@oNlU}jB~~@qdFxd@ewBfEy]b@sQMuNuAgUwA}KaEyQeJqUaVea@wEgKgHeYyCsVq`@}vEeFw\\" },
+  { line = "ceu|Hihm_AwBeJ}D_LaFkIcFuD", v = 20 },
+  { line = "_}u|Hqpn_A_o@qY", v = 5 },
+]
+posts = [[150, 51.82406, 9.45579], [149, 51.8305, 9.46499], [148, 51.83041, 9.47934], [147, 51.83618, 9.48954], [146, 51.84349, 9.49758], [145, 51.84967, 9.50813], [144, 51.85469, 9.51991], [143, 51.85748, 9.53367], [142, 51.85641, 9.54798], [141, 51.86062, 9.5604], [140, 51.86575, 9.57204], [139, 51.87038, 9.58449], [138, 51.87691, 9.59373], [137, 51.88359, 9.60265], [136, 51.883, 9.61651], [135, 51.87845, 9.62871], [134, 51.87858, 9.64306], [133, 51.87834, 9.65747], [132, 51.88089, 9.67137], [131, 51.88813, 9.67812], [130, 51.89533, 9.68633], [129, 51.89764, 9.69976], [128, 51.89672, 9.71411], [127, 51.89334, 9.72758], [126, 51.8922, 9.74169], [125, 51.8891, 9.75495], [124, 51.88912, 9.76906], [123, 51.88451, 9.78101], [122, 51.88496, 9.79497], [121, 51.88187, 9.80809], [120, 51.87825, 9.82135], [119, 51.87947, 9.83508], [118, 51.88491, 9.84665], [117, 51.8865, 9.86059], [116, 51.8828, 9.87369], [115, 51.87807, 9.88604], [114, 51.87409, 9.89891], [113, 51.87276, 9.91327], [112, 51.86715, 9.92449], [111, 51.8592, 9.93115], [110, 51.85212, 9.93966], [109, 51.84703, 9.95005], [108, 51.83985, 9.95593], [107, 51.84305, 9.96879], [106, 51.85028, 9.96978], [105, 51.85724, 9.96516], [104, 51.86663, 9.9637], [103, 51.86904, 9.97698], [102, 51.86785, 9.99137], [101, 51.86681, 10.00563], [100, 51.86735, 10.02012], [99, 51.86614, 10.03408], [98, 51.86245, 10.0473], [97, 51.85877, 10.06051], [96, 51.85449, 10.0732], [95, 51.8474, 10.08204], [94, 51.84293, 10.0945], [93, 51.84344, 10.10873], [92, 51.84688, 10.12213], [91, 51.85355, 10.13143], [90, 51.86226, 10.13484], [89, 51.86925, 10.14389], [88, 51.87593, 10.15362], [87, 51.88257, 10.16338], [86, 51.88769, 10.17508], [85, 51.89463, 10.18404], [84, 51.90171, 10.19244], [83, 51.90896, 10.20073], [82, 51.91794, 10.20063], [81, 51.92677, 10.19989], [80, 51.93309, 10.20995], [79, 51.93875, 10.22129], [78, 51.94658, 10.22512], [77, 51.95532, 10.22112], [76, 51.96416, 10.22381], [75, 51.97291, 10.22679], [74, 51.9815, 10.23027], [73, 51.98868, 10.23892], [72, 51.99469, 10.24936], [71, 52.0022, 10.25747], [70, 52.01119, 10.25937], [69, 52.01961, 10.26504], [68, 52.02718, 10.27144], [67, 52.03331, 10.28288], [66, 52.03638, 10.29656], [65, 52.03795, 10.31082], [64, 52.0394, 10.32512], [63, 52.04086, 10.33941], [62, 52.04253, 10.35373], [61, 52.04696, 10.36639], [60, 52.05197, 10.37858], [59, 52.05457, 10.39249], [58, 52.0549, 10.40701], [57, 52.05216, 10.42093], [56, 52.04868, 10.4344], [55, 52.04495, 10.44771], [54, 52.04124, 10.46103], [53, 52.03716, 10.47406], [52, 52.03377, 10.48751], [51, 52.03588, 10.50137], [50, 52.04218, 10.51176], [49, 52.04528, 10.52537], [48, 52.0475, 10.53954], [47, 52.04968, 10.55373], [46, 52.05465, 10.56532]]
+
+[[connections]]
+km = 45.246
+station = "Börßum"
+lines = [
+  { id = "1901", ref = "1901", name = "1901 Braunschweig Hbf - Bad Harzburg", km = 23.66 },
+  { id = "6425", ref = "6425", name = "6425 Oker–Bad Harzburg", km = 6.046 },
+]
+
+[[connections]]
+km = 79.283
+station = "Neuekrug-Hahausen"
+lines = [
+  { id = "1930", ref = "1930", name = "1930 Neuekrug-Hahausen - Goslar", km = 79.244 },
+]
+
+[[connections]]
+km = 86.092
+station = "Seesen"
+lines = [
+  { id = "1812", ref = "1812", name = "1812 Seesen - Herzberg", km = 86.087 },
+]
+
+[[connections]]
+km = 105.746
+station = "Kreiensen"
+lines = [
+  { id = "1732", ref = "1732", name = "1732 Hannover Bismarckstr - Kassel Hbf", km = 68.805 },
+]
+
+[[connections]]
+km = 150.444
+station = "Holzminden"
+lines = [
+  { id = "2974", ref = "2974", name = "2974 Langeland - Holzminden", km = 48.87 },
+]

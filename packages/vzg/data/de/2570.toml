@@ -1,0 +1,192 @@
+id = "2570"
+ref = "2570"
+name = "2570 Stolberg (Rheinl) Hbf - Herzogenrath"
+operator = "EVS EUREGIO Verkehrsschienennetz GmbH"
+gauge = "1435"
+wikidata = "Q803271"
+from = "Stolberg (Rheinland) Hbf"
+to = "Herzogenrath"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.191
+kmTo = 19.631
+length = 19.657
+speeds = [[-0.191, -0.055, "", ""], [-0.055, 0.34, 60, 60], [0.34, 0.502, "", ""], [0.502, 1.248, 60, 60], [1.248, 1.26, "", 50], [1.26, 1.681, 50, 50], [1.681, 6.512, 80, 80], [6.512, 7.244, "", ""], [7.244, 12.12, 80, 80], [12.12, 12.371, "", 50], [12.371, 12.388, "", ""], [12.388, 12.723, 50, 50], [12.723, 12.842, "", 50], [12.842, 13.59, "", ""], [13.59, 13.917, 60, ""], [13.917, 16.126, "", ""], [16.126, 16.352, 60, 60], [16.352, 16.41, 60, 80], [16.41, 17.606, 80, 80], [17.606, 19.631, "", ""]]
+curves = [[-0.084, -0.009, 1430], [0.041, 0.266, 1360], [0.491, 0.666, 1520], [0.991, 1.204, 670], [1.258, 1.687, 340], [2.051, 2.379, 660], [4.213, 4.491, 2010], [5.61, 6.016, 970], [7.311, 8.09, 990], [8.376, 8.713, 2220], [9.771, 10.075, 1070], [10.816, 11.216, 800], [12.14, 12.468, 1220], [13.148, 13.39, 1730], [13.572, 13.869, 510], [13.918, 14.495, 790], [14.744, 15.167, 450], [16.136, 16.776, 440], [17.104, 17.331, 1780], [17.657, 17.906, 560], [17.956, 18.181, 710], [18.281, 18.981, 320], [19.106, 19.531, 860]]
+points = [
+  { km = -0.044, kind = "signal", label = "09 ZS 43", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = 0.117, kind = "station", label = "Stolberg (Rheinl) Hbf", pos = [50.79433, 6.21885], uic = "8000348" },
+  { km = 0.179, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.18, kind = "signal", label = "09N43", signal = "main,minor,route,speed_limit", dir = 1 },
+  { km = 0.268, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.35, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.437, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.495, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.837, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.841, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.849, kind = "signal", label = "09G", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.083, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.248, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.276, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.323, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.457, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.673, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.681, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.744, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.94, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.982, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.012, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.22, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.489, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.71, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.782, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.688, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.211, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.894, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 5.073, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.159, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.329, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 5.506, kind = "stop", label = "Forschungsflugplatz Würselen-Merzbrück", pos = [50.82386, 6.1927] },
+  { km = 5.754, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.993, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.142, kind = "signal", label = "22A", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 6.577, kind = "signal", label = "22ZR1", signal = "combined,speed_limit", dir = 1 },
+  { km = 6.855, kind = "signal", label = "22P1", signal = "main", dir = -1 },
+  { km = 6.967, kind = "station", label = "Eschweiler-St.Jöris", pos = [50.83513, 6.20193], uic = "8001917" },
+  { km = 7.039, kind = "signal", label = "22N1", signal = "main", dir = 1 },
+  { km = 7.145, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.37, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.454, kind = "signal", label = "F", signal = "combined", dir = -1 },
+  { km = 7.847, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.005, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 8.157, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 8.241, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.724, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.879, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 9.075, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.195, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.38, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.382, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.383, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 9.452, kind = "stop", label = "Alsdorf-Poststraße", uic = "8000510", pos = [50.85554, 6.1972] },
+  { km = 9.506, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.892, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 9.991, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.022, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.245, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.347, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.405, kind = "halt", label = "Alsdorf-Mariadorf", uic = "8000527", pos = [50.86198, 6.18846] },
+  { km = 10.465, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.857, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.9, kind = "halt", label = "Alsdorf Mariagrube", pos = [50.86586, 6.18422] },
+  { km = 10.979, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 11.161, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 11.252, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 11.419, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 11.724, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 11.902, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 11.924, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.926, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.049, kind = "halt", label = "Alsdorf-Kellersberg", uic = "8000521", pos = [50.86748, 6.16736] },
+  { km = 12.109, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 12.12, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.214, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.325, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 12.388, kind = "signal", label = "24A", signal = "main,speed_limit", dir = 1 },
+  { km = 12.523, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.687, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.723, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.811, kind = "signal", signal = "crossing_distant,crossing_hint,crossing_info", dir = -1 },
+  { km = 12.842, kind = "signal", label = "24P2", signal = "main,speed_limit", dir = 1 },
+  { km = 12.845, kind = "signal", signal = "stop", dir = -1 },
+  { km = 12.884, kind = "stop", label = "Alsdorf-Annapark", uic = "8000502", pos = [50.8707, 6.1562] },
+  { km = 13.094, kind = "signal", label = "24ZR2", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 13.317, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 13.59, kind = "signal", label = "24N2", signal = "combined,speed_limit", dir = -1 },
+  { km = 14.02, kind = "signal", signal = "distant", dir = 1 },
+  { km = 14.101, kind = "signal", label = "24F", signal = "main,speed_limit", dir = -1 },
+  { km = 14.135, kind = "signal", label = "2503", signal = "main", dir = 1 },
+  { km = 14.23, kind = "stop", label = "Alsdorf-Busch", uic = "8000507", pos = [50.87656, 6.14071] },
+  { km = 14.27, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 14.449, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 14.489, kind = "signal", label = "2504", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 14.848, kind = "signal", label = "26A", signal = "combined,speed_limit", dir = 1 },
+  { km = 14.901, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.155, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 15.227, kind = "signal", label = "26P1", signal = "main", dir = -1 },
+  { km = 15.419, kind = "signal", label = "26N1", signal = "main", dir = 1 },
+  { km = 15.724, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.794, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 16.017, kind = "signal", label = "26F", signal = "main,speed_limit", dir = -1 },
+  { km = 16.126, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.133, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 16.16, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.165, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 16.245, kind = "stop", label = "Herzogenrath August-Schmidt-Platz", uic = "8002816", pos = [50.88737, 6.11893] },
+  { km = 16.311, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 16.352, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.41, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.425, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 16.857, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 17.015, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 17.216, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 17.578, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 17.615, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 17.64, kind = "stop", label = "Herzogenrath Alt-Merkstein", uic = "8002804", pos = [50.88551, 6.10132] },
+  { km = 17.819, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 17.965, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 18.386, kind = "signal", label = "28 G", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 18.59, kind = "signal", signal = "crossing_distant,crossing_hint,crossing_info,speed_limit", dir = -1 },
+  { km = 18.81, kind = "signal", label = "28N66", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 18.973, kind = "signal", label = "28ZU66", signal = "main", dir = 1 },
+  { km = 19.025, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 19.419, kind = "signal", label = "28ZR55", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 19.592, kind = "station", label = "Herzogenrath", pos = [50.87143, 6.0946], uic = "8002806" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 9.004, kmTo = 9.069, length = 67 },
+  { kind = "bridge", kmFrom = 10.93, kmTo = 10.95, length = 20 },
+  { kind = "bridge", kmFrom = 12.393, kmTo = 12.466, length = 72 },
+  { kind = "bridge", kmFrom = 15.049, kmTo = 15.069, length = 20 },
+  { kind = "bridge", kmFrom = 18.464, kmTo = 18.516, length = 52 },
+  { kind = "bridge", kmFrom = 18.706, kmTo = 18.736, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gxnuHiked@_I_@oJfAeNxI_HvGoDn@qDo@wCeC_BaDqGwV}JwOiDoM" },
+  { line = "qrquHwvfd@mHa^aGsk@?wKvBqL", v = 80 },
+  { line = "i`ruHw|id@dBaEjCiD", v = 60 },
+  { line = "wxquHchjd@bq@uw@fBcDxA_Ft@wFrAod@|@}J~BqMlF_K" },
+  { line = "{nouHu`od@|FeJhBgJ", v = 60 },
+  { line = "scouHcwod@bFg\\nHkZ" },
+  { line = "_snuHwoqd@tKuc@", v = 50 },
+  { line = "ifnuHmtrd@Jk@" },
+  { line = "}enuHyurd@dCeT", v = 50 },
+  { line = "wanuH_ksd@vIgpAdCgPjC_IdQg`@nJ{SjEiH~x@_y@pH}FdRaI~KwB~Kj@dJpD`H|F", v = 80 },
+  { line = "kehuHywzd@va@na@" },
+  { line = "sbguHiuyd@pZbZlJjFnjAdP|hByCnGgE|Su\\", v = 80 },
+  { line = "wh_uHkjyd@nDuHz@_EEmHoAwF", v = 50 },
+  { line = "ad_uHgkzd@cC_KiFwp@", v = 60 },
+  { line = "oo_uH_i|d@eBoL" },
+  { line = "ur_uHov|d@qCoOwDoM", v = 60 },
+  { line = "_}_uHou}d@oByI" },
+]
+posts = [[19, 50.8767, 6.09314], [18, 50.88342, 6.09751], [17, 50.88775, 6.10962], [16, 50.88517, 6.12156], [15, 50.87797, 6.13013], [14, 50.87544, 6.14351], [13, 50.87105, 6.15509], [12, 50.86743, 6.16805], [11, 50.86533, 6.1819], [10, 50.85949, 6.19293], [9, 50.85201, 6.20072], [8, 50.84419, 6.20637], [7, 50.83562, 6.2025], [6, 50.82797, 6.19484], [5, 50.81936, 6.19168], [4, 50.81101, 6.19055], [3, 50.80292, 6.19089], [2, 50.79397, 6.1941], [1, 50.79203, 6.20527], [0, 50.79493, 6.21863]]
+
+[[connections]]
+km = 0.117
+station = "Stolberg Hbf"
+lines = [
+  { id = "2572", ref = "2572", name = "2572 Stolberg (Rheinland) Hbf - Walheim (b Aachen) Grenze", km = 0.024 },
+  { id = "2600", ref = "2600", name = "2600 Köln Hbf - Aachen Süd Grenze", km = 60.395 },
+]
+
+[[connections]]
+km = 19.592
+station = "Herzogenrath"
+lines = [
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 16.145 },
+]

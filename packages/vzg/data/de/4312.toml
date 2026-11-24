@@ -1,0 +1,75 @@
+id = "4312"
+ref = "4312"
+name = "4312 Abzw Gundelfingen - Abzw Leutersberg"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q1562222"
+from = "Gundelfingen"
+to = "Leutersberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.019
+kmTo = 11.178
+length = 11.206
+speeds = [[0.019, 2.12, 100, 100], [2.12, 2.178, "", ""], [2.178, 2.41, 100, 100], [2.41, 2.424, "", ""], [2.424, 6.493, 100, 100], [6.493, 6.529, "", ""], [6.529, 9.8, 100, 100], [9.8, 9.816, "", ""], [9.816, 11.065, 100, 100], [11.065, 11.178, "", ""]]
+curves = [[0.126, 0.201, 1940], [1.073, 1.621, 1480], [9.44, 9.615, 1600], [10.47, 10.663, 1290], [11.028, 11.078, 1590]]
+points = [
+  { km = 0.019, kind = "halt", label = "Gundelfingen (Breisgau)", uic = "8014347", pos = [48.04441, 7.87432] },
+  { km = 0.155, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.303, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.474, kind = "signal", signal = "main", dir = -1 },
+  { km = 2.385, kind = "signal", signal = "catenary_mast,train_protection", dir = -1 },
+  { km = 2.506, kind = "signal", label = "AA", signal = "distant,main", dir = 1 },
+  { km = 4.546, kind = "signal", label = "F", signal = "distant,main", dir = -1 },
+  { km = 6.233, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.225, kind = "signal", label = "76 AA", signal = "distant,form,main", dir = 1 },
+  { km = 7.737, kind = "signal", label = "76P102", signal = "main,minor", dir = -1 },
+  { km = 8.228, kind = "signal", label = "76N102", signal = "main,minor,wrong_road", dir = 1 },
+  { km = 8.286, kind = "signal", label = "76L102Y", signal = "minor", dir = -1 },
+  { km = 8.31, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 8.846, kind = "signal", label = "76 F", signal = "distant,main", dir = -1 },
+  { km = 10.143, kind = "signal", label = "76 204", signal = "catenary_mast,train_protection", dir = -1 },
+  { km = 10.64, kind = "signal", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 11.001, kind = "signal", label = "76 206", signal = "catenary_mast,speed_limit,train_protection", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.944, kmTo = 0.96, length = 16 },
+  { kind = "bridge", kmFrom = 2.12, kmTo = 2.178, length = 59 },
+  { kind = "bridge", kmFrom = 2.41, kmTo = 2.424, length = 14 },
+  { kind = "bridge", kmFrom = 2.543, kmTo = 2.63, length = 87 },
+  { kind = "bridge", kmFrom = 2.999, kmTo = 3.024, length = 25 },
+  { kind = "bridge", kmFrom = 6.286, kmTo = 6.31, length = 24 },
+  { kind = "bridge", kmFrom = 6.398, kmTo = 6.493, length = 95 },
+  { kind = "bridge", kmFrom = 6.51, kmTo = 6.529, length = 19 },
+  { kind = "bridge", kmFrom = 6.603, kmTo = 6.618, length = 15 },
+  { kind = "bridge", kmFrom = 8.346, kmTo = 8.396, length = 63 },
+  { kind = "bridge", kmFrom = 8.808, kmTo = 8.849, length = 41 },
+  { kind = "bridge", kmFrom = 9.193, kmTo = 9.215, length = 21 },
+  { kind = "bridge", kmFrom = 9.398, kmTo = 9.424, length = 25 },
+  { kind = "bridge", kmFrom = 9.65, kmTo = 9.69, length = 40 },
+  { kind = "bridge", kmFrom = 9.8, kmTo = 9.816, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oqwcHw`nn@yCeE" },
+  { line = "ivwcH}fnn@uVi[wYeo@", v = 100 },
+  { line = "whycHmspn@Qc@" },
+  { line = "iiycHqtpn@{K{TcxB_cD", v = 100 },
+  { line = "io}cHmnvn@o@aA" },
+  { line = "yp}cHopvn@eiDmeF", v = 100 },
+  { line = "_{bdH}v}n@SY" },
+  { line = "s{bdHww}n@oHmL", v = 100 },
+  { line = "cecdHee~n@oAgB" },
+  { line = "sgcdHmh~n@uY}b@kJ{Icb@gTi\\gN", v = 100 },
+]
+posts = [[11, 47.96836, 7.77906], [10, 47.97491, 7.78889], [9, 47.98112, 7.79855], [8, 47.98765, 7.80742], [7, 47.99434, 7.81646], [6, 48.00103, 7.82551], [5, 48.00772, 7.83458], [4, 48.01442, 7.84363], [3, 48.02111, 7.8527], [2, 48.02778, 7.86179], [1, 48.03508, 7.86953]]
+
+[[connections]]
+km = 0.019
+station = "Gundelfingen"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 202.663 },
+]

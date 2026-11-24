@@ -1,0 +1,56 @@
+id = "6806"
+ref = "6806"
+name = "Bahnstrecke 6806 Merseburg - Schafstädt"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q802759"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 5.99
+kmTo = 10.714
+length = 5.813
+speeds = [[5.99, 6.196, "", ""], [6.196, 7.241, 20, 20], [7.241, 8.157, 50, 50], [8.157, 8.257, 20, 20], [8.257, 10.108, 50, 50], [10.108, 10.16, 10, 10], [10.16, 10.214, 10, 50], [10.214, 10.714, 50, ""]]
+curves = [[6.092, 6.468, 550], [6.817, 7.715, 1090], [7.902, 8.05, 500], [8.381, 8.64, 710], [9.204, 9.255, 1870], [9.332, 9.483, 1200], [10.28, 10.334, 1780], [10.402, 10.505, 1660]]
+points = [
+  { km = 6.601, kind = "signal", signal = "main", dir = -1 },
+  { km = 6.7, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.923, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.001, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.049, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.118, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 7.159, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 7.241, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.875, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.991, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.085, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 8.151, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.178, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.257, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.195, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 9.725, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.894, kind = "signal", signal = "main", dir = 1 },
+  { km = 10.108, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.111, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.176, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.212, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.427, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 10.494, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 10.582, kind = "station", label = "Bad Lauchstädt", uic = "8023035", pos = [51.3894, 11.87204] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 9.095, kmTo = 9.171, length = 74 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oetxH}x{gAeD`O" },
+  { line = "ujtxH{h{gAo@rI@~HxB`l@zCjZ", v = 20 },
+  { line = "mctxHykxgAlDhOnFpMjd@jp@xCvGbB~Hn@~Ik@d_@", v = 50 },
+  { line = "airxHs}sgAO`H", v = 20 },
+  { line = "qirxHqtsgA_@fP_AzIsVbaAeOpw@", v = 50 },
+  { line = "ktsxHw}ngAo@nD", v = 10 },
+  { line = "{usxHgxngAqJzi@", v = 50 },
+]
+posts = [[6, 51.39052, 11.94386], [7, 51.39082, 11.93007], [8, 51.3807, 11.90996], [9, 51.38329, 11.89232], [10, 51.38733, 11.87964]]

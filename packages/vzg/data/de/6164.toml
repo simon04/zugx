@@ -1,0 +1,29 @@
+id = "6164"
+ref = "6164"
+name = "6164 Berlin Streckenwechsel 6170/6164 - Berlin Streckenwechsel 6164/6142"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131730669"
+from = "Berlin Treptower Park Strw 6170/6164"
+to = "Berlin-Treptow Streckenwechsel 6164/6142"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 14.779
+kmTo = 15.646
+length = 0.877
+speeds = [[14.779, 15.646, 100, 100]]
+curves = [[14.885, 15.282, 460]]
+points = [
+  { km = 15.382, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 15.405, kmTo = 15.423, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{{j_I{zcqAdIRrGcDpCsD`P}Z", v = 100 },
+]
+posts = [[15, 52.48789, 13.45979]]

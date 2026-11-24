@@ -1,0 +1,22 @@
+id = "4062"
+ref = "4062"
+operator = "DB InfraGO"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 77.6
+kmTo = 78
+length = 0.391
+speeds = [[77.6, 78, "", ""]]
+curves = []
+points = [
+  { km = 77.686, kind = "signal", label = "S187", signal = "distant,main,speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kaxlHw_js@rQ|P" },
+]
+posts = [[78, 49.44124, 8.57325]]

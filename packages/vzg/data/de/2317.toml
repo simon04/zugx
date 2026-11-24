@@ -1,0 +1,53 @@
+id = "2317"
+ref = "2317"
+name = "2317 Duisburg-Großenbaum - Abzw Duisburg-Buchholz"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Duisburg-Großenbaum"
+to = "Duisburg-Buchholz Abzw"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.618
+length = 2.618
+speeds = [[0, 2.618, 160, 160]]
+curves = []
+points = [
+  { km = 0.086, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.283, kind = "signal", label = "31 29", signal = "combined", dir = -1 },
+  { km = 0.341, kind = "halt", label = "Duisburg-Buchholz", uic = "8001600", pos = [51.38281, 6.77541] },
+  { km = 0.799, kind = "signal", label = "34 J", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 1.72, kind = "signal", label = "34N3", signal = "combined,minor,speed_limit,wrong_road", dir = -1 },
+  { km = 2.192, kind = "signal", label = "34P3", signal = "combined,speed_limit", dir = 1 },
+  { km = 2.356, kind = "station", label = "Duisburg-Großenbaum", uic = "8001602", pos = [51.36474, 6.77748] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.207, kmTo = 0.243, length = 36 },
+  { kind = "bridge", kmFrom = 1.584, kmTo = 1.602, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uhsxHqgjh@h_BeLjq@iC", v = 160 },
+]
+posts = [[0, 51.38587, 6.77513], [1, 51.37691, 6.7764], [2, 51.36794, 6.77745]]
+
+[[connections]]
+km = 0.341
+station = "Duisburg-Buchholz"
+lines = [
+  { id = "2310", ref = "2310", name = "2310 Duisburg Großenbaum - Duisburg Hbf", km = 2 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 57.829 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 57.856 },
+]
+
+[[connections]]
+km = 2.356
+station = "Duisburg-Großenbaum"
+lines = [
+  { id = "2310", ref = "2310", name = "2310 Duisburg Großenbaum - Duisburg Hbf", km = -0.123 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 55.784 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 55.872 },
+]

@@ -1,0 +1,59 @@
+id = "5350"
+ref = "5350"
+name = "5350 Senden - Weißenhorn"
+operator = "Stadtwerke Ulm/Neu-Ulm GmbH"
+gauge = "1435"
+wikidata = "Q803203"
+from = "Senden"
+to = "Weißenhorn"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.493
+kmTo = 9.778
+length = 10.133
+speeds = [[-0.493, 0.349, 60, 60], [0.349, 1, 100, 60], [1, 8.924, 100, 100], [8.924, 9.258, 50, 100], [9.258, 9.402, 50, 50], [9.402, 9.778, 20, 50]]
+curves = [[-0.21, -0.135, 2270], [0.665, 2.041, 1000], [3.52, 3.62, 2370], [4.216, 5.195, 620], [5.595, 6.698, 970], [8.496, 9.403, 540]]
+points = [
+  { km = -0.13, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.124, kind = "station", label = "Senden", pos = [48.3239, 10.05031], uic = "8005532" },
+  { km = 0.636, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1, kind = "signal", label = "22B", signal = "combined,speed_limit,speed_limit_distant", dir = -1, measured = true },
+  { km = 1.127, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.622, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.1, kind = "halt", label = "Wullenstetten", uic = "8006595", pos = [48.31387, 10.0708], measured = true },
+  { km = 4.1, kind = "halt", label = "Witzighausen", uic = "8006493", pos = [48.31746, 10.09813], measured = true },
+  { km = 7.8, kind = "halt", label = "Weißenhorn-Eschach", uic = "8006305", pos = [48.30102, 10.13494], measured = true },
+  { km = 8.924, kind = "signal", label = "96A", signal = "combined,speed_limit,speed_limit_distant", dir = 1, measured = true },
+  { km = 9.258, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.398, kind = "signal", label = "96 P1", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 9.402, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.564, kind = "station", label = "Weißenhorn", pos = [48.30557, 10.15309], uic = "8006299" },
+  { km = 9.584, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.631, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.639, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 74.61, kind = "signal", label = "22 P3", signal = "main,minor,speed_limit", dir = 1, measured = true },
+  { km = 74.61, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 74.75, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 74.88, kind = "signal", label = "22L 403x", signal = "minor", dir = -1, measured = true },
+  { km = 75.05, kind = "signal", label = "22 N3", signal = "main,minor,speed_limit", dir = -1, measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.799, kmTo = 4.855, length = 55 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "m`zeHod~|@j[hJ", v = 50 },
+  { line = "adyeHey}|@pCtAbClC~CtFxBzIv@rLsQ|_DgCbTgG~QeJtMoLlHqYdHkJfEaElDcD`FgDhMg@fM~Bbt@hS`jC`@bLK`Ls@tKaBlKyBrI{CtHsHzKuQnO", v = 100 },
+  { line = "}p|eH_sj|@iVlRiP~O", v = 60 },
+]
+posts = [[9, 48.30085, 10.14991], [8, 48.30071, 10.13763], [7, 48.3023, 10.12422], [6, 48.30589, 10.11202], [5, 48.31424, 10.10762], [4, 48.31733, 10.09633], [3, 48.31572, 10.08308], [2, 48.31372, 10.06966], [1, 48.31558, 10.05883], [0, 48.32307, 10.05149]]
+
+[[connections]]
+km = -0.124
+station = "Senden"
+lines = [
+  { id = "5400", ref = "5400", name = "5400 Kempten (Allgäu) Hbf - Neu-Ulm", km = 75.022 },
+]

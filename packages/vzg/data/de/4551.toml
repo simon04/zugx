@@ -1,0 +1,51 @@
+id = "4551"
+ref = "4551"
+name = "Räuberbahn (Altshausen - Pfullendorf)"
+operator = "Stadt Pfullendorf"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 23.806
+length = 23.806
+speeds = [[0, 23.806, 50, 50]]
+curves = [[0.5, 0.9, 1020], [1.65, 2.2, 1000], [3.85, 4.575, 750], [5.025, 5.6, 620], [8.275, 8.875, 1100], [10.625, 10.975, 1010], [13.4, 14.225, 600], [16.575, 17.025, 870], [18.375, 18.825, 890], [19.6, 19.9, 2460], [21.625, 22.1, 630], [22.675, 23.3, 860]]
+points = [
+  { km = 0.362, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.383, kind = "station", label = "Altshausen", pos = [47.93064, 9.55144], uic = "8029189" },
+  { km = 9.366, kind = "stop", label = "Hoßkirch-Königseggsee", pos = [47.93373, 9.4375] },
+  { km = 9.737, kind = "signal", signal = "speed_limit_distant,whistle", dir = -1 },
+  { km = 9.825, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.17, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 14.178, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 14.31, kind = "signal", signal = "stop", dir = -1 },
+  { km = 14.344, kind = "station", label = "Ostrach", pos = [47.9465, 9.379] },
+  { km = 18.044, kind = "stop", label = "Burgweiler", pos = [47.9232, 9.34514] },
+  { km = 18.286, kind = "signal", signal = "crossing", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.039, kmTo = 1.065, length = 25 },
+  { kind = "bridge", kmFrom = 1.101, kmTo = 1.115, length = 14 },
+  { kind = "bridge", kmFrom = 1.638, kmTo = 1.674, length = 36 },
+  { kind = "bridge", kmFrom = 10.683, kmTo = 10.699, length = 16 },
+  { kind = "bridge", kmFrom = 13.765, kmTo = 13.797, length = 32 },
+  { kind = "bridge", kmFrom = 22.311, kmTo = 22.332, length = 21 },
+  { kind = "bridge", kmFrom = 22.581, kmTo = 22.617, length = 36 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gkpcH}oiy@u@jm@TrMpOfnAn@vJHxJi@lNkSfiCQ~PhA~MnChLrUxf@pBxF~A~Id@pJkVziF{BfSqExPu`AvvB}DpLmn@~jEq@`HIpHtBbTbC~HlCnE~nBnsBbH~JrEtM`d@fmBjAvJ\\tJ_@|qAqRb|CSvIVpHjAjI|Qjq@zBdMl@dJFtIyAlY", v = 50 },
+  { line = "umncH}nrw@Ej@", tunnel = true, v = 50 },
+  { line = "{mncHqmrw@eB~W", v = 50 },
+]
+posts = [[0, 47.93028, 9.55663], [1, 47.92978, 9.54337], [2, 47.9275, 9.53046], [3, 47.92928, 9.51732], [4, 47.93109, 9.50418], [5, 47.9268, 9.49282], [6, 47.92574, 9.48016], [7, 47.92709, 9.46689], [8, 47.92844, 9.45362], [9, 47.93167, 9.44139], [10, 47.93737, 9.43102], [11, 47.94254, 9.42014], [12, 47.94546, 9.40744], [13, 47.94838, 9.39473], [14, 47.94881, 9.38197], [15, 47.94162, 9.37398], [16, 47.93423, 9.36632], [17, 47.92749, 9.35768], [18, 47.92344, 9.3457], [19, 47.92102, 9.33304], [20, 47.9215, 9.31967], [21, 47.92319, 9.30649], [22, 47.92401, 9.29331], [23, 47.92007, 9.28132]]
+
+[[connections]]
+km = 0.383
+station = "Altshausen"
+lines = [
+  { id = "4550", ref = "4550", name = "4550 Herbertingen - Isny", km = 19.462 },
+]

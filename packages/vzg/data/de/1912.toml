@@ -1,0 +1,64 @@
+id = "1912"
+ref = "1912"
+name = "1912 Braunschweig Rbf - Abzw Braunschweig Okerbrücke"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Braunschweig Rbf"
+to = "Braunschweig Okerbrücke"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.292
+kmTo = 6.188
+length = 5.901
+speeds = [[0.292, 1.513, "", ""], [1.513, 2.806, 60, 60], [2.806, 2.815, 100, 100], [2.815, 4.121, "", ""], [4.121, 4.516, "", 80], [4.516, 4.658, "", ""], [4.658, 6.188, 100, 100]]
+curves = [[0.392, 0.442, 1110], [1.092, 1.317, 850], [1.392, 2.567, 460], [3.117, 3.767, 1460], [3.967, 4.192, 1270], [4.417, 4.542, 1830], [4.617, 4.692, 2000], [5.188, 5.244, 2340], [5.328, 5.361, 2100], [5.451, 6.086, 920]]
+points = [
+  { km = 0.891, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.16, kind = "signal", label = "W182", signal = "main", dir = 1 },
+  { km = 1.34, kind = "signal", label = "W390", signal = "minor", dir = -1 },
+  { km = 1.414, kind = "signal", label = "201", signal = "minor", dir = 1 },
+  { km = 1.489, kind = "signal", label = "1", signal = "minor", dir = -1 },
+  { km = 1.513, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.628, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.728, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.618, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.86, kind = "signal", label = "30 F", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 4.516, kind = "signal", label = "30N81", signal = "combined,minor,speed_limit,traversable", dir = -1 },
+  { km = 4.658, kind = "signal", label = "30VWn81", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.823, kind = "station", label = "Braunschweig Hauptbahnhof", uic = "8013240", pos = [52.25214, 10.54034] },
+  { km = 5.024, kind = "signal", label = "30P81", signal = "combined,minor,speed_limit", dir = 1 },
+  { km = 5.119, kind = "signal", label = "30L281X", signal = "minor", dir = -1 },
+  { km = 5.425, kind = "signal", label = "30L281Y", signal = "minor", dir = 1 },
+  { km = 5.611, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.753, kind = "signal", label = "30 C", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 5.875, kind = "signal", label = "29 30", signal = "main,traversable", dir = 1 },
+  { km = 5.932, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.08, kmTo = 4.111, length = 32 },
+  { kind = "bridge", kmFrom = 5.888, kmTo = 5.921, length = 33 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "k_|}Hqwl_AeM}kAoAgFyGgQ" },
+  { line = "{x|}H_~o_A{FcIsGuDgFYoFfCyDxGiBrIUzIZbY", v = 60 },
+  { line = "aa~}H}qn_A?X", v = 100 },
+  { line = "aa~}Hcqn_A|@|e@jBxVbDzPtK`]" },
+  { line = "}i}}Hmbk_AxNlX", v = 80 },
+  { line = "cz|}H_ij_AdEdG" },
+  { line = "}s|}Hy`j_ApSn^jQ|^zExT~A|X", v = 100 },
+]
+posts = [[1, 52.2515, 10.56619], [2, 52.25765, 10.57527], [3, 52.26006, 10.56275], [4, 52.25715, 10.54914], [5, 52.25086, 10.53918], [6, 52.24538, 10.52731]]
+
+[[connections]]
+km = 4.823
+station = "Braunschweig Hauptbahnhof"
+lines = [
+  { id = "1730", ref = "1730", name = "1730 Hannover - Braunschweig", km = 60.985 },
+  { id = "1900", ref = "1900", name = "1900 Braunschweig - Helmstedt", km = 3.359 },
+  { id = "1901", ref = "1901", name = "1901 Braunschweig Hbf - Bad Harzburg", km = 0.042 },
+  { id = "1902", ref = "1902", name = "1902 Braunschweig Hbf - Gifhorn", km = 3.387 },
+]

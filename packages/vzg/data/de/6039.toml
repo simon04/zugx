@@ -1,0 +1,47 @@
+id = "6039"
+ref = "6039"
+name = "6039 Berlin-Lichterfelde Süd - Teltow Stadt"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q801943"
+from = "Berlin-Lichterfelde Süd"
+to = "Teltow Stadt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.825
+length = 2.825
+speeds = [[0, 0.176, 40, 40], [0.176, 0.759, 60, 40], [0.759, 0.798, 100, 40], [0.798, 2.825, 100, 100]]
+curves = [[1.5, 1.55, 2450], [1.75, 2.5, 700]]
+points = [
+  { km = 0.082, kind = "station", label = "Teltow Stadt", pos = [52.39684, 13.27625], uic = "8039837" },
+  { km = 0.176, kind = "signal", label = "2256", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 0.759, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.798, kind = "signal", label = "2253", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 1.289, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.492, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.722, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.897, kind = "signal", label = "2252", signal = "combined,traversable", dir = 1 },
+  { km = 2.825, kind = "station", label = "Lichterfelde Süd", uic = "8089472", pos = [52.40997, 13.30855] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.108, kmTo = 2.141, length = 33 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wux~Hky_pA_BoN", v = 40 },
+  { line = "wxx~H{h`pAyHer@", v = 60 },
+  { line = "qby~Ha|apAePe{A_DsNuDgHmG{FkZyL", v = 100 },
+]
+posts = [[0, 52.3966, 13.27526], [1, 52.39931, 13.28931], [2, 52.40221, 13.3032]]
+
+[[connections]]
+km = 2.825
+station = "Lichterfelde Süd"
+lines = [
+  { id = "6036", ref = "6036", name = "6036 Priesterweg - Lichterfelde Süd", km = 11.821 },
+  { id = "6132", ref = "6132", name = "6132 Berlin - Halle (Saale) Hbf", km = 11.726 },
+]

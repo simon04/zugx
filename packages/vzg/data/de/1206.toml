@@ -1,0 +1,119 @@
+id = "1206"
+ref = "1206"
+name = "1206 Heide - Büsum"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q802420"
+from = "Heide"
+to = "Büsum"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.116
+kmTo = 23.915
+length = 23.97
+speeds = [[-0.116, -0.076, 60, 60], [-0.076, 0.297, 50, 50], [0.297, 3.213, 60, 60], [3.213, 3.539, 50, 60], [3.539, 3.553, 80, 60], [3.553, 7.646, 80, 80], [7.646, 7.697, 70, 80], [7.697, 8.023, 70, 70], [8.023, 13.609, 80, 80], [13.609, 15.918, 60, 60], [15.918, 23.4, 80, 80], [23.4, 23.651, 30, 30], [23.651, 23.915, "", ""]]
+curves = [[0.129, 0.179, 2530], [0.229, 0.304, 2560], [2.255, 2.38, 1420], [2.43, 2.93, 440], [3.053, 3.54, 450], [4.473, 4.72, 890], [5.13, 5.306, 1100], [5.91, 6.036, 1820], [7.647, 8.025, 820], [11.976, 12.102, 1260], [13.059, 13.26, 880], [13.462, 13.562, 1280], [13.663, 13.814, 1380], [13.915, 14.214, 590], [14.313, 14.413, 1820], [15.382, 15.88, 500], [16.277, 16.377, 1900], [16.948, 17.321, 620], [17.595, 17.754, 1280], [17.909, 18.108, 1410], [18.409, 18.609, 910], [19.234, 19.384, 1390], [20.359, 20.484, 1410], [21.753, 22.001, 630], [23.113, 23.439, 690], [23.639, 23.815, 610]]
+points = [
+  { km = -0.116, kind = "station", label = "Heide (Holstein)", pos = [54.19278, 9.10111], uic = "8000155" },
+  { km = -0.076, kind = "signal", label = "55 N4", signal = "main,speed_limit", dir = 1 },
+  { km = 0.277, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.297, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.474, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.474, kind = "signal", label = "55 G", signal = "combined,speed_limit", dir = -1 },
+  { km = 0.715, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.767, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.065, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.112, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.195, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.197, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.5, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.069, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.213, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.215, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.539, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.553, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.817, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 3.863, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.88, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.208, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.369, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.78, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 6.784, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.3, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.646, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.697, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.023, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.024, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.027, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 8.167, kind = "halt", label = "Tiebensee", pos = [54.21945, 9.01921] },
+  { km = 8.722, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 8.74, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 9.829, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.549, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 11.239, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 11.254, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 11.488, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 11.931, kind = "halt", label = "Jarrenwisch", pos = [54.2121, 8.96311] },
+  { km = 11.948, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 12.666, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.909, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 12.922, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 13.351, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.609, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.002, kind = "halt", label = "Wesselburen", pos = [54.20719, 8.93281] },
+  { km = 14.028, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.8, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 15.491, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 15.544, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 15.707, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 15.713, kind = "halt", label = "Süderdeich", pos = [54.19842, 8.9114] },
+  { km = 15.918, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.55, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 16.98, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 17.711, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 17.721, kind = "halt", label = "Reinsbüttel", pos = [54.18112, 8.90653] },
+  { km = 18.004, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 20.334, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 20.375, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 21.066, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 22.402, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 22.6, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 22.72, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 23.279, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 23.315, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 23.4, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 23.643, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 23.743, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 23.816, kind = "station", label = "Büsum", uic = "8001259", pos = [54.13402, 8.86754] },
+  { km = 23.884, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.258, kmTo = 5.27, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_}kiIcvbu@eEiKiA_G" },
+  { line = "oeliImjcu@kDgU", v = 30 },
+  { line = "{jliIu`du@qAiGcD{Hir@mfAcF_FikAm`@s}@cM{f@yRsCiBsQaR{QoXgQiSyE_DoFw@_d@ScWbA", v = 80 },
+  { line = "sgxiIcnku@eFLoE_B_DaEaDaIu^ysAaH{T}@mIcBcc@", v = 60 },
+  { line = "emziIazpu@cCak@gUucBaRihCs\\miF", v = 80 },
+  { line = "gx|iIq~`v@gAu]", v = 70 },
+  { line = "oz|iIg}av@{^g{CiHkeAMay@jNk`B", v = 80 },
+  { line = "wt}iIi{mv@dBkLxCiEtHoBpOAnDqB`C{C", v = 60 },
+  { line = "}h|iI_{nv@`AmA", tunnel = true, v = 60 },
+  { line = "{f|iIm}nv@pD}BfJaArkB_g@", v = 60 },
+  { line = "mixiImkpv@rScE", v = 50 },
+  { line = "ytwiIqqpv@fAS", v = 60 },
+]
+posts = [[23, 54.13801, 8.87771], [22, 54.14491, 8.88731], [21, 54.1535, 8.89195], [20, 54.16231, 8.89483], [19, 54.17114, 8.8976], [18, 54.17927, 8.90384], [17, 54.1868, 8.91146], [16, 54.19584, 8.91129], [15, 54.20245, 8.91974], [14, 54.20719, 8.93283], [13, 54.20881, 8.9478], [12, 54.21196, 8.96209], [11, 54.21402, 8.97695], [10, 54.21598, 8.99185], [9, 54.21787, 9.00678], [8, 54.21977, 9.02171], [7, 54.22214, 9.03633], [6, 54.22508, 9.05076], [5, 54.22673, 9.06572], [4, 54.22541, 9.08039], [3, 54.22039, 9.0911], [2, 54.21183, 9.0947], [1, 54.20305, 9.09791], [0, 54.19425, 9.10105]]
+
+[[connections]]
+km = -0.116
+station = "Heide"
+lines = [
+  { id = "1042", ref = "1042", name = "1042 Neumünster - Heide", km = 62.235 },
+  { id = "1210", ref = "1210", name = "1210 Elmshorn, W 104 - Westerland (Sylt)", km = 124.338 },
+]

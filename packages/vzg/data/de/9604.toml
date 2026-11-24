@@ -1,0 +1,116 @@
+id = "9604"
+ref = "9604"
+name = "9604 Köln-Niehl Hafen - Benzelrath"
+operator = "HGK"
+gauge = "1435"
+from = "Köln-Niehl Hafen"
+to = "Benzelrath"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.687
+kmTo = 21.125
+length = 20.388
+speeds = [[0.687, 11.868, "", ""], [11.868, 13.107, 20, 20], [13.107, 21.125, "", ""]]
+curves = [[0.812, 0.962, 770], [1.112, 1.412, 540], [1.562, 1.662, 2200], [1.762, 1.962, 1150], [2.189, 2.24, 1840], [2.341, 2.442, 1220], [2.846, 3.199, 460], [4.033, 4.109, 1950], [4.185, 4.285, 1600], [4.611, 4.963, 520], [5.364, 5.439, 2340], [5.615, 6.092, 500], [8.521, 8.898, 1170], [8.949, 9.049, 780], [9.1, 9.226, 940], [9.326, 9.452, 1600], [9.981, 10.584, 1200], [10.634, 10.908, 420], [10.983, 11.058, 1900], [11.207, 11.402, 580], [11.551, 11.671, 1630], [11.742, 11.818, 2500], [11.916, 12.128, 540], [12.303, 12.502, 470], [12.923, 12.971, 2320], [13.133, 13.35, 850], [13.575, 14.083, 500], [15.109, 15.364, 2070], [18.462, 19.062, 680], [19.112, 19.662, 330], [19.837, 20.312, 370], [20.362, 20.462, 970], [20.512, 20.587, 1850], [20.687, 20.862, 1160], [20.937, 21.012, 910]]
+points = [
+  { km = 10.501, kind = "halt", label = "Köln-Müngersdorf/Technologiepark", uic = "8003375", pos = [50.94842, 6.88843] },
+  { km = 11.289, kind = "signal", label = "D301", signal = "main,traversable", dir = 1 },
+  { km = 11.405, kind = "signal", label = "D302", signal = "main,traversable", dir = -1 },
+  { km = 11.526, kind = "signal", label = "d303", signal = "distant", dir = 1 },
+  { km = 11.651, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 11.714, kind = "signal", label = "d302", signal = "distant", dir = -1 },
+  { km = 11.868, kind = "signal", label = "D303", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 11.95, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 12.024, kind = "signal", label = "D304", signal = "main,traversable", dir = -1 },
+  { km = 12.049, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 12.208, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 12.238, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 12.258, kind = "signal", label = "d304", signal = "distant", dir = -1 },
+  { km = 12.306, kind = "signal", signal = "ring", dir = 1 },
+  { km = 12.374, kind = "signal", signal = "ring", dir = 1 },
+  { km = 12.429, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.436, kind = "signal", signal = "ring", dir = 1 },
+  { km = 12.446, kind = "signal", signal = "ring", dir = -1 },
+  { km = 12.521, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 12.527, kind = "signal", signal = "ring", dir = -1 },
+  { km = 12.627, kind = "signal", signal = "ring", dir = -1 },
+  { km = 12.745, kind = "signal", signal = "ring", dir = 1 },
+  { km = 12.893, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.926, kind = "signal", signal = "ring", dir = -1 },
+  { km = 12.968, kind = "signal", signal = "ring", dir = 1 },
+  { km = 13.029, kind = "signal", label = "193", signal = "distant", dir = 1 },
+  { km = 13.107, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.167, kind = "signal", signal = "ring", dir = -1 },
+  { km = 13.298, kind = "signal", label = "193", signal = "main,traversable", dir = 1 },
+  { km = 13.331, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 13.333, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 13.369, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 13.417, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 13.475, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 13.664, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 13.76, kind = "signal", label = "195", signal = "main,traversable", dir = -1 },
+  { km = 13.907, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 13.91, kind = "signal", label = "195 II", signal = "distant", dir = -1 },
+  { km = 13.976, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 14.167, kind = "signal", label = "195", signal = "distant", dir = -1 },
+  { km = 14.508, kind = "signal", signal = "stop,whistle", dir = -1 },
+  { km = 14.554, kind = "station", label = "Stüttgenhof", pos = [50.92007, 6.87715] },
+  { km = 14.569, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.593, kind = "signal", label = "123", signal = "distant", dir = 1 },
+  { km = 14.652, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 14.987, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 15.074, kind = "signal", signal = "crossing_distant,crossing_hint,speed_limit_distant", dir = 1 },
+  { km = 15.263, kind = "signal", signal = "main", dir = -1 },
+  { km = 15.976, kind = "station", label = "Marsdorf", pos = [50.91749, 6.85818] },
+  { km = 16.587, kind = "station", label = "Haus Vorst", pos = [50.91571, 6.84859] },
+  { km = 18.932, kind = "station", label = "Frechen Kirche", pos = [50.91008, 6.81587] },
+  { km = 20.161, kind = "station", label = "Frechen Mühlengasse", pos = [50.90824, 6.80194] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.703, kmTo = 0.715, length = 12 },
+  { kind = "bridge", kmFrom = 1.414, kmTo = 1.492, length = 78 },
+  { kind = "tunnel", kmFrom = 5.458, kmTo = 5.667, length = 208 },
+  { kind = "bridge", kmFrom = 5.95, kmTo = 5.983, length = 33 },
+  { kind = "bridge", kmFrom = 6.092, kmTo = 6.127, length = 35 },
+  { kind = "bridge", kmFrom = 6.279, kmTo = 6.321, length = 42 },
+  { kind = "bridge", kmFrom = 8.907, kmTo = 8.938, length = 31 },
+  { kind = "bridge", kmFrom = 9.19, kmTo = 9.215, length = 24 },
+  { kind = "tunnel", kmFrom = 10.5, kmTo = 10.56, length = 60 },
+  { kind = "tunnel", kmFrom = 11.72, kmTo = 11.894, length = 152 },
+  { kind = "tunnel", kmFrom = 15.422, kmTo = 15.476, length = 53 },
+  { kind = "bridge", kmFrom = 17.476, kmTo = 17.521, length = 45 },
+  { kind = "bridge", kmFrom = 18.051, kmTo = 18.086, length = 33 },
+  { kind = "bridge", kmFrom = 19.282, kmTo = 19.303, length = 21 },
+  { kind = "bridge", kmFrom = 19.48, kmTo = 19.507, length = 26 },
+  { kind = "bridge", kmFrom = 19.682, kmTo = 19.709, length = 27 },
+  { kind = "bridge", kmFrom = 19.965, kmTo = 19.978, length = 13 },
+  { kind = "bridge", kmFrom = 20.503, kmTo = 20.524, length = 21 },
+  { kind = "bridge", kmFrom = 20.529, kmTo = 20.589, length = 60 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_icvHidqi@eGfIwNhKqD|EeQzk@_Pt`@}Qj_@iCtK_@~FyAfaBAhg@nBdMtQng@" },
+  { line = "snevH}afi@lElN", tunnel = true },
+  { line = "ehevHorei@|CxRvCnG`g@fg@pr@zu@r]d[j[rLnL~Ahg@v@dMsBdE_D" },
+  { line = "u}}uHcq`i@hA{B", tunnel = true },
+  { line = "k{}uH_u`i@tCeIzCwDpWgJxD[nS|A" },
+  { line = "}~{uHcnai@hFfA", tunnel = true },
+  { line = "sw{uH{kai@^L", tunnel = true, v = 20 },
+  { line = "sv{uHmkai@zGt@hSuF~d@bK", v = 20 },
+  { line = "msyuHieai@bIrDzNjNrD`G`CbIfAbKvGxaBjBzT" },
+  { line = "kaxuHiy{h@XpC", tunnel = true },
+  { line = "q`xuHwt{h@da@ruDfLroApCxMfD~HxC|DrKnIlBxDdAnFB|LwEb^DvHl@lFhAfEjG~KlKzU`FvQjCxD" },
+]
+posts = [[1, 50.97865, 6.97183], [2, 50.98447, 6.9614], [3, 50.99019, 6.95061], [4, 50.99081, 6.93657], [5, 50.98989, 6.92285], [6, 50.98513, 6.91092], [7, 50.9776, 6.90321], [8, 50.97012, 6.89527], [9, 50.96205, 6.88939], [10, 50.95323, 6.88788], [11, 50.94536, 6.89319], [12, 50.93659, 6.89323], [13, 50.92763, 6.89287], [14, 50.9208, 6.885], [15, 50.91953, 6.87076], [16, 50.91732, 6.85716], [17, 50.91467, 6.84303], [18, 50.91228, 6.82956], [19, 50.90861, 6.81715], [20, 50.90689, 6.80552], [21, 50.90188, 6.794]]
+
+[[connections]]
+km = 10.501
+station = "Köln-Müngersdorf/Technologiepark"
+lines = [
+  { id = "2600", ref = "2600", name = "2600 Köln Hbf - Aachen Süd Grenze", km = 5.82 },
+  { id = "2613", ref = "2613", name = "2613 Köln West - Köln-Ehrenfeld", km = 5.825 },
+  { id = "2622", ref = "2622", name = "2622 Köln Hbf - Düren", km = 5.845 },
+]

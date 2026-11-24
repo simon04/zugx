@@ -1,0 +1,111 @@
+id = "2841"
+ref = "2841"
+name = "2841 Iserlohn - Schwerte (Ruhr)"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Iserlohn"
+to = "Schwerte (Ruhr)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.007
+kmTo = 19.685
+length = 19.678
+speeds = [[-0.007, 0.286, 30, 30], [0.286, 1.148, "", ""], [1.148, 2.851, 80, 80], [2.851, 6.018, 90, 90], [6.018, 9.602, 100, 100], [9.602, 10, 70, 70], [10, 17.198, 100, 100], [17.198, 18.35, 80, 80], [18.35, 19.685, "", ""]]
+curves = [[0.096, 0.271, 640], [0.771, 1.171, 360], [1.696, 2.146, 450], [2.496, 2.771, 520], [2.896, 3.096, 970], [3.196, 3.846, 500], [4.321, 4.496, 1350], [5.171, 5.421, 810], [5.671, 5.921, 790], [8.075, 8.326, 830], [8.8, 8.925, 2260], [9.601, 9.952, 490], [10.58, 10.73, 2290], [11.258, 11.785, 940], [13.235, 13.535, 1050], [14.06, 14.46, 1040], [15.31, 15.535, 890], [17.16, 17.985, 330], [18.035, 18.085, 2440], [18.81, 19.11, 920], [19.235, 19.385, 1320], [19.535, 19.585, 2010]]
+points = [
+  { km = 0.039, kind = "stop", label = "Iserlohn", pos = [51.37329, 7.69136], uic = "8000186" },
+  { km = 0.296, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.209, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.246, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 2.244, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.815, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.921, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.919, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.272, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 4.468, kind = "stop", label = "Iserlohnerheide", pos = [51.39994, 7.69209], uic = "8003090" },
+  { km = 4.654, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 5.995, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.001, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.462, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.683, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 7.16, kind = "signal", label = "10 A", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 7.454, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 7.71, kind = "signal", label = "10 P1", signal = "main,traversable", dir = -1 },
+  { km = 7.727, kind = "station", label = "Kalthof (Kr Iserlohn)", pos = [51.42531, 7.67206], uic = "8003166" },
+  { km = 7.864, kind = "signal", label = "10 N1", signal = "main,traversable", dir = 1 },
+  { km = 8.403, kind = "signal", label = "10 F", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 8.88, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.094, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 9.634, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.635, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.715, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 9.933, kind = "stop", label = "Hennen", pos = [51.43716, 7.6475], uic = "8002754" },
+  { km = 9.997, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.998, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.168, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 10.653, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 15.171, kind = "stop", label = "Schwerte-Ergste", pos = [51.42469, 7.57743], uic = "8001836" },
+  { km = 15.369, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 16.113, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 17.002, kind = "signal", signal = "distant", dir = 1 },
+  { km = 17.111, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.122, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.782, kind = "signal", signal = "distant", dir = 1 },
+  { km = 17.849, kind = "signal", signal = "distant", dir = 1 },
+  { km = 17.894, kind = "signal", signal = "distant", dir = 1 },
+  { km = 18.086, kind = "signal", label = "58 B", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 18.266, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 18.739, kind = "signal", label = "58 P21", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 18.808, kind = "signal", signal = "minor", dir = -1 },
+  { km = 18.809, kind = "signal", label = "58 ZR21", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 19.108, kind = "signal", signal = "minor", dir = 1 },
+  { km = 19.55, kind = "signal", label = "58 ZU6", signal = "combined,minor,route,speed_limit,traversable", dir = -1 },
+  { km = 19.685, kind = "station", label = "Schwerte (Ruhr)", pos = [51.44259, 7.55921], uic = "8000037" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.57, kmTo = 0.589, length = 19 },
+  { kind = "bridge", kmFrom = 0.904, kmTo = 0.945, length = 41 },
+  { kind = "tunnel", kmFrom = 2.38, kmTo = 2.457, length = 77 },
+  { kind = "bridge", kmFrom = 2.901, kmTo = 2.917, length = 16 },
+  { kind = "bridge", kmFrom = 6.266, kmTo = 6.277, length = 11 },
+  { kind = "bridge", kmFrom = 7.597, kmTo = 7.614, length = 17 },
+  { kind = "bridge", kmFrom = 11.109, kmTo = 11.132, length = 23 },
+  { kind = "bridge", kmFrom = 13.09, kmTo = 13.116, length = 25 },
+  { kind = "bridge", kmFrom = 13.501, kmTo = 13.523, length = 21 },
+  { kind = "bridge", kmFrom = 14.688, kmTo = 14.708, length = 21 },
+  { kind = "bridge", kmFrom = 15.317, kmTo = 15.339, length = 22 },
+  { kind = "bridge", kmFrom = 15.833, kmTo = 15.945, length = 112, name = "Ruhrflutbrücke" },
+  { kind = "bridge", kmFrom = 16.318, kmTo = 16.519, length = 201, name = "Eisenbahnbrücke Wandhofen" },
+  { kind = "tunnel", kmFrom = 17.316, kmTo = 17.404, length = 89 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wi~xHaicm@tSrI`OpJlF`HbR`\\" },
+  { line = "mj|xHwlam@lP|ZvDbDlDf@`Dk@rCyBdCwE", v = 80 },
+  { line = "}_{xHkv`m@jAaF", tunnel = true, v = 80 },
+  { line = "q}zxHm}`m@d@kI", v = 80 },
+  { line = "k|zxHygam@~B{wCOyJgDc`@iJwx@mDwMyUol@eCqIkc@ojCw@iMCoKjD}}@t@qy@", v = 100 },
+  { line = "ai}xH_ntm@r@mQnDqM", v = 70 },
+  { line = "}a}xH_oum@|W}n@vRan@`CwFj}AcwB", v = 100 },
+  { line = "yrxxH{m|m@~JwLfQaJzFeB`n@c@d`@zGlIbEdC~C~BdFjBbI~BrVbChM", v = 90 },
+  { line = "i~sxHw_{m@tDpNvGhI", v = 80 },
+  { line = "{osxH{ezm@tBpB", tunnel = true, v = 80 },
+  { line = "elsxHibzm@pN`MvCbA~DJ`FaBv\\aV", v = 80 },
+  { line = "amqxH{kzm@tDaE~BcI~C}t@" },
+  { line = "k~pxH_r|m@l@mJfC_L", v = 30 },
+]
+posts = [[19, 51.4366, 7.55528], [18, 51.43, 7.54552], [17, 51.42478, 7.55114], [16, 51.4244, 7.56555], [15, 51.42511, 7.5798], [14, 51.42853, 7.59298], [13, 51.43336, 7.60502], [12, 51.43684, 7.61832], [11, 51.43782, 7.63225], [10, 51.43713, 7.64656], [9, 51.43252, 7.65847], [8, 51.42706, 7.66978], [7, 51.42, 7.6787], [6, 51.41297, 7.68766], [5, 51.40463, 7.69209], [4, 51.39569, 7.69117], [3, 51.38991, 7.68204], [2, 51.38341, 7.67289], [1, 51.37526, 7.67819], [0, 51.3731, 7.69198]]
+
+[[connections]]
+km = 19.685
+station = "Schwerte"
+lines = [
+  { id = "2113", ref = "2113", name = "2113 Dortmund-Hörde - Schwerte (Ruhr)", km = 10.247 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 155.665 },
+  { id = "2840", ref = "2840", name = "2840 Schwerte (Ruhr) - Holzwickede", km = 155.634 },
+  { id = "2843", ref = "2843", name = "2843 Abzw Hohensyburg - Schwerte (Ruhr) Ost", km = 155.665 },
+  { id = "2850", ref = "2850", name = "2850 Letmathe - Fröndenberg", km = -14.723 },
+]

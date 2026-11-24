@@ -1,0 +1,28 @@
+id = "1263"
+ref = "1263"
+name = "Stade - Bützfleth"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q23301342"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.808
+length = 2.808
+speeds = [[0, 2.808, "", ""]]
+curves = [[0.1, 0.15, 830], [0.325, 0.475, 1550], [0.85, 1, 1100], [1.725, 2.15, 490], [2.3, 2.6, 710]]
+points = [
+  { km = 2.754, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.788, kind = "signal", signal = "electricity", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.494, kmTo = 0.504, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qkffIgf_y@lB`GrJrRlQng@ld@bw@pDtBdEx@dQsCvG}DxJ_N" },
+]
+posts = [[0, 53.61353, 9.50388], [1, 53.60776, 9.49231], [2, 53.60073, 9.48319]]

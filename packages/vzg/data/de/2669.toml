@@ -1,0 +1,50 @@
+id = "2669"
+ref = "2669"
+name = "2669 Köln-Kalk Nord - Köln-Mülheim"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Köln-Kalk Nord"
+to = "Köln-Mülheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.662
+length = 2.662
+speeds = [[0, 2.662, "", ""]]
+curves = [[0.3, 0.425, 1520], [0.65, 1, 580], [1.05, 1.175, 690], [1.55, 1.975, 770], [2.15, 2.55, 310]]
+points = [
+  { km = 0.389, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.905, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.08, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.673, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.741, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.821, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.968, kind = "signal", label = "15 I", signal = "minor", dir = -1 },
+  { km = 2.239, kind = "signal", label = "Q 015", signal = "main", dir = 1 },
+  { km = 2.662, kind = "halt", label = "Köln-Buchforst", uic = "8003364", pos = [50.95353, 7.0043] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.109, kmTo = 0.126, length = 17 },
+  { kind = "bridge", kmFrom = 0.812, kmTo = 0.827, length = 15 },
+  { kind = "bridge", kmFrom = 2.253, kmTo = 2.268, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}wzuHojyi@kSlFcRtBeJEyK`FsXrDyNQuNrEeDvC_B|Ek@dHApM" },
+]
+posts = [[0, 50.93263, 7.01624], [1, 50.94146, 7.01409], [2, 50.95029, 7.0122]]
+
+[[connections]]
+km = 2.662
+station = "Köln-Buchforst"
+lines = [
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 3.026 },
+  { id = "2652", ref = "2652", name = "2652 Köln-Deutz - Köln Neurather Ring Strw 2652/2659/2730", km = 2.993 },
+  { id = "2658", ref = "2658", name = "2658 Köln Messe/Deutz - Abzw Köln Bruder Klaus-Siedlung", km = 42.749 },
+  { id = "2659", ref = "2659", name = "2659 Köln Messe/Deutz - Köln Neurather Ring Strw 2652/2659/2730", km = 42.742 },
+  { id = "2660", ref = "2660", name = "2660 Köln-Mülheim - Köln-Kalk", km = 0.773 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 4.132 },
+]

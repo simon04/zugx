@@ -1,0 +1,149 @@
+id = "4633"
+ref = "4633"
+name = "4633 Tübingen Hbf - Herrenberg"
+operator = "DB Netz AG;Zweckverband ÖPNV im Ammertal"
+gauge = "1435"
+wikidata = "Q473234"
+from = "Tübingen Hbf"
+to = "Herrenberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.119
+kmTo = 21.207
+length = 21.036
+speeds = [[0.119, 0.333, "", ""], [0.333, 0.378, 60, 60], [0.378, 0.677, 50, 50], [0.677, 1.783, 70, 70], [1.783, 2.789, 90, 90], [2.789, 4.1, 100, 100], [4.1, 4.29, 80, 80], [4.29, 4.46, 100, 100], [4.46, 5.828, "", ""], [5.828, 7.744, 70, 70], [7.744, 9.348, 90, 90], [9.348, 10.226, 70, 70], [10.226, 10.443, "", ""], [10.443, 14.021, 100, 100], [14.021, 14.807, 80, 80], [14.807, 17.099, 100, 100], [17.099, 17.764, 70, 70], [17.764, 18.747, 80, 80], [18.747, 19.242, 70, 70], [19.242, 20.474, 80, 80], [20.474, 20.623, 70, 70], [20.623, 20.903, 30, 70], [20.903, 21.054, 70, 70], [21.054, 21.207, 30, 70]]
+curves = [[0.22, 0.323, 1110], [0.375, 0.78, 260], [1.041, 1.376, 290], [1.777, 1.999, 1060], [2.218, 2.513, 570], [2.623, 2.867, 530], [3.124, 3.382, 1100], [4.107, 4.326, 670], [4.71, 5.069, 940], [5.362, 5.575, 1110], [5.996, 6.087, 820], [6.135, 6.389, 580], [7.115, 7.282, 1420], [7.841, 8.433, 400], [8.631, 9.001, 730], [9.562, 9.791, 810], [10.07, 10.471, 590], [10.997, 11.247, 1380], [11.748, 12.474, 810], [12.975, 13.375, 640], [13.993, 14.3, 670], [14.572, 14.924, 750], [15.432, 16.267, 1010], [16.428, 16.727, 1000], [17.163, 17.652, 410], [17.726, 18.393, 310], [18.764, 19.311, 310], [19.611, 20.735, 420], [20.916, 21.021, 1450]]
+points = [
+  { km = 0.119, kind = "station", label = "Tübingen Hbf", pos = [48.51573, 9.05573] },
+  { km = 0.285, kind = "signal", label = "N 13", signal = "main", dir = 1 },
+  { km = 0.363, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.373, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.375, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.414, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.458, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.512, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.677, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.704, kind = "signal", label = "H", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 0.849, kind = "signal", label = "Vw10a", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.225, kind = "signal", label = "10A", signal = "combined", dir = 1 },
+  { km = 1.378, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.402, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.526, kind = "signal", label = "P12", signal = "main,speed_limit", dir = -1 },
+  { km = 1.582, kind = "station", label = "Tübingen West", pos = [48.52004, 9.0382] },
+  { km = 1.647, kind = "signal", label = "N12", signal = "main,speed_limit", dir = 1 },
+  { km = 1.783, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.219, kind = "signal", label = "10F", signal = "combined,speed_limit", dir = -1 },
+  { km = 2.789, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.79, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.613, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.29, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.988, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 5.292, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.316, kind = "signal", label = "15B3", signal = "combined,traversable", dir = -1 },
+  { km = 5.367, kind = "stop", label = "Unterjesingen Sandäcker", pos = [48.5233, 8.98801] },
+  { km = 5.486, kind = "signal", label = "15B10", signal = "main,traversable", dir = 1 },
+  { km = 5.492, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 5.511, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 5.951, kind = "stop", label = "Unterjesingen Mitte", pos = [48.52474, 8.98173] },
+  { km = 5.986, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.087, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 6.193, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 6.495, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 6.507, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 7.005, kind = "signal", label = "20A", signal = "combined,speed_limit", dir = 1 },
+  { km = 7.442, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 7.45, kind = "signal", label = "P22", signal = "main,speed_limit", dir = -1 },
+  { km = 7.452, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 7.514, kind = "station", label = "Pfäffingen", pos = [48.53225, 8.96458] },
+  { km = 7.573, kind = "signal", label = "N22", signal = "main,speed_limit", dir = 1 },
+  { km = 7.744, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.151, kind = "signal", signal = "distant,speed_limit_distant" },
+  { km = 8.319, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 8.735, kind = "signal", label = "20f", signal = "distant,speed_limit_distant" },
+  { km = 9.348, kind = "signal", label = "30A", signal = "combined,speed_limit", dir = 1 },
+  { km = 9.863, kind = "signal", label = "P32", signal = "main,speed_limit", dir = -1 },
+  { km = 9.93, kind = "station", label = "Entringen", pos = [48.5524, 8.96293] },
+  { km = 9.976, kind = "signal", label = "N32", signal = "main,speed_limit", dir = 1 },
+  { km = 14.02, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.021, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.433, kind = "signal", label = "35P31", signal = "main", dir = -1 },
+  { km = 14.526, kind = "stop", label = "Altingen", pos = [48.56201, 8.90881] },
+  { km = 14.576, kind = "signal", label = "35N31", signal = "main", dir = 1 },
+  { km = 14.6, kind = "halt", label = "Altingen (Württ)", pos = [48.5621, 8.90868], measured = true },
+  { km = 14.807, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.81, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 14.82, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.152, kind = "signal", label = "35F", signal = "combined,speed_limit", dir = -1 },
+  { km = 15.552, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 17.026, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 17.269, kind = "stop", label = "Gültstein", pos = [48.57745, 8.88185] },
+  { km = 17.764, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.07, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 18.419, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 18.747, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.037, kind = "stop", label = "Herrenberg Zwerchweg", pos = [48.58507, 8.8676] },
+  { km = 19.242, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 20.474, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 20.623, kind = "signal", label = "40A", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 21.054, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.118, kind = "signal", label = "N102", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 21.207, kind = "station", label = "Herrenberg", pos = [48.59406, 8.86292], uic = "8029394", ele = 431 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.677, kmTo = 0.8, length = 138 },
+  { kind = "tunnel", kmFrom = 0.857, kmTo = 1.2, length = 288, name = "Schlossbergtunnel" },
+  { kind = "bridge", kmFrom = 2.666, kmTo = 2.68, length = 19 },
+  { kind = "bridge", kmFrom = 4.277, kmTo = 4.29, length = 13 },
+  { kind = "bridge", kmFrom = 4.34, kmTo = 4.372, length = 33 },
+  { kind = "bridge", kmFrom = 8.309, kmTo = 8.319, length = 10 },
+  { kind = "bridge", kmFrom = 17.998, kmTo = 18.019, length = 21 },
+  { kind = "bridge", kmFrom = 18.868, kmTo = 18.883, length = 15 },
+  { kind = "bridge", kmFrom = 19.311, kmTo = 19.336, length = 24 },
+  { kind = "bridge", kmFrom = 20.108, kmTo = 20.158, length = 50 },
+  { kind = "bridge", kmFrom = 20.415, kmTo = 20.441, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ovbgH_lgv@pAhP" },
+  { line = "}sbgHuzfv@ZnB", v = 60 },
+  { line = "asbgHewfv@^jEMhEy@vDcBrC", v = 50 },
+  { line = "mwbgHc`fv@mHvE", v = 70 },
+  { line = "{`cgHkyev@oIdFsBhC", tunnel = true, v = 70 },
+  { line = "_ocgH{mev@oAbEc@zFpAhf@", v = 70 },
+  { line = "apcgHqxcv@b@xIvD|X`@jGQpHeCjTIlI", v = 90 },
+  { line = "emcgHabav@hBfc@}B~bA", v = 100 },
+  { line = "ymcgHyy}u@[fHw@tE", v = 80 },
+  { line = "mpcgH{i}u@{CzK", v = 100 },
+  { line = "iucgH_}|u@yGbW{AxIuCdl@gE`[" },
+  { line = "}kdgHypyu@qCzRiA`OkBbIwZdt@sT~^", v = 70 },
+  { line = "qgfgHqmuu@sEnHaC|BqD|AyDT{F_BsPuN_FeC_Fu@uTc@", v = 90 },
+  { line = "yzhgHevuu@eRGcU`H_EtB", v = 70 },
+  { line = "cjjgHuiuu@yCvCiCdF" },
+  { line = "gsjgHw}tu@}Tlo@eMlq@wAzNIhMjAbOjOds@lAbLBdKgDzy@", v = 100 },
+  { line = "kjkgHedlu@e@vFgB`IiKvYoEbH", v = 80 },
+  { line = "salgHonju@_a@pYyEtEeGnJiEdLuBhJeEj^uA|GuLt]", v = 100 },
+  { line = "esngHgbfu@eDfK}@lKZfIvC`N", v = 70 },
+  { line = "utngHgpdu@x@hHEdFeArGcC`FoCvB}Bj@}UjB", v = 80 },
+  { line = "wxogHqgcu@sF~@qDjD{BpGg@zH", v = 70 },
+  { line = "akpgHwmbu@Jre@}@~KiA|F_DnIoCvCeF`AmFqA", v = 80 },
+  { line = "agqgHmc`u@iEcG}L{j@", v = 70 },
+]
+posts = [[1, 48.5184, 9.04547], [2, 48.51949, 9.03318], [3, 48.51912, 9.01946], [4, 48.51941, 9.00666], [5, 48.5228, 8.9936], [6, 48.52496, 8.98051], [7, 48.52945, 8.96922], [8, 48.53565, 8.96011], [9, 48.5441, 8.96355], [10, 48.55283, 8.9627], [11, 48.55907, 8.95362], [12, 48.56245, 8.94111], [13, 48.55955, 8.92848], [14, 48.55987, 8.91502], [15, 48.5653, 8.90474], [16, 48.57234, 8.8972], [17, 48.57626, 8.88461], [18, 48.57673, 8.87257], [19, 48.58479, 8.86803], [20, 48.58643, 8.85503], [21, 48.59247, 8.85901]]
+
+[[connections]]
+km = 0.119
+station = "Tübingen Hbf"
+lines = [
+  { id = "4600", ref = "4600", name = "4600 Plochingen - Immendingen", km = 48.988 },
+  { id = "4630", ref = "4630", name = "4630 Tübingen Hbf - Sigmaringen", km = 0.068 },
+]
+
+[[connections]]
+km = 21.207
+station = "Herrenberg"
+lines = [
+  { id = "4860", ref = "4860", name = "Gäubahn", km = 41.559 },
+]

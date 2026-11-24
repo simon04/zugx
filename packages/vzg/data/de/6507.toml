@@ -1,0 +1,56 @@
+id = "6507"
+ref = "6507"
+name = "6507 Golm - Werder (Havel)"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131651801"
+from = "Potsdam Wissenschaftspark Golm"
+to = "Werder (Havel)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -1.056
+kmTo = 2.806
+length = 3.839
+speeds = [[-1.056, 0.142, "", ""], [0.142, 2.806, 60, 60]]
+curves = [[0.822, 1.478, 510], [2.442, 2.542, 2760]]
+points = [
+  { km = -0.855, kind = "signal", label = "99 P4", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = -0.478, kind = "signal", signal = "main_repeated" },
+  { km = -0.476, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = -0.454, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.403, kind = "station", label = "Golm", uic = "727652", pos = [52.4098, 12.97188] },
+  { km = -0.38, kind = "stop", label = "Golm", uic = "727652", pos = [52.40994, 12.97181] },
+  { km = -0.369, kind = "signal", label = "99L 34Y", signal = "minor", dir = 1 },
+  { km = -0.364, kind = "signal", label = "99L 24Y", signal = "minor", dir = -1 },
+  { km = -0.344, kind = "stop", label = "Golm", pos = [52.40962, 12.97172] },
+  { km = -0.239, kind = "signal", label = "99 N4", signal = "main,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 0.148, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.514, kind = "signal", label = "99 H", signal = "combined,traversable", dir = -1 },
+  { km = 0.63, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.253, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.271, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.813, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.491, kind = "signal", label = "D7", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 2.68, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.467, kmTo = -0.438, length = 28 },
+  { kind = "bridge", kmFrom = 0.15, kmTo = 0.178, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "on|~Hy{dnAfaAlR" },
+  { line = "glz~HkhdnAdh@hKdGpEzDjHrBjIrBvSdJ`hApBxc@", v = 60 },
+]
+posts = [[-1, 52.41543, 12.97341], [0, 52.40658, 12.97083], [1, 52.39819, 12.96816], [2, 52.3944, 12.95501]]
+
+[[connections]]
+km = -0.403
+station = "Golm"
+lines = [
+  { id = "6068", ref = "6068", name = "6068 Golm - Priort", km = 63.138 },
+  { id = "6115", ref = "6115", name = "Beelitz Stadt - Golm", km = 63.123 },
+]

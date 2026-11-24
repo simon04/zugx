@@ -1,0 +1,186 @@
+id = "5622"
+ref = "5622"
+name = "5622 Holzkirchen - Rosenheim"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Holzkirchen"
+to = "Rosenheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.363
+kmTo = 37.543
+length = 37.853
+speeds = [[-0.363, 0.101, 60, 60], [0.101, 0.648, 50, 50], [0.648, 5.818, 100, 100], [5.818, 5.876, 90, 100], [5.876, 6.782, 90, 90], [6.782, 8.637, 80, 80], [8.637, 9.529, 70, 70], [9.529, 13.209, 80, 80], [13.209, 13.507, 80, 120], [13.507, 18.922, 120, 120], [18.922, 20.588, 100, 100], [20.588, 25.057, 120, 120], [25.057, 25.139, 50, 50], [25.139, 28.06, 120, 120], [28.06, 30.516, 100, 100], [30.516, 35.781, 120, 120], [35.781, 35.864, 90, 120], [35.864, 36.711, 90, 100], [36.711, 36.902, 90, 90], [36.902, 37.463, 90, 40], [37.463, 37.543, 40, 40]]
+curves = [[-0.263, -0.188, 1850], [0.126, 0.735, 450], [1.003, 1.672, 590], [2.174, 2.989, 720], [3.133, 3.429, 1200], [3.881, 4.397, 1880], [4.805, 5.11, 1690], [5.492, 5.816, 650], [5.878, 6.423, 550], [6.648, 6.713, 1580], [6.87, 7.952, 590], [8.024, 8.638, 370], [8.687, 8.932, 550], [9.117, 9.514, 410], [9.564, 10.532, 380], [10.755, 10.904, 1090], [10.954, 11.649, 500], [11.698, 12.244, 470], [12.728, 13.024, 750], [13.069, 13.399, 780], [15.112, 15.48, 1690], [16.829, 17.761, 1400], [17.887, 18.19, 920], [19.046, 19.626, 630], [20.054, 20.584, 1370], [26.808, 26.883, 2380], [26.984, 27.085, 2580], [27.286, 27.438, 1560], [28.74, 29.165, 640], [29.24, 29.84, 630], [30.115, 30.515, 650], [31.915, 32.29, 1770], [34.44, 34.79, 1480], [35.89, 36.365, 670], [36.765, 36.865, 1780], [36.94, 37.04, 1560], [37.39, 37.44, 1050]]
+points = [
+  { km = -0.183, kind = "signal", label = "P5", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 0, kind = "station", label = "Holzkirchen", uic = "8002980", pos = [47.88447, 11.69732], measured = true },
+  { km = 0.031, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.077, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.101, kind = "signal", label = "N5", signal = "main,minor,traversable", dir = 1 },
+  { km = 0.126, kind = "signal", signal = "route", dir = 1 },
+  { km = 0.132, kind = "signal", label = "45", signal = "minor", dir = -1 },
+  { km = 0.215, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.224, kind = "signal", label = "49", signal = "minor", dir = -1 },
+  { km = 0.402, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 0.414, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.434, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 0.552, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 0.598, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.62, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 0.622, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 1.221, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 1.243, kind = "signal", signal = "crossing_distant,crossing_hint,crossing_info", dir = 1 },
+  { km = 1.27, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.283, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 1.433, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.866, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 1.866, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 1.875, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.878, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 1.879, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 1.932, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.157, kind = "signal", signal = "crossing_hint,crossing_info,snowplow", dir = 1 },
+  { km = 2.182, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.758, kind = "signal", signal = "crossing_info,snowplow", dir = 1 },
+  { km = 2.758, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 2.76, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.807, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 2.807, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 2.867, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.983, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 2.984, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 3.002, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 3.055, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 3.055, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 3.242, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.462, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.687, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 3.688, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 3.7, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 3.703, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 3.929, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 3.962, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 4.326, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 4.332, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.337, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 4.647, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.833, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.856, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 4.864, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 5.035, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 5.06, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 5.394, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 5.67, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 5.818, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 5.872, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 5.876, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.879, kind = "signal", label = "1", signal = "minor", dir = 1 },
+  { km = 6.022, kind = "signal", label = "P3", signal = "main,minor", dir = -1 },
+  { km = 6.273, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.562, kind = "station", label = "Kreuzstraße", uic = "8003438", pos = [47.91712, 11.75949] },
+  { km = 6.574, kind = "signal", signal = "stop", dir = 1 },
+  { km = 6.658, kind = "signal", label = "N3", signal = "main", dir = 1 },
+  { km = 6.782, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.838, kind = "signal", label = "12", signal = "minor", dir = -1 },
+  { km = 6.95, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 7.059, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 7.29, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.575, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.038, kind = "signal", signal = "distant", dir = -1 },
+  { km = 12.591, kind = "signal", label = "A", signal = "distant,main,traversable", dir = 1 },
+  { km = 13.209, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.256, kind = "signal", label = "P2", signal = "main,minor,traversable", dir = -1 },
+  { km = 13.31, kind = "signal", signal = "distant", dir = -1 },
+  { km = 13.459, kind = "station", label = "Westerham", uic = "8006366", pos = [47.90394, 11.82842] },
+  { km = 13.507, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.718, kind = "signal", label = "N2", signal = "main,minor,traversable", dir = 1 },
+  { km = 15.463, kind = "stop", label = "Feldolling", pos = [47.89534, 11.85213] },
+  { km = 20.787, kind = "station", label = "Bruckmühl", pos = [47.88087, 11.91568] },
+  { km = 22.147, kind = "station", label = "Heufeldmühle", pos = [47.87755, 11.9344] },
+  { km = 22.347, kind = "stop", label = "Heufeldmühle", pos = [47.87732, 11.93575] },
+  { km = 23.513, kind = "halt", label = "Hinrichssegen", pos = [47.87442, 11.95063] },
+  { km = 24.804, kind = "station", label = "Heufeld", pos = [47.87127, 11.96715], uic = "8002820" },
+  { km = 25.769, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 25.923, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 26.239, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 26.24, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 26.431, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 26.432, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 26.783, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 26.931, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 27.764, kind = "station", label = "Bad Aibling", pos = [47.86212, 12.00385] },
+  { km = 28.708, kind = "stop", label = "Bad Aibling Kurpark", pos = [47.85736, 12.01445] },
+  { km = 32.95, kind = "station", label = "Kolbermoor", pos = [47.85194, 12.06436] },
+  { km = 34.745, kind = "stop", label = "Rosenheim Aicherpark", pos = [47.85151, 12.08841] },
+  { km = 34.831, kind = "signal", label = "19Vc", signal = "distant", dir = 1 },
+  { km = 35.781, kind = "signal", label = "19C", signal = "main", dir = 1 },
+  { km = 36.289, kind = "signal", label = "19Vzr6", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 36.902, kind = "signal", label = "19P6", signal = "main", dir = -1 },
+  { km = 37.181, kind = "station", label = "Rosenheim", pos = [47.85035, 12.1195], uic = "8000320" },
+  { km = 37.463, kind = "signal", label = "19ZR6", signal = "combined,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.233, kmTo = 0.246, length = 17 },
+  { kind = "bridge", kmFrom = 1.526, kmTo = 1.585, length = 51 },
+  { kind = "bridge", kmFrom = 2.6, kmTo = 2.633, length = 33 },
+  { kind = "bridge", kmFrom = 5.531, kmTo = 5.551, length = 25 },
+  { kind = "bridge", kmFrom = 5.886, kmTo = 5.917, length = 38 },
+  { kind = "bridge", kmFrom = 9.096, kmTo = 9.114, length = 18 },
+  { kind = "bridge", kmFrom = 15.528, kmTo = 15.556, length = 30 },
+  { kind = "bridge", kmFrom = 17.443, kmTo = 17.453, length = 10 },
+  { kind = "bridge", kmFrom = 18.186, kmTo = 18.203, length = 16 },
+  { kind = "bridge", kmFrom = 19.912, kmTo = 19.922, length = 10 },
+  { kind = "bridge", kmFrom = 21.193, kmTo = 21.211, length = 18 },
+  { kind = "bridge", kmFrom = 28.674, kmTo = 28.714, length = 40 },
+  { kind = "bridge", kmFrom = 33.35, kmTo = 33.362, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}|gcHg`kfAjSkX", v = 60 },
+  { line = "qhgcHsykfAfEgGdBeHN}Ky@aI", v = 50 },
+  { line = "m`gcHabmfAoKgf@_C{FmDaFwGeEcg@mM_FmDsF_IgEeMoG_c@mQ}j@cLyT}Vk[cHaLgRqa@}A_HeAaK", v = 100 },
+  { line = "s}lcHiqvfAmBcLmEaJmEgEoUaO", v = 90 },
+  { line = "mdncHy_xfAsHgE{BgCmCsHiA}IAmNhA_Q~BsJtE_LnAqKKqFk@cEsAiEkDsF", v = 80 },
+  { line = "_sncHca|fAkDeEmAuCkGuY]kKvBgL", v = 70 },
+  { line = "k`ocHi`~fAzAcGd@sEGoH}AkMKuE`@uGzAeG`CwDpC}BxPsIfLuDtNyPzFgBjMo@|DuB~CsD`CsFvMem@v@aH~@_Y", v = 80 },
+  { line = "ylkcHgqdgAhCwNbo@i}BhCsL`BqKbSgsBlE}VtD}LbEkJjEyGtJuKhEqHrXkt@", v = 120 },
+  { line = "sxfcHmsqgAvDaKfBsHt@iHL_H_@aJaH}p@c@}NXeN", v = 100 },
+  { line = "{wfcHqwugApBa^hDca@vw@adH", v = 120 },
+  { line = "gvdcHy}`hAh@oE", v = 50 },
+  { line = "}tdcHidahA`VsuBdF}\\bHoZlTcn@", v = 120 },
+  { line = "cxbcHochhAnUgp@|BuErFaGfRsJbE_FrCoGdBqHnFs^ZwJm@mL", v = 100 },
+  { line = "}m`cH_amhAkRsrBo@uLFsk@tCg`Dw@uRaL{uA", v = 120 },
+  { line = "ulacHwzzhAo@yKZyNdBcKxGwX", v = 100 },
+  { line = "iaacHg}|hAbGeTlJqa@", v = 90 },
+  { line = "wm`cH_u~hAn@kE", v = 40 },
+]
+posts = [[0, 47.88455, 11.69743], [1, 47.88396, 11.70962], [2, 47.89092, 11.71567], [3, 47.89763, 11.72361], [4, 47.90171, 11.73482], [5, 47.9084, 11.74375], [6, 47.91321, 11.75521], [7, 47.92049, 11.76177], [8, 47.92067, 11.77393], [9, 47.92309, 11.78491], [10, 47.92325, 11.79762], [11, 47.91703, 11.80529], [12, 47.90892, 11.81031], [13, 47.90517, 11.82185], [14, 47.90162, 11.83439], [15, 47.89718, 11.84604], [16, 47.89411, 11.85928], [17, 47.89178, 11.87212], [18, 47.88614, 11.8821], [19, 47.88082, 11.89276], [20, 47.88061, 11.90534], [21, 47.88047, 11.91845], [22, 47.87818, 11.9313], [23, 47.8757, 11.94409], [24, 47.87321, 11.95686], [25, 47.87074, 11.96964], [26, 47.86826, 11.98241], [27, 47.86558, 11.99509], [28, 47.86096, 12.00646], [29, 47.85556, 12.01707], [30, 47.84931, 12.02561], [31, 47.84984, 12.03862], [32, 47.852, 12.05163], [33, 47.85196, 12.06501], [34, 47.85151, 12.07839], [35, 47.85201, 12.09169], [36, 47.85393, 12.10478], [37, 47.8506, 12.117]]
+
+[[connections]]
+km = 0
+station = "Holzkirchen"
+lines = [
+  { id = "5505", ref = "5505", name = "5505 München Hbf - Lenggries", km = 36.4 },
+  { id = "5620", ref = "5620", name = "5620 Holzkirchen - Schliersee", km = -0.004 },
+]
+
+[[connections]]
+km = 6.562
+station = "Kreuzstraße"
+lines = [
+  { id = "5552", ref = "5552", name = "5552 München Ost Frankenwaldstraße - Kreuzstraße", km = 27.905 },
+]
+
+[[connections]]
+km = 37.181
+station = "Rosenheim"
+lines = [
+  { id = "5510", ref = "5510", name = "5510 München Hbf - Rosenheim", km = 64.868 },
+  { id = "5700", ref = "5700", name = "5700 Rosenheim - Pilsting", km = -0.035 },
+  { id = "5702", ref = "5702", name = "5702 Rosenheim - Kufstein Grenze", km = 0.007 },
+  { id = "5703", ref = "5703", name = "5703 Rosenheim - Salzburg Grenze", km = -1.66 },
+]

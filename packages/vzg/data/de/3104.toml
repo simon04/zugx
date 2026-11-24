@@ -1,0 +1,36 @@
+id = "3104"
+ref = "3104"
+name = "Birburg-Erdorf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Birburg-Erdorf"
+to = "Birburg-Erdorf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.716
+length = 0.716
+speeds = [[0, 0.684, 40, ""], [0.684, 0.716, "", ""]]
+curves = [[0.1, 0.15, 2160], [0.225, 0.6, 440]]
+points = [
+  { km = 0, kind = "station", label = "Bitburg-Erdorf", pos = [49.99877, 6.57099], measured = true, uic = "8001828", ele = 233 },
+  { km = 0.147, kind = "signal", label = "P43", signal = "main,minor", dir = -1 },
+  { km = 0.291, kind = "signal", label = "R43", signal = "main_repeated", dir = 1 },
+  { km = 0.684, kind = "signal", label = "N43", signal = "main,minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ksdpHa`bg@nKmObCqBxFeAdHjA", v = 40 },
+  { line = "wqcpH{sbg@t@^" },
+]
+posts = [[0, 50.00006, 6.56913]]
+
+[[connections]]
+km = 0
+station = "Bitburg-Erdorf"
+lines = [
+  { id = "2631", ref = "2631", name = "2631 Hürth-Kalscheuren - Ehrang", km = 131.4 },
+]

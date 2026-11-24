@@ -1,0 +1,29 @@
+id = "5567"
+ref = "5567"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.619
+length = 2.619
+speeds = [[0, 2.619, "", ""]]
+curves = []
+points = [
+  { km = 1.818, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.096, kind = "signal", label = "64 N6", signal = "main,traversable", dir = -1 },
+  { km = 2.275, kind = "signal", label = "64 ZR6", signal = "main,traversable", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.656, kmTo = 0.704, length = 48 },
+  { kind = "bridge", kmFrom = 1.526, kmTo = 1.566, length = 40 },
+  { kind = "bridge", kmFrom = 2.026, kmTo = 2.075, length = 49 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qfceHciweApAv{E" },
+]
+posts = [[0, 48.19065, 11.5933], [1, 48.19048, 11.57981], [2, 48.19034, 11.56633]]

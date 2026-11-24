@@ -1,0 +1,125 @@
+id = "2984"
+ref = "2984"
+name = "2984 Lage (Lippe) - Bielefeld"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q21716965"
+from = "Lage (Lippe)"
+to = "Bielefeld Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.566
+kmTo = 22.127
+length = 22.681
+speeds = [[-0.566, 0.71, "", ""], [0.71, 10.278, 80, 80], [10.278, 10.822, 60, 60], [10.822, 14.681, 80, 80], [14.681, 18.956, 60, 60], [18.956, 19.939, "", ""], [19.939, 20.673, 60, 60], [20.673, 20.78, 60, 40], [20.78, 20.976, "", 40], [20.976, 22.127, "", ""]]
+curves = [[-0.466, -0.391, 1320], [0.259, 0.609, 610], [0.659, 0.83, 880], [0.88, 1.231, 410], [1.381, 1.456, 2600], [2.258, 2.558, 840], [2.709, 2.959, 920], [3.41, 3.56, 1280], [4.513, 4.638, 1410], [5.139, 5.315, 1000], [5.817, 6.017, 1420], [7.921, 8.021, 1410], [9.496, 9.846, 630], [13.121, 13.421, 640], [14.021, 14.371, 690], [15.446, 15.896, 840], [16.371, 16.671, 1060], [17.946, 18.071, 980], [18.371, 18.571, 780], [19.796, 19.921, 1480], [20.646, 21.571, 820], [21.646, 21.696, 2000]]
+points = [
+  { km = 0.026, kind = "station", label = "Lage (Lippe)", pos = [51.99162, 8.80133], uic = "8000215" },
+  { km = 0.101, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.102, kind = "signal", label = "P4", signal = "main", dir = 1 },
+  { km = 0.647, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.671, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 0.71, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.78, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.808, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 1.24, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 5.051, kind = "stop", label = "Ehlenbruch", pos = [51.98105, 8.74078], uic = "8001686" },
+  { km = 5.13, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.143, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 6.904, kind = "stop", label = "Helpup", pos = [51.97735, 8.7148], uic = "8002737" },
+  { km = 9.805, kind = "signal", label = "A", signal = "combined", dir = 1 },
+  { km = 10.242, kind = "station", label = "Oerlinghausen", pos = [51.9788, 8.6661], uic = "8004630" },
+  { km = 10.277, kind = "signal", signal = "stop", dir = 1 },
+  { km = 10.278, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 10.424, kind = "signal", signal = "main", dir = -1 },
+  { km = 10.462, kind = "stop", label = "Oerlinghausen", pos = [51.97938, 8.66431] },
+  { km = 10.854, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 11.197, kind = "signal", label = "F", signal = "combined", dir = -1 },
+  { km = 12.53, kind = "stop", label = "Ubbedissen", pos = [51.98844, 8.63753], uic = "8005930" },
+  { km = 14.729, kind = "signal", label = "P22", signal = "main,traversable", dir = -1 },
+  { km = 14.732, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 15.164, kind = "signal", label = "N22", signal = "main,traversable", dir = 1 },
+  { km = 16.637, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 16.701, kind = "stop", label = "Oldentrup", pos = [52.01029, 8.5909], uic = "8079069" },
+  { km = 18.941, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 19.245, kind = "signal", label = "P2", signal = "main", dir = -1 },
+  { km = 19.247, kind = "signal", signal = "minor", dir = -1 },
+  { km = 19.345, kind = "station", label = "Bielefeld Ost", uic = "8000953", pos = [52.02398, 8.55928], measured = true },
+  { km = 19.419, kind = "signal", signal = "minor", dir = 1 },
+  { km = 19.423, kind = "signal", label = "N2", signal = "main", dir = 1 },
+  { km = 19.979, kind = "signal", signal = "distant", dir = -1 },
+  { km = 20.099, kind = "signal", label = "F", signal = "main,speed_limit", dir = -1 },
+  { km = 20.673, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 20.751, kind = "signal", label = "C", signal = "distant,main", dir = 1 },
+  { km = 20.795, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 20.976, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 21.003, kind = "signal", signal = "minor", dir = 1 },
+  { km = 21.109, kind = "signal", signal = "minor", dir = -1 },
+  { km = 21.184, kind = "signal", signal = "minor", dir = 1 },
+  { km = 21.347, kind = "signal", signal = "minor", dir = -1 },
+  { km = 21.375, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.436, kind = "signal", signal = "minor", dir = 1 },
+  { km = 21.537, kind = "signal", label = "S 101", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 21.551, kind = "signal", signal = "stop", dir = -1 },
+  { km = 21.645, kind = "signal", signal = "main_repeated" },
+  { km = 21.654, kind = "signal", signal = "stop", dir = -1 },
+  { km = 21.712, kind = "stop", label = "Bielefeld Hbf", uic = "8000036", pos = [52.02946, 8.53329] },
+  { km = 21.714, kind = "signal", signal = "stop", dir = -1 },
+  { km = 21.757, kind = "signal", label = "D 201", signal = "minor", dir = 1 },
+  { km = 21.763, kind = "signal", label = "D 101", signal = "minor", dir = -1 },
+  { km = 21.768, kind = "signal", signal = "stop", dir = 1 },
+  { km = 21.929, kind = "signal", label = "N201", signal = "main,minor", dir = 1 },
+  { km = 21.986, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 109.5, kind = "station", label = "Bielefeld Hauptbahnhof", uic = "8000036", pos = [52.02933, 8.53271], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.579, kmTo = 1.591, length = 11 },
+  { kind = "bridge", kmFrom = 1.761, kmTo = 1.881, length = 120 },
+  { kind = "bridge", kmFrom = 2.195, kmTo = 2.21, length = 15 },
+  { kind = "bridge", kmFrom = 3.839, kmTo = 3.865, length = 26 },
+  { kind = "bridge", kmFrom = 4.242, kmTo = 4.28, length = 37 },
+  { kind = "bridge", kmFrom = 5.413, kmTo = 5.423, length = 10 },
+  { kind = "bridge", kmFrom = 7.207, kmTo = 7.221, length = 14 },
+  { kind = "bridge", kmFrom = 17.105, kmTo = 17.14, length = 34 },
+  { kind = "bridge", kmFrom = 18.956, kmTo = 18.987, length = 31 },
+  { kind = "bridge", kmFrom = 19.12, kmTo = 19.136, length = 16 },
+  { kind = "bridge", kmFrom = 19.51, kmTo = 19.526, length = 16 },
+  { kind = "bridge", kmFrom = 19.812, kmTo = 19.831, length = 19 },
+  { kind = "bridge", kmFrom = 20.225, kmTo = 20.245, length = 21 },
+  { kind = "bridge", kmFrom = 20.582, kmTo = 20.619, length = 37 },
+  { kind = "bridge", kmFrom = 20.824, kmTo = 20.876, length = 52 },
+  { kind = "bridge", kmFrom = 21.2, kmTo = 21.217, length = 17 },
+  { kind = "bridge", kmFrom = 21.984, kmTo = 22.022, length = 39 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qvh|Heyvt@mJdHw`@j`@cDlH}CdP" },
+  { line = "ymj|H_ttt@aHlSm@hEO`HfB`e@xFt`A|@tHxJv^b[fj@vd@niAfQtq@tJx~@bMruD|@tmCU`Iu@jGoMnh@", v = 80 },
+  { line = "_ag|Hou{s@cN`j@", v = 60 },
+  { line = "cpg|Hmjzs@o_@h|Ae^v`BqExJub@`k@kCnI}Fz]", v = 80 },
+  { line = "kfk|Hcjqs@sOd`AmDpNgFlK{Wv]cG|Kil@hgB_K|f@iPx_@", v = 60 },
+  { line = "ioo|Hepgs@qc@dbA" },
+  { line = "{sp|H_mes@k]nl@wBnF", v = 60 },
+  { line = "_vq|H_xcs@oAzIGdE", v = 40 },
+  { line = "wxq|H}fcs@zAvK|G|Rd_@lh@" },
+]
+posts = [[0, 51.99157, 8.80144], [1, 51.99748, 8.79091], [2, 51.9965, 8.77656], [3, 51.99271, 8.76373], [4, 51.98654, 8.75319], [5, 51.98132, 8.74139], [6, 51.97839, 8.72773], [7, 51.97727, 8.7133], [8, 51.97616, 8.69881], [9, 51.97596, 8.68422], [10, 51.97731, 8.67016], [11, 51.98178, 8.65749], [12, 51.9862, 8.64477], [13, 51.99032, 8.63179], [14, 51.99672, 8.62188], [15, 52.00099, 8.60932], [16, 52.00574, 8.59728], [17, 52.01197, 8.58693], [18, 52.01714, 8.57498], [19, 52.02207, 8.56291], [20, 52.02807, 8.55203], [21, 52.03352, 8.54107], [22, 52.02743, 8.53068]]
+
+[[connections]]
+km = 0.026
+station = "Lage"
+lines = [
+  { id = "2980", ref = "2980", name = "2980 Herford - Himmighausen", km = 19.209 },
+  { id = "2983", ref = "2983", name = "2983 Lage (Lippe) - Lemgo", km = 0.039 },
+]
+
+[[connections]]
+km = 21.712
+station = "Bielefeld Hbf"
+lines = [
+  { id = "1700", ref = "1700", name = "1700 Hannover - Hamm", km = 109.421 },
+  { id = "2990", ref = "2990", name = "2990 Minden - Hamm", km = 109.428 },
+]

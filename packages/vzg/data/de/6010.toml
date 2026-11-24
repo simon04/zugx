@@ -1,0 +1,40 @@
+id = "6010"
+ref = "6010"
+name = "6010 Hohen Neuendorf - Bergfelde Strw"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131720406"
+from = "Hohen Neuendorf (b Berlin)"
+to = "Bergfelde Streckenwechsel 6009/6010"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.207
+length = 3.207
+speeds = [[0, 3.207, 90, 90]]
+curves = [[0.1, 0.975, 500], [1.225, 2.925, 600], [3, 3.1, 30]]
+points = [
+  { km = 1.797, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.499, kind = "signal", label = "4631", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 2.793, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.804, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.009, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.02, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 3.043, kind = "station", label = "Hohen Neuendorf (b Berlin)", uic = "8080720", pos = [52.66865, 13.28704] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "emn`I{qgpA_B~LKvMbA~KzClKzCbFxD`DbVjG`HjEtGnKrB`HhAzGn@`KCjKw@pIeBtHwDxHcGbFkFjAsJYbHn@", v = 90 },
+]
+posts = [[0, 52.67171, 13.31502], [1, 52.6682, 13.30388], [2, 52.66171, 13.29551], [3, 52.66738, 13.28702]]
+
+[[connections]]
+km = 3.043
+station = "Hohen Neuendorf"
+lines = [
+  { id = "6030", ref = "6030", name = "6030 Berlin-Gesundbrunnen - Oranienburg", km = 17.26 },
+  { id = "6088", ref = "6088", name = "6088 Berlin - Neustrelitz - Stralsund", km = 16.603 },
+]

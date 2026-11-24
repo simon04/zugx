@@ -1,0 +1,78 @@
+id = "2208"
+ref = "2208"
+name = "2208 Wanne-Eickel Hbf - Herne"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Wanne-Eickel Hbf"
+to = "Herne"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.446
+length = 7.446
+speeds = [[0, 7.446, "", ""]]
+curves = [[0.1, 0.2, 680], [0.35, 0.625, 1180], [0.8, 0.975, 1120], [1.075, 1.15, 1400], [1.225, 1.375, 1020], [1.7, 2.1, 1010], [2.175, 2.275, 990], [2.35, 2.425, 2240], [3.825, 3.975, 1960], [4.05, 4.25, 1310], [4.825, 5.125, 890], [5.375, 5.6, 1350], [5.95, 6.1, 1930], [6.675, 6.9, 1500], [6.975, 7.125, 1020], [7.225, 7.3, 2390]]
+points = [
+  { km = 0.114, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.249, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.448, kind = "signal", label = "P8", signal = "distant,main", dir = -1 },
+  { km = 0.7, kind = "station", label = "Herne-Wanne-Eickel Hbf", pos = [51.53124, 7.16612], uic = "8000192" },
+  { km = 0.884, kind = "signal", label = "N8", signal = "main,minor", dir = 1 },
+  { km = 1.144, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.246, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.366, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.422, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.572, kind = "signal", label = "Z", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 1.906, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 2.404, kind = "signal", signal = "distant,shunting", dir = 1 },
+  { km = 2.672, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 3.346, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.981, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.135, kind = "signal", signal = "main,minor,traversable", dir = -1 },
+  { km = 4.544, kind = "station", label = "Herne", uic = "8000164", pos = [51.54355, 7.21765] },
+  { km = 4.656, kind = "station", label = "Herne Bahnhof", pos = [51.54463, 7.21875] },
+  { km = 4.769, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.99, kind = "signal", signal = "minor", dir = -1 },
+  { km = 5.124, kind = "signal", signal = "minor", dir = 1 },
+  { km = 5.408, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 6.472, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.94, kind = "signal", signal = "minor", dir = 1 },
+  { km = 7.196, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 97.191, kind = "signal", signal = "main", dir = -1, measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.12, kmTo = 0.141, length = 21 },
+  { kind = "bridge", kmFrom = 1.955, kmTo = 1.986, length = 30 },
+  { kind = "bridge", kmFrom = 2.592, kmTo = 2.601, length = 10 },
+  { kind = "bridge", kmFrom = 3.475, kmTo = 3.519, length = 45 },
+  { kind = "bridge", kmFrom = 4.082, kmTo = 4.096, length = 15 },
+  { kind = "bridge", kmFrom = 4.663, kmTo = 4.681, length = 19 },
+  { kind = "bridge", kmFrom = 4.917, kmTo = 4.93, length = 12 },
+  { kind = "bridge", kmFrom = 5.939, kmTo = 5.951, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ivnyHyluj@uDyGsNmPmLqVuF}Q}DaQoOke@kCsOsK{cAsNgwA_Ce^sL_}@uCuKcNk]aNij@}S}n@iHw[iKyZ" },
+]
+posts = [[0, 51.52629, 7.15997], [1, 51.53269, 7.16993], [2, 51.53729, 7.1823], [3, 51.53983, 7.19616], [4, 51.54219, 7.2101], [5, 51.54506, 7.22376], [6, 51.55001, 7.23577], [7, 51.55484, 7.24794]]
+
+[[connections]]
+km = 0.7
+station = "Herne-Wanne-Eickel Hbf"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 0.268 },
+  { id = "2204", ref = "2204", name = "2204 Wanne-Eickel Hbf - Wanne Unser Fritz", km = 4.712 },
+  { id = "2230", ref = "2230", name = "2230 Gelsenkirchen Strw 2172/2230 - Wanne-Eickel Hbf", km = 94.555 },
+  { id = "2239", ref = "2239", name = "2239 Gelsenkirchen Hbf - Wanne-Eickel Hbf", km = 5.654 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 94.544 },
+]
+
+[[connections]]
+km = 4.544
+station = "Herne"
+lines = [
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 98.377 },
+]

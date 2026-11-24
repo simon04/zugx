@@ -1,0 +1,26 @@
+id = "5007"
+ref = "5007"
+name = "5007 Bft Neuenmarkt-Wirsberg Süd - Bft Neuenmarkt-Wirsberg Ost"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Neuenmarkt-Wirsberg Süd"
+to = "Neuenmarkt-Wirsberg Ost"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.805
+length = 0.727
+speeds = [[0, 0.685, 80, 80], [0.685, 0.805, 80, 90]]
+curves = [[0.1, 0.702, 330]]
+points = [
+  { km = 0.685, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ubupHywveAsH~AyFkAuEyFsBwI", v = 80 },
+  { line = "m~upHwiweAm@gI", v = 90 },
+]
+posts = []

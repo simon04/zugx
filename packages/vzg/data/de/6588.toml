@@ -1,0 +1,59 @@
+id = "6588"
+ref = "6588"
+name = "Mittelherwigsdorf (S) - Eibau"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802782"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.174
+kmTo = 11.454
+length = 11.256
+speeds = [[0.174, 0.523, 60, 60], [0.523, 6.795, 80, 80], [6.795, 7.351, 70, 70], [7.351, 11.454, 50, 50]]
+curves = [[0.275, 0.325, 760], [0.501, 0.777, 1230], [1.402, 1.827, 510], [1.977, 2.179, 800], [2.254, 2.43, 1420], [2.554, 2.754, 880], [2.879, 3.054, 1260], [3.129, 3.405, 1470], [3.552, 4.158, 1320], [4.285, 4.559, 590], [5.609, 6.318, 350], [6.42, 6.692, 690], [7.136, 7.466, 500], [7.765, 8.437, 370], [8.558, 8.831, 680], [9.436, 9.84, 580], [10.424, 10.524, 1260], [10.572, 10.696, 1500]]
+points = [
+  { km = 0.174, kind = "stop", label = "Mittelherwigsdorf", pos = [50.92279, 14.74133], measured = true, uic = "8006114" },
+  { km = 0.306, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.669, kind = "halt", label = "Hainewalde", uic = "8041839", pos = [50.90641, 14.70436] },
+  { km = 7.539, kind = "station", label = "Großschönau (Sachs)", pos = [50.89263, 14.6656], measured = true },
+  { km = 9.708, kind = "signal", label = "Se 6", signal = "shunting", dir = 1 },
+  { km = 9.93, kind = "signal", label = "S 1a", signal = "combined", dir = -1 },
+  { km = 10.101, kind = "station", label = "Varnsdorf", pos = [50.90327, 14.63806], measured = true, uic = "5456689", ele = 340 },
+  { km = 10.126, kind = "signal", label = "Lc 1a", signal = "combined_repeated", dir = 1 },
+  { km = 10.156, kind = "signal", label = "Sc 1", signal = "combined_repeated", dir = -1 },
+  { km = 10.261, kind = "signal", label = "L 1", signal = "combined", dir = 1 },
+  { km = 10.389, kind = "signal", label = "Se 3", signal = "shunting", dir = -1 },
+  { km = 10.678, kind = "signal", label = "L", signal = "main", dir = -1 },
+  { km = 11.381, kind = "signal", label = "Př L", signal = "distant,minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.552, kmTo = 3.569, length = 20 },
+  { kind = "bridge", kmFrom = 3.88, kmTo = 3.898, length = 18 },
+  { kind = "bridge", kmFrom = 4.681, kmTo = 4.704, length = 23 },
+  { kind = "bridge", kmFrom = 5.952, kmTo = 6.067, length = 113 },
+  { kind = "bridge", kmFrom = 8.347, kmTo = 8.396, length = 49 },
+  { kind = "bridge", kmFrom = 9.027, kmTo = 9.046, length = 23 },
+  { kind = "bridge", kmFrom = 9.142, kmTo = 9.156, length = 19 },
+  { kind = "bridge", kmFrom = 9.433, kmTo = 9.449, length = 14 },
+  { kind = "bridge", kmFrom = 9.723, kmTo = 9.74, length = 18 },
+  { kind = "bridge", kmFrom = 10.747, kmTo = 10.837, length = 90 },
+  { kind = "bridge", kmFrom = 10.885, kmTo = 10.916, length = 31 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_{xuHa`~xAy@rGu@rT", v = 60 },
+  { line = "o~xuHya}xA?rSxEd|@lAdHvBtEhTjR|HhMnMjNzIfQzIfLlVpOlHbHtFhJ`KbV~BdDp|@nj@~EdHnBxKSpMiAnF_IxTmBxT", v = 80 },
+  { line = "u}ruHakqxAyC~c@PpJ", v = 70 },
+  { line = "}asuHozoxAxIfg@VnHm@hJkBdHyCrEyOfGoFdEs\\rg@kC~GqA`Je@lIsCvs@WdReEhcA", v = 50 },
+]
+posts = [[1, 50.92307, 14.7291], [2, 50.91875, 14.71789], [3, 50.91188, 14.70883], [4, 50.90419, 14.70158], [5, 50.89703, 14.69368], [6, 50.88994, 14.68608], [7, 50.89297, 14.67298], [8, 50.89148, 14.65941], [9, 50.89822, 14.65167], [10, 50.90307, 14.64007], [11, 50.90416, 14.62604]]
+
+[[connections]]
+km = 0.174
+station = "Mittelherwigsdorf"
+lines = [
+  { id = "6214", ref = "6214", name = "6214 Zittau Grenze - Löbau (Sachs)", km = -5.765 },
+]

@@ -1,0 +1,43 @@
+id = "1754"
+ref = "1754"
+name = "1754 Hannover-Wülfel - Abzw Hannover-Waldheim"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q110548230"
+from = "Hannover-Wülfel"
+to = "Hannover-Waldheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.346
+length = 3.346
+speeds = [[0, 1.498, 80, 80], [1.498, 3.346, "", ""]]
+curves = [[0.1, 0.875, 650], [3.175, 3.225, 1410]]
+points = [
+  { km = 0.272, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 0.285, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.272, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.284, kind = "signal", label = "A017", signal = "main,speed_limit", dir = 1 },
+  { km = 1.498, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.57, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.753, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.948, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.029, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.23, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.391, kind = "signal", label = "P417", signal = "main,minor,route,speed_limit", dir = -1 },
+  { km = 3.147, kind = "signal", signal = "distant,main,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.243, kmTo = 0.275, length = 32 },
+  { kind = "bridge", kmFrom = 0.51, kmTo = 0.541, length = 31 },
+  { kind = "bridge", kmFrom = 0.991, kmTo = 1.025, length = 34 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ueo~Hkguz@jDfG`FlEvFtBxEL~KaC`e@oU", v = 80 },
+  { line = "swl~Hcouz@t`B_y@" },
+]
+posts = [[0, 52.34795, 9.78054], [1, 52.33966, 9.77926], [2, 52.33121, 9.78432], [3, 52.32277, 9.78937]]

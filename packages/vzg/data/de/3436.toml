@@ -1,0 +1,88 @@
+id = "3436"
+ref = "3436"
+name = "3436 Neustadt (Weinstr) Hbf - Bad Dürkheim"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Neustadt (Weinstr) Hbf"
+to = "Bad Dürkheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -1.925
+kmTo = 13.64
+length = 15.452
+speeds = [[-1.925, -1.839, 40, 40], [-1.839, 2.438, 90, 90], [2.438, 9.703, 100, 100], [9.703, 10.306, 90, 90], [10.306, 12.645, 100, 100], [12.645, 13.091, 60, 60], [13.091, 13.264, 30, 50], [13.264, 13.64, 30, 30]]
+curves = [[-1.823, -1.673, 1690], [-1.598, -0.673, 1010], [-0.098, 0.327, 780], [1.227, 1.627, 680], [1.927, 2.352, 600], [3.002, 3.552, 1010], [4.928, 5.198, 1290], [6.602, 6.804, 1260], [7.233, 7.688, 1070], [8.598, 9.558, 850], [9.76, 10.215, 550], [11.15, 11.402, 1130], [12.665, 13.365, 390]]
+points = [
+  { km = -1.839, kind = "signal", label = "2P1", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = -1.827, kind = "station", label = "Neustadt (Weinstraße) Hauptbahnhof", uic = "8000275", pos = [49.34957, 8.14039] },
+  { km = -1.77, kind = "stop", label = "Neustadt(Weinstr)Hbf", pos = [49.34972, 8.14119] },
+  { km = -1.624, kind = "signal", signal = "stop", dir = 1 },
+  { km = -1.589, kind = "signal", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = -0.885, kind = "signal", signal = "combined,speed_limit", dir = -1 },
+  { km = -0.75, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = -0.382, kind = "station", label = "Neustadt-Böbig", pos = [49.35377, 8.1576], uic = "8004489" },
+  { km = -0.251, kind = "signal", signal = "main,minor,stop", dir = 1 },
+  { km = 1.827, kind = "station", label = "Mußbach", pos = [49.37189, 8.16846], uic = "8004189" },
+  { km = 2.438, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.104, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.4, kind = "station", label = "Deidesheim", pos = [49.40845, 8.1927], uic = "8001399" },
+  { km = 6.602, kind = "signal", signal = "main", dir = 1 },
+  { km = 9.159, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.703, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.285, kind = "stop", label = "Wachenheim (Pfalz)", pos = [49.43939, 8.19103], uic = "8006125" },
+  { km = 10.306, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.645, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 13.091, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.264, kind = "signal", label = "P3", signal = "main,speed_limit", dir = -1 },
+  { km = 13.528, kind = "station", label = "Bad Dürkheim", pos = [49.46072, 8.17071], uic = "8000698" },
+  { km = 13.529, kind = "station", label = "Bad Dürkheim Bahnhof (RHB)", uic = "518079", pos = [49.46134, 8.17056] },
+  { km = 13.547, kind = "signal", label = "3X", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -1.486, kmTo = -1.414, length = 72 },
+  { kind = "bridge", kmFrom = 0.466, kmTo = 0.484, length = 18 },
+  { kind = "bridge", kmFrom = 2.995, kmTo = 3.007, length = 12 },
+  { kind = "bridge", kmFrom = 5.672, kmTo = 5.684, length = 12 },
+  { kind = "bridge", kmFrom = 6.096, kmTo = 6.111, length = 16 },
+  { kind = "bridge", kmFrom = 8.109, kmTo = 8.122, length = 12 },
+  { kind = "bridge", kmFrom = 9.35, kmTo = 9.36, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "af{lHiszp@iHe\\", v = 30 },
+  { line = "ko{lHop{p@[}EHyF", v = 50 },
+  { line = "}o{lHg_|p@x@eGfBiFdCuDbFuD", v = 60 },
+  { line = "q_{lHcz|p@|cAgm@vt@qO", v = 100 },
+  { line = "{dwlH}x~p@dImB`EkCdDkE|D{J", v = 90 },
+  { line = "oivlH_s_q@bGwOxFqI`IoF|J}B|KE~s@tHlGvAnH~Dx_@|[|sAhp@|aAbgAdHnFfKjDhd@`C", v = 100 },
+  { line = "g|jlHe`{p@bJr@nF`CxDbExOnUjH|FzFxAbv@vHlG~B|BxB`]bk@tG`RfBtJjA`PLpMm@pZ", v = 90 },
+  { line = "{relHo{tp@JlF", v = 40 },
+]
+posts = [[13, 49.46166, 8.17787], [12, 49.45403, 8.18453], [11, 49.44572, 8.18924], [10, 49.43707, 8.19227], [9, 49.43052, 8.20102], [8, 49.42168, 8.20045], [7, 49.41336, 8.19626], [6, 49.40515, 8.19076], [5, 49.39659, 8.18565], [4, 49.38965, 8.17809], [3, 49.38188, 8.17221], [2, 49.37313, 8.17006], [1, 49.36534, 8.16413], [0, 49.3566, 8.16159], [-1, 49.35047, 8.15157]]
+
+[[connections]]
+km = -1.827
+station = "Neustadt Hauptbahnhof"
+lines = [
+  { id = "3280", ref = "3280", name = "3280 Homburg - Ludwigshafen", km = 77.179 },
+  { id = "3433", ref = "3433", name = "3433 Neustadt (Weinstr) Hbf - Kapsweyer Grenze", km = 0.023 },
+  { id = "3450", ref = "3450", name = "3450 Rheinsheim - Rohrbach (Saar)", km = 77.179 },
+]
+
+[[connections]]
+km = -0.382
+station = "Neustadt-Böbig"
+lines = [
+  { id = "3280", ref = "3280", name = "3280 Homburg - Ludwigshafen", km = 78.66 },
+  { id = "3450", ref = "3450", name = "3450 Rheinsheim - Rohrbach (Saar)", km = 78.66 },
+]
+
+[[connections]]
+km = 13.528
+station = "Bad Dürkheim"
+lines = [
+  { id = "3430", ref = "3430", name = "3430 Bad Dürkheim - Monsheim", km = 13.563 },
+]

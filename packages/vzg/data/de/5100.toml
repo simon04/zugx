@@ -1,0 +1,83 @@
+id = "5100"
+ref = "5100"
+name = "5100 Bamberg - Hof Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q473801"
+from = "Bamberg"
+to = "Hof Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.054
+kmTo = 6.211
+length = 6.24
+speeds = [[-0.054, 0.241, 140, 140], [0.241, 2.537, 160, 160], [2.537, 2.613, 100, 100], [2.613, 3.089, 160, 160], [3.089, 3.179, 60, 60], [3.179, 3.366, 100, ""], [3.366, 6.211, 160, 160]]
+curves = [[1.071, 1.369, 2300], [1.468, 1.704, 2260], [1.803, 2.386, 2190], [3.036, 3.236, 170], [3.761, 3.811, 2770], [3.911, 4.461, 2410], [4.536, 4.786, 2120], [4.861, 5.136, 2280]]
+points = [
+  { km = -0.032, kind = "signal", signal = "brake_test,main_repeated" },
+  { km = -0.009, kind = "signal", signal = "departure", dir = 1 },
+  { km = 0, kind = "station", label = "Bamberg", uic = "8000025", pos = [49.90064, 10.89973], measured = true, ele = 240 },
+  { km = 0.051, kind = "signal", label = "N004", signal = "main,minor,route,traversable", dir = 1 },
+  { km = 0.175, kind = "signal", label = "240", signal = "minor", dir = 1 },
+  { km = 0.241, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.372, kind = "signal", label = "241", signal = "minor", dir = 1 },
+  { km = 0.45, kind = "signal", label = "242", signal = "minor", dir = -1 },
+  { km = 0.518, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 0.65, kind = "signal", label = "243", signal = "minor", dir = -1 },
+  { km = 0.735, kind = "signal", label = "Vp053", signal = "distant", dir = -1 },
+  { km = 1.057, kind = "signal", label = "G053", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 1.196, kind = "signal", label = "31V31", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.244, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.99, kind = "signal", label = "31WV31", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.06, kind = "signal", label = "Vg053", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.192, kind = "signal", label = "31 31", signal = "main,speed_limit", dir = 1 },
+  { km = 2.517, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.789, kind = "signal", label = "32Vb", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.43, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.432, kind = "signal", label = "32Vaa", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.678, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.021, kind = "signal", label = "31 41", signal = "main,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 4.159, kind = "signal", label = "Vg054", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.247, kind = "signal", label = "31WV41", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.979, kind = "signal", label = "31V41", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.189, kind = "signal", label = "G054", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 5.451, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 5.485, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.486, kind = "signal", label = "Vp054", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 5.516, kind = "signal", label = "233", signal = "minor", dir = 1 },
+  { km = 5.581, kind = "signal", label = "232", signal = "minor", dir = 1 },
+  { km = 5.67, kind = "signal", label = "231II", signal = "minor", dir = -1 },
+  { km = 5.771, kind = "signal", label = "231I", signal = "minor", dir = 1 },
+  { km = 5.847, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 5.987, kind = "signal", label = "N030", signal = "main,minor,route,traversable", dir = -1 },
+  { km = 5.988, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.989, kind = "signal", signal = "departure", dir = -1 },
+  { km = 6.088, kind = "signal", signal = "departure", dir = -1 },
+  { km = 6.089, kind = "signal", signal = "brake_test,main_repeated" },
+  { km = 6.166, kind = "signal", signal = "departure", dir = -1 },
+  { km = 6.167, kind = "signal", signal = "brake_test,main_repeated" },
+  { km = 62.4, kind = "stop", label = "Bamberg", uic = "8000025", pos = [49.90086, 10.89952], measured = true },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ggqoHsxoaA}l@nt@gI~HcL`IaMvFmPbEkOfAmYG", v = 160 },
+  { line = "{vuoHe_maAoIQ", v = 100 },
+  { line = "kavoHw_maA_D_@", v = 60 },
+  { line = "kfvoHw`maAt[`@", v = 160 },
+  { line = "uiuoHu_maA`CC", v = 100 },
+  { line = "seuoHy_maAdM?jK_AjO{D`MwFjS_Ppc@ci@", v = 160 },
+  { line = "usqoHqjoaAhKmM", v = 140 },
+]
+posts = [[6, 49.90236, 10.8977], [5, 49.90963, 10.88949], [4, 49.91812, 10.88525], [3, 49.9255, 10.88535], [2, 49.91603, 10.88579], [1, 49.90784, 10.89136], [0, 49.90125, 10.89908]]
+
+[[connections]]
+km = 0
+station = "Bamberg"
+lines = [
+  { id = "5102", ref = "5102", name = "5102 Bamberg - Rottendorf", km = 0 },
+  { id = "5900", ref = "5900", name = "5900 Nürnberg - Bamberg", km = 0 },
+  { id = "5919", ref = "5919", name = "5919 Eltersdorf - Leipzig Hbf", km = 0 },
+]

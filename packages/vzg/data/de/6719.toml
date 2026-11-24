@@ -1,0 +1,36 @@
+id = "6719"
+ref = "6719"
+name = "6719 Greußen–Keula"
+operator = "RbT Regiobahn Thüringen"
+gauge = "1435"
+wikidata = "Q997332"
+from = "Greußen"
+to = "Keula"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 9.637
+length = 9.637
+speeds = [[0, 0.395, 40, 40], [0.395, 0.872, 30, 30], [0.872, 3.352, 20, 20], [3.352, 3.583, 10, 10], [3.583, 9.637, 20, 20]]
+curves = [[0.1, 0.525, 1100], [0.625, 0.825, 770], [1.175, 1.625, 1930], [2.05, 2.225, 930], [2.325, 2.7, 640], [2.75, 2.9, 1150], [3.2, 3.85, 320], [3.925, 4.425, 370], [4.625, 5.05, 350], [5.225, 6.25, 430], [6.3, 6.65, 330], [6.85, 7.375, 330], [7.625, 8.075, 330], [8.15, 8.525, 610]]
+points = [
+  { km = 0.083, kind = "signal", label = "D", signal = "main", dir = -1 },
+  { km = 0.39, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.733, kind = "signal", label = "I", signal = "combined", dir = -1, measured = true },
+  { km = 0.734, kind = "signal", label = "H", signal = "main", dir = 1 },
+  { km = 1.647, kind = "signal", label = "Vi", signal = "distant", dir = -1 },
+  { km = 1.747, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.553, kind = "signal", signal = "crossing", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "k_gxHyabaAp@`RhBjN", v = 40 },
+  { line = "ozfxHk_aaArGxWtAvL", v = 30 },
+  { line = "eofxHyx_aAfC|\\j@pOH`Qk@|m@hAv\\a@tJaDpS{Edl@", v = 20 },
+  { line = "iufxHc~x`AXfHlBxH", v = 10 },
+  { line = "aqfxHakx`AlEbFjQ`CvFdFtCxIhE|[zA~EhBrCrCjBdQzBrHxB|EvCjE~FlCnJl@rKi@`KiDnQCfInGj]hC|G~CxCnFr@zU{IlC[tEhAxDxEzF`P|AzJ|BlnB", v = 20 },
+]
+posts = [[0, 51.32294, 10.82925], [1, 51.32008, 10.81578], [2, 51.31958, 10.8015], [3, 51.32062, 10.78751], [4, 51.31716, 10.7779], [5, 51.31165, 10.76775], [6, 51.30444, 10.76132], [7, 51.30359, 10.74807], [8, 51.29519, 10.74744], [9, 51.29302, 10.73395]]

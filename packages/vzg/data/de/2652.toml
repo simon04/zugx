@@ -1,0 +1,96 @@
+id = "2652"
+ref = "2652"
+name = "2652 Köln-Deutz - Köln Neurather Ring Strw 2652/2659/2730"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Köln Messe/Deutz"
+to = "Köln Neurather Ring Strw 2652/2659/2730"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.225
+kmTo = 6.822
+length = 7.101
+speeds = [[-0.225, -0.165, 60, 60], [-0.165, -0.085, 40, 40], [-0.085, 0.612, 60, 60], [0.612, 0.8, 80, 80], [0.8, 0.813, 70, 70], [0.813, 6.378, 80, 80], [6.378, 6.822, 110, 110]]
+curves = [[0.126, 0.176, 2410], [0.601, 1.723, 750], [1.898, 2.098, 1050], [2.347, 3.045, 620], [3.12, 3.568, 450], [3.742, 3.876, 1240], [4.178, 4.254, 2620], [4.353, 4.478, 1490], [4.652, 5.241, 590], [5.468, 5.689, 870], [5.796, 6.348, 660], [6.505, 6.73, 850]]
+points = [
+  { km = -0.08, kind = "signal", label = "70ZU2", signal = "combined,minor,route,speed_limit_distant,traversable,wrong_road", dir = -1 },
+  { km = -0.068, kind = "station", label = "Köln Messe/Deutz (tief)", uic = "8073368", pos = [50.9417, 6.97382] },
+  { km = 0.061, kind = "station", label = "Köln Messe/Deutz", uic = "8003368", pos = [50.94123, 6.97546] },
+  { km = 0.231, kind = "signal", label = "70N2", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 0.313, kind = "signal", label = "70N12", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 0.612, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.74, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 1.263, kind = "signal", label = "261", signal = "distant,main", dir = 1 },
+  { km = 1.708, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.033, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.295, kind = "signal", label = "263", signal = "distant,main,traversable", dir = 1 },
+  { km = 2.993, kind = "halt", label = "Köln-Buchforst", uic = "8003364", pos = [50.95353, 7.0043] },
+  { km = 3.02, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.238, kind = "signal", label = "B265", signal = "distant,main,route_distant", dir = 1 },
+  { km = 3.785, kind = "signal", label = "P 005", signal = "main", dir = -1 },
+  { km = 3.847, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.875, kind = "station", label = "Köln-Mülheim", uic = "8000209", pos = [50.95815, 7.01353] },
+  { km = 4.202, kind = "signal", label = "N 005", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 4.302, kind = "signal", signal = "route", dir = 1 },
+  { km = 5.074, kind = "signal", label = "G 504", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 5.194, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.328, kind = "signal", label = "U 504", signal = "main", dir = 1 },
+  { km = 5.702, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.218, kind = "signal", label = "K202", signal = "main", dir = -1 },
+  { km = 6.378, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.658, kind = "signal", label = "248", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 6.784, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.106, kmTo = -0.068, length = 38 },
+  { kind = "bridge", kmFrom = 0.332, kmTo = 0.358, length = 26 },
+  { kind = "tunnel", kmFrom = 0.813, kmTo = 0.975, length = 162 },
+  { kind = "bridge", kmFrom = 2.193, kmTo = 2.209, length = 16 },
+  { kind = "bridge", kmFrom = 2.759, kmTo = 2.778, length = 18 },
+  { kind = "bridge", kmFrom = 2.981, kmTo = 3.004, length = 23 },
+  { kind = "bridge", kmFrom = 3.69, kmTo = 3.708, length = 18 },
+  { kind = "bridge", kmFrom = 4.623, kmTo = 4.647, length = 23 },
+  { kind = "bridge", kmFrom = 5.571, kmTo = 5.579, length = 10 },
+  { kind = "bridge", kmFrom = 6.029, kmTo = 6.047, length = 18 },
+  { kind = "bridge", kmFrom = 6.533, kmTo = 6.555, length = 24 },
+  { kind = "bridge", kmFrom = 6.658, kmTo = 6.768, length = 123 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wsdvHcvyi@jKdAbMpG", v = 110 },
+  { line = "gycvHkkyi@hGvCnF@xHyClLqKtFqCxToFpDR|CnAvHhHbO`IbZvShOdOhCvEbBdGjB~a@hDdP`DvHfEvErQ~LzUbH`HjDlEnEhDnFbEhN", v = 80 },
+  { line = "_e|uHc{si@jA|L", tunnel = true, v = 80 },
+  { line = "sb|uHemsi@@d@", v = 70 },
+  { line = "qb|uH_lsi@a@rO", v = 80 },
+  { line = "sc|uHk{ri@gGx{@", v = 60 },
+  { line = "{k|uHq~pi@Y~E", v = 40 },
+  { line = "ul|uHqwpi@WfD", v = 60 },
+]
+posts = [[6, 50.97552, 7.01597], [5, 50.96693, 7.02017], [4, 50.95889, 7.01421], [3, 50.95365, 7.00438], [2, 50.94754, 6.99503], [1, 50.93992, 6.98851], [0, 50.94081, 6.97457]]
+
+[[connections]]
+km = -0.068
+station = "Köln Messe/Deutz"
+lines = [
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 0.029 },
+  { id = "2651", ref = "2651", name = "2651 Köln Messe/Deutz - Gießen", km = -0.006 },
+  { id = "2658", ref = "2658", name = "2658 Köln Messe/Deutz - Abzw Köln Bruder Klaus-Siedlung", km = 40.021 },
+  { id = "2659", ref = "2659", name = "2659 Köln Messe/Deutz - Köln Neurather Ring Strw 2652/2659/2730", km = 39.899 },
+  { id = "2660", ref = "2660", name = "2660 Köln-Mülheim - Köln-Kalk", km = 3.666 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 1.04 },
+]
+
+[[connections]]
+km = 3.875
+station = "Köln-Mülheim"
+lines = [
+  { id = "2324", ref = "2324", name = "2324 Mülheim (Ruhr)-Speldorf - Niederlahnstein", km = 60.733 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 3.868 },
+  { id = "2658", ref = "2658", name = "2658 Köln Messe/Deutz - Abzw Köln Bruder Klaus-Siedlung", km = 43.599 },
+  { id = "2659", ref = "2659", name = "2659 Köln Messe/Deutz - Köln Neurather Ring Strw 2652/2659/2730", km = 43.608 },
+  { id = "2660", ref = "2660", name = "2660 Köln-Mülheim - Köln-Kalk", km = -0.079 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 4.991 },
+]

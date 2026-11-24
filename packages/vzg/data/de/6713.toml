@@ -1,0 +1,89 @@
+id = "6713"
+ref = "6713"
+name = "6713 Gräfentonna - Bad Langensalza"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q108391657"
+from = "Gräfentonna"
+to = "Bad Langensalza"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.547
+length = 7.547
+speeds = [[0, 1.302, 80, 80], [1.302, 2.769, 50, 50], [2.769, 3.081, 80, 50], [3.081, 5.763, 80, 80], [5.763, 6.259, 60, 80], [6.259, 6.646, 80, 60], [6.646, 6.682, 80, 70], [6.682, 6.881, 70, 70], [6.881, 7.065, 50, 50], [7.065, 7.547, 60, 60]]
+curves = [[0.4, 0.975, 310], [1.875, 2.15, 640], [2.725, 2.85, 1310], [3.375, 3.5, 1960], [4.5, 4.925, 790], [5.025, 5.175, 640], [6.175, 6.45, 720], [6.7, 6.875, 750]]
+points = [
+  { km = 0.001, kind = "halt", label = "Gräfentonna", uic = "8016681", pos = [51.08967, 10.73359] },
+  { km = 0.087, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.599, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.07, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.301, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.302, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.437, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.608, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.905, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.084, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.437, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.61, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.769, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.913, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.081, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 3.507, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.457, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.61, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 5.763, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.868, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.087, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.253, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.254, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.3, kind = "signal", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 6.448, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.595, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.596, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 6.646, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 6.682, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 6.786, kind = "signal", label = "9721 X", signal = "minor", dir = 1 },
+  { km = 6.788, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 6.834, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 6.835, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.881, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.882, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.064, kind = "signal", label = "97 P1", signal = "main,minor", dir = -1 },
+  { km = 7.065, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.164, kind = "station", label = "Bad Langensalza", pos = [51.10154, 10.64077], uic = "8016578", ele = 207 },
+  { km = 7.284, kind = "signal", label = "97 N1", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 7.412, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.66, kmTo = 0.674, length = 14 },
+  { kind = "bridge", kmFrom = 5.22, kmTo = 5.242, length = 22 },
+  { kind = "bridge", kmFrom = 6.381, kmTo = 6.397, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qmyvHyko`A|SxWjBxE|@dGG~IeAfG}NlZ", v = 80 },
+  { line = "ueyvHiul`AkV`f@wBfGoIz_A", v = 50 },
+  { line = "ikzvHcei`A}Lpw@_QtaBKbQrBn]g@b_B}@zLgFlW", v = 80 },
+  { line = "mr{vHyr~_AgAlG]nG", v = 70 },
+  { line = "su{vH{a~_As@dO", v = 50 },
+  { line = "gw{vHuq}_AmCri@", v = 60 },
+]
+posts = [[0, 51.08969, 10.73357], [1, 51.08656, 10.72287], [2, 51.09268, 10.7124], [3, 51.0952, 10.69869], [4, 51.09809, 10.68515], [5, 51.09924, 10.67123], [6, 51.0992, 10.65694], [7, 51.10139, 10.64326]]
+
+[[connections]]
+km = 0.001
+station = "Gräfentonna"
+lines = [
+  { id = "6714", ref = "6714", name = "6714 Ballstädt–Straußfurt", km = 5.656 },
+]
+
+[[connections]]
+km = 7.164
+station = "Bad Langensalza"
+lines = [
+  { id = "6296", ref = "6296", name = "Gotha–Leinefelde", km = 21.347 },
+]

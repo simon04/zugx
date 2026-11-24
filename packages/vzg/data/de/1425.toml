@@ -1,0 +1,35 @@
+id = "1425"
+ref = "1425"
+name = "1425 Bremen Inlandshafen - Bremen Stahlwerke"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Bremen Inlandshafen"
+to = "Bremen Stahlwerke"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.222
+length = 1.222
+speeds = [[0, 1.222, "", ""]]
+curves = [[0.1, 0.325, 460], [0.375, 1.1, 410]]
+points = [
+  { km = 0.028, kind = "signal", label = "B", signal = "main", dir = 1 },
+  { km = 0.053, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.304, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.316, kind = "signal", label = "A", signal = "main,speed_limit", dir = -1 },
+  { km = 1.033, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.051, kind = "signal", label = "F", signal = "main", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.611, kmTo = 0.648, length = 37 },
+  { kind = "bridge", kmFrom = 0.881, kmTo = 0.918, length = 37 },
+  { kind = "bridge", kmFrom = 1.145, kmTo = 1.176, length = 31 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "iqjcI}lct@lC{G`C_LxDuH`B_KOuRsEySk@uP" },
+]
+posts = [[0, 53.14341, 8.70623], [1, 53.14167, 8.71924]]

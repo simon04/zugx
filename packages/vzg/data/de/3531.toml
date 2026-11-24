@@ -1,0 +1,29 @@
+id = "3531"
+ref = "3531"
+name = "3531 Abzw Kostheim - Abzw Kostheim Ost"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Kostheim"
+to = "Kostheim Ost"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.758
+length = 1.758
+speeds = [[0, 1.758, 80, 80]]
+curves = [[0.575, 0.8, 1740], [1.35, 1.65, 310]]
+points = [
+  { km = 0.594, kind = "signal", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.835, kmTo = 0.847, length = 11 },
+  { kind = "bridge", kmFrom = 1.491, kmTo = 1.506, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "iyepHciwq@[oz@nDk}@j@qFxA}ElCoDvBgA", v = 80 },
+]
+posts = [[0, 50.00613, 8.3165], [1, 50.0059, 8.33045]]

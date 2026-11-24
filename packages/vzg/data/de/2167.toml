@@ -1,0 +1,49 @@
+id = "2167"
+ref = "2167"
+name = "2167 Bochum-Dahlhausen Bez West - Bochum-Dahlhausen"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q108102437"
+from = "Bochum-Dahlhausen Bez West"
+to = "Bochum-Dahlhausen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.249
+length = 2.249
+speeds = [[0, 2.249, 100, 100]]
+curves = [[0.15, 1.125, 950], [1.475, 1.65, 1040], [1.9, 2.125, 620]]
+points = [
+  { km = 0.187, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.495, kind = "station", label = "Bochum-Dahlhausen Eisenbahnmuseum", pos = [51.4323, 7.12318] },
+  { km = 1.684, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.923, kind = "station", label = "Bochum-Dahlhausen", pos = [51.42638, 7.14077], uic = "8001038" },
+  { km = 1.939, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.987, kind = "signal", label = "N301", signal = "main,minor,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.68, kmTo = 0.708, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wa|xHy{lj@kCkUy@yQH}MlAkNtDyP`Qwd@`Jgc@~BcGfD_F", v = 100 },
+]
+posts = [[0, 51.43084, 7.11629], [1, 51.43066, 7.13014], [2, 51.42588, 7.14226]]
+
+[[connections]]
+km = 0.495
+station = "Bochum-Dahlhausen Eisenbahnmuseum"
+lines = [
+  { id = "2165", ref = "2165", name = "2165 Essen-Überruhr - Bochum-Langendreer", km = 5.554 },
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 43.245 },
+]
+
+[[connections]]
+km = 1.923
+station = "Bochum-Dahlhausen"
+lines = [
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 44.8 },
+]

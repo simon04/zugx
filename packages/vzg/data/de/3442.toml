@@ -1,0 +1,81 @@
+id = "3442"
+ref = "3442"
+name = "3442 Winden – Bad Bergzabern"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q1792964"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.734
+kmTo = 9.97
+length = 9.269
+speeds = [[0.734, 0.878, "", 40], [0.878, 1.314, "", 60], [1.314, 1.483, 60, 60], [1.483, 1.717, 60, 80], [1.717, 3.352, "", 80], [3.352, 3.361, 60, 60], [3.361, 4.958, 80, 80], [4.958, 7.02, 60, 80], [7.02, 7.19, 60, 70], [7.19, 7.209, 20, 70], [7.209, 7.314, 70, 20], [7.314, 8.811, 70, 60], [8.811, 9.586, 70, 70], [9.586, 9.97, "", ""]]
+curves = [[0.852, 1.458, 350], [2.655, 2.906, 1210], [4.709, 4.758, 2580], [5.437, 5.68, 1300], [5.897, 6.089, 1330], [7.076, 7.244, 900], [7.462, 7.684, 880], [7.97, 8.095, 880], [8.145, 8.32, 820], [9.095, 9.395, 520], [9.57, 9.795, 550]]
+points = [
+  { km = 0.878, kind = "signal", label = "A", signal = "main", dir = -1 },
+  { km = 1.277, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.314, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.483, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.717, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.959, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 2.021, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.097, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.176, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.352, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.353, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.36, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.361, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.536, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.605, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.405, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.545, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.791, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 4.812, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 4.833, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 4.845, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.957, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.958, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.976, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.011, kind = "stop", label = "Barbelroth", pos = [49.10406, 8.07011], uic = "8000802" },
+  { km = 5.045, kind = "signal", signal = "stop,whistle", dir = 1 },
+  { km = 5.191, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.2, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 5.332, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.434, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 5.606, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.42, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.712, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.794, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 7.02, kind = "signal", signal = "crossing,speed_limit", dir = -1 },
+  { km = 7.026, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.052, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 7.19, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.22, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.232, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.314, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 7.393, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 7.745, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 7.814, kind = "signal", label = "ÜS2", signal = "crossing", dir = -1 },
+  { km = 7.842, kind = "stop", label = "Kapellen-Drusweiler", pos = [49.10559, 8.03093], uic = "8003175" },
+  { km = 8.3, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 8.811, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.067, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 9.586, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.667, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.813, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 9.923, kind = "station", label = "Bad Bergzabern", pos = [49.10324, 8.00337], uic = "8000691" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "anujHo}yo@QiViAyG" },
+  { line = "}pujHs}zo@iFcRiAcLFomAiAsPa@yg@NcEvD{YZiL", v = 70 },
+  { line = "qvujHcuap@hBcuAsA_p@tBmaAnAqsB", v = 80 },
+  { line = "uoujHgskp@@U", v = 60 },
+  { line = "soujH}skp@Lms@kLagB", v = 80 },
+  { line = "q|ujHmppp@_@yLlAcKfDcHfFeD", v = 60 },
+  { line = "snujHuxqp@bGK", v = 40 },
+]
+posts = [[9, 49.10521, 8.01494], [8, 49.10557, 8.02861], [7, 49.10456, 8.04222], [6, 49.10405, 8.05646], [5, 49.10409, 8.07041], [4, 49.10366, 8.08408], [3, 49.10336, 8.09777], [2, 49.10466, 8.11128], [1, 49.1043, 8.12377]]

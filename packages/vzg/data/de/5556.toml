@@ -1,0 +1,98 @@
+id = "5556"
+ref = "5556"
+name = "5556 München-Johanneskirchen - München Flughafen Terminal"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "München-Johanneskirchen"
+to = "München Flughafen Terminal"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 8.014
+kmTo = 33.202
+length = 25.319
+speeds = [[8.014, 8.711, 80, 80], [8.711, 29.186, 120, 120], [29.186, 29.473, 100, 120], [29.473, 31.622, 100, 100], [31.622, 33.1, 80, 100], [33.1, 33.202, 100, 80]]
+curves = [[8.259, 8.434, 1580], [8.734, 9.215, 820], [9.934, 10.307, 1430], [12.804, 13.269, 2090], [13.345, 13.498, 1590], [13.574, 13.905, 2150], [14.783, 14.878, 1350], [15.02, 15.421, 1250], [21.92, 22.128, 2580], [22.654, 22.88, 2460], [23.13, 23.553, 1890], [25.924, 25.976, 2760], [26.569, 26.672, 2280], [27.059, 27.162, 2690], [27.961, 28.858, 2040], [29.165, 29.945, 1130]]
+points = [
+  { km = 8.711, kind = "signal", label = "2BB", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 8.912, kind = "signal", label = "WV2bb", signal = "distant", dir = -1 },
+  { km = 9.688, kind = "signal", label = "V2bb", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 9.8, kind = "stop", label = "Unterföhring", uic = "8005986", pos = [48.19024, 11.64689], measured = true },
+  { km = 9.826, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.903, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.929, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.386, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 11.41, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 11.951, kind = "signal", label = "V3a", signal = "distant", dir = 1 },
+  { km = 12.953, kind = "signal", label = "3A", signal = "main,traversable", dir = 1 },
+  { km = 13.108, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 13.348, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 13.538, kind = "signal", label = "V3n2", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 14.512, kind = "signal", label = "WV3n2", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 14.513, kind = "signal", label = "3P2", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 14.6, kind = "station", label = "Ismaning", uic = "8003092", pos = [48.2258, 11.67945], measured = true },
+  { km = 14.644, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.665, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.721, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.724, kind = "signal", label = "3N2", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 14.726, kind = "signal", label = "WV3p2", signal = "distant", dir = -1 },
+  { km = 15.309, kind = "signal", label = "311", signal = "minor", dir = -1 },
+  { km = 15.873, kind = "signal", label = "3FF", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 16.902, kind = "signal", label = "V3ff", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 18.307, kind = "signal", label = "V857", signal = "distant", dir = 1 },
+  { km = 19.301, kind = "signal", label = "857", signal = "main,traversable", dir = 1 },
+  { km = 23.612, kind = "signal", label = "V859", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 24.482, kind = "signal", signal = "stop", dir = 1 },
+  { km = 24.5, kind = "stop", label = "Hallbergmoos", uic = "8002534", pos = [48.30932, 11.71438], measured = true },
+  { km = 24.524, kind = "signal", signal = "stop", dir = 1 },
+  { km = 24.566, kind = "signal", signal = "stop", dir = 1 },
+  { km = 24.593, kind = "signal", label = "859", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 25.23, kind = "signal", label = "896", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 26.242, kind = "signal", label = "V896", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 28.163, kind = "signal", label = "V5a", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 29.186, kind = "signal", label = "5A", signal = "main,speed_limit", dir = 1 },
+  { km = 29.473, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 30.493, kind = "signal", label = "5P1", signal = "main,route,wrong_road", dir = -1 },
+  { km = 30.606, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 31.394, kind = "signal", label = "5U1", signal = "distant,main,route_distant", dir = -1 },
+  { km = 31.5, kind = "station", label = "München Flughafen Besucherpark", uic = "8004167", pos = [48.3521, 11.76374], measured = true },
+  { km = 31.622, kind = "signal", label = "Vk5t1", signal = "distant,speed_limit", dir = 1 },
+  { km = 32.355, kind = "signal", label = "5T1", signal = "distant,main", dir = 1 },
+  { km = 32.823, kind = "signal", label = "V5u1", signal = "distant", dir = -1 },
+  { km = 32.867, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 32.996, kind = "signal", label = "5S1", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 33.1, kind = "stop", label = "Flughafen München", uic = "8004168", pos = [48.35382, 11.78611], measured = true },
+  { km = 33.1, kind = "station", label = "München Flughafen Terminal", uic = "8004168", pos = [48.35377, 11.78613] },
+  { km = 33.202, kind = "signal", label = "5N1", signal = "main,minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 8.511, kmTo = 8.618, length = 108 },
+  { kind = "bridge", kmFrom = 9.117, kmTo = 9.151, length = 43 },
+  { kind = "tunnel", kmFrom = 9.488, kmTo = 10.963, length = 1432, name = "Unterföhringer Tunnel" },
+  { kind = "bridge", kmFrom = 11.2, kmTo = 11.263, length = 68 },
+  { kind = "tunnel", kmFrom = 13.405, kmTo = 15.069, length = 1668, name = "Ismaninger Tunnel" },
+  { kind = "tunnel", kmFrom = 22.005, kmTo = 22.06, length = 55 },
+  { kind = "bridge", kmFrom = 22.619, kmTo = 22.641, length = 22 },
+  { kind = "bridge", kmFrom = 22.654, kmTo = 22.684, length = 30 },
+  { kind = "bridge", kmFrom = 29.245, kmTo = 29.294, length = 47 },
+  { kind = "bridge", kmFrom = 29.971, kmTo = 29.996, length = 32 },
+  { kind = "tunnel", kmFrom = 32.355, kmTo = 33.202, length = 863 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_ccfHwf}fAtDngA", tunnel = true, v = 100 },
+  { line = "i}bfHg~zfA~NxnEtArP|BvM", v = 100 },
+  { line = "ufbfHansfA|FjQfOzYzFtI|OhPvNvIj^hPbSbGrMnBt\\`B`OdBfoAdZ", v = 120 },
+  { line = "yezeHu{nfAVF", tunnel = true, v = 120 },
+  { line = "aezeHm{nfAlr@jQdNr@jUO`e@nD", v = 120 },
+  { line = "_fveHmbnfA`BF", tunnel = true, v = 120 },
+  { line = "}bveHebnfAp_AeBrw@~BpMhArQ~CrYfJvW~M~VnRzlBlsB|FvEzHhD", v = 120 },
+  { line = "o}jeHykhfAtMfDnt@bK`IrBjLbF", tunnel = true, v = 120 },
+  { line = "{aheHuogfA~LbJzIfJzoAlhB", v = 120 },
+  { line = "cxdeH{ocfA`b@jk@~^pR", tunnel = true, v = 120 },
+  { line = "aubeH}oafAfUlJbI^vHiA", v = 120 },
+  { line = "}jaeHyeafAtSqE~P}@", v = 80 },
+]
+posts = [[33, 48.35372, 11.78474], [32, 48.35264, 11.77099], [31, 48.3516, 11.75744], [30, 48.35052, 11.74339], [29, 48.34678, 11.73226], [28, 48.3398, 11.72447], [27, 48.33155, 11.7202], [26, 48.3229, 11.71877], [25, 48.3141, 11.71607], [24, 48.30517, 11.71288], [23, 48.29624, 11.71084], [22, 48.28731, 11.70995], [21, 48.27826, 11.71043], [20, 48.26942, 11.70995], [19, 48.26054, 11.70786], [18, 48.25218, 11.70272], [17, 48.24475, 11.69523], [16, 48.23769, 11.68769], [15, 48.22952, 11.68054], [14, 48.22056, 11.6783], [13, 48.21238, 11.67364], [12, 48.20575, 11.66519], [11, 48.19883, 11.65615], [10, 48.19173, 11.64784], [9, 48.18368, 11.64364]]

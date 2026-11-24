@@ -1,0 +1,41 @@
+id = "5351"
+ref = "5351"
+name = "Mittelschwabenbahn"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 4
+kmTo = 15.8
+length = 11.889
+speeds = [[4, 4.978, 80, 80], [4.978, 5.022, "", ""], [5.022, 6.712, "", 80], [6.712, 7.117, 80, 60], [7.117, 15.8, "", ""]]
+curves = [[4.17, 4.896, 680], [4.993, 5.598, 680], [6.736, 6.978, 520], [7.028, 7.304, 610], [7.53, 7.681, 1320], [7.731, 7.907, 900], [8.409, 8.786, 730], [8.987, 9.062, 2100], [9.137, 9.813, 510], [9.988, 10.238, 550], [10.462, 10.587, 1860], [11.261, 11.461, 1320], [12.036, 12.135, 2100], [12.335, 12.735, 310], [12.785, 13.36, 620], [13.56, 13.985, 1290], [14.66, 14.986, 650], [15.061, 15.511, 680]]
+points = [
+  { km = 4.016, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 6.677, kind = "stop", label = "Kleinkötz", pos = [48.41184, 10.28846] },
+  { km = 6.712, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.826, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.097, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.117, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.125, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.309, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.362, kind = "stop", label = "Hochwang", pos = [48.38897, 10.29813] },
+  { km = 11.36, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.524, kind = "halt", label = "Ichenhausen", uic = "8003038", pos = [48.37009, 10.30214] },
+  { km = 12.511, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 15.8, kind = "halt", label = "Ellzee", uic = "8002095", pos = [48.34222, 10.33838] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.978, kmTo = 5.022, length = 46 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}nrfH{iu}@|L_@vEgAfEeC`HsJjCgIrBmK", v = 80 },
+  { line = "}bqfHssv}@`@oB" },
+  { line = "{aqfHcwv}@`E}M|CcFhEwDhiAm\\lDuBdH_L", v = 80 },
+  { line = "swmfHaay}@tDsCbRaFtKqE|_@eFhNgGx]_D`DoApHiHxBeAfEOzOpDtDGfVcGrl@wFrc@iNvP{CdD_B`B{BfAeDjCeWhFaOhCaE|RmMbE}DvH_Lx\\wm@`BiIzBeT|DiM`MeQ|BsB" },
+]
+posts = [[4, 48.43263, 10.27246], [5, 48.4255, 10.27942], [6, 48.41789, 10.28611], [7, 48.40919, 10.29045], [8, 48.40088, 10.29478], [9, 48.39215, 10.29741], [10, 48.38362, 10.29932], [11, 48.37475, 10.30115], [12, 48.36597, 10.3039], [13, 48.35981, 10.3115], [14, 48.35269, 10.31939], [15, 48.34709, 10.32972]]

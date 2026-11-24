@@ -1,0 +1,56 @@
+id = "1214"
+ref = "1214"
+name = "1214 Wilster - Brunsbüttel"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q22807319"
+from = "Wilster"
+to = "Brunsbüttel"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.434
+kmTo = 15.859
+length = 16.255
+speeds = [[-0.434, -0.152, 40, 40], [-0.152, 0.382, 50, 40], [0.382, 3.052, 50, 50], [3.052, 3.06, "", ""], [3.06, 14.391, 50, 50], [14.391, 15.859, 25, 25]]
+curves = [[-0.304, -0.254, 1610], [-0.154, -0.004, 1470], [0.121, 0.271, 1010], [0.446, 0.521, 1960], [9.342, 9.392, 2210], [9.517, 9.819, 1610], [9.869, 10.044, 2210], [10.195, 10.873, 730], [11.174, 11.299, 2210], [11.701, 12.127, 700], [12.629, 13.207, 1050], [14.009, 14.159, 1470], [14.234, 14.509, 1450], [14.784, 14.959, 1580]]
+points = [
+  { km = -0.152, kind = "signal", signal = "main", dir = -1 },
+  { km = -0.011, kind = "station", label = "Wilster", uic = "8006460", pos = [53.92625, 9.38365] },
+  { km = 0.247, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.382, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.407, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.55, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.767, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.865, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.123, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.396, kind = "signal", signal = "main", dir = 1 },
+  { km = 11.178, kind = "signal", signal = "main", dir = -1 },
+  { km = 11.547, kind = "signal", signal = "distant", dir = -1 },
+  { km = 13.117, kind = "signal", signal = "distant", dir = 1 },
+  { km = 13.543, kind = "signal", signal = "main", dir = 1 },
+  { km = 13.557, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 14.385, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.391, kind = "signal", signal = "shunting", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.319, kmTo = 1.336, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ov}gIas{v@qh@mx@oRcc@", v = 25 },
+  { line = "qs_hIsp~v@iIw[m[_`AeCuJeBaL}@cL{A_}@oAiPkCiLqPkc@cJuZwCgMwAgNIqT~Fst@^qL?cTiXewQ", v = 50 },
+  { line = "ebchIot~w@AW" },
+  { line = "gbchIgu~w@iCmkBNwnCa@oT}Co]", v = 50 },
+  { line = "alchImehx@eEyW", v = 40 },
+]
+posts = [[15, 53.90288, 9.16603], [14, 53.9085, 9.17782], [13, 53.91368, 9.19021], [12, 53.91495, 9.20518], [11, 53.92, 9.21761], [10, 53.92093, 9.2319], [9, 53.92053, 9.24699], [8, 53.92122, 9.26216], [7, 53.92186, 9.27733], [6, 53.92249, 9.29251], [5, 53.92312, 9.30768], [4, 53.92376, 9.32297], [3, 53.92439, 9.33812], [2, 53.92501, 9.35335], [1, 53.92498, 9.36859], [0, 53.92552, 9.38378]]
+
+[[connections]]
+km = -0.011
+station = "Wilster"
+lines = [
+  { id = "1210", ref = "1210", name = "1210 Elmshorn, W 104 - Westerland (Sylt)", km = 74.192 },
+]

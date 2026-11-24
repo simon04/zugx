@@ -1,0 +1,49 @@
+id = "6089"
+ref = "6089"
+name = "6089 Birkenwerder (b Berlin) - Hohen Neuendorf West"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131720453"
+from = "Birkenwerder (b Berlin)"
+to = "Hohen Neuendorf West"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.689
+length = 2.689
+speeds = [[0, 1.362, 100, 100], [1.362, 2.689, "", ""]]
+curves = [[0.1, 0.15, 2050], [0.375, 1.1, 640]]
+points = [
+  { km = 0.089, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.165, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.807, kind = "signal", label = "60 C", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.915, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.172, kind = "signal", label = "617", signal = "combined,traversable", dir = 1 },
+  { km = 1.833, kind = "signal", label = "614", signal = "combined,minor,traversable", dir = -1 },
+  { km = 1.838, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.862, kind = "station", label = "Hohen Neuendorf West", pos = [52.67235, 13.27132], uic = "8003562" },
+  { km = 1.919, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.949, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.461, kind = "signal", label = "627", signal = "main,minor,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.631, kmTo = 1.648, length = 17 },
+  { kind = "bridge", kmFrom = 2.459, kmTo = 2.501, length = 42 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gqp`IgmbpAhYbF|DpBrDlD~CdFbDpJtFl`@", v = 100 },
+  { line = "qyn`I}h`pAdVzsB" },
+]
+posts = [[0, 52.6826, 13.28868], [1, 52.67482, 13.28279], [2, 52.67192, 13.26875]]
+
+[[connections]]
+km = 1.862
+station = "Hohen Neuendorf West"
+lines = [
+  { id = "6087", ref = "6087", name = "6087 Karower Kreuz - Priort", km = 16.129 },
+  { id = "6183", ref = "6183", name = "6183 Berlin-Schönholz - Kremmen", km = 16.128 },
+]

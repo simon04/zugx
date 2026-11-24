@@ -1,0 +1,37 @@
+id = "1704"
+ref = "1704"
+name = "Ahlem - Abzw Hannover Kurve"
+gauge = "1435"
+wikidata = "Q110548152"
+from = "Ahlem"
+to = "Hannover Kurve"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.991
+kmTo = 0.999
+length = 1.968
+speeds = [[-0.991, 0.999, "", ""]]
+curves = [[-0.873, -0.823, 910], [-0.048, 0.899, 390]]
+points = [
+  { km = -0.853, kind = "signal", label = "P", signal = "main,speed_limit", dir = -1 },
+  { km = -0.219, kind = "signal", label = "J", signal = "main,route", dir = 1 },
+  { km = 0.055, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.276, kind = "signal", label = "G", signal = "main", dir = -1 },
+  { km = 0.278, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.751, kind = "signal", label = "73", signal = "main,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.432, kmTo = -0.412, length = 21 },
+  { kind = "bridge", kmFrom = -0.061, kmTo = -0.033, length = 28 },
+  { kind = "bridge", kmFrom = 0.164, kmTo = 0.235, length = 65 },
+  { kind = "bridge", kmFrom = 0.521, kmTo = 0.584, length = 58 },
+  { kind = "bridge", kmFrom = 0.844, kmTo = 0.865, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gqx~H_y~y@vB|P`EbIxCtBtCj@nCKrCkAbIoIj^kaArD{F" },
+]
+posts = [[0, 52.3894, 9.66302]]

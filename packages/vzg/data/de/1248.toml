@@ -1,0 +1,48 @@
+id = "1248"
+ref = "1248"
+name = "1248 Hamburg Süd - Abzw Hamburg-Veddel"
+operator = "DB Netz AG;HPA"
+gauge = "1435"
+wikidata = "Q23045944"
+from = "Hamburg Süd"
+to = "Hamburg-Veddel"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 29.982
+kmTo = 30.702
+length = 0.7
+speeds = [[29.982, 30.437, 30, 30], [30.437, 30.702, "", ""]]
+curves = [[30.091, 30.403, 200], [30.528, 30.578, 1340]]
+points = [
+  { km = 30.082, kind = "signal", signal = "distant", dir = 1 },
+  { km = 30.176, kind = "signal", label = "V", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 30.197, kind = "halt", label = "Hamburg-Veddel", uic = "8006062", pos = [53.52146, 10.01322] },
+  { km = 30.498, kind = "signal", label = "P50", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 30.561, kind = "signal", signal = "radio" },
+  { km = 30.582, kind = "signal", label = "v", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 30.587, kind = "signal", signal = "distant", dir = -1 },
+  { km = 30.599, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 30.618, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 30.644, kind = "signal", signal = "route_distant,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 30.437, kmTo = 30.466, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ytteIo_b|@z@yGWsHmBeFsEqD", v = 30 },
+  { line = "w}teIu~b|@gLkJ" },
+]
+posts = [[30, 53.52278, 10.00994]]
+
+[[connections]]
+km = 30.197
+station = "Hamburg-Veddel"
+lines = [
+  { id = "1271", ref = "1271", name = "1271 Hamburg Hbf - Hamburg-Neugraben", km = 4.676 },
+  { id = "1280", ref = "1280", name = "1280 Buchholz - Abzw Hamburg-Allermöhe", km = 36.835 },
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 350.768 },
+]

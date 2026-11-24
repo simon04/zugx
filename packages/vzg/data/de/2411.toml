@@ -1,0 +1,59 @@
+id = "2411"
+ref = "2411"
+name = "2411 Abzw Düsseldorf-Reisholz - Düsseldorf Streckenwechsel 2410/2411"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q19838714"
+from = "Düsseldorf-Reisholz Abzw"
+to = "Düsseldorf Streckenwechsel 2410/2411"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 30.567
+kmTo = 36.536
+length = 5.898
+speeds = [[30.567, 36.536, "", ""]]
+curves = [[31.722, 32.118, 1570], [34.838, 35.013, 1140], [35.813, 35.963, 1130]]
+points = [
+  { km = 30.711, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 30.729, kind = "signal", signal = "distant", dir = 1 },
+  { km = 30.996, kind = "signal", signal = "main", dir = -1 },
+  { km = 30.999, kind = "halt", label = "Düsseldorf-Reisholz", uic = "8001594", pos = [51.18134, 6.86041] },
+  { km = 31.673, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 32.081, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 32.11, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 32.312, kind = "signal", label = "08 H", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 33.311, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 33.531, kind = "halt", label = "Düsseldorf-Eller Süd", uic = "8001588", pos = [51.19799, 6.83625] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 30.805, kmTo = 30.825, length = 20 },
+  { kind = "bridge", kmFrom = 33.442, kmTo = 33.457, length = 15 },
+  { kind = "bridge", kmFrom = 34.114, kmTo = 34.13, length = 16 },
+  { kind = "tunnel", kmFrom = 34.988, kmTo = 35.077, length = 89 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cvjwHuo{h@at@ju@iJjMmfAlyBwg@tiA" },
+  { line = "ufpwHyesh@{BbD", tunnel = true },
+  { line = "qjpwHu`sh@eb@ho@q]|[" },
+]
+posts = [[31, 51.18124, 6.86014], [32, 51.18825, 6.85269], [33, 51.19475, 6.84169], [34, 51.20053, 6.83162], [35, 51.20644, 6.82082], [36, 51.21334, 6.81164]]
+
+[[connections]]
+km = 30.999
+station = "Düsseldorf-Reisholz"
+lines = [
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 30.991 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 30.924 },
+]
+
+[[connections]]
+km = 33.531
+station = "Düsseldorf-Eller Süd"
+lines = [
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 33.532 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 33.535 },
+]

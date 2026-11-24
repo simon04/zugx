@@ -1,0 +1,28 @@
+id = "6112"
+ref = "6112"
+name = "6112 Abzw Potsdam Wildpark West - Werder (Havel)"
+operator = "DB InfraGO"
+wikidata = "Q131705534"
+from = "Potsdam Wildpark West"
+to = "Werder (Havel)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.106
+kmTo = 2.993
+length = 3.101
+speeds = [[-0.106, 2.993, "", ""]]
+curves = [[0.07, 0.12, 2470], [0.545, 1.708, 2000]]
+points = [
+  { km = 2.68, kind = "signal", label = "A7", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.558, kmTo = 0.586, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_~w~Hwg~mAkA{zBhAkb@hBgS`EeWzEkRtRgm@" },
+]
+posts = [[2, 52.39307, 12.95415], [1, 52.39223, 12.96858], [0, 52.38764, 12.98149]]

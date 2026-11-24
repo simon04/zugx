@@ -1,0 +1,144 @@
+id = "1761"
+ref = "1761"
+name = "1761 Weetzen - Haste (Han)"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q1183418"
+from = "Weetzen"
+to = "Haste"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.408
+kmTo = 26.455
+length = 26.795
+speeds = [[-0.408, 0.694, "", ""], [0.694, 4.692, 120, 120], [4.692, 5.529, 80, 80], [5.529, 9.617, 120, 120], [9.617, 9.637, "", ""], [9.637, 13.587, 100, 100], [13.587, 13.838, 80, 80], [13.838, 14.218, "", ""], [14.218, 14.781, "", 80], [14.781, 21.126, "", ""], [21.126, 21.599, 60, ""], [21.599, 24.923, 80, ""], [24.923, 26.455, "", ""]]
+curves = [[-0.289, -0.239, 1470], [0.286, 0.716, 730], [2.013, 2.214, 1460], [3.718, 3.993, 1050], [4.977, 5.409, 770], [5.679, 6.526, 730], [6.785, 7.172, 890], [8.07, 8.21, 1380], [8.636, 8.91, 1150], [9.748, 10.322, 750], [11.499, 11.747, 870], [13.979, 14.029, 2230], [15.332, 15.633, 1170], [16.284, 16.605, 1100], [17.522, 17.669, 1410], [19.024, 19.538, 1160], [19.854, 20.223, 990], [20.645, 21.29, 470], [21.339, 21.564, 590], [21.615, 21.716, 1600], [23.977, 24.605, 830], [26.28, 26.355, 2170]]
+points = [
+  { km = -0.198, kind = "signal", label = "P3", signal = "main,minor,traversable,wrong_road", dir = -1 },
+  { km = -0.079, kind = "station", label = "Weetzen", pos = [52.2985, 9.63544], uic = "8000342" },
+  { km = 0.177, kind = "signal", label = "N3", signal = "main,minor,traversable", dir = 1 },
+  { km = 0.694, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.95, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 1.264, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 2.307, kind = "stop", label = "Lemmie", pos = [52.28526, 9.6093], uic = "8003635" },
+  { km = 2.364, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.499, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.192, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.951, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.954, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.189, kind = "signal", label = "1A/1n", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 4.692, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.806, kind = "signal", label = "1P 102", signal = "main,traversable", dir = -1 },
+  { km = 4.851, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.916, kind = "station", label = "Wennigsen (Deister)", pos = [52.27947, 9.57257], uic = "8006336" },
+  { km = 4.94, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.07, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.075, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 5.119, kind = "signal", label = "1N 102", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 5.529, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.417, kind = "signal", signal = "distant", dir = 1 },
+  { km = 9.02, kind = "signal", label = "2P21", signal = "main,traversable", dir = -1 },
+  { km = 9.037, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.138, kind = "station", label = "Egestorf (Deister)", pos = [52.27872, 9.51363], uic = "8001675" },
+  { km = 9.196, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.248, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.284, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.414, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.433, kind = "signal", label = "2N21", signal = "main", dir = 1 },
+  { km = 9.637, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.939, kind = "signal", label = "2F", signal = "distant,main", dir = -1 },
+  { km = 10.105, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 10.179, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10.639, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 10.639, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 10.67, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 10.67, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 10.935, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.181, kind = "stop", label = "Kirchdorf (Deister)", pos = [52.28978, 9.49196], uic = "8003267" },
+  { km = 11.612, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.988, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 13.29, kind = "signal", label = "P1", signal = "main,minor,traversable", dir = -1 },
+  { km = 13.534, kind = "station", label = "Barsinghausen", pos = [52.30465, 9.46771], uic = "8000812" },
+  { km = 13.587, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.587, kind = "signal", signal = "speed_limit,stop", dir = 1 },
+  { km = 13.663, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.685, kind = "signal", label = "N1", signal = "main,minor", dir = 1 },
+  { km = 14.781, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.817, kind = "signal", signal = "snowplow" },
+  { km = 16.402, kind = "signal", signal = "distant", dir = 1 },
+  { km = 16.443, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 16.508, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 16.508, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 16.549, kind = "stop", label = "Winninghausen", pos = [52.32337, 9.4361], uic = "8006482" },
+  { km = 16.764, kind = "signal", signal = "distant", dir = 1 },
+  { km = 16.872, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 17.583, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 18.094, kind = "signal", label = "1P 11", signal = "main,minor", dir = -1 },
+  { km = 18.101, kind = "signal", signal = "stop", dir = -1 },
+  { km = 18.142, kind = "station", label = "Bantorf", pos = [52.33225, 9.41772], uic = "8000797" },
+  { km = 18.349, kind = "signal", label = "1N11", signal = "main,minor", dir = 1 },
+  { km = 18.493, kind = "signal", label = "LsW23", signal = "minor", dir = -1 },
+  { km = 18.59, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 18.608, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 18.811, kind = "signal", label = "1F", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 20.503, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 21.126, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.283, kind = "stop", label = "Bad Nenndorf", pos = [52.34374, 9.37857], uic = "8000022" },
+  { km = 21.599, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 24.692, kind = "signal", label = "G", signal = "main", dir = 1 },
+  { km = 24.918, kind = "signal", signal = "minor", dir = 1 },
+  { km = 24.977, kind = "signal", signal = "minor", dir = -1 },
+  { km = 25.025, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 25.164, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 25.197, kind = "signal", label = "R41", signal = "distant,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 25.338, kind = "signal", label = "1 I", signal = "minor", dir = 1 },
+  { km = 25.407, kind = "signal", label = "N1", signal = "crossing_distant,main,minor,traversable,wrong_road", dir = -1 },
+  { km = 25.463, kind = "signal", signal = "stop", dir = -1 },
+  { km = 25.603, kind = "station", label = "Haste", pos = [52.37969, 9.38909], uic = "8002634" },
+  { km = 25.686, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 26.229, kind = "signal", label = "P111", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 26.359, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.703, kmTo = 0.736, length = 33 },
+  { kind = "bridge", kmFrom = 0.973, kmTo = 0.988, length = 18 },
+  { kind = "bridge", kmFrom = 2.866, kmTo = 2.889, length = 22 },
+  { kind = "bridge", kmFrom = 4.147, kmTo = 4.167, length = 20 },
+  { kind = "bridge", kmFrom = 12.988, kmTo = 13.04, length = 53 },
+  { kind = "bridge", kmFrom = 14.2, kmTo = 14.218, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ktv~Hyijx@~WpZpj@px@" },
+  { line = "yot~Hutgx@`S`YfGtEnGjBhmCcA", v = 80 },
+  { line = "u|n~Hurfx@nIMlImEhCiC", v = 60 },
+  { line = "mcn~H{}fx@pDaJbBmMFoI{@sm@j@aSpGmj@nEaSbGaOdu@k}Atb@ioAnFyI`c@ci@dEmIjSyh@" },
+  { line = "ych~H_lux@tRkg@", v = 80 },
+  { line = "cpg~Hktvx@vLsY" },
+  { line = "kbg~H_owx@lHiP", v = 80 },
+  { line = "}xf~Hi`xx@liAcfCv}@w}@~FuIrEkOpCuU", v = 100 },
+  { line = "q|a~H}w_y@Hw@" },
+  { line = "g|a~Huy_y@nKakAX}v@mGkdBsByL_Kq]aCyQUoJj@sOxAiKdE{Q", v = 120 },
+  { line = "kab~Hq}jy@hDoOpA_Pi@_i@", v = 80 },
+  { line = "yza~Haimy@cBgbAm@kJw^geC_DiPsg@khB", v = 120 },
+  { line = "wld~Hsxwy@sEsLgDmEgh@yY" },
+]
+posts = [[26, 52.38272, 9.39324], [25, 52.37571, 9.38402], [24, 52.36799, 9.37741], [23, 52.35902, 9.37763], [22, 52.35007, 9.37785], [21, 52.34171, 9.38108], [20, 52.34122, 9.39532], [19, 52.3376, 9.40849], [18, 52.33135, 9.41932], [17, 52.3256, 9.43106], [16, 52.31953, 9.44116], [15, 52.31303, 9.45109], [14, 52.30743, 9.46256], [13, 52.3014, 9.47358], [12, 52.29535, 9.48465], [11, 52.28843, 9.49338], [10, 52.28116, 9.50163], [9, 52.27843, 9.51543], [8, 52.27792, 9.53063], [7, 52.27917, 9.54469], [6, 52.28229, 9.5576], [5, 52.27943, 9.57119], [4, 52.28012, 9.58609], [3, 52.28303, 9.59991], [2, 52.28648, 9.61342], [1, 52.29123, 9.62575], [0, 52.29787, 9.63491]]
+
+[[connections]]
+km = -0.079
+station = "Weetzen"
+lines = [
+  { id = "1760", ref = "1760", name = "1760 Hannover - Soest", km = 15.567 },
+]
+
+[[connections]]
+km = 25.603
+station = "Haste"
+lines = [
+  { id = "1700", ref = "1700", name = "1700 Hannover - Hamm", km = 28.194 },
+]

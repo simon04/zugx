@@ -1,0 +1,33 @@
+id = "5940"
+ref = "5940"
+name = "5940 Nürnberg-Eibach - Abzw Nürnberg Hohe Marter"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q120435299"
+from = "Nürnberg-Eibach"
+to = "Nürnberg Hohe Marter"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.045
+kmTo = 2.13
+length = 1.092
+speeds = [[1.045, 2.13, 60, 60]]
+curves = [[1.145, 1.641, 300], [1.963, 2.013, 1450]]
+points = [
+  { km = 1.094, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.308, kind = "signal", label = "2F", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 1.766, kind = "signal", label = "700", signal = "distant,main", dir = -1 },
+  { km = 1.851, kind = "signal", label = "700", signal = "distant,main,route,traversable", dir = 1 },
+  { km = 2.066, kind = "signal", label = "V2f", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.231, kmTo = 1.308, length = 80 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gdslHiqmbAiEs@eD`@qDjCkBjDwApHgEvn@", v = 60 },
+]
+posts = [[2, 49.42348, 11.04298]]

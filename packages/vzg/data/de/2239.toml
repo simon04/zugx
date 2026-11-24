@@ -1,0 +1,81 @@
+id = "2239"
+ref = "2239"
+name = "2239 Gelsenkirchen Hbf - Wanne-Eickel Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Gelsenkirchen Hbf"
+to = "Wanne-Eickel Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.95
+length = 5.95
+speeds = [[0, 1.423, "", ""], [1.423, 4.785, 80, 80], [4.785, 5.95, "", ""]]
+curves = [[0.125, 0.225, 1350], [0.375, 0.525, 1330], [0.575, 0.725, 1180], [2, 2.35, 1880], [2.425, 2.65, 1730], [4.85, 5.1, 1120], [5.275, 5.575, 1690], [5.725, 5.825, 1040]]
+points = [
+  { km = 0.11, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.186, kind = "signal", signal = "main,minor", dir = -1 },
+  { km = 0.252, kind = "station", label = "Gelsenkirchen Hauptbahnhof", pos = [51.50477, 7.1023], uic = "8000118" },
+  { km = 0.314, kind = "signal", signal = "main_repeated" },
+  { km = 0.337, kind = "stop", label = "Gelsenkirchen Hauptbahnhof", pos = [51.50488, 7.1041] },
+  { km = 0.973, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.976, kind = "signal", label = "N 025", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 1.515, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.715, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 1.716, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.717, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.792, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.827, kind = "signal", label = "G 410", signal = "main,speed_limit", dir = 1 },
+  { km = 2.605, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.712, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.615, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 4.257, kind = "signal", label = "520", signal = "main", dir = -1 },
+  { km = 4.547, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 4.714, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.747, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 4.78, kind = "signal", signal = "minor", dir = 1 },
+  { km = 5.009, kind = "signal", signal = "minor", dir = -1 },
+  { km = 5.138, kind = "signal", signal = "minor", dir = 1 },
+  { km = 5.4, kind = "signal", label = "P7", signal = "distant,main", dir = -1 },
+  { km = 5.654, kind = "station", label = "Herne-Wanne-Eickel Hbf", pos = [51.53124, 7.16612], uic = "8000192" },
+  { km = 5.717, kind = "signal", signal = "main_repeated" },
+  { km = 5.84, kind = "signal", label = "N7", signal = "main,minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.012, kmTo = 1.028, length = 16 },
+  { kind = "bridge", kmFrom = 2.813, kmTo = 2.827, length = 14 },
+  { kind = "bridge", kmFrom = 3.374, kmTo = 3.385, length = 11 },
+  { kind = "bridge", kmFrom = 3.547, kmTo = 3.558, length = 11 },
+  { kind = "bridge", kmFrom = 4.507, kmTo = 4.539, length = 32 },
+  { kind = "bridge", kmFrom = 5.08, kmTo = 5.102, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qkjyHirij@}Ci\\_Gy\\wKi}@" },
+  { line = "gekyHwkmj@uJew@eDuPoEkPgrAuyC", v = 80 },
+  { line = "{onyHuauj@gGuLuUqZkIwQ_D}K" },
+]
+posts = [[0, 51.50409, 7.09941], [1, 51.50702, 7.11303], [2, 51.50982, 7.12676], [3, 51.51472, 7.13874], [4, 51.52063, 7.14963], [5, 51.52661, 7.16042]]
+
+[[connections]]
+km = 0.252
+station = "Gelsenkirchen Hauptbahnhof"
+lines = [
+  { id = "2168", ref = "2168", name = "2168 Gelsenkirchen - Gelsenkirchen Rotthausen / Essen Kray Nord", km = 4.706 },
+  { id = "2230", ref = "2230", name = "2230 Gelsenkirchen Strw 2172/2230 - Wanne-Eickel Hbf", km = 89.118 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 89.19 },
+]
+
+[[connections]]
+km = 5.654
+station = "Herne-Wanne-Eickel Hbf"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 0.268 },
+  { id = "2204", ref = "2204", name = "2204 Wanne-Eickel Hbf - Wanne Unser Fritz", km = 4.712 },
+  { id = "2208", ref = "2208", name = "2208 Wanne-Eickel Hbf - Herne", km = 0.7 },
+  { id = "2230", ref = "2230", name = "2230 Gelsenkirchen Strw 2172/2230 - Wanne-Eickel Hbf", km = 94.555 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 94.544 },
+]

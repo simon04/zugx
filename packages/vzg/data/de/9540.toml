@@ -1,0 +1,49 @@
+id = "9540"
+ref = "9540"
+name = "Bayerische Zugspitzbahn"
+operator = "BZB"
+gauge = "1000"
+from = "Garmisch-Partenkirchen"
+to = "Schneefernerhaus"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 7.449
+kmTo = 18.913
+length = 11.377
+speeds = [[7.449, 18.913, "", ""]]
+curves = [[7.549, 7.624, 1390], [7.674, 7.899, 350], [8.024, 8.349, 560], [8.499, 8.674, 540], [8.874, 8.924, 1250], [8.974, 9.874, 270], [9.974, 10.499, 530], [10.549, 11.023, 160], [11.073, 11.747, 190], [11.797, 11.922, 340], [11.972, 12.196, 330], [12.246, 12.696, 310], [12.745, 13.37, 260], [13.794, 14.068, 740], [14.426, 14.861, 190], [15.117, 15.27, 540], [15.654, 16.14, 130], [16.294, 16.575, 370], [16.78, 17.317, 200], [18.135, 18.235, 470], [18.285, 18.535, 360], [18.635, 18.81, 220]]
+points = [
+  { km = 7.517, kind = "station", label = "Grainau", pos = [47.47182, 11.02378], ele = 754 },
+  { km = 8.412, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 8.417, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 8.822, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 8.824, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 9.197, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 9.212, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 9.484, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 9.505, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 10.327, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 10.339, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 10.7, kind = "station", label = "Eibsee", pos = [47.45637, 10.99387], measured = true },
+  { km = 10.7, kind = "station", label = "Zugspitzplatt", pos = [47.41375, 10.98063], measured = true },
+  { km = 10.797, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 10.807, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 14.1, kind = "halt", label = "Riffelriss", pos = [47.43411, 10.98631], measured = true, ele = 1640 },
+  { km = 18.6, kind = "halt", label = "Schneefernerhaus", ele = 2650, pos = [47.41664, 10.9797], measured = true },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 12.986, kmTo = 13.048, length = 63, name = "Kleiner Tunnel" },
+  { kind = "tunnel", kmFrom = 14.114, kmTo = 18.1, length = 3894, name = "Zugspitztunnel" },
+  { kind = "tunnel", kmFrom = 18.1, kmTo = 18.913, length = 813, name = "Rosi-Tunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}yv`HughbAIzGtAbPrAvBfKfJ~@pB?nI|@`XdKn^zBtBjIg@|DnEtGrBbA`C`AdJxGfNvHlKvDdA`AdB\\hCIbH~@fDdFzClBWv@}@^mCmAsM@cC`@cBrC_DzBWnDfA|EaCnAGbGjE`JPhCrAxEzGlDtA|BzEzCtBlEvPOrCsA~D" },
+  { line = "cgq`HklabAHbD", tunnel = true },
+  { line = "yfq`HggabAb@~ApAz@vFa@h_@|IzG?vCf@" },
+  { line = "mmo`Hgw`bAfVdDtASz@qAb@_D?oA_AmDcMoVuIue@MgDb@sBjB_BfBJfBdD|ElZtDvBhPjEv@~@d@pCcAnNn@|C|n@f_@dFlG|Dz@hMk@zA\\tCvI", tunnel = true },
+]
+posts = [[8, 47.46977, 11.01884], [9, 47.46656, 11.0071], [10, 47.45996, 11.00028], [11, 47.45451, 10.99509], [12, 47.44821, 10.99822], [13, 47.44324, 10.98947], [14, 47.435, 10.98649], [15, 47.43079, 10.98985], [16, 47.4322, 10.99956], [17, 47.42676, 10.99139], [18, 47.42057, 10.98445]]

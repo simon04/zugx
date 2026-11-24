@@ -1,0 +1,55 @@
+id = "3658"
+ref = "3658"
+name = "3658 Zeppelinheim - Frankfurt am Main Stadion"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Zeppelinheim"
+to = "Frankfurt am Main Stadion"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.626
+kmTo = 4.143
+length = 2.517
+speeds = [[1.626, 1.898, 100, 100], [1.898, 1.974, 120, 100], [1.974, 4.143, 120, 120]]
+curves = [[1.726, 1.776, 1560], [1.848, 2.066, 1350], [2.545, 3.067, 670]]
+points = [
+  { km = 1.724, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.898, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.974, kind = "signal", label = "64 P591", signal = "combined,minor,speed_limit,speed_limit_distant,traversable,wrong_road", dir = -1 },
+  { km = 2.202, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.248, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.478, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.48, kind = "signal", label = "64 ZR 591", signal = "combined,minor,route_distant,speed_limit,speed_limit_distant,traversable,wrong_road", dir = 1 },
+  { km = 2.947, kind = "signal", label = "64 ZV501", signal = "combined,traversable", dir = -1 },
+  { km = 3.196, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.338, kind = "station", label = "Frankfurt am Main Stadion", pos = [50.06821, 8.63305], uic = "8002040" },
+  { km = 3.404, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.461, kind = "signal", label = "64 N501", signal = "combined,route,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 3.668, kind = "signal", label = "64N561", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 3.802, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.832, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.939, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.002, kind = "signal", label = "64 V501", signal = "distant,speed_limit_distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.499, kmTo = 2.523, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kpopHiirs@sL{J", v = 100 },
+  { line = "_~opHeurs@kd@eWcEeEmCsEsDsLwX{uA", v = 120 },
+]
+posts = [[2, 50.05896, 8.62116], [3, 50.06648, 8.62811], [4, 50.07024, 8.64069]]
+
+[[connections]]
+km = 3.338
+station = "Frankfurt am Main Stadion"
+lines = [
+  { id = "3520", ref = "3520", name = "3520 Mainz Hbf - Frankfurt (Main) Hbf", km = 31.362 },
+  { id = "3650", ref = "3650", name = "3650 Frankfurt am Main Stadion - Frankfurt (Main) Süd", km = 31.467 },
+  { id = "3683", ref = "3683", name = "3683 Abzw Frankfurt am Main Kleyerstraße - Kelsterbach", km = 6.136 },
+  { id = "4010", ref = "4010", name = "4010 Mannheim Hbf - Frankfurt am Main Stadion", km = 74.738 },
+]

@@ -1,0 +1,278 @@
+id = "6212"
+ref = "6212"
+name = "6212 Görlitz - Dresden-Neustadt"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q159861"
+from = "Görlitz"
+to = "Dresden-Neustadt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.031
+kmTo = 102.414
+length = 102.386
+speeds = [[-0.031, 0.021, "", ""], [0.021, 5.979, 100, 100], [5.979, 12.579, 120, 120], [12.579, 15.696, 100, 100], [15.696, 23.561, 120, 120], [23.561, 24.701, 100, 100], [24.701, 26.865, 80, 80], [26.865, 28.201, 100, 100], [28.201, 43.776, 120, 120], [43.776, 44.135, 80, 80], [44.135, 44.168, "", ""], [44.168, 47.238, 80, 80], [47.238, 83.055, 120, 120], [83.055, 83.256, 70, 70], [83.256, 85.914, 120, 120], [85.914, 89.466, 140, 140], [89.466, 89.474, 120, 120], [89.474, 93.49, 140, 140], [93.49, 100.621, 120, 120], [100.621, 101.224, 120, 100], [101.224, 101.248, 100, 120], [101.248, 101.3, 120, 100], [101.3, 101.411, 120, 80], [101.411, 102.414, 80, 80]]
+curves = [[0.094, 0.219, 1630], [0.569, 0.669, 1730], [0.869, 0.994, 1760], [1.344, 1.394, 2320], [1.494, 1.594, 1740], [1.669, 1.769, 1780], [1.994, 2.294, 820], [2.419, 2.719, 1720], [2.919, 3.194, 1120], [3.469, 3.719, 1410], [4.094, 4.494, 1130], [6.919, 7.044, 2320], [7.094, 8.044, 1840], [9.469, 9.994, 1940], [12.619, 12.844, 2330], [12.969, 13.019, 2480], [13.844, 14.019, 1160], [14.244, 14.669, 580], [14.769, 15.219, 1010], [15.294, 15.569, 840], [16.044, 16.694, 880], [16.944, 17.619, 1150], [18.719, 19.219, 690], [19.294, 20.119, 680], [20.194, 20.544, 770], [21.444, 21.694, 1210], [22.894, 23.844, 870], [24.669, 25.569, 470], [25.744, 26.994, 800], [27.169, 27.494, 1150], [27.619, 27.844, 1440], [27.944, 28.244, 1170], [30.244, 30.569, 1690], [32.469, 33.069, 1080], [33.169, 33.794, 930], [33.894, 34.269, 930], [34.519, 34.719, 1920], [35.719, 36.194, 1320], [36.594, 37.394, 1160], [38.294, 39.169, 1150], [39.244, 39.994, 1140], [40.094, 40.944, 920], [43.769, 44.794, 1150], [45.544, 45.919, 1470], [46.019, 46.294, 920], [46.994, 47.244, 1190], [47.344, 47.619, 1020], [47.744, 48.319, 1130], [48.644, 49.569, 1140], [49.669, 50.369, 1130], [52.994, 53.119, 1890], [55.494, 55.944, 2400], [58.819, 59.644, 1180], [60.569, 61.369, 880], [62.694, 63.244, 1150], [63.594, 64.099, 1270], [66.546, 66.818, 1530], [67.065, 67.189, 2510], [67.288, 67.486, 1980], [68.751, 69.318, 880], [69.416, 69.934, 1250], [70.008, 70.279, 1410], [70.574, 70.821, 1970], [71.663, 71.989, 1280], [74.572, 75.35, 1760], [75.475, 75.801, 1560], [75.901, 75.977, 2080], [76.453, 77.055, 1130], [77.908, 78.435, 1750], [78.841, 79.907, 1680], [82.717, 82.993, 1270], [83.369, 83.594, 1380], [83.744, 84.346, 1140], [84.822, 85.223, 1520], [86.551, 87.253, 1830], [87.403, 88.039, 1120], [92.147, 92.692, 1150], [93.247, 94.05, 1100], [95.188, 95.898, 940], [96.173, 97.475, 860], [97.602, 98.451, 1120], [99.159, 99.318, 2430], [100.554, 100.649, 1930], [101.488, 101.664, 1310], [102.189, 102.261, 2160]]
+points = [
+  { km = 0.104, kind = "signal", label = "40P10", signal = "departure,main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 0.257, kind = "station", label = "Görlitz", uic = "8010131", pos = [51.14679, 14.9783], ele = 221 },
+  { km = 0.524, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.527, kind = "signal", label = "40N10", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 1.774, kind = "signal", label = "40G", signal = "combined", dir = -1 },
+  { km = 3.235, kind = "stop", label = "Görlitz-Rauschwalde", pos = [51.14915, 14.93652] },
+  { km = 7.589, kind = "signal", label = "40912", signal = "main", dir = -1 },
+  { km = 9.815, kind = "stop", label = "Gersdorf (Görlitz)", pos = [51.12506, 14.85582] },
+  { km = 9.923, kind = "halt", label = "Gersdorf (b Görlitz)", pos = [51.12522, 14.85429] },
+  { km = 12.5, kind = "signal", label = "41AA", signal = "combined", dir = 1 },
+  { km = 13.316, kind = "signal", label = "41P2", signal = "combined", dir = -1 },
+  { km = 13.794, kind = "signal", label = "41N2", signal = "combined", dir = 1 },
+  { km = 14.094, kind = "signal", label = "41ZU2", signal = "combined", dir = -1 },
+  { km = 14.128, kind = "stop", label = "Reichenbach (Oberlausitz)", uic = "8012738", pos = [51.13568, 14.79549] },
+  { km = 15.086, kind = "signal", label = "41F", signal = "combined", dir = -1 },
+  { km = 17.742, kind = "stop", label = "Zoblitz", pos = [51.12367, 14.75096], uic = "8006092" },
+  { km = 23.545, kind = "signal", label = "42AA", signal = "combined", dir = 1 },
+  { km = 24.134, kind = "signal", label = "42P1", signal = "combined", dir = -1 },
+  { km = 24.217, kind = "stop", label = "Löbau (Sachs)", uic = "8010212", pos = [51.09908, 14.67339] },
+  { km = 24.324, kind = "station", label = "Löbau (Sachsen)", uic = "8006094", pos = [51.09939, 14.67192] },
+  { km = 24.595, kind = "signal", label = "42N1", signal = "combined", dir = 1 },
+  { km = 24.876, kind = "halt", label = "Haltepunkt Maschinenhaus", pos = [51.10057, 14.66391] },
+  { km = 25.383, kind = "signal", label = "42F", signal = "combined", dir = -1 },
+  { km = 30.4, kind = "stop", label = "Breitendorf", pos = [51.13863, 14.62279], uic = "8006095" },
+  { km = 34.641, kind = "stop", label = "Pommritz / Pomorcy", pos = [51.15907, 14.57459], uic = "8006096" },
+  { km = 39.477, kind = "stop", label = "Kubschütz / Kubšicy", pos = [51.16564, 14.50939], uic = "8006098" },
+  { km = 45.932, kind = "station", label = "Bautzen - Budyšin", uic = "8010026", pos = [51.17312, 14.42873] },
+  { km = 54.014, kind = "stop", label = "Seitschen / Žičeń", pos = [51.15363, 14.32502], uic = "8006101" },
+  { km = 60.4, kind = "stop", label = "Demitz-Thumitz", pos = [51.1422, 14.23957], uic = "8006102" },
+  { km = 64.126, kind = "signal", signal = "minor", dir = 1 },
+  { km = 64.696, kind = "signal", label = "76P2", signal = "main,minor,speed_limit,wrong_road", dir = -1 },
+  { km = 64.824, kind = "station", label = "Bischofswerda", uic = "8010049", pos = [51.12547, 14.18587] },
+  { km = 64.976, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 65.014, kind = "signal", label = "76N2", signal = "main,minor,speed_limit,wrong_road", dir = 1 },
+  { km = 65.018, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 65.124, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 65.694, kind = "signal", label = "74F", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 66.782, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 67.821, kind = "stop", label = "Weickersdorf (Sachs)", pos = [51.11094, 14.15118], uic = "8006104" },
+  { km = 72.448, kind = "stop", label = "Großharthau", pos = [51.10217, 14.08772], uic = "8006105" },
+  { km = 79.882, kind = "signal", label = "46LW11X", signal = "minor", dir = 1 },
+  { km = 80.179, kind = "signal", label = "46P2", signal = "main,minor,speed_limit,wrong_road", dir = -1 },
+  { km = 80.277, kind = "station", label = "Arnsdorf (bei Dresden)", pos = [51.09304, 13.98172], uic = "8006176" },
+  { km = 80.399, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 80.909, kind = "signal", signal = "minor", dir = -1 },
+  { km = 81.078, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 83.055, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 83.256, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 84.315, kind = "signal", label = "47AA", signal = "combined,speed_limit", dir = 1 },
+  { km = 85.093, kind = "signal", label = "47P2", signal = "main,speed_limit,wrong_road", dir = -1 },
+  { km = 85.417, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 85.498, kind = "station", label = "Radeberg", pos = [51.11162, 13.91328], uic = "8006193", ele = 243 },
+  { km = 85.607, kind = "signal", label = "47N2", signal = "main,speed_limit,wrong_road", dir = 1 },
+  { km = 85.921, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 86.166, kind = "signal", label = "47F", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 87.19, kind = "signal", label = "47Vf", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 89.465, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 89.465, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 89.475, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 89.476, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 90.505, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 90.77, kind = "signal", label = "48902", signal = "main", dir = -1 },
+  { km = 90.856, kind = "stop", label = "Langebrück (Sachs)", pos = [51.12688, 13.8406], uic = "8006212" },
+  { km = 91.778, kind = "signal", signal = "distant", dir = -1 },
+  { km = 92.213, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 93.291, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 93.49, kind = "signal", label = "48AA", signal = "combined,speed_limit", dir = 1 },
+  { km = 93.492, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 93.797, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 93.83, kind = "signal", label = "48 3X", signal = "minor", dir = 1 },
+  { km = 93.843, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 93.913, kind = "signal", label = "48 13Y", signal = "minor", dir = -1 },
+  { km = 94.308, kind = "signal", signal = "distant", dir = 1 },
+  { km = 94.512, kind = "signal", label = "48P23", signal = "main,route,speed_limit,wrong_road", dir = -1 },
+  { km = 95.215, kind = "signal", label = "48ZS43", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 95.299, kind = "station", label = "Dresden-Klotzsche", pos = [51.11444, 13.78889], uic = "8006213" },
+  { km = 95.314, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 95.35, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 95.445, kind = "signal", label = "48N43", signal = "main,speed_limit,wrong_road", dir = 1 },
+  { km = 96.084, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 96.286, kind = "signal", label = "48F", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 96.41, kind = "signal", label = "48VW1f", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 96.557, kind = "signal", label = "48VW2f", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 96.712, kind = "signal", label = "48VW3f", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 97.232, kind = "signal", label = "48912", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 97.397, kind = "signal", label = "48VW912", signal = "distant", dir = -1 },
+  { km = 98.189, kind = "signal", label = "48914", signal = "combined", dir = -1 },
+  { km = 98.337, kind = "signal", label = "48VW914", signal = "distant", dir = -1 },
+  { km = 99.121, kind = "signal", label = "48916", signal = "combined", dir = -1 },
+  { km = 99.172, kind = "stop", label = "Dresden Industriegelände", pos = [51.0872, 13.76257], uic = "8006214" },
+  { km = 99.701, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 100.338, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 100.366, kind = "signal", label = "20VWkk", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 100.374, kind = "signal", label = "20918", signal = "combined", dir = -1 },
+  { km = 100.517, kind = "signal", label = "20VW918", signal = "distant", dir = -1 },
+  { km = 100.621, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 100.623, kind = "signal", label = "20KK", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 100.955, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 101.263, kind = "halt", label = "Dresden Bischofsplatz", pos = [51.07224, 13.74642] },
+  { km = 101.3, kind = "signal", label = "20N753", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = 101.303, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 101.407, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 101.411, kind = "signal", label = "20ZU753", signal = "combined,minor,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 101.978, kind = "signal", label = "20ZS703", signal = "combined,minor,route,speed_limit", dir = -1 },
+  { km = 102.093, kind = "station", label = "Dresden-Neustadt", pos = [51.06587, 13.74054], uic = "8006216" },
+  { km = 102.179, kind = "signal", label = "20ZW703", signal = "combined,route,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.45, kmTo = 1.487, length = 37 },
+  { kind = "bridge", kmFrom = 4.458, kmTo = 4.487, length = 29 },
+  { kind = "bridge", kmFrom = 5.979, kmTo = 6.004, length = 25 },
+  { kind = "bridge", kmFrom = 6.34, kmTo = 6.357, length = 17 },
+  { kind = "bridge", kmFrom = 6.458, kmTo = 6.469, length = 11 },
+  { kind = "bridge", kmFrom = 6.727, kmTo = 6.746, length = 19 },
+  { kind = "bridge", kmFrom = 8.432, kmTo = 8.455, length = 24 },
+  { kind = "bridge", kmFrom = 10.065, kmTo = 10.087, length = 22 },
+  { kind = "bridge", kmFrom = 14.909, kmTo = 14.924, length = 15 },
+  { kind = "bridge", kmFrom = 15.526, kmTo = 15.553, length = 27 },
+  { kind = "bridge", kmFrom = 15.649, kmTo = 15.696, length = 47 },
+  { kind = "bridge", kmFrom = 19.74, kmTo = 19.762, length = 22 },
+  { kind = "bridge", kmFrom = 19.989, kmTo = 20.031, length = 42 },
+  { kind = "bridge", kmFrom = 23.561, kmTo = 23.583, length = 21 },
+  { kind = "bridge", kmFrom = 23.813, kmTo = 24.001, length = 189 },
+  { kind = "bridge", kmFrom = 24.148, kmTo = 24.164, length = 16 },
+  { kind = "bridge", kmFrom = 25.214, kmTo = 25.237, length = 23 },
+  { kind = "bridge", kmFrom = 28.18, kmTo = 28.201, length = 21 },
+  { kind = "bridge", kmFrom = 28.62, kmTo = 28.634, length = 14 },
+  { kind = "bridge", kmFrom = 30.581, kmTo = 30.607, length = 25 },
+  { kind = "bridge", kmFrom = 32.919, kmTo = 32.936, length = 16 },
+  { kind = "bridge", kmFrom = 33.778, kmTo = 33.894, length = 116, name = "Viadukt Kuppritz" },
+  { kind = "bridge", kmFrom = 36.958, kmTo = 36.978, length = 20 },
+  { kind = "bridge", kmFrom = 37.591, kmTo = 37.616, length = 24 },
+  { kind = "bridge", kmFrom = 39.236, kmTo = 39.253, length = 17 },
+  { kind = "bridge", kmFrom = 40.565, kmTo = 40.581, length = 17 },
+  { kind = "bridge", kmFrom = 40.746, kmTo = 40.805, length = 59 },
+  { kind = "bridge", kmFrom = 43.337, kmTo = 43.362, length = 26 },
+  { kind = "bridge", kmFrom = 44.135, kmTo = 44.168, length = 33 },
+  { kind = "bridge", kmFrom = 45.073, kmTo = 45.115, length = 42 },
+  { kind = "bridge", kmFrom = 45.488, kmTo = 45.507, length = 19 },
+  { kind = "bridge", kmFrom = 46.586, kmTo = 46.831, length = 245 },
+  { kind = "bridge", kmFrom = 47.348, kmTo = 47.373, length = 25 },
+  { kind = "bridge", kmFrom = 48.39, kmTo = 48.409, length = 19 },
+  { kind = "bridge", kmFrom = 48.932, kmTo = 48.947, length = 15 },
+  { kind = "bridge", kmFrom = 53.198, kmTo = 53.228, length = 30 },
+  { kind = "bridge", kmFrom = 53.785, kmTo = 53.8, length = 15 },
+  { kind = "bridge", kmFrom = 56.072, kmTo = 56.092, length = 19 },
+  { kind = "bridge", kmFrom = 56.171, kmTo = 56.187, length = 15 },
+  { kind = "bridge", kmFrom = 59.743, kmTo = 60.013, length = 270 },
+  { kind = "bridge", kmFrom = 62.09, kmTo = 62.113, length = 23 },
+  { kind = "bridge", kmFrom = 64.013, kmTo = 64.039, length = 25 },
+  { kind = "bridge", kmFrom = 65.056, kmTo = 65.081, length = 25 },
+  { kind = "bridge", kmFrom = 65.245, kmTo = 65.27, length = 25 },
+  { kind = "bridge", kmFrom = 66.353, kmTo = 66.37, length = 18 },
+  { kind = "bridge", kmFrom = 67.947, kmTo = 67.966, length = 13 },
+  { kind = "bridge", kmFrom = 68.436, kmTo = 68.45, length = 15 },
+  { kind = "bridge", kmFrom = 71.351, kmTo = 71.385, length = 35 },
+  { kind = "bridge", kmFrom = 71.424, kmTo = 71.442, length = 17 },
+  { kind = "bridge", kmFrom = 76.6, kmTo = 76.67, length = 70 },
+  { kind = "bridge", kmFrom = 78.88, kmTo = 78.905, length = 24 },
+  { kind = "bridge", kmFrom = 79.748, kmTo = 79.773, length = 25 },
+  { kind = "bridge", kmFrom = 81.092, kmTo = 81.105, length = 14 },
+  { kind = "bridge", kmFrom = 82.145, kmTo = 82.171, length = 26 },
+  { kind = "bridge", kmFrom = 82.537, kmTo = 82.555, length = 18 },
+  { kind = "bridge", kmFrom = 83.055, kmTo = 83.118, length = 63 },
+  { kind = "bridge", kmFrom = 83.202, kmTo = 83.256, length = 53 },
+  { kind = "bridge", kmFrom = 83.864, kmTo = 83.899, length = 35 },
+  { kind = "bridge", kmFrom = 84.045, kmTo = 84.069, length = 24 },
+  { kind = "bridge", kmFrom = 84.575, kmTo = 84.591, length = 16 },
+  { kind = "bridge", kmFrom = 85.719, kmTo = 85.741, length = 22 },
+  { kind = "bridge", kmFrom = 85.882, kmTo = 85.914, length = 31 },
+  { kind = "bridge", kmFrom = 86.325, kmTo = 86.366, length = 41 },
+  { kind = "bridge", kmFrom = 90.505, kmTo = 90.521, length = 17 },
+  { kind = "bridge", kmFrom = 90.735, kmTo = 90.763, length = 28 },
+  { kind = "bridge", kmFrom = 93.303, kmTo = 93.333, length = 30 },
+  { kind = "bridge", kmFrom = 94.532, kmTo = 94.556, length = 23 },
+  { kind = "bridge", kmFrom = 95.445, kmTo = 95.513, length = 69 },
+  { kind = "bridge", kmFrom = 98, kmTo = 98.011, length = 11 },
+  { kind = "bridge", kmFrom = 100.533, kmTo = 100.57, length = 38 },
+  { kind = "bridge", kmFrom = 100.881, kmTo = 100.902, length = 22 },
+  { kind = "bridge", kmFrom = 101.224, kmTo = 101.248, length = 25 },
+  { kind = "bridge", kmFrom = 101.358, kmTo = 101.385, length = 28 },
+  { kind = "bridge", kmFrom = 101.423, kmTo = 101.527, length = 103 },
+  { kind = "bridge", kmFrom = 101.685, kmTo = 101.708, length = 22 },
+  { kind = "bridge", kmFrom = 102.166, kmTo = 102.193, length = 27 },
+  { kind = "bridge", kmFrom = 102.336, kmTo = 102.353, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "aldwHmdmzA_@hC" },
+  { line = "amdwHc`mzA{AzJqJxc@{Fp_@cJf_AeB`WOxLh@jKpBvV|Hnf@nDbp@nJvo@vF`Q~x@`cB", v = 100 },
+  { line = "spbwHce~yAzd@|_AdIhTfCvJ~CtQ`B`P~@dQ~Fb`CKd[m`@xpF", v = 120 },
+  { line = "alawHa~lyA{E`a@}TvjAsCl]WvJRrF`AfHvHrXfF|JfN|PrGlP", v = 100 },
+  { line = "ubawHgleyA`Nba@vChQr@tPe@nm@d@vLxAfNvCvNv`@z{Az@`JNxIsA`b@b@fK|AjKnFfOhMvNlD|Gv]zkAtDxJpu@|vAlB~FtBlKhAhMPrJ", v = 120 },
+  { line = "{_{vHotrxAk@lQiNvnA", v = 100 },
+  { line = "qp{vHiroxA{A~H_DtH}DjEmEnB}ENmD}@cUiRyEyAgFGmJ`CgGnEcE|EcGhM", v = 80 },
+  { line = "iw~vHwlnxAyKpc@}MhZsH`VuDhI", v = 100 },
+  { line = "kb`wHokkxAgxA~cCaEbKg~@zrC}DhI}E~GmTzPgG`IkFdMuGl[_AnOi@hg@{Ir_B[xMVvRpD`o@B~N_@~J{@dKsB`Mm]jsA_CtQu@xSl@lVlBxSnBrLrGvStOvW~BfGnD`O`BnPPjO}Gv}F", v = 120 },
+  { line = "}hgwHcnewAc@`MiBdP", v = 80 },
+  { line = "kmgwH{ndwAUvA" },
+  { line = "angwHcldwA_FnRyGvN}i@pn@mG`JiDrIqDfL_BxJyJxcAg@|O", v = 80 },
+  { line = "eljwHyt}vAYxSyEjb@i@zSZnOtBt\\xBlR`DbNtEpLhGxJtNbO~DbGpEvJzDbNr|@d_F`fArkEjD|TdTjrBjXhjC|@dY[|NaBfQuWrqA{B~No@fLCtJd@jKhAlJfc@jyB`HdQbDfFrSxUnEbHvDrI|gAlcElEvM~MlW|HhRnh@vfBzAjHjAlK^tL]vVRjPt@hKdF`_@lBth@HxQeAthALpOlh@heF|AhURj\\kCpp@a@bhAV~LdAvM|BnNtWjdAnDlRtBnSrBt]|@`^O|MgAjSaExZsjAvcFcCfNiApK", v = 120 },
+  { line = "ui|vHyxbtAsAlP", v = 70 },
+  { line = "il|vHkgbtA}ArTg@`_@uAxPgCdNoPfk@yDlPcMpgA", v = 120 },
+  { line = "{|}vHmj{sAqIdy@cDhSoFnSsNl^oEvSkV|mC", v = 140 },
+  { line = "qa`wHidrsACV", v = 120 },
+  { line = "ua`wHqcrsAye@~rFKzLd@jPbGfs@|C|R", v = 140 },
+  { line = "sz`wHchgsApE`OjJdPry@z|@`G|EpGtC~Gv@nFU|U{DfIFdIzBhHjFxF|HdF|LdCnL`D|ZpBpK`ErM~HzNtnBneBvf@je@", v = 120 },
+  { line = "}tuvHm}{rAhLtNvR~\\vGjN", v = 80 },
+]
+posts = [[0, 51.14586, 14.98158], [1, 51.14947, 14.96847], [2, 51.15174, 14.9546], [3, 51.1497, 14.94087], [4, 51.1475, 14.92703], [5, 51.14223, 14.9156], [6, 51.13613, 14.90507], [7, 51.13002, 14.89456], [8, 51.12635, 14.8817], [9, 51.12544, 14.86745], [10, 51.12533, 14.8532], [11, 51.1273, 14.83922], [12, 51.12927, 14.82523], [13, 51.13158, 14.81141], [14, 51.13525, 14.79834], [15, 51.13345, 14.78518], [16, 51.12731, 14.7749], [17, 51.12568, 14.76127], [18, 51.12259, 14.74807], [19, 51.11853, 14.7354], [20, 51.11698, 14.722], [21, 51.11117, 14.71139], [22, 51.10568, 14.70013], [23, 51.09936, 14.68994], [24, 51.09855, 14.67637], [25, 51.10191, 14.6633], [26, 51.11014, 14.66578], [27, 51.11747, 14.6591], [28, 51.12258, 14.64741], [29, 51.129, 14.6374], [30, 51.13559, 14.62765], [31, 51.14128, 14.61663], [32, 51.14633, 14.60477], [33, 51.15223, 14.5942], [34, 51.15837, 14.58444], [35, 51.15953, 14.57028], [36, 51.1609, 14.55612], [37, 51.16, 14.54194], [38, 51.16395, 14.52916], [39, 51.16664, 14.5158], [40, 51.16279, 14.50324], [41, 51.15924, 14.4908], [42, 51.15974, 14.47648], [43, 51.16024, 14.46217], [44, 51.16095, 14.44789], [45, 51.1665, 14.4371], [46, 51.1734, 14.4281], [47, 51.1762, 14.41454], [48, 51.1779, 14.40055], [49, 51.17607, 14.38666], [50, 51.16944, 14.3772], [51, 51.16539, 14.36447], [52, 51.1618, 14.35132], [53, 51.15818, 14.33819], [54, 51.15383, 14.32565], [55, 51.14944, 14.31313], [56, 51.14559, 14.30023], [57, 51.14307, 14.28646], [58, 51.14056, 14.2727], [59, 51.13817, 14.25889], [60, 51.14045, 14.24531], [61, 51.14355, 14.232], [62, 51.14039, 14.21869], [63, 51.13627, 14.206], [64, 51.12948, 14.19673], [65, 51.1251, 14.18493], [66, 51.12048, 14.17246], [67, 51.1153, 14.16066], [68, 51.11029, 14.14962], [69, 51.10563, 14.13716], [70, 51.1045, 14.12292], [71, 51.1034, 14.1086], [72, 51.10334, 14.09429], [73, 51.10085, 14.08057], [74, 51.09836, 14.06686], [75, 51.0964, 14.05298], [76, 51.09712, 14.0388], [77, 51.09631, 14.02477], [78, 51.09193, 14.01231], [79, 51.08992, 13.99857], [80, 51.09192, 13.98503], [81, 51.09615, 13.97223], [82, 51.10037, 13.9595], [83, 51.1043, 13.94665], [84, 51.10577, 13.9326], [85, 51.11012, 13.92016], [86, 51.11283, 13.90658], [87, 51.11583, 13.89314], [88, 51.11993, 13.88327], [89, 51.12256, 13.86714], [90, 51.12481, 13.85331], [91, 51.12704, 13.83948], [92, 51.12926, 13.8257], [93, 51.12897, 13.81165], [94, 51.12466, 13.79956], [95, 51.11723, 13.79178], [96, 51.10879, 13.78806], [97, 51.10039, 13.78524], [98, 51.09652, 13.77266], [99, 51.08913, 13.76432], [100, 51.08186, 13.75766], [101, 51.07369, 13.75015], [102, 51.06636, 13.74159]]
+
+[[connections]]
+km = 0.257
+station = "Görlitz"
+lines = [
+  { id = "6142", ref = "6142", name = "6142 Berlin - Görlitz", km = 208.376 },
+]
+
+[[connections]]
+km = 24.876
+station = "Haltepunkt Maschinenhaus"
+lines = [
+  { id = "6214", ref = "6214", name = "6214 Zittau Grenze - Löbau (Sachs)", km = 27.69 },
+]
+
+[[connections]]
+km = 64.824
+station = "Bischofswerda"
+lines = [
+  { id = "6216", ref = "6216", name = "6216 Bautzen - Bad Schandau", km = 24.69 },
+  { id = "6217", ref = "6217", name = "6217 Neukirch (Lausitz) West - Bischofswerda", km = 9.372 },
+]
+
+[[connections]]
+km = 85.498
+station = "Radeberg"
+lines = [
+  { id = "6198", ref = "6198", name = "6198 Brieske - Hosena Streckenwechsel 6198/6194", km = 21.73 },
+  { id = "6200", ref = "6200", name = "6200 Kamenz (Sachs) - Pirna", km = 28.743 },
+]
+
+[[connections]]
+km = 101.263
+station = "Dresden Bischofsplatz"
+lines = [
+  { id = "6198", ref = "6198", name = "6198 Brieske - Hosena Streckenwechsel 6198/6194", km = 21.8 },
+  { id = "6241", ref = "6241", name = "Dresden Hbf - Dresden-Neustadt", km = 67.136 },
+  { id = "6363", ref = "6363", name = "6363 Leipzig Hbf - Dresden-Neustadt", km = 115.053 },
+]
+
+[[connections]]
+km = 102.093
+station = "Dresden-Neustadt"
+lines = [
+  { id = "6200", ref = "6200", name = "6200 Kamenz (Sachs) - Pirna", km = 45.777 },
+  { id = "6216", ref = "6216", name = "6216 Bautzen - Bad Schandau", km = 29.843 },
+  { id = "6241", ref = "6241", name = "Dresden Hbf - Dresden-Neustadt", km = 66.316 },
+  { id = "6363", ref = "6363", name = "6363 Leipzig Hbf - Dresden-Neustadt", km = 115.941 },
+]

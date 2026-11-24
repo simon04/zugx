@@ -1,0 +1,38 @@
+id = "2943"
+ref = "2943"
+name = "2943 Neubeckum"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Neubeckum"
+to = "Neubeckum"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.425
+length = 0.425
+speeds = [[0, 0.425, "", ""]]
+curves = [[0.1, 0.15, 1480]]
+points = [
+  { km = 0.011, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.094, kind = "signal", label = "R9", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.166, kind = "station", label = "Beckum-Neubeckum", uic = "8004251", pos = [51.80164, 8.02031] },
+  { km = 0.368, kind = "signal", signal = "minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wkd{Ha`}o@oIsa@" },
+]
+posts = [[0, 51.80108, 8.01809]]
+
+[[connections]]
+km = 0.166
+station = "Beckum-Neubeckum"
+lines = [
+  { id = "1700", ref = "1700", name = "1700 Hannover - Hamm", km = 155.158 },
+  { id = "2940", ref = "2940", name = "2940 Neubeckum - Beckum", km = 0.489 },
+  { id = "2990", ref = "2990", name = "2990 Minden - Hamm", km = 155.195 },
+  { id = "9213", ref = "9213", name = "9213 Neubeckum - Münster", km = 0.277 },
+]

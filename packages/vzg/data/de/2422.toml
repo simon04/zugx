@@ -1,0 +1,39 @@
+id = "2422"
+ref = "2422"
+name = "2422 Abzw Düsseldorf Dora - Düsseldorf-Grafenberg"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q18201963"
+from = "Düsseldorf Dora"
+to = "Düsseldorf-Grafenberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.091
+length = 1.091
+speeds = [[0, 0.822, 40, 40], [0.822, 1.091, "", ""]]
+curves = [[0.125, 0.9, 580]]
+points = [
+  { km = 0.073, kind = "halt", label = "Düsseldorf-Flingern", uic = "8001598", pos = [51.22624, 6.81002] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.158, kmTo = 0.192, length = 35 },
+  { kind = "bridge", kmFrom = 0.394, kmTo = 0.426, length = 32 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kdtwHe{ph@BoS}@mPyCiLkD}FqCcC", v = 40 },
+  { line = "}ttwHozrh@_MaH" },
+]
+posts = [[0, 51.22646, 6.80899], [1, 51.23059, 6.82007]]
+
+[[connections]]
+km = 0.073
+station = "Düsseldorf-Flingern"
+lines = [
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 12.649 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 89.866 },
+]

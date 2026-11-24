@@ -1,0 +1,139 @@
+id = "6021"
+ref = "6021"
+name = "6021 Berlin-Neukölln - Berlin-Baumschulenweg"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131722805"
+from = "Berlin-Neukölln S-Bahn"
+to = "Berlin-Baumschulenweg S-Bahn"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.139
+kmTo = 6.631
+length = 9.325
+speeds = [[0.139, 2.906, 80, 80], [2.906, 3.019, 60, 60], [3.019, 4.047, 80, 80], [4.047, 4.789, 60, 60], [4.789, 4.883, "", ""], [4.883, 6.631, 80, 80]]
+curves = [[0.615, 0.955, 460], [1.198, 1.52, 550], [2.598, 2.918, 410], [3.091, 3.117, 2740], [3.329, 3.408, 1560], [3.514, 3.58, 1460], [3.845, 3.885, 2400], [4.03, 4.083, 1320], [4.11, 4.15, 2250], [4.441, 5.129, 590], [6.006, 6.131, 1490], [6.281, 6.431, 1890]]
+points = [
+  { km = 0.139, kind = "station", label = "Neukölln", uic = "8089077", pos = [52.4686, 13.44182] },
+  { km = 0.293, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.553, kind = "signal", label = "689", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.83, kind = "halt", label = "Sonnenallee", pos = [52.47298, 13.45569] },
+  { km = 1.044, kind = "signal", label = "687", signal = "combined,traversable", dir = -1 },
+  { km = 1.519, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.679, kind = "signal", label = "685", signal = "combined,traversable", dir = -1 },
+  { km = 1.703, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.736, kind = "stop", label = "Köllnische Heide", pos = [52.46965, 13.46797] },
+  { km = 1.856, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.926, kind = "signal", label = "682", signal = "combined,traversable", dir = 1 },
+  { km = 2.2, kind = "signal", label = "683", signal = "combined,traversable", dir = -1 },
+  { km = 2.604, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.794, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.86, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.895, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 2.906, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.931, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 3.021, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.022, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.022, kind = "signal", label = "1619", signal = "combined,traversable", dir = 1 },
+  { km = 3.094, kind = "signal", label = "1654", signal = "combined,minor,traversable", dir = -1 },
+  { km = 3.103, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.105, kind = "station", label = "Baumschulenweg", pos = [52.4674, 13.48986] },
+  { km = 3.118, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.158, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.169, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.181, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.188, kind = "signal", label = "1643", signal = "main,traversable", dir = 1 },
+  { km = 3.238, kind = "signal", label = "1656", signal = "combined,traversable", dir = -1 },
+  { km = 3.291, kind = "signal", label = "1658", signal = "combined,traversable", dir = -1 },
+  { km = 3.452, kind = "signal", label = "1660", signal = "combined,traversable", dir = -1 },
+  { km = 3.627, kind = "signal", label = "1662", signal = "combined,traversable", dir = -1 },
+  { km = 3.65, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.797, kind = "signal", label = "1664", signal = "combined,traversable", dir = -1 },
+  { km = 3.862, kind = "signal", label = "1667", signal = "combined,traversable", dir = 1 },
+  { km = 3.951, kind = "signal", label = "1668", signal = "combined,traversable", dir = -1 },
+  { km = 4.046, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.125, kind = "signal", label = "1674", signal = "combined,minor,traversable", dir = -1 },
+  { km = 4.141, kind = "station", label = "Schöneweide", pos = [52.45491, 13.50977], uic = "8089168" },
+  { km = 4.22, kind = "signal", label = "1683", signal = "combined,minor,route,traversable", dir = 1 },
+  { km = 4.262, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 4.285, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 4.337, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 4.395, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.479, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 4.611, kind = "signal", label = "1691", signal = "main,minor,traversable", dir = 1 },
+  { km = 4.612, kind = "signal", label = "1692", signal = "combined,minor,traversable", dir = -1 },
+  { km = 4.967, kind = "signal", label = "1690", signal = "combined,minor,traversable", dir = 1 },
+  { km = 4.969, kind = "signal", label = "1693", signal = "combined,minor,route,traversable", dir = -1 },
+  { km = 5.149, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 5.216, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 5.28, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 5.361, kind = "signal", label = "1685", signal = "combined,minor,route,traversable", dir = -1 },
+  { km = 5.385, kind = "stop", label = "Schöneweide", pos = [52.45465, 13.51011] },
+  { km = 5.415, kind = "station", label = "Berlin-Schöneweide", uic = "8010041", pos = [52.45487, 13.50925] },
+  { km = 5.469, kind = "signal", label = "1672", signal = "main,minor,traversable", dir = 1 },
+  { km = 5.472, kind = "signal", label = "1671", signal = "combined,minor,traversable", dir = -1 },
+  { km = 5.624, kind = "signal", label = "1669", signal = "combined,minor,traversable", dir = -1 },
+  { km = 5.78, kind = "signal", label = "1665", signal = "combined,traversable", dir = -1 },
+  { km = 5.861, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.999, kind = "signal", label = "1663", signal = "combined,traversable", dir = -1 },
+  { km = 6.138, kind = "signal", label = "1666", signal = "combined,traversable", dir = 1 },
+  { km = 6.387, kind = "signal", label = "1661", signal = "combined,traversable", dir = -1 },
+  { km = 6.476, kind = "signal", signal = "electricity", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.638, kmTo = 0.738, length = 103 },
+  { kind = "bridge", kmFrom = 0.964, kmTo = 1.021, length = 59 },
+  { kind = "bridge", kmFrom = 1.14, kmTo = 1.228, length = 91 },
+  { kind = "bridge", kmFrom = 1.341, kmTo = 1.393, length = 54 },
+  { kind = "bridge", kmFrom = 1.59, kmTo = 1.628, length = 36 },
+  { kind = "bridge", kmFrom = 2.092, kmTo = 2.107, length = 14 },
+  { kind = "bridge", kmFrom = 2.534, kmTo = 2.558, length = 23 },
+  { kind = "tunnel", kmFrom = 2.823, kmTo = 2.86, length = 69 },
+  { kind = "bridge", kmFrom = 3.127, kmTo = 3.138, length = 19 },
+  { kind = "bridge", kmFrom = 3.343, kmTo = 3.366, length = 43 },
+  { kind = "bridge", kmFrom = 3.723, kmTo = 3.732, length = 17 },
+  { kind = "bridge", kmFrom = 4.228, kmTo = 4.238, length = 20 },
+  { kind = "bridge", kmFrom = 4.643, kmTo = 4.696, length = 100 },
+  { kind = "bridge", kmFrom = 4.883, kmTo = 4.935, length = 100 },
+  { kind = "bridge", kmFrom = 5.342, kmTo = 5.353, length = 20 },
+  { kind = "bridge", kmFrom = 5.849, kmTo = 5.858, length = 17 },
+  { kind = "bridge", kmFrom = 6.405, kmTo = 6.448, length = 43 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "__g_Ik}`qAcFcn@O_Hf@eIfH}a@b@kMmM}lBCaFd@cG", v = 80 },
+  { line = "khg_IcnhqAx@sD", tunnel = true, v = 80 },
+  { line = "qfg_IwshqAhB{D", v = 80 },
+  { line = "gcg_IsyhqAnG{L", v = 60 },
+  { line = "wzf_IogiqAdZug@hL}V`W{c@rLiV", v = 80 },
+  { line = "qld_IidmqAh_@}o@bGkNbAmFb@wLo@cM", v = 60 },
+  { line = "kbc_I}gpqAp@|FBzF" },
+  { line = "u`c_IcxoqAaAvOyF|NyeAjmBeVlf@", v = 80 },
+]
+posts = [[1, 52.47029, 13.45727], [2, 52.47016, 13.47143], [3, 52.46931, 13.48707], [4, 52.45713, 13.50646], [5, 52.45004, 13.5177], [6, 52.46222, 13.49829]]
+
+[[connections]]
+km = 0.139
+station = "Neukölln"
+lines = [
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 17.613 },
+]
+
+[[connections]]
+km = 3.105
+station = "Baumschulenweg"
+lines = [
+  { id = "6007", ref = "6007", name = "6007 Berlin Warschauer Straße - Königs Wusterhausen", km = 5.209 },
+  { id = "6142", ref = "6142", name = "6142 Berlin - Görlitz", km = 5.169 },
+]
+
+[[connections]]
+km = 5.415
+station = "Berlin-Schöneweide"
+lines = [
+  { id = "6007", ref = "6007", name = "6007 Berlin Warschauer Straße - Königs Wusterhausen", km = 7.106 },
+  { id = "6142", ref = "6142", name = "6142 Berlin - Görlitz", km = 7.096 },
+]

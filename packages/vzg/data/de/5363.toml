@@ -1,0 +1,56 @@
+id = "5363"
+ref = "5363"
+gauge = "1435"
+wikidata = "Q801978"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.412
+kmTo = 22.063
+length = 22.486
+speeds = [[-0.412, 19.395, "", ""], [19.395, 20.837, "", 100], [20.837, 21.547, "", ""], [21.547, 21.968, "", 80], [21.968, 22.063, "", ""]]
+curves = [[0.463, 1.138, 750], [4.038, 4.263, 1760], [5.538, 6.238, 1090], [12.213, 12.438, 1630], [13.538, 13.763, 1830], [15.162, 15.212, 2420], [21.158, 21.956, 510]]
+points = [
+  { km = -0.022, kind = "station", label = "Bobingen", pos = [48.26658, 10.83798], uic = "8001033" },
+  { km = 3.761, kind = "station", label = "Oberottmarshausen", pos = [48.236, 10.85176], uic = "8004571" },
+  { km = 8.089, kind = "stop", label = "Graben-Gewerbepark", pos = [48.19916, 10.85242] },
+  { km = 8.097, kind = "station", label = "Graben (Lechfeld)-Gewerbepark", uic = "8002346", pos = [48.19911, 10.85235] },
+  { km = 9.954, kind = "station", label = "Lagerlechfeld", pos = [48.18322, 10.84425] },
+  { km = 13.19, kind = "station", label = "Klosterlechfeld", pos = [48.15536, 10.83251], uic = "8003342" },
+  { km = 20.849, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 20.922, kind = "signal", signal = "distant", dir = 1 },
+  { km = 21.168, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 21.515, kind = "signal", signal = "distant", dir = 1 },
+  { km = 21.62, kind = "signal", label = "G", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 21.81, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 21.964, kind = "signal", signal = "minor", dir = 1 },
+  { km = 21.968, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.113, kmTo = 0.13, length = 17 },
+  { kind = "bridge", kmFrom = 0.617, kmTo = 0.636, length = 19 },
+  { kind = "bridge", kmFrom = 1.412, kmTo = 1.441, length = 29 },
+  { kind = "bridge", kmFrom = 14.206, kmTo = 14.308, length = 101 },
+  { kind = "bridge", kmFrom = 16.178, kmTo = 16.232, length = 54 },
+  { kind = "bridge", kmFrom = 18.407, kmTo = 18.432, length = 25 },
+  { kind = "bridge", kmFrom = 19.377, kmTo = 19.395, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "otreHwgdaAzo@pd@lJdAjKkAbTiNbeC{hBtmAgi@|GwArI]hMxBpzHz_DzNzD`bAdKrvAkCrjFy]" },
+  { line = "gnqdH}ucaAtoAmI", v = 100 },
+  { line = "q}ndHk`daAvWyBnE}BjEgF" },
+  { line = "}wmdHkodaAtBaFrA{F|@{P", v = 80 },
+  { line = "uomdHepeaA]aG" },
+]
+posts = [[0, 48.26636, 10.83798], [1, 48.258, 10.83449], [2, 48.24999, 10.84061], [3, 48.24204, 10.84691], [4, 48.23407, 10.85318], [5, 48.22567, 10.85793], [6, 48.21701, 10.86113], [7, 48.20844, 10.85716], [8, 48.19992, 10.85281], [9, 48.19141, 10.84847], [10, 48.1829, 10.84411], [11, 48.17438, 10.83978], [12, 48.16587, 10.83545], [13, 48.15706, 10.83294], [14, 48.1481, 10.8321], [15, 48.13911, 10.83258], [16, 48.13014, 10.83363], [17, 48.12118, 10.8348], [18, 48.11222, 10.83597], [19, 48.10325, 10.83714], [20, 48.0942, 10.83831], [21, 48.08532, 10.83944], [22, 48.0795, 10.84737]]
+
+[[connections]]
+km = -0.022
+station = "Bobingen"
+lines = [
+  { id = "5304", ref = "5304", name = "5304 Augsburg Hbf - Buchloe", km = 83.403 },
+  { id = "5340", ref = "5340", name = "Staudenbahn", km = -11.988 },
+]

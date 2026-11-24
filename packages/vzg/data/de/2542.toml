@@ -1,0 +1,141 @@
+id = "2542"
+ref = "2542"
+name = "2542 Lindern - Heinsberg (Rheinl)"
+operator = "Rurtalbahn"
+gauge = "1435"
+from = "Lindern"
+to = "Heinsberg (Rheinl)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.648
+kmTo = 12.195
+length = 12.807
+speeds = [[-0.648, 0.6, 60, 60], [0.6, 0.874, 70, 70], [0.874, 2.537, 80, 80], [2.537, 2.6, "", ""], [2.6, 2.783, 80, 80], [2.783, 3.165, 70, 70], [3.165, 5.616, 80, 80], [5.616, 5.948, 70, 70], [5.948, 7.922, 80, 80], [7.922, 8.047, 60, 60], [8.047, 11.761, 80, 80], [11.761, 11.877, 70, 70], [11.877, 12.195, 30, 30]]
+curves = [[-0.479, -0.344, 1320], [0.196, 0.844, 390], [0.989, 1.127, 1160], [2.771, 3.129, 390], [3.59, 3.843, 670], [5.592, 5.966, 400], [6.317, 6.458, 1390], [7.894, 8.082, 860], [9.11, 9.221, 1860], [9.535, 9.669, 2050], [11.745, 11.89, 1050], [11.943, 12.045, 970]]
+points = [
+  { km = -0.288, kind = "signal", label = "24N3", signal = "main,speed_limit", dir = -1 },
+  { km = -0.004, kind = "signal", label = "24 303Y", signal = "minor", dir = 1 },
+  { km = 0.008, kind = "signal", label = "24 302X", signal = "minor", dir = -1 },
+  { km = 0.017, kind = "station", label = "Lindern", pos = [50.99694, 6.20784], uic = "8003697" },
+  { km = 0.105, kind = "signal", label = "24P3", signal = "main,route,speed_limit", dir = 1 },
+  { km = 0.157, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.2, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 0.273, kind = "signal", signal = "crossing_distant,crossing_hint,crossing_info", dir = -1 },
+  { km = 0.282, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.367, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.577, kind = "signal", label = "24B", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 0.578, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.743, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 0.748, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 0.845, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.945, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.176, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.187, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 1.257, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.497, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.656, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 1.843, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.057, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.143, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.164, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 2.201, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 2.331, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.336, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 2.537, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.603, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.717, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.783, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.784, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.002, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.038, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 3.06, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 3.071, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.087, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.088, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.165, kind = "stop", label = "Heinsberg-Randerath", pos = [51.01535, 6.18213], uic = "8002718" },
+  { km = 3.295, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.772, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.002, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.54, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.705, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.777, kind = "stop", label = "Heinsberg-Horst", pos = [51.02974, 6.18215], uic = "8002719" },
+  { km = 4.851, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.853, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.616, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.703, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.948, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.948, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.208, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 6.263, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 6.318, kind = "stop", label = "Heinsberg-Porselen", pos = [51.04108, 6.17308], uic = "8002720" },
+  { km = 6.464, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 6.635, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.97, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.153, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.329, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.481, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 7.762, kind = "stop", label = "Heinsberg-Dremmen", pos = [51.04533, 6.15398], uic = "8001557" },
+  { km = 7.922, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.925, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.045, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.047, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.276, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.701, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 8.782, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.864, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 8.978, kind = "signal", label = "26A", signal = "combined", dir = 1 },
+  { km = 8.98, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.141, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 9.44, kind = "signal", label = "26P1", signal = "main", dir = -1 },
+  { km = 9.524, kind = "station", label = "Heinsberg-Oberbruch", pos = [51.05401, 6.13289], uic = "8004519" },
+  { km = 9.666, kind = "signal", label = "26N1", signal = "main", dir = 1 },
+  { km = 9.898, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 9.904, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 10.15, kind = "signal", label = "26F", signal = "combined,speed_limit", dir = -1 },
+  { km = 10.889, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 10.898, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.243, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 11.398, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 11.442, kind = "stop", label = "Heinsberg Kreishaus", pos = [51.06184, 6.10863], uic = "8002725" },
+  { km = 11.603, kind = "signal", label = "27 A", signal = "combined", dir = 1 },
+  { km = 11.677, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 11.761, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.799, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 11.824, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 11.908, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.967, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.03, kind = "signal", label = "27P1", signal = "main", dir = -1 },
+  { km = 12.113, kind = "station", label = "Heinsberg (Rheinl)", pos = [51.06452, 6.09962], uic = "8002721" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.537, kmTo = 2.6, length = 46 },
+  { kind = "bridge", kmFrom = 3.887, kmTo = 3.913, length = 25 },
+  { kind = "bridge", kmFrom = 5.089, kmTo = 5.101, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "crtvHwbfd@fDaPt@qG", v = 30 },
+  { line = "ektvHk|fd@nAyH", v = 70 },
+  { line = "uhtvHefgd@fw@wlDpKu^~c@cpA", v = 80 },
+  { line = "{~pvHwdpd@|AcH", v = 60 },
+  { line = "}{pvH{mpd@d[i~BtJ}c@", v = 80 },
+  { line = "atovHcrud@jDcJdCwBvCy@", v = 70 },
+  { line = "weovHybvd@reBqU|Ff@jY`J", v = 80 },
+  { line = "y|jvHamvd@nEnAdCBfCw@nCaC", v = 70 },
+  { line = "kijvHgpvd@rHeI", v = 80 },
+  { line = "w_jvHmzvd@`AiA" },
+  { line = "u}ivHw|vd@fbAwfAtIiG", v = 80 },
+  { line = "wogvHylyd@bFmElC{G", v = 70 },
+  { line = "edgvHc|yd@t@qJk@{J{M{z@oDgQ", v = 60 },
+]
+posts = [[12, 51.06404, 6.10103], [11, 51.06017, 6.11391], [10, 51.056, 6.12681], [9, 51.05157, 6.13867], [8, 51.04617, 6.15055], [7, 51.04308, 6.16433], [6, 51.03975, 6.17711], [5, 51.03176, 6.18166], [4, 51.0228, 6.18365], [3, 51.01394, 6.18164], [2, 51.00665, 6.18852], [1, 50.99911, 6.19646], [0, 50.99711, 6.208]]
+
+[[connections]]
+km = 0.017
+station = "Lindern"
+lines = [
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 34.608 },
+]

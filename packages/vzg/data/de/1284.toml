@@ -1,0 +1,53 @@
+id = "1284"
+ref = "1284"
+name = "1284 Stelle - Maschen Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Stelle"
+to = "Maschen Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.123
+length = 4.123
+speeds = [[0, 2.829, "", ""], [2.829, 4.123, 160, 160]]
+curves = [[0.1, 0.25, 540], [0.3, 0.425, 1010], [0.5, 0.625, 1440], [0.775, 1.125, 900], [1.175, 1.725, 530], [1.775, 2.025, 740], [2.525, 3, 1740], [3.3, 3.375, 2670], [3.675, 3.75, 2950]]
+points = [
+  { km = 0.517, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.596, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.822, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.891, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.61, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.612, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.615, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.616, kind = "signal", signal = "route", dir = 1 },
+  { km = 1.906, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.215, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 2.325, kind = "signal", label = "GG", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 2.647, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.718, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.04, kind = "signal", label = "N2", signal = "distant,main,minor,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 3.56, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.656, kind = "station", label = "Stelle", uic = "8001181", pos = [53.38749, 10.10948] },
+  { km = 3.768, kind = "signal", label = "P2", signal = "distant,main,minor,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.159, kmTo = 2.197, length = 38 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "on|dI}tk|@jDuLnB{QdCwMxGyWdBiLp@_UmAiL@cFnAyJlG_YvFy~@dCwQ" },
+  { line = "k_{dIems|@fHy[pFsRjJwWbMgX", v = 160 },
+]
+posts = [[0, 53.39896, 10.05919], [1, 53.395, 10.07262], [2, 53.39315, 10.08679], [3, 53.39073, 10.10122], [4, 53.38544, 10.11335]]
+
+[[connections]]
+km = 3.656
+station = "Stelle"
+lines = [
+  { id = "1281", ref = "1281", name = "1281 Abzw Ashausen – Maschen Rbf", km = 3.381 },
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 158.139 },
+]

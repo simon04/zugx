@@ -1,0 +1,25 @@
+id = "bomlitz-cordingen"
+name = "Bomlitz - Cordingen"
+operator = "Osthannoversche Eisenbahnen AG"
+gauge = "1435"
+wikidata = "Q801984"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.474
+kmTo = 3.641
+length = 3.714
+speeds = [[-0.474, 3.641, "", ""]]
+curves = [[-0.349, -0.099, 1400], [-0.049, 0.314, 570], [0.383, 0.625, 530], [0.694, 1.352, 320], [2.097, 2.688, 430], [2.836, 3.034, 1020], [3.281, 3.33, 2050]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.609, kmTo = 0.653, length = 32 },
+  { kind = "bridge", kmFrom = 2.759, kmTo = 2.785, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ib{aI}wuy@gK{CgQ}AyBgAcJ{IaLwByDsEyA}HdA}mArGoSzGiHpDsOzCkRfHyr@AsD" },
+]
+posts = [[0, 52.90456, 9.62044], [1, 52.91053, 9.62413], [2, 52.91092, 9.63525], [3, 52.90631, 9.649]]

@@ -1,0 +1,47 @@
+id = "2940"
+ref = "2940"
+name = "2940 Neubeckum - Beckum"
+operator = "DB Netz AG;Westfälische Landes-Eisenbahn GmbH"
+gauge = "1435"
+wikidata = "Q20667631"
+from = "Neubeckum"
+to = "Beckum"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 6.299
+length = 6.299
+speeds = [[0, 1.361, "", ""], [1.361, 6.299, 50, 50]]
+curves = [[1.125, 1.175, 1690], [1.225, 1.8, 400], [2.525, 2.925, 1200], [5, 5.425, 1740]]
+points = [
+  { km = 0.192, kind = "signal", label = "P14", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.316, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.372, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.489, kind = "station", label = "Beckum-Neubeckum", uic = "8004251", pos = [51.80164, 8.02031] },
+  { km = 0.659, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.859, kind = "signal", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 0.974, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.055, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.124, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.177, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.182, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.183, kind = "signal", signal = "minor", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "szd{Hux~o@d`@jnB" },
+  { line = "myc{Hii{o@dBzDpC|CpCrAtDVfn@iL|M{GrjBojBbKoPl`@{z@", v = 50 },
+]
+posts = [[0, 51.80346, 8.02715], [1, 51.79957, 8.01404], [2, 51.79291, 8.00769], [3, 51.78431, 8.01155], [4, 51.77666, 8.01917], [5, 51.769, 8.0268], [6, 51.76262, 8.03696]]
+
+[[connections]]
+km = 0.489
+station = "Beckum-Neubeckum"
+lines = [
+  { id = "1700", ref = "1700", name = "1700 Hannover - Hamm", km = 155.158 },
+  { id = "2990", ref = "2990", name = "2990 Minden - Hamm", km = 155.195 },
+  { id = "9213", ref = "9213", name = "9213 Neubeckum - Münster", km = 0.277 },
+]

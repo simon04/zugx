@@ -1,0 +1,57 @@
+id = "4002"
+ref = "4002"
+operator = "DB InfraGO"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.016
+kmTo = 8.277
+length = 8.319
+speeds = [[-0.016, 2.438, "", ""], [2.438, 2.786, 40, 40], [2.786, 8.277, "", ""]]
+curves = [[1.03, 1.177, 1480], [1.422, 1.544, 1490], [1.618, 1.74, 1480], [2, 2.069, 2210], [2.273, 2.84, 1200], [2.892, 3.166, 750], [3.386, 3.459, 1940], [3.606, 3.679, 1420], [4.277, 4.477, 570], [4.527, 4.752, 710], [5.152, 5.327, 1170], [5.602, 5.727, 1640], [5.927, 5.977, 2520], [6.477, 6.677, 840], [6.802, 7.077, 1850], [7.127, 7.477, 600], [8.027, 8.127, 1330]]
+points = [
+  { km = 0.015, kind = "station", label = "Mannheim Hauptbahnhof", uic = "8014008", pos = [49.47924, 8.46941] },
+  { km = 0.125, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.176, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.312, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.317, kind = "signal", label = "P083", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 0.968, kind = "signal", signal = "main", dir = 1 },
+  { km = 1.241, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.253, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.31, kind = "signal", signal = "route", dir = 1 },
+  { km = 1.626, kind = "signal", label = "321I", signal = "minor", dir = -1 },
+  { km = 1.646, kind = "signal", label = "a", signal = "distant", dir = 1 },
+  { km = 1.842, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 2.324, kind = "signal", label = "A", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 2.622, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.786, kind = "signal", label = "R635", signal = "main,minor", dir = 1 },
+  { km = 2.894, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.267, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.412, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.481, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.582, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.607, kind = "signal", signal = "distant", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}jwlHw~gs@eDtOqQ|q@wA`OkD~OqDh`@}TtcAeHrg@eNrf@gLlRaSvs@uEpMgLnXsKlL" },
+  { line = "q`|lHcf{r@yClEqFbN", v = 40 },
+  { line = "}l|lHqpzr@oQbs@qGnQ_Jb[af@`nA" },
+]
+posts = [[8, 49.44174, 8.56229], [7, 49.44566, 8.54992], [6, 49.44899, 8.53717], [5, 49.45248, 8.52447], [4, 49.45775, 8.51314], [3, 49.46297, 8.50193], [2, 49.46847, 8.49128], [1, 49.47323, 8.47987], [0, 49.4788, 8.46862]]
+
+[[connections]]
+km = 0.015
+station = "Mannheim Hauptbahnhof"
+lines = [
+  { id = "3401", ref = "3401", name = "3401 Abzw Böhl-Iggelheim - Mannheim", km = 107.933 },
+  { id = "3522", ref = "3522", name = "3522 Mainz - Mannheim", km = 70.111 },
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 0.007 },
+  { id = "4011", ref = "4011", name = "4011 Mannheim Hbf - Mannheim-Waldhof", km = 0 },
+  { id = "4020", ref = "4020", name = "4020 Mannheim Hbf - Rastatt", km = 0.007 },
+  { id = "4030", ref = "4030", name = "4030 Mannheim Hbf - Mannheim Hgbf", km = -0.017 },
+  { id = "4080", ref = "4080", name = "4080 Schnellfahrstrecke Mannheim-Stuttgart", km = 0.008 },
+]

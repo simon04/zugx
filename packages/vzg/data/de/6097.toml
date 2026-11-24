@@ -1,0 +1,37 @@
+id = "6097"
+ref = "6097"
+name = "6097 Berlin-Moabit - Moabit Ost"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Berlin-Moabit"
+to = "Moabit Ost"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.664
+length = 0.664
+speeds = [[0, 0.664, 80, 80]]
+curves = [[0.175, 0.275, 1540], [0.425, 0.5, 2670]]
+points = [
+  { km = 0.275, kind = "signal", label = "83 K", signal = "combined,route_distant,speed_limit,traversable", dir = 1 },
+  { km = 0.414, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.455, kind = "station", label = "Westhafen", uic = "8089116", pos = [52.53674, 13.34257] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cct_I_snpAvF~z@", v = 80 },
+]
+posts = [[0, 52.53698, 13.35104]]
+
+[[connections]]
+km = 0.455
+station = "Westhafen"
+lines = [
+  { id = "6030", ref = "6030", name = "6030 Berlin-Gesundbrunnen - Oranienburg", km = 2.016 },
+  { id = "6107", ref = "6107", name = "6107 Berlin Hbf (tief) - Lehrte", km = 2.766 },
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 37.709 },
+  { id = "6183", ref = "6183", name = "6183 Berlin-Schönholz - Kremmen", km = -13.679 },
+]

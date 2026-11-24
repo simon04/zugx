@@ -1,0 +1,46 @@
+id = "9701"
+ref = "9701"
+name = "Brockenbahn"
+operator = "Harzer Schmalspurbahnen GmbH"
+gauge = "1000"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.485
+kmTo = 8
+length = 7.495
+speeds = [[0.485, 3.955, 30, 30], [3.955, 4.022, 20, ""], [4.022, 5.245, 30, 30], [5.245, 5.655, 20, 20], [5.655, 8, 30, 30]]
+curves = [[0.585, 0.685, 180], [0.735, 1.335, 450], [1.46, 2.909, 270], [2.959, 3.309, 230], [3.384, 4.184, 300], [4.233, 4.458, 510], [4.508, 5.283, 310], [5.433, 6.03, 490], [6.08, 6.179, 540], [6.427, 6.578, 570], [6.655, 6.782, 610], [6.833, 6.961, 1490], [7.012, 7.113, 1200], [7.164, 7.292, 790], [7.343, 7.648, 1080], [7.725, 7.852, 610]]
+points = [
+  { km = 3.955, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.006, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.233, kind = "signal", label = "2N", signal = "main", dir = -1 },
+  { km = 5.237, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.24, kind = "signal", signal = "resetting_switch", dir = 1 },
+  { km = 5.245, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 5.309, kind = "signal", signal = "stop,whistle", dir = -1 },
+  { km = 5.36, kind = "station", label = "Schierke", pos = [51.76513, 10.67767], uic = "8059822", ele = 687 },
+  { km = 5.426, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.428, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.503, kind = "signal", label = "2P", signal = "main", dir = 1 },
+  { km = 5.507, kind = "signal", signal = "resetting_switch", dir = 1 },
+  { km = 5.632, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 5.655, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.656, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.011, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.582, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.69, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.864, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.942, kind = "signal", signal = "whistle", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yz}zH{cm`AnCd@z@`A`CtKxApDxIrDhArArDfHjHbShApEJnCg@nCuBrDQ`DZhBxDjGt@fNU`DwCzEcBxG}EfDeBLgFaC{IgHkC@{B~B_GpTSzC|@lSjC~EjC~@", v = 30 },
+  { line = "{v}zHojg`AlBz@", v = 20 },
+  { line = "ms}zHshg`AbDhHhDxDhC~GxGdI`BvI?vCe@tBwKzLcBnK", v = 30 },
+  { line = "{i}zHwxd`A}BzUuDzH", v = 20 },
+  { line = "os}zH_xc`A_B|DmAnL_ElPuL|XqIvJgS``@mL|PkFzQoAnO", v = 30 },
+]
+posts = [[1, 51.76422, 10.71789], [2, 51.76059, 10.70695], [3, 51.76569, 10.70177], [4, 51.76663, 10.69227], [5, 51.76376, 10.68217], [6, 51.76788, 10.66966], [7, 51.77395, 10.65932], [8, 51.77916, 10.64833]]

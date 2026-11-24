@@ -1,0 +1,84 @@
+id = "4661"
+ref = "4661"
+name = "4661 Tuttlingen - Hattingen (Baden)"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q59318316"
+from = "Tuttlingen"
+to = "Hattingen (Baden)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.784
+kmTo = 8.422
+length = 9.216
+speeds = [[-0.784, -0.757, 80, 90], [-0.757, -0.497, 80, 80], [-0.497, 0.976, 100, 100], [0.976, 0.998, 100, 110], [0.998, 8.344, 110, 110], [8.344, 8.422, 80, 80]]
+curves = [[-0.667, -0.392, 450], [-0.267, -0.117, 1720], [0.458, 0.533, 2420], [1.671, 2.296, 510], [2.455, 4.194, 1120], [4.464, 5.491, 510], [6.785, 7.078, 880], [7.185, 7.79, 720], [8.022, 8.322, 770]]
+points = [
+  { km = -0.784, kind = "halt", label = "Tuttlingen Schulen", uic = "8080303", pos = [47.98729, 8.80127] },
+  { km = -0.757, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = -0.695, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.497, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = -0.419, kind = "signal", signal = "minor", dir = 1 },
+  { km = -0.191, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = -0.124, kind = "signal", label = "29 P2", signal = "main,minor,route,speed_limit,traversable", dir = -1 },
+  { km = -0.121, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.015, kind = "station", label = "Tuttlingen", pos = [47.98045, 8.79913], uic = "8029429", ele = 649 },
+  { km = 0.024, kind = "signal", signal = "main_repeated" },
+  { km = 0.418, kind = "signal", label = "29 N2", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 0.483, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.975, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = 0.976, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.998, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.045, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.393, kind = "signal", label = "29 F", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 1.999, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.057, kind = "halt", label = "Tuttlingen Gänsäcker", uic = "8072021", pos = [47.96455, 8.78113] },
+  { km = 2.42, kind = "signal", label = "29 f", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 6.182, kind = "signal", label = "39 f", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.924, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 7.101, kind = "signal", label = "39 B", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 7.51, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 7.662, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.684, kind = "signal", label = "39 P4", signal = "main,traversable", dir = -1 },
+  { km = 8.024, kind = "signal", label = "39 N4", signal = "main,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.586, kmTo = -0.511, length = 75 },
+  { kind = "bridge", kmFrom = 2.133, kmTo = 2.15, length = 18 },
+  { kind = "bridge", kmFrom = 3.384, kmTo = 3.397, length = 13 },
+  { kind = "bridge", kmFrom = 5.292, kmTo = 5.34, length = 45, name = "Bettentalbrücke" },
+  { kind = "bridge", kmFrom = 6.6, kmTo = 6.781, length = 178, name = "Einödtalbrücke" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_mncH{spt@_CtA", v = 80 },
+  { line = "_qncHeqpt@iJxBkXq@wKjAqIfFaLtMaFhDamA`c@_Gl@cD_@_ImEcEuGaBcFyAoNg@of@_CuUeBsIsE_NqIaOcJaIkDcAsDKeGjA}S|MuFr@wD]oDsAcDmCw^gb@", v = 110 },
+  { line = "_wxcHi_tt@o\\o_@uWmUqNyI", v = 100 },
+  { line = "w|zcHaavt@kEu@aGv@", v = 80 },
+  { line = "ek{cH_avt@m@R", v = 90 },
+]
+posts = [[8, 47.924, 8.77288], [7, 47.93265, 8.76922], [6, 47.94148, 8.76494], [5, 47.94958, 8.7632], [4, 47.95221, 8.77582], [3, 47.95696, 8.78622], [2, 47.96542, 8.78417], [1, 47.97295, 8.79089], [0, 47.98032, 8.79855]]
+
+[[connections]]
+km = -0.784
+station = "Tuttlingen Schulen"
+lines = [
+  { id = "4600", ref = "4600", name = "4600 Plochingen - Immendingen", km = 150.346 },
+]
+
+[[connections]]
+km = -0.015
+station = "Tuttlingen"
+lines = [
+  { id = "4660", ref = "4660", name = "4660 Tuttlingen - Abzw Inzigkofen", km = -0.305 },
+]
+
+[[connections]]
+km = 2.057
+station = "Tuttlingen Gänsäcker"
+lines = [
+  { id = "4600", ref = "4600", name = "4600 Plochingen - Immendingen", km = 153.359 },
+]

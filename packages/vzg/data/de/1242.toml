@@ -1,0 +1,38 @@
+id = "1242"
+ref = "1242"
+name = "1242 Hamburg-Wandsbek - Abzw Hamburg-Horn"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hamburg-Wandsbek"
+to = "Hamburg-Horn"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.886
+length = 2.886
+speeds = [[0, 0.218, "", ""], [0.218, 0.691, 60, 60], [0.691, 2.886, "", ""]]
+curves = [[0.175, 0.7, 360], [0.8, 0.875, 2040], [1.325, 1.375, 2610], [1.5, 1.625, 1340], [2.05, 2.325, 1240]]
+points = [
+  { km = 1.455, kind = "signal", label = "G", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 1.601, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.632, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 1.67, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 1.704, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.868, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.951, kind = "signal", label = "R3", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 2.708, kind = "signal", label = "P3", signal = "distant,main,minor,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.456, kmTo = 0.483, length = 27 },
+  { kind = "bridge", kmFrom = 1.787, kmTo = 1.82, length = 33 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_i|eIkzl|@oJbF" },
+  { line = "ot|eIgsl|@aEz@kD{@qEkEaC_I", v = 60 },
+  { line = "qj}eIscm|@_QuiA}Puv@_Io|@" },
+]
+posts = [[0, 53.56192, 10.06518], [1, 53.56836, 10.07098], [2, 53.57219, 10.08464]]

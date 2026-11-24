@@ -1,0 +1,48 @@
+id = "6206"
+ref = "6206"
+name = "6206 Strecke Guben - Guben Grenze"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Guben"
+to = "Guben Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.68
+length = 2.68
+speeds = [[0, 1.919, 80, 80], [1.919, 2.011, "", ""], [2.011, 2.68, 80, 80]]
+curves = [[0.15, 0.25, 1850], [1.475, 1.6, 1860], [1.7, 1.75, 1770], [1.85, 2.575, 640]]
+points = [
+  { km = 0.154, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.195, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.709, kind = "signal", label = "L10", signal = "main,minor,traversable", dir = -1 },
+  { km = 0.963, kind = "station", label = "Guben", uic = "8004034", pos = [51.95908, 14.70675] },
+  { km = 1.512, kind = "signal", label = "G10", signal = "main,minor,traversable", dir = 1 },
+  { km = 1.736, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.866, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.941, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.007, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.011, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.554, kmTo = 2.68, length = 126 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mra|He_xxAsJrCcgAxTmTzI", v = 80 },
+  { line = "s{d|H{yvxAaDr@" },
+  { line = "u`e|HgxvxAkHViHmBgFmEqFmJ", v = 80 },
+]
+posts = [[0, 51.95063, 14.70979], [1, 51.95945, 14.70699], [2, 51.96818, 14.70358]]
+
+[[connections]]
+km = 0.963
+station = "Guben"
+lines = [
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 129.711 },
+  { id = "6253", ref = "6253", name = "6253 Großenhain - Frankfurt (Oder)", km = 129.665 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 129.711 },
+]

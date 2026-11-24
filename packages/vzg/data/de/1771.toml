@@ -1,0 +1,33 @@
+id = "1771"
+ref = "1771"
+name = "1771 Barnten - Abzw Rössing"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q110548557"
+from = "Barnten"
+to = "Rössing"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 23.763
+kmTo = 26.571
+length = 2.773
+speeds = [[23.763, 26.571, 120, 120]]
+curves = [[24.029, 26.448, 1200]]
+points = [
+  { km = 23.764, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.993, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 24.28, kind = "signal", label = "33 G", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 25.15, kind = "signal", signal = "distant", dir = 1 },
+  { km = 25.163, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 25.994, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 26.184, kind = "signal", label = "55 251", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 26.401, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "y~o}Ho}zz@zUvNtMfC`HAtHiAnHsC`G_EnFuFdGiJlEgKxCeKxB_LbByOn@kPAuN", v = 120 },
+]
+posts = [[24, 52.18612, 9.80819], [25, 52.1776, 9.8076], [26, 52.17123, 9.81831]]

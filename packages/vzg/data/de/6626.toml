@@ -1,0 +1,81 @@
+id = "6626"
+ref = "6626"
+name = "6626 Johanngeorgenstadt Grenze - Schwarzenberg (Erzgeb)"
+operator = "DB InfraGO;Erzgebirgsbahn"
+gauge = "1435"
+wikidata = "Q802485"
+from = "Johanngeorgenstadt Grenze"
+to = "Schwarzenberg (Erzgeb)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.701
+kmTo = 17.783
+length = 18.47
+speeds = [[-0.701, 0.018, 60, 60], [0.018, 0.107, "", ""], [0.107, 0.229, 40, 40], [0.229, 16.842, "", ""], [16.842, 17.783, 60, 60]]
+curves = [[-0.601, -0.151, 520], [0.049, 0.124, 1920], [0.174, 1.349, 240], [1.424, 1.724, 390], [1.849, 2.549, 410], [2.649, 3.024, 430], [3.074, 3.224, 400], [3.274, 3.424, 540], [3.724, 4.549, 280], [4.599, 4.824, 690], [4.874, 5.299, 370], [6.199, 6.824, 210], [6.974, 7.424, 520], [7.474, 8.499, 390], [8.874, 9.529, 400], [9.656, 10.318, 420], [10.528, 11.195, 440], [11.243, 12.304, 340], [12.453, 12.503, 2210], [12.728, 13.202, 490], [13.651, 14.275, 300], [14.474, 14.699, 480], [14.948, 15.148, 450], [15.248, 15.472, 710], [15.522, 16.32, 310], [16.545, 16.77, 480], [16.844, 17.462, 720]]
+points = [
+  { km = 0.018, kind = "station", label = "Johanngeorgenstadt", pos = [50.43759, 12.7289], uic = "8006671" },
+  { km = 4.075, kind = "stop", label = "Erlabrunn", pos = [50.47076, 12.72068] },
+  { km = 6.977, kind = "stop", label = "Breitenbrunn", pos = [50.47706, 12.74615] },
+  { km = 9.29, kind = "signal", label = "22Va", signal = "distant", dir = 1, measured = true },
+  { km = 9.724, kind = "signal", label = "22A", signal = "main,traversable", dir = 1, measured = true },
+  { km = 10, kind = "signal", signal = "shunting", dir = -1, measured = true },
+  { km = 10.07, kind = "signal", label = "22Vn12", signal = "distant", dir = 1, measured = true },
+  { km = 10.26, kind = "signal", label = "22P1", signal = "main,traversable", dir = -1, measured = true },
+  { km = 10.409, kind = "station", label = "Antonsthal", pos = [50.49994, 12.75522] },
+  { km = 10.497, kind = "signal", label = "22N1", signal = "main,traversable", dir = 1, measured = true },
+  { km = 10.79, kind = "signal", signal = "shunting", dir = 1, measured = true },
+  { km = 10.8, kind = "signal", label = "22Vp23", signal = "distant", dir = -1, measured = true },
+  { km = 11.12, kind = "signal", label = "22F", signal = "main,traversable", dir = -1, measured = true },
+  { km = 11.637, kind = "signal", label = "22Vf", signal = "distant", dir = -1, measured = true },
+  { km = 14.043, kind = "stop", label = "Erla", pos = [50.51971, 12.78688], uic = "8006667" },
+  { km = 15.519, kind = "stop", label = "Schwarzenberg - Haltepunkt", pos = [50.53242, 12.78638] },
+  { km = 17.014, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.136, kind = "signal", label = "21 P1", signal = "main", dir = -1 },
+  { km = 17.139, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.153, kind = "signal", signal = "stop", dir = -1 },
+  { km = 17.233, kind = "station", label = "Schwarzenberg (Erzgebirge)", pos = [50.545, 12.78767], uic = "8006665" },
+  { km = 17.26, kind = "signal", signal = "stop", dir = 1 },
+  { km = 17.262, kind = "signal", label = "21 ZR1", signal = "main,speed_limit", dir = 1 },
+  { km = 17.333, kind = "signal", label = "21ZU1", signal = "main", dir = -1 },
+  { km = 17.335, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.434, kind = "signal", signal = "distant", dir = -1 },
+  { km = 17.582, kind = "signal", label = "21N1", signal = "main,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.343, kmTo = 0.374, length = 31 },
+  { kind = "bridge", kmFrom = 4.155, kmTo = 4.182, length = 28 },
+  { kind = "bridge", kmFrom = 7.508, kmTo = 7.523, length = 15 },
+  { kind = "bridge", kmFrom = 8.206, kmTo = 8.233, length = 28 },
+  { kind = "bridge", kmFrom = 10.51, kmTo = 10.554, length = 44 },
+  { kind = "bridge", kmFrom = 10.888, kmTo = 10.912, length = 23 },
+  { kind = "bridge", kmFrom = 13.855, kmTo = 13.909, length = 54 },
+  { kind = "bridge", kmFrom = 14.637, kmTo = 14.666, length = 29 },
+  { kind = "bridge", kmFrom = 15.161, kmTo = 15.209, length = 48 },
+  { kind = "tunnel", kmFrom = 16.391, kmTo = 16.625, length = 235 },
+  { kind = "bridge", kmFrom = 16.842, kmTo = 16.914, length = 72 },
+  { kind = "bridge", kmFrom = 17.025, kmTo = 17.045, length = 19 },
+  { kind = "bridge", kmFrom = 17.052, kmTo = 17.103, length = 48 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "iayrH}evlAmG|JuFbM}BbBeKjD", v = 60 },
+  { line = "qazrHkculAyCfA" },
+  { line = "kfzrHcaulAmEvB", v = 40 },
+  { line = "ylzrHk}tlAgE`AoBQgBgAsEuGcBk@yBLiI|HwBRwEo@aCz@qI|PkDtCgPjB_H`DiIqA_Ev@iCzBiHjLcDpBiQcCaJ{FsWwDqF`BgIjLeCd@oBg@}A}AiAsCqC}SqHqS_AuJb@wIpRssAM_IaCsGmDiBcDd@yNdRqCtAoIVwI}BuCb@iDlCkFtGcE|L}C~CcCLcG}Am\\jCsCk@qBgCyFcM}@iDQyDd@uUm@aG{B_E}HkFyDuI_IcY{@gQ}@oE_G}H}JuDyCyEcBwMZ_SoBsGiK_Hua@VeEkAiEeDsB{DsOqj@c@{DC{Im@iEeBaEkCcCeVyDuVhLiRa@yIhDeDVqBs@oBaCeD_PiCsFiCyBuGoB" },
+  { line = "}xmsHglamA{KwC", tunnel = true },
+  { line = "yensH_qamAyBD{FhC" },
+  { line = "oqnsHolamAaFbEyE`OeB~MoBb`@", v = 60 },
+]
+posts = [[0, 50.43738, 12.72909], [1, 50.44551, 12.72804], [2, 50.45346, 12.72349], [3, 50.46158, 12.72019], [4, 50.47018, 12.72169], [5, 50.47577, 12.72796], [6, 50.47358, 12.74135], [7, 50.47721, 12.74583], [8, 50.48519, 12.7419], [9, 50.49355, 12.73981], [10, 50.49739, 12.75103], [11, 50.50195, 12.76234], [12, 50.50664, 12.77245], [13, 50.5154, 12.77427], [14, 50.51953, 12.78641], [15, 50.5279, 12.78679], [16, 50.53567, 12.78914], [17, 50.54369, 12.7908]]
+
+[[connections]]
+km = 17.233
+station = "Schwarzenberg"
+lines = [
+  { id = "6264", ref = "6264", name = "6264 Schwarzenberg (Erzgeb) - Zwickau (Sachs) Hbf", km = 0.186 },
+  { id = "6624", ref = "6624", name = "6624 Annaberg-Buchholz Süd - Schwarzenberg (Erzgeb)", km = 24.226 },
+]

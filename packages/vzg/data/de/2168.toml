@@ -1,0 +1,80 @@
+id = "2168"
+ref = "2168"
+name = "2168 Gelsenkirchen - Gelsenkirchen Rotthausen / Essen Kray Nord"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Essen-Kray Nord"
+to = "Gelsenkirchen Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.005
+kmTo = 5.303
+length = 5.26
+speeds = [[-0.005, 0.282, 100, 100], [0.282, 0.947, 80, 80], [0.947, 3.519, 110, 110], [3.519, 3.819, 80, 80], [3.819, 4.213, 60, 60], [4.213, 5.303, "", ""]]
+curves = [[0.104, 0.179, 1740], [0.329, 0.816, 440], [1.26, 1.534, 1230], [3.626, 4.202, 460], [4.853, 4.978, 2030], [5.053, 5.103, 1850]]
+points = [
+  { km = -0.005, kind = "station", label = "Essen-Kray Nord", pos = [51.4695, 7.08064], uic = "8001910" },
+  { km = 0.119, kind = "signal", signal = "main,speed_limit_distant", dir = 1 },
+  { km = 0.282, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.385, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.652, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.947, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.372, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.64, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.071, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.397, kind = "signal", signal = "main", dir = 1 },
+  { km = 2.799, kind = "stop", label = "Gelsenkirchen-Rotthausen", uic = "8002227", pos = [51.49269, 7.08904] },
+  { km = 2.903, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.324, kind = "signal", signal = "main,minor", dir = -1 },
+  { km = 3.519, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.675, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.819, kind = "signal", label = "R731", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 4.222, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.291, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.394, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.547, kind = "signal", label = "P007", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 4.584, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.706, kind = "station", label = "Gelsenkirchen Hauptbahnhof", uic = "8000118", pos = [51.50477, 7.1023] },
+  { km = 4.716, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.766, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.781, kind = "signal", signal = "main_repeated" },
+  { km = 4.822, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.998, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.01, kind = "signal", label = "N 007", signal = "main,minor,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.26, kmTo = 0.282, length = 22 },
+  { kind = "bridge", kmFrom = 0.775, kmTo = 0.789, length = 14 },
+  { kind = "bridge", kmFrom = 1.045, kmTo = 1.056, length = 11 },
+  { kind = "bridge", kmFrom = 3.568, kmTo = 3.586, length = 17 },
+  { kind = "bridge", kmFrom = 4.37, kmTo = 4.386, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}{jyHgzkj@dHnd@pIft@" },
+  { line = "ehjyHo_ij@~BlN~DdI", v = 60 },
+  { line = "e~iyH{ehj@vFhE|IbB", v = 80 },
+  { line = "okiyHm|gj@dlBb]lIL`UmC", v = 110 },
+  { line = "y}dyHibgj@vKiA~Ex@jEbDvErJ", v = 80 },
+  { line = "}|cyHarfj@tHtS", v = 100 },
+]
+posts = [[5, 51.50572, 7.10684], [4, 51.50291, 7.09395], [3, 51.49454, 7.08963], [2, 51.48578, 7.08708], [1, 51.47679, 7.0865], [0, 51.46951, 7.08076]]
+
+[[connections]]
+km = -0.005
+station = "Essen-Kray Nord"
+lines = [
+  { id = "2163", ref = "2163", name = "2163 Essen Hbf - Essen-Kray Nord", km = 5.657 },
+]
+
+[[connections]]
+km = 4.706
+station = "Gelsenkirchen Hauptbahnhof"
+lines = [
+  { id = "2230", ref = "2230", name = "2230 Gelsenkirchen Strw 2172/2230 - Wanne-Eickel Hbf", km = 89.118 },
+  { id = "2239", ref = "2239", name = "2239 Gelsenkirchen Hbf - Wanne-Eickel Hbf", km = 0.252 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 89.19 },
+]

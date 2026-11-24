@@ -1,0 +1,69 @@
+id = "6590"
+ref = "6590"
+name = "6590 Görlitz - Hagenwerder"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q203103"
+from = "Görlitz"
+to = "Hagenwerder"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 9.795
+length = 9.795
+speeds = [[0, 0.102, "", ""], [0.102, 0.879, 60, 60], [0.879, 3.81, 100, 100], [3.81, 4.314, 90, 90], [4.314, 8.585, 100, 100], [8.585, 9.42, 60, 100], [9.42, 9.795, 60, 60]]
+curves = [[0.175, 0.9, 320], [1.6, 1.725, 2180], [2.375, 2.525, 1630], [2.6, 3.125, 1000], [3.775, 4.325, 430], [4.425, 5.1, 620], [5.225, 5.55, 850], [5.625, 5.85, 1070], [6.175, 6.6, 800], [8.4, 8.675, 930], [8.875, 9.125, 670]]
+points = [
+  { km = 0.042, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.102, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.173, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.337, kind = "signal", label = "40B", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 0.473, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.554, kind = "signal", label = "VWb", signal = "distant", dir = -1 },
+  { km = 0.879, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.879, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.977, kind = "signal", label = "Vb", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.649, kind = "stop", label = "Görlitz-Weinhübel", pos = [51.12884, 14.97053], uic = "8047972" },
+  { km = 3.04, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.81, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.314, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.794, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.575, kind = "signal", label = "Va", signal = "distant", dir = 1 },
+  { km = 8.585, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.97, kind = "signal", label = "A", signal = "combined", dir = 1 },
+  { km = 9.05, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 9.127, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 9.42, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.792, kind = "signal", label = "B", signal = "combined", dir = -1 },
+  { km = 9.795, kind = "station", label = "Hagenwerder", uic = "8047973", pos = [51.07027, 14.96023] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.536, kmTo = 0.612, length = 76 },
+  { kind = "bridge", kmFrom = 0.823, kmTo = 0.837, length = 14 },
+  { kind = "bridge", kmFrom = 0.846, kmTo = 0.862, length = 16 },
+  { kind = "bridge", kmFrom = 2.824, kmTo = 2.836, length = 12 },
+  { kind = "bridge", kmFrom = 3.76, kmTo = 3.81, length = 50 },
+  { kind = "bridge", kmFrom = 4.784, kmTo = 4.818, length = 34 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oldwHadmzAv@sG" },
+  { line = "wjdwHulmzA^aHbBcKvAeDfD_D", v = 60 },
+  { line = "s~cwHalnzAbCs@", tunnel = true, v = 60 },
+  { line = "ozcwHumnzA|Ef@vElE", v = 60 },
+  { line = "ylcwH_fnzAf`@|i@t^hq@`MbPpE|CrGfC~i@vE", v = 100 },
+  { line = "sc_wHugjzAtFSrE_CfDoE~B{G", v = 90 },
+  { line = "al~vHu{jzAvCgL~CsHdDkEvFsDzGmAtOg@fEkA~PyIbUsDlICnG|AtaBx}@~FnFlP~UrT|K", v = 100 },
+  { line = "whvvH_hizA|RbJ", v = 60 },
+]
+posts = [[0, 51.14584, 14.98193], [1, 51.13991, 14.98627], [2, 51.13314, 14.97687], [3, 51.12605, 14.96837], [4, 51.11713, 14.96746], [5, 51.11048, 14.97625], [6, 51.10175, 14.97906], [7, 51.09311, 14.97668], [8, 51.08476, 14.97138], [9, 51.07708, 14.96421]]
+
+[[connections]]
+km = 9.795
+station = "Hagenwerder"
+lines = [
+  { id = "6589", ref = "6589", name = "6589 Zittau - Hagenwerder", km = 11.117 },
+]

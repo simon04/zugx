@@ -1,0 +1,35 @@
+id = "5580"
+ref = "5580"
+name = "5580 München-Pasing"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "München-Pasing"
+to = "München-Pasing"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 7.667
+kmTo = 8.629
+length = 0.918
+speeds = [[7.667, 7.825, "", ""], [7.825, 7.851, 60, 60], [7.851, 8.252, "", ""], [8.252, 8.629, "", 100]]
+curves = [[7.767, 7.917, 870]]
+points = [
+  { km = 7.934, kind = "signal", signal = "minor", dir = -1 },
+  { km = 8.252, kind = "signal", label = "11 ZU4", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 8.345, kind = "signal", label = "11 ZT4", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 8.519, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 7.746, kmTo = 7.807, length = 62 },
+  { kind = "bridge", kmFrom = 8.048, kmTo = 8.216, length = 119 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "go{dHmy|dAqBdK" },
+  { line = "yr{dHgm|dAK`A", v = 60 },
+  { line = "es{dHek|dAwB`[" },
+  { line = "}v{dHco{dAsBx_@", v = 100 },
+]
+posts = [[8, 48.15199, 11.45342]]

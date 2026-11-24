@@ -1,0 +1,29 @@
+id = "1112"
+ref = "1112"
+operator = "Hein Lüttenborg Bahnstreckenverwaltungsgesellschaft mbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.579
+length = 7.579
+speeds = [[0, 7.579, "", ""]]
+curves = [[0.1, 0.35, 520], [0.45, 0.9, 420], [1.15, 1.225, 1850], [1.425, 1.65, 740], [2.1, 2.375, 690], [2.75, 2.95, 610], [3.7, 3.85, 1130], [4.525, 4.875, 680], [5.925, 6.175, 850], [7.275, 7.475, 550]]
+points = [
+  { km = 0.038, kind = "halt", label = "Flehm", pos = [54.23121, 10.62248] },
+  { km = 3.331, kind = "halt", label = "Blekendorf", pos = [54.25868, 10.62592] },
+  { km = 5.681, kind = "halt", label = "Friederikenthal", pos = [54.27743, 10.61209] },
+  { km = 7.56, kind = "station", label = "Lütjenburg", pos = [54.29283, 10.60124] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 7.218, kmTo = 7.254, length = 36 },
+  { kind = "bridge", kmFrom = 7.362, kmTo = 7.417, length = 55 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_~~iIsty_AwDkAuBgBwMcWgCsCgD}AaDWoSdDoPt@wCs@}[uPoEgAi_@rFsl@nj@}a@lo@qE`FwG`BkaAtJq_Ahn@{EpFeDfH" },
+]
+posts = [[0, 54.23088, 10.62234], [1, 54.23866, 10.62803], [2, 54.2474, 10.62972], [3, 54.25608, 10.62841], [4, 54.26371, 10.62032], [5, 54.27133, 10.61303], [6, 54.28028, 10.61152], [7, 54.28857, 10.6056]]

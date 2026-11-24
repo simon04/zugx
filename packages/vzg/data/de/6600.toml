@@ -1,0 +1,66 @@
+id = "6600"
+ref = "6600"
+name = "Neustadt - Dürrröhrsdorf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802861"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.725
+kmTo = 15.722
+length = 15.993
+speeds = [[-0.725, -0.387, "", ""], [-0.387, -0.036, 40, 40], [-0.036, 15.347, 60, 60], [15.347, 15.666, 40, 40], [15.666, 15.722, 60, 60]]
+curves = [[-0.607, -0.507, 1650], [-0.332, -0.257, 2090], [-0.207, 0.318, 680], [1.143, 1.718, 610], [4.07, 4.476, 940], [5.69, 6.402, 710], [6.553, 6.847, 780], [7.716, 8.376, 600], [8.582, 8.941, 460], [10.347, 10.422, 2640], [10.638, 10.802, 1130], [11.28, 11.854, 620], [12.306, 12.892, 560], [13.206, 13.769, 460], [13.895, 14.322, 640], [14.597, 14.747, 1290], [15.272, 15.622, 410]]
+points = [
+  { km = -0.387, kind = "signal", label = "B", signal = "main,minor,traversable", dir = -1 },
+  { km = -0.356, kind = "station", label = "Neustadt (Sachs)", pos = [51.02138, 14.21348], uic = "8006064" },
+  { km = -0.271, kind = "signal", label = "K", signal = "main,minor,traversable", dir = 1 },
+  { km = -0.036, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.033, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.252, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 0.627, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.96, kind = "stop", label = "Langenwolmsdorf", pos = [51.0363, 14.15383], uic = "8006069" },
+  { km = 6.988, kind = "stop", label = "Langenwolmsdorf Mitte", pos = [51.03871, 14.12682], uic = "8006070" },
+  { km = 9.948, kind = "stop", label = "Stolpen", pos = [51.03711, 14.08709], uic = "8006071" },
+  { km = 12.871, kind = "stop", label = "Helmsdorf (Pirna)", pos = [51.03413, 14.04644], uic = "8006072" },
+  { km = 15.125, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.347, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.523, kind = "signal", label = "B", signal = "combined,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.102, kmTo = -0.078, length = 23 },
+  { kind = "bridge", kmFrom = 0.869, kmTo = 0.943, length = 74 },
+  { kind = "bridge", kmFrom = 2.815, kmTo = 2.829, length = 13 },
+  { kind = "bridge", kmFrom = 8.641, kmTo = 8.72, length = 77, name = "Viadukt Langenwolmsdorf" },
+  { kind = "bridge", kmFrom = 9.543, kmTo = 9.554, length = 11 },
+  { kind = "bridge", kmFrom = 10.388, kmTo = 10.398, length = 10 },
+  { kind = "bridge", kmFrom = 11.348, kmTo = 11.358, length = 11 },
+  { kind = "bridge", kmFrom = 12.223, kmTo = 12.304, length = 80 },
+  { kind = "bridge", kmFrom = 14.219, kmTo = 14.235, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{}mvH}hotAuAsA", v = 60 },
+  { line = "q`nvHqkotAgEkHaByL", v = 40 },
+  { line = "{invHwbptAyBwx@Tce@QsHoBwNmHsVcAaMf@eNpJae@b@iIIsIs@uHuAsG_T}l@sAkIe@cJJuJ`Foy@G_dD_BoM{K{WuBuHqAsKOqMf@sIhNyrAzBaJbLuY~AkIz@eKKwSyO}oBc@_QTkKvSusDdDyNdFcJ|o@}h@zDiFnDuI", v = 60 },
+  { line = "iilvHmcvuAnEo\\", v = 40 },
+  { line = "yblvH}`wuA`F_[" },
+]
+posts = [[15, 51.03312, 14.01897], [14, 51.03382, 14.0331], [13, 51.03434, 14.04579], [12, 51.03636, 14.05871], [11, 51.03759, 14.07174], [10, 51.03707, 14.08639], [9, 51.03709, 14.10067], [8, 51.04069, 14.11288], [7, 51.03869, 14.12678], [6, 51.03462, 14.13925], [5, 51.03618, 14.15325], [4, 51.03724, 14.16734], [3, 51.03568, 14.18112], [2, 51.03451, 14.19144], [1, 51.03021, 14.2008], [0, 51.02264, 14.20829]]
+
+[[connections]]
+km = -0.356
+station = "Neustadt"
+lines = [
+  { id = "6216", ref = "6216", name = "6216 Bautzen - Bad Schandau", km = 36.175 },
+]
+
+[[connections]]
+km = 12.871
+station = "Helmsdorf"
+lines = [
+  { id = "6216", ref = "6216", name = "6216 Bautzen - Bad Schandau", km = 34.784 },
+]

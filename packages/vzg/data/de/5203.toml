@@ -1,0 +1,104 @@
+id = "5203"
+ref = "5203"
+name = "5203 Seligenstadt (b Würzburg) - Volkach (Main)"
+operator = "Betriebsgesellschaft Mainschleifenbahn mbH"
+gauge = "1435"
+wikidata = "Q1796430"
+from = "Seligenstadt (b Würzburg)"
+to = "Volkach (Main)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.257
+kmTo = 10.078
+length = 9.788
+speeds = [[0.257, 0.502, 50, 30], [0.502, 10, 50, 50], [10, 10.015, 5, 50], [10.015, 10.078, 5, 5]]
+curves = [[0.357, 0.583, 320], [0.736, 1.066, 630], [1.168, 1.705, 360], [1.835, 2.293, 260], [2.386, 2.952, 200], [3.128, 3.5, 810], [3.626, 4.077, 660], [4.197, 4.668, 850], [5.014, 5.433, 270], [5.482, 5.58, 480], [5.629, 5.752, 1140], [5.998, 6.256, 610], [6.359, 6.539, 1440], [6.639, 6.765, 1540], [7.042, 7.142, 1130], [7.242, 7.366, 1810], [7.441, 7.716, 800], [7.791, 7.941, 700], [7.991, 8.115, 1250], [8.165, 8.239, 2380], [8.314, 8.438, 1490], [8.488, 8.587, 1100], [8.637, 8.737, 1170], [8.786, 8.886, 1080], [9.184, 9.965, 620]]
+points = [
+  { km = 0.278, kind = "halt", label = "Seligenstadt Mainschleifenbahn", pos = [49.85699, 10.1022] },
+  { km = 0.502, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.575, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.742, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.822, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.925, kind = "signal", signal = "speed_limit_distant,whistle", dir = -1 },
+  { km = 1.065, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.313, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.649, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.745, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.941, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.053, kind = "signal", signal = "main", dir = 1 },
+  { km = 2.158, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.231, kind = "signal", signal = "stop", dir = -1 },
+  { km = 2.234, kind = "station", label = "Prosselsheim", pos = [49.8644, 10.12354] },
+  { km = 2.245, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.263, kind = "signal", signal = "crossing_distant,stop", dir = 1 },
+  { km = 2.298, kind = "signal", signal = "main", dir = -1 },
+  { km = 2.299, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.332, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.53, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.536, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.543, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.546, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.631, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.748, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 2.821, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.016, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 3.027, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.186, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.378, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.481, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 3.587, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.725, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.899, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.999, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 4.031, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.218, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.436, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.744, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.897, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.9, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.107, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.118, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 5.12, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.135, kind = "halt", label = "Eisenheim", pos = [49.86944, 10.15376] },
+  { km = 5.151, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.16, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.165, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.236, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.35, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.402, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.696, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.735, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.802, kind = "signal", signal = "crossing_distant,whistle", dir = -1 },
+  { km = 5.915, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.024, kind = "signal", signal = "stop", dir = -1 },
+  { km = 6.043, kind = "halt", label = "Escherndorf", pos = [49.86685, 10.1654] },
+  { km = 6.065, kind = "signal", signal = "stop", dir = 1 },
+  { km = 6.255, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.472, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 7.951, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.2, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.549, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.693, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 9.597, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.032, kind = "signal", signal = "crossing_info,speed_limit,whistle", dir = -1 },
+  { km = 10.062, kind = "halt", label = "Volkach-Astheim", pos = [49.86434, 10.2181] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.937, kmTo = 2.949, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_thoHqat|@sC_AgC}C{Jia@{B_E_KwLcCkGw@}FKsGjDiZEyEs@kDyAgC}B_BoLuAqCmAuB{Ds@sFLmEz@qDtKqQrDiJ|EsXp@qLi@kPsC{SaBkHmFsLwSwXoAuDg@{Ff@{HrCsJdByLpIg^f@aGPwMy@k^uC}[qFu`@c@sHr@kU[cR`@s_AbAu`@dAaMlCwKzCgGdHuFlAsD\\iE", v = 50 },
+  { line = "_cjoH_rj}@MoD", v = 5 },
+]
+posts = [[1, 49.86079, 10.10979], [2, 49.86282, 10.12127], [3, 49.86675, 10.1295], [4, 49.86339, 10.1417], [5, 49.86857, 10.15243], [6, 49.86704, 10.16489], [7, 49.86722, 10.17826], [8, 49.86864, 10.1918], [9, 49.86836, 10.2058], [10, 49.86433, 10.21724]]
+
+[[connections]]
+km = 0.278
+station = "Seligenstadt Mainschleifenbahn"
+lines = [
+  { id = "5102", ref = "5102", name = "5102 Bamberg - Rottendorf", km = 82.534 },
+]

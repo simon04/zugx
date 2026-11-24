@@ -1,0 +1,113 @@
+id = "3525"
+ref = "3525"
+name = "3525 Umgehungsbahn Mainz"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q1382511"
+from = "Mainz-Mombach"
+to = "Mainz-Bischofsheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.64
+kmTo = 16.032
+length = 16.641
+speeds = [[-0.64, 1.485, "", ""], [1.485, 10.339, 80, 80], [10.339, 10.346, "", ""], [10.346, 12.362, 80, 80], [12.362, 12.816, "", ""], [12.816, 14.327, 40, 40], [14.327, 14.555, "", ""], [14.555, 14.922, 40, 40], [14.922, 15.734, 40, ""], [15.734, 16.032, 60, ""]]
+curves = [[0.515, 0.693, 850], [0.848, 1.311, 440], [1.477, 1.667, 660], [3.549, 4.099, 530], [4.989, 5.509, 500], [7.784, 8.449, 510], [9.102, 9.229, 1770], [9.534, 10.55, 520], [10.881, 11.948, 510], [12.228, 12.962, 820], [13.634, 13.816, 1120], [13.916, 14.066, 820], [14.341, 14.741, 760]]
+points = [
+  { km = -0.417, kind = "signal", label = "P603", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 0.296, kind = "signal", label = "N602", signal = "distant,main", dir = 1 },
+  { km = 0.537, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 1, kind = "signal", signal = "distant", dir = 1, measured = true },
+  { km = 1.008, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 1.13, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 1.169, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.8, kind = "signal", label = "753", signal = "distant,main,route_distant,traversable", dir = 1, measured = true },
+  { km = 2, kind = "signal", label = "763", signal = "distant,main,route,traversable", dir = -1, measured = true },
+  { km = 2.448, kind = "signal", label = "773", signal = "distant,main,route,traversable", dir = 1 },
+  { km = 2.679, kind = "halt", label = "Mainz Nord", uic = "8003815", pos = [50.02003, 8.24616], measured = true },
+  { km = 3.377, kind = "signal", signal = "main", dir = -1 },
+  { km = 3.914, kind = "signal", signal = "main", dir = 1 },
+  { km = 4.451, kind = "signal", signal = "combined", dir = -1 },
+  { km = 4.517, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.845, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.859, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.573, kind = "signal", signal = "combined", dir = 1 },
+  { km = 5.831, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 5.852, kind = "signal", signal = "combined", dir = 1 },
+  { km = 6.055, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 6.799, kind = "signal", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 6.823, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.9, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 6.974, kind = "signal", signal = "combined", dir = -1 },
+  { km = 7.795, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 8.041, kind = "signal", label = "Bü 4a", signal = "crossing_info", dir = 1 },
+  { km = 9.059, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 9.078, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.072, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 10.136, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10.434, kind = "signal", signal = "main", dir = -1 },
+  { km = 10.964, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.168, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 11.452, kind = "signal", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 11.471, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.533, kind = "signal", signal = "distant", dir = -1 },
+  { km = 12.132, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 12.429, kind = "signal", signal = "minor", dir = -1 },
+  { km = 12.659, kind = "signal", label = "7 I", signal = "minor", dir = 1 },
+  { km = 12.705, kind = "station", label = "Mainz-Bischofsheim", uic = "8000241", pos = [49.9931, 8.35788] },
+  { km = 12.851, kind = "signal", signal = "minor", dir = -1 },
+  { km = 13.512, kind = "signal", label = "T10", signal = "distant,main", dir = 1 },
+  { km = 13.673, kind = "signal", label = "510", signal = "minor", dir = -1 },
+  { km = 14.403, kind = "signal", label = "R510", signal = "distant,main", dir = 1 },
+  { km = 14.738, kind = "signal", signal = "minor", dir = 1 },
+  { km = 15.734, kind = "signal", label = "N646", signal = "main,minor,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 15.934, kind = "signal", signal = "distant", dir = 1 },
+  { km = 27.3, kind = "station", label = "Mainz-Mombach", uic = "8003821", pos = [50.0228, 8.22934], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.443, kmTo = 0.46, length = 20 },
+  { kind = "bridge", kmFrom = 1.008, kmTo = 1.044, length = 38 },
+  { kind = "bridge", kmFrom = 1.278, kmTo = 1.308, length = 31 },
+  { kind = "bridge", kmFrom = 1.494, kmTo = 1.509, length = 16 },
+  { kind = "bridge", kmFrom = 1.671, kmTo = 2.584, length = 912 },
+  { kind = "bridge", kmFrom = 2.897, kmTo = 2.926, length = 27 },
+  { kind = "bridge", kmFrom = 3.17, kmTo = 3.202, length = 30 },
+  { kind = "bridge", kmFrom = 3.44, kmTo = 3.488, length = 45 },
+  { kind = "bridge", kmFrom = 9.321, kmTo = 9.334, length = 12 },
+  { kind = "bridge", kmFrom = 10.085, kmTo = 10.128, length = 42 },
+  { kind = "bridge", kmFrom = 10.346, kmTo = 10.926, length = 571 },
+  { kind = "bridge", kmFrom = 11.257, kmTo = 11.308, length = 50 },
+  { kind = "bridge", kmFrom = 11.611, kmTo = 11.657, length = 46 },
+  { kind = "bridge", kmFrom = 12.203, kmTo = 12.215, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}jipHyvdq@tQgbBbHeX`AqGDiMoDwW" },
+  { line = "krhpH{bjq@wCiLoaA{~BwCmKq@cHAkJtKgwArCuMpBaEzCoDj{ByuAlDeDjCqEjCiJ~@eNw@caAmByh@NsIbA_IfD{J`G}GrEiB", v = 80 },
+  { line = "ihepHgy{q@JC" },
+  { line = "}gepHky{q@hGMr[lEnH}AtFeF~EmL`BuNG}JoCwf@", v = 80 },
+  { line = "olcpHin~q@hA_QbF}Q" },
+  { line = "accpHgs_r@``@c|@hN_R~JyT", v = 40 },
+  { line = "ufapHeybr@lCcHfAsF" },
+  { line = "_`apH}icr@nC}Ivd@gcA", v = 40 },
+  { line = "wu_pHcyer@vI}R", v = 60 },
+]
+posts = [[0, 50.02276, 8.23004], [1, 50.01965, 8.24206], [2, 50.0233, 8.25523], [3, 50.02864, 8.26547], [4, 50.03281, 8.27655], [5, 50.03086, 8.29037], [6, 50.02391, 8.2984], [7, 50.0156, 8.30416], [8, 50.00748, 8.31042], [9, 50.00642, 8.32395], [10, 50.00595, 8.33727], [11, 49.99762, 8.33862], [12, 49.99331, 8.34826], [13, 49.99126, 8.36125], [14, 49.98458, 8.37191], [15, 49.97914, 8.38296], [16, 49.97329, 8.39358]]
+
+[[connections]]
+km = 12.705
+station = "Mainz-Bischofsheim"
+lines = [
+  { id = "3520", ref = "3520", name = "3520 Mainz Hbf - Frankfurt (Main) Hbf", km = 7.797 },
+  { id = "3530", ref = "3530", name = "3530 Mainz-Bischofsheim - Darmstadt Hbf", km = 7.728 },
+]
+
+[[connections]]
+km = 27.3
+station = "Mainz-Mombach"
+lines = [
+  { id = "3510", ref = "3510", name = "3510 Bingen Hbf - Mainz", km = 27.187 },
+]

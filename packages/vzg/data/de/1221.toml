@@ -1,0 +1,34 @@
+id = "1221"
+ref = "1221"
+name = "1221 Wrist - Itzehoe"
+gauge = "1435"
+from = "Wrist"
+to = "Itzehoe"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.767
+length = 0.767
+speeds = [[0, 0.767, "", ""]]
+curves = [[0.4, 0.65, 900]]
+points = [
+  { km = 0.18, kind = "signal", label = "P3", signal = "main,minor", dir = -1 },
+  { km = 0.308, kind = "station", label = "Wrist", pos = [53.9321, 9.74793], uic = "8006572" },
+  { km = 0.438, kind = "signal", label = "R3", signal = "distant,main,minor", dir = 1 },
+  { km = 0.501, kind = "signal", signal = "minor", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mgdhI{pnz@g[oUgEaAmDX" },
+]
+posts = [[0, 53.93031, 9.74622]]
+
+[[connections]]
+km = 0.308
+station = "Wrist"
+lines = [
+  { id = "1220", ref = "1220", name = "1220 Hamburg-Altona - Kiel Hbf", km = 52.335 },
+]

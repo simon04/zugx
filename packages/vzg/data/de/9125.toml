@@ -1,0 +1,30 @@
+id = "9125"
+ref = "9125"
+name = "Südstormarnsche Kreisbahn"
+operator = "Kieswerk Glinde Schweder GmbH & Co. KG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 3.5
+kmTo = 8
+length = 4.489
+speeds = [[3.5, 8, "", ""]]
+curves = [[3.778, 4.154, 460], [4.735, 4.81, 2290], [5.001, 5.154, 770], [6.055, 6.157, 1980], [6.587, 6.71, 1270], [7.13, 7.407, 420], [7.759, 7.885, 830]]
+points = [
+  { km = 4.228, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.229, kind = "signal", label = "4a", signal = "shunting", dir = -1 },
+  { km = 4.783, kind = "signal", signal = "main", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.956, kmTo = 4.027, length = 71 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mpveIent|@oE}^AcFj@iJjSmx@|HyVfMos@" },
+  { line = "aiueIifz|@VqA", tunnel = true },
+  { line = "ihueI{hz|@bIc`@|Mwg@`Uin@l@cHDsi@cAkP" },
+]
+posts = [[4, 53.53334, 10.11134], [5, 53.52873, 10.12434], [6, 53.52481, 10.1379], [7, 53.5198, 10.1504], [8, 53.51851, 10.16451]]

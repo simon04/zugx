@@ -1,0 +1,79 @@
+id = "2414"
+ref = "2414"
+name = "2414 Düsseldorf Hbf - Düsseldorf Abstellbahnhof"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Düsseldorf Hbf"
+to = "Düsseldorf Abstellbahnhof"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.533
+kmTo = 4.271
+length = 3.716
+speeds = [[0.533, 3.215, 40, 40], [3.215, 3.494, "", ""], [3.494, 4.093, 40, 40], [4.093, 4.271, "", ""]]
+curves = [[0.633, 0.708, 1060], [0.833, 1.608, 500], [2.322, 2.83, 420], [2.905, 3.055, 740], [3.155, 3.205, 2450], [3.255, 3.405, 810], [3.455, 3.53, 1950], [3.58, 3.68, 1130], [3.855, 4.08, 1170]]
+points = [
+  { km = 0.571, kind = "signal", label = "094II", signal = "minor", dir = -1 },
+  { km = 0.813, kind = "signal", label = "R093", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 0.906, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.913, kind = "halt", label = "Düsseldorf-Friedrichstadt", uic = "8001579", pos = [51.21212, 6.78915] },
+  { km = 0.962, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.047, kind = "signal", label = "P093", signal = "main", dir = 1 },
+  { km = 1.072, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.18, kind = "halt", label = "Düsseldorf Volksgarten", uic = "8001581", pos = [51.2101, 6.79188] },
+  { km = 1.682, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.77, kind = "signal", signal = "main", dir = -1 },
+  { km = 2.39, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 2.39, kind = "halt", label = "Oberbilk S", pos = [51.20855, 6.80818] },
+  { km = 2.432, kind = "halt", label = "Düsseldorf-Oberbilk", uic = "8001591", pos = [51.20805, 6.80878] },
+  { km = 2.556, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.648, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.727, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.884, kind = "signal", label = "5 Ⅰ", signal = "minor", dir = -1 },
+  { km = 2.961, kind = "halt", label = "Kaiserslauterner Straße", pos = [51.2036, 6.81068] },
+  { km = 3.187, kind = "signal", label = "5 Ⅱ", signal = "minor", dir = 1 },
+  { km = 3.285, kind = "signal", label = "4 Ⅲ", signal = "minor", dir = -1 },
+  { km = 3.441, kind = "signal", label = "4 Ⅳ", signal = "minor", dir = 1 },
+  { km = 3.583, kind = "signal", label = "65", signal = "shunting", dir = -1 },
+  { km = 3.678, kind = "signal", label = "65 Ⅱ", signal = "shunting", dir = 1 },
+  { km = 3.738, kind = "signal", signal = "shunting", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.815, kmTo = 0.849, length = 34 },
+  { kind = "bridge", kmFrom = 1.012, kmTo = 1.036, length = 24 },
+  { kind = "bridge", kmFrom = 1.322, kmTo = 1.353, length = 31 },
+  { kind = "bridge", kmFrom = 2.412, kmTo = 2.455, length = 44 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "m`rwHcemh@pXcAjFsDrD{GtBqIz@aJ`DimArCwJdH}G", v = 40 },
+  { line = "mapwHknqh@HC", tunnel = true, v = 40 },
+  { line = "capwHonqh@xHmCxJcI", v = 40 },
+  { line = "okowHa}qh@rDoClFcH" },
+  { line = "m~nwHujrh@fEuExJsO|BiEbAwE", v = 40 },
+  { line = "ifnwHaosh@~BsM" },
+]
+posts = [[1, 51.21142, 6.79048], [2, 51.2081, 6.80277], [3, 51.2037, 6.81294], [4, 51.19644, 6.82124]]
+
+[[connections]]
+km = 0.913
+station = "Düsseldorf-Friedrichstadt"
+lines = [
+  { id = "2413", ref = "2413", name = "2413 Düsseldorf-Eller - Düsseldorf Hbf", km = 4.778 },
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 10.167 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 87.451 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 37.725 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 37.343 },
+]
+
+[[connections]]
+km = 2.432
+station = "Düsseldorf-Oberbilk"
+lines = [
+  { id = "2413", ref = "2413", name = "2413 Düsseldorf-Eller - Düsseldorf Hbf", km = 3.294 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 35.808 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 35.807 },
+]

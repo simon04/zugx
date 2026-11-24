@@ -1,0 +1,55 @@
+id = "5387"
+ref = "5387"
+name = "5387 Abzw Ernsgaden - Vohburg Werkbahnhof Bayernoil"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q108836342"
+from = "Abzw Ernsgaden"
+to = "Vohburg Werkbahnhof Bayernoil"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.842
+length = 3.842
+speeds = [[0, 0.012, "", ""], [0.012, 0.522, 40, 40], [0.522, 3.842, 60, 60]]
+curves = [[0.1, 0.55, 520], [1.7, 2.025, 1050], [2.35, 3.4, 680]]
+points = [
+  { km = 0, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.003, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.01, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.27, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.423, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.428, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.522, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.523, kind = "signal", label = "A", signal = "main,traversable", dir = -1 },
+  { km = 0.94, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.061, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.293, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.636, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.831, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.153, kind = "signal", label = "Vu", signal = "distant", dir = 1 },
+  { km = 3.558, kind = "signal", label = "U", signal = "main", dir = 1 },
+  { km = 3.741, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.842, kind = "halt", label = "Ernsgaden", uic = "8001853", pos = [48.73329, 11.57315] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.016, kmTo = 0.034, length = 18 },
+  { kind = "bridge", kmFrom = 0.342, kmTo = 0.36, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cwrhHoiweAFZ" },
+  { line = "{vrhHshweAnB~GpD|FtEjDhEjA", v = 40 },
+  { line = "y`rhH}oveAzdAfLdIQ~ZqFrFXrFlBbIpHjGjNnBtKfFlg@", v = 60 },
+]
+posts = [[0, 48.76162, 11.59336], [1, 48.75378, 11.58845], [2, 48.74485, 11.58733], [3, 48.73639, 11.58581]]
+
+[[connections]]
+km = 3.842
+station = "Ernsgaden"
+lines = [
+  { id = "5851", ref = "5851", name = "5851 Regensburg - Ingolstadt", km = 62.54 },
+]

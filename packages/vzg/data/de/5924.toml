@@ -1,0 +1,81 @@
+id = "5924"
+ref = "5924"
+name = "5924 Nürnberg-Mögeldorf - Nürnberg-Dutzendteich"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Nürnberg-Mögeldorf"
+to = "Nürnberg-Dutzendteich"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.787
+kmTo = 3.654
+length = 4.428
+speeds = [[-0.787, 0.103, 60, 60], [0.103, 0.766, 80, 60], [0.766, 2.362, 80, 80], [2.362, 2.799, 60, 80], [2.799, 3.196, 60, 60], [3.196, 3.654, 80, 80]]
+curves = [[-0.562, -0.512, 2480], [0.118, 0.403, 1190], [1.123, 1.655, 500], [2.786, 3.351, 610]]
+points = [
+  { km = -0.628, kind = "signal", label = "21", signal = "minor", dir = 1 },
+  { km = -0.483, kind = "signal", label = "1N3", signal = "main,minor", dir = -1 },
+  { km = -0.015, kind = "station", label = "Nürnberg-Mögeldorf", uic = "8004481", pos = [49.45922, 11.13396] },
+  { km = 0.021, kind = "signal", label = "1P3", signal = "main", dir = 1 },
+  { km = 0.151, kind = "signal", label = "7", signal = "minor", dir = -1 },
+  { km = 0.467, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.766, kind = "signal", label = "1B", signal = "distant,main", dir = -1 },
+  { km = 0.868, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.938, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.016, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.126, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.163, kind = "halt", label = "Nürnberg Ostring", uic = "8004470", pos = [49.45413, 11.11993] },
+  { km = 1.781, kind = "signal", label = "V1b", signal = "distant", dir = -1 },
+  { km = 1.879, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.946, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.022, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.362, kind = "signal", label = "34 H", signal = "distant,main", dir = 1 },
+  { km = 2.541, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.732, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 3.103, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.182, kind = "halt", label = "Nürnberg-Dutzendteich", uic = "8004476", pos = [49.43679, 11.1177] },
+  { km = 3.196, kind = "signal", label = "34 N307", signal = "main,minor", dir = -1 },
+  { km = 3.481, kind = "signal", signal = "catenary_mast,train_protection", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.103, kmTo = 0.135, length = 31 },
+  { kind = "bridge", kmFrom = 1.143, kmTo = 1.178, length = 32 },
+  { kind = "bridge", kmFrom = 1.561, kmTo = 1.579, length = 18 },
+  { kind = "bridge", kmFrom = 2.112, kmTo = 2.131, length = 17 },
+  { kind = "bridge", kmFrom = 2.37, kmTo = 2.381, length = 12 },
+  { kind = "bridge", kmFrom = 2.946, kmTo = 3, length = 50 },
+  { kind = "bridge", kmFrom = 3.105, kmTo = 3.15, length = 45 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sl{lHsq_cA~DrWzH~n@", v = 60 },
+  { line = "w|zlH_i}bAnCdPnL~_@lMt_@tDjFrCnBhEjAndA`E", v = 80 },
+  { line = "efwlHybzbAfD@dEuArFcH", v = 60 },
+  { line = "csvlHqnzbAlNu^", v = 80 },
+]
+posts = [[0, 49.45909, 11.1338], [1, 49.45478, 11.12177], [2, 49.44722, 11.11676], [3, 49.43823, 11.11644]]
+
+[[connections]]
+km = -0.015
+station = "Nürnberg-Mögeldorf"
+lines = [
+  { id = "5904", ref = "5904", name = "5904 Nürnberg Hbf - Irrenlohe", km = 4.118 },
+]
+
+[[connections]]
+km = 1.163
+station = "Nürnberg Ostring"
+lines = [
+  { id = "5904", ref = "5904", name = "5904 Nürnberg Hbf - Irrenlohe", km = 2.959 },
+]
+
+[[connections]]
+km = 3.182
+station = "Nürnberg-Dutzendteich"
+lines = [
+  { id = "5850", ref = "5850", name = "5850 Regensburg - Nürnberg", km = 97.309 },
+  { id = "5970", ref = "5970", name = "5970 Nürnberg-Dürrenhof - Feucht", km = 3.2 },
+]

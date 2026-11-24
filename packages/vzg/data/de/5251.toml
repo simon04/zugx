@@ -1,0 +1,49 @@
+id = "5251"
+ref = "5251"
+name = "Bahnstrecke Steinach bei Rothenburg–Dombühl"
+operator = "DB InfraGO"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.5
+kmTo = 11
+length = 9.493
+speeds = [[1.5, 5.015, 60, 60], [5.015, 7.292, 80, 80], [7.292, 7.302, 60, 60], [7.302, 10.691, 80, 80], [10.691, 11, "", ""]]
+curves = [[1.599, 2.147, 580], [2.297, 2.654, 610], [2.891, 3.455, 1080], [4.277, 4.377, 2520], [5.85, 6.271, 950], [9.23, 9.28, 2480], [9.38, 9.455, 2610], [10.482, 10.682, 1310]]
+points = [
+  { km = 4.27, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.02, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.106, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.133, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.152, kind = "stop", label = "Hartershofen", pos = [49.41681, 10.24213] },
+  { km = 5.48, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.926, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.292, kind = "signal", signal = "speed_limit,stop", dir = -1 },
+  { km = 7.302, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 7.306, kind = "halt", label = "Schweinsdorf", pos = [49.40077, 10.22723] },
+  { km = 7.392, kind = "signal", signal = "stop", dir = 1 },
+  { km = 7.472, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 7.566, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 7.633, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 7.707, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 7.88, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.681, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.911, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.265, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.358, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 10.691, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.842, kind = "signal", signal = "stop", dir = -1 },
+  { km = 11, kind = "station", label = "Rothenburg ob der Tauber", uic = "8005190", pos = [49.3767, 10.19066] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "goxlHu~r}@lCjMbFfJrEtD|QhE`G~CzQzVlK`JvKpDds@rKza@pM", v = 60 },
+  { line = "}~rlHkpo}@~m@~SfJvFbDpD`l@d}@", v = 80 },
+  { line = "orolH{ol}@LP", v = 60 },
+  { line = "arolHiol}@dpAloBbLrTf`@j}@jErH", v = 80 },
+  { line = "clklHgaf}@bLlP" },
+]
+posts = [[2, 49.44353, 10.25542], [3, 49.4359, 10.24946], [4, 49.42712, 10.24594], [5, 49.41836, 10.24283], [6, 49.40974, 10.23885], [7, 49.40282, 10.23002], [8, 49.39617, 10.22084], [9, 49.3895, 10.2116], [10, 49.38342, 10.2015], [11, 49.37728, 10.19149]]

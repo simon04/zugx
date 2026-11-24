@@ -1,0 +1,36 @@
+id = "6533"
+ref = "6533"
+name = "6533 Fredersdorf (b Berlin) - Fredersdorf DB-Grenze"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q19274545"
+from = "Fredersdorf (b Berlin)"
+to = "Fredersdorf DB-Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.074
+length = 1.074
+speeds = [[0, 1.074, "", ""]]
+curves = []
+points = [
+  { km = 0.576, kind = "station", label = "Fredersdorf (b Berlin)", uic = "8080440", pos = [52.52625, 13.76045] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gzq_Im}|rA{GcaB" },
+]
+posts = [[0, 52.52532, 13.75207], [1, 52.52664, 13.76668]]
+
+[[connections]]
+km = 0.576
+station = "Fredersdorf"
+lines = [
+  { id = "6006", ref = "6006", name = "6006 Berlin Warschauer Straße - Strausberg", km = 22.64 },
+  { id = "6078", ref = "6078", name = "6078 Berlin Warschauer Straße - Küstrin-Kietz Grenze", km = 22.636 },
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 22.636 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 22.636 },
+]

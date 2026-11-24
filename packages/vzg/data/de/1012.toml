@@ -1,0 +1,35 @@
+id = "1012"
+ref = "1012"
+name = "1012 Rendsburg - Husum"
+operator = "AKN Eisenbahn GmbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.628
+length = 2.628
+speeds = [[0, 2.628, 60, 60]]
+curves = [[0.175, 0.975, 510], [2, 2.3, 2110]]
+points = [
+  { km = 0.102, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.381, kind = "signal", label = "G75", signal = "main", dir = -1 },
+  { km = 0.744, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.009, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.172, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.67, kind = "signal", signal = "main", dir = 1 },
+  { km = 1.717, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 1.854, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.943, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 2.119, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.341, kmTo = 0.356, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{_ojIm_}y@_KjKcFhKyBbM[~P~@lLzXfcBfBrPxC|a@", v = 60 },
+]
+posts = [[0, 54.3131, 9.65639], [1, 54.31632, 9.6441], [2, 54.31267, 9.63001]]

@@ -1,0 +1,38 @@
+id = "6052"
+ref = "6052"
+name = "6052 Leipzig-Plagwitz - Leipzig Miltitzer Allee"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802633"
+from = "Leipzig-Plagwitz"
+to = "Leipzig Miltitzer Allee"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.198
+length = 4.198
+speeds = [[0, 0.243, 60, 60], [0.243, 0.6, 70, 70], [0.6, 0.771, 80, 80], [0.771, 3.693, 100, 100], [3.693, 4.198, 60, 60]]
+curves = [[0.15, 0.875, 490], [0.925, 1.4, 530], [1.65, 1.975, 1000], [2.05, 2.225, 1150], [2.65, 2.8, 2560], [2.95, 3.075, 2570]]
+points = [
+  { km = 1.565, kind = "stop", label = "Leipzig Grünauer Allee", pos = [51.3209, 12.30307] },
+  { km = 2.442, kind = "stop", label = "Leipzig Allee-Center", pos = [51.3191, 12.29161] },
+  { km = 3.282, kind = "stop", label = "Leipzig Karlsruher Straße", pos = [51.3172, 12.27898] },
+  { km = 3.465, kind = "signal", signal = "combined", dir = 1 },
+  { km = 4.122, kind = "station", label = "Leipzig Miltitzer Allee", pos = [51.31543, 12.26816] },
+  { km = 4.198, kind = "signal", signal = "main,minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.76, kmTo = 0.771, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "khgxHkmejAhLzC", v = 60 },
+  { line = "a{fxHohejAhC~BdBdEt@fFFdG", v = 70 },
+  { line = "sqfxH{ndjAs@dN", v = 80 },
+  { line = "gsfxHu_djAmDdVGtPn@tGzH~d@dBfa@vS`bC", v = 100 },
+  { line = "suexHyb|iAfEhk@", v = 60 },
+]
+posts = [[0, 51.32438, 12.32102], [1, 51.32175, 12.31066], [2, 51.31981, 12.29691], [3, 51.31786, 12.28289], [4, 51.31562, 12.26896]]

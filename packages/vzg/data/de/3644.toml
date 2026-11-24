@@ -1,0 +1,23 @@
+id = "3644"
+ref = "3644"
+name = "3644 Abzw Wiesbaden-Wäschbach Nord - Abzw Wiesbaden-Wäschbach Süd"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Wiesbaden-Wäschbach Nord"
+to = "Wiesbaden-Wäschbach Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.436
+length = 0.436
+speeds = [[0, 0.436, 80, 80]]
+curves = [[0.1, 0.325, 910]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "abppHgujq@fJmJjIwD", v = 80 },
+]
+posts = [[0, 50.05873, 8.25188]]

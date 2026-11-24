@@ -1,0 +1,31 @@
+id = "6138"
+ref = "6138"
+name = "6138 Schönefelder Kurve"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131684134"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 17.539
+kmTo = 19.019
+length = 1.432
+speeds = [[17.539, 19.019, 100, 100]]
+curves = [[17.639, 18.467, 590], [18.724, 18.813, 2700]]
+points = [
+  { km = 17.633, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.635, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.684, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.964, kind = "signal", label = "58 81", signal = "main,route,speed_limit,wrong_road", dir = -1 },
+  { km = 18.151, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = 18.38, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 18.584, kind = "signal", label = "11 B", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 18.91, kind = "signal", signal = "crossing", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wap~Hw~{pAlCbMzCzH~EvGfGjDjJd@f`@qH", v = 100 },
+]
+posts = [[18, 52.34989, 13.4143], [19, 52.34154, 13.41468]]

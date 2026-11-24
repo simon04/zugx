@@ -1,0 +1,70 @@
+id = "5923"
+ref = "5923"
+name = "Ringbahn"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q119010009"
+from = "Nürnberg Ost"
+to = "Nürnberg-Großmarkt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 3.696
+kmTo = 10.001
+length = 6.26
+speeds = [[3.696, 9.996, 40, 40], [9.996, 10.001, "", ""]]
+curves = [[3.931, 4.172, 1330], [4.79, 4.837, 2600], [5.142, 5.308, 990], [5.364, 5.447, 2550], [6.122, 6.341, 500], [6.614, 6.915, 790], [7.623, 7.891, 920], [8.9, 9.033, 1390], [9.356, 9.828, 820]]
+points = [
+  { km = 0.2, kind = "station", label = "Nürnberg Nordost", uic = "8004469", pos = [49.47395, 11.10617], measured = true },
+  { km = 3.767, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.829, kind = "signal", label = "P 103", signal = "main", dir = 1 },
+  { km = 3.878, kind = "station", label = "Nordostbahnhof", pos = [49.47218, 11.10447] },
+  { km = 3.986, kind = "signal", label = "1A", signal = "distant,main", dir = -1 },
+  { km = 4.04, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.235, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.331, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.368, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.635, kind = "signal", signal = "main", dir = 1 },
+  { km = 5.311, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 6.39, kind = "signal", signal = "main", dir = -1 },
+  { km = 7.109, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.663, kind = "signal", signal = "distant", dir = 1 },
+  { km = 9.338, kind = "signal", signal = "main", dir = 1 },
+  { km = 9.863, kind = "signal", signal = "main", dir = -1 },
+  { km = 9.972, kind = "station", label = "Muggenhof", pos = [49.46169, 11.02272] },
+  { km = 9.996, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.997, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.797, kmTo = 3.823, length = 26 },
+  { kind = "bridge", kmFrom = 3.878, kmTo = 3.931, length = 53 },
+  { kind = "bridge", kmFrom = 4.391, kmTo = 4.403, length = 12 },
+  { kind = "bridge", kmFrom = 6.235, kmTo = 6.254, length = 17 },
+  { kind = "bridge", kmFrom = 6.628, kmTo = 6.669, length = 37 },
+  { kind = "bridge", kmFrom = 8.854, kmTo = 8.891, length = 34 },
+  { kind = "bridge", kmFrom = 9.14, kmTo = 9.267, length = 128 },
+  { kind = "bridge", kmFrom = 9.784, kmTo = 9.812, length = 28 },
+  { kind = "bridge", kmFrom = 9.93, kmTo = 9.996, length = 66 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yf{lH{jhbAIG" },
+  { line = "cg{lHckhbAeMiLuEaIqBoF_Lgd@}TwvAm@iLu@mlAo@oHgHm]c@qFGoZz@{m@g@ad@yBo_Ao@mJaD{V", v = 40 },
+]
+posts = [[10, 49.46046, 11.02527], [10, 49.46046, 11.02527], [9, 49.46628, 11.03549], [8, 49.4693, 11.04732], [7, 49.47043, 11.06259], [6, 49.47244, 11.07465], [5, 49.47224, 11.08766], [4, 49.47316, 11.10215]]
+
+[[connections]]
+km = 0.2
+station = "Nürnberg Nordost"
+lines = [
+  { id = "5920", ref = "5920", name = "Bahnstrecke Nürnberg Nordost–Gräfenberg", km = 0.2 },
+]
+
+[[connections]]
+km = 3.878
+station = "Nordostbahnhof"
+lines = [
+  { id = "5920", ref = "5920", name = "Bahnstrecke Nürnberg Nordost–Gräfenberg", km = 0.2 },
+]

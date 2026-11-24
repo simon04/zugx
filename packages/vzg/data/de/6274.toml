@@ -1,0 +1,43 @@
+id = "6274"
+ref = "6274"
+name = "6274 Abzw Leckwitz - Abzw Kottewitz"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q1540149"
+from = "Leckwitz"
+to = "Kottewitz"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.299
+kmTo = 7.51
+length = 7.794
+speeds = [[-0.299, -0.104, 130, 160], [-0.104, 0.092, 130, 130], [0.092, 0.523, 130, 160], [0.523, 7.51, 160, 160]]
+curves = [[-0.155, -0.055, 30], [0.045, 0.145, 30], [0.723, 0.869, 2690], [1.128, 1.234, 2580], [1.373, 1.544, 2350], [1.813, 1.951, 2540], [2.078, 2.15, 2690], [2.199, 2.267, 2760], [2.336, 2.382, 2680], [3.275, 3.348, 2920], [3.397, 3.6, 2830], [3.708, 4.014, 2820], [4.117, 4.222, 2310], [4.362, 4.546, 2570], [4.656, 4.94, 2740], [5.073, 5.202, 2710], [5.472, 5.56, 2720], [5.67, 5.786, 2560], [5.948, 6.12, 2580], [6.296, 6.427, 2570], [6.55, 6.625, 2380]]
+points = [
+  { km = 0.524, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.811, kind = "signal", label = "1422", signal = "main,speed_limit,wrong_road", dir = -1 },
+  { km = 0.943, kind = "signal", label = "14VW22", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.274, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.88, kind = "signal", label = "14V22", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.465, kind = "signal", label = "1161", signal = "main", dir = -1 },
+  { km = 5.211, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 5.721, kind = "signal", label = "11V61", signal = "distant", dir = -1 },
+  { km = 6.501, kind = "signal", label = "1144", signal = "main,speed_limit,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.318, kmTo = 0.344, length = 26 },
+  { kind = "bridge", kmFrom = 3.899, kmTo = 3.932, length = 32 },
+  { kind = "bridge", kmFrom = 4.347, kmTo = 4.387, length = 36 },
+  { kind = "bridge", kmFrom = 4.81, kmTo = 4.843, length = 37 },
+  { kind = "bridge", kmFrom = 6.895, kmTo = 6.907, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mjxwHsbsqA_o@r^}LfKaMfNeMhRyKzTsKrZwFzTsD`SyCnUkBvUaA|VIhe@`DbxA_@r]}A~ZaDlZyFb\\}Udz@", v = 160 },
+  { line = "ux}wHwebqAbEoM", v = 130 },
+  { line = "qr}wHgtbqA}DvM", v = 160 },
+]
+posts = [[7, 51.25222, 13.53507], [6, 51.26027, 13.52815], [5, 51.26604, 13.51828], [4, 51.26974, 13.50439], [3, 51.27005, 13.49022], [2, 51.2695, 13.47588], [1, 51.27157, 13.46265], [0, 51.27533, 13.45241]]

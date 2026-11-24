@@ -1,0 +1,71 @@
+id = "6184"
+ref = "6184"
+name = "Berlin-Zehlendorf - Berlin-Wannsee"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q107657212"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 12.111
+kmTo = 17.982
+length = 5.872
+speeds = [[12.111, 12.911, 100, 100], [12.911, 12.923, "", ""], [12.923, 13.285, 80, 80], [13.285, 13.4, 50, 50], [13.4, 17.982, 80, 80]]
+curves = [[12.211, 12.786, 580], [12.836, 12.911, 1690], [14.559, 15.134, 580], [15.684, 15.909, 940], [16.459, 16.959, 1470], [17.009, 17.309, 740], [17.384, 17.809, 570]]
+points = [
+  { km = 12.111, kind = "station", label = "Zehlendorf", uic = "8003197", pos = [52.43107, 13.25859] },
+  { km = 13.284, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.285, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.4, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.401, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.951, kind = "halt", label = "Mexikoplatz", uic = "8089023", pos = [52.43677, 13.23324] },
+  { km = 14.091, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 15.293, kind = "station", label = "Schlachtensee", uic = "8089085", pos = [52.44009, 13.21544] },
+  { km = 17.044, kind = "halt", label = "Nikolassee", uic = "8035410", pos = [52.43206, 13.19316] },
+  { km = 17.053, kind = "halt", label = "Nikolassee (Wannseebahn)", pos = [52.43161, 13.19397] },
+  { km = 17.201, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 17.367, kind = "signal", label = "23 C", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 17.493, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 17.592, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 17.781, kind = "signal", signal = "minor,traversable", dir = 1 },
+  { km = 17.808, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 12.911, kmTo = 12.923, length = 12 },
+  { kind = "bridge", kmFrom = 13.299, kmTo = 13.347, length = 49 },
+  { kind = "bridge", kmFrom = 14.034, kmTo = 14.072, length = 38 },
+  { kind = "bridge", kmFrom = 14.474, kmTo = 14.493, length = 19 },
+  { kind = "bridge", kmFrom = 15.344, kmTo = 15.368, length = 24 },
+  { kind = "bridge", kmFrom = 16.038, kmTo = 16.054, length = 15 },
+  { kind = "bridge", kmFrom = 16.593, kmTo = 16.609, length = 16 },
+  { kind = "bridge", kmFrom = 17.339, kmTo = 17.361, length = 22 },
+  { kind = "bridge", kmFrom = 17.589, kmTo = 17.637, length = 48 },
+  { kind = "bridge", kmFrom = 17.899, kmTo = 17.915, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ih__Iod|oAzBtTEdPsAjLiFtN", v = 100 },
+  { line = "qn__Iq`zoAK\\" },
+  { line = "}n__Is_zoAyJbZ", v = 80 },
+  { line = "wz__IodyoAuBvG", v = 50 },
+  { line = "m~__Iw{xoA_g@f}AkAlHe@~Ib@jQjLx~@hYf_AfGnLzJtLhEfC~K~CdF`EvDhGxFhO", v = 80 },
+]
+posts = [[13, 52.43175, 13.24462], [14, 52.43692, 13.23254], [15, 52.44076, 13.21963], [16, 52.43755, 13.20596], [17, 52.43193, 13.19461]]
+
+[[connections]]
+km = 12.111
+station = "Zehlendorf"
+lines = [
+  { id = "6033", ref = "6033", name = "6033 Schöneberg - Wannsee", km = 12.013 },
+]
+
+[[connections]]
+km = 17.044
+station = "Nikolassee"
+lines = [
+  { id = "6024", ref = "6024", name = "6024 Berlin Ostbahnhof - Potsdam Hbf", km = 22.497 },
+  { id = "6033", ref = "6033", name = "6033 Schöneberg - Wannsee", km = 17.024 },
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 11.119 },
+]

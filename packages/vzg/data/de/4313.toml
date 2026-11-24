@@ -1,0 +1,40 @@
+id = "4313"
+ref = "4313"
+name = "4313 Freiburg (Breisgau) Gbf - Freiburg Neue Messe/Universität"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131761295"
+from = "Freiburg (Breisgau) Gbf"
+to = "Freiburg Neue Messe/Universität"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.623
+length = 0.623
+speeds = [[0, 0.623, "", ""]]
+curves = [[0.1, 0.5, 310]]
+points = [
+  { km = 0, kind = "halt", label = "Freiburg Messe/Universität", uic = "8014703", pos = [48.01288, 7.83276] },
+  { km = 0.041, kind = "signal", signal = "distant,speed_limit", dir = 1 },
+  { km = 0.212, kind = "signal", label = "75 B952", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 0.416, kind = "signal", label = "G", signal = "main,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.01, kmTo = 0.058, length = 48 },
+  { kind = "bridge", kmFrom = 0.104, kmTo = 0.122, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uh`dHccyn@`CiILmJoAyHkGaL" },
+]
+posts = [[0, 48.01179, 7.83426]]
+
+[[connections]]
+km = 0
+station = "Freiburg Messe/Universität"
+lines = [
+  { id = "4310", ref = "4310", name = "4310 Freiburg (Breisgau) Hauptbahnhof - Breisach", km = 2.4 },
+]

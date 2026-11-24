@@ -1,0 +1,159 @@
+id = "6773"
+ref = "6773"
+name = "6773 Seebad Heringsdorf - Wolgast Hafen"
+operator = "Usedomer Bäderbahn GmbH"
+gauge = "1435"
+wikidata = "Q18338251"
+from = "Seebad Heringsdorf"
+to = "Wolgast Hafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 208.821
+kmTo = 244.198
+length = 35.166
+speeds = [[208.821, 208.89, "", ""], [208.89, 209.2, 50, 50], [209.2, 209.443, 70, 70], [209.443, 214.086, 80, 80], [214.086, 214.465, "", ""], [214.465, 222.007, 80, 80], [222.007, 222.455, "", ""], [222.455, 227.087, 80, 80], [227.087, 227.412, "", ""], [227.412, 243.413, 80, 80], [243.413, 244.198, "", ""]]
+curves = [[208.971, 209.4, 410], [209.528, 209.988, 470], [210.09, 210.677, 400], [211.035, 211.162, 2130], [212.094, 212.144, 2610], [213.314, 213.617, 510], [214.198, 214.375, 940], [216.697, 217.152, 1160], [218.086, 218.389, 450], [218.541, 218.768, 760], [219.778, 220.005, 1100], [220.523, 220.572, 2400], [220.671, 220.72, 2630], [221.484, 221.843, 1610], [222.497, 222.748, 1800], [223.645, 223.764, 1370], [224.194, 224.656, 1220], [225.981, 226.288, 530], [226.5, 226.784, 460], [227.515, 227.682, 1060], [229.509, 229.886, 580], [230.161, 230.461, 750], [231.627, 231.803, 1390], [233.287, 233.437, 1130], [233.563, 233.79, 1180], [233.89, 233.966, 2140], [234.417, 234.575, 1440], [235.345, 235.53, 1140], [236.738, 236.861, 2420], [236.984, 237.455, 1650], [237.637, 238.338, 2030], [238.441, 238.519, 2030], [241.75, 242.214, 540], [242.469, 242.827, 420], [243.21, 243.408, 500], [243.438, 243.802, 620], [243.853, 244.082, 240]]
+points = [
+  { km = 207.5, kind = "halt", label = "Ahlbeck Ostseetherme", uic = "8044416", pos = [53.94259, 14.17974], measured = true },
+  { km = 209.2, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 209.443, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 209.449, kind = "signal", label = "2B", signal = "main,short_route", dir = -1 },
+  { km = 209.52, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 209.542, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 209.835, kind = "signal", signal = "distant", dir = -1 },
+  { km = 212, kind = "halt", label = "Heringsdorf Neuhof", uic = "8044421", pos = [53.95288, 14.14828], measured = true },
+  { km = 212.386, kind = "signal", signal = "stop", dir = 1 },
+  { km = 212.393, kind = "stop", label = "Heringsdorf-Neuhof", pos = [53.95286, 14.14823] },
+  { km = 214.227, kind = "station", label = "Bansin Seebad", pos = [53.96439, 14.12903], uic = "8044401" },
+  { km = 217.69, kind = "signal", signal = "distant", dir = 1 },
+  { km = 218.094, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = 218.397, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 218.463, kind = "stop", label = "Schmollensee", pos = [53.98349, 14.07625], uic = "8044406" },
+  { km = 218.872, kind = "signal", signal = "combined", dir = -1 },
+  { km = 218.933, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 219.098, kind = "signal", signal = "distant", dir = -1 },
+  { km = 219.099, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 220.14, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 220.381, kind = "signal", signal = "stop", dir = -1 },
+  { km = 220.458, kind = "stop", label = "Neu Pudagla", pos = [54.00033, 14.06514], uic = "8093775" },
+  { km = 220.515, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 220.948, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 221.321, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 221.415, kind = "signal", signal = "distant", dir = 1 },
+  { km = 221.821, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = 222.15, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 222.302, kind = "station", label = "Ückeritz", pos = [54.0139, 14.0499], uic = "8044411" },
+  { km = 222.364, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 222.738, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 223.134, kind = "signal", signal = "distant", dir = -1 },
+  { km = 223.82, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 224.216, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 224.219, kind = "signal", signal = "stop", dir = -1 },
+  { km = 224.251, kind = "stop", label = "Stubbenfelde", pos = [54.02884, 14.03278], uic = "8044420" },
+  { km = 224.64, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 224.953, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 225.303, kind = "stop", label = "Kölpinsee", pos = [54.03523, 14.02289], uic = "8044403" },
+  { km = 225.378, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 225.527, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 225.755, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 225.899, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 226.69, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 226.708, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = 227.188, kind = "signal", label = "2P1", signal = "main,minor,traversable", dir = -1 },
+  { km = 227.198, kind = "signal", signal = "stop", dir = -1 },
+  { km = 227.235, kind = "signal", signal = "stop", dir = 1 },
+  { km = 227.267, kind = "station", label = "Koserow", pos = [54.04519, 13.99936], uic = "8044404" },
+  { km = 227.278, kind = "signal", signal = "stop", dir = 1 },
+  { km = 227.313, kind = "signal", label = "2N1", signal = "main,minor,traversable", dir = 1 },
+  { km = 227.459, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 227.673, kind = "signal", label = "2F", signal = "combined,traversable", dir = -1 },
+  { km = 228.069, kind = "signal", signal = "distant", dir = -1 },
+  { km = 230.155, kind = "signal", signal = "distant", dir = 1 },
+  { km = 230.549, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = 230.935, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 231.016, kind = "station", label = "Zempin", pos = [54.06599, 13.96012], uic = "8044412" },
+  { km = 231.103, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 231.551, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 231.892, kind = "signal", signal = "distant", dir = -1 },
+  { km = 233.593, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 233.922, kind = "signal", signal = "distant", dir = 1 },
+  { km = 234.285, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = 234.36, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 234.748, kind = "signal", label = "2P 21", signal = "main,traversable", dir = -1 },
+  { km = 235.029, kind = "station", label = "Zinnowitz", pos = [54.07584, 13.90287], uic = "8044413" },
+  { km = 235.058, kind = "signal", label = "251Y", signal = "main,traversable", dir = -1 },
+  { km = 235.125, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 235.597, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 235.991, kind = "signal", signal = "distant", dir = -1 },
+  { km = 236.502, kind = "signal", signal = "distant", dir = 1 },
+  { km = 236.893, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = 237.162, kind = "signal", label = "P1", signal = "main,traversable", dir = -1 },
+  { km = 237.229, kind = "station", label = "Trassenheide", pos = [54.08146, 13.86969], uic = "8044409" },
+  { km = 237.293, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 237.559, kind = "signal", label = "1F", signal = "combined,traversable", dir = -1 },
+  { km = 237.965, kind = "signal", signal = "distant", dir = -1 },
+  { km = 238.586, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 239.398, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 239.463, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 239.814, kind = "stop", label = "Bannemin-Mölschow", pos = [54.07136, 13.83628], uic = "8044400" },
+  { km = 240.301, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 241.811, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 242.709, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 243.061, kind = "signal", signal = "distant", dir = 1 },
+  { km = 243.307, kind = "signal", signal = "stop", dir = -1 },
+  { km = 243.413, kind = "stop", label = "Wolgaster Fähre", pos = [54.0564, 13.79088], uic = "8044427" },
+  { km = 243.468, kind = "signal", label = "B", signal = "main,traversable", dir = 1 },
+  { km = 244.045, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 244.176, kind = "signal", label = "A", signal = "main,traversable", dir = -1 },
+  { km = 244.198, kind = "halt", label = "Wolgast Hafen", uic = "8044428", pos = [54.05224, 13.78] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 212.003, kmTo = 212.015, length = 13 },
+  { kind = "bridge", kmFrom = 212.954, kmTo = 213.004, length = 50 },
+  { kind = "bridge", kmFrom = 213.378, kmTo = 213.401, length = 23 },
+  { kind = "bridge", kmFrom = 218.203, kmTo = 218.215, length = 13 },
+  { kind = "bridge", kmFrom = 233.126, kmTo = 233.16, length = 33 },
+  { kind = "bridge", kmFrom = 243.567, kmTo = 243.832, length = 258 },
+  { kind = "bridge", kmFrom = 244.077, kmTo = 244.106, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}sghImhouA`BaC" },
+  { line = "{pghIolouA~F}H`FaC", v = 50 },
+  { line = "yaghIozouAnDNlFjC", v = 70 },
+  { line = "{tfhIsuouAhLvIfBlDfB|GjCrSVhIq@hLcBbHwBlEoS`YqjBrmBuDpIcMdl@", v = 80 },
+  { line = "gxjhIg`guAkDnP}DrK" },
+  { line = "qckhIcbfuAmqAvnDmB~I}ApMoL||AkClJkKtOmCvBo\\xMe\\nK}ItE}lAjgA}HzJeJ`Q", v = 80 },
+  { line = "wgthIurwtAkOrZ" },
+  { line = "cxthIawvtAsHhNko@tv@w_@|Y_JhMmw@lbBqCnNaBx_@m@rFiBxFiK`R", v = 80 },
+  { line = "_ozhIqpmtAmLvS" },
+  { line = "m|zhIy{ltAqJvNwyApwA_FfHwCnJ}Fl]eApM~@~bCmMzwCgGpa@cZr~@}U|hAoTt_CeBp_@DpYvAtZxB|TpE`XlG~U`mB||FlApI\\xJyBni@NrHbBhIbO~_@", v = 80 },
+  { line = "}`}hIowdsAn@dB", tunnel = true, v = 80 },
+  { line = "m_}hIitdsAfC|C", v = 80 },
+  { line = "e{|hIkodsAdDxCrApE~Bvf@fBhEnExD" },
+]
+posts = [[209, 53.94639, 14.17535], [210, 53.93925, 14.17047], [211, 53.9428, 14.1587], [212, 53.94978, 14.15135], [213, 53.95758, 14.14345], [214, 53.96337, 14.13254], [215, 53.96851, 14.12026], [216, 53.97408, 14.10845], [217, 53.97936, 14.09631], [218, 53.98155, 14.08165], [219, 53.98805, 14.07282], [220, 53.99659, 14.06863], [221, 54.00462, 14.06127], [222, 54.01223, 14.05251], [223, 54.01876, 14.04288], [224, 54.02675, 14.03449], [225, 54.03351, 14.02601], [226, 54.03993, 14.01468], [227, 54.0436, 14.00176], [228, 54.05074, 13.99254], [229, 54.05852, 13.98495], [230, 54.06514, 13.97535], [231, 54.06603, 13.96037], [232, 54.06623, 13.94499], [233, 54.06765, 13.92995], [234, 54.07082, 13.91595], [235, 54.07565, 13.9033], [236, 54.07905, 13.88827], [237, 54.08132, 13.87323], [238, 54.08019, 13.85844], [239, 54.07556, 13.84602], [240, 54.0705, 13.83438], [241, 54.06501, 13.82177], [242, 54.05991, 13.80881], [243, 54.0586, 13.79476], [244, 54.05436, 13.78232]]
+
+[[connections]]
+km = 207.5
+station = "Ahlbeck Ostseetherme"
+lines = [
+  { id = "6768", ref = "6768", name = "6768 Ducherow - Seebad Heringsdorf", km = 207.636 },
+]
+
+[[connections]]
+km = 235.029
+station = "Zinnowitz"
+lines = [
+  { id = "6774", ref = "6774", name = "6774 Zinnowitz, W 14 - Peenemünde", km = -0.19 },
+]
+
+[[connections]]
+km = 244.198
+station = "Wolgast Hafen"
+lines = [
+  { id = "6772", ref = "6772", name = "6772 Züssow - Wolgast Hafen", km = 210.956 },
+]

@@ -1,0 +1,39 @@
+id = "9182"
+ref = "9182"
+name = "9182 Einbeck Mitte - Dassel"
+operator = "Ilmebahn GmbH"
+gauge = "1435"
+wikidata = "Q108311929"
+from = "Einbeck Mitte"
+to = "Dassel"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.446
+length = 3.446
+speeds = [[0, 3.357, "", ""], [3.357, 3.446, 20, 20]]
+curves = [[0.325, 0.75, 720], [1.05, 1.325, 830], [1.575, 1.725, 710], [2, 2.25, 480], [2.45, 3.05, 340], [3.125, 3.3, 400]]
+points = [
+  { km = 1.649, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.654, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.687, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.692, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 2.137, kind = "halt", label = "Einbeck BBS/PS. SPEICHER/PS. Halle", uic = "8044830", pos = [51.82008, 9.85971] },
+  { km = 3.148, kind = "signal", label = "21 F", signal = "main,speed_limit", dir = 1 },
+  { km = 3.416, kind = "signal", label = "21 N1", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 3.428, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.446, kind = "station", label = "Einbeck Mitte", pos = [51.81859, 9.87502], uic = "8013071" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.289, kmTo = 0.353, length = 64 },
+  { kind = "bridge", kmFrom = 2.279, kmTo = 2.3, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cbh{Huu~z@m@a_@VwN{@oMe@md@dA{LnB{a@a@cb@w@yHkLk`@o@qJn@aJbAuD`C{DxHyHdCkI" },
+  { line = "e|g{H{ng{@vAyE", v = 20 },
+]
+posts = [[0, 51.82002, 9.82891], [1, 51.82057, 9.84337], [2, 51.81986, 9.85776], [3, 51.82142, 9.87054]]

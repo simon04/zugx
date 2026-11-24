@@ -1,0 +1,56 @@
+id = "2412"
+ref = "2412"
+name = "2412 Düsseldorf Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Düsseldorf Hbf"
+to = "Düsseldorf Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.727
+length = 0.727
+speeds = [[0, 0.727, "", ""]]
+curves = [[0.1, 0.275, 820], [0.375, 0.575, 570]]
+points = [
+  { km = 0, kind = "halt", label = "Düsseldorf-Friedrichstadt", uic = "8001579", pos = [51.21212, 6.78915] },
+  { km = 0.102, kind = "signal", label = "023I", signal = "minor", dir = -1 },
+  { km = 0.213, kind = "signal", label = "023II", signal = "minor", dir = 1 },
+  { km = 0.421, kind = "signal", label = "P020", signal = "main,minor,route", dir = -1 },
+  { km = 0.47, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.506, kind = "signal", label = "wvp20", signal = "distant", dir = -1 },
+  { km = 0.711, kind = "signal", label = "N020", signal = "main,minor,route", dir = 1 },
+  { km = 0.727, kind = "station", label = "Düsseldorf Hauptbahnhof", uic = "8008094", pos = [51.21971, 6.79394] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}vqwHadmh@kI?wLaEmBsA{H}J" },
+]
+posts = [[0, 51.21407, 6.78993]]
+
+[[connections]]
+km = 0
+station = "Düsseldorf-Friedrichstadt"
+lines = [
+  { id = "2413", ref = "2413", name = "2413 Düsseldorf-Eller - Düsseldorf Hbf", km = 4.778 },
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 10.167 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 87.451 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 37.725 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 37.343 },
+]
+
+[[connections]]
+km = 0.727
+station = "Düsseldorf Hauptbahnhof"
+lines = [
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = -0.011 },
+  { id = "2413", ref = "2413", name = "2413 Düsseldorf-Eller - Düsseldorf Hbf", km = 5.735 },
+  { id = "2416", ref = "2416", name = "2416 Düsseldorf Hbf - Düsseldorf-Unterrath", km = -0.06 },
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 11.145 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 88.383 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 39.307 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 38.954 },
+]

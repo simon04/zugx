@@ -1,0 +1,49 @@
+id = "6096"
+ref = "6096"
+name = "6096 Hennigsdorf (b Berlin) - Hennigsdorf Nord (Hdw)"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131720493"
+from = "Hennigsdorf (b Berlin)"
+to = "Hennigsdorf Nord (Hdw)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.73
+length = 2.73
+speeds = [[0, 0.935, 60, 60], [0.935, 2.73, "", ""]]
+curves = [[0.1, 0.95, 500], [1.65, 1.725, 2220], [1.8, 1.875, 2330], [2.15, 2.35, 1030]]
+points = [
+  { km = 0.062, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.286, kind = "signal", label = "52B", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 0.387, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.435, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.889, kind = "signal", signal = "distant,speed_limit", dir = 1 },
+  { km = 1.054, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.088, kind = "signal", label = "51I", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 1.345, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.353, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.462, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.502, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.506, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.669, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.926, kind = "signal", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 2.161, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.329, kind = "signal", signal = "combined,minor,speed_limit,traversable", dir = 1 },
+  { km = 2.542, kind = "signal", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.661, kind = "station", label = "Hennigsdorf (bei Berlin)", pos = [52.63741, 13.20608], uic = "8003544" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.935, kmTo = 0.971, length = 37 },
+  { kind = "bridge", kmFrom = 1.746, kmTo = 1.767, length = 21 },
+  { kind = "bridge", kmFrom = 2.386, kmTo = 2.412, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "szk`Iy|ooAa@{HHkI~@}InBwHbDiG~D{DhEaBnDW", v = 60 },
+  { line = "}~j`IwwqoApfAqAl[oJ" },
+]
+posts = [[0, 52.6585, 13.19389], [1, 52.65349, 13.20335], [2, 52.6445, 13.20363]]

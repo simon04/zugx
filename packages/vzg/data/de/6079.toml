@@ -1,0 +1,75 @@
+id = "6079"
+ref = "6079"
+name = "6079 Strausberg - Strausberg Nord"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q241997"
+from = "Strausberg"
+to = "Strausberg Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 9.128
+length = 9.128
+speeds = [[0, 0.093, 40, 40], [0.093, 8.951, 80, 80], [8.951, 9.128, 40, 40]]
+curves = [[0.775, 1.975, 900], [4.7, 5.2, 1170], [5.25, 6.025, 710], [6.575, 7.475, 930], [8.25, 8.725, 1040]]
+points = [
+  { km = 0, kind = "station", label = "Strausberg", uic = "8003263", pos = [52.53212, 13.83366] },
+  { km = 0.093, kind = "signal", label = "1346", signal = "combined,minor,traversable", dir = -1 },
+  { km = 0.093, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.093, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.457, kind = "signal", label = "1349", signal = "main,minor,traversable", dir = 1 },
+  { km = 0.487, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.559, kind = "signal", label = "1348", signal = "combined,minor,traversable", dir = -1 },
+  { km = 0.56, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.628, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.637, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.667, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.672, kind = "signal", signal = "crossing_info,traversable", dir = -1 },
+  { km = 0.673, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.817, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.819, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.917, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.973, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.269, kind = "signal", label = "1350", signal = "combined,route,speed_limit,traversable", dir = -1 },
+  { km = 1.411, kind = "signal", label = "Vw1350", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = 1.973, kind = "signal", label = "V1350", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = 2.074, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.149, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.223, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.338, kind = "stop", label = "Hegermühle", pos = [52.54838, 13.86636], uic = "8080680" },
+  { km = 3.498, kind = "signal", signal = "main", dir = -1 },
+  { km = 4.194, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.587, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.014, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 6.373, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.943, kind = "stop", label = "Strausberg Stadt", pos = [52.57668, 13.88785], uic = "8081420" },
+  { km = 8.074, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.95, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.951, kind = "signal", label = "F3", signal = "main", dir = -1 },
+  { km = 9.052, kind = "station", label = "Strausberg Nord", pos = [52.59029, 13.90852], uic = "8013064" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.975, kmTo = 2.99, length = 15 },
+  { kind = "bridge", kmFrom = 5.595, kmTo = 5.633, length = 37 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{ds_Ie_msAPoG", v = 40 },
+  { line = "ids_IugmsAxAq_AQcScBmP}BqKaE}KyDqGyDmEeFoD_jAem@o\\sWsh@si@kGgLoLk]iC}D}EuEwE{BiG{@sl@GaHeBsImEcFoGwCiGma@{kAyGkJmMcL", v = 80 },
+  { line = "ek~_Iik{sAwGwF", v = 40 },
+]
+posts = [[0, 52.53214, 13.83427], [1, 52.53168, 13.849], [2, 52.53727, 13.85962], [3, 52.54571, 13.86475], [4, 52.55385, 13.87098], [5, 52.56129, 13.87919], [6, 52.5682, 13.8874], [7, 52.57713, 13.88821], [8, 52.5833, 13.89853], [9, 52.58986, 13.90823]]
+
+[[connections]]
+km = 0
+station = "Strausberg"
+lines = [
+  { id = "6006", ref = "6006", name = "6006 Berlin Warschauer Straße - Strausberg", km = 27.591 },
+  { id = "6078", ref = "6078", name = "6078 Berlin Warschauer Straße - Küstrin-Kietz Grenze", km = 27.616 },
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 27.616 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 27.616 },
+]

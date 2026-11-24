@@ -1,0 +1,70 @@
+id = "9260"
+ref = "9260"
+name = "9260 Köln Heinrich-Lübke-Ufer- Bornheim-Hersel"
+operator = "HGK"
+gauge = "1435"
+from = "Köln Heinrich-Lübke-Ufer"
+to = "Bornheim-Hersel"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 5.097
+kmTo = 23.404
+length = 18.291
+speeds = [[5.097, 8.721, "", ""], [8.721, 8.734, 120, 120], [8.734, 9.551, "", ""], [9.551, 23.404, 120, 120]]
+curves = [[8.89, 9.341, 540], [9.966, 10.417, 730], [11.368, 11.993, 970], [13.244, 14.37, 1520], [14.445, 14.82, 690], [16.347, 16.597, 1210], [17.944, 18.069, 1750], [18.848, 18.999, 1970], [19.451, 19.551, 2000], [20.199, 20.351, 2490], [20.703, 20.928, 2040], [21.103, 21.228, 1940], [21.731, 21.877, 1690], [22.192, 22.361, 2060], [22.679, 23.279, 1010]]
+points = [
+  { km = 5.143, kind = "stop", label = "Heinrich-Lübke-Ufer", pos = [50.89983, 6.98482] },
+  { km = 5.198, kind = "signal", label = "101", signal = "main", dir = 1 },
+  { km = 6.2, kind = "stop", label = "Rodenkirchen Bahnhof", pos = [50.89091, 6.99002] },
+  { km = 7.037, kind = "stop", label = "Siegstraße", pos = [50.88389, 6.99427] },
+  { km = 7.977, kind = "station", label = "Michaelshoven", pos = [50.87597, 6.99908] },
+  { km = 9.343, kind = "station", label = "Sürth Bahnhof", pos = [50.86421, 7.00349] },
+  { km = 12.062, kind = "halt", label = "Godorf", pos = [50.84708, 6.97829] },
+  { km = 13.939, kind = "halt", label = "Wesseling Nord", pos = [50.83105, 6.97099] },
+  { km = 15.079, kind = "halt", label = "Wesseling", pos = [50.82284, 6.97946] },
+  { km = 16.921, kind = "stop", label = "Wesseling Süd", pos = [50.81216, 6.99929] },
+  { km = 16.954, kind = "signal", label = "N 701", signal = "main", dir = 1 },
+  { km = 17.372, kind = "signal", label = "703", signal = "distant", dir = 1 },
+  { km = 17.921, kind = "signal", label = "703", signal = "main", dir = 1 },
+  { km = 18.185, kind = "stop", label = "Urfeld", pos = [50.80343, 7.01085] },
+  { km = 18.394, kind = "signal", label = "a795", signal = "distant", dir = 1 },
+  { km = 18.949, kind = "signal", label = "A795", signal = "distant,main", dir = 1 },
+  { km = 19.497, kind = "signal", label = "N704", signal = "main", dir = 1 },
+  { km = 19.866, kind = "stop", label = "Widdig", pos = [50.79057, 7.0232] },
+  { km = 19.898, kind = "signal", signal = "stop", dir = 1 },
+  { km = 19.902, kind = "signal", label = "706", signal = "distant", dir = 1 },
+  { km = 20.444, kind = "signal", label = "706", signal = "distant,main", dir = 1 },
+  { km = 20.942, kind = "stop", label = "Uedorf", pos = [50.78228, 7.031] },
+  { km = 20.983, kind = "signal", label = "707", signal = "distant,main", dir = 1 },
+  { km = 21.523, kind = "signal", label = "708", signal = "distant,main", dir = 1 },
+  { km = 22.057, kind = "signal", label = "A 891", signal = "distant,main", dir = 1 },
+  { km = 22.16, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 22.37, kind = "signal", signal = "minor", dir = 1 },
+  { km = 22.535, kind = "stop", label = "Hersel", pos = [50.77006, 7.04273] },
+  { km = 22.604, kind = "signal", label = "N 802", signal = "main", dir = 1 },
+  { km = 22.694, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 5.519, kmTo = 5.59, length = 70 },
+  { kind = "bridge", kmFrom = 8.721, kmTo = 8.734, length = 13 },
+  { kind = "bridge", kmFrom = 12.371, kmTo = 12.5, length = 129 },
+  { kind = "bridge", kmFrom = 13.771, kmTo = 13.846, length = 75 },
+  { kind = "bridge", kmFrom = 13.891, kmTo = 13.901, length = 10 },
+  { kind = "bridge", kmFrom = 14.013, kmTo = 14.024, length = 11 },
+  { kind = "bridge", kmFrom = 14.395, kmTo = 14.439, length = 44 },
+  { kind = "bridge", kmFrom = 15.812, kmTo = 15.831, length = 19 },
+  { kind = "bridge", kmFrom = 18.566, kmTo = 18.581, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qrytHig_j@kQ~@_MbGmXzXcZ`UyWrWuSfVuV`S}c@xc@q]pXee@ng@ocAvzAkc@piA{Ulq@sGrIgIlFsHzCsQ`CaJWeHyAkG_CmbAqh@iGiEmFsGiGyMka@owAoD}FqCqC{WkP", v = 120 },
+  { line = "ubmuH}svi@}LmHgGoAuGr@sKlF" },
+  { line = "ennuHyvvi@UL", v = 120 },
+  { line = "{nnuHkvvi@ocDnaB" },
+  { line = "kssuH{ssi@wBdA", tunnel = true },
+  { line = "cwsuHuqsi@gUzK" },
+]
+posts = [[23, 50.76641, 7.04586], [22, 50.77419, 7.03901], [21, 50.78187, 7.03149], [20, 50.78953, 7.02424], [19, 50.79734, 7.01715], [18, 50.80479, 7.00935], [17, 50.81162, 7.00001], [16, 50.8179, 6.98997], [15, 50.82325, 6.97854], [14, 50.83051, 6.9711], [13, 50.83922, 6.97346], [12, 50.8476, 6.97861], [11, 50.85359, 6.98871], [10, 50.85897, 6.99983], [9, 50.86738, 7.00413], [8, 50.8758, 6.99914], [7, 50.8842, 6.99408], [6, 50.8926, 6.98903]]

@@ -1,0 +1,23 @@
+id = "9218"
+ref = "9218"
+name = "Möhnetalbahn"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.164
+length = 1.164
+speeds = [[0, 1.164, "", ""]]
+curves = [[0.1, 0.35, 270], [0.6, 1.05, 240]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 1.033, kmTo = 1.053, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_~fyHkmxq@u@qI\\aIrMe]bAcIUoEmA{D_CcDgF}C" },
+]
+posts = [[0, 51.48656, 8.3223], [1, 51.48496, 8.33465]]

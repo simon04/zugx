@@ -1,0 +1,85 @@
+id = "5001"
+ref = "5001"
+name = "5001 Schnabelwaid - Bayreuth Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q803185"
+from = "Schnabelwaid"
+to = "Bayreuth Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.178
+kmTo = 18.237
+length = 18.054
+speeds = [[0.178, 7.699, 110, 110], [7.699, 7.901, 100, 110], [7.901, 9.904, 100, 100], [9.904, 11.218, 90, 90], [11.218, 17.626, 110, 110], [17.626, 18.237, "", ""]]
+curves = [[0.353, 0.428, 2530], [0.503, 1.028, 680], [1.103, 1.403, 770], [1.728, 2.453, 680], [2.953, 3.253, 670], [4.053, 4.753, 1130], [4.853, 5.153, 1420], [5.253, 5.328, 2710], [6.178, 6.303, 1180], [6.478, 6.628, 980], [6.778, 6.828, 2080], [7.303, 7.353, 2410], [7.578, 7.753, 1850], [7.928, 8.103, 970], [8.203, 8.603, 790], [8.728, 8.803, 1990], [8.878, 9.528, 700], [9.929, 10.157, 790], [10.233, 11.219, 510], [11.447, 12.281, 630], [12.383, 13.254, 670], [13.326, 14.124, 630], [14.35, 15.027, 870], [15.303, 16.306, 930], [16.581, 17.032, 690], [17.207, 17.557, 880], [17.657, 18.132, 850]]
+points = [
+  { km = 0.178, kind = "station", label = "Schnabelwaid", uic = "8000328", pos = [49.81055, 11.59573] },
+  { km = 0.777, kind = "signal", label = "F", signal = "distant,main", dir = -1 },
+  { km = 1.773, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.883, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.535, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.886, kind = "signal", label = "A401", signal = "distant,main", dir = 1 },
+  { km = 5.406, kind = "signal", label = "P402", signal = "main", dir = -1 },
+  { km = 5.5, kind = "station", label = "Creußen (Oberfr)", pos = [49.84974, 11.6283], uic = "8001348" },
+  { km = 5.913, kind = "signal", label = "N402", signal = "main", dir = 1 },
+  { km = 6.603, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.699, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.701, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.901, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.949, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.901, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.036, kind = "signal", label = "A551", signal = "distant,main", dir = 1 },
+  { km = 9.51, kind = "signal", label = "P502", signal = "main", dir = -1 },
+  { km = 9.904, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.904, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.113, kind = "signal", label = "N502", signal = "main", dir = 1 },
+  { km = 10.676, kind = "signal", label = "F554", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 10.824, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.072, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.206, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.218, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.68, kind = "signal", label = "Vf", signal = "distant", dir = -1 },
+  { km = 12.263, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 17.626, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.981, kind = "signal", signal = "route", dir = -1 },
+  { km = 18.068, kind = "signal", label = "P002", signal = "main", dir = -1 },
+  { km = 18.237, kind = "station", label = "Bayreuth Hbf", pos = [49.94983, 11.57982], uic = "8000028" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.91, kmTo = 2.932, length = 22 },
+  { kind = "bridge", kmFrom = 4.836, kmTo = 4.859, length = 23 },
+  { kind = "bridge", kmFrom = 9.136, kmTo = 9.211, length = 75 },
+  { kind = "bridge", kmFrom = 14.632, kmTo = 14.653, length = 21 },
+  { kind = "bridge", kmFrom = 15.632, kmTo = 15.642, length = 10 },
+  { kind = "bridge", kmFrom = 17.132, kmTo = 17.154, length = 22 },
+  { kind = "bridge", kmFrom = 17.526, kmTo = 17.543, length = 18 },
+  { kind = "bridge", kmFrom = 17.786, kmTo = 17.873, length = 86 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yz_oHm_xeAmQwPkGyDiHcAoMlBoIEqVwFuKaF_EqF}D{J}Jmy@kBmHce@q|@_ImHeIcEaTmBgSrBat@|RiN~Hyj@`KkNfDgNzF", v = 110 },
+  { line = "{ikoHyq|eAoFtBkOjBqIjDqXdAeI|CaHhJqPtb@", v = 100 },
+  { line = "ujnoHgozeAqC`J_EzXwBnGeC~D}EjDqGlAgGmAkG}E", v = 90 },
+  { line = "i}ooHk}xeAgLyLkD}BmGaB}DC_Ev@iExBuDjD_NfRqHxDeHVyFuAiEwCaMcMgGuCyFc@iE`@cGjCaSpSsDjCmFjBaLb@cZ_EuJp@oJ|DcJbJcDxFkNt^iDrFoEpDeVdLuItM", v = 110 },
+  { line = "qzyoH{hueAoD|FoDzCaHpCyIlA" },
+]
+posts = [[1, 49.81852, 11.60083], [2, 49.82728, 11.60275], [3, 49.83114, 11.61491], [4, 49.837, 11.62536], [5, 49.84523, 11.62964], [6, 49.85402, 11.62674], [7, 49.86267, 11.62315], [8, 49.87138, 11.61984], [9, 49.88024, 11.61792], [10, 49.88652, 11.60856], [11, 49.89239, 11.60034], [12, 49.90049, 11.60467], [13, 49.9083, 11.59929], [14, 49.91692, 11.60274], [15, 49.92506, 11.59805], [16, 49.93369, 11.59663], [17, 49.94005, 11.58714], [18, 49.94773, 11.58038]]
+
+[[connections]]
+km = 0.178
+station = "Schnabelwaid"
+lines = [
+  { id = "5060", ref = "5060", name = "5060 Neukirchen (b Sulzbach-Rosenberg) - Weiden (Oberpf)", km = 75.103 },
+  { id = "5903", ref = "5903", name = "5903 Nürnberg Hbf - Schirnding Grenze", km = 75.045 },
+]
+
+[[connections]]
+km = 18.237
+station = "Bayreuth Hbf"
+lines = [
+  { id = "5051", ref = "5051", name = "5051 Weiden (Oberpf) - Neuenmarkt-Wirsberg", km = 58.072 },
+]

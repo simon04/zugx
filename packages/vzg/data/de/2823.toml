@@ -1,0 +1,37 @@
+id = "2823"
+ref = "2823"
+name = "2823 Hagen Streckenwechsel 2811/2823 - Abzw Hohensyburg"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q20631436"
+from = "Hagen Streckenwechsel 2811/2823"
+to = "Hohensyburg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.637
+kmTo = 5.748
+length = 4.111
+speeds = [[1.637, 4.042, 80, 80], [4.042, 4.147, "", ""], [4.147, 5.748, 60, 60]]
+curves = [[1.748, 2.173, 880], [2.623, 2.923, 1120], [3.073, 3.82, 1630], [4.022, 4.4, 640], [4.905, 5.132, 1100], [5.283, 5.359, 2410], [5.456, 5.648, 580]]
+points = [
+  { km = 1.88, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.582, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.6, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.18, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.58, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 3.898, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.294, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.446, kind = "signal", signal = "main", dir = -1 },
+  { km = 5.407, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 5.592, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "e}xxHy}ul@|ChOhDtj@N|Jk@xr@Z`HhArF", v = 60 },
+  { line = "spxxHkqql@fBtF" },
+  { line = "kmxxHuiql@bHvQzHtOlFxHpGjFpVhIrb@n@~Ex@jEfBhJrH", v = 80 },
+]
+posts = [[5, 51.41305, 7.47993], [4, 51.41199, 7.46619], [3, 51.40508, 7.45746], [2, 51.39617, 7.45611]]

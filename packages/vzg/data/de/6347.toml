@@ -1,0 +1,54 @@
+id = "6347"
+ref = "6347"
+name = "6347 Halle (Saale) Abzw Ab - Halle (Saale) Gbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Halle (Saale) Abzw Ab"
+to = "Halle (Saale) Gbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 156.964
+kmTo = 160.998
+length = 3.997
+speeds = [[156.964, 159.822, 80, 80], [159.822, 160.998, "", ""]]
+curves = [[157.065, 157.166, 1130], [157.292, 157.615, 480], [158.283, 158.333, 2000], [158.46, 158.638, 1270], [158.739, 159.11, 1080], [159.157, 159.227, 2280], [159.461, 159.555, 1300], [159.876, 160.176, 700], [160.426, 160.651, 770]]
+points = [
+  { km = 157.065, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 157.553, kind = "signal", label = "7492", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 157.769, kind = "signal", label = "95 BB", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 158.003, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 158.098, kind = "signal", signal = "minor", dir = 1 },
+  { km = 158.281, kind = "signal", label = "95Vzr413", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 158.871, kind = "signal", signal = "combined,route,speed_limit_distant", dir = -1 },
+  { km = 158.921, kind = "signal", label = "95 P319", signal = "combined,route,speed_limit_distant", dir = -1 },
+  { km = 159.362, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 159.581, kind = "signal", label = "95 ZR319", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 159.644, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 159.744, kind = "signal", signal = "minor", dir = 1 },
+  { km = 159.879, kind = "signal", signal = "minor", dir = -1 },
+  { km = 160.021, kind = "signal", label = "96 Q339", signal = "combined,minor,route,route_distant,speed_limit,traversable", dir = -1 },
+  { km = 160.029, kind = "halt", label = "Halle Steintorbrücke", uic = "8023117", pos = [51.49028, 11.98691] },
+  { km = 160.171, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 160.764, kind = "signal", label = "96 ZS3 39", signal = "combined,minor,route_distant,speed_limit,speed_limit_distant,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 157.228, kmTo = 157.246, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qqiyHeglhAcAtc@n@bLdUjgAhDt[lBjK`Qtj@bJbT", v = 80 },
+  { line = "avgyHccehArC`GrDzEvTjMfFfAdTP" },
+]
+posts = [[157, 51.49993, 12.02767], [158, 51.49826, 12.01455], [159, 51.49487, 12.00146], [160, 51.48929, 11.98988]]
+
+[[connections]]
+km = 160.029
+station = "Halle Steintorbrücke"
+lines = [
+  { id = "6132", ref = "6132", name = "6132 Berlin - Halle (Saale) Hbf", km = 160.196 },
+  { id = "6344", ref = "6344", name = "Bahnstrecke 6344 Halle (Saale) Hbf – Vienenburg", km = 0.266 },
+  { id = "6403", ref = "6403", name = "Magdeburg-Leipzig", km = 84.634 },
+]

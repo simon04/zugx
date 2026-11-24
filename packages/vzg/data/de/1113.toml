@@ -1,0 +1,110 @@
+id = "1113"
+ref = "1113"
+name = "1113 Abzw Schwartau Waldhalle - Lübeck-Travemünde Strand"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q802717"
+from = "Schwartau Waldhalle"
+to = "Lübeck-Travemünde Strand"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 4.5
+kmTo = 20.647
+length = 15.667
+speeds = [[4.5, 4.602, 80, 80], [4.602, 4.702, 120, 120], [4.702, 6.702, 80, 80], [6.702, 16.966, 100, 100], [16.966, 17.912, 80, 80], [17.912, 18.773, 50, 50], [18.773, 20.173, 40, 40], [20.173, 20.647, 30, 30]]
+curves = [[4.618, 5.11, 570], [5.507, 6.225, 530], [6.328, 6.847, 1080], [6.988, 7.295, 820], [7.361, 7.569, 2010], [7.943, 8.017, 2810], [8.515, 8.74, 1670], [10.823, 11.173, 850], [11.737, 11.993, 1100], [12.364, 12.592, 980], [12.877, 13.212, 1250], [13.379, 13.508, 1190], [13.564, 13.712, 1010], [13.976, 14.135, 1440], [14.375, 14.534, 1560], [14.694, 14.8, 2160], [15.126, 15.376, 2010], [15.526, 15.751, 1450], [15.826, 16.451, 550], [16.551, 17.252, 1510], [17.327, 17.903, 560], [18, 18.682, 430], [18.975, 19.32, 520], [19.652, 20.086, 420], [20.265, 20.52, 570]]
+points = [
+  { km = 4.823, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 4.865, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 4.888, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.07, kind = "signal", signal = "main,wrong_road", dir = -1 },
+  { km = 5.677, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 5.731, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 6.243, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.404, kind = "signal", label = "95Va", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.702, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.702, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.396, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 7.502, kind = "signal", label = "95 A", signal = "combined,speed_limit", dir = 1 },
+  { km = 7.764, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 7.882, kind = "signal", signal = "minor", dir = -1 },
+  { km = 7.911, kind = "signal", signal = "stop", dir = -1 },
+  { km = 8.026, kind = "stop", label = "Lübeck-Dänischburg IKEA", pos = [53.91109, 10.73475], uic = "8003786" },
+  { km = 8.07, kind = "signal", label = "95 202X", signal = "minor", dir = 1 },
+  { km = 8.152, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 8.194, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 8.599, kind = "signal", label = "95 FF", signal = "main,speed_limit", dir = -1 },
+  { km = 8.712, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 9.098, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 9.153, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 9.767, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 10.412, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 10.455, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 10.647, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 11.393, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 11.441, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 11.749, kind = "signal", label = "95 01", signal = "main,speed_limit", dir = 1 },
+  { km = 12.017, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 12.064, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.072, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 12.634, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 13.597, kind = "signal", label = "95 02", signal = "main,speed_limit", dir = -1 },
+  { km = 13.743, kind = "signal", signal = "distant", dir = -1 },
+  { km = 13.9, kind = "stop", label = "Lübeck-Kücknitz", pos = [53.92492, 10.81921], measured = true, uic = "8003776" },
+  { km = 14.247, kind = "signal", signal = "distant", dir = -1 },
+  { km = 14.78, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 14.827, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 15.311, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 15.369, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 16, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 16.966, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.974, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 17.763, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.886, kind = "stop", label = "Lübeck-Travemünde Skandinavienkai", pos = [53.95083, 10.85402] },
+  { km = 17.9, kind = "halt", label = "Lübeck-Travemünde Skandinavienkai", uic = "8006704", pos = [53.95096, 10.85396], measured = true },
+  { km = 17.912, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.92, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 18.119, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 18.405, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 18.627, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 18.773, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.773, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.956, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 19.014, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 19.25, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 19.292, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.298, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 19.395, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 19.428, kind = "signal", signal = "stop", dir = -1 },
+  { km = 19.566, kind = "stop", label = "Lübeck-Travemünde Hafen", pos = [53.95867, 10.86504], uic = "8003777" },
+  { km = 19.752, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.758, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 19.81, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 19.846, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 20.236, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 20.323, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 20.334, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 20.341, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 20.601, kind = "stop", label = "Lübeck-Travemünde Strand", pos = [53.96487, 10.87596], uic = "8003778" },
+  { km = 20.636, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 6.607, kmTo = 6.635, length = 30 },
+  { kind = "bridge", kmFrom = 9.627, kmTo = 9.748, length = 121 },
+  { kind = "bridge", kmFrom = 13.248, kmTo = 13.36, length = 152 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "o`khI_gkaArHlP~IdG", v = 30 },
+  { line = "{kjhIkmjaAxH`F~CxGjAfJtDxm@jAzEzGtO", v = 40 },
+  { line = "wiihI{kgaAjFtKxFnE|F\\rHgC", v = 50 },
+  { line = "_ihhI_|faArIwAnIjB~DfDfIdLdIhI", v = 80 },
+  { line = "myfhIs~eaApLdHnVnHnDxCvCzEfCnIlF~\\tH`ZrZ|v@|NdZnN``@bKjQrIvS`GvR|Gv_@~Fpw@vNfy@rAbOhAtnBb@`nBvCfu@~AtWnBtVnEz`@P|f@", v = 100 },
+  { line = "ya`hIwzk`A[`M_AlG}J~T{BhIiAfJElId@|EtA~FfQhd@`FfHtFjD", v = 80 },
+  { line = "cr_hIkkg`AkD{A", v = 120 },
+  { line = "ow_hIgng`AjDhB", v = 80 },
+]
+posts = [[20, 53.96033, 10.8711], [19, 53.95734, 10.85843], [18, 53.95162, 10.85362], [17, 53.9437, 10.84946], [16, 53.93556, 10.84373], [15, 53.93105, 10.83063], [14, 53.9253, 10.8199], [13, 53.91818, 10.80591], [12, 53.91567, 10.79331], [11, 53.91251, 10.78022], [10, 53.91213, 10.76501], [9, 53.91194, 10.74984], [8, 53.91106, 10.73464], [7, 53.90894, 10.72033], [6, 53.91192, 10.70671], [5, 53.90864, 10.69466]]

@@ -1,0 +1,25 @@
+id = "2632"
+ref = "2632"
+name = "2632 Hürth-Kalscheuren"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hürth-Kalscheuren"
+to = "Hürth-Kalscheuren"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.412
+length = 0.412
+speeds = [[0, 0.412, 60, 60]]
+curves = [[0.1, 0.15, 400], [0.2, 0.3, 310]]
+points = [
+  { km = 0.086, kind = "signal", signal = "minor", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ornuHukdi@eEFqGvB}F{@", v = 60 },
+]
+posts = [[0, 50.87032, 6.90891]]

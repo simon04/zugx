@@ -1,0 +1,73 @@
+id = "6327"
+ref = "6327"
+name = "6327 Grambow Grenze - Strasburg (Uckerm)"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131688166"
+from = "Grambow Grenze"
+to = "Strasburg (Uckerm)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 13.211
+kmTo = 61.107
+length = 47.796
+speeds = [[13.211, 40.993, 100, 100], [40.993, 41.003, 30, 30], [41.003, 41.443, 100, 100], [41.443, 41.7, 30, 30], [41.7, 42.683, "", ""], [42.683, 61.107, 100, 100]]
+curves = [[15.711, 15.886, 2360], [15.961, 16.136, 2300], [17.886, 18.286, 2170], [23.761, 24.412, 2030], [25.562, 25.612, 2630], [25.963, 26.013, 2500], [26.414, 26.464, 2320], [29.296, 29.371, 2470], [35.511, 36.488, 1880], [40.974, 41.917, 570], [42.017, 42.143, 1460], [42.218, 42.268, 1840], [42.419, 42.494, 1990], [42.544, 42.595, 1440], [42.645, 42.72, 1740], [42.796, 44.73, 1170], [48.547, 48.748, 1540], [51.184, 51.234, 2150], [51.359, 51.635, 1930], [53.115, 53.617, 1510], [57.629, 58.106, 1530]]
+points = [
+  { km = 14.968, kind = "stop", label = "Grambow", pos = [53.41722, 14.34729], uic = "8028410" },
+  { km = 24.81, kind = "station", label = "Löcknitz", pos = [53.45602, 14.21561], uic = "8028408" },
+  { km = 34.067, kind = "stop", label = "Zerrenthin", pos = [53.49958, 14.09741], uic = "8028406" },
+  { km = 40.05, kind = "signal", label = "56 A", signal = "main", dir = 1, measured = true },
+  { km = 40.261, kind = "station", label = "Pasewalk Ost", pos = [53.50957, 14.0097], uic = "8028405" },
+  { km = 40.907, kind = "signal", label = "56 F", signal = "main", dir = -1, measured = true },
+  { km = 40.917, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 40.985, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 41.008, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 41.209, kind = "signal", label = "55 B", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 41.213, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 41.447, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 41.494, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 41.538, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 41.591, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 41.658, kind = "signal", label = "55 L13X", signal = "minor", dir = 1 },
+  { km = 41.665, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 41.716, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 41.774, kind = "signal", label = "55 P3", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 41.778, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 41.784, kind = "signal", signal = "stop", dir = -1 },
+  { km = 41.856, kind = "signal", signal = "stop", dir = -1 },
+  { km = 41.87, kind = "station", label = "Pasewalk", pos = [53.515, 13.9893], uic = "8028403" },
+  { km = 41.902, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 41.929, kind = "signal", label = "55ZR3", signal = "main,minor,route,speed_limit,wrong_road", dir = -1 },
+  { km = 41.973, kind = "signal", label = "55 ZU5", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 42.017, kind = "signal", signal = "stop", dir = -1 },
+  { km = 42.064, kind = "stop", label = "Pasewalk", pos = [53.51649, 13.98981] },
+  { km = 42.821, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 51.56, kind = "station", label = "Blumenhagen", pos = [53.5283, 13.87204], uic = "8011213" },
+  { km = 60.274, kind = "station", label = "Strasburg (Uckermark)", pos = [53.51512, 13.74343], uic = "8010339" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 25.812, kmTo = 25.836, length = 24 },
+  { kind = "bridge", kmFrom = 41.678, kmTo = 41.7, length = 28 },
+  { kind = "bridge", kmFrom = 46.243, kmTo = 46.255, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ix_eIwhvvAiKtjF{@~RaDl]y\\liCuDhUiI|[ejD~jLeDnQ}BnR{MjnBiCnXiHpg@cKvd@uKv]akA|_DsHhV_tDrkM{Hj_@aDd\\{@zX}BvhL", v = 100 },
+  { line = "mbreI}~ltAAZ", v = 30 },
+  { line = "obreIa~ltAcAfR}ArHwB`G", v = 100 },
+  { line = "ikreIcyktAyEjGuEhB", v = 30 },
+  { line = "yxreImmktAsG~@sJBoa@aD" },
+  { line = "qoteIkpktAgLyAmIn@oKxDkKvIgH|KsFhNmClKmCvRu@bNMbNfE`jJtCbm@zVxbEn@dQPvY_BdkCt@lXhAxMbNrfAp}@d|GxBbW^hXa@btG", v = 100 },
+]
+posts = [[14, 53.41651, 14.36154], [15, 53.41731, 14.34651], [16, 53.41828, 14.33153], [17, 53.4212, 14.31726], [18, 53.4243, 14.3031], [19, 53.42909, 14.29034], [20, 53.43411, 14.27782], [21, 53.43914, 14.2653], [22, 53.44417, 14.25278], [23, 53.44919, 14.24026], [24, 53.45406, 14.22758], [25, 53.45646, 14.21312], [26, 53.45869, 14.19847], [27, 53.46289, 14.18521], [28, 53.4684, 14.17331], [29, 53.47399, 14.16153], [30, 53.47919, 14.14926], [31, 53.48415, 14.1367], [32, 53.4891, 14.12412], [33, 53.49405, 14.11155], [34, 53.499, 14.09897], [35, 53.50393, 14.08637], [36, 53.50829, 14.07325], [37, 53.50909, 14.0583], [38, 53.50926, 14.04321], [39, 53.5094, 14.02813], [40, 53.50953, 14.01304], [41, 53.50968, 13.99797], [42, 53.51592, 13.98981], [43, 53.52483, 13.99104], [44, 53.53238, 13.98389], [45, 53.53417, 13.96949], [46, 53.53392, 13.95444], [47, 53.53368, 13.93938], [48, 53.53341, 13.92432], [49, 53.53262, 13.90936], [50, 53.53082, 13.8946], [51, 53.52903, 13.87985], [52, 53.52845, 13.86486], [53, 53.52878, 13.84979], [54, 53.527, 13.83516], [55, 53.52395, 13.82099], [56, 53.52083, 13.80685], [57, 53.51774, 13.7927], [58, 53.51504, 13.77837], [59, 53.51503, 13.7633], [60, 53.51507, 13.7482], [61, 53.51512, 13.73308]]
+
+[[connections]]
+km = 41.87
+station = "Pasewalk"
+lines = [
+  { id = "6081", ref = "6081", name = "6081 Berlin - Eberswalde - Stralsund", km = 132.258 },
+]

@@ -1,0 +1,25 @@
+id = "1816"
+ref = "1816"
+name = "1816 Abzw Edesheim (Leine)"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Edesheim (Leine)"
+to = "Edesheim (Leine)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.429
+length = 0.429
+speeds = [[0, 0.429, "", ""]]
+curves = [[0.1, 0.175, 1930]]
+points = [
+  { km = 0.306, kind = "signal", signal = "train_protection", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kzvzHk~y{@fVeI" },
+]
+posts = [[0, 51.73174, 9.96854]]

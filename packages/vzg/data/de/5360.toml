@@ -1,0 +1,116 @@
+id = "5360"
+ref = "5360"
+name = "5360 Buchloe - Memmingen"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q802041"
+from = "Buchloe"
+to = "Memmingen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.004
+kmTo = 46.6
+length = 46.493
+speeds = [[0.004, 0.642, "", ""], [0.642, 0.76, 60, 60], [0.76, 1.867, 120, 120], [1.867, 11.67, 160, 160], [11.67, 18.288, 140, 140], [18.288, 19.954, 160, 160], [19.954, 19.97, 140, 140], [19.97, 21.44, 160, 160], [21.44, 22.125, 120, 120], [22.125, 27.041, 130, 130], [27.041, 30.728, 140, 140], [30.728, 43.781, 160, 160], [43.781, 45.837, 130, 130], [45.837, 46.348, 90, 90], [46.348, 46.6, "", ""]]
+curves = [[0.523, 1.807, 910], [10.498, 10.923, 2190], [13.045, 13.669, 980], [15.467, 16.216, 850], [20.645, 22.296, 1140], [22.896, 23.647, 820], [25.247, 25.823, 980], [25.923, 25.973, 2680], [26.198, 27.048, 900], [27.498, 28.149, 1090], [28.649, 29.174, 1090], [30.275, 30.75, 1040], [32.676, 32.901, 1960], [32.976, 33.026, 2460], [36.552, 37.004, 1510], [38.685, 38.86, 1830], [41.175, 41.45, 1670], [41.525, 41.575, 2300], [43.925, 44.9, 770], [46.325, 46.375, 2580]]
+points = [
+  { km = 0.056, kind = "station", label = "Buchloe", pos = [48.03326, 10.71612], uic = "8000057" },
+  { km = 0.277, kind = "signal", label = "N5", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 2.423, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.227, kind = "station", label = "Türkheim (Bayern)", uic = "8000144", pos = [48.04554, 10.61801] },
+  { km = 10.49, kind = "halt", label = "Rammingen (Bay)", uic = "8004927", pos = [48.05254, 10.58944] },
+  { km = 18.421, kind = "signal", label = "P2", signal = "main,minor,traversable", dir = -1 },
+  { km = 18.585, kind = "signal", signal = "stop", dir = -1 },
+  { km = 18.646, kind = "signal", signal = "stop", dir = -1 },
+  { km = 18.695, kind = "signal", signal = "stop", dir = -1 },
+  { km = 18.75, kind = "station", label = "Mindelheim", pos = [48.04492, 10.50164], uic = "8000338" },
+  { km = 22.929, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 24.73, kind = "station", label = "Stetten (Schwab)", pos = [48.0281, 10.43763] },
+  { km = 32.35, kind = "station", label = "Sontheim (Schwab)", pos = [48.01196, 10.3462] },
+  { km = 33.199, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 33.238, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 34.5, kind = "signal", signal = "route", dir = 1, measured = true },
+  { km = 37.239, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 37.749, kind = "signal", label = "88 P1", signal = "main,traversable", dir = -1 },
+  { km = 42.793, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 45.616, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 45.824, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 46.015, kind = "signal", label = "15N3", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 46.148, kind = "signal", label = "15VWs3", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 46.197, kind = "signal", label = "43A", signal = "minor", dir = 1 },
+  { km = 46.209, kind = "signal", label = "43B", signal = "minor", dir = -1 },
+  { km = 46.251, kind = "station", label = "Memmingen", pos = [47.98541, 10.18699], uic = "8000249" },
+  { km = 46.348, kind = "signal", label = "15S3", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.776, kmTo = 2.795, length = 18 },
+  { kind = "bridge", kmFrom = 4.488, kmTo = 4.502, length = 14 },
+  { kind = "bridge", kmFrom = 5.675, kmTo = 5.686, length = 11 },
+  { kind = "bridge", kmFrom = 6.142, kmTo = 6.172, length = 30 },
+  { kind = "bridge", kmFrom = 6.371, kmTo = 6.383, length = 11 },
+  { kind = "bridge", kmFrom = 7.887, kmTo = 7.903, length = 16 },
+  { kind = "bridge", kmFrom = 12.482, kmTo = 12.498, length = 16 },
+  { kind = "bridge", kmFrom = 17.133, kmTo = 17.143, length = 10 },
+  { kind = "bridge", kmFrom = 17.422, kmTo = 17.453, length = 30 },
+  { kind = "bridge", kmFrom = 19.474, kmTo = 19.504, length = 29 },
+  { kind = "bridge", kmFrom = 19.954, kmTo = 19.97, length = 15 },
+  { kind = "bridge", kmFrom = 20.268, kmTo = 20.3, length = 31 },
+  { kind = "bridge", kmFrom = 23.41, kmTo = 23.512, length = 102 },
+  { kind = "bridge", kmFrom = 31.525, kmTo = 31.535, length = 10 },
+  { kind = "bridge", kmFrom = 32.238, kmTo = 32.253, length = 15 },
+  { kind = "bridge", kmFrom = 34.58, kmTo = 34.592, length = 10 },
+  { kind = "bridge", kmFrom = 35.006, kmTo = 35.023, length = 16 },
+  { kind = "bridge", kmFrom = 35.644, kmTo = 35.657, length = 13 },
+  { kind = "bridge", kmFrom = 35.941, kmTo = 35.99, length = 48 },
+  { kind = "bridge", kmFrom = 37.699, kmTo = 37.727, length = 28 },
+  { kind = "bridge", kmFrom = 38.501, kmTo = 38.546, length = 45 },
+  { kind = "bridge", kmFrom = 44.159, kmTo = 44.169, length = 10 },
+  { kind = "bridge", kmFrom = 45.79, kmTo = 45.815, length = 25 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wlzcHsqd}@cM}@" },
+  { line = "{zzcHqsd}@u[U", v = 90 },
+  { line = "qw{cHgtd}@uv@yA_N{CwH_GkFqI}CgJcDoR", v = 130 },
+  { line = "my~cHgmf}@ul@i|DuAwYiGo{DsTmsCk@iQh@i]tT{dHhb@alD", v = 160 },
+  { line = "yn_dHyyg~@v@oNOsQcLkbBmBeLuBkHaXuk@qEqNaBgJ}@qK}@}m@", v = 140 },
+  { line = "khadH{xp~@cAaTqCaNcDsHoGmI_V}TsEgHgDkIoDgQi_@y_Ci@aGMmLtA}RfBmIrUoy@", v = 130 },
+  { line = "qjcdHa|{~@hBsNj@wLEeOg@{I", v = 120 },
+  { line = "igcdHot}~@_ByLaCoKiG}NwLkOwYyY", v = 160 },
+  { line = "e_edH}i`_AWU", v = 140 },
+  { line = "}_edHsj`_AkjAojA", v = 160 },
+  { line = "ikgdHcvb_A}bBycBaDgFwDkJmCqRsBe_DNsOh@uH~@_HzDuNnl@i~A", v = 140 },
+  { line = "}jidHssp_AvZky@fFsUzfDmhT", v = 160 },
+  { line = "a`cdHanh`ArBcTKoSoAsLeBgIwHgR", v = 120 },
+  { line = "glcdHybk`A_DmE", v = 60 },
+  { line = "gqcdHgik`Aw_@wT" },
+]
+posts = [[46, 47.98711, 10.1871], [45, 47.9961, 10.18745], [44, 48.00352, 10.19346], [43, 48.00664, 10.20606], [42, 48.00973, 10.21869], [41, 48.012, 10.23162], [40, 48.01258, 10.24497], [39, 48.01317, 10.25827], [38, 48.01478, 10.27142], [37, 48.01673, 10.28449], [36, 48.01638, 10.29782], [35, 48.01542, 10.31114], [34, 48.01444, 10.32463], [33, 48.01347, 10.33792], [32, 48.01102, 10.35084], [31, 48.00835, 10.36367], [30, 48.00799, 10.37683], [29, 48.00989, 10.38994], [28, 48.01531, 10.4006], [27, 48.01689, 10.41365], [26, 48.022, 10.42382], [25, 48.02721, 10.43426], [24, 48.0304, 10.44683], [23, 48.03136, 10.45973], [22, 48.02708, 10.47152], [21, 48.02859, 10.48428], [20, 48.03565, 10.4924], [19, 48.04309, 10.49985], [18, 48.0502, 10.50698], [17, 48.05768, 10.51449], [16, 48.06497, 10.52234], [14, 48.06698, 10.54868], [15, 48.06672, 10.53521], [13, 48.06519, 10.56151], [12, 48.05996, 10.57248], [11, 48.05471, 10.58343], [9, 48.04792, 10.60825], [10, 48.05103, 10.59564], [8, 48.04481, 10.62086], [7, 48.0417, 10.63347], [6, 48.0386, 10.64608], [5, 48.03549, 10.6587], [4, 48.03239, 10.67131], [3, 48.02926, 10.6839], [2, 48.02616, 10.69649], [1, 48.02638, 10.70912]]
+
+[[connections]]
+km = 0.056
+station = "Buchloe"
+lines = [
+  { id = "5304", ref = "5304", name = "5304 Augsburg Hbf - Buchloe", km = 111.306 },
+  { id = "5340", ref = "5340", name = "Staudenbahn", km = -39.942 },
+  { id = "5362", ref = "5362", name = "5362 Buchloe - Lindau", km = 0.06 },
+  { id = "5520", ref = "5520", name = "5520 München-Pasing - Buchloe", km = 67.992 },
+]
+
+[[connections]]
+km = 8.227
+station = "Türkheim"
+lines = [
+  { id = "5340", ref = "5340", name = "Staudenbahn", km = -48.976 },
+  { id = "5361", ref = "5361", name = "5361 Türkheim (Bay) Bahnhof - Bad Wörishofen", km = 5.345 },
+]
+
+[[connections]]
+km = 46.251
+station = "Memmingen"
+lines = [
+  { id = "5400", ref = "5400", name = "5400 Kempten (Allgäu) Hbf - Neu-Ulm", km = 34.747 },
+]

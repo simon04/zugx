@@ -1,0 +1,44 @@
+id = "6835"
+ref = "6835"
+name = "6835 Delitzsch unt Bf - Delitzsch Gbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q109330001"
+from = "Delitzsch unt Bf"
+to = "Delitzsch Gbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.142
+length = 1.142
+speeds = [[0, 1.142, 40, 40]]
+curves = [[0.1, 0.575, 400]]
+points = [
+  { km = 0, kind = "station", label = "Delitzsch unt Bf", uic = "8023172", pos = [51.52486, 12.34559] },
+  { km = 0.329, kind = "halt", label = "Delitzsch ob Bf", uic = "8023152", pos = [51.51975, 12.3465] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.495, kmTo = 0.513, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "w`nyHymjjAzBo@vDDtCzA~B|CzDnKjO|o@", v = 40 },
+]
+posts = [[0, 51.52284, 12.34669], [1, 51.51695, 12.33764]]
+
+[[connections]]
+km = 0
+station = "Delitzsch unt Bf"
+lines = [
+  { id = "6411", ref = "6411", name = "6411 Trebnitz – Leipzig", km = 60.258 },
+]
+
+[[connections]]
+km = 0.329
+station = "Delitzsch ob Bf"
+lines = [
+  { id = "6411", ref = "6411", name = "6411 Trebnitz – Leipzig", km = 60.896 },
+]

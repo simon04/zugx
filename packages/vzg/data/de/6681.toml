@@ -1,0 +1,72 @@
+id = "6681"
+ref = "6681"
+name = "6681 Weimar Berkaer Bf - Kranichfeld"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q109444780"
+from = "Weimar Berkaer Bf"
+to = "Kranichfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 22.876
+length = 22.876
+speeds = [[0, 0.47, 40, 40], [0.47, 5.038, 50, 50], [5.038, 5.496, 20, 20], [5.496, 6.669, 50, 50], [6.669, 7.078, 40, 40], [7.078, 11.027, 50, 50], [11.027, 11.454, 10, 10], [11.454, 14.303, 50, 50], [14.303, 14.485, 40, 40], [14.485, 14.701, 70, 70], [14.701, 14.942, 30, 30], [14.942, 15.344, 40, 40], [15.344, 17.059, 50, 50], [17.059, 18.163, 20, 20], [18.163, 18.37, "", ""], [18.37, 22.876, 50, 50]]
+curves = [[0.2, 0.6, 690], [0.65, 1, 370], [1.1, 1.225, 1310], [1.275, 1.675, 480], [1.825, 1.875, 2130], [2.625, 3, 540], [3.05, 3.15, 820], [3.35, 3.9, 460], [4.175, 4.6, 1170], [5.225, 5.4, 520], [5.45, 5.6, 390], [5.65, 5.875, 320], [5.925, 6.175, 340], [6.4, 6.65, 440], [6.775, 6.975, 580], [7.025, 7.45, 240], [7.675, 7.725, 1400], [7.8, 8.325, 500], [8.4, 8.5, 1570], [8.55, 8.7, 740], [8.85, 9, 810], [9.15, 9.425, 400], [9.525, 9.8, 350], [9.85, 9.95, 900], [10.05, 10.325, 380], [10.375, 11.05, 220], [11.125, 11.375, 380], [11.425, 11.975, 210], [12.025, 12.9, 400], [13.3, 13.475, 900], [13.575, 13.8, 480], [13.85, 14.225, 310], [14.275, 14.775, 390], [14.825, 15, 630], [15.05, 15.275, 560], [16.4, 16.6, 580], [17.225, 17.45, 500], [17.65, 18, 580], [18.225, 18.525, 360], [18.7, 18.85, 1080], [19.175, 19.725, 840], [20.15, 20.25, 1100], [20.55, 20.65, 1430], [20.75, 20.95, 580], [21.1, 21.55, 890], [21.6, 21.8, 660], [21.85, 21.95, 1870], [22.2, 22.55, 290]]
+points = [
+  { km = 0.043, kind = "station", label = "Weimar Berkaer Bahnhof", pos = [50.98063, 11.31366], uic = "8016020" },
+  { km = 3.696, kind = "stop", label = "Nohra (Weimar)", pos = [50.96926, 11.26728], uic = "8016023" },
+  { km = 5.234, kind = "stop", label = "Obergrunstedt", pos = [50.95563, 11.27077], uic = "8016024" },
+  { km = 7.06, kind = "station", label = "Holzdorf (b Weimar)", pos = [50.94207, 11.27632], uic = "8016025" },
+  { km = 9.151, kind = "stop", label = "Legefeld", pos = [50.92695, 11.28817], uic = "8016026" },
+  { km = 11.331, kind = "stop", label = "Hetschburg", pos = [50.91281, 11.29821], uic = "8016027" },
+  { km = 14.261, kind = "stop", label = "Bad Berka Zeughausplatz", pos = [50.90043, 11.28005], uic = "8061638" },
+  { km = 14.729, kind = "station", label = "Bad Berka", pos = [50.89544, 11.28115], uic = "8016030" },
+  { km = 14.876, kind = "stop", label = "Bad Berka", pos = [50.89531, 11.28102] },
+  { km = 18.285, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 18.295, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 18.42, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 18.441, kind = "stop", label = "München (Bad Berka)", pos = [50.87003, 11.25454], uic = "8016034" },
+  { km = 18.503, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 18.504, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 18.55, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 18.77, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 18.894, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 18.903, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 19.434, kind = "stop", label = "Tannroda", pos = [50.86244, 11.24713], uic = "8016035" },
+  { km = 19.678, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 22.844, kind = "stop", label = "Kranichfeld", pos = [50.85633, 11.2032], uic = "8016036" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 8.415, kmTo = 8.437, length = 22 },
+  { kind = "bridge", kmFrom = 8.59, kmTo = 8.599, length = 10 },
+  { kind = "bridge", kmFrom = 14.485, kmTo = 14.501, length = 15 },
+  { kind = "bridge", kmFrom = 15.023, kmTo = 15.049, length = 26 },
+  { kind = "bridge", kmFrom = 15.489, kmTo = 15.507, length = 18 },
+  { kind = "bridge", kmFrom = 15.548, kmTo = 15.565, length = 17 },
+  { kind = "bridge", kmFrom = 18.163, kmTo = 18.191, length = 27 },
+  { kind = "bridge", kmFrom = 22.265, kmTo = 22.276, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eddvHey`dA\\`XxAfO", v = 40 },
+  { line = "m`dvH{o_dA`AbEpEnKjAjJs@xVaBlTDdGl@bHf\\juA`HdPnBzOjEjTpCtJzCdDtDd@xYkGpHJ~Fu@jYoG", v = 50 },
+  { line = "mr_vHsexcAdNoCbInA", v = 20 },
+  { line = "cy~uHsgxcA~LwB~Bn@vGzE|DNxRwGvBoBtCyF", v = 50 },
+  { line = "e||uHqvxcA~EaLdCcQ", v = 40 },
+  { line = "_q|uHwuycAbCwGtEsBj_@`NnFFjEcBtR{YzHcRlHqY|ByBlLsEtBoChDkRfDeNhAaCfB{AvKuDrAuBzBaIpCqCtBUdBf@zAxAhAtC", v = 50 },
+  { line = "{gwuH{f~cAlFhNdJnD", v = 10 },
+  { line = "guvuHar}cAhCnAlB`Dt@bE@dF_BvGeJnKqDvGuAtEk@zEIbJl@xElA`DnDbD~ZvKhRt@`I|G|BbAnF[zG{G", v = 50 },
+  { line = "yltuHwezcApHiD", v = 40 },
+  { line = "gctuHakzcA|DkCnDN", v = 70 },
+  { line = "ywsuH}nzcAtKfF", v = 30 },
+  { line = "cksuHugzcAfJfArH~G", v = 40 },
+  { line = "gvruHm|ycAht@`w@p^tJ", v = 50 },
+  { line = "kapuHuxwcAnNjEvNxS|D|KrCbV", v = 20 },
+  { line = "qwnuHmyucA`AfJ`AzD" },
+  { line = "msnuHihucAzBlDtNpK|SzVrLxKrBzErBvr@`H`y@Sj[r@tUwCzVi@zp@n@hEdBtDdStQ", v = 50 },
+]
+posts = [[0, 50.98067, 11.31427], [1, 50.97838, 11.30096], [2, 50.97705, 11.28753], [3, 50.97246, 11.27536], [4, 50.96654, 11.2679], [5, 50.95768, 11.27007], [6, 50.949, 11.26975], [7, 50.94198, 11.27682], [8, 50.93424, 11.27737], [9, 50.92758, 11.2862], [10, 50.92184, 11.29598], [11, 50.91483, 11.30142], [12, 50.91148, 11.29212], [13, 50.91115, 11.28229], [14, 50.90257, 11.27884], [15, 50.89422, 11.28066], [16, 50.88649, 11.27376], [17, 50.87834, 11.26829], [18, 50.87154, 11.26023], [19, 50.8657, 11.25052], [20, 50.86083, 11.24003], [21, 50.85924, 11.22609], [22, 50.85994, 11.2121]]

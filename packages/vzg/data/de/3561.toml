@@ -1,0 +1,52 @@
+id = "3561"
+ref = "3561"
+name = "3561 Marnheim - Monsheim"
+operator = "Donnersberg-Touristik-Verband e.V."
+gauge = "1435"
+from = "Marnheim"
+to = "Monsheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.002
+kmTo = 12.895
+length = 12.85
+speeds = [[-0.002, 12.895, "", ""]]
+curves = [[0.098, 0.424, 790], [0.774, 0.924, 1340], [0.974, 1.45, 600], [1.575, 1.775, 1520], [2.126, 2.427, 790], [2.602, 3.028, 700], [4.107, 4.784, 1200], [5.01, 5.185, 1580], [5.562, 5.888, 830], [6.365, 7.017, 730], [7.344, 7.77, 580], [7.921, 8.046, 1500], [8.749, 8.975, 1090], [9.929, 10.105, 1670], [11.335, 11.912, 1280], [12.59, 12.766, 450]]
+points = [
+  { km = -0.002, kind = "station", label = "Marnheim", uic = "8003893", pos = [49.62287, 8.03913] },
+  { km = 0.67, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.069, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 1.279, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 1.653, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.191, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.306, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.557, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.775, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.804, kind = "stop", label = "Albisheim (Pfrimm)", pos = [49.6449, 8.09455], uic = "8070252" },
+  { km = 4.832, kind = "signal", signal = "stop", dir = 1 },
+  { km = 8.048, kind = "signal", signal = "stop", dir = -1 },
+  { km = 8.093, kind = "stop", label = "Harxheim-Zell", pos = [49.64073, 8.13785], uic = "8070253" },
+  { km = 8.125, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.78, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 9.818, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 10.265, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.299, kind = "signal", signal = "stop", dir = 1 },
+  { km = 10.312, kind = "stop", label = "Wachenheim-Mölsheim", pos = [49.63557, 8.16738], uic = "8006126" },
+  { km = 10.6, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 10.854, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 11.702, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 11.755, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.457, kind = "signal", signal = "combined,speed_limit", dir = 1 },
+  { km = 12.757, kind = "signal", signal = "shunting", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 12.333, kmTo = 12.355, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ki{mHmgap@yFqB_HkFsTaZqJ_K}EqKaAiFaDi\\eJei@c@{HCe^eAkMsBeI_d@qrAaCyMaAePQwPR_Y~Dum@NiIiGiz@D}Ql@cG`BwH|Omb@zB}K^oJBeYpDqgAlVk}AdPytBToTc@{LmJkeA@mHv@kH" },
+]
+posts = [[0, 49.62472, 8.03975], [1, 49.6322, 8.04719], [2, 49.63597, 8.05942], [3, 49.63781, 8.07274], [4, 49.6429, 8.08413], [5, 49.64479, 8.0973], [6, 49.64415, 8.11092], [7, 49.64376, 8.1241], [8, 49.64079, 8.13657], [9, 49.63948, 8.15021], [10, 49.6362, 8.16308], [11, 49.63419, 8.17655], [12, 49.63382, 8.19016]]

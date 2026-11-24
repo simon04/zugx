@@ -1,0 +1,40 @@
+id = "3628"
+ref = "3628"
+name = "3628 Frankfurt am Main Stadion"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Frankfurt am Main Stadion"
+to = "Frankfurt am Main Stadion"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.012
+kmTo = 0.757
+length = 0.756
+speeds = [[-0.012, 0.757, 80, 80]]
+curves = [[0.138, 0.626, 520]]
+points = [
+  { km = -0.012, kind = "station", label = "Frankfurt am Main Stadion", uic = "8002040", pos = [50.06821, 8.63305] },
+  { km = 0.545, kind = "signal", label = "64 ZW554", signal = "combined,minor,route,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 0.671, kind = "signal", label = "64 L554Y", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.74, kmTo = 0.757, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "syqpHguts@|CdRrChI`FlGhJ|E", v = 80 },
+]
+posts = [[0, 50.06758, 8.6306]]
+
+[[connections]]
+km = -0.012
+station = "Frankfurt am Main Stadion"
+lines = [
+  { id = "3520", ref = "3520", name = "3520 Mainz Hbf - Frankfurt (Main) Hbf", km = 31.362 },
+  { id = "3650", ref = "3650", name = "3650 Frankfurt am Main Stadion - Frankfurt (Main) Süd", km = 31.467 },
+  { id = "3683", ref = "3683", name = "3683 Abzw Frankfurt am Main Kleyerstraße - Kelsterbach", km = 6.136 },
+  { id = "4010", ref = "4010", name = "4010 Mannheim Hbf - Frankfurt am Main Stadion", km = 74.738 },
+]

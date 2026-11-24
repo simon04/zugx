@@ -1,0 +1,30 @@
+id = "6090"
+ref = "6090"
+name = "6090 Abzw Bergfelde Ost - Streckenwechsel 6088/6090"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131720446"
+from = "Bergfelde Ost"
+to = "Hohen Neuendorf Strw 6088/6090/6092"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.051
+kmTo = 3.092
+length = 3.021
+speeds = [[0.051, 2, 100, 100], [2, 3.092, "", ""]]
+curves = [[0.151, 1.723, 590], [2.093, 2.971, 580]]
+points = [
+  { km = 1.791, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.543, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.785, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 3.007, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wkm`IecbpA`EUhEcBrDoDtCqFlBcH`AeIPwIWuIwCoQcCiG_D{EmHiF{QiE", v = 100 },
+  { line = "}ym`IclepAyGsAmFAeFvAuEjDwDxF}CvI{AhJm@rL" },
+]
+posts = [[1, 52.66187, 13.29615], [2, 52.66863, 13.30386], [3, 52.67575, 13.29738]]

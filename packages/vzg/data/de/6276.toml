@@ -1,0 +1,58 @@
+id = "6276"
+ref = "6276"
+name = "6276 Gera-Tinz–Gera Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q121434290"
+from = "Gera-Tinz"
+to = "Gera Hauptbahnhof"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 70.605
+kmTo = 73.167
+length = 2.568
+speeds = [[70.605, 71.534, 80, 80], [71.534, 71.677, "", ""], [71.677, 71.873, 60, 60], [71.873, 72.688, "", ""], [72.688, 72.853, 60, 60], [72.853, 73.167, 80, 80]]
+curves = [[70.955, 71.055, 1960], [71.702, 71.751, 1610], [72.049, 72.524, 550], [72.574, 72.624, 1870], [72.699, 72.799, 1710], [72.924, 73.049, 1080]]
+points = [
+  { km = 70.984, kind = "signal", label = "35 P22", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 71.48, kind = "signal", label = "35 ZR22", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 71.873, kind = "signal", label = "35 ZW10", signal = "combined,minor,route,speed_limit,traversable", dir = -1 },
+  { km = 72.095, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 72.341, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 72.518, kind = "signal", label = "35 ZS10", signal = "combined,minor,speed_limit,traversable", dir = 1 },
+  { km = 72.78, kind = "signal", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 72.783, kind = "signal", signal = "stop", dir = -1 },
+  { km = 72.786, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 72.8, kind = "signal", signal = "stop", dir = -1 },
+  { km = 72.853, kind = "station", label = "Gera Hauptbahnhof", uic = "8010125", pos = [50.88332, 12.07724], ele = 192 },
+  { km = 72.86, kind = "signal", signal = "stop", dir = 1 },
+  { km = 72.9, kind = "signal", signal = "stop", dir = 1 },
+  { km = 72.944, kind = "signal", signal = "stop", dir = 1 },
+  { km = 72.945, kind = "signal", signal = "main_repeated" },
+  { km = 72.95, kind = "signal", label = "35 N03", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 73.009, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 71.168, kmTo = 71.188, length = 21 },
+  { kind = "bridge", kmFrom = 72.95, kmTo = 72.967, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yqtuHgnshAvPaUrWcY", v = 80 },
+  { line = "mgsuHm~thA|E_F" },
+  { line = "o`suHmeuhAdH_I", v = 60 },
+  { line = "iwruHmouhAbJeKlGaD~GW~L~B" },
+  { line = "wlquHm}uhA`H`B", v = 60 },
+  { line = "ucquHkzuhAtFdB|GzD", v = 80 },
+]
+posts = [[71, 50.89813, 12.06863], [72, 50.89063, 12.07664], [73, 50.88203, 12.0768]]
+
+[[connections]]
+km = 72.853
+station = "Gera Hauptbahnhof"
+lines = [
+  { id = "6383", ref = "6383", name = "Leipzig-Probstzella", km = 72.904 },
+]

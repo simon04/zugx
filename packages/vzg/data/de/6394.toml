@@ -1,0 +1,48 @@
+id = "6394"
+ref = "6394"
+name = "6394 Abzw Halle-Planena - Halle-Ammendorf"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q109339990"
+from = "Halle-Planena"
+to = "Halle-Ammendorf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.571
+length = 3.593
+speeds = [[0, 3.062, 160, 160], [3.062, 3.571, 130, 130]]
+curves = [[0.192, 0.267, 2780], [0.573, 2.546, 1330]]
+points = [
+  { km = 0.449, kind = "signal", label = "69 202", signal = "train_protection", dir = -1 },
+  { km = 0.867, kind = "signal", label = "69 103", signal = "train_protection", dir = -1 },
+  { km = 1.719, kind = "signal", label = "69 105", signal = "train_protection", dir = 1 },
+  { km = 1.798, kind = "signal", label = "69 204", signal = "train_protection", dir = -1 },
+  { km = 2.702, kind = "station", label = "Halle-Ammendorf", pos = [51.42415, 11.98789] },
+  { km = 3.062, kind = "signal", label = "94 F", signal = "main,route,speed_limit,train_protection,traversable,wrong_road", dir = 1 },
+  { km = 3.203, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.203, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.218, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 3.219, kind = "signal", signal = "electricity", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0, kmTo = 2.585, length = 2601, name = "Saale-Elster-Talbrücke" },
+  { kind = "bridge", kmFrom = 2.755, kmTo = 2.802, length = 40 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_j|xHukdhAp[V", v = 130 },
+  { line = "mm{xH}jdhAt`@e@bMtAbPvH~FlFhG`IrElIxDvJbDvLpB`LrBnTtChx@", v = 160 },
+]
+posts = [[3, 51.42703, 11.98784], [2, 51.41839, 11.98686], [1, 51.41142, 11.97623], [0, 51.40988, 11.96278]]
+
+[[connections]]
+km = 2.702
+station = "Halle-Ammendorf"
+lines = [
+  { id = "6340", ref = "6340", name = "6340 Halle (Saale) Hbf - Baunatal-Guntershausen", km = 5.959 },
+  { id = "strassenbahnnetz-halle", name = "Straßenbahnnetz Halle", km = 10.928 },
+]

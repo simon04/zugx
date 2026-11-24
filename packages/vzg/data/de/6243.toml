@@ -1,0 +1,42 @@
+id = "6243"
+ref = "6243"
+name = "6243 Dresden Freiberger Straße - Dresden-Altstadt"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131694080"
+from = "Dresden Freiberger Straße"
+to = "Dresden-Altstadt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.598
+length = 0.598
+speeds = [[0, 0.598, 40, 40]]
+curves = [[0.1, 0.475, 380]]
+points = [
+  { km = 0, kind = "halt", label = "Dresden Freiberger Straße", uic = "8073449", pos = [51.04809, 13.71983] },
+  { km = 0.132, kind = "signal", label = "30L565X", signal = "minor", dir = -1 },
+  { km = 0.208, kind = "signal", label = "30ZT565", signal = "combined,minor,route,speed_limit", dir = -1 },
+  { km = 0.312, kind = "signal", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.097, kmTo = 0.114, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{gqvHkrvrApGc@bE~A`DnExFlM", v = 40 },
+]
+posts = [[0, 51.04782, 13.71958]]
+
+[[connections]]
+km = 0
+station = "Dresden Freiberger Straße"
+lines = [
+  { id = "6200", ref = "6200", name = "6200 Kamenz (Sachs) - Pirna", km = 48.436 },
+  { id = "6216", ref = "6216", name = "6216 Bautzen - Bad Schandau", km = 30.2 },
+  { id = "6240", ref = "6240", name = "6240 Bad Schandau Grenze - Dresden Hbf", km = 63.747 },
+  { id = "6241", ref = "6241", name = "Dresden Hbf - Dresden-Neustadt", km = 63.751 },
+]

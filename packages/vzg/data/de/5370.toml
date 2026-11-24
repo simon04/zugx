@@ -1,0 +1,171 @@
+id = "5370"
+ref = "5370"
+name = "5370 Mering - Weilheim (Oberbay)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q219527"
+from = "Mering"
+to = "Weilheim (Oberbay)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.203
+kmTo = 54.761
+length = 54.93
+speeds = [[-0.203, -0.103, 80, 80], [-0.103, 1.394, 60, 60], [1.394, 2.059, 90, 90], [2.059, 10.066, 100, 100], [10.066, 15.407, 110, 110], [15.407, 17.497, 120, 120], [17.497, 19.897, 100, 100], [19.897, 20.739, 70, 70], [20.739, 23.91, 60, 60], [23.91, 26.926, 80, 80], [26.926, 27.291, 70, 70], [27.291, 31.341, 80, 80], [31.341, 34.694, 110, 110], [34.694, 40.584, 120, 120], [40.584, 42.543, 90, 90], [42.543, 50.547, 120, 120], [50.547, 52.552, 100, 100], [52.552, 53.881, 90, 90], [53.881, 54.761, 60, 60]]
+curves = [[-0.103, -0.053, 1770], [0.322, 0.726, 350], [0.844, 1.251, 350], [1.379, 1.973, 520], [2.91, 3.2, 710], [3.682, 3.928, 1240], [4.154, 4.481, 650], [4.682, 4.908, 800], [5.285, 5.863, 1080], [6.039, 6.365, 1030], [6.516, 6.893, 600], [8.024, 8.174, 1620], [8.35, 8.828, 620], [9.431, 10.159, 560], [10.838, 11.315, 1090], [11.667, 12.396, 630], [13.351, 13.696, 710], [14.586, 14.894, 840], [15.303, 15.467, 1200], [16.135, 16.316, 1600], [16.861, 16.915, 2810], [17.466, 17.87, 670], [18.174, 18.407, 1060], [18.483, 18.765, 890], [18.98, 19.687, 740], [19.896, 20.621, 310], [20.699, 21.018, 590], [21.084, 21.127, 2410], [21.654, 22.406, 350], [22.895, 23.128, 780], [23.277, 23.532, 510], [23.581, 23.951, 400], [24.025, 24.247, 840], [25.012, 25.135, 1640], [25.456, 25.776, 510], [25.826, 26.196, 760], [26.319, 26.541, 810], [26.862, 27.33, 330], [27.774, 28.909, 490], [29.008, 29.18, 1040], [29.279, 29.526, 780], [30.119, 30.394, 1340], [30.469, 30.694, 890], [30.794, 30.969, 890], [31.219, 31.394, 990], [32.494, 32.644, 1080], [32.869, 33.143, 1380], [33.518, 33.718, 1620], [34.068, 34.318, 910], [34.493, 34.768, 1080], [37.742, 37.987, 930], [38.695, 38.843, 1660], [39.24, 39.497, 1350], [39.822, 40.496, 890], [40.571, 41.094, 540], [41.568, 42.141, 450], [42.216, 42.79, 950], [43.313, 43.986, 1300], [44.136, 44.984, 1220], [45.981, 46.206, 1250], [49.531, 49.656, 1940], [50.506, 50.956, 560], [51.731, 52.131, 610], [52.206, 52.731, 550], [52.806, 53.106, 940], [53.306, 53.581, 680], [54.056, 54.106, 2580]]
+points = [
+  { km = -0.111, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0, kind = "station", label = "Mering", uic = "8003982", pos = [48.26262, 10.98824], measured = true },
+  { km = 0.017, kind = "signal", label = "14N5", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 0.033, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.215, kind = "signal", label = "14WVp5", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.427, kind = "signal", label = "14P5", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 0.493, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.555, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.622, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.768, kind = "signal", label = "14C", signal = "combined,speed_limit", dir = 1 },
+  { km = 1.394, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.394, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.907, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.059, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.496, kind = "stop", label = "Merching", pos = [48.24587, 10.97949] },
+  { km = 6.239, kind = "stop", label = "Schmiechen", pos = [48.21326, 10.97788] },
+  { km = 6.253, kind = "halt", label = "Schmiechen (Schwab)", pos = [48.21313, 10.9779] },
+  { km = 8.852, kind = "stop", label = "Egling, Gleis 2", pos = [48.19085, 10.97634] },
+  { km = 8.852, kind = "station", label = "Egling", uic = "8001683", pos = [48.19083, 10.97637] },
+  { km = 13.404, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 13.628, kind = "signal", label = "P2", signal = "main", dir = -1 },
+  { km = 13.636, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.98, kind = "station", label = "Walleshausen", pos = [48.15023, 10.98105], uic = "8006184" },
+  { km = 14.388, kind = "signal", label = "N2", signal = "main", dir = 1 },
+  { km = 14.604, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 14.867, kind = "signal", label = "F", signal = "main", dir = -1 },
+  { km = 14.868, kind = "signal", signal = "distant", dir = -1 },
+  { km = 16.805, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 17.496, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.497, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.996, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.671, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 19.897, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.897, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 20.301, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 20.363, kind = "signal", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 20.646, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 20.808, kind = "signal", label = "85L W38Y", signal = "minor", dir = 1 },
+  { km = 21.05, kind = "signal", label = "85L 504X", signal = "minor", dir = -1 },
+  { km = 21.114, kind = "signal", label = "85 N4", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 21.248, kind = "station", label = "Geltendorf", uic = "8000119", pos = [48.10604, 11.03737] },
+  { km = 21.511, kind = "signal", label = "85 P4", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 21.54, kind = "signal", label = "85L 304Y", signal = "minor", dir = 1 },
+  { km = 21.663, kind = "signal", signal = "route", dir = 1 },
+  { km = 21.679, kind = "signal", signal = "minor", dir = -1 },
+  { km = 21.893, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 22.402, kind = "signal", label = "85 A", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 22.998, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 23.118, kind = "stop", label = "Sankt Ottilien", pos = [48.0946, 11.04831] },
+  { km = 23.91, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 26.229, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 26.926, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 27.291, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.403, kind = "signal", signal = "distant", dir = 1 },
+  { km = 29.117, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 29.675, kind = "signal", signal = "main", dir = -1 },
+  { km = 29.795, kind = "station", label = "Schondorf", uic = "8005417", pos = [48.05266, 11.08994] },
+  { km = 29.898, kind = "signal", signal = "main", dir = 1 },
+  { km = 30.423, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 31.111, kind = "signal", signal = "distant", dir = -1 },
+  { km = 31.96, kind = "signal", signal = "distant", dir = 1 },
+  { km = 32.64, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 33.088, kind = "signal", label = "C", signal = "main", dir = -1 },
+  { km = 33.208, kind = "station", label = "Utting", uic = "8006048", pos = [48.02249, 11.09388] },
+  { km = 33.612, kind = "signal", signal = "main", dir = 1 },
+  { km = 34.212, kind = "signal", label = "F", signal = "distant,main", dir = -1 },
+  { km = 34.893, kind = "signal", signal = "distant", dir = -1 },
+  { km = 37.656, kind = "halt", label = "Riederau", uic = "8005086", pos = [47.98274, 11.09704] },
+  { km = 39.834, kind = "stop", label = "Sankt Alban", pos = [47.96409, 11.10536], uic = "8005639" },
+  { km = 41.368, kind = "station", label = "Dießen", uic = "8002163", pos = [47.95104, 11.10729] },
+  { km = 45.981, kind = "halt", label = "Raisting", uic = "8004925", pos = [47.91168, 11.11447] },
+  { km = 53.697, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 54.114, kind = "signal", signal = "minor", dir = 1 },
+  { km = 54.357, kind = "signal", label = "96 P4", signal = "main,minor,route,speed_limit,traversable", dir = -1 },
+  { km = 54.579, kind = "station", label = "Weilheim (Oberbayern)", pos = [47.84522, 11.14303], uic = "8000220" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.467, kmTo = 0.482, length = 17 },
+  { kind = "bridge", kmFrom = 0.653, kmTo = 0.677, length = 27 },
+  { kind = "bridge", kmFrom = 1.087, kmTo = 1.119, length = 31 },
+  { kind = "bridge", kmFrom = 3.283, kmTo = 3.31, length = 29 },
+  { kind = "bridge", kmFrom = 4.762, kmTo = 4.773, length = 11 },
+  { kind = "bridge", kmFrom = 6.187, kmTo = 6.207, length = 19 },
+  { kind = "bridge", kmFrom = 7.547, kmTo = 7.564, length = 16 },
+  { kind = "bridge", kmFrom = 9.98, kmTo = 9.994, length = 13 },
+  { kind = "bridge", kmFrom = 10.052, kmTo = 10.066, length = 14 },
+  { kind = "bridge", kmFrom = 10.162, kmTo = 10.177, length = 15 },
+  { kind = "bridge", kmFrom = 10.291, kmTo = 10.309, length = 18 },
+  { kind = "bridge", kmFrom = 19.003, kmTo = 19.017, length = 15 },
+  { kind = "bridge", kmFrom = 28.038, kmTo = 28.105, length = 68 },
+  { kind = "bridge", kmFrom = 32.585, kmTo = 32.617, length = 32 },
+  { kind = "bridge", kmFrom = 32.903, kmTo = 32.916, length = 13 },
+  { kind = "bridge", kmFrom = 32.983, kmTo = 32.996, length = 13 },
+  { kind = "bridge", kmFrom = 39.21, kmTo = 39.222, length = 11 },
+  { kind = "bridge", kmFrom = 41.579, kmTo = 41.601, length = 21 },
+  { kind = "bridge", kmFrom = 41.93, kmTo = 41.95, length = 21 },
+  { kind = "bridge", kmFrom = 44.82, kmTo = 44.834, length = 14 },
+  { kind = "bridge", kmFrom = 45.042, kmTo = 45.072, length = 29 },
+  { kind = "bridge", kmFrom = 46.011, kmTo = 46.03, length = 19 },
+  { kind = "bridge", kmFrom = 49.601, kmTo = 49.615, length = 14 },
+  { kind = "bridge", kmFrom = 49.811, kmTo = 49.857, length = 46 },
+  { kind = "bridge", kmFrom = 51.09, kmTo = 51.109, length = 19 },
+  { kind = "bridge", kmFrom = 52.487, kmTo = 52.497, length = 10 },
+  { kind = "bridge", kmFrom = 54.035, kmTo = 54.062, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "arqeHys`bA~B{D", v = 80 },
+  { line = "anqeHuy`bArQ__@`EoDvDe@vOhFxC`DhCdInBzP", v = 60 },
+  { line = "groeH}w`bAbChLpDbH|EbE|IbD", v = 90 },
+  { line = "uvneHgv_bArl@dRdIhAvg@qItW{M|Es@~PfAzDz@pXhRrKpDrEh@pSaArEy@fSwMdHuBffAlIvVNrEzAfFrEt\\fj@nFrGxCbBjE|@fJ}@", v = 100 },
+  { line = "upaeHkh}aAjf@wUzHgFrH}I`Ukb@zFoFnCoArG_AdEPjy@lQbFTzDc@bq@sU|DuBdG_GnZsb@", v = 110 },
+  { line = "maydHatabAn`@k]jb@cUv]sT", v = 120 },
+  { line = "y}udHe~cbAtFyFdDyHpJg^pFu^xM{[tEgG`IgFxHsAhOX", v = 100 },
+  { line = "cdsdH}|gbAxEGzCqAjCaD`B_Fh@_GEqEeDiR", v = 70 },
+  { line = "aurdHumibAm@sEImG|Ck~@lAmKnDiHtB}AnCq@nm@eA`QkIzORnCqAtCoD", v = 60 },
+  { line = "cgodHkjmbAdJuOrl@{c@jU}TtEcA~Hh@jG[jFkBfKsGbDqDnPoX", v = 80 },
+  { line = "stjdHsbqbA~A}Dp@yEBuGs@kF", v = 70 },
+  { line = "qqjdHm_rbAcLuh@u@sILkHl@{EpCwHjDcEbJmDlFm@jSrD|OAhk@{TtRgCjO{HbW_D", v = 80 },
+  { line = "etedHe~ubAtbA`FbXwAnf@lErYeAdUeJpDm@", v = 110 },
+  { line = "oy_dHgbvbAlmDqIrE{@xl@kU~^uIdYkPpFgBfLYzG|A~G`D", v = 120 },
+  { line = "wuucHe}wbAnGtBvI_@fEwBb[aXjH{BtCDjEtAzL`LbCnA`Hr@", v = 90 },
+  { line = "sprcHcgxbAtHi@rc@gLnI{@|Lb@n[zHfHLhIs@~NqFjs@ac@|GiGfwCgfD~g@mv@", v = 120 },
+  { line = "gkfcHk`acA|FgFlHgBhs@e@bIzBlP`NhItA", v = 100 },
+  { line = "u_ccHmv`cA~Eo@`NaEjV~@jHvC|NhM", v = 90 },
+  { line = "}x`cH}h`cAxh@jf@", v = 60 },
+]
+posts = [[0, 48.26291, 10.98772], [1, 48.25535, 10.99107], [2, 48.25029, 10.98132], [3, 48.24145, 10.97765], [4, 48.23243, 10.98023], [5, 48.22387, 10.98021], [6, 48.21536, 10.97728], [7, 48.20686, 10.9804], [8, 48.19796, 10.97899], [9, 48.18991, 10.97495], [10, 48.18261, 10.96832], [11, 48.17429, 10.97321], [12, 48.16765, 10.98205], [13, 48.15889, 10.98073], [14, 48.15005, 10.98114], [15, 48.14189, 10.9867], [16, 48.13482, 10.99436], [17, 48.12673, 10.99991], [18, 48.11995, 11.00737], [19, 48.11569, 11.01942], [20, 48.10752, 11.02303], [21, 48.10619, 11.03368], [22, 48.10407, 11.04693], [23, 48.09522, 11.048], [24, 48.08779, 11.0517], [25, 48.08003, 11.05872], [26, 48.07177, 11.06311], [27, 48.06448, 11.07081], [28, 48.06679, 11.08354], [29, 48.05971, 11.08864], [30, 48.05089, 11.09086], [31, 48.04226, 11.09432], [32, 48.03331, 11.09428], [33, 48.02434, 11.09422], [34, 48.01539, 11.09334], [35, 48.00662, 11.09575], [36, 47.99763, 11.09628], [37, 47.98864, 11.0968], [38, 47.97965, 11.09789], [39, 47.97108, 11.10178], [40, 47.96268, 11.10609], [41, 47.95392, 11.10485], [42, 47.9458, 11.10938], [43, 47.93734, 11.10768], [44, 47.92849, 11.10849], [45, 47.91971, 11.10893], [46, 47.91152, 11.11456], [47, 47.9042, 11.12234], [48, 47.89696, 11.13028], [49, 47.88971, 11.13822], [50, 47.88272, 11.14664], [51, 47.87529, 11.1533], [52, 47.86635, 11.15286], [53, 47.85795, 11.15123], [54, 47.84964, 11.14701]]
+
+[[connections]]
+km = 0
+station = "Mering"
+lines = [
+  { id = "5304", ref = "5304", name = "5304 Augsburg Hbf - Buchloe", km = 46.1 },
+  { id = "5503", ref = "5503", name = "5503 München - Augsburg", km = 46.086 },
+  { id = "5581", ref = "5581", name = "5581 Olching - Augsburg Hbf", km = 46.1 },
+]
+
+[[connections]]
+km = 21.248
+station = "Geltendorf"
+lines = [
+  { id = "5520", ref = "5520", name = "5520 München-Pasing - Buchloe", km = 42.156 },
+]
+
+[[connections]]
+km = 54.579
+station = "Weilheim"
+lines = [
+  { id = "5450", ref = "5450", name = "5450 Weilheim (Oberbay) - Peißenberg", km = 0.373 },
+  { id = "5504", ref = "5504", name = "5504 München Hbf - Mittenwald Grenze", km = 53.401 },
+]

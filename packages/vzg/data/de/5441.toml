@@ -1,0 +1,64 @@
+id = "5441"
+ref = "5441"
+operator = "DB"
+gauge = "1435"
+wikidata = "Q794669"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 30.457
+length = 30.457
+speeds = [[0, 1.401, 60, 60], [1.401, 3.476, 80, 80], [3.476, 4.337, 60, 60], [4.337, 4.875, 50, 50], [4.875, 6.818, 60, 60], [6.818, 10.489, 80, 80], [10.489, 10.691, 60, 60], [10.691, 12.083, 40, 40], [12.083, 14.702, 60, 60], [14.702, 16.12, 80, 80], [16.12, 20.674, 60, 60], [20.674, 21.846, 50, 50], [21.846, 22.996, 40, 40], [22.996, 23.01, 30, 30], [23.01, 25.76, 60, 60], [25.76, 27.522, 80, 80], [27.522, 30.104, 60, 60], [30.104, 30.457, "", ""]]
+curves = [[0.1, 0.65, 520], [0.75, 1.225, 590], [2.725, 3.075, 630], [3.35, 3.8, 540], [3.85, 4.05, 360], [4.15, 4.425, 330], [4.475, 4.925, 280], [5.35, 5.8, 670], [5.875, 6.125, 580], [6.175, 6.825, 370], [6.875, 7.1, 480], [7.15, 7.25, 1080], [7.625, 8, 410], [8.9, 9.125, 720], [9.775, 10.1, 500], [10.15, 10.5, 430], [10.725, 11.075, 1720], [11.15, 11.55, 690], [11.6, 12.075, 390], [13.05, 13.125, 2440], [13.2, 13.35, 1120], [13.4, 13.95, 310], [14, 14.275, 440], [14.475, 14.75, 930], [15.275, 15.675, 660], [15.825, 16.075, 580], [16.475, 16.725, 900], [17.175, 17.525, 400], [17.575, 17.8, 640], [18.875, 19.1, 740], [19.15, 19.725, 400], [20.325, 20.65, 1140], [20.7, 21.25, 340], [21.6, 22.325, 580], [22.425, 22.7, 980], [22.775, 23.325, 550], [23.5, 23.625, 1680], [24.025, 24.375, 1050], [24.975, 25.1, 1320], [25.175, 25.55, 520], [25.6, 25.725, 980], [27.175, 27.5, 640], [28.3, 28.45, 1320], [29.5, 29.55, 2070], [30, 30.2, 860]]
+points = [
+  { km = 0, kind = "station", label = "Marktoberdorf", uic = "8003885", pos = [47.77908, 10.61424] },
+  { km = 0.532, kind = "stop", label = "Marktoberdorf Schule", pos = [47.77409, 10.60984] },
+  { km = 4.591, kind = "stop", label = "Leuterschach", pos = [47.74571, 10.58121], uic = "8003663" },
+  { km = 11.285, kind = "station", label = "Lengenwang", pos = [47.69721, 10.60131], uic = "8003639" },
+  { km = 16.447, kind = "stop", label = "Seeg", pos = [47.65592, 10.61369], uic = "8005505" },
+  { km = 22.034, kind = "station", label = "Weizern-Hopferau", pos = [47.61456, 10.62047], uic = "8006309" },
+  { km = 30.17, kind = "signal", label = "P2", signal = "main,traversable", dir = -1 },
+  { km = 30.373, kind = "station", label = "Füssen", pos = [47.57073, 10.69673], uic = "8002156" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.073, kmTo = 0.089, length = 16 },
+  { kind = "bridge", kmFrom = 0.367, kmTo = 0.423, length = 56 },
+  { kind = "bridge", kmFrom = 4.65, kmTo = 4.714, length = 64 },
+  { kind = "bridge", kmFrom = 5.31, kmTo = 5.337, length = 27 },
+  { kind = "bridge", kmFrom = 7.646, kmTo = 7.673, length = 27 },
+  { kind = "bridge", kmFrom = 7.819, kmTo = 7.835, length = 16 },
+  { kind = "bridge", kmFrom = 9.454, kmTo = 9.486, length = 32 },
+  { kind = "bridge", kmFrom = 27.505, kmTo = 27.522, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "arrbHe`x_AxIzDdFjGbDhJbCzWrBzIbEpHfKpJ", v = 60 },
+  { line = "y`qbHwmu_AdcAf}@|IjCdX|@", v = 80 },
+  { line = "oxmbHeis_A`E`BnCbC|I~MzMfEvC|D", v = 60 },
+  { line = "kolbHyfr_AfCzOtBzD|AdBlBf@hDw@", v = 50 },
+  { line = "w{kbHkmq_ApZyQnH}HhBiEvGkUlI}LfAaFzAoRtAaE`DiE", v = 60 },
+  { line = "isibHu{t_AvFkHtEoQhMs^tDqEjGuAnt@kEtFd@|i@bRnExFzDhLdBvCnCpBlDz@", v = 80 },
+  { line = "{fdbHesu_AbJ|A", v = 60 },
+  { line = "w{cbHgpu_AnKv@vP_AhIuDjJyKhEmCjF_@tFfB", v = 40 },
+  { line = "mrabHeev_A`s@v\\hJhDjHrElEz@rDm@dEyDtAiDlCgLnCsEzOeL~GqC", v = 60 },
+  { line = "}q}aHykv_Ata@}G~DwAbFqEbMeRzHyD", v = 80 },
+  { line = "cj{aHaww_ArYyIf`@b@|Dj@bEfD`GlLzB~Bx|@vi@lCpCfH`LbBbB~DvArD_@xCgCz\\ki@pLeK", v = 60 },
+  { line = "wktaHgbw_ApDeCjAkB~BuNnBeE|Y_Q~BsBnBsD", v = 50 },
+  { line = "{yraH}zx_ArA}ErA}KPeLkAmXeEsTo@sJ", v = 40 },
+  { line = "c~raHuv{_AAe@", v = 30 },
+  { line = "e~raH{w{_ATaJl@{ErH}VrKae@dDuJhb@ef@pK_OpE{BfPmC", v = 60 },
+  { line = "}xoaH_s``AfpAw_@zDeCvDwG", v = 80 },
+  { line = "a|laHu`b`At^qw@l_@{nAtQuf@", v = 60 },
+  { line = "gijaHypg`AdFkZ" },
+]
+posts = [[0, 47.77777, 10.61395], [1, 47.77274, 10.60397], [2, 47.7653, 10.59654], [3, 47.75747, 10.59015], [4, 47.74935, 10.58598], [5, 47.74246, 10.58091], [6, 47.73577, 10.5891], [7, 47.73063, 10.5994], [8, 47.72493, 10.60888], [9, 47.71597, 10.60988], [10, 47.70751, 10.60567], [11, 47.69975, 10.6009], [12, 47.6915, 10.60488], [13, 47.6831, 10.60011], [14, 47.67542, 10.60072], [15, 47.66759, 10.60626], [16, 47.65977, 10.61199], [17, 47.651, 10.61414], [18, 47.64318, 10.60872], [19, 47.63506, 10.60302], [20, 47.62788, 10.60361], [21, 47.62139, 10.61229], [22, 47.6146, 10.62008], [23, 47.61587, 10.63297], [24, 47.61226, 10.64501], [25, 47.60568, 10.65383], [26, 47.59759, 10.65875], [27, 47.58891, 10.66225], [28, 47.58204, 10.67011], [29, 47.57698, 10.68109], [30, 47.57207, 10.69225]]
+
+[[connections]]
+km = 0
+station = "Marktoberdorf"
+lines = [
+  { id = "5440", ref = "5440", name = "Biessenhofen - Marktoberdorf", km = 0.147 },
+]

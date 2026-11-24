@@ -1,0 +1,40 @@
+id = "2732"
+ref = "2732"
+name = "2732 Gruiten"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Gruiten"
+to = "Gruiten"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.897
+length = 0.897
+speeds = [[0, 0.897, 60, 60]]
+curves = [[0.1, 0.775, 830]]
+points = [
+  { km = 0.073, kind = "signal", label = "76P5", signal = "combined", dir = -1 },
+  { km = 0.361, kind = "signal", label = "76VWp5", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.659, kind = "station", label = "Haan-Gruiten", uic = "8000138", pos = [51.21457, 7.01036] },
+  { km = 0.697, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.776, kind = "signal", label = "76 ZR5", signal = "combined,minor,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 0.82, kind = "signal", signal = "minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_hqwHgxvi@oGeLmD{LmCcYG{P", v = 60 },
+]
+posts = [[0, 51.21168, 7.00308]]
+
+[[connections]]
+km = 0.659
+station = "Haan-Gruiten"
+lines = [
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 26.9 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 104.183 },
+  { id = "2730", ref = "2730", name = "2730 Gruiten - Köln Neurather Ring Strw 2652/2659/2730", km = -0.029 },
+  { id = "2731", ref = "2731", name = "2731 Gruiten - Abzw Wuppertal Linden", km = 108.034 },
+]

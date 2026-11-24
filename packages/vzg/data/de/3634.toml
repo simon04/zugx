@@ -1,0 +1,37 @@
+id = "3634"
+ref = "3634"
+name = "3634 Frankfurt (Main) West"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Frankfurt (Main) West"
+to = "Frankfurt (Main) West"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.044
+length = 1.044
+speeds = [[0, 1.044, "", ""]]
+curves = [[0.1, 0.525, 500]]
+points = [
+  { km = 0.121, kind = "signal", label = "N 006", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.37, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.825, kind = "station", label = "Frankfurt (Main) West", uic = "8002042", pos = [50.11941, 8.63894] },
+  { km = 0.883, kind = "signal", label = "P 006", signal = "distant,main,minor,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{b}pHkeus@pCZxD]hHaElDeF|Smb@" },
+]
+posts = [[0, 50.12542, 8.63334], [1, 50.11828, 8.64065]]
+
+[[connections]]
+km = 0.825
+station = "Frankfurt West"
+lines = [
+  { id = "3611", ref = "3611", name = "3611 Frankfurt (Main) Hbf (tief) - Friedberg (Hess)", km = 3.397 },
+  { id = "3684", ref = "3684", name = "3684 Frankfurt (Main) West - Bad Vilbel", km = 0.471 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 196.346 },
+]

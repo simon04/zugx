@@ -1,0 +1,52 @@
+id = "6275"
+ref = "6275"
+name = "6275 Zwickau (Sachs) Hbf - Abzw Lichtentanne (Sachs)"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131632529"
+from = "Zwickau (Sachs) Hbf"
+to = "Lichtentanne (Sachs)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.595
+length = 4.595
+speeds = [[0, 4.595, "", ""]]
+curves = [[0.1, 0.2, 1310], [0.775, 0.875, 1450], [0.925, 1.2, 840], [1.75, 1.8, 2420], [1.85, 2.075, 1180], [2.225, 2.575, 1660], [3.45, 3.5, 2460], [3.65, 3.875, 850], [4.275, 4.475, 590]]
+points = [
+  { km = 0, kind = "halt", label = "Lichtentanne (Sachs)", uic = "8006646", pos = [50.69942, 12.42016] },
+  { km = 0.67, kind = "signal", label = "Y", signal = "main", dir = 1 },
+  { km = 0.921, kind = "signal", label = "Hs299", signal = "minor", dir = 1 },
+  { km = 1.14, kind = "signal", label = "V303", signal = "main,traversable", dir = -1 },
+  { km = 1.748, kind = "signal", label = "Z303", signal = "main,traversable", dir = 1 },
+  { km = 4.127, kind = "station", label = "Zwickau (Sachsen) Hauptbahnhof", uic = "8006640", ele = 288, pos = [50.71485, 12.47578] },
+  { km = 4.33, kind = "signal", label = "KN1", signal = "main,minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.808, kmTo = 2.842, length = 34 },
+  { kind = "bridge", kmFrom = 4.527, kmTo = 4.563, length = 36 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{imtHagyjAoCeKe^gdAwOy_AoMqf@cAoGgM{rAkDkXkPwg@{IyJ" },
+]
+posts = [[0, 50.69998, 12.42241], [1, 50.70504, 12.43412], [2, 50.70874, 12.447], [3, 50.71214, 12.46002], [4, 50.71511, 12.47331]]
+
+[[connections]]
+km = 0
+station = "Lichtentanne"
+lines = [
+  { id = "6258", ref = "6258", name = "6258 Dresden - Abzweig Werdau Bogendreieck", km = 132.693 },
+]
+
+[[connections]]
+km = 4.127
+station = "Zwickau Hauptbahnhof"
+lines = [
+  { id = "6258", ref = "6258", name = "6258 Dresden - Abzweig Werdau Bogendreieck", km = 128.404 },
+  { id = "6264", ref = "6264", name = "6264 Schwarzenberg (Erzgeb) - Zwickau (Sachs) Hbf", km = 38.074 },
+  { id = "6650", ref = "6650", name = "6650 Zwickau (Sachs) Hbf - Falkenstein (Vogtl)", km = -2.024 },
+]

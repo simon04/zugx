@@ -1,0 +1,70 @@
+id = "4030"
+ref = "4030"
+name = "4030 Mannheim Hbf - Mannheim Hgbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Mannheim Hbf"
+to = "Mannheim Hgbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -1.179
+kmTo = 4.34
+length = 5.496
+speeds = [[-1.179, -0.248, "", ""], [-0.248, 0.679, 50, 50], [0.679, 1.838, 30, 30], [1.838, 2.039, 25, 25], [2.039, 4.34, 15, 15]]
+curves = [[-1.079, -1.004, 1220], [-0.004, 0.099, 1160], [0.176, 0.279, 1320], [0.382, 0.639, 440], [0.691, 1.019, 340], [1.144, 1.494, 690], [1.644, 1.919, 960], [3.994, 4.069, 1960], [4.119, 4.219, 660]]
+points = [
+  { km = -0.955, kind = "signal", label = "T094", signal = "main,speed_limit" },
+  { km = -0.246, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.206, kind = "signal", signal = "distant", dir = -1 },
+  { km = -0.127, kind = "signal", signal = "electricity", dir = 1 },
+  { km = -0.125, kind = "signal", signal = "minor", dir = 1 },
+  { km = -0.048, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.021, kind = "signal", signal = "shunting", dir = 1 },
+  { km = -0.017, kind = "station", label = "Mannheim Hauptbahnhof", uic = "8014008", pos = [49.47924, 8.46941] },
+  { km = 0.109, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.195, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 0.2, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 0.679, kind = "signal", signal = "speed_limit" },
+  { km = 0.8, kind = "signal", label = "A", signal = "main", dir = 1, measured = true },
+  { km = 0.95, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.676, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.845, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.087, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.106, kind = "halt", label = "Mannheim Handelshafen/Jungbusch", uic = "8014562", pos = [49.49273, 8.45394] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.699, kmTo = 0.717, length = 17 },
+  { kind = "bridge", kmFrom = 1.772, kmTo = 1.838, length = 66 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sq}lHcqwr@yBrHiZ`v@" },
+  { line = "wp~lHmpur@oWtm@{@~EQvI", v = 50 },
+  { line = "uk_mH_psr@WfH}AtG_BrCoJrJcHfD{OnBiFnB", v = 30 },
+  { line = "e_amHqarr@gIfF", v = 25 },
+  { line = "miamHizqr@ilB|mA_FlF", v = 15 },
+]
+posts = [[-1, 49.47329, 8.47955], [0, 49.47876, 8.46856], [1, 49.48293, 8.45719], [2, 49.49127, 8.4526], [3, 49.49939, 8.44667], [4, 49.50753, 8.44076]]
+
+[[connections]]
+km = -0.017
+station = "Mannheim Hauptbahnhof"
+lines = [
+  { id = "3401", ref = "3401", name = "3401 Abzw Böhl-Iggelheim - Mannheim", km = 107.933 },
+  { id = "3522", ref = "3522", name = "3522 Mainz - Mannheim", km = 70.111 },
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 0.007 },
+  { id = "4002", ref = "4002", km = 0.015 },
+  { id = "4011", ref = "4011", name = "4011 Mannheim Hbf - Mannheim-Waldhof", km = 0 },
+  { id = "4020", ref = "4020", name = "4020 Mannheim Hbf - Rastatt", km = 0.007 },
+  { id = "4080", ref = "4080", name = "4080 Schnellfahrstrecke Mannheim-Stuttgart", km = 0.008 },
+]
+
+[[connections]]
+km = 2.106
+station = "Mannheim Handelshafen/Jungbusch"
+lines = [
+  { id = "4011", ref = "4011", name = "4011 Mannheim Hbf - Mannheim-Waldhof", km = 2.04 },
+]

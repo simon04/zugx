@@ -1,0 +1,38 @@
+id = "3720"
+ref = "3720"
+name = "3720 Dillenburg - Ewersbach"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Dillenburg"
+to = "Ewersbach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 122.79
+kmTo = 125.678
+length = 2.875
+speeds = [[122.79, 124.171, 50, 50], [124.171, 124.344, "", ""], [124.344, 125.678, 40, 40]]
+curves = [[122.89, 123.365, 1090], [123.49, 123.765, 510], [123.882, 124.581, 800], [124.777, 124.971, 1390], [125.154, 125.354, 1540], [125.479, 125.554, 1430]]
+points = [
+  { km = 124.187, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 124.546, kind = "signal", label = "D5", signal = "main", dir = -1 },
+  { km = 125.047, kind = "station", label = "Dillenburg", pos = [50.73493, 8.2946], uic = "8000074" },
+  { km = 125.173, kind = "signal", signal = "distant", dir = 1 },
+  { km = 125.174, kind = "signal", signal = "main", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wawtHqtoq@nKm@hJoCbNuQxBoH`D_[|CkL", v = 50 },
+  { line = "_mutHa`rq@zEkJ" },
+  { line = "cfutHmkrq@xFmGtSuJbRcErT]", v = 40 },
+]
+posts = [[123, 50.748, 8.27757], [124, 50.74223, 8.28731], [125, 50.7353, 8.29464]]
+
+[[connections]]
+km = 125.047
+station = "Dillenburg"
+lines = [
+  { id = "2651", ref = "2651", name = "2651 Köln Messe/Deutz - Gießen", km = 125.038 },
+]

@@ -1,0 +1,27 @@
+id = "5388"
+ref = "5388"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.205
+length = 0.205
+speeds = [[0, 0.205, "", ""]]
+curves = []
+points = [
+  { km = 0.054, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.065, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 0.068, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.156, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 0.159, kind = "signal", label = "20L", signal = "combined", dir = -1 },
+  { km = 0.186, kind = "signal", signal = "minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kzvhHsl}dAcEyM" },
+]
+posts = [[0, 48.78262, 11.46074]]

@@ -1,0 +1,30 @@
+id = "1804"
+ref = "1804"
+name = "1804 Eichenberg"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131621266"
+from = "Eichenberg Ostkopf"
+to = "Eichenberg Nordkopf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.991
+length = 0.987
+speeds = [[0, 0.991, "", ""]]
+curves = [[0.359, 0.818, 390]]
+points = [
+  { km = 0.167, kind = "signal", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 0.844, kind = "signal", label = "N113", signal = "distant,main,minor,speed_limit", dir = 1, measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.594, kmTo = 0.62, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}pqxH{ct{@qHnc@iC`IcFfFiMtC" },
+]
+posts = []

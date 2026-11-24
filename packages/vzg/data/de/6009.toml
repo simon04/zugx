@@ -1,0 +1,84 @@
+id = "6009"
+ref = "6009"
+name = "6009 Abzw Berlin-Karow West S-Bahn - Strw Bergfelde"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131720401"
+from = "Berlin-Karow West S-Bahn"
+to = "Bergfelde Streckenwechsel 6009/6010"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.468
+length = 4.468
+speeds = [[0, 4.468, 90, 90]]
+curves = [[0.5, 0.7, 1120], [0.775, 1.075, 1070], [1.525, 1.575, 2110], [1.675, 1.75, 2610], [2.175, 2.275, 30], [2.4, 2.475, 1760], [2.725, 2.825, 1850], [2.925, 3.025, 2030], [3.4, 3.675, 1090], [3.775, 3.925, 1130]]
+points = [
+  { km = 0.328, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.332, kind = "stop", label = "Bergfelde", pos = [52.67044, 13.31948] },
+  { km = 0.364, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.401, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.405, kind = "halt", label = "Bergfelde (b Berlin)", uic = "8080100", pos = [52.67012, 13.32041] },
+  { km = 0.503, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.192, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.221, kind = "signal", label = "4632", signal = "combined,traversable", dir = 1 },
+  { km = 1.381, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.398, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.426, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.494, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.512, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.548, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.816, kind = "signal", label = "4625", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 1.833, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.843, kind = "station", label = "Schönfließ", pos = [52.6647, 13.34004], uic = "8085786" },
+  { km = 1.923, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.955, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.986, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.994, kind = "signal", label = "4622", signal = "main,minor,traversable", dir = 1 },
+  { km = 2.2, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.272, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.455, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.473, kind = "signal", label = "4624", signal = "main,minor,traversable", dir = -1 },
+  { km = 2.482, kind = "signal", signal = "stop", dir = -1 },
+  { km = 2.512, kind = "signal", signal = "stop", dir = -1 },
+  { km = 2.543, kind = "signal", signal = "stop", dir = -1 },
+  { km = 2.563, kind = "stop", label = "Schönfließ", pos = [52.66453, 13.34055] },
+  { km = 2.648, kind = "signal", label = "4627", signal = "main,traversable,wrong_road", dir = 1 },
+  { km = 2.892, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.955, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 2.972, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.096, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 3.123, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.147, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 3.246, kind = "signal", label = "4630", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 3.305, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.966, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.997, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.998, kind = "stop", label = "Bergfelde", pos = [52.66982, 13.32124] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "emn`I{qgpAjLkm@hHuUrBgJbWkkBmGri@oN|`A_K~^gMho@", v = 90 },
+]
+posts = [[0, 52.67171, 13.31502], [1, 52.66746, 13.32804], [2, 52.66434, 13.34194], [3, 52.66599, 13.33454], [4, 52.66983, 13.32122]]
+
+[[connections]]
+km = 0.332
+station = "Bergfelde"
+lines = [
+  { id = "6087", ref = "6087", name = "6087 Karower Kreuz - Priort", km = 12.568 },
+  { id = "6088", ref = "6088", name = "6088 Berlin - Neustrelitz - Stralsund", km = 12.568 },
+  { id = "6183", ref = "6183", name = "6183 Berlin-Schönholz - Kremmen", km = 12.568 },
+]
+
+[[connections]]
+km = 1.843
+station = "Schönfließ"
+lines = [
+  { id = "6087", ref = "6087", name = "6087 Karower Kreuz - Priort", km = 11.091 },
+  { id = "6088", ref = "6088", name = "6088 Berlin - Neustrelitz - Stralsund", km = 11.091 },
+  { id = "6183", ref = "6183", name = "6183 Berlin-Schönholz - Kremmen", km = 11.091 },
+]

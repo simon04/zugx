@@ -1,0 +1,43 @@
+id = "4828"
+ref = "4828"
+name = "4828 Kornwestheim Rbf - Abzw Kornwestheim Karlshöhe"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Kornwestheim Rbf"
+to = "Kornwestheim Karlshöhe"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 10.655
+kmTo = 13.641
+length = 2.941
+speeds = [[10.655, 10.891, 80, 80], [10.891, 13.641, 100, 100]]
+curves = [[11.575, 11.775, 1500], [12.061, 12.348, 1160], [12.807, 12.948, 1580], [13.184, 13.331, 1680]]
+points = [
+  { km = 10.676, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.738, kind = "signal", label = "321I", signal = "minor", dir = -1 },
+  { km = 10.781, kind = "signal", label = "W20", signal = "minor", dir = 1 },
+  { km = 10.891, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.903, kind = "signal", label = "P 311", signal = "distant,main,minor,speed_limit_distant,traversable", dir = -1 },
+  { km = 11.559, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 11.56, kind = "signal", signal = "minor", dir = 1 },
+  { km = 11.622, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 11.704, kind = "signal", label = "R311", signal = "main,minor", dir = 1 },
+  { km = 11.708, kind = "signal", signal = "minor", dir = -1 },
+  { km = 11.921, kind = "signal", label = "W136", signal = "minor", dir = -1 },
+  { km = 11.927, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 12.027, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 12.231, kind = "signal", label = "H", signal = "distant,main,traversable", dir = -1 },
+  { km = 13.477, kind = "signal", signal = "distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 12.088, kmTo = 12.102, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "umiiHgz`w@vQxKnPbIrb@lYd_@tIle@jR", v = 100 },
+  { line = "e_eiHyj~v@dKdE", v = 80 },
+]
+posts = [[13, 48.87306, 9.18144], [12, 48.86454, 9.17592], [11, 48.85594, 9.17225]]

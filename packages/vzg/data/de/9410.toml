@@ -1,0 +1,155 @@
+id = "9410"
+ref = "9410"
+name = "Krebsbachtalbahn"
+operator = "Albtal-Verkehrs-Gesellschaft mbH"
+gauge = "1435"
+from = "Neckarbischofsheim Nord"
+to = "Hüffenhardt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.098
+kmTo = 16.966
+length = 17.034
+speeds = [[-0.098, 0.282, 50, 30], [0.282, 0.431, 50, ""], [0.431, 0.894, 40, ""], [0.894, 1.991, 60, ""], [1.991, 2.437, 50, ""], [2.437, 2.668, "", ""], [2.668, 2.801, 50, 50], [2.801, 2.883, 30, 30], [2.883, 3.068, 50, 50], [3.068, 3.338, 40, ""], [3.338, 4.58, 60, 60], [4.58, 5.009, 40, 60], [5.009, 5.379, 60, ""], [5.379, 5.562, 20, ""], [5.562, 5.654, 60, ""], [5.654, 5.807, 20, ""], [5.807, 6.055, 60, ""], [6.055, 7.48, 60, 60], [7.48, 7.488, 60, ""], [7.488, 7.552, 50, 50], [7.552, 7.691, 60, 60], [7.691, 7.757, 20, 20], [7.757, 9.785, 60, 60], [9.785, 10.02, 30, ""], [10.02, 10.213, 60, ""], [10.213, 10.393, 20, ""], [10.393, 11.244, 60, ""], [11.244, 11.258, 20, 60], [11.258, 11.607, 50, 60], [11.607, 12.086, 60, ""], [12.086, 14.024, 60, 60], [14.024, 14.724, 50, 50], [14.724, 15.227, 60, ""], [15.227, 15.525, 50, ""], [15.525, 16.702, 60, 60], [16.702, 16.739, 50, 50], [16.739, 16.966, 30, 50]]
+curves = [[0.012, 0.245, 1160], [0.391, 0.898, 230], [0.942, 1.516, 370], [1.567, 2.048, 250], [2.444, 2.67, 600], [2.745, 2.945, 560], [3.044, 3.321, 390], [3.598, 3.774, 830], [4.051, 4.276, 630], [4.669, 5.014, 670], [5.218, 5.549, 660], [5.651, 5.903, 370], [6.078, 6.303, 380], [6.503, 6.857, 520], [6.958, 7.236, 380], [7.286, 7.511, 450], [7.632, 7.76, 1270], [7.855, 8.231, 680], [8.832, 8.933, 1260], [9.109, 9.235, 970], [9.285, 9.611, 1080], [9.685, 10.06, 630], [10.11, 10.333, 290], [10.382, 10.735, 510], [11.012, 11.591, 480], [11.641, 11.866, 810], [12.218, 12.47, 1080], [12.596, 12.646, 2380], [12.873, 13.477, 440], [13.791, 14.018, 680], [14.243, 14.745, 570], [14.994, 15.269, 470], [15.344, 15.745, 360]]
+points = [
+  { km = -0.098, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.011, kind = "station", label = "Neckarbischofsheim Nord", pos = [49.30696, 8.94248], uic = "8091916" },
+  { km = 0.285, kind = "signal", signal = "crossing,speed_limit_distant", dir = 1 },
+  { km = 0.431, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.565, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 0.723, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.779, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 0.894, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.936, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 1.987, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 1.991, kind = "signal", signal = "crossing_distant,speed_limit_distant", dir = 1 },
+  { km = 2.139, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.444, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.7, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.735, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.743, kind = "station", label = "Neckarbischofsheim Stadt", pos = [49.29594, 8.96323], measured = true },
+  { km = 3.018, kind = "signal", signal = "crossing_distant,speed_limit_distant", dir = 1 },
+  { km = 3.091, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.103, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 3.604, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.648, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.749, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 4.58, kind = "signal", signal = "crossing_distant,speed_limit_distant", dir = 1 },
+  { km = 4.77, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.258, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.264, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.379, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.439, kind = "signal", signal = "crossing_distant,speed_limit_distant", dir = -1 },
+  { km = 5.565, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.654, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.784, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.927, kind = "halt", label = "Helmhof", pos = [49.27874, 8.99538] },
+  { km = 6.077, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 6.236, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.455, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.822, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 6.963, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.23, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 7.304, kind = "signal", signal = "crossing,speed_limit_distant", dir = 1 },
+  { km = 7.448, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 7.625, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.635, kind = "station", label = "Untergimpern", pos = [49.26905, 9.01189], measured = true },
+  { km = 7.639, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.857, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.091, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 8.176, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.487, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 8.544, kind = "signal", signal = "main", dir = -1 },
+  { km = 8.645, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 9.307, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 9.785, kind = "signal", signal = "crossing_distant,speed_limit_distant", dir = 1 },
+  { km = 9.793, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.848, kind = "signal", signal = "crossing", dir = 1, measured = true },
+  { km = 10.047, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 10.125, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.153, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 10.209, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.211, kind = "signal", signal = "crossing,speed_limit", dir = 1 },
+  { km = 10.281, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.311, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.369, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.393, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.404, kind = "signal", signal = "crossing,speed_limit", dir = -1 },
+  { km = 10.423, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.451, kind = "halt", label = "Obergimpern", pos = [49.25544, 9.04386] },
+  { km = 10.891, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 11.005, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 11.156, kind = "signal", signal = "crossing_distant,speed_limit_distant", dir = 1 },
+  { km = 11.244, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.258, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.299, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 11.973, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.086, kind = "signal", signal = "crossing_distant,speed_limit_distant", dir = -1 },
+  { km = 12.763, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 13.329, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.6, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.93, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 13.953, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.416, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 14.65, kind = "station", label = "Siegelsbach", pos = [49.271, 9.08716], measured = true },
+  { km = 14.728, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.82, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 14.821, kind = "signal", signal = "crossing_distant,speed_limit_distant", dir = 1 },
+  { km = 15.093, kind = "signal", signal = "crossing_distant,speed_limit_distant", dir = -1 },
+  { km = 15.179, kind = "signal", signal = "main", dir = -1 },
+  { km = 15.227, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 15.823, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 16.243, kind = "signal", signal = "crossing_distant,speed_limit_distant", dir = -1 },
+  { km = 16.522, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 16.636, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 16.747, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 16.911, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 16.926, kind = "station", label = "Hüffenhardt", pos = [49.29094, 9.08682], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.691, kmTo = 0.703, length = 13 },
+  { kind = "bridge", kmFrom = 3.128, kmTo = 3.16, length = 30 },
+  { kind = "bridge", kmFrom = 8.016, kmTo = 8.03, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "efzkHcwmv@vMcB", v = 50 },
+  { line = "mwykHgzmv@~w@cKxBLrCvA", v = 60 },
+  { line = "_vwkHecnv@nD\\tIkC", v = 50 },
+  { line = "yewkHsfnv@bCc@hCPpQjI", v = 60 },
+  { line = "yjvkHy|mv@fDzBfG~JvDj_@", v = 50 },
+  { line = "qwukHqllv@h@dK{Brm@d@hGdBjHlChErCbC`[zRdWl\\dDxClIpElGpHbBxDh@bDJtE_C`a@mDbN{AxC", v = 60 },
+  { line = "{gskHwgev@yCrDaAnD", v = 20 },
+  { line = "wnskHs|dv@k@nO", v = 60 },
+  { line = "cpskHcldv@k@tH{A`H", v = 30 },
+  { line = "ktskHkycv@}IvUmE|U_GjSeWdn@iElPwGrJ", v = 60 },
+  { line = "_uukHak_v@}AvB", v = 20 },
+  { line = "}wukHig_v@iDlG", v = 60 },
+  { line = "g}ukH{~~u@sA`C", v = 50 },
+  { line = "{_vkHyz~u@uBrG}AvP}@|CeBzB{JhH_CbDcBxDeHpXkAjC}Q|L", v = 60 },
+  { line = "c}wkHow{u@sAhC_AlE", v = 20 },
+  { line = "waxkHwl{u@_AdF", v = 60 },
+  { line = "wcxkHqe{u@{CnL", v = 20 },
+  { line = "shxkHaxzu@yBdEiMxOwFjMiZb[uMp^eNrT", v = 60 },
+  { line = "u{zkHkawu@oDbH{@tH", v = 40 },
+  { line = "ac{kHqnvu@WhO", v = 50 },
+  { line = "yc{kHg~uu@N~E", v = 30 },
+  { line = "ic{kHgwuu@bA~I", v = 50 },
+  { line = "ea{kHgluu@j@xHYrH" },
+  { line = "s`{kHyxtu@{C`e@", v = 50 },
+  { line = "oe{kHwrsu@gBdHqBfBmB^eBI}KyEiBVqGdEwBh@oDOoF{B", v = 60 },
+  { line = "o||kHqhsu@aFm@kF~D}A~FHhI", v = 40 },
+  { line = "qm}kHuqru@`BfSjD`Q", v = 50 },
+]
+posts = [[16, 49.28276, 9.08858], [15, 49.27398, 9.08899], [14, 49.26852, 9.0796], [13, 49.2675, 9.0666], [12, 49.2598, 9.05982], [11, 49.25396, 9.05092], [10, 49.25717, 9.03863], [9, 49.26136, 9.02663], [8, 49.26655, 9.01547], [7, 49.27187, 9.00483], [6, 49.27814, 8.99576], [5, 49.2841, 8.98633], [4, 49.29092, 8.97737], [3, 49.29606, 8.96661], [2, 49.29638, 8.95304], [1, 49.30417, 8.95074], [0, 49.307, 8.9427]]
+
+[[connections]]
+km = -0.011
+station = "Neckarbischofsheim Nord"
+lines = [
+  { id = "4110", ref = "4110", name = "Bahnstrecke Meckesheim-Neckarelz", km = 32.039 },
+]

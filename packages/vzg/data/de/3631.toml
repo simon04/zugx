@@ -1,0 +1,76 @@
+id = "3631"
+ref = "3631"
+name = "3631 Frankfurt (Main) Galluswarte - Frankfurt-Griesheim"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Frankfurt (Main) Galluswarte"
+to = "Frankfurt-Griesheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.197
+kmTo = 5.098
+length = 3.902
+speeds = [[1.197, 1.354, "", ""], [1.354, 1.514, 60, 60], [1.514, 1.648, "", 30], [1.648, 2.372, "", ""], [2.372, 4.965, 60, 60], [4.965, 5.098, 50, 50]]
+curves = [[1.297, 1.672, 290], [2.122, 2.222, 1460], [2.272, 2.372, 1360], [2.522, 2.572, 2850], [2.647, 3.097, 750], [4.921, 4.996, 1650]]
+points = [
+  { km = 1.197, kind = "station", label = "Frankfurt (Main) Galluswarte", uic = "8006690", pos = [50.10439, 8.64444] },
+  { km = 1.255, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.318, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.347, kind = "signal", label = "F270", signal = "main", dir = -1 },
+  { km = 1.352, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.353, kind = "signal", label = "62 A", signal = "combined,distant,main,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 1.46, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.506, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.594, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.646, kind = "signal", label = "62 P2", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 1.648, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.198, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.294, kind = "signal", label = "62 N2", signal = "combined,traversable", dir = 1 },
+  { km = 2.342, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.389, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.488, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.629, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.753, kind = "signal", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 2.938, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.451, kind = "signal", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 3.722, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.786, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.86, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.149, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.234, kind = "signal", signal = "route", dir = -1 },
+  { km = 4.348, kind = "signal", label = "P203", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = 4.482, kind = "station", label = "Griesheim", pos = [50.09436, 8.60568], uic = "8011097" },
+  { km = 4.602, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.865, kind = "signal", label = "63 N203", signal = "combined,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.239, kmTo = 1.318, length = 79 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "k|xpH_kws@rC_BvBQ" },
+  { line = "_txpHqnws@lCh@|BfB", v = 60 },
+  { line = "skxpH_jws@|CtG", v = 30 },
+  { line = "ufxpHiaws@xM~e@xEvM" },
+  { line = "aqwpHqkus@rKb_@dBvPJ~iD", v = 60 },
+  { line = "{`wpHunns@PpJ", v = 50 },
+]
+posts = [[2, 50.09884, 8.63866], [3, 50.09445, 8.62655], [4, 50.09438, 8.6122], [5, 50.09434, 8.59851]]
+
+[[connections]]
+km = 1.197
+station = "Frankfurt Galluswarte"
+lines = [
+  { id = "3611", ref = "3611", name = "3611 Frankfurt (Main) Hbf (tief) - Friedberg (Hess)", km = 1.561 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 198.158 },
+]
+
+[[connections]]
+km = 4.482
+station = "Griesheim"
+lines = [
+  { id = "3610", ref = "3610", name = "3610 Frankfurt (Main) Hbf (tief) - Eschhofen", km = 4.511 },
+]

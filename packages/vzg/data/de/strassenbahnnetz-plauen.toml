@@ -1,0 +1,40 @@
+id = "strassenbahnnetz-plauen"
+name = "Straßenbahnnetz Plauen"
+operator = "Plauener Straßenbahn GmbH"
+gauge = "1000"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.836
+length = 1.836
+speeds = [[0, 0.239, "", ""], [0.239, 0.288, 10, 10], [0.288, 0.426, "", ""], [0.426, 0.485, 10, 10], [0.485, 1.445, "", ""], [1.445, 1.582, 20, 20], [1.582, 1.836, "", ""]]
+curves = [[0.1, 0.15, 420], [0.2, 0.575, 380], [0.625, 1.625, 220], [1.675, 1.725, 170]]
+points = [
+  { km = 0.155, kind = "halt", label = "Böhlerstraße", pos = [50.48759, 12.13699] },
+  { km = 0.748, kind = "halt", label = "Elsterbrücke", pos = [50.49182, 12.14131] },
+  { km = 1.205, kind = "halt", label = "Bahnhof Mitte", pos = [50.49309, 12.14722] },
+  { km = 1.227, kind = "halt", label = "Plauen Mitte", pos = [50.49288, 12.14765] },
+  { km = 1.445, kind = "halt", label = "Knielohstraße", pos = [50.49215, 12.14967] },
+  { km = 1.815, kind = "halt", label = "Vogtland-Klinikum", pos = [50.49331, 12.15307] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mvcsHgdaiAOsDaFgI" },
+  { line = "_~csHctaiAs@kB", v = 10 },
+  { line = "s_dsHowaiAs@gEmAwB" },
+  { line = "ucdsHoabiA_BgA", v = 10 },
+  { line = "ufdsHwcbiAqL_EyAqBeAqDY_PoB}OxAeFxBmA" },
+  { line = "}vdsHm~ciAz@WZ}@?iBg@mA", v = 20 },
+  { line = "mudsH{fdiAuFcEi@sG" },
+]
+posts = [[0, 50.48695, 12.13524], [1, 50.49256, 12.14446]]
+
+[[connections]]
+km = 1.227
+station = "Plauen Mitte"
+lines = [
+  { id = "6269", ref = "6269", name = "6269 Elstertalbahn", km = 50.942 },
+]

@@ -1,0 +1,67 @@
+id = "6070"
+ref = "6070"
+name = "6070 Berlin-Rummelsburg - Abzw Biesdorfer Kreuz Süd-West"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q134702740"
+from = "Berlin-Rummelsburg"
+to = "Biesdorfer Kreuz Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 3.839
+kmTo = 10.82
+length = 6.973
+speeds = [[3.839, 9.337, 100, 100], [9.337, 10.02, 60, 60], [10.02, 10.82, 100, 100]]
+curves = [[4.324, 4.399, 2240], [4.597, 4.801, 1520], [5.075, 5.23, 1750], [5.386, 5.981, 810], [7.614, 8.388, 480], [9.017, 9.239, 700], [9.286, 9.43, 820], [9.477, 9.697, 560], [9.747, 9.997, 750], [10.447, 10.522, 2860], [10.572, 10.672, 2120]]
+points = [
+  { km = 4.082, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.352, kind = "signal", label = "06606", signal = "combined,route,speed_limit,speed_limit_distant,traversable", dir = -1, measured = true },
+  { km = 4.795, kind = "halt", label = "Betriebsbahnhof Rummelsburg", uic = "8089006", pos = [52.49389, 13.49773] },
+  { km = 5.496, kind = "signal", label = "06V606", signal = "distant,route_distant,speed_limit_distant", dir = -1, measured = true },
+  { km = 5.616, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.69, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.744, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.465, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.543, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.617, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.71, kind = "signal", label = "28V321", signal = "distant,speed_limit_distant", dir = 1, measured = true },
+  { km = 8.464, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.75, kind = "signal", label = "28 321", signal = "main,route,speed_limit,traversable", dir = 1, measured = true },
+  { km = 8.953, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.337, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.55, kind = "signal", signal = "distant", dir = 1 },
+  { km = 9.6, kind = "signal", label = "28324", signal = "combined,route,traversable", dir = -1, measured = true },
+  { km = 10.02, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.02, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.261, kind = "signal", label = "28 C", signal = "main,route,speed_limit,traversable", dir = 1 },
+  { km = 10.267, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10.695, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.806, kmTo = 4.933, length = 125 },
+  { kind = "bridge", kmFrom = 5.405, kmTo = 5.428, length = 23 },
+  { kind = "bridge", kmFrom = 6.351, kmTo = 6.376, length = 26 },
+  { kind = "bridge", kmFrom = 6.784, kmTo = 6.844, length = 60 },
+  { kind = "bridge", kmFrom = 9.209, kmTo = 9.239, length = 31 },
+  { kind = "bridge", kmFrom = 9.757, kmTo = 9.805, length = 47 },
+  { kind = "bridge", kmFrom = 9.949, kmTo = 10.004, length = 54 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}ql_Ig~hqAr[ieAlIma@tDg[TaPw@_PoQklAyRmlAmDaKcEaF}EyBaFMkk@`S{DZ_Hc@", v = 100 },
+  { line = "kao_IucsqAuMdAkLgDoIC", v = 60 },
+  { line = "}gp_I{fsqAwWbByRzD", v = 100 },
+]
+posts = [[4, 52.49756, 13.48792], [5, 52.49286, 13.50022], [6, 52.49175, 13.51429], [7, 52.49511, 13.52793], [8, 52.49938, 13.54052], [9, 52.50803, 13.53829], [10, 52.51709, 13.53856]]
+
+[[connections]]
+km = 4.795
+station = "Betriebsbahnhof Rummelsburg"
+lines = [
+  { id = "6004", ref = "6004", name = "6004 Berlin Ostbahnhof - Erkner", km = 4.669 },
+  { id = "6152", ref = "6152", name = "6152 Berlin Ostbahnhof - Berlin-Rummelsburg", km = 4.797 },
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 4.815 },
+]

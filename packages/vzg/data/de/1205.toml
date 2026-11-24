@@ -1,0 +1,73 @@
+id = "1205"
+ref = "1205"
+name = "1205 Tönning - Bad St Peter-Ording"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q22679105"
+from = "Tönning"
+to = "Bad St Peter-Ording"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 21.033
+kmTo = 43.666
+length = 22.516
+speeds = [[21.033, 21.197, 60, 40], [21.197, 21.667, 60, 80], [21.667, 31.039, 80, 80], [31.039, 31.785, 50, 50], [31.785, 43.334, 80, 80], [43.334, 43.666, 30, 30]]
+curves = [[21.251, 21.642, 760], [22.059, 22.216, 2670], [22.789, 23.039, 1250], [25.729, 25.853, 2480], [27.788, 28.11, 630], [28.559, 28.71, 1240], [31.37, 31.447, 1930], [31.956, 32.201, 1060], [33.155, 33.205, 2860], [34.962, 35.012, 2770], [35.952, 36.232, 980], [36.914, 37.24, 1570], [40.122, 40.484, 570], [41.053, 41.311, 730], [41.75, 42.003, 930]]
+points = [
+  { km = 21.033, kind = "station", label = "Tönning", uic = "8005885", pos = [54.31384, 8.93812] },
+  { km = 21.197, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 21.463, kind = "signal", signal = "combined,main", dir = -1 },
+  { km = 21.667, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.187, kind = "signal", signal = "distant", dir = -1 },
+  { km = 25.532, kind = "stop", label = "Kating", pos = [54.3261, 8.87193], uic = "8003208" },
+  { km = 28.4, kind = "stop", label = "Katharinenheerd", pos = [54.33417, 8.83051], measured = true, uic = "8003207" },
+  { km = 31.039, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 31.149, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 31.305, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 31.785, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 31.933, kind = "stop", label = "Garding", pos = [54.32617, 8.77807], uic = "8002185" },
+  { km = 31.976, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 32.714, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 32.872, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 32.899, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 33.201, kind = "stop", label = "Sandwehle", pos = [54.32573, 8.75874], uic = "8005288" },
+  { km = 34.076, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 34.284, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 35.725, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 35.903, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 35.923, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 36.402, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 36.416, kind = "stop", label = "Tating", pos = [54.32286, 8.70953], uic = "8005826" },
+  { km = 36.6, kind = "signal", signal = "station_distant,whistle", dir = 1, measured = true },
+  { km = 40.123, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 40.963, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 41.015, kind = "stop", label = "Bad St. Peter Süd", pos = [54.30496, 8.64819], uic = "8000754" },
+  { km = 41.061, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 41.709, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 41.753, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 42.288, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 42.506, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 42.815, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 43.334, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 43.633, kind = "stop", label = "Bad St. Peter-Ording", pos = [54.31736, 8.61478], uic = "8000755" },
+  { km = 43.655, kind = "signal", signal = "stop", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a|ojIemqs@vJoW", v = 30 },
+  { line = "ipojIuers@dn@}aBjDaNhK{p@t@aIAagAq@wJaBqIazA}nFcT{xAg@kLq@kbB}Gs}CSqmBUuI_CuX", v = 80 },
+  { line = "usqjIc~qt@eJubA", v = 50 },
+  { line = "{~qjIyatt@eMotA_S{aCmCex@@yKfA_Lxm@kxD|n@}{Fx@sP`Bm}@rDot@zBkLhEyJ", v = 80 },
+  { line = "woojIgbpu@lEkJ", v = 60 },
+]
+posts = [[43, 54.31385, 8.62196], [42, 54.30833, 8.63353], [41, 54.30503, 8.64841], [40, 54.3065, 8.66272], [39, 54.31142, 8.67561], [38, 54.31632, 8.68851], [37, 54.32083, 8.70087], [36, 54.32398, 8.71593], [35, 54.32421, 8.7311], [34, 54.32506, 8.74638], [33, 54.32573, 8.76169], [32, 54.32594, 8.77703], [31, 54.32839, 8.79206], [30, 54.33079, 8.80663], [29, 54.33304, 8.82145], [28, 54.3345, 8.8366], [27, 54.33115, 8.85098], [26, 54.32752, 8.86523], [25, 54.32456, 8.87991], [24, 54.32177, 8.89462], [23, 54.31898, 8.90931], [22, 54.31801, 8.92411]]
+
+[[connections]]
+km = 21.033
+station = "Tönning"
+lines = [
+  { id = "1204", ref = "1204", name = "1204 Abzw Hörn - Tönning Hafen", km = 21.215 },
+]

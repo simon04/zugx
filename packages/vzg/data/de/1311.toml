@@ -1,0 +1,32 @@
+id = "1311"
+ref = "1311"
+name = "Bahnstrecke Bremerhaven-Bederkesa"
+operator = "Museumsbahn Bremerhaven - Bederkesa e.V."
+gauge = "1435"
+wikidata = "Q802016"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.31
+kmTo = 17.712
+length = 17.432
+speeds = [[0.31, 17.712, "", ""]]
+curves = [[0.417, 0.517, 730], [0.567, 1.217, 930], [1.967, 2.367, 640], [3.617, 3.992, 1050], [5.067, 5.367, 1060], [6.417, 6.567, 1340], [7.217, 7.667, 660], [9.485, 9.757, 1160], [11.19, 11.486, 1070], [12.062, 12.212, 1890], [16.462, 16.637, 1560], [17.037, 17.087, 1850], [17.137, 17.212, 2170], [17.562, 17.612, 1620]]
+points = [
+  { km = 0.885, kind = "signal", label = "154", signal = "main,minor,wrong_road", dir = -1 },
+  { km = 1.598, kind = "station", label = "Langen (Han)", pos = [53.60172, 8.59677] },
+  { km = 4.07, kind = "stop", label = "Langen Seepark", pos = [53.61165, 8.62875] },
+  { km = 5.584, kind = "station", label = "Debstedt", pos = [53.61289, 8.65145] },
+  { km = 11.686, kind = "station", label = "Drangstedt", pos = [53.61802, 8.74143] },
+  { km = 17.569, kind = "station", label = "Bad Bederkesa", pos = [53.63037, 8.82792] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 6.328, kmTo = 6.389, length = 61 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{uifI}r{t@vExqBl|@thK`NjbAdAjNzE|~CyRduDSxPzA|PlS|cApSvjBh@rNb@ljBp@rQ|\\d|BnBrInCtG`i@`o@tHfGdGzBlHr@bLo@hEaC" },
+]
+posts = [[17, 53.62996, 8.81932], [16, 53.62833, 8.80445], [15, 53.62605, 8.78979], [14, 53.62376, 8.77512], [13, 53.62147, 8.76046], [12, 53.61905, 8.74587], [11, 53.61665, 8.73129], [10, 53.61595, 8.716], [9, 53.61672, 8.70082], [8, 53.61836, 8.6859], [7, 53.61749, 8.6714], [6, 53.61404, 8.65745], [5, 53.6118, 8.64285], [4, 53.61164, 8.62769], [3, 53.60887, 8.61338], [2, 53.60472, 8.60016], [1, 53.59715, 8.59202]]

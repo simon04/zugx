@@ -1,0 +1,75 @@
+id = "9371"
+ref = "9371"
+name = "9371 Butzbach - Münzenberg"
+operator = "Eisenbahnfreunde Wetterau e.V."
+gauge = "1435"
+wikidata = "Q107348045"
+from = "Butzbach Ost"
+to = "Münzenberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.784
+kmTo = 9.171
+length = 7.889
+speeds = [[0.784, 2.2, "", ""], [2.2, 3.572, 25, 25], [3.572, 3.598, "", ""], [3.598, 5.397, 25, 25], [5.397, 5.402, "", ""], [5.402, 9.171, 25, 25]]
+curves = [[1.828, 2.009, 1920], [2.243, 2.315, 1270], [2.363, 2.627, 490], [2.842, 3.13, 400], [3.178, 3.489, 930], [3.739, 3.938, 1230], [4.063, 4.288, 830], [4.338, 4.513, 740], [4.563, 4.712, 730], [4.762, 4.912, 530], [4.962, 5.137, 1010], [5.362, 5.437, 2430], [5.661, 5.708, 2670], [6.153, 6.324, 660], [6.375, 6.615, 800], [6.666, 6.786, 680], [7.06, 7.41, 700], [7.874, 8.152, 1340], [8.512, 8.925, 300]]
+points = [
+  { km = 0.952, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.014, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.136, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.366, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.722, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.208, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 2.219, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.281, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.425, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.499, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.5, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 2.675, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.729, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.823, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.923, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.923, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.068, kind = "signal", signal = "main", dir = 1 },
+  { km = 3.204, kind = "station", label = "Griedel", pos = [50.44275, 8.7021] },
+  { km = 3.683, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.685, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 5.258, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.33, kind = "signal", signal = "main", dir = 1 },
+  { km = 5.7, kind = "station", label = "Gambach", pos = [50.45522, 8.72948], measured = true },
+  { km = 5.928, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 6.837, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.1, kind = "station", label = "Oberhörgern-Eberstadt", pos = [50.46374, 8.75469], measured = true },
+  { km = 8.322, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.365, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.434, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.545, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.553, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.633, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.731, kind = "signal", signal = "main", dir = 1 },
+  { km = 9.1, kind = "station", label = "Münzenberg", pos = [50.46434, 8.77096], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.712, kmTo = 2.724, length = 13 },
+  { kind = "bridge", kmFrom = 8.27, kmTo = 8.289, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "g{yrHk~}s@gC}_A{@oO" },
+  { line = "kazrHyo`t@o@iRy@kHcLuZwB_DsCqBwOsEsHuJ", v = 25 },
+  { line = "qt{rHacct@a@s@" },
+  { line = "su{rHudct@qI_NwMuNeHgOiDaQqAiP{DaRwC}Y", v = 25 },
+  { line = "sj}rH_egt@AI" },
+  { line = "uj}rHiegt@kSyvAyKuX}AcHoCsTaQge@iAiFgDq_@yFw]MmEpA_JdKiQ", v = 25 },
+]
+posts = [[1, 50.43677, 8.6821], [2, 50.43731, 8.68981], [3, 50.44091, 8.70132], [4, 50.44866, 8.70848], [5, 50.45329, 8.72007], [6, 50.45659, 8.73529], [7, 50.46296, 8.75304], [8, 50.46499, 8.76123], [9, 50.46489, 8.77019]]
+
+[[connections]]
+km = 3.204
+station = "Griedel"
+lines = [
+  { id = "9373", ref = "9373", name = "9373 Griedel - Bad Nauheim", km = 0.281 },
+]

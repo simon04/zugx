@@ -1,0 +1,34 @@
+id = "3747"
+ref = "3747"
+name = "3747 Erdbach - Montabaur (Regio), W 141"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q107172344"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 59.676
+kmTo = 73.48
+length = 13.776
+speeds = [[59.676, 73.48, 50, 50]]
+curves = [[59.777, 59.852, 990], [60.252, 61.077, 350], [61.427, 61.93, 520], [62.081, 62.634, 1040], [63.69, 64.188, 710], [64.785, 65.313, 370], [65.364, 65.717, 400], [66.72, 66.795, 2150], [66.845, 66.895, 1520], [67.046, 67.096, 2570], [67.146, 67.347, 940], [68.897, 69.498, 410], [69.874, 70.374, 670], [70.976, 71.478, 530], [72.58, 73.03, 510]]
+points = [
+  { km = 60.813, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 63.645, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 64.835, kind = "signal", signal = "main", dir = -1, measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 61.03, kmTo = 61.041, length = 11 },
+  { kind = "bridge", kmFrom = 63.7, kmTo = 63.743, length = 44 },
+  { kind = "bridge", kmFrom = 63.824, kmTo = 63.837, length = 13 },
+  { kind = "bridge", kmFrom = 66.227, kmTo = 66.36, length = 132 },
+  { kind = "bridge", kmFrom = 66.656, kmTo = 66.668, length = 13 },
+  { kind = "bridge", kmFrom = 69.036, kmTo = 69.102, length = 65 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{t{rHshyn@iSe_@qDwDcEqB{Eg@kbAb@gHlBiF`F_\\tu@iE|FaE|CwSbFwMjAuFmBaCeCkCwFig@soCoIijCPsF|@wFfHaSh@gF?_HcAeI_Tkw@kA{Gq@kJ@uN~Fe_BHmLe@qMw@aIiFwZQsMpAoMdL{g@XoGUcG_AqFeBoEeC}C{C_BeD[cY`@uGbA", v = 50 },
+]
+posts = [[73, 50.44877, 7.83996], [72, 50.45742, 7.84188], [71, 50.46591, 7.83929], [70, 50.47208, 7.82927], [69, 50.48034, 7.83044], [68, 50.48397, 7.8433], [67, 50.48703, 7.85654], [66, 50.48803, 7.87054], [65, 50.48629, 7.88362], [64, 50.49041, 7.89614], [63, 50.4899, 7.91013], [62, 50.49032, 7.92386], [61, 50.48865, 7.93689], [60, 50.49428, 7.94365]]

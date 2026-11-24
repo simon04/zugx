@@ -1,0 +1,44 @@
+id = "6348"
+ref = "6348"
+name = "Bahnstrecke 6348 Halle (Saale) Gbf Nord - Peißen"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131694114"
+from = "Halle (Saale) Gbf Nord"
+to = "Bahnhof Peißen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.27
+kmTo = 5.336
+length = 4.895
+speeds = [[1.27, 3.913, "", ""], [3.913, 5.336, 80, 80]]
+curves = [[3.27, 3.495, 1390], [3.62, 3.955, 640], [4.184, 4.207, 2790], [4.539, 4.616, 1380], [4.741, 4.816, 2540], [4.966, 5.216, 930]]
+points = [
+  { km = 1.546, kind = "station", label = "Peißen", pos = [51.50063, 12.05442] },
+  { km = 3.629, kind = "signal", signal = "crossing_hint", dir = -1 },
+  { km = 3.724, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.741, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 3.909, kind = "signal", label = "95C", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 3.913, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.097, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.157, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.197, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.229, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.24, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.415, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.451, kind = "signal", label = "95 P424", signal = "combined,minor,route,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 4.557, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.724, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.842, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.92, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.143, kind = "signal", label = "95 ZR4 34", signal = "main,speed_limit,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wviyH_drhApEfvDiApe@r@hP" },
+  { line = "{piyH{tjhAlb@`tBdPdc@xChF`GtG", v = 80 },
+]
+posts = [[2, 51.50038, 12.04787], [3, 51.49986, 12.03345], [4, 51.49909, 12.01764], [5, 51.49167, 11.99612]]

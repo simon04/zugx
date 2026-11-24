@@ -1,0 +1,75 @@
+id = "6050"
+ref = "6050"
+name = "6050 Halle (Saale) Steintorbahnhof - Halle-Trotha"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131723590"
+from = "Halle (Saale) Steintorbf"
+to = "Halle-Trotha"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.893
+kmTo = 6.164
+length = 4.29
+speeds = [[1.893, 2.704, 60, 60], [2.704, 2.802, 80, 60], [2.802, 5.93, 80, 80], [5.93, 6.164, 40, 40]]
+curves = [[1.993, 2.793, 530], [3.389, 4.38, 850], [4.772, 4.963, 1520]]
+points = [
+  { km = 1.896, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.353, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 2.38, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 2.405, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 2.508, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.621, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.704, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.802, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.882, kind = "stop", label = "Halle Dessauer Brücke", pos = [51.50007, 11.98231], uic = "8023109" },
+  { km = 3.127, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.193, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.614, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.807, kind = "stop", label = "Halle Zoo", pos = [51.50372, 11.97017], uic = "8023108" },
+  { km = 3.89, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.99, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.808, kind = "signal", label = "21 B", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 5.376, kind = "stop", label = "Halle Wohnstadt Nord", pos = [51.51729, 11.96471], uic = "8023107" },
+  { km = 5.473, kind = "signal", label = "21 ZR1", signal = "combined,short_route,speed_limit,traversable", dir = 1 },
+  { km = 5.557, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 5.562, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.582, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 5.602, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 5.617, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 5.665, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 5.802, kind = "signal", signal = "minor", dir = -1 },
+  { km = 5.981, kind = "signal", label = "21P1", signal = "main,traversable", dir = -1 },
+  { km = 5.982, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.093, kind = "station", label = "Halle-Trotha", pos = [51.52408, 11.96227], uic = "8023111" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.684, kmTo = 3.703, length = 19 },
+  { kind = "bridge", kmFrom = 3.918, kmTo = 3.928, length = 10 },
+  { kind = "bridge", kmFrom = 4.429, kmTo = 4.439, length = 10 },
+  { kind = "bridge", kmFrom = 5.013, kmTo = 5.025, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "whhyHsldhA}IsCwDBsD`AcIbHgBzDwAvG", v = 60 },
+  { line = "eoiyHiwchAkOleAeF|NsHrK_FtDgFtBqe@vE_v@~S", v = 80 },
+  { line = "e|myHeo_hAwK|C", v = 40 },
+]
+posts = [[2, 51.49431, 11.9886], [3, 51.50046, 11.98065], [4, 51.5051, 11.96862], [5, 51.51408, 11.96599], [6, 51.52272, 11.96267]]
+
+[[connections]]
+km = 2.882
+station = "Halle Dessauer Brücke"
+lines = [
+  { id = "6344", ref = "6344", name = "Bahnstrecke 6344 Halle (Saale) Hbf – Vienenburg", km = 2.86 },
+]
+
+[[connections]]
+km = 6.093
+station = "Halle-Trotha"
+lines = [
+  { id = "6344", ref = "6344", name = "Bahnstrecke 6344 Halle (Saale) Hbf – Vienenburg", km = 6.24 },
+]

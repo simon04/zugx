@@ -1,0 +1,72 @@
+id = "2933"
+ref = "2933"
+name = "2933 Unna - Unna-Königsborn"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q20653218"
+from = "Unna"
+to = "Unna-Königsborn"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.184
+length = 4.184
+speeds = [[0, 0.437, 60, 60], [0.437, 2.859, 80, 80], [2.859, 3.209, 60, 60], [3.209, 4.184, "", ""]]
+curves = [[0.325, 0.975, 500], [1.275, 2.275, 500], [2.35, 2.825, 1690], [2.95, 3, 2160], [3.05, 3.125, 1960], [3.725, 4.025, 1850]]
+points = [
+  { km = 0.389, kind = "signal", signal = "main,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.392, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.393, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.635, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.06, kind = "stop", label = "Unna West", pos = [51.53894, 7.67645], uic = "8003925" },
+  { km = 2.206, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.623, kind = "signal", label = "B", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 2.795, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.983, kind = "signal", signal = "route", dir = 1 },
+  { km = 3.004, kind = "signal", signal = "main,minor,route,speed_limit,traversable", dir = -1 },
+  { km = 3.108, kind = "station", label = "Unna", uic = "8000171", pos = [51.53902, 7.69222] },
+  { km = 3.149, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.151, kind = "signal", label = "R4", signal = "main,minor,traversable", dir = 1 },
+  { km = 3.214, kind = "signal", label = "P4", signal = "main,minor,route,speed_limit,traversable", dir = -1 },
+  { km = 3.238, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 3.243, kind = "stop", label = "Unna", uic = "8000171", pos = [51.53907, 7.69295] },
+  { km = 3.336, kind = "signal", signal = "main_repeated" },
+  { km = 3.598, kind = "signal", label = "N4", signal = "main,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 3.654, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.795, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.862, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 3.938, kind = "signal", label = "4III", signal = "minor", dir = -1 },
+  { km = 3.952, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.065, kind = "signal", label = "4 IV", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.175, kmTo = 1.186, length = 10 },
+  { kind = "bridge", kmFrom = 1.572, kmTo = 1.591, length = 19 },
+  { kind = "bridge", kmFrom = 2.841, kmTo = 2.871, length = 31 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}usyHqb{m@vFnd@", v = 60 },
+  { line = "ensyHa}ym@bB`GnChFtDtD~DfB~Y`D~GaBvEaE`FoKnAoGl@uHAcJsBoa@FkW", v = 80 },
+  { line = "qhqyHom|m@`Ak^", v = 60 },
+  { line = "ofqyH{l}m@nCev@Um_@" },
+]
+posts = [[0, 51.55183, 7.68057], [1, 51.54651, 7.67045], [2, 51.53904, 7.67514], [3, 51.53931, 7.68946], [4, 51.53839, 7.70382]]
+
+[[connections]]
+km = 2.06
+station = "Unna West"
+lines = [
+  { id = "2103", ref = "2103", km = 187.76 },
+]
+
+[[connections]]
+km = 3.108
+station = "Unna"
+lines = [
+  { id = "2103", ref = "2103", km = 188.978 },
+  { id = "2852", ref = "2852", name = "2852 Fröndenberg - Unna", km = 0.198 },
+]

@@ -1,0 +1,92 @@
+id = "9163"
+ref = "9163"
+name = "9163 Versmold - Gütersloh Nord"
+operator = "Teutoburger Wald Eisenbahn;Lappwaldbahn"
+gauge = "1435"
+wikidata = "Q16434723"
+from = "Versmold"
+to = "Gütersloh Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 42.87
+kmTo = 67.478
+length = 24.561
+speeds = [[42.87, 67.478, "", ""]]
+curves = [[44.431, 44.732, 1070], [53.161, 53.286, 1130], [54.867, 55.243, 380], [56.322, 56.497, 1370], [61.163, 61.264, 1590], [63.349, 63.625, 1230], [65.576, 65.729, 1310], [66.267, 66.42, 1420], [66.807, 67.379, 300]]
+points = [
+  { km = 54.723, kind = "station", label = "Harsewinkel", pos = [51.9607, 8.23327] },
+  { km = 58.073, kind = "halt", label = "Marienfeld", pos = [51.95036, 8.27774] },
+  { km = 61.977, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 62.288, kind = "signal", signal = "main", dir = 1 },
+  { km = 62.72, kind = "signal", signal = "main", dir = -1 },
+  { km = 63.223, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 63.535, kind = "signal", signal = "main", dir = 1 },
+  { km = 63.568, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 63.71, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 63.73, kind = "signal", signal = "crossing,crossing_info", dir = 1 },
+  { km = 63.791, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 63.924, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 63.925, kind = "signal", signal = "crossing,crossing_info", dir = 1 },
+  { km = 64.07, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 64.111, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 64.197, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 64.506, kind = "signal", signal = "crossing,crossing_info", dir = -1 },
+  { km = 64.507, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 64.668, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 64.704, kind = "signal", signal = "crossing,crossing_info", dir = -1 },
+  { km = 64.71, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 64.726, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 64.797, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 64.804, kind = "signal", signal = "main", dir = -1 },
+  { km = 64.808, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 64.812, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 65.219, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 65.479, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 65.58, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 65.604, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 65.665, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 65.814, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 65.816, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 65.918, kind = "signal", signal = "crossing,crossing_info", dir = 1 },
+  { km = 65.953, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 66.079, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 66.081, kind = "signal", signal = "crossing,crossing_info", dir = 1 },
+  { km = 66.31, kind = "signal", signal = "crossing,crossing_info", dir = -1 },
+  { km = 66.343, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 66.371, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 66.372, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 66.438, kind = "signal", signal = "crossing,crossing_info", dir = 1 },
+  { km = 66.507, kind = "signal", signal = "crossing,crossing_info", dir = 1 },
+  { km = 66.602, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 66.71, kind = "signal", signal = "crossing,crossing_info", dir = -1 },
+  { km = 66.712, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 66.846, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 66.868, kind = "signal", signal = "distant", dir = 1 },
+  { km = 66.905, kind = "signal", signal = "crossing,crossing_info", dir = -1 },
+  { km = 66.907, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 67.064, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 67.119, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 67.282, kind = "signal", signal = "crossing,crossing_info", dir = -1 },
+  { km = 67.289, kind = "signal", label = "O", signal = "main", dir = 1 },
+  { km = 67.333, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 67.367, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 67.419, kind = "signal", signal = "crossing_distant,crossing_hint,crossing_info", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 44.183, kmTo = 44.198, length = 15 },
+  { kind = "bridge", kmFrom = 48.047, kmTo = 48.057, length = 10 },
+  { kind = "bridge", kmFrom = 52.095, kmTo = 52.113, length = 18 },
+  { kind = "bridge", kmFrom = 53.7, kmTo = 53.723, length = 23 },
+  { kind = "bridge", kmFrom = 58.704, kmTo = 58.718, length = 15 },
+  { kind = "bridge", kmFrom = 59.608, kmTo = 59.626, length = 18 },
+  { kind = "bridge", kmFrom = 65.083, kmTo = 65.089, length = 11 },
+  { kind = "bridge", kmFrom = 67.401, kmTo = 67.417, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "saz{Hqbfr@eEcHiFiCaC@uCbAeErFkNnh@iZru@}{@fcDsg@f`Ew\\dkBubA|aHqA|LyKtfBsBvJmFrGwqAx`AodCp~CwnBp|BgmCplDmJzGosA|n@" },
+]
+posts = [[67, 51.91583, 8.39393], [66, 51.92107, 8.38234], [65, 51.92621, 8.37013], [64, 51.93085, 8.3577], [63, 51.93457, 8.34503], [62, 51.93752, 8.33087], [61, 51.94055, 8.31719], [60, 51.94423, 8.30394], [59, 51.94743, 8.29035], [58, 51.95059, 8.27675], [57, 51.95376, 8.26314], [56, 51.95634, 8.24926], [55, 51.95857, 8.23533], [54, 51.96655, 8.22875], [53, 51.97442, 8.22187], [52, 51.98164, 8.21323], [51, 51.98885, 8.20459], [50, 51.9961, 8.19605], [49, 52.00347, 8.18777], [48, 52.01085, 8.17949], [47, 52.01806, 8.17085], [46, 52.02524, 8.16214], [45, 52.03236, 8.1533], [44, 52.04032, 8.14687], [43, 52.04889, 8.14201]]

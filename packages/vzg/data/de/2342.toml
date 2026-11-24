@@ -1,0 +1,42 @@
+id = "2342"
+ref = "2342"
+name = "2342 Krefeld-Uerdingen - Abzw Duisburg-Mühlenberg"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Krefeld-Uerdingen"
+to = "Duisburg-Mühlenberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.537
+length = 2.537
+speeds = [[0, 2.537, "", ""]]
+curves = [[0.1, 0.45, 930], [0.575, 1, 830], [1.125, 1.45, 940], [1.6, 1.65, 2180]]
+points = [
+  { km = 0.14, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.147, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.425, kind = "signal", signal = "main,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.014, kind = "halt", label = "Krefeld-Hohenbudberg Chempark", uic = "8002941", pos = [51.37361, 6.6646] },
+  { km = 1.108, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.142, kind = "signal", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 1.388, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.466, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.631, kind = "signal", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 2.403, kind = "signal", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 2.463, kind = "signal", signal = "minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kfrxHuovg@bJdR~QvP~CjEhDrHtHlUfDhG~u@lw@" },
+]
+posts = [[0, 51.38038, 6.67403], [1, 51.37361, 6.66484], [2, 51.3668, 6.65574]]
+
+[[connections]]
+km = 1.014
+station = "Krefeld-Hohenbudberg Chempark"
+lines = [
+  { id = "2505", ref = "2505", name = "2505 Krefeld-Oppum - Mülheim (Ruhr)-Speldorf", km = 6.513 },
+]

@@ -1,0 +1,85 @@
+id = "4410"
+ref = "4410"
+name = "4410 Weil am Rhein - Lörrach Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q803448"
+from = "Weil am Rhein"
+to = "Lörrach Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.846
+kmTo = 4.923
+length = 5.647
+speeds = [[-0.846, 0.33, "", ""], [0.33, 0.85, 70, 70], [0.85, 4.923, 80, 80]]
+curves = [[-0.674, -0.599, 1770], [0.081, 0.897, 360], [1.362, 1.465, 2260], [1.618, 2.38, 1950], [2.555, 2.805, 900], [3.506, 3.933, 510], [4.093, 4.81, 450]]
+points = [
+  { km = -0.076, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.047, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.01, kind = "station", label = "Weil am Rhein", uic = "8593479", pos = [47.59354, 7.60841], ele = 254 },
+  { km = 0.043, kind = "signal", label = "86 N1", signal = "main,traversable", dir = 1 },
+  { km = 0.302, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.33, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.593, kind = "signal", label = "86 K", signal = "distant,main,traversable", dir = -1 },
+  { km = 0.839, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.85, kind = "signal", signal = "distant,speed_limit", dir = -1 },
+  { km = 1.091, kind = "stop", label = "Weil am Rhein Gartenstadt", uic = "8000143", pos = [47.5887, 7.61637], ele = 257 },
+  { km = 1.337, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.557, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.889, kind = "stop", label = "Weil am Rhein Pfädlistraße", uic = "8000146", pos = [47.58897, 7.62667], ele = 259 },
+  { km = 2.54, kind = "stop", label = "Weil am Rhein Ost", uic = "8593481", pos = [47.59077, 7.6349], ele = 259 },
+  { km = 2.579, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.936, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.394, kind = "signal", signal = "main", dir = 1 },
+  { km = 4.032, kind = "signal", label = "20 202", signal = "main,traversable", dir = -1 },
+  { km = 4.036, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.216, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.287, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.4, kind = "stop", label = "Lörrach Dammstraße", uic = "8593472", pos = [47.59768, 7.65505], measured = true, ele = 278 },
+  { km = 4.463, kind = "signal", label = "20 B", signal = "combined,traversable", dir = 1 },
+  { km = 4.8, kind = "halt", label = "Lörrach-Stetten", uic = "8014440", ele = 410, pos = [47.6018, 7.65918], measured = true },
+  { km = 4.821, kind = "signal", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.425, kmTo = 0.457, length = 34 },
+  { kind = "bridge", kmFrom = 1.651, kmTo = 1.761, length = 108 },
+  { kind = "bridge", kmFrom = 1.928, kmTo = 1.95, length = 26 },
+  { kind = "tunnel", kmFrom = 2.942, kmTo = 3.808, length = 864, name = "Tüllinger Tunnel" },
+  { kind = "bridge", kmFrom = 3.89, kmTo = 4.01, length = 119, name = "Wiesebrücke" },
+  { kind = "bridge", kmFrom = 4.31, kmTo = 4.328, length = 17 },
+  { kind = "bridge", kmFrom = 4.477, kmTo = 4.517, length = 34 },
+  { kind = "bridge", kmFrom = 4.556, kmTo = 4.627, length = 60 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "e`paHe{vm@zDrAzCzB|CvEpBvGbAtLw@j^", v = 80 },
+  { line = "qloaHcxtm@v@lJvAhEpW`e@", tunnel = true, v = 80 },
+  { line = "oonaHi`sm@rGjLfBvErFdUnBlNbBl[?t_@p@tl@", v = 80 },
+  { line = "ysmaHw{mm@Y|IoBrHkCzD{EfC", v = 70 },
+  { line = "kcnaHa}lm@oEHeD_Aod@gWsKoE" },
+]
+posts = [[4, 47.59758, 7.65071], [3, 47.59341, 7.63979], [2, 47.58912, 7.62838], [1, 47.58867, 7.6147], [0, 47.59395, 7.60892]]
+
+[[connections]]
+km = 0.01
+station = "Weil am Rhein"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 267.6 },
+]
+
+[[connections]]
+km = 4.4
+station = "Lörrach Dammstraße"
+lines = [
+  { id = "4400", ref = "4400", name = "4400 Basel Bad Bf - Zell (Wiesental)", km = 4.545 },
+]
+
+[[connections]]
+km = 4.8
+station = "Lörrach-Stetten"
+lines = [
+  { id = "4400", ref = "4400", name = "4400 Basel Bad Bf - Zell (Wiesental)", km = 5.054 },
+]

@@ -1,0 +1,171 @@
+id = "5543"
+ref = "5543"
+name = "5543 München-Pasing - Mammendorf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "München-Pasing"
+to = "Mammendorf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 6.975
+kmTo = 31.293
+length = 24.192
+speeds = [[6.975, 7.199, 60, 100], [7.199, 8.134, 100, 100], [8.134, 8.485, "", ""], [8.485, 8.5, 60, 60], [8.5, 8.791, 90, 90], [8.791, 13.012, 120, 120], [13.012, 18.133, 100, 120], [18.133, 19.888, 120, 120], [19.888, 24.06, 100, 120], [24.06, 25.024, 120, 120], [25.024, 25.65, 80, 80], [25.65, 31.188, 120, 120], [31.188, 31.293, 80, 80]]
+curves = [[7.7, 7.943, 1170], [8.064, 8.676, 1020], [9.173, 9.305, 2390], [16.99, 17.388, 1870], [17.558, 17.863, 1810], [18.182, 18.419, 1850], [18.679, 18.758, 2240], [19.232, 19.388, 2540], [25.458, 25.508, 1910], [25.608, 25.658, 2180]]
+points = [
+  { km = 7.242, kind = "signal", label = "11 P5", signal = "combined,speed_limit,wrong_road", dir = -1 },
+  { km = 7.263, kind = "signal", signal = "stop", dir = -1 },
+  { km = 7.387, kind = "station", label = "München-Pasing", uic = "8004158", pos = [48.14996, 11.46177] },
+  { km = 7.4, kind = "stop", label = "Pasing", uic = "8004158", pos = [48.14987, 11.46157], measured = true },
+  { km = 7.501, kind = "signal", label = "11 ZS5", signal = "combined,speed_limit" },
+  { km = 8.155, kind = "signal", label = "11 ZU5", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 8.318, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 8.353, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 8.405, kind = "signal", label = "11 ZT 305", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 8.499, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = 8.499, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 8.582, kind = "signal", label = "11N5", signal = "combined,route,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 8.79, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.791, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.288, kind = "signal", label = "11J", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 9.462, kind = "signal", label = "11WVjII", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 9.844, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 9.844, kind = "signal", label = "11WVjI", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 10, kind = "station", label = "Langwied", uic = "8004152", pos = [48.16304, 11.43245], measured = true },
+  { km = 10.363, kind = "signal", label = "80Vaa", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 10.366, kind = "signal", label = "80124", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 11.449, kind = "signal", label = "80AA", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 11.508, kind = "signal", signal = "distant", dir = -1 },
+  { km = 12.205, kind = "signal", label = "80P1", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 12.215, kind = "signal", signal = "stop", dir = -1 },
+  { km = 12.248, kind = "signal", signal = "stop", dir = -1 },
+  { km = 12.282, kind = "signal", signal = "stop", dir = -1 },
+  { km = 12.292, kind = "signal", label = "80WVn1", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.3, kind = "station", label = "Lochhausen", uic = "8004153", pos = [48.17603, 11.40872], measured = true },
+  { km = 12.379, kind = "signal", label = "80N1", signal = "main,minor,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 13.012, kind = "signal", label = "80F", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 13.416, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 14.015, kind = "signal", label = "80Vf", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 14.496, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 14.613, kind = "signal", label = "20132", signal = "main,traversable", dir = -1 },
+  { km = 15.401, kind = "signal", label = "20WV132", signal = "distant", dir = -1 },
+  { km = 15.444, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.5, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.568, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.6, kind = "station", label = "Gröbenzell", uic = "8002377", pos = [48.19535, 11.37326], measured = true },
+  { km = 15.944, kind = "signal", label = "20134", signal = "combined,traversable", dir = -1 },
+  { km = 16.757, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 17.05, kind = "signal", signal = "distant", dir = 1 },
+  { km = 17.37, kind = "signal", label = "20V134", signal = "distant", dir = -1 },
+  { km = 18.133, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 18.873, kind = "signal", label = "20P1", signal = "combined,minor,route,speed_limit,traversable", dir = -1 },
+  { km = 18.966, kind = "signal", signal = "stop", dir = -1 },
+  { km = 19, kind = "station", label = "Olching", uic = "8004667", pos = [48.21013, 11.33551], measured = true },
+  { km = 19.034, kind = "signal", signal = "stop", dir = -1 },
+  { km = 19.096, kind = "signal", label = "20N1", signal = "main,minor,route,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 19.661, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 19.888, kind = "signal", label = "20H", signal = "combined,route_distant,speed_limit_distant,traversable", dir = -1 },
+  { km = 20.205, kind = "signal", label = "20WVh", signal = "distant", dir = -1 },
+  { km = 20.4, kind = "stop", label = "Esting", uic = "8001996", pos = [48.2122, 11.31695], measured = true },
+  { km = 20.876, kind = "signal", label = "20Vh", signal = "distant", dir = -1 },
+  { km = 21.467, kind = "signal", label = "20136", signal = "main,traversable", dir = -1 },
+  { km = 21.494, kind = "signal", signal = "stop", dir = -1 },
+  { km = 21.556, kind = "signal", signal = "stop", dir = -1 },
+  { km = 21.6, kind = "stop", label = "Gernlinden", uic = "8002247", pos = [48.21275, 11.30051], measured = true },
+  { km = 21.604, kind = "signal", signal = "stop", dir = -1 },
+  { km = 22.523, kind = "signal", label = "20V136", signal = "distant", dir = -1 },
+  { km = 23.031, kind = "signal", signal = "distant", dir = 1 },
+  { km = 24.06, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 24.265, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.697, kind = "signal", label = "18P6", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 24.8, kind = "station", label = "Maisach", uic = "8003824", pos = [48.21424, 11.25561], measured = true },
+  { km = 25.024, kind = "signal", label = "18N6", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 25.653, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 26.003, kind = "signal", label = "18G", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 26.619, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 27.026, kind = "signal", label = "18Vg", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 27.746, kind = "halt", label = "Malching (Oberbay)", uic = "8003828", pos = [48.21541, 11.21785] },
+  { km = 27.8, kind = "stop", label = "Malching (Oberbayern)", uic = "8003828", pos = [48.21544, 11.21802], measured = true },
+  { km = 28.791, kind = "signal", label = "16Vb", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 28.837, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 29.902, kind = "signal", label = "16B", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 30.084, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 30.151, kind = "signal", label = "16L206X", signal = "minor", dir = 1 },
+  { km = 30.157, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 30.217, kind = "signal", label = "16L306Y", signal = "minor", dir = -1 },
+  { km = 30.684, kind = "signal", label = "16L306X", signal = "minor", dir = 1 },
+  { km = 30.689, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 30.834, kind = "signal", label = "16P6", signal = "combined,minor,speed_limit,traversable", dir = -1 },
+  { km = 30.874, kind = "signal", signal = "stop", dir = -1 },
+  { km = 31, kind = "station", label = "Mammendorf", uic = "8004204", pos = [48.21687, 11.1761], measured = true },
+  { km = 31.04, kind = "signal", signal = "stop", dir = -1 },
+  { km = 31.108, kind = "signal", signal = "stop", dir = 1 },
+  { km = 31.179, kind = "signal", signal = "stop", dir = 1 },
+  { km = 31.188, kind = "signal", label = "16N6", signal = "main,minor,speed_limit,traversable,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 7.787, kmTo = 7.846, length = 62 },
+  { kind = "bridge", kmFrom = 8.053, kmTo = 8.134, length = 84 },
+  { kind = "bridge", kmFrom = 8.192, kmTo = 8.274, length = 76 },
+  { kind = "bridge", kmFrom = 8.428, kmTo = 8.493, length = 80 },
+  { kind = "bridge", kmFrom = 9.972, kmTo = 10.026, length = 56 },
+  { kind = "bridge", kmFrom = 15.31, kmTo = 15.345, length = 38 },
+  { kind = "bridge", kmFrom = 19.158, kmTo = 19.182, length = 26 },
+  { kind = "bridge", kmFrom = 19.341, kmTo = 19.389, length = 55 },
+  { kind = "bridge", kmFrom = 19.8, kmTo = 19.87, length = 77 },
+  { kind = "bridge", kmFrom = 20.233, kmTo = 20.266, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ckheH_aecAPwG", v = 80 },
+  { line = "qjheHwiecAxMgdM", v = 120 },
+  { line = "w{geH_oscAbAyp@", v = 80 },
+  { line = "sygeHy`ucAxIk}IdBubAjGmeAxFmf@hF}YxQun@|Lao@vGkSdNy]ntFcaMpIyP~NsU", v = 120 },
+  { line = "kk|dHeizdAjFoIhCaG", v = 90 },
+  { line = "u_|dHw{zdAPi@", v = 60 },
+  { line = "c_|dHa}zdAhD}KfBoK" },
+  { line = "qv{dHov{dAxBiW~T{dA", v = 100 },
+]
+posts = [[31, 48.21681, 11.1761], [30, 48.21637, 11.18779], [29, 48.21599, 11.20144], [28, 48.21558, 11.21432], [27, 48.21514, 11.22808], [26, 48.21472, 11.24118], [25, 48.21417, 11.25432], [24, 48.2138, 11.26863], [23, 48.21336, 11.28203], [22, 48.21292, 11.29531], [21, 48.21251, 11.3083], [20, 48.21185, 11.32202], [19, 48.20996, 11.33556], [18, 48.20625, 11.34776], [17, 48.20242, 11.35946], [16, 48.19707, 11.37011], [15, 48.19138, 11.38054], [14, 48.18596, 11.39051], [13, 48.17996, 11.40153], [12, 48.17412, 11.4122], [11, 48.16871, 11.4221], [10, 48.16303, 11.43232], [9, 48.15707, 11.44275], [8, 48.15198, 11.4539], [7, 48.14823, 11.46685]]
+
+[[connections]]
+km = 7.387
+station = "München-Pasing"
+lines = [
+  { id = "5503", ref = "5503", name = "5503 München - Augsburg", km = 7.4 },
+  { id = "5504", ref = "5504", name = "5504 München Hbf - Mittenwald Grenze", km = 7.4 },
+  { id = "5540", ref = "5540", name = "5540 München Hbf tief - Gauting", km = 7.39 },
+]
+
+[[connections]]
+km = 7.4
+station = "Pasing"
+lines = [
+  { id = "5540", ref = "5540", name = "5540 München Hbf tief - Gauting", km = 7.4 },
+]
+
+[[connections]]
+km = 10
+station = "Langwied"
+lines = [
+  { id = "5304", ref = "5304", name = "5304 Augsburg Hbf - Buchloe", km = 10 },
+]
+
+[[connections]]
+km = 19
+station = "Olching"
+lines = [
+  { id = "5581", ref = "5581", name = "5581 Olching - Augsburg Hbf", km = 18.981 },
+]
+
+[[connections]]
+km = 31
+station = "Mammendorf"
+lines = [
+  { id = "5304", ref = "5304", name = "5304 Augsburg Hbf - Buchloe", km = 31 },
+  { id = "5503", ref = "5503", name = "5503 München - Augsburg", km = 30.828 },
+  { id = "5581", ref = "5581", name = "5581 Olching - Augsburg Hbf", km = 30.862 },
+]

@@ -1,0 +1,55 @@
+id = "2815"
+ref = "2815"
+name = "Bahnstrecke 2815 Meinerzhagen – Krummenerl"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q802748"
+from = "Meinerzhagen"
+to = "Krummenerl"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 12.178
+length = 12.178
+speeds = [[0, 12.178, 40, 40]]
+curves = [[0.1, 0.15, 2790], [0.5, 0.775, 700], [0.95, 1.15, 1260], [2.375, 2.925, 350], [3.5, 3.95, 370], [4.325, 5.1, 440], [5.175, 5.35, 890], [5.6, 5.9, 550], [5.975, 6.375, 380], [6.65, 7.1, 380], [8, 8.075, 2110], [8.15, 8.225, 2040], [8.6, 8.75, 1050], [8.875, 8.975, 750], [9.025, 9.45, 360], [9.5, 9.825, 450], [10.175, 10.475, 630], [10.9, 12, 320]]
+points = [
+  { km = 0, kind = "signal", label = "93 P1", signal = "main", dir = -1 },
+  { km = 0.234, kind = "signal", label = "93 P2", signal = "main", dir = 1 },
+  { km = 11.5, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.902, kind = "signal", label = "92 N2", signal = "main,speed_limit", dir = -1 },
+  { km = 11.995, kind = "station", label = "Meinerzhagen", pos = [51.10786, 7.63282], uic = "8003950" },
+  { km = 12.067, kind = "signal", label = "92 P2", signal = "main,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.457, kmTo = 0.469, length = 13 },
+  { kind = "bridge", kmFrom = 2.302, kmTo = 2.314, length = 12 },
+  { kind = "bridge", kmFrom = 5.219, kmTo = 5.24, length = 22 },
+  { kind = "bridge", kmFrom = 6.23, kmTo = 6.264, length = 34 },
+  { kind = "bridge", kmFrom = 6.772, kmTo = 6.812, length = 40 },
+  { kind = "bridge", kmFrom = 8.706, kmTo = 8.937, length = 231 },
+  { kind = "bridge", kmFrom = 9.731, kmTo = 9.741, length = 11 },
+  { kind = "bridge", kmFrom = 10.119, kmTo = 10.129, length = 10 },
+  { kind = "bridge", kmFrom = 10.684, kmTo = 10.8, length = 115 },
+  { kind = "tunnel", kmFrom = 11.015, kmTo = 11.412, length = 397, name = "Schwarzenberg Tunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ipwvH{win@w\\vCiEhA_UzRyeAnk@iDjE{BrHm@rLdEt{@[fMmAtFcBnDgY`^wBbIa@xJJrJr@vGjIvVfHl`@\\dJ_@bTx@`JzBtGdQtXrAfEr@hFD`KaIvxA", v = 40 },
+  { line = "is{vH_wym@IhC", tunnel = true, v = 40 },
+  { line = "ss{vHurym@oDtp@yCrSuC|Ko@lJ`@lIrDtPp@dHApHwC`f@MrHvGnz@", v = 40 },
+  { line = "kx{vH}xqm@[hG_BpGcCxDyCjB", tunnel = true, v = 40 },
+  { line = "ee|vH{~pm@mFMcK{HsCoHiD}S", v = 40 },
+]
+posts = [[0, 51.07989, 7.75566], [1, 51.08839, 7.75198], [2, 51.09672, 7.74662], [3, 51.10202, 7.73745], [4, 51.10308, 7.72438], [5, 51.10677, 7.7132], [6, 51.10376, 7.70021], [7, 51.0992, 7.68866], [8, 51.10075, 7.67456], [9, 51.10289, 7.66075], [10, 51.10261, 7.64715], [11, 51.10166, 7.63317], [12, 51.10784, 7.63295]]
+
+[[connections]]
+km = 11.995
+station = "Meinerzhagen"
+lines = [
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = -31.285 },
+  { id = "2810", ref = "2810", name = "2810 Hagen-Oberhagen - Dieringhausen", km = 38.902 },
+]

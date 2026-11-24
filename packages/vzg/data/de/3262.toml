@@ -1,0 +1,34 @@
+id = "3262"
+ref = "3262"
+name = "3262 Saarbrücken Rbf - Saarbrücken Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Saarbrücken Rbf"
+to = "Saarbrücken Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.798
+length = 1.798
+speeds = [[0, 1.798, "", ""]]
+curves = [[0.1, 0.175, 860], [0.25, 0.325, 2260], [0.475, 0.55, 1260], [0.6, 0.7, 490], [1.125, 1.2, 2180], [1.325, 1.6, 760]]
+points = [
+  { km = 0.096, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.122, kind = "signal", label = "P111", signal = "main,minor", dir = -1 },
+  { km = 0.961, kind = "signal", label = "209", signal = "minor", dir = -1 },
+  { km = 1.616, kind = "signal", label = "20 C", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 1.744, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.661, kmTo = 0.721, length = 60 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ajtkHkpvi@~DHhVaCrFE" },
+  { line = "ceskHitvi@hBg@", tunnel = true },
+  { line = "yaskHquvi@jWmFpMgAlEX~LzD" },
+]
+posts = [[0, 49.26129, 7.00182], [1, 49.2524, 7.00343]]

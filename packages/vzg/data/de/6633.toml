@@ -1,0 +1,35 @@
+id = "6633"
+ref = "6633"
+name = "6633 Wechselburg–Küchwald"
+operator = "Eisenbahnfreunde Chemnitztal"
+gauge = "1435"
+wikidata = "Q803438"
+from = "Wechselburg"
+to = "Küchwald"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.936
+length = 1.936
+speeds = [[0, 1.936, "", ""]]
+curves = [[0.25, 0.425, 750], [0.525, 1.75, 370]]
+points = [
+  { km = 0.006, kind = "halt", label = "Schweizerthal-Diethensdorf", pos = [50.93876, 12.84132] },
+  { km = 0.541, kind = "halt", label = "Neuschweizerthal", pos = [50.93709, 12.8484] },
+  { km = 0.953, kind = "halt", label = "Amselgrund", pos = [50.93486, 12.85275] },
+  { km = 1.558, kind = "halt", label = "Alte Mühle / Schreckenstein", pos = [50.9298, 12.85083] },
+  { km = 1.936, kind = "station", label = "Markersdorf-Taura", pos = [50.92681, 12.85426] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.453, kmTo = 0.524, length = 70 },
+  { kind = "bridge", kmFrom = 0.646, kmTo = 0.713, length = 67 },
+  { kind = "bridge", kmFrom = 1.634, kmTo = 1.654, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q~{uH{`kmAdG{WzBiZhB_HtDaGvDgBzFHpC|AxFtGnEr@tBo@pD_D|IiL" },
+]
+posts = [[0, 50.93881, 12.84126], [1, 50.93444, 12.85287]]

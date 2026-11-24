@@ -1,0 +1,29 @@
+id = "5529"
+ref = "5529"
+name = "5529 München-Pasing - München-Pasing Bbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "München-Pasing"
+to = "München-Pasing Bbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.368
+length = 0.368
+speeds = [[0, 0.152, "", ""], [0.152, 0.368, 60, 60]]
+curves = [[0.1, 0.25, 460]]
+points = [
+  { km = 0.083, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.152, kind = "signal", label = "12 G", signal = "combined,speed_limit", dir = 1 },
+  { km = 0.302, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.321, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sf|dHudzdAfD_I" },
+  { line = "ka|dHunzdAjBkP", v = 60 },
+]
+posts = [[0, 48.15482, 11.44411]]

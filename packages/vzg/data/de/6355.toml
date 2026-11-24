@@ -1,0 +1,44 @@
+id = "6355"
+ref = "6355"
+name = "6355 Abzw Angersdorf Awo - Halle-Nietleben"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Angersdorf Abzw Awo"
+to = "Hallle-Nietleben"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 15.105
+kmTo = 19.206
+length = 4.167
+speeds = [[15.105, 15.835, 70, 70], [15.835, 18.063, 100, 100], [18.063, 19.206, 60, 60]]
+curves = [[15.205, 15.855, 630], [16.105, 16.205, 2150], [16.78, 17.237, 780], [17.469, 17.588, 1620], [18.04, 18.565, 390], [18.615, 18.765, 750]]
+points = [
+  { km = 15.309, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.401, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 15.415, kind = "signal", signal = "combined", dir = -1 },
+  { km = 16.394, kind = "signal", signal = "combined", dir = 1 },
+  { km = 16.894, kind = "signal", signal = "main", dir = -1 },
+  { km = 17.089, kind = "stop", label = "Halle Zscherbener Straße", pos = [51.47313, 11.92101], uic = "8023057" },
+  { km = 17.289, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.643, kind = "signal", label = "72", signal = "combined,traversable", dir = -1 },
+  { km = 17.792, kind = "station", label = "Halle-Neustadt", pos = [51.48007, 11.92065] },
+  { km = 17.8, kind = "stop", label = "Halle Neustadt", pos = [51.48015, 11.92066] },
+  { km = 18.078, kind = "signal", signal = "combined,short_route,traversable", dir = 1 },
+  { km = 19.032, kind = "signal", label = "86", signal = "combined,traversable", dir = -1 },
+  { km = 19.034, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.139, kind = "station", label = "Halle-Nietleben", pos = [51.48798, 11.90797], uic = "8023084" },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 17.607, kmTo = 18.063, length = 457 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{hayHuzugAuDvIcGlDmJu@{IyE", v = 70 },
+  { line = "_mbyH_sugA_P}Mw]o^gFoDgJqB{Zh@", v = 100 },
+  { line = "ckeyHeiwgAoXrC", tunnel = true, v = 100 },
+  { line = "sdfyHqdwgAmHjCmBxB_CbFgAfFcBbOaLxg@", v = 60 },
+]
+posts = [[16, 51.46467, 11.91345], [17, 51.47241, 11.92076], [18, 51.48193, 11.92035], [19, 51.4873, 11.91018]]

@@ -1,0 +1,56 @@
+id = "6127"
+ref = "6127"
+name = "6127 Genshagener Heide - Großbeeren"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131688831"
+from = "Genshagener Heide"
+to = "Großbeeren"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 16.114
+kmTo = 20.674
+length = 4.592
+speeds = [[16.114, 19.594, "", ""], [19.594, 19.718, 50, 50], [19.718, 20.674, "", ""]]
+curves = [[16.53, 17.03, 1430], [17.805, 18.284, 350], [18.5, 18.692, 780], [19.699, 19.799, 790], [19.849, 19.974, 1020], [20.399, 20.474, 1950]]
+points = [
+  { km = 16.244, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.327, kind = "signal", label = "78 P4", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 16.596, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 16.794, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 16.934, kind = "signal", label = "78 N4", signal = "combined,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 17.686, kind = "signal", label = "78H", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 18.377, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 18.523, kind = "signal", signal = "distant", dir = 1 },
+  { km = 18.897, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.173, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 19.534, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 19.594, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 19.65, kind = "signal", signal = "minor", dir = 1 },
+  { km = 19.711, kind = "signal", signal = "distant", dir = 1 },
+  { km = 19.822, kind = "station", label = "Großbeeren", uic = "8003440", pos = [52.35091, 13.2847] },
+  { km = 19.984, kind = "signal", label = "23P4", signal = "combined,minor,route_distant,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 20.597, kind = "signal", label = "23 N4", signal = "main,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 17.628, kmTo = 17.648, length = 20 },
+  { kind = "bridge", kmFrom = 17.829, kmTo = 17.883, length = 56 },
+  { kind = "bridge", kmFrom = 19.718, kmTo = 19.729, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{eq~HmibpAzL~BzY`J`JhF" },
+  { line = "aro~HasapAtE|A", v = 50 },
+  { line = "kko~HcpapAnr@lSvXIvCv@zClChBnDnAnF|NvgAhCvNfFvPtP~`@" },
+]
+posts = [[20, 52.35231, 13.28591], [19, 52.34385, 13.28198], [18, 52.33477, 13.27953], [17, 52.33142, 13.26581]]
+
+[[connections]]
+km = 19.822
+station = "Großbeeren"
+lines = [
+  { id = "6132", ref = "6132", name = "6132 Berlin - Halle (Saale) Hbf", km = 18.523 },
+]

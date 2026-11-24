@@ -1,0 +1,47 @@
+id = "6691"
+ref = "6691"
+name = "6691 Obstfelderschmiede - Lichtenhain a d Bergbahn - Cursdorf"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q2011467"
+from = "Obstfelderschmiede"
+to = "Cursdorf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.405
+kmTo = 3.906
+length = 2.512
+speeds = [[1.405, 1.413, "", ""], [1.413, 1.498, 10, 10], [1.498, 1.624, 10, 30], [1.624, 3.906, 30, 30]]
+curves = [[1.505, 1.721, 370], [1.768, 2.107, 270], [2.159, 2.316, 430], [2.368, 2.68, 360], [2.732, 3.045, 360], [3.095, 3.37, 520], [3.445, 3.795, 260]]
+points = [
+  { km = 1.405, kind = "station", label = "Lichtenhain an der Bergbahn", uic = "8016307", ele = 662, pos = [50.59202, 11.13244] },
+  { km = 1.438, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.495, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.498, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.515, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.603, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.624, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.63, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.705, kind = "signal", signal = "speed_limit_distant,whistle", dir = -1 },
+  { km = 2.67, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.847, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.947, kind = "signal", signal = "stop", dir = -1 },
+  { km = 2.957, kind = "stop", label = "Oberweißbach-Deesbach", pos = [50.57909, 11.13555], ele = 664 },
+  { km = 2.97, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.981, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.178, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.199, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.429, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.894, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.906, kind = "stop", label = "Cursdorf", pos = [50.5718, 11.13166], ele = 678 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cfxsH{h}bANB" },
+  { line = "sexsHwh}bArCd@", v = 10 },
+  { line = "_axsHqg}bAbFi@pJeIzCu@jCp@`HpFvLzAdCmA`JwL|FcBxNxE|DOtIwBxC\\lEdGt@tDRrE", v = 30 },
+]
+posts = [[2, 50.58704, 11.13433], [3, 50.5786, 11.13532]]

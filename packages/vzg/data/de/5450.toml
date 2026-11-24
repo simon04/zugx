@@ -1,0 +1,62 @@
+id = "5450"
+ref = "5450"
+name = "5450 Weilheim (Oberbay) - Peißenberg"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Weilheim (Oberbay)"
+to = "Peißenberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 9.285
+length = 9.285
+speeds = [[0, 0.554, 50, 50], [0.554, 0.736, 60, 60], [0.736, 0.75, "", ""], [0.75, 0.766, 60, 60], [0.766, 2.889, 100, 100], [2.889, 7.683, 60, 60], [7.683, 7.691, "", ""], [7.691, 9.285, 60, 60]]
+curves = [[0.1, 0.175, 1160], [0.375, 0.5, 1550], [0.575, 0.75, 950], [1.525, 2.05, 590], [3.275, 4.2, 730], [4.4, 4.7, 1170], [5.15, 5.375, 1050], [5.525, 6.1, 790], [6.175, 6.625, 1140], [6.825, 7.1, 760], [7.5, 8.05, 800], [8.275, 8.675, 750], [9.05, 9.175, 1160]]
+points = [
+  { km = 0.15, kind = "signal", label = "96 P5", signal = "main,minor,route,speed_limit,traversable", dir = -1 },
+  { km = 0.373, kind = "station", label = "Weilheim (Oberbayern)", pos = [47.84522, 11.14303], uic = "8000220" },
+  { km = 0.45, kind = "signal", signal = "main", dir = 1 },
+  { km = 0.59, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.696, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.02, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 6.843, kind = "stop", label = "Peißenberg Nord", pos = [47.81553, 11.07675], uic = "8004763" },
+  { km = 9.285, kind = "station", label = "Peißenberg", pos = [47.79749, 11.06027], uic = "8004762" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.736, kmTo = 0.766, length = 30 },
+  { kind = "bridge", kmFrom = 0.994, kmTo = 1.016, length = 22 },
+  { kind = "bridge", kmFrom = 2.215, kmTo = 2.294, length = 79 },
+  { kind = "bridge", kmFrom = 2.874, kmTo = 2.889, length = 15 },
+  { kind = "bridge", kmFrom = 8.654, kmTo = 8.673, length = 19 },
+  { kind = "bridge", kmFrom = 9.087, kmTo = 9.104, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oi`cHcz_cApGnHxP`N", v = 50 },
+  { line = "co_cHqa_cAtGzF", v = 60 },
+  { line = "mf_cHuy~bAPT" },
+  { line = "{e_cH_y~bAVZ", v = 60 },
+  { line = "ce_cHcx~bAdc@tj@nCpF`BdGdA|JfCdkA", v = 100 },
+  { line = "}r}bHqdzbA|@`b@t@`KjCpLnDjIfErFnDpC~X~JxFlEpX`XrLzUxBvGfBxKbBfl@fHja@rEvLjPvYrEfG", v = 60 },
+  { line = "s~xbH_ypbAJH" },
+  { line = "g~xbHuxpbA~IrFjVtCfIdCtEpDfUjVlFjD", v = 60 },
+]
+posts = [[0, 47.84808, 11.14546], [1, 47.84062, 11.13806], [2, 47.83489, 11.12828], [3, 47.83415, 11.11493], [4, 47.8306, 11.10341], [5, 47.82248, 11.09791], [6, 47.81721, 11.08762], [7, 47.81484, 11.07494], [8, 47.80786, 11.06695], [9, 47.7997, 11.0622]]
+
+[[connections]]
+km = 0.373
+station = "Weilheim"
+lines = [
+  { id = "5370", ref = "5370", name = "5370 Mering - Weilheim (Oberbay)", km = 54.579 },
+  { id = "5504", ref = "5504", name = "5504 München Hbf - Mittenwald Grenze", km = 53.401 },
+]
+
+[[connections]]
+km = 9.285
+station = "Peißenberg"
+lines = [
+  { id = "5444", ref = "5444", name = "5444 Schongau - Peißenberg", km = 15.641 },
+]

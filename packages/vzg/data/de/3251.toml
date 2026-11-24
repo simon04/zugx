@@ -1,0 +1,65 @@
+id = "3251"
+ref = "3251"
+name = "3251 Saarbrücken - Hanweiler Grenze"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q803137"
+from = "Saarbrücken Hbf"
+to = "Hanweiler Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.155
+kmTo = 16.923
+length = 15.739
+speeds = [[1.155, 1.232, 60, 60], [1.232, 11.262, 100, 100], [11.262, 11.794, 70, 70], [11.794, 15.779, 100, 100], [15.779, 15.844, 40, 40], [15.844, 16.539, 90, 90], [16.539, 16.554, 60, 60], [16.554, 16.923, 90, 90]]
+curves = [[1.269, 1.444, 1130], [1.519, 1.919, 980], [2.176, 2.41, 1720], [2.68, 2.811, 1240], [3.208, 3.481, 1580], [3.952, 4.1, 1430], [4.498, 4.674, 1310], [6.372, 6.923, 930], [7.273, 8.373, 970], [8.948, 9.123, 1520], [9.548, 10.198, 760], [10.523, 10.948, 620], [11.248, 11.698, 660], [12.773, 13.048, 880], [13.798, 14.198, 950], [15.098, 15.573, 590], [15.723, 15.773, 2190], [16.748, 16.823, 1520]]
+points = [
+  { km = 1.745, kind = "signal", label = "A", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 2.535, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.658, kind = "halt", label = "Saarbrücken Ost", uic = "8005241", pos = [49.23051, 7.01871] },
+  { km = 3.312, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 4.329, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 4.375, kind = "station", label = "Saarbrücken-Brebach", pos = [49.21666, 7.02877] },
+  { km = 4.396, kind = "signal", label = "N2", signal = "main,traversable", dir = 1 },
+  { km = 6.479, kind = "stop", label = "Saarbrücken-Güdingen", pos = [49.19757, 7.03082] },
+  { km = 6.499, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 6.51, kind = "signal", label = "2", signal = "main,traversable", dir = -1 },
+  { km = 8.663, kind = "stop", label = "Saarbrücken - Bübingen", pos = [49.1797, 7.0349] },
+  { km = 11.294, kind = "stop", label = "Kleinblittersdorf Bf", pos = [49.15788, 7.03354] },
+  { km = 11.294, kind = "halt", label = "Kleinblittersdorf", pos = [49.15788, 7.03352] },
+  { km = 11.794, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.885, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 13.094, kind = "station", label = "Auersmacher", pos = [49.14332, 7.04478] },
+  { km = 16.002, kind = "stop", label = "Hanweiler - Bad Rilchingen", pos = [49.11872, 7.04999], uic = "8002588" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.492, kmTo = 1.534, length = 42 },
+  { kind = "bridge", kmFrom = 2.776, kmTo = 2.791, length = 17 },
+  { kind = "bridge", kmFrom = 3.056, kmTo = 3.17, length = 131 },
+  { kind = "bridge", kmFrom = 16.539, kmTo = 16.554, length = 15 },
+  { kind = "bridge", kmFrom = 16.866, kmTo = 16.923, length = 57 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wdwjH}jaj@iC|DmKrK", v = 90 },
+  { line = "ouwjHkx`j@UT", v = 60 },
+  { line = "evwjHuw`j@o_@d`@", v = 90 },
+  { line = "uvxjHov_j@eBvA", v = 40 },
+  { line = "{yxjHws_j@oN`NqD~AgEj@e|@qLeHAoGbAck@xPgErBir@fr@", v = 100 },
+  { line = "wi_kHcc}i@{GvGeDfBsF\\aE]", v = 70 },
+  { line = "oe`kHcw|i@{T{D_GRuEhBcZtSkHdByGCcGsAo[yMob@i[{FuC}LsBwKt@sFlBwFnD{Yl]qJdFiLlAs_B~E_OdDqStHa\\pRqZhZ_T~Y}RfQsFnGiPf^", v = 100 },
+  { line = "{dpkH}jwi@eBnC", v = 60 },
+]
+posts = [[16, 49.11877, 7.05005], [15, 49.12692, 7.04567], [14, 49.13582, 7.04754], [13, 49.14455, 7.0443], [12, 49.15218, 7.0371], [11, 49.16048, 7.03427], [10, 49.16885, 7.03039], [9, 49.17751, 7.03318], [8, 49.18568, 7.03871], [7, 49.19374, 7.03372], [6, 49.20218, 7.03045], [5, 49.21104, 7.02981], [4, 49.21984, 7.02751], [3, 49.22753, 7.02165], [2, 49.23504, 7.01329]]
+
+[[connections]]
+km = 2.658
+station = "Saarbrücken Ost"
+lines = [
+  { id = "3250", ref = "3250", name = "3250 Saarbrücken - Homburg", km = 2.659 },
+  { id = "3274", ref = "3274", name = "3274 Wemmetsweiler - Nonnweiler", km = 29.431 },
+  { id = "3291", ref = "3291", name = "3291 Bahnstrecke Lebach – Völklingen", km = 29.431 },
+]

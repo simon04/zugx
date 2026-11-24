@@ -1,0 +1,46 @@
+id = "2304"
+ref = "2304"
+name = "2304 Abzw Duisburg-Meiderich Ost - Oberhausen West"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Duisburg-Meiderich Ost"
+to = "Oberhausen West"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.324
+length = 2.324
+speeds = [[0, 0.083, "", ""], [0.083, 1.954, 40, 40], [1.954, 2.324, "", ""]]
+curves = [[0.1, 0.175, 1390], [0.225, 0.35, 1430], [0.675, 0.825, 1050], [0.875, 1.025, 1040], [1.6, 1.775, 1190], [1.9, 2.2, 620]]
+points = [
+  { km = 0.173, kind = "signal", label = "76 ZS 46", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.732, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.952, kind = "signal", label = "76 ZV 46", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 1.289, kind = "signal", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 1.731, kind = "signal", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 2.324, kind = "halt", label = "Duisburg-Meiderich Ost", uic = "8001607", pos = [51.46883, 6.80116] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.294, kmTo = 1.337, length = 44 },
+  { kind = "bridge", kmFrom = 1.389, kmTo = 1.416, length = 27 },
+  { kind = "bridge", kmFrom = 1.738, kmTo = 1.766, length = 27 },
+  { kind = "bridge", kmFrom = 2.252, kmTo = 2.268, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wbeyHwsuh@~AvD" },
+  { line = "w_eyH_nuh@jEnOrHna@`ClUdNhx@tGxT", v = 40 },
+  { line = "yscyHmuph@dBnK^vR" },
+]
+posts = [[0, 51.47708, 6.8334], [1, 51.4733, 6.82042], [2, 51.46938, 6.80748]]
+
+[[connections]]
+km = 2.324
+station = "Duisburg-Meiderich Ost"
+lines = [
+  { id = "2274", ref = "2274", name = "2274 Oberhausen Hbf - Duisburg-Ruhrort", km = 3.843 },
+  { id = "2331", ref = "2331", name = "2331 Abzw Meerbeck - Oberhausen Walzwerk", km = 13.588 },
+]

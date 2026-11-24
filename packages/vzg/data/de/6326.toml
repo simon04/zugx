@@ -1,0 +1,53 @@
+id = "6326"
+ref = "6326"
+name = "6326 Schönwalde- Lubmin"
+operator = "DB InfraGO AG;Energiewerke Nord GmbH"
+gauge = "1435"
+wikidata = "Q802356"
+from = "Schönwalde"
+to = "Lubmin Gbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 5.341
+kmTo = 25.279
+length = 19.831
+speeds = [[5.341, 19.174, 50, 50], [19.174, 19.217, 10, 10], [19.217, 24.62, 50, 50], [24.62, 25.279, "", ""]]
+curves = [[5.446, 6.611, 1430], [8.806, 8.88, 2770], [9.275, 9.399, 2710], [9.572, 9.671, 2070], [9.868, 9.967, 2040], [10.115, 10.189, 2800], [10.313, 10.362, 2070], [13.328, 14.104, 1660], [14.794, 14.961, 1710], [15.008, 15.151, 1760], [15.199, 15.294, 1810], [17.83, 17.983, 1920], [18.11, 18.212, 2530], [18.263, 18.34, 2490], [18.442, 18.544, 1600], [19.601, 20.169, 1050], [20.786, 20.86, 2490], [21.032, 21.18, 2160], [21.304, 21.378, 2950], [23.688, 24.504, 1500], [24.554, 24.754, 1300]]
+points = [
+  { km = 5.7, kind = "signal", label = "46 03", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 5.854, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 6.398, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 12.112, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.209, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.494, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.647, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 15.128, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 16.556, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 16.944, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 18.316, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 18.49, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 19.174, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.175, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.217, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.217, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.888, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 19.957, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 20.808, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 22.206, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 22.439, kind = "halt", label = "Seebad Lubmin", pos = [54.13057, 13.62587] },
+  { km = 24.186, kind = "signal", label = "A", signal = "main,traversable", dir = 1 },
+  { km = 24.527, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 24.675, kind = "signal", label = "B", signal = "main,traversable", dir = -1 },
+  { km = 25.279, kind = "station", label = "Lubmin Personenbahnhof", pos = [54.1371, 13.66762] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "auliIe{krA_Dp}@" },
+  { line = "azliIs|irAp@n^|BdWdBbL~hAhuEbGr_@vJf|@dCxN`DrKdDvHlR|Z", v = 50 },
+  { line = "sqhiIoa|qAx@rA", v = 10 },
+  { line = "yohiI{~{qA`\\dg@xKjLhLfJjQ`JhwB~}@tLbHlLxLpa@ll@tJtRnFpPvlAvpGzFlc@|BtZ~@xVdAf|@fO`cEd@`V]hUiDd]mEvScJhV", v = 50 },
+]
+posts = [[25, 54.13766, 13.66044], [24, 54.13738, 13.64665], [23, 54.13312, 13.63323], [22, 54.1286, 13.62028], [21, 54.12425, 13.60704], [20, 54.12119, 13.59241], [19, 54.11479, 13.58166], [18, 54.10751, 13.57327], [17, 54.09859, 13.56826], [16, 54.09078, 13.56418], [15, 54.08211, 13.55905], [14, 54.07456, 13.5494], [13, 54.07007, 13.53767], [12, 54.06613, 13.5237], [11, 54.06218, 13.50972], [10, 54.0585, 13.49555], [9, 54.05718, 13.48028], [8, 54.05605, 13.4649], [7, 54.0548, 13.44978], [6, 54.05488, 13.4346]]

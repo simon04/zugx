@@ -1,0 +1,39 @@
+id = "2814"
+ref = "2814"
+name = "2814 Oberbrügge - Wipperfürth"
+wikidata = "Q19838765"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 6.733
+length = 6.733
+speeds = [[0, 6.733, "", ""]]
+curves = [[0.1, 0.425, 1520], [0.7, 1, 380], [1.05, 1.225, 580], [1.275, 1.775, 310], [1.95, 2.35, 310], [2.425, 2.575, 1330], [2.675, 2.85, 990], [2.925, 3.075, 760], [3.425, 3.85, 440], [4, 4.4, 340], [4.45, 5.4, 300], [5.45, 6.025, 330], [6.075, 6.625, 350]]
+points = [
+  { km = 0.176, kind = "station", label = "Halver-Oberbrügge", pos = [51.1918, 7.574] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.608, kmTo = 0.632, length = 24 },
+  { kind = "bridge", kmFrom = 0.717, kmTo = 0.738, length = 21 },
+  { kind = "tunnel", kmFrom = 3.945, kmTo = 4.246, length = 301, name = "Sticht-Tunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ysmwHmqfm@zClEvG~FrZpQxA`DfD`RrFfLvA|HFxHy@zGoKhWmAlK^xI`D`QvBlRVzVzFnm@EnD{@rGoGdO" },
+  { line = "w`lwHut}l@kFzJyDbC", tunnel = true },
+  { line = "}mlwHud}l@sDR_J{A_EhA_C~BaBjD}@~D[`F\\|IzAhG|CfEnLbIpB|Dt@fDZdECjGqClXJxFhAbG" },
+  { line = "atlwHmgyl@j@`B", tunnel = true },
+  { line = "urlwHkdyl@zAjCfJnH" },
+]
+posts = [[0, 51.19309, 7.57543], [1, 51.18568, 7.56807], [2, 51.18567, 7.55599], [3, 51.18449, 7.54228], [4, 51.18525, 7.52929], [5, 51.19224, 7.5234], [6, 51.18793, 7.51264]]
+
+[[connections]]
+km = 0.176
+station = "Halver-Oberbrügge"
+lines = [
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = -18.709 },
+  { id = "2810", ref = "2810", name = "2810 Hagen-Oberhagen - Dieringhausen", km = 26.15 },
+]

@@ -1,0 +1,221 @@
+id = "2413"
+ref = "2413"
+name = "2413 Düsseldorf-Eller - Düsseldorf Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q19838712"
+from = "Düsseldorf-Eller"
+to = "Düsseldorf Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.009
+kmTo = 20.808
+length = 20.787
+speeds = [[-0.009, 1.275, 80, 80], [1.275, 1.539, 90, 90], [1.539, 5.854, 80, 80], [5.854, 6.364, 60, 60], [6.364, 6.727, 70, 70], [6.727, 12.869, 120, 120], [12.869, 13.284, 100, 100], [13.284, 13.398, 160, 160], [13.398, 13.699, 100, 100], [13.699, 19.868, 120, 120], [19.868, 20.808, 70, 70]]
+curves = [[0.091, 0.566, 520], [0.84, 0.913, 2760], [1.011, 1.806, 850], [2.184, 2.899, 1100], [4.126, 4.872, 470], [5.033, 5.542, 860], [5.771, 5.896, 1650], [6.221, 6.596, 560], [7.071, 7.296, 2150], [7.571, 7.646, 2290], [7.946, 8.021, 2730], [8.096, 8.421, 1950], [9.246, 9.396, 2280], [10.021, 10.146, 2610], [11.021, 11.146, 2320], [13.246, 13.421, 1330], [17.246, 17.496, 2600], [18.146, 18.571, 1910], [19.321, 19.546, 1530], [19.746, 19.846, 2190], [19.946, 20.346, 440], [20.471, 20.596, 1630]]
+points = [
+  { km = -0.009, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.012, kind = "station", label = "Düsseldorf-Eller", pos = [51.20229, 6.85328], uic = "8001587" },
+  { km = 0.1, kind = "signal", label = "P447", signal = "distant,main", dir = 1 },
+  { km = 0.166, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.188, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.424, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.46, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 1.001, kind = "stop", label = "Düsseldorf-Eller Mitte", pos = [51.20204, 6.83857], uic = "8001308" },
+  { km = 1.046, kind = "halt", label = "Eller Mitte S", pos = [51.20125, 6.83845] },
+  { km = 1.076, kind = "signal", signal = "main", dir = 1 },
+  { km = 1.292, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.481, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 1.597, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.486, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.688, kind = "signal", label = "561", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 3.177, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.188, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 3.294, kind = "stop", label = "Düsseldorf-Oberbilk", pos = [51.20805, 6.80878], uic = "8001591" },
+  { km = 3.351, kind = "halt", label = "Oberbilk S", pos = [51.20855, 6.80818] },
+  { km = 3.444, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.629, kind = "signal", label = "563", signal = "distant,main,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 4.05, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.169, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.29, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 4.406, kind = "signal", label = "wvd141", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.496, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 4.531, kind = "stop", label = "Düsseldorf Volksgarten", pos = [51.2101, 6.79188], uic = "8001581" },
+  { km = 4.57, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.574, kind = "signal", label = "D141", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 4.778, kind = "halt", label = "Düsseldorf-Friedrichstadt", uic = "8001579", pos = [51.21212, 6.78915] },
+  { km = 4.85, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.87, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.03, kind = "signal", label = "143", signal = "minor", dir = 1 },
+  { km = 5.108, kind = "signal", signal = "minor", dir = -1 },
+  { km = 5.654, kind = "signal", label = "P140", signal = "main,minor,route,speed_limit", dir = -1 },
+  { km = 5.735, kind = "station", label = "Düsseldorf Hauptbahnhof", uic = "8008094", pos = [51.21971, 6.79394] },
+  { km = 5.854, kind = "signal", label = "N140", signal = "distant,main,minor,route,speed_limit", dir = 1 },
+  { km = 6.206, kind = "signal", label = "801", signal = "distant,main", dir = 1 },
+  { km = 6.364, kind = "signal", signal = "distant,speed_limit", dir = 1 },
+  { km = 6.477, kind = "signal", label = "A803", signal = "distant,main", dir = 1 },
+  { km = 6.684, kind = "signal", label = "P805", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 6.727, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.823, kind = "station", label = "Düsseldorf Wehrhahn", pos = [51.22842, 6.79816], uic = "8001582" },
+  { km = 6.936, kind = "signal", signal = "stop", dir = 1 },
+  { km = 6.952, kind = "signal", label = "N805", signal = "distant,main,minor", dir = 1 },
+  { km = 6.985, kind = "halt", label = "Wehrhahn S", pos = [51.22999, 6.79826] },
+  { km = 7.467, kind = "signal", label = "813", signal = "distant,main", dir = 1 },
+  { km = 7.616, kind = "halt", label = "Schillerplatz", pos = [51.23555, 6.79985] },
+  { km = 7.715, kind = "signal", signal = "main", dir = -1 },
+  { km = 7.79, kind = "stop", label = "Düsseldorf Zoo", pos = [51.23713, 6.79693], uic = "8001583" },
+  { km = 7.946, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.959, kind = "signal", label = "817", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 8.678, kind = "signal", label = "819", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 8.826, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.9, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.995, kind = "halt", label = "Düsseldorf-Derendorf", uic = "8001586", pos = [51.2478, 6.79449] },
+  { km = 9.234, kind = "signal", label = "821", signal = "main,speed_limit,wrong_road", dir = 1 },
+  { km = 9.258, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.749, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 9.877, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.927, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.101, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 10.933, kind = "signal", label = "B 842", signal = "distant,main", dir = 1 },
+  { km = 11.111, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.618, kind = "signal", label = "A 851", signal = "distant,main,speed_limit_distant,traversable", dir = 1 },
+  { km = 11.62, kind = "signal", label = "P 854", signal = "main,speed_limit", dir = -1 },
+  { km = 12.131, kind = "signal", signal = "distant", dir = -1 },
+  { km = 12.209, kind = "station", label = "Düsseldorf-Unterrath", pos = [51.27647, 6.78884] },
+  { km = 12.319, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.325, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.328, kind = "signal", label = "N854", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 12.608, kind = "signal", label = "S 864", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 12.611, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.869, kind = "signal", label = "N864", signal = "main,speed_limit", dir = 1 },
+  { km = 13.474, kind = "signal", label = "865", signal = "minor", dir = -1 },
+  { km = 13.699, kind = "signal", label = "S 863", signal = "main,speed_limit", dir = -1 },
+  { km = 13.953, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.96, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 14.236, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.24, kind = "signal", label = "N 853", signal = "distant,main,speed_limit_distant,wrong_road", dir = -1 },
+  { km = 14.358, kind = "stop", label = "Düsseldorf-Unterrath", pos = [51.27646, 6.78876] },
+  { km = 14.437, kind = "signal", signal = "distant", dir = 1 },
+  { km = 14.944, kind = "signal", label = "P 853", signal = "main,speed_limit", dir = 1 },
+  { km = 14.947, kind = "signal", label = "A 852", signal = "distant,main,speed_limit_distant,traversable", dir = -1 },
+  { km = 15.479, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.655, kind = "signal", label = "B 841", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 15.958, kind = "signal", signal = "distant", dir = -1 },
+  { km = 16.011, kind = "signal", signal = "distant,main,traversable", dir = 1 },
+  { km = 16.497, kind = "signal", label = "832", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 16.653, kind = "signal", signal = "distant", dir = -1 },
+  { km = 16.672, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.82, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 16.989, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.2, kind = "signal", label = "822", signal = "distant,main,traversable", dir = 1 },
+  { km = 17.335, kind = "signal", label = "820", signal = "main,speed_limit,wrong_road", dir = -1 },
+  { km = 17.669, kind = "signal", signal = "distant", dir = -1 },
+  { km = 17.744, kind = "signal", label = "818", signal = "distant,main", dir = 1 },
+  { km = 18.33, kind = "signal", label = "816", signal = "distant,main", dir = 1 },
+  { km = 18.529, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 18.779, kind = "stop", label = "Düsseldorf Zoo", pos = [51.23713, 6.79686] },
+  { km = 18.835, kind = "signal", label = "F814", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 19.41, kind = "signal", label = "S812", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 19.537, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 19.617, kind = "signal", label = "N804", signal = "main,minor", dir = -1 },
+  { km = 19.747, kind = "stop", label = "Düsseldorf Wehrhahn", pos = [51.22848, 6.79805] },
+  { km = 19.846, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.868, kind = "signal", label = "P804", signal = "distant,main,minor,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 19.877, kind = "signal", signal = "distant", dir = -1 },
+  { km = 20.093, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 20.125, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 20.185, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 20.285, kind = "signal", label = "T119", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 20.398, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 20.711, kind = "signal", label = "N110", signal = "distant,main,minor,route", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.072, kmTo = 0.097, length = 25 },
+  { kind = "bridge", kmFrom = 0.245, kmTo = 0.263, length = 18 },
+  { kind = "bridge", kmFrom = 1.101, kmTo = 1.121, length = 21 },
+  { kind = "bridge", kmFrom = 1.247, kmTo = 1.275, length = 29 },
+  { kind = "bridge", kmFrom = 1.539, kmTo = 1.557, length = 18 },
+  { kind = "bridge", kmFrom = 3.311, kmTo = 3.35, length = 40 },
+  { kind = "bridge", kmFrom = 4.367, kmTo = 4.397, length = 31 },
+  { kind = "bridge", kmFrom = 4.655, kmTo = 4.678, length = 24 },
+  { kind = "bridge", kmFrom = 4.828, kmTo = 4.865, length = 34 },
+  { kind = "bridge", kmFrom = 6.099, kmTo = 6.121, length = 22 },
+  { kind = "bridge", kmFrom = 6.247, kmTo = 6.268, length = 21 },
+  { kind = "bridge", kmFrom = 10.08, kmTo = 10.091, length = 12 },
+  { kind = "bridge", kmFrom = 11.115, kmTo = 11.13, length = 16 },
+  { kind = "bridge", kmFrom = 11.963, kmTo = 11.993, length = 29 },
+  { kind = "bridge", kmFrom = 14.573, kmTo = 14.603, length = 30 },
+  { kind = "bridge", kmFrom = 15.438, kmTo = 15.453, length = 16 },
+  { kind = "bridge", kmFrom = 20.302, kmTo = 20.324, length = 22 },
+  { kind = "bridge", kmFrom = 20.434, kmTo = 20.456, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ioowHajyh@aEhQi@`Ov@`KtIrn@z@tN", v = 80 },
+  { line = "khowHi|uh@L~L]vH", v = 90 },
+  { line = "{howHqduh@oC`MwUdg@iC`JyBdMkAtNeAn]wCz{A{@nIaClIqD|FcFzC}Db@}O]aI}D{TeX", v = 80 },
+  { line = "__swHegnh@{RoR}CkB", v = 60 },
+  { line = "ywswHa~nh@aH?}IhC", v = 70 },
+  { line = "yktwHwynh@yPbEsKrAqPf@aWSkKj@wy@jRgj@vE}QfD", v = 120 },
+  { line = "eyzwHsomh@}@P", tunnel = true, v = 120 },
+  { line = "c{zwHaomh@id@hIk`B|J", v = 120 },
+  { line = "ya_xHyxlh@gV~B", v = 100 },
+  { line = "ay_xHytlh@lEU", v = 160 },
+  { line = "sr_xHoulh@xOsA", v = 100 },
+  { line = "ya_xHcxlh@tsBwMzi@wKzk@mG~q@aQfKs@hYPrUq@vY{G", v = 120 },
+  { line = "mjtwHsynh@tHaCvHj@~KvJlM`P", v = 70 },
+]
+posts = [[0, 51.20265, 6.85222], [1, 51.20211, 6.83867], [2, 51.20401, 6.82579], [3, 51.20778, 6.81339], [4, 51.20858, 6.79872], [5, 51.2141, 6.79045], [6, 51.2216, 6.79665], [7, 51.23005, 6.79768], [8, 51.23902, 6.79703], [9, 51.24785, 6.79454], [10, 51.25677, 6.79274], [11, 51.26563, 6.79032], [12, 51.27458, 6.78903], [13, 51.28355, 6.78793], [14, 51.27967, 6.78828], [15, 51.27071, 6.78945], [16, 51.26176, 6.79087], [17, 51.2529, 6.79322], [18, 51.24406, 6.79578], [19, 51.23514, 6.79684], [20, 51.22629, 6.79903]]
+
+[[connections]]
+km = 0.012
+station = "Düsseldorf-Eller"
+lines = [
+  { id = "2324", ref = "2324", name = "2324 Mülheim (Ruhr)-Speldorf - Niederlahnstein", km = 28.68 },
+  { id = "2676", ref = "2676", name = "2676 Düsseldorf-Eller - Hilden", km = 28.587 },
+]
+
+[[connections]]
+km = 3.294
+station = "Düsseldorf-Oberbilk"
+lines = [
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 35.808 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 35.807 },
+]
+
+[[connections]]
+km = 4.778
+station = "Düsseldorf-Friedrichstadt"
+lines = [
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 10.167 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 87.451 },
+]
+
+[[connections]]
+km = 5.735
+station = "Düsseldorf Hauptbahnhof"
+lines = [
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = -0.011 },
+  { id = "2416", ref = "2416", name = "2416 Düsseldorf Hbf - Düsseldorf-Unterrath", km = -0.06 },
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 11.145 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 88.383 },
+]
+
+[[connections]]
+km = 8.995
+station = "Düsseldorf-Derendorf"
+lines = [
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 3.292 },
+  { id = "2416", ref = "2416", name = "2416 Düsseldorf Hbf - Düsseldorf-Unterrath", km = 3.239 },
+]
+
+[[connections]]
+km = 12.209
+station = "Düsseldorf-Unterrath"
+lines = [
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 45.958 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 45.974 },
+]

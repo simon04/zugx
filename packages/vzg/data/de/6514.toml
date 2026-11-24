@@ -1,0 +1,39 @@
+id = "6514"
+ref = "6514"
+name = "ehem. Königlich Preußische Militär-Eisenbahn"
+operator = "erlebnisbahn.de GmbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 25.721
+length = 25.721
+speeds = [[0, 25.721, "", ""]]
+curves = [[0.1, 0.525, 910], [0.65, 0.975, 1160], [1.925, 2.25, 790], [3.55, 3.65, 1820], [4.225, 4.375, 2170], [4.425, 4.525, 1900], [5.4, 5.525, 2070], [6.8, 6.95, 1720], [8.05, 8.1, 2440], [9.9, 10.7, 1220], [13.525, 13.6, 2340], [13.775, 13.85, 2350], [14.5, 14.85, 610], [15.775, 16.275, 1430], [16.4, 16.525, 900], [16.65, 16.8, 1310]]
+points = [
+  { km = 0, kind = "station", label = "Zossen", uic = "8003396", pos = [52.21897, 13.43871] },
+  { km = 9.356, kind = "signal", label = "B1", signal = "main", dir = -1 },
+  { km = 9.742, kind = "signal", label = "C1", signal = "main", dir = 1 },
+  { km = 9.884, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 10.013, kind = "signal", signal = "whistle", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.719, kmTo = 0.737, length = 18 },
+  { kind = "bridge", kmFrom = 19.347, kmTo = 19.358, length = 11 },
+  { kind = "bridge", kmFrom = 21.071, kmTo = 21.086, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uyu}Hgu_qAbHd@hGfCzItHlJhLdG`M|`@pdAjF`JthA`z@x_@fSrLnIjn@|n@zz@zqA|n@bt@~MnMvxA|hA|OdFfGf@fGUpaDel@~L}@|g@i@pEf@vFvCln@vl@rGfIpEzHfJhV`EzR~{@t`HxgAhaH|b@dcE" },
+]
+posts = [[0, 52.21803, 13.43844], [1, 52.21036, 13.43165], [2, 52.20475, 13.42018], [3, 52.19689, 13.4132], [4, 52.18868, 13.40726], [5, 52.18071, 13.40058], [6, 52.17347, 13.39194], [7, 52.16657, 13.38253], [8, 52.15912, 13.37434], [9, 52.15115, 13.36754], [10, 52.14313, 13.36092], [11, 52.13431, 13.3605], [12, 52.12545, 13.36303], [13, 52.11659, 13.36549], [14, 52.10767, 13.36714], [15, 52.09901, 13.36491], [16, 52.09139, 13.35718], [17, 52.08684, 13.3448], [18, 52.08395, 13.33095], [19, 52.08103, 13.3171], [20, 52.0781, 13.30327], [21, 52.07475, 13.28969], [22, 52.07134, 13.27615], [23, 52.06794, 13.26261], [24, 52.0649, 13.24886], [25, 52.06237, 13.23482]]
+
+[[connections]]
+km = 0
+station = "Zossen"
+lines = [
+  { id = "6135", ref = "6135", name = "6135 Berlin - Elsterwerda", km = 32.792 },
+]

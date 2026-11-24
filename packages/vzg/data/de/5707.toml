@@ -1,0 +1,27 @@
+id = "5707"
+ref = "5707"
+name = "5707 Rosenheim"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Rosenheim"
+to = "Rosenheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.211
+length = 1.211
+speeds = [[0, 1.211, 60, 60]]
+curves = [[0.1, 0.5, 920], [0.55, 1, 290]]
+points = [
+  { km = 0.394, kind = "signal", label = "19N9", signal = "main,speed_limit", dir = -1 },
+  { km = 0.669, kind = "signal", label = "19VWq9", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.848, kind = "signal", label = "19Q9", signal = "main,speed_limit", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kl~bHkkaiAiF]kF^gGfB{JhFsELyBy@wB{BiImR", v = 60 },
+]
+posts = [[0, 47.8383, 12.13638], [1, 47.84663, 12.13639]]

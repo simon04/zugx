@@ -1,0 +1,39 @@
+id = "9440"
+ref = "9440"
+name = "Kandertalbahn"
+operator = "Zweckverband Kandertalbahn"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.462
+kmTo = 12.8
+length = 11.331
+speeds = [[1.462, 2.385, 30, 30], [2.385, 4.423, 40, 40], [4.423, 12.8, 30, 30]]
+curves = [[1.662, 1.787, 1030], [1.837, 1.887, 1270], [1.937, 2.087, 720], [2.237, 2.463, 530], [2.713, 2.888, 810], [2.938, 3.163, 640], [3.788, 3.989, 500], [4.664, 4.914, 1350], [4.964, 5.114, 780], [5.314, 5.515, 590], [5.59, 5.74, 460], [5.79, 5.965, 620], [6.09, 6.14, 2170], [6.54, 6.715, 1180], [6.765, 6.99, 540], [7.04, 7.391, 410], [7.441, 7.591, 550], [7.641, 7.791, 660], [8.091, 8.216, 1140], [8.441, 8.691, 470], [8.741, 8.992, 490], [9.167, 9.442, 570], [9.517, 10.493, 600], [10.543, 10.618, 1030], [10.668, 10.943, 970], [10.993, 11.118, 520], [11.168, 11.243, 810], [11.293, 11.593, 470], [11.643, 12.494, 340], [12.544, 12.694, 310]]
+points = [
+  { km = 2.419, kind = "halt", label = "Binzen", pos = [47.6314, 7.62105] },
+  { km = 2.49, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.452, kind = "halt", label = "Rümmingen", pos = [47.64296, 7.64069] },
+  { km = 6.106, kind = "halt", label = "Wittlingen", pos = [47.657, 7.64701] },
+  { km = 7.379, kind = "station", label = "Wollbach (Baden)", pos = [47.6682, 7.64861] },
+  { km = 9.922, kind = "halt", label = "Hammerstein", pos = [47.69031, 7.64414] },
+  { km = 10.919, kind = "signal", signal = "speed_limit_distant,whistle", dir = 1 },
+  { km = 11.128, kind = "signal", signal = "speed_limit_distant,whistle", dir = -1 },
+  { km = 11.716, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 12.562, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 12.572, kind = "signal", signal = "main", dir = 1 },
+  { km = 12.8, kind = "station", label = "Kandern", pos = [47.71372, 7.65684] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 10.822, kmTo = 10.837, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qxtaHkxmm@_IcRsGcKwMuMiCyD", v = 30 },
+  { line = "g~uaHclom@iJs]{B{Rk[}r@gA{A}X}Q", v = 40 },
+  { line = "_fxaHkhsm@kOwJoP{F}PaKuKi@cLqEge@cDyOR_K_FmDy@iDNoIpDsINeUxFaUvKsB^oIiA}FRqNpGeFbAyKaCwIBgGyAwAmA}I{QmFwEsPyCiPf@yRaD_DgCyG{ImHgFkAkBkDsK{DyD}FYwJzDiG_A", v = 30 },
+]
+posts = [[2, 47.62843, 7.6177], [3, 47.63347, 7.62809], [4, 47.6393, 7.63806], [5, 47.64751, 7.64339], [6, 47.65605, 7.64695], [7, 47.66494, 7.64812], [8, 47.67364, 7.64701], [9, 47.68226, 7.6444], [10, 47.69088, 7.64473], [11, 47.69871, 7.64926], [12, 47.70666, 7.65437]]

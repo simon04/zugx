@@ -1,0 +1,33 @@
+id = "2962"
+ref = "2962"
+name = "2962 Paderborn - Paderborn Benteler-Talle"
+operator = "DB Netz AG;Benteler Automobiltechnik GmbH"
+gauge = "1435"
+wikidata = "Q20670229"
+from = "Paderborn Nord"
+to = "Paderborn Benteler-Talle"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.685
+length = 0.685
+speeds = [[0, 0.685, "", ""]]
+curves = [[0.1, 0.175, 1430], [0.475, 0.575, 1580]]
+points = [
+  { km = 0.419, kind = "station", label = "Paderborn Nord", pos = [51.72861, 8.75836], uic = "8004745" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wxvzHy~lt@bDmChQgVxFiG" },
+]
+posts = [[0, 51.73148, 8.75517]]
+
+[[connections]]
+km = 0.419
+station = "Paderborn Nord"
+lines = [
+  { id = "2960", ref = "2960", name = "2960 Paderborn Hbf - Brackwede", km = 3.612 },
+]

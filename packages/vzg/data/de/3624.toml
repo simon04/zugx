@@ -1,0 +1,77 @@
+id = "3624"
+ref = "3624"
+name = "3624 Frankfurt-Louisa - Frankfurt-Niederrad"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q122067481"
+from = "Frankfurt-Louisa"
+to = "Frankfurt-Niederrad"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 3.954
+kmTo = 8.104
+length = 4.072
+speeds = [[3.954, 4.915, 100, 100], [4.915, 5.204, 120, 60], [5.204, 8.104, 60, 60]]
+curves = [[4.054, 4.517, 430], [4.919, 4.967, 2700], [5.162, 5.211, 2000], [5.26, 5.333, 1650], [5.681, 6.534, 500], [7.339, 7.389, 2070], [7.506, 7.566, 2140]]
+points = [
+  { km = 3.954, kind = "station", label = "Frankfurt-Louisa", uic = "8002047", pos = [50.08382, 8.67039] },
+  { km = 4.084, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.091, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 4.268, kind = "signal", label = "F987", signal = "distant,main", dir = -1 },
+  { km = 4.392, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.489, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.685, kind = "signal", label = "787", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 4.741, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.825, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.833, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 5.203, kind = "signal", signal = "route,wrong_road", dir = -1 },
+  { km = 5.26, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.269, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 5.413, kind = "signal", signal = "route", dir = -1 },
+  { km = 5.473, kind = "signal", label = "737", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 6.388, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.519, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 6.581, kind = "signal", label = "67 C", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 6.898, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 6.903, kind = "signal", signal = "minor", dir = 1 },
+  { km = 6.903, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.081, kind = "signal", label = "67 P6", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 7.166, kind = "station", label = "Frankfurt-Niederrad", uic = "8002050", pos = [50.08077, 8.63724] },
+  { km = 7.525, kind = "signal", signal = "minor", dir = 1 },
+  { km = 7.648, kind = "signal", label = "67 ZV 16", signal = "combined,route,speed_limit,traversable", dir = -1 },
+  { km = 7.832, kind = "signal", label = "67 N16", signal = "combined,minor,route,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.916, kmTo = 4.939, length = 24 },
+  { kind = "bridge", kmFrom = 5.477, kmTo = 5.52, length = 41 },
+  { kind = "bridge", kmFrom = 6.07, kmTo = 6.099, length = 29 },
+  { kind = "bridge", kmFrom = 6.482, kmTo = 6.513, length = 27 },
+  { kind = "bridge", kmFrom = 7.156, kmTo = 7.2, length = 47 },
+  { kind = "bridge", kmFrom = 7.661, kmTo = 7.681, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sqtpHei|s@dJpBbGpGrB|FbJxb@", v = 100 },
+  { line = "qospHiqzs@|EtV", v = 120 },
+  { line = "shspHsyys@jJff@fAxKSfO}@`GqBlGiGnIaoAh}@", v = 60 },
+]
+posts = [[4, 50.08129, 8.66971], [5, 50.07592, 8.65974], [6, 50.07295, 8.64711], [7, 50.07943, 8.63862], [8, 50.08722, 8.63241]]
+
+[[connections]]
+km = 3.954
+station = "Frankfurt-Louisa"
+lines = [
+  { id = "3601", ref = "3601", name = "3601 Frankfurt (Main) Hbf - Abzw Heidelberg-Wieblingen", km = 3.741 },
+  { id = "3688", ref = "3688", name = "3688 Frankfurt Süd - Darmstadt Hbf", km = 57.572 },
+]
+
+[[connections]]
+km = 7.166
+station = "Frankfurt-Niederrad"
+lines = [
+  { id = "3520", ref = "3520", name = "3520 Mainz Hbf - Frankfurt (Main) Hbf", km = 33.211 },
+  { id = "3683", ref = "3683", name = "3683 Abzw Frankfurt am Main Kleyerstraße - Kelsterbach", km = 4.338 },
+]

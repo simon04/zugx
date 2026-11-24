@@ -1,0 +1,63 @@
+id = "4213"
+ref = "4213"
+name = "Güterumgehungsbahn Karlsruhe"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q1562232"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.057
+length = 5.21
+speeds = [[0, 2.266, 80, 80], [2.266, 2.312, 60, 60], [2.312, 2.712, 80, 80], [2.712, 3.401, 70, 70], [3.401, 3.46, 80, 70], [3.46, 5.057, 80, 80]]
+curves = [[2.234, 2.344, 30], [2.501, 3.141, 380], [3.24, 3.436, 660], [3.488, 3.643, 850], [4.518, 4.945, 1320]]
+points = [
+  { km = 0.594, kind = "signal", label = "41ZR107", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 0.599, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.797, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.927, kind = "signal", label = "41L407Y", signal = "minor", dir = -1 },
+  { km = 1.174, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.266, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.269, kind = "signal", label = "41ZU407", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 1.936, kind = "signal", label = "41N407", signal = "main,minor,route,speed_limit", dir = 1 },
+  { km = 2.014, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.062, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.562, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.712, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.719, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.773, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.778, kind = "signal", label = "41F", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 2.85, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.893, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.333, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 3.354, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.382, kind = "signal", signal = "catenary_mast,distant", dir = 1 },
+  { km = 3.401, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 3.435, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.496, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.558, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.069, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.153, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.206, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 4.318, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.518, kind = "signal", label = "384", signal = "main,traversable,wrong_road", dir = 1 },
+  { km = 4.665, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 4.666, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 4.733, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 4.734, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 4.906, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.952, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 4.993, kind = "signal", signal = "crossing_info", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "it`jHqmlr@b_@x|BrOjx@", v = 80 },
+  { line = "qc_jHkvfr@s@uE", v = 60 },
+  { line = "ee_jHa}fr@pEpUbDjL", v = 80 },
+  { line = "oy~iHcyer@`DbGpFdCpDO|KaEzCU", v = 70 },
+  { line = "ou}iHater@fI@nw@wLxMJ|HxA", v = 80 },
+]
+posts = [[0, 48.99669, 8.42473], [1, 48.99343, 8.41192], [2, 48.98999, 8.39922], [3, 48.98509, 8.38875], [4, 48.97635, 8.39074], [5, 48.96739, 8.39175]]

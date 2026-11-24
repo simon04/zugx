@@ -1,0 +1,60 @@
+id = "6194"
+ref = "6194"
+name = "6194 Senftenberg - Kamenz (Sachs)"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131731707"
+from = "Senftenberg"
+to = "Kamenz (Sachs)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 137.519
+kmTo = 156.43
+length = 18.919
+speeds = [[137.519, 145.891, 100, 100], [145.891, 145.99, 50, 50], [145.99, 153.284, 100, 100], [153.284, 153.455, 80, 80], [153.455, 153.528, "", ""], [153.528, 156.051, 80, 80], [156.051, 156.43, "", ""]]
+curves = [[150.43, 151.03, 1270], [151.33, 151.38, 2650], [151.53, 152.48, 980], [152.855, 153.855, 710], [154.03, 154.255, 1260], [154.43, 155.48, 460], [155.53, 156.33, 510]]
+points = [
+  { km = 140.351, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 141.55, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 141.753, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 142.138, kind = "halt", label = "Wiednitz", pos = [51.3931, 14.03923] },
+  { km = 144.498, kind = "signal", signal = "distant", dir = -1 },
+  { km = 145.179, kind = "signal", label = "A", signal = "main,shunting,traversable", dir = -1 },
+  { km = 145.333, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 145.443, kind = "signal", label = "1 I", signal = "shunting", dir = -1 },
+  { km = 145.661, kind = "signal", label = "B", signal = "main,traversable", dir = -1 },
+  { km = 145.717, kind = "station", label = "Straßgräbchen-Bernsdorf (Oberlausitz)", pos = [51.36178, 14.05188] },
+  { km = 146.442, kind = "signal", label = "I", signal = "main,traversable", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 154.332, kmTo = 154.351, length = 20 },
+  { kind = "bridge", kmFrom = 155.691, kmTo = 155.702, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sk~wHcq_uAiIhCoG|H" },
+  { line = "m~~wH{b_uAiClH}A|MApJpAfVa@~KcCjKmCpFkBhB_ExBwCb@yGw@cPoHwQqRuLuE", v = 80 },
+  { line = "iuaxH_d}tAcCS" },
+  { line = "myaxHsd}tAoHr@", v = 80 },
+  { line = "}bbxH_c}tA_GlCoFhFcUnb@aFjHmGdFwGzCgQvAch@mKuKTkFdAizDbwAyv@zU", v = 100 },
+  { line = "kcnxHcvwtAmDdA", v = 50 },
+  { line = "yhnxH}swtAmgMjyD", v = 100 },
+]
+posts = [[156, 51.28213, 14.0903], [155, 51.28371, 14.07678], [154, 51.29194, 14.07798], [153, 51.30022, 14.07896], [152, 51.30713, 14.06998], [151, 51.31596, 14.07093], [150, 51.32474, 14.06875], [149, 51.33337, 14.06469], [148, 51.34199, 14.0606], [147, 51.35062, 14.05658], [146, 51.35934, 14.05302], [145, 51.36818, 14.04939], [144, 51.37689, 14.04589], [143, 51.38559, 14.04227], [142, 51.3943, 14.0387], [141, 51.40301, 14.03516], [140, 51.41175, 14.0316], [139, 51.42051, 14.02802], [138, 51.42928, 14.02443]]
+
+[[connections]]
+km = 142.138
+station = "Wiednitz"
+lines = [
+  { id = "6198", ref = "6198", name = "6198 Brieske - Hosena Streckenwechsel 6198/6194", km = -14.233 },
+]
+
+[[connections]]
+km = 145.717
+station = "Straßgräbchen-Bernsdorf"
+lines = [
+  { id = "6198", ref = "6198", name = "6198 Brieske - Hosena Streckenwechsel 6198/6194", km = -10.642 },
+]

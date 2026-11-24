@@ -1,0 +1,29 @@
+id = "6421"
+ref = "6421"
+name = "6421 Köthen, Stw B 4, W 137 - Köthen, Stw W 7, W 206"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131681340"
+from = "Köthen, Stw B 4"
+to = "Köthen, Stw W 7"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.268
+length = 1.268
+speeds = [[0, 1.268, 40, 40]]
+curves = [[0.1, 0.175, 2790], [0.275, 0.4, 1590]]
+points = [
+  { km = 0.347, kind = "signal", label = "05 N30", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 0.96, kind = "signal", label = "05 ZU30", signal = "combined,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 1.099, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.225, kind = "signal", label = "05 ZS99", signal = "combined,minor,speed_limit,traversable", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mkuzHu}fhAaRbJgp@lT", v = 40 },
+]
+posts = [[0, 51.72423, 12.00107], [1, 51.73284, 11.99688]]

@@ -1,0 +1,48 @@
+id = "2825"
+ref = "2825"
+name = "2825 Hagen-Vorhalle"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hagen-Vorhalle"
+to = "Hagen-Vorhalle"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.736
+length = 3.736
+speeds = [[0, 3.736, "", ""]]
+curves = [[0.1, 0.3, 560], [0.425, 0.625, 1970], [0.925, 1.175, 570], [1.25, 1.475, 690], [1.725, 1.825, 1580], [1.925, 2.05, 760], [2.1, 2.325, 380], [2.4, 2.575, 1890], [2.925, 3.35, 1310], [3.475, 3.625, 960]]
+points = [
+  { km = 0.124, kind = "signal", signal = "route", dir = -1 },
+  { km = 0.177, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.281, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 0.69, kind = "station", label = "Hagen-Vorhalle", uic = "8000977", pos = [51.38814, 7.43367] },
+  { km = 1.01, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 2.509, kind = "signal", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 3.417, kind = "signal", signal = "main,minor", dir = 1 },
+  { km = 3.597, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.645, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.181, kmTo = 2.241, length = 60 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}{sxHiyll@YjKf@|JxD`[xH`b@rNpUvJf]vEtMrArIfA~CtXjZpHzJrElIdElK`ElN~CvQ" },
+]
+posts = [[0, 51.38895, 7.44357], [1, 51.38651, 7.42993], [2, 51.38094, 7.41881], [3, 51.37426, 7.40966]]
+
+[[connections]]
+km = 0.69
+station = "Hagen-Vorhalle"
+lines = [
+  { id = "2143", ref = "2143", name = "2143 Witten Hbf - Schwelm", km = 76.002 },
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 76.002 },
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 58.99 },
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = 6.336 },
+  { id = "2801", ref = "2801", name = "2801 Hagen - Dortmund", km = 4.273 },
+  { id = "2820", ref = "2820", name = "2820 Hagen-Vorhalle - Hagen-Kabel", km = 76.044 },
+]

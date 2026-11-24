@@ -1,0 +1,49 @@
+id = "5962"
+ref = "5962"
+name = "5962 Nürnberg Rbf - Nürnberg-Dutzendteich"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q119346816"
+from = "Nürnberg Rbf"
+to = "Nürnberg-Dutzendteich"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.948
+kmTo = 5.291
+length = 6.265
+speeds = [[-0.948, 0.498, 40, 40], [0.498, 5.187, 80, 80], [5.187, 5.291, 60, 60]]
+curves = [[-0.848, -0.748, 1000], [-0.623, -0.523, 1330], [0.127, 0.352, 1820], [0.627, 0.852, 910], [0.952, 1.677, 520], [1.727, 2.302, 410], [3.202, 3.952, 400], [4.002, 4.127, 1640]]
+points = [
+  { km = -0.86, kind = "signal", label = "508II", signal = "minor", dir = 1 },
+  { km = -0.795, kind = "signal", label = "507", signal = "minor", dir = -1 },
+  { km = -0.735, kind = "signal", label = "506", signal = "minor", dir = 1 },
+  { km = -0.533, kind = "signal", label = "P303", signal = "main,minor,traversable,wrong_road", dir = -1 },
+  { km = 0.088, kind = "signal", signal = "brake_test" },
+  { km = 0.112, kind = "signal", label = "N303", signal = "main,minor,traversable", dir = 1 },
+  { km = 0.352, kind = "signal", label = "208I", signal = "minor", dir = -1 },
+  { km = 0.414, kind = "signal", label = "208II", signal = "minor", dir = 1 },
+  { km = 0.488, kind = "signal", label = "206", signal = "minor", dir = -1 },
+  { km = 0.833, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.468, kind = "signal", label = "V202", signal = "distant", dir = 1 },
+  { km = 1.816, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.977, kind = "signal", label = "WV202", signal = "distant", dir = 1 },
+  { km = 2.156, kind = "signal", label = "202", signal = "main,traversable", dir = 1 },
+  { km = 3.19, kind = "signal", label = "Vb6", signal = "distant", dir = 1 },
+  { km = 3.731, kind = "signal", label = "WVb6", signal = "distant", dir = 1 },
+  { km = 3.906, kind = "signal", label = "B6", signal = "distant,main,traversable", dir = 1 },
+  { km = 4.349, kind = "signal", label = "P606", signal = "main,minor,traversable", dir = -1 },
+  { km = 5.144, kind = "signal", label = "N606", signal = "main,minor,traversable,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.134, kmTo = 4.209, length = 75 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qlslHecqbAbAeIfEoQpOo}@hGmU", v = 40 },
+  { line = "ikrlHyttbAhF{OpMyTzCcN\\{GQiJuDmTe@_GFeIdAmH~BoGnh@g_AnBuHf@aH_@gLwBwIsIkN_j@cfA", v = 80 },
+  { line = "w|qlH{y~bAgCgE", v = 60 },
+]
+posts = [[0, 49.41711, 11.08216], [1, 49.41217, 11.09351], [2, 49.41182, 11.10634], [3, 49.40604, 11.11669], [4, 49.40529, 11.12807], [5, 49.4116, 11.13842]]

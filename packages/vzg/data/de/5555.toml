@@ -1,0 +1,95 @@
+id = "5555"
+ref = "5555"
+name = "5555 Abzw München-Berg am Laim - Grafing Bahnhof"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "München-Berg am Laim"
+to = "Grafing Bahnhof"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.034
+kmTo = 25.39
+length = 25.317
+speeds = [[0.034, 0.949, 100, 100], [0.949, 1.866, 110, 100], [1.866, 2, 100, 100], [2, 24.618, 120, 120], [24.618, 25.02, 90, 90], [25.02, 25.39, 60, 60]]
+curves = [[0.276, 0.551, 950], [0.776, 1.026, 1080], [1.651, 1.926, 970], [16.933, 17.204, 1820], [18.402, 18.752, 1870], [20.178, 20.554, 1140], [21.404, 21.68, 1230], [21.98, 22.235, 1280], [22.439, 22.719, 1170], [24.071, 24.632, 2110], [24.785, 24.862, 2330], [25.19, 25.29, 420]]
+points = [
+  { km = 0.518, kind = "signal", label = "990", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 0.95, kind = "signal", label = "CC", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 1.543, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.612, kind = "signal", label = "7 II", signal = "minor", dir = -1 },
+  { km = 1.783, kind = "signal", label = "P4", signal = "main,minor", dir = -1 },
+  { km = 1.999, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.1, kind = "station", label = "Trudering", uic = "8004162", pos = [48.12565, 11.66259] },
+  { km = 2.358, kind = "signal", label = "N4", signal = "main,minor", dir = 1 },
+  { km = 2.607, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 3.075, kind = "signal", label = "G", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 4.025, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.844, kind = "stop", label = "Gronsdorf", uic = "8002383", pos = [48.11836, 11.69884] },
+  { km = 5.529, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.525, kind = "signal", label = "1D", signal = "distant,main", dir = 1 },
+  { km = 7.238, kind = "signal", label = "1P5", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 7.341, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.38, kind = "station", label = "Haar", uic = "8002491", pos = [48.11132, 11.73097] },
+  { km = 7.448, kind = "signal", label = "1N5", signal = "main,minor", dir = 1 },
+  { km = 7.956, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 8.266, kind = "signal", label = "1G", signal = "distant,main", dir = -1 },
+  { km = 9.338, kind = "signal", signal = "distant", dir = -1 },
+  { km = 9.973, kind = "stop", label = "Vaterstetten", uic = "8006059", pos = [48.10409, 11.76456] },
+  { km = 11.625, kind = "signal", label = "410", signal = "main", dir = -1 },
+  { km = 11.726, kind = "station", label = "Baldham", uic = "8000785", pos = [48.0992, 11.78704] },
+  { km = 12.775, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 13.361, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.007, kind = "signal", signal = "minor", dir = 1 },
+  { km = 15.222, kind = "signal", label = "2P5", signal = "main,minor,traversable", dir = -1 },
+  { km = 15.226, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.273, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.292, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.299, kind = "station", label = "Zorneding", uic = "8006671", pos = [48.08954, 11.83242] },
+  { km = 15.364, kind = "signal", signal = "stop", dir = 1 },
+  { km = 15.382, kind = "signal", signal = "stop", dir = 1 },
+  { km = 15.43, kind = "signal", signal = "stop", dir = 1 },
+  { km = 15.443, kind = "signal", label = "2N5", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 16.207, kind = "signal", label = "2G", signal = "distant,main,traversable", dir = -1 },
+  { km = 17.748, kind = "station", label = "Eglharting", uic = "8001682", pos = [48.08247, 11.86393] },
+  { km = 19.915, kind = "station", label = "Kirchseeon", uic = "8003290", pos = [48.07098, 11.88728] },
+  { km = 24.957, kind = "signal", label = "P1", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 25.117, kind = "station", label = "Grafing Bahnhof", uic = "8002347", pos = [48.04342, 11.94017], ele = 542 },
+  { km = 25.276, kind = "signal", label = "N1", signal = "main,minor,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 9.126, kmTo = 9.25, length = 126 },
+  { kind = "bridge", kmFrom = 12.846, kmTo = 12.884, length = 30 },
+  { kind = "bridge", kmFrom = 14.304, kmTo = 14.349, length = 34 },
+  { kind = "bridge", kmFrom = 17.856, kmTo = 17.918, length = 62 },
+  { kind = "bridge", kmFrom = 23.625, kmTo = 23.645, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "s_fdHgq{gAkD~FuJxG", v = 60 },
+  { line = "upfdHm`{gAmR`O", v = 90 },
+  { line = "cdgdHkpzgAcIzIiIhMwu@d~AgL`d@mN~\\wCdJ}SphAkCpKm`AvpByQjo@qSp|@mBrMkPvzAkPd_B{pBtjO}Ijm@{MjgA}nAznJ", v = 120 },
+  { line = "utvdHawdfAkArI", v = 100 },
+  { line = "awvdHmldfAyB`JcXvs@", v = 110 },
+  { line = "_twdHslbfAkBlHsFj\\qAna@", v = 100 },
+]
+posts = [[25, 48.04396, 11.93994], [24, 48.05097, 11.93214], [23, 48.05673, 11.92215], [22, 48.06157, 11.91122], [21, 48.06602, 11.89965], [20, 48.07049, 11.88815], [19, 48.07639, 11.87801], [18, 48.08145, 11.86697], [17, 48.08544, 11.85482], [16, 48.088, 11.84129], [15, 48.0903, 11.82847], [14, 48.09293, 11.81583], [13, 48.09574, 11.80294], [12, 48.09877, 11.78911], [11, 48.10134, 11.77719], [10, 48.10404, 11.76496], [9, 48.10685, 11.75183], [8, 48.10959, 11.73928], [7, 48.11246, 11.72632], [6, 48.11513, 11.71367], [5, 48.11789, 11.70108], [4, 48.12067, 11.68811], [3, 48.1235, 11.67503], [2, 48.12635, 11.6621], [1, 48.13111, 11.65075]]
+
+[[connections]]
+km = 2.1
+station = "Trudering"
+lines = [
+  { id = "5510", ref = "5510", name = "5510 München Hbf - Rosenheim", km = 14.646 },
+  { id = "5560", ref = "5560", name = "5560 Olching Streckenwechsel 5561/5560 - Abzw München-Waldtrudering", km = 33.522 },
+]
+
+[[connections]]
+km = 25.117
+station = "Grafing Bahnhof"
+lines = [
+  { id = "5510", ref = "5510", name = "5510 München Hbf - Rosenheim", km = 37.68 },
+  { id = "5710", ref = "5710", name = "5710 Grafing Bahnhof - Wasserburg (Inn)", km = 0.057 },
+]

@@ -1,0 +1,20 @@
+id = "7813"
+ref = "7813"
+operator = "Správa železniční dopravní cesty"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.553
+length = 0.553
+speeds = [[0, 0.553, 60, 60]]
+curves = []
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "{ieqH{vfjAkZ~U", v = 60 },
+]
+posts = [[0, 50.1675, 12.32766]]

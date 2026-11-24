@@ -1,0 +1,33 @@
+id = "9262"
+ref = "9262"
+name = "9262 Brühl-Vochem - Köln-Godorf Hafen"
+operator = "HGK"
+gauge = "1435"
+from = "Brühl-Vochem"
+to = "Köln-Godorf Hafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 6.554
+length = 6.554
+speeds = [[0, 0.05, "", ""], [0.05, 0.101, 80, 80], [0.101, 6.554, "", ""]]
+curves = [[0.1, 0.375, 300], [0.575, 0.875, 330], [1.175, 1.275, 2370], [1.675, 1.85, 1170], [2.2, 2.4, 1330], [2.6, 2.85, 1030], [3, 3.65, 600], [4.45, 4.925, 540], [5.475, 5.8, 470], [6.025, 6.45, 980]]
+points = [
+  { km = 0.275, kind = "signal", label = "s942II", signal = "distant", dir = 1 },
+  { km = 0.415, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.973, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.372, kind = "signal", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.042, kmTo = 1.087, length = 45 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "efiuHqvbi@vAV" },
+  { line = "mciuHyubi@wAe@", v = 80 },
+  { line = "efiuH_wbi@hEPhDcBzMgOxA_Dv@sDbB{e@l@{m@aCin@@}e@uCu`@JcNpAmKpBoHdc@y`AfBeIn@eJkBsq@y@yNkAoGgB_E{RgXkGgEsImB" },
+]
+posts = [[0, 50.84275, 6.90041], [1, 50.83751, 6.90824], [2, 50.83735, 6.92242], [3, 50.83825, 6.93651], [4, 50.83474, 6.94873], [5, 50.83096, 6.96089], [6, 50.83435, 6.97331]]

@@ -1,0 +1,55 @@
+id = "5632"
+ref = "5632"
+name = "5632 Landshut (Bay) Hbf - Rottenburg (Laaber)"
+operator = "BayernBahn Betriebs-GmbH"
+gauge = "1435"
+from = "Landshut (Bay) Hbf"
+to = "Rottenburg (Laaber)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.258
+kmTo = 14.287
+length = 14.557
+speeds = [[-0.258, 0.413, 60, 60], [0.413, 0.996, 40, 40], [0.996, 14.287, "", ""]]
+curves = [[-0.126, -0.051, 1290], [0.421, 0.608, 810], [1.081, 1.292, 1040], [1.416, 2.737, 1230], [3.112, 3.487, 810], [3.862, 4.062, 800], [4.262, 4.512, 900], [5.037, 5.137, 1690], [5.387, 5.512, 2110], [6.337, 6.537, 700], [7.062, 7.412, 380], [7.487, 7.912, 400], [8.262, 8.312, 2500], [8.562, 8.762, 580], [8.837, 8.962, 1270], [9.062, 9.137, 2220], [9.387, 9.787, 760], [10.062, 10.237, 920], [10.362, 10.462, 1470], [10.887, 11.137, 540], [11.212, 11.712, 870], [11.762, 12.037, 560], [12.237, 12.337, 1580], [12.662, 12.862, 910], [13.512, 13.587, 2210], [13.737, 13.937, 1950]]
+points = [
+  { km = -0.104, kind = "signal", label = "N408", signal = "main,speed_limit", dir = -1 },
+  { km = -0.021, kind = "station", label = "Landshut (Bay) Hbf", pos = [48.54755, 12.13608], uic = "8000217" },
+  { km = 0.413, kind = "signal", label = "P 408", signal = "main,minor,traversable", dir = 1 },
+  { km = 0.491, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.678, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.792, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.867, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.98, kind = "signal", signal = "route", dir = 1 },
+  { km = 0.982, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.043, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.223, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.992, kind = "station", label = "Altdorf", pos = [48.55503, 12.10267] },
+  { km = 6.519, kind = "station", label = "Pfettrach", pos = [48.5745, 12.06603] },
+  { km = 14.087, kind = "station", label = "Neuhausen (b. La.)", pos = [48.61852, 11.99633] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.202, kmTo = 1.228, length = 25 },
+  { kind = "bridge", kmFrom = 1.573, kmTo = 1.607, length = 36 },
+  { kind = "bridge", kmFrom = 7.215, kmTo = 7.238, length = 23 },
+  { kind = "bridge", kmFrom = 11.796, kmTo = 11.816, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}`wgHqtehAnRs\\zFoOdV{v@zGag@bCgZbA_EhJiQdDkRnB{YtQoi@|FsMrSoW~CoG~DyEbYyTtMqIpLoSlTc[|FyAfPjEjFk@xC}B|]g`@d^}`AdMcWzTsj@jIce@zQuc@dCaDpEwCxXqLhG_ExG{GfJgPjF_QnCcQzA{ZOcS" },
+  { line = "eqhgHou~hAaAcc@wA}L", v = 40 },
+  { line = "_vhgHqg`iAkIwe@{AuM", v = 60 },
+]
+posts = [[14, 48.61797, 11.99718], [13, 48.61278, 12.00825], [12, 48.60976, 12.02096], [11, 48.60609, 12.03296], [10, 48.60058, 12.04359], [9, 48.59325, 12.05129], [8, 48.58617, 12.05944], [7, 48.57806, 12.06232], [6, 48.57157, 12.07147], [5, 48.56606, 12.08219], [4, 48.56154, 12.09378], [3, 48.5551, 12.10263], [2, 48.54765, 12.10972], [1, 48.54563, 12.12259], [0, 48.54779, 12.13588]]
+
+[[connections]]
+km = -0.021
+station = "Landshut Hbf"
+lines = [
+  { id = "5500", ref = "5500", name = "5500 München - Regensburg", km = 76.101 },
+  { id = "5634", ref = "5634", name = "5634 Landshut (Bay) Hbf - Bayerisch Eisenstein Grenze", km = -0.044 },
+  { id = "5720", ref = "5720", name = "5720 Neumarkt-St. Veit - Landshut (Bay) Hbf", km = 38.815 },
+]

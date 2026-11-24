@@ -1,0 +1,65 @@
+id = "6855"
+ref = "6855"
+name = "6855 Köthen - Aken (Elbe)"
+operator = "DB InfroGO;Deutsche Regionaleisenbahn"
+gauge = "1435"
+wikidata = "Q802586"
+from = "Köthen"
+to = "Aken (Elbe)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 11.909
+length = 11.909
+speeds = [[0, 0.883, 40, 40], [0.883, 4.181, 60, 60], [4.181, 4.989, 40, 40], [4.989, 5, "", ""], [5, 6.469, 60, 60], [6.469, 6.563, 20, 20], [6.563, 8.988, 60, 60], [8.988, 9.003, 20, 20], [9.003, 11.807, 50, 50], [11.807, 11.909, 30, 30]]
+curves = [[0.325, 0.75, 530], [3.075, 3.625, 1020], [4.2, 4.25, 2390], [4.825, 4.875, 2400], [4.95, 5, 2430], [5.2, 5.4, 1350], [8.575, 8.75, 1660], [8.925, 9.025, 1840], [9.525, 9.925, 470], [10.025, 10.9, 1080], [11.1, 11.45, 550], [11.7, 11.8, 1050]]
+points = [
+  { km = 0.558, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.569, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.611, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.883, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 0.905, kind = "signal", label = "A", signal = "main", dir = -1 },
+  { km = 0.906, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.196, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.284, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.304, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.636, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.781, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.181, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.58, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.989, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.464, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.158, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.469, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.511, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.526, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.563, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.823, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 11.199, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.201, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 11.621, kind = "signal", label = "05 C", signal = "main,traversable", dir = 1 },
+  { km = 11.807, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.049, kmTo = 1.068, length = 19 },
+  { kind = "bridge", kmFrom = 4.203, kmTo = 4.216, length = 13 },
+  { kind = "bridge", kmFrom = 11.821, kmTo = 11.842, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wnn{HawmhAbTnBvEzApFfFvGrM", v = 40 },
+  { line = "qbm{HyzlhAzyAryCtEjFlGnEpa@jO", v = 60 },
+  { line = "_vh{H}aghAtj@fS", v = 40 },
+  { line = "ijg{HumfhAPH" },
+  { line = "wig{HkmfhAzQ|Fr}@bK", v = 60 },
+  { line = "gxd{HiyehAdD^", v = 20 },
+  { line = "asd{HixehArpBzTzTA", v = 60 },
+  { line = "qk`{HobehAX@", v = 20 },
+  { line = "wj`{HmbehAx_@rAtErAdE`ErKxS`IvJlIlGlJrCfS`AhFs@fEkCzQsQ", v = 50 },
+  { line = "y{{zHa`dhAhDkB", v = 30 },
+]
+posts = [[0, 51.85276, 12.03585], [1, 51.84497, 12.03009], [2, 51.8388, 12.0195], [3, 51.83263, 12.00891], [4, 51.82476, 12.00248], [5, 51.81612, 11.99846], [6, 51.80727, 11.99606], [7, 51.79834, 11.99434], [8, 51.78941, 11.99262], [9, 51.78046, 11.99159], [10, 51.77213, 11.98809], [11, 51.7642, 11.98226]]

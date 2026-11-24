@@ -1,0 +1,190 @@
+id = "4114"
+ref = "4114"
+name = "4114 Meckesheim - Bad Friedrichshall"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Meckesheim"
+to = "Bad Friedrichshall Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.406
+kmTo = 36.897
+length = 36.509
+speeds = [[0.406, 0.46, "", ""], [0.46, 0.7, 80, 80], [0.7, 0.858, "", ""], [0.858, 4.692, 120, 120], [4.692, 5.415, 120, ""], [5.415, 9.642, 90, ""], [9.642, 10.174, "", ""], [10.174, 12.283, 120, 120], [12.283, 12.313, "", ""], [12.313, 15.508, 100, 100], [15.508, 16.143, 110, 110], [16.143, 17.718, 120, 120], [17.718, 18.589, 100, 100], [18.589, 19.861, 110, 110], [19.861, 23.297, 120, 120], [23.297, 26.6, 100, 100], [26.6, 27.507, 110, 100], [27.507, 29.81, 100, 100], [29.81, 30.707, 100, 110], [30.707, 33.607, 100, 100], [33.607, 33.632, 100, 80], [33.632, 33.759, 100, 100], [33.759, 35.5, 80, 80], [35.5, 35.602, 80, 60], [35.602, 35.962, 60, 60], [35.962, 36.897, 40, 40]]
+curves = [[0.516, 0.77, 420], [0.896, 2.075, 1440], [3.07, 3.67, 1090], [4.125, 4.928, 780], [5.422, 6.051, 530], [6.256, 7.074, 950], [7.274, 7.324, 2150], [7.549, 7.599, 2470], [7.975, 8.426, 1780], [11.409, 11.459, 2710], [12.45, 12.752, 900], [13.134, 13.813, 470], [14.49, 14.916, 530], [14.992, 15.468, 500], [15.568, 16.045, 700], [16.296, 16.823, 1540], [17.199, 17.4, 1310], [17.827, 18.052, 820], [18.153, 18.554, 490], [18.679, 19.431, 710], [19.632, 19.851, 960], [20.292, 20.614, 2150], [22.189, 22.264, 2090], [22.54, 22.59, 1790], [23.116, 23.241, 1830], [23.292, 23.668, 2070], [24.686, 25.449, 1550], [25.925, 26.525, 2420], [26.575, 26.927, 2320], [27.052, 27.127, 2370], [28.082, 28.424, 1410], [28.892, 29.394, 570], [29.597, 30.379, 770], [31, 32.366, 710], [32.577, 32.963, 1560], [33.062, 33.565, 870], [33.798, 34.06, 770], [34.86, 35.205, 550], [35.762, 36.255, 350], [36.307, 36.356, 2450], [36.7, 36.799, 880]]
+points = [
+  { km = 0.46, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.7, kind = "signal", label = "F", signal = "combined,speed_limit,speed_limit_distant", dir = -1, measured = true },
+  { km = 0.858, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.41, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.784, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.995, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 2.061, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.373, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.809, kind = "halt", label = "Zuzenhausen", uic = "8014184", pos = [49.2975, 8.82133], measured = true },
+  { km = 3.019, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.371, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.747, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.415, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.5, kind = "signal", label = "85A", signal = "combined,speed_limit", dir = 1, measured = true },
+  { km = 6.011, kind = "signal", label = "P2", signal = "main", dir = -1 },
+  { km = 6.078, kind = "station", label = "Hoffenheim", uic = "8014185", pos = [49.27222, 8.83844] },
+  { km = 6.328, kind = "signal", label = "N2", signal = "main", dir = 1 },
+  { km = 6.76, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.937, kind = "signal", signal = "combined,speed_limit", dir = -1 },
+  { km = 7.64, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 8.518, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 9.232, kind = "signal", label = "A", signal = "combined,speed_limit", dir = 1 },
+  { km = 9.425, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 9.575, kind = "signal", signal = "minor", dir = 1 },
+  { km = 9.866, kind = "signal", label = "86P1", signal = "main", dir = -1 },
+  { km = 9.959, kind = "stop", label = "Sinsheim (Elsenz) Hauptbahnhof", pos = [49.25051, 8.8746] },
+  { km = 10.088, kind = "station", label = "Sinsheim (Elsenz) Hauptbahnhof", pos = [49.25017, 8.8755], uic = "8014186" },
+  { km = 10.202, kind = "signal", label = "86N1", signal = "main", dir = 1 },
+  { km = 11.42, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 11.425, kind = "signal", signal = "combined", dir = 1 },
+  { km = 11.638, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 12.03, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.082, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.094, kind = "stop", label = "Sinsheim Museum/Arena", pos = [49.24116, 8.90016] },
+  { km = 12.13, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.135, kind = "signal", signal = "stop", dir = -1 },
+  { km = 12.171, kind = "station", label = "Sinsheim Museum/Arena", pos = [49.24165, 8.8993], uic = "8023788" },
+  { km = 12.193, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 12.21, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.219, kind = "signal", label = "87ZR1", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 12.313, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.727, kind = "signal", label = "ZU1", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = 12.822, kind = "station", label = "Steinsfurt", pos = [49.23602, 8.90778], uic = "8014187" },
+  { km = 12.972, kind = "signal", label = "87N1", signal = "main", dir = 1 },
+  { km = 15.508, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.143, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.97, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 17.718, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.589, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.667, kind = "signal", signal = "distant", dir = 1 },
+  { km = 19.303, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 19.387, kind = "signal", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 19.838, kind = "signal", label = "P2", signal = "main", dir = -1 },
+  { km = 19.845, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 19.848, kind = "signal", signal = "stop", dir = -1 },
+  { km = 19.861, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.9, kind = "station", label = "Grombach", uic = "8014194", pos = [49.22615, 8.9969], measured = true },
+  { km = 19.912, kind = "signal", signal = "stop", dir = 1 },
+  { km = 20.057, kind = "signal", label = "N2", signal = "main", dir = 1 },
+  { km = 22.555, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 23.297, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 24.791, kind = "stop", label = "Babstadt", uic = "8000681", pos = [49.24015, 9.06062] },
+  { km = 24.822, kind = "signal", signal = "stop", dir = 1 },
+  { km = 26.6, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 27.21, kind = "signal", signal = "combined,speed_limit", dir = 1 },
+  { km = 27.507, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 27.754, kind = "signal", label = "P2", signal = "main", dir = -1 },
+  { km = 27.775, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 27.904, kind = "station", label = "Bad Rappenau", pos = [49.23777, 9.10154], uic = "8014196" },
+  { km = 27.974, kind = "signal", label = "N2", signal = "main", dir = 1 },
+  { km = 28.12, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 28.122, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.308, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 28.502, kind = "signal", label = "F", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 28.844, kind = "stop", label = "Bad Rappenau Kurpark", pos = [49.24041, 9.11358], uic = "8093764" },
+  { km = 29.107, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 29.369, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 29.599, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 29.81, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 29.988, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 30.707, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 30.917, kind = "halt", label = "Bad Wimpfen-Hohenstadt", pos = [49.24281, 9.13927] },
+  { km = 31.589, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 32.08, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 32.1, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 32.89, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 32.895, kind = "signal", label = "A", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 33.559, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 33.607, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 33.727, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 33.758, kind = "signal", label = "P1", signal = "main", dir = -1 },
+  { km = 33.759, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 33.761, kind = "signal", signal = "stop", dir = -1 },
+  { km = 33.861, kind = "station", label = "Bad Wimpfen", pos = [49.22967, 9.16764], uic = "8014198" },
+  { km = 33.901, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 33.969, kind = "signal", label = "N1", signal = "main", dir = 1 },
+  { km = 34.235, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 34.5, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 34.5, kind = "signal", label = "F", signal = "combined,speed_limit", dir = -1, measured = true },
+  { km = 34.878, kind = "signal", signal = "distant", dir = 1 },
+  { km = 35.215, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 35.233, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 35.305, kind = "halt", label = "Bad Wimpfen im Tal", pos = [49.22984, 9.18715], measured = true },
+  { km = 35.5, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 35.59, kind = "signal", label = "F", signal = "distant,main", dir = 1 },
+  { km = 35.901, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 35.918, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 35.932, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 36.3, kind = "signal", label = "N11", signal = "main,minor,traversable", dir = -1, measured = true },
+  { km = 36.303, kind = "signal", signal = "stop", dir = -1 },
+  { km = 36.352, kind = "signal", signal = "stop", dir = 1 },
+  { km = 36.375, kind = "signal", signal = "stop", dir = 1 },
+  { km = 36.462, kind = "signal", signal = "stop", dir = 1 },
+  { km = 36.491, kind = "signal", signal = "stop", dir = 1 },
+  { km = 36.492, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 36.629, kind = "signal", label = "P11", signal = "main,minor,traversable", dir = 1 },
+  { km = 36.898, kind = "station", label = "Bad Friedrichshall Hauptbahnhof", uic = "8029637", pos = [49.23137, 9.19995], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.899, kmTo = 2.914, length = 18 },
+  { kind = "bridge", kmFrom = 4.692, kmTo = 4.726, length = 25 },
+  { kind = "bridge", kmFrom = 7.842, kmTo = 7.858, length = 17 },
+  { kind = "bridge", kmFrom = 8.189, kmTo = 8.199, length = 10 },
+  { kind = "bridge", kmFrom = 9.642, kmTo = 9.672, length = 31 },
+  { kind = "bridge", kmFrom = 10.151, kmTo = 10.174, length = 23 },
+  { kind = "bridge", kmFrom = 11.18, kmTo = 11.193, length = 13 },
+  { kind = "bridge", kmFrom = 12.323, kmTo = 12.345, length = 23 },
+  { kind = "bridge", kmFrom = 12.909, kmTo = 12.963, length = 49 },
+  { kind = "bridge", kmFrom = 33.923, kmTo = 33.964, length = 49 },
+  { kind = "bridge", kmFrom = 35.235, kmTo = 35.247, length = 13 },
+  { kind = "bridge", kmFrom = 35.602, kmTo = 35.789, length = 201 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_ymkHa}dw@iEpGoSxd@_BvFYfH", v = 40 },
+  { line = "swnkHu}bw@j@zItFtQ", v = 60 },
+  { line = "qnnkHc`bw@vLz_@~@tJuAxrAi@vHcB~I", v = 80 },
+  { line = "}enkH_k}v@aGxWqDpIyDvFwNtMa^hN}GfHcFpKuBzI{A`Ms@dLDpG`BdMxJ|Y", v = 100 },
+  { line = "kqpkHgtwv@lKf[~AxI|@vNQdO", v = 110 },
+  { line = "q`pkHgmuv@cApJuF`Zg@zFAdKz@bJxKzj@`BxLhEnz@", v = 100 },
+  { line = "ssokHgrov@lCbq@CjZ", v = 110 },
+  { line = "iookHwdmv@cCpd@mBzOcK|n@cBtY^fZtHlvA|Dz^", v = 100 },
+  { line = "ouokHcqdv@rAbInWdgAta@z~BbDtV|Cxd@", v = 120 },
+  { line = "smmkHma|u@tAdNxGz\\t@zMKxIq@zI}A~HsC~I", v = 110 },
+  { line = "}imkHyzxu@uB~GiAxIA|H`AjVqAvQ", v = 100 },
+  { line = "opmkH}rvu@cEle@iAxg@_A|OeCzQ_DnN", v = 120 },
+  { line = "cdnkHkpru@{BfLeAjLCdI~@rN", v = 110 },
+  { line = "ihnkH}{pu@x@pN]nIoAdHeHlScA`KrDrkAEtHu@dHaBvFsCbFi\\nYkDnF_G`N", v = 100 },
+  { line = "{cpkHwxiu@c@dA" },
+  { line = "_epkHqviu@uT~g@{Kb\\uIv]sNhv@", v = 120 },
+  { line = "{arkHkzdu@aK`j@" },
+  { line = "}mrkHiocu@yY|}A}D~OeNp\\}PxZ}NbSgJ~GeGjB_Gh@kVqB{GVeEhBuChC{FjL", v = 90 },
+  { line = "enwkH_r|t@cSvj@{E`HmHfFoDjAiG`@qa@iA_NxBuI|Eau@xm@cJxEuF`BiLhAaJYeHmAsHoC", v = 120 },
+  { line = "wp~kHyvxt@kGiC" },
+  { line = "cy~kHc{xt@{GSiHhD", v = 80 },
+  { line = "ik_lHmvxt@sAdA" },
+]
+posts = [[36, 49.23273, 9.19586], [35, 49.2288, 9.18376], [34, 49.2292, 9.17004], [33, 49.23395, 9.15885], [32, 49.2421, 9.1533], [31, 49.24341, 9.14067], [30, 49.23922, 9.12913], [29, 49.24093, 9.11563], [28, 49.23788, 9.10285], [27, 49.23658, 9.08927], [26, 49.2376, 9.07573], [25, 49.24019, 9.06263], [24, 49.23895, 9.04908], [23, 49.23639, 9.03601], [22, 49.2324, 9.02372], [21, 49.22897, 9.01103], [20, 49.22627, 8.99827], [19, 49.22397, 8.98491], [18, 49.22609, 8.97211], [17, 49.22768, 8.95866], [16, 49.23016, 8.94563], [15, 49.23098, 8.93246], [14, 49.23173, 8.91937], [13, 49.23482, 8.90886], [12, 49.24174, 8.89908], [11, 49.24675, 8.88772], [10, 49.25036, 8.87514], [9, 49.25391, 8.86253], [8, 49.25795, 8.85031], [7, 49.26432, 8.84065], [6, 49.27289, 8.83852], [5, 49.27941, 8.83032], [4, 49.28707, 8.825], [3, 49.29576, 8.82287], [2, 49.3036, 8.81607], [1, 49.31235, 8.81474]]
+
+[[connections]]
+km = 12.822
+station = "Steinsfurt"
+lines = [
+  { id = "4115", ref = "4115", km = -0.028 },
+]
+
+[[connections]]
+km = 36.898
+station = "Bad Friedrichshall Hauptbahnhof"
+lines = [
+  { id = "4900", ref = "4900", name = "4900 Bietigheim-Bissingen - Osterburken", km = 36.898 },
+]

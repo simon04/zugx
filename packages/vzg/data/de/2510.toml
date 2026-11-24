@@ -1,0 +1,84 @@
+id = "2510"
+ref = "2510"
+name = "2510 Viersen - Kaldenkirchen Grenze"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Viersen"
+to = "Kaldenkirchen Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -1.181
+kmTo = 19.339
+length = 20.473
+speeds = [[-1.181, 5.426, "", ""], [5.426, 10.785, 120, 120], [10.785, 10.995, 90, 90], [10.995, 12.526, 110, 110], [12.526, 12.752, 90, 90], [12.752, 17.036, 120, 120], [17.036, 19.339, 100, 100]]
+curves = [[-1.006, -0.906, 1610], [-0.381, -0.331, 2430], [-0.106, 0.321, 450], [0.372, 1.983, 760], [2.31, 3.191, 1360], [4.042, 4.688, 1140], [9.486, 9.673, 1070], [9.801, 10.079, 1250], [15.4, 15.964, 1480], [17.034, 17.215, 1540], [17.313, 17.533, 2350], [17.885, 17.985, 1490], [18.359, 18.409, 2560], [19.089, 19.216, 1250]]
+points = [
+  { km = -1.083, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.789, kind = "signal", signal = "main,minor,traversable", dir = -1 },
+  { km = -0.513, kind = "station", label = "Viersen", uic = "8000174", pos = [51.25482, 6.40409] },
+  { km = -0.276, kind = "signal", signal = "main,minor,traversable,wrong_road", dir = 1 },
+  { km = -0.104, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.333, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.438, kind = "signal", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 3.95, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.966, kind = "halt", label = "Dülken", uic = "8001571", pos = [51.25708, 6.338] },
+  { km = 5.075, kind = "signal", label = "1157", signal = "combined", dir = 1 },
+  { km = 5.715, kind = "signal", signal = "combined", dir = -1 },
+  { km = 6.483, kind = "signal", label = "1159", signal = "main", dir = 1 },
+  { km = 7.625, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.613, kind = "signal", label = "12A", signal = "combined", dir = 1 },
+  { km = 9.764, kind = "station", label = "Boisheim", pos = [51.27436, 6.27465], uic = "8001072" },
+  { km = 9.877, kind = "signal", label = "12N1", signal = "main", dir = 1 },
+  { km = 10.195, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 10.785, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.788, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.991, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.995, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.449, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.467, kind = "signal", label = "13A", signal = "combined,speed_limit", dir = 1 },
+  { km = 12.825, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.087, kind = "station", label = "Breyell", pos = [51.29471, 6.24098], uic = "8001180" },
+  { km = 13.305, kind = "signal", label = "13ZR2", signal = "combined", dir = 1 },
+  { km = 14.064, kind = "signal", label = "13N2", signal = "main", dir = 1 },
+  { km = 15.662, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 16.894, kind = "signal", label = "14A", signal = "combined,speed_limit", dir = 1, measured = true },
+  { km = 17.255, kind = "signal", signal = "minor", dir = 1 },
+  { km = 17.644, kind = "station", label = "Kaldenkirchen", pos = [51.32728, 6.20317], uic = "8000190" },
+  { km = 18.249, kind = "signal", label = "14N2", signal = "main,minor", dir = 1, measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.36, kmTo = -0.333, length = 27 },
+  { kind = "bridge", kmFrom = -0.076, kmTo = -0.046, length = 30 },
+  { kind = "bridge", kmFrom = 0.196, kmTo = 0.21, length = 14 },
+  { kind = "bridge", kmFrom = 0.509, kmTo = 0.55, length = 40 },
+  { kind = "bridge", kmFrom = 0.956, kmTo = 0.977, length = 20 },
+  { kind = "bridge", kmFrom = 1.145, kmTo = 1.167, length = 21 },
+  { kind = "bridge", kmFrom = 1.424, kmTo = 1.454, length = 30 },
+  { kind = "bridge", kmFrom = 5.371, kmTo = 5.399, length = 28 },
+  { kind = "bridge", kmFrom = 10.887, kmTo = 10.911, length = 24 },
+  { kind = "bridge", kmFrom = 12.581, kmTo = 12.606, length = 25 },
+  { kind = "bridge", kmFrom = 12.708, kmTo = 12.735, length = 27 },
+  { kind = "bridge", kmFrom = 13.629, kmTo = 13.646, length = 18 },
+  { kind = "bridge", kmFrom = 17.384, kmTo = 17.41, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ucywHorcf@eMzn@uNvm@gFdIwPzGoH`J}ChHmB`HiB`M_@pGVrUdCxPtD|KrQ|\\tElL`CtI`ClMnBtSxArg@~Cvn@J`TgBfXsPfaA" },
+  { line = "{mzwHguse@yyAttIyLr]w_@`n@", v = 120 },
+  { line = "gw~wH{qfe@mGbL", v = 90 },
+  { line = "u__xHwdfe@my@vcB", v = 110 },
+  { line = "cz`xH_`ce@oGnM", v = 90 },
+  { line = "sbaxHoqbe@olBruD}EhGeHhGiy@fg@", v = 120 },
+  { line = "qzfxH_b{d@{TzIiVrNeYbUid@dY}GzG", v = 100 },
+]
+posts = [[-1, 51.25259, 6.41097], [0, 51.25673, 6.39822], [1, 51.26367, 6.39015], [2, 51.2619, 6.37717], [3, 51.25689, 6.36562], [4, 51.25558, 6.35145], [5, 51.25718, 6.33754], [6, 51.26062, 6.32462], [7, 51.26419, 6.31121], [8, 51.26762, 6.29838], [9, 51.27117, 6.28497], [10, 51.27544, 6.27231], [11, 51.28206, 6.26263], [12, 51.28807, 6.25228], [13, 51.29425, 6.2417], [14, 51.30063, 6.23095], [15, 51.30662, 6.22091], [16, 51.31357, 6.21183], [17, 51.32191, 6.2061], [18, 51.33025, 6.20099], [19, 51.33835, 6.1948]]
+
+[[connections]]
+km = -0.513
+station = "Viersen"
+lines = [
+  { id = "2520", ref = "2520", name = "2520 Mönchengladbach - Krefeld-Oppum", km = 72.189 },
+]

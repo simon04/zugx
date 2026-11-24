@@ -1,0 +1,62 @@
+id = "9180"
+ref = "9180"
+name = "Vorwohle-Emmerthaler Eisenbahn"
+gauge = "1435"
+wikidata = "Q1263252"
+from = "Vorwohle"
+to = "Emmerthal"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 19.749
+kmTo = 32.809
+length = 13.07
+speeds = [[19.749, 28.054, "", ""], [28.054, 31.821, 30, 30], [31.821, 32.809, "", ""]]
+curves = [[19.849, 20.124, 1080], [20.374, 20.499, 1450], [21.305, 21.481, 1160], [21.719, 22.427, 680], [22.549, 23.149, 790], [23.49, 23.677, 960], [24.261, 25.188, 1270], [25.29, 25.618, 1050], [25.71, 26.099, 500], [26.141, 26.466, 350], [26.518, 26.623, 1780], [27.095, 27.421, 560], [27.674, 27.864, 810], [29.489, 29.739, 690], [29.989, 30.389, 550], [30.514, 30.639, 1950], [31.239, 31.889, 380], [31.964, 32.064, 1710], [32.189, 32.264, 2640]]
+points = [
+  { km = 20.48, kind = "signal", label = "Prüfen: Gewindigkeit im Verladebahnhof vermutlich 20 km/h.", signal = "speed_limit", dir = 1 },
+  { km = 20.484, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.406, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 21.851, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.877, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.12, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 24.849, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 24.99, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 24.999, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 25.547, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 25.59, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 25.591, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 25.655, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 25.734, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 25.825, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 25.922, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 26, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 26.032, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 27.692, kind = "signal", signal = "main", dir = 1 },
+  { km = 31.582, kind = "signal", signal = "main", dir = 1 },
+  { km = 31.821, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 32.026, kind = "signal", label = "N3", signal = "main", dir = -1 },
+  { km = 32.467, kind = "station", label = "Emmerthal", pos = [52.0464, 9.38313], uic = "8001777" },
+  { km = 32.619, kind = "signal", label = "P3", signal = "main", dir = 1 },
+  { km = 32.729, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 22.08, kmTo = 22.096, length = 17 },
+  { kind = "bridge", kmFrom = 28.034, kmTo = 28.054, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ioh|Hwd_y@[bWpB`h@z@hoA{Bze@K|MbAnLVbQ~GxZbAnVi@|QcHzi@}Ttw@uBrF_HvLoFfGoH~FeTdIwShNyEzGmD|RwDfH_k@`ZgElGkMj]_LxO" },
+  { line = "shn|Hc|lx@}bAftAeEvC}StIyFnGmIdUuTpz@}BfEoCrBuDj@wDw@eDuB", v = 30 },
+  { line = "uhs|Hkwfx@mPwPu^wV" },
+]
+posts = [[20, 51.98612, 9.49999], [21, 51.98535, 9.48553], [22, 51.98583, 9.47101], [23, 51.98369, 9.45712], [24, 51.98718, 9.44391], [25, 51.99329, 9.43374], [26, 52.00141, 9.428], [27, 52.00842, 9.42025], [28, 52.01523, 9.41058], [29, 52.02233, 9.40161], [30, 52.03003, 9.39445], [31, 52.03573, 9.38365], [32, 52.04256, 9.38008]]
+
+[[connections]]
+km = 32.467
+station = "Emmerthal"
+lines = [
+  { id = "1760", ref = "1760", name = "1760 Hannover - Soest", km = 59.745 },
+]

@@ -1,0 +1,60 @@
+id = "4263"
+ref = "4263"
+name = "4263 Abzw Windschläg - Offenburg"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Windschläg"
+to = "Offenburg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.425
+length = 5.425
+speeds = [[0, 5.425, "", ""]]
+curves = [[0.15, 0.475, 390], [0.525, 0.625, 1370], [0.775, 0.875, 1360], [1.075, 1.2, 1860], [1.9, 2.1, 2140], [2.175, 2.3, 1290], [3.9, 4.1, 850], [4.15, 4.375, 930], [4.725, 4.775, 2450], [5, 5.075, 2770]]
+points = [
+  { km = 0.116, kind = "signal", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 0.241, kind = "signal", signal = "train_protection", dir = -1 },
+  { km = 0.37, kind = "signal", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.577, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.653, kind = "station", label = "Offenburg", uic = "8014309", pos = [48.47652, 7.94654] },
+  { km = 0.783, kind = "signal", signal = "combined,minor,speed_limit,traversable", dir = -1 },
+  { km = 1.165, kind = "signal", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 1.963, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.99, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.149, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.151, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.387, kind = "signal", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.907, kind = "signal", label = "P 267", signal = "main,route,speed_limit,traversable", dir = 1 },
+  { km = 3.36, kind = "signal", label = "R 237", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 4.367, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 4.368, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 4.427, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 4.428, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 4.468, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.514, kind = "signal", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 5.153, kind = "signal", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 5.271, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.311, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 4.115, kmTo = 4.166, length = 51 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "m}yfH{coo@mKzEqGKkUwKqQwEwg@gTmReFcwA_m@wHmA" },
+  { line = "my`gHw}qo@{AE", tunnel = true },
+  { line = "i|`gH}}qo@iFu@}c@aQ{VgG" },
+]
+posts = [[0, 48.47079, 7.94702], [1, 48.47934, 7.94859], [2, 48.48789, 7.95278], [3, 48.49647, 7.9568], [4, 48.50496, 7.96123], [5, 48.51363, 7.96462]]
+
+[[connections]]
+km = 0.653
+station = "Offenburg"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 145.558 },
+  { id = "4280", ref = "4280", name = "Ausbau- und Neubaustrecke Karlsruhe-Basel", km = 145.528 },
+]

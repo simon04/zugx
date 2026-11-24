@@ -1,0 +1,76 @@
+id = "2500"
+ref = "2500"
+name = "2500 Krefeld Hbf - Krefeld-Linn"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Krefeld Hbf"
+to = "Krefeld-Linn"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.22
+kmTo = 5.906
+length = 6.15
+speeds = [[-0.22, 5.906, 60, 60]]
+curves = [[-0.07, 0.123, 810], [0.433, 0.522, 1330], [0.935, 1.041, 1660], [1.147, 1.2, 2030], [1.27, 1.48, 650], [1.598, 1.786, 560], [1.904, 1.951, 2300], [2.266, 2.352, 1520], [2.608, 3.14, 1320], [3.343, 3.825, 730], [3.977, 4.382, 890], [4.925, 5.025, 2370], [5.209, 5.3, 1520]]
+points = [
+  { km = -0.06, kind = "signal", label = "2N10", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 0.037, kind = "station", label = "Krefeld Hbf", uic = "8000211", pos = [51.3268, 6.57005] },
+  { km = 0.09, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.294, kind = "signal", label = "2M10", signal = "main,minor,route_distant,speed_limit,traversable", dir = 1 },
+  { km = 0.586, kind = "signal", label = "56Y", signal = "minor", dir = -1 },
+  { km = 0.696, kind = "halt", label = "Dießem", pos = [51.32657, 6.57982] },
+  { km = 0.959, kind = "signal", label = "56X", signal = "minor", dir = 1 },
+  { km = 1.04, kind = "signal", label = "2Vp76", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.728, kind = "signal", label = "2P76", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 2.114, kind = "signal", label = "2C", signal = "combined,traversable", dir = -1 },
+  { km = 3.009, kind = "halt", label = "Krefeld-Oppum", uic = "8000212", pos = [51.32973, 6.61087] },
+  { km = 4.219, kind = "signal", label = "6B", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 4.722, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.751, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 4.972, kind = "station", label = "Krefeld-Linn", uic = "8003426", pos = [51.33765, 6.63002] },
+  { km = 5.044, kind = "signal", label = "6P3", signal = "main", dir = -1 },
+  { km = 5.711, kind = "signal", label = "6N3", signal = "main,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.157, kmTo = -0.134, length = 23 },
+  { kind = "bridge", kmFrom = 0.421, kmTo = 0.441, length = 22 },
+  { kind = "bridge", kmFrom = 0.867, kmTo = 0.878, length = 15 },
+  { kind = "bridge", kmFrom = 0.9, kmTo = 0.913, length = 17 },
+  { kind = "bridge", kmFrom = 1.416, kmTo = 1.434, length = 19 },
+  { kind = "bridge", kmFrom = 2.466, kmTo = 2.486, length = 19 },
+  { kind = "bridge", kmFrom = 3.19, kmTo = 3.273, length = 82 },
+  { kind = "bridge", kmFrom = 3.543, kmTo = 3.567, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yigxHoqag@qCcWaLy`@kJad@mIm[iAyIg@wSLeJpFek@~Gcc@fAeORsS[uYiBoRuB{HkH}QiIwLcVeQ}WoNi`@mZ", v = 60 },
+]
+posts = [[0, 51.32514, 6.56985], [1, 51.32949, 6.58268], [2, 51.33087, 6.59678], [3, 51.32832, 6.61065], [4, 51.33086, 6.62373], [5, 51.33779, 6.63017]]
+
+[[connections]]
+km = 0.037
+station = "Krefeld Hbf"
+lines = [
+  { id = "2520", ref = "2520", name = "2520 Mönchengladbach - Krefeld-Oppum", km = 87.342 },
+  { id = "2610", ref = "2610", name = "2610 Köln - Kleve", km = 53.539 },
+]
+
+[[connections]]
+km = 3.009
+station = "Krefeld-Oppum"
+lines = [
+  { id = "2505", ref = "2505", name = "2505 Krefeld-Oppum - Mülheim (Ruhr)-Speldorf", km = 0.031 },
+  { id = "2520", ref = "2520", name = "2520 Mönchengladbach - Krefeld-Oppum", km = 90.359 },
+  { id = "2610", ref = "2610", name = "2610 Köln - Kleve", km = 50.549 },
+]
+
+[[connections]]
+km = 4.972
+station = "Krefeld-Linn"
+lines = [
+  { id = "2504", ref = "2504", name = "2504 Abzw Krefeld Lohbruch - Krefeld-Uerdingen", km = 1.673 },
+  { id = "2505", ref = "2505", name = "2505 Krefeld-Oppum - Mülheim (Ruhr)-Speldorf", km = 1.771 },
+]

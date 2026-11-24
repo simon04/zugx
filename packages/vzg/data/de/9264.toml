@@ -1,0 +1,39 @@
+id = "9264"
+ref = "9264"
+name = "9264 Wesseling - Köln-Godorf Hafen"
+operator = "HGK"
+gauge = "1435"
+from = "Wesseling"
+to = "Köln-Godorf Hafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.759
+length = 2.759
+speeds = [[0, 2.759, "", ""]]
+curves = [[1.175, 1.55, 700], [1.6, 2.25, 1290], [2.575, 2.65, 1120]]
+points = [
+  { km = 0.89, kind = "halt", label = "Wesseling", pos = [50.82285, 6.97977] },
+  { km = 1.506, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.158, kmTo = 0.177, length = 19 },
+  { kind = "bridge", kmFrom = 1.541, kmTo = 1.586, length = 45 },
+  { kind = "bridge", kmFrom = 1.944, kmTo = 1.955, length = 10 },
+  { kind = "bridge", kmFrom = 2.07, kmTo = 2.088, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "okduHseti@yWtq@cOhc@yCdGeGjGmPpI_GpAaDA}DkBsSwTaE{B" },
+]
+posts = [[0, 50.818, 6.98986], [1, 50.82341, 6.9785], [2, 50.83072, 6.97119]]
+
+[[connections]]
+km = 0.89
+station = "Wesseling"
+lines = [
+  { id = "9260", ref = "9260", name = "9260 Köln Heinrich-Lübke-Ufer- Bornheim-Hersel", km = 15.079 },
+]

@@ -1,0 +1,25 @@
+id = "7345"
+ref = "7345"
+name = "7345 Berlin-Gesundbrunnen - Berlin Schönhauser Allee Abzw"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Berlin-Gesundbrunnen"
+to = "Berlin Schönhauser Allee Abzw"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.514
+length = 0.514
+speeds = [[0, 0.514, 80, 80]]
+curves = [[0.225, 0.375, 1470]]
+points = [
+  { km = 0.344, kind = "signal", label = "41 ZU160", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ukv_IecwpA}AkYg@sS", v = 80 },
+]
+posts = [[0, 52.54859, 13.39459]]

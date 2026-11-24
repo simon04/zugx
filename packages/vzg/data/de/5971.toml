@@ -1,0 +1,236 @@
+id = "5971"
+ref = "5971"
+name = "5971 Nürnberg Hbf - Roth"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Nürnberg Hbf"
+to = "Roth"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.038
+kmTo = 25.5
+length = 25.47
+speeds = [[-0.038, 0.368, "", ""], [0.368, 1.417, 80, 80], [1.417, 2.019, 100, 100], [2.019, 2.453, 120, 100], [2.453, 4.439, 120, 120], [4.439, 4.602, 100, 120], [4.602, 4.779, 100, 100], [4.779, 5.001, 120, 100], [5.001, 8.651, 120, 120], [8.651, 8.873, 120, 80], [8.873, 12.934, 120, 120], [12.934, 13.032, 100, 120], [13.032, 13.426, 100, 100], [13.426, 13.608, 120, 100], [13.608, 14.857, 120, 120], [14.857, 15.035, 120, 100], [15.035, 15.314, 100, 100], [15.314, 16.059, 120, 100], [16.059, 17.912, 120, 120], [17.912, 18.871, 110, 110], [18.871, 18.975, 110, 120], [18.975, 21.977, 120, 120], [21.977, 22.087, 100, 120], [22.087, 22.256, 100, 100], [22.256, 22.389, 120, 100], [22.389, 24.974, 120, 120], [24.974, 25.382, 60, 80], [25.382, 25.5, 30, 80]]
+curves = [[0.146, 0.256, 1720], [0.366, 0.622, 830], [0.668, 0.967, 730], [1.097, 1.396, 840], [1.578, 2.146, 650], [3.883, 3.931, 2440], [5.324, 5.354, 2820], [6.447, 6.705, 1160], [6.846, 7.087, 1090], [8.978, 9.663, 900], [9.929, 10.46, 870], [10.757, 11.248, 960], [11.323, 11.879, 890], [12.011, 12.595, 730], [12.697, 13.545, 760], [14.471, 14.937, 1250], [15.063, 16.105, 1260], [17.28, 17.856, 960], [17.96, 18.796, 740], [24.155, 24.204, 2740], [24.426, 24.696, 1580], [24.942, 25.391, 640]]
+points = [
+  { km = -0.038, kind = "station", label = "Nürnberg Hauptbahnhof", pos = [49.4452, 11.08231], uic = "8000284" },
+  { km = 0.075, kind = "signal", label = "N2", signal = "main", dir = 1 },
+  { km = 0.172, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.576, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.668, kind = "signal", label = "219", signal = "minor", dir = -1 },
+  { km = 0.675, kind = "signal", label = "Vkn271/1", signal = "distant", dir = 1 },
+  { km = 0.723, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.786, kind = "signal", label = "270", signal = "minor", dir = -1 },
+  { km = 0.997, kind = "signal", label = "J", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.1, kind = "station", label = "Nürnberg-Steinbühl", uic = "8004487", pos = [49.44283, 11.06801], measured = true },
+  { km = 1.417, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.417, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.019, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.447, kind = "signal", label = "Vj", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.453, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 2.546, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.62, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.695, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.789, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.975, kind = "stop", label = "Nürnberg-Sandreuth", pos = [49.42974, 11.05487] },
+  { km = 3, kind = "station", label = "Nürnberg-Sandreuth", uic = "8004484", pos = [49.4296, 11.05476], measured = true },
+  { km = 3.237, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.312, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.381, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.469, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.47, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.475, kind = "signal", label = "76V31", signal = "distant", dir = 1 },
+  { km = 4.439, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.442, kind = "signal", label = "7631", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 4.779, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.001, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.008, kind = "signal", label = "7652", signal = "main,traversable", dir = 1 },
+  { km = 5.192, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.3, kind = "stop", label = "Nürnberg-Eibach", uic = "8004477", pos = [49.40969, 11.04775], measured = true },
+  { km = 6.069, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.075, kind = "signal", label = "76V52", signal = "distant", dir = -1 },
+  { km = 6.176, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.257, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.326, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.207, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.283, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.359, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.46, kind = "signal", label = "76V33", signal = "distant", dir = 1 },
+  { km = 8.4, kind = "stop", label = "Nürnberg-Reichelsdorf", uic = "8004483", pos = [49.38216, 11.03886], measured = true },
+  { km = 8.469, kind = "signal", label = "7633", signal = "main,traversable", dir = 1 },
+  { km = 8.651, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.873, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.879, kind = "signal", label = "7634", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 9.052, kind = "signal", label = "76WV34II", signal = "distant", dir = -1 },
+  { km = 9.265, kind = "signal", label = "76WV34I", signal = "distant", dir = -1 },
+  { km = 9.827, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 9.838, kind = "signal", label = "76V34", signal = "distant", dir = -1 },
+  { km = 9.909, kind = "signal", signal = "distant", dir = -1 },
+  { km = 9.999, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10, kind = "stop", label = "Reichelsdorfer Keller", uic = "8004994", pos = [49.36839, 11.04004], measured = true },
+  { km = 10.096, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.5, kind = "stop", label = "Katzwang", uic = "8003214", pos = [49.35534, 11.04264], measured = true },
+  { km = 11.715, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.793, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.874, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.975, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 11.981, kind = "signal", label = "76V35", signal = "distant", dir = 1 },
+  { km = 12.661, kind = "signal", label = "76WV35", signal = "distant", dir = 1 },
+  { km = 12.934, kind = "signal", label = "7635", signal = "combined,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 13.032, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.426, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.48, kind = "signal", label = "76 36", signal = "main,traversable", dir = -1 },
+  { km = 13.5, kind = "stop", label = "Schwabach-Limbach", uic = "8005440", pos = [49.33841, 11.04476], measured = true },
+  { km = 13.608, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.733, kind = "signal", signal = "distant", dir = 1 },
+  { km = 14.053, kind = "signal", label = "76HH", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 14.669, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 14.847, kind = "signal", label = "76WVp6", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 14.857, kind = "signal", label = "76N6", signal = "combined,traversable", dir = -1 },
+  { km = 15, kind = "station", label = "Schwabach", uic = "8005439", pos = [49.32637, 11.03537], measured = true },
+  { km = 15.031, kind = "signal", signal = "stop", dir = 1 },
+  { km = 15.035, kind = "signal", label = "76P6", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 15.086, kind = "signal", label = "76WVn6", signal = "distant", dir = -1 },
+  { km = 15.223, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.314, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.379, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.451, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.524, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.623, kind = "signal", label = "76V57", signal = "distant", dir = 1 },
+  { km = 16.059, kind = "signal", label = "76D", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 16.616, kind = "signal", label = "7657", signal = "main,traversable", dir = 1 },
+  { km = 16.933, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 17.035, kind = "signal", label = "7638", signal = "combined,speed_limit_distant,traversable,wrong_road", dir = -1 },
+  { km = 17.355, kind = "signal", label = "76WV38", signal = "distant", dir = -1 },
+  { km = 17.911, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.912, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.207, kind = "signal", label = "76V38", signal = "distant", dir = -1 },
+  { km = 18.302, kind = "signal", signal = "distant", dir = -1 },
+  { km = 18.4, kind = "stop", label = "Rednitzhembach", uic = "8004978", pos = [49.30386, 11.06383], measured = true },
+  { km = 18.406, kind = "signal", signal = "distant", dir = -1 },
+  { km = 18.476, kind = "signal", signal = "distant", dir = -1 },
+  { km = 18.871, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.975, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.848, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 20.722, kind = "signal", signal = "distant", dir = 1 },
+  { km = 20.803, kind = "signal", signal = "distant", dir = 1 },
+  { km = 20.884, kind = "signal", signal = "distant", dir = 1 },
+  { km = 20.987, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 20.992, kind = "signal", label = "76V39", signal = "distant", dir = 1 },
+  { km = 21.977, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.983, kind = "signal", label = "7639", signal = "main,traversable,wrong_road", dir = 1 },
+  { km = 22.087, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.256, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.389, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.394, kind = "signal", label = "7660", signal = "main,traversable", dir = -1 },
+  { km = 22.5, kind = "stop", label = "Büchenbach", uic = "8001242", pos = [49.26742, 11.07419], measured = true },
+  { km = 22.62, kind = "signal", label = "76WV60", signal = "distant", dir = -1 },
+  { km = 23.418, kind = "signal", label = "76V60", signal = "distant", dir = -1 },
+  { km = 23.422, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 23.521, kind = "signal", signal = "distant", dir = -1 },
+  { km = 23.605, kind = "signal", signal = "distant", dir = -1 },
+  { km = 23.656, kind = "signal", signal = "distant", dir = 1 },
+  { km = 23.678, kind = "signal", signal = "distant", dir = -1 },
+  { km = 23.733, kind = "signal", signal = "distant", dir = 1 },
+  { km = 23.808, kind = "signal", signal = "distant", dir = 1 },
+  { km = 23.909, kind = "signal", label = "76Vk", signal = "distant,speed_limit_distant", dir = 1, measured = true },
+  { km = 24.967, kind = "signal", label = "76K", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1, measured = true },
+  { km = 24.974, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 25.379, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 25.381, kind = "signal", label = "76N91", signal = "main,traversable,wrong_road", dir = -1, measured = true },
+  { km = 25.5, kind = "station", label = "Roth", uic = "8005185", pos = [49.24116, 11.08257], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.978, kmTo = 1.592, length = 604 },
+  { kind = "bridge", kmFrom = 2.401, kmTo = 2.43, length = 29 },
+  { kind = "bridge", kmFrom = 2.975, kmTo = 3.012, length = 39 },
+  { kind = "bridge", kmFrom = 4.207, kmTo = 4.31, length = 120 },
+  { kind = "bridge", kmFrom = 6.648, kmTo = 6.793, length = 154 },
+  { kind = "bridge", kmFrom = 8.361, kmTo = 8.382, length = 22 },
+  { kind = "bridge", kmFrom = 9.129, kmTo = 9.152, length = 23 },
+  { kind = "bridge", kmFrom = 10.579, kmTo = 10.798, length = 203 },
+  { kind = "bridge", kmFrom = 11.358, kmTo = 11.382, length = 23 },
+  { kind = "bridge", kmFrom = 14.413, kmTo = 14.529, length = 130 },
+  { kind = "bridge", kmFrom = 14.617, kmTo = 14.634, length = 17 },
+  { kind = "bridge", kmFrom = 15.133, kmTo = 15.174, length = 42 },
+  { kind = "bridge", kmFrom = 19.01, kmTo = 19.099, length = 89 },
+  { kind = "bridge", kmFrom = 22.461, kmTo = 22.474, length = 15 },
+  { kind = "bridge", kmFrom = 24.316, kmTo = 24.389, length = 75 },
+  { kind = "bridge", kmFrom = 24.586, kmTo = 24.609, length = 23 },
+  { kind = "bridge", kmFrom = 25.382, kmTo = 25.397, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "krpkHkssbAuHu@qDR_EdAkEpC", v = 80 },
+  { line = "_nqkHumsbAwVtR_R~HgOtE_V|EyRxBmYfAkOM", v = 120 },
+  { line = "s~ukHw|qbAyIA", v = 100 },
+  { line = "mivkHy|qbAwYjA{U~Ck_Cli@", v = 120 },
+  { line = "m{{kH_kpbAsM~DiIpHuCdFsC~HcDdS", v = 110 },
+  { line = "yb}kHavnbAqC~QqG~Pkw@bjAkIdJoH|F{GzCcHxA", v = 120 },
+  { line = "en`lHckjbA}FX{F_@", v = 100 },
+  { line = "_~`lHikjbAmMeB}FkCgz@et@", v = 120 },
+  { line = "soclHahlbAuHeCyKD", v = 100 },
+  { line = "cfdlHallbAcHvBgQvN{IdDiKDiMuC_G[}InAiP`IqFvAoI?eU}BmFNgJ`DcYtR_HfBeGRkGo@s]}Jat@_Ps[eKiZcCu|Ae`@", v = 120 },
+  { line = "ecrlHe`mbA_HiB", v = 100 },
+  { line = "elrlHocmbAwe@yK}gBof@", v = 120 },
+  { line = "{{vlHywnbA{DwCeE_G{HiU", v = 100 },
+  { line = "yqwlH{zobAoDmPwBa_@}F}UgAsJ", v = 80 },
+  { line = "gexlH}nrbA{Dy]" },
+]
+posts = [[25, 49.24612, 11.08238], [24, 49.25479, 11.07668], [23, 49.2634, 11.07441], [22, 49.27232, 11.07418], [21, 49.28144, 11.07239], [20, 49.28988, 11.06962], [19, 49.29874, 11.06662], [18, 49.30599, 11.05889], [17, 49.31081, 11.04845], [16, 49.31774, 11.03936], [15, 49.32624, 11.03562], [14, 49.3343, 11.04101], [13, 49.34288, 11.04585], [12, 49.35138, 11.04217], [11, 49.35997, 11.04039], [10, 49.36819, 11.04013], [9, 49.37693, 11.03676], [8, 49.38587, 11.03995], [7, 49.39443, 11.04318], [6, 49.40312, 11.04549], [5, 49.41199, 11.04856], [4, 49.42074, 11.05149], [3, 49.42952, 11.05479], [2, 49.43838, 11.05816], [1, 49.44287, 11.06909], [0, 49.44567, 11.08154]]
+
+[[connections]]
+km = -0.038
+station = "Nürnberg Hauptbahnhof"
+lines = [
+  { id = "5320", ref = "5320", name = "5320 Treuchtlingen - Nürnberg Hbf, W 44", km = 61.824 },
+  { id = "5850", ref = "5850", name = "5850 Regensburg - Nürnberg", km = 100.569 },
+  { id = "5900", ref = "5900", name = "5900 Nürnberg - Bamberg", km = -0.025 },
+  { id = "5902", ref = "5902", name = "5902 Nürnberg Hbf - Schnelldorf Streckenwechsel 4951/5902", km = -0.017 },
+  { id = "5903", ref = "5903", name = "5903 Nürnberg Hbf - Schirnding Grenze", km = 0.01 },
+  { id = "5904", ref = "5904", name = "5904 Nürnberg Hbf - Irrenlohe", km = 0.013 },
+  { id = "5972", ref = "5972", name = "S-Bahn-Verschwenk Steinach (geplant& beklagt)", km = 0.009 },
+]
+
+[[connections]]
+km = 1.1
+station = "Nürnberg-Steinbühl"
+lines = [
+  { id = "5900", ref = "5900", name = "5900 Nürnberg - Bamberg", km = 1.089 },
+  { id = "5902", ref = "5902", name = "5902 Nürnberg Hbf - Schnelldorf Streckenwechsel 4951/5902", km = 1.099 },
+  { id = "5907", ref = "5907", name = "5907 Nürnberg Hbf - Fürth (Bay) Hbf", km = 1.043 },
+  { id = "5950", ref = "5950", name = "5950 Nürnberg Rbf - Fürth (Bay) Hbf", km = 17.114 },
+  { id = "5972", ref = "5972", name = "S-Bahn-Verschwenk Steinach (geplant& beklagt)", km = 1.083 },
+]
+
+[[connections]]
+km = 2.975
+station = "Nürnberg-Sandreuth"
+lines = [
+  { id = "5952", ref = "5952", name = "5952 Nürnberg Rbf Ausfahrt - Abzw Nürnberg Jansenbrücke", km = 2.787 },
+]
+
+[[connections]]
+km = 5.3
+station = "Nürnberg-Eibach"
+lines = [
+  { id = "5943", ref = "5943", name = "5943 Nürnberg Rbf Minervabrücke - Nürnberg-Reichelsdorf", km = 3.552 },
+]
+
+[[connections]]
+km = 8.4
+station = "Nürnberg-Reichelsdorf"
+lines = [
+  { id = "5943", ref = "5943", name = "5943 Nürnberg Rbf Minervabrücke - Nürnberg-Reichelsdorf", km = 6.725 },
+]
+
+[[connections]]
+km = 25.5
+station = "Roth"
+lines = [
+  { id = "5320", ref = "5320", name = "5320 Treuchtlingen - Nürnberg Hbf, W 44", km = 36.3 },
+  { id = "5944", ref = "5944", name = "Roth–Hilpoltstein", km = 0.101 },
+]

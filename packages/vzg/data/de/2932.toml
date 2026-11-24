@@ -1,0 +1,109 @@
+id = "2932"
+ref = "2932"
+name = "2932 Unna - Hamm"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q14378257"
+from = "Unna"
+to = "Hamm (Westf) Pbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 189.686
+kmTo = 207.297
+length = 17.602
+speeds = [[189.686, 190.769, "", ""], [190.769, 191.119, 130, 130], [191.119, 196.242, 160, 160], [196.242, 197.62, "", ""], [197.62, 205.507, 160, 160], [205.507, 206.391, 120, 120], [206.391, 207.297, "", ""]]
+curves = [[189.786, 191.278, 1550], [203.785, 204.042, 1870], [205.596, 205.97, 950], [206.495, 206.77, 900], [206.995, 207.07, 1990], [207.145, 207.195, 2030]]
+points = [
+  { km = 189.833, kind = "signal", signal = "minor", dir = -1 },
+  { km = 190.019, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 190.02, kind = "signal", signal = "minor", dir = -1 },
+  { km = 190.025, kind = "signal", signal = "distant", dir = 1 },
+  { km = 190.288, kind = "signal", signal = "minor", dir = -1 },
+  { km = 190.388, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 191.03, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 191.161, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 191.45, kind = "signal", signal = "distant", dir = -1 },
+  { km = 191.515, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 192.567, kind = "signal", signal = "distant", dir = 1 },
+  { km = 192.756, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 192.812, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 193.594, kind = "signal", label = "35", signal = "main,traversable", dir = 1 },
+  { km = 193.877, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 193.91, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 194.254, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 194.294, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 194.913, kind = "signal", signal = "distant", dir = 1 },
+  { km = 195.369, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 195.963, kind = "signal", label = "A", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 196.272, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 196.29, kind = "signal", signal = "distant", dir = 1 },
+  { km = 196.303, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 196.377, kind = "signal", signal = "minor", dir = 1 },
+  { km = 196.558, kind = "signal", signal = "minor", dir = -1 },
+  { km = 197.324, kind = "signal", label = "1I", signal = "minor", dir = 1 },
+  { km = 197.415, kind = "signal", label = "1 II", signal = "minor", dir = -1 },
+  { km = 197.54, kind = "station", label = "Bönen", pos = [51.59804, 7.75729], uic = "8001061" },
+  { km = 197.601, kind = "signal", signal = "stop", dir = 1 },
+  { km = 197.606, kind = "signal", label = "R1", signal = "main,minor,traversable", dir = 1 },
+  { km = 198.095, kind = "signal", label = "S 41", signal = "distant,main,traversable", dir = -1 },
+  { km = 198.358, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 198.718, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 198.808, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 199.096, kind = "signal", signal = "distant", dir = -1 },
+  { km = 199.392, kind = "signal", label = "N 41", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 199.889, kind = "signal", signal = "crossing_hint", dir = 1 },
+  { km = 199.926, kind = "signal", label = "G", signal = "main,traversable", dir = 1 },
+  { km = 200.336, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 200.369, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 200.798, kind = "signal", signal = "distant", dir = 1 },
+  { km = 200.803, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 200.827, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 200.935, kind = "signal", signal = "distant", dir = -1 },
+  { km = 201.819, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 201.897, kind = "signal", signal = "crossing_hint", dir = -1 },
+  { km = 202.364, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 202.589, kind = "signal", signal = "distant", dir = 1 },
+  { km = 203.59, kind = "signal", label = "245", signal = "distant,main,speed_limit_distant,traversable", dir = 1 },
+  { km = 204.99, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 204.991, kind = "signal", label = "247", signal = "main,traversable", dir = 1 },
+  { km = 205.36, kind = "signal", signal = "distant", dir = 1 },
+  { km = 205.507, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 206.371, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 206.391, kind = "signal", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 207.151, kind = "signal", label = "P704", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 207.18, kind = "signal", signal = "stop", dir = -1 },
+  { km = 207.297, kind = "station", label = "Hamm (Westf) Hbf", uic = "8000149", ele = 63, pos = [51.67857, 7.80771] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 190.769, kmTo = 190.78, length = 11 },
+  { kind = "bridge", kmFrom = 195.687, kmTo = 195.714, length = 31 },
+  { kind = "bridge", kmFrom = 196.242, kmTo = 196.265, length = 23 },
+  { kind = "bridge", kmFrom = 204.556, kmTo = 204.572, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kaqyHqt_n@aAiWyBkQiGqUwJgU" },
+  { line = "i{qyHalbn@_DiFcJeK", v = 130 },
+  { line = "mkryHq_cn@qJ_H{yFyiD", v = 160 },
+  { line = "{qzyHkshn@cgAcp@" },
+  { line = "_z|yHodjn@caI}zEcFiEafA_jA", v = 160 },
+  { line = "ijizHwqsn@kHkHcFuCq]{G", v = 120 },
+  { line = "kyjzHuhtn@qNmAma@zJ" },
+]
+posts = [[190, 51.53872, 7.70841], [191, 51.54407, 7.72007], [192, 51.55193, 7.72592], [193, 51.56031, 7.73162], [194, 51.56889, 7.73746], [195, 51.57699, 7.74298], [196, 51.585, 7.74845], [197, 51.59345, 7.75418], [198, 51.60168, 7.7598], [199, 51.60989, 7.76541], [200, 51.61829, 7.77112], [201, 51.62655, 7.77677], [202, 51.63483, 7.78242], [203, 51.64294, 7.78795], [204, 51.65132, 7.79396], [205, 51.6588, 7.8018], [206, 51.66667, 7.80863], [207, 51.67555, 7.80907]]
+
+[[connections]]
+km = 207.297
+station = "Hamm Hbf"
+lines = [
+  { id = "1700", ref = "1700", name = "1700 Hannover - Hamm", km = 176.349 },
+  { id = "2250", ref = "2250", name = "2250 Oberhausen-Osterfeld - Hamm (Westf) Pbf", km = 76.722 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 150.702 },
+  { id = "2911", ref = "2911", name = "2911 Bf Abzw Selmig - Hamm (Westf) Rbf", km = 5.22 },
+  { id = "2930", ref = "2930", name = "2930 Soest - Hamm", km = 136.746 },
+  { id = "2931", ref = "2931", name = "2931 Hamm (Westf) - Emden", km = 134.652 },
+  { id = "2990", ref = "2990", name = "2990 Minden - Hamm", km = 176.31 },
+]

@@ -1,0 +1,23 @@
+id = "9620"
+ref = "9620"
+name = "9620 Köln-Niehl - Emder Straße"
+operator = "HGK"
+gauge = "1435"
+from = "Köln-Niehl"
+to = "Emder Straße"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.57
+length = 2.57
+speeds = [[0, 2.57, "", ""]]
+curves = [[1.575, 1.625, 1840], [2.325, 2.45, 430]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "ojkvHsjmi@~wAOhk@dApCl@bDbE" },
+]
+posts = [[0, 51.01752, 6.95482], [1, 51.00853, 6.95485], [2, 50.99954, 6.95473]]

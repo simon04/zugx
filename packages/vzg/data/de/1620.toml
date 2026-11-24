@@ -1,0 +1,48 @@
+id = "1620"
+ref = "1620"
+name = "1620 Osnabrück Hbf Po - Osnabrück Hbf (Lüstringen)"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Osnabrück Hbf Po"
+to = "Lüstringen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.037
+kmTo = 3.387
+length = 3.359
+speeds = [[0.037, 3.387, "", ""]]
+curves = [[0.137, 0.81, 330], [0.909, 1.356, 1150], [1.629, 1.878, 410], [1.928, 2.203, 450], [3.053, 3.203, 860]]
+points = [
+  { km = 0.219, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 0.397, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.618, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.667, kind = "signal", label = "SM", signal = "combined,minor,speed_limit,traversable", dir = 1 },
+  { km = 0.829, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.887, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.892, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.987, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.052, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.241, kind = "signal", label = "N 290", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 1.824, kind = "signal", label = "S 290", signal = "main,minor,traversable", dir = 1 },
+  { km = 1.938, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.069, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.288, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.332, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.372, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.453, kind = "signal", label = "R 158", signal = "main,minor,traversable", dir = -1 },
+  { km = 3.132, kind = "signal", label = "P 158", signal = "main,minor,traversable", dir = 1 },
+  { km = 3.31, kind = "signal", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.178, kmTo = 0.211, length = 34 },
+  { kind = "bridge", kmFrom = 0.406, kmTo = 0.43, length = 24 },
+  { kind = "bridge", kmFrom = 2.525, kmTo = 2.56, length = 35 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yg_~Hgodp@uD{GuA_JB_HzA{KZkHaE{d@XmShCke@]oHeCcNUyHxFgxA@cY" },
+]
+posts = [[1, 52.26795, 8.06939], [2, 52.26802, 8.08377], [3, 52.26703, 8.09831]]

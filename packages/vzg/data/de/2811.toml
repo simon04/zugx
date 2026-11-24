@@ -1,0 +1,98 @@
+id = "2811"
+ref = "2811"
+name = "2811 Abzw Hagen Rehsiepen - Hagen Streckenwechsel 2811/2823"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Hagen Rehsiepen"
+to = "Hagen Streckenwechsel 2811/2823"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 139.963
+kmTo = 145.308
+length = 7.703
+speeds = [[139.963, 141.199, 80, 80], [141.199, 141.245, "", ""], [141.245, 141.473, 90, 90], [141.473, 145.041, "", ""], [145.041, 145.308, 60, 60]]
+curves = [[140.065, 140.139, 2160], [140.238, 140.629, 1180], [140.834, 141.252, 860], [141.262, 141.342, 870], [141.382, 141.518, 1050], [141.528, 141.563, 1300], [141.598, 141.683, 780], [141.693, 141.703, 1860], [141.713, 141.723, 1710], [141.739, 141.749, 1870], [141.759, 141.958, 810], [142.158, 142.333, 1190], [142.433, 142.658, 1420], [142.933, 143.033, 1520], [143.108, 143.183, 2520], [143.633, 143.683, 2040], [143.908, 144.208, 810], [144.383, 144.458, 1640], [144.533, 145.058, 700]]
+points = [
+  { km = 140.398, kind = "signal", label = "B333", signal = "main,traversable", dir = -1 },
+  { km = 140.7, kind = "signal", label = "Vw a033", signal = "distant", dir = 1, measured = true },
+  { km = 140.9, kind = "signal", label = "A 033", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = 1, measured = true },
+  { km = 141.199, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 141.204, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 141.204, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 141.219, kind = "signal", label = "026 I", signal = "minor", dir = -1 },
+  { km = 141.229, kind = "signal", label = "LS 026 II", signal = "minor", dir = 1 },
+  { km = 141.265, kind = "signal", label = "043 II", signal = "minor", dir = -1 },
+  { km = 141.273, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 141.326, kind = "signal", label = "A 034", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 141.327, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 141.429, kind = "signal", label = "B334", signal = "main,traversable", dir = 1 },
+  { km = 141.519, kind = "signal", label = "C 344", signal = "main,traversable", dir = -1 },
+  { km = 141.54, kind = "halt", label = "Hagen-Wehringhausen", pos = [51.35357, 7.45278] },
+  { km = 141.598, kind = "signal", signal = "distant", dir = 1 },
+  { km = 141.791, kind = "station", label = "Hagen Hbf", pos = [51.36296, 7.46061] },
+  { km = 141.8, kind = "signal", label = "Vc 344", signal = "distant", dir = -1, measured = true },
+  { km = 141.821, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 141.847, kind = "signal", label = "159 I", signal = "minor", dir = 1 },
+  { km = 142.033, kind = "signal", signal = "minor", dir = 1 },
+  { km = 142.153, kind = "signal", signal = "minor", dir = -1 },
+  { km = 142.725, kind = "signal", label = "U 140", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 142.776, kind = "signal", signal = "main", dir = 1 },
+  { km = 143.461, kind = "signal", label = "S240", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 144.169, kind = "signal", signal = "distant", dir = -1 },
+  { km = 144.426, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 144.848, kind = "signal", signal = "main", dir = -1 },
+  { km = 145.002, kind = "signal", label = "Vr w f", signal = "distant", dir = -1 },
+  { km = 145.241, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 140.085, kmTo = 140.118, length = 34 },
+  { kind = "bridge", kmFrom = 140.329, kmTo = 140.369, length = 41 },
+  { kind = "bridge", kmFrom = 140.591, kmTo = 140.618, length = 28 },
+  { kind = "bridge", kmFrom = 141.094, kmTo = 141.115, length = 20 },
+  { kind = "bridge", kmFrom = 141.289, kmTo = 141.293, length = 19 },
+  { kind = "bridge", kmFrom = 141.384, kmTo = 141.389, length = 28 },
+  { kind = "bridge", kmFrom = 141.434, kmTo = 141.442, length = 40 },
+  { kind = "bridge", kmFrom = 141.556, kmTo = 141.562, length = 27 },
+  { kind = "bridge", kmFrom = 141.653, kmTo = 141.657, length = 20 },
+  { kind = "bridge", kmFrom = 141.659, kmTo = 141.665, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ovtxHqznl@vLvH", v = 60 },
+  { line = "whtxHypnl@jIvCnGMzB{AhGsIzNoOzCeBlRiFpy@_NzQL~VqCtHjAvWtI|EpC`Tx^pElLpC|K" },
+  { line = "orlxHi|ml@sCqN{DuJgOqV", v = 90 },
+  { line = "gmmxHcool@gAkA", tunnel = true, v = 90 },
+  { line = "oomxHoqol@{F}EsHcC", v = 90 },
+  { line = "_anxHq|ol@xFtA" },
+  { line = "eymxH{yol@xHbG", v = 80 },
+  { line = "komxHwqol@dAjA", tunnel = true, v = 80 },
+  { line = "emmxHkool@`M|RfFlLxIvb@", v = 80 },
+]
+posts = [[145, 51.39066, 7.45223], [144, 51.38272, 7.45706], [143, 51.37388, 7.45961], [142, 51.36497, 7.46102], [141, 51.35632, 7.45782], [140, 51.35088, 7.44676]]
+
+[[connections]]
+km = 141.54
+station = "Hagen-Wehringhausen"
+lines = [
+  { id = "2143", ref = "2143", name = "2143 Witten Hbf - Schwelm", km = 81.363 },
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 54.449 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 140.516 },
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = 4.935 },
+]
+
+[[connections]]
+km = 141.791
+station = "Hagen Hbf"
+lines = [
+  { id = "2143", ref = "2143", name = "2143 Witten Hbf - Schwelm", km = 80.137 },
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 80.164 },
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 55.499 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 141.818 },
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = 5.252 },
+  { id = "2801", ref = "2801", name = "2801 Hagen - Dortmund", km = 0.052 },
+  { id = "2843", ref = "2843", name = "2843 Abzw Hohensyburg - Schwerte (Ruhr) Ost", km = 140.932 },
+  { id = "2850", ref = "2850", name = "2850 Letmathe - Fröndenberg", km = -1.026 },
+]

@@ -1,0 +1,30 @@
+id = "5212"
+ref = "5212"
+name = "5212 Gemünden Zollberg - Langenprozelten"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Gemünden Zollberg"
+to = "Langenprozelten"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.002
+kmTo = 1.037
+length = 1.037
+speeds = [[0.002, 0.461, 50, 50], [0.461, 0.708, "", ""], [0.708, 1.037, 60, 60]]
+curves = [[0.102, 0.476, 250]]
+points = [
+  { km = 0.294, kind = "signal", label = "G977", signal = "main", dir = -1 },
+  { km = 0.708, kind = "signal", label = "A 975", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 0.935, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.945, kind = "signal", signal = "shunting", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_yppHixaz@pGh@pC~AvBlFZjH", v = 50 },
+  { line = "ggppHecaz@HvT" },
+  { line = "}fppHmm`z@Dv[", v = 60 },
+]
+posts = [[1, 50.05946, 9.66991]]

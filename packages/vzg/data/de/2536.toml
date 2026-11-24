@@ -1,0 +1,40 @@
+id = "2536"
+ref = "2536"
+name = "2536 Neuss Steinhausstraße - Neuss Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Neuss Steinhausstraße"
+to = "Neuss Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.631
+length = 0.631
+speeds = [[0, 0.631, 60, 60]]
+curves = [[0.1, 0.375, 360], [0.425, 0.525, 310]]
+points = [
+  { km = 0, kind = "station", label = "Neuss Hbf", uic = "8000274", pos = [51.20349, 6.68471] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.016, kmTo = 0.035, length = 19 },
+  { kind = "bridge", kmFrom = 0.273, kmTo = 0.313, length = 41 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cwowHygxg@rEfHdBnEh@tEF`NdB|I", v = 60 },
+]
+posts = [[0, 51.20386, 6.68301]]
+
+[[connections]]
+km = 0
+station = "Neuss Hbf"
+lines = [
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 0.261 },
+  { id = "2530", ref = "2530", name = "Bahnstrecke Neuss-Kaarst", km = -0.013 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 80.959 },
+  { id = "2580", ref = "2580", name = "Bahnstrecke Düren–Neuss", km = 49.011 },
+  { id = "2610", ref = "2610", name = "2610 Köln - Kleve", km = 36.193 },
+]

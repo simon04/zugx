@@ -1,0 +1,83 @@
+id = "6708"
+ref = "6708"
+name = "6708 Rennsteig - Themar"
+operator = "Rennsteigbahn GmbH & Co. KG"
+gauge = "1435"
+wikidata = "Q107154674"
+from = "Rennsteig"
+to = "Themar"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 33.434
+kmTo = 62.347
+length = 28.892
+speeds = [[33.434, 61.535, "", ""], [61.535, 62.347, 20, 20]]
+curves = [[33.536, 33.849, 260], [33.901, 34.155, 940], [34.205, 34.43, 400], [34.48, 34.93, 470], [34.98, 35.18, 630], [35.28, 35.555, 520], [35.605, 35.73, 360], [35.78, 37.055, 290], [37.18, 38.03, 770], [38.105, 38.255, 670], [38.305, 38.405, 1010], [38.455, 38.68, 830], [38.73, 38.88, 820], [38.955, 39.105, 760], [39.155, 39.355, 500], [39.43, 39.805, 870], [40.03, 40.205, 1220], [40.255, 40.805, 430], [40.855, 41.03, 1020], [41.13, 41.18, 2090], [41.255, 41.73, 880], [41.78, 42.055, 290], [42.105, 42.455, 540], [42.505, 43.255, 650], [43.355, 43.43, 1520], [43.505, 43.58, 2790], [43.755, 43.88, 620], [43.93, 44.005, 1690], [44.055, 44.155, 500], [44.205, 44.505, 1080], [44.555, 44.705, 530], [44.905, 45.18, 1380], [45.23, 45.405, 850], [45.455, 45.605, 510], [45.655, 45.755, 650], [45.805, 45.93, 900], [46.08, 46.605, 360], [46.73, 46.83, 1280], [46.88, 46.93, 1070], [47.055, 47.13, 1010], [47.18, 47.555, 460], [47.605, 47.88, 740], [48.005, 48.355, 600], [48.405, 48.555, 620], [48.73, 49.005, 830], [49.055, 49.255, 280], [49.305, 49.38, 2150], [49.48, 49.605, 1570], [49.68, 50.055, 290], [50.105, 50.28, 680], [51.155, 51.405, 680], [51.905, 52.43, 750], [52.655, 52.83, 790], [52.93, 53.28, 310], [53.33, 53.63, 760], [53.68, 53.805, 1030], [54.18, 54.78, 400], [54.855, 55.055, 500], [55.105, 55.43, 490], [55.63, 56.005, 340], [56.33, 56.505, 750], [56.555, 56.855, 630], [57.105, 57.205, 1310], [57.255, 57.48, 600], [57.53, 57.68, 760], [57.905, 58.105, 710], [58.155, 58.405, 760], [58.555, 58.655, 1650], [58.73, 58.905, 540], [58.955, 59.28, 300], [59.405, 60.18, 500], [62.03, 62.08, 2400]]
+points = [
+  { km = 33.434, kind = "station", label = "Rennsteig", uic = "8016259", ele = 748, pos = [50.61515, 10.83544] },
+  { km = 33.482, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 33.497, kind = "signal", signal = "minor", dir = 1 },
+  { km = 33.502, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 33.505, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 33.65, kind = "signal", label = "B", signal = "main,traversable", dir = -1 },
+  { km = 34.039, kind = "signal", signal = "distant", dir = -1 },
+  { km = 34.125, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 34.296, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 34.927, kind = "signal", signal = "main", dir = 1 },
+  { km = 35.065, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 35.156, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 35.228, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 35.262, kind = "signal", signal = "stop", dir = -1 },
+  { km = 35.277, kind = "station", label = "Schmiedefeld", ele = 682, pos = [50.60541, 10.81723] },
+  { km = 35.721, kind = "signal", signal = "main", dir = -1 },
+  { km = 42.901, kind = "station", label = "Schleusinger Neundorf", ele = 467, pos = [50.54496, 10.82821] },
+  { km = 47.227, kind = "station", label = "Hinternah", ele = 412, pos = [50.51548, 10.79082] },
+  { km = 47.498, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 48.993, kind = "halt", label = "Schleusingen Ost", ele = 418, pos = [50.51442, 10.76667] },
+  { km = 49.246, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 49.617, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 49.646, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 49.883, kind = "signal", signal = "crossing_distant" },
+  { km = 50.452, kind = "signal", signal = "minor" },
+  { km = 50.612, kind = "signal", signal = "crossing" },
+  { km = 50.944, kind = "station", label = "Schleusingen", ele = 372, pos = [50.50873, 10.74359] },
+  { km = 53.052, kind = "halt", label = "Rappelsdorf", pos = [50.49974, 10.72162] },
+  { km = 59.14, kind = "stop", label = "Kloster Veßra", pos = [50.4937, 10.6443] },
+  { km = 60.994, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 61.004, kind = "signal", label = "K", signal = "main", dir = 1 },
+  { km = 61.191, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 61.621, kind = "signal", signal = "main", dir = -1 },
+  { km = 61.928, kind = "station", label = "Themar", pos = [50.50671, 10.61741], uic = "8016218", ele = 331 },
+  { km = 62.139, kind = "signal", label = "D", signal = "main", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 41.76, kmTo = 41.781, length = 20 },
+  { kind = "bridge", kmFrom = 43.411, kmTo = 43.421, length = 10 },
+  { kind = "bridge", kmFrom = 46.249, kmTo = 46.267, length = 18 },
+  { kind = "bridge", kmFrom = 47.496, kmTo = 47.51, length = 13 },
+  { kind = "bridge", kmFrom = 49.687, kmTo = 49.726, length = 39 },
+  { kind = "bridge", kmFrom = 49.798, kmTo = 49.816, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sz|sHgacaA{@tEO`Ej@xHhAhDfFxHnJrZfIdHdFdMvD`FdIdGjNzB|E]jFsFfHsAzCmBvByDx@iETqCWkLv@gItCyFzI{GnEFnU~OhL`DhE?fEcB~GmFzJ}BnH^jKYfLzCjK`@zHjCpCPrHmAjKeFrNwR~HeOlBoB~FwBrECnBj@rI|IjQnLrKrEdDOhIcF|CWjB`@vGnFtIzBhJ{@bH|@dGm@lJbBzEvCjGjGnSvU~H|NrDrKpNpPvO|\\fHhJbG|NdHfJjDxG~NzOfIr@rCjA`BhBjHfPtHhT`EnInBpITfG_AxSjEp`@]tNkBxOWvYp@nKhBdMF|D}Dv\\u@rLUvGj@lGpBhF`IvIzd@neAvCfD`^xYhIbMjA~HBn^_CzYZjJxH~QrBtIjB|MbLpe@l@lGAxQ~@xGbJpQpCzP~AfFzB|DhOtPxAxDn@bFkBrm@oCnP_DpJcLjj@{AlWqEf`@EfQi@zKNvf@gBhNO`Fv@hHbIfWNfOe@|HoChMaC|Ey`AjfA" },
+  { line = "g`gsHkjy_Amd@`h@", v = 20 },
+]
+posts = [[34, 50.61406, 10.82785], [35, 50.6078, 10.8182], [36, 50.5995, 10.82024], [37, 50.59428, 10.82769], [38, 50.58589, 10.82671], [39, 50.57701, 10.82629], [40, 50.56882, 10.82961], [41, 50.5612, 10.83168], [42, 50.55278, 10.82987], [43, 50.54408, 10.82806], [44, 50.53665, 10.82044], [45, 50.53033, 10.81057], [46, 50.52372, 10.80111], [47, 50.51677, 10.79329], [48, 50.51428, 10.78042], [49, 50.51437, 10.76659], [50, 50.51447, 10.75327], [51, 50.50836, 10.74303], [52, 50.50103, 10.73512], [53, 50.49969, 10.72234], [54, 50.49583, 10.70995], [55, 50.49227, 10.69758], [56, 50.48739, 10.68671], [57, 50.49016, 10.67349], [58, 50.49298, 10.66019], [59, 50.49368, 10.64624], [60, 50.49268, 10.63328], [61, 50.49991, 10.62496], [62, 50.50735, 10.61702]]
+
+[[connections]]
+km = 33.434
+station = "Rennsteig"
+lines = [
+  { id = "6694", ref = "6694", name = "6694 Plaue (Thür) – Rennsteig", km = 33.592 },
+]
+
+[[connections]]
+km = 61.928
+station = "Themar"
+lines = [
+  { id = "6311", ref = "6311", name = "6311 Eisenach - Lichtenfels", km = 81.227 },
+]

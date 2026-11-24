@@ -1,0 +1,164 @@
+id = "6215"
+ref = "6215"
+name = "6215 Abzw Oberoderwitz - Wilthen"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q802915"
+from = "Oberoderwitz Abzw"
+to = "Wilthen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.612
+kmTo = 33.232
+length = 33.858
+speeds = [[-0.612, -0.596, 100, 100], [-0.596, 0.402, 70, 70], [0.402, 5.744, 80, 80], [5.744, 6.989, 70, 70], [6.989, 12.975, 80, 80], [12.975, 13.697, "", ""], [13.697, 14.223, 80, 80], [14.223, 20.199, 90, 90], [20.199, 26.125, 100, 100], [26.125, 26.725, 80, 80], [26.725, 27.444, 90, 90], [27.444, 30.76, 100, 100], [30.76, 32.062, 90, 90], [32.062, 33.232, 100, 100]]
+curves = [[-0.512, -0.437, 1510], [-0.262, -0.037, 610], [0.061, 0.418, 430], [1.202, 1.527, 700], [2.276, 3.001, 470], [3.051, 4.201, 350], [4.276, 4.876, 420], [5.076, 6.001, 800], [6.95, 7.825, 560], [8.625, 9.225, 500], [9.3, 9.825, 510], [10.108, 10.531, 1000], [10.579, 10.791, 710], [11.111, 11.435, 780], [11.989, 12.387, 690], [12.545, 12.721, 1300], [13.04, 13.358, 910], [13.635, 14.192, 380], [14.416, 14.565, 1280], [14.789, 15.538, 520], [15.613, 16.086, 440], [16.162, 16.431, 790], [16.531, 17.285, 420], [17.385, 18.333, 530], [18.738, 19.319, 460], [19.763, 20.139, 540], [20.716, 21.218, 540], [21.796, 22.072, 1010], [23.301, 23.703, 570], [23.904, 24.33, 480], [24.581, 24.857, 780], [25.309, 25.61, 580], [26.162, 26.74, 490], [27.216, 27.467, 680], [27.894, 28.171, 860], [28.498, 28.624, 1590], [29.756, 29.957, 1060], [30.787, 31.534, 430], [31.706, 32.051, 660], [32.523, 32.723, 920]]
+points = [
+  { km = -0.596, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -0.221, kind = "signal", label = "6006", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = -0.103, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.036, kind = "stop", label = "Oberoderwitz", pos = [50.96618, 14.70881], uic = "8006118" },
+  { km = 0.402, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.434, kind = "stop", label = "Oberoderwitz Oberdorf", pos = [50.97388, 14.67875], uic = "8006119" },
+  { km = 5.045, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.744, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.609, kind = "stop", label = "Eibau", pos = [50.98627, 14.64615], uic = "8006120" },
+  { km = 6.989, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.892, kind = "stop", label = "Neugersdorf", pos = [50.98665, 14.6116], uic = "8006123" },
+  { km = 11.496, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 11.998, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.109, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.248, kind = "signal", label = "57A", signal = "main,speed_limit", dir = 1 },
+  { km = 12.594, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.802, kind = "signal", signal = "minor", dir = 1 },
+  { km = 13.408, kind = "station", label = "Ebersbach (Sachsen)", pos = [51.00443, 14.57899], uic = "8006124" },
+  { km = 13.448, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.453, kind = "signal", label = "57N2", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 13.496, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 13.507, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 13.855, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.889, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.223, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.942, kind = "signal", signal = "crossing_distant" },
+  { km = 18.577, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 18.812, kind = "signal", signal = "crossing,station_distant", dir = 1 },
+  { km = 19.111, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 19.388, kind = "stop", label = "Neusalza-Spremberg", pos = [51.03429, 14.52624], uic = "8006125" },
+  { km = 19.58, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 20.199, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.465, kind = "signal", signal = "crossing_distant" },
+  { km = 22.635, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 22.819, kind = "stop", label = "Taubenheim (Spree)", pos = [51.04222, 14.48076], uic = "8006126" },
+  { km = 23.537, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 23.769, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 24.394, kind = "signal", signal = "crossing_distant" },
+  { km = 25.127, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 26.125, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 26.189, kind = "signal", signal = "crossing_distant" },
+  { km = 26.191, kind = "signal", signal = "crossing_distant" },
+  { km = 26.207, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 26.725, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 27.058, kind = "stop", label = "Sohland", pos = [51.05359, 14.43202], uic = "8006127" },
+  { km = 27.165, kind = "signal", signal = "crossing_distant" },
+  { km = 27.444, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.986, kind = "signal", signal = "crossing_distant" },
+  { km = 29.291, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 29.306, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 29.942, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 30.009, kind = "stop", label = "Schirgiswalde-Kirschau", pos = [51.07967, 14.42676], uic = "8006128" },
+  { km = 30.76, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 30.768, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 31.326, kind = "signal", signal = "crossing_distant" },
+  { km = 32.048, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 32.062, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 32.527, kind = "signal", label = "53A", signal = "combined,speed_limit", dir = 1 },
+  { km = 32.919, kind = "signal", signal = "minor", dir = 1 },
+  { km = 33.232, kind = "station", label = "Wilthen", uic = "8006129", pos = [51.09278, 14.39238] },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.238, kmTo = -0.225, length = 13 },
+  { kind = "bridge", kmFrom = 0.296, kmTo = 0.317, length = 22 },
+  { kind = "bridge", kmFrom = 1.05, kmTo = 1.065, length = 15 },
+  { kind = "bridge", kmFrom = 1.336, kmTo = 1.35, length = 14 },
+  { kind = "bridge", kmFrom = 1.455, kmTo = 1.468, length = 13 },
+  { kind = "bridge", kmFrom = 3.485, kmTo = 3.501, length = 16 },
+  { kind = "bridge", kmFrom = 4.538, kmTo = 4.563, length = 25 },
+  { kind = "bridge", kmFrom = 5.552, kmTo = 5.568, length = 16 },
+  { kind = "bridge", kmFrom = 7.16, kmTo = 7.177, length = 17 },
+  { kind = "bridge", kmFrom = 8.183, kmTo = 8.201, length = 18 },
+  { kind = "bridge", kmFrom = 10.305, kmTo = 10.325, length = 22 },
+  { kind = "bridge", kmFrom = 10.784, kmTo = 10.8, length = 15 },
+  { kind = "bridge", kmFrom = 11.229, kmTo = 11.243, length = 13 },
+  { kind = "bridge", kmFrom = 13.729, kmTo = 13.774, length = 43 },
+  { kind = "bridge", kmFrom = 14.49, kmTo = 14.517, length = 27 },
+  { kind = "bridge", kmFrom = 14.889, kmTo = 14.943, length = 53 },
+  { kind = "bridge", kmFrom = 16.038, kmTo = 16.051, length = 13 },
+  { kind = "bridge", kmFrom = 16.334, kmTo = 16.343, length = 10 },
+  { kind = "bridge", kmFrom = 16.519, kmTo = 16.53, length = 11 },
+  { kind = "bridge", kmFrom = 17.8, kmTo = 17.818, length = 19 },
+  { kind = "bridge", kmFrom = 17.851, kmTo = 17.872, length = 22 },
+  { kind = "bridge", kmFrom = 18.148, kmTo = 18.158, length = 10 },
+  { kind = "bridge", kmFrom = 18.819, kmTo = 18.841, length = 24 },
+  { kind = "bridge", kmFrom = 20.125, kmTo = 20.136, length = 11 },
+  { kind = "bridge", kmFrom = 20.676, kmTo = 20.687, length = 11 },
+  { kind = "bridge", kmFrom = 20.851, kmTo = 20.872, length = 20 },
+  { kind = "bridge", kmFrom = 20.957, kmTo = 20.972, length = 15 },
+  { kind = "bridge", kmFrom = 21.559, kmTo = 21.575, length = 16 },
+  { kind = "bridge", kmFrom = 21.808, kmTo = 21.82, length = 12 },
+  { kind = "bridge", kmFrom = 22.643, kmTo = 22.655, length = 12 },
+  { kind = "bridge", kmFrom = 24.506, kmTo = 24.517, length = 11 },
+  { kind = "bridge", kmFrom = 24.944, kmTo = 24.979, length = 35 },
+  { kind = "bridge", kmFrom = 25.014, kmTo = 25.033, length = 19 },
+  { kind = "bridge", kmFrom = 25.081, kmTo = 25.1, length = 19 },
+  { kind = "bridge", kmFrom = 25.631, kmTo = 25.649, length = 18 },
+  { kind = "bridge", kmFrom = 26.268, kmTo = 26.408, length = 140 },
+  { kind = "bridge", kmFrom = 27.791, kmTo = 27.804, length = 13 },
+  { kind = "bridge", kmFrom = 27.838, kmTo = 27.894, length = 56 },
+  { kind = "bridge", kmFrom = 29.022, kmTo = 29.044, length = 22 },
+  { kind = "bridge", kmFrom = 29.615, kmTo = 29.767, length = 151 },
+  { kind = "bridge", kmFrom = 30.582, kmTo = 30.594, length = 13 },
+  { kind = "bridge", kmFrom = 31.379, kmTo = 31.394, length = 15 },
+  { kind = "bridge", kmFrom = 32.592, kmTo = 32.602, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ej`vHsqxxAYV", v = 100 },
+  { line = "_k`vH{pxxAySbU{MtCmDlBuBpCyB`G", v = 70 },
+  { line = "s{avH_fwxAmX||@yAvGu@nUYtcAbBjN|EjKvFdEdNlDhFlFlBtFl@zDTrFU~GiBpIuBzDwBnBkEvA}Mh@oDjBoCbDwAnCuAbGkDf`@iBbKgDhIiLhO", v = 80 },
+  { line = "}wcvH_blxAkJvE}w@`O", v = 70 },
+  { line = "g|evHekkxAgGnCaGlH_DvIaBnKYbNjCllApAvL`DfJhFrGnLfHpB`DfBhFhBrMfBh`@F~P]hGsE|TmDze@}@hGyBtHsU|k@sGhJaFbDmM~FmPbD", v = 80 },
+  { line = "}_hvHsn~wAgI`BsE@cVcG" },
+  { line = "}givHss~wAyDQ}F|B_DnEyBtH", v = 80 },
+  { line = "o~ivHa`~wAwFhV_Gl`@yD|JeD`E}FzCuDPeNiAaGnB}DtEcKrTkLvKmEvHoB`LAlL|@pHxFrR|A~I`@rLm@tJsDdNgE|G_^tRkD|DkBnEeAvEk@xH}@xaAwA`IqE~J", v = 90 },
+  { line = "u}nvHe~qwAsV`g@iBtGu@~FYjJhAdz@GpJqRj~Bh@~P~Fx^JhMu@tHwFd[u@nHH`u@YtH{Ops@", v = 100 },
+  { line = "m_qvHcpbwAyDbMsDbFiE`CyGf@", v = 80 },
+  { line = "_zqvHquawA_]gA_IpA", v = 90 },
+  { line = "_bsvHguawAq^tP__@l@co@|F_Th@yo@jR", v = 100 },
+  { line = "owxvHoe`wAsElAqD`DwCbGmBfKWlFRhHhEt_@CvFu@tK", v = 90 },
+  { line = "ogyvHwc}vAmGvo@oOnn@", v = 100 },
+]
+posts = [[0, 50.96591, 14.70861], [1, 50.97196, 14.69868], [2, 50.97394, 14.6852], [3, 50.97024, 14.67411], [4, 50.96847, 14.66435], [5, 50.9749, 14.65704], [6, 50.98087, 14.64761], [7, 50.98973, 14.64512], [8, 50.99351, 14.63387], [9, 50.99163, 14.62022], [10, 50.98648, 14.60994], [11, 50.98798, 14.59641], [12, 50.99258, 14.58439], [13, 51.00069, 14.57906], [14, 51.00937, 14.57911], [15, 51.0134, 14.56677], [16, 51.02161, 14.56272], [17, 51.02735, 14.55246], [18, 51.02588, 14.53924], [19, 51.03354, 14.53203], [20, 51.03481, 14.51724], [21, 51.04048, 14.50634], [22, 51.0404, 14.49215], [23, 51.04259, 14.47833], [24, 51.042, 14.46468], [25, 51.0437, 14.45099], [26, 51.04594, 14.43759], [27, 51.05318, 14.43196], [28, 51.0618, 14.42902], [29, 51.0707, 14.42807], [30, 51.07958, 14.42674], [31, 51.08814, 14.42284], [32, 51.08859, 14.40932], [33, 51.09168, 14.39593]]
+
+[[connections]]
+km = 0.036
+station = "Oberoderwitz"
+lines = [
+  { id = "6214", ref = "6214", name = "6214 Zittau Grenze - Löbau (Sachs)", km = 0.036 },
+]
+
+[[connections]]
+km = 13.408
+station = "Ebersbach"
+lines = [
+  { id = "6214", ref = "6214", name = "6214 Zittau Grenze - Löbau (Sachs)", km = 13.408 },
+]
+
+[[connections]]
+km = 33.232
+station = "Wilthen"
+lines = [
+  { id = "6216", ref = "6216", name = "6216 Bautzen - Bad Schandau", km = 13.974 },
+]

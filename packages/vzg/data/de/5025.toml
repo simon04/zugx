@@ -1,0 +1,78 @@
+id = "5025"
+ref = "5025"
+name = "5025 Münchberg - Helmbrechts"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q119854895"
+from = "Münchberg"
+to = "Helmbrechts"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.041
+kmTo = 9.404
+length = 9.414
+speeds = [[-0.041, 1.218, 50, 30], [1.218, 3.084, 50, 50], [3.084, 3.096, 20, 50], [3.096, 3.123, 20, 20], [3.123, 3.179, 50, 20], [3.179, 5.219, 50, 50], [5.219, 5.394, 30, 50], [5.394, 8.233, 50, 50], [8.233, 8.24, "", ""], [8.24, 9.404, 50, 50]]
+curves = [[0.561, 0.939, 490], [1.014, 1.316, 440], [1.542, 2.171, 360], [2.372, 2.574, 450], [2.624, 2.875, 470], [3.25, 3.4, 1760], [3.649, 3.873, 900], [3.973, 4.396, 450], [4.894, 5.244, 620], [6.57, 7.036, 400], [7.113, 7.34, 650], [7.465, 7.69, 530], [7.89, 8.34, 340], [8.84, 8.965, 1080], [9.09, 9.29, 300]]
+points = [
+  { km = 0.009, kind = "station", label = "Münchberg", pos = [50.18906, 11.79074], uic = "8026028" },
+  { km = 0.419, kind = "signal", label = "P1", signal = "main,minor", dir = 1 },
+  { km = 0.822, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 0.854, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.039, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 1.218, kind = "signal", label = "B", signal = "main,speed_limit", dir = -1 },
+  { km = 1.8, kind = "signal", label = "Vb", signal = "distant", dir = -1 },
+  { km = 1.918, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.862, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.084, kind = "signal", signal = "snowplow,speed_limit", dir = 1 },
+  { km = 3.094, kind = "signal", signal = "stop,whistle", dir = -1 },
+  { km = 3.096, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.096, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 3.123, kind = "stop", label = "Unfriedsdorf", pos = [50.19958, 11.75254], uic = "8005967" },
+  { km = 3.123, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.179, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 3.315, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.155, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 5.172, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 5.219, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 5.235, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 5.258, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 5.294, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.33, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.334, kind = "stop", label = "Hildbrandsgrün", pos = [50.21033, 11.72831], uic = "8002827" },
+  { km = 5.388, kind = "signal", signal = "stop,whistle", dir = 1 },
+  { km = 5.394, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.443, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 5.722, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.724, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.762, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 5.775, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 6.879, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.98, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 6.998, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 7.004, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.006, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.026, kind = "signal", signal = "crossing_distant,stop", dir = -1 },
+  { km = 7.046, kind = "stop", label = "Wüstenselbitz", pos = [50.21854, 11.70952], uic = "8006588" },
+  { km = 7.062, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 9.312, kind = "station", label = "Helmbrechts", uic = "8002733", pos = [50.23376, 11.72435] },
+  { km = 9.353, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.171, kmTo = 0.189, length = 17 },
+  { kind = "bridge", kmFrom = 0.826, kmTo = 0.841, length = 15 },
+  { kind = "bridge", kmFrom = 0.953, kmTo = 0.972, length = 19 },
+  { kind = "bridge", kmFrom = 1.005, kmTo = 1.032, length = 28 },
+  { kind = "bridge", kmFrom = 1.988, kmTo = 1.998, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kpiqHg_~fAuEj_AoBzG{I`MkB~EkDrd@cA`FoBhDeHxFuBdFuFr]@fQY~EmGzX", v = 50 },
+  { line = "qqkqHenvfAWdA", v = 20 },
+  { line = "irkqH_lvfAqDvO{F|^aAh[kAhHeEhHm^t\\gEpH_d@tpBqDvK}EzDgMn@wDk@aOyFwX~BmDwAeC{C", v = 50 },
+  { line = "_iqqHclnfAGM" },
+  { line = "giqqHqlnfAuQmo@oEyV{BuEcEsC", v = 50 },
+]
+posts = [[0, 50.18907, 11.79083], [1, 50.19184, 11.77812], [2, 50.19624, 11.76695], [3, 50.19905, 11.75402], [4, 50.20201, 11.74086], [5, 50.20867, 11.73217], [6, 50.21312, 11.71973], [7, 50.21814, 11.70958], [8, 50.22692, 11.71028], [9, 50.23224, 11.72085]]

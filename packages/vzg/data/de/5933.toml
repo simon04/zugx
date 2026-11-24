@@ -1,0 +1,93 @@
+id = "5933"
+ref = "5933"
+name = "5933 Feucht - Altdorf (b Nürnberg)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802266"
+from = "Feucht"
+to = "Altdorf (b Nürnberg)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.231
+kmTo = 11.665
+length = 11.436
+speeds = [[0.231, 0.701, 60, 60], [0.701, 0.805, 100, 60], [0.805, 8.258, 100, 100], [8.258, 10.862, 80, 100], [10.862, 10.923, 80, 60], [10.923, 11.424, 60, 60], [11.424, 11.457, 30, 40], [11.457, 11.665, 30, 50]]
+curves = [[0.331, 0.751, 700], [3.591, 4.28, 730], [4.886, 5.776, 600], [6.346, 6.764, 670], [8.184, 8.684, 1070], [10.082, 10.536, 620], [10.856, 11.518, 460]]
+points = [
+  { km = 0.231, kind = "station", label = "Feucht", uic = "8001978", pos = [49.38193, 11.20402] },
+  { km = 0.701, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.705, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.805, kind = "signal", label = "51R", signal = "distant,main,traversable", dir = -1 },
+  { km = 1.695, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.79, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 2.129, kind = "signal", label = "51 B", signal = "distant,main,traversable", dir = -1 },
+  { km = 3.012, kind = "signal", label = "51Vb", signal = "distant", dir = -1 },
+  { km = 3.625, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 3.774, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.106, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.3, kind = "stop", label = "Feucht-Moosbach", uic = "8002520", pos = [49.38789, 11.26099], measured = true },
+  { km = 4.417, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.016, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 5.507, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.794, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 6.859, kind = "signal", label = "52Va", signal = "distant", dir = 1 },
+  { km = 7.298, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.6, kind = "stop", label = "Winkelhaid", uic = "8006476", pos = [49.39296, 11.30114], measured = true },
+  { km = 7.816, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.823, kind = "signal", label = "52A", signal = "main,traversable", dir = 1 },
+  { km = 8.181, kind = "signal", label = "52Vn", signal = "distant", dir = 1 },
+  { km = 8.258, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.205, kind = "signal", label = "52P210", signal = "main,traversable", dir = -1 },
+  { km = 9.3, kind = "station", label = "Ludersheim", uic = "8003762", pos = [49.3921, 11.32415], measured = true },
+  { km = 9.404, kind = "signal", label = "52N210", signal = "main,traversable", dir = 1 },
+  { km = 9.871, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 9.878, kind = "signal", label = "53Va", signal = "distant", dir = 1 },
+  { km = 10.05, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 10.105, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 10.457, kind = "signal", label = "52F", signal = "distant,main,traversable", dir = -1 },
+  { km = 10.6, kind = "stop", label = "Altdorf West", uic = "8000504", pos = [49.39128, 11.34194], measured = true },
+  { km = 10.634, kind = "halt", label = "Altdorf West", uic = "8000504", pos = [49.39115, 11.34149] },
+  { km = 10.862, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.923, kind = "signal", label = "53A", signal = "main,traversable", dir = 1 },
+  { km = 11.259, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 11.376, kind = "signal", label = "52Vf", signal = "distant", dir = -1 },
+  { km = 11.409, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 11.424, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.513, kind = "signal", label = "53P202", signal = "main,traversable", dir = -1 },
+  { km = 11.6, kind = "station", label = "Altdorf (b Nürnberg)", uic = "8000509", pos = [49.39008, 11.35335], measured = true },
+  { km = 11.643, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.661, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.565, kmTo = 0.586, length = 22 },
+  { kind = "bridge", kmFrom = 4.236, kmTo = 4.256, length = 27 },
+  { kind = "bridge", kmFrom = 6.218, kmTo = 6.238, length = 20 },
+  { kind = "bridge", kmFrom = 6.802, kmTo = 6.829, length = 27 },
+  { kind = "bridge", kmFrom = 7.398, kmTo = 7.417, length = 19 },
+  { kind = "bridge", kmFrom = 7.528, kmTo = 7.56, length = 32 },
+  { kind = "bridge", kmFrom = 9.215, kmTo = 9.241, length = 39 },
+  { kind = "bridge", kmFrom = 10.21, kmTo = 10.255, length = 46 },
+  { kind = "bridge", kmFrom = 10.569, kmTo = 10.609, length = 41 },
+  { kind = "bridge", kmFrom = 11.313, kmTo = 11.351, length = 34 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{vklHs{kcA`AcGb@qH?iIs@{J", v = 60 },
+  { line = "iuklHocmcAkq@qlF}@yK@gNjAaMxVa`AlAyIVuL_AgNkCqKw\\qn@cE}MiAaLsLqzB]uPj@}O|T_dCAyIe@{GwHma@", v = 100 },
+  { line = "_{mlHmufdAg@sC", v = 80 },
+  { line = "g|mlHazfdAq@uILwIjAgI`CqG", v = 60 },
+  { line = "}vmlHibhdAp@gA", v = 40 },
+  { line = "kumlHqdhdA|H}K", v = 50 },
+]
+posts = [[1, 49.38164, 11.21732], [2, 49.38442, 11.2304], [3, 49.38711, 11.24308], [4, 49.38906, 11.25717], [5, 49.38486, 11.26924], [6, 49.38766, 11.28053], [7, 49.392, 11.29245], [8, 49.3935, 11.30597], [9, 49.39289, 11.31964], [10, 49.3906, 11.33319], [11, 49.39238, 11.3461]]
+
+[[connections]]
+km = 0.231
+station = "Feucht"
+lines = [
+  { id = "5850", ref = "5850", name = "5850 Regensburg - Nürnberg", km = 88.1 },
+  { id = "5970", ref = "5970", name = "5970 Nürnberg-Dürrenhof - Feucht", km = 12.5 },
+]

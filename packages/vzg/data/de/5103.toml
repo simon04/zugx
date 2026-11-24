@@ -1,0 +1,32 @@
+id = "5103"
+ref = "5103"
+name = "5103 Hallstadt (b Bamberg) - Abzw Höflein"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q119317016"
+from = "Hallstadt (b Bamberg)"
+to = "Höflein"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.894
+kmTo = 2.055
+length = 1.166
+speeds = [[0.894, 2.055, 60, 60]]
+curves = [[1.01, 1.114, 1370], [1.244, 1.955, 340]]
+points = [
+  { km = 1.062, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.343, kind = "signal", label = "3154", signal = "main,speed_limit", dir = -1 },
+  { km = 1.408, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.667, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.807, kind = "signal", label = "B355", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 1.949, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.957, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "citoH_nkaAvCwIl@cIg@gIiCsHmCwC}D}AiWM", v = 60 },
+]
+posts = [[2, 49.91619, 10.87789], [1, 49.921, 10.88501]]

@@ -1,0 +1,198 @@
+id = "4760"
+ref = "4760"
+name = "4760 Aalen Hbf - Ulm Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q910023"
+from = "Aalen Hbf"
+to = "Ulm Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.337
+kmTo = 72.191
+length = 72.446
+speeds = [[-0.337, -0.282, "", ""], [-0.282, -0.187, 60, 60], [-0.187, 0.123, "", ""], [0.123, 1.64, 80, 80], [1.64, 3.263, 110, 110], [3.263, 3.27, "", ""], [3.27, 3.678, 110, 110], [3.678, 4.371, 100, 100], [4.371, 7.998, 120, 120], [7.998, 9.401, 100, 100], [9.401, 9.44, 130, 100], [9.44, 10.784, 130, 130], [10.784, 15.391, 140, 140], [15.391, 16.513, 120, 120], [16.513, 17.405, 100, 100], [17.405, 17.42, "", ""], [17.42, 19.455, 100, 100], [19.455, 19.46, "", ""], [19.46, 21.102, 110, 110], [21.102, 21.551, 100, 100], [21.551, 22.389, "", ""], [22.389, 22.587, 90, 90], [22.587, 22.847, 110, 110], [22.847, 22.862, "", ""], [22.862, 23.979, 110, 110], [23.979, 23.992, "", ""], [23.992, 24.401, 110, 110], [24.401, 24.41, "", ""], [24.41, 26.067, 110, 110], [26.067, 27.936, 120, 120], [27.936, 28.665, 100, 100], [28.665, 28.689, "", ""], [28.689, 31.217, 110, 110], [31.217, 35.439, 100, 100], [35.439, 37.033, 140, 140], [37.033, 37.223, "", ""], [37.223, 39.711, 140, 140], [39.711, 40.405, 110, 110], [40.405, 42.664, 120, 120], [42.664, 46.446, 150, 150], [46.446, 47.717, 140, 140], [47.717, 49.668, 150, 150], [49.668, 50.499, 140, 140], [50.499, 54.974, 160, 160], [54.974, 59.675, 150, 150], [59.675, 65.484, 140, 140], [65.484, 69.107, 110, 110], [69.107, 69.803, 100, 110], [69.803, 70.128, 100, 100], [70.128, 70.448, 90, 100], [70.448, 71.185, 90, 90], [71.185, 71.574, 60, 90], [71.574, 71.626, 60, 60], [71.626, 71.669, 60, ""], [71.669, 71.797, 60, 80], [71.797, 72.014, 60, 50], [72.014, 72.191, 60, ""]]
+curves = [[0.113, 0.213, 1830], [0.288, 0.764, 630], [1.515, 1.791, 1440], [2.091, 2.867, 760], [2.967, 3.517, 830], [3.642, 3.917, 780], [4.217, 4.493, 1060], [5.193, 5.318, 1920], [5.668, 5.793, 1950], [5.843, 5.943, 1890], [6.418, 7.671, 1170], [7.996, 8.622, 1330], [8.923, 9.423, 730], [10.424, 10.599, 2000], [11.149, 11.524, 1050], [12.225, 12.7, 1790], [12.75, 13.176, 1690], [15.079, 15.528, 950], [15.855, 17.131, 1150], [17.531, 18.057, 650], [18.282, 18.707, 590], [19.157, 19.257, 2260], [19.457, 19.982, 2170], [20.032, 20.232, 1940], [20.332, 20.507, 1630], [21.032, 22.032, 1330], [22.307, 22.707, 620], [23.032, 23.281, 1810], [23.431, 23.956, 620], [24.656, 25.032, 1600], [27.831, 28.406, 630], [28.582, 29.032, 610], [30.135, 30.386, 940], [30.837, 31.239, 1070], [31.389, 32.016, 570], [32.091, 32.717, 480], [32.892, 33.418, 1680], [33.843, 33.993, 1370], [34.093, 34.218, 1420], [34.293, 35.144, 520], [35.294, 36.069, 1110], [36.119, 36.32, 2600], [36.445, 36.545, 1600], [36.67, 36.77, 1600], [37.771, 37.871, 2310], [38.346, 38.696, 1260], [39.346, 40.072, 1690], [40.122, 40.247, 1280], [40.422, 40.923, 660], [42.071, 42.747, 1140], [42.797, 43.023, 1640], [43.098, 43.348, 1770], [43.448, 43.674, 1410], [44.15, 44.325, 2530], [46.079, 46.63, 1240], [47.131, 47.456, 2040], [47.856, 48.382, 1440], [49.033, 49.559, 1300], [50.086, 50.562, 1130], [52.115, 52.215, 2020], [52.917, 52.992, 2610], [53.268, 53.368, 1790], [55.272, 55.798, 1590], [55.924, 56.049, 1580], [56.651, 57.402, 1270], [60.478, 61.153, 1030], [61.229, 61.279, 2050], [61.805, 62.08, 1360], [63.484, 63.534, 2310], [63.985, 64.361, 2130], [65.588, 65.738, 1670], [66.214, 66.339, 1720], [66.464, 66.715, 1370], [66.815, 67.166, 860], [67.241, 67.316, 2670], [67.716, 68.017, 1220], [68.092, 68.342, 1050], [68.793, 69.043, 1020], [69.218, 69.443, 1370], [69.593, 69.968, 600], [70.079, 70.32, 1160], [70.421, 70.915, 470], [71.074, 71.392, 620], [71.575, 71.746, 1060], [71.794, 72.07, 290]]
+points = [
+  { km = -0.266, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.187, kind = "signal", label = "N3", signal = "main,speed_limit", dir = 1 },
+  { km = -0.002, kind = "station", label = "Aalen Hauptbahnhof", pos = [48.841, 10.09651], ele = 431 },
+  { km = 0.024, kind = "signal", signal = "catenary_mast,stop", dir = -1 },
+  { km = 0.123, kind = "signal", label = "P3", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 0.306, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.435, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.884, kind = "station", label = "Unterkochen", uic = "8029697", pos = [48.81499, 10.12646] },
+  { km = 7.78, kind = "signal", label = "63A", signal = "combined,main,speed_limit", dir = 1, measured = true },
+  { km = 8.411, kind = "station", label = "Oberkochen", pos = [48.78242, 10.10783], uic = "8029698" },
+  { km = 9.401, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.44, kind = "signal", label = "63F", signal = "combined,main,speed_limit,speed_limit_distant", dir = -1, measured = true },
+  { km = 13.766, kind = "signal", label = "66 P2", signal = "main,traversable", dir = -1 },
+  { km = 13.927, kind = "station", label = "Königsbronn", pos = [48.73941, 10.11628], uic = "8029699" },
+  { km = 15.637, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.668, kind = "stop", label = "Itzelberg", pos = [48.73063, 10.1369], uic = "8029700" },
+  { km = 18.896, kind = "station", label = "Heidenheim-Schnaitheim", pos = [48.70828, 10.15877], uic = "8029701" },
+  { km = 18.953, kind = "signal", signal = "stop", dir = 1 },
+  { km = 22.092, kind = "station", label = "Heidenheim", pos = [48.6802, 10.15658], uic = "8029702" },
+  { km = 23.349, kind = "signal", signal = "stop", dir = -1 },
+  { km = 23.373, kind = "halt", label = "Heidenheim Voithwerk", uic = "8035252", pos = [48.66936, 10.15602] },
+  { km = 25.26, kind = "station", label = "Heidenheim-Mergelstetten", uic = "8029703", pos = [48.65321, 10.16093] },
+  { km = 28.512, kind = "station", label = "Herbrechtingen", pos = [48.6257, 10.17015], uic = "8029705" },
+  { km = 33.742, kind = "station", label = "Giengen (Brenz)", pos = [48.61999, 10.23697], uic = "8029706" },
+  { km = 33.793, kind = "signal", signal = "stop", dir = 1 },
+  { km = 37.357, kind = "station", label = "Hermaringen", pos = [48.59447, 10.2585], uic = "8029707" },
+  { km = 39.662, kind = "stop", label = "Bergenweiler", pos = [48.57619, 10.27289], uic = "8029708" },
+  { km = 41.89, kind = "station", label = "Sontheim-Brenz", pos = [48.5593, 10.28482], uic = "8029709", ele = 440 },
+  { km = 46.757, kind = "signal", label = "11 P1", signal = "main,traversable", dir = -1 },
+  { km = 46.9, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 46.943, kind = "station", label = "Niederstotzingen", pos = [48.53231, 10.23609], uic = "8029710" },
+  { km = 47.022, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 51.1, kind = "station", label = "Rammingen (Württ)", uic = "8029711", pos = [48.51241, 10.19092] },
+  { km = 56.068, kind = "signal", signal = "main", dir = -1 },
+  { km = 56.414, kind = "station", label = "Langenau (Württ)", uic = "8029712", pos = [48.49331, 10.126] },
+  { km = 56.418, kind = "stop", label = "Langenau", pos = [48.49331, 10.12595] },
+  { km = 56.598, kind = "signal", signal = "main", dir = -1 },
+  { km = 60.823, kind = "signal", signal = "combined,speed_limit" },
+  { km = 61.335, kind = "signal", signal = "main" },
+  { km = 61.434, kind = "station", label = "Unterelchingen", pos = [48.45302, 10.10021], uic = "8005983" },
+  { km = 61.934, kind = "signal", signal = "main" },
+  { km = 62.369, kind = "signal", signal = "combined,speed_limit" },
+  { km = 62.715, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 62.858, kind = "stop", label = "Oberelchingen", pos = [48.44761, 10.08321], uic = "8004525" },
+  { km = 64.202, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 65.078, kind = "signal", signal = "combined,speed_limit", dir = 1 },
+  { km = 65.484, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 65.691, kind = "signal", signal = "main", dir = -1 },
+  { km = 65.939, kind = "station", label = "Thalfingen (b Ulm)", uic = "8005845", pos = [48.43297, 10.04793] },
+  { km = 65.942, kind = "stop", label = "Thalfingen (b. Ulm)", pos = [48.43295, 10.04791] },
+  { km = 66.228, kind = "signal", signal = "main", dir = 1 },
+  { km = 66.69, kind = "signal", signal = "combined,speed_limit", dir = -1 },
+  { km = 67.002, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 67.578, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 69.107, kind = "signal", signal = "distant,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 69.803, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 69.873, kind = "signal", signal = "distant", dir = 1 },
+  { km = 70.101, kind = "signal", label = "361", signal = "distant,main", dir = 1 },
+  { km = 70.103, kind = "signal", signal = "combined", dir = 1 },
+  { km = 70.128, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 70.438, kind = "signal", label = "79 362", signal = "combined", dir = -1 },
+  { km = 70.442, kind = "signal", label = "362", signal = "main", dir = -1 },
+  { km = 70.448, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 70.596, kind = "signal", signal = "distant", dir = -1 },
+  { km = 70.598, kind = "signal", signal = "distant", dir = -1 },
+  { km = 70.73, kind = "signal", signal = "distant", dir = -1 },
+  { km = 70.966, kind = "stop", label = "Ulm Ost", pos = [48.40713, 9.99483], uic = "8029716" },
+  { km = 71.185, kind = "signal", label = "B", signal = "main,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 71.379, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 71.404, kind = "signal", label = "79 360", signal = "combined", dir = -1 },
+  { km = 71.408, kind = "signal", signal = "distant", dir = -1 },
+  { km = 71.551, kind = "signal", label = "79 B", signal = "combined", dir = 1 },
+  { km = 71.574, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 71.669, kind = "signal", signal = "distant", dir = 1 },
+  { km = 71.729, kind = "signal", signal = "route,speed_limit", dir = 1 },
+  { km = 71.795, kind = "signal", label = "460", signal = "minor", dir = 1 },
+  { km = 71.796, kind = "signal", signal = "minor", dir = 1 },
+  { km = 71.797, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 72.014, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 72.083, kind = "signal", signal = "minor", dir = -1 },
+  { km = 72.087, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 72.096, kind = "signal", label = "465 I", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 14.772, kmTo = 14.794, length = 22 },
+  { kind = "tunnel", kmFrom = 16.513, kmTo = 16.779, length = 266, name = "Brünneleskopftunnel" },
+  { kind = "bridge", kmFrom = 17.405, kmTo = 17.42, length = 15 },
+  { kind = "bridge", kmFrom = 22.266, kmTo = 22.327, length = 60 },
+  { kind = "bridge", kmFrom = 22.587, kmTo = 22.635, length = 48 },
+  { kind = "bridge", kmFrom = 22.847, kmTo = 22.862, length = 15 },
+  { kind = "bridge", kmFrom = 22.982, kmTo = 23.014, length = 32 },
+  { kind = "bridge", kmFrom = 23.979, kmTo = 23.992, length = 13 },
+  { kind = "bridge", kmFrom = 28.665, kmTo = 28.689, length = 23 },
+  { kind = "bridge", kmFrom = 29.416, kmTo = 29.448, length = 32 },
+  { kind = "bridge", kmFrom = 29.743, kmTo = 29.804, length = 61 },
+  { kind = "bridge", kmFrom = 36.235, kmTo = 36.254, length = 19 },
+  { kind = "bridge", kmFrom = 37.21, kmTo = 37.223, length = 14 },
+  { kind = "bridge", kmFrom = 38.231, kmTo = 38.255, length = 24 },
+  { kind = "bridge", kmFrom = 39.711, kmTo = 39.731, length = 19 },
+  { kind = "bridge", kmFrom = 39.851, kmTo = 39.871, length = 19 },
+  { kind = "bridge", kmFrom = 39.915, kmTo = 39.935, length = 19 },
+  { kind = "bridge", kmFrom = 54.581, kmTo = 54.609, length = 28 },
+  { kind = "bridge", kmFrom = 68.891, kmTo = 68.932, length = 41 },
+  { kind = "bridge", kmFrom = 70.601, kmTo = 70.627, length = 27 },
+  { kind = "bridge", kmFrom = 70.759, kmTo = 70.796, length = 39 },
+  { kind = "tunnel", kmFrom = 71.574, kmTo = 71.626, length = 51 },
+  { kind = "bridge", kmFrom = 71.909, kmTo = 71.965, length = 56 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wzbiHozr|@bB?" },
+  { line = "swbiHozr|@hD_@", v = 60 },
+  { line = "irbiHo{r|@dP}B" },
+  { line = "cabiHm_s|@`PsArDsBjBwBxCsFn]m|@", v = 80 },
+  { line = "wc`iHonu|@`Lug@bCcHfDiFbFuE~E}BbUgChGaC", v = 110 },
+  { line = "w`~hHqzw|@HE" },
+  { line = "m`~hHwzw|@hFwEtIqM", v = 110 },
+  { line = "mn}hHapx|@lGiGhSeHnFeA", v = 100 },
+  { line = "ej|hHwcy|@ln@dBhd@uAn`@rDdKnDlMvJlFxGzCdGhCtInArHdDxb@", v = 120 },
+  { line = "_awhHgcv|@pEnZ~EfNtSt[xGhEbHv@", v = 100 },
+  { line = "yluhHwss|@b{@QlPhB", v = 130 },
+  { line = "g_shH_qs|@jVnCfNs@|h@wQzL{GjJyIxMuRnVuj@pm@wwAjCaHnBwJ", v = 140 },
+  { line = "uxlhHoaz|@rDej@xAqKhAkEtDqI`HaI", v = 120 },
+  { line = "e_lhHgt||@fLqI", tunnel = true, v = 100 },
+  { line = "}qkhHy~||@zJeDrUgB", v = 100 },
+  { line = "mojhHgg}|@XC" },
+  { line = "snjhHkg}|@dM_BvGuEzCqE`Ok\\hFyE~[kJpRgD", v = 100 },
+  { line = "{jghHml_}@FA" },
+  { line = "sjghHol_}@jLu@dJHtNpBnNvEf`@rR", v = 110 },
+  { line = "sqdhH}o~|@xM`D~HX", v = 100 },
+  { line = "yxchHaj~|@vH_@~GcBvX_P" },
+  { line = "ilbhHe__}@`DcAzDK", v = 90 },
+  { line = "kabhHua_}@jMtB", v = 110 },
+  { line = "_sahH_~~|@ZF" },
+  { line = "crahHw}~|@|LlCfYtLrHBnI}C", v = 110 },
+  { line = "yu_hHmp~|@TM" },
+  { line = "cu_hH{p~|@bTuL", v = 110 },
+  { line = "_`_hHq~~|@NG" },
+  { line = "o__hHy~~|@nOkI~JqCl}@cJ", v = 110 },
+  { line = "qd|gH{x_}@jgBmQ", v = 120 },
+  { line = "e|xgHik`}@lFgCxFkH|Js\\", v = 100 },
+  { line = "_axgHqva}@Ny@" },
+  { line = "o`xgHkxa}@jAgLAsK}JcjBdC{s@~@iJxB_L", v = 110 },
+  { line = "c`xgHqjh}@xFoUr@aP}@oM{EwRiA}HOeH`@_InBaIzJaWlF{SxJoq@`I{c@xBmGlCuElIsF~HS`WfG", v = 100 },
+  { line = "y_ugH_op}@tGZvGc@rGiBhJkEpRcNvHyHnLqO", v = 140 },
+  { line = "sorgHmbr}@dGgI" },
+  { line = "mgrgHulr}@xWy]r[_]bLwGbh@wQ`M}H", v = 140 },
+  { line = "umngH}nu}@dLaMdFeJlFaN", v = 110 },
+  { line = "{qmgHgwv}@pDcIxEsFnFyBnEo@dcAkJjLz@rKvD", v = 120 },
+  { line = "iyigHarw}@bOvM~K~OfJvSrDnMzKtc@ta@pjCxCpNjD|J", v = 150 },
+  { line = "qqfgHico}@xFtKzVr_@~U~U", v = 140 },
+  { line = "{zdgH__m}@dHpGtJrMjEfJxQjg@dHtVjB~N~@hP", v = 150 },
+  { line = "g~bgHe{h}@rCbm@|DzT", v = 140 },
+  { line = "usbgHewf}@vp@nuBzQpz@nFr]jUtfC", v = 160 },
+  { line = "eq_gHy~{|@pEpb@zBfL|DvMdGnO`Vze@|FpJ~E`GrFpEzH|Dz}Bfo@", v = 150 },
+  { line = "gbyfHowu|@hs@nSnJzHfH~KbVnp@zCxKr\\tvBdKzd@dI~Uth@~iA", v = 140 },
+  { line = "o_sfHgnj|@bFvL|Plj@`FdV`D~YnAnFxWhp@~CjGzOvSlRvd@zCpFpMbPbPjL|ElG", v = 110 },
+  { line = "ejnfHuxa|@fCxG`F~QnIlP", v = 100 },
+  { line = "ktmfHmk`|@nCjH`AzH?`HwBnXGrF|CdZ", v = 90 },
+  { line = "{lmfHyr}{@\\bC", tunnel = true, v = 60 },
+  { line = "}kmfHun}{@\\pB", v = 60 },
+  { line = "_kmfHck}{@vBtH", v = 80 },
+  { line = "ggmfHma}{@`B|EpBvBdC|@vFB", v = 60 },
+]
+posts = [[0, 48.84111, 10.09647], [1, 48.83364, 10.10238], [2, 48.82881, 10.11379], [3, 48.82177, 10.12068], [4, 48.81398, 10.12688], [5, 48.8051, 10.12774], [6, 48.79613, 10.12791], [7, 48.78757, 10.12438], [8, 48.78368, 10.11265], [9, 48.77865, 10.10175], [10, 48.76995, 10.10002], [11, 48.76099, 10.09915], [12, 48.75222, 10.10106], [13, 48.74434, 10.10726], [14, 48.73861, 10.11773], [15, 48.73302, 10.12838], [16, 48.73003, 10.14095], [17, 48.72305, 10.14864], [18, 48.71465, 10.15212], [19, 48.70736, 10.15907], [20, 48.69846, 10.1603], [21, 48.68992, 10.15614], [22, 48.68116, 10.15594], [23, 48.67257, 10.15752], [24, 48.66396, 10.15587], [25, 48.65554, 10.16055], [26, 48.64661, 10.16212], [27, 48.63767, 10.16364], [28, 48.62876, 10.16542], [29, 48.62451, 10.17652], [30, 48.62607, 10.18988], [31, 48.62556, 10.2033], [32, 48.62403, 10.21593], [33, 48.62254, 10.22794], [34, 48.61913, 10.24047], [35, 48.61326, 10.249], [36, 48.60447, 10.24865], [37, 48.59682, 10.25562], [38, 48.5898, 10.26409], [39, 48.58178, 10.26995], [40, 48.57368, 10.27552], [41, 48.56685, 10.28345], [42, 48.55792, 10.28501], [43, 48.54947, 10.28165], [44, 48.5439, 10.2712], [45, 48.54043, 10.25872], [46, 48.53731, 10.24602], [47, 48.53189, 10.23546], [48, 48.52457, 10.22765], [49, 48.51901, 10.21708], [50, 48.51659, 10.20421], [51, 48.5129, 10.19206], [52, 48.50809, 10.18062], [53, 48.50411, 10.1685], [54, 48.50165, 10.15549], [55, 48.49949, 10.14236], [56, 48.49579, 10.13018], [57, 48.48954, 10.12052], [58, 48.48104, 10.11636], [59, 48.47232, 10.11303], [60, 48.4636, 10.10972], [61, 48.45536, 10.10485], [62, 48.45023, 10.09377], [63, 48.4471, 10.0811], [64, 48.44358, 10.06868], [65, 48.43808, 10.05802], [66, 48.43267, 10.04725], [67, 48.42906, 10.03496], [68, 48.42342, 10.02448], [69, 48.41738, 10.01458], [70, 48.41042, 10.00637], [71, 48.40717, 9.99466], [72, 48.40453, 9.98256]]
+
+[[connections]]
+km = -0.002
+station = "Aalen Hauptbahnhof"
+lines = [
+  { id = "4710", ref = "4710", name = "4710 Stuttgart-Bad Cannstatt - Nördlingen", km = 72.17 },
+]
+
+[[connections]]
+km = 70.966
+station = "Ulm Ost"
+lines = [
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 92.542 },
+]

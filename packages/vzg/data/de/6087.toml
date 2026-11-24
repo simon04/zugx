@@ -1,0 +1,162 @@
+id = "6087"
+ref = "6087"
+name = "6087 Karower Kreuz - Priort"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131693397"
+from = "Karower Kreuz Streckenwechsel 6067/6087"
+to = "Priort"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.009
+kmTo = 41.676
+length = 41.604
+speeds = [[-0.009, 12.96, 120, 120], [12.96, 17.087, "", ""], [17.087, 41.676, 120, 120]]
+curves = [[7.081, 7.879, 1990], [13.655, 13.936, 1880], [13.983, 15.056, 1970], [21.811, 21.962, 2430], [22.265, 22.366, 2620], [22.545, 22.621, 2420], [39.582, 39.927, 1880], [40.001, 41.026, 2030]]
+points = [
+  { km = 0.009, kind = "signal", label = "22 526", signal = "combined,speed_limit,speed_limit_distant,traversable,wrong_road", dir = -1 },
+  { km = 0.777, kind = "signal", label = "21 535", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 0.941, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.603, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.873, kind = "signal", label = "21 538", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 2.851, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.376, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.386, kind = "signal", label = "21 543", signal = "main,traversable", dir = 1 },
+  { km = 6.484, kind = "signal", label = "21 542", signal = "main,traversable", dir = -1 },
+  { km = 7.798, kind = "station", label = "Mühlenbeck-Mönchmühle", uic = "8003565", pos = [52.65475, 13.38622] },
+  { km = 8.845, kind = "signal", signal = "distant", dir = 1 },
+  { km = 9.83, kind = "signal", label = "563", signal = "combined,traversable", dir = 1 },
+  { km = 9.854, kind = "signal", label = "56 A", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 10.466, kind = "signal", label = "56 P1", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 11.085, kind = "signal", label = "56 N1", signal = "combined,route_distant,speed_limit_distant,traversable", dir = 1 },
+  { km = 11.091, kind = "station", label = "Schönfließ", uic = "8085786", pos = [52.6647, 13.34004] },
+  { km = 11.393, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 11.418, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 11.836, kind = "signal", label = "56 FF", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 12.291, kind = "signal", label = "54 593", signal = "main,route,speed_limit,traversable", dir = 1 },
+  { km = 12.568, kind = "halt", label = "Bergfelde (b Berlin)", uic = "8080100", pos = [52.67012, 13.32041] },
+  { km = 12.958, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 13.337, kind = "signal", label = "54 598", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 14.044, kind = "signal", signal = "distant", dir = 1 },
+  { km = 14.305, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 15.282, kind = "signal", label = "613", signal = "combined,traversable", dir = 1 },
+  { km = 16.129, kind = "station", label = "Hohen Neuendorf West", uic = "8003562", pos = [52.67235, 13.27132] },
+  { km = 16.142, kind = "signal", label = "616", signal = "combined,minor,traversable", dir = -1 },
+  { km = 16.8, kind = "signal", label = "625", signal = "main,minor,traversable", dir = 1 },
+  { km = 17.202, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.423, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 18.613, kind = "signal", signal = "distant", dir = -1 },
+  { km = 18.732, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 19.791, kind = "signal", label = "52A", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 20.03, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 20.644, kind = "signal", label = "52 P1", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 21.195, kind = "signal", label = "52N1", signal = "main,traversable", dir = 1 },
+  { km = 21.674, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.871, kind = "signal", label = "52FF", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 22.227, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 22.898, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 26.392, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 27.393, kind = "signal", label = "92 01", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 27.494, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 27.511, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 27.597, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 27.75, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 27.786, kind = "signal", signal = "crossing_distant" },
+  { km = 28.007, kind = "signal", label = "92 04", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 28.207, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 28.447, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 28.966, kind = "signal", signal = "distant", dir = -1 },
+  { km = 29.38, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 29.403, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 30.445, kind = "signal", signal = "distant", dir = 1 },
+  { km = 30.529, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 30.706, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 31.165, kind = "signal", signal = "crossing_distant" },
+  { km = 31.396, kind = "signal", label = "93 05", signal = "main,traversable", dir = 1 },
+  { km = 31.462, kind = "signal", signal = "crossing_distant" },
+  { km = 32.077, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 32.317, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 32.953, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 33.59, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 33.616, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 33.948, kind = "signal", label = "93 A", signal = "combined,route_distant,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 34.169, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 34.525, kind = "signal", label = "93 P2", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 34.835, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 35.106, kind = "signal", label = "93 N2", signal = "main,route,speed_limit,traversable", dir = 1 },
+  { km = 35.737, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 35.905, kind = "signal", label = "93 FF", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 36.609, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 36.917, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 37.515, kind = "signal", label = "94 01", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 37.748, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 38.153, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 38.349, kind = "signal", label = "94 04", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 38.488, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 39.298, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 39.464, kind = "signal", label = "95 01", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 39.683, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 39.772, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 39.873, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 39.897, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 40.283, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 40.314, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 40.33, kind = "signal", signal = "distant", dir = 1 },
+  { km = 40.392, kind = "signal", label = "95 04", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 41.4, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 41.502, kind = "signal", label = "96 A", signal = "combined,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.185, kmTo = 1.208, length = 22 },
+  { kind = "bridge", kmFrom = 7.636, kmTo = 7.663, length = 26 },
+  { kind = "bridge", kmFrom = 8.073, kmTo = 8.104, length = 30 },
+  { kind = "bridge", kmFrom = 8.474, kmTo = 8.503, length = 29 },
+  { kind = "bridge", kmFrom = 14.813, kmTo = 14.839, length = 25 },
+  { kind = "bridge", kmFrom = 14.899, kmTo = 14.923, length = 23 },
+  { kind = "bridge", kmFrom = 15.931, kmTo = 15.947, length = 15 },
+  { kind = "bridge", kmFrom = 16.793, kmTo = 16.834, length = 40 },
+  { kind = "bridge", kmFrom = 18.277, kmTo = 18.338, length = 61 },
+  { kind = "bridge", kmFrom = 18.78, kmTo = 18.851, length = 70 },
+  { kind = "bridge", kmFrom = 19.478, kmTo = 19.61, length = 133 },
+  { kind = "bridge", kmFrom = 19.803, kmTo = 19.853, length = 61 },
+  { kind = "bridge", kmFrom = 20.154, kmTo = 20.203, length = 43 },
+  { kind = "bridge", kmFrom = 20.803, kmTo = 20.869, length = 66 },
+  { kind = "bridge", kmFrom = 22.057, kmTo = 22.089, length = 31 },
+  { kind = "bridge", kmFrom = 31.505, kmTo = 31.605, length = 100, name = "Eisenbahnbrücke Schönwalde" },
+  { kind = "bridge", kmFrom = 31.803, kmTo = 31.822, length = 19 },
+  { kind = "bridge", kmFrom = 36.41, kmTo = 36.463, length = 49 },
+  { kind = "bridge", kmFrom = 36.7, kmTo = 36.727, length = 28 },
+  { kind = "bridge", kmFrom = 38.282, kmTo = 38.315, length = 33 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "y`u_IqcenAie@mBeTuEqJyEcLuIoIoJyHmLcnHgnPoV}k@cO{`@i}F{}PiKm_@gHaa@aCoSugAg~K", v = 120 },
+  { line = "u`n`Iik|oAsa@}pDuAwRk@wSZgb@~Bs\\zBgPxPy|@" },
+  { line = "yln`IuugpAzb@e|Bv`AenHlEiWlHqWrHkQlcAiqB`^ep@|dEilG", v = 120 },
+]
+posts = [[41, 52.54781, 12.97536], [40, 52.55619, 12.98027], [39, 52.56263, 12.99075], [38, 52.56865, 13.00187], [37, 52.57458, 13.0128], [36, 52.58042, 13.02361], [35, 52.5866, 13.03507], [34, 52.59262, 13.04622], [33, 52.59858, 13.05724], [32, 52.60456, 13.06833], [31, 52.61051, 13.0795], [30, 52.61597, 13.09131], [29, 52.62128, 13.10334], [28, 52.62658, 13.11533], [27, 52.63165, 13.12678], [26, 52.63703, 13.13896], [25, 52.64234, 13.15096], [23, 52.65274, 13.17449], [24, 52.64754, 13.16273], [22, 52.65721, 13.18703], [21, 52.65985, 13.20111], [20, 52.66226, 13.21509], [19, 52.66486, 13.23], [18, 52.66736, 13.24427], [17, 52.67006, 13.25946], [16, 52.67272, 13.27306], [15, 52.67534, 13.28667], [14, 52.67544, 13.30103], [13, 52.6718, 13.31512], [12, 52.66817, 13.32767], [11, 52.66466, 13.34134], [10, 52.66158, 13.3556], [9, 52.65855, 13.36959], [8, 52.65552, 13.3836], [7, 52.65088, 13.39565], [6, 52.64435, 13.40654], [5, 52.638, 13.41708], [4, 52.63137, 13.42668], [3, 52.6247, 13.43574], [2, 52.61761, 13.44535], [1, 52.6109, 13.45444], [0, 52.60378, 13.46409]]
+
+[[connections]]
+km = 7.798
+station = "Mühlenbeck-Mönchmühle"
+lines = [
+  { id = "6088", ref = "6088", name = "6088 Berlin - Neustrelitz - Stralsund", km = 7.798 },
+  { id = "6183", ref = "6183", name = "6183 Berlin-Schönholz - Kremmen", km = 7.798 },
+]
+
+[[connections]]
+km = 12.568
+station = "Bergfelde"
+lines = [
+  { id = "6088", ref = "6088", name = "6088 Berlin - Neustrelitz - Stralsund", km = 12.568 },
+]
+
+[[connections]]
+km = 16.129
+station = "Hohen Neuendorf West"
+lines = [
+  { id = "6183", ref = "6183", name = "6183 Berlin-Schönholz - Kremmen", km = 16.128 },
+]

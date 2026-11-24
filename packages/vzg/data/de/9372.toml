@@ -1,0 +1,39 @@
+id = "9372"
+ref = "9372"
+name = "9372 Butzbach - Pohl-Göns"
+operator = "HLB Basis AG"
+gauge = "1435"
+wikidata = "Q107345497"
+from = "Butzbach Ost"
+to = "Pohl-Göns"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -1.073
+kmTo = 0.774
+length = 1.855
+speeds = [[-1.073, 0.017, 25, 25], [0.017, 0.774, "", ""]]
+curves = [[-0.968, -0.868, 720], [-0.518, -0.218, 700], [-0.168, 0.182, 530], [0.548, 0.674, 470]]
+points = [
+  { km = -0.074, kind = "signal", signal = "crossing", dir = 1 },
+  { km = -0.071, kind = "signal", signal = "shunting", dir = 1 },
+  { km = -0.031, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 0.117, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.119, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 0.193, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.228, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 0.235, kind = "signal", signal = "main", dir = 1 },
+  { km = 0.573, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.63, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 0.675, kind = "signal", signal = "crossing", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "g{yrHk~}s@AnDk@xDaJbT" },
+  { line = "wgzrH}}|s@Uh@", tunnel = true },
+  { line = "mhzrHs||s@eFpLsClD" },
+  { line = "gtzrHsi|s@aFzBwJpAuDdBaTfXaE~I", v = 25 },
+]
+posts = [[0, 50.44065, 8.66977], [-1, 50.4484, 8.66337]]

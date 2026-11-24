@@ -1,0 +1,71 @@
+id = "5453"
+ref = "5453"
+name = "5453 Tutzing - Kochel"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q316012"
+from = "Tutzing"
+to = "Kochel"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 35.838
+length = 35.838
+speeds = [[0, 0.4, "", ""], [0.4, 0.816, 70, 70], [0.816, 35.702, 100, 100], [35.702, 35.838, 80, 80]]
+curves = [[0.5, 0.825, 580], [1.45, 1.8, 510], [2.4, 2.975, 570], [3.85, 4.625, 510], [4.925, 5.275, 790], [5.8, 6.1, 700], [6.45, 6.675, 800], [7.95, 8.125, 1340], [8.225, 8.275, 2770], [8.9, 9.575, 620], [10.3, 10.8, 520], [10.875, 11.1, 640], [11.15, 11.425, 840], [12.25, 12.6, 530], [14.025, 14.525, 760], [14.875, 16.075, 1180], [18.65, 18.95, 1220], [19.025, 19.15, 1470], [20.825, 21.2, 1400], [21.725, 22.35, 620], [23.45, 23.9, 1600], [24.95, 25.7, 1640], [28.15, 28.475, 1500], [28.825, 29.55, 550], [30.35, 31.175, 550], [32.575, 33.375, 720], [33.75, 34.125, 710]]
+points = [
+  { km = 0.12, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.131, kind = "station", label = "Kochel", pos = [47.66079, 11.37146], uic = "8003355" },
+  { km = 0.351, kind = "signal", signal = "main", dir = 1 },
+  { km = 0.4, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.767, kind = "stop", label = "Benediktbeuern", uic = "8000869", pos = [47.70944, 11.40338] },
+  { km = 8.425, kind = "station", label = "Bichl", pos = [47.7238, 11.40871], uic = "8000945", ele = 615 },
+  { km = 13.251, kind = "stop", label = "Penzberg", pos = [47.74951, 11.37155], uic = "8004767" },
+  { km = 18.443, kind = "stop", label = "Iffeldorf", pos = [47.78239, 11.32884], uic = "8005672" },
+  { km = 24.214, kind = "station", label = "Seeshaupt", pos = [47.82256, 11.28718], uic = "8005508" },
+  { km = 24.481, kind = "signal", signal = "main", dir = 1 },
+  { km = 28.622, kind = "station", label = "Bernried", pos = [47.86138, 11.2837], uic = "8000918" },
+  { km = 35.598, kind = "station", label = "Tutzing", pos = [47.90711, 11.2728], uic = "8005927" },
+  { km = 35.692, kind = "signal", signal = "stop", dir = 1 },
+  { km = 35.702, kind = "signal", label = "37P1", signal = "main,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.656, kmTo = 3.674, length = 18 },
+  { kind = "bridge", kmFrom = 3.892, kmTo = 3.905, length = 13 },
+  { kind = "bridge", kmFrom = 4.717, kmTo = 4.731, length = 14 },
+  { kind = "bridge", kmFrom = 4.952, kmTo = 4.963, length = 10 },
+  { kind = "bridge", kmFrom = 5.028, kmTo = 5.055, length = 27 },
+  { kind = "bridge", kmFrom = 5.365, kmTo = 5.375, length = 11 },
+  { kind = "bridge", kmFrom = 10.073, kmTo = 10.13, length = 57 },
+  { kind = "bridge", kmFrom = 11.882, kmTo = 11.899, length = 17 },
+  { kind = "bridge", kmFrom = 12.787, kmTo = 12.799, length = 12 },
+  { kind = "bridge", kmFrom = 12.899, kmTo = 12.941, length = 42 },
+  { kind = "bridge", kmFrom = 14.342, kmTo = 14.351, length = 10 },
+  { kind = "bridge", kmFrom = 18.332, kmTo = 18.359, length = 27 },
+  { kind = "bridge", kmFrom = 20.769, kmTo = 20.786, length = 18 },
+  { kind = "bridge", kmFrom = 21.664, kmTo = 21.679, length = 16 },
+  { kind = "bridge", kmFrom = 24.737, kmTo = 24.766, length = 29 },
+  { kind = "bridge", kmFrom = 26.173, kmTo = 26.195, length = 22 },
+  { kind = "bridge", kmFrom = 31.422, kmTo = 31.441, length = 19 },
+  { kind = "bridge", kmFrom = 35.112, kmTo = 35.149, length = 37 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_t{aHwrkdAgFs^" },
+  { line = "g{{aHkrldAyCsQmBgF_ByB", v = 70 },
+  { line = "of|aHapmdAs]gb@kEeCgEu@uh@IcEq@qEaCmBsBoDyG{^_`AsEyGaF{CaGw@mFp@iYfQwExAii@yAuGcCiVmRmCmAgmAqWqLeG_e@qYqHoAaHr@{HnEee@za@aDfEmCdHiAdHkAtRwExSs@xFqF~lAoA|I}ChI{v@nyAsD|IgCjMgCxi@mAzMwBnL_EjM_G~K_IhJsDtCmk@tZ", v = 100 },
+  { line = "g~pbHwfedAaAl@", tunnel = true, v = 100 },
+  { line = "i`qbHieedAy{Ajy@_MpMofAjmBqG`PiPbu@}EfJ_IfGmmAnOyIlDcz@tg@yFlCmOpCmOAghCuPwNd@eQzCmHzBmDtCuDvFqBzGmArI}@fhAw@vQqBvIiD|GwEhEeCdA{tA`WwFRgGu@iGqCuF}FkRkf@_GeI}uA}v@", v = 100 },
+  { line = "}_lcHkzxcAcFeC", v = 80 },
+]
+posts = [[0, 47.66032, 11.36956], [1, 47.66458, 11.38088], [2, 47.67251, 11.38599], [3, 47.68064, 11.38951], [4, 47.68602, 11.4002], [5, 47.69431, 11.39859], [6, 47.7032, 11.39903], [7, 47.71149, 11.40385], [8, 47.72029, 11.4066], [9, 47.72848, 11.41209], [10, 47.73668, 11.40828], [11, 47.74179, 11.39828], [12, 47.74389, 11.38541], [13, 47.748, 11.37404], [14, 47.75409, 11.36419], [15, 47.75678, 11.35176], [16, 47.76214, 11.34154], [17, 47.77042, 11.33632], [18, 47.77872, 11.33116], [19, 47.78673, 11.32522], [20, 47.79304, 11.31569], [21, 47.79916, 11.30588], [22, 47.80351, 11.29427], [23, 47.81216, 11.29136], [24, 47.82085, 11.28836], [25, 47.82903, 11.28278], [26, 47.83788, 11.28172], [27, 47.84683, 11.28291], [28, 47.85579, 11.28405], [29, 47.86462, 11.2824], [30, 47.86729, 11.27045], [31, 47.87016, 11.25865], [32, 47.87897, 11.25598], [33, 47.88782, 11.25493], [34, 47.89395, 11.26442], [35, 47.90219, 11.26978]]
+
+[[connections]]
+km = 35.598
+station = "Tutzing"
+lines = [
+  { id = "5504", ref = "5504", name = "5504 München Hbf - Mittenwald Grenze", km = 39.528 },
+]

@@ -1,0 +1,52 @@
+id = "2243"
+ref = "2243"
+name = "2243 Abzw Essen-Dellwig - Bottrop Süd"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q19838718"
+from = "Essen-Dellwig (Abzw)"
+to = "Bottrop Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.971
+length = 2.971
+speeds = [[0, 2.938, 60, 60], [2.938, 2.971, "", ""]]
+curves = [[0.175, 0.6, 400], [1, 1.05, 2490], [1.175, 1.425, 670], [2.1, 2.15, 2150], [2.2, 2.85, 740]]
+points = [
+  { km = 0.279, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.534, kind = "signal", label = "F", signal = "distant,main", dir = -1 },
+  { km = 0.719, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.776, kind = "signal", signal = "main", dir = 1 },
+  { km = 1.331, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 1.701, kind = "signal", signal = "main", dir = 1 },
+  { km = 2.071, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.461, kind = "signal", signal = "main", dir = -1 },
+  { km = 2.668, kind = "signal", label = "668", signal = "main", dir = 1 },
+  { km = 2.932, kind = "station", label = "Essen-Dellwig Ost", uic = "8001904", pos = [51.48758, 6.92714] },
+  { km = 2.938, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.615, kmTo = 0.673, length = 58 },
+  { kind = "bridge", kmFrom = 1.411, kmTo = 1.484, length = 73 },
+  { kind = "bridge", kmFrom = 1.812, kmTo = 1.831, length = 20 },
+  { kind = "bridge", kmFrom = 2.32, kmTo = 2.336, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kmkyH_zki@tF~TdElGxDpA|j@nE~p@dh@nEbGtDtJlBfJlArM", v = 60 },
+  { line = "uigyHs{gi@H|A" },
+]
+posts = [[0, 51.5095, 6.94704], [1, 51.50217, 6.9412], [2, 51.49385, 6.93633]]
+
+[[connections]]
+km = 2.932
+station = "Essen-Dellwig Ost"
+lines = [
+  { id = "2277", ref = "2277", name = "2277 Oberhausen Hbf - Essen-Altenessen", km = 76.399 },
+  { id = "2280", ref = "2280", name = "2280 Abzw Oberhausen Walzwerk - Essen West", km = 0.013 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 76.349 },
+]

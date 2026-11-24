@@ -1,0 +1,76 @@
+id = "6393"
+ref = "6393"
+name = "6393 Ilsenburg - Vienenburg"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q109330002"
+from = "Ilsenburg"
+to = "Vienenburg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 18.794
+kmTo = 33.566
+length = 14.756
+speeds = [[18.794, 19.551, 60, 60], [19.551, 21.404, 80, 80], [21.404, 32.345, 120, 120], [32.345, 33.291, 100, 100], [33.291, 33.566, 60, 60]]
+curves = [[18.894, 19.345, 370], [19.82, 20.395, 530], [20.545, 20.895, 480], [21.396, 22.221, 1260], [22.796, 24.148, 1220], [24.874, 25.675, 1220], [27.252, 29.03, 1210], [31.792, 32.313, 610], [32.384, 32.55, 940], [32.99, 33.142, 1190], [33.289, 33.46, 850]]
+points = [
+  { km = 18.831, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 18.912, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 18.936, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.937, kind = "signal", signal = "minor", dir = -1 },
+  { km = 19.099, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 19.285, kind = "signal", label = "77F", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 19.286, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.303, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.51, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 19.511, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 19.56, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 19.561, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 20.249, kind = "signal", signal = "crossing_distant" },
+  { km = 20.253, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 20.254, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 20.902, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 20.903, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 21.213, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 21.301, kind = "signal", signal = "distant", dir = 1 },
+  { km = 21.903, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 22.206, kind = "signal", label = "7722", signal = "main,traversable", dir = -1 },
+  { km = 22.234, kind = "stop", label = "Stapelburg", pos = [51.9001, 10.67158], uic = "8024488" },
+  { km = 22.58, kind = "signal", label = "7721", signal = "main,traversable", dir = 1 },
+  { km = 23.207, kind = "signal", signal = "distant", dir = -1 },
+  { km = 23.382, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 30.997, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 31.801, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 31.998, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 33.02, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 33.126, kind = "signal", label = "42 B", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 33.291, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 33.419, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 33.437, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 33.49, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 22.536, kmTo = 22.565, length = 29 },
+  { kind = "bridge", kmFrom = 29.08, kmTo = 29.095, length = 14 },
+  { kind = "bridge", kmFrom = 31.792, kmTo = 31.833, length = 43 },
+  { kind = "bridge", kmFrom = 32.314, kmTo = 32.345, length = 33 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "aer{H_le`AeI{DgH\\mElDcJdO", v = 60 },
+  { line = "ajs{Hi{d`AwMpT{GhF_Dt@gEAgQcFkFC{`@rU", v = 80 },
+  { line = "mhv{Hmmc`AoMfFwMx@eLyAw`@uN_JkBwLEqLnCeKfGyI|JuEfIu]|v@cGvIyI~HqFtC_HnBw|AvV_MjGmHjH_FrHiH`QeDdNoBpNeA`Q?xVhJj}FYxIs@nG}AxGwD`J", v = 120 },
+  { line = "_ka|Hgor_AaE~JuK|b@eEvW", v = 100 },
+  { line = "}cb|Hqfp_AmBnKeCrH", v = 60 },
+]
+posts = [[19, 51.87343, 10.68335], [20, 51.8807, 10.67555], [21, 51.88938, 10.67473], [22, 51.89794, 10.67098], [23, 51.90666, 10.67444], [24, 51.91497, 10.67015], [25, 51.92104, 10.65943], [26, 51.92933, 10.65456], [27, 51.93821, 10.65236], [28, 51.94634, 10.64696], [29, 51.94951, 10.63378], [30, 51.94887, 10.61925], [31, 51.94822, 10.60477], [32, 51.94779, 10.59015], [33, 51.95244, 10.57797]]
+
+[[connections]]
+km = 22.234
+station = "Stapelburg"
+lines = [
+  { id = "6425", ref = "6425", name = "6425 Oker–Bad Harzburg", km = 50.12 },
+]

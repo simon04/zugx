@@ -1,0 +1,109 @@
+id = "6966"
+ref = "6966"
+name = "Weißeritztalbahn"
+operator = "Sächsische Dampfeisenbahngesellschaft mbH (SDG)"
+gauge = "750"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.1
+kmTo = 25.9
+length = 25.812
+speeds = [[0.1, 17.237, "", ""], [17.237, 18.249, "", 30], [18.249, 18.284, "", ""], [18.284, 18.425, 20, ""], [18.425, 25.9, "", ""]]
+curves = [[0.328, 0.455, 830], [0.632, 1.164, 440], [1.318, 1.511, 650], [1.838, 2.367, 1070], [2.491, 2.79, 170], [2.84, 3.04, 330], [3.089, 3.737, 190], [3.787, 4.161, 180], [4.211, 4.335, 160], [4.435, 4.585, 220], [4.634, 4.684, 2380], [4.809, 5.831, 210], [5.88, 6.479, 210], [6.528, 7.027, 420], [7.077, 7.575, 300], [7.65, 7.799, 580], [7.849, 8.472, 220], [8.597, 8.921, 780], [8.971, 9.045, 710], [9.095, 9.22, 920], [9.294, 9.469, 610], [9.519, 9.693, 240], [9.743, 9.793, 500], [9.843, 10.092, 640], [10.217, 10.316, 1590], [10.441, 10.914, 400], [10.964, 11.237, 430], [11.287, 11.61, 630], [11.66, 12.008, 620], [12.107, 12.381, 1060], [12.455, 12.505, 1890], [12.579, 13.151, 570], [13.375, 13.922, 290], [14.071, 14.27, 680], [14.468, 14.618, 710], [14.742, 14.792, 2340], [14.866, 14.916, 2630], [15.115, 15.562, 830], [15.637, 15.96, 520], [16.01, 16.208, 1070], [16.308, 16.73, 430], [16.954, 17.153, 670], [17.228, 17.302, 1310], [17.352, 17.501, 370], [17.675, 17.824, 640], [18.321, 18.634, 250], [19.118, 19.277, 1210], [19.536, 19.704, 1570], [20.003, 20.054, 1810], [20.104, 20.381, 440], [20.456, 20.683, 820], [20.733, 20.783, 1050], [20.833, 20.884, 950], [20.934, 21.286, 370], [21.337, 21.387, 610], [21.513, 21.714, 610], [21.764, 21.94, 640], [22.343, 22.418, 1670], [22.468, 22.745, 940], [22.795, 23.122, 960], [23.198, 23.449, 890], [23.726, 24.003, 310], [24.908, 25.034, 900], [25.21, 25.437, 360], [25.487, 25.613, 610]]
+points = [
+  { km = 0.448, kind = "signal", label = "T", signal = "main,traversable", dir = -1 },
+  { km = 0.994, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.423, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.436, kind = "signal", signal = "speed_limit,stop", dir = -1 },
+  { km = 1.479, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 1.493, kind = "halt", label = "Freital-Coßmannsdorf", ele = 192, pos = [50.97693, 13.62497] },
+  { km = 1.539, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.583, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.004, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 2.013, kind = "signal", signal = "ring", dir = 1 },
+  { km = 2.014, kind = "signal", signal = "ring", dir = -1 },
+  { km = 5.176, kind = "station", label = "Rabenau", ele = 249, pos = [50.96306, 13.63502] },
+  { km = 6.769, kind = "halt", label = "Spechtritz", ele = 274, pos = [50.9526, 13.63887] },
+  { km = 8.638, kind = "station", label = "Seifersdorf", pos = [50.93995, 13.64753] },
+  { km = 10.82, kind = "station", label = "Malter", pos = [50.92354, 13.65443], measured = true, ele = 335 },
+  { km = 14.907, kind = "station", label = "Dippoldiswalde", ele = 348, pos = [50.89108, 13.66466] },
+  { km = 17.236, kind = "halt", label = "Ulberndorf", ele = 374, pos = [50.87399, 13.67213] },
+  { km = 17.838, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 17.987, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 18.131, kind = "signal", signal = "ring,speed_limit_distant", dir = 1 },
+  { km = 18.161, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 18.224, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 18.249, kind = "signal", signal = "ring,speed_limit", dir = -1 },
+  { km = 18.284, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.302, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 18.326, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 18.369, kind = "signal", signal = "crossing_info" },
+  { km = 18.425, kind = "signal", signal = "crossing_info" },
+  { km = 18.468, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 18.549, kind = "signal", signal = "main", dir = 1 },
+  { km = 18.56, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 18.624, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 18.718, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 18.822, kind = "station", label = "Obercarsdorf", pos = [50.86083, 13.66536], ele = 395 },
+  { km = 19.184, kind = "signal", signal = "ring,speed_limit_distant", dir = 1 },
+  { km = 19.203, kind = "signal", signal = "main", dir = -1 },
+  { km = 19.269, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 19.379, kind = "signal", signal = "speed_limit_distant,whistle", dir = 1 },
+  { km = 19.675, kind = "signal", signal = "speed_limit_distant,whistle", dir = -1 },
+  { km = 20.717, kind = "halt", label = "Schmiedeberg-Naundorf", ele = 410, pos = [50.8439, 13.66803] },
+  { km = 22.053, kind = "station", label = "Schmiedeberg", ele = 445, pos = [50.8338, 13.67754] },
+  { km = 23.278, kind = "halt", label = "Buschmühle", ele = 462, pos = [50.82597, 13.68922] },
+  { km = 25.353, kind = "signal", signal = "main", dir = 1 },
+  { km = 25.357, kind = "signal", signal = "crossing" },
+  { km = 25.436, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 25.461, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 25.54, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 25.652, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 25.706, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 25.766, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 25.781, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 25.88, kind = "signal", signal = "stop", dir = -1 },
+  { km = 25.9, kind = "station", label = "Kurort Kipsdorf", ele = 534, pos = [50.80597, 13.67657] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.344, kmTo = 0.361, length = 17 },
+  { kind = "bridge", kmFrom = 0.503, kmTo = 0.526, length = 23 },
+  { kind = "bridge", kmFrom = 0.952, kmTo = 0.996, length = 44 },
+  { kind = "bridge", kmFrom = 1.146, kmTo = 1.181, length = 35 },
+  { kind = "bridge", kmFrom = 2.54, kmTo = 2.584, length = 45 },
+  { kind = "bridge", kmFrom = 2.923, kmTo = 2.961, length = 38 },
+  { kind = "bridge", kmFrom = 3.107, kmTo = 3.142, length = 35 },
+  { kind = "bridge", kmFrom = 3.183, kmTo = 3.226, length = 44 },
+  { kind = "bridge", kmFrom = 3.601, kmTo = 3.629, length = 28 },
+  { kind = "bridge", kmFrom = 3.753, kmTo = 3.774, length = 21 },
+  { kind = "bridge", kmFrom = 4.193, kmTo = 4.213, length = 20 },
+  { kind = "bridge", kmFrom = 4.276, kmTo = 4.304, length = 29 },
+  { kind = "bridge", kmFrom = 4.399, kmTo = 4.427, length = 28 },
+  { kind = "bridge", kmFrom = 4.537, kmTo = 4.568, length = 31 },
+  { kind = "bridge", kmFrom = 4.639, kmTo = 4.656, length = 18 },
+  { kind = "bridge", kmFrom = 4.721, kmTo = 4.739, length = 18 },
+  { kind = "bridge", kmFrom = 5.189, kmTo = 5.2, length = 12 },
+  { kind = "bridge", kmFrom = 5.371, kmTo = 5.411, length = 40 },
+  { kind = "bridge", kmFrom = 7.965, kmTo = 7.976, length = 11 },
+  { kind = "bridge", kmFrom = 8.432, kmTo = 8.487, length = 55, name = "Bahnviadukt" },
+  { kind = "bridge", kmFrom = 9.917, kmTo = 9.963, length = 46, name = "Goldgrubengrundbrücke" },
+  { kind = "bridge", kmFrom = 11.192, kmTo = 11.257, length = 65 },
+  { kind = "bridge", kmFrom = 13.951, kmTo = 13.981, length = 31 },
+  { kind = "bridge", kmFrom = 16.209, kmTo = 16.229, length = 20 },
+  { kind = "bridge", kmFrom = 18.427, kmTo = 18.442, length = 15 },
+  { kind = "bridge", kmFrom = 20.104, kmTo = 20.12, length = 16 },
+  { kind = "bridge", kmFrom = 21.627, kmTo = 21.819, length = 191 },
+  { kind = "bridge", kmFrom = 23.766, kmTo = 23.789, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ejevHcefrAnIxNdQnQfFdN`DvEzP~EdUdVrH~EtEbBnBi@~JeO|Ai@jATvAjCdCtMfKxGlCpHhF^rAcAl@aBzA{KhG{FfBwL[}Ay@m@iI`@_GyKk@sa@mAwM~@wC~B{BhCi@t@l@`C|GfAvA|DsAfHnExOeBb@qA?uBuAgIH{BpDuC~EKxCqAjAuAnEgTfF}Kn@qIn@yBdBy@lF^pIxC~HpIvDGrAmBtAcItAoBlGm@hHmEjG{FnLeVrIuLtDyLjBqBzEe@bFoB`Hb@nVzIpFvFnEvBbC_@jHeFtFWfH~B`CC~FuDrG}GrFmBfRuPbUia@lEuCxEHdTrJtAfCbCzKpDrDfQlBjI{AzJ}Cr[uW~CaD`G{JxGgVvFsFzKgFbIwHxEmBvDWvAf@pOvU`J~F" },
+  { line = "iiouH}imrAxGlFhRjAhYjM", v = 30 },
+  { line = "{rmuHwqlrAz@^" },
+  { line = "_qmuHwplrAbDrA|@pA", v = 20 },
+  { line = "}imuHqklrA`D|Fjb@fH~Tq@p_@gFjEh@rLiEtCwCpQqKjIuMpEiBjHaFnFoF~CuAzb@or@tCiN|GgJpMoMxV}JtCnA~g@|aA`MfOzCrAjHe@rR`F" },
+]
+posts = [[1, 50.9808, 13.62732], [2, 50.97312, 13.6212], [3, 50.96613, 13.61942], [4, 50.95993, 13.62294], [5, 50.96382, 13.63312], [6, 50.95648, 13.63292], [7, 50.95163, 13.64177], [8, 50.94459, 13.64331], [9, 50.93749, 13.65085], [10, 50.93036, 13.65807], [11, 50.922, 13.65555], [12, 50.9136, 13.6588], [13, 50.90646, 13.66713], [14, 50.89879, 13.66124], [15, 50.89033, 13.66528], [16, 50.88367, 13.67431], [17, 50.8759, 13.67362], [18, 50.86739, 13.66945], [19, 50.85956, 13.66508], [20, 50.84997, 13.66562], [21, 50.84159, 13.66964], [22, 50.83414, 13.67701], [23, 50.82806, 13.68712], [24, 50.82013, 13.69061], [25, 50.81389, 13.68048]]

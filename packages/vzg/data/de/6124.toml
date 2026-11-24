@@ -1,0 +1,37 @@
+id = "6124"
+ref = "6124"
+name = "6124 Seddin Einf Nord - Seddin Srw Mitte"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Seddin Einf Nord"
+to = "Seddin Srw Mitte"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 31.148
+kmTo = 33.44
+length = 2.285
+speeds = [[31.148, 33.44, "", ""]]
+curves = [[33.09, 33.19, 1480], [33.24, 33.34, 1310]]
+points = [
+  { km = 31.205, kind = "signal", signal = "combined", dir = -1 },
+  { km = 31.914, kind = "signal", signal = "combined", dir = 1 },
+  { km = 32.642, kind = "signal", signal = "combined", dir = -1 },
+  { km = 32.731, kind = "station", label = "Seddin", uic = "8003496", pos = [52.29153, 12.98451] },
+  { km = 33.051, kind = "signal", signal = "combined", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}hc~H}kenAoJ{SseAokC" },
+]
+posts = [[33, 52.28963, 12.98102], [32, 52.29537, 12.9925]]
+
+[[connections]]
+km = 32.731
+station = "Seddin"
+lines = [
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 32.734 },
+  { id = "6119", ref = "6119", name = "6119 Michendorf - Beelitz Bea Streckenwechsel 6115/6119", km = 32.706 },
+]

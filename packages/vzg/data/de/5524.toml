@@ -1,0 +1,54 @@
+id = "5524"
+ref = "5524"
+name = "5524 Abzw München Kanal - München-Pasing Bbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q121814608"
+from = "München Kanal"
+to = "München-Pasing Bbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.026
+kmTo = 3.651
+length = 3.725
+speeds = [[-0.026, 2.093, 60, 60], [2.093, 2.539, "", ""], [2.539, 3.099, 60, 60], [3.099, 3.421, "", 60], [3.421, 3.651, "", ""]]
+curves = [[0.148, 0.561, 330], [0.638, 0.871, 850], [1.13, 1.311, 1390], [1.492, 1.724, 820], [2.086, 2.145, 1770], [2.381, 2.551, 2330], [3.001, 3.101, 1980], [3.176, 3.451, 740]]
+points = [
+  { km = 0.566, kind = "signal", label = "15716", signal = "combined,route", dir = -1 },
+  { km = 1.292, kind = "signal", label = "12 P14", signal = "combined,traversable", dir = -1 },
+  { km = 2.135, kind = "station", label = "München-Pasing", uic = "8004158", pos = [48.14996, 11.46177] },
+  { km = 2.177, kind = "signal", label = "12 ZS14", signal = "combined,route,speed_limit", dir = 1 },
+  { km = 2.18, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.57, kind = "signal", label = "12 H", signal = "main", dir = -1 },
+  { km = 3.099, kind = "signal", label = "AA", signal = "main,speed_limit", dir = 1 },
+  { km = 3.274, kind = "signal", label = "D", signal = "main,speed_limit", dir = 1 },
+  { km = 3.295, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.421, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.515, kind = "signal", label = "14", signal = "minor", dir = -1 },
+  { km = 3.602, kind = "signal", label = "95", signal = "minor", dir = 1 },
+  { km = 3.609, kind = "signal", signal = "distant,main,minor,traversable", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.477, kmTo = 2.539, length = 62 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gk|dHqyydA`FaO" },
+  { line = "ed|dHsizdAjCyKnIwx@", v = 60 },
+  { line = "iu{dHep|dAtJ{g@" },
+  { line = "si{dHay}dAlKkc@rAsZq@ah@yC_TKoJvAyHnHiN", v = 60 },
+]
+posts = [[3, 48.15322, 11.45022], [2, 48.14966, 11.46412], [1, 48.14785, 11.47657], [0, 48.14705, 11.48851]]
+
+[[connections]]
+km = 2.135
+station = "München-Pasing"
+lines = [
+  { id = "5503", ref = "5503", name = "5503 München - Augsburg", km = 7.4 },
+  { id = "5504", ref = "5504", name = "5504 München Hbf - Mittenwald Grenze", km = 7.4 },
+  { id = "5540", ref = "5540", name = "5540 München Hbf tief - Gauting", km = 7.39 },
+  { id = "5543", ref = "5543", name = "5543 München-Pasing - Mammendorf", km = 7.387 },
+]

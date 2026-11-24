@@ -1,0 +1,208 @@
+id = "1900"
+ref = "1900"
+name = "1900 Braunschweig - Helmstedt"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q26722592"
+from = "Braunschweig Hbf"
+to = "Helmstedt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 3.359
+kmTo = 38.735
+length = 35.323
+speeds = [[3.359, 5.361, "", ""], [5.361, 5.37, 120, 120], [5.37, 5.592, 140, 140], [5.592, 5.75, "", ""], [5.75, 5.821, 50, 50], [5.821, 5.828, "", ""], [5.828, 38.052, 120, 120], [38.052, 38.115, "", ""], [38.115, 38.729, 120, 120], [38.729, 38.735, 90, 90]]
+curves = [[3.985, 4.208, 1270], [4.43, 5.049, 1550], [5.302, 5.354, 2620], [5.589, 5.746, 2430], [6.996, 7.374, 1420], [9.506, 10.41, 1870], [12.705, 13.049, 1140], [14.231, 14.429, 1720], [15.812, 16.567, 2340], [16.667, 17.121, 2070], [17.197, 17.323, 2160], [20.558, 20.678, 2530], [21.664, 22.253, 2280], [24.37, 24.75, 1130], [25.79, 25.889, 1990], [26.732, 27.253, 1030], [28.968, 29.018, 2320], [31.33, 31.829, 970], [32.108, 32.69, 970], [33.171, 33.803, 700], [34.756, 35.105, 2170], [35.278, 35.848, 930], [36.15, 36.674, 930], [37.687, 37.987, 1310]]
+points = [
+  { km = 3.359, kind = "station", label = "Braunschweig Hauptbahnhof", pos = [52.25214, 10.54034], uic = "8013240" },
+  { km = 3.392, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.441, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 3.455, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.585, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.587, kind = "signal", label = "30N6", signal = "combined,minor,speed_limit,traversable", dir = 1 },
+  { km = 3.665, kind = "signal", label = "30L406Y", signal = "minor", dir = -1 },
+  { km = 3.786, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.987, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.988, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.024, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 4.314, kind = "signal", label = "30 G", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 4.525, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.555, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.631, kind = "signal", label = "30 97", signal = "combined,traversable", dir = 1 },
+  { km = 4.789, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.79, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.438, kind = "signal", label = "31 11", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 5.453, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.455, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.689, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.745, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 5.825, kind = "stop", label = "Braunschweig Schmiedekamp", pos = [52.26062, 10.57192] },
+  { km = 5.826, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 5.885, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.018, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.02, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.163, kind = "signal", label = "31 02", signal = "combined,route,speed_limit,traversable", dir = -1 },
+  { km = 6.896, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 6.946, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 7.134, kind = "signal", label = "3203", signal = "main,speed_limit", dir = 1 },
+  { km = 7.137, kind = "signal", label = "31V02", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 7.418, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.547, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 7.64, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.67, kind = "stop", label = "Braunschweig-Buchhorst", pos = [52.26302, 10.59815] },
+  { km = 7.953, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 8.297, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 8.315, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 8.515, kind = "signal", label = "33 A", signal = "combined", dir = 1 },
+  { km = 9.064, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 9.163, kind = "signal", label = "33 P1", signal = "combined,traversable", dir = -1 },
+  { km = 9.545, kind = "station", label = "Weddel (Braunschw)", pos = [52.26914, 10.62352], uic = "8013237" },
+  { km = 9.616, kind = "signal", label = "33 N1", signal = "main,minor,route,traversable,wrong_road", dir = 1 },
+  { km = 10.131, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 10.417, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.419, kind = "signal", label = "33FF", signal = "combined", dir = -1 },
+  { km = 11.46, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.491, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.703, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 11.732, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 12.65, kind = "signal", label = "A", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 13.027, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 13.093, kind = "signal", signal = "minor", dir = 1 },
+  { km = 13.17, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 13.251, kind = "signal", signal = "minor", dir = -1 },
+  { km = 13.54, kind = "signal", label = "P3", signal = "main,minor,traversable", dir = -1 },
+  { km = 13.812, kind = "station", label = "Schandelah", pos = [52.2673, 10.68558], uic = "8013234" },
+  { km = 13.956, kind = "signal", label = "N3", signal = "main,minor,traversable", dir = 1 },
+  { km = 14.004, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 14.048, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 14.187, kind = "signal", signal = "minor", dir = -1 },
+  { km = 14.352, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 14.388, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 14.593, kind = "signal", label = "Y", signal = "main,traversable", dir = -1 },
+  { km = 15.414, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.595, kind = "signal", signal = "distant", dir = -1 },
+  { km = 16.311, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 16.354, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 16.441, kind = "signal", label = "211", signal = "main,traversable", dir = 1 },
+  { km = 18.42, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 18.445, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 18.46, kind = "signal", signal = "distant", dir = 1 },
+  { km = 19.426, kind = "signal", label = "213", signal = "main,traversable", dir = 1 },
+  { km = 20.889, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 20.91, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 20.963, kind = "signal", signal = "distant", dir = 1 },
+  { km = 22.035, kind = "signal", label = "A", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 22.24, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 22.287, kind = "signal", label = "1I", signal = "minor", dir = 1 },
+  { km = 22.474, kind = "signal", label = "Z1", signal = "main,minor,traversable", dir = -1 },
+  { km = 23.003, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 23.009, kind = "station", label = "Königslutter", pos = [52.25711, 10.8127], uic = "8013232" },
+  { km = 23.215, kind = "signal", label = "N1", signal = "main,minor,traversable", dir = 1 },
+  { km = 23.222, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 23.513, kind = "signal", label = "1 IV", signal = "minor", dir = 1 },
+  { km = 23.642, kind = "signal", label = "1 V", signal = "minor", dir = -1 },
+  { km = 23.932, kind = "signal", label = "Y", signal = "main,traversable", dir = -1 },
+  { km = 24.39, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 24.715, kind = "signal", signal = "distant", dir = 1 },
+  { km = 24.938, kind = "signal", signal = "distant", dir = -1 },
+  { km = 24.982, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 25.721, kind = "signal", label = "231", signal = "main,traversable", dir = 1 },
+  { km = 26.365, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 27.37, kind = "signal", signal = "distant", dir = 1 },
+  { km = 27.723, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 28.332, kind = "signal", label = "233", signal = "main,traversable", dir = 1 },
+  { km = 29.55, kind = "signal", signal = "distant", dir = 1 },
+  { km = 29.628, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 30.551, kind = "signal", label = "2A", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 30.91, kind = "signal", signal = "minor", dir = -1 },
+  { km = 31.173, kind = "signal", label = "221 I", signal = "minor", dir = 1 },
+  { km = 31.225, kind = "signal", signal = "main,minor,traversable", dir = -1 },
+  { km = 31.354, kind = "station", label = "Frellstedt", pos = [52.21369, 10.91023], uic = "8013230" },
+  { km = 31.469, kind = "signal", signal = "distant", dir = 1 },
+  { km = 31.721, kind = "signal", label = "2N201", signal = "main,minor,traversable", dir = 1 },
+  { km = 31.954, kind = "signal", signal = "minor", dir = 1 },
+  { km = 32.047, kind = "signal", signal = "minor", dir = -1 },
+  { km = 32.341, kind = "signal", label = "2G", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 32.707, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 32.851, kind = "signal", signal = "distant", dir = 1 },
+  { km = 33.579, kind = "signal", signal = "distant", dir = 1 },
+  { km = 33.587, kind = "signal", signal = "distant", dir = -1 },
+  { km = 33.818, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 33.875, kind = "signal", label = "241", signal = "main,traversable", dir = 1 },
+  { km = 34.788, kind = "signal", signal = "distant", dir = 1 },
+  { km = 34.995, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 35.488, kind = "signal", signal = "distant", dir = 1 },
+  { km = 35.647, kind = "signal", signal = "distant", dir = 1 },
+  { km = 35.74, kind = "signal", signal = "crossing_hint", dir = 1 },
+  { km = 35.742, kind = "signal", label = "243", signal = "main,traversable", dir = 1 },
+  { km = 36.019, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 36.068, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 36.66, kind = "signal", signal = "distant", dir = 1 },
+  { km = 36.778, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 36.821, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 37.716, kind = "signal", label = "A", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 37.783, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 37.852, kind = "signal", signal = "crossing_distant,crossing_hint,crossing_info", dir = -1 },
+  { km = 37.974, kind = "signal", signal = "minor", dir = 1 },
+  { km = 38.121, kind = "signal", signal = "minor", dir = -1 },
+  { km = 38.206, kind = "signal", signal = "minor", dir = 1 },
+  { km = 38.372, kind = "signal", signal = "minor", dir = -1 },
+  { km = 38.557, kind = "signal", label = "P002", signal = "main,minor,traversable,wrong_road", dir = 1 },
+  { km = 38.606, kind = "signal", signal = "departure", dir = -1 },
+  { km = 38.607, kind = "signal", signal = "departure", dir = 1 },
+  { km = 38.62, kind = "signal", signal = "stop", dir = -1 },
+  { km = 38.729, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 38.729, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 38.735, kind = "station", label = "Helmstedt", pos = [52.22204, 11.01053], uic = "8013227" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.063, kmTo = 4.094, length = 31 },
+  { kind = "bridge", kmFrom = 6.616, kmTo = 6.631, length = 15 },
+  { kind = "bridge", kmFrom = 9.403, kmTo = 9.446, length = 43 },
+  { kind = "bridge", kmFrom = 14.823, kmTo = 14.969, length = 145 },
+  { kind = "bridge", kmFrom = 20.551, kmTo = 20.568, length = 17 },
+  { kind = "bridge", kmFrom = 31.942, kmTo = 31.968, length = 26 },
+  { kind = "bridge", kmFrom = 32.363, kmTo = 32.387, length = 23 },
+  { kind = "bridge", kmFrom = 38.021, kmTo = 38.041, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "in|}Hiui_A_[ok@gMoa@wByLiAoMaBgo@" },
+  { line = "ua~}H{pn_AAY", v = 120 },
+  { line = "wa~}Huqn_Am@kR", v = 140 },
+  { line = "ec~}Haeo_AU{L" },
+  { line = "{c~}H}ro_A?gE", v = 50 },
+  { line = "{c~}Heyo_AAS" },
+  { line = "}c~}Hyyo_AiCkgBgAcUum@adEiC}\\_@iYf@iVfVklEXiTuFglA}D_h@_`@gdCyCeZaAuTUmQBwNr@}VdE_e@|x@_qGpKa~AnC_XpFiZfr@{wClGiVrH}N~l@wz@~k@_o@dJwOnEoObl@knCh_@svAla@qcB|B}LjAyPDgj@v@}PjD}RhScu@zAsP?cLqLa`B{C{VmEyV_BsPMaS~Cyq@y@yV{AwKyXoyAcI{V", v = 120 },
+  { line = "czu}Hc`dbAgAmC" },
+  { line = "k|u}HqddbAqUwi@", v = 120 },
+  { line = "}rv}HioebAEK", v = 90 },
+]
+posts = [[4, 52.25619, 10.54706], [5, 52.26002, 10.56021], [6, 52.26073, 10.57438], [7, 52.26133, 10.58883], [8, 52.2641, 10.60263], [9, 52.26737, 10.61627], [10, 52.26996, 10.63044], [11, 52.2689, 10.64449], [12, 52.26713, 10.66005], [13, 52.26597, 10.67313], [14, 52.26754, 10.68786], [15, 52.27056, 10.70166], [16, 52.27385, 10.71525], [17, 52.27438, 10.7297], [18, 52.27178, 10.74361], [19, 52.26881, 10.75759], [20, 52.26574, 10.77205], [21, 52.26318, 10.78653], [22, 52.26123, 10.79971], [23, 52.25712, 10.81259], [24, 52.25277, 10.82554], [25, 52.24732, 10.8366], [26, 52.24026, 10.84546], [27, 52.23286, 10.85395], [28, 52.22851, 10.86691], [29, 52.22438, 10.88001], [30, 52.21979, 10.89245], [31, 52.21544, 10.90505], [32, 52.21273, 10.91925], [33, 52.20982, 10.93257], [34, 52.20848, 10.94626], [35, 52.21061, 10.96005], [36, 52.21197, 10.97476], [37, 52.21369, 10.98947], [38, 52.21781, 11.00247]]
+
+[[connections]]
+km = 3.359
+station = "Braunschweig Hauptbahnhof"
+lines = [
+  { id = "1730", ref = "1730", name = "1730 Hannover - Braunschweig", km = 60.985 },
+  { id = "1901", ref = "1901", name = "1901 Braunschweig Hbf - Bad Harzburg", km = 0.042 },
+  { id = "1902", ref = "1902", name = "1902 Braunschweig Hbf - Gifhorn", km = 3.387 },
+  { id = "1912", ref = "1912", name = "1912 Braunschweig Rbf - Abzw Braunschweig Okerbrücke", km = 4.823 },
+]
+
+[[connections]]
+km = 9.545
+station = "Weddel"
+lines = [
+  { id = "1956", ref = "1956", name = "1956 Abzw Weddel - Fallersleben", km = 3.351 },
+]
+
+[[connections]]
+km = 38.735
+station = "Helmstedt"
+lines = [
+  { id = "6400", ref = "6400", name = "6400 Eilsleben - Helmstedt", km = 189.401 },
+]

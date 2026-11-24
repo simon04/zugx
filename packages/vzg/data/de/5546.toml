@@ -1,0 +1,37 @@
+id = "5546"
+ref = "5546"
+name = "5546 München-Laim Rbf - Abzw München-Obermenzing"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q121814910"
+from = "München-Laim Rbf"
+to = "München-Obermenzing Abzw"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.547
+kmTo = 2.113
+length = 1.623
+speeds = [[0.547, 0.9, 40, 40], [0.9, 2.113, 60, 60]]
+curves = [[0.705, 1.163, 800], [1.213, 1.963, 1310]]
+points = [
+  { km = 0.705, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.716, kind = "signal", label = "14L36Y", signal = "minor", dir = -1 },
+  { km = 0.795, kind = "signal", label = "59V507", signal = "distant", dir = 1 },
+  { km = 0.9, kind = "signal", label = "14H", signal = "combined,speed_limit", dir = -1 },
+  { km = 1.516, kind = "signal", label = "59VW507", signal = "distant", dir = 1 },
+  { km = 1.726, kind = "signal", label = "59507", signal = "distant,main,route,traversable", dir = 1 },
+  { km = 1.753, kind = "signal", label = "14Vh", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.776, kind = "signal", signal = "wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.293, kmTo = 1.44, length = 147 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cn|dHslaeA~NsEtMwH`CuCxC_IvIeLpDoI", v = 60 },
+  { line = "gvzdHkcceAvBcJvB_S", v = 40 },
+]
+posts = [[2, 48.15504, 11.4816], [1, 48.14769, 11.48874]]

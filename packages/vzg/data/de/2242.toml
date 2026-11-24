@@ -1,0 +1,39 @@
+id = "2242"
+ref = "2242"
+name = "2242 Abzw Gerschede - Bottrop Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q19838733"
+from = "Gerschede"
+to = "Bottrop Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.056
+kmTo = 2.435
+length = 2.377
+speeds = [[0.056, 1.325, 60, 60], [1.325, 2.435, "", ""]]
+curves = [[0.782, 0.882, 1910], [1.133, 1.608, 610], [2.208, 2.333, 1090]]
+points = [
+  { km = 0.316, kind = "signal", label = "758", signal = "distant,main", dir = -1 },
+  { km = 1.188, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 1.32, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.649, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.305, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.429, kind = "signal", signal = "main,minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.409, kmTo = 0.463, length = 54 },
+  { kind = "bridge", kmFrom = 0.722, kmTo = 0.735, length = 13 },
+  { kind = "bridge", kmFrom = 0.746, kmTo = 0.756, length = 10 },
+  { kind = "bridge", kmFrom = 1.071, kmTo = 1.09, length = 19 },
+  { kind = "bridge", kmFrom = 1.129, kmTo = 1.146, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "u}iyHytji@kj@eCaSRmFsA", v = 60 },
+  { line = "qdlyH_{ji@mHaIkZ{o@wFmI" },
+]
+posts = [[1, 51.51033, 6.9417], [2, 51.51756, 6.94878]]

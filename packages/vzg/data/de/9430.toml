@@ -1,0 +1,46 @@
+id = "9430"
+ref = "9430"
+name = "9430 Hüfingen - Bräunlingen"
+operator = "SWEG Südwestdeutsche Verkehrs-Aktiengesellschaft"
+gauge = "1435"
+from = "Hüfingen"
+to = "Bräunlingen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 2.945
+kmTo = 5.4
+length = 2.431
+speeds = [[2.945, 3.068, "", ""], [3.068, 3.686, 80, 80], [3.686, 3.974, 70, 70], [3.974, 5.4, 80, 80]]
+curves = [[3.677, 4.005, 420], [4.46, 4.813, 1050]]
+points = [
+  { km = 2.6, kind = "stop", label = "Bräunlingen Industriegebiet", pos = [47.92832, 8.47087], measured = true },
+  { km = 3.066, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 3.068, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.309, kind = "signal", label = "3A", signal = "distant,main", dir = -1 },
+  { km = 3.483, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.49, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.564, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.686, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.949, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.952, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.974, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.014, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.248, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.341, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.381, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.343, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.352, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.398, kind = "station", label = "Bräunlingen Bahnhof", pos = [47.93179, 8.45735] },
+  { km = 5.4, kind = "stop", label = "Bräunlingen", pos = [47.9318, 8.45732], measured = true },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cyocH}vxr@x@zH" },
+  { line = "iwocHamxr@zDpq@", v = 80 },
+  { line = "mqocHozvr@BdKeBlI", v = 70 },
+  { line = "otocH{cvr@aOda@eCbJyAzIeHlq@", v = 80 },
+]
+posts = [[3, 47.92722, 8.48697], [4, 47.92678, 8.47409], [5, 47.93088, 8.46245]]

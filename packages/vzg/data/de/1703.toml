@@ -1,0 +1,48 @@
+id = "1703"
+ref = "1703"
+name = "1703 Hannover Hbf - Hannover Nordhafen DB-Grenze"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hannover Hbf"
+to = "Hannover Nordhafen DB-Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.531
+length = 1.531
+speeds = [[0, 1.429, "", ""], [1.429, 1.531, "", 40]]
+curves = [[0.1, 1.175, 660]]
+points = [
+  { km = 0.138, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.276, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.393, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 0.546, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.941, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.189, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 1.216, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.329, kind = "halt", label = "Hannover-Ledeburg", uic = "8079097", pos = [52.40846, 9.69074] },
+  { km = 1.397, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.45, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.447, kmTo = 0.47, length = 24 },
+  { kind = "bridge", kmFrom = 0.648, kmTo = 0.685, length = 37 },
+  { kind = "bridge", kmFrom = 1.157, kmTo = 1.182, length = 26 },
+  { kind = "bridge", kmFrom = 1.47, kmTo = 1.494, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "i`y~Hw}cz@eEpM}EnGoHfEsG|@sFe@sGyCcTyT" },
+  { line = "}d{~Hizcz@yCaD", v = 40 },
+]
+posts = [[0, 52.39829, 9.69196], [1, 52.40601, 9.68803]]
+
+[[connections]]
+km = 1.329
+station = "Hannover-Ledeburg"
+lines = [
+  { id = "1710", ref = "1710", name = "1710 Hannover - Celle", km = 5.711 },
+]

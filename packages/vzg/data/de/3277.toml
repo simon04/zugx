@@ -1,0 +1,24 @@
+id = "3277"
+ref = "3277"
+name = "3277 Wemmetsweiler Kurve"
+operator = "DB Netz AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.378
+length = 0.378
+speeds = [[0, 0.263, 50, 50], [0.263, 0.378, 40, 40]]
+curves = [[0.1, 0.275, 180]]
+points = [
+  { km = 0.263, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "s~hlH_scj@f@sEx@aCvAeBlBq@", v = 50 },
+  { line = "kuhlHmbdj@hEr@", v = 40 },
+]
+posts = [[0, 49.36698, 7.0688]]

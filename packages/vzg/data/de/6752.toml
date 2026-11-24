@@ -1,0 +1,86 @@
+id = "6752"
+ref = "6752"
+name = "6752 Löwenberg (Mark) - Prenzlau"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802714"
+from = "Löwenberg (Mark)"
+to = "Prenzlau"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 43.459
+kmTo = 78.667
+length = 35.165
+speeds = [[43.459, 43.678, 60, 60], [43.678, 44.279, 60, 50], [44.279, 44.753, 50, 50], [44.753, 44.944, 60, 50], [44.944, 45.646, 60, 60], [45.646, 69.101, "", ""], [69.101, 77.587, 80, 80], [77.587, 78.547, 60, 60], [78.547, 78.667, 30, 30]]
+curves = [[43.559, 43.609, 2450], [44.279, 44.355, 2240], [44.406, 44.458, 1590], [44.902, 45.832, 580], [46.133, 46.233, 2100], [48.386, 48.511, 1600], [51.741, 51.966, 1140], [56.598, 57.199, 1000], [59.602, 60.127, 520], [62.627, 63.102, 920], [63.727, 63.852, 1800], [65.102, 65.452, 1110], [65.827, 66.052, 1250], [67.227, 67.452, 940], [68.177, 68.252, 2080], [69.327, 69.677, 1120], [70.827, 71.152, 1300], [72.327, 72.477, 2160], [75.652, 75.777, 1930], [77.577, 77.852, 620]]
+points = [
+  { km = 43.678, kind = "signal", label = "21 P3", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 44.044, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 44.074, kind = "signal", label = "21 Hm3/J", signal = "main_repeated", dir = -1 },
+  { km = 44.182, kind = "station", label = "Löwenberg (Mark)", pos = [52.89673, 13.18996], uic = "8028022" },
+  { km = 44.247, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 44.279, kind = "signal", label = "21 N3", signal = "main,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 44.379, kind = "signal", signal = "minor", dir = -1 },
+  { km = 44.464, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 44.509, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 44.702, kind = "signal", signal = "crossing_distant" },
+  { km = 44.774, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 44.803, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 44.944, kind = "signal", label = "21 H", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 44.979, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 45.646, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 51.474, kind = "stop", label = "Bergsdorf", pos = [52.93651, 13.26072], uic = "8028053" },
+  { km = 57.663, kind = "station", label = "Zehdenick (Mark)", pos = [52.9793, 13.31742], uic = "8028055" },
+  { km = 61.612, kind = "stop", label = "Zehdenick-Neuhof", pos = [53.00569, 13.34583], uic = "8028057" },
+  { km = 66.263, kind = "stop", label = "Vogelsang", pos = [53.03756, 13.38564] },
+  { km = 66.273, kind = "station", label = "Vogelsang (Kr Oberhavel)", uic = "8028058", pos = [53.03765, 13.38566] },
+  { km = 71.35, kind = "stop", label = "Hammelspring", uic = "8028059", pos = [53.07041, 13.43597] },
+  { km = 77.081, kind = "signal", label = "46Ls31X", signal = "minor", dir = 1 },
+  { km = 77.258, kind = "signal", label = "46P1", signal = "minor", dir = -1 },
+  { km = 77.34, kind = "station", label = "Templin", pos = [53.11237, 13.49159], uic = "8028060" },
+  { km = 77.587, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 77.589, kind = "signal", label = "46ZR1", signal = "combined,minor", dir = 1 },
+  { km = 78.006, kind = "signal", label = "46ZV1", signal = "combined,speed_limit", dir = -1 },
+  { km = 78.545, kind = "signal", label = "46ZU1", signal = "combined,speed_limit", dir = -1 },
+  { km = 78.547, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 78.642, kind = "stop", label = "Templin Stadt", pos = [53.11706, 13.50866], uic = "8028061" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 60.222, kmTo = 60.269, length = 47 },
+  { kind = "bridge", kmFrom = 69.087, kmTo = 69.101, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ecyaIy{ooAui@nV", v = 60 },
+  { line = "{mzaIidooAiXdN", v = 50 },
+  { line = "eg{aIcunoAoOzFcKdBwHyAyGsG", v = 60 },
+  { line = "kv|aIounoAkC{FqLwa@yz@}xD}iBw|FkD{HoaEyaHeK{LgKiFslC{^oC_A{DeDyDoG_BmFu{@yvEeDcMiEmJme@_l@acAq~@sIeE__@{Jwf@y\\g\\eSse@op@ae@ww@" },
+  { line = "e_zbI}|ypAsKaRmDaJod@kjBsHkQyv@}rAiqAybBsaAslAq_@km@ik@gdA", v = 80 },
+  { line = "_zdcIyqjqAuBoEgAyEwJmeA", v = 60 },
+  { line = "ukecIqemqAw@yI", v = 30 },
+]
+posts = [[44, 52.89483, 13.19128], [45, 52.90318, 13.18653], [46, 52.91058, 13.19183], [47, 52.91493, 13.20485], [48, 52.91914, 13.218], [49, 52.92386, 13.23064], [50, 52.92901, 13.24285], [51, 52.93415, 13.25506], [52, 52.93952, 13.26696], [53, 52.94619, 13.27693], [54, 52.95287, 13.2869], [55, 52.95954, 13.29687], [56, 52.96622, 13.30685], [57, 52.97328, 13.31587], [58, 52.98215, 13.31811], [59, 52.99105, 13.32008], [60, 52.99947, 13.32406], [61, 53.00338, 13.3375], [62, 53.00718, 13.35104], [63, 53.01159, 13.36393], [64, 53.01905, 13.37226], [65, 53.02688, 13.37961], [66, 53.0354, 13.38403], [67, 53.04363, 13.39007], [68, 53.05114, 13.39809], [69, 53.05791, 13.40793], [70, 53.0635, 13.41946], [71, 53.06809, 13.43231], [72, 53.07468, 13.4425], [73, 53.08169, 13.45185], [74, 53.08896, 13.46066], [75, 53.09631, 13.46929], [76, 53.10353, 13.47819], [77, 53.11023, 13.48819], [78, 53.11561, 13.4997]]
+
+[[connections]]
+km = 44.182
+station = "Löwenberg"
+lines = [
+  { id = "6088", ref = "6088", name = "6088 Berlin - Neustrelitz - Stralsund", km = 44.21 },
+]
+
+[[connections]]
+km = 77.34
+station = "Templin"
+lines = [
+  { id = "6759", ref = "6759", km = 42.295 },
+]
+
+[[connections]]
+km = 78.642
+station = "Templin Stadt"
+lines = [
+  { id = "6759", ref = "6759", km = 40.96 },
+]

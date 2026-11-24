@@ -1,0 +1,46 @@
+id = "2193"
+ref = "2193"
+name = "2193 Essen-Steele"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Essen-Steele"
+to = "Essen-Steele"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.344
+length = 1.344
+speeds = [[0, 1.173, 100, 100], [1.173, 1.29, "", ""], [1.29, 1.344, 80, 80]]
+curves = [[0.1, 0.575, 350], [0.775, 1.225, 940]]
+points = [
+  { km = 0.886, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 0.912, kind = "signal", label = "R104", signal = "distant,main,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.017, kind = "station", label = "Essen-Steele", uic = "8000099", pos = [51.45068, 7.07555] },
+  { km = 1.104, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.164, kind = "signal", label = "P102", signal = "main,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.146, kmTo = 0.573, length = 427 },
+  { kind = "bridge", kmFrom = 0.689, kmTo = 0.703, length = 14 },
+  { kind = "bridge", kmFrom = 0.819, kmTo = 0.843, length = 24 },
+  { kind = "bridge", kmFrom = 0.967, kmTo = 1.014, length = 47 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_o~xHacfj@sDcDuDaAeDP}DnBkPhXyDbKaCxK", v = 100 },
+  { line = "u``yH}sdj@aA~H" },
+  { line = "wb`yH}idj@a@nC", v = 80 },
+]
+posts = [[0, 51.4432, 7.08161], [1, 51.45044, 7.07629]]
+
+[[connections]]
+km = 1.017
+station = "Essen-Steele"
+lines = [
+  { id = "2165", ref = "2165", name = "2165 Essen-Überruhr - Bochum-Langendreer", km = 0.969 },
+  { id = "2291", ref = "2291", name = "2291 Mülheim (Ruhr)-Styrum - Bochum Hbf", km = 134.214 },
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 38.495 },
+]

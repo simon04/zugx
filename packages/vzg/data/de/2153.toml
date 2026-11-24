@@ -1,0 +1,108 @@
+id = "2153"
+ref = "2153"
+name = "2153 Bochum West - Abzw Gelsenkirchen Nordstern"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Bochum West"
+to = "Gelsenkirchen Nordstern"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 15.861
+kmTo = 33.083
+length = 17.263
+speeds = [[15.861, 16.431, 50, 50], [16.431, 17.405, 60, 50], [17.405, 17.652, 80, 50], [17.652, 22.048, 80, 80], [22.048, 24.086, "", ""], [24.086, 29.551, 80, 80], [29.551, 29.872, "", ""], [29.872, 33.083, 80, 80]]
+curves = [[16.833, 16.908, 2410], [17.007, 17.655, 880], [17.904, 18.302, 2130], [18.452, 18.85, 1130], [19.298, 19.622, 1590], [20.195, 20.27, 2450], [20.37, 20.439, 2470], [21.284, 21.452, 1480], [22.12, 22.495, 930], [22.97, 23.32, 560], [23.47, 23.82, 540], [23.92, 24.095, 1230], [24.145, 24.32, 1160], [25.745, 25.97, 1380], [26.52, 26.695, 1140], [27.77, 27.82, 2600], [28.02, 28.145, 2000], [28.345, 28.42, 2490], [28.845, 28.945, 1460], [29.145, 29.245, 1600], [29.645, 29.72, 1420], [29.795, 29.87, 1390], [30.32, 30.445, 1510], [30.67, 30.795, 1760], [31.045, 31.77, 1010], [32.245, 32.32, 1630], [32.395, 32.87, 430]]
+points = [
+  { km = 16.04, kind = "stop", label = "Bochum West", pos = [51.48158, 7.21118], uic = "8006711" },
+  { km = 16.187, kind = "signal", label = "14 02", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 16.408, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 16.424, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.583, kind = "signal", label = "14 K", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 16.584, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 17.207, kind = "signal", signal = "distant", dir = -1 },
+  { km = 17.331, kind = "stop", label = "Bochum-Hamme", pos = [51.49117, 7.20113], uic = "8006710" },
+  { km = 17.391, kind = "signal", label = "50A", signal = "main,speed_limit", dir = 1 },
+  { km = 17.538, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.566, kind = "signal", signal = "distant", dir = -1 },
+  { km = 18.315, kind = "signal", signal = "distant,speed_limit", dir = 1 },
+  { km = 18.463, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 18.58, kind = "signal", label = "50 P2", signal = "combined,route,traversable", dir = -1 },
+  { km = 18.582, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 19.279, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.282, kind = "signal", label = "50 N2", signal = "combined", dir = 1 },
+  { km = 20.075, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 20.182, kind = "signal", signal = "distant", dir = -1 },
+  { km = 20.309, kind = "stop", label = "Bochum-Riemke", pos = [51.51791, 7.20531], uic = "8001035" },
+  { km = 20.321, kind = "signal", label = "50 03", signal = "main", dir = 1 },
+  { km = 20.344, kind = "signal", signal = "stop", dir = 1 },
+  { km = 20.354, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 20.406, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 20.665, kind = "signal", signal = "distant,route_distant", dir = 1 },
+  { km = 21.05, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 21.071, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 21.484, kind = "signal", signal = "distant", dir = -1 },
+  { km = 21.611, kind = "signal", label = "A 510", signal = "distant,main,route,speed_limit", dir = 1 },
+  { km = 22.491, kind = "signal", signal = "distant,main,traversable", dir = -1 },
+  { km = 22.969, kind = "signal", signal = "main,route,traversable", dir = 1 },
+  { km = 27.265, kind = "signal", signal = "distant,main,traversable", dir = 1 },
+  { km = 27.772, kind = "signal", signal = "main,traversable,wrong_road" },
+  { km = 28.246, kind = "signal", signal = "distant,main,minor,traversable", dir = 1 },
+  { km = 28.527, kind = "signal", signal = "minor", dir = 1 },
+  { km = 28.534, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 28.74, kind = "signal", signal = "minor", dir = -1 },
+  { km = 29.479, kind = "station", label = "Gelsenkirchen Zoo", pos = [51.53767, 7.11077], uic = "8002223" },
+  { km = 29.491, kind = "signal", signal = "distant,main,traversable", dir = 1 },
+  { km = 29.872, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 30.302, kind = "signal", signal = "main,minor,traversable", dir = 1 },
+  { km = 30.677, kind = "signal", signal = "minor", dir = -1 },
+  { km = 30.986, kind = "signal", signal = "minor", dir = 1 },
+  { km = 31.362, kind = "signal", signal = "minor", dir = -1 },
+  { km = 31.838, kind = "signal", signal = "main,minor,traversable", dir = 1 },
+  { km = 32.319, kind = "signal", signal = "main", dir = -1 },
+  { km = 32.809, kind = "signal", signal = "main,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 15.861, kmTo = 15.876, length = 15 },
+  { kind = "bridge", kmFrom = 15.975, kmTo = 16.002, length = 27 },
+  { kind = "bridge", kmFrom = 16.1, kmTo = 16.119, length = 19 },
+  { kind = "bridge", kmFrom = 16.756, kmTo = 16.802, length = 46 },
+  { kind = "bridge", kmFrom = 16.829, kmTo = 16.84, length = 11 },
+  { kind = "bridge", kmFrom = 17.265, kmTo = 17.291, length = 26 },
+  { kind = "bridge", kmFrom = 17.405, kmTo = 17.42, length = 15 },
+  { kind = "bridge", kmFrom = 19.228, kmTo = 19.241, length = 13 },
+  { kind = "bridge", kmFrom = 19.584, kmTo = 19.598, length = 15 },
+  { kind = "bridge", kmFrom = 19.899, kmTo = 19.909, length = 10 },
+  { kind = "bridge", kmFrom = 21.276, kmTo = 21.301, length = 26 },
+  { kind = "bridge", kmFrom = 22.129, kmTo = 22.175, length = 45 },
+  { kind = "bridge", kmFrom = 22.924, kmTo = 22.946, length = 22 },
+  { kind = "bridge", kmFrom = 23.37, kmTo = 23.523, length = 154 },
+  { kind = "bridge", kmFrom = 23.967, kmTo = 23.977, length = 10 },
+  { kind = "bridge", kmFrom = 24.086, kmTo = 24.099, length = 12 },
+  { kind = "bridge", kmFrom = 24.387, kmTo = 24.408, length = 22 },
+  { kind = "bridge", kmFrom = 24.613, kmTo = 24.624, length = 11 },
+  { kind = "bridge", kmFrom = 25.472, kmTo = 25.518, length = 46 },
+  { kind = "bridge", kmFrom = 25.826, kmTo = 25.847, length = 21 },
+  { kind = "bridge", kmFrom = 26.096, kmTo = 26.117, length = 21 },
+  { kind = "bridge", kmFrom = 26.538, kmTo = 26.556, length = 18 },
+  { kind = "bridge", kmFrom = 26.699, kmTo = 26.728, length = 29 },
+  { kind = "bridge", kmFrom = 27.07, kmTo = 27.082, length = 12 },
+  { kind = "bridge", kmFrom = 28.04, kmTo = 28.054, length = 14 },
+  { kind = "bridge", kmFrom = 28.335, kmTo = 28.347, length = 12 },
+  { kind = "bridge", kmFrom = 28.414, kmTo = 28.432, length = 18 },
+  { kind = "bridge", kmFrom = 29.531, kmTo = 29.551, length = 20 },
+  { kind = "bridge", kmFrom = 31.785, kmTo = 31.815, length = 30 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cveyH}t_k@}Y`[", v = 50 },
+  { line = "aqfyH{x~j@g`@td@kLnF", v = 60 },
+  { line = "u_hyHuk}j@wGh@o^oBy]~AiGqAo\\qNuKcCe`BsPih@vA", v = 80 },
+  { line = "wcpyH_p~j@sJt@gGdCy\\`XeExFqC~IqFbZOfJ|@b]" },
+  { line = "ifryHwyzj@B~QrKpiCG~YiAdk@|EbiBlApVbCfXvHnl@zBvUtBja@", v = 80 },
+  { line = "i}pyHmskj@tBj[" },
+  { line = "sypyHawjj@zCzl@bAzi@nApVzAxLbDpMrEzKrW~_@bJzKbChFlAtFb@xG]lZ", v = 80 },
+]
+posts = [[16, 51.48125, 7.21145], [17, 51.48868, 7.20322], [18, 51.4973, 7.20107], [19, 51.50621, 7.20182], [20, 51.515, 7.20477], [21, 51.52393, 7.20648], [22, 51.53313, 7.2066], [23, 51.54144, 7.20166], [24, 51.5442, 7.18889], [25, 51.54331, 7.17454], [26, 51.54215, 7.16022], [27, 51.54222, 7.14582], [28, 51.54121, 7.13146], [29, 51.53862, 7.11763], [30, 51.53688, 7.10346], [31, 51.53574, 7.08914], [32, 51.53086, 7.07754], [33, 51.52634, 7.06638]]

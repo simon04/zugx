@@ -1,0 +1,27 @@
+id = "2102"
+ref = "2102"
+name = "2102 Dortmund-Obereving - Abzw Dortmund-Kirchderne"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Dortmund-Obereving"
+to = "Dortmund-Kirchderne"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.984
+length = 1.984
+speeds = [[0, 1.984, "", ""]]
+curves = [[0.1, 0.2, 1390], [0.5, 0.8, 590], [0.875, 1.2, 600]]
+points = [
+  { km = 0.266, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 1.297, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.641, kind = "signal", label = "704", signal = "main,speed_limit,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cpqyHoxsl@mC}LyGwc@QcKh@qRm@wLcRagA" },
+]
+posts = [[0, 51.54066, 7.47928], [1, 51.54268, 7.49301]]

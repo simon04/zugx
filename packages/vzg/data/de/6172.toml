@@ -1,0 +1,55 @@
+id = "6172"
+ref = "6172"
+name = "6172 Berlin-Tempelhof - Abzw Berlin Mariendorf"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131730679"
+from = "Berlin-Tempelhof"
+to = "Berlin Mariendorf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 22.58
+kmTo = 25.784
+length = 3.229
+speeds = [[22.58, 22.953, 40, 40], [22.953, 23.771, 60, 60], [23.771, 25.379, 40, 40], [25.379, 25.784, 40, 60]]
+curves = [[22.755, 22.83, 2430], [23.03, 23.48, 310], [23.68, 23.78, 1280], [23.905, 24.005, 1200], [24.053, 24.198, 810], [24.463, 24.594, 800], [24.695, 25.405, 830], [25.48, 25.655, 1140]]
+points = [
+  { km = 22.631, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.765, kind = "signal", label = "54Ve", signal = "distant", dir = 1 },
+  { km = 22.795, kind = "signal", label = "65G", signal = "main", dir = -1 },
+  { km = 23.143, kind = "signal", label = "54E", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 23.252, kind = "signal", label = "65Vg", signal = "distant", dir = -1 },
+  { km = 23.339, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 23.401, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 23.775, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.919, kind = "signal", label = "54K", signal = "main,speed_limit", dir = -1 },
+  { km = 24.555, kind = "signal", label = "54Vk", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 24.752, kind = "signal", label = "55V51", signal = "distant", dir = 1 },
+  { km = 25.378, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 25.379, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 25.497, kind = "signal", label = "55 51", signal = "combined,traversable,wrong_road", dir = 1 },
+  { km = 25.784, kind = "station", label = "Attilastraße", uic = "8089003", pos = [52.44803, 13.36075] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 22.826, kmTo = 22.953, length = 127 },
+  { kind = "bridge", kmFrom = 24.782, kmTo = 24.8, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "khg_IqbspA^ha@", v = 40 },
+  { line = "kgg_Ig`rpAf@vQv@pDzA~CdFbDbQdE", v = 60 },
+  { line = "ehf_IswppAfT`AzTxF~KhHdHrBzJC`KkD", v = 40 },
+  { line = "}nc_IifppAnHwDhKmC", v = 60 },
+]
+posts = [[23, 52.47107, 13.36783], [24, 52.46406, 13.36174], [25, 52.45507, 13.35829]]
+
+[[connections]]
+km = 25.784
+station = "Attilastraße"
+lines = [
+  { id = "6035", ref = "6035", name = "6035 Berlin Yorckstraße Strw - Blankenfelde", km = 6.6 },
+  { id = "6135", ref = "6135", name = "6135 Berlin - Elsterwerda", km = 6.51 },
+]

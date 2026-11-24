@@ -1,0 +1,40 @@
+id = "6069"
+ref = "6069"
+name = "6069 Abzw Biesdorfer Kreuz Süd - Abzw Biesdorfer Kreuz Süd-West"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131693084"
+from = "Biesdorfer Kreuz Süd"
+to = "Biesdorfer Kreuz Süd-West"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 29.985
+kmTo = 31.071
+length = 1.099
+speeds = [[29.985, 30.978, 80, 80], [30.978, 31.071, 60, 60]]
+curves = [[30.177, 30.281, 1580]]
+points = [
+  { km = 29.985, kind = "station", label = "Biesdorf-Süd", pos = [52.4996, 13.54653] },
+  { km = 30.085, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 30.41, kind = "signal", label = "28 312", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 30.753, kind = "signal", label = "28 323", signal = "main,route,speed_limit,traversable", dir = 1 },
+  { km = 30.978, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yul_IcctqAoN|Hoe@hQ", v = 80 },
+  { line = "ykn_I{fsqAyCrA", v = 60 },
+]
+posts = [[30, 52.49913, 13.54298], [31, 52.50781, 13.53846]]
+
+[[connections]]
+km = 29.985
+station = "Biesdorf-Süd"
+lines = [
+  { id = "6080", ref = "6080", name = "6080 Berlin Eichgestell - Biesdorfer Kreuz Nord", km = 29.947 },
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 9.37 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 7.041 },
+]

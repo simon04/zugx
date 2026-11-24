@@ -1,0 +1,42 @@
+id = "6190"
+ref = "6190"
+name = "Doberlug-Kirchhain unt Bf - Doberlug-Kirchhain ob Bf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131731610"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.084
+length = 2.084
+speeds = [[0, 0.083, 60, 60], [0.083, 1.277, 40, 40], [1.277, 1.93, 60, 60], [1.93, 2.084, "", ""]]
+curves = [[0.1, 0.15, 2640], [0.225, 0.275, 2010], [0.4, 0.55, 780], [0.6, 0.975, 320], [1.1, 1.2, 910], [1.8, 1.85, 2410]]
+points = [
+  { km = 0.159, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.169, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.278, kind = "signal", signal = "combined,speed_limit,train_protection", dir = 1 },
+  { km = 0.514, kind = "signal", signal = "combined,speed_limit,train_protection", dir = 1 },
+  { km = 0.832, kind = "station", label = "Doberlug-Kirchhain", uic = "8004326", pos = [51.62061, 13.56423] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.758, kmTo = 0.771, length = 13 },
+  { kind = "bridge", kmFrom = 1.939, kmTo = 1.978, length = 40 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}sbzH_txqAnC|@", v = 60 },
+  { line = "mobzHarxqAzR~GvKx@rDvBtDzHzCvOfAtJ", v = 40 },
+  { line = "k|`zHe}vqAfJdw@", v = 60 },
+  { line = "cq`zH_euqAxAdL" },
+]
+posts = [[0, 51.62831, 13.56624], [1, 51.62034, 13.56119], [2, 51.61743, 13.54751]]
+
+[[connections]]
+km = 0.832
+station = "Doberlug-Kirchhain"
+lines = [
+  { id = "6135", ref = "6135", name = "6135 Berlin - Elsterwerda", km = 102.796 },
+]

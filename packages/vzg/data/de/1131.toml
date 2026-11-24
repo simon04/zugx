@@ -1,0 +1,83 @@
+id = "1131"
+ref = "1131"
+name = "1131 Abzw Strecknitz - Lübeck-Schlutup"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q802716"
+from = "Strecknitz"
+to = "Lübeck-Schlutup"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 4.351
+kmTo = 14.251
+length = 9.887
+speeds = [[4.351, 11.04, 50, 50], [11.04, 11.082, 10, 10], [11.082, 11.111, 50, 10], [11.111, 13.463, 50, 50], [13.463, 13.504, 20, 50], [13.504, 14.251, 20, 20]]
+curves = [[5.594, 5.989, 1640], [6.496, 7.153, 560], [7.278, 7.68, 650], [8.006, 8.083, 2470], [8.519, 8.672, 950], [8.901, 9.075, 980], [9.938, 10.063, 1170], [10.487, 10.861, 380], [11.29, 11.379, 1920], [11.729, 11.89, 1040], [12.333, 12.43, 1190], [12.615, 12.775, 780], [13.081, 13.242, 960], [14.014, 14.139, 1000]]
+points = [
+  { km = 4.597, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 4.628, kind = "signal", signal = "crossing_hint", dir = -1 },
+  { km = 4.634, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 4.676, kind = "halt", label = "Lübeck-St. Jürgen", uic = "8004930", pos = [53.8423, 10.70211] },
+  { km = 4.741, kind = "signal", label = "62 04", signal = "main", dir = -1 },
+  { km = 5.05, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 5.094, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 6.842, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.201, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 7.421, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 7.527, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.682, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.881, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 7.988, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.002, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 8.04, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 8.42, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 8.439, kind = "signal", signal = "main", dir = 1 },
+  { km = 8.446, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 8.504, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.514, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 8.655, kind = "signal", label = "B", signal = "main", dir = -1 },
+  { km = 8.684, kind = "signal", signal = "main", dir = -1 },
+  { km = 9.058, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.04, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.049, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 11.082, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.111, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.16, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 11.483, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 11.577, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 11.836, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 11.916, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 12.141, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 12.169, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 12.38, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.604, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.112, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 13.408, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 13.445, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 13.463, kind = "signal", signal = "main,speed_limit_distant", dir = 1 },
+  { km = 13.504, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.607, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 14.068, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 6.078, kmTo = 6.096, length = 18 },
+  { kind = "bridge", kmFrom = 8.75, kmTo = 8.767, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "absgIihh`AhAseCv@oOvHyu@XsI_AkRiEiPoLkSaJeGqUaFa\\aEiY`Aos@aLqJwD{QkIkDkDqC}IwBaV", v = 50 },
+  { line = "{bygIwqs`AOiB", v = 10 },
+  { line = "kcygIaus`A}B}VaHci@uOkn@iIcVeHof@iJ_\\", v = 50 },
+  { line = "{_{gIcbz`A{Pmk@_BgH[uE", v = 20 },
+]
+posts = [[5, 53.8423, 10.70705], [6, 53.84159, 10.72238], [7, 53.84096, 10.73675], [8, 53.84869, 10.74331], [9, 53.85744, 10.74397], [10, 53.86646, 10.74621], [11, 53.87317, 10.75441], [12, 53.87645, 10.7691], [13, 53.88071, 10.7815], [14, 53.88553, 10.7946]]
+
+[[connections]]
+km = 4.676
+station = "Lübeck-St. Jürgen"
+lines = [
+  { id = "1122", ref = "1122", name = "1122 Lübeck - Strasburg (Uckerm)", km = 6.327 },
+]

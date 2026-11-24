@@ -1,0 +1,98 @@
+id = "4124"
+ref = "4124"
+name = "4124 Seckach - Schneeberg Strw 5223/4124"
+operator = "DB InfraGO AG;DB RegioNetz Infrastruktur GmbH;Westfrankenbahn"
+gauge = "1435"
+wikidata = "Q107140817"
+from = "Seckach"
+to = "Schneeberg Streckenwechsel 5223/4124"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.791
+kmTo = 30.077
+length = 30.821
+speeds = [[-0.791, 0.337, "", ""], [0.337, 5.126, 50, 50], [5.126, 5.147, 20, 20], [5.147, 10.947, 50, 50], [10.947, 14.411, "", ""], [14.411, 15.292, 60, 60], [15.292, 16.318, 80, 80], [16.318, 17.88, 60, 60], [17.88, 19.041, 50, 50], [19.041, 19.284, 40, 40], [19.284, 19.53, 20, 20], [19.53, 19.54, 40, 40], [19.54, 28.459, 60, 60], [28.459, 28.485, 20, 20], [28.485, 30.077, 60, 60]]
+curves = [[-0.67, -0.145, 650], [0.255, 0.481, 650], [0.531, 0.706, 470], [0.906, 1.131, 470], [1.607, 1.782, 740], [1.882, 2.483, 1090], [2.633, 2.833, 400], [2.908, 3.034, 1590], [3.934, 4.16, 490], [4.36, 5.085, 710], [5.236, 5.411, 1040], [5.861, 6.012, 960], [6.062, 6.687, 360], [6.787, 7.188, 490], [7.413, 7.513, 680], [7.563, 8.113, 200], [8.188, 8.564, 440], [8.614, 8.94, 240], [8.99, 9.741, 220], [10.392, 10.792, 490], [10.892, 11.568, 250], [11.794, 12.691, 960], [13.492, 13.817, 550], [14.402, 14.624, 770], [14.824, 15.262, 770], [17.521, 18.106, 820], [18.847, 19.219, 610], [19.716, 20.305, 280], [20.43, 20.656, 720], [20.731, 20.881, 630], [20.932, 21.032, 1330], [21.107, 21.308, 600], [21.408, 21.733, 520], [21.934, 22.134, 480], [22.184, 22.409, 510], [22.46, 22.985, 310], [23.035, 23.637, 350], [23.737, 23.963, 620], [24.063, 24.214, 960], [24.339, 24.464, 1600], [24.915, 24.965, 2330], [25.116, 25.492, 700], [25.667, 25.993, 430], [26.143, 26.393, 620], [26.569, 26.769, 610], [26.844, 27.144, 380], [27.22, 27.345, 1860], [27.947, 28.198, 610], [28.724, 28.95, 900], [29.025, 29.226, 840], [29.276, 29.502, 2280]]
+points = [
+  { km = -0.141, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.078, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.028, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.013, kind = "station", label = "Seckach", pos = [49.44108, 9.33868], uic = "8014154" },
+  { km = 0.029, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.058, kind = "signal", signal = "main", dir = 1 },
+  { km = 0.064, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.341, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.534, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 4.244, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.317, kind = "station", label = "Bödigheim", pos = [49.47594, 9.31726], ele = 304 },
+  { km = 10.76, kind = "stop", label = "Buchen Ost", pos = [49.51911, 9.33212] },
+  { km = 11.785, kind = "station", label = "Buchen im Odenwald", pos = [49.52356, 9.32717] },
+  { km = 11.8, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.33, kind = "stop", label = "Hainstadt (Baden)", pos = [49.54376, 9.32753] },
+  { km = 14.39, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 14.411, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.616, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 14.675, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 14.988, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 15.058, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 15.292, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.931, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 15.967, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 16.085, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 16.318, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.477, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 17.88, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 18.226, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 18.341, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 18.803, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 18.888, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.284, kind = "signal", signal = "stop", dir = -1 },
+  { km = 19.312, kind = "station", label = "Walldürn", pos = [49.57823, 9.36789] },
+  { km = 19.392, kind = "signal", signal = "stop", dir = 1 },
+  { km = 19.54, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.07, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 28.082, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 28.271, kind = "stop", label = "Rippberg", pos = [49.62465, 9.29126] },
+  { km = 28.459, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.485, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.454, kmTo = -0.42, length = 34 },
+  { kind = "bridge", kmFrom = 11.183, kmTo = 11.214, length = 31 },
+  { kind = "bridge", kmFrom = 12.246, kmTo = 12.287, length = 41 },
+  { kind = "bridge", kmFrom = 13.954, kmTo = 13.978, length = 24 },
+  { kind = "bridge", kmFrom = 19.756, kmTo = 19.787, length = 30 },
+  { kind = "bridge", kmFrom = 19.988, kmTo = 20.004, length = 15 },
+  { kind = "bridge", kmFrom = 21.366, kmTo = 21.381, length = 14 },
+  { kind = "bridge", kmFrom = 21.884, kmTo = 21.909, length = 25 },
+  { kind = "bridge", kmFrom = 27.006, kmTo = 27.041, length = 35 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wj}mHo`rw@dXq`@jGmLdEgKdFyU`JuS", v = 60 },
+  { line = "wp{mHgguw@Zw@", v = 20 },
+  { line = "{o{mH_iuw@pJ}TpA_GfJsuAvAgEdKuNdHiWzBoEfN}QzA}GtAeZbC}LlNeZlOeXhKkNxHiOxAaBxN_JnDaI|@aHKwFaEsPe@{ET_Gr@cDbD}ErI{GnDy@`KOjTeNdCiFzGsVjMqTzK}K`IqRnDwElFq@~DfB`K|R", v = 60 },
+  { line = "wnrmHkaex@HP", v = 40 },
+  { line = "mnrmHy`ex@xGfN", v = 20 },
+  { line = "sermHqqdx@|D|HrC`D", v = 40 },
+  { line = "a{qmHqbdx@pGjDhk@~MvIzD", v = 50 },
+  { line = "m{omHihcx@rFpF|DvGxi@xsA", v = 60 },
+  { line = "acnmHec`x@fb@beA", v = 80 },
+  { line = "y_mmHa}}w@dFjKfF~FdUtFfFdD", v = 60 },
+  { line = "}skmHy{|w@r^`[zD~A`EHfu@sGdFVxNvC|DwBrBgGGwb@XmFdAwDpB}C|CmA`E`@tCrC" },
+  { line = "q{fmHe~}w@hJjPhGvDzl@|D|KwBtBl@rBtBtAtEH|Gg@|CqD~JUtGd@pDxEbMhAdILhG_A`SVjFpAfEbDnC~CBdBy@pEsFnP_LnLcAlK_HzByCxE_OxDyCtC@pKpCp]vBhI~B", v = 50 },
+  { line = "it_mHyxzw@b@N", v = 20 },
+  { line = "es_mHixzw@zEtAjG\\fCY`HiDrACvGxAfRn@|r@{i@|J}FtByCdMwXfG_IbDeCbQyFrb@bAzSmNhIo@xCaB", v = 50 },
+  { line = "c_xlH{o~w@|YgVxDaFhEuLhCqS" },
+]
+posts = [[30, 49.63463, 9.27326], [29, 49.62848, 9.28316], [28, 49.62342, 9.29446], [27, 49.62166, 9.308], [26, 49.61571, 9.3181], [25, 49.61179, 9.33003], [24, 49.60534, 9.33961], [23, 49.60107, 9.34925], [22, 49.59572, 9.35643], [21, 49.58926, 9.36531], [20, 49.58247, 9.3737], [19, 49.57588, 9.3647], [18, 49.56717, 9.36148], [17, 49.56084, 9.35202], [16, 49.55533, 9.3411], [15, 49.54958, 9.33054], [14, 49.54135, 9.32535], [13, 49.53274, 9.32392], [12, 49.524, 9.32448], [11, 49.52047, 9.33408], [10, 49.51248, 9.3293], [9, 49.50629, 9.32502], [8, 49.50569, 9.31233], [7, 49.49815, 9.31358], [6, 49.49067, 9.31894], [5, 49.48181, 9.3169], [4, 49.47302, 9.3173], [3, 49.46513, 9.32392], [2, 49.45822, 9.33235], [1, 49.44937, 9.33335], [0, 49.44123, 9.33875]]
+
+[[connections]]
+km = -0.013
+station = "Seckach"
+lines = [
+  { id = "4120", ref = "4120", name = "4120 Mosbach-Neckarelz - Würzburg-Heidingsfeld West", km = 73.919 },
+]

@@ -1,0 +1,86 @@
+id = "6401"
+ref = "6401"
+name = "6401 Stendal - Wittenberge"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q107917828"
+from = "Stendal"
+to = "Wittenberge"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.532
+kmTo = 54.325
+length = 53.692
+speeds = [[0.532, 6.031, 90, 90], [6.031, 52.665, 120, 120], [52.665, 54.325, 80, 80]]
+curves = [[1.95, 3.5, 510], [4.1, 4.525, 620], [5.65, 5.95, 760], [6.55, 7.6, 810], [8.825, 9.175, 2180], [9.275, 9.475, 2450], [19.081, 20.11, 2220], [20.161, 20.738, 2300], [20.788, 20.989, 2430], [21.04, 21.19, 1850], [27.343, 28.423, 1190], [30.231, 30.658, 2040], [33.37, 33.546, 2220], [33.596, 33.772, 2120], [33.822, 34.099, 2500], [34.199, 34.325, 1660], [39.922, 39.972, 2930], [40.397, 41.172, 2360], [42.696, 43.221, 2310], [48.481, 49.116, 1200], [51.706, 51.934, 1170], [52.213, 52.569, 890], [52.62, 52.874, 520], [52.924, 53.381, 680], [53.74, 53.995, 1450], [54.175, 54.225, 1500]]
+points = [
+  { km = 0.706, kind = "signal", label = "25 ZV604", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.005, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.176, kind = "signal", label = "25 N604", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 1.456, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.833, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.008, kind = "signal", label = "25 F", signal = "combined,route,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.157, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.337, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.998, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.753, kind = "stop", label = "Stendal-Stadtsee", pos = [52.60676, 11.83692], uic = "8024085" },
+  { km = 6.151, kind = "stop", label = "Stendal Hochschule", pos = [52.61659, 11.84918] },
+  { km = 8.485, kind = "signal", signal = "main,route,speed_limit,traversable", dir = 1 },
+  { km = 8.889, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.041, kind = "stop", label = "Eichstedt", pos = [52.67531, 11.8549], uic = "8024090" },
+  { km = 17.597, kind = "stop", label = "Goldbeck (Osterburg)", pos = [52.71619, 11.85819], uic = "8024091" },
+  { km = 26.666, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 27.183, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 27.185, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 27.452, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 27.453, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 28.088, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 28.131, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 28.407, kind = "signal", signal = "main", dir = -1 },
+  { km = 28.885, kind = "station", label = "Osterburg", uic = "8012568", pos = [52.78762, 11.76047] },
+  { km = 40.014, kind = "stop", label = "Seehausen", pos = [52.88549, 11.74353], uic = "8024095" },
+  { km = 47.904, kind = "stop", label = "Geestgottberg", pos = [52.95579, 11.73727], uic = "8024106" },
+  { km = 51.74, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 52.811, kind = "signal", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 53.252, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 53.445, kind = "signal", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 53.652, kind = "signal", label = "30 P4", signal = "main,route,speed_limit,wrong_road", dir = -1 },
+  { km = 53.68, kind = "signal", signal = "stop", dir = -1 },
+  { km = 53.783, kind = "station", label = "Wittenberge", pos = [53.00353, 11.76281], uic = "8027316" },
+  { km = 53.889, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 53.914, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 53.919, kind = "signal", signal = "stop", dir = -1 },
+  { km = 53.939, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 54.053, kind = "signal", signal = "stop", dir = 1 },
+  { km = 54.07, kind = "signal", label = "30 R4", signal = "main,route,speed_limit,speed_limit_distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.778, kmTo = 5.799, length = 22 },
+  { kind = "bridge", kmFrom = 6.031, kmTo = 6.057, length = 26 },
+  { kind = "bridge", kmFrom = 10.962, kmTo = 10.989, length = 27 },
+  { kind = "bridge", kmFrom = 20.164, kmTo = 20.179, length = 14 },
+  { kind = "bridge", kmFrom = 29.771, kmTo = 29.799, length = 27 },
+  { kind = "bridge", kmFrom = 45.785, kmTo = 45.845, length = 60 },
+  { kind = "bridge", kmFrom = 50.622, kmTo = 51.708, length = 1069 },
+  { kind = "bridge", kmFrom = 52.03, kmTo = 52.131, length = 99 },
+  { kind = "bridge", kmFrom = 52.326, kmTo = 52.361, length = 34 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yapbIaexfAzVuCb[kNjIoBbFPdKvF`F`@", v = 80 },
+  { line = "aimbIgsxfArIe@bE\\lZnNfbCrgCnKbHrKhCnnHfF|LmAvIwBpuAkf@|JeBnMi@hzI|m@~Kh@rO{@fOgDlOkH`cCibBbN}HrTgGt`BwTlLgEjL{KbHyLdFuNb{Da_NnKgVpM_ShOiOtReLtKiDfJ{AhUYtvObj@vLk@fNmCbgAad@dL{@~Ep@zFdCzJjKzEnK`Qni@", v = 120 },
+  { line = "}pc`Ie_igAzDlLrDhGf_Az_ApBlEnBxHlLnx@~BhLbCvFdDjEbDlBjFfA`Hw@|GcFlFcLtBgNAsOeKgcC", v = 90 },
+]
+posts = [[54, 53.00494, 11.76207], [53, 52.99644, 11.76518], [52, 52.98789, 11.7623], [51, 52.98028, 11.75486], [50, 52.97275, 11.74713], [49, 52.96525, 11.73932], [48, 52.95659, 11.73725], [47, 52.94763, 11.73703], [46, 52.93863, 11.73681], [45, 52.92964, 11.73659], [44, 52.92065, 11.73638], [43, 52.91166, 11.73645], [42, 52.90294, 11.74005], [41, 52.89424, 11.74384], [40, 52.88529, 11.74339], [39, 52.87579, 11.74234], [38, 52.86651, 11.74106], [37, 52.85759, 11.73983], [36, 52.84867, 11.7386], [35, 52.83975, 11.73738], [34, 52.83082, 11.73683], [33, 52.82236, 11.74145], [32, 52.81422, 11.74759], [31, 52.80606, 11.75372], [30, 52.79758, 11.75819], [29, 52.78871, 11.76014], [28, 52.77997, 11.76297], [27, 52.77408, 11.77382], [26, 52.76923, 11.78626], [25, 52.76438, 11.7987], [24, 52.75952, 11.81113], [23, 52.75465, 11.82354], [22, 52.7498, 11.83597], [21, 52.74471, 11.84812], [20, 52.73748, 11.85662], [19, 52.72873, 11.85918], [18, 52.71979, 11.85846], [17, 52.71082, 11.85773], [14, 52.68387, 11.85555], [15, 52.69286, 11.85628], [16, 52.70184, 11.85701], [13, 52.67489, 11.85483], [12, 52.66591, 11.8541], [11, 52.65693, 11.85337], [10, 52.64794, 11.85264], [9, 52.63898, 11.85281], [8, 52.63037, 11.85705], [7, 52.62168, 11.85834], [6, 52.61583, 11.84733], [5, 52.60863, 11.83873], [4, 52.60222, 11.82907], [3, 52.59759, 11.81709], [2, 52.59178, 11.82505], [1, 52.59315, 11.83968]]
+
+[[connections]]
+km = 53.783
+station = "Wittenberge"
+lines = [
+  { id = "1151", ref = "1151", name = "1151: Wittenberge–Buchholz", km = 126.782 },
+  { id = "6100", ref = "6100", name = "6100 Berlin - Hamburg", km = 126.749 },
+  { id = "6941", ref = "6941", name = "6941 Wittenberge - Buschhof (b Neustrelitz)", km = 76.6 },
+]

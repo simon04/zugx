@@ -1,0 +1,26 @@
+id = "7473"
+ref = "7473"
+name = "7473 Troisdorf Vorbahnhof - Troisdorf Nord"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Troisdorf Vorbahnhof"
+to = "Troisdorf Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.753
+length = 0.753
+speeds = [[0, 0.753, 60, 60]]
+curves = [[0.525, 0.625, 880]]
+points = [
+  { km = 0.095, kind = "signal", label = "81 P25", signal = "main,speed_limit", dir = -1 },
+  { km = 0.601, kind = "signal", signal = "combined,minor,route,speed_limit,speed_limit_distant", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ydeuHyonj@hMqk@tB_O", v = 60 },
+]
+posts = [[0, 50.82205, 7.12461]]

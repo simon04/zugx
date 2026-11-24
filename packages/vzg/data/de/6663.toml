@@ -1,0 +1,57 @@
+id = "6663"
+ref = "6663"
+name = "Schönheide Ost - Adorf (Vogtl)"
+operator = "Förderverein Historische Westsächsische Eisenbahnen e.V."
+gauge = "1435"
+wikidata = "Q802094"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 89.005
+kmTo = 110
+length = 20.942
+speeds = [[89.005, 102.299, "", ""], [102.299, 110, 60, 60]]
+curves = [[89.105, 89.254, 1010], [89.304, 89.579, 410], [89.63, 90.282, 230], [90.332, 90.608, 490], [90.759, 91.486, 370], [91.611, 92.137, 410], [92.213, 92.739, 240], [92.89, 94.193, 310], [94.268, 94.444, 1010], [94.544, 94.845, 410], [94.895, 95.146, 400], [95.246, 95.471, 800], [95.622, 96.123, 340], [96.324, 96.725, 330], [96.775, 97.051, 330], [97.101, 97.377, 350], [97.727, 97.878, 590], [97.928, 98.404, 700], [98.58, 99.858, 200], [99.908, 100.765, 360], [100.891, 101.015, 1030], [101.112, 101.44, 930], [101.643, 102.038, 370], [102.243, 102.817, 450], [102.941, 103.546, 380], [103.596, 103.924, 330], [104, 104.126, 1240], [104.202, 104.504, 780], [104.65, 105.502, 260], [105.552, 106.053, 210], [106.103, 106.303, 330], [106.353, 106.779, 520], [106.829, 107.08, 420], [107.18, 107.33, 670], [107.38, 107.53, 450], [107.581, 107.781, 470], [107.956, 108.207, 330], [108.257, 108.432, 650], [108.482, 108.857, 980], [108.907, 109.282, 540], [109.332, 109.532, 380], [109.582, 109.707, 770], [109.757, 109.832, 1340]]
+points = [
+  { km = 89.005, kind = "signal", label = "7P1", signal = "main,traversable", dir = -1, measured = true },
+  { km = 89.127, kind = "station", label = "Muldenberg", uic = "8059021", pos = [50.42518, 12.39736] },
+  { km = 89.4, kind = "signal", signal = "shunting", dir = 1, measured = true },
+  { km = 89.7, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 89.7, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 89.7, kind = "signal", label = "7F", signal = "combined,traversable", dir = -1, measured = true },
+  { km = 90.51, kind = "signal", signal = "speed_limit_distant", dir = -1, measured = true },
+  { km = 90.51, kind = "signal", label = "7Vf", signal = "distant", dir = -1, measured = true },
+  { km = 90.647, kind = "halt", label = "Muldenberg Floßplatz", pos = [50.41601, 12.39851] },
+  { km = 96.27, kind = "halt", label = "Schöneck (Vogtl)", uic = "8059009", pos = [50.39589, 12.34331] },
+  { km = 97.083, kind = "halt", label = "Schöneck (Vogtl) Ferienpark", pos = [50.38976, 12.34714] },
+  { km = 100.23, kind = "signal", label = "8Va", signal = "distant", dir = 1, measured = true },
+  { km = 100.23, kind = "signal", signal = "distant", dir = 1, measured = true },
+  { km = 100.93, kind = "signal", label = "8A", signal = "combined,traversable", dir = 1, measured = true },
+  { km = 101.13, kind = "signal", signal = "shunting", dir = -1, measured = true },
+  { km = 101.408, kind = "signal", label = "8P1", signal = "main,traversable", dir = -1, measured = true },
+  { km = 101.49, kind = "signal", signal = "stop", dir = -1, measured = true },
+  { km = 101.565, kind = "station", label = "Zwotental", pos = [50.36232, 12.3639], uic = "8059028" },
+  { km = 101.585, kind = "signal", signal = "stop", dir = 1, measured = true },
+  { km = 101.638, kind = "signal", label = "8Z1", signal = "main", dir = -1 },
+  { km = 101.639, kind = "signal", label = "8N1", signal = "main,traversable", dir = 1, measured = true },
+  { km = 101.896, kind = "signal", signal = "shunting", dir = 1, measured = true },
+  { km = 102.296, kind = "signal", label = "8F", signal = "combined,traversable", dir = -1, measured = true },
+  { km = 102.996, kind = "signal", label = "8Vf", signal = "distant", dir = -1, measured = true },
+  { km = 104.573, kind = "halt", label = "Gunzen", pos = [50.35146, 12.33321], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 95.949, kmTo = 95.968, length = 19 },
+  { kind = "bridge", kmFrom = 96.935, kmTo = 96.945, length = 10 },
+  { kind = "bridge", kmFrom = 107.081, kmTo = 107.095, length = 14 },
+  { kind = "bridge", kmFrom = 107.663, kmTo = 107.68, length = 17 },
+  { kind = "bridge", kmFrom = 107.892, kmTo = 107.903, length = 11 },
+  { kind = "bridge", kmFrom = 109.683, kmTo = 109.696, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "azwrHwptjAjFdFlLrHnBrDlEhPpCpCnCh@tD_AdC{CrAkFdAyOr@mDlOoU~EcBnENlE~BnDnFxFjVl@jNc@lGcAdF{HnRc@jFRdFx@pDdBzCzN`JjB`CxArFj@lNv@rEfBjDnG|FpA~Ch@nHaAdM?lFnDdUbBhVdBvGfHbK~AtEfCdX_@zZNrF~BdIrE~D|RrFbF?nDuCfEoMxA}B~BkArIq@zBoAlBoDnMq_@lCgRzDgNdDwErPwLpDJfDnDfAjFNhMh@lEzBbE`DlAhBMnBkAfCqGPgGgByPZ}EfAkD`DsCvJe@dHcC~N|BrOhGhFM`QgCpE^lEpD`KrV" },
+  { line = "ujjrHq|ljAjAhG?bHo@fE_DdK}B`Qc@lGRzFbA~D|EzHxCzBvHzBzDzFnKnj@`@jFVtXr@`EfBhDdBhA|CPjLsEpCeGpAsMx@oDbCcDdCq@pErAbI|LpJfC`IbFhDb@rHs@tCb@lLxIrJrDjIhI|PnBpD`BvGpLdJ`I~FjHpAxC|C`MfEnHbCvBzI`EjGtKzN|Q", v = 60 },
+]
+posts = [[90, 50.41901, 12.39125], [91, 50.41336, 12.401], [92, 50.40929, 12.39086], [93, 50.40743, 12.38113], [94, 50.4041, 12.36942], [95, 50.40051, 12.35714], [96, 50.39822, 12.34436], [97, 50.3905, 12.34708], [98, 50.38483, 12.3566], [99, 50.37809, 12.36053], [100, 50.37502, 12.36176], [101, 50.36724, 12.36443], [102, 50.3587, 12.36253], [103, 50.35846, 12.35016], [104, 50.3531, 12.34069], [105, 50.34983, 12.32848], [106, 50.34317, 12.33446], [107, 50.33495, 12.33044], [108, 50.32666, 12.32573], [109, 50.32002, 12.31683], [110, 50.3128, 12.30879]]

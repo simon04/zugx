@@ -1,0 +1,51 @@
+id = "2703"
+ref = "2703"
+name = "Wuppertalbahn"
+operator = "Wuppertalbahn EIV gGmbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 14.053
+length = 14.053
+speeds = [[0, 0.628, 50, 50], [0.628, 0.635, "", ""], [0.635, 0.79, 50, 50], [0.79, 0.798, "", ""], [0.798, 3.31, 50, 50], [3.31, 3.672, 20, 50], [3.672, 4.224, 50, 50], [4.224, 4.286, "", ""], [4.286, 5.85, 50, 50], [5.85, 14.053, "", ""]]
+curves = [[0.1, 0.15, 350], [0.2, 0.425, 1550], [0.475, 0.625, 520], [0.725, 1.225, 450], [1.45, 1.875, 1430], [1.925, 1.975, 1650], [2.025, 2.45, 520], [2.625, 2.725, 1640], [2.85, 3.225, 680], [3.45, 4.45, 240], [4.525, 4.575, 2080], [4.875, 4.975, 1180], [5.025, 5.075, 1240], [5.125, 5.35, 370], [5.4, 5.475, 670], [5.525, 5.825, 370], [5.875, 6.3, 440], [6.35, 6.425, 1780], [6.675, 6.775, 1270], [6.925, 7.05, 1410], [7.1, 7.175, 1760], [7.25, 7.5, 940], [7.55, 8, 370], [8.05, 9, 520], [9.05, 9.825, 550], [9.875, 10.125, 260], [10.175, 10.975, 280], [11.025, 12.225, 300], [12.275, 12.8, 460], [12.95, 13.15, 310], [13.2, 13.475, 480], [13.8, 13.95, 300]]
+points = [
+  { km = 0.234, kind = "signal", label = "G756", signal = "distant,main,traversable", dir = -1 },
+  { km = 0.912, kind = "halt", label = "Wuppertal-Oehde", pos = [51.25786, 7.23242] },
+  { km = 5.733, kind = "signal", signal = "speed_limit" },
+  { km = 5.85, kind = "station", label = "Wuppertal-Beyenburg", pos = [51.24893, 7.29088] },
+  { km = 6.232, kind = "signal", signal = "minor" },
+  { km = 7.412, kind = "stop", label = "Remlingrade", pos = [51.24056, 7.30675] },
+  { km = 7.412, kind = "halt", label = "Radevormwald-Remlingrade", pos = [51.24057, 7.30678] },
+  { km = 10.945, kind = "halt", label = "Dahlerau", pos = [51.22121, 7.31137] },
+  { km = 12.323, kind = "station", label = "Dahlhausen (Wupper)", pos = [51.21779, 7.30609] },
+  { km = 13.906, kind = "halt", label = "Wilhelmstal", pos = [51.20445, 7.30455] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.635, kmTo = 0.69, length = 54 },
+  { kind = "bridge", kmFrom = 3.989, kmTo = 4.045, length = 56 },
+  { kind = "tunnel", kmFrom = 4.224, kmTo = 4.286, length = 62, name = "Beyenburger Tunnel" },
+  { kind = "bridge", kmFrom = 6.295, kmTo = 6.351, length = 55 },
+  { kind = "bridge", kmFrom = 7.317, kmTo = 7.337, length = 20 },
+  { kind = "bridge", kmFrom = 8.934, kmTo = 8.944, length = 10 },
+  { kind = "bridge", kmFrom = 11.339, kmTo = 11.391, length = 52 },
+  { kind = "bridge", kmFrom = 12.633, kmTo = 12.662, length = 29 },
+  { kind = "bridge", kmFrom = 13.392, kmTo = 13.462, length = 70 },
+  { kind = "bridge", kmFrom = 13.676, kmTo = 13.735, length = 59 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "az{wHszck@jClBbH`@jMdF`E\\", v = 50 },
+  { line = "cxzwH_nck@L?" },
+  { line = "uwzwH_nck@tGB", v = 50 },
+  { line = "_ozwH{mck@LC" },
+  { line = "qnzwH_nck@|JcGjC}EfGo^zBoXm@_YcDqQcB{v@t@_OjH}^VkHe@kEyAeE{GgFuCkE{@mDOaE", v = 50 },
+  { line = "}czwHoykk@VmD", tunnel = true },
+  { line = "eczwH}~kk@dCkF~XoUdNeOzFg\\IaJkAyH", v = 50 },
+  { line = "spxwHc_ok@oAgISuEb@{EdB_FrRe^zJ{NlReTzImEnDaEnAaDn@cENuWlB{LtD{KrDoFjE_DhE{@~RVbGcBnFkEhD]~DxCfEbNxAvBrBx@`I^pFrGlBxE|@|F?vDk@jDcEbGuHbB{C|BgBvDu@xFB~Dj@dDfF~L~CzC~FzApE{@`DoEjFaNrEwC~Iw@bRbFvKmE|Ch@rWfO|BfDlAnF" },
+]
+posts = [[0, 51.26577, 7.23386], [1, 51.25713, 7.23293], [2, 51.2544, 7.24604], [3, 51.25578, 7.26006], [4, 51.25616, 7.27198], [5, 51.2516, 7.28089], [6, 51.24937, 7.29292], [7, 51.24362, 7.30341], [8, 51.23725, 7.31219], [9, 51.23171, 7.32106], [10, 51.224, 7.31896], [11, 51.2217, 7.31124], [12, 51.21988, 7.30306], [13, 51.2121, 7.30671], [14, 51.20392, 7.30352]]

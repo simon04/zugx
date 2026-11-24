@@ -1,0 +1,31 @@
+id = "1534"
+ref = "1534"
+name = "Draisinenbahn Westerstede - Ocholt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 6.18
+length = 6.18
+speeds = [[0, 6.18, "", ""]]
+curves = [[1.775, 2.125, 650], [4, 4.2, 1020], [4.55, 4.675, 1690], [4.85, 5.2, 1190], [5.7, 6.075, 300]]
+points = [
+  { km = 3.613, kind = "halt", label = "Südholt", pos = [53.22129, 7.90782] },
+  { km = 4.832, kind = "halt", label = "Krekes Käsehof", pos = [53.21216, 7.89807] },
+  { km = 6.153, kind = "halt", label = "Draisinen-Ostbahnhof Ocholt", pos = [53.2013, 7.89427] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_h_dI{zko@fzAtYnNfElFtGv|@jaBfQd[nC`D|UhSzNfIdGl@je@cA~Cb@fCbBnBxC~ApFf@jF" },
+]
+posts = [[0, 53.24944, 7.93022], [1, 53.24058, 7.92762], [2, 53.23183, 7.92446], [3, 53.22529, 7.91416], [4, 53.21873, 7.90388], [5, 53.2107, 7.89745], [6, 53.20195, 7.89628]]
+
+[[connections]]
+km = 6.153
+station = "Draisinen-Ostbahnhof Ocholt"
+lines = [
+  { id = "1520", ref = "1520", name = "1520 Oldenburg - Leer", km = 22.884 },
+  { id = "1570", ref = "1570", name = "1570 Emden - Jever", km = -20.951 },
+]

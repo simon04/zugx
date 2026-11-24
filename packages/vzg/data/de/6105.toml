@@ -1,0 +1,55 @@
+id = "6105"
+ref = "6105"
+name = "6105 Priort - Nauen"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131704826"
+from = "Priort"
+to = "Nauen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 75.155
+kmTo = 79.626
+length = 4.462
+speeds = [[75.155, 75.258, "", ""], [75.258, 79.397, 80, 80], [79.397, 79.626, 60, 60]]
+curves = [[78.167, 78.929, 500], [78.98, 79.16, 2040]]
+points = [
+  { km = 75.155, kind = "station", label = "Priort", uic = "8003515", pos = [52.51648, 12.97144] },
+  { km = 75.332, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 75.462, kind = "signal", label = "97 ZS5", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 75.745, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 76.112, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 76.113, kind = "signal", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 76.823, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 76.925, kind = "signal", label = "97 ZR15", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 77.311, kind = "signal", label = "96 P15", signal = "main,traversable", dir = 1 },
+  { km = 77.525, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 77.544, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 77.65, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 77.9, kind = "signal", label = "96 B", signal = "combined,traversable", dir = -1 },
+  { km = 78.099, kind = "signal", signal = "distant", dir = 1 },
+  { km = 78.308, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 79.093, kind = "signal", signal = "distant", dir = -1 },
+  { km = 79.113, kind = "signal", label = "4E", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 79.397, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 78.851, kmTo = 78.865, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qxv_Ic~anAhAaU", v = 60 },
+  { line = "gvv_IetbnAnBc^jDiXhBoFzCcFhDwCfDqAx`@DlsAdFdt@~I", v = 80 },
+  { line = "eop_IepdnAxDX" },
+]
+posts = [[79, 52.54961, 12.96774], [78, 52.543, 12.97472], [77, 52.53401, 12.97409], [76, 52.52504, 12.97315]]
+
+[[connections]]
+km = 75.155
+station = "Priort"
+lines = [
+  { id = "6068", ref = "6068", name = "6068 Golm - Priort", km = 75.045 },
+]

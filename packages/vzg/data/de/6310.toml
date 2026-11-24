@@ -1,0 +1,25 @@
+id = "6310"
+ref = "6310"
+name = "Gotha W 103 - W 112"
+operator = "DB Netz AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.416
+length = 0.416
+speeds = [[0, 0.272, "", ""], [0.272, 0.416, 40, 40]]
+curves = [[0.1, 0.3, 190]]
+points = [
+  { km = 0.272, kind = "signal", label = "P 109", signal = "combined,minor,speed_limit,wrong_road", dir = 1 },
+  { km = 0.274, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{l|uH{jm`A|BpAlBHjBk@hBwB" },
+  { line = "y~{uHcmm`AvBiJ", v = 40 },
+]
+posts = [[0, 50.9411, 10.72318]]

@@ -1,0 +1,60 @@
+id = "3642"
+ref = "3642"
+name = "3642 Frankfurt-Höchst"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Frankfurt-Höchst"
+to = "Frankfurt-Höchst"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.618
+length = 2.618
+speeds = [[0, 0.128, "", ""], [0.128, 1.802, 40, 40], [1.802, 1.82, "", ""], [1.82, 1.863, 40, 40], [1.863, 2.45, 60, 60], [2.45, 2.618, 40, 40]]
+curves = [[0.2, 0.325, 1580], [0.525, 0.775, 1270], [0.925, 1.05, 1430], [1.475, 1.675, 2110], [2.175, 2.325, 970], [2.375, 2.5, 620]]
+points = [
+  { km = 0.043, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.125, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.242, kind = "signal", label = "P 008", signal = "main,minor,route,traversable", dir = -1 },
+  { km = 0.443, kind = "station", label = "Frankfurt-Höchst", pos = [50.10274, 8.54209], uic = "8000106" },
+  { km = 0.735, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.947, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.034, kind = "signal", label = "S229", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 1.544, kind = "halt", label = "Frankfurt-Höchst Farbwerke", uic = "8002051", pos = [50.09851, 8.52843] },
+  { km = 1.711, kind = "signal", label = "N 229", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 1.859, kind = "signal", signal = "route", dir = 1 },
+  { km = 1.86, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.99, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.45, kind = "signal", label = "N261", signal = "main,minor,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kxxpHyqds@HdJ" },
+  { line = "axxpHsfds@vBhe@nBnObDdQhJ~]pKz[", v = 40 },
+  { line = "yswpHwa`s@Rf@" },
+  { line = "eswpHo``s@l@`B", v = 40 },
+  { line = "wqwpHm}_s@fLhYlGdK", v = 60 },
+  { line = "a|vpH}v~r@~ClK", v = 40 },
+]
+posts = [[0, 50.10326, 8.54829], [1, 50.10121, 8.53478], [2, 50.09633, 8.52304]]
+
+[[connections]]
+km = 0.443
+station = "Frankfurt-Höchst"
+lines = [
+  { id = "3603", ref = "3603", name = "3603 Frankfurt (Main) Hbf - Wiesbaden Hbf", km = 9.344 },
+  { id = "3610", ref = "3610", name = "3610 Frankfurt (Main) Hbf (tief) - Eschhofen", km = 9.308 },
+  { id = "3640", ref = "3640", name = "3640 Frankfurt-Höchst - Bad Soden (Taunus)", km = 6.451 },
+  { id = "9360", ref = "9360", name = "9360 Frankfurt-Höchst - Königstein", km = 0.143 },
+]
+
+[[connections]]
+km = 1.544
+station = "Frankfurt-Höchst Farbwerke"
+lines = [
+  { id = "3603", ref = "3603", name = "3603 Frankfurt (Main) Hbf - Wiesbaden Hbf", km = 10.41 },
+  { id = "3610", ref = "3610", name = "3610 Frankfurt (Main) Hbf (tief) - Eschhofen", km = 10.324 },
+]

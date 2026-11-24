@@ -1,0 +1,110 @@
+id = "5003"
+ref = "5003"
+name = "Bayreuth Altstadt - Kulmbach"
+operator = "DB Netz AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 61.251
+kmTo = 88.253
+length = 28.834
+speeds = [[61.251, 61.505, 120, 120], [61.505, 62.226, 110, 110], [62.226, 62.971, "", ""], [62.971, 68.17, 120, 120], [68.17, 69.061, 90, 90], [69.061, 73.159, 100, 100], [73.159, 73.585, 80, 80], [73.585, 73.63, "", ""], [73.63, 74.26, 80, 80], [74.26, 78.86, "", ""], [78.86, 79.765, 90, 90], [79.765, 86.781, "", ""], [86.781, 86.801, 120, 120], [86.801, 88.253, "", ""]]
+curves = [[61.885, 61.985, 2010], [62.61, 63.41, 2170], [64.685, 65.335, 720], [65.835, 66.185, 1040], [66.335, 67.685, 1750], [67.785, 68.01, 1290], [68.23, 69.062, 580], [69.429, 70.017, 1450], [70.762, 71.147, 1110], [71.275, 71.763, 880], [73.149, 73.198, 1560], [73.257, 73.364, 740], [73.57, 73.649, 220], [73.894, 74.003, 790], [74.128, 74.278, 1490], [76.178, 76.653, 910], [76.803, 77.153, 1070], [77.853, 78.503, 1450], [78.853, 79.703, 580], [79.928, 80.153, 1260], [80.253, 81.603, 1730], [81.778, 82.103, 1060], [82.603, 83.253, 730], [84.528, 85.328, 2240], [86.853, 86.903, 2120], [87.303, 87.578, 460], [88.103, 88.153, 690]]
+points = [
+  { km = 61.346, kind = "signal", label = "P3", signal = "main", dir = -1 },
+  { km = 61.505, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 61.97, kind = "stop", label = "Kulmbach", pos = [50.1099, 11.45181] },
+  { km = 62.08, kind = "signal", signal = "minor", dir = 1 },
+  { km = 62.226, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 62.766, kind = "signal", label = "F", signal = "main", dir = -1 },
+  { km = 63.153, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 63.761, kind = "signal", signal = "distant", dir = -1 },
+  { km = 67.419, kind = "signal", signal = "minor", dir = 1 },
+  { km = 68.17, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 68.254, kind = "signal", label = "2P1", signal = "main", dir = -1 },
+  { km = 68.309, kind = "stop", label = "Untersteinach (b Stadtsteinach)", pos = [50.13005, 11.52868] },
+  { km = 68.427, kind = "signal", label = "2N1", signal = "main", dir = 1 },
+  { km = 68.508, kind = "signal", signal = "distant", dir = -1 },
+  { km = 68.656, kind = "signal", signal = "distant", dir = -1 },
+  { km = 69.061, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 69.222, kind = "signal", label = "2F", signal = "distant,main", dir = -1 },
+  { km = 69.524, kind = "signal", signal = "distant", dir = -1 },
+  { km = 70.041, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 70.211, kind = "signal", signal = "distant", dir = -1 },
+  { km = 70.566, kind = "stop", label = "Ludwigschorgast", pos = [50.12188, 11.55634] },
+  { km = 71.672, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 72.506, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 73.073, kind = "signal", signal = "minor", dir = 1 },
+  { km = 73.159, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 73.318, kind = "signal", label = "P5", signal = "main,minor", dir = -1 },
+  { km = 73.398, kind = "signal", signal = "stop", dir = -1 },
+  { km = 73.421, kind = "stop", label = "Neuenmarkt-Wirsberg", pos = [50.09381, 11.58107] },
+  { km = 73.441, kind = "signal", label = "5", signal = "minor", dir = -1 },
+  { km = 73.554, kind = "signal", label = "N5", signal = "main,minor", dir = 1 },
+  { km = 73.574, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 73.765, kind = "signal", label = "N4", signal = "main,minor", dir = -1 },
+  { km = 73.796, kind = "signal", signal = "stop", dir = -1 },
+  { km = 73.82, kind = "signal", signal = "stop", dir = -1 },
+  { km = 73.839, kind = "signal", signal = "stop", dir = -1 },
+  { km = 73.839, kind = "station", label = "Neuenmarkt-Wirsberg", pos = [50.09369, 11.58032], uic = "8000267" },
+  { km = 73.863, kind = "signal", signal = "stop", dir = 1 },
+  { km = 73.943, kind = "signal", label = "P4", signal = "main,minor", dir = 1 },
+  { km = 74.26, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 74.487, kind = "signal", label = "A", signal = "distant,main", dir = -1 },
+  { km = 75.476, kind = "signal", label = "a", signal = "distant", dir = -1 },
+  { km = 77.17, kind = "stop", label = "Ludwigschorgast", pos = [50.1216, 11.55745], uic = "8003763" },
+  { km = 78.696, kind = "signal", signal = "minor", dir = 1 },
+  { km = 78.86, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 79.505, kind = "signal", label = "2N2", signal = "main", dir = -1 },
+  { km = 79.55, kind = "stop", label = "Untersteinach (b Stadtsteinach)", pos = [50.13027, 11.52967] },
+  { km = 79.616, kind = "station", label = "Untersteinach(b Stadtsteinach)", uic = "8006017", pos = [50.13006, 11.52879] },
+  { km = 79.667, kind = "signal", signal = "distant", dir = -1 },
+  { km = 79.765, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 80.507, kind = "signal", label = "2A", signal = "distant,main", dir = -1 },
+  { km = 80.794, kind = "signal", signal = "distant", dir = -1 },
+  { km = 81.509, kind = "signal", signal = "distant", dir = -1 },
+  { km = 85.849, kind = "signal", label = "N2", signal = "main", dir = -1 },
+  { km = 85.969, kind = "station", label = "Kulmbach", pos = [50.10986, 11.45184], uic = "8003476" },
+  { km = 87.486, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 87.488, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 87.536, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 87.563, kind = "signal", signal = "crossing", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 61.738, kmTo = 61.766, length = 28 },
+  { kind = "bridge", kmFrom = 62.915, kmTo = 62.971, length = 55 },
+  { kind = "bridge", kmFrom = 68.17, kmTo = 68.201, length = 31 },
+  { kind = "bridge", kmFrom = 71.755, kmTo = 71.771, length = 15 },
+  { kind = "bridge", kmFrom = 71.991, kmTo = 72.006, length = 15 },
+  { kind = "bridge", kmFrom = 72.782, kmTo = 72.795, length = 13 },
+  { kind = "bridge", kmFrom = 73.109, kmTo = 73.115, length = 15 },
+  { kind = "bridge", kmFrom = 74.372, kmTo = 74.388, length = 15 },
+  { kind = "bridge", kmFrom = 75.181, kmTo = 75.194, length = 13 },
+  { kind = "bridge", kmFrom = 75.95, kmTo = 75.965, length = 15 },
+  { kind = "bridge", kmFrom = 76.179, kmTo = 76.194, length = 15 },
+  { kind = "bridge", kmFrom = 79.734, kmTo = 79.765, length = 31 },
+  { kind = "bridge", kmFrom = 84.967, kmTo = 85.022, length = 55 },
+  { kind = "bridge", kmFrom = 86.174, kmTo = 86.203, length = 28 },
+  { kind = "bridge", kmFrom = 86.752, kmTo = 86.774, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q~wpHkyvdAaEaBu\\uXyBwCqAyE{Hgm@" },
+  { line = "qrypH}oydAKu@", v = 120 },
+  { line = "}rypHsqydAeXuvBiCi_@Sgc@xEeuBOeLaAyJyA_HcCcHoXqi@kEqFmV}SuHoK}H}NcEuKuD}McImg@cF{R" },
+  { line = "w{}pHsjjeAyDoQe@eHAwH`@_HjAmHzF{N", v = 90 },
+  { line = "ow}pHkrleAlPmZ`HeRbEmRzOcgA|E{NzKaTxDuDbG}CdgBso@" },
+  { line = "a|wpHw|seAjNaIbEcE`]ip@", v = 80 },
+  { line = "ohvpHg~ueAuC|E" },
+  { line = "emvpHiwueAqY`j@}DtDmMnH", v = 80 },
+  { line = "c|wpHa}seAghBbp@cFlC{DvD{K`T_F|NePvhAwDxPaHbRmPlZ", v = 100 },
+  { line = "uw}pHsrleA{F|NeAjGi@dI@xHd@jHzDnQ", v = 90 },
+  { line = "}{}pHmjjeA`FxRdIlg@tD~MdEvK|GnMxH|K|GbHjN|KxEbGnWzg@pE~NvAhLTnM{EduBPrc@", v = 120 },
+  { line = "wpzpHii~dAhBnYlFnc@" },
+  { line = "_fzpHij|dApK`{@", v = 110 },
+  { line = "myypHgnzdArC~S", v = 120 },
+]
+posts = [[88, 50.1012, 11.42838], [87, 50.10686, 11.43817], [86, 50.10972, 11.45145], [85, 50.11219, 11.46492], [84, 50.11188, 11.47889], [83, 50.11141, 11.49285], [82, 50.11685, 11.50381], [81, 50.12414, 11.51187], [80, 50.12836, 11.52411], [79, 50.12955, 11.537], [78, 50.12385, 11.54774], [77, 50.1207, 11.56087], [76, 50.11373, 11.56897], [75, 50.10511, 11.57298], [74, 50.09657, 11.57735], [73, 50.10225, 11.57438], [72, 50.11335, 11.5692], [71, 50.12039, 11.56178], [70, 50.12353, 11.54905], [69, 50.12914, 11.53787], [68, 50.12864, 11.52484], [67, 50.12455, 11.51247], [66, 50.1173, 11.50433], [65, 50.11159, 11.49364], [64, 50.11187, 11.47972], [63, 50.11231, 11.46573], [62, 50.10998, 11.45222]]

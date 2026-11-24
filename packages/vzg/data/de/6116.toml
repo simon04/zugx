@@ -1,0 +1,73 @@
+id = "6116"
+ref = "6116"
+name = "6116 Golm - Saarmund"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131693483"
+from = "Potsdam Wissenschaftspark Golm"
+to = "Saarmund"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.057
+kmTo = 14.679
+length = 14.585
+speeds = [[0.057, 14.679, 120, 120]]
+curves = [[0.207, 2.248, 2030], [13.335, 14.119, 1990]]
+points = [
+  { km = 0.158, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.518, kind = "signal", label = "99 FF", signal = "combined,short_route,speed_limit,traversable", dir = -1 },
+  { km = 0.937, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.542, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.725, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.065, kind = "signal", label = "7313", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 2.704, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.934, kind = "signal", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 3.988, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.015, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.944, kind = "stop", label = "Potsdam Pirschheide", pos = [52.37268, 13.01107], uic = "8003475" },
+  { km = 5.087, kind = "signal", label = "7317", signal = "main,traversable", dir = 1 },
+  { km = 6.073, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.237, kind = "signal", label = "7319", signal = "main,traversable", dir = 1 },
+  { km = 8.119, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 9.418, kind = "signal", label = "7611", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 9.676, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.39, kind = "signal", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 10.777, kind = "signal", label = "7313", signal = "main,traversable", dir = 1 },
+  { km = 11.411, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 12.984, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 13.664, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 13.851, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 14.033, kind = "signal", label = "77B", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 14.285, kind = "signal", signal = "shunting", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.16, kmTo = 0.188, length = 28 },
+  { kind = "bridge", kmFrom = 1.101, kmTo = 1.113, length = 12 },
+  { kind = "bridge", kmFrom = 1.763, kmTo = 1.793, length = 31 },
+  { kind = "bridge", kmFrom = 4.572, kmTo = 4.609, length = 36 },
+  { kind = "bridge", kmFrom = 5.009, kmTo = 5.054, length = 48 },
+  { kind = "bridge", kmFrom = 5.427, kmTo = 5.559, length = 141 },
+  { kind = "bridge", kmFrom = 6.492, kmTo = 6.527, length = 35 },
+  { kind = "bridge", kmFrom = 10.94, kmTo = 10.952, length = 12 },
+  { kind = "bridge", kmFrom = 11.288, kmTo = 11.297, length = 10 },
+  { kind = "bridge", kmFrom = 12.097, kmTo = 12.121, length = 24 },
+  { kind = "bridge", kmFrom = 13.161, kmTo = 13.226, length = 65 },
+  { kind = "bridge", kmFrom = 13.413, kmTo = 13.443, length = 30 },
+  { kind = "bridge", kmFrom = 13.96, kmTo = 13.99, length = 29 },
+  { kind = "bridge", kmFrom = 14.664, kmTo = 14.679, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oqz~HkjdnApNzBpKXdOiAfMkDdNoH`KsItKaNdKkR~tE{cLbRqg@trCocJnE{TjCiT`Fa`A", v = 120 },
+]
+posts = [[1, 52.39775, 12.97084], [2, 52.3899, 12.9776], [3, 52.38429, 12.98817], [4, 52.37843, 12.99971], [5, 52.37277, 13.01083], [6, 52.36669, 13.02279], [7, 52.36095, 13.03406], [8, 52.35521, 13.04534], [9, 52.34979, 13.05702], [10, 52.34482, 13.06897], [11, 52.33986, 13.08094], [12, 52.33473, 13.0933], [13, 52.32968, 13.10548], [14, 52.32569, 13.11834]]
+
+[[connections]]
+km = 4.944
+station = "Potsdam Pirschheide"
+lines = [
+  { id = "6115", ref = "6115", name = "Beelitz Stadt - Golm", km = 56.205 },
+]

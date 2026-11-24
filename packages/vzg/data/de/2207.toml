@@ -1,0 +1,31 @@
+id = "2207"
+ref = "2207"
+name = "2207 Abzw Baukau - Abzweig Crange"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Baukau"
+to = "Crange"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.571
+length = 1.571
+speeds = [[0, 1.571, 60, 60]]
+curves = [[0.1, 0.15, 1660], [0.9, 1.45, 590]]
+points = [
+  { km = 1.232, kind = "signal", label = "80 31", signal = "distant,main", dir = 1 },
+  { km = 1.274, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.486, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.681, kmTo = 0.692, length = 11 },
+  { kind = "bridge", kmFrom = 0.88, kmTo = 0.901, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a~qyHwlwj@iGurAy@cI{AgGkCqFqDqEwG_F", v = 60 },
+]
+posts = [[0, 51.54289, 7.1702], [1, 51.54434, 7.18446]]

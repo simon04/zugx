@@ -1,0 +1,29 @@
+id = "5213"
+ref = "5213"
+name = "Lohr - Wertheim"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.358
+length = 1.358
+speeds = [[0, 1.358, "", ""]]
+curves = [[0.125, 1.225, 600]]
+points = [
+  { km = 0.04, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.05, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.266, kmTo = 0.306, length = 40 },
+  { kind = "bridge", kmFrom = 0.455, kmTo = 0.498, length = 43 },
+  { kind = "bridge", kmFrom = 0.661, kmTo = 0.696, length = 34 },
+  { kind = "bridge", kmFrom = 1.281, kmTo = 1.296, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "caepHy`my@dD~NxC|GhF`GrGxCbGb@~GiAtEsCtJeL" },
+]
+posts = [[0, 50.00226, 9.57469], [1, 49.99511, 9.56897]]

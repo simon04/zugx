@@ -1,0 +1,24 @@
+id = "3281"
+ref = "3281"
+name = "3281 Homburg – Staudernheim"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q1529212"
+from = "Homburg (Saar) Hbf"
+to = "Staudernheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 86.9
+kmTo = 88.5
+length = 1.622
+speeds = [[86.9, 88.5, "", ""]]
+curves = [[87.97, 88.042, 2050]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "mvnnHa~wm@ao@m{@{V_Y" },
+]
+posts = [[87, 49.72478, 7.66537], [88, 49.7318, 7.6742]]

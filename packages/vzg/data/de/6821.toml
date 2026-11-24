@@ -1,0 +1,27 @@
+id = "6821"
+ref = "6821"
+name = "Kohlebahn Meuselwitz–Haselbach–Regis-Breitingen"
+gauge = "900"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.375
+length = 1.375
+speeds = [[0, 1.375, "", ""]]
+curves = [[0.1, 0.15, 1130], [0.375, 0.7, 600]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 1.031, kmTo = 1.048, length = 17 },
+  { kind = "bridge", kmFrom = 1.148, kmTo = 1.161, length = 13 },
+  { kind = "bridge", kmFrom = 1.332, kmTo = 1.342, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "etovHgtajAoAsDmFkJ" },
+  { line = "c~ovHgebjAk@aA", tunnel = true },
+  { line = "o_pvHigbjAoFoIyEkDqi@sI" },
+]
+posts = [[0, 51.03955, 12.30164], [1, 51.04713, 12.30811]]

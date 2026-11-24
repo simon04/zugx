@@ -1,0 +1,79 @@
+id = "1801"
+ref = "1801"
+name = "1801 Göttingen - Bodenfelde"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802375"
+from = "Göttingen"
+to = "Bodenfelde"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 3.274
+kmTo = 36.76
+length = 33.433
+speeds = [[3.274, 3.392, "", ""], [3.392, 4.305, 60, 60], [4.305, 5.978, "", ""], [5.978, 24.626, 60, 60], [24.626, 25.099, "", ""], [25.099, 31.619, 80, 80], [31.619, 36.588, "", ""], [36.588, 36.76, 60, 60]]
+curves = [[3.449, 4.374, 560], [5.473, 6.023, 510], [7.299, 8.151, 520], [8.903, 9.33, 500], [9.405, 9.631, 1260], [10.533, 10.883, 1070], [11.407, 11.905, 530], [11.955, 12.547, 770], [13.254, 13.82, 530], [14.603, 14.754, 1060], [15.082, 15.941, 530], [16.219, 16.396, 880], [16.471, 17.052, 510], [17.102, 17.727, 510], [18.377, 18.852, 520], [18.977, 19.077, 1560], [19.177, 19.677, 620], [20.002, 20.102, 2080], [20.152, 20.602, 1010], [20.927, 21.127, 620], [21.202, 22.302, 550], [22.402, 22.602, 770], [22.827, 22.977, 1100], [23.077, 23.577, 530], [23.952, 24.202, 1170], [24.327, 24.627, 720], [25.127, 25.727, 510], [26.052, 26.427, 840], [26.527, 26.777, 1040], [26.952, 27.177, 990], [27.402, 27.702, 600], [28.477, 28.752, 1140], [28.802, 29.652, 840], [29.802, 29.952, 1420], [30.102, 30.252, 1080], [30.452, 30.652, 1150], [30.802, 31.002, 960], [31.202, 31.852, 530], [32.427, 32.752, 830], [32.952, 33.077, 1620], [33.527, 33.652, 1650], [34.777, 35.727, 630]]
+points = [
+  { km = 3.392, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.589, kind = "signal", label = "B513", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 8.293, kind = "stop", label = "Lenglern", pos = [51.58839, 9.87135], uic = "8003644" },
+  { km = 10.905, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 11.298, kind = "signal", signal = "crossing_info,speed_limit", dir = 1 },
+  { km = 13.438, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.173, kind = "stop", label = "Lödingsen", pos = [51.58913, 9.79113], uic = "8003722" },
+  { km = 16.688, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 16.697, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 17.809, kind = "stop", label = "Adelebsen", pos = [51.57765, 9.75989], uic = "8000418" },
+  { km = 24.737, kind = "stop", label = "Offensen (Kr Northeim)", pos = [51.58887, 9.67982], uic = "8004652" },
+  { km = 32.065, kind = "stop", label = "Vernawahlshausen", pos = [51.62942, 9.61379], uic = "8006078" },
+  { km = 35.051, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 35.628, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 35.85, kind = "signal", label = "12 N1", signal = "main", dir = -1 },
+  { km = 36.522, kind = "station", label = "Bodenfelde", pos = [51.63713, 9.56165], uic = "8001050" },
+  { km = 36.588, kind = "signal", label = "12 P1", signal = "main,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.647, kmTo = 3.855, length = 208 },
+  { kind = "bridge", kmFrom = 3.938, kmTo = 3.964, length = 26 },
+  { kind = "bridge", kmFrom = 4.202, kmTo = 4.257, length = 55 },
+  { kind = "bridge", kmFrom = 4.305, kmTo = 4.322, length = 17 },
+  { kind = "bridge", kmFrom = 4.651, kmTo = 4.666, length = 15 },
+  { kind = "bridge", kmFrom = 5.964, kmTo = 5.978, length = 14 },
+  { kind = "bridge", kmFrom = 8.29, kmTo = 8.308, length = 17 },
+  { kind = "bridge", kmFrom = 20.988, kmTo = 21.007, length = 20 },
+  { kind = "bridge", kmFrom = 28.611, kmTo = 28.634, length = 23 },
+  { kind = "bridge", kmFrom = 28.757, kmTo = 28.779, length = 22 },
+  { kind = "bridge", kmFrom = 29.108, kmTo = 29.124, length = 17 },
+  { kind = "bridge", kmFrom = 31.619, kmTo = 31.632, length = 13 },
+  { kind = "bridge", kmFrom = 35.14, kmTo = 35.154, length = 14 },
+  { kind = "bridge", kmFrom = 35.633, kmTo = 35.646, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "whvyHoup{@sES" },
+  { line = "kovyHcvp{@_LQcFfB{CjCgFhJiAbEmBdO", v = 60 },
+  { line = "kuwyHmmo{@_InqB}CrNoGvJ" },
+  { line = "ylxyHq_k{@ifArx@aC~CoCpGyBvMWxKb@zHlTfhAhAtLMtL}Cl[cDb{Az@pSbIdw@NbLsArN{G|VmAdKg@rKf@jNfHnaAJpMw@|IeBzGg`@r_AeLpe@oAlKGfG`AjObEfMfArBpSnR~H|NdDzD~EfC|Ed@hN{CpEKlEbAhF|DzDxGfZbv@vAnIZpLaAjU_BfROzN|AjPzJz_@nDjRjA~VYti@pCb\\FzJ_AbLgClJqC~EqH~H{EjCgO|CqSlN{MxF_GbHaDlJmIrc@gBjN_CrYuCrL", v = 60 },
+  { line = "qyzyHyyaz@oNta@" },
+  { line = "ai{yHcw`z@gDtIiBlCsHdF_Fd@_ZcCwG^sSpIqXtCwO`HyGpGgb@t{@gR|ScEvH}BtGkDdT_Azc@qAjU}D`ZoBxJeHnU_Pf[{AzG{@dN", v = 80 },
+  { line = "s`czHu{uy@r@lP~Inr@fArMJ|Kg@pZh@jp@bKroBOvP_A`IcBhHsDdIwDvEeFxC{o@bT" },
+  { line = "gndzHsmjy@kH~B", v = 60 },
+]
+posts = [[4, 51.57109, 9.91859], [5, 51.57307, 9.90466], [6, 51.57615, 9.89179], [7, 51.58419, 9.88532], [8, 51.58941, 9.87522], [9, 51.58571, 9.8621], [10, 51.58669, 9.84793], [11, 51.58648, 9.83364], [12, 51.58652, 9.81996], [13, 51.58653, 9.8058], [14, 51.58812, 9.79301], [15, 51.59338, 9.78151], [16, 51.59169, 9.76946], [17, 51.58406, 9.76325], [18, 51.57661, 9.75795], [19, 51.57364, 9.74519], [20, 51.57198, 9.73171], [21, 51.57072, 9.71767], [22, 51.57256, 9.705], [23, 51.58093, 9.70002], [24, 51.58644, 9.68959], [25, 51.59021, 9.67669], [26, 51.59798, 9.67228], [27, 51.60678, 9.67017], [28, 51.61429, 9.66305], [29, 51.62098, 9.65352], [30, 51.62364, 9.64015], [31, 51.62747, 9.62728], [32, 51.62951, 9.61464], [33, 51.62809, 9.60056], [34, 51.6273, 9.58616], [35, 51.62598, 9.57187], [36, 51.63254, 9.56364]]
+
+[[connections]]
+km = 32.065
+station = "Vernawahlshausen"
+lines = [
+  { id = "2975", ref = "2975", name = "2975 Ottbergen - Northeim (Han)", km = 31.387 },
+]
+
+[[connections]]
+km = 36.522
+station = "Bodenfelde"
+lines = [
+  { id = "2975", ref = "2975", name = "2975 Ottbergen - Northeim (Han)", km = 26.921 },
+]

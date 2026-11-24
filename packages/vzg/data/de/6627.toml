@@ -1,0 +1,26 @@
+id = "6627"
+ref = "6627"
+name = "Bahnstrecke Waldheim–Kriebethal"
+operator = "Waldheimer Eisenbahnfreunde e. V."
+gauge = "600"
+wikidata = "Q803418"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.201
+length = 2.201
+speeds = [[0, 2.201, "", ""]]
+curves = [[0.1, 0.25, 320], [0.4, 0.45, 2520], [0.5, 0.7, 570], [0.75, 0.975, 450], [1.1, 1.3, 850], [1.425, 1.575, 1080], [1.675, 1.85, 840], [1.925, 2.025, 1280]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.528, kmTo = 0.7, length = 173, name = "Gerüstpfeilerviadukt / Eiserne Brücke" },
+  { kind = "bridge", kmFrom = 2.067, kmTo = 2.189, length = 122 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "owuvHqgmnA|CqE~A{@rUaC|McG`QtBrOsAfLTlYlH" },
+]
+posts = [[0, 51.0708, 13.01641], [1, 51.06228, 13.01949], [2, 51.0534, 13.01847]]

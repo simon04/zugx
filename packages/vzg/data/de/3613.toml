@@ -1,0 +1,100 @@
+id = "3613"
+ref = "3613"
+name = "3613 Frankfurt (Main) Hbf - Frankfurt-Rödelheim"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Frankfurt (Main) Hbf"
+to = "Frankfurt-Rödelheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.024
+kmTo = 5.881
+length = 6.208
+speeds = [[0.024, 0.181, "", ""], [0.181, 0.328, "", 30], [0.328, 0.928, "", ""], [0.928, 1.029, "", 40], [1.029, 1.109, "", ""], [1.109, 1.422, 60, ""], [1.422, 1.676, 60, 60], [1.676, 1.795, 80, 60], [1.795, 2.542, 80, ""], [2.542, 2.838, 80, 80], [2.838, 3.558, "", ""], [3.558, 5.881, 60, 60]]
+curves = [[0.592, 0.705, 1590], [0.818, 0.863, 1870], [0.908, 0.998, 530], [1.044, 1.202, 550], [1.292, 1.499, 1100], [1.588, 1.678, 1690], [2.034, 2.438, 310], [3.181, 3.706, 750], [3.981, 4.931, 420], [5.331, 5.706, 400]]
+points = [
+  { km = 0, kind = "station", label = "Hauptbahnhof (tief)", uic = "8067016", pos = [50.10717, 8.66233], measured = true },
+  { km = 0.06, kind = "station", label = "Frankfurt (Main) Hauptbahnhof", pos = [50.10665, 8.66258], uic = "8011068" },
+  { km = 0.195, kind = "signal", label = "530 X", signal = "minor", dir = 1 },
+  { km = 0.338, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.378, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.871, kind = "signal", label = "W 578X", signal = "minor", dir = 1 },
+  { km = 0.9, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.985, kind = "signal", label = "02ZU 103", signal = "combined,traversable", dir = -1 },
+  { km = 1.029, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.141, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.142, kind = "signal", label = "04 ZR103", signal = "combined,route,traversable", dir = 1 },
+  { km = 1.345, kind = "signal", label = "04L 3103X", signal = "minor", dir = 1 },
+  { km = 1.613, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.634, kind = "signal", label = "04 N3", signal = "combined,route_distant,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 1.676, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.723, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.795, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.865, kind = "signal", label = "04 ZU4", signal = "combined,speed_limit", dir = -1 },
+  { km = 2.383, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.47, kind = "signal", signal = "main,route,speed_limit,traversable", dir = 1 },
+  { km = 2.505, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.534, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.618, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.926, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.986, kind = "signal", signal = "combined,route,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 3.484, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.66, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.663, kind = "signal", label = "66 N5", signal = "main,traversable", dir = 1 },
+  { km = 4.034, kind = "signal", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 4.149, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.388, kind = "signal", label = "B 158", signal = "distant,main,speed_limit_distant,traversable", dir = 1 },
+  { km = 10, kind = "station", label = "Hauptbahnhof", pos = [50.10774, 8.66379], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.143, kmTo = 2.194, length = 48 },
+  { kind = "bridge", kmFrom = 2.42, kmTo = 2.428, length = 21 },
+  { kind = "bridge", kmFrom = 2.509, kmTo = 2.517, length = 20 },
+  { kind = "bridge", kmFrom = 2.655, kmTo = 2.697, length = 42 },
+  { kind = "bridge", kmFrom = 3.452, kmTo = 3.475, length = 23 },
+  { kind = "tunnel", kmFrom = 4.163, kmTo = 4.232, length = 69 },
+  { kind = "bridge", kmFrom = 4.661, kmTo = 4.679, length = 18 },
+  { kind = "bridge", kmFrom = 5.059, kmTo = 5.089, length = 30 },
+  { kind = "bridge", kmFrom = 5.411, kmTo = 5.481, length = 70 },
+  { kind = "bridge", kmFrom = 5.521, kmTo = 5.548, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "m{{pHkmps@~LeExF\\tDtCfV|YhFvBbFWtE{B~CwDzB_G", v = 60 },
+  { line = "ujypHsaps@r@mD", tunnel = true, v = 60 },
+  { line = "aiypHagps@h@cJBuh@", v = 60 },
+  { line = "sgypH{{qs@r@kJtAiHvOy^" },
+  { line = "qrxpHkpss@zX}m@dBeIFyFg@eFyLmb@", v = 80 },
+  { line = "idxpH}{vs@sE}QeHwR", v = 60 },
+  { line = "ctxpHsbxs@m@kF" },
+  { line = "quxpH_jxs@{@iH", v = 40 },
+  { line = "mwxpHisxs@}F{W{HeX" },
+  { line = "giypHkezs@gCwI", v = 30 },
+  { line = "omypHcpzs@qCwJ" },
+]
+posts = [[5, 50.11207, 8.60605], [4, 50.10572, 8.61026], [3, 50.10328, 8.62313], [2, 50.09842, 8.63794], [1, 50.10288, 8.64988]]
+
+[[connections]]
+km = 0
+station = "Hauptbahnhof"
+lines = [
+  { id = "3520", ref = "3520", name = "3520 Mainz Hbf - Frankfurt (Main) Hbf", km = 0 },
+  { id = "3601", ref = "3601", name = "3601 Frankfurt (Main) Hbf - Abzw Heidelberg-Wieblingen", km = 0 },
+  { id = "3603", ref = "3603", name = "3603 Frankfurt (Main) Hbf - Wiesbaden Hbf", km = 0 },
+  { id = "3610", ref = "3610", name = "3610 Frankfurt (Main) Hbf (tief) - Eschhofen", km = 0.056 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 0 },
+]
+
+[[connections]]
+km = 0.06
+station = "Frankfurt Hauptbahnhof"
+lines = [
+  { id = "3520", ref = "3520", name = "3520 Mainz Hbf - Frankfurt (Main) Hbf", km = 37.476 },
+  { id = "3601", ref = "3601", name = "3601 Frankfurt (Main) Hbf - Abzw Heidelberg-Wieblingen", km = 0.059 },
+  { id = "3603", ref = "3603", name = "3603 Frankfurt (Main) Hbf - Wiesbaden Hbf", km = 0.041 },
+  { id = "3610", ref = "3610", name = "3610 Frankfurt (Main) Hbf (tief) - Eschhofen", km = 0.057 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 199.756 },
+]

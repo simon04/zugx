@@ -1,0 +1,157 @@
+id = "2230"
+ref = "2230"
+name = "2230 Gelsenkirchen Strw 2172/2230 - Wanne-Eickel Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q19838742"
+from = "Gelsenkirchen Streckenw. 2172/2230"
+to = "Wanne-Eickel Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 85.462
+kmTo = 102.722
+length = 17.261
+speeds = [[85.462, 86.61, 50, 50], [86.61, 86.641, "", ""], [86.641, 87.588, 50, 50], [87.588, 90.168, "", ""], [90.168, 93.589, 140, 140], [93.589, 94.016, 100, 100], [94.016, 94.133, 80, 80], [94.133, 94.742, "", ""], [94.742, 94.895, 80, 80], [94.895, 95.301, "", ""], [95.301, 96.273, 120, 120], [96.273, 97.005, 130, 130], [97.005, 102.722, "", ""]]
+curves = [[85.562, 86.012, 550], [86.587, 86.837, 680], [86.912, 87.012, 1250], [87.337, 88.037, 560], [88.087, 88.762, 370], [89.776, 89.85, 2180], [89.949, 89.998, 2340], [90.93, 91.546, 1880], [93.706, 93.961, 1180], [94.286, 94.511, 1050], [94.611, 94.836, 1110], [95.086, 95.236, 1320], [95.661, 96.061, 950], [96.186, 96.411, 1440], [96.936, 97.236, 380], [97.311, 97.486, 920], [97.661, 98.211, 460], [98.261, 98.686, 1130], [99.011, 99.161, 1100], [99.211, 99.286, 1490], [99.386, 99.586, 1100], [99.761, 100.036, 1160], [100.186, 100.261, 1080], [100.311, 100.436, 580], [100.486, 100.561, 1240], [100.611, 100.786, 1300], [100.861, 101.136, 770], [101.186, 101.311, 40], [101.361, 101.686, 640], [101.736, 102.186, 900], [102.411, 102.611, 920]]
+points = [
+  { km = 2.415, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 87.795, kind = "signal", signal = "distant", dir = 1 },
+  { km = 88.492, kind = "signal", signal = "distant,main,traversable", dir = 1 },
+  { km = 88.493, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 88.557, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 89, kind = "signal", label = "P 003", signal = "main,minor,speed_limit", dir = -1, measured = true },
+  { km = 89.118, kind = "station", label = "Gelsenkirchen Hauptbahnhof", uic = "8000118", pos = [51.50477, 7.1023] },
+  { km = 89.205, kind = "signal", signal = "minor", dir = 1 },
+  { km = 89.262, kind = "signal", signal = "minor", dir = -1 },
+  { km = 89.763, kind = "signal", label = "N 103", signal = "main,minor,traversable", dir = 1 },
+  { km = 89.908, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 89.94, kind = "signal", signal = "minor", dir = -1 },
+  { km = 90.061, kind = "signal", signal = "minor", dir = 1 },
+  { km = 90.427, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 90.6, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 90.733, kind = "signal", label = "F 460", signal = "main,speed_limit", dir = -1 },
+  { km = 90.963, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 91.592, kind = "signal", signal = "distant,speed_limit", dir = -1 },
+  { km = 91.674, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 92.149, kind = "signal", label = "551", signal = "main", dir = -1 },
+  { km = 92.398, kind = "signal", signal = "distant", dir = 1 },
+  { km = 93.132, kind = "signal", label = "550", signal = "distant,main", dir = -1 },
+  { km = 93.453, kind = "signal", signal = "minor", dir = 1 },
+  { km = 93.589, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 93.693, kind = "signal", signal = "minor", dir = 1 },
+  { km = 93.814, kind = "signal", signal = "minor", dir = -1 },
+  { km = 93.884, kind = "signal", signal = "minor", dir = 1 },
+  { km = 94.138, kind = "signal", signal = "minor", dir = -1 },
+  { km = 94.509, kind = "signal", signal = "main_repeated" },
+  { km = 94.555, kind = "station", label = "Herne-Wanne-Eickel Hbf", uic = "8000192", pos = [51.53124, 7.16612] },
+  { km = 94.578, kind = "signal", signal = "distant", dir = -1 },
+  { km = 94.732, kind = "signal", label = "N4", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 95.023, kind = "signal", signal = "minor", dir = -1 },
+  { km = 95.068, kind = "signal", signal = "minor", dir = 1 },
+  { km = 95.143, kind = "signal", signal = "minor", dir = -1 },
+  { km = 95.232, kind = "signal", signal = "minor", dir = 1 },
+  { km = 95.286, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 95.306, kind = "signal", signal = "minor", dir = -1 },
+  { km = 95.529, kind = "signal", signal = "minor", dir = -1 },
+  { km = 95.698, kind = "signal", label = "80 V11", signal = "distant", dir = 1 },
+  { km = 96.273, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 96.524, kind = "signal", signal = "distant", dir = -1 },
+  { km = 96.665, kind = "signal", label = "80 11", signal = "distant,main", dir = 1 },
+  { km = 96.948, kind = "signal", label = "80L 11X", signal = "minor", dir = 1 },
+  { km = 97.058, kind = "signal", label = "80L 12X", signal = "minor", dir = -1 },
+  { km = 97.152, kind = "signal", signal = "distant,speed_limit", dir = 1 },
+  { km = 97.696, kind = "signal", signal = "distant", dir = 1 },
+  { km = 97.819, kind = "signal", label = "RR", signal = "distant,main", dir = -1 },
+  { km = 98.009, kind = "signal", signal = "distant", dir = -1 },
+  { km = 98.475, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 98.809, kind = "signal", label = "Z", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 98.959, kind = "signal", signal = "distant", dir = -1 },
+  { km = 99.015, kind = "signal", signal = "minor", dir = 1 },
+  { km = 99.135, kind = "signal", signal = "minor", dir = -1 },
+  { km = 99.237, kind = "signal", signal = "minor", dir = 1 },
+  { km = 99.497, kind = "signal", label = "N8", signal = "main,minor", dir = -1 },
+  { km = 99.681, kind = "stop", label = "Herne-Wanne-Eickel Hbf", pos = [51.53106, 7.1665] },
+  { km = 99.933, kind = "signal", label = "P8", signal = "distant,main", dir = 1 },
+  { km = 100.132, kind = "signal", signal = "minor", dir = -1 },
+  { km = 100.267, kind = "signal", signal = "minor", dir = 1 },
+  { km = 100.523, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 100.941, kind = "signal", signal = "minor", dir = 1 },
+  { km = 100.944, kind = "signal", label = "F", signal = "main", dir = 1 },
+  { km = 100.973, kind = "signal", signal = "distant", dir = -1 },
+  { km = 101.314, kind = "signal", signal = "minor", dir = -1 },
+  { km = 101.525, kind = "signal", signal = "main", dir = -1 },
+  { km = 101.527, kind = "signal", signal = "minor", dir = -1 },
+  { km = 102.278, kind = "signal", signal = "minor", dir = 1 },
+  { km = 102.483, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 86.119, kmTo = 86.162, length = 43 },
+  { kind = "bridge", kmFrom = 86.61, kmTo = 86.641, length = 30 },
+  { kind = "bridge", kmFrom = 87.588, kmTo = 87.629, length = 41 },
+  { kind = "bridge", kmFrom = 88.035, kmTo = 88.058, length = 23 },
+  { kind = "bridge", kmFrom = 88.363, kmTo = 88.393, length = 31 },
+  { kind = "bridge", kmFrom = 88.824, kmTo = 88.838, length = 14 },
+  { kind = "bridge", kmFrom = 89.904, kmTo = 89.919, length = 15 },
+  { kind = "bridge", kmFrom = 91.685, kmTo = 91.697, length = 14 },
+  { kind = "bridge", kmFrom = 92.249, kmTo = 92.259, length = 11 },
+  { kind = "bridge", kmFrom = 92.406, kmTo = 92.419, length = 11 },
+  { kind = "bridge", kmFrom = 93.418, kmTo = 93.447, length = 32 },
+  { kind = "bridge", kmFrom = 93.988, kmTo = 94.01, length = 22 },
+  { kind = "bridge", kmFrom = 95.8, kmTo = 95.827, length = 27 },
+  { kind = "bridge", kmFrom = 96.109, kmTo = 96.119, length = 10 },
+  { kind = "bridge", kmFrom = 96.218, kmTo = 96.228, length = 10 },
+  { kind = "bridge", kmFrom = 96.529, kmTo = 96.541, length = 13 },
+  { kind = "bridge", kmFrom = 96.622, kmTo = 96.663, length = 42 },
+  { kind = "bridge", kmFrom = 97.324, kmTo = 97.388, length = 64 },
+  { kind = "bridge", kmFrom = 97.468, kmTo = 97.486, length = 17 },
+  { kind = "bridge", kmFrom = 98.395, kmTo = 98.426, length = 30 },
+  { kind = "bridge", kmFrom = 100.24, kmTo = 100.261, length = 21 },
+  { kind = "bridge", kmFrom = 100.456, kmTo = 100.475, length = 18 },
+  { kind = "bridge", kmFrom = 100.717, kmTo = 100.728, length = 11 },
+  { kind = "bridge", kmFrom = 100.885, kmTo = 100.922, length = 36 },
+  { kind = "bridge", kmFrom = 101.205, kmTo = 101.217, length = 12 },
+  { kind = "bridge", kmFrom = 101.298, kmTo = 101.31, length = 12 },
+  { kind = "bridge", kmFrom = 101.578, kmTo = 101.611, length = 34 },
+  { kind = "bridge", kmFrom = 101.797, kmTo = 101.808, length = 11 },
+  { kind = "bridge", kmFrom = 102.161, kmTo = 102.184, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uwlyHouaj@wCoOYgQz@qKzIer@", v = 50 },
+  { line = "oplyH_xdj@RqA" },
+  { line = "{olyHqzdj@tAcGdHsOlLo\\lC{N", v = 50 },
+  { line = "crkyHu`gj@pDmKzCqEjCyApJ}AvDyCfEeKnAcIYeJkRa}AoDc_@" },
+  { line = "}bkyH}}lj@mModAyCyOwDkNaKgWcdAm~B", v = 140 },
+  { line = "cmnyHi{tj@mGyMqG{I", v = 100 },
+  { line = "c~nyH_uuj@iDiE", v = 80 },
+  { line = "mcoyHi{uj@eK_MqKiV" },
+  { line = "e|oyHs`wj@cCcK", v = 80 },
+  { line = "i`pyHwlwj@eFyTgC{H" },
+  { line = "wkpyHmlxj@_Qmg@oE}GuKaL", v = 120 },
+  { line = "}pqyH{jzj@_e@cX", v = 130 },
+  { line = "}vryH_d{j@bGjA`LqBzQNdDz@bCtBrBdEtAfGtB`UnD|RjN`b@|D`QtF|QvHxPlFpIzQnTb]`WxIjNgJ{R{OkKaI}J{Me[sBaIg@kE" },
+]
+posts = [[86, 51.51689, 7.06637], [87, 51.51306, 7.07922], [88, 51.50749, 7.08996], [89, 51.50469, 7.10052], [90, 51.50744, 7.11447], [91, 51.51014, 7.12775], [92, 51.51537, 7.13977], [93, 51.52135, 7.15078], [94, 51.52742, 7.16115], [95, 51.53345, 7.17154], [96, 51.53873, 7.18313], [97, 51.54683, 7.18926], [98, 51.53838, 7.18749], [99, 51.53439, 7.1747], [100, 51.529, 7.1633], [101, 51.52125, 7.1561], [102, 51.52488, 7.15969]]
+
+[[connections]]
+km = 89.118
+station = "Gelsenkirchen Hauptbahnhof"
+lines = [
+  { id = "2168", ref = "2168", name = "2168 Gelsenkirchen - Gelsenkirchen Rotthausen / Essen Kray Nord", km = 4.706 },
+  { id = "2239", ref = "2239", name = "2239 Gelsenkirchen Hbf - Wanne-Eickel Hbf", km = 0.252 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 89.19 },
+]
+
+[[connections]]
+km = 94.555
+station = "Herne-Wanne-Eickel Hbf"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 0.268 },
+  { id = "2204", ref = "2204", name = "2204 Wanne-Eickel Hbf - Wanne Unser Fritz", km = 4.712 },
+  { id = "2208", ref = "2208", name = "2208 Wanne-Eickel Hbf - Herne", km = 0.7 },
+  { id = "2239", ref = "2239", name = "2239 Gelsenkirchen Hbf - Wanne-Eickel Hbf", km = 5.654 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 94.544 },
+]

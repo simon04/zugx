@@ -1,0 +1,29 @@
+id = "6826"
+ref = "6826"
+name = "Niederlausitzer Eisenbahn"
+operator = "DRE"
+gauge = "1435"
+wikidata = "Q1987985"
+from = "Falkenberg (Elster)"
+to = "Beeskow"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 64.2
+kmTo = 69.138
+length = 4.848
+speeds = [[64.2, 69.138, "", ""]]
+curves = [[66.237, 66.466, 1290]]
+points = [
+  { km = 64.81, kind = "station", label = "Duben (Niederlausitz)", pos = [51.88636, 13.8114], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 66.354, kmTo = 66.374, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ett{H{cgsAor@qlDy|AcdE" },
+]
+posts = [[65, 51.88739, 13.81463], [66, 51.89119, 13.82754], [67, 51.89605, 13.83941], [68, 51.90145, 13.85073], [69, 51.90685, 13.86205]]

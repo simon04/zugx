@@ -1,0 +1,48 @@
+id = "6272"
+ref = "6272"
+name = "6272 Dresden-Friedrichstadt - Dresden-Cotta Bft"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131690091"
+from = "Dresden-Friedrichstadt"
+to = "Dresden-Cotta Bft"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.081
+length = 2.081
+speeds = [[0, 0.695, 60, 60], [0.695, 2.081, "", ""]]
+curves = [[0.1, 0.35, 810], [1.025, 1.15, 1240], [1.35, 1.5, 1320]]
+points = [
+  { km = 0, kind = "halt", label = "Dresden-Cotta", uic = "8006239", pos = [51.06213, 13.68331] },
+  { km = 0.225, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.283, kind = "signal", label = "Q", signal = "combined", dir = -1 },
+  { km = 1.683, kind = "station", label = "Dresden-Friedrichstadt", uic = "8006052", pos = [51.05602, 13.70813] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.229, kmTo = 0.251, length = 22 },
+  { kind = "bridge", kmFrom = 0.317, kmTo = 0.335, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "axsvH{|orA`CgGpBoIrFyd@", v = 60 },
+  { line = "yhsvHmuqrApEc`@lGm[tIcv@" },
+]
+posts = [[0, 51.06065, 13.68542], [1, 51.05739, 13.69863], [2, 51.05432, 13.71204]]
+
+[[connections]]
+km = 0
+station = "Dresden-Cotta"
+lines = [
+  { id = "6248", ref = "6248", name = "6248 Dresden-Friedrichstadt - Elsterwerda Streckenwechsel 6135/6248", km = 2.107 },
+]
+
+[[connections]]
+km = 1.683
+station = "Dresden-Friedrichstadt"
+lines = [
+  { id = "6248", ref = "6248", name = "6248 Dresden-Friedrichstadt - Elsterwerda Streckenwechsel 6135/6248", km = 0.303 },
+]

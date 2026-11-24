@@ -1,0 +1,53 @@
+id = "4531"
+ref = "4531"
+name = "4531 Friedrichshafen Stadt - Friedrichshafen Hafen"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Friedrichshafen Stadt"
+to = "Friedrichshafen Hafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 196.767
+kmTo = 197.811
+length = 1.044
+speeds = [[196.767, 197.141, 40, 30], [197.141, 197.182, 40, 40], [197.182, 197.691, "", ""], [197.691, 197.811, 50, 50]]
+curves = [[196.886, 197.212, 370], [197.262, 197.364, 1080]]
+points = [
+  { km = 196.825, kind = "station", label = "Friedrichshafen Hafen", pos = [47.65148, 9.4824], uic = "8029163" },
+  { km = 196.96, kind = "signal", label = "47 C183", signal = "combined,minor,speed_limit,traversable", dir = 1 },
+  { km = 197.119, kind = "signal", signal = "minor", dir = 1 },
+  { km = 197.141, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 197.166, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 197.223, kind = "signal", signal = "minor", dir = 1 },
+  { km = 197.333, kind = "signal", label = "47 ZU203", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 197.499, kind = "signal", signal = "stop", dir = 1 },
+  { km = 197.51, kind = "signal", signal = "minor", dir = 1 },
+  { km = 197.515, kind = "signal", label = "47 213Y", signal = "minor", dir = -1 },
+  { km = 197.553, kind = "signal", signal = "stop", dir = 1 },
+  { km = 197.563, kind = "station", label = "Friedrichshafen Stadt", pos = [47.65323, 9.4737], uic = "8029162" },
+  { km = 197.584, kind = "signal", signal = "stop", dir = 1 },
+  { km = 197.626, kind = "signal", signal = "stop", dir = 1 },
+  { km = 197.684, kind = "signal", signal = "stop", dir = 1 },
+  { km = 197.691, kind = "signal", label = "47 N213", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 197.765, kind = "signal", signal = "electricity", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 197.025, kmTo = 197.056, length = 31 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{gzaHksxx@G}H", v = 50 },
+  { line = "chzaHi}xx@r@s_@GyH" },
+  { line = "wfzaHwgzx@TyF~@mElHoL", v = 40 },
+]
+posts = [[197, 47.65264, 9.48081]]
+
+[[connections]]
+km = 197.563
+station = "Friedrichshafen Stadt"
+lines = [
+  { id = "4500", ref = "4500", name = "4500 Ulm Hbf - Friedrichshafen Stadt", km = 197.567 },
+]

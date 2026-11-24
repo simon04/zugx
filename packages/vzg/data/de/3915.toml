@@ -1,0 +1,32 @@
+id = "3915"
+ref = "3915"
+name = "3915 Kassel Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Kassel Rbf"
+to = "Kassel Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.239
+length = 1.239
+speeds = [[0, 1.239, "", ""]]
+curves = [[0.175, 0.8, 1420]]
+points = [
+  { km = 0.042, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.119, kind = "signal", signal = "distant,main,traversable", dir = 1 },
+  { km = 0.144, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.325, kind = "signal", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 1.081, kind = "signal", signal = "distant,main,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.867, kmTo = 0.911, length = 44 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wwhxHyrxx@kMwIoK{CkLc@kZfB" },
+]
+posts = [[0, 51.33196, 9.47005], [1, 51.34064, 9.47253]]

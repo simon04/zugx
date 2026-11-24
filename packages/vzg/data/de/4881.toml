@@ -1,0 +1,28 @@
+id = "4881"
+ref = "4881"
+name = "4881 Eutingen im Gäu"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Eutingen im Gäu"
+to = "Eutingen im Gäu"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.17
+length = 1.17
+speeds = [[0, 1.17, 60, 60]]
+curves = [[0.1, 0.3, 980], [0.45, 1.05, 440]]
+points = [
+  { km = 0.088, kind = "signal", label = "p540", signal = "distant", dir = 1 },
+  { km = 0.102, kind = "signal", label = "N 540", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 1.037, kind = "signal", label = "P540", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 1.107, kind = "signal", label = "n540", signal = "distant", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ulzfHspnt@mAyGiDaK{GuN_D{DcFuBwF?qFlBmDjD", v = 60 },
+]
+posts = [[0, 48.47323, 8.76314], [1, 48.47983, 8.77022]]

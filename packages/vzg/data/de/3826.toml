@@ -1,0 +1,35 @@
+id = "3826"
+ref = "3826"
+name = "3826 Schlüchtern - Elm"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q121130625"
+from = "Schlüchtern"
+to = "Elm"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 3.211
+kmTo = 8.253
+length = 5.061
+speeds = [[3.211, 8.135, 80, 80], [8.135, 8.253, 60, 60]]
+curves = [[3.311, 4.192, 730], [4.867, 5.217, 940], [5.467, 5.967, 650], [6.042, 6.667, 590], [6.767, 7.292, 620], [7.417, 7.517, 1310], [7.567, 7.692, 1320], [7.917, 7.967, 2420], [8.017, 8.142, 300]]
+points = [
+  { km = 3.298, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.352, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.649, kind = "signal", label = "G289", signal = "main", dir = -1 },
+  { km = 4.617, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.205, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.625, kmTo = 3.637, length = 12 },
+  { kind = "bridge", kmFrom = 3.985, kmTo = 4.013, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sklrHi|`y@cFiHiC}H}BuP[}NXyI|@aI`RufAp@aOL_b@s@oI{AiH}I}TgCyOKaPhCc]AkGk@mIaLuf@aLg]cAeF", v = 80 },
+  { line = "oqmrHojmy@?kI", v = 60 },
+]
+posts = [[4, 50.36995, 9.52254], [5, 50.36661, 9.53561], [6, 50.36787, 9.54896], [7, 50.36878, 9.56223], [8, 50.37293, 9.5746]]

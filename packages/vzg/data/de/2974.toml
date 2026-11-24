@@ -1,0 +1,168 @@
+id = "2974"
+ref = "2974"
+name = "2974 Langeland - Holzminden"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q108913627"
+from = "Langeland"
+to = "Holzminden"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 3.249
+kmTo = 48.87
+length = 45.464
+speeds = [[3.249, 3.509, 60, 60], [3.509, 4.701, 90, 90], [4.701, 21.67, 100, 100], [21.67, 22.262, 40, 40], [22.262, 30.876, 100, 100], [30.876, 30.989, 60, 60], [30.989, 31.714, "", ""], [31.714, 31.88, 50, 50], [31.88, 32.317, 100, 100], [32.317, 39.06, 110, 110], [39.06, 41.395, 100, 100], [41.395, 41.876, 80, 80], [41.876, 42.719, 90, 90], [42.719, 43.015, "", ""], [43.015, 43.863, 90, 90], [43.863, 47.909, 110, 110], [47.909, 48.87, 80, 80]]
+curves = [[3.349, 4.117, 750], [4.61, 5.086, 800], [5.538, 6.236, 760], [7.037, 7.437, 1420], [7.613, 8.063, 830], [8.364, 9.191, 760], [9.517, 9.642, 2250], [9.768, 9.868, 1810], [10.17, 11.398, 750], [11.498, 12.198, 750], [12.998, 13.449, 800], [13.699, 14.4, 750], [15.628, 16.382, 1540], [16.864, 17.143, 1160], [17.65, 17.954, 1040], [19.171, 20.433, 860], [20.808, 21.308, 1000], [22.196, 23.142, 770], [24.19, 26.203, 960], [26.552, 27.351, 760], [27.75, 27.9, 1460], [28.374, 28.648, 1310], [29.097, 29.696, 1220], [29.947, 30.377, 820], [31.303, 31.353, 1900], [31.428, 31.478, 1840], [31.702, 31.777, 1500], [31.852, 32.329, 740], [33.793, 33.894, 1440], [35.181, 35.887, 1800], [39.377, 39.653, 1690], [40.18, 41.157, 1570], [41.382, 41.782, 880], [41.932, 42.032, 1720], [42.157, 42.357, 890], [42.632, 42.957, 880], [43.232, 43.932, 570], [44.482, 44.982, 1850], [45.082, 45.182, 2150], [45.907, 46.132, 1180], [47.157, 47.532, 1510], [48.182, 48.432, 910]]
+points = [
+  { km = 3.509, kind = "signal", label = "38 N3", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 3.663, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.882, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.034, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 4.386, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 4.571, kind = "signal", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 4.701, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.764, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.787, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 6.08, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.168, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 7.774, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 7.973, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.252, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 8.451, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.972, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 9.009, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 9.011, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 9.018, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.191, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 9.429, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 9.473, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 9.749, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.887, kind = "stop", label = "Bad Driburg (Westf)", pos = [51.73025, 9.0309], uic = "8000697" },
+  { km = 9.996, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.018, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.173, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 10.208, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 10.22, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.354, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 10.462, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.558, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.676, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.926, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 11.198, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 11.396, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 11.535, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 11.573, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 11.617, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 11.836, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 12.04, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.509, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.546, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 12.59, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 12.701, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 12.859, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.998, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.022, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 13.057, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 13.571, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 13.772, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 13.994, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 14.04, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.198, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.238, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 14.899, kind = "signal", label = "02 2", signal = "main", dir = -1 },
+  { km = 15.096, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 15.9, kind = "signal", signal = "distant", dir = -1 },
+  { km = 16.198, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 16.405, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 20.632, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 21.631, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.881, kind = "stop", label = "Brakel(Höxter)", pos = [51.71203, 9.18286], uic = "8001121" },
+  { km = 21.935, kind = "signal", signal = "stop", dir = 1 },
+  { km = 22.262, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.986, kind = "signal", label = "02 4", signal = "combined", dir = -1 },
+  { km = 23.306, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 23.983, kind = "signal", signal = "distant", dir = -1 },
+  { km = 29.453, kind = "signal", signal = "distant", dir = 1 },
+  { km = 30.451, kind = "signal", signal = "main", dir = 1 },
+  { km = 30.876, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 31.103, kind = "signal", label = "04 P2", signal = "main", dir = -1 },
+  { km = 31.555, kind = "signal", label = "04L 22Y", signal = "minor", dir = -1 },
+  { km = 31.573, kind = "stop", label = "Ottbergen", uic = "8004720", pos = [51.71118, 9.30494] },
+  { km = 31.604, kind = "station", label = "Höxter-Ottbergen", uic = "8004720", pos = [51.71096, 9.30539] },
+  { km = 31.714, kind = "signal", label = "04 N2", signal = "main,speed_limit", dir = 1 },
+  { km = 31.791, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 31.995, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 32.043, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 36.277, kind = "stop", label = "Godelheim", pos = [51.7351, 9.35702], uic = "8002299" },
+  { km = 39.06, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 40.811, kind = "stop", label = "Höxter Rathaus", pos = [51.77256, 9.3819], uic = "8002923" },
+  { km = 41.395, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 41.876, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 42.854, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 43.863, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 45.022, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 45.092, kind = "stop", label = "Lüchtringen", pos = [51.7911, 9.42726], uic = "8003780" },
+  { km = 47.909, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 48.4, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 48.815, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 48.87, kind = "station", label = "Holzminden", pos = [51.82021, 9.45382], uic = "8000391" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 6.419, kmTo = 6.43, length = 11 },
+  { kind = "bridge", kmFrom = 6.774, kmTo = 6.786, length = 13 },
+  { kind = "tunnel", kmFrom = 7.171, kmTo = 7.416, length = 245 },
+  { kind = "bridge", kmFrom = 20.706, kmTo = 20.768, length = 62 },
+  { kind = "bridge", kmFrom = 24.666, kmTo = 24.696, length = 29 },
+  { kind = "bridge", kmFrom = 25.962, kmTo = 25.999, length = 37 },
+  { kind = "bridge", kmFrom = 26.496, kmTo = 26.51, length = 14 },
+  { kind = "bridge", kmFrom = 26.901, kmTo = 26.947, length = 46 },
+  { kind = "bridge", kmFrom = 33.267, kmTo = 33.283, length = 17 },
+  { kind = "bridge", kmFrom = 43.015, kmTo = 43.253, length = 238 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{r~zHsuyu@kAeU", v = 60 },
+  { line = "gu~zHykzu@`AaT`DsOr[cq@", v = 90 },
+  { line = "oq}zHsc}u@~BeHnByKtGo{@dB_JrCmIrDsGtDcEto@uf@", v = 100 },
+  { line = "o}zzH_bbv@pL_C", tunnel = true, v = 100 },
+  { line = "}ozzH_fbv@dNy@pGd@`FhBlShNtG~C`Iz@fIcAjH{D|Yu[t]cXrGgKrEaPzAoNJoQmAqOiFuWuAqLWaOv@aPbQqiAdC{L|DcKzT_\\xCgItB}JpAqSlAmxBzBk\\lDySfSou@~H{z@zAyKhe@_hBjBkK`A_LPcJY}N{@eJaC{LiGyOcVa]iE{IaE{NeHob@", v = 100 },
+  { line = "_{rzH}|_w@}Jyo@", v = 40 },
+  { line = "}fszHwmaw@y@_L?{Ln@_LnC_O`FcM~m@kdAdDeHfDiLdBiKv@aJZcMS}LiAeNkC}M{DsL{EwJiHyJsYeVwFiHsFsNyC{SuAmq@qFy~@Vow@p@kPfBuOhLye@|AcKp@mOZ_o@", v = 100 },
+  { line = "szrzHqkvw@DgI", v = 60 },
+  { line = "mzrzHyuvw@X}`A" },
+  { line = "syrzHwwxw@Z_N", v = 50 },
+  { line = "wxrzHwfyw@QsSqCcP", v = 100 },
+  { line = "{}rzHolzw@kn@qqB{m@}xAwLaUmH{IwLsJu{CgpB", v = 110 },
+  { line = "w}{zHyvex@yTkN}i@yO}P{JyEwEkEoGkEkJgIiV", v = 100 },
+  { line = "gn_{Hythx@aBaG}AiLiAuR", v = 80 },
+  { line = "qv_{H{}ix@g@o`@hDci@", v = 90 },
+  { line = "or_{Hoilx@DgKi@oM" },
+  { line = "ss_{Hgdmx@_B{ZgB{JyFyLeHyF", v = 90 },
+  { line = "{j`{Hsaox@od@sN{P{JaLeLub@ei@wI{G{x@yf@kH}HiQ{V", v = 110 },
+  { line = "isf{H_gtx@_RkTc\\mO", v = 80 },
+]
+posts = [[4, 51.77051, 8.99421], [5, 51.76491, 9.00551], [6, 51.76196, 9.01894], [7, 51.75412, 9.026], [8, 51.74539, 9.02711], [9, 51.73688, 9.02448], [10, 51.72919, 9.03176], [11, 51.72399, 9.04242], [12, 51.72607, 9.05628], [13, 51.72292, 9.06986], [14, 51.71697, 9.08044], [15, 51.7159, 9.09465], [16, 51.71516, 9.10903], [17, 51.71093, 9.12161], [18, 51.70821, 9.13516], [19, 51.70368, 9.14746], [20, 51.70243, 9.16096], [21, 51.70869, 9.17115], [22, 51.7124, 9.18409], [23, 51.71208, 9.19778], [24, 51.70546, 9.2077], [25, 51.70135, 9.21981], [26, 51.70556, 9.23198], [27, 51.71279, 9.24029], [28, 51.7143, 9.25452], [29, 51.7151, 9.26892], [30, 51.71222, 9.2824], [31, 51.71127, 9.29661], [32, 51.71098, 9.31115], [33, 51.71519, 9.32361], [34, 51.72027, 9.33541], [35, 51.726, 9.34642], [36, 51.73286, 9.35533], [37, 51.74102, 9.36121], [38, 51.7492, 9.36713], [39, 51.75738, 9.37306], [40, 51.76585, 9.37764], [41, 51.77377, 9.38384], [42, 51.77734, 9.39681], [43, 51.77671, 9.41118], [44, 51.78165, 9.42171], [45, 51.79013, 9.42638], [46, 51.79746, 9.43479], [47, 51.80571, 9.44054], [48, 51.81319, 9.44847]]
+
+[[connections]]
+km = 31.573
+station = "Ottbergen"
+lines = [
+  { id = "2975", ref = "2975", name = "2975 Ottbergen - Northeim (Han)", km = 0.057 },
+]
+
+[[connections]]
+km = 31.604
+station = "Höxter-Ottbergen"
+lines = [
+  { id = "2975", ref = "2975", name = "2975 Ottbergen - Northeim (Han)", km = -0.019 },
+]
+
+[[connections]]
+km = 48.87
+station = "Holzminden"
+lines = [
+  { id = "1940", ref = "1940", name = "1940 Kreiensen - Holzminden", km = 150.444 },
+]

@@ -1,0 +1,244 @@
+id = "6035"
+ref = "6035"
+name = "6035 Berlin Yorckstraße Strw - Blankenfelde"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131689779"
+from = "Berlin Yorckstraße Strw 6034/6035"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.108
+kmTo = 19.602
+length = 18.54
+speeds = [[1.108, 2.203, 60, 60], [2.203, 4.878, 100, 100], [4.878, 5.401, 90, 90], [5.401, 6.4, 100, 100], [6.4, 14.144, 80, 80], [14.144, 16.825, 100, 100], [16.825, 19.419, 80, 80], [19.419, 19.602, 40, 40]]
+curves = [[1.558, 1.633, 2430], [1.733, 1.908, 1100], [2.008, 2.133, 1380], [3.308, 3.432, 1440], [3.528, 3.704, 2310], [5.032, 5.386, 920], [5.562, 5.865, 1480], [6.445, 6.494, 2410], [9.153, 9.23, 1980], [9.304, 9.403, 1550], [9.477, 9.527, 2360], [12.23, 12.299, 2650], [13.352, 13.529, 2320], [13.679, 13.779, 1930], [13.984, 14.033, 2400], [14.758, 14.809, 2700], [14.958, 15.033, 2330], [16.427, 16.51, 1970], [17.027, 17.075, 2550], [17.384, 17.435, 2430], [17.913, 17.961, 2330], [18.582, 18.678, 1450], [18.772, 18.983, 1040], [19.057, 19.258, 1400]]
+points = [
+  { km = 1.294, kind = "signal", label = "253", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 1.442, kind = "signal", label = "255", signal = "combined,traversable", dir = 1 },
+  { km = 1.459, kind = "signal", label = "260", signal = "combined,departure,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.461, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.547, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.564, kind = "station", label = "Yorckstraße", pos = [52.49207, 13.37215] },
+  { km = 1.582, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.608, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.627, kind = "signal", label = "257", signal = "combined,traversable", dir = 1 },
+  { km = 1.99, kind = "signal", label = "263", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 1.995, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.169, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.202, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.203, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.421, kind = "signal", label = "271", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 2.507, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.572, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.6, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.771, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.92, kind = "signal", label = "273", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 2.923, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.099, kind = "signal", label = "275", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 3.221, kind = "signal", label = "277", signal = "combined,minor,traversable", dir = 1 },
+  { km = 3.227, kind = "signal", label = "272", signal = "combined,departure,minor,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 3.237, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.239, kind = "station", label = "Berlin Südkreuz", uic = "8065971", pos = [52.47657, 13.36604] },
+  { km = 3.256, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.266, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.298, kind = "station", label = "Südkreuz (Nord-Süd)", pos = [52.47621, 13.36514] },
+  { km = 3.324, kind = "station", label = "Südkreuz (Ringbahn)", uic = "8003068", pos = [52.47598, 13.36507] },
+  { km = 3.346, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.346, kind = "stop", label = "Südkreuz", pos = [52.47582, 13.36483] },
+  { km = 3.363, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.378, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.392, kind = "signal", label = "283", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 3.615, kind = "signal", label = "285", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 3.891, kind = "signal", label = "293", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 3.967, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 4.301, kind = "signal", label = "297", signal = "combined,route,speed_limit,traversable", dir = 1 },
+  { km = 4.498, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.504, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 4.643, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.705, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 4.87, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 4.87, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 4.883, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.058, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 5.134, kind = "signal", label = "296", signal = "combined,departure,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 5.14, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.172, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.223, kind = "station", label = "Priesterweg", pos = [52.45992, 13.35625] },
+  { km = 5.258, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.276, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.295, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.299, kind = "signal", label = "20 01", signal = "combined,departure,speed_limit_distant,traversable", dir = 1 },
+  { km = 5.401, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.42, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 5.581, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 5.596, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 5.742, kind = "signal", label = "2004", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 5.766, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 5.81, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.026, kind = "signal", label = "20 11", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 6.113, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 6.154, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.4, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.402, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.452, kind = "signal", label = "20 12", signal = "combined,speed_limit,speed_limit_distant,traversable,wrong_road", dir = -1 },
+  { km = 6.491, kind = "signal", signal = "stop", dir = -1 },
+  { km = 6.527, kind = "signal", signal = "stop", dir = -1 },
+  { km = 6.569, kind = "signal", signal = "stop", dir = -1 },
+  { km = 6.6, kind = "station", label = "Attilastraße", pos = [52.44803, 13.36075], uic = "8089003" },
+  { km = 6.6, kind = "signal", signal = "stop", dir = 1 },
+  { km = 6.601, kind = "signal", label = "20 17", signal = "combined,traversable", dir = 1 },
+  { km = 6.985, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 7.018, kind = "signal", label = "2016", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 7.383, kind = "signal", label = "2021", signal = "combined,traversable", dir = 1 },
+  { km = 7.964, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 8.101, kind = "signal", label = "2025", signal = "main,traversable", dir = 1 },
+  { km = 8.105, kind = "signal", label = "2022", signal = "combined,traversable", dir = -1 },
+  { km = 8.676, kind = "signal", label = "2041", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 8.91, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 9.081, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 9.098, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 9.14, kind = "signal", label = "2045", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 9.265, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 9.268, kind = "signal", label = "2042", signal = "combined,speed_limit,speed_limit_distant,traversable,wrong_road", dir = -1 },
+  { km = 9.282, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.322, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.363, kind = "station", label = "Marienfelde", pos = [52.42421, 13.37468], uic = "8089074" },
+  { km = 9.4, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.433, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.484, kind = "signal", label = "20 47", signal = "combined,minor,speed_limit,traversable", dir = 1 },
+  { km = 9.589, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 9.715, kind = "signal", label = "20 52", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 9.855, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 10.222, kind = "signal", label = "2057", signal = "main,traversable", dir = 1 },
+  { km = 10.224, kind = "signal", label = "2056", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 10.691, kind = "signal", label = "2061", signal = "combined,traversable", dir = 1 },
+  { km = 10.923, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.975, kind = "station", label = "Buckower Chaussee", pos = [52.41054, 13.38276], uic = "8089010" },
+  { km = 11.058, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.091, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.104, kind = "signal", label = "2063", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 11.36, kind = "signal", label = "20 62", signal = "combined,traversable", dir = -1 },
+  { km = 11.703, kind = "signal", label = "20 65", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 11.809, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.841, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 11.985, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 12.017, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 12.182, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 12.228, kind = "signal", label = "2076", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 12.251, kind = "signal", signal = "stop", dir = -1 },
+  { km = 12.287, kind = "signal", signal = "stop", dir = -1 },
+  { km = 12.317, kind = "signal", signal = "stop", dir = -1 },
+  { km = 12.374, kind = "station", label = "Schichauweg", pos = [52.39855, 13.38941], uic = "8089038" },
+  { km = 12.398, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.414, kind = "signal", label = "20 67", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 12.625, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 13.102, kind = "signal", label = "2081", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 13.216, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 13.248, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.429, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 13.486, kind = "signal", label = "2085", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 13.506, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 13.63, kind = "signal", label = "2082", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 13.754, kind = "station", label = "Lichtenrade", pos = [52.38694, 13.39645], uic = "8089070" },
+  { km = 13.819, kind = "signal", label = "2087", signal = "combined,minor,speed_limit,traversable", dir = 1 },
+  { km = 14.144, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.146, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.295, kind = "signal", signal = "combined,speed_limit", dir = -1 },
+  { km = 14.542, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 14.785, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 15.773, kind = "signal", signal = "distant", dir = 1 },
+  { km = 16.241, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 16.243, kind = "signal", label = "2091", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 16.675, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.678, kind = "signal", label = "2090", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 16.693, kind = "station", label = "Mahlow", pos = [52.36063, 13.40783], uic = "8080970" },
+  { km = 16.824, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.825, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.825, kind = "signal", label = "2099", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 17.19, kind = "signal", label = "2098", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 17.685, kind = "signal", label = "V2098", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 19.02, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.4, kind = "station", label = "Blankenfelde (Teltow-Fläming)", pos = [52.33697, 13.41612], measured = true, uic = "8003392" },
+  { km = 19.419, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.419, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.493, kind = "halt", label = "Blankenfelde", uic = "8010053", pos = [52.33681, 13.41595] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.404, kmTo = 1.434, length = 30, name = "Yorckbrücke 7" },
+  { kind = "bridge", kmFrom = 3.536, kmTo = 3.615, length = 81 },
+  { kind = "bridge", kmFrom = 5.5, kmTo = 5.515, length = 17 },
+  { kind = "bridge", kmFrom = 5.8, kmTo = 5.837, length = 55 },
+  { kind = "bridge", kmFrom = 5.858, kmTo = 5.91, length = 68 },
+  { kind = "bridge", kmFrom = 6.601, kmTo = 6.601, length = 20 },
+  { kind = "bridge", kmFrom = 6.902, kmTo = 6.968, length = 66 },
+  { kind = "bridge", kmFrom = 9.158, kmTo = 9.212, length = 52 },
+  { kind = "bridge", kmFrom = 10.502, kmTo = 10.525, length = 22 },
+  { kind = "bridge", kmFrom = 11.949, kmTo = 11.976, length = 30 },
+  { kind = "bridge", kmFrom = 12.135, kmTo = 12.165, length = 29 },
+  { kind = "bridge", kmFrom = 12.347, kmTo = 12.374, length = 27 },
+  { kind = "bridge", kmFrom = 13.754, kmTo = 13.792, length = 37 },
+  { kind = "bridge", kmFrom = 15.708, kmTo = 15.727, length = 18 },
+  { kind = "bridge", kmFrom = 16.009, kmTo = 16.036, length = 28 },
+  { kind = "bridge", kmFrom = 16.2, kmTo = 16.221, length = 18 },
+  { kind = "bridge", kmFrom = 17.904, kmTo = 17.93, length = 26 },
+  { kind = "bridge", kmFrom = 18.695, kmTo = 18.765, length = 74 },
+  { kind = "bridge", kmFrom = 19.4, kmTo = 19.419, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a~k_I_yrpArg@tB|KdCdF|B", v = 60 },
+  { line = "iaj_IemrpAl{@~b@hP~Fn_Abd@", v = 100 },
+  { line = "ase_Ia|opAzMzFhLn@", v = 90 },
+  { line = "{vd_IuropAtTwB``@oR", v = 100 },
+  { line = "c`c_I}ippA|sAwo@v~Ce~AfaAcc@|z@_e@pSqIlSyK", v = 80 },
+  { line = "gdv~Hk{wpAt`@qRvJkDfcBeb@", v = 100 },
+  { line = "qrq~HowypAj_@gIb[wIxb@cJnN}AxNaGxMsC", v = 80 },
+  { line = "cdm~Hgg{pAbIgB", v = 40 },
+]
+posts = [[2, 52.48723, 13.37143], [3, 52.47874, 13.36662], [4, 52.47011, 13.36179], [5, 52.46171, 13.35702], [6, 52.45297, 13.35768], [7, 52.44396, 13.36299], [8, 52.43549, 13.36786], [9, 52.42702, 13.3729], [10, 52.41862, 13.37791], [11, 52.41012, 13.38297], [12, 52.40157, 13.38761], [13, 52.39323, 13.39267], [14, 52.38482, 13.39772], [15, 52.37629, 13.40245], [16, 52.36754, 13.40554], [17, 52.35866, 13.40864], [18, 52.34992, 13.41164], [19, 52.34107, 13.41431]]
+
+[[connections]]
+km = 1.564
+station = "Yorckstraße"
+lines = [
+  { id = "6032", ref = "6032", name = "6032 Berlin Nordbahnhof Strw - Berlin-Schöneberg", km = 5.928 },
+  { id = "6034", ref = "6034", name = "6034 Berlin Anhalter Bf - Berlin Yorckstraße Strw", km = 1.564 },
+  { id = "6134", ref = "6134", name = "6134 Berlin Hbf (tief) - Berlin Südkreuz Süd", km = 5.972 },
+  { id = "6171", ref = "6171", name = "6171 Abzw Berlin-Wedding Abzw - Berlin Südkreuz Südende", km = 5.98 },
+]
+
+[[connections]]
+km = 3.239
+station = "Berlin Südkreuz"
+lines = [
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 23.51 },
+]
+
+[[connections]]
+km = 3.298
+station = "Südkreuz"
+lines = [
+  { id = "6134", ref = "6134", name = "6134 Berlin Hbf (tief) - Berlin Südkreuz Süd", km = 7.922 },
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 23.472 },
+  { id = "6171", ref = "6171", name = "6171 Abzw Berlin-Wedding Abzw - Berlin Südkreuz Südende", km = 7.935 },
+]
+
+[[connections]]
+km = 5.223
+station = "Priesterweg"
+lines = [
+  { id = "6034", ref = "6034", name = "6034 Berlin Anhalter Bf - Berlin Yorckstraße Strw", km = 5.223 },
+  { id = "6036", ref = "6036", name = "6036 Priesterweg - Lichterfelde Süd", km = 5.223 },
+  { id = "6132", ref = "6132", name = "6132 Berlin - Halle (Saale) Hbf", km = 5.141 },
+  { id = "6135", ref = "6135", name = "6135 Berlin - Elsterwerda", km = 5.181 },
+]
+
+[[connections]]
+km = 19.4
+station = "Blankenfelde"
+lines = [
+  { id = "6135", ref = "6135", name = "6135 Berlin - Elsterwerda", km = 19.4 },
+]

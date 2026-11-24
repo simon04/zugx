@@ -1,0 +1,41 @@
+id = "2244"
+ref = "2244"
+name = "2244 Abzw Essen Prosper-Levin - Essen Streckenwechsel 2244/2280"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Essen Prosper-Levin"
+to = "Essen Streckenwechsel 2244/2280"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.768
+length = 1.768
+speeds = [[0, 1.768, 60, 60]]
+curves = [[0.175, 0.975, 550], [1.05, 1.525, 580]]
+points = [
+  { km = 0.385, kind = "signal", signal = "distant,main,traversable", dir = -1 },
+  { km = 0.505, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 0.595, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.802, kind = "station", label = "Essen-Dellwig Ost", uic = "8001904", pos = [51.48758, 6.92714] },
+  { km = 1.433, kind = "signal", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.24, kmTo = 0.257, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wghyHssii@vJpIlDlEfD~HlBfKRrGU`HmEbWm@rKXjMjDrZ", v = 60 },
+]
+posts = [[0, 51.49324, 6.93578], [1, 51.48961, 6.92471]]
+
+[[connections]]
+km = 0.802
+station = "Essen-Dellwig Ost"
+lines = [
+  { id = "2277", ref = "2277", name = "2277 Oberhausen Hbf - Essen-Altenessen", km = 76.399 },
+  { id = "2280", ref = "2280", name = "2280 Abzw Oberhausen Walzwerk - Essen West", km = 0.013 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 76.349 },
+]

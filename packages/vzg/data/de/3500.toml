@@ -1,0 +1,89 @@
+id = "3500"
+ref = "3500"
+name = "3500 Wiesbaden Hbf - Diez"
+operator = "Arbeitskreis Aartalbahn e.V."
+gauge = "1435"
+wikidata = "Q303170"
+from = "Wiesbaden Hbf"
+to = "Diez"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 34.881
+kmTo = 53.1
+length = 18.204
+speeds = [[34.881, 53.1, "", ""]]
+curves = [[34.981, 35.157, 1650], [35.408, 35.558, 720], [35.608, 35.883, 580], [35.933, 36.535, 500], [36.585, 36.804, 630], [37.165, 37.512, 350], [37.612, 37.762, 1010], [38.187, 38.486, 370], [38.537, 38.962, 340], [39.037, 39.385, 390], [39.711, 39.886, 870], [40.088, 40.188, 650], [40.238, 40.437, 490], [40.487, 40.612, 1410], [41.086, 41.284, 750], [41.364, 42.165, 520], [43.464, 44.013, 820], [44.263, 44.943, 710], [45.191, 45.488, 530], [45.767, 46.064, 450], [46.14, 46.517, 620], [46.69, 47.14, 390], [47.564, 48.065, 510], [48.363, 48.739, 1050], [49.212, 49.5, 1160], [50.242, 50.413, 1060], [50.466, 50.842, 400], [50.942, 51.649, 820], [51.698, 52.116, 660], [52.193, 52.421, 1970], [52.619, 52.99, 620]]
+points = [
+  { km = 35.646, kind = "station", label = "Michelbach", pos = [50.23243, 8.05517] },
+  { km = 37.493, kind = "station", label = "Kettenbach", pos = [50.24582, 8.06631] },
+  { km = 37.54, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 39.527, kind = "halt", label = "Rückershausen", pos = [50.26134, 8.05415] },
+  { km = 41.118, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 41.2, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 41.2, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 41.207, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 41.379, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 41.501, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 41.563, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 41.695, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 41.702, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 41.744, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 41.857, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 41.998, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 42.457, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 42.474, kind = "signal", signal = "stop", dir = -1 },
+  { km = 42.724, kind = "signal", signal = "stop", dir = 1 },
+  { km = 42.755, kind = "station", label = "Zollhaus (Nass)", pos = [50.28912, 8.062] },
+  { km = 43.089, kind = "signal", signal = "main", dir = -1 },
+  { km = 43.524, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 43.65, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 44.11, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 44.232, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 44.449, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 44.595, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 45.049, kind = "signal", signal = "crossing,stop", dir = -1 },
+  { km = 45.093, kind = "station", label = "Hahnstätten", pos = [50.3089, 8.06656] },
+  { km = 45.234, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 45.301, kind = "signal", signal = "stop", dir = 1 },
+  { km = 45.311, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 45.499, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 45.633, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 45.845, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 45.927, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 46.3, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 46.503, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 46.544, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 46.999, kind = "station", label = "Oberneisen", pos = [50.32483, 8.06988] },
+  { km = 47.083, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 47.094, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 47.111, kind = "signal", signal = "stop", dir = -1 },
+  { km = 47.174, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 47.327, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 47.366, kind = "signal", signal = "stop", dir = 1 },
+  { km = 48.303, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 48.413, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 49.076, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 49.212, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 49.559, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 49.634, kind = "halt", label = "Flacht", pos = [50.34513, 8.05454] },
+  { km = 49.748, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 50.359, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 50.509, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 51.116, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 52.765, kind = "signal", label = "V347", signal = "distant", dir = 1 },
+  { km = 53.038, kind = "signal", label = "Wv347", signal = "distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 35.859, kmTo = 35.877, length = 18 },
+  { kind = "bridge", kmFrom = 38.88, kmTo = 38.894, length = 14 },
+  { kind = "bridge", kmFrom = 43.948, kmTo = 43.961, length = 13 },
+  { kind = "bridge", kmFrom = 47.786, kmTo = 47.808, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ocqqHuubp@wFeKwLs[yIiO}@eDwBiP{CcHsKkI}K}@wC_AeWqQ}Bw@uFl@sJjHwWn\\oC~BkEj@mJqA}EpA_DtDyGlQwCnDwCdAaYxCyPiCwJIiLcGe]cMsQeA{DkCuHaMoIqCqHY_gApAwF]wGuBmEwCsUmWwFqCiF{@{Hx@eShMeDjAoEHiSqBwFsC}IcNaEiD{DsA_RwBcElAeDzCcTxg@wG`IwH|BqVDaI`A__@`Q}HtFcf@|j@mKfIkC`DmC|HuDpZmBbGqCvEaIxHuMbHiKzMoH|FoUlKwKfB{BjByBpE" },
+]
+posts = [[35, 50.22868, 8.04831], [36, 50.23388, 8.05949], [37, 50.24179, 8.06528], [38, 50.24959, 8.06237], [39, 50.25732, 8.05727], [40, 50.26556, 8.05414], [41, 50.27421, 8.05745], [42, 50.28229, 8.06195], [43, 50.29129, 8.06192], [44, 50.30003, 8.06401], [45, 50.30813, 8.06712], [46, 50.31672, 8.06675], [47, 50.32483, 8.06987], [48, 50.33137, 8.06086], [49, 50.34018, 8.05861], [50, 50.3478, 8.05153], [51, 50.35377, 8.0419], [52, 50.36075, 8.03364], [53, 50.36907, 8.02872]]

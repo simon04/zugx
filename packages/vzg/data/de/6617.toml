@@ -1,0 +1,23 @@
+id = "6617"
+ref = "6617"
+name = "6617 Bahnstrecke Brand-Erbisdorf–Langenau"
+gauge = "1435"
+wikidata = "Q801999"
+from = "Brand-Erbisdorf"
+to = "Langenau"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.233
+length = 1.233
+speeds = [[0, 1.233, "", ""]]
+curves = [[0.175, 0.375, 310], [0.425, 0.95, 460]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "gwkuHyjcpAvA|@nJfA~J|MxLlEdEoA|NqM" },
+]
+posts = [[0, 50.85572, 13.29341], [1, 50.84759, 13.2904]]

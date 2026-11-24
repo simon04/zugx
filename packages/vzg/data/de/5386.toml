@@ -1,0 +1,74 @@
+id = "5386"
+ref = "5386"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.6
+length = 5.555
+speeds = [[0, 0.112, 40, 40], [0.112, 0.573, 60, 60], [0.573, 1.345, "", ""], [1.345, 1.361, 20, 30], [1.361, 1.367, 30, 20], [1.367, 5.6, "", ""]]
+curves = [[0.107, 0.298, 2060], [0.354, 0.457, 1590], [0.505, 1.074, 300], [1.126, 1.38, 380], [1.43, 1.733, 210], [1.982, 2.131, 1030], [2.31, 2.527, 710], [2.945, 3.318, 360], [3.442, 3.96, 530], [4.276, 4.395, 1990]]
+points = [
+  { km = 0.044, kind = "station", label = "Ingolstadt Nord", uic = "8003076", pos = [48.77353, 11.43227] },
+  { km = 0.112, kind = "signal", label = "20ZS9", signal = "combined,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.476, kind = "signal", label = "20ZT9", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 0.653, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.842, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.852, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.949, kind = "signal", signal = "crossing,crossing_info", dir = 1 },
+  { km = 1.172, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.249, kind = "signal", label = "20Vzs20", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.345, kind = "signal", signal = "crossing_info,speed_limit" },
+  { km = 1.367, kind = "signal", signal = "crossing_info,speed_limit" },
+  { km = 1.56, kind = "signal", signal = "crossing,crossing_info", dir = -1 },
+  { km = 1.671, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 1.693, kind = "signal", signal = "combined", dir = -1 },
+  { km = 1.803, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.969, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.06, kind = "signal", signal = "crossing,crossing_info", dir = 1 },
+  { km = 2.078, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.454, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 2.479, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 2.494, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.495, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 2.804, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.851, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.91, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 2.91, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.983, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 3.011, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.294, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 3.316, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.412, kind = "signal", label = "20I", signal = "combined", dir = 1 },
+  { km = 3.645, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.648, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.679, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 3.681, kind = "signal", label = "20K", signal = "combined", dir = -1 },
+  { km = 4.075, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.45, kind = "signal", signal = "distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.585, kmTo = 5.6, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "m`uhHy~wdAaDnC", v = 40 },
+  { line = "oeuhHizwdAgSlT", v = 60 },
+  { line = "wyuhH{dwdAqBz@uCHqFmCyCcGqDeP}C_F" },
+  { line = "{xvhHmgxdA_@]", v = 30 },
+  { line = "{yvhHkhxdAcCuAmBmCw@qDI{DxBc^Jg_@~Kyk@^kH}@iJyGyTgAmNCgGf@oEzIgb@|Vu`B" },
+]
+posts = [[0, 48.77335, 11.43293], [1, 48.78074, 11.43055], [2, 48.78354, 11.44184], [3, 48.78136, 11.45462], [4, 48.78273, 11.46747], [5, 48.77938, 11.47996]]
+
+[[connections]]
+km = 0.044
+station = "Ingolstadt Nord"
+lines = [
+  { id = "5501", ref = "5501", name = "5501 München - Treuchtlingen", km = 84.3 },
+  { id = "5851", ref = "5851", name = "5851 Regensburg - Ingolstadt", km = 84.3 },
+  { id = "5934", ref = "5934", name = "5934 Nürnberg - Ingolstadt", km = 84.3 },
+]

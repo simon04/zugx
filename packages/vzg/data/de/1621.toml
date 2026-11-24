@@ -1,0 +1,47 @@
+id = "1621"
+ref = "1621"
+name = "1621 Osnabrück Hbf Po1 - Osnabrück Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Osnabrück Hbf Po"
+to = "Osnabrück Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.275
+length = 1.275
+speeds = [[0, 1.275, "", ""]]
+curves = [[0.1, 1.175, 310]]
+points = [
+  { km = 0.039, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.043, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.211, kind = "signal", label = "SB", signal = "combined,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.277, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.511, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.698, kind = "signal", label = "76 ZR94", signal = "combined,minor,speed_limit,traversable", dir = 1 },
+  { km = 1.004, kind = "signal", label = "76 P7", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 1.077, kind = "station", label = "Osnabrück Hauptbahnhof", uic = "8000294", pos = [52.27291, 8.06157] },
+  { km = 1.174, kind = "signal", label = "76 ZS7", signal = "combined,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.716, kmTo = 0.751, length = 35 },
+  { kind = "bridge", kmFrom = 0.82, kmTo = 0.858, length = 38 },
+  { kind = "bridge", kmFrom = 1.047, kmTo = 1.1, length = 53 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ep_~Hgwfp@bBrN@fJkB|JeFtG_Dv@oCMiLmJgKeE" },
+]
+posts = [[0, 52.26771, 8.06788], [1, 52.27215, 8.06161]]
+
+[[connections]]
+km = 1.077
+station = "Osnabrück Hauptbahnhof"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 117.742 },
+  { id = "2950", ref = "2950", name = "2950 Brackwede - Osnabrück", km = 52.992 },
+  { id = "2992", ref = "2992", name = "2992 Löhne (Westf) - Rheine", km = 132.393 },
+]

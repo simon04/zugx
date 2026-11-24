@@ -1,0 +1,76 @@
+id = "3501"
+ref = "3501"
+name = "3501 Abzw Wiesbaden Kinzenberg - Niedernhausen (Taunus)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Wiesbaden Kinzenberg"
+to = "Niedernhausen (Taunus)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 2.82
+kmTo = 19.796
+length = 16.944
+speeds = [[2.82, 8.521, 90, 90], [8.521, 8.934, 50, 50], [8.934, 9.731, 60, 60], [9.731, 18.63, 90, 90], [18.63, 19.633, 80, 80], [19.633, 19.796, 60, 60]]
+curves = [[2.92, 3.094, 720], [3.492, 3.743, 800], [3.918, 4.494, 530], [5.096, 5.622, 520], [5.922, 6.849, 720], [6.924, 7.15, 850], [7.275, 7.626, 680], [7.826, 8.954, 600], [9.33, 9.606, 1000], [9.656, 9.957, 640], [10.033, 10.309, 830], [10.535, 10.962, 720], [11.087, 11.615, 550], [11.766, 11.841, 2290], [12.017, 12.544, 650], [12.619, 12.77, 1350], [12.871, 13.046, 970], [13.422, 14.292, 820], [14.566, 14.939, 740], [15.412, 15.682, 720], [15.779, 15.828, 2400], [16.023, 16.778, 600], [17.046, 17.703, 530], [18.312, 18.434, 1660], [18.689, 18.834, 1730], [18.991, 19.222, 770], [19.602, 19.678, 1550]]
+points = [
+  { km = 2.952, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.209, kind = "signal", label = "349", signal = "main", dir = -1 },
+  { km = 4.189, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.935, kind = "stop", label = "Wiesbaden-Erbenheim", pos = [50.05523, 8.29662], uic = "8006407" },
+  { km = 8.106, kind = "signal", label = "Va", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 8.796, kind = "signal", label = "92A", signal = "combined,speed_limit", dir = 1 },
+  { km = 9.231, kind = "station", label = "Wiesbaden-Igstadt", pos = [50.08242, 8.32564], uic = "8006408" },
+  { km = 9.266, kind = "signal", label = "92N2", signal = "main,speed_limit", dir = 1 },
+  { km = 9.972, kind = "signal", label = "92F", signal = "combined,speed_limit", dir = -1 },
+  { km = 10.674, kind = "signal", label = "Vf", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 13.3, kind = "stop", label = "Auringen-Medenbach", uic = "8000671", pos = [50.11343, 8.3315], measured = true },
+  { km = 17.141, kind = "signal", label = "b440", signal = "distant", dir = 1 },
+  { km = 18.206, kind = "signal", label = "B440", signal = "distant,main", dir = 1 },
+  { km = 18.211, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 18.486, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 18.627, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.63, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.729, kind = "signal", label = "442", signal = "minor", dir = 1 },
+  { km = 18.865, kind = "signal", label = "423", signal = "minor", dir = 1 },
+  { km = 18.868, kind = "signal", label = "Zp4", signal = "wrong_road", dir = -1 },
+  { km = 19.067, kind = "signal", label = "P404", signal = "main,minor", dir = -1, measured = true },
+  { km = 19.071, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.218, kind = "signal", label = "WVp404", signal = "distant", dir = -1 },
+  { km = 19.448, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 19.452, kind = "stop", label = "Niedernhausen", pos = [50.15945, 8.3137] },
+  { km = 19.556, kind = "station", label = "Niedernhausen (Taunus)", uic = "8004400", pos = [50.16006, 8.3126] },
+  { km = 19.629, kind = "signal", label = "N404", signal = "main,minor,speed_limit,wrong_road", dir = 1, measured = true },
+  { km = 19.718, kind = "signal", label = "420", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.37, kmTo = 4.406, length = 36 },
+  { kind = "bridge", kmFrom = 5.034, kmTo = 5.057, length = 22 },
+  { kind = "bridge", kmFrom = 9.007, kmTo = 9.02, length = 13 },
+  { kind = "bridge", kmFrom = 13.409, kmTo = 13.422, length = 12 },
+  { kind = "bridge", kmFrom = 13.525, kmTo = 13.564, length = 38 },
+  { kind = "bridge", kmFrom = 14.569, kmTo = 14.584, length = 15 },
+  { kind = "tunnel", kmFrom = 16.855, kmTo = 17.067, length = 218, name = "Grauer Stein" },
+  { kind = "bridge", kmFrom = 17.949, kmTo = 17.99, length = 42 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "scopH__nq@hByPdAss@bF}[h@{GCgJqBcNgWmq@sFsI_EgCaDy@eYFuHmAoHoEaGaIeE}KyFoZcHuQcByG}@qH_By\\eBwKoFiMkEyEkDoB", v = 90 },
+  { line = "kospHelyq@qIqAeKpB", v = 50 },
+  { line = "cftpHekyq@aXhLcQb@", v = 60 },
+  { line = "iqupHw|xq@oEx@_OxHmXvBeFvAgExCyMrO_GpCyH@u[aIyIgFaFyHsFgPqIaSkNci@gHoNeFiFwIiEaXmB}GFgFzAy]pVkE~EyQp^mHnGkF~AkHGuD}@uHgF", v = 90 },
+  { line = "me`qHkxyq@}IuG", tunnel = true, v = 90 },
+  { line = "kp`qHaazq@mDsB_Fy@}Fd@gEtBmDxDe]nh@kK~K", v = 90 },
+  { line = "_{bqHiexq@eQxT{N~c@", v = 80 },
+  { line = "a}cqHojvq@qDjJ", v = 60 },
+]
+posts = [[3, 50.05337, 8.27119], [4, 50.05181, 8.28487], [5, 50.0554, 8.29699], [6, 50.06338, 8.30106], [7, 50.0696, 8.30976], [8, 50.07289, 8.32246], [9, 50.08042, 8.32677], [10, 50.08906, 8.32367], [11, 50.09752, 8.32003], [12, 50.10594, 8.31916], [13, 50.1123, 8.32833], [14, 50.11793, 8.33887], [15, 50.12673, 8.33861], [16, 50.13401, 8.33037], [17, 50.14238, 8.33013], [18, 50.1504, 8.3265], [19, 50.15702, 8.31859]]
+
+[[connections]]
+km = 19.452
+station = "Niedernhausen"
+lines = [
+  { id = "3610", ref = "3610", name = "3610 Frankfurt (Main) Hbf (tief) - Eschhofen", km = 31.786 },
+]

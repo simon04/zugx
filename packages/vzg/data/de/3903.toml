@@ -1,0 +1,116 @@
+id = "3903"
+ref = "3903"
+name = "3903 Volkmarsen - Vellmar-Obervellmar"
+operator = "DB RegioNetz Infrastruktur GmbH;Kurhessenbahn"
+gauge = "1435"
+wikidata = "Q803407"
+from = "Volkmarsen"
+to = "Vellmar-Obervellmar"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.168
+kmTo = 36.559
+length = 36.463
+speeds = [[-0.168, -0.02, 50, 50], [-0.02, 0.592, 60, 60], [0.592, 2.712, 100, 100], [2.712, 6.775, 80, 80], [6.775, 9.16, 90, 90], [9.16, 10.274, 80, 80], [10.274, 10.502, 60, 60], [10.502, 10.653, 40, 40], [10.653, 10.665, "", ""], [10.665, 11, 40, 40], [11, 11.267, 60, 60], [11.267, 11.503, 40, 40], [11.503, 13.454, 80, 80], [13.454, 15.491, 90, 90], [15.491, 22.506, 100, 100], [22.506, 22.831, 80, 80], [22.831, 23.406, 60, 60], [23.406, 23.959, 50, 50], [23.959, 27.537, 80, 80], [27.537, 34.31, 100, 100], [34.31, 34.345, "", ""], [34.345, 34.596, 100, 100], [34.596, 35.616, 80, 80], [35.616, 35.893, 60, 80], [35.893, 36.559, 60, 60]]
+curves = [[-0.068, 0.607, 330], [1.032, 1.207, 910], [3.91, 4.211, 870], [4.332, 4.603, 810], [5.258, 5.884, 340], [5.936, 6.395, 340], [6.803, 7.059, 530], [7.952, 8.131, 1610], [9.177, 9.484, 490], [9.611, 10.02, 340], [10.25, 10.326, 1750], [10.479, 11.433, 400], [12.27, 12.442, 1140], [12.541, 12.762, 1140], [13.426, 14.042, 480], [14.878, 15.567, 310], [16.035, 16.404, 570], [18.934, 19.596, 730], [20.384, 20.587, 1080], [20.893, 21.198, 670], [21.732, 21.984, 880], [22.532, 23.004, 470], [23.229, 23.48, 530], [23.556, 23.656, 2530], [23.907, 23.957, 2430], [24.082, 24.785, 300], [24.86, 25.161, 610], [25.437, 25.738, 970], [26.516, 26.667, 1070], [26.892, 27.118, 1260], [28.398, 28.674, 690], [29.426, 29.978, 680], [31.935, 32.563, 310], [33.114, 33.441, 480], [35.595, 36.195, 730], [36.295, 36.445, 2470]]
+points = [
+  { km = -0.168, kind = "station", label = "Volkmarsen", uic = "8006107", pos = [51.40793, 9.1175] },
+  { km = 4.688, kind = "stop", label = "Volkmarsen-Ehringen", pos = [51.3797, 9.15443], uic = "8001691" },
+  { km = 10.95, kind = "signal", label = "35P1", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 11, kind = "station", label = "Wolfhagen", pos = [51.33144, 9.17883], measured = true, uic = "8005288" },
+  { km = 11.16, kind = "signal", label = "35N1", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 14.891, kind = "stop", label = "Altenhasungen", pos = [51.3436, 9.22589], uic = "8000530" },
+  { km = 19.255, kind = "stop", label = "Oberelsungen", pos = [51.37671, 9.25176], uic = "8004526" },
+  { km = 22.591, kind = "stop", label = "Zierenberg-Rosental", pos = [51.36751, 9.29171], uic = "8006654" },
+  { km = 23.52, kind = "signal", label = "36P2", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 23.59, kind = "station", label = "Zierenberg", pos = [51.3651, 9.30456], uic = "8006658" },
+  { km = 23.781, kind = "signal", label = "36N2", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 27.537, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.403, kind = "stop", label = "Calden-Fürstenwald", pos = [51.38046, 9.36009], uic = "8002145" },
+  { km = 31.516, kind = "signal", label = "38P1", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 31.563, kind = "station", label = "Ahnatal-Weimar", pos = [51.3633, 9.39195], uic = "8006286" },
+  { km = 31.763, kind = "signal", label = "38N1", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 34.074, kind = "station", label = "Ahnatal-Heckershausen", pos = [51.36297, 9.4225], uic = "8002675" },
+  { km = 34.826, kind = "signal", label = "39FF", signal = "combined,speed_limit", dir = 1 },
+  { km = 34.879, kind = "stop", label = "Ahnatal-Casselbreite", pos = [51.36286, 9.43392], uic = "8000457" },
+  { km = 34.95, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 35.616, kind = "signal", label = "68B", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 35.893, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 36.169, kind = "signal", label = "68 P3", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 36.328, kind = "station", label = "Vellmar-Obervellmar", pos = [51.35924, 9.45299], uic = "8004597" },
+  { km = 36.381, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 36.382, kind = "signal", label = "68 ZR3", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.777, kmTo = 0.802, length = 24 },
+  { kind = "bridge", kmFrom = 2.268, kmTo = 2.308, length = 41 },
+  { kind = "bridge", kmFrom = 2.477, kmTo = 2.522, length = 45 },
+  { kind = "bridge", kmFrom = 5.535, kmTo = 5.59, length = 54 },
+  { kind = "bridge", kmFrom = 8.236, kmTo = 8.272, length = 35 },
+  { kind = "bridge", kmFrom = 9.16, kmTo = 9.231, length = 70 },
+  { kind = "bridge", kmFrom = 10.681, kmTo = 10.693, length = 11 },
+  { kind = "bridge", kmFrom = 10.873, kmTo = 10.893, length = 20 },
+  { kind = "bridge", kmFrom = 12.711, kmTo = 12.813, length = 104 },
+  { kind = "bridge", kmFrom = 13.208, kmTo = 13.237, length = 29 },
+  { kind = "bridge", kmFrom = 17.27, kmTo = 17.288, length = 19 },
+  { kind = "bridge", kmFrom = 18.899, kmTo = 18.957, length = 57 },
+  { kind = "bridge", kmFrom = 24.177, kmTo = 24.343, length = 166, name = "Warmetalviadukt" },
+  { kind = "bridge", kmFrom = 25.093, kmTo = 25.129, length = 35 },
+  { kind = "tunnel", kmFrom = 25.69, kmTo = 26.592, length = 899, name = "Neuer Zierenberger Tunnel" },
+  { kind = "bridge", kmFrom = 27.176, kmTo = 27.191, length = 15 },
+  { kind = "bridge", kmFrom = 29.949, kmTo = 29.969, length = 20 },
+  { kind = "bridge", kmFrom = 31.102, kmTo = 31.131, length = 29 },
+  { kind = "bridge", kmFrom = 31.404, kmTo = 31.433, length = 28 },
+  { kind = "bridge", kmFrom = 32.147, kmTo = 32.164, length = 17 },
+  { kind = "bridge", kmFrom = 32.208, kmTo = 32.225, length = 18 },
+  { kind = "bridge", kmFrom = 33.685, kmTo = 33.716, length = 31 },
+  { kind = "bridge", kmFrom = 34.31, kmTo = 34.345, length = 35 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "muwxHaysv@kFcE", v = 50 },
+  { line = "y|wxHe_tv@eDsHeAaNt@aLdDaI", v = 60 },
+  { line = "i}wxH_ouv@nU_^jpA_{@", v = 100 },
+  { line = "mutxH_jxv@~|@sl@jEwFxIyQdRq|@vDgI|D}BdGDdEjClHrHnCbAbECxCwA~SaT", v = 80 },
+  { line = "ckoxHqe}v@jHkFp|@sFpx@qS", v = 90 },
+  { line = "sjkxHci~v@nIqDdKwTlDiDvFo@hPlD", v = 80 },
+  { line = "muixHye_w@jKdB", v = 60 },
+  { line = "aiixHsb_w@dGS", v = 40 },
+  { line = "{`ixHgc_w@RK" },
+  { line = "g`ixHsc_w@tEgFxB_Gp@yD", v = 40 },
+  { line = "ethxHux_w@`@cLw@wI", v = 60 },
+  { line = "{thxHqp`w@qAkFkDyH", v = 40 },
+  { line = "y|hxHwaaw@e]_u@mJ{Yi`@kq@", v = 80 },
+  { line = "wgkxH_eew@uGsOw@sFKeL|Q}tAX}H_AgJeCeGaEyCgD_@", v = 90 },
+  { line = "ipkxHqcjw@{`@vGoFKcE}AedC_pBwFsHcFeNmAyMeB}nAvDco@xNwb@fLaYn[g]", v = 100 },
+  { line = "ezoxH{ruw@`GiI`C}I", v = 80 },
+  { line = "anoxHchvw@f@oGVy^h@_J", v = 60 },
+  { line = "wjoxHm{ww@xLmk@", v = 50 },
+  { line = "}|nxH{gyw@`DyNh@mGa@{JcBgGmCuDeBeAeN_@wDeAyTaWuEuJ", v = 80 },
+  { line = "yspxHac|w@s[uaA", tunnel = true, v = 80 },
+  { line = "mpqxHwe~w@sH}a@_D}l@", v = 80 },
+  { line = "a_rxHsv`x@kFyjAMwNdMuiAvCqPzEoK`DqDtw@yu@fi@_j@|BwDpAmGPyHw@sH}Vgu@gAiHYeFf@grA", v = 100 },
+  { line = "oynxH}}ox@?cB" },
+  { line = "oynxHaapx@FoU", v = 100 },
+  { line = "gynxHqwpx@p@m~Ap@}IvAyG", v = 80 },
+  { line = "ksnxHwjtx@~EwLvQq\\", v = 60 },
+]
+posts = [[0, 51.40971, 9.11892], [1, 51.40688, 9.13028], [2, 51.39886, 9.13668], [3, 51.39068, 9.14266], [4, 51.38307, 9.1483], [5, 51.37854, 9.15837], [6, 51.37187, 9.16261], [7, 51.36399, 9.16711], [8, 51.3552, 9.1681], [9, 51.34659, 9.17105], [10, 51.33908, 9.1769], [11, 51.33139, 9.17915], [12, 51.33581, 9.19114], [13, 51.34171, 9.20221], [14, 51.34634, 9.21376], [15, 51.34333, 9.22756], [16, 51.35072, 9.2309], [17, 51.3591, 9.23575], [18, 51.36717, 9.24262], [19, 51.37506, 9.24932], [20, 51.37806, 9.26179], [21, 51.37748, 9.27581], [22, 51.37202, 9.28686], [23, 51.36602, 9.29667], [24, 51.36334, 9.3101], [25, 51.36739, 9.31827], [26, 51.37383, 9.32788], [27, 51.37836, 9.34019], [28, 51.37984, 9.35434], [29, 51.37936, 9.36836], [30, 51.37513, 9.38046], [31, 51.36745, 9.38786], [32, 51.35988, 9.39552], [33, 51.36168, 9.40759], [34, 51.36302, 9.4213], [35, 51.36281, 9.43565], [36, 51.36141, 9.44953]]
+
+[[connections]]
+km = -0.168
+station = "Volkmarsen"
+lines = [
+  { id = "2972", ref = "2972", name = "2972 Warburg (Westf) - Sarnau", km = 14.681 },
+]
+
+[[connections]]
+km = 36.328
+station = "Vellmar-Obervellmar"
+lines = [
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 337.234 },
+  { id = "3913", ref = "3913", name = "3913 Vellmar-Obervellmar - Kassel-Wilhelmshöhe", km = 337.733 },
+]

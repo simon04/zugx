@@ -1,0 +1,45 @@
+id = "6324"
+ref = "6324"
+name = "6324 Abzw Stralsund SRG - Stralsund Rügendamm"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131700606"
+from = "Stralsund SRG"
+to = "Stralsund Rügendamm"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.067
+kmTo = 2.347
+length = 2.428
+speeds = [[-0.067, 2.347, "", ""]]
+curves = [[0.041, 0.68, 410], [0.73, 1.073, 490], [1.58, 1.776, 1630], [1.995, 2.247, 1490]]
+points = [
+  { km = 0.189, kind = "signal", label = "Vh", signal = "distant", dir = 1 },
+  { km = 0.472, kind = "signal", label = "C", signal = "main,route,wrong_road", dir = -1 },
+  { km = 0.948, kind = "signal", label = "H", signal = "combined,traversable", dir = 1 },
+  { km = 1.215, kind = "signal", label = "Vc", signal = "distant", dir = -1 },
+  { km = 1.23, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 1.284, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.504, kind = "signal", label = "C3", signal = "main,traversable", dir = -1 },
+  { km = 2.177, kind = "station", label = "Stralsund Rügendamm", uic = "8028502", pos = [54.30543, 13.10755] },
+  { km = 2.238, kind = "signal", label = "E3", signal = "main,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.632, kmTo = 1.649, length = 20 },
+  { kind = "bridge", kmFrom = 1.962, kmTo = 1.99, length = 32 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mvmjI{l_oA`JjOfRfRni@l[lDrF`IvWzDbFrG|BrK_C" },
+]
+posts = [[2, 54.30426, 13.10632], [1, 54.29514, 13.09948], [0, 54.28858, 13.09258]]
+
+[[connections]]
+km = 2.177
+station = "Stralsund Rügendamm"
+lines = [
+  { id = "6321", ref = "6321", name = "6321 Stralsund - Sassnitz", km = 226.426 },
+]

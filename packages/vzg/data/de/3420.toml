@@ -1,0 +1,64 @@
+id = "3420"
+ref = "3420"
+name = "3420 Ramsen Eiswoog - Grünstadt"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Ramsen Eiswoog"
+to = "Grünstadt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.51
+kmTo = 17.197
+length = 16.687
+speeds = [[0.51, 9.908, 60, 60], [9.908, 17.197, 80, 80]]
+curves = [[0.61, 1.91, 510], [2.635, 2.71, 2380], [2.785, 3.06, 1550], [3.16, 3.51, 830], [3.91, 4.085, 910], [4.16, 4.585, 840], [4.635, 4.835, 1150], [5.51, 5.635, 1340], [6.11, 6.21, 1630], [6.26, 6.385, 1310], [6.46, 6.585, 1460], [6.71, 6.76, 2180], [7.435, 7.81, 930], [8.61, 8.935, 730], [9.56, 9.61, 1970], [9.685, 9.96, 890], [10.01, 10.16, 960], [10.235, 10.41, 1000], [10.86, 11.135, 710], [11.185, 11.76, 440], [12.385, 12.91, 430], [13.185, 13.41, 1540], [13.66, 13.91, 680], [13.985, 14.485, 1170], [14.66, 14.91, 1010], [15.385, 15.66, 920], [16.16, 16.335, 1260], [16.51, 16.735, 1260], [16.86, 17.085, 730]]
+points = [
+  { km = 0.563, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.592, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.025, kind = "signal", label = "65G", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 1.075, kind = "stop", label = "Grünstadt Nord", pos = [49.57344, 8.17064], uic = "8002444" },
+  { km = 1.389, kind = "signal", label = "V65g", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.938, kind = "stop", label = "Asselheim", pos = [49.5761, 8.16134], uic = "8000625" },
+  { km = 4.082, kind = "stop", label = "Mertesheim", pos = [49.56918, 8.13345], uic = "8003988" },
+  { km = 5.98, kind = "stop", label = "Ebertsheim", pos = [49.56397, 8.10868], uic = "8001638" },
+  { km = 8.384, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.786, kind = "signal", label = "67A", signal = "main,traversable", dir = 1 },
+  { km = 8.948, kind = "station", label = "Eisenberg (Pfalz)", pos = [49.55419, 8.07003], uic = "8001728" },
+  { km = 9.088, kind = "signal", label = "67P1", signal = "main,traversable", dir = -1 },
+  { km = 9.127, kind = "stop", label = "Eisenberg (Pfalz)", pos = [49.5537, 8.06892] },
+  { km = 9.251, kind = "signal", label = "67N1", signal = "main,traversable", dir = 1 },
+  { km = 9.62, kind = "signal", label = "67F", signal = "main,traversable", dir = -1 },
+  { km = 9.908, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.909, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10.382, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 13.398, kind = "stop", label = "Ramsen", pos = [49.53519, 8.02236], uic = "8004935" },
+  { km = 14.656, kind = "halt", label = "Ramsen West", pos = [49.53468, 8.00475] },
+  { km = 14.97, kind = "halt", label = "Schützenhaus", pos = [49.53326, 8.00051] },
+  { km = 15.997, kind = "halt", label = "Bockbachtal", pos = [49.52673, 7.98989] },
+  { km = 17.197, kind = "stop", label = "Eiswoog", pos = [49.51494, 7.98174], uic = "8065122" },
+  { km = 17.197, kind = "station", label = "Eiswoog Stumpfwaldbahn", pos = [49.51498, 7.98185] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.773, kmTo = 1.797, length = 25 },
+  { kind = "bridge", kmFrom = 3.115, kmTo = 3.135, length = 20 },
+  { kind = "bridge", kmFrom = 5.745, kmTo = 5.756, length = 11 },
+  { kind = "bridge", kmFrom = 5.893, kmTo = 5.905, length = 13 },
+  { kind = "bridge", kmFrom = 7.984, kmTo = 8.017, length = 34 },
+  { kind = "bridge", kmFrom = 8.476, kmTo = 8.491, length = 15 },
+  { kind = "bridge", kmFrom = 8.849, kmTo = 8.868, length = 19 },
+  { kind = "bridge", kmFrom = 10.891, kmTo = 10.908, length = 17 },
+  { kind = "bridge", kmFrom = 12.938, kmTo = 12.957, length = 18 },
+  { kind = "bridge", kmFrom = 13.726, kmTo = 13.75, length = 25 },
+  { kind = "bridge", kmFrom = 14.664, kmTo = 14.685, length = 22 },
+  { kind = "bridge", kmFrom = 15.83, kmTo = 16.016, length = 186 },
+  { kind = "bridge", kmFrom = 16.293, kmTo = 16.314, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "skpmHiozp@oGuGuFwBuHHqF~BaF`GeEdM}@hLVnLvNzdAdG~WhHxQhC~MnFvk@P`Rd@zHhClOrEvP|Mz_ArExp@zApMpCdNlElOpTzo@hDjN`A|JvEhhA~@nLdAhEr]`|@fC`J", v = 60 },
+  { line = "qslmHogep@`C~MpFhRlI~k@j@zJKdWpBjMhFbIbj@dXlDlFfBzGf@rEv@ng@dEng@m@p^r@xTfFx_@|Lh`@bEbM~ClGjR`UhLjKzNpIdQtPlJlD", v = 80 },
+]
+posts = [[1, 49.5728, 8.17097], [2, 49.57589, 8.16012], [3, 49.57257, 8.14726], [4, 49.56918, 8.13464], [5, 49.56648, 8.12164], [6, 49.564, 8.10835], [7, 49.5602, 8.09594], [8, 49.55656, 8.08354], [9, 49.5544, 8.07033], [10, 49.54922, 8.05906], [11, 49.54581, 8.04631], [12, 49.54143, 8.0363], [13, 49.53552, 8.02782], [14, 49.5345, 8.01418], [15, 49.5322, 8.00108], [16, 49.52616, 7.99107], [17, 49.51832, 7.98435]]

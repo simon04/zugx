@@ -1,0 +1,97 @@
+id = "5209"
+ref = "5209"
+name = "5209 Rottendorf - Würzburg Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Rottendorf"
+to = "Würzburg Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 8.144
+length = 8.144
+speeds = [[0, 0.441, 100, 100], [0.441, 1.293, 110, 110], [1.293, 6.079, 140, 140], [6.079, 7.951, 60, 60], [7.951, 8.144, "", ""]]
+curves = [[0.1, 1.3, 620], [2.775, 3.275, 1240], [3.525, 4.45, 970], [4.7, 5, 1150], [6.125, 6.45, 420], [6.5, 6.85, 470], [7.1, 7.25, 1170], [7.325, 7.475, 1250], [7.8, 7.925, 1530]]
+points = [
+  { km = 0.434, kind = "signal", label = "24 G", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 0.441, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.701, kind = "signal", label = "24WVg", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.055, kind = "signal", label = "V933", signal = "distant", dir = 1 },
+  { km = 1.293, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.293, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.43, kind = "signal", label = "24Vg", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.183, kind = "signal", label = "933", signal = "main,traversable", dir = 1 },
+  { km = 2.291, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.731, kind = "signal", label = "934", signal = "main,traversable", dir = -1 },
+  { km = 3.079, kind = "signal", label = "WV934", signal = "distant", dir = -1 },
+  { km = 4.037, kind = "signal", label = "V935", signal = "distant", dir = 1 },
+  { km = 4.06, kind = "signal", label = "V934", signal = "distant", dir = -1 },
+  { km = 4.413, kind = "signal", label = "WV935", signal = "distant", dir = 1 },
+  { km = 4.833, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.033, kind = "signal", label = "935", signal = "distant,main,speed_limit_distant,traversable", dir = 1 },
+  { km = 5.253, kind = "signal", label = "936", signal = "main,traversable", dir = -1 },
+  { km = 5.456, kind = "signal", label = "WVc329", signal = "distant", dir = 1 },
+  { km = 6.079, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.081, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.214, kind = "signal", label = "C329", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 6.519, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 6.545, kind = "signal", label = "V200-298", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.632, kind = "signal", label = "P 349", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 6.79, kind = "signal", label = "349", signal = "minor", dir = 1 },
+  { km = 6.88, kind = "signal", label = "69I", signal = "minor", dir = 1 },
+  { km = 6.883, kind = "signal", label = "69II", signal = "minor", dir = -1 },
+  { km = 6.949, kind = "signal", label = "68", signal = "minor", dir = -1 },
+  { km = 7.094, kind = "signal", signal = "minor", dir = 1 },
+  { km = 7.124, kind = "signal", signal = "route,wrong_road", dir = -1 },
+  { km = 7.233, kind = "signal", signal = "minor", dir = 1 },
+  { km = 7.235, kind = "signal", signal = "minor", dir = -1 },
+  { km = 7.386, kind = "signal", label = "P007", signal = "departure,distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 7.418, kind = "signal", label = "WVp007", signal = "distant", dir = -1 },
+  { km = 7.454, kind = "signal", label = "070II", signal = "minor", dir = -1 },
+  { km = 7.576, kind = "signal", signal = "departure,main_repeated", dir = 1 },
+  { km = 7.577, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.627, kind = "signal", label = "007", signal = "minor", dir = 1 },
+  { km = 7.637, kind = "signal", signal = "minor", dir = -1 },
+  { km = 7.642, kind = "station", label = "Würzburg Hauptbahnhof", pos = [49.80215, 9.93589], uic = "8000260" },
+  { km = 7.695, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.733, kind = "signal", signal = "brake_test,departure,main_repeated", dir = 1 },
+  { km = 7.818, kind = "signal", signal = "departure", dir = 1 },
+  { km = 7.82, kind = "signal", label = "N 017", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 7.915, kind = "signal", signal = "minor", dir = -1 },
+  { km = 8.041, kind = "signal", signal = "minor", dir = -1 },
+  { km = 8.108, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.328, kmTo = 0.37, length = 42 },
+  { kind = "bridge", kmFrom = 0.496, kmTo = 0.582, length = 85 },
+  { kind = "bridge", kmFrom = 0.999, kmTo = 1.021, length = 22 },
+  { kind = "bridge", kmFrom = 1.692, kmTo = 1.713, length = 21 },
+  { kind = "bridge", kmFrom = 2.098, kmTo = 2.117, length = 19 },
+  { kind = "bridge", kmFrom = 4.207, kmTo = 4.239, length = 33 },
+  { kind = "bridge", kmFrom = 4.766, kmTo = 4.793, length = 27 },
+  { kind = "bridge", kmFrom = 5.393, kmTo = 5.432, length = 39 },
+  { kind = "bridge", kmFrom = 6.576, kmTo = 6.605, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "op{nHiye|@pLfA`IdF", v = 100 },
+  { line = "{xznH{oe|@lCnDbCjFrCbNh@pI@tHyAtP", v = 110 },
+  { line = "cmznH}mc|@u`@jbCuFhPgTv`@eC|HqBfKaAlKYlMbBxf@AtK_IjcB", v = 140 },
+  { line = "i}|nHqmw{@g@nIy@rE}A|DqIrLsCxJgDda@sCpRuDnl@", v = 60 },
+  { line = "ab~nHyyr{@a@vO" },
+]
+posts = [[0, 49.78968, 10.02917], [1, 49.78356, 10.02109], [2, 49.78633, 10.00793], [3, 49.78979, 9.99509], [4, 49.7953, 9.98425], [5, 49.79535, 9.97046], [6, 49.79674, 9.95669], [7, 49.80073, 9.94481], [8, 49.80278, 9.93129]]
+
+[[connections]]
+km = 7.642
+station = "Würzburg Hauptbahnhof"
+lines = [
+  { id = "1733", ref = "1733", name = "1733 Hannover - Würzburg", km = 327.381 },
+  { id = "5200", ref = "5200", name = "5200 Würzburg - Aschaffenburg", km = -0.037 },
+  { id = "5201", ref = "5201", name = "5201 Würzburg Hbf - Veitshöchheim", km = -0.043 },
+  { id = "5321", ref = "5321", name = "5321 Treuchtlingen - Würzburg", km = 140.263 },
+  { id = "5910", ref = "5910", name = "5910 Fürth - Würzburg", km = 94.571 },
+]

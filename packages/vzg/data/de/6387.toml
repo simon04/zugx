@@ -1,0 +1,40 @@
+id = "6387"
+ref = "6387"
+name = "Bahnstrecke 6387 Schkeuditz - Leipzig-Wahren"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Schkeuditz"
+to = "Leipzig-Wahren"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.465
+length = 4.465
+speeds = [[0, 3.147, 80, 100], [3.147, 3.863, 100, 100], [3.863, 4.381, 80, 80], [4.381, 4.465, "", ""]]
+curves = [[1.675, 2.85, 2220], [4.3, 4.35, 2430]]
+points = [
+  { km = 0.093, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.347, kind = "signal", label = "33 C", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.426, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.12, kind = "signal", signal = "combined,speed_limit", dir = 1 },
+  { km = 4.305, kind = "station", label = "Schkeuditz", uic = "8023454", pos = [51.40246, 12.2222] },
+  { km = 4.379, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.381, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "i}txHer}iAek@ldCyChPwCrVaBlY[nW|ChdB", v = 100 },
+  { line = "arvxHqksiAzAlm@", v = 80 },
+  { line = "eovxHc}qiAJpF" },
+]
+posts = [[0, 51.39429, 12.28083], [1, 51.39849, 12.26809], [2, 51.40247, 12.25519], [3, 51.40337, 12.24096], [4, 51.40262, 12.2266]]
+
+[[connections]]
+km = 4.305
+station = "Schkeuditz"
+lines = [
+  { id = "6403", ref = "6403", name = "Magdeburg-Leipzig", km = 105.085 },
+]

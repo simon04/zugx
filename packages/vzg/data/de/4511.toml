@@ -1,0 +1,55 @@
+id = "4511"
+ref = "4511"
+name = "Öchsle"
+operator = "EBO"
+gauge = "750"
+wikidata = "Q293903"
+from = "Warthausen"
+to = "Ochsenhausen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 19.526
+length = 19.526
+speeds = [[0, 19.526, "", ""]]
+curves = [[0.275, 0.575, 290], [0.65, 0.85, 600], [1.225, 1.35, 1270], [1.9, 2.075, 990], [2.225, 2.475, 520], [2.675, 2.875, 770], [3.025, 3.7, 1750], [4.15, 4.25, 1980], [4.35, 4.55, 970], [4.925, 5.075, 570], [5.125, 5.45, 220], [5.8, 6.075, 270], [6.15, 6.45, 250], [6.625, 7.025, 460], [7.175, 7.575, 460], [7.9, 8.2, 260], [8.425, 8.975, 340], [9.2, 9.675, 1010], [9.75, 9.975, 580], [10.35, 10.6, 970], [10.75, 10.975, 1060], [12.1, 12.3, 1080], [12.45, 12.725, 410], [12.775, 12.925, 520], [13.025, 13.2, 830], [13.425, 13.725, 280], [13.8, 14.15, 390], [14.4, 14.65, 840], [15.3, 15.725, 1030], [15.775, 16.35, 1340], [16.575, 16.775, 550], [16.875, 17.25, 430], [17.375, 17.65, 600], [17.7, 18.225, 840], [18.4, 18.6, 700], [19.05, 19.15, 950], [19.2, 19.275, 770]]
+points = [
+  { km = 0.263, kind = "station", label = "Ochsenhausen", pos = [48.07094, 9.94728] },
+  { km = 4.797, kind = "station", label = "Reinstetten", pos = [48.10921, 9.93988] },
+  { km = 8.648, kind = "halt", label = "Wennedach", pos = [48.11941, 9.90248] },
+  { km = 11.121, kind = "station", label = "Maselheim", pos = [48.1334, 9.87744] },
+  { km = 13.482, kind = "halt", label = "Sulmingen", pos = [48.15202, 9.86312] },
+  { km = 14.248, kind = "station", label = "Äpfingen", pos = [48.15263, 9.85328] },
+  { km = 16.468, kind = "halt", label = "Barabein", pos = [48.14469, 9.82681] },
+  { km = 18.011, kind = "halt", label = "Herrlishöfen", pos = [48.13931, 9.80836] },
+  { km = 128.1, kind = "halt", label = "Warthausen", uic = "8029125", pos = [48.12979, 9.80156], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.885, kmTo = 4.905, length = 19 },
+  { kind = "bridge", kmFrom = 8.549, kmTo = 8.572, length = 24 },
+  { kind = "bridge", kmFrom = 8.951, kmTo = 8.97, length = 18 },
+  { kind = "bridge", kmFrom = 13.936, kmTo = 13.954, length = 18 },
+  { kind = "bridge", kmFrom = 16.671, kmTo = 16.688, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "olkdH}qu{@uQmIwCEwBzAgJnMcX~Nge@nNkTtAcTjRoObGoCXsKi@mKoB{\\mLiNgGmZkEqK}G_Et@_AjAoInTiEfN^jFzEjORtFs@fEgHvR_AjHJrJ|C|ZGvJaAnDoQtZ}@`EFzDlFt\\C|DeAhDiGxGw@nB{Hx[oChIyDxHgLxNmMbg@_E~IsKpQqYdV{b@rZcP|R_E~A}ITuKlEoRnSw@rFfBlWkBlL[z]R`IzI|l@rFtXtDlJpIjKvHzVdGl_@VrZhBpLrJrQ`B~EjFlYrCnH~D~FfMhMzBrAn]xLrD\\vOdF" },
+]
+posts = [[0, 48.06872, 9.94607], [1, 48.07669, 9.94384], [2, 48.08526, 9.93991], [3, 48.09355, 9.93554], [4, 48.10231, 9.93716], [5, 48.11101, 9.94035], [6, 48.11662, 9.93399], [7, 48.11732, 9.92192], [8, 48.1201, 9.91065], [9, 48.12152, 9.89909], [10, 48.12695, 9.88864], [11, 48.13246, 9.87826], [12, 48.14037, 9.87187], [13, 48.14834, 9.86647], [14, 48.15233, 9.85657], [15, 48.15133, 9.84348], [16, 48.14646, 9.83251], [17, 48.14399, 9.81982], [18, 48.13938, 9.80848], [19, 48.13149, 9.80249]]
+
+[[connections]]
+km = 18.011
+station = "Herrlishöfen"
+lines = [
+  { id = "4500", ref = "4500", name = "4500 Ulm Hbf - Friedrichshafen Stadt", km = 126.888 },
+]
+
+[[connections]]
+km = 128.1
+station = "Warthausen"
+lines = [
+  { id = "4500", ref = "4500", name = "4500 Ulm Hbf - Friedrichshafen Stadt", km = 128.112 },
+]

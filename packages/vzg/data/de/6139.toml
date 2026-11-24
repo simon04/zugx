@@ -1,0 +1,80 @@
+id = "6139"
+ref = "6139"
+name = "6139 Berlin Ostkreuz - Berlin-Lichtenberg"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131673576"
+from = "Berlin Ostkreuz"
+to = "Berlin-Lichtenberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.112
+kmTo = 2.245
+length = 2.271
+speeds = [[-0.112, 0.187, 60, 60], [0.187, 0.561, 50, 50], [0.561, 0.655, "", ""], [0.655, 0.67, 50, 50], [0.67, 0.752, "", ""], [0.752, 1.279, 50, 50], [1.279, 1.391, 60, 60], [1.391, 1.788, 50, 50], [1.788, 2.245, 60, 60]]
+curves = [[0.015, 0.57, 370], [0.62, 0.72, 2290], [0.77, 1.32, 600], [1.42, 1.545, 1470], [1.745, 1.87, 1460]]
+points = [
+  { km = -0.112, kind = "station", label = "Berlin Ostkreuz (Ostbahn)", uic = "8011162", pos = [52.50357, 13.46978] },
+  { km = 0.185, kind = "signal", label = "61L 301X", signal = "minor", dir = -1 },
+  { km = 0.187, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.418, kind = "signal", label = "61 BB", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.507, kind = "signal", label = "A", signal = "combined,route,traversable", dir = 1 },
+  { km = 0.751, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.994, kind = "signal", label = "E", signal = "combined,traversable", dir = -1 },
+  { km = 1.035, kind = "halt", label = "Nöldnerplatz", uic = "8089026", pos = [52.50369, 13.48494] },
+  { km = 1.279, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.279, kind = "signal", label = "161", signal = "shunting", dir = 1 },
+  { km = 1.788, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.848, kind = "signal", label = "L4", signal = "combined,minor,traversable", dir = -1 },
+  { km = 1.951, kind = "station", label = "Berlin-Lichtenberg", uic = "8010036", pos = [52.50978, 13.49614] },
+  { km = 2.094, kind = "signal", label = "M4", signal = "combined,minor", dir = 1 },
+  { km = 2.174, kind = "station", label = "Lichtenberg", pos = [52.51023, 13.49781], uic = "8010036" },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.112, kmTo = -0.102, length = 10 },
+  { kind = "bridge", kmFrom = 0.54, kmTo = 0.551, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gco_IkskqA`Pn^", v = 60 },
+  { line = "ern_I{sjqAjKl]", v = 50 },
+  { line = "yen_ImuiqA~A~G", v = 60 },
+  { line = "ybn_ImliqAbBpKVtKUpH}AvJ", v = 50 },
+  { line = "qbn_I{}gqAaAvE" },
+  { line = "sdn_IcwgqAPe@", v = 50 },
+  { line = "adn_IixgqAiAxF" },
+  { line = "kfn_IopgqA_A|GMrGpA`N", v = 50 },
+  { line = "gfn_I{ofqAfBbFnDxE", v = 60 },
+]
+posts = [[2, 52.50993, 13.4969], [1, 52.50559, 13.48428], [0, 52.50617, 13.47218]]
+
+[[connections]]
+km = -0.112
+station = "Berlin Ostkreuz"
+lines = [
+  { id = "6004", ref = "6004", name = "6004 Berlin Ostbahnhof - Erkner", km = 2.495 },
+  { id = "6006", ref = "6006", name = "6006 Berlin Warschauer Straße - Strausberg", km = 2.5 },
+  { id = "6007", ref = "6007", name = "6007 Berlin Warschauer Straße - Königs Wusterhausen", km = 0.26 },
+  { id = "6152", ref = "6152", name = "6152 Berlin Ostbahnhof - Berlin-Rummelsburg", km = 2.609 },
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 2.573 },
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 50.055 },
+]
+
+[[connections]]
+km = 1.951
+station = "Berlin-Lichtenberg"
+lines = [
+  { id = "6072", ref = "6072", name = "6072 Berlin-Lichtenberg - Ahrensfelde", km = 4.492 },
+]
+
+[[connections]]
+km = 2.174
+station = "Lichtenberg"
+lines = [
+  { id = "6006", ref = "6006", name = "6006 Berlin Warschauer Straße - Strausberg", km = 4.668 },
+  { id = "6072", ref = "6072", name = "6072 Berlin-Lichtenberg - Ahrensfelde", km = 4.642 },
+  { id = "6078", ref = "6078", name = "6078 Berlin Warschauer Straße - Küstrin-Kietz Grenze", km = 4.8 },
+]

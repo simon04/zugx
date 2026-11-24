@@ -1,0 +1,32 @@
+id = "3651"
+ref = "3651"
+name = "3651 Neu-Isenburg - Abzw Forsthaus (Frankfurt)"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q122067506"
+from = "Neu-Isenburg"
+to = "Forsthaus (Frankfurt)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.31
+kmTo = 2.92
+length = 1.576
+speeds = [[1.31, 2.807, 80, 80], [2.807, 2.92, 60, 60]]
+curves = [[1.71, 2.819, 510]]
+points = [
+  { km = 1.698, kind = "signal", label = "313F", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 1.973, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.807, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.502, kmTo = 2.585, length = 83 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wtqpHu{{s@}[}AaGnAeE|CcFpIeCtKk@bM~@xM", v = 80 },
+  { line = "sjspH_czs@~@jH", v = 60 },
+]
+posts = [[2, 50.07298, 8.66756]]

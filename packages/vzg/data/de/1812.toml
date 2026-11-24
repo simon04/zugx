@@ -1,0 +1,193 @@
+id = "1812"
+ref = "1812"
+name = "1812 Seesen - Herzberg"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802427"
+from = "Seesen"
+to = "Herzberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 85.944
+kmTo = 117.69
+length = 31.716
+speeds = [[85.944, 86.106, 60, 60], [86.106, 86.568, "", ""], [86.568, 86.7, 50, 50], [86.7, 87.144, 60, 60], [87.144, 87.53, 80, 80], [87.53, 92.11, "", ""], [92.11, 92.326, 80, 80], [92.326, 96.674, "", ""], [96.674, 97.907, 80, 80], [97.907, 98.759, "", ""], [98.759, 100.846, 80, 80], [100.846, 100.865, "", ""], [100.865, 102.604, 80, 80], [102.604, 104.267, "", ""], [104.267, 104.538, 80, 80], [104.538, 117.183, "", ""], [117.183, 117.305, 80, 80], [117.305, 117.69, "", ""]]
+curves = [[86.069, 86.144, 1440], [86.515, 87.453, 640], [88.391, 89.132, 690], [89.311, 89.957, 700], [90.191, 90.402, 1120], [90.448, 90.8, 930], [91.149, 91.224, 2190], [91.284, 91.363, 2130], [91.538, 91.913, 880], [92.138, 92.588, 990], [93.388, 93.488, 1670], [94.188, 94.538, 1430], [95.089, 95.339, 1310], [95.414, 95.514, 1860], [95.864, 96.614, 1010], [97.164, 97.802, 960], [98.514, 98.995, 790], [99.107, 99.736, 1110], [100.841, 101.275, 1440], [101.451, 102.12, 1380], [102.743, 103.066, 1730], [103.638, 104.103, 860], [104.345, 104.757, 800], [105.29, 105.614, 740], [105.836, 106.362, 710], [108.178, 108.911, 720], [109.139, 109.545, 820], [110.154, 110.256, 1630], [111.144, 111.474, 840], [111.956, 112.337, 1040], [113.428, 113.707, 1290], [114.073, 114.537, 880], [115.464, 115.724, 1220], [115.914, 116.245, 690], [116.435, 116.962, 780], [117.224, 117.574, 840]]
+points = [
+  { km = 85.962, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 86.087, kind = "station", label = "Seesen", uic = "8013095", pos = [51.88717, 10.17397] },
+  { km = 86.106, kind = "signal", label = "29 P4", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 86.132, kind = "stop", label = "Seesen, Bahnhof", pos = [51.88691, 10.17346] },
+  { km = 86.515, kind = "signal", label = "29N4", signal = "main,route,speed_limit_distant,traversable", dir = 1 },
+  { km = 86.62, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 86.7, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 86.826, kind = "signal", label = "29G", signal = "combined", dir = -1 },
+  { km = 87.144, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 87.729, kind = "signal", signal = "distant", dir = -1 },
+  { km = 88.511, kind = "signal", signal = "crossing_distant" },
+  { km = 88.824, kind = "signal", signal = "crossing_distant" },
+  { km = 89.783, kind = "signal", signal = "crossing_distant" },
+  { km = 90.009, kind = "signal", signal = "crossing_distant" },
+  { km = 90.265, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 90.668, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 90.808, kind = "signal", label = "28A", signal = "main", dir = 1 },
+  { km = 90.969, kind = "signal", signal = "crossing_distant" },
+  { km = 91.063, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 91.102, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 91.159, kind = "station", label = "Münchehof (Harz)", pos = [51.84904, 10.18873], uic = "8013102" },
+  { km = 91.192, kind = "signal", signal = "distant", dir = 1 },
+  { km = 91.311, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 91.362, kind = "signal", label = "28P2", signal = "main,speed_limit", dir = -1 },
+  { km = 92.015, kind = "signal", label = "28N1", signal = "main,speed_limit", dir = 1 },
+  { km = 92.182, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 92.384, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 92.538, kind = "signal", label = "28F", signal = "main,speed_limit", dir = -1 },
+  { km = 93.611, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 94.964, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 95.167, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 96.559, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 96.825, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 96.904, kind = "signal", signal = "distant", dir = 1 },
+  { km = 97.747, kind = "signal", label = "27A", signal = "combined", dir = 1 },
+  { km = 97.907, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 98.087, kind = "signal", label = "27P1", signal = "main", dir = -1 },
+  { km = 98.233, kind = "signal", signal = "combined", dir = -1 },
+  { km = 98.44, kind = "station", label = "Gittelde/Bad Grund(Harz)", pos = [51.78742, 10.20301], uic = "8013103" },
+  { km = 98.521, kind = "signal", label = "27N1", signal = "main", dir = 1 },
+  { km = 98.752, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 98.963, kind = "signal", label = "27F", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 99.18, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 99.369, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 99.558, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 99.691, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 99.722, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 100.723, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 100.767, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 100.891, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 100.93, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 101.004, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 101.328, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 102.31, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 102.477, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 102.574, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 103.926, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 104.278, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 104.538, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 105.418, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 105.754, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 105.798, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 105.981, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 106.004, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 106.106, kind = "signal", signal = "stop", dir = -1 },
+  { km = 106.149, kind = "stop", label = "Osterode (Harz) Mitte", pos = [51.72606, 10.24546], uic = "8013104" },
+  { km = 106.193, kind = "signal", signal = "stop", dir = 1 },
+  { km = 106.255, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 106.372, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 106.378, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 106.93, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 107.031, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 107.113, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 107.285, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 107.756, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 107.825, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 107.947, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 107.964, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 108.116, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 108.17, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 108.23, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 108.268, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 108.27, kind = "signal", signal = "stop", dir = -1 },
+  { km = 108.301, kind = "stop", label = "Osterode (Harz) Leege", pos = [51.71706, 10.27301], uic = "8013105" },
+  { km = 108.369, kind = "signal", signal = "stop", dir = 1 },
+  { km = 108.416, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 108.48, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 108.867, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 108.993, kind = "signal", signal = "distant", dir = 1 },
+  { km = 109.119, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 109.351, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 109.721, kind = "signal", label = "26 101", signal = "main", dir = 1 },
+  { km = 109.841, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 110.013, kind = "signal", signal = "main", dir = -1 },
+  { km = 111.072, kind = "signal", signal = "distant", dir = -1 },
+  { km = 112.722, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 113.201, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 114.398, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 114.696, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 115.832, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 115.942, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 115.956, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 116.122, kind = "signal", signal = "distant", dir = 1 },
+  { km = 116.637, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 116.661, kind = "signal", signal = "stop", dir = -1 },
+  { km = 116.682, kind = "stop", label = "Herzberg (Harz) Schloß", uic = "8002800", pos = [51.65446, 10.33277] },
+  { km = 116.715, kind = "signal", signal = "stop", dir = 1 },
+  { km = 116.869, kind = "signal", signal = "distant", dir = 1 },
+  { km = 117.127, kind = "signal", label = "B", signal = "distant,main", dir = 1 },
+  { km = 117.242, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 117.305, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 117.449, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 117.498, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 117.69, kind = "station", label = "Herzberg (Harz)", uic = "8013088", pos = [51.64379, 10.32985] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 87.53, kmTo = 87.569, length = 39 },
+  { kind = "bridge", kmFrom = 88.451, kmTo = 88.467, length = 16 },
+  { kind = "bridge", kmFrom = 88.915, kmTo = 88.93, length = 16 },
+  { kind = "bridge", kmFrom = 92.11, kmTo = 92.144, length = 34 },
+  { kind = "bridge", kmFrom = 92.326, kmTo = 92.373, length = 46 },
+  { kind = "bridge", kmFrom = 94.968, kmTo = 95.014, length = 46 },
+  { kind = "bridge", kmFrom = 96.663, kmTo = 96.674, length = 11 },
+  { kind = "bridge", kmFrom = 98.759, kmTo = 98.781, length = 27 },
+  { kind = "bridge", kmFrom = 99.827, kmTo = 99.844, length = 11 },
+  { kind = "bridge", kmFrom = 100.846, kmTo = 100.865, length = 20 },
+  { kind = "bridge", kmFrom = 102.604, kmTo = 102.618, length = 14 },
+  { kind = "bridge", kmFrom = 103.743, kmTo = 103.77, length = 27 },
+  { kind = "bridge", kmFrom = 104.231, kmTo = 104.267, length = 37 },
+  { kind = "bridge", kmFrom = 105.461, kmTo = 105.477, length = 12 },
+  { kind = "bridge", kmFrom = 105.528, kmTo = 105.578, length = 37 },
+  { kind = "bridge", kmFrom = 105.663, kmTo = 105.673, length = 10 },
+  { kind = "bridge", kmFrom = 105.778, kmTo = 105.796, length = 18 },
+  { kind = "bridge", kmFrom = 111.819, kmTo = 111.833, length = 14 },
+  { kind = "bridge", kmFrom = 114.204, kmTo = 114.22, length = 16 },
+  { kind = "bridge", kmFrom = 116.274, kmTo = 116.305, length = 32 },
+  { kind = "bridge", kmFrom = 116.41, kmTo = 116.422, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oju{Hylb}@nDtJ", v = 60 },
+  { line = "_eu{Hcab}@dMvb@" },
+  { line = "yvt{Hk}`}@jDjG", v = 50 },
+  { line = "mqt{H_u`}@zDhBdDB|KwF", v = 60 },
+  { line = "mys{Hiy`}@nGwGdGwL", v = 80 },
+  { line = "whs{Hyoa}@hb@y}@pGgH~CiBvFwAdEI~T~ExIXpI_CrDqCtP_TtL_IpMyAxm@lDpJmBvKcG" },
+  { line = "{cl{H}fe}@rJoD", v = 80 },
+  { line = "gxk{Hmle}@hMSfn@`Gpr@?hI|A~_@`M`QbA|V_AvHaAnFuBhL}KvFkK" },
+  { line = "okd{H}re}@jTwc@xDuFzJ_IzNwD", v = 80 },
+  { line = "qtb{Hcog}@ne@}I|IgG" },
+  { line = "cca{Hibh}@dFqH~La[zDmGpGsGlHqDtt@iR", v = 80 },
+  { line = "k`~zH{qj}@b@I" },
+  { line = "g_~zHerj}@vOgAnUhC`Qq@nc@yR", v = 80 },
+  { line = "ma{zHoek}@`ReK`e@ao@nFaDjPwC" },
+  { line = "moxzHqkm}@tIqArCqA", v = 80 },
+  { line = "c`xzHupm}@zGiHd\\ui@nEsDxPaI|EuEjD{FtCiJpo@myCfCiHfGwJfKmGlGw@lPK`GaB|E_Dt`@q\\fl@go@rGwKxQyn@nE}K`HuIxv@ex@jTcf@rHcI~{@__@pS{WfC_CvEqBvQqDhHF`G~B`OdL" },
+  { line = "a}fzHkq`~@fE`D", v = 80 },
+  { line = "yvfzHil`~@pMhCtEm@" },
+]
+posts = [[86, 51.88763, 10.175], [87, 51.88128, 10.16656], [88, 51.87451, 10.17614], [89, 51.86713, 10.18351], [90, 51.85873, 10.18461], [91, 51.85052, 10.18893], [92, 51.8417, 10.18949], [93, 51.8329, 10.19037], [94, 51.82392, 10.18985], [95, 51.81511, 10.18753], [96, 51.80618, 10.18721], [97, 51.79903, 10.19544], [98, 51.79145, 10.20186], [99, 51.78247, 10.20764], [100, 51.77489, 10.21514], [101, 51.76711, 10.21775], [102, 51.75877, 10.21755], [103, 51.75006, 10.22279], [104, 51.74267, 10.23114], [105, 51.73446, 10.23692], [106, 51.7271, 10.24405], [107, 51.72233, 10.25628], [108, 51.7183, 10.26911], [109, 51.711, 10.2773], [110, 51.70283, 10.28213], [111, 51.69537, 10.28981], [112, 51.68982, 10.30069], [113, 51.68276, 10.3091], [114, 51.67606, 10.31798], [115, 51.66844, 10.32417], [116, 51.66035, 10.33067], [117, 51.65195, 10.33139]]
+
+[[connections]]
+km = 86.087
+station = "Seesen"
+lines = [
+  { id = "1940", ref = "1940", name = "1940 Kreiensen - Holzminden", km = 86.092 },
+]
+
+[[connections]]
+km = 117.69
+station = "Herzberg"
+lines = [
+  { id = "1810", ref = "1810", name = "1810 Northeim - Nordhausen", km = 115.756 },
+]

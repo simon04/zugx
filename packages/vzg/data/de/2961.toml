@@ -1,0 +1,71 @@
+id = "2961"
+ref = "2961"
+name = "Almetalbahn"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 27.1
+kmTo = 53.5
+length = 26.365
+speeds = [[27.1, 47.6, 25, 25], [47.6, 52.024, 50, 50], [52.024, 52.044, 50, 40], [52.044, 52.075, 40, 40], [52.075, 52.135, 20, 20], [52.135, 52.709, 50, 50], [52.709, 53.5, 70, 60]]
+curves = [[27.201, 27.278, 660], [27.355, 27.874, 360], [28.474, 28.75, 450], [28.795, 29.175, 390], [29.529, 29.742, 810], [29.869, 30.457, 310], [30.733, 31.159, 440], [31.309, 31.735, 430], [31.81, 31.961, 870], [32.086, 32.337, 770], [32.537, 33.064, 1460], [33.515, 33.715, 510], [34.267, 34.492, 740], [34.593, 34.818, 820], [35.169, 35.595, 750], [36.272, 36.372, 1710], [36.498, 36.823, 600], [36.874, 37.124, 490], [37.55, 37.901, 380], [38.052, 38.252, 960], [38.678, 39.28, 530], [39.43, 40.132, 510], [40.558, 40.784, 1010], [41.034, 41.26, 900], [41.686, 42.212, 530], [42.887, 43.089, 620], [43.436, 43.665, 540], [43.713, 43.888, 600], [43.963, 44.336, 340], [44.384, 44.713, 380], [44.831, 45.043, 770], [45.161, 45.584, 340], [46.107, 46.769, 360], [50.57, 51.226, 410], [51.424, 52.093, 300], [52.466, 53.153, 300], [53.344, 53.391, 1210]]
+points = [
+  { km = 43.263, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 43.285, kind = "station", label = "Alme", pos = [51.45595, 8.6181] },
+  { km = 43.466, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 43.467, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 45.524, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 45.528, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 46.306, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 47.6, kind = "signal", signal = "snowplow" },
+  { km = 50.289, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 50.626, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 51.568, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 51.667, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 51.676, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 51.686, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 51.805, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 51.811, kind = "signal", signal = "main", dir = 1 },
+  { km = 51.907, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 51.949, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 52.017, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 52.017, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 52.024, kind = "signal", signal = "crossing_info,speed_limit", dir = 1 },
+  { km = 52.044, kind = "signal", signal = "crossing_info,speed_limit", dir = -1 },
+  { km = 52.048, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 52.135, kind = "signal", signal = "speed_limit,stop", dir = -1 },
+  { km = 52.208, kind = "signal", signal = "stop", dir = -1 },
+  { km = 52.223, kind = "station", label = "Brilon Stadt", pos = [51.39892, 8.57538], uic = "8001182" },
+  { km = 52.426, kind = "signal", signal = "stop", dir = 1 },
+  { km = 52.474, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 52.482, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 52.575, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 52.603, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 52.618, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 52.709, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 52.792, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 53.134, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 53.272, kind = "signal", signal = "crossing_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 30.037, kmTo = 30.08, length = 43 },
+  { kind = "bridge", kmFrom = 30.275, kmTo = 30.303, length = 34 },
+  { kind = "bridge", kmFrom = 42.819, kmTo = 42.885, length = 67 },
+  { kind = "tunnel", kmFrom = 44.143, kmTo = 44.241, length = 98, name = "Almer Tunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "w{tyH{ces@nDJzJuCtDG~ErBpDfFdVx|@`@~G]rSlAlJbWbd@xGdXvCdF|DvBbFI|UkQvG}AjEj@hR~K~DXvEgAvJmHtKwNdM_a@xIyRjBgB|_@aSr\\kj@nPcMpBgC`S__@vB}GpAmHjJgcAdDmV^}LqAgRNyI|Hmn@lCsH|CsCzM}Gh_@sF`I_E~CuE|BgG~EeZnBiHnEcI|F{D~Gw@r_@|BtY}Gn`@lAbIoBjHkIz[_w@nByC|W{TrMu@tKqE~DC", v = 25 },
+  { line = "yp_yHeyrs@dD|A", tunnel = true, v = 25 },
+  { line = "sk_yHgvrs@dHbKdErCdDRnPcBrOdE~FSbCeBlByCzV_t@dEgEtFeAfDf@fD~Bdb@ll@", v = 25 },
+  { line = "}qzxHeurs@bfCnoDfCjMFvM_AzHsHxZa@pKl@nGdBjFhCdDbDtA", v = 50 },
+  { line = "}dvxHq}is@t@L", v = 40 },
+  { line = "gcvxHc}is@jBZ", v = 20 },
+  { line = "{_vxHg|is@nUdDjCQpCyA", v = 50 },
+  { line = "m`uxHmzis@zDwGrAkKGsFkCo\\CaG", v = 70 },
+]
+posts = [[28, 51.55112, 8.54748], [29, 51.54824, 8.53427], [30, 51.54258, 8.52334], [31, 51.53434, 8.52538], [32, 51.52608, 8.52578], [33, 51.52028, 8.53653], [34, 51.51255, 8.54334], [35, 51.50543, 8.55188], [36, 51.50156, 8.56447], [37, 51.50028, 8.5784], [38, 51.49595, 8.58999], [39, 51.48738, 8.59357], [40, 51.48182, 8.6039], [41, 51.47294, 8.60433], [42, 51.46411, 8.60532], [43, 51.45815, 8.61605], [44, 51.44988, 8.62098], [45, 51.44117, 8.61825], [46, 51.43389, 8.62478], [47, 51.42667, 8.62502], [48, 51.42037, 8.61684], [49, 51.41338, 8.60777], [50, 51.40636, 8.59867], [51, 51.4008, 8.58831], [52, 51.40102, 8.57592], [53, 51.39344, 8.57844]]

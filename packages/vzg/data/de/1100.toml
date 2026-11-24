@@ -1,0 +1,134 @@
+id = "1100"
+ref = "1100"
+name = "1100 Lübeck Hbf - Puttgarden"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q479904"
+from = "Lübeck Hbf"
+to = "Puttgarden"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 28.671
+length = 28.634
+speeds = [[0, 0.325, "", ""], [0.325, 0.723, 60, 60], [0.723, 0.991, 120, 60], [0.991, 7.065, 120, 120], [7.065, 11.35, 140, 140], [11.35, 12.202, 120, 120], [12.202, 22.91, 140, 140], [22.91, 23.503, 60, 60], [23.503, 28.201, 140, 140], [28.201, 28.671, 110, 110]]
+curves = [[0.1, 0.35, 890], [1.139, 1.292, 1670], [1.584, 1.631, 2620], [2.488, 2.624, 1600], [3.376, 3.444, 2680], [3.567, 4.076, 920], [4.301, 5.06, 1010], [10.238, 10.715, 2070], [12.897, 13.398, 2090], [15.355, 16.309, 2030], [20.916, 20.991, 2450], [21.066, 21.217, 770], [21.292, 22.07, 1180], [22.848, 22.923, 1560], [23.45, 23.575, 1150], [23.826, 23.926, 1860], [24.98, 25.055, 1910], [25.181, 25.407, 1840], [25.883, 26.184, 1460], [26.26, 26.787, 1770], [26.862, 27.163, 1440], [27.213, 27.339, 1770], [28.291, 28.563, 1080]]
+points = [
+  { km = 0, kind = "station", label = "Lübeck Hauptbahnhof", pos = [53.86759, 10.66986], uic = "8000630" },
+  { km = 0.177, kind = "signal", label = "90 P4", signal = "combined,speed_limit", dir = 1 },
+  { km = 0.419, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.574, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 0.68, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.702, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.978, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.991, kind = "signal", label = "90 AA", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.176, kind = "signal", label = "94 01", signal = "combined", dir = 1 },
+  { km = 1.206, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.095, kind = "signal", label = "94 05", signal = "main", dir = 1 },
+  { km = 2.202, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.206, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.004, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.314, kind = "signal", label = "94 09", signal = "main,speed_limit", dir = 1 },
+  { km = 4.671, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 4.704, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.875, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 5.083, kind = "signal", label = "94 12", signal = "main,wrong_road", dir = -1 },
+  { km = 5.214, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 5.541, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 5.608, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 5.761, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.964, kind = "stop", label = "Bad Schwartau", pos = [53.91587, 10.70228] },
+  { km = 6.229, kind = "signal", label = "94 21", signal = "main,speed_limit", dir = 1 },
+  { km = 6.355, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 6.388, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.439, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 6.457, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.071, kind = "signal", label = "94 22", signal = "main,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 7.076, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.007, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 8.16, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 8.889, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 9.757, kind = "signal", signal = "combined,speed_limit", dir = 1 },
+  { km = 10.326, kind = "signal", label = "P 2", signal = "main,minor", dir = -1 },
+  { km = 10.464, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 10.471, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10.618, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.941, kind = "signal", label = "N 2", signal = "main,minor", dir = 1 },
+  { km = 11.35, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.451, kind = "signal", signal = "combined,speed_limit", dir = -1 },
+  { km = 12.443, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 12.461, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 12.52, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.531, kind = "signal", signal = "distant", dir = -1 },
+  { km = 13.522, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 13.875, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 13.986, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 15.009, kind = "signal", signal = "combined,speed_limit", dir = 1 },
+  { km = 15.1, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 15.63, kind = "signal", label = "18 P2", signal = "main,traversable", dir = -1 },
+  { km = 15.76, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.77, kind = "station", label = "Timmendorfer Strand", pos = [53.9944, 10.7623], uic = "8005874" },
+  { km = 15.923, kind = "signal", label = "18 N2", signal = "main,traversable", dir = 1 },
+  { km = 16.402, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 16.632, kind = "signal", signal = "combined,speed_limit", dir = -1 },
+  { km = 16.656, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 17.507, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 17.576, kind = "signal", signal = "combined,speed_limit", dir = 1 },
+  { km = 18.289, kind = "signal", label = "P 2", signal = "main,minor", dir = -1 },
+  { km = 18.678, kind = "station", label = "Scharbeutz", pos = [54.01878, 10.74576], uic = "8005321" },
+  { km = 18.772, kind = "signal", label = "N 2", signal = "main,minor", dir = 1 },
+  { km = 19.369, kind = "signal", signal = "combined,speed_limit", dir = -1 },
+  { km = 20.319, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 21.632, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 21.679, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 22.904, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.905, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 23.043, kind = "signal", signal = "stop", dir = -1 },
+  { km = 23.123, kind = "signal", signal = "stop", dir = 1 },
+  { km = 23.184, kind = "station", label = "Haffkrug", pos = [54.05503, 10.74373], uic = "8002504" },
+  { km = 23.186, kind = "signal", signal = "stop", dir = 1 },
+  { km = 23.295, kind = "signal", signal = "stop", dir = 1 },
+  { km = 23.35, kind = "signal", signal = "stop", dir = 1 },
+  { km = 23.505, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.506, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 25.383, kind = "station", label = "Sierksdorf", pos = [54.06839, 10.7685], uic = "8005561" },
+  { km = 26.345, kind = "halt", label = "Eingang", pos = [54.07427, 10.77857] },
+  { km = 26.434, kind = "halt", label = "Peterhof von Novgorod", pos = [54.07425, 10.78067] },
+  { km = 26.566, kind = "halt", label = "New Lübeck", pos = [54.07537, 10.78129] },
+  { km = 26.667, kind = "halt", label = "Wikingerland", pos = [54.07665, 10.78055] },
+  { km = 26.943, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 27.312, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 28.201, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.314, kind = "signal", label = "14 A", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.507, kmTo = 3.527, length = 20 },
+  { kind = "bridge", kmFrom = 3.746, kmTo = 3.774, length = 29 },
+  { kind = "bridge", kmFrom = 7.048, kmTo = 7.064, length = 20 },
+  { kind = "bridge", kmFrom = 10.334, kmTo = 10.399, length = 65 },
+  { kind = "bridge", kmFrom = 24.271, kmTo = 24.293, length = 22 },
+  { kind = "bridge", kmFrom = 26.085, kmTo = 26.133, length = 49 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q~wgIi~b`AgDcJoFuI" },
+  { line = "ikxgIctc`AaRqR", v = 60 },
+  { line = "k~xgIugd`AqUuUeR{Mqu@{a@o`Ag\\mIQ{ZnDiH_AsHaDwJyIe|AoiB", v = 120 },
+  { line = "kbchIydk`A_lAcwAwgA{aB_LsKab@{X", v = 140 },
+  { line = "ehihIifr`A{j@__@", v = 120 },
+  { line = "atjhIifs`Aic@qYgHkD_LcDqqBwSkOA_QvC{OhHimBtoAyaC`}A_I~DyPr@kIuAqG{CuJuIsf@mm@", v = 140 },
+  { line = "sg|hIm|p`AeYsa@", v = 60 },
+  { line = "ya}hIa_r`AuM_Xmj@asAiHqUePus@oFwNcKoRaQwRaMyHsHeCep@eL", v = 140 },
+  { line = "_eciIqiz`AcL{C{JwH", v = 110 },
+]
+posts = [[0, 53.86745, 10.66997], [1, 53.87464, 10.67873], [2, 53.88291, 10.68502], [3, 53.89145, 10.68968], [4, 53.90014, 10.69294], [5, 53.90873, 10.69413], [6, 53.91626, 10.70277], [7, 53.92373, 10.71123], [8, 53.93189, 10.72054], [9, 53.93874, 10.7288], [10, 53.94551, 10.73817], [11, 53.95315, 10.74594], [12, 53.96139, 10.75197], [13, 53.96964, 10.75791], [14, 53.97848, 10.76024], [15, 53.98739, 10.76184], [16, 53.99625, 10.76167], [17, 54.00468, 10.75595], [18, 54.01305, 10.74994], [19, 54.02138, 10.74389], [20, 54.02963, 10.73794], [21, 54.03789, 10.73201], [22, 54.04648, 10.73351], [23, 54.05383, 10.74223], [24, 54.06051, 10.75235], [25, 54.06644, 10.76379], [26, 54.07112, 10.77677], [27, 54.07809, 10.78607], [28, 54.08686, 10.7891]]
+
+[[connections]]
+km = 0
+station = "Lübeck Hauptbahnhof"
+lines = [
+  { id = "1120", ref = "1120", name = "1120 Lübeck - Hamburg", km = -0.017 },
+]

@@ -1,0 +1,66 @@
+id = "2821"
+ref = "2821"
+name = "2821 Hagen-Vorhalle - Herdecke"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q20310439"
+from = "Hagen-Vorhalle"
+to = "Herdecke"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.1
+kmTo = 3.589
+length = 3.49
+speeds = [[0.1, 1.967, 80, 80], [1.967, 3.219, 70, 70], [3.219, 3.589, "", ""]]
+curves = [[0.3, 0.5, 1210], [0.8, 1.2, 370], [1.45, 1.625, 900], [1.899, 2.674, 370], [2.974, 3.474, 490]]
+points = [
+  { km = 0.306, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.575, kind = "signal", label = "P574", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 0.823, kind = "station", label = "Hagen-Vorhalle", uic = "8000977", pos = [51.38814, 7.43367] },
+  { km = 0.833, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.587, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.755, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.904, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.793, kind = "signal", signal = "distant,main,traversable", dir = 1 },
+  { km = 2.991, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 3.183, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.207, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.409, kind = "station", label = "Herdecke", uic = "8002769", pos = [51.40474, 7.43258] },
+  { km = 3.423, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.427, kind = "signal", label = "N801", signal = "main,minor,traversable", dir = 1 },
+  { km = 3.428, kind = "signal", signal = "main_repeated", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.812, kmTo = 0.825, length = 13 },
+  { kind = "bridge", kmFrom = 2.261, kmTo = 2.572, length = 311, name = "Ruhr-Viadukt" },
+  { kind = "bridge", kmFrom = 3.186, kmTo = 3.197, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "k~sxHy{ll@mAnW@fm@m@vG_D~HmQrTqNf\\", v = 80 },
+  { line = "eiuxHmohl@sDxDyDv@kFmA}D_E{CgIkHmg@aD{H", v = 70 },
+  { line = "guvxH{ljl@aEqE_LgD" },
+]
+posts = [[1, 51.38999, 7.43113], [2, 51.39642, 7.4212], [3, 51.40216, 7.42876]]
+
+[[connections]]
+km = 0.823
+station = "Hagen-Vorhalle"
+lines = [
+  { id = "2143", ref = "2143", name = "2143 Witten Hbf - Schwelm", km = 76.002 },
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 76.002 },
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 58.99 },
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = 6.336 },
+  { id = "2801", ref = "2801", name = "2801 Hagen - Dortmund", km = 4.273 },
+  { id = "2820", ref = "2820", name = "2820 Hagen-Vorhalle - Hagen-Kabel", km = 76.044 },
+]
+
+[[connections]]
+km = 3.409
+station = "Herdecke"
+lines = [
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 62.329 },
+]

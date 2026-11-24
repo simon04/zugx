@@ -1,0 +1,91 @@
+id = "9373"
+ref = "9373"
+name = "9373 Griedel - Bad Nauheim"
+operator = "Eisenbahnfreunde Wetterau e.V."
+gauge = "1435"
+from = "Griedel"
+to = "Bad Nauheim Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.03
+kmTo = 10.695
+length = 10.678
+speeds = [[-0.03, 10.695, 25, 25]]
+curves = [[0.073, 0.598, 260], [0.723, 0.923, 580], [1.073, 1.273, 870], [1.773, 1.998, 960], [2.073, 2.373, 420], [3.348, 3.398, 2480], [3.951, 4.203, 860], [4.704, 5.001, 450], [5.15, 5.372, 550], [5.62, 6.065, 610], [6.263, 6.734, 590], [6.808, 7.035, 720], [7.138, 7.933, 360], [8.01, 8.241, 560], [8.292, 8.523, 490], [8.626, 8.882, 540], [8.933, 9.723, 470], [9.769, 10.136, 260], [10.19, 10.266, 1330], [10.39, 10.441, 1750], [10.517, 10.569, 1800]]
+points = [
+  { km = -0.004, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.005, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.15, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.281, kind = "station", label = "Griedel", pos = [50.44275, 8.7021] },
+  { km = 2.823, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.972, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.102, kind = "station", label = "Rockenberg", pos = [50.42622, 8.72971] },
+  { km = 3.356, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.397, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.406, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.445, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.546, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.633, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.176, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.198, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.255, kind = "signal", signal = "crossing_distant,speed_limit_distant", dir = -1 },
+  { km = 4.347, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.441, kind = "station", label = "Oppershofen", pos = [50.41594, 8.73688] },
+  { km = 4.472, kind = "signal", signal = "crossing,whistle", dir = 1 },
+  { km = 4.48, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.482, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.759, kind = "signal", signal = "speed_limit_distant,whistle", dir = -1 },
+  { km = 7.02, kind = "station", label = "Steinfurth", pos = [50.39572, 8.74538] },
+  { km = 9.521, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 9.635, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.157, kind = "signal", signal = "speed_limit_distant,whistle", dir = 1 },
+  { km = 10.182, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.334, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 10.362, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.39, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.428, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 10.449, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 10.492, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.503, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.507, kind = "station", label = "Bad Nauheim", uic = "8000728", pos = [50.36805, 8.74916] },
+  { km = 10.511, kind = "signal", signal = "main", dir = 1 },
+  { km = 10.528, kind = "signal", signal = "speed_limit_distant,whistle", dir = -1 },
+  { km = 10.596, kind = "station", label = "Bad Nauheim Nord", pos = [50.36721, 8.74981] },
+  { km = 10.685, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 10.687, kind = "signal", signal = "shunting", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.613, kmTo = 0.632, length = 20 },
+  { kind = "bridge", kmFrom = 2.069, kmTo = 2.083, length = 14 },
+  { kind = "bridge", kmFrom = 4.487, kmTo = 4.498, length = 11 },
+  { kind = "bridge", kmFrom = 9.521, kmTo = 9.578, length = 56 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eelrH}~kt@yRzCmKpCsDBsBgAsAoBmFkSoBuBsCi@cD`A}JnI}Dz@{Lh@iPhKsLHePhKwELkJeDkF`@}CjBuI|MmH|VyFlJcE`D{QfGyDEkGeCyUySaPeA{Dp@cDxCaYt`@sCpCo`@vR}w@tZwClBmCbFsGzSw[tj@yGdV}Az\\_DlI}AdBeDp@iDkAmD{D", v = 25 },
+]
+posts = [[10, 50.37249, 8.74854], [9, 50.37961, 8.75122], [8, 50.38795, 8.74817], [7, 50.39591, 8.74508], [6, 50.40277, 8.73693], [5, 50.41118, 8.74122], [4, 50.41862, 8.73386], [3, 50.42708, 8.72925], [2, 50.43482, 8.72317], [1, 50.44084, 8.7128], [0, 50.44564, 8.70466]]
+
+[[connections]]
+km = 0.281
+station = "Griedel"
+lines = [
+  { id = "9371", ref = "9371", name = "9371 Butzbach - Münzenberg", km = 3.204 },
+]
+
+[[connections]]
+km = 10.507
+station = "Bad Nauheim"
+lines = [
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 161.918 },
+]
+
+[[connections]]
+km = 10.596
+station = "Bad Nauheim Nord"
+lines = [
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 161.994 },
+]

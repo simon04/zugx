@@ -1,0 +1,33 @@
+id = "6553"
+ref = "6553"
+name = "Bahnstrecke Preußnitz Abzw - Bad Belzig"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q108544704"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.351
+length = 2.351
+speeds = [[0, 2.351, "", ""]]
+curves = [[1.375, 1.7, 640], [1.925, 2.15, 570]]
+points = [
+  { km = 1.784, kind = "signal", signal = "main", dir = -1 },
+  { km = 2.297, kind = "signal", signal = "main,speed_limit,wrong_road", dir = 1 },
+  { km = 65.2, kind = "station", label = "Bad Belzig", uic = "8003410", pos = [52.13601, 12.59503], measured = true },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ild}HcxalAw`@~yBi@rLn@nc@aEf[" },
+]
+posts = [[0, 52.12885, 12.62994], [1, 52.13256, 12.61659], [2, 52.1342, 12.60257]]
+
+[[connections]]
+km = 65.2
+station = "Bad Belzig"
+lines = [
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 65.2 },
+]

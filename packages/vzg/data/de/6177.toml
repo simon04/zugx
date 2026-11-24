@@ -1,0 +1,54 @@
+id = "6177"
+ref = "6177"
+name = "Berlin Potsdam Gbf - Griebnitzsee"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q107657306"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.033
+length = 3.033
+speeds = [[0, 1.149, 80, 80], [1.149, 1.389, 80, 40], [1.389, 2.823, 80, 80], [2.823, 2.846, "", ""], [2.846, 3.033, 100, 100]]
+curves = [[2.825, 2.925, 1180]]
+points = [
+  { km = 0.087, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.134, kind = "halt", label = "Lichterfelde West", uic = "8089071", pos = [52.44331, 13.29359] },
+  { km = 0.205, kind = "signal", signal = "minor,traversable", dir = -1 },
+  { km = 0.953, kind = "signal", label = "25 N1", signal = "main,minor,traversable", dir = 1 },
+  { km = 1.149, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.153, kind = "signal", signal = "minor,traversable", dir = -1 },
+  { km = 1.193, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.389, kind = "signal", label = "25 A", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 1.653, kind = "halt", label = "Sundgauer Straße", uic = "8089042", pos = [52.43644, 13.2742] },
+  { km = 2.407, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.869, kind = "station", label = "Zehlendorf", uic = "8003197", pos = [52.43107, 13.25859] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.823, kmTo = 2.846, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "w|a_IewcpApnAb`F", v = 80 },
+  { line = "em__Iav|oARz@" },
+  { line = "ql__Iet|oAfCtN", v = 100 },
+]
+posts = [[0, 52.4438, 13.29539], [1, 52.4393, 13.28262], [2, 52.43477, 13.26988], [3, 52.43039, 13.257]]
+
+[[connections]]
+km = 0.134
+station = "Lichterfelde West"
+lines = [
+  { id = "6033", ref = "6033", name = "6033 Schöneberg - Wannsee", km = 9.231 },
+]
+
+[[connections]]
+km = 2.869
+station = "Zehlendorf"
+lines = [
+  { id = "6033", ref = "6033", name = "6033 Schöneberg - Wannsee", km = 12.013 },
+  { id = "6184", ref = "6184", name = "Berlin-Zehlendorf - Berlin-Wannsee", km = 12.111 },
+]

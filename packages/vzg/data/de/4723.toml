@@ -1,0 +1,43 @@
+id = "4723"
+ref = "4723"
+name = "4723 Stuttgart-Ost - Stuttgart Hafen"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q15856798"
+from = "Stuttgart-Ost"
+to = "Stuttgart Hafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 4.045
+kmTo = 6.021
+length = 1.955
+speeds = [[4.045, 4.636, "", ""], [4.636, 6.021, 30, 30]]
+curves = [[4.15, 4.425, 620], [4.6, 4.875, 390], [5.131, 5.444, 470], [5.596, 5.921, 380]]
+points = [
+  { km = 4.045, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.487, kind = "signal", label = "N 701", signal = "main", dir = 1 },
+  { km = 4.555, kind = "halt", label = "Wasenstraße", pos = [48.7755, 9.24464] },
+  { km = 4.8, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 5.076, kind = "signal", label = "F 733", signal = "main,speed_limit", dir = -1 },
+  { km = 5.08, kind = "signal", label = "Vc 800", signal = "distant", dir = 1 },
+  { km = 5.496, kind = "signal", label = "C 800", signal = "main,speed_limit", dir = 1 },
+  { km = 5.843, kind = "signal", label = "f 733", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.846, kind = "signal", signal = "minor", dir = -1 },
+  { km = 5.858, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 5.954, kind = "signal", signal = "minor", dir = 1 },
+  { km = 5.956, kind = "signal", label = "880", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.58, kmTo = 4.636, length = 56 },
+  { kind = "bridge", kmFrom = 4.735, kmTo = 4.822, length = 87 },
+  { kind = "bridge", kmFrom = 4.848, kmTo = 5.066, length = 216 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{sthHskow@{HtAwEdEgAxB{EjQiA`Mv@db@]vDoAxD", v = 30 },
+  { line = "squhHwolw@qKnUgAnF_AfK" },
+]
+posts = [[6, 48.77153, 9.25892], [5, 48.77569, 9.24902]]

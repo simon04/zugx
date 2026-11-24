@@ -1,0 +1,38 @@
+id = "6353"
+ref = "6353"
+name = "6353 Abzw Halle Kasseler Bahn - Halle-Ammendorf"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131700761"
+from = "Halle Kasseler Bahn"
+to = "Halle-Ammendorf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 3.18
+kmTo = 5.289
+length = 2.056
+speeds = [[3.18, 3.214, 80, 80], [3.214, 3.711, 60, 60], [3.711, 5.289, 80, 80]]
+curves = [[3.286, 3.611, 330], [3.661, 3.786, 1540]]
+points = [
+  { km = 3.346, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.626, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.711, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.088, kind = "signal", label = "94 B", signal = "main,speed_limit,train_protection,traversable", dir = 1 },
+  { km = 4.157, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.384, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.395, kind = "signal", signal = "shunting", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.18, kmTo = 3.214, length = 34 },
+  { kind = "bridge", kmFrom = 3.306, kmTo = 3.323, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "w`|xHmjdhAutAuA", v = 80 },
+  { line = "mv~xHcmdhAaHf@kEq@uCsC{B}G", v = 60 },
+  { line = "mn_yH_{dhAa@sA", v = 80 },
+]
+posts = [[5, 51.43312, 11.98783], [4, 51.44179, 11.98813]]

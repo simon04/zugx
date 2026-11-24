@@ -1,0 +1,33 @@
+id = "9603"
+ref = "9603"
+name = "9603 Brühl Gbf - Brühl-Vochem"
+operator = "DB Netz AG;HGK"
+gauge = "1435"
+from = "Brühl Gbf"
+to = "Brühl-Vochem"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.242
+length = 2.242
+speeds = [[0, 2.242, "", ""]]
+curves = [[0.15, 0.35, 760], [0.5, 1.425, 250], [1.475, 1.55, 1930], [1.7, 1.975, 750], [2.025, 2.125, 650]]
+points = [
+  { km = 0.106, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.54, kind = "signal", label = "C", signal = "main,minor", dir = -1 },
+  { km = 0.813, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.888, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 0.95, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.229, kind = "signal", label = "912 I", signal = "minor,traversable", dir = -1 },
+  { km = 1.435, kind = "signal", label = "912I", signal = "minor,traversable", dir = 1 },
+  { km = 1.56, kind = "signal", label = "908II", signal = "minor,traversable", dir = -1 },
+  { km = 2.097, kind = "signal", label = "908 I", signal = "minor,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gyiuHqkdi@bM~@bN`HxBbC|AtFLxFaA`IwBdFoClBsDH_ZwMwD_AgMbAwFvB" },
+]
+posts = [[0, 50.8458, 6.90889], [1, 50.84065, 6.90158], [2, 50.84917, 6.90314]]

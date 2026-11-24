@@ -1,0 +1,106 @@
+id = "2274"
+ref = "2274"
+name = "2274 Oberhausen Hbf - Duisburg-Ruhrort"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Oberhausen Hbf"
+to = "Duisburg-Ruhrort"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.1
+kmTo = 8.843
+length = 8.949
+speeds = [[-0.1, 0.365, 40, 40], [0.365, 0.767, 60, 60], [0.767, 1.166, 90, 90], [1.166, 4.838, 100, 100], [4.838, 5.662, 60, 60], [5.662, 8.648, 90, 90], [8.648, 8.843, 30, 30]]
+curves = [[0, 0.123, 1300], [0.197, 0.372, 1310], [0.583, 1.14, 580], [1.391, 1.442, 2940], [5.368, 5.443, 2230], [5.493, 5.668, 1510], [5.793, 6.668, 1740], [6.743, 6.868, 1950], [6.943, 7.143, 1040], [7.743, 8.718, 1220]]
+points = [
+  { km = -0.025, kind = "signal", label = "R015", signal = "main,minor,traversable", dir = -1 },
+  { km = 0.018, kind = "station", label = "Oberhausen Hbf", pos = [51.47491, 6.85168], uic = "8000286" },
+  { km = 0.04, kind = "signal", signal = "main_repeated" },
+  { km = 0.192, kind = "signal", label = "P015", signal = "distant,main,minor", dir = 1 },
+  { km = 0.252, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.277, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.362, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.393, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.765, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.766, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.777, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.088, kind = "signal", label = "A964", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 1.147, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.166, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.734, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 2.129, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.455, kind = "stop", label = "Duisburg-Obermeiderich", pos = [51.46884, 6.82111], uic = "8001608" },
+  { km = 2.671, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.631, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 3.843, kind = "stop", label = "Duisburg-Meiderich Ost", pos = [51.46883, 6.80116], uic = "8001607" },
+  { km = 3.939, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.307, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 4.838, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 5.078, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 5.152, kind = "signal", signal = "distant,main,speed_limit_distant,traversable", dir = -1 },
+  { km = 5.313, kind = "station", label = "Duisburg-Meiderich Süd", pos = [51.46876, 6.7803], uic = "8000367" },
+  { km = 5.368, kind = "halt", label = "Duisburg-Meiderich Bf", pos = [51.46755, 6.77907] },
+  { km = 5.456, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 5.516, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 5.662, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.927, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 6.71, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.958, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.648, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.806, kind = "stop", label = "Duisburg-Ruhrort", pos = [51.45725, 6.73597], uic = "8001611" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.745, kmTo = 0.767, length = 25 },
+  { kind = "bridge", kmFrom = 1.3, kmTo = 1.319, length = 19 },
+  { kind = "bridge", kmFrom = 1.423, kmTo = 1.44, length = 17 },
+  { kind = "bridge", kmFrom = 1.817, kmTo = 1.83, length = 13 },
+  { kind = "bridge", kmFrom = 2.75, kmTo = 2.808, length = 58 },
+  { kind = "bridge", kmFrom = 3.109, kmTo = 3.129, length = 20 },
+  { kind = "bridge", kmFrom = 3.644, kmTo = 3.662, length = 18 },
+  { kind = "bridge", kmFrom = 3.723, kmTo = 3.794, length = 71 },
+  { kind = "bridge", kmFrom = 3.86, kmTo = 3.88, length = 20 },
+  { kind = "bridge", kmFrom = 4.432, kmTo = 4.492, length = 60 },
+  { kind = "bridge", kmFrom = 4.526, kmTo = 4.539, length = 12 },
+  { kind = "bridge", kmFrom = 5.023, kmTo = 5.042, length = 20 },
+  { kind = "bridge", kmFrom = 5.229, kmTo = 5.251, length = 22 },
+  { kind = "bridge", kmFrom = 7.534, kmTo = 7.579, length = 45 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "k{dyHmiyh@tUhT", v = 40 },
+  { line = "uddyHctxh@~JvLrDhH", v = 60 },
+  { line = "ascyHa}wh@hBnGp@fFJjQ", v = 90 },
+  { line = "ymcyH}zvh@YpWSjqH", v = 100 },
+  { line = "gocyH_plh@HhiA", v = 60 },
+  { line = "}ncyHuejh@_@nRd@|OtBpVjDvSpEfQvFzO|]`l@zGtOfDfM|BdOh@tJI~G", v = 90 },
+  { line = "keayH}`ch@gAbP", v = 30 },
+]
+posts = [[0, 51.47515, 6.85143], [1, 51.46861, 6.84205], [2, 51.46877, 6.82768], [3, 51.46883, 6.81325], [4, 51.4688, 6.79881], [5, 51.46886, 6.78438], [6, 51.46886, 6.76997], [7, 51.46532, 6.75688], [8, 51.45886, 6.74687]]
+
+[[connections]]
+km = 0.018
+station = "Oberhausen Hbf"
+lines = [
+  { id = "2184", ref = "2184", name = "2184 Mülheim (Ruhr)-Styrum - Duisburg Hbf", km = -4.082 },
+  { id = "2270", ref = "2270", name = "2270 Oberhausen Hbf - Emmerich Grenze", km = -0.011 },
+  { id = "2277", ref = "2277", name = "2277 Oberhausen Hbf - Essen-Altenessen", km = 70.901 },
+  { id = "2300", ref = "2300", name = "2300 Mülheim (Rhur)-Styrum - Essen Hbf", km = 111.086 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 70.737 },
+]
+
+[[connections]]
+km = 3.843
+station = "Duisburg-Meiderich Ost"
+lines = [
+  { id = "2331", ref = "2331", name = "2331 Abzw Meerbeck - Oberhausen Walzwerk", km = 13.588 },
+]
+
+[[connections]]
+km = 5.368
+station = "Duisburg-Meiderich Bf"
+lines = [
+  { id = "2331", ref = "2331", name = "2331 Abzw Meerbeck - Oberhausen Walzwerk", km = 12.058 },
+]

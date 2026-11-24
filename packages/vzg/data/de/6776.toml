@@ -1,0 +1,49 @@
+id = "6776"
+ref = "6776"
+name = "6776 Lietzow (Rügen) - Ostseebad Binz"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q802662"
+from = "Lietzow (Rügen)"
+to = "Ostseebad Binz"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 11.102
+length = 11.102
+speeds = [[0, 0.186, "", ""], [0.186, 10.987, 80, 80], [10.987, 11.102, 60, 60]]
+curves = [[2.575, 2.75, 2210], [4.25, 4.375, 1960], [5.325, 5.925, 1030], [6.675, 6.875, 1050], [7.7, 8.475, 530], [8.8, 8.925, 1450], [9.5, 9.75, 1330], [10.475, 10.825, 1210]]
+points = [
+  { km = 0.192, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.535, kind = "signal", label = "21A", signal = "main,short_route,speed_limit", dir = -1 },
+  { km = 1.364, kind = "signal", label = "21Va", signal = "distant", dir = -1 },
+  { km = 2.779, kind = "stop", label = "Prora Ost", pos = [54.42919, 13.57528], uic = "8028561" },
+  { km = 3.794, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 4.245, kind = "signal", label = "20F", signal = "main", dir = 1 },
+  { km = 4.519, kind = "signal", label = "20N1", signal = "main", dir = -1 },
+  { km = 4.565, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.572, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 4.605, kind = "station", label = "Prora", uic = "8012683", pos = [54.44482, 13.56426] },
+  { km = 4.757, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.986, kind = "signal", label = "20P1", signal = "main", dir = 1 },
+  { km = 5.692, kind = "signal", label = "20A", signal = "main", dir = -1 },
+  { km = 6.39, kind = "signal", label = "20Va", signal = "distant", dir = -1 },
+  { km = 9.919, kind = "signal", label = "14Vg", signal = "distant,type", dir = 1 },
+  { km = 10.632, kind = "signal", label = "14G", signal = "combined", dir = 1 },
+  { km = 10.942, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 10.987, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.995, kind = "signal", signal = "whistle", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 10.668, kmTo = 10.681, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "coakIyv~qA}GhH" },
+  { line = "axakIom~qA{xBp}BapAh|@gz@b^gKz@qH{@{q@yVsDk@yr@}ByHdBuDdDiE|HqDtRuDhh@uB~`As@fMgNnnAo@zOGxV", v = 80 },
+  { line = "wwokI{woqAGdJ", v = 60 },
+]
+posts = [[0, 54.4077, 13.59741], [1, 54.41538, 13.58938], [2, 54.42306, 13.58134], [3, 54.43093, 13.57391], [4, 54.43916, 13.56767], [5, 54.44765, 13.56266], [6, 54.45641, 13.56166], [7, 54.46516, 13.56503], [8, 54.47404, 13.56455], [9, 54.47731, 13.55074], [10, 54.47894, 13.5356], [11, 54.48076, 13.52058]]

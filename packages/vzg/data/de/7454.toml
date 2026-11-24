@@ -1,0 +1,23 @@
+id = "7454"
+ref = "7454"
+name = "7454 Köln-Ehrenfeld Gbf - Köln-Ehrenfeld DB/HGK"
+operator = "HGK"
+gauge = "1435"
+from = "Köln-Ehrenfeld Gbf"
+to = "Köln-Ehrenfeld DB/HGK"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.292
+length = 0.292
+speeds = [[0, 0.292, "", ""]]
+curves = [[0.1, 0.175, 530]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "eb~uHccai@n@}Gg@oO" },
+]
+posts = [[0, 50.94963, 6.89218]]

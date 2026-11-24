@@ -1,0 +1,30 @@
+id = "2612"
+ref = "2612"
+name = "2612 Köln-Ehrenfeld"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Köln-Ehrenfeld"
+to = "Köln-Ehrenfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 2.679
+kmTo = 3.513
+length = 0.851
+speeds = [[2.679, 3.513, 60, 60]]
+curves = [[2.78, 3.413, 650]]
+points = [
+  { km = 2.774, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.885, kind = "signal", label = "36 ZS5", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 3.435, kind = "signal", signal = "main,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.985, kmTo = 2.999, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wm~uHof}h@lHaH`G_NzCaSA}O", v = 60 },
+]
+posts = [[3, 50.94827, 6.87743]]

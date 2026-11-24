@@ -1,0 +1,55 @@
+id = "1424"
+ref = "1424"
+name = "1424 Abzweig Bremen Utbremen - Bremen Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Bremen Utbremen"
+to = "Bremen Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.018
+kmTo = 5.686
+length = 5.582
+speeds = [[0.018, 1.923, 60, 60], [1.923, 2.137, 50, 50], [2.137, 4.652, "", ""], [4.652, 5.686, 40, 40]]
+curves = [[0.118, 0.43, 510], [0.601, 0.824, 1440], [1.469, 2.139, 580], [2.288, 2.586, 1190], [3.305, 4.03, 1200], [4.13, 4.255, 1330], [4.355, 4.48, 1550], [5.13, 5.255, 1710], [5.33, 5.405, 1660], [5.455, 5.505, 2120]]
+points = [
+  { km = 0.134, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.321, kind = "signal", label = "13 973", signal = "main,speed_limit", dir = -1 },
+  { km = 1.03, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.089, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.749, kind = "signal", signal = "main", dir = 1 },
+  { km = 1.89, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 1.893, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.137, kind = "signal", signal = "main", dir = -1 },
+  { km = 3.397, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.077, kind = "signal", signal = "main", dir = 1 },
+  { km = 4.652, kind = "signal", signal = "main", dir = -1 },
+  { km = 4.654, kind = "signal", signal = "minor", dir = -1 },
+  { km = 5.379, kind = "signal", signal = "minor", dir = 1 },
+  { km = 5.385, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.538, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.557, kind = "signal", signal = "minor", dir = -1 },
+  { km = 5.622, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.259, kmTo = 0.285, length = 20 },
+  { kind = "bridge", kmFrom = 0.456, kmTo = 0.482, length = 19 },
+  { kind = "bridge", kmFrom = 0.506, kmTo = 0.547, length = 30 },
+  { kind = "bridge", kmFrom = 0.754, kmTo = 0.766, length = 12 },
+  { kind = "bridge", kmFrom = 1.343, kmTo = 1.354, length = 11 },
+  { kind = "tunnel", kmFrom = 1.809, kmTo = 1.875, length = 67 },
+  { kind = "bridge", kmFrom = 4.796, kmTo = 4.812, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cqbcIsawt@DzIe@|HcIdb@sKncAkBhJqDnI", v = 60 },
+  { line = "yqccIiort@}AzB", tunnel = true, v = 60 },
+  { line = "wtccImkrt@iAjA", v = 60 },
+  { line = "awccIairt@wDdCwD~@", v = 50 },
+  { line = "qbdcI{brt@aKxAyHlCoh@z[yIhI_F`HiDpHsIz]sEzNeGlN" },
+  { line = "orgcIscnt@_Sje@sM~e@", v = 40 },
+]
+posts = [[1, 53.10483, 8.79449], [2, 53.10912, 8.78192], [3, 53.11774, 8.77756], [4, 53.12493, 8.76907], [5, 53.13029, 8.75713]]

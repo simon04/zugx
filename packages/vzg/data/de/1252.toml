@@ -1,0 +1,39 @@
+id = "1252"
+ref = "1252"
+name = "1252 Hamburg Unterelbe - Seehafen"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q23296840"
+from = "Hamburg Unterelbe"
+to = "Seehafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.372
+length = 2.372
+speeds = [[0, 2.372, "", ""]]
+curves = [[0.225, 0.35, 1140], [0.575, 0.8, 510], [0.875, 1, 1670], [2.2, 2.25, 1170]]
+points = [
+  { km = 0.278, kind = "signal", label = "30 06y", signal = "minor", dir = -1 },
+  { km = 0.509, kind = "signal", label = "30 06x", signal = "minor", dir = 1 },
+  { km = 0.677, kind = "signal", label = "30 N6", signal = "main,minor,traversable", dir = 1 },
+  { km = 0.943, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.976, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.188, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.289, kind = "signal", label = "1", signal = "minor", dir = 1 },
+  { km = 1.38, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.405, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.478, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.605, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.396, kmTo = 1.409, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "amieIgz{{@kIhP{PnTkA|CaDjRqTzqBy@dM" },
+]
+posts = [[0, 53.46529, 9.97812], [1, 53.47116, 9.9672], [2, 53.47386, 9.95279]]

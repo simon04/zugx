@@ -1,0 +1,96 @@
+id = "6053"
+ref = "6053"
+name = "S-Bahn"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q107994910"
+from = "Halle (Saale) Hbf"
+to = "Gröbers"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.296
+kmTo = 12.563
+length = 12.839
+speeds = [[-0.296, 0.621, "", ""], [0.621, 1.492, 100, 100], [1.492, 10.805, 120, 120], [10.805, 11.11, "", ""], [11.11, 12.563, 100, 100]]
+curves = [[-0.182, 0.043, 710], [0.093, 0.312, 1450], [0.7, 0.806, 1540], [0.882, 1.136, 920], [1.212, 1.413, 910], [1.692, 1.797, 2540], [1.934, 2.418, 1540], [2.789, 3.178, 2280], [7.217, 8.522, 2270], [8.849, 10.126, 1910], [11.238, 11.838, 1230], [12.313, 12.463, 1090]]
+points = [
+  { km = -0.221, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -0.171, kind = "signal", label = "92 ZW2", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.029, kind = "station", label = "Halle (Saale) Hauptbahnhof", pos = [51.47749, 11.9873], uic = "8023002" },
+  { km = 0.101, kind = "signal", signal = "combined,minor,speed_limit", dir = 1 },
+  { km = 0.614, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.621, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.296, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 1.492, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.498, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.95, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.211, kind = "signal", signal = "combined,route,speed_limit", dir = 1 },
+  { km = 2.479, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.81, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 3.246, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 3.772, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.792, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.874, kind = "stop", label = "Halle Messe", pos = [51.45475, 12.02801], uic = "8032905" },
+  { km = 3.991, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.821, kind = "signal", label = "81 07", signal = "main,speed_limit", dir = 1 },
+  { km = 5.454, kind = "signal", label = "81 06", signal = "main", dir = -1 },
+  { km = 5.55, kind = "stop", label = "Dieskau", pos = [51.45059, 12.05107], uic = "8023451" },
+  { km = 6.539, kind = "signal", signal = "distant", dir = -1 },
+  { km = 9.546, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 10.184, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 10.198, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 10.733, kind = "stop", label = "Gröbers", pos = [51.43236, 12.11666], uic = "8023452" },
+  { km = 10.805, kind = "signal", label = "81CC", signal = "combined,speed_limit", dir = 1 },
+  { km = 11.021, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.11, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.118, kind = "signal", signal = "main,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.209, kmTo = -0.179, length = 30 },
+  { kind = "bridge", kmFrom = -0.168, kmTo = -0.137, length = 31 },
+  { kind = "tunnel", kmFrom = 0.818, kmTo = 1.032, length = 210 },
+  { kind = "bridge", kmFrom = 1.509, kmTo = 1.52, length = 13 },
+  { kind = "bridge", kmFrom = 1.561, kmTo = 1.585, length = 27 },
+  { kind = "bridge", kmFrom = 2.646, kmTo = 2.66, length = 13 },
+  { kind = "bridge", kmFrom = 3.962, kmTo = 3.977, length = 15 },
+  { kind = "bridge", kmFrom = 5.177, kmTo = 5.23, length = 53 },
+  { kind = "bridge", kmFrom = 5.627, kmTo = 5.647, length = 19 },
+  { kind = "bridge", kmFrom = 9.302, kmTo = 9.323, length = 18 },
+  { kind = "tunnel", kmFrom = 9.664, kmTo = 9.773, length = 107 },
+  { kind = "bridge", kmFrom = 10.817, kmTo = 10.832, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oe{xHsebiAeD`OkQ|h@wCpLmCpRqAxW", v = 100 },
+  { line = "yh|xHuq~hAgAfZ" },
+  { line = "ak|xHmv}hA}CrcAyB~U", v = 120 },
+  { line = "ys|xHyzzhAkAxG", tunnel = true, v = 120 },
+  { line = "ev|xH_rzhA_FfRoHtR_I|NkPjV{I`QyGtQqFpScDhQ_ChRqd@dgFiYzyBiHfZyNza@eH~LaXx]", v = 120 },
+  { line = "uacyHyvfhA}GzJoHvP", v = 100 },
+  { line = "ctcyHeyehAmHjJ", tunnel = true, v = 100 },
+  { line = "q}cyHymehAgGlI", v = 100 },
+  { line = "yedyHkcehAuPxUaFbFaHhFmJbB" },
+]
+posts = [[12, 51.42902, 12.13374], [11, 51.4321, 12.12045], [10, 51.43318, 12.10609], [9, 51.43755, 12.09404], [8, 51.44386, 12.08417], [7, 51.44745, 12.07081], [6, 51.44967, 12.05715], [5, 51.4519, 12.04325], [4, 51.45443, 12.02966], [3, 51.45764, 12.0155], [2, 51.46287, 12.00464], [1, 51.46983, 11.99492], [0, 51.47713, 11.98632]]
+
+[[connections]]
+km = 0.029
+station = "Halle Hauptbahnhof"
+lines = [
+  { id = "6132", ref = "6132", name = "6132 Berlin - Halle (Saale) Hbf", km = 161.656 },
+  { id = "6340", ref = "6340", name = "6340 Halle (Saale) Hbf - Baunatal-Guntershausen", km = -0.148 },
+  { id = "6343", ref = "6343", name = "6343 Halle (Saale) Hbf – Hann Münden", km = 0.019 },
+  { id = "6344", ref = "6344", name = "Bahnstrecke 6344 Halle (Saale) Hbf – Vienenburg", km = -1.146 },
+  { id = "6403", ref = "6403", name = "Magdeburg-Leipzig", km = 86.056 },
+]
+
+[[connections]]
+km = 10.733
+station = "Gröbers"
+lines = [
+  { id = "5919", ref = "5919", name = "5919 Eltersdorf - Leipzig Hbf", km = 285.658 },
+  { id = "6403", ref = "6403", name = "Magdeburg-Leipzig", km = 96.738 },
+]

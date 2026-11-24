@@ -1,0 +1,50 @@
+id = "9570"
+ref = "9570"
+name = "Wendelsteinbahn"
+operator = "Wendelsteinbahn GmbH"
+gauge = "1000"
+wikidata = "Q896156"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.546
+length = 7.546
+speeds = [[0, 7.546, "", ""]]
+curves = [[0.1, 0.175, 640], [0.225, 0.9, 330], [0.95, 1.075, 290], [1.2, 1.6, 330], [1.65, 1.8, 360], [1.85, 2.05, 230], [2.1, 2.175, 350], [2.225, 2.45, 360], [2.525, 4.4, 710], [4.45, 5.2, 340], [5.25, 5.375, 1030], [5.475, 5.6, 460], [5.725, 5.775, 1190], [5.85, 6.1, 740], [6.175, 6.675, 360], [6.8, 6.9, 590], [7, 7.425, 180]]
+points = [
+  { km = 0.007, kind = "station", label = "Talbahnhof Brannenburg", pos = [47.72527, 12.09265], ele = 508 },
+  { km = 4.03, kind = "station", label = "Aipl", pos = [47.7117, 12.04963], ele = 980 },
+  { km = 7.5, kind = "halt", label = "Mitteralm", pos = [47.70784, 12.03801], measured = true, ele = 1200 },
+  { km = 7.506, kind = "stop", label = "Bergbahnhof", pos = [47.70266, 12.01328] },
+  { km = 9.95, kind = "station", label = "Wendelstein", ele = 1723, pos = [47.7027, 12.01329], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.482, kmTo = 1.495, length = 13 },
+  { kind = "bridge", kmFrom = 2.118, kmTo = 2.127, length = 10 },
+  { kind = "bridge", kmFrom = 2.429, kmTo = 2.442, length = 13 },
+  { kind = "bridge", kmFrom = 3.211, kmTo = 3.226, length = 15 },
+  { kind = "bridge", kmFrom = 4.612, kmTo = 4.634, length = 22 },
+  { kind = "tunnel", kmFrom = 6.486, kmTo = 6.558, length = 71 },
+  { kind = "bridge", kmFrom = 6.929, kmTo = 6.94, length = 10 },
+  { kind = "tunnel", kmFrom = 7.023, kmTo = 7.143, length = 120 },
+  { kind = "bridge", kmFrom = 7.205, kmTo = 7.216, length = 12 },
+  { kind = "tunnel", kmFrom = 7.271, kmTo = 7.412, length = 141 },
+  { kind = "tunnel", kmFrom = 7.434, kmTo = 7.546, length = 111 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gjhbHszxhAzDfDpGxCzCxDlE`B~@jB?bKu@|IbChGp@|UaB~MB~BzGdK|JrFrAfEj@`GfDbI\\jXo@bQv@fTr@`DfC|C`CrApArCCrGzArRvB|J~CvDvHzMpDvBbHlInCvAv@lAPfDgAtIFlH}BxHY`P^dM_CfOcBxRtAzRrBtH" },
+  { line = "o}dbHohkhALrA", tunnel = true },
+  { line = "a}dbH{ekhADpF" },
+  { line = "{|dbHi~jhAf@nD", tunnel = true },
+  { line = "s{dbHyxjhAnJ`QvFdF" },
+  { line = "khdbHq_jhAz@v@nApD", tunnel = true },
+  { line = "_ddbHgxihAdBpB~AS" },
+  { line = "y}cbHiuihAzB\\ZhD", tunnel = true },
+  { line = "aycbHaoihAKx@" },
+  { line = "mycbHgmihA}@vAmBZ", tunnel = true },
+]
+posts = [[0, 47.72532, 12.09274], [1, 47.72046, 12.08392], [2, 47.71711, 12.07365], [3, 47.71583, 12.06092], [4, 47.71191, 12.04993], [5, 47.70719, 12.04052], [6, 47.70893, 12.02778], [7, 47.70473, 12.01685]]

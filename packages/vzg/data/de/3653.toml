@@ -1,0 +1,142 @@
+id = "3653"
+ref = "3653"
+name = "3653 Dreieich-Buchschlag - Rödermark-Ober Roden"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Dreieich-Buchschlag"
+to = "Rödermark-Ober Roden"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 15.442
+length = 15.433
+speeds = [[0, 0.745, 60, 60], [0.745, 0.834, 80, 60], [0.834, 2.242, 80, 80], [2.242, 3.175, 60, 60], [3.175, 3.984, 70, 70], [3.984, 6.393, 80, 80], [6.393, 6.443, 80, 60], [6.443, 7.362, 60, 60], [7.362, 12.099, 80, 80], [12.099, 12.284, 60, 80], [12.284, 12.874, 60, 60], [12.874, 14.545, 80, 80], [14.545, 14.579, 40, 80], [14.579, 14.979, 40, 40], [14.979, 15.442, 60, 60]]
+curves = [[0.227, 0.86, 370], [2.096, 2.984, 520], [3.033, 4.027, 310], [4.421, 4.714, 440], [4.835, 5.263, 540], [5.399, 5.634, 540], [6.718, 6.988, 860], [7.114, 7.382, 400], [7.536, 7.818, 620], [8.51, 8.792, 640], [9.952, 10.051, 1670], [10.524, 10.772, 700], [11.256, 11.683, 1100], [11.867, 12.195, 1170], [12.624, 12.927, 380], [14.138, 14.892, 650], [15.192, 15.267, 1700]]
+points = [
+  { km = 0, kind = "station", label = "Dreieich-Buchschlag", uic = "8001236", pos = [50.02264, 8.66099] },
+  { km = 0.523, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.57, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.809, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.834, kind = "signal", label = "324.B", signal = "distant,main", dir = -1 },
+  { km = 1.221, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.614, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.855, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 2.242, kind = "signal", label = "A801", signal = "distant,main", dir = 1 },
+  { km = 2.255, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.602, kind = "station", label = "Dreieich-Sprendlingen", pos = [50.01495, 8.6892], uic = "8011287" },
+  { km = 2.639, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.65, kind = "signal", label = "N802", signal = "main", dir = 1 },
+  { km = 3.175, kind = "signal", label = "F804", signal = "distant,main", dir = -1 },
+  { km = 3.18, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.292, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.442, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 3.577, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.702, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.802, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 3.95, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 3.984, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.03, kind = "halt", label = "Dreieich-Weibelfeld", uic = "8079151", pos = [50.00722, 8.70078] },
+  { km = 4.084, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.192, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.482, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.502, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.711, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.739, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 4.826, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.964, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 4.987, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.053, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 5.068, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.167, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.217, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 5.249, kind = "halt", label = "Dreieich-Dreieichenhain", uic = "8001554", pos = [49.99814, 8.70936] },
+  { km = 5.332, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.527, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.689, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.736, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 5.876, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 6.013, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.133, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 6.138, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 6.389, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 6.393, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.443, kind = "signal", label = "A821", signal = "distant,main", dir = 1 },
+  { km = 6.951, kind = "station", label = "Dreieich-Götzenhain", pos = [49.99411, 8.73244], uic = "8002315" },
+  { km = 7.009, kind = "signal", signal = "stop", dir = 1 },
+  { km = 7.022, kind = "signal", label = "N822", signal = "main", dir = 1 },
+  { km = 7.362, kind = "signal", label = "F824", signal = "distant,main", dir = -1 },
+  { km = 7.774, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.045, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 8.385, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.561, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 8.814, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.815, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 8.818, kind = "signal", signal = "stop", dir = -1 },
+  { km = 8.875, kind = "station", label = "Dreieich-Offenthal", uic = "8004653", pos = [49.98181, 8.7497] },
+  { km = 8.954, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 9.19, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.506, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 9.595, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.833, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.525, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 10.703, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.919, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 11.203, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 11.374, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 11.528, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 11.686, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.713, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 12.099, kind = "signal", label = "A841", signal = "distant,main", dir = 1 },
+  { km = 12.203, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.284, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.563, kind = "station", label = "Rödermark-Urberach", pos = [49.97493, 8.79855], uic = "8006031" },
+  { km = 12.571, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.58, kind = "signal", label = "N841", signal = "main", dir = 1 },
+  { km = 12.874, kind = "signal", label = "F844", signal = "distant,main", dir = -1 },
+  { km = 12.885, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.28, kind = "signal", signal = "distant", dir = -1 },
+  { km = 14.138, kind = "signal", signal = "distant", dir = 1 },
+  { km = 14.545, kind = "signal", label = "07B730", signal = "distant,main", dir = 1 },
+  { km = 14.579, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.979, kind = "signal", label = "07P732", signal = "main", dir = -1 },
+  { km = 14.983, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.02, kind = "station", label = "Rödermark-Ober Roden", pos = [49.97335, 8.82896], uic = "8000285" },
+  { km = 15.096, kind = "signal", signal = "stop", dir = 1 },
+  { km = 15.109, kind = "signal", label = "07N732", signal = "main,minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 12.298, kmTo = 12.366, length = 67 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gv~oHqw{t@uW`L", v = 60 },
+  { line = "}n_pHoj{t@iG`CiCnB_DdJ", v = 40 },
+  { line = "q``pHwwzt@_A~KFhOlO`rB", v = 80 },
+  { line = "{q_pHkgvt@DhFg@nFkJd^", v = 60 },
+  { line = "i~_pHkytt@aGjXyC|a@@bO`Dbt@]pNwE~m@mUjhBqClJs_@|n@_FzDmK~C", v = 80 },
+  { line = "y|bpHsiit@wCrAkC|CkIxUuBlKaBj\\", v = 60 },
+  { line = "awcpHmagt@gFdhAmA`HsGzQ_DxFoCzByPjBoEnByUv`@", v = 80 },
+  { line = "_bfpH_hbt@oBbFq@nEIfFl@zMe@bH}BfHwE`E", v = 70 },
+  { line = "yqfpHyk`t@{Dd@iIs@kI|DwDjE}CtGoAjEi@xF", v = 60 },
+  { line = "{zgpHai_t@GjGhDhpBI~F", v = 80 },
+  { line = "cvgpHkg{s@q@bF_BnEiBdCmC~AcEr@oPkA", v = 60 },
+]
+posts = [[15, 49.97356, 8.82881], [14, 49.97642, 8.81785], [13, 49.97446, 8.80433], [12, 49.97737, 8.79176], [11, 49.97783, 8.77866], [10, 49.97863, 8.76484], [9, 49.98145, 8.75141], [8, 49.98657, 8.74056], [7, 49.99401, 8.73262], [6, 49.99608, 8.7191], [5, 49.99968, 8.70704], [4, 50.00741, 8.70048], [3, 50.01162, 8.69066], [2, 50.01657, 8.68183], [1, 50.01592, 8.66804]]
+
+[[connections]]
+km = 0
+station = "Dreieich-Buchschlag"
+lines = [
+  { id = "3601", ref = "3601", name = "3601 Frankfurt (Main) Hbf - Abzw Heidelberg-Wieblingen", km = 10.556 },
+  { id = "3688", ref = "3688", name = "3688 Frankfurt Süd - Darmstadt Hbf", km = 64.345 },
+]
+
+[[connections]]
+km = 15.02
+station = "Rödermark-Ober Roden"
+lines = [
+  { id = "3661", ref = "3661", name = "3661 Offenbach (Main) Hbf - Reinheim (Odenw)", km = 21.9 },
+]

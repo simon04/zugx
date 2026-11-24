@@ -1,0 +1,28 @@
+id = "1264"
+ref = "1264"
+name = "1264 Cuxhaven, Po II - Cuxhaven Amerika Bahnhof"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q107861402"
+from = "Cuxhaven, Po II"
+to = "Cuxhaven Amerika Bahnhof"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.284
+length = 3.284
+speeds = [[0, 3.284, "", ""]]
+curves = [[0.1, 0.45, 300], [0.5, 0.975, 320], [1.65, 1.75, 1370], [1.825, 1.95, 1650], [2.1, 2.2, 1230], [2.25, 2.325, 1170], [2.375, 3.175, 420]]
+points = [
+  { km = 0.288, kind = "signal", label = "P1", signal = "main", dir = -1 },
+  { km = 0.845, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 1.115, kind = "signal", signal = "distant,main,minor", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "aysgI{ght@_E`GwEvA{Dm@mH}FqC_AuDNqDbCo]~v@cQxc@yJhRgCdC_I|CuCE{B}@yCaDeFaJwBaJ" },
+]
+posts = [[0, 53.84609, 8.73102], [1, 53.85407, 8.72877], [2, 53.85996, 8.71726], [3, 53.86736, 8.71235]]

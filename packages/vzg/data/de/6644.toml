@@ -1,0 +1,196 @@
+id = "6644"
+ref = "6644"
+name = "Bahnstrecke Annaberg-Buchholz unt Bf–Flöha"
+operator = "DB Netz AG;DB RegioNetz Infrastruktur GmbH;Erzgebirgsbahn"
+gauge = "1435"
+wikidata = "Q801844"
+from = "Annaberg-Buchholz unt Bf"
+to = "Flöha"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.279
+kmTo = 43.838
+length = 43.474
+speeds = [[0.279, 1.918, 50, 50], [1.918, 3.708, 60, 60], [3.708, 5.236, 80, 80], [5.236, 5.707, 60, 60], [5.707, 8.343, 50, 50], [8.343, 9.704, 80, 80], [9.704, 13.058, 60, 60], [13.058, 13.148, "", ""], [13.148, 13.453, 60, 60], [13.453, 13.83, "", ""], [13.83, 15.499, 50, 50], [15.499, 16.42, 60, 60], [16.42, 17.172, 50, 50], [17.172, 21.49, 80, 80], [21.49, 23.93, 50, 50], [23.93, 23.984, "", ""], [23.984, 25.359, 50, 50], [25.359, 26.279, 70, 70], [26.279, 27.093, "", ""], [27.093, 27.968, 60, 60], [27.968, 29.401, 80, 80], [29.401, 31.248, 70, 70], [31.248, 33.15, 50, 50], [33.15, 34.616, 80, 80], [34.616, 34.935, "", ""], [34.935, 36.264, 80, 80], [36.264, 36.8, 60, 60], [36.8, 37.595, 80, 80], [37.595, 38.29, 70, 70], [38.29, 38.302, "", ""], [38.302, 39.2, 80, 80], [39.2, 39.827, "", ""], [39.827, 43.073, 80, 80], [43.073, 43.706, "", ""], [43.706, 43.838, 60, 60]]
+curves = [[0.403, 0.753, 340], [0.803, 1.48, 260], [1.532, 1.984, 210], [2.064, 2.782, 590], [2.831, 3.344, 250], [3.393, 3.766, 360], [4.765, 5.044, 560], [5.197, 5.551, 310], [5.673, 5.89, 380], [6.037, 7.337, 270], [7.387, 7.759, 230], [7.833, 9.044, 370], [9.094, 9.443, 390], [9.493, 10.247, 310], [10.303, 11.025, 280], [11.131, 12.046, 300], [12.196, 12.443, 330], [12.491, 12.983, 440], [13.302, 14.269, 270], [14.318, 15.02, 200], [15.101, 15.533, 220], [15.633, 17.194, 230], [17.316, 17.859, 600], [18.107, 18.182, 2750], [18.43, 18.699, 620], [18.846, 19.605, 510], [19.752, 20.144, 350], [20.242, 20.487, 710], [20.756, 20.976, 670], [21.359, 22.123, 300], [22.163, 22.641, 280], [22.679, 23.145, 270], [23.196, 23.576, 770], [23.63, 24.863, 230], [24.912, 25.406, 180], [25.48, 26.122, 470], [26.171, 26.969, 610], [27.07, 27.347, 370], [27.578, 27.963, 290], [28.066, 28.298, 820], [28.53, 29.353, 310], [29.404, 29.981, 440], [30.029, 30.314, 560], [30.599, 30.82, 630], [30.869, 31.14, 330], [31.189, 31.533, 190], [31.582, 31.983, 310], [32.04, 32.352, 200], [32.394, 32.818, 230], [32.845, 33.441, 280], [33.501, 34.123, 870], [34.262, 34.632, 1330], [34.684, 35.126, 350], [35.436, 35.635, 1290], [35.939, 36.041, 1690], [36.244, 36.804, 330], [36.903, 37.249, 490], [37.298, 38.161, 390], [38.744, 39.153, 560], [39.605, 39.73, 1680], [39.855, 40.48, 1380], [40.63, 40.78, 720], [40.83, 41.455, 460], [41.805, 42.641, 580], [43.488, 43.738, 530]]
+points = [
+  { km = 0.279, kind = "stop", label = "Annaberg-Buchholz unterer Bf", pos = [50.57941, 12.99807] },
+  { km = 0.285, kind = "station", label = "Annaberg-Buchholz unterer Bahnhof", uic = "8006429", pos = [50.57945, 12.99799] },
+  { km = 0.431, kind = "signal", label = "14 N1", signal = "main,traversable", dir = 1 },
+  { km = 0.843, kind = "signal", label = "14F", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 1.228, kind = "signal", signal = "distant,speed_limit_distant" },
+  { km = 3.708, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.126, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.236, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.652, kind = "stop", label = "Wiesa", pos = [50.61055, 13.02346] },
+  { km = 5.707, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.343, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.347, kind = "stop", label = "Thermalbad Wiesenbad", pos = [50.61905, 13.04511] },
+  { km = 8.757, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 9.704, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.289, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.766, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.838, kind = "signal", label = "13A", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 13.043, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 13.112, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.137, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 13.278, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 13.453, kind = "signal", label = "13 P2", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 13.536, kind = "signal", signal = "distant", dir = -1 },
+  { km = 13.691, kind = "signal", signal = "minor", dir = -1 },
+  { km = 13.714, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 13.719, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 13.72, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 13.756, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 13.788, kind = "station", label = "Wolkenstein", pos = [50.65266, 13.06527] },
+  { km = 13.83, kind = "signal", label = "13 N2", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 13.868, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 14.099, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 14.213, kind = "signal", label = "13F", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 14.216, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 14.584, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 14.587, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 15.499, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.42, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.671, kind = "stop", label = "Warmbad", pos = [50.66855, 13.06409] },
+  { km = 17.172, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 21.263, kind = "stop", label = "Scharfenstein", pos = [50.70286, 13.05602] },
+  { km = 21.49, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.151, kind = "stop", label = "Wilischthal", pos = [50.72471, 13.05654], uic = "8006423" },
+  { km = 25.359, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 25.765, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 25.978, kind = "signal", label = "12A", signal = "main", dir = 1 },
+  { km = 26.279, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 26.445, kind = "signal", label = "12P1", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 26.785, kind = "signal", label = "12V?", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 26.882, kind = "station", label = "Zschopau", pos = [50.74323, 13.06591] },
+  { km = 26.936, kind = "signal", label = "12N1", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 26.984, kind = "signal", label = "12Vp1", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 27.094, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 27.968, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 28.186, kind = "stop", label = "Zschopau Ost", pos = [50.74462, 13.08186], uic = "8087367" },
+  { km = 28.371, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 28.857, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 29.401, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 30.475, kind = "stop", label = "Waldkirchen (Erzgebirge)", pos = [50.76248, 13.09047] },
+  { km = 30.475, kind = "halt", label = "Waldkirchen (Erzgeb)", pos = [50.76247, 13.09051] },
+  { km = 32.051, kind = "stop", label = "Witzschdorf", pos = [50.77528, 13.0885] },
+  { km = 33.15, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 33.655, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 34.72, kind = "station", label = "Hennersdorf (Sachs)", pos = [50.79186, 13.07078] },
+  { km = 36.264, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 37.164, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 37.595, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 39.252, kind = "halt", label = "Erdmannsdorf Talstation", pos = [50.82064, 13.08456] },
+  { km = 39.301, kind = "stop", label = "Erdmannsdorf-Augustusburg", pos = [50.82111, 13.08403] },
+  { km = 42.047, kind = "stop", label = "Flöha-Plaue", pos = [50.84427, 13.08491] },
+  { km = 43.073, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 43.238, kind = "signal", label = "58P6", signal = "main", dir = -1 },
+  { km = 43.276, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 43.395, kind = "station", label = "Flöha", pos = [50.85423, 13.07528], uic = "8006373" },
+  { km = 43.471, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 43.523, kind = "signal", label = "58N6", signal = "main", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.663, kmTo = 0.673, length = 10 },
+  { kind = "bridge", kmFrom = 1.598, kmTo = 1.644, length = 44 },
+  { kind = "bridge", kmFrom = 4.169, kmTo = 4.193, length = 23 },
+  { kind = "bridge", kmFrom = 5.073, kmTo = 5.085, length = 13 },
+  { kind = "bridge", kmFrom = 5.33, kmTo = 5.349, length = 19 },
+  { kind = "bridge", kmFrom = 7.207, kmTo = 7.241, length = 35 },
+  { kind = "bridge", kmFrom = 7.826, kmTo = 7.892, length = 67 },
+  { kind = "bridge", kmFrom = 8.051, kmTo = 8.064, length = 12 },
+  { kind = "bridge", kmFrom = 8.135, kmTo = 8.152, length = 17 },
+  { kind = "bridge", kmFrom = 8.559, kmTo = 8.586, length = 26 },
+  { kind = "bridge", kmFrom = 9.409, kmTo = 9.422, length = 13 },
+  { kind = "bridge", kmFrom = 9.55, kmTo = 9.583, length = 32 },
+  { kind = "bridge", kmFrom = 10.685, kmTo = 10.73, length = 39 },
+  { kind = "bridge", kmFrom = 12.644, kmTo = 12.707, length = 67 },
+  { kind = "bridge", kmFrom = 13.058, kmTo = 13.111, length = 50 },
+  { kind = "bridge", kmFrom = 14.009, kmTo = 14.058, length = 54 },
+  { kind = "bridge", kmFrom = 14.066, kmTo = 14.096, length = 32 },
+  { kind = "bridge", kmFrom = 15.285, kmTo = 15.34, length = 55 },
+  { kind = "bridge", kmFrom = 15.957, kmTo = 15.975, length = 19 },
+  { kind = "bridge", kmFrom = 17.012, kmTo = 17.066, length = 55 },
+  { kind = "bridge", kmFrom = 17.355, kmTo = 17.37, length = 15 },
+  { kind = "bridge", kmFrom = 17.924, kmTo = 17.936, length = 12 },
+  { kind = "bridge", kmFrom = 18.004, kmTo = 18.052, length = 48 },
+  { kind = "bridge", kmFrom = 19.202, kmTo = 19.212, length = 10 },
+  { kind = "bridge", kmFrom = 21.639, kmTo = 21.721, length = 98 },
+  { kind = "bridge", kmFrom = 22.256, kmTo = 22.343, length = 76 },
+  { kind = "bridge", kmFrom = 22.748, kmTo = 22.794, length = 61 },
+  { kind = "bridge", kmFrom = 23.93, kmTo = 23.979, length = 54 },
+  { kind = "bridge", kmFrom = 27.14, kmTo = 27.159, length = 19 },
+  { kind = "bridge", kmFrom = 27.238, kmTo = 27.252, length = 14 },
+  { kind = "bridge", kmFrom = 27.369, kmTo = 27.385, length = 16 },
+  { kind = "bridge", kmFrom = 27.518, kmTo = 27.574, length = 55 },
+  { kind = "bridge", kmFrom = 28.96, kmTo = 29.03, length = 68 },
+  { kind = "bridge", kmFrom = 29.401, kmTo = 29.454, length = 51 },
+  { kind = "bridge", kmFrom = 29.814, kmTo = 29.88, length = 70 },
+  { kind = "bridge", kmFrom = 30.155, kmTo = 30.217, length = 66 },
+  { kind = "bridge", kmFrom = 31.628, kmTo = 31.704, length = 86 },
+  { kind = "bridge", kmFrom = 32.835, kmTo = 32.842, length = 12 },
+  { kind = "bridge", kmFrom = 37.659, kmTo = 37.679, length = 20 },
+  { kind = "bridge", kmFrom = 38.29, kmTo = 38.302, length = 12 },
+  { kind = "bridge", kmFrom = 39.2, kmTo = 39.217, length = 17 },
+  { kind = "bridge", kmFrom = 39.996, kmTo = 40.01, length = 14, name = "Hexenbrücke" },
+  { kind = "bridge", kmFrom = 41.518, kmTo = 41.537, length = 18 },
+  { kind = "bridge", kmFrom = 43.711, kmTo = 43.746, length = 35 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gykuHcvwnAbAeJ", v = 60 },
+  { line = "cwkuHiaxnA|CuKxQ_\\" },
+  { line = "k_kuH_kynApTu_@hEsDxDoA~H]lGrAtE`D`UjVvDrBrEh@~HgB`LwLfRyK`N{ChKI", v = 80 },
+  { line = "m|euHwsznAtIh@dWjE" },
+  { line = "qyduHalznAnGtAlFpDzU~e@", v = 80 },
+  { line = "wrcuHy|xnALX" },
+  { line = "ircuH_|xnAtGvMpFfDzC?nCgA~BoCrAeD", v = 70 },
+  { line = "arbuH}sxnAxDwM~AwSfA{FjBwEjFcI", v = 80 },
+  { line = "g|auHepznA~D{E`GqAzEzAjCvF", v = 60 },
+  { line = "}bauH_oznApGrTjMz\\|Qh[hEbD", v = 80 },
+  { line = "wr_uHazwnAjFDhHyD" },
+  { line = "ab_uHu_xnAjDiCdGsHtI}NzCiHvEqSlAeSnBkM", v = 80 },
+  { line = "gx}tH_~znArB}FhEwB`Dr@tGtJxDrArBSxBsArEoJ|C_ChDRlGxEzD?pDwDjIeUhDuAvC|@", v = 50 },
+  { line = "czztHwa|nAbGjH|CdAbOkCbXrGdDRhDe@bJiDvGAbCbArBvB|CvJ", v = 70 },
+  { line = "wxwtHgf{nA|BxJdD|EfFzA~KiCvEr@vQbPpHbN", v = 80 },
+  { line = "ixutHasynAtCtH`@dIi@jFoHn[IjEd@rE", v = 60 },
+  { line = "o|utHinwnAzBhN`B`G|FdKlEvCbJR" },
+  { line = "a|ttHkevnAdKsC`GIhCr@lBlBbFtJ~CrQ", v = 70 },
+  { line = "}sstH}funAhArDbBhBzB`@tBk@vBwCvEiR`BkBbCk@rBf@xA~AlDfMrBzCzCbAvDw@", v = 50 },
+  { line = "c{qtHkcunA`BgA" },
+  { line = "axqtHseunAdG}GbNHlJqDdIcGlC[jBl@jB`CdBpFtAfMdA`CfB`BhHdAfHiDrCQ`DpAbEbGlDfB`DD|BaB", v = 50 },
+  { line = "ycntH_stnAhV{b@jScMvEmBpNOdFhBnChE`G`WhD`IxItHvEbA|EuArNkNfCoAnf@wAjIyBfDeClCcEhFeT", v = 80 },
+  { line = "oygtH_lvnAxA{EhC}C~Bu@vCl@nBnCjAjGIlFeA`E", v = 50 },
+  { line = "gfgtHu}unAuBfHBdItBxGfEtC`DGbDaC|AoDpDuN", v = 60 },
+  { line = "emftHgvunAdCmFtEoAxCdAdIfJrBr@zAKtCcC|CoKzC_DtDFrG|E~De@fC}DvAkK", v = 50 },
+  { line = "_cdtHmsvnAv@{EnBkD~BgAvDM" },
+  { line = "_tctHkbwnA~Bd@dJ`F", v = 60 },
+  { line = "ydctHczvnAjC|A" },
+  { line = "m`ctHewvnAdGbDfE?tImGxEeK|BoCvS{BvBr@|IzGpCBxGcBdBXpB|AvB`Hn@tW`@xDzAtEbE|E~Cb@~By@|AmBlFyLvEqCjCU~C|@bBbBdAzC", v = 60 },
+  { line = "{l~sH{{unAfGb`@lEpGvJlGzC`Ij@vF?pGgCdS", v = 80 },
+  { line = "mp}sHe{rnAqDbMSlCNvExApGpIbLhAfH_@vFoFlNeAjHLxDvBrLe@~Nr@pFlB|CjCx@fCe@hFiFlCeAbPAbEfC", v = 50 },
+  { line = "m}{sHcwnnAbKpOx@pFGbG", v = 60 },
+  { line = "wo{sH{vmnAaBrULzItUb}A", v = 80 },
+  { line = "u{zsHgwinAnAlErBfCzB~@~Gf@lEq@~E{HjCmAxBRfIlEnED~GkBnCsBfEcIrEmO", v = 60 },
+  { line = "}gxsHoqjnA`DcEbEUfD`C~CxHpBjBxCRbFyChCGbBz@tE~GlFdEfFdG~D`@zFwB", v = 50 },
+]
+posts = [[43, 50.85143, 13.07912], [42, 50.84371, 13.08474], [41, 50.83561, 13.0797], [40, 50.82738, 13.08493], [39, 50.81856, 13.08307], [38, 50.81202, 13.07311], [37, 50.80667, 13.08243], [36, 50.80004, 13.08101], [35, 50.79409, 13.07089], [34, 50.78647, 13.07723], [33, 50.78352, 13.08793], [32, 50.7749, 13.08818], [31, 50.76722, 13.09046], [30, 50.75808, 13.0902], [29, 50.75109, 13.08443], [28, 50.74344, 13.08003], [27, 50.7436, 13.06748], [26, 50.73626, 13.06292], [25, 50.72965, 13.0566], [24, 50.72337, 13.05662], [23, 50.71499, 13.06078], [22, 50.70842, 13.05586], [21, 50.70132, 13.05846], [20, 50.69286, 13.06249], [19, 50.68622, 13.05392], [18, 50.67763, 13.05741], [17, 50.67071, 13.06501], [16, 50.66798, 13.05577], [15, 50.66102, 13.05966], [14, 50.65332, 13.06222], [13, 50.64682, 13.0647], [12, 50.63874, 13.06881], [11, 50.63184, 13.06221], [10, 50.62594, 13.06212], [9, 50.62004, 13.05316], [8, 50.61997, 13.04086], [7, 50.61888, 13.02912], [6, 50.61358, 13.02472], [5, 50.60921, 13.01564], [4, 50.60653, 13.0023], [3, 50.60009, 12.99826], [2, 50.59256, 13.00163], [1, 50.58505, 13.00138]]
+
+[[connections]]
+km = 0.279
+station = "Annaberg-Buchholz unterer Bf"
+lines = [
+  { id = "6623", ref = "6623", name = "6623 Bärenstein Grenze - Annaberg-Buchholz unt Bf", km = 18.976 },
+]
+
+[[connections]]
+km = 43.395
+station = "Flöha"
+lines = [
+  { id = "6258", ref = "6258", name = "6258 Dresden - Abzweig Werdau Bogendreieck", km = 67.059 },
+  { id = "6619", ref = "6619", name = "6619: Reitzenhain - Flöha", km = 57.858 },
+]

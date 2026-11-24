@@ -1,0 +1,90 @@
+id = "4931"
+ref = "4931"
+name = "Kleine Murrbahn"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 15.018
+kmTo = 23.6
+length = 8.9
+speeds = [[15.018, 15.394, 80, 80], [15.394, 16.432, 100, 100], [16.432, 20.3, 120, 120], [20.3, 22.449, 110, 110], [22.449, 22.508, 90, 110], [22.508, 23.491, 90, 90], [23.491, 23.6, 80, 80]]
+curves = [[15.054, 15.237, 550], [15.458, 16.362, 520], [17.393, 18.246, 1520], [19.559, 20.932, 1080], [21.121, 21.745, 600], [22.638, 23.343, 510], [23.417, 23.47, 1240]]
+points = [
+  { km = 15.12, kind = "signal", label = "612", signal = "minor", dir = -1 },
+  { km = 15.171, kind = "signal", label = "P602", signal = "distant,main,minor", dir = -1 },
+  { km = 15.175, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.21, kind = "station", label = "Benningen (Neckar)", pos = [48.94389, 9.24413], uic = "8029592" },
+  { km = 15.264, kind = "signal", signal = "stop", dir = 1 },
+  { km = 15.312, kind = "signal", signal = "stop", dir = 1 },
+  { km = 15.317, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 15.345, kind = "signal", label = "Vwn602", signal = "distant", dir = 1 },
+  { km = 15.394, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.395, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.632, kind = "signal", label = "N602", signal = "main", dir = 1 },
+  { km = 16.15, kind = "signal", label = "G670", signal = "distant,main", dir = -1 },
+  { km = 16.252, kind = "signal", signal = "distant", dir = -1 },
+  { km = 16.432, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 16.434, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.086, kind = "signal", signal = "distant", dir = -1 },
+  { km = 17.41, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 17.457, kind = "signal", label = "a574", signal = "distant", dir = 1 },
+  { km = 18.537, kind = "signal", label = "A574", signal = "distant,main", dir = 1 },
+  { km = 19.024, kind = "signal", label = "P502", signal = "main,speed_limit,wrong_road", dir = 1 },
+  { km = 19.276, kind = "signal", signal = "stop", dir = -1 },
+  { km = 19.28, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.28, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 19.308, kind = "signal", signal = "stop", dir = -1 },
+  { km = 19.353, kind = "signal", signal = "stop", dir = -1 },
+  { km = 19.36, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 19.393, kind = "station", label = "Freiberg (Neckar)", pos = [48.92995, 9.19743], uic = "8029591" },
+  { km = 19.427, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 19.433, kind = "signal", signal = "stop", dir = 1 },
+  { km = 19.455, kind = "signal", signal = "stop", dir = 1 },
+  { km = 19.491, kind = "signal", signal = "stop", dir = 1 },
+  { km = 19.534, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.71, kind = "signal", label = "N 502", signal = "main,minor", dir = 1 },
+  { km = 19.867, kind = "signal", label = "I", signal = "wrong_road", dir = 1 },
+  { km = 19.974, kind = "signal", signal = "minor", dir = -1 },
+  { km = 20.3, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 20.301, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 20.354, kind = "signal", label = "G571", signal = "distant,main", dir = -1 },
+  { km = 20.653, kind = "signal", label = "WVg 571", signal = "distant", dir = -1 },
+  { km = 20.904, kind = "signal", label = "470", signal = "distant", dir = 1 },
+  { km = 21.351, kind = "signal", label = "g571", signal = "distant", dir = -1 },
+  { km = 21.456, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 21.655, kind = "signal", label = "WV470", signal = "distant", dir = 1 },
+  { km = 21.923, kind = "signal", label = "470", signal = "distant,main", dir = 1 },
+  { km = 22.3, kind = "stop", label = "Favoritepark", uic = "8001967", pos = [48.90964, 9.18078], measured = true },
+  { km = 22.447, kind = "signal", signal = "stop", dir = 1 },
+  { km = 22.449, kind = "signal", label = "h270", signal = "distant,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 22.508, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 23.079, kind = "signal", label = "WVh270", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 23.491, kind = "signal", label = "H270", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 23.512, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 23.572, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 15.078, kmTo = 15.083, length = 15 },
+  { kind = "bridge", kmFrom = 15.366, kmTo = 15.394, length = 28 },
+  { kind = "bridge", kmFrom = 16.898, kmTo = 16.923, length = 24 },
+  { kind = "bridge", kmFrom = 18.105, kmTo = 18.137, length = 26 },
+  { kind = "bridge", kmFrom = 19.82, kmTo = 19.859, length = 34 },
+  { kind = "bridge", kmFrom = 20.102, kmTo = 20.129, length = 32 },
+  { kind = "bridge", kmFrom = 20.977, kmTo = 20.986, length = 11 },
+  { kind = "bridge", kmFrom = 22.538, kmTo = 22.577, length = 36 },
+  { kind = "bridge", kmFrom = 22.962, kmTo = 22.985, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sdviHi_mw@^yM[bK}@dH{HfT", v = 80 },
+  { line = "ipviHqclw@sDtJyAdGu@xGMnJj@`IzAhHdC|FxEtG", v = 100 },
+  { line = "skviHkwiw@jl@nw@jGfLxElM`GzXvX`yBbGdTrIlO", v = 120 },
+  { line = "ozriHsiaw@nHzGzHdBzHs@jUcI|FC`E|@~FxD`d@ng@", v = 110 },
+  { line = "ykoiHey_w@rJ~JjEfBbE\\|Da@|CqArLwL", v = 90 },
+  { line = "e{miHkz_w@dDeC", v = 80 },
+]
+posts = [[16, 48.94652, 9.23562], [17, 48.94015, 9.22524], [18, 48.93381, 9.21504], [19, 48.93107, 9.2026], [20, 48.92798, 9.19019], [21, 48.92003, 9.18594], [22, 48.91208, 9.18341], [23, 48.90429, 9.17664]]

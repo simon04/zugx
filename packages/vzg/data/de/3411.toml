@@ -1,0 +1,52 @@
+id = "3411"
+ref = "3411"
+name = "3411 Ludwigshafen-Oggersheim - BASF"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Ludwigshafen-Oggersheim"
+to = "Ludwigshafen (Rhein) BASF"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.347
+kmTo = 5.512
+length = 5.159
+speeds = [[0.347, 5.512, 40, 40]]
+curves = [[0.597, 1.251, 890], [1.34, 2.095, 1460], [2.343, 2.389, 2240], [2.575, 3.066, 1650]]
+points = [
+  { km = 0.437, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.539, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.744, kind = "signal", label = "G", signal = "distant,main,traversable", dir = -1 },
+  { km = 1.447, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.992, kind = "signal", label = "a", signal = "distant", dir = 1 },
+  { km = 2.392, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.393, kind = "signal", label = "A", signal = "main,traversable", dir = 1 },
+  { km = 2.485, kind = "signal", label = "P", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 2.486, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.865, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.913, kind = "signal", label = "p", signal = "distant", dir = -1 },
+  { km = 3.666, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.109, kind = "signal", label = "r", signal = "distant", dir = 1 },
+  { km = 4.521, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.521, kind = "signal", label = "R", signal = "main,traversable", dir = 1 },
+  { km = 4.524, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.622, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.743, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.012, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.091, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.167, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 5.369, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.46, kind = "signal", label = "Y", signal = "distant,main,traversable", dir = 1 },
+  { km = 5.504, kind = "signal", signal = "crossing", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.836, kmTo = 0.847, length = 12 },
+  { kind = "bridge", kmFrom = 3.051, kmTo = 3.066, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{}amHudcr@oJd[mCjFgFnFqHjCqRbC{OU}GcCe`@{^{K{O}zAqcD", v = 40 },
+]
+posts = [[1, 49.49857, 8.37034], [2, 49.50743, 8.36981], [3, 49.51473, 8.37755], [4, 49.52057, 8.38799], [5, 49.52638, 8.39827]]

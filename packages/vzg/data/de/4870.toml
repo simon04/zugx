@@ -1,0 +1,113 @@
+id = "4870"
+ref = "4870"
+name = "4870 Böblingen - Renningen"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Böblingen"
+to = "Renningen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.511
+kmTo = 13.833
+length = 14.326
+speeds = [[-0.511, -0.316, 40, 40], [-0.316, 0.134, "", ""], [0.134, 0.672, 60, 60], [0.672, 2.003, 70, 70], [2.003, 2.488, 50, 50], [2.488, 2.669, 40, 40], [2.669, 3.342, 80, 80], [3.342, 3.515, 100, 80], [3.515, 5.246, 100, 100], [5.246, 11.27, 80, 80], [11.27, 11.278, "", ""], [11.278, 13.288, 100, 100], [13.288, 13.551, 80, 80], [13.551, 13.755, 60, 60], [13.755, 13.833, "", 60]]
+curves = [[0.039, 0.139, 1450], [0.214, 0.912, 330], [0.962, 1.428, 450], [1.567, 2.089, 390], [2.628, 2.946, 480], [2.995, 3.344, 380], [4.105, 4.451, 600], [4.943, 6, 520], [6.106, 7.263, 360], [7.461, 7.724, 1410], [8.111, 8.454, 490], [8.527, 8.795, 570], [9.417, 9.568, 1710], [9.645, 9.928, 470], [9.98, 10.512, 490], [10.559, 10.773, 610], [10.822, 10.976, 750], [11.027, 11.34, 440], [12.442, 13.733, 970]]
+points = [
+  { km = -0.389, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.316, kind = "signal", signal = "main,minor,traversable", dir = -1 },
+  { km = 0.029, kind = "station", label = "Böblingen", uic = "8029383", ele = 437, pos = [48.68804, 9.00473] },
+  { km = 0.134, kind = "signal", label = "P6", signal = "main,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 0.212, kind = "signal", label = "56II", signal = "minor", dir = -1 },
+  { km = 0.313, kind = "signal", label = "46 I", signal = "minor", dir = -1 },
+  { km = 0.372, kind = "signal", label = "P46", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 0.504, kind = "signal", label = "a110 II", signal = "distant", dir = 1 },
+  { km = 0.626, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.672, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.675, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.895, kind = "signal", label = "C", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 1.012, kind = "signal", label = "Wva", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.124, kind = "signal", label = "WVc", signal = "distant", dir = -1 },
+  { km = 1.13, kind = "signal", label = "A", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 1.556, kind = "signal", label = "15LW1X", signal = "minor", dir = 1 },
+  { km = 1.559, kind = "signal", label = "c", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.623, kind = "signal", label = "15L11Y", signal = "minor", dir = -1 },
+  { km = 2.059, kind = "signal", label = "15 P3", signal = "main,speed_limit", dir = -1 },
+  { km = 2.3, kind = "station", label = "Sindelfingen", pos = [48.70394, 8.99895] },
+  { km = 2.488, kind = "signal", label = "15N3", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 3.342, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.515, kind = "signal", label = "15 F", signal = "combined,speed_limit", dir = -1 },
+  { km = 3.517, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.871, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.471, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.521, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.246, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.246, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.432, kind = "halt", label = "Maichingen", uic = "8029454", pos = [48.72166, 8.96965] },
+  { km = 5.571, kind = "signal", label = "16 21", signal = "main,wrong_road", dir = 1 },
+  { km = 6.302, kind = "signal", label = "16/22", signal = "main,wrong_road", dir = -1 },
+  { km = 6.386, kind = "signal", label = "16VW22", signal = "distant", dir = -1 },
+  { km = 6.474, kind = "station", label = "Maichingen Nord", pos = [48.72752, 8.97944] },
+  { km = 7.29, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.056, kind = "signal", signal = "stop", dir = -1 },
+  { km = 8.09, kind = "stop", label = "Magstadt", pos = [48.73614, 8.9654] },
+  { km = 8.349, kind = "signal", label = "44 24", signal = "main", dir = -1 },
+  { km = 11.278, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.917, kind = "signal", signal = "stop", dir = -1 },
+  { km = 11.978, kind = "signal", signal = "stop", dir = -1 },
+  { km = 11.983, kind = "stop", label = "Renningen Süd", pos = [48.76267, 8.93196] },
+  { km = 12.328, kind = "signal", label = "gg", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.686, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 13.288, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.312, kind = "signal", label = "GG", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 13.364, kind = "signal", signal = "distant", dir = -1 },
+  { km = 13.551, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.212, kmTo = 0.241, length = 29 },
+  { kind = "bridge", kmFrom = 0.786, kmTo = 0.903, length = 119 },
+  { kind = "bridge", kmFrom = 1.515, kmTo = 1.557, length = 46 },
+  { kind = "tunnel", kmFrom = 2.78, kmTo = 2.947, length = 171 },
+  { kind = "bridge", kmFrom = 5.066, kmTo = 5.108, length = 41 },
+  { kind = "bridge", kmFrom = 6.398, kmTo = 6.427, length = 29 },
+  { kind = "bridge", kmFrom = 7.408, kmTo = 7.443, length = 37 },
+  { kind = "bridge", kmFrom = 7.487, kmTo = 7.512, length = 26 },
+  { kind = "bridge", kmFrom = 8.56, kmTo = 8.58, length = 21 },
+  { kind = "bridge", kmFrom = 9.027, kmTo = 9.039, length = 12 },
+  { kind = "bridge", kmFrom = 9.616, kmTo = 9.642, length = 25 },
+  { kind = "bridge", kmFrom = 9.932, kmTo = 9.959, length = 26 },
+  { kind = "bridge", kmFrom = 10.314, kmTo = 10.4, length = 83 },
+  { kind = "bridge", kmFrom = 12.29, kmTo = 12.321, length = 31 },
+  { kind = "bridge", kmFrom = 13.076, kmTo = 13.095, length = 19 },
+  { kind = "bridge", kmFrom = 13.288, kmTo = 13.31, length = 22 },
+  { kind = "bridge", kmFrom = 13.395, kmTo = 13.43, length = 35 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ewchHgt|u@wFuJ", v = 40 },
+  { line = "}~chH}_}u@yOs[" },
+  { line = "wodhHq|}u@_F_MiCwDsDmBoE?", v = 60 },
+  { line = "egehHws~u@wEpCaHhNkE`EoF~A_PWoDd@gEvC_DjG", v = 70 },
+  { line = "sfghHgi}u@kKxd@", v = 50 },
+  { line = "_sghHmc|u@qCbM", v = 40 },
+  { line = "qwghHiu{u@}BlF", v = 80 },
+  { line = "o{ghH{m{u@mGxE", tunnel = true, v = 80 },
+  { line = "}chhHag{u@sDlBqCbD}AxDiA|F", v = 80 },
+  { line = "kshhHwpzu@mNj~@iChJoDvF}Yf]uD`CaEfA", v = 100 },
+  { line = "isjhHwyvu@mFEkIoBqB}@mCsC{CsIeEy[yAwDeC_DkG_CoK\\kEzAsCbDeBhEuGze@{Obl@sCbEkNrHgD~DkX|m@_JjVgL`J{FnJiC`CaDhAqLjA_JhGkJdDwExF", v = 80 },
+  { line = "sbrhHgfqu@GN" },
+  { line = "{brhHwequ@yf@poAgEnIuFbH_F|DoHfDcHpA", v = 100 },
+  { line = "grthHysmu@}F]aEcD", v = 80 },
+  { line = "g`uhH{ymu@kCyGsAmK", v = 60 },
+]
+posts = [[0, 48.688, 9.00428], [1, 48.69479, 9.0066], [2, 48.70265, 9.00264], [3, 48.70781, 8.99176], [4, 48.71182, 8.98019], [5, 48.71806, 8.97053], [6, 48.7252, 8.97388], [7, 48.73194, 8.97859], [8, 48.73575, 8.96637], [9, 48.74241, 8.95743], [10, 48.7483, 8.94772], [11, 48.75633, 8.94236], [12, 48.76225, 8.93279], [13, 48.76856, 8.92331]]
+
+[[connections]]
+km = 0.029
+station = "Böblingen"
+lines = [
+  { id = "4860", ref = "4860", name = "Gäubahn", km = 25.914 },
+  { id = "4871", ref = "4871", name = "4871 Böblingen - Dettenhausen", km = 0 },
+]

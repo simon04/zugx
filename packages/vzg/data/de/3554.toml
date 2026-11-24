@@ -1,0 +1,120 @@
+id = "3554"
+ref = "3554"
+name = "3554 Darmstadt Nord - Groß-Umstadt-Wiebelsbach"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q2014362"
+from = "Darmstadt Nord"
+to = "Groß Umstadt-Wiebelsbach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 3.473
+kmTo = 32.339
+length = 28.86
+speeds = [[3.473, 3.573, "", ""], [3.573, 3.987, 70, 70], [3.987, 6.685, 80, 80], [6.685, 7.741, 70, 70], [7.741, 8.204, 60, 60], [8.204, 10.248, 100, 100], [10.248, 13.452, 110, 110], [13.452, 18.686, 100, 100], [18.686, 20.493, 110, 110], [20.493, 21.049, 100, 100], [21.049, 21.803, 110, 110], [21.803, 26.224, 120, 120], [26.224, 29.771, 110, 110], [29.771, 30.289, 90, 90], [30.289, 32.252, 110, 110], [32.252, 32.339, 60, 60]]
+curves = [[3.561, 3.602, 2030], [3.742, 3.903, 1300], [3.984, 4.306, 2110], [4.908, 5.665, 370], [5.813, 6.061, 750], [6.503, 7.084, 940], [7.683, 7.995, 650], [8.09, 8.168, 1710], [8.22, 8.919, 860], [10.866, 10.971, 1370], [11.802, 12.682, 900], [13.601, 13.726, 1630], [13.827, 14.203, 720], [14.404, 14.605, 990], [14.756, 15.133, 530], [15.273, 15.693, 550], [16.448, 16.574, 2110], [17.43, 17.983, 450], [18.16, 18.814, 470], [18.99, 19.317, 1090], [20.5, 21.18, 510], [21.436, 21.79, 1060], [22.189, 22.961, 980], [24.281, 24.604, 1140], [25.501, 25.7, 1380], [26.173, 26.497, 990], [26.771, 27.194, 640], [27.518, 27.567, 2520], [27.667, 28.066, 840], [29.314, 29.564, 870], [29.764, 30.339, 510], [30.764, 31.114, 840], [31.464, 31.564, 2060]]
+points = [
+  { km = 3.573, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.779, kind = "station", label = "Darmstadt Nord", pos = [49.89211, 8.65407], uic = "8001375" },
+  { km = 3.987, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.99, kind = "signal", label = "N701", signal = "main", dir = 1 },
+  { km = 7.083, kind = "signal", label = "97A", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 7.563, kind = "station", label = "Darmstadt Ost", pos = [49.87444, 8.67412], uic = "8001376" },
+  { km = 7.817, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 8.549, kind = "signal", label = "9F", signal = "combined", dir = -1 },
+  { km = 8.723, kind = "signal", signal = "distant", dir = -1 },
+  { km = 9.264, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 9.267, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.4, kind = "stop", label = "Darmstadt TU-Lichtwiese", pos = [49.86087, 8.6876], measured = true, uic = "8001386" },
+  { km = 10.497, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.504, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.975, kind = "stop", label = "Mühltal", pos = [49.83227, 8.70289], uic = "8004350" },
+  { km = 13.9, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.904, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.796, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 15.442, kind = "signal", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 15.963, kind = "signal", signal = "main", dir = -1 },
+  { km = 16.033, kind = "station", label = "Ober-Ramstadt", pos = [49.83202, 8.744], uic = "8004497" },
+  { km = 16.155, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.438, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.875, kind = "signal", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 17.581, kind = "signal", signal = "distant", dir = -1 },
+  { km = 18.686, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.807, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.395, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 20.493, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.049, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.803, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.821, kind = "signal", label = "99A", signal = "combined,speed_limit", dir = 1 },
+  { km = 23.381, kind = "signal", signal = "main", dir = -1 },
+  { km = 23.446, kind = "station", label = "Reinheim (Odenwald)", pos = [49.82966, 8.83531] },
+  { km = 23.529, kind = "signal", label = "99N1", signal = "main", dir = 1 },
+  { km = 24.193, kind = "signal", signal = "combined,speed_limit", dir = -1 },
+  { km = 24.957, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 25.641, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 26.224, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.467, kind = "halt", label = "Otzberg-Lengfeld", pos = [49.83934, 8.90194] },
+  { km = 29.04, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 29.771, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 30.289, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 30.29, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 31.039, kind = "signal", signal = "main", dir = 1 },
+  { km = 31.04, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 31.85, kind = "station", label = "Groß-Umstadt Wiebelsbach", pos = [49.83311, 8.94087], uic = "8000384" },
+  { km = 32.252, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.363, kmTo = 5.387, length = 21 },
+  { kind = "bridge", kmFrom = 12.744, kmTo = 12.758, length = 12 },
+  { kind = "bridge", kmFrom = 15.51, kmTo = 15.525, length = 16 },
+  { kind = "bridge", kmFrom = 16.412, kmTo = 16.431, length = 19 },
+  { kind = "tunnel", kmFrom = 21.171, kmTo = 21.413, length = 239, name = "Engelbergtunnel" },
+  { kind = "bridge", kmFrom = 22.913, kmTo = 22.935, length = 22 },
+  { kind = "bridge", kmFrom = 24.865, kmTo = 24.894, length = 29 },
+  { kind = "bridge", kmFrom = 25.003, kmTo = 25.033, length = 30 },
+  { kind = "bridge", kmFrom = 26.899, kmTo = 26.91, length = 11 },
+  { kind = "bridge", kmFrom = 28.629, kmTo = 28.672, length = 42 },
+  { kind = "bridge", kmFrom = 31.581, kmTo = 31.599, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gicoHe`ru@_ChC", v = 60 },
+  { line = "gmcoH{{qu@}x@j{@gF`L}Mff@", v = 110 },
+  { line = "k}eoHeknu@iAzHUjJ^bIjBvJ", v = 90 },
+  { line = "_|eoHa`mu@zExQpBdMxNfoBZnMUxIaGvq@QnM|@jL`Irc@p@`K", v = 110 },
+  { line = "s|doHevcu@|Blz@nO|zA|HnY~b@lvAdDlRr@pNSdOgG|h@", v = 120 },
+  { line = "i|boHwoxt@aCvNiDpJ", v = 110 },
+  { line = "uecoHmtwt@qG`O", tunnel = true, v = 110 },
+  { line = "gncoHkdwt@_CpG", v = 110 },
+  { line = "grcoHy{vt@eBdKUnIh@pK`BnI", v = 100 },
+  { line = "wqcoHanut@la@f`BfBrQdAzX", v = 110 },
+  { line = "{iboHi`qt@eAlMwC`JgDnEwM~I}D`EyDxJiA~JkAjtAwEppAhA`MjLf\\|AhLEl^rB`^JfNiChVoDvR", v = 100 },
+  { line = "kocoHa_dt@gSvaAoFdLsHjIwLlFm}@zHyk@vN", v = 110 },
+  { line = "wmhoHuc`t@o~@fUqDdBaDbCoEzFiHjR", v = 100 },
+  { line = "ugkoH{j~s@wGtScHrJ", v = 60 },
+  { line = "qykoHqj}s@sc@`[sD`@_K{A", v = 70 },
+  { line = "yomoHip|s@cGiCc_@yUqPi@sDz@_ChBsDnH}@zEU`GlCxx@dBvU", v = 80 },
+  { line = "{sooHq~ys@~BbX", v = 70 },
+  { line = "{oooHmeys@?Z", tunnel = true, v = 70 },
+  { line = "{oooHqdys@d@~P", v = 70 },
+  { line = "unooHqrxs@JxI" },
+]
+posts = [[32, 49.83199, 8.94215], [31, 49.83945, 8.93438], [30, 49.84341, 8.9222], [29, 49.84038, 8.90919], [28, 49.83848, 8.89554], [27, 49.83988, 8.88182], [26, 49.83754, 8.86843], [25, 49.83582, 8.85473], [24, 49.83235, 8.84194], [23, 49.8275, 8.83014], [22, 49.82686, 8.81682], [21, 49.83112, 8.80529], [20, 49.82874, 8.79256], [19, 49.82483, 8.7802], [18, 49.82833, 8.76933], [17, 49.83122, 8.75731], [16, 49.83202, 8.74354], [15, 49.82984, 8.73019], [14, 49.82888, 8.71629], [13, 49.83214, 8.70341], [12, 49.83751, 8.69399], [11, 49.84781, 8.69204], [10, 49.85847, 8.68847], [9, 49.86477, 8.68625], [8, 49.87118, 8.6779], [7, 49.87874, 8.67077], [6, 49.88778, 8.67511], [5, 49.89384, 8.67068], [4, 49.89266, 8.65807]]
+
+[[connections]]
+km = 3.779
+station = "Darmstadt Nord"
+lines = [
+  { id = "3540", ref = "3540", name = "3540 Abzw Weiterstadt Stockschneise - Darmstadt-Kranichstein", km = 32.396 },
+  { id = "3557", ref = "3557", name = "3557 Darmstadt Hbf - Aschaffenburg Hbf", km = 37.894 },
+]
+
+[[connections]]
+km = 31.85
+station = "Groß-Umstadt Wiebelsbach"
+lines = [
+  { id = "4113", ref = "4113", name = "4113 Eberbach - Hanau Hbf", km = 53.026 },
+]

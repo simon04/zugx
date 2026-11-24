@@ -1,0 +1,115 @@
+id = "3261"
+ref = "3261"
+name = "3261 Saarbrücken Rbf -Saarbrücken Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Saarbrücken Rbf"
+to = "Saarbrücken Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.984
+kmTo = 14.148
+length = 15.14
+speeds = [[-0.984, 0.65, 60, 60], [0.65, 1.718, 80, 80], [1.718, 2.448, 90, 90], [2.448, 4.739, "", ""], [4.739, 6.787, 60, 60], [6.787, 8.954, 90, 90], [8.954, 11.372, 110, 110], [11.372, 11.605, 90, 90], [11.605, 14.148, "", ""]]
+curves = [[-0.884, -0.384, 460], [-0.309, 0.042, 650], [0.093, 0.196, 1870], [0.247, 0.349, 930], [0.656, 0.758, 1060], [0.809, 1.013, 660], [1.315, 1.408, 1620], [1.483, 1.708, 680], [1.758, 2.308, 970], [2.383, 3.058, 390], [3.108, 3.433, 520], [3.533, 4.008, 770], [4.108, 4.233, 1770], [4.558, 4.733, 640], [4.783, 4.883, 920], [5.508, 5.833, 660], [6.058, 6.558, 370], [6.758, 6.983, 810], [7.108, 7.358, 1600], [7.458, 7.683, 790], [7.758, 7.908, 970], [8.208, 8.433, 610], [8.583, 8.933, 730], [9.433, 9.758, 2140], [11.308, 11.658, 640], [11.708, 11.883, 950], [13.433, 13.758, 2190]]
+points = [
+  { km = -0.918, kind = "signal", label = "20 ZR12", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = -0.917, kind = "signal", label = "201012X", signal = "minor", dir = 1 },
+  { km = -0.587, kind = "signal", label = "201012Y", signal = "minor", dir = 1 },
+  { km = -0.241, kind = "signal", label = "20 P12", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 0, kind = "station", label = "Saarbrücken Hauptbahnhof", pos = [49.2412, 6.99079], measured = true, uic = "8025391" },
+  { km = 0, kind = "stop", label = "Saarbrücken Hauptbahnhof", pos = [49.24157, 6.9911], measured = true },
+  { km = 0.034, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.086, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.1, kind = "signal", signal = "main_repeated" },
+  { km = 0.136, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.258, kind = "signal", label = "20 ZT12", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 0.638, kind = "signal", label = "205012X", signal = "minor", dir = -1 },
+  { km = 0.65, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.695, kind = "signal", signal = "distant,speed_limit", dir = 1 },
+  { km = 1.707, kind = "signal", label = "20 ZV12", signal = "combined,minor,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 1.718, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.5, kind = "station", label = "Saarbrücken-Burbach", uic = "8005243", pos = [49.24226, 6.95612], measured = true },
+  { km = 3.01, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.064, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.74, kind = "signal", label = "20 N16", signal = "main,speed_limit", dir = -1 },
+  { km = 3.958, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.762, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.818, kind = "signal", signal = "distant,speed_limit", dir = -1 },
+  { km = 4.829, kind = "signal", label = "204016X", signal = "minor", dir = 1 },
+  { km = 5.323, kind = "signal", label = "20 ZT16", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 5.442, kind = "signal", signal = "main_repeated" },
+  { km = 5.521, kind = "signal", signal = "minor", dir = 1 },
+  { km = 5.523, kind = "signal", signal = "minor", dir = -1 },
+  { km = 5.783, kind = "signal", label = "20 P16", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 6.123, kind = "signal", label = "20 ZR16", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 6.224, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 6.304, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 6.38, kind = "signal", signal = "distant,speed_limit", dir = -1 },
+  { km = 6.473, kind = "signal", label = "202016X", signal = "minor", dir = 1 },
+  { km = 7.015, kind = "signal", label = "20 D", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 7.203, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 8.033, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 8.954, kind = "stop", label = "Saarbrücken-Jägersfreude", pos = [49.26593, 7.0053], uic = "8003108" },
+  { km = 8.972, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.258, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.744, kind = "signal", signal = "main", dir = -1 },
+  { km = 11.011, kind = "station", label = "Saarbrücken-Dudweiler", pos = [49.27735, 7.02734], uic = "8001570" },
+  { km = 12.781, kind = "signal", signal = "distant", dir = 1 },
+  { km = 13.759, kind = "signal", label = "B", signal = "main", dir = 1 },
+  { km = 14.061, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.062, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 14.144, kind = "signal", label = "2", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.825, kmTo = -0.798, length = 27 },
+  { kind = "bridge", kmFrom = 0.59, kmTo = 0.647, length = 56 },
+  { kind = "bridge", kmFrom = 0.821, kmTo = 0.836, length = 15 },
+  { kind = "bridge", kmFrom = 1.378, kmTo = 1.476, length = 100 },
+  { kind = "bridge", kmFrom = 4.722, kmTo = 4.739, length = 16 },
+  { kind = "bridge", kmFrom = 4.894, kmTo = 4.954, length = 61 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eopkHq|vi@}CrH{@xLTlHlE|Yn@~IcDx}@", v = 60 },
+  { line = "orpkH}vri@sAbYlAlt@vA`L", v = 80 },
+  { line = "}opkHizoi@zA`K\\hKu@jQoB`Q", v = 90 },
+  { line = "iqpkHo}mi@`CqLhFcJdGkCxIz@oHgDoHsIgDkFkBiHoAwIoAuS{@{c@\\oJ" },
+  { line = "otpkHairi@j@wGrCu~@e@}NkFsb@kBmHcEaF_P_F", v = 60 },
+  { line = "qqqkHq|vi@sFo@eKh@mUpFsPAkXrCqRgFkEqDgEcG", v = 90 },
+  { line = "_gukHqewi@cTm^qG_Nai@uzAaJcY", v = 110 },
+  { line = "yywkHyi|i@cHcM", v = 90 },
+  { line = "}bxkH}w|i@|GjMbt@xtBtHxOvNfV" },
+]
+posts = [[0, 49.24138, 6.99105], [1, 49.24255, 6.97775], [2, 49.24114, 6.96384], [3, 49.23849, 6.9625], [4, 49.24206, 6.97007], [5, 49.24213, 6.98372], [6, 49.24238, 6.99724], [7, 49.24904, 7.00395], [8, 49.25793, 7.0024], [9, 49.26621, 7.00565], [10, 49.27218, 7.0159], [11, 49.27734, 7.02719], [12, 49.2784, 7.02955], [13, 49.27328, 7.01822], [14, 49.26759, 7.00761]]
+
+[[connections]]
+km = 0
+station = "Saarbrücken Hauptbahnhof"
+lines = [
+  { id = "3230", ref = "3230", name = "Saarstrecke", km = 0 },
+  { id = "3231", ref = "3231", name = "3231 Saarbrücken Hbf - Saarbrücken Grenze", km = 0 },
+  { id = "3250", ref = "3250", name = "3250 Saarbrücken - Homburg", km = 0 },
+  { id = "3274", ref = "3274", name = "3274 Wemmetsweiler - Nonnweiler", km = 0 },
+  { id = "3291", ref = "3291", name = "3291 Bahnstrecke Lebach – Völklingen", km = 0 },
+  { id = "3511", ref = "3511", name = "3511 Bingen (Rhein) Hbf - Saarbrücken Hbf", km = 141.889 },
+]
+
+[[connections]]
+km = 2.5
+station = "Saarbrücken-Burbach"
+lines = [
+  { id = "3230", ref = "3230", name = "Saarstrecke", km = 2.569 },
+  { id = "3274", ref = "3274", name = "3274 Wemmetsweiler - Nonnweiler", km = 34.641 },
+  { id = "3291", ref = "3291", name = "3291 Bahnstrecke Lebach – Völklingen", km = 34.641 },
+]
+
+[[connections]]
+km = 11.011
+station = "Saarbrücken-Dudweiler"
+lines = [
+  { id = "3511", ref = "3511", name = "3511 Bingen (Rhein) Hbf - Saarbrücken Hbf", km = 136.382 },
+]

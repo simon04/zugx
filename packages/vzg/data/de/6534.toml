@@ -1,0 +1,43 @@
+id = "6534"
+ref = "6534"
+name = "Buckower Kleinbahn"
+gauge = "1435"
+wikidata = "Q999875"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.854
+length = 4.854
+speeds = [[0, 4.854, "", ""]]
+curves = [[0.2, 0.3, 1440], [0.35, 0.575, 770], [0.625, 0.725, 1740], [0.975, 1.175, 1120], [1.925, 2.1, 650], [2.275, 2.5, 510], [2.85, 3.2, 730], [3.325, 3.475, 960], [3.525, 3.9, 1490], [3.95, 4.675, 410]]
+points = [
+  { km = 0.046, kind = "station", label = "Buckow (Märkische Schweiz)", pos = [52.56093, 14.0755] },
+  { km = 2.225, kind = "stop", label = "Waldsieversdorf", pos = [52.54229, 14.08617] },
+  { km = 4.611, kind = "station", label = "Müncheberg (Mark)", uic = "8003269", pos = [52.52468, 14.10055] },
+  { km = 4.635, kind = "station", label = "Müncheberg (Mark) Kleinbahn", pos = [52.52512, 14.09973] },
+  { km = 4.637, kind = "stop", label = "Müncheberg (Mark) - Kleinbahn", pos = [52.52513, 14.09967] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uxx_Imc|tAdXaNpJ}JhRyOfo@uVdPz@vD[dYwQnDcErE_KxEuMrHuYxJsNlCuBpJqAvFnCxCxFpEzT" },
+]
+posts = [[0, 52.56091, 14.07559], [1, 52.55283, 14.08191], [2, 52.54427, 14.08637], [3, 52.53578, 14.08983], [4, 52.53007, 14.10103]]
+
+[[connections]]
+km = 4.611
+station = "Müncheberg"
+lines = [
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 40.813 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 40.813 },
+]
+
+[[connections]]
+km = 4.635
+station = "Müncheberg Kleinbahn"
+lines = [
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 40.807 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 40.807 },
+]

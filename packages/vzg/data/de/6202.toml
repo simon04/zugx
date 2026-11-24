@@ -1,0 +1,42 @@
+id = "6202"
+ref = "6202"
+name = "6202 Cottbus Südwest - Cottbus"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131702054"
+from = "Cottbus Südwest"
+to = "Cottbus"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.207
+length = 2.207
+speeds = [[0, 0.06, 40, 40], [0.06, 0.949, "", ""], [0.949, 1.304, 40, 40], [1.304, 2.207, 60, 60]]
+curves = [[0.725, 0.8, 1620], [0.85, 1.35, 860], [1.425, 1.95, 1160]]
+points = [
+  { km = 0.06, kind = "signal", label = "20 N4", signal = "main,route,speed_limit,wrong_road", dir = -1 },
+  { km = 0.294, kind = "station", label = "Cottbus Hauptbahnhof / Chóśebuz głowne dwórnišćo", uic = "8010073", pos = [51.7513, 14.32231] },
+  { km = 0.702, kind = "signal", label = "20 ZU4", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 1.095, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.304, kind = "signal", signal = "combined,speed_limit,traversable", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}qzzHmdmvAPjD", v = 40 },
+  { line = "kqzzHa_mvArBloA" },
+  { line = "wmzzHsnjvAPpLfChP", v = 40 },
+  { line = "}hzzHwoivApFtRhE~JbErGpN`O", v = 60 },
+]
+posts = [[0, 51.75087, 14.32663], [1, 51.75022, 14.31215], [2, 51.74532, 14.30053]]
+
+[[connections]]
+km = 0.294
+station = "Cottbus Hauptbahnhof / Chóśebuz głowne dwórnišćo"
+lines = [
+  { id = "6142", ref = "6142", name = "6142 Berlin - Görlitz", km = 114.7 },
+  { id = "6205", ref = "6205", name = "6205 Cottbus - Forst (Lausitz) Grenze", km = -0.095 },
+  { id = "6253", ref = "6253", name = "6253 Großenhain - Frankfurt (Oder)", km = 179.552 },
+]

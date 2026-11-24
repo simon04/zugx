@@ -1,0 +1,100 @@
+id = "5201"
+ref = "5201"
+name = "5201 Würzburg Hbf - Veitshöchheim"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q108405006"
+from = "Würzburg Hbf"
+to = "Veitshöchheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.656
+kmTo = 7.287
+length = 7.902
+speeds = [[-0.656, 0.413, 60, 60], [0.413, 7.287, "", ""]]
+curves = [[-0.556, -0.481, 780], [-0.331, -0.131, 820], [0.069, 0.244, 730], [0.319, 0.569, 1220], [1.355, 2.051, 1180], [2.322, 3.084, 1030], [3.259, 4.309, 1110], [4.834, 4.909, 1790], [4.959, 5.134, 1270], [5.409, 5.884, 700], [6.059, 6.409, 1320], [7.034, 7.184, 1640]]
+points = [
+  { km = -0.564, kind = "signal", signal = "minor", dir = 1 },
+  { km = -0.392, kind = "signal", label = "P204", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = -0.269, kind = "signal", signal = "distant", dir = -1 },
+  { km = -0.203, kind = "signal", signal = "distant", dir = -1 },
+  { km = -0.098, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -0.043, kind = "station", label = "Würzburg Hauptbahnhof", uic = "8000260", pos = [49.80215, 9.93589] },
+  { km = 0.021, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.153, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.33, kind = "signal", label = "N 204", signal = "distant,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 0.416, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.486, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.6, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.658, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.805, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.913, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.997, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.293, kind = "signal", signal = "distant,main,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 1.334, kind = "signal", label = "973", signal = "distant,main,traversable", dir = 1 },
+  { km = 1.418, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.963, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.305, kind = "signal", label = "B 574", signal = "main,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 2.485, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.605, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.754, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.972, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.98, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.021, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 3.049, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.098, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.173, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.308, kind = "signal", signal = "distant,main,minor", dir = -1 },
+  { km = 3.399, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.728, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.859, kind = "station", label = "Würzburg-Zell", uic = "8006586", pos = [49.80491, 9.88462] },
+  { km = 3.887, kind = "signal", label = "40 ZR 506", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 4.261, kind = "signal", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 4.898, kind = "signal", label = "40 N6 05", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 5.12, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 5.18, kind = "signal", signal = "minor", dir = -1 },
+  { km = 5.206, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.332, kind = "signal", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 5.52, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.793, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 5.922, kind = "signal", label = "40 B", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 6.299, kind = "signal", label = "40 P4", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 6.824, kind = "station", label = "Veitshöchheim", uic = "8006065", pos = [49.83035, 9.87631] },
+  { km = 7.017, kind = "signal", label = "40 N4", signal = "combined,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.604, kmTo = 0.617, length = 14 },
+  { kind = "bridge", kmFrom = 1.249, kmTo = 1.283, length = 53 },
+  { kind = "tunnel", kmFrom = 1.416, kmTo = 1.568, length = 161 },
+  { kind = "bridge", kmFrom = 2.939, kmTo = 2.97, length = 32 },
+  { kind = "bridge", kmFrom = 6.084, kmTo = 6.114, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yu}nHeeu{@sIte@qBvZTpU", v = 60 },
+  { line = "ic~nHelr{@eHlvA" },
+  { line = "ol~nHwto{@K~L", tunnel = true },
+  { line = "{l~nHwfo{@\\lOz@fJvIpc@|A~K~@pNDvN[rGgCjTuCxNkFrNyHdMgLjKck@hUyWrN}El@aFO{RuFoGo@{a@jEsRrE" },
+]
+posts = [[0, 49.80279, 9.9355], [1, 49.80366, 9.92237], [2, 49.80367, 9.90774], [3, 49.80153, 9.89534], [4, 49.8061, 9.88373], [5, 49.81446, 9.8788], [6, 49.82304, 9.87662], [7, 49.83193, 9.87619]]
+
+[[connections]]
+km = -0.043
+station = "Würzburg Hauptbahnhof"
+lines = [
+  { id = "1733", ref = "1733", name = "1733 Hannover - Würzburg", km = 327.381 },
+  { id = "5200", ref = "5200", name = "5200 Würzburg - Aschaffenburg", km = -0.037 },
+  { id = "5209", ref = "5209", name = "5209 Rottendorf - Würzburg Hbf", km = 7.642 },
+  { id = "5321", ref = "5321", name = "5321 Treuchtlingen - Würzburg", km = 140.263 },
+  { id = "5910", ref = "5910", name = "5910 Fürth - Würzburg", km = 94.571 },
+]
+
+[[connections]]
+km = 6.824
+station = "Veitshöchheim"
+lines = [
+  { id = "5200", ref = "5200", name = "5200 Würzburg - Aschaffenburg", km = 6.783 },
+]

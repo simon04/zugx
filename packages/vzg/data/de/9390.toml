@@ -1,0 +1,70 @@
+id = "9390"
+ref = "9390"
+name = "Kassel-Naumburger Eisenbahn"
+operator = "HLB Basis AG"
+gauge = "1435"
+wikidata = "Q802505"
+from = "Naumburg (Hessen)"
+to = "Kassel"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 32.361
+length = 32.361
+speeds = [[0, 32.361, "", ""]]
+curves = [[0.325, 1.55, 340], [1.85, 2.45, 420], [3.2, 3.725, 710], [4.4, 4.6, 420], [4.65, 5.05, 300], [5.1, 6.125, 450], [6.2, 6.525, 320], [6.6, 7.075, 1150], [7.225, 7.575, 400], [8.1, 8.75, 510], [8.95, 9.125, 890], [9.325, 9.475, 980], [9.625, 10.275, 450], [10.35, 10.575, 760], [10.675, 10.9, 400], [10.95, 11.075, 710], [11.125, 11.225, 420], [11.275, 11.4, 580], [11.45, 11.6, 1150], [11.8, 11.9, 1140], [11.95, 12.125, 700], [12.175, 12.475, 390], [12.775, 13.25, 610], [13.325, 13.525, 620], [13.625, 13.875, 590], [13.95, 14.075, 1150], [14.35, 14.625, 460], [14.9, 15.525, 430], [15.6, 16.35, 200], [16.4, 17.5, 250], [17.625, 18.125, 270], [18.2, 18.525, 310], [18.75, 19.05, 360], [19.1, 19.25, 660], [19.65, 19.775, 1490], [20.3, 20.65, 580], [21.275, 21.5, 520], [21.55, 21.725, 730], [22.175, 22.45, 640], [22.675, 22.75, 2550], [22.9, 23.4, 1130], [23.525, 23.625, 1770], [23.825, 23.925, 1750], [24.525, 25.075, 400], [25.2, 25.425, 430], [25.475, 25.7, 530], [26.2, 26.55, 600], [26.775, 27.075, 420], [27.15, 27.375, 530], [27.425, 27.725, 400], [27.825, 27.95, 1460], [28.375, 28.525, 1050], [28.7, 28.875, 900], [29.325, 29.45, 1540], [29.575, 29.725, 840], [29.8, 30.15, 410], [30.225, 30.925, 1150], [31.05, 31.175, 1320], [32.2, 32.25, 1470]]
+points = [
+  { km = 1.974, kind = "halt", label = "Naumburg-Altenstädt", pos = [51.26066, 9.19108] },
+  { km = 5.339, kind = "station", label = "Bad Emstal-Balhorn", pos = [51.26093, 9.23537] },
+  { km = 7.036, kind = "halt", label = "Bad Emstal-Sand Kurpark", pos = [51.25207, 9.25104] },
+  { km = 7.945, kind = "station", label = "Bad Emstal-Sand", pos = [51.24982, 9.26269] },
+  { km = 13.245, kind = "station", label = "Schauenburg-Breitenbach", pos = [51.27916, 9.31482] },
+  { km = 14.743, kind = "station", label = "Schauenburg-Hoof", pos = [51.28105, 9.33518] },
+  { km = 19.409, kind = "station", label = "Schauenburg-Elgershausen", pos = [51.27562, 9.36642] },
+  { km = 22.771, kind = "halt", label = "Baunatal-Großenritte", pos = [51.25233, 9.39005] },
+  { km = 23.238, kind = "halt", label = "Hünstein", uic = "80712405", pos = [51.25172, 9.39665] },
+  { km = 23.675, kind = "halt", label = "Albert-Einstein-Straße", pos = [51.25239, 9.40283] },
+  { km = 24.968, kind = "halt", label = "Kleingartenverein", uic = "80712402", pos = [51.25479, 9.42022] },
+  { km = 26.089, kind = "station", label = "Baunatal-Altenbauna", pos = [51.26351, 9.42775] },
+  { km = 31.341, kind = "signal", label = "F 671", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 31.508, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 31.546, kind = "signal", signal = "minor", dir = 1 },
+  { km = 31.693, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 31.902, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 32.114, kind = "signal", signal = "distant,main,minor,traversable", dir = 1 },
+  { km = 32.166, kind = "signal", signal = "minor", dir = -1 },
+  { km = 32.209, kind = "station", label = "Kassel-Wilhelmshöhe Hessencourier", pos = [51.30556, 9.45037] },
+  { km = 32.277, kind = "signal", signal = "minor", dir = 1 },
+  { km = 32.279, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.87, kmTo = 5.881, length = 10 },
+  { kind = "bridge", kmFrom = 10.83, kmTo = 10.846, length = 16 },
+  { kind = "bridge", kmFrom = 19.068, kmTo = 19.122, length = 54 },
+  { kind = "bridge", kmFrom = 19.199, kmTo = 19.222, length = 23 },
+  { kind = "bridge", kmFrom = 25.129, kmTo = 25.144, length = 16 },
+  { kind = "tunnel", kmFrom = 25.258, kmTo = 25.33, length = 73 },
+  { kind = "bridge", kmFrom = 26.221, kmTo = 26.294, length = 73 },
+  { kind = "bridge", kmFrom = 28.005, kmTo = 28.014, length = 10 },
+  { kind = "bridge", kmFrom = 28.959, kmTo = 28.992, length = 34 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wzxwHcr~v@tAmc@k@aIeBeGkCwD}CgByM?kEuB{A_CqEuMyR{VwAqDu@qEq@aL\\aIrV}gAvAeLZqLQgIaHydAHqFnAqMOuHeB{HoG{IsCmH{B}KSiFfAmJnD_G`CeA|HOzImBbEmD|AgEnC_QbCyIhEqKlLwTz@cFPmG{@qu@u@cK{CaL{EiHkD_CgQiHeQqP}OaI}LR_E{AeCyD}FeRqLqRyBeP_DoNm@sJmD{NiFe\\gBkHeDyYeCkF{RiUqBmEuAcG{@qKg@aQhBwWFsGoAqTu@ac@k@gEiAcDuNwWcFcEqCGaItC_CbCoH`MiD`BeCSgCyBoAcDg@sFJeD|@iE`JiKjAeDn@yEWaKiDyKu@sEGmFv@wG|AuDlCeC|PaDfCgBhAkBrAsE\\kEw@wUf@gHjA{DfNwTjFmCbKr@x\\gDfc@\\zGeBpe@uh@bBkDlEsOdUg`@`CsFrHij@jAaNNwHGmOeBkXaAaYaAiaAyA}JgDoHgDaDsLsF" },
+  { line = "wdzwHgdox@qBaB", tunnel = true },
+  { line = "ihzwHigox@wFwLwCqDmWcP{J{EyENcWbJ}BYcNmH_NZ_DcA_BcBwHgLcR{^{IwX_Ias@}Bm[aEaSkB}CuCsB{IwDcH_AeJX_I|AoO`Hg{@zl@" },
+]
+posts = [[0, 51.25052, 9.17298], [1, 51.25384, 9.18321], [2, 51.26079, 9.19139], [3, 51.2585, 9.20454], [4, 51.25751, 9.21825], [5, 51.25873, 9.23201], [6, 51.25837, 9.24161], [7, 51.2523, 9.25066], [8, 51.24996, 9.26347], [9, 51.25552, 9.27279], [10, 51.2638, 9.27738], [11, 51.26949, 9.28773], [12, 51.27309, 9.30081], [13, 51.27857, 9.31144], [14, 51.27906, 9.32551], [15, 51.28273, 9.33772], [16, 51.29057, 9.33544], [17, 51.28928, 9.34728], [18, 51.28349, 9.35558], [19, 51.27926, 9.36614], [20, 51.27031, 9.36666], [21, 51.26207, 9.37084], [22, 51.25566, 9.38066], [23, 51.2518, 9.39323], [24, 51.25266, 9.40747], [25, 51.25505, 9.42041], [26, 51.26276, 9.42729], [27, 51.27135, 9.42742], [28, 51.27934, 9.43245], [29, 51.28433, 9.44414], [30, 51.28724, 9.45757], [31, 51.29592, 9.4584], [32, 51.30407, 9.45234]]
+
+[[connections]]
+km = 32.209
+station = "Kassel-Wilhelmshöhe Hessencourier"
+lines = [
+  { id = "1733", ref = "1733", name = "1733 Hannover - Würzburg", km = 145.035 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 4.427 },
+  { id = "3901", ref = "3901", name = "3901 Kassel Hbf - Waldkappel", km = 4.467 },
+  { id = "3913", ref = "3913", name = "3913 Vellmar-Obervellmar - Kassel-Wilhelmshöhe", km = 344.86 },
+]

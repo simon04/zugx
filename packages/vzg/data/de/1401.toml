@@ -1,0 +1,126 @@
+id = "1401"
+ref = "1401"
+name = "1401 Bremen-Sebaldsbrück - Bremen Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Bremen-Sebaldsbrück"
+to = "Bremen Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 12.409
+length = 12.409
+speeds = [[0, 2.022, 80, 80], [2.022, 4.046, 100, 100], [4.046, 4.09, "", 100], [4.09, 5.107, 60, 60], [5.107, 6.131, 90, 90], [6.131, 7.447, 80, 80], [7.447, 8.522, 60, 60], [8.522, 10.937, "", ""], [10.937, 12.199, 40, 40], [12.199, 12.208, 30, 30], [12.208, 12.409, 40, 40]]
+curves = [[0.1, 0.25, 680], [0.4, 0.5, 2600], [0.55, 1.5, 1140], [1.65, 1.825, 1080], [1.875, 2.075, 840], [2.15, 2.2, 2080], [4.25, 4.575, 1490], [4.625, 4.725, 1510], [4.85, 5.05, 840], [5.625, 5.75, 1630], [5.9, 6.05, 1150], [7.425, 7.5, 2160], [7.625, 7.675, 2420], [8.225, 8.35, 2230], [8.525, 8.575, 2040], [8.65, 8.7, 1910], [8.8, 8.925, 1460], [9.35, 9.6, 1370], [9.7, 9.9, 830], [10, 10.125, 1110], [10.625, 10.775, 800], [10.85, 11.1, 790], [11.725, 11.825, 1290], [11.925, 12.05, 1210], [12.1, 12.3, 840]]
+points = [
+  { km = 0.31, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.316, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 1.285, kind = "signal", label = "10 163", signal = "main", dir = 1 },
+  { km = 1.479, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.685, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.022, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.039, kind = "signal", label = "10 170", signal = "main,speed_limit", dir = -1 },
+  { km = 2.433, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.842, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.044, kind = "signal", label = "11 175", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 3.045, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.046, kind = "signal", label = "11C", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 4.09, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.287, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 4.349, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.516, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.576, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.698, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.824, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.896, kind = "signal", label = "11P44", signal = "main,speed_limit", dir = -1 },
+  { km = 4.969, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.093, kind = "station", label = "Bremen Hauptbahnhof", uic = "8013751", pos = [53.0833, 8.81376] },
+  { km = 5.104, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.107, kind = "signal", label = "11ZR44", signal = "combined,speed_limit", dir = 1 },
+  { km = 5.172, kind = "signal", label = "11 0744 Y", signal = "minor", dir = -1 },
+  { km = 5.333, kind = "signal", label = "11 0744 X", signal = "minor", dir = 1 },
+  { km = 5.448, kind = "signal", signal = "minor", dir = -1 },
+  { km = 5.516, kind = "signal", signal = "minor", dir = -1 },
+  { km = 5.6, kind = "signal", signal = "minor", dir = 1 },
+  { km = 5.91, kind = "signal", label = "11ZU44", signal = "combined,minor,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 6.131, kind = "signal", label = "11ZT44", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 6.49, kind = "signal", label = "11 ZS44", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 6.857, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 7.147, kind = "signal", label = "11 N44", signal = "combined,speed_limit", dir = 1 },
+  { km = 7.447, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.808, kind = "signal", label = "11 H", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 8.012, kind = "halt", label = "Bremen-Walle", uic = "8001167", pos = [53.10348, 8.78655] },
+  { km = 8.159, kind = "signal", signal = "stop", dir = 1 },
+  { km = 8.351, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.353, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 8.454, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.476, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 8.522, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 8.979, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.197, kind = "signal", signal = "distant", dir = 1 },
+  { km = 9.892, kind = "signal", signal = "distant", dir = 1 },
+  { km = 9.896, kind = "signal", label = "U5a", signal = "main", dir = 1 },
+  { km = 10.591, kind = "signal", label = "N", signal = "main", dir = 1 },
+  { km = 10.928, kind = "signal", signal = "minor", dir = 1 },
+  { km = 10.931, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.243, kind = "signal", label = "S1", signal = "main", dir = -1 },
+  { km = 11.245, kind = "signal", signal = "minor", dir = -1 },
+  { km = 11.918, kind = "signal", signal = "minor", dir = 1 },
+  { km = 11.921, kind = "signal", label = "O 1", signal = "main", dir = 1 },
+  { km = 12.066, kind = "signal", signal = "minor", dir = -1 },
+  { km = 12.103, kind = "signal", signal = "distant", dir = -1 },
+  { km = 12.203, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.613, kmTo = 0.625, length = 12 },
+  { kind = "bridge", kmFrom = 1.242, kmTo = 1.259, length = 18 },
+  { kind = "tunnel", kmFrom = 1.731, kmTo = 1.822, length = 90 },
+  { kind = "tunnel", kmFrom = 1.888, kmTo = 1.944, length = 56 },
+  { kind = "bridge", kmFrom = 2.205, kmTo = 2.227, length = 22 },
+  { kind = "bridge", kmFrom = 2.868, kmTo = 2.885, length = 17 },
+  { kind = "bridge", kmFrom = 3.672, kmTo = 3.689, length = 17 },
+  { kind = "bridge", kmFrom = 4.078, kmTo = 4.139, length = 61 },
+  { kind = "bridge", kmFrom = 6.373, kmTo = 6.389, length = 16 },
+  { kind = "bridge", kmFrom = 6.812, kmTo = 6.825, length = 13 },
+  { kind = "bridge", kmFrom = 7.413, kmTo = 7.437, length = 23 },
+  { kind = "bridge", kmFrom = 7.972, kmTo = 8.003, length = 31 },
+  { kind = "bridge", kmFrom = 8.144, kmTo = 8.157, length = 13 },
+  { kind = "bridge", kmFrom = 11.393, kmTo = 11.41, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ch{bIameu@_E~GiZhYcIlNiEdM}BxK}AlLsB|X", v = 80 },
+  { line = "kd}bI}wau@QjG", tunnel = true, v = 80 },
+  { line = "}d}bIqoau@CfE", v = 80 },
+  { line = "ae}bIiiau@GfD", tunnel = true, v = 80 },
+  { line = "ie}bIadau@[bF", v = 80 },
+  { line = "ef}bI}|`u@}Hl|@cQf}B", v = 100 },
+  { line = "gb~bIga{t@qBnU_CtOqH~_@aE|L", v = 60 },
+  { line = "my~bIckxt@oS|i@}IfQiF`H", v = 90 },
+  { line = "e``cI{dvt@oz@dhA", v = 80 },
+  { line = "u{acIu{st@ke@bc@{MhJ", v = 60 },
+  { line = "}pccIglrt@sPjLkYnXwVhOmIbKiWbd@kKdK" },
+  { line = "ycgcIswnt@qDlGoYhq@kEfN{FbN", v = 40 },
+  { line = "crhcIo~kt@IV", v = 30 },
+  { line = "mrhcIw}kt@iDrO", v = 40 },
+]
+posts = [[0, 53.06514, 8.88033], [1, 53.07238, 8.87164], [2, 53.07502, 8.85759], [3, 53.07726, 8.8431], [4, 53.07936, 8.82854], [5, 53.08268, 8.81472], [6, 53.08852, 8.80337], [7, 53.09576, 8.79449], [8, 53.10331, 8.7864], [9, 53.11137, 8.77979], [10, 53.11934, 8.77299], [11, 53.12632, 8.76365], [12, 53.13213, 8.75224]]
+
+[[connections]]
+km = 5.093
+station = "Bremen Hauptbahnhof"
+lines = [
+  { id = "1500", ref = "1500", name = "1500 Oldenburg - Bremen", km = 44.329 },
+  { id = "1740", ref = "1740", name = "Wunstorf, W 18 - DB-Grenze, (Bremerhaven-Seehafen)", km = 122.233 },
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 239.673 },
+]
+
+[[connections]]
+km = 8.012
+station = "Bremen-Walle"
+lines = [
+  { id = "1740", ref = "1740", name = "Wunstorf, W 18 - DB-Grenze, (Bremerhaven-Seehafen)", km = 125.176 },
+]

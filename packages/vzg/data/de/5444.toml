@@ -1,0 +1,56 @@
+id = "5444"
+ref = "5444"
+name = "5444 Schongau - Peißenberg"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Schongau"
+to = "Peißenberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 15.641
+length = 15.641
+speeds = [[0, 0.6, 40, 40], [0.6, 9.498, 60, 60], [9.498, 10.049, 50, 50], [10.049, 15.641, 60, 60]]
+curves = [[0.25, 0.975, 290], [1.1, 1.2, 1380], [1.275, 1.325, 2150], [1.4, 1.825, 350], [2.125, 2.5, 580], [3.75, 4.275, 430], [4.7, 4.9, 680], [5.425, 5.9, 420], [6.625, 7.075, 440], [7.35, 7.75, 600], [7.825, 8.25, 350], [8.3, 8.825, 310], [8.875, 9.125, 440], [9.55, 10.125, 310], [10.175, 10.85, 310], [11.125, 11.175, 2430], [11.375, 11.65, 500], [11.725, 12.325, 460], [12.425, 12.55, 1090], [12.6, 12.7, 1530], [12.975, 13.325, 1010], [13.45, 13.7, 480], [13.75, 14, 560], [14.05, 14.15, 660], [14.2, 14.4, 550], [14.475, 14.625, 530], [14.675, 14.85, 660], [14.9, 15.3, 320], [15.375, 15.525, 890]]
+points = [
+  { km = 0.1, kind = "station", label = "Schongau", uic = "8005418", pos = [47.81274, 10.90238] },
+  { km = 2.941, kind = "station", label = "Peiting Nord", pos = [47.80196, 10.92644], uic = "8004764" },
+  { km = 4.394, kind = "station", label = "Peiting Ost", uic = "8004765", pos = [47.79301, 10.93735] },
+  { km = 9.478, kind = "station", label = "Hohenpeißenberg", pos = [47.78877, 10.99957], uic = "8002954" },
+  { km = 14.619, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.641, kind = "station", label = "Peißenberg", pos = [47.79749, 11.06027], uic = "8004762" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.472, kmTo = 0.6, length = 127 },
+  { kind = "bridge", kmFrom = 1.015, kmTo = 1.139, length = 124 },
+  { kind = "bridge", kmFrom = 3.054, kmTo = 3.072, length = 18 },
+  { kind = "bridge", kmFrom = 3.121, kmTo = 3.151, length = 30 },
+  { kind = "bridge", kmFrom = 9.196, kmTo = 9.25, length = 54 },
+  { kind = "bridge", kmFrom = 9.998, kmTo = 10.049, length = 51 },
+  { kind = "bridge", kmFrom = 13.359, kmTo = 13.387, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "esybHqnpaAvS|EpCYvEyD", v = 40 },
+  { line = "csxbHgnpaAbCgIE{KcDqQwGsUo@{J~@aI|Mia@xCwErDyClfAah@`CgB`BiClB{HPuJkAem@qMiu@WuKRiDnAsGd[gu@fBmFr@yEFwKoDs`@WsI`@iJbDsRFeI{AkIaGsMu@oK`@kFv@_DvFwJ|AoEbEyf@", v = 60 },
+  { line = "uvtbHgjcbAz@cKzBiHdE_ErFq@", v = 50 },
+  { line = "cctbHggdbApJrBjCArCeAxBqBxAsC|AoJmBu_Ad@uEjDaOz@eKW}EsDaR_AaNw@y[wBuZsBgJcF_OeC}CuJkH{FwMuGaL}DyP}EiKqDiQgBwDaFoDeM}@gHcC", v = 60 },
+]
+posts = [[0, 47.81379, 10.90297], [1, 47.80837, 10.90787], [2, 47.80885, 10.91985], [3, 47.80146, 10.92674], [4, 47.79336, 10.93222], [5, 47.79392, 10.94527], [6, 47.79427, 10.95752], [7, 47.78992, 10.96877], [8, 47.78983, 10.98172], [9, 47.78977, 10.99309], [10, 47.78606, 11.00421], [11, 47.78093, 11.01077], [12, 47.78004, 11.02371], [13, 47.7819, 11.03667], [14, 47.78726, 11.0467], [15, 47.79217, 11.05773]]
+
+[[connections]]
+km = 0.1
+station = "Schongau"
+lines = [
+  { id = "5365", ref = "5365", name = "Landsberg - Schongau", km = 0.285 },
+]
+
+[[connections]]
+km = 15.641
+station = "Peißenberg"
+lines = [
+  { id = "5450", ref = "5450", name = "5450 Weilheim (Oberbay) - Peißenberg", km = 9.285 },
+]

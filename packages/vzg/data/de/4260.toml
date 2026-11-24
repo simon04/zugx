@@ -1,0 +1,132 @@
+id = "4260"
+ref = "4260"
+name = "4260 Appenweier - Kehl Grenze"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131680202"
+from = "Appenweier"
+to = "Kehl Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.719
+kmTo = 13.919
+length = 14.591
+speeds = [[-0.719, -0.487, "", ""], [-0.487, 1.039, 100, 100], [1.039, 1.113, "", ""], [1.113, 8.185, 140, 140], [8.185, 11.549, 120, 120], [11.549, 11.569, 120, 100], [11.569, 13.8, 100, 100], [13.8, 13.919, 120, 120]]
+curves = [[-0.319, -0.219, 1870], [0.077, 0.945, 440], [8.276, 8.484, 1350], [10.957, 11.143, 1450], [11.648, 12.04, 990], [12.47, 12.723, 1170], [12.925, 13.203, 2650], [13.532, 13.765, 1570]]
+points = [
+  { km = -0.535, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = -0.463, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -0.21, kind = "signal", label = "80 P8", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 0.423, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.731, kind = "signal", label = "8008", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 0.781, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.047, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.271, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.303, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.381, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.382, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.447, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.448, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.535, kind = "signal", label = "80 HH", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 1.946, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.984, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 2.562, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.797, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.348, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 3.382, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.797, kind = "signal", label = "80 901", signal = "main,traversable", dir = 1 },
+  { km = 3.806, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 3.816, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 4.036, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 4.143, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 4.144, kind = "signal", signal = "crossing_hint", dir = -1 },
+  { km = 4.183, kind = "signal", signal = "crossing_hint", dir = 1 },
+  { km = 4.183, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 5.077, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 5.117, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 5.167, kind = "stop", label = "Legelshurst", pos = [48.55874, 7.9131], uic = "80142901" },
+  { km = 5.44, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 5.727, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.788, kind = "signal", label = "52 A300", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 6.875, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 6.9, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 7.095, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.111, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 7.143, kind = "signal", signal = "minor", dir = 1 },
+  { km = 7.246, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 7.417, kind = "signal", label = "52 P302", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 8.057, kind = "signal", label = "52 N302", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 8.174, kind = "signal", label = "52L602Y", signal = "minor", dir = -1 },
+  { km = 8.185, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.185, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.247, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 8.281, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 8.286, kind = "signal", signal = "minor", dir = 1 },
+  { km = 8.315, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 8.426, kind = "station", label = "Kork", pos = [48.57024, 7.87423], uic = "8014291" },
+  { km = 8.546, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 8.57, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 8.606, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.607, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 8.607, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.003, kind = "signal", label = "52 FF300", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 9.73, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 10.018, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 10.037, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 10.622, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 10.648, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.659, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 10.704, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 11.029, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 11.162, kind = "signal", label = "51 A100", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 11.381, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.549, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.569, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.573, kind = "signal", label = "51 Vzr104", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 11.612, kind = "signal", label = "51 P 104", signal = "main,minor,traversable,wrong_road", dir = -1 },
+  { km = 12.237, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 12.24, kind = "signal", signal = "minor", dir = 1 },
+  { km = 12.41, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.753, kind = "signal", label = "51 ZR 104", signal = "combined,minor,speed_limit,traversable", dir = 1 },
+  { km = 12.758, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 12.954, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 13.074, kind = "signal", label = "51 ZV 104", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 13.416, kind = "station", label = "Kehl", pos = [48.57684, 7.80712], uic = "8003218" },
+  { km = 13.504, kind = "signal", signal = "main_repeated" },
+  { km = 13.506, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.52, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.526, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.528, kind = "signal", label = "51 N104", signal = "combined,traversable", dir = 1 },
+  { km = 13.786, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 137.9, kind = "station", label = "Appenweier", uic = "8014289", pos = [48.54053, 7.9716], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.367, kmTo = 0.399, length = 34 },
+  { kind = "bridge", kmFrom = 0.574, kmTo = 0.607, length = 32 },
+  { kind = "bridge", kmFrom = 11.896, kmTo = 11.93, length = 34 },
+  { kind = "bridge", kmFrom = 12.086, kmTo = 12.268, length = 180 },
+  { kind = "bridge", kmFrom = 13.662, kmTo = 13.689, length = 26 },
+  { kind = "bridge", kmFrom = 13.8, kmTo = 13.919, length = 119 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q`jgHq~to@pKlD" },
+  { line = "_tigHcyto@hJbDnXpGxCrBjCpDtCnIbAjL[dJsC`P", v = 100 },
+  { line = "udhgHcnro@u@vD" },
+  { line = "kfhgHkhro@oaDlbP", v = 140 },
+  { line = "{hmgH}dao@mDtUg_@hlEuKpm@", v = 120 },
+  { line = "g{ngHkrxn@cCnN}@hMAxx@nDdc@vI~h@zA~M", v = 100 },
+  { line = "gnngHq}rn@n@zH", v = 120 },
+]
+posts = [[0, 48.54696, 7.97443], [1, 48.54349, 7.9645], [2, 48.54716, 7.95214], [3, 48.55084, 7.93976], [4, 48.5546, 7.9271], [5, 48.55821, 7.91493], [6, 48.56182, 7.90276], [7, 48.56545, 7.8905], [8, 48.5692, 7.87785], [9, 48.57181, 7.86527], [10, 48.57389, 7.852], [11, 48.5759, 7.83917], [12, 48.57897, 7.82585], [13, 48.57821, 7.81253]]
+
+[[connections]]
+km = 137.9
+station = "Appenweier"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 137.978 },
+  { id = "4280", ref = "4280", name = "Ausbau- und Neubaustrecke Karlsruhe-Basel", km = 137.9 },
+]

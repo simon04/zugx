@@ -1,0 +1,166 @@
+id = "5507"
+ref = "5507"
+name = "5507 München Süd - Wolfratshausen"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "München Süd"
+to = "Wolfratshausen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 6.377
+kmTo = 26.43
+length = 20.033
+speeds = [[6.377, 9.45, 120, 120], [9.45, 12.106, 110, 110], [12.106, 13.284, 70, 70], [13.284, 13.553, 100, 100], [13.553, 14.769, 110, 110], [14.769, 15.957, 100, 100], [15.957, 16.679, 80, 80], [16.679, 18.709, 70, 70], [18.709, 20.606, 90, 90], [20.606, 22.71, 80, 80], [22.71, 23.392, 60, 60], [23.392, 24.107, 70, 70], [24.107, 25.007, 80, 80], [25.007, 25.967, 60, 60], [25.967, 26.43, 40, 40]]
+curves = [[10.159, 10.384, 980], [11.358, 11.684, 1090], [12.035, 12.412, 410], [12.488, 12.839, 350], [13.216, 13.593, 600], [13.694, 14.146, 570], [14.397, 14.623, 1460], [14.774, 15.176, 550], [15.377, 15.829, 530], [15.904, 16.105, 730], [16.256, 16.407, 1430], [16.706, 17.051, 390], [17.421, 17.967, 430], [18.425, 18.728, 530], [19.403, 19.68, 550], [19.73, 20.005, 540], [21.08, 21.23, 1180], [21.48, 21.68, 1070], [21.755, 21.905, 860], [21.955, 22.055, 1360], [22.13, 22.18, 2090], [22.255, 22.355, 1490], [22.705, 23.68, 330], [23.88, 24.08, 570], [24.13, 24.38, 1290], [24.505, 24.73, 830], [24.98, 25.355, 550], [25.405, 25.655, 440], [25.955, 26.255, 440]]
+points = [
+  { km = 6.481, kind = "signal", label = "211", signal = "minor", dir = 1 },
+  { km = 6.85, kind = "signal", label = "G", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 7.258, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 7.265, kind = "signal", label = "VWg", signal = "distant", dir = -1 },
+  { km = 7.306, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 7.382, kind = "stop", label = "Pullach", uic = "8004899", pos = [48.05896, 11.52184] },
+  { km = 7.464, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 7.488, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 7.539, kind = "signal", label = "150", signal = "distant,main", dir = -1 },
+  { km = 7.846, kind = "signal", label = "Vaa", signal = "distant", dir = 1 },
+  { km = 8.239, kind = "signal", label = "V150", signal = "distant", dir = -1 },
+  { km = 8.765, kind = "signal", label = "AA", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 8.972, kind = "signal", label = "Ls1I", signal = "minor", dir = 1 },
+  { km = 9.062, kind = "signal", label = "Ls3", signal = "minor", dir = 1 },
+  { km = 9.152, kind = "signal", label = "P1", signal = "main,minor,wrong_road", dir = -1 },
+  { km = 9.343, kind = "station", label = "Höllriegelskreuth", uic = "8002899", pos = [48.0433, 11.50961] },
+  { km = 9.389, kind = "signal", label = "1", signal = "minor", dir = -1 },
+  { km = 9.501, kind = "signal", label = "N1", signal = "main,speed_limit", dir = 1 },
+  { km = 9.542, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.685, kind = "signal", label = "Ls13I", signal = "minor", dir = 1 },
+  { km = 9.747, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.752, kind = "signal", label = "Ls13II", signal = "minor", dir = -1 },
+  { km = 9.961, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 9.963, kind = "signal", label = "Vp", signal = "distant", dir = -1 },
+  { km = 10.258, kind = "signal", label = "F", signal = "main,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 10.259, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 10.841, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.877, kind = "signal", label = "Vkf", signal = "distant", dir = -1 },
+  { km = 10.97, kind = "stop", label = "Buchenhain", uic = "8001231", pos = [48.03126, 11.49746] },
+  { km = 11.163, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 11.167, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 11.235, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 11.548, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 11.588, kind = "signal", signal = "crossing,crossing_hint", dir = 1 },
+  { km = 11.74, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 11.888, kind = "signal", label = "Va100", signal = "distant", dir = 1 },
+  { km = 12.106, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.241, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.281, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 12.413, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 12.594, kind = "signal", label = "A100", signal = "distant,main", dir = 1 },
+  { km = 12.722, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 12.929, kind = "signal", label = "P110", signal = "main", dir = -1 },
+  { km = 12.99, kind = "station", label = "Baierbrunn", uic = "8000781", pos = [48.01869, 11.48002] },
+  { km = 13.182, kind = "signal", label = "N110", signal = "main", dir = 1 },
+  { km = 13.284, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.553, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.621, kind = "signal", label = "F150", signal = "distant,main", dir = -1 },
+  { km = 13.825, kind = "signal", label = "VWf150", signal = "distant", dir = -1 },
+  { km = 14.128, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 14.325, kind = "signal", label = "Vf150", signal = "distant", dir = -1 },
+  { km = 14.768, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.769, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.233, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 15.957, kind = "signal", label = "V153", signal = "distant,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 16.616, kind = "stop", label = "Hohenschäftlarn", uic = "8002955", pos = [47.9914, 11.45754] },
+  { km = 16.679, kind = "signal", label = "153", signal = "main,speed_limit", dir = 1 },
+  { km = 17.008, kind = "signal", label = "V1a", signal = "distant", dir = 1 },
+  { km = 17.023, kind = "signal", label = "154", signal = "main", dir = -1 },
+  { km = 17.528, kind = "signal", label = "VW1a", signal = "distant", dir = 1 },
+  { km = 17.573, kind = "signal", label = "V154", signal = "distant", dir = -1 },
+  { km = 17.71, kind = "signal", label = "1A", signal = "distant,main", dir = 1 },
+  { km = 17.868, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 17.95, kind = "signal", signal = "minor", dir = 1 },
+  { km = 18.133, kind = "signal", label = "1P1", signal = "main,minor", dir = -1 },
+  { km = 18.177, kind = "station", label = "Ebenhausen-Schäftlarn", uic = "8001621", pos = [47.97872, 11.4537] },
+  { km = 18.448, kind = "signal", label = "1N1", signal = "main,minor", dir = 1 },
+  { km = 18.462, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 18.561, kind = "signal", signal = "minor", dir = -1 },
+  { km = 18.635, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 18.709, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.71, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.872, kind = "signal", label = "1F", signal = "distant,main", dir = -1 },
+  { km = 19.603, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 19.607, kind = "signal", label = "V1f", signal = "distant", dir = -1 },
+  { km = 19.814, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 19.902, kind = "signal", label = "Va", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 20.606, kind = "signal", label = "A", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 20.901, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 21.087, kind = "signal", signal = "minor", dir = 1 },
+  { km = 21.194, kind = "signal", label = "P1", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 21.344, kind = "signal", label = "S1", signal = "main,speed_limit", dir = -1 },
+  { km = 21.42, kind = "station", label = "Icking", uic = "8003039", pos = [47.95321, 11.43666] },
+  { km = 21.515, kind = "signal", label = "N1", signal = "main,minor", dir = 1 },
+  { km = 21.759, kind = "signal", signal = "minor", dir = -1 },
+  { km = 21.76, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.911, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 22.004, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 22.049, kind = "signal", label = "F", signal = "distant,main", dir = -1 },
+  { km = 22.669, kind = "signal", label = "Vkf", signal = "distant", dir = -1 },
+  { km = 22.71, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.392, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 24.107, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 24.922, kind = "signal", label = "a11", signal = "distant", dir = 1 },
+  { km = 25.007, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 25.622, kind = "signal", label = "A11", signal = "main", dir = 1 },
+  { km = 25.922, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 25.967, kind = "signal", label = "11", signal = "minor,speed_limit", dir = 1 },
+  { km = 26.053, kind = "signal", label = "12I", signal = "minor", dir = 1 },
+  { km = 26.135, kind = "signal", label = "P10", signal = "main,minor", dir = -1 },
+  { km = 26.266, kind = "station", label = "Wolfratshausen", uic = "8006550", pos = [47.91453, 11.4271] },
+  { km = 26.285, kind = "signal", label = "N10", signal = "main,minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 9.255, kmTo = 9.275, length = 20 },
+  { kind = "bridge", kmFrom = 11.061, kmTo = 11.121, length = 61 },
+  { kind = "bridge", kmFrom = 12.872, kmTo = 12.893, length = 21 },
+  { kind = "bridge", kmFrom = 13.37, kmTo = 13.409, length = 39 },
+  { kind = "bridge", kmFrom = 20.947, kmTo = 20.971, length = 24 },
+  { kind = "bridge", kmFrom = 21.911, kmTo = 21.993, length = 82 },
+  { kind = "bridge", kmFrom = 23.077, kmTo = 23.103, length = 26 },
+  { kind = "bridge", kmFrom = 25.125, kmTo = 25.14, length = 14 },
+  { kind = "bridge", kmFrom = 25.156, kmTo = 25.31, length = 154 },
+  { kind = "bridge", kmFrom = 25.447, kmTo = 25.471, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "o_mcH}wvdAmOkBqC^iC~A", v = 40 },
+  { line = "yxmcHiwvdAoP`NmDxA}IDoHz@{E{B", v = 60 },
+  { line = "akocHggvdAeRmQuN}EgJcA", v = 80 },
+  { line = "eypcHwbwdAkGw@aQmKeCYoFj@", v = 70 },
+  { line = "i_rcHkpwdAmE`CwEnNiClCmEViEoC", v = 60 },
+  { line = "q}rcHc|vdAaSaQyLkMiGsEsM}NcRaMuZcL", v = 80 },
+  { line = "eevcHinydAud@gNwCaCgGcKsDcDsh@yQ", v = 90 },
+  { line = "cgycHue{dAsDoBqBqC{Reg@{DgEmCg@kJ@q]tMwEi@_F}D", v = 70 },
+  { line = "ef|cH}u|dA}O{NwKoGeEwA", v = 80 },
+  { line = "aj}cHaq}dAuKu@gF{BiEwEeO}WwDeCkG_A", v = 100 },
+  { line = "sb_dHo|~dAgPwBmV_KkGwIgF{Q", v = 110 },
+  { line = "}z`dH{i`eAwCwHmDqE", v = 100 },
+  { line = "ceadHez`eAeV{PyC}CoBcH{AoXgAeDeCwC", v = 70 },
+  { line = "}mbdHq}beAyWyPkEeEwq@}cAgg@u^", v = 110 },
+  { line = "chfdHezfeAgxCmvB", v = 120 },
+]
+posts = [[26, 47.91684, 11.42682], [25, 47.92518, 11.42409], [24, 47.93347, 11.42855], [23, 47.94103, 11.4271], [22, 47.94882, 11.43252], [21, 47.95665, 11.43895], [20, 47.9653, 11.44262], [19, 47.97333, 11.44833], [18, 47.97988, 11.45617], [17, 47.98818, 11.45611], [16, 47.99628, 11.46134], [15, 48.00371, 11.46766], [14, 48.01231, 11.47101], [13, 48.01859, 11.48001], [12, 48.02372, 11.48967], [11, 48.03105, 11.49721], [10, 48.03803, 11.50558], [9, 48.04602, 11.51178], [8, 48.054, 11.51801], [7, 48.06197, 11.52422]]
+
+[[connections]]
+km = 7.382
+station = "Pullach"
+lines = [
+  { id = "5506", ref = "5506", name = "5506 München-Solln - Großhesselohe Isartalbahnhof", km = 7.384 },
+]
+
+[[connections]]
+km = 9.343
+station = "Höllriegelskreuth"
+lines = [
+  { id = "5506", ref = "5506", name = "5506 München-Solln - Großhesselohe Isartalbahnhof", km = 9.356 },
+]

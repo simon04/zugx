@@ -1,0 +1,282 @@
+id = "4701"
+ref = "4701"
+name = "4701 Stuttgart Hbf - Plochingen"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Stuttgart Hbf"
+to = "Plochingen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.768
+kmTo = 22.196
+length = 21.563
+speeds = [[0.768, 0.867, 80, 60], [0.867, 0.906, 100, 60], [0.906, 1.204, 100, 90], [1.204, 2.707, 90, 90], [2.707, 2.924, 80, 90], [2.924, 3.313, 80, 80], [3.313, 4.336, 90, 90], [4.336, 4.754, 70, 70], [4.754, 5.765, 80, 80], [5.765, 6.627, "", ""], [6.627, 7.149, 100, 100], [7.149, 7.783, 100, ""], [7.783, 8.38, 70, 70], [8.38, 8.696, "", ""], [8.696, 8.779, 100, 100], [8.779, 10.114, 110, 110], [10.114, 10.833, 120, 120], [10.833, 12.688, 110, 110], [12.688, 13.432, 100, 100], [13.432, 21.416, 120, 120], [21.416, 22.122, 80, 120], [22.122, 22.196, 80, 80]]
+curves = [[1.593, 1.719, 1680], [2.046, 2.205, 1590], [2.716, 3.368, 770], [4.462, 4.688, 690], [5.002, 5.311, 790], [5.83, 5.955, 1660], [6.055, 6.18, 1790], [6.906, 6.954, 2330], [7.017, 7.311, 1240], [7.435, 7.903, 1170], [8.002, 8.125, 1460], [8.174, 8.322, 950], [9.809, 9.987, 1640], [10.316, 10.493, 2710], [10.62, 10.848, 2800], [10.975, 12.087, 910], [12.31, 12.434, 1810], [12.755, 12.805, 2350], [13.003, 13.121, 1560], [15.961, 16.462, 980], [16.637, 16.862, 1400], [17.854, 18.229, 1360], [18.581, 19.408, 940], [19.579, 20.676, 1160], [20.777, 21.638, 740], [21.901, 22.096, 2150]]
+points = [
+  { km = 0.768, kind = "station", label = "Budapester Platz", pos = [48.79047, 9.18572] },
+  { km = 0.799, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.867, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.87, kind = "signal", signal = "route", dir = -1 },
+  { km = 0.906, kind = "signal", label = "S 520", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.014, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.131, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.165, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.166, kind = "station", label = "Milchhof", pos = [48.79349, 9.18986] },
+  { km = 1.232, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.394, kind = "signal", label = "N 524", signal = "distant,main", dir = 1 },
+  { km = 1.529, kind = "signal", label = "S522", signal = "distant,main,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.652, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.657, kind = "signal", label = "WVs 522", signal = "distant", dir = -1 },
+  { km = 2.089, kind = "signal", label = "WV aa", signal = "distant", dir = 1 },
+  { km = 2.09, kind = "signal", label = "B 526", signal = "distant,main,traversable", dir = -1 },
+  { km = 2.284, kind = "signal", label = "AA", signal = "distant,main,traversable", dir = 1 },
+  { km = 2.294, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = 2.314, kind = "halt", label = "Mineralbäder", pos = [48.79687, 9.20562] },
+  { km = 2.712, kind = "signal", label = "A IV", signal = "distant,main,traversable", dir = -1 },
+  { km = 2.736, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.874, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.99, kind = "halt", label = "Mercedesstraße", pos = [48.80003, 9.21182] },
+  { km = 3.005, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.075, kind = "signal", label = "I", signal = "wrong_road", dir = -1 },
+  { km = 3.108, kind = "signal", label = "41", signal = "minor", dir = 1 },
+  { km = 3.309, kind = "signal", label = "P1", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 3.313, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.313, kind = "halt", label = "Bad Cannstatt Wilhelmsplatz", pos = [48.80272, 9.21574] },
+  { km = 3.323, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 3.337, kind = "signal", signal = "combined,train_protection,traversable", dir = -1 },
+  { km = 3.361, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.389, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.415, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.487, kind = "station", label = "Bad Cannstatt", pos = [48.80141, 9.21685], uic = "8029041" },
+  { km = 3.596, kind = "signal", signal = "main,train_protection,traversable", dir = 1 },
+  { km = 3.598, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.606, kind = "signal", label = "N1", signal = "main,minor", dir = 1 },
+  { km = 3.812, kind = "signal", label = "51", signal = "minor", dir = -1 },
+  { km = 3.853, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 4.048, kind = "signal", signal = "combined,speed_limit_distant,train_protection", dir = -1 },
+  { km = 4.052, kind = "signal", label = "H", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 4.259, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.336, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.342, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.655, kind = "halt", label = "Kienbachstraße", pos = [48.79965, 9.23448] },
+  { km = 4.754, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.896, kind = "signal", signal = "catenary_mast,distant,train_protection", dir = -1 },
+  { km = 4.967, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 5.03, kind = "signal", label = "31 AA", signal = "catenary_mast,combined,speed_limit,train_protection,traversable", dir = 1 },
+  { km = 5.063, kind = "signal", label = "h", signal = "distant", dir = -1 },
+  { km = 5.212, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.433, kind = "signal", label = "N 810", signal = "main,speed_limit_distant,traversable", dir = -1 },
+  { km = 5.485, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.5, kind = "halt", label = "Blick", pos = [48.79322, 9.24211] },
+  { km = 5.509, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.548, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.587, kind = "stop", label = "Stuttgart Neckarpark (Mercedes-Benz)", pos = [48.79195, 9.24115] },
+  { km = 5.601, kind = "station", label = "Stuttgart Neckarpark", uic = "8029377", pos = [48.79182, 9.24117] },
+  { km = 5.711, kind = "signal", label = "31 N701", signal = "catenary_mast,main,train_protection,traversable,wrong_road", dir = 1 },
+  { km = 5.746, kind = "signal", label = "810", signal = "minor", dir = 1 },
+  { km = 5.765, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.914, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.2, kind = "signal", signal = "combined,train_protection,traversable", dir = -1 },
+  { km = 6.202, kind = "signal", label = "A 802", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 6.206, kind = "halt", label = "Eszet", pos = [48.78758, 9.24665] },
+  { km = 6.528, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.613, kind = "halt", label = "Schlotterbeckstraße", pos = [48.7841, 9.24895] },
+  { km = 6.849, kind = "signal", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 6.896, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.989, kind = "signal", signal = "stop", dir = -1 },
+  { km = 6.994, kind = "station", label = "Untertürkheim Bf", pos = [48.77924, 9.24995] },
+  { km = 7, kind = "signal", signal = "stop", dir = -1, measured = true },
+  { km = 7.033, kind = "signal", signal = "stop", dir = -1 },
+  { km = 7.054, kind = "station", label = "Stuttgart-Untertürkheim", uic = "8029045", pos = [48.77982, 9.25047] },
+  { km = 7.148, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.149, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.711, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.741, kind = "signal", label = "63 276", signal = "combined", dir = -1 },
+  { km = 8.711, kind = "signal", label = "63CC", signal = "combined", dir = 1 },
+  { km = 8.737, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.779, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.153, kind = "signal", label = "63 P5", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 9.259, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.283, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.322, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.372, kind = "station", label = "Stuttgart-Obertürkheim", pos = [48.76176, 9.26812], uic = "8029052" },
+  { km = 9.774, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.778, kind = "signal", label = "63N5", signal = "combined", dir = 1 },
+  { km = 9.828, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 9.885, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 9.911, kind = "signal", signal = "combined", dir = 1 },
+  { km = 10.392, kind = "signal", label = "63 F", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 10.832, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.833, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.843, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 11.003, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 11.042, kind = "signal", signal = "stop", dir = -1 },
+  { km = 11.071, kind = "signal", signal = "stop", dir = -1 },
+  { km = 11.114, kind = "stop", label = "Esslingen-Mettingen", pos = [48.74722, 9.27569], uic = "8029053" },
+  { km = 11.28, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 11.51, kind = "signal", label = "63350", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 11.585, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 11.596, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.674, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.856, kind = "signal", label = "63 EE", signal = "main,speed_limit", dir = 1 },
+  { km = 12.089, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.107, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 12.142, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.219, kind = "signal", signal = "minor", dir = 1 },
+  { km = 12.688, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.715, kind = "signal", signal = "distant", dir = -1 },
+  { km = 12.768, kind = "signal", signal = "minor", dir = 1 },
+  { km = 13.021, kind = "signal", label = "63Q7", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 13.023, kind = "signal", signal = "stop", dir = -1 },
+  { km = 13.131, kind = "signal", signal = "stop", dir = -1 },
+  { km = 13.194, kind = "signal", signal = "stop", dir = -1 },
+  { km = 13.236, kind = "signal", signal = "stop", dir = -1 },
+  { km = 13.243, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.247, kind = "station", label = "Esslingen (Neckar)", pos = [48.73859, 9.30035], uic = "8029055" },
+  { km = 13.311, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.312, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 13.371, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.432, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.447, kind = "signal", label = "63O7", signal = "combined,minor,route,speed_limit", dir = 1 },
+  { km = 13.459, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.264, kind = "signal", label = "63 J", signal = "main,speed_limit", dir = -1 },
+  { km = 14.527, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 15.221, kind = "signal", label = "63402", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 15.288, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.324, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.359, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.392, kind = "stop", label = "Oberesslingen", pos = [48.72996, 9.3271], uic = "8029056" },
+  { km = 16.373, kind = "signal", label = "63404", signal = "combined", dir = -1 },
+  { km = 17.345, kind = "signal", label = "63406", signal = "combined", dir = -1 },
+  { km = 17.726, kind = "signal", signal = "distant", dir = -1 },
+  { km = 17.796, kind = "signal", signal = "stop", dir = -1 },
+  { km = 17.869, kind = "signal", signal = "stop", dir = -1 },
+  { km = 17.915, kind = "signal", signal = "stop", dir = -1 },
+  { km = 17.933, kind = "stop", label = "Esslingen-Zell", pos = [48.72446, 9.3594], uic = "8029057" },
+  { km = 18.739, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 18.839, kind = "signal", signal = "distant", dir = -1 },
+  { km = 19.472, kind = "signal", label = "64410", signal = "combined", dir = -1 },
+  { km = 19.623, kind = "signal", signal = "stop", dir = -1 },
+  { km = 19.677, kind = "signal", signal = "stop", dir = -1 },
+  { km = 19.694, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 19.711, kind = "signal", signal = "stop", dir = -1 },
+  { km = 19.785, kind = "stop", label = "Altbach", pos = [48.72026, 9.38276], uic = "8029058" },
+  { km = 19.978, kind = "signal", label = "64BB", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 20.518, kind = "signal", label = "64LW 207X", signal = "minor", dir = 1 },
+  { km = 20.532, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 20.539, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 20.806, kind = "signal", label = "64 P204", signal = "combined,route,speed_limit", dir = -1 },
+  { km = 21.007, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 21.151, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 21.416, kind = "signal", label = "64 ZR204", signal = "combined,speed_limit", dir = 1 },
+  { km = 21.526, kind = "signal", signal = "minor", dir = 1 },
+  { km = 21.634, kind = "signal", label = "64L W41X", signal = "minor", dir = 1 },
+  { km = 22.064, kind = "signal", label = "64ZU9", signal = "combined,minor,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 22.079, kind = "signal", signal = "stop", dir = -1 },
+  { km = 22.122, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.135, kind = "signal", signal = "stop", dir = -1 },
+  { km = 22.162, kind = "signal", signal = "stop", dir = -1 },
+  { km = 22.196, kind = "station", label = "Plochingen", pos = [48.71303, 9.41097], uic = "8029060" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.768, kmTo = 0.794, length = 26 },
+  { kind = "tunnel", kmFrom = 1.204, kmTo = 1.346, length = 144 },
+  { kind = "tunnel", kmFrom = 1.407, kmTo = 1.529, length = 124 },
+  { kind = "tunnel", kmFrom = 2.301, kmTo = 2.683, length = 354, name = "Rosensteintunnel" },
+  { kind = "bridge", kmFrom = 2.715, kmTo = 3.047, length = 326, name = "Rosensteinbrücke" },
+  { kind = "bridge", kmFrom = 3.248, kmTo = 3.278, length = 31 },
+  { kind = "tunnel", kmFrom = 4.571, kmTo = 4.655, length = 83 },
+  { kind = "bridge", kmFrom = 5.001, kmTo = 5.019, length = 22 },
+  { kind = "bridge", kmFrom = 6.61, kmTo = 6.627, length = 18 },
+  { kind = "bridge", kmFrom = 6.964, kmTo = 6.981, length = 18 },
+  { kind = "bridge", kmFrom = 7.152, kmTo = 7.172, length = 32 },
+  { kind = "bridge", kmFrom = 7.984, kmTo = 8.01, length = 26 },
+  { kind = "bridge", kmFrom = 8.713, kmTo = 8.735, length = 22 },
+  { kind = "bridge", kmFrom = 10.919, kmTo = 10.94, length = 21 },
+  { kind = "bridge", kmFrom = 11.52, kmTo = 11.542, length = 22 },
+  { kind = "bridge", kmFrom = 12.317, kmTo = 12.356, length = 39 },
+  { kind = "bridge", kmFrom = 14.161, kmTo = 14.196, length = 35 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_fihHqamx@oBlB", v = 80 },
+  { line = "oiihHc~lx@gHnI}NrT_EhKkB`Km@zHK~IjB|ZTrMiArWiBbM{CxL{Nh\\_DnJwB`Ls@lH]xNbArh@C~N{LnfBOb`@{@bPaCpNaLnb@if@htByKjk@", v = 120 },
+  { line = "_cnhHkzww@sFxXoE~[", v = 100 },
+  { line = "cqnhHqcvw@{ClX{Cnb@mBfKoCtImHpMgH~GgH~CsL~A", v = 110 },
+  { line = "klphHcprw@eQvDcSbI", v = 120 },
+  { line = "urqhHg`rw@qLfGks@vi@", v = 110 },
+  { line = "stshHgmpw@aChB", v = 100 },
+  { line = "uxshH}ipw@oNfL" },
+  { line = "ehthHu|ow@o]xU", v = 70 },
+  { line = "ufuhH{eow@aJzLcIjQ{GtKaZvS", v = 100 },
+  { line = "y_whHedmw@uVxQiS~L" },
+  { line = "ykxhHkclw@k[pVmDtF{IvS", v = 80 },
+  { line = "oxyhHkojw@mBrE", v = 70 },
+  { line = "}{yhHwhjw@oA~D", tunnel = true, v = 70 },
+  { line = "m~yhHwbjw@cCxQ", v = 70 },
+  { line = "qbzhH}oiw@sOhsA", v = 90 },
+  { line = "eszhHs{fw@UfLpBnR", v = 80 },
+  { line = "ipzhH{zew@nE`P", v = 90 },
+  { line = "yizhHyiew@lJtW", tunnel = true, v = 90 },
+  { line = "k~yhHcqdw@bExKlUpd@", v = 90 },
+  { line = "yayhHw~bw@hCjG", tunnel = true, v = 90 },
+  { line = "o}xhHkvbw@bAdC", v = 90 },
+  { line = "k{xhHerbw@|CxH", tunnel = true, v = 90 },
+  { line = "mvxhHkhbw@~IzV", v = 100 },
+  { line = "mkxhHopaw@nBtE", v = 80 },
+]
+posts = [[22, 48.71425, 9.40945], [21, 48.71918, 9.39893], [20, 48.71936, 9.38529], [19, 48.72419, 9.37398], [18, 48.72426, 9.36069], [17, 48.7261, 9.34718], [16, 48.72749, 9.33385], [15, 48.73158, 9.32198], [14, 48.73576, 9.30971], [13, 48.73928, 9.2976], [12, 48.74164, 9.28432], [11, 48.74818, 9.27534], [10, 48.75674, 9.27199], [9, 48.76459, 9.26573], [8, 48.77261, 9.2595], [7, 48.78032, 9.24983], [6, 48.78862, 9.24366], [5, 48.7964, 9.23646], [4, 48.80022, 9.22456], [3, 48.80171, 9.21121], [2, 48.79684, 9.20019], [1, 48.79116, 9.18959]]
+
+[[connections]]
+km = 0.768
+station = "Budapester Platz"
+lines = [
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 0.705 },
+  { id = "4713", ref = "4713", name = "4713 Stuttgart-Bad Cannstatt - Waiblingen", km = 0.076 },
+  { id = "4800", ref = "4800", name = "4800 Stuttgart - Bretten Strw 4130/4800", km = 0.768 },
+  { id = "4801", ref = "4801", name = "4801 Stuttgart Hbf - Bietigheim-Bissingen", km = 0.775 },
+  { id = "4860", ref = "4860", name = "Gäubahn", km = 0.742 },
+]
+
+[[connections]]
+km = 1.166
+station = "Milchhof"
+lines = [
+  { id = "4800", ref = "4800", name = "4800 Stuttgart - Bretten Strw 4130/4800", km = 1.221 },
+  { id = "4801", ref = "4801", name = "4801 Stuttgart Hbf - Bietigheim-Bissingen", km = 1.166 },
+  { id = "4860", ref = "4860", name = "Gäubahn", km = 1.192 },
+]
+
+[[connections]]
+km = 2.99
+station = "Mercedesstraße"
+lines = [
+  { id = "4710", ref = "4710", name = "4710 Stuttgart-Bad Cannstatt - Nördlingen", km = -0.442 },
+]
+
+[[connections]]
+km = 4.655
+station = "Kienbachstraße"
+lines = [
+  { id = "4710", ref = "4710", name = "4710 Stuttgart-Bad Cannstatt - Nördlingen", km = 1.285 },
+  { id = "4713", ref = "4713", name = "4713 Stuttgart-Bad Cannstatt - Waiblingen", km = 1.283 },
+  { id = "4720", ref = "4720", name = "4720 Stuttgart-Untertürkheim - Kornwestheim Pbf", km = 2.49 },
+]
+
+[[connections]]
+km = 7.054
+station = "Stuttgart-Untertürkheim"
+lines = [
+  { id = "4720", ref = "4720", name = "4720 Stuttgart-Untertürkheim - Kornwestheim Pbf", km = -0.037 },
+]
+
+[[connections]]
+km = 22.196
+station = "Plochingen"
+lines = [
+  { id = "4600", ref = "4600", name = "4600 Plochingen - Immendingen", km = -0.001 },
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 22.491 },
+]

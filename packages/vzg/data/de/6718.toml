@@ -1,0 +1,27 @@
+id = "6718"
+ref = "6718"
+operator = "RbT Regiobahn Thüringen"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.556
+length = 7.556
+speeds = [[0, 2.104, 20, 20], [2.104, 2.334, 10, 10], [2.334, 7.556, 20, 20]]
+curves = [[0.1, 0.375, 2140], [0.8, 0.975, 940], [1.075, 1.45, 640], [1.525, 1.65, 1190], [1.95, 2.6, 320], [2.675, 3.175, 370], [3.375, 3.8, 360], [3.975, 5, 430], [5.05, 5.4, 340], [5.6, 6.125, 330], [6.375, 6.825, 330], [6.9, 7.275, 600]]
+points = [
+  { km = 0.398, kind = "signal", label = "Vi", signal = "distant", dir = -1 },
+  { km = 0.498, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.733, kind = "signal", label = "I", signal = "combined", dir = -1, measured = true },
+  { km = 1.304, kind = "signal", signal = "crossing", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qjfxHww~`Ah@`Wk@ju@dA`VAdJw@|JsCfQmEvi@", v = 20 },
+  { line = "iufxHc~x`AXfHlBxH", v = 10 },
+  { line = "aqfxHakx`AlEbFjQ`CvFdFtCxIhE|[zA~EhBrCrCjBdQzBrHxB|EvCrDrErCxI~@tMi@`KiDnQCfIj@zExGzZtEvG~ElAzBY|TwIzD?lEjCbBjCvEbMdBjIj@xH`@j^", v = 20 },
+]
+posts = [[0, 51.31961, 10.81228], [1, 51.31947, 10.79793], [2, 51.32119, 10.78405], [3, 51.31523, 10.77624], [4, 51.30943, 10.7673], [5, 51.3049, 10.75787], [6, 51.30155, 10.74684], [7, 51.29384, 10.74458]]

@@ -1,0 +1,32 @@
+id = "9144"
+ref = "9144"
+name = "Bremen-Thedinghauser Eisenbahn"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 13.81
+kmTo = 25.01
+length = 11.172
+speeds = [[13.81, 25.01, 40, 40]]
+curves = [[14.336, 14.811, 1190], [15.813, 16.063, 1090], [16.485, 16.606, 1190], [17.286, 17.637, 520], [18.089, 18.214, 930], [18.264, 18.365, 1200], [19.067, 19.393, 590], [19.719, 19.869, 780], [19.945, 20.246, 470], [20.321, 20.546, 800], [21.023, 21.474, 560], [21.625, 22.051, 730], [22.528, 22.678, 1200], [22.754, 22.904, 1030], [24.077, 24.609, 1320]]
+points = [
+  { km = 14.906, kind = "halt", label = "Kirchweyhe Ort", pos = [52.99271, 8.86405] },
+  { km = 20.679, kind = "station", label = "Riede (b Bremen)", pos = [52.97383, 8.93994] },
+  { km = 23.123, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 24.11, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 24.118, kind = "signal", signal = "crossing_info", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 14.21, kmTo = 14.239, length = 29 },
+  { kind = "bridge", kmFrom = 15.848, kmTo = 15.863, length = 15 },
+  { kind = "bridge", kmFrom = 16.074, kmTo = 16.084, length = 10 },
+  { kind = "bridge", kmFrom = 17.143, kmTo = 17.156, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ytmbIsf_u@|Cir@dC{TfCoL`Vkx@pJi_@lHsv@`E_hAjAiKnBiG`Woe@rB}Gp^uy@bBcI`Ckn@zCi[KgFwCwXMo|@pCiUF_a@`DgVlDau@ZyYbOkzBrDiSzO_g@", v = 40 },
+]
+posts = [[14, 52.99522, 8.85138], [15, 52.99224, 8.86521], [16, 52.98759, 8.87792], [17, 52.98573, 8.89255], [18, 52.98165, 8.90504], [19, 52.97571, 8.91616], [20, 52.97313, 8.93008], [21, 52.97389, 8.94473], [22, 52.9723, 8.95914], [23, 52.97107, 8.97386], [24, 52.96923, 8.98852], [25, 52.96516, 9.00144]]

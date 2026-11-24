@@ -1,0 +1,26 @@
+id = "9614"
+ref = "9614"
+operator = "HGK"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.467
+length = 3.467
+speeds = [[0, 3.467, "", ""]]
+curves = [[0.125, 0.2, 1480], [0.425, 0.675, 580], [1.3, 1.35, 2000], [1.4, 1.475, 2730], [1.875, 2.275, 390], [2.325, 3, 300]]
+points = [
+  { km = 0.108, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.24, kmTo = 0.259, length = 19 },
+  { kind = "bridge", kmFrom = 0.429, kmTo = 0.455, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ifzuH}gyi@|V`MtExEhq@rzAz@pETjNfCjKnA`DrFpGbAfC^rIqAjGoYvZ" },
+]
+posts = [[0, 50.92981, 7.01583], [1, 50.92251, 7.00817], [2, 50.91668, 6.99733], [3, 50.91478, 6.98563]]

@@ -1,0 +1,53 @@
+id = "1602"
+ref = "1602"
+name = "1602 Osnabrück Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q67651938"
+from = "Osnabrück Hbf Po"
+to = "Osnabrück Hbf Pu"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.515
+length = 1.515
+speeds = [[0, 0.063, 50, 50], [0.063, 0.075, "", ""], [0.075, 0.741, 50, 50], [0.741, 1.515, "", ""]]
+curves = [[0.1, 0.825, 440], [1.325, 1.4, 700]]
+points = [
+  { km = 0.065, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.069, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.074, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.133, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.374, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.537, kind = "station", label = "Osnabrück Hauptbahnhof", uic = "8000294", pos = [52.27291, 8.06157] },
+  { km = 0.743, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.747, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.842, kind = "signal", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 1.34, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.344, kind = "signal", signal = "distant,main,minor", dir = 1 },
+  { km = 1.418, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.752, kmTo = 0.786, length = 35 },
+  { kind = "bridge", kmFrom = 1.473, kmTo = 1.515, length = 42 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_ga~H}`dp@jAiC", v = 50 },
+  { line = "sda~Hgedp@LY" },
+  { line = "eda~Hafdp@nEaM~AsPIuEm@aEgD_G", v = 50 },
+  { line = "uaa~Hozep@y_@uWwDoF" },
+]
+posts = [[0, 52.27648, 8.05407], [1, 52.27774, 8.06485]]
+
+[[connections]]
+km = 0.537
+station = "Osnabrück Hauptbahnhof"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 117.742 },
+  { id = "2950", ref = "2950", name = "2950 Brackwede - Osnabrück", km = 52.992 },
+  { id = "2992", ref = "2992", name = "2992 Löhne (Westf) - Rheine", km = 132.393 },
+]

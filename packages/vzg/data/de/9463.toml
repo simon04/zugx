@@ -1,0 +1,49 @@
+id = "9463"
+ref = "9463"
+name = "9463 Trossingen Bahnhof - Stadt"
+operator = "Stadtwerke Trossingen GmbH"
+gauge = "1435"
+from = "Trossingen Bahnhof"
+to = "Trossingen Stadt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.295
+length = 4.295
+speeds = [[0, 0.216, 30, 30], [0.216, 0.257, 40, 30], [0.257, 3.602, 80, 80], [3.602, 3.928, 50, 50], [3.928, 3.952, 40, 50], [3.952, 4.295, 40, 40]]
+curves = [[0.1, 0.525, 260], [0.6, 0.875, 400], [0.975, 1.15, 900], [1.2, 1.375, 1230], [1.7, 1.775, 2330], [1.925, 2.075, 860], [2.25, 2.3, 2220], [2.425, 2.6, 790], [2.65, 2.775, 870], [2.825, 3, 1190], [3.125, 3.375, 840], [3.575, 4.175, 380]]
+points = [
+  { km = 0.031, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.216, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.257, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 3.602, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.9, kind = "station", label = "Trossingen Stadt", pos = [48.07358, 8.63176], measured = true },
+  { km = 3.928, kind = "signal", label = "32G", signal = "combined,main,speed_limit", dir = 1 },
+  { km = 3.952, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.063, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.182, kind = "signal", label = "32N1", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 4.215, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 4.295, kind = "stop", label = "Trossingen Bahnhof", uic = "8005911", pos = [48.08806, 8.58526] },
+  { km = 4.295, kind = "station", label = "Trossingen", uic = "8029434", pos = [48.0883, 8.58519] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cdldHwzts@gD]uEbA", v = 30 },
+  { line = "apldHqyts@eAh@", v = 40 },
+  { line = "grldHgxts@gBlCs@`EdA~Tg@rH}EhQsHrO{Svm@gCnL", v = 80 },
+  { line = "{_ndH}nps@If@", tunnel = true, v = 80 },
+  { line = "e`ndHumps@gGpYeAtMyC|RmAhX~Av[", v = 80 },
+  { line = "{nndHmzls@PrEShFk@bF}ArE", v = 50 },
+  { line = "gsndHw~ks@gBzBcBt@wJH", v = 40 },
+]
+posts = [[0, 48.0725, 8.63164], [1, 48.07627, 8.62212], [2, 48.08148, 8.61118], [3, 48.08463, 8.59864], [4, 48.08547, 8.58576]]
+
+[[connections]]
+km = 4.295
+station = "Trossingen Bahnhof"
+lines = [
+  { id = "4650", ref = "4650", name = "4650 Rottweil - Villingen (Schwarzw)", km = 11.358 },
+]

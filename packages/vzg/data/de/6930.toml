@@ -1,0 +1,29 @@
+id = "6930"
+ref = "6930"
+name = "Sanitz - Tessin"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q107722074"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 8.358
+length = 8.358
+speeds = [[0, 8.358, 80, 80]]
+curves = [[0.55, 0.775, 1230], [1.325, 1.55, 1150], [2.875, 3.2, 870], [3.7, 4.4, 620], [5.475, 6, 1190], [6.275, 6.575, 740], [7, 7.3, 760], [7.65, 8.1, 390]]
+points = [
+  { km = 0.047, kind = "stop", label = "Tessin", pos = [54.03196, 12.4623], uic = "8013106" },
+  { km = 1.381, kind = "stop", label = "Tessin West", pos = [54.03427, 12.44267], uic = "8079604" },
+  { km = 7.765, kind = "signal", label = "F", signal = "height,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 8.039, kmTo = 8.057, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qbxhI_gakAeBl}@}I~~@oBxLag@~vBeB|QeCx|@w@vGoApEeDbGqIjG}eAlb@qK|@eY{FgFW}c@vKsD~CuSbXsC|Gy@vE]lHn@`a@", v = 80 },
+]
+posts = [[0, 54.03193, 12.46336], [1, 54.03328, 12.44829], [2, 54.03695, 12.4344], [3, 54.04132, 12.42103], [4, 54.0431, 12.4062], [5, 54.05141, 12.40077], [6, 54.06015, 12.398], [7, 54.069, 12.3976], [8, 54.07555, 12.38826]]

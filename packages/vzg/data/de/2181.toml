@@ -1,0 +1,36 @@
+id = "2181"
+ref = "2181"
+operator = "DB Netz AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.836
+length = 0.836
+speeds = [[0, 0.836, "", ""]]
+curves = [[0.55, 0.6, 2510]]
+points = [
+  { km = 0, kind = "signal", label = "P407", signal = "distant,main", dir = -1 },
+  { km = 0.325, kind = "station", label = "Essen West", uic = "8001898", pos = [51.4544, 6.98024] },
+  { km = 0.577, kind = "signal", label = "N407", signal = "distant,main,minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.39, kmTo = 0.408, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "u{`yHcnqi@pGan@rDwW" },
+]
+posts = [[0, 51.45547, 6.97586]]
+
+[[connections]]
+km = 0.325
+station = "Essen West"
+lines = [
+  { id = "2280", ref = "2280", name = "2280 Abzw Oberhausen Walzwerk - Essen West", km = -6.296 },
+  { id = "2291", ref = "2291", name = "2291 Mülheim (Ruhr)-Styrum - Bochum Hbf", km = 127.067 },
+  { id = "2300", ref = "2300", name = "2300 Mülheim (Rhur)-Styrum - Essen Hbf", km = 127.113 },
+]

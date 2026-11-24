@@ -1,0 +1,44 @@
+id = "3744"
+ref = "3744"
+name = "3744 Friedberg (Hess)"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Friedberg (Hess)"
+to = "Friedberg (Hess)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.66
+length = 0.66
+speeds = [[0, 0.66, 60, 60]]
+curves = [[0.175, 0.4, 1520]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.448, kmTo = 0.46, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ypdrHwmot@fLsS`JaV", v = 60 },
+]
+posts = [[0, 50.32733, 8.7678]]
+
+[[tracks]]
+track = "2"
+kmFrom = 0
+kmTo = 0.66
+length = 0.66
+speeds = [[0, 0.66, 60, 60]]
+curves = [[0.175, 0.4, 1520]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.448, kmTo = 0.46, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ypdrHwmot@fLsS`JaV", v = 60 },
+]
+posts = [[0, 50.32733, 8.7678]]

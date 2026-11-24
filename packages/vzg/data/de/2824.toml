@@ -1,0 +1,37 @@
+id = "2824"
+ref = "2824"
+name = "2824 Hagen-Vorhalle"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hagen-Vorhalle"
+to = "Hagen-Vorhalle"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.492
+length = 2.492
+speeds = [[0, 2.492, "", ""]]
+curves = [[0.4, 1.125, 490], [1.175, 1.25, 1860], [1.625, 1.875, 1250], [2.15, 2.375, 860]]
+points = [
+  { km = 0.113, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.114, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.696, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.89, kind = "signal", label = "R21", signal = "distant,main,minor", dir = 1 },
+  { km = 1.127, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.221, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.284, kind = "signal", signal = "main,minor", dir = -1 },
+  { km = 1.989, kind = "signal", label = "N96", signal = "main,minor", dir = 1 },
+  { km = 2.06, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.376, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.97, kmTo = 1.009, length = 39 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wfsxH}bil@pI|d@zArElExF`JtBnFnCt\\dc@~Rxc@zBxI|@`H" },
+]
+posts = [[0, 51.38556, 7.42463], [1, 51.37974, 7.41518], [2, 51.37289, 7.40599]]

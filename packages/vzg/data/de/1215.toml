@@ -1,0 +1,64 @@
+id = "1215"
+ref = "1215"
+name = "1215 St Michaelisdonn - Brunsbüttel Nord"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q22807430"
+from = "Michaelisdonn"
+to = "Brunsbüttel Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.425
+kmTo = 10.642
+length = 11.05
+speeds = [[-0.425, 2.766, 50, 50], [2.766, 2.863, "", ""], [2.863, 7.687, 50, 50], [7.687, 8.812, 40, 40], [8.812, 9.957, 50, 50], [9.957, 10.642, "", ""]]
+curves = [[-0.325, -0.275, 1520], [-0.2, -0.15, 2170], [0.942, 1.042, 2320], [5.305, 5.38, 2400], [7.197, 7.675, 2140], [7.883, 8.703, 510], [9.107, 9.231, 1680], [9.452, 9.526, 2260], [9.748, 10.044, 1230], [10.093, 10.342, 320], [10.467, 10.542, 740]]
+points = [
+  { km = -0.365, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = -0.32, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = -0.279, kind = "signal", label = "59 N1", signal = "main,speed_limit", dir = -1 },
+  { km = 0.11, kind = "station", label = "St. Michaelisdonn", uic = "8005655", pos = [53.98931, 9.1183] },
+  { km = 0.303, kind = "signal", label = "59P2", signal = "main,route,speed_limit", dir = 1 },
+  { km = 0.335, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.366, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.408, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.568, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.664, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.698, kind = "signal", label = "59B", signal = "combined", dir = -1 },
+  { km = 2.651, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.688, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.703, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.763, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.766, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.863, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.568, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.629, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.651, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.876, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.22, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.221, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.303, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.687, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.812, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.239, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "irphIcdsv@reA}{@ztA}tA", v = 50 },
+  { line = "yukhI_wwv@vCwC" },
+  { line = "aqkhIw{wv@by@ay@vx@m}@ff@oq@zq@{|@`IuNvDeJ", v = 50 },
+  { line = "gsdhIo_`w@jKwWjDuDzDmBdFa@hEt@zD~BbHdI", v = 40 },
+  { line = "c_chIqr`w@pO|Q|O~MxOnKhE~F", v = 50 },
+  { line = "ofahIc|~v@fHnLp@hDWn[d@bI" },
+]
+posts = [[0, 53.99012, 9.11746], [1, 53.9822, 9.12416], [2, 53.9744, 9.13193], [3, 53.96663, 9.13969], [4, 53.95898, 9.14738], [5, 53.95145, 9.15544], [6, 53.94412, 9.1644], [7, 53.9368, 9.17338], [8, 53.93043, 9.18387], [9, 53.92244, 9.18166], [10, 53.9145, 9.17416]]
+
+[[connections]]
+km = 0.11
+station = "St. Michaelisdonn"
+lines = [
+  { id = "1210", ref = "1210", name = "1210 Elmshorn, W 104 - Westerland (Sylt)", km = 101.029 },
+]

@@ -1,0 +1,71 @@
+id = "2246"
+ref = "2246"
+name = "2246 Gelsenkirchen Hugo - Oberhausen-Osterfeld"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Gelsenkirchen Hugo"
+to = "Oberhausen-Osterfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 14.794
+length = 14.794
+speeds = [[0, 1.527, 100, 100], [1.527, 2.041, "", ""], [2.041, 13.073, 80, 80], [13.073, 14.429, 60, 60], [14.429, 14.527, "", ""], [14.527, 14.714, 40, 40], [14.714, 14.724, 60, 60], [14.724, 14.794, 40, 40]]
+curves = [[0.2, 0.275, 2400], [0.325, 0.4, 2520], [1.1, 1.6, 920], [1.825, 2.1, 1160], [2.15, 2.275, 1820], [2.525, 3.225, 1030], [3.7, 3.8, 1630], [3.875, 4.35, 410], [5.45, 5.7, 1000], [6.45, 6.95, 550], [7.9, 8.125, 980], [10, 10.175, 1720], [10.375, 10.425, 2870], [14.45, 14.6, 590]]
+points = [
+  { km = 0.298, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.498, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 1.223, kind = "signal", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 1.704, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.759, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.9, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.145, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.454, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.829, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.306, kind = "signal", signal = "main,minor,traversable", dir = 1 },
+  { km = 3.787, kind = "signal", signal = "main", dir = -1 },
+  { km = 4.276, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 8.671, kind = "station", label = "Boyer Straße", pos = [51.52445, 7.00844] },
+  { km = 13.073, kind = "signal", signal = "distant,main,minor", dir = -1 },
+  { km = 13.611, kind = "signal", signal = "distant", dir = -1 },
+  { km = 13.616, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.078, kmTo = 0.094, length = 16 },
+  { kind = "bridge", kmFrom = 0.186, kmTo = 0.246, length = 60 },
+  { kind = "bridge", kmFrom = 0.418, kmTo = 0.485, length = 68 },
+  { kind = "bridge", kmFrom = 0.662, kmTo = 0.687, length = 25 },
+  { kind = "bridge", kmFrom = 3.253, kmTo = 3.283, length = 30 },
+  { kind = "bridge", kmFrom = 5.696, kmTo = 5.771, length = 76 },
+  { kind = "bridge", kmFrom = 6.007, kmTo = 6.052, length = 45 },
+  { kind = "bridge", kmFrom = 6.693, kmTo = 6.749, length = 56 },
+  { kind = "bridge", kmFrom = 7.587, kmTo = 7.604, length = 17 },
+  { kind = "bridge", kmFrom = 7.979, kmTo = 7.992, length = 14 },
+  { kind = "bridge", kmFrom = 8.665, kmTo = 8.696, length = 32 },
+  { kind = "bridge", kmFrom = 9.927, kmTo = 9.951, length = 23 },
+  { kind = "bridge", kmFrom = 10.142, kmTo = 10.168, length = 26 },
+  { kind = "bridge", kmFrom = 10.72, kmTo = 10.729, length = 10 },
+  { kind = "bridge", kmFrom = 14.153, kmTo = 14.19, length = 38 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "amqyH}hcj@nXsaBbA_MLuO", v = 100 },
+  { line = "_qpyHgjgj@wAc\\K}O" },
+  { line = "ctpyHixhj@ZhRbBf]zAxLfCjKdDdJbDdGda@fj@hBpEfA`GXbM_DnnBmQjpAm@bKRpJz@~GjYxtAbAdHlSnkDvDl\\rGd^xy@j}D", v = 80 },
+  { line = "krkyHcili@~`@nlB", v = 60 },
+  { line = "kpjyHs{hi@nA~F" },
+  { line = "{mjyHsshi@pAjO", v = 40 },
+  { line = "ikjyHgchi@DV", v = 60 },
+  { line = "ckjyHobhi@XdE", v = 40 },
+]
+posts = [[0, 51.54017, 7.06719], [1, 51.5367, 7.08052], [2, 51.53619, 7.09466], [3, 51.53395, 7.0821], [4, 51.5271, 7.0728], [5, 51.52668, 7.05871], [6, 51.52836, 7.04464], [7, 51.5294, 7.03096], [8, 51.52544, 7.01799], [9, 51.52368, 7.00382], [10, 51.52201, 6.98962], [11, 51.5186, 6.97629], [12, 51.51462, 6.96333], [13, 51.5106, 6.9504], [14, 51.50661, 6.93745]]
+
+[[connections]]
+km = 8.671
+station = "Boyer Straße"
+lines = [
+  { id = "2206", ref = "2206", name = "2206 Oberhausen-Sterkrade - Oberhausen-Osterfeld", km = 12.138 },
+]

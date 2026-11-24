@@ -1,0 +1,62 @@
+id = "6067"
+ref = "6067"
+name = "6067 Streckenwechsel 6067/6080 - Streckenwechsel 6067/6087"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131693065"
+from = "Biesdorfer Kreuz Nord Strw 6067/6080"
+to = "Karower Kreuz Streckenwechsel 6067/6087"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.821
+kmTo = 8.888
+length = 8.046
+speeds = [[0.821, 8.888, 120, 120]]
+curves = [[1.671, 2.529, 2010]]
+points = [
+  { km = 0.842, kind = "signal", label = "28 501", signal = "combined,traversable", dir = 1 },
+  { km = 1.426, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.849, kind = "signal", label = "28 503", signal = "combined,traversable", dir = 1 },
+  { km = 2.239, kind = "halt", label = "Gehrenseestraße", uic = "8089014", pos = [52.5565, 13.52476] },
+  { km = 2.99, kind = "signal", label = "23 509", signal = "combined,traversable", dir = 1 },
+  { km = 3.458, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.6, kind = "station", label = "Hohenschönhausen", uic = "8085771", pos = [52.56628, 13.5125] },
+  { km = 3.648, kind = "stop", label = "Berlin-Hohenschönhausen", pos = [52.56618, 13.51223], uic = "8003238" },
+  { km = 3.862, kind = "signal", label = "23 504", signal = "combined,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 4.368, kind = "signal", label = "22 513", signal = "combined,traversable", dir = 1 },
+  { km = 4.562, kind = "station", label = "Wartenberg", uic = "8089093", pos = [52.57298, 13.50383] },
+  { km = 5.072, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.574, kind = "signal", label = "22 517", signal = "combined,traversable", dir = 1 },
+  { km = 6.328, kind = "signal", label = "22 512", signal = "main,traversable", dir = -1 },
+  { km = 6.759, kind = "signal", label = "22 521", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 7.599, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.91, kind = "signal", label = "22 525", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 8.147, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.748, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.216, kmTo = 5.249, length = 32 },
+  { kind = "bridge", kmFrom = 6.579, kmTo = 6.603, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gqu_IeqqqAcw@pTqMvHoKzJy~GznJ", v = 120 },
+]
+posts = [[1, 52.54594, 13.52937], [2, 52.55453, 13.52578], [3, 52.56178, 13.51789], [4, 52.56893, 13.50874], [5, 52.57597, 13.49973], [6, 52.58303, 13.49069], [7, 52.59021, 13.4815], [8, 52.59739, 13.4723]]
+
+[[connections]]
+km = 2.239
+station = "Gehrenseestraße"
+lines = [
+  { id = "6012", ref = "6012", name = "6012 Berlin Springpfuhl - Karow West", km = 12.068 },
+]
+
+[[connections]]
+km = 4.562
+station = "Wartenberg"
+lines = [
+  { id = "6012", ref = "6012", name = "6012 Berlin Springpfuhl - Karow West", km = 14.472 },
+]

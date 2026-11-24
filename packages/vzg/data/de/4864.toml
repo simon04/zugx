@@ -1,0 +1,44 @@
+id = "4864"
+ref = "4864"
+name = "4864 Stuttgart Schwabstraße"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Stuttgart Schwabstraße"
+to = "Stuttgart Schwabstraße"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.024
+kmTo = 1.499
+length = 1.518
+speeds = [[-0.024, 1.499, 50, 50]]
+curves = [[0.076, 1.249, 210], [1.306, 1.381, 390]]
+points = [
+  { km = 0.001, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.256, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.3, kind = "signal", label = "R 961", signal = "main", dir = 1, measured = true },
+  { km = 0.383, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.51, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.6, kind = "signal", label = "R 965", signal = "main", dir = 1, measured = true },
+  { km = 0.72, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.9, kind = "signal", label = "R 969", signal = "main", dir = 1, measured = true },
+  { km = 1.3, kind = "signal", label = "R 975", signal = "main", dir = 1, measured = true },
+  { km = 2.472, kind = "station", label = "Stuttgart Schwabstraße", uic = "8029373", pos = [48.77025, 9.15697], measured = true },
+]
+structures = [
+  { kind = "tunnel", kmFrom = -0.024, kmTo = 1.499, length = 1518 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eithHs}zv@ZlMmChKWhGdAbGvC|C|C^bD{AfB_Ej@}GmAqIyGqHiDwI", tunnel = true, v = 50 },
+]
+posts = [[0, 48.76958, 9.15403], [1, 48.7669, 9.14975]]
+
+[[connections]]
+km = 2.472
+station = "Stuttgart Schwabstraße"
+lines = [
+  { id = "4861", ref = "4861", name = "4861 Stuttgart Hbf - Filderstadt", km = 2.426 },
+]

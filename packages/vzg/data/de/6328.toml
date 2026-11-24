@@ -1,0 +1,100 @@
+id = "6328"
+ref = "6328"
+name = "6328 Angermünde - Tantow Grenze"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131631517"
+from = "Angermünde"
+to = "Tantow Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 70.811
+kmTo = 90.024
+length = 19.177
+speeds = [[70.811, 72.26, "", ""], [72.26, 83.111, 120, 120], [83.111, 88.705, 50, 50], [88.705, 89.153, 60, 60], [89.153, 90.024, 50, 50]]
+curves = [[70.911, 70.986, 2630], [72.892, 73.113, 1600], [74.747, 75.426, 1100], [78.546, 79.324, 1490], [80.753, 81.079, 2130], [89.422, 89.622, 2580]]
+points = [
+  { km = 70.826, kind = "signal", signal = "minor", dir = -1 },
+  { km = 70.854, kind = "station", label = "Angermünde", pos = [53.01583, 13.99599], uic = "8028324" },
+  { km = 71.025, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 71.43, kind = "signal", label = "99 N10", signal = "main,minor,route,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 72.084, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 72.177, kind = "signal", signal = "minor", dir = -1 },
+  { km = 72.206, kind = "signal", signal = "crossing_distant" },
+  { km = 72.222, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 72.26, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 72.415, kind = "signal", label = "99 GG", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 72.747, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 72.748, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 72.754, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 72.755, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 73.332, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 73.405, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 73.411, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 73.444, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 73.47, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 74.955, kind = "signal", signal = "crossing_distant" },
+  { km = 76.474, kind = "signal", signal = "distant", dir = 1 },
+  { km = 77.517, kind = "signal", label = "99 09", signal = "main,traversable", dir = 1 },
+  { km = 77.619, kind = "signal", label = "99 12", signal = "main,traversable", dir = -1 },
+  { km = 78.695, kind = "signal", signal = "distant", dir = -1 },
+  { km = 78.917, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 79.967, kind = "signal", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 81.358, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 81.597, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 82.197, kind = "signal", signal = "distant", dir = 1 },
+  { km = 82.571, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 82.626, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 82.68, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 83.107, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 83.111, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 83.238, kind = "signal", label = "98 01", signal = "main,traversable", dir = 1 },
+  { km = 83.248, kind = "signal", signal = "crossing_distant" },
+  { km = 83.683, kind = "signal", signal = "distant", dir = -1 },
+  { km = 83.755, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 83.996, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 84.969, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 84.99, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 84.998, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 86.009, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 86.258, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 86.77, kind = "signal", signal = "crossing_distant" },
+  { km = 87.707, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 88.705, kind = "signal", label = "98 A", signal = "combined,route,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 88.706, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 88.907, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 89.076, kind = "signal", signal = "minor", dir = 1 },
+  { km = 89.232, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 89.252, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 89.297, kind = "signal", label = "98 P1", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 89.372, kind = "station", label = "Passow (Uckermark)", uic = "8028354", pos = [53.14917, 14.10192] },
+  { km = 89.574, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 89.897, kind = "signal", label = "98 N1", signal = "main,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 90.004, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 77.412, kmTo = 77.427, length = 15 },
+  { kind = "bridge", kmFrom = 81.894, kmTo = 81.918, length = 24 },
+  { kind = "bridge", kmFrom = 85.355, kmTo = 85.367, length = 12 },
+  { kind = "bridge", kmFrom = 89.058, kmTo = 89.076, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{vqbIcnltAso@hj@uU|T" },
+  { line = "e~sbI{ljtA_^b]wJ|GowA~m@}H|AyFHyJsAeLgFqsCo_BsMwJyFaHyGiLoIoUsc@azAkJoX}wAmnC", v = 120 },
+  { line = "msccIqzttAwkA{yBgxCwgF", v = 50 },
+  { line = "myjcIe~_uAqQm[", v = 60 },
+  { line = "_lkcIsz`uAuNqVoUkZ", v = 50 },
+]
+posts = [[71, 53.0178, 13.99408], [72, 53.02569, 13.9869], [73, 53.03367, 13.97927], [74, 53.04216, 13.97461], [75, 53.05076, 13.97064], [76, 53.05926, 13.97466], [77, 53.06746, 13.97996], [78, 53.07571, 13.98533], [79, 53.08364, 13.99205], [80, 53.08894, 14.00404], [81, 53.09412, 14.01619], [82, 53.1006, 14.02665], [83, 53.10718, 14.03716], [84, 53.11374, 14.0477], [85, 53.12033, 14.0582], [86, 53.12678, 14.06797], [87, 53.13338, 14.078], [88, 53.14002, 14.08812], [89, 53.14666, 14.09823], [90, 53.15361, 14.10771]]
+
+[[connections]]
+km = 70.854
+station = "Angermünde"
+lines = [
+  { id = "6081", ref = "6081", name = "6081 Berlin - Eberswalde - Stralsund", km = 70.692 },
+  { id = "6764", ref = "6764", name = "6764 Angermünde - Schwedt (Oder)", km = 0.053 },
+]

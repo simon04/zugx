@@ -1,0 +1,87 @@
+id = "2701"
+ref = "2701"
+name = "2701 Wuppertal-Oberbarmen - Schwelm"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Wuppertal-Oberbarmen"
+to = "Schwelm"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.176
+kmTo = 5.466
+length = 5.472
+speeds = [[-0.176, 0.956, 40, 40], [0.956, 1.35, 30, 40], [1.35, 1.526, 40, 40], [1.526, 2.262, 60, 40], [2.262, 2.722, 60, 60], [2.722, 3.542, 100, 60], [3.542, 5.334, 100, 100], [5.334, 5.466, 60, 60]]
+curves = [[0.367, 0.446, 2420], [0.499, 0.685, 520], [0.738, 1.215, 330], [1.268, 1.612, 510], [2.355, 2.461, 1550], [4.43, 4.552, 1980], [4.918, 5.216, 1240], [5.291, 5.366, 1330]]
+points = [
+  { km = -0.176, kind = "station", label = "Wuppertal-Oberbarmen", uic = "8006719", pos = [51.27389, 7.22125] },
+  { km = -0.176, kind = "station", label = "Oberbarmen Bahnhof", pos = [51.27472, 7.22225] },
+  { km = 0.023, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.369, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.427, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.482, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.512, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.515, kind = "signal", label = "U253", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 0.629, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.724, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.956, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.988, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.193, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.318, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.341, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.36, kind = "halt", label = "Wuppertal-Langerfeld", uic = "8006607", pos = [51.27783, 7.24222] },
+  { km = 1.526, kind = "signal", label = "S562", signal = "main,minor,traversable", dir = -1 },
+  { km = 2.262, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.265, kind = "signal", signal = "main,minor,traversable", dir = 1 },
+  { km = 2.399, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.543, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.596, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.659, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.743, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.074, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.197, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 3.542, kind = "signal", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 3.623, kind = "halt", label = "Schwelm West", uic = "8005488", pos = [51.2856, 7.26959] },
+  { km = 4.088, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 4.22, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.512, kind = "signal", label = "P 405", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 4.597, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.098, kind = "station", label = "Schwelm", uic = "8000033", pos = [51.29054, 7.28966] },
+  { km = 5.255, kind = "signal", signal = "distant,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 5.332, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.056, kmTo = -0.013, length = 42 },
+  { kind = "bridge", kmFrom = 1.254, kmTo = 1.291, length = 35 },
+  { kind = "bridge", kmFrom = 2.677, kmTo = 2.688, length = 10 },
+  { kind = "bridge", kmFrom = 5.011, kmTo = 5.025, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ev`xHcxok@KxJ", v = 60 },
+  { line = "qv`xHilok@l@rZbHxk@xg@hoC", v = 100 },
+  { line = "ec_xHqshk@hFpY~MjcA", v = 60 },
+  { line = "{l~wHstek@`ChHtMpLtCzId@jHc@hQ|Ft~@", v = 40 },
+]
+posts = [[5, 51.29053, 7.28824], [4, 51.28719, 7.27453], [3, 51.28357, 7.26175], [2, 51.28036, 7.24921], [1, 51.27563, 7.23879], [0, 51.27428, 7.22561]]
+
+[[connections]]
+km = -0.176
+station = "Wuppertal-Oberbarmen"
+lines = [
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 43.614 },
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 43.614 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 120.849 },
+]
+
+[[connections]]
+km = 5.098
+station = "Schwelm"
+lines = [
+  { id = "2143", ref = "2143", name = "2143 Witten Hbf - Schwelm", km = 96.306 },
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 48.726 },
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 48.73 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 126.027 },
+]

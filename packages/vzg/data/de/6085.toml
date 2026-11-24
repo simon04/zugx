@@ -1,0 +1,35 @@
+id = "6085"
+ref = "6085"
+name = "6085 Abzw Berlin-Karow Ost - Berlin-Blankenburg"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131732002"
+from = "Berlin-Karow Ost"
+to = "Berlin-Blankenburg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.057
+kmTo = 1.476
+length = 1.496
+speeds = [[-0.057, 1.476, 60, 60]]
+curves = [[0.205, 1.054, 490]]
+points = [
+  { km = 0.068, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.279, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.319, kind = "signal", label = "22 530", signal = "combined,traversable", dir = -1 },
+  { km = 1.194, kind = "signal", label = "48 G", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 1.296, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.394, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.402, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.817, kmTo = 0.845, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_n``IcreqAeLdQuCbHsB~LUzN`AnKhBlFlU|W", v = 60 },
+]
+posts = [[0, 52.60056, 13.46813], [1, 52.60258, 13.45594]]

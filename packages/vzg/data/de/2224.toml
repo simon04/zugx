@@ -1,0 +1,56 @@
+id = "2224"
+ref = "2224"
+name = "2224 Recklinghausen Ost - Recklinghausen Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q19838770"
+from = "Recklinghausen Ost"
+to = "Recklinghausen Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.161
+kmTo = 3.023
+length = 2.903
+speeds = [[0.161, 0.497, 40, 40], [0.497, 2.125, 60, 60], [2.125, 2.944, 40, 40], [2.944, 3.023, 60, 60]]
+curves = [[0.261, 0.608, 310], [0.715, 0.965, 690], [1.746, 2.395, 790]]
+points = [
+  { km = 0.208, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.497, kind = "signal", label = "58 C", signal = "combined,speed_limit", dir = -1 },
+  { km = 0.696, kind = "signal", label = "84 Vc", signal = "distant", dir = 1 },
+  { km = 1.201, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.222, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.485, kind = "signal", label = "58 Vc", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.846, kind = "signal", label = "84 C", signal = "distant,main,traversable", dir = 1 },
+  { km = 2.055, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.125, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.147, kind = "signal", label = "84L 205X", signal = "minor", dir = 1 },
+  { km = 2.228, kind = "signal", label = "84L 305Y", signal = "minor", dir = -1 },
+  { km = 2.319, kind = "signal", label = "84L 305X", signal = "minor", dir = 1 },
+  { km = 2.402, kind = "station", label = "Recklinghausen Hauptbahnhof", uic = "8000307", pos = [51.6161, 7.20327] },
+  { km = 2.531, kind = "signal", label = "84 P5", signal = "main,minor,wrong_road", dir = -1 },
+  { km = 2.944, kind = "signal", label = "84 N5", signal = "main,minor,speed_limit,traversable,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.269, kmTo = 0.282, length = 13 },
+  { kind = "bridge", kmFrom = 0.436, kmTo = 0.447, length = 11 },
+  { kind = "bridge", kmFrom = 1.617, kmTo = 1.644, length = 29 },
+  { kind = "bridge", kmFrom = 2.23, kmTo = 2.248, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "i}|yHiw`k@cBtL_BjDmCjC", v = 40 },
+  { line = "{g}yH{_`k@uQhEkCvAgi@bv@aFdDwFp@", v = 60 },
+  { line = "_x_zH}x}j@wJiAu_@yN", v = 40 },
+  { line = "mdazHak~j@kCo@", v = 60 },
+]
+posts = [[1, 51.60554, 7.21148], [2, 51.61249, 7.20307], [3, 51.62121, 7.20594]]
+
+[[connections]]
+km = 2.402
+station = "Recklinghausen Hauptbahnhof"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 10.506 },
+]

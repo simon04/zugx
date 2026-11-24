@@ -1,0 +1,95 @@
+id = "6935"
+ref = "6935"
+name = "6935 Parchim - Waren (Müritz)"
+operator = "DB InfraGO AG;Regio Infra Nord-Ost GmbH & Co. KG"
+gauge = "1435"
+from = "Parchim"
+to = "Waren (Müritz)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.479
+kmTo = 95.947
+length = 95.686
+speeds = [[0.479, 0.579, "", ""], [0.579, 1.622, 80, 80], [1.622, 8.484, "", ""], [8.484, 9.313, 80, 80], [9.313, 84.129, "", ""], [84.129, 84.147, 30, 30], [84.147, 93.104, "", ""], [93.104, 95.1, 60, 60], [95.1, 95.947, 40, 40]]
+curves = [[0.665, 1.29, 340], [7.415, 7.765, 970], [8.465, 8.515, 2310], [8.615, 8.815, 1160], [9.39, 9.59, 970], [9.79, 9.84, 2510], [15.165, 15.215, 2220], [17.515, 17.74, 900], [25.44, 25.74, 720], [25.815, 25.94, 1350], [25.99, 26.09, 1300], [26.34, 26.465, 1660], [26.565, 26.84, 1540], [28.315, 29.44, 1210], [29.74, 29.865, 1580], [29.94, 30.165, 1510], [30.365, 30.615, 1380], [31.84, 32.29, 1130], [33.315, 33.565, 980], [34.815, 34.89, 2090], [39.24, 39.465, 1100], [39.74, 40.165, 410], [41.39, 41.515, 1910], [42.465, 42.565, 1970], [44.34, 44.89, 690], [45.415, 45.541, 1360], [46.119, 46.32, 1310], [47.375, 48.304, 1060], [48.831, 49.535, 1010], [50.339, 50.615, 1450], [52.7, 52.775, 2070], [53.705, 54.031, 1230], [54.659, 54.735, 2370], [57.523, 57.598, 2040], [58.703, 58.854, 1320], [59.13, 59.356, 1350], [60.11, 60.763, 330], [61.215, 61.316, 970], [61.366, 61.61, 640], [61.683, 62.68, 500], [62.728, 63.409, 600], [67.98, 68.125, 1190], [68.539, 68.685, 980], [69.438, 69.608, 1020], [69.681, 70.143, 2200], [70.8, 70.848, 2290], [71.189, 71.529, 1150], [71.796, 71.918, 1380], [72.963, 73.771, 520], [74.598, 74.823, 990], [74.923, 75.249, 590], [76.151, 76.803, 510], [78.056, 78.332, 1350], [79.56, 80.011, 660], [82.141, 82.341, 1480], [83.594, 83.82, 1310], [83.92, 84.747, 510], [85.449, 85.95, 480], [86.226, 86.451, 710], [86.677, 86.752, 2260], [86.802, 86.877, 2250], [87.805, 87.98, 1650], [90.01, 90.461, 1050], [90.862, 91.113, 790], [91.288, 91.438, 1540], [94.771, 95.522, 770], [95.772, 95.822, 2490]]
+points = [
+  { km = 0.56, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.579, kind = "signal", signal = "electricity,speed_limit", dir = 1 },
+  { km = 0.711, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 3.641, kind = "stop", label = "Groß Laasch", pos = [53.34642, 11.53401], uic = "8047336" },
+  { km = 8.891, kind = "station", label = "Neustadt-Glewe", pos = [53.37721, 11.59311], uic = "8047337" },
+  { km = 15.216, kind = "stop", label = "Dütschow", pos = [53.40201, 11.67871], uic = "8047338" },
+  { km = 17.703, kind = "stop", label = "Spornitz", pos = [53.4124, 11.71159], uic = "8047339" },
+  { km = 25.871, kind = "station", label = "Parchim", pos = [53.4301, 11.83076], uic = "8027433" },
+  { km = 40.184, kind = "station", label = "Lübz", pos = [53.46689, 12.02556] },
+  { km = 45.336, kind = "halt", label = "Passow(Meckl)", pos = [53.50806, 12.05386] },
+  { km = 45.358, kind = "stop", label = "Passow (Mecklenburg)", pos = [53.50812, 12.05416] },
+  { km = 45.384, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 50.637, kind = "stop", label = "Gallin", pos = [53.51664, 12.12899] },
+  { km = 60.013, kind = "signal", signal = "distant", dir = 1 },
+  { km = 60.415, kind = "signal", label = "R", signal = "main", dir = 1 },
+  { km = 60.869, kind = "signal", label = "N", signal = "main", dir = -1 },
+  { km = 60.992, kind = "station", label = "Karow (Meckl)", uic = "8010188", pos = [53.54032, 12.27217] },
+  { km = 61.531, kind = "signal", label = "C", signal = "main", dir = 1 },
+  { km = 62.046, kind = "signal", label = "B", signal = "main", dir = -1 },
+  { km = 62.438, kind = "signal", signal = "distant", dir = -1 },
+  { km = 67.628, kind = "station", label = "Alt Schwerin", pos = [53.51207, 12.35558] },
+  { km = 70.842, kind = "stop", label = "Malchow Krebssee", pos = [53.49069, 12.38921] },
+  { km = 73.115, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 73.19, kind = "signal", signal = "main", dir = 1 },
+  { km = 73.303, kind = "signal", signal = "stop", dir = -1 },
+  { km = 73.357, kind = "stop", label = "Inselstadt Malchow", pos = [53.48201, 12.42399], uic = "8012296" },
+  { km = 73.642, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 78.657, kind = "station", label = "Nossentin", pos = [53.52163, 12.45245], uic = "8012517" },
+  { km = 86.235, kind = "stop", label = "Jabel", pos = [53.54517, 12.54683], uic = "8011939" },
+  { km = 90.736, kind = "stop", label = "Schwenzin", pos = [53.5362, 12.6118], uic = "8012949" },
+  { km = 92.96, kind = "signal", signal = "stop", dir = 1 },
+  { km = 92.962, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 93.086, kind = "stop", label = "Warenshof", pos = [53.53068, 12.64571], uic = "8013232" },
+  { km = 93.104, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 93.489, kind = "signal", label = "14 G", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 94.676, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 94.7, kind = "signal", label = "14 ZR4", signal = "combined,traversable", dir = 1 },
+  { km = 95.1, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 95.168, kind = "signal", signal = "minor", dir = -1 },
+  { km = 95.251, kind = "signal", label = "14 N4", signal = "main,route,speed_limit,traversable", dir = -1 },
+  { km = 95.748, kind = "station", label = "Waren (Müritz)", uic = "8028087", pos = [53.5218, 12.68056] },
+  { km = 95.821, kind = "signal", label = "14 P4", signal = "main,minor,speed_limit,traversable,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 7.841, kmTo = 7.872, length = 31 },
+  { kind = "bridge", kmFrom = 11.93, kmTo = 11.944, length = 14 },
+  { kind = "bridge", kmFrom = 26.175, kmTo = 26.217, length = 42 },
+  { kind = "bridge", kmFrom = 29.581, kmTo = 29.6, length = 18 },
+  { kind = "bridge", kmFrom = 84.129, kmTo = 84.147, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ucteI{zklA}ZtTyE~FyDlI", v = 40 },
+  { line = "glueIwrjlAyBbIyAzJ{Qj_D", v = 60 },
+  { line = "weveIk|dlAsQr|CmDd[_DdOuRbi@yBhKoAdKe\\z~DsFxbBUbRE`WZzIxFlb@lDlLxBbDzE`Dno@~SrCpClBhEfB`Ip@jM" },
+  { line = "ilveIsbnkA@t@", v = 30 },
+  { line = "glveI}`nkAEfM_BdS[jKu@dcChS`sE~@xHrBtIzCxGpx@|vA`o@dmBjCnFnD|DtFbCdGDr|@qPfDj@hPvHxu@jDrElB|C~EtBpJt@rL]pPiSffB}Hla@sClKgSta@q]nk@{KxN{PbP{d@nu@gW~p@sgCdgKmA|NLnOzApM|ElRbA|MUvMcCjNcC`GcEdF{DxBgNxDyIjI{Y`UmDvGsAhJFjJpAfJfZfiAxIvm@x]n`Bt_AdvFbOlhAb@zHnAj}AvMpmEpB~RxOziAjA|T@rIw@|RqLxu@}AvNm@~S|@|VnCrRf[|}AvJldArLlu@`ClKdHdMbRfLftAtq@xz@xYxiA|RpEbDvCjH|Ep\\`BlQjYfiJhCvq@xMz|BJzJoD|fBBnN`BjQz[jpBdB|QnBfd@@|P_Btl@D`Kx@xNjC|PzIrWxjAv|A|FdKfGlN|JpYjCpJfGxOnB~HdLlnAfwAdfS``AhiEt|BvkMpGr[lDxJ" },
+  { line = "utxdImfxeAzQrh@fFvU", v = 80 },
+  { line = "qzwdIafveAnPf`AbGzRxkFv|J" },
+  { line = "ctodIesgeApOpYxAdFl@xEF~Iu@hHoAhEuErI", v = 80 },
+  { line = "}iodIkeeeA}BvE" },
+]
+posts = [[95, 53.52709, 12.6739], [94, 53.52912, 12.65925], [93, 53.53086, 12.64445], [92, 53.53261, 12.62964], [91, 53.53483, 12.61506], [90, 53.53958, 12.60242], [89, 53.5418, 12.5878], [88, 53.54403, 12.57318], [87, 53.54523, 12.55822], [86, 53.54445, 12.54344], [85, 53.53716, 12.53643], [84, 53.53172, 12.52701], [83, 53.53253, 12.51204], [82, 53.53235, 12.49699], [81, 53.53091, 12.48209], [80, 53.52947, 12.46719], [79, 53.52387, 12.45585], [78, 53.51745, 12.44536], [77, 53.51218, 12.43315], [76, 53.50474, 12.42772], [75, 53.4959, 12.4297], [74, 53.48709, 12.42752], [73, 53.48191, 12.4187], [72, 53.48481, 12.40394], [71, 53.48966, 12.39095], [70, 53.49664, 12.38076], [69, 53.50411, 12.37171], [68, 53.51038, 12.36037], [66, 53.51975, 12.33355], [67, 53.51507, 12.34696], [64, 53.52912, 12.30672], [65, 53.52444, 12.32014], [63, 53.53269, 12.2927], [62, 53.53203, 12.27848], [61, 53.54027, 12.27231], [60, 53.54244, 12.26101], [59, 53.53813, 12.24787], [58, 53.5342, 12.23436], [57, 53.53033, 12.2208], [56, 53.52674, 12.207], [55, 53.52313, 12.19322], [54, 53.51982, 12.17925], [53, 53.51896, 12.16433], [52, 53.51807, 12.14936], [51, 53.51701, 12.13441], [50, 53.51492, 12.11987], [49, 53.51297, 12.10541], [48, 53.51593, 12.09127], [47, 53.51341, 12.07711], [46, 53.50977, 12.06342], [45, 53.50686, 12.04919], [44, 53.50014, 12.04034], [43, 53.49167, 12.03528], [42, 53.48308, 12.03082], [41, 53.47431, 12.02757], [40, 53.46546, 12.02503], [39, 53.46231, 12.01137], [38, 53.46124, 11.99638], [36, 53.45906, 11.96639], [37, 53.46015, 11.98138], [35, 53.45789, 11.95142], [34, 53.45615, 11.9366], [33, 53.45559, 11.92165], [32, 53.45592, 11.90664], [31, 53.45247, 11.8927], [30, 53.44997, 11.87829], [29, 53.45008, 11.8633], [28, 53.44423, 11.85228], [27, 53.43696, 11.84339], [26, 53.43084, 11.83247], [25, 53.42713, 11.81898], [24, 53.425, 11.80432], [23, 53.42298, 11.78961], [22, 53.42098, 11.7749], [21, 53.41902, 11.76017], [20, 53.41701, 11.74546], [19, 53.41503, 11.73074], [18, 53.41302, 11.71603], [17, 53.40959, 11.70221], [16, 53.4053, 11.68896], [15, 53.40111, 11.67561], [14, 53.39732, 11.66193], [13, 53.3936, 11.6482], [12, 53.38986, 11.63449], [11, 53.38613, 11.62077], [10, 53.3824, 11.60704], [9, 53.37776, 11.59423], [8, 53.37352, 11.58102], [7, 53.36815, 11.56917], [6, 53.36167, 11.55872], [5, 53.35519, 11.54827], [4, 53.34872, 11.53781], [3, 53.34225, 11.52734], [2, 53.33577, 11.5169], [1, 53.32991, 11.50583]]
+
+[[connections]]
+km = 60.992
+station = "Karow"
+lines = [
+  { id = "6939", ref = "6939", name = "6939 Meyenburg - Güstrow", km = 84.487 },
+]
+
+[[connections]]
+km = 95.748
+station = "Waren"
+lines = [
+  { id = "6325", ref = "6325", name = "6325 Neustrelitz Hbf - Warnemünde", km = 35.601 },
+]

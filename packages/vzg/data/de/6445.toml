@@ -1,0 +1,55 @@
+id = "6445"
+ref = "6445"
+name = "6445 Güstrow - Schwaan"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q802381"
+from = "Güstrow"
+to = "Schwaan"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.529
+kmTo = 15.148
+length = 15.652
+speeds = [[-0.529, 0.148, 60, 60], [0.148, 15.011, 120, 120], [15.011, 15.148, "", ""]]
+curves = [[-0.129, -0.029, 1970], [0.546, 0.846, 1630], [0.946, 0.996, 1980], [3.246, 4.296, 800], [6.371, 7.121, 860], [8.221, 8.723, 1310], [11.156, 11.533, 1300], [12.687, 13.59, 1870], [14.845, 14.945, 1940]]
+points = [
+  { km = -0.194, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = -0.15, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = -0.14, kind = "signal", label = "61 N6", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = -0.016, kind = "station", label = "Güstrow", uic = "8027023", pos = [53.80085, 12.17258] },
+  { km = 0.148, kind = "signal", signal = "speed_limit,stop", dir = 1 },
+  { km = 0.166, kind = "signal", label = "61 ZS6", signal = "combined,minor,speed_limit", dir = 1 },
+  { km = 6.279, kind = "halt", label = "Lüssow (Meckl)", uic = "8012269", pos = [53.84359, 12.13786] },
+  { km = 7.564, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 8.069, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 8.072, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 8.326, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 8.328, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 8.844, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 10.629, kind = "halt", label = "Mistorf", uic = "8012362", pos = [53.88058, 12.1231] },
+  { km = 13.854, kind = "signal", label = "A", signal = "distant", dir = 1 },
+  { km = 14.856, kind = "signal", label = "B", signal = "combined", dir = 1 },
+  { km = 15.011, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.858, kmTo = 2.879, length = 21 },
+  { kind = "bridge", kmFrom = 13.974, kmTo = 13.983, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yijgI_piiAyYrl@", v = 60 },
+  { line = "sdkgIkbhiAiTrg@g\\|hAqu@`_CyCtGkD~EsKlHqLnA{GmAisBy_AgJkCyFBmHjB}FrDcx@vx@cO~I{NbCghC`XuI|Dq|@bn@qObHsNbCmKFyqAaL", v = 120 },
+  { line = "y}ahIe{|hAsFS" },
+]
+posts = [[0, 53.80096, 12.17243], [1, 53.80662, 12.16066], [2, 53.81177, 12.14817], [3, 53.81703, 12.13581], [4, 53.82407, 12.12756], [5, 53.83269, 12.13165], [6, 53.84123, 12.13646], [7, 53.8499, 12.1379], [8, 53.85764, 12.13016], [9, 53.86606, 12.12563], [10, 53.87498, 12.12406], [11, 53.88389, 12.12248], [12, 53.89234, 12.11783], [13, 53.9006, 12.112], [14, 53.90951, 12.11188], [15, 53.91843, 12.11331]]
+
+[[connections]]
+km = -0.016
+station = "Güstrow"
+lines = [
+  { id = "1122", ref = "1122", name = "1122 Lübeck - Strasburg (Uckerm)", km = 113.247 },
+]

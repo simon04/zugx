@@ -1,0 +1,71 @@
+id = "6967"
+ref = "6967"
+name = "6967 Mügeln (b Oschatz) - Neichen"
+operator = "Döllnitzbahn GmbH"
+gauge = "750"
+wikidata = "Q2245760"
+from = "Mügeln (b Oschatz)"
+to = "Neichen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.37
+kmTo = 4.678
+length = 5.046
+speeds = [[-0.37, 4.678, "", ""]]
+curves = [[-0.249, -0.174, 760], [-0.124, 0.218, 560], [0.261, 0.471, 180], [0.622, 0.973, 260], [1.774, 1.975, 490], [2.175, 2.25, 1900], [2.3, 2.651, 650], [2.903, 3.128, 820], [3.328, 3.653, 770], [3.928, 4.478, 670]]
+points = [
+  { km = -0.09, kind = "station", label = "Mügeln (b Oschatz)", pos = [51.23654, 13.05901] },
+  { km = 0.06, kind = "signal", signal = "ring", dir = 1 },
+  { km = 0.101, kind = "signal", signal = "ring", dir = -1 },
+  { km = 0.22, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.279, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.402, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.437, kind = "signal", label = "M", signal = "main", dir = -1 },
+  { km = 0.439, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.596, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.733, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.756, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.796, kind = "halt", label = "Mügeln (b Oschatz) Stadt", pos = [51.23859, 13.04797] },
+  { km = 0.798, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.831, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.869, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.979, kind = "signal", signal = "main", dir = 1 },
+  { km = 1.016, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.161, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.183, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.305, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 1.314, kind = "signal", signal = "crossing,crossing_info", dir = -1 },
+  { km = 1.33, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.361, kind = "station", label = "Altmügeln", pos = [51.2378, 13.04019] },
+  { km = 1.388, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.512, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.742, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.004, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.636, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.639, kind = "signal", signal = "ring", dir = -1 },
+  { km = 2.897, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.927, kind = "signal", signal = "main", dir = 1 },
+  { km = 3.035, kind = "signal", signal = "ring", dir = -1 },
+  { km = 3.042, kind = "station", label = "Nebitzschen", pos = [51.23916, 13.01702] },
+  { km = 3.068, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.148, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.26, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.262, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.297, kind = "signal", signal = "main", dir = -1 },
+  { km = 4.588, kind = "station", label = "Glossen", pos = [51.24231, 12.99618] },
+  { km = 4.591, kind = "station", label = "Glossen Feldbahn", pos = [51.2424, 12.99631] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.402, kmTo = 0.419, length = 18 },
+  { kind = "bridge", kmFrom = 1.161, kmTo = 1.173, length = 23 },
+  { kind = "bridge", kmFrom = 1.424, kmTo = 1.437, length = 13 },
+  { kind = "bridge", kmFrom = 3.5, kmTo = 3.511, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qkwwHsdinAzIaLfCiJbAoHrC{s@M_OlAs\\z@aIpH_c@@qLrCsj@mMitA`CyLBg]`AaCtE_D`AgDVeLe@cPLwK" },
+]
+posts = [[4, 51.24005, 13.00337], [3, 51.23899, 13.01758], [2, 51.23672, 13.03127], [1, 51.23864, 13.04514], [0, 51.23639, 13.05775]]

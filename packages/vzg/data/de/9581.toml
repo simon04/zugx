@@ -1,0 +1,166 @@
+id = "9581"
+ref = "9581"
+name = "9581 Gotteszell - Viechtach"
+operator = "Die Länderbahn GmbH DLB"
+gauge = "1435"
+wikidata = "Q122828053"
+from = "Gotteszell"
+to = "Viechtach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.175
+kmTo = 24.924
+length = 25.051
+speeds = [[-0.175, 0.401, 40, 40], [0.401, 0.472, "", ""], [0.472, 0.5, 50, 50], [0.5, 0.713, 50, 40], [0.713, 1.544, 50, 50], [1.544, 1.622, 50, 40], [1.622, 1.683, 50, 20], [1.683, 1.787, 50, 50], [1.787, 1.794, 20, 50], [1.794, 3.046, 50, 50], [3.046, 3.088, 10, 50], [3.088, 3.1, 10, 10], [3.1, 3.127, 50, 10], [3.127, 5.245, 50, 50], [5.245, 5.343, 20, 20], [5.343, 7.053, 50, 50], [7.053, 7.062, 20, 20], [7.062, 9.644, 50, 50], [9.644, 9.744, 20, 20], [9.744, 10.1, 40, 40], [10.1, 10.203, "", ""], [10.203, 10.489, 20, 20], [10.489, 10.958, 50, 50], [10.958, 11.096, 30, 30], [11.096, 11.228, 50, 50], [11.228, 11.315, 20, 20], [11.315, 12.001, 50, 50], [12.001, 12.057, 20, 20], [12.057, 22.527, 50, 50], [22.527, 22.532, 20, 20], [22.532, 24.195, 50, 50], [24.195, 24.605, 30, 40], [24.605, 24.746, 30, 30], [24.746, 24.924, "", ""]]
+curves = [[0.351, 0.851, 510], [0.901, 1.401, 410], [1.551, 1.951, 250], [2.001, 2.526, 290], [2.576, 2.851, 820], [2.901, 3.101, 570], [3.251, 3.726, 460], [3.951, 4.126, 880], [4.176, 4.351, 710], [4.401, 5.026, 500], [5.076, 5.201, 610], [5.252, 5.804, 580], [5.854, 6.457, 380], [6.507, 6.708, 240], [6.758, 7.034, 480], [7.306, 7.504, 360], [7.578, 7.851, 300], [8.323, 8.598, 570], [9.125, 9.375, 700], [9.651, 9.776, 950], [9.851, 10.101, 310], [10.252, 10.475, 380], [10.524, 10.623, 650], [10.672, 10.845, 280], [10.894, 10.993, 710], [11.042, 11.514, 500], [11.563, 11.712, 400], [11.762, 11.811, 710], [11.861, 12.159, 360], [12.208, 12.806, 290], [13.009, 13.211, 670], [13.692, 13.869, 550], [13.92, 14.198, 210], [14.249, 14.655, 340], [14.707, 15.013, 810], [15.064, 15.812, 400], [15.887, 16.34, 300], [16.466, 16.894, 720], [16.944, 17.095, 510], [17.196, 17.297, 550], [17.347, 17.498, 500], [17.8, 17.926, 1150], [17.976, 18.052, 1220], [18.178, 18.379, 450], [18.58, 18.757, 520], [18.857, 19.008, 950], [19.059, 19.134, 1680], [19.185, 19.537, 440], [19.688, 19.94, 490], [20.04, 20.342, 230], [20.393, 20.435, 1330], [20.559, 20.778, 380], [20.855, 21.033, 880], [21.084, 21.416, 700], [21.466, 22.435, 350], [22.486, 22.989, 310], [23.438, 23.538, 610], [23.588, 23.912, 800], [24.012, 24.699, 550]]
+points = [
+  { km = 0.123, kind = "station", label = "Gotteszell", pos = [48.9582, 12.98349] },
+  { km = 0.472, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.713, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.444, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.544, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.622, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.683, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.787, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.794, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.02, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.046, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.088, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.1, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.127, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.18, kind = "stop", label = "Ruhmannsfelden", pos = [48.98969, 12.99139] },
+  { km = 7.038, kind = "stop", label = "Patersdorf", pos = [49.01303, 12.99359] },
+  { km = 8.933, kind = "stop", label = "Teisnach Rohde & Schwarz", pos = [49.02907, 12.99153] },
+  { km = 9.644, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.744, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.85, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 9.85, kind = "signal", signal = "resetting_switch_distant", dir = 1 },
+  { km = 9.882, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 9.902, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 9.934, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 9.956, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 10.015, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.027, kind = "signal", signal = "resetting_switch", dir = 1 },
+  { km = 10.034, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 10.09, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.1, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.109, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.142, kind = "station", label = "Teisnach", pos = [49.03915, 12.99449] },
+  { km = 10.182, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.203, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.273, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.289, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.293, kind = "signal", signal = "resetting_switch", dir = -1 },
+  { km = 10.299, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.313, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 10.342, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 10.351, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 10.386, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 10.449, kind = "signal", signal = "resetting_switch_distant", dir = -1 },
+  { km = 10.487, kind = "signal", signal = "main", dir = -1 },
+  { km = 10.533, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 10.628, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 10.782, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.885, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 10.911, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.461, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 11.595, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 11.998, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.999, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.058, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.06, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 12.293, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 12.448, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 12.731, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 12.799, kind = "halt", label = "Böbrach", pos = [49.05339, 13.01424] },
+  { km = 12.928, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 12.978, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 13.652, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 13.791, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 14.469, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 14.814, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 14.817, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 14.938, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 15.301, kind = "stop", label = "Gumpenried-Asbach", pos = [49.07206, 13.0005] },
+  { km = 15.345, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 15.746, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 15.885, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 15.893, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 17.947, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 18.162, kind = "station", label = "Nußberg-Schönau", pos = [49.07063, 12.96533] },
+  { km = 18.415, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 19.751, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 19.947, kind = "halt", label = "Gstadt", pos = [49.0644, 12.9441] },
+  { km = 20.18, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 20.396, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 22.18, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 22.474, kind = "signal", signal = "stop", dir = -1 },
+  { km = 22.527, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.528, kind = "signal", signal = "speed_limit,stop", dir = 1 },
+  { km = 22.532, kind = "signal", signal = "speed_limit,stop", dir = -1 },
+  { km = 22.532, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.534, kind = "stop", label = "Schnitzmühle", pos = [49.06942, 12.9149], uic = "8070670" },
+  { km = 22.551, kind = "signal", signal = "stop", dir = 1 },
+  { km = 22.892, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 23.795, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 24.195, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.204, kind = "signal", signal = "main", dir = 1 },
+  { km = 24.206, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 24.207, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 24.303, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 24.605, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.607, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.66, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.746, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.746, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 24.749, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 24.76, kind = "signal", signal = "stop", dir = -1 },
+  { km = 24.788, kind = "signal", signal = "stop", dir = 1 },
+  { km = 24.8, kind = "station", label = "Viechtach", pos = [49.07829, 12.89025] },
+  { km = 24.836, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.48, kmTo = 0.5, length = 20 },
+  { kind = "bridge", kmFrom = 5.219, kmTo = 5.245, length = 26 },
+  { kind = "tunnel", kmFrom = 12.001, kmTo = 12.057, length = 56 },
+  { kind = "bridge", kmFrom = 22.653, kmTo = 22.693, length = 40 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "iwpjHuktmA`F{I" },
+  { line = "gppjHqvtmAlDyG", v = 30 },
+  { line = "yjpjHk_umAnBeFfB_NbCsE", v = 40 },
+  { line = "}_pjHe|umAtBkEjGuWxBcFhGgJ|Smg@RiDa@uDwBaG{BaC", v = 50 },
+  { line = "{znjHemymAGG", v = 20 },
+  { line = "c{njHmmymAgI}Gu@cDAoEnAeEdIsJzDsMPsHu@aJAiFnAwLhCwMjBaVxCoF|KsNnA{GWiDiEoT}N_SsBmF{Cs`@[gVcIc\\{@sa@Fmd@zAuLh@}RcAyN@yGt@eLxEaWTeFy@uE_CgFuJuFuBmCgAqH?mIn@yClD_HdKgMxDaB`McA`HoE`BiFt@_NzA{ChBaAhJm@l`@eUrRwA`C?rAl@xBxEh@~JlAhFlHtL", v = 50 },
+  { line = "o|jjHeqknARvC", tunnel = true, v = 20 },
+  { line = "{{jjHmlknAInFf@vI@|H~BvOn@vK", v = 50 },
+  { line = "kujjHwrinAdAtE", v = 20 },
+  { line = "esjjHalinAvDhF", v = 50 },
+  { line = "mmjjHwdinAtEbE", v = 30 },
+  { line = "wfjjHs~hnAbHzI|MR", v = 50 },
+  { line = "unijHcshnAlFG|EwF", v = 20 },
+  { line = "i`ijHc{hnApCoD" },
+  { line = "w{hjHs`inAfCsCrA]rJfC", v = 40 },
+  { line = "gihjH}ainAbDpB", v = 20 },
+  { line = "cdhjHk~hnApTlN~d@xEjF}@b`@oYvCV`LjJnQQ", v = 50 },
+  { line = "w{cjH_yhnAN?", v = 20 },
+  { line = "g{cjH_yhnAbE?dBh@xC~AdEpEfBf@fIaC|EM`JsEjCCdCxBtC~H~FrJbCx@vFq@", v = 50 },
+  { line = "ifajHm~gnAlD`@", v = 20 },
+  { line = "{`ajHk}gnAhFp@|Gi@jJ`CjJ_B|BqAhGoHlMoGnNsNxHiCdBKtDlAvIbI", v = 50 },
+  { line = "gr}iHkxhnAPP", v = 10 },
+  { line = "uq}iHywhnAxCfD~DjK~E|IhFzCxE`IvIdDxEnOlC`C~BCdFoCdLuD~IJjCe@bCeBnFkI`CwAdDI`GfB", v = 50 },
+  { line = "awyiHakgnApBvA" },
+  { line = "osyiHihgnArZtX", v = 40 },
+]
+posts = [[24, 49.07439, 12.89904], [23, 49.06885, 12.90975], [22, 49.07041, 12.9198], [21, 49.06771, 12.93174], [20, 49.06421, 12.94344], [19, 49.06866, 12.95456], [18, 49.07067, 12.96753], [17, 49.07014, 12.981], [16, 49.06981, 12.99377], [15, 49.07002, 13.00316], [14, 49.06353, 13.00999], [13, 49.05517, 13.01404], [12, 49.0491, 13.00693], [11, 49.04605, 12.99479], [10, 49.0381, 12.99558], [9, 49.02967, 12.99159], [8, 49.02113, 12.99384], [7, 49.01268, 12.99361], [6, 49.00425, 12.99349], [5, 48.99653, 12.98914], [4, 48.98818, 12.99226], [3, 48.98026, 12.99274], [2, 48.97353, 12.9844], [1, 48.96546, 12.98443], [0, 48.95766, 12.98291]]
+
+[[connections]]
+km = 0.123
+station = "Gotteszell"
+lines = [
+  { id = "5634", ref = "5634", name = "5634 Landshut (Bay) Hbf - Bayerisch Eisenstein Grenze", km = 96.02 },
+]

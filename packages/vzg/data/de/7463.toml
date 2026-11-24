@@ -1,0 +1,38 @@
+id = "7463"
+ref = "7463"
+name = "7463 Paderborn Hbf - Paderborn Gbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Paderborn Hbf"
+to = "Paderborn Gbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.442
+length = 1.442
+speeds = [[0, 1.442, "", ""]]
+curves = [[0.175, 0.25, 1130], [0.475, 1.325, 1040]]
+points = [
+  { km = 0, kind = "station", label = "Paderborn Hauptbahnhof", uic = "8000297", pos = [51.71286, 8.74044] },
+  { km = 0.076, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.236, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 0.976, kind = "signal", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 1.268, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.27, kind = "signal", signal = "electricity", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}`szHqvit@`Jtm@pAdRCnNo@xQ}@zI_CxL" },
+]
+posts = [[0, 51.71231, 8.73849], [1, 51.71019, 8.7246]]
+
+[[connections]]
+km = 0
+station = "Paderborn Hauptbahnhof"
+lines = [
+  { id = "1760", ref = "1760", name = "1760 Hannover - Soest", km = 128.245 },
+  { id = "2960", ref = "2960", name = "2960 Paderborn Hbf - Brackwede", km = -0.046 },
+]

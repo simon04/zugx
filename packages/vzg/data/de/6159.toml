@@ -1,0 +1,43 @@
+id = "6159"
+ref = "6159"
+name = "6159 Frankfurt (O) Streckenwechsel 6253/6159 - Frankfurt (Oder) Pbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Frankfurt (O) Streckenwechsel 6253/6159"
+to = "Frankfurt (Oder) Pbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 151.164
+kmTo = 152.207
+length = 0.998
+speeds = [[151.164, 152.207, 40, 40]]
+curves = [[151.264, 151.633, 450], [151.908, 152.083, 1330]]
+points = [
+  { km = 151.164, kind = "halt", label = "Frankfurt (Oder)-Neuberesinchen", uic = "8063161", pos = [52.32244, 14.54632] },
+  { km = 151.209, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 151.262, kind = "signal", signal = "crossing_distant" },
+  { km = 151.67, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 151.969, kind = "signal", signal = "crossing_distant" },
+  { km = 151.994, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 152.015, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 152.099, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 152.155, kind = "signal", signal = "shunting", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 151.87, kmTo = 151.898, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}ij~H{ixwAeFwIoF{C_XuAcLp@", v = 40 },
+]
+posts = [[152, 52.32963, 14.55059]]
+
+[[connections]]
+km = 151.164
+station = "Frankfurt-Neuberesinchen"
+lines = [
+  { id = "6253", ref = "6253", name = "6253 Großenhain - Frankfurt (Oder)", km = 78.546 },
+]

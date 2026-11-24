@@ -1,0 +1,43 @@
+id = "9172"
+ref = "9172"
+name = "9172 Beckedorf - Munster (Örtze) Süd"
+operator = "Osthannoversche Eisenbahnen AG"
+gauge = "1435"
+wikidata = "Q801918"
+from = "Beckedorf"
+to = "Munster (Örtze) Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 24.019
+length = 24.019
+speeds = [[0, 0.199, "", ""], [0.199, 23.366, 50, 50], [23.366, 24.019, "", ""]]
+curves = [[0.1, 0.175, 1230], [0.575, 1, 590], [1.2, 1.725, 1000], [3.25, 3.775, 690], [8.125, 8.225, 1870], [13, 13.325, 1050], [15.175, 15.475, 680], [17.825, 18.175, 530], [19.125, 19.475, 570], [19.7, 19.775, 2580], [19.825, 20.15, 770], [20.55, 20.825, 780], [22.15, 23.2, 1020], [23.25, 23.3, 1710], [23.35, 23.425, 1750]]
+points = [
+  { km = 0.267, kind = "signal", signal = "stop", dir = -1 },
+  { km = 2.331, kind = "station", label = "Kohlenbissen", pos = [52.98096, 10.13351] },
+  { km = 12.021, kind = "station", label = "Poitzen", pos = [52.89668, 10.1341] },
+  { km = 20.573, kind = "station", label = "Hermannsburg", pos = [52.83121, 10.08346] },
+  { km = 23.473, kind = "station", label = "Beckedorf", pos = [52.81439, 10.05504] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 13.476, kmTo = 13.488, length = 12 },
+  { kind = "bridge", kmFrom = 15.499, kmTo = 15.527, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "c}lbI}pt|@fCcP" },
+  { line = "{xlbIabu|@|Fwg@vF_PxF_d@nGiUtfAmiBvGqG|J_DzzFnUzlGd{@xErAxGvDv|AnjApErEzEdKhsAbiDfGxIfQhHbm@fRxGa@nVkLbFoAvFTf[xG`GbD~bAxaAbG|HjChFxCnIbCdKlCvV^b^", v = 50 },
+  { line = "shjaI}dk|@O~r@ZpG" },
+]
+posts = [[0, 52.9917, 10.10463], [1, 52.98815, 10.11819], [2, 52.9832, 10.13025], [3, 52.97647, 10.14015], [4, 52.96845, 10.14511], [5, 52.95947, 10.1443], [6, 52.95049, 10.14349], [7, 52.94151, 10.14268], [8, 52.93253, 10.14188], [9, 52.9236, 10.1401], [10, 52.91469, 10.13813], [11, 52.90578, 10.1361], [12, 52.89687, 10.13414], [13, 52.88795, 10.13215], [14, 52.87971, 10.12636], [15, 52.87162, 10.11985], [16, 52.86514, 10.10987], [17, 52.85944, 10.09835], [18, 52.85358, 10.08709], [19, 52.84498, 10.08291], [20, 52.83629, 10.08483], [21, 52.82777, 10.08075], [22, 52.82003, 10.07317], [23, 52.81455, 10.06206], [24, 52.81433, 10.04722]]
+
+[[connections]]
+km = 23.473
+station = "Beckedorf"
+lines = [
+  { id = "9170", ref = "9170", name = "9170 Celle Nord - Soltau (Han) Süd", km = 26.761 },
+]

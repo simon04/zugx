@@ -1,0 +1,28 @@
+id = "6267"
+ref = "6267"
+name = "6267 Abzw Werdau Bogendreieck Zwickauer Spitze - Abzw Werdau Bogendreieck Werdauer Spitze"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q121365871"
+from = "Werdau Bogendreieck Zwickauer Spitze"
+to = "Werdau Bogendreieck Werdauer Spitze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.647
+length = 0.647
+speeds = [[0, 0.61, 80, 80], [0.61, 0.647, "", ""]]
+curves = [[0.275, 0.525, 780]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.624, kmTo = 0.647, length = 23, name = "Römertal-Viadukt" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wbptH}epjA~LyUjBoFnB}J", v = 80 },
+  { line = "{motHepqjAVcB" },
+]
+posts = [[0, 50.7142, 12.37615]]

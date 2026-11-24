@@ -1,0 +1,130 @@
+id = "3571"
+ref = "3571"
+name = "3571 Hofheim (Ried) - Bensheim"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hofheim (Ried)"
+to = "Bensheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 5.917
+kmTo = 24.152
+length = 18.099
+speeds = [[5.917, 6.02, 60, 60], [6.02, 6.437, 80, 60], [6.437, 22.68, 80, 80], [22.68, 23.516, 60, 60], [23.516, 23.545, 80, 80], [23.545, 24.152, 60, 60]]
+curves = [[6.05, 7.068, 600], [8.743, 9.566, 1010], [10.969, 11.191, 1110], [15.473, 15.69, 1470], [20.894, 21.546, 540], [21.589, 22.852, 500], [23.302, 23.477, 1290], [23.602, 23.652, 2200], [23.702, 23.752, 2580], [23.852, 23.952, 1140]]
+points = [
+  { km = 5.963, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 6.02, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.151, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.378, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 6.437, kind = "signal", label = "28 G", signal = "combined,speed_limit", dir = -1 },
+  { km = 6.751, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.112, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 7.197, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.243, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.263, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.34, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.43, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 7.702, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 7.906, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.117, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 8.307, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 8.389, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.445, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.505, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.608, kind = "signal", label = "Va", signal = "distant", dir = 1 },
+  { km = 9.223, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.329, kind = "signal", label = "Vn", signal = "distant", dir = 1 },
+  { km = 9.332, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 9.412, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 9.57, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 9.717, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 9.935, kind = "signal", label = "P2", signal = "main", dir = -1 },
+  { km = 10.055, kind = "station", label = "Bürstadt", pos = [49.64488, 8.45932], uic = "8000360" },
+  { km = 10.173, kind = "signal", label = "N2", signal = "main", dir = 1 },
+  { km = 10.188, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 10.615, kind = "signal", label = "N2", signal = "main", dir = 1 },
+  { km = 10.728, kind = "signal", label = "Vp", signal = "distant", dir = -1 },
+  { km = 10.83, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 11.106, kind = "signal", label = "F", signal = "main", dir = -1 },
+  { km = 11.112, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.8, kind = "signal", label = "Vf", signal = "distant", dir = -1 },
+  { km = 11.904, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.975, kind = "signal", signal = "distant", dir = -1 },
+  { km = 12.052, kind = "signal", signal = "distant", dir = -1 },
+  { km = 12.071, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 12.203, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 12.231, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 12.911, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.976, kind = "stop", label = "Riedrode", pos = [49.64757, 8.49681], uic = "8005089" },
+  { km = 13.633, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 13.778, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 13.794, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 15.063, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 15.223, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 16.389, kind = "signal", label = "Va", signal = "distant", dir = 1 },
+  { km = 16.638, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 17.089, kind = "signal", signal = "distant", dir = 1 },
+  { km = 17.091, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 17.098, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 17.385, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 17.976, kind = "signal", label = "P2", signal = "main", dir = -1 },
+  { km = 18.172, kind = "station", label = "Lorsch", pos = [49.65905, 8.56605], uic = "8003755" },
+  { km = 18.279, kind = "signal", signal = "main", dir = 1 },
+  { km = 18.533, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 18.962, kind = "signal", label = "F", signal = "main", dir = -1 },
+  { km = 18.967, kind = "signal", signal = "distant", dir = -1 },
+  { km = 19.018, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 19.178, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 19.674, kind = "signal", label = "Vf", signal = "distant", dir = -1 },
+  { km = 19.801, kind = "signal", signal = "distant", dir = -1 },
+  { km = 19.861, kind = "signal", signal = "distant", dir = -1 },
+  { km = 19.921, kind = "signal", signal = "distant", dir = -1 },
+  { km = 20.583, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 20.745, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 21.906, kind = "signal", label = "44Vh", signal = "distant", dir = 1 },
+  { km = 22.629, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.634, kind = "signal", label = "44H", signal = "combined", dir = 1 },
+  { km = 22.701, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.897, kind = "signal", label = "44N17", signal = "combined,speed_limit,train_protection", dir = -1 },
+  { km = 23.487, kind = "signal", label = "44ZU17", signal = "combined,speed_limit", dir = 1 },
+  { km = 23.489, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 23.698, kind = "signal", label = "44 ZR4", signal = "catenary_mast,combined,speed_limit,train_protection,traversable", dir = -1 },
+  { km = 23.843, kind = "station", label = "Bensheim", pos = [49.68079, 8.61681], uic = "8000031" },
+  { km = 23.849, kind = "signal", signal = "distant", dir = 1 },
+  { km = 23.897, kind = "signal", signal = "stop", dir = 1 },
+  { km = 23.936, kind = "signal", label = "44 P4", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 18.852, kmTo = 18.87, length = 18 },
+  { kind = "bridge", kmFrom = 22.666, kmTo = 22.68, length = 13 },
+  { kind = "bridge", kmFrom = 23.516, kmTo = 23.545, length = 29 },
+  { kind = "bridge", kmFrom = 23.793, kmTo = 23.807, length = 14 },
+  { kind = "bridge", kmFrom = 24.015, kmTo = 24.03, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kyfnH}{qs@hMKpRaC", v = 60 },
+  { line = "owenHk`rs@r@K", v = 80 },
+  { line = "{uenHw`rs@rGkA|\\}MtEy@", v = 60 },
+  { line = "shdnH{srs@hHb@vG~D|EbIxBvIv@pKSpJyArJaH`Wo@tKPzIlhBbqLt@tJbb@~uJK`SwEjrB_AdN_BfKyD|MwGjMmkA`|AaEfHoDzNu@|Oz@jOjDrN", v = 80 },
+  { line = "kvbnHkhjr@tBjE", v = 60 },
+]
+posts = [[24, 49.68222, 8.61651], [23, 49.67344, 8.61916], [22, 49.66597, 8.61546], [21, 49.66792, 8.60248], [20, 49.66471, 8.58912], [19, 49.66166, 8.57661], [18, 49.65849, 8.56363], [17, 49.65531, 8.55065], [16, 49.65216, 8.5377], [15, 49.65013, 8.52428], [14, 49.64884, 8.51056], [13, 49.64755, 8.49685], [12, 49.64626, 8.48316], [11, 49.64515, 8.46933], [10, 49.64594, 8.45565], [9, 49.64814, 8.44246], [8, 49.65573, 8.43273], [7, 49.66206, 8.42497], [6, 49.66254, 8.41348]]
+
+[[connections]]
+km = 10.055
+station = "Bürstadt"
+lines = [
+  { id = "4010", ref = "4010", name = "4010 Mannheim Hbf - Frankfurt am Main Stadion", km = 22.773 },
+]
+
+[[connections]]
+km = 23.843
+station = "Bensheim"
+lines = [
+  { id = "3601", ref = "3601", name = "3601 Frankfurt (Main) Hbf - Abzw Heidelberg-Wieblingen", km = 49.514 },
+]

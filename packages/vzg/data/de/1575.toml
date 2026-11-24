@@ -1,0 +1,52 @@
+id = "1575"
+ref = "1575"
+name = "Ihrhove - Weener (DB-Grenze)"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q107639560"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.092
+kmTo = 17.463
+length = 17.537
+speeds = [[-0.092, 4.525, 80, 80], [4.525, 5.657, 70, 70], [5.657, 5.99, "", ""], [5.99, 8.729, 70, 70], [8.729, 15.083, 80, 80], [15.083, 15.24, 50, 50], [15.24, 17.185, 80, 80], [17.185, 17.463, 100, 100]]
+curves = [[0.144, 0.194, 2400], [0.819, 2.069, 800], [4.944, 5.444, 900], [6.463, 6.885, 1070], [7.058, 7.232, 1650], [13.465, 13.586, 1290], [14.764, 15.281, 730], [17.212, 17.363, 840]]
+points = [
+  { km = 1.372, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.992, kind = "signal", signal = "minor", dir = -1 },
+  { km = 7.388, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.425, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.734, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.778, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.94, kind = "stop", label = "Weener", pos = [53.16341, 7.34289], uic = "8006237" },
+  { km = 8.729, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.73, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 13.187, kind = "signal", label = "?", signal = "main", dir = 1 },
+  { km = 13.552, kind = "stop", label = "Bunde (Ostfriesl)", pos = [53.18242, 7.26498] },
+  { km = 16.671, kind = "signal", label = "132", signal = "main", measured = true },
+  { km = 17.129, kind = "signal", signal = "speed_limit_distant", dir = 1, measured = true },
+  { km = 17.226, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.857, kmTo = 3.88, length = 23 },
+  { kind = "bridge", kmFrom = 5.235, kmTo = 5.245, length = 11 },
+  { kind = "bridge", kmFrom = 5.657, kmTo = 5.99, length = 336, name = "Friesenbrücke" },
+  { kind = "bridge", kmFrom = 7.019, kmTo = 7.04, length = 21 },
+  { kind = "bridge", kmFrom = 11.657, kmTo = 11.687, length = 30 },
+  { kind = "bridge", kmFrom = 17.408, kmTo = 17.424, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "aescIqg_k@oAiL_@oK", v = 100 },
+  { line = "qhscIka`k@wHosD", v = 80 },
+  { line = "irscI{uek@NuM", v = 50 },
+  { line = "yqscIqdfk@z@qJtBqKn`@kpAnFgTfs@gbEvo@_wE", v = 80 },
+  { line = "g~ncIq~vk@x\\{bCrCy]f@}LAoN}D_u@", v = 70 },
+  { line = "q`ncIut~k@gCu]" },
+  { line = "ydncIks_l@sBwZIuO~@wOtGmh@", v = 70 },
+  { line = "a~mcI_zbl@rm@{{Ex@uOM{NkA_NkBuJ{DgLqEuHsFeFyq@ea@", v = 80 },
+]
+posts = [[17, 53.18824, 7.21711], [16, 53.18904, 7.23201], [15, 53.1894, 7.24688], [14, 53.18455, 7.25957], [13, 53.18033, 7.2728], [12, 53.17667, 7.28638], [11, 53.17313, 7.29997], [10, 53.16997, 7.31396], [9, 53.16681, 7.32799], [8, 53.16359, 7.34192], [7, 53.16067, 7.3561], [6, 53.16119, 7.37101], [5, 53.16222, 7.38575], [4, 53.15924, 7.39991], [3, 53.15625, 7.41405], [2, 53.15329, 7.42821], [1, 53.15633, 7.4413], [0, 53.16463, 7.44704]]

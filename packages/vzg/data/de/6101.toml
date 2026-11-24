@@ -1,0 +1,35 @@
+id = "6101"
+ref = "6101"
+name = "6101 Brieselang - Abzw Brieselang Hasselberg"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131703757"
+from = "Brieselang"
+to = "Brieselang Hasselberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.015
+kmTo = 1.774
+length = 1.77
+speeds = [[-0.015, 1.774, 90, 90]]
+curves = [[0.085, 0.96, 430]]
+points = [
+  { km = 0.09, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.097, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.119, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.201, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.223, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 0.325, kind = "signal", label = "73A", signal = "combined,speed_limit", dir = -1 },
+  { km = 0.497, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.025, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.46, kind = "signal", label = "94 05", signal = "main,traversable,wrong_road", dir = 1 },
+  { km = 1.637, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gt|_IkwknAbDqNpBeE~BiCjHkChHbAvGrGl`@jz@", v = 90 },
+]
+posts = [[0, 52.58062, 13.00891], [1, 52.57352, 13.01055]]

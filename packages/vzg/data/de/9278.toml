@@ -1,0 +1,40 @@
+id = "9278"
+ref = "9278"
+name = "Bahnstrecke Scheuerfeld - Oberdreisbach"
+operator = "Westerwaldbahn (Kreis Altenkirchen)"
+gauge = "1435"
+wikidata = "Q2565070"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 11.872
+length = 11.872
+speeds = [[0, 11.872, "", ""]]
+curves = [[0.225, 0.6, 790], [0.775, 1.175, 330], [1.35, 1.65, 400], [1.85, 2, 1280], [2.4, 2.625, 560], [2.75, 3.4, 200], [3.6, 3.85, 500], [4.325, 4.45, 1490], [4.65, 4.8, 880], [4.85, 5.025, 850], [5.675, 5.95, 290], [6, 6.25, 320], [6.425, 6.6, 1040], [6.925, 7.25, 300], [7.3, 7.85, 340], [7.9, 8.275, 360], [8.375, 8.8, 580], [8.95, 9.225, 420], [9.375, 9.95, 430], [10.2, 10.65, 220], [10.7, 11.275, 250], [11.4, 11.725, 730]]
+points = [
+  { km = 4.581, kind = "halt", label = "Gebhardshain-Steinebach", pos = [50.73979, 7.8261] },
+  { km = 11.148, kind = "station", label = "Scheuerfeld (Sieg)", uic = "8005338", pos = [50.7918, 7.83631] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.882, kmTo = 3.894, length = 11 },
+  { kind = "bridge", kmFrom = 7.87, kmTo = 7.888, length = 17 },
+  { kind = "bridge", kmFrom = 9.115, kmTo = 9.131, length = 16 },
+  { kind = "tunnel", kmFrom = 9.202, kmTo = 9.483, length = 281, name = "Scheuerfelder Tunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_ortHkc~n@uBhWSrLn@dGdGnXVnJu@xHkJ|UaArGb@|b@eAzo@TxDxDzTNhDaAzHoDjEyCXkCmAcMuTuDqDs`@wKaQwHuKiBki@_[iETwGbGyBp@}SeEq[BsBw@uByBwDoLmBuCiDiBkFaAoDxAaHdK}ChB{D?cLmEiCQgCt@{GbFmMfF{CG_C}A" },
+  { line = "er|tHctxn@uLmK", tunnel = true },
+  { line = "{_}tHq`yn@}@gC{AcMgBmFsT{WgDy@_D~@cCxDyB`MuAjDsDdCmETcB{@_B_CeG_TaDcHsKwL" },
+]
+posts = [[0, 50.7264, 7.8599], [1, 50.72543, 7.8464], [2, 50.72769, 7.83338], [3, 50.72719, 7.81962], [4, 50.73475, 7.82393], [5, 50.74343, 7.82751], [6, 50.75172, 7.83082], [7, 50.76054, 7.83104], [8, 50.76786, 7.83323], [9, 50.77638, 7.83148], [10, 50.78291, 7.83965], [11, 50.78983, 7.83705]]
+
+[[connections]]
+km = 11.148
+station = "Scheuerfeld"
+lines = [
+  { id = "2651", ref = "2651", name = "2651 Köln Messe/Deutz - Gießen", km = 79.667 },
+]

@@ -1,0 +1,45 @@
+id = "4210"
+ref = "4210"
+name = "Güterumgehungsbahn Karlsruhe"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q1562232"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.917
+length = 3.9
+speeds = [[0, 3.917, 80, 80]]
+curves = [[1.012, 1.061, 2770], [1.207, 1.747, 610], [2.3, 2.405, 2090], [2.589, 2.675, 2110], [2.856, 2.95, 1520], [2.997, 3.111, 1180], [3.767, 3.816, 1810]]
+points = [
+  { km = 0.182, kind = "signal", label = "41 ZV106", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 0.321, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.41, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.811, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.868, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.952, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.076, kind = "signal", label = "41 P306", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 1.558, kind = "signal", label = "41AA", signal = "main,speed_limit", dir = -1 },
+  { km = 1.778, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.818, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.947, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.475, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.612, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.649, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 2.654, kind = "signal", signal = "distant_distant", dir = -1 },
+  { km = 2.683, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.386, kind = "signal", label = "42 G", signal = "distant,main", dir = 1 },
+  { km = 3.449, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.554, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 3.637, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 3.845, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.867, kind = "signal", signal = "catenary_mast,train_protection", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "at`jHumlr@aYgeBqC{IyEoHeYyQuQiIw`@aKkl@_J", v = 80 },
+]
+posts = [[0, 48.99665, 8.42475], [1, 48.99994, 8.43732], [2, 49.00599, 8.44682], [3, 49.01452, 8.4507]]

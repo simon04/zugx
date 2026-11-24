@@ -1,0 +1,41 @@
+id = "6501"
+ref = "6501"
+name = "6501 Berlin-Wilhelmsruh–Abzw Schönwalde"
+operator = "Niederbarnimer Eisenbahn"
+gauge = "1435"
+wikidata = "Q108523888"
+from = "Berlin-Wilhelmsruh"
+to = "Abzw Schönwalde"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 12.639
+length = 12.639
+speeds = [[0, 12.639, 50, 50]]
+curves = [[0.1, 0.525, 610], [0.625, 0.7, 1870], [0.75, 0.825, 1630], [0.925, 1, 2480], [1.225, 1.3, 2110], [3.4, 3.775, 570], [5.625, 5.85, 1270], [7.075, 7.575, 600], [7.875, 8.25, 710], [8.4, 8.625, 1190], [9.35, 9.725, 580], [10.875, 10.95, 2310], [11, 11.075, 2120], [11.375, 11.6, 1110]]
+points = [
+  { km = 0.409, kind = "halt", label = "Schönwalde", uic = "8003609", pos = [52.68027, 13.43247] },
+  { km = 7.056, kind = "halt", label = "Schildow", pos = [52.63716, 13.37271] },
+  { km = 11.908, kind = "stop", label = "Berlin-Wilhelmsruher Damm", pos = [52.5966, 13.36722] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.285, kmTo = 5.296, length = 10 },
+  { kind = "bridge", kmFrom = 7.71, kmTo = 7.731, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "k~p`I_r~pApI~BlGhG~Sjg@vIpYhz@xjDjCxHbGnH~x@pk@", v = 50 },
+  { line = "yik`IawtpA\\V", tunnel = true, v = 50 },
+  { line = "{hk`IivtpAzk@p`@rfAjYtFp@`Fa@dFyBtT_UlGwDnY_C~m@_SlINp_Bb`Aft@r~@", v = 50 },
+]
+posts = [[0, 52.6847, 13.4328], [1, 52.67801, 13.42368], [2, 52.67339, 13.41096], [3, 52.66896, 13.39806], [4, 52.6629, 13.38785], [5, 52.65475, 13.38159], [6, 52.64642, 13.37613], [7, 52.63764, 13.37293], [8, 52.62942, 13.37726], [9, 52.62063, 13.37995], [10, 52.61201, 13.37932], [11, 52.6037, 13.37369], [12, 52.59593, 13.36642]]
+
+[[connections]]
+km = 0.409
+station = "Schönwalde"
+lines = [
+  { id = "6500", ref = "6500", name = "6500 Berlin-Karow – Fichtengrund", km = 54.293 },
+]

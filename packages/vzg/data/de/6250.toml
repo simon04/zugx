@@ -1,0 +1,48 @@
+id = "6250"
+ref = "6250"
+name = "6250 Großenhain Berl Bf - Großenhain Cottb Bf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131694007"
+from = "Großenhain Berl Bf"
+to = "Großenhain Cottb Bf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.015
+kmTo = 1.673
+length = 1.688
+speeds = [[-0.015, 1.673, 40, 40]]
+curves = [[0.098, 0.479, 560], [0.528, 1.548, 750]]
+points = [
+  { km = 0.051, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 0.202, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.31, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 0.399, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.454, kind = "signal", label = "668", signal = "main,traversable", dir = -1 },
+  { km = 0.621, kind = "signal", label = "B", signal = "combined,traversable", dir = 1 },
+  { km = 0.75, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.751, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.77, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.771, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.785, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.033, kind = "signal", label = "C3", signal = "combined,minor,traversable", dir = -1 },
+  { km = 1.109, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.22, kind = "station", label = "Großenhain Cottbuser Bahnhof", pos = [51.29168, 13.52394], uic = "8006251" },
+  { km = 1.431, kind = "signal", label = "H3", signal = "main,minor,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_f`xHkvoqAeH_K{EqDoG}BmLwA_Fn@mFnByBtBkEvHuDnD{PrB", v = 40 },
+]
+posts = [[1, 51.29358, 13.52433], [0, 51.30181, 13.52003]]
+
+[[connections]]
+km = 1.22
+station = "Großenhain Cottbuser Bahnhof"
+lines = [
+  { id = "6198", ref = "6198", name = "6198 Brieske - Hosena Streckenwechsel 6198/6194", km = 35.909 },
+  { id = "6253", ref = "6253", name = "6253 Großenhain - Frankfurt (Oder)", km = 262.064 },
+]

@@ -1,0 +1,33 @@
+id = "6415"
+ref = "6415"
+name = "6415 Abzw Roßlau – Roßlau Gbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131635090"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 16.301
+kmTo = 17.786
+length = 1.438
+speeds = [[16.301, 16.403, 80, 80], [16.403, 16.507, 160, 160], [16.507, 16.647, 40, 40], [16.647, 17.786, 80, 80]]
+curves = [[16.414, 16.564, 30], [16.637, 16.709, 2260], [16.887, 17.58, 410]]
+points = [
+  { km = 16.716, kind = "signal", label = "25L24Y", signal = "minor,traversable", dir = -1 },
+  { km = 16.8, kind = "signal", label = "25ZW24", signal = "combined,minor,speed_limit,traversable", dir = -1, measured = true },
+  { km = 17.053, kind = "signal", label = "25Vzw24", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 17.266, kind = "signal", label = "25VW2zv24", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 17.365, kind = "signal", label = "25VW1zv24", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 17.5, kind = "signal", label = "25ZV24", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1, measured = true },
+  { km = 17.613, kind = "signal", label = "25L24X", signal = "minor,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uwv{H{_viA~LvNpBdGbA`IF~Hg@jH{GpZ", v = 80 },
+  { line = "{mv{H}nsiAoBvJ", v = 40 },
+  { line = "kqv{HecsiAxAgG", v = 160 },
+  { line = "qnv{HmksiAqAhG", v = 80 },
+]
+posts = [[17, 51.89216, 12.23352]]

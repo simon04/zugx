@@ -1,0 +1,121 @@
+id = "1253"
+ref = "1253"
+name = "1253 Hamburg Süderelbbrücke - Hamburg-Waltershof"
+operator = "DB InfraGO; Hamburger Hafenbahn"
+gauge = "1435"
+wikidata = "Q23046002"
+from = "Hamburg Süderelbbrücke"
+to = "Hamburg-Waltershof"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.521
+kmTo = 15.959
+length = 15.375
+speeds = [[0.521, 1.445, "", ""], [1.445, 2.471, 40, 40], [2.471, 4.199, 30, 30], [4.199, 5.721, 40, 40], [5.721, 5.924, "", ""], [5.924, 8.691, 40, 40], [8.691, 15.959, "", ""]]
+curves = [[0.621, 1.109, 210], [1.914, 2.669, 460], [3.162, 3.256, 930], [3.304, 3.908, 360], [4.007, 4.134, 1620], [4.48, 4.712, 600], [4.763, 5.197, 340], [5.457, 5.847, 630], [6.261, 6.41, 1430], [7.485, 7.91, 610], [7.96, 8.552, 500], [8.672, 9.16, 430], [9.622, 10.381, 510], [10.905, 11.149, 2260], [12.61, 12.742, 2690], [13.296, 13.56, 1270], [13.983, 14.309, 810], [14.459, 15.009, 410], [15.259, 15.859, 310]]
+points = [
+  { km = 0.878, kind = "signal", label = "A 907", signal = "main,traversable", dir = 1, measured = true },
+  { km = 0.892, kind = "signal", label = "42C", signal = "main", dir = -1 },
+  { km = 0.952, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.001, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.26, kind = "signal", label = "P 105", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 1.399, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.663, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.749, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.8, kind = "signal", label = "R105", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 1.973, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.059, kind = "signal", label = "Ls 115 I", signal = "minor", dir = -1 },
+  { km = 2.146, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.153, kind = "signal", label = "115 II", signal = "minor", dir = 1 },
+  { km = 2.339, kind = "signal", label = "125 I", signal = "minor", dir = -1 },
+  { km = 2.386, kind = "signal", label = "125 II", signal = "minor", dir = 1 },
+  { km = 2.471, kind = "signal", label = "S005", signal = "main,minor,traversable", dir = -1 },
+  { km = 2.796, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.974, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.017, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 3.193, kind = "signal", label = "R005", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 3.485, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.555, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.728, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.807, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 3.961, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 4.199, kind = "signal", label = "S 215", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 4.585, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.645, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.986, kind = "signal", label = "R 215", signal = "main,minor", dir = 1 },
+  { km = 5.025, kind = "signal", label = "235 1", signal = "electricity", dir = 1 },
+  { km = 5.105, kind = "signal", label = "225 I", signal = "minor", dir = 1 },
+  { km = 5.444, kind = "signal", label = "245 II", signal = "minor", dir = -1 },
+  { km = 5.505, kind = "signal", label = "235 2", signal = "electricity", dir = -1 },
+  { km = 5.763, kind = "signal", label = "S 216", signal = "main,minor", dir = -1 },
+  { km = 6.202, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.607, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 6.624, kind = "signal", label = "S 236", signal = "main", dir = 1 },
+  { km = 7.086, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.147, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.945, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 8.136, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 8.258, kind = "signal", label = "n 207", signal = "distant", dir = 1 },
+  { km = 8.691, kind = "signal", label = "N 207", signal = "main", dir = 1 },
+  { km = 8.996, kind = "signal", label = "P 804", signal = "main,minor", dir = -1 },
+  { km = 9.088, kind = "signal", label = "r 804", signal = "distant", dir = 1 },
+  { km = 9.366, kind = "signal", label = "p804", signal = "distant", dir = -1 },
+  { km = 9.495, kind = "signal", label = "R804", signal = "main,minor", dir = 1 },
+  { km = 9.659, kind = "signal", label = "821 I", signal = "minor", dir = -1 },
+  { km = 10.399, kind = "signal", label = "821 II", signal = "minor", dir = 1 },
+  { km = 10.526, kind = "signal", label = "S 823", signal = "main,minor", dir = -1 },
+  { km = 10.907, kind = "signal", label = "s 823", signal = "distant", dir = -1 },
+  { km = 10.908, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.602, kind = "signal", label = "r 825", signal = "distant", dir = 1 },
+  { km = 11.966, kind = "signal", label = "R 825", signal = "main,minor", dir = 1 },
+  { km = 12.147, kind = "signal", label = "S 503", signal = "main,minor", dir = -1 },
+  { km = 12.229, kind = "signal", label = "r 503", signal = "distant", dir = 1 },
+  { km = 12.688, kind = "signal", label = "s 503", signal = "distant", dir = -1 },
+  { km = 12.69, kind = "signal", signal = "distant", dir = -1 },
+  { km = 12.791, kind = "signal", label = "R 503", signal = "main,minor", dir = 1 },
+  { km = 13.227, kind = "signal", label = "S 505", signal = "main,minor", dir = -1 },
+  { km = 13.608, kind = "signal", label = "r505", signal = "distant", dir = 1 },
+  { km = 13.65, kind = "signal", label = "s 505", signal = "distant", dir = -1 },
+  { km = 13.651, kind = "signal", signal = "distant", dir = -1 },
+  { km = 14.024, kind = "signal", label = "R505", signal = "main,minor", dir = 1 },
+  { km = 14.267, kind = "signal", label = "541 I", signal = "minor", dir = -1 },
+  { km = 14.302, kind = "signal", label = "541 II", signal = "minor", dir = 1 },
+  { km = 14.529, kind = "signal", label = "548 I", signal = "minor", dir = -1 },
+  { km = 14.634, kind = "signal", label = "548 II", signal = "minor", dir = -1 },
+  { km = 14.772, kind = "signal", label = "32 I", signal = "minor", dir = -1 },
+  { km = 14.838, kind = "signal", signal = "distant", dir = 1 },
+  { km = 14.914, kind = "signal", label = "S 032", signal = "main,minor,traversable", dir = -1 },
+  { km = 15.237, kind = "signal", label = "R32", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 15.256, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.445, kind = "signal", label = "30X", signal = "minor", dir = -1 },
+  { km = 15.509, kind = "signal", label = "30Y", signal = "minor", dir = 1 },
+  { km = 15.573, kind = "signal", label = "27X", signal = "minor", dir = -1 },
+  { km = 15.88, kind = "signal", label = "27Y", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.755, kmTo = 0.796, length = 42 },
+  { kind = "bridge", kmFrom = 0.94, kmTo = 0.98, length = 40 },
+  { kind = "bridge", kmFrom = 1.416, kmTo = 1.445, length = 29 },
+  { kind = "bridge", kmFrom = 2.001, kmTo = 2.057, length = 56 },
+  { kind = "bridge", kmFrom = 5.05, kmTo = 5.091, length = 40 },
+  { kind = "bridge", kmFrom = 5.128, kmTo = 5.429, length = 289, name = "Neue Bahnbrücke Kattwyk" },
+  { kind = "bridge", kmFrom = 7.55, kmTo = 7.56, length = 10 },
+  { kind = "bridge", kmFrom = 10.321, kmTo = 10.355, length = 33 },
+  { kind = "bridge", kmFrom = 11.199, kmTo = 11.216, length = 14 },
+  { kind = "bridge", kmFrom = 12.526, kmTo = 12.543, length = 16 },
+  { kind = "bridge", kmFrom = 13.109, kmTo = 13.131, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "keleIsj`|@uEkAgDRyBrBgBxFUzH|Cnd@" },
+  { line = "ctleIqq~{@~E`o@J`Gu@zKaArFkAnCoDbE", v = 40 },
+  { line = "kxleIiz{{@mFpCga@fDqHK}DvA{AlCs@dERzQaC``@", v = 30 },
+  { line = "oyneIqoy{@mD|_@gAjFuEpMu@jFMtFb@~HdGv\\lBnH~BjF", v = 40 },
+  { line = "gyneI_qu{@~GjI" },
+  { line = "gpneIsfu{@nTjU`q@feAvEdO|BpYdCfL~FdKnLhH", v = 40 },
+  { line = "idkeIo|o{@fEjDpAfCvAtFl@tGHhHmAjz@cAhHoDfH_GzCgIdAwj@cNupA}n@}e@aP_c@aBqJzBsM`A_CS{C_Bz@z@kC}BqBiE{Hee@sEkJuDaC}EC_EdCyBtE" },
+]
+posts = [[1, 53.48258, 9.99864], [2, 53.48062, 9.98399], [3, 53.48709, 9.97687], [4, 53.49246, 9.96905], [5, 53.49552, 9.9552], [6, 53.49085, 9.94368], [7, 53.48367, 9.93478], [8, 53.47835, 9.92327], [9, 53.4721, 9.91328], [10, 53.47425, 9.89843], [11, 53.48297, 9.89994], [12, 53.4917, 9.905], [13, 53.4998, 9.90936], [14, 53.50821, 9.91108], [15, 53.51556, 9.91346]]

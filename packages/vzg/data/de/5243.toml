@@ -1,0 +1,52 @@
+id = "5243"
+ref = "5243"
+name = "5243 Mellrichstadt - Fladungen"
+operator = "Zweckverband Fränkisches Freilandmuseum Fladungen"
+gauge = "1435"
+wikidata = "Q368379"
+from = "Mellrichstadt"
+to = "Fladungen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 18.591
+length = 18.591
+speeds = [[0, 18.591, "", ""]]
+curves = [[0.55, 1.55, 320], [1.6, 1.75, 720], [2.3, 2.625, 900], [2.775, 2.925, 650], [2.975, 3.325, 1080], [3.525, 3.75, 590], [3.925, 4.45, 780], [4.95, 5.225, 480], [5.325, 5.625, 700], [5.95, 6.65, 460], [6.8, 6.95, 690], [7.075, 7.175, 760], [7.225, 7.575, 570], [7.85, 8.1, 770], [8.425, 8.575, 890], [9.35, 9.525, 720], [9.8, 10.1, 430], [10.9, 11.35, 440], [11.55, 11.7, 1150], [11.75, 12.05, 730], [12.35, 12.4, 2400], [13.1, 13.325, 490], [13.9, 14.4, 530], [14.45, 14.975, 500], [15.275, 15.5, 770], [15.65, 15.85, 720], [16.225, 16.5, 740], [16.75, 17.05, 650], [17.65, 18.25, 2070]]
+points = [
+  { km = 0.128, kind = "station", label = "Mellrichstadt Bf", pos = [50.42447, 10.30668], uic = "8022433" },
+  { km = 5.346, kind = "halt", label = "Stockheim (Unterfr)", uic = "8005738", pos = [50.45989, 10.27149] },
+  { km = 8.128, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.325, kind = "station", label = "Ostheim v.d.Rhön", uic = "8004711", pos = [50.45592, 10.23214] },
+  { km = 12.983, kind = "halt", label = "Nordheim v d Rhön", pos = [50.47725, 10.18069] },
+  { km = 12.984, kind = "stop", label = "Nordheim v.d. Rhön", pos = [50.47724, 10.18064] },
+  { km = 18.23, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.23, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 18.432, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 18.473, kind = "station", label = "Fladungen", uic = "8002001", pos = [50.51948, 10.15069] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.561, kmTo = 0.588, length = 27 },
+  { kind = "bridge", kmFrom = 0.844, kmTo = 0.867, length = 23 },
+  { kind = "bridge", kmFrom = 4.898, kmTo = 4.912, length = 14 },
+  { kind = "bridge", kmFrom = 5.728, kmTo = 5.749, length = 20 },
+  { kind = "bridge", kmFrom = 5.834, kmTo = 5.89, length = 56 },
+  { kind = "bridge", kmFrom = 5.952, kmTo = 5.989, length = 37 },
+  { kind = "bridge", kmFrom = 7.84, kmTo = 7.85, length = 11 },
+  { kind = "bridge", kmFrom = 12.351, kmTo = 12.361, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kiwrHcy{}@o^_\\iEq@_GnBwCjEkDrQwCdGyCrBuIxAuc@bUcHvGaK~OkNtMyPn\\cFd^sEfPwDdG}]pZuClFcEnSu@fHMpo@q@pFgDdMa@jJzFlb@nGfRvBbKfE|KnHri@]lk@cKvmAXnj@kAhHe^x_AmBnDuFzD}B~CaLfXeGbReTnU_g@~a@yDt@md@]cDb@_EhBoDlDmHvOmAbF{AbM{AtEyWjXyR`Ei`@{CgY`KiFhFgZhh@mGvIoN~MiS~M" },
+]
+posts = [[0, 50.42342, 10.30562], [1, 50.43136, 10.30919], [2, 50.43836, 10.30197], [3, 50.44605, 10.29495], [4, 50.45129, 10.28401], [5, 50.45818, 10.27548], [6, 50.46029, 10.26233], [7, 50.4597, 10.24931], [8, 50.45584, 10.23673], [9, 50.45705, 10.22282], [10, 50.45807, 10.20896], [11, 50.4635, 10.1977], [12, 50.46963, 10.18771], [13, 50.47737, 10.18053], [14, 50.48616, 10.17916], [15, 50.49207, 10.16945], [16, 50.50043, 10.16582], [17, 50.509, 10.16316], [18, 50.51571, 10.15378]]
+
+[[connections]]
+km = 0.128
+station = "Mellrichstadt Bf"
+lines = [
+  { id = "5240", ref = "5240", name = "5240 Schweinfurt Hbf - Meiningen", km = 51.947 },
+]

@@ -1,0 +1,60 @@
+id = "6042"
+ref = "6042"
+name = "6042 Berlin-Grunewald Gdr - Berlin-Halensee Nordkopf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131723553"
+from = "Berlin-Grunewald Gdr"
+to = "Berlin-Halensee Nordkopf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.111
+kmTo = 2.478
+length = 2.398
+speeds = [[0.111, 0.3, 80, 40], [0.3, 2.115, 80, 80], [2.115, 2.242, 80, 60], [2.242, 2.274, 80, 80], [2.274, 2.478, 80, 60]]
+curves = [[0.398, 0.51, 1670], [0.755, 0.963, 1110], [1.072, 1.221, 1110], [1.386, 1.827, 450], [2.228, 2.378, 990]]
+points = [
+  { km = 0.111, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.3, kind = "signal", label = "C11", signal = "combined,traversable", dir = -1, measured = true },
+  { km = 0.734, kind = "signal", label = "O11", signal = "combined,route,route_distant,traversable", dir = 1 },
+  { km = 1.231, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.331, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.53, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.645, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.708, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.779, kind = "signal", label = "B", signal = "main,route,traversable", dir = 1 },
+  { km = 1.889, kind = "halt", label = "Westkreuz", uic = "8024956", pos = [52.50079, 13.28392] },
+  { km = 1.91, kind = "station", label = "Westkreuz (Stadtbahn)", uic = "8024956", pos = [52.50103, 13.28475] },
+  { km = 2.115, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.478, kind = "halt", label = "Messe Nord/ZOB", uic = "8089110", pos = [52.50771, 13.28347] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.534, kmTo = 1.631, length = 99 },
+  { kind = "bridge", kmFrom = 1.805, kmTo = 1.885, length = 81 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kan_I{eapAjJv@~\\iBdEd@tDdCbCjE~GpQzGrWtMr[~J`Z", v = 80 },
+]
+posts = [[2, 52.5017, 13.28235], [1, 52.49456, 13.27552]]
+
+[[connections]]
+km = 1.889
+station = "Westkreuz"
+lines = [
+  { id = "6024", ref = "6024", name = "6024 Berlin Ostbahnhof - Potsdam Hbf", km = 12.475 },
+  { id = "6025", ref = "6025", name = "6025 Berlin Westkreuz - Berlin-Spandau", km = 12.481 },
+  { id = "6109", ref = "6109", name = "6109 Berlin Ostbahnhopf - Berlin-Spandau", km = 1.086 },
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 1.086 },
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 30.367 },
+]
+
+[[connections]]
+km = 2.478
+station = "Messe Nord/ZOB"
+lines = [
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 31.193 },
+]

@@ -1,0 +1,78 @@
+id = "strassenbahnnetz-erfurt"
+name = "Straßenbahnnetz Erfurt"
+operator = "EVAG"
+gauge = "1000"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 9.955
+length = 9.955
+speeds = [[0, 0.399, "", ""], [0.399, 0.647, 10, 10], [0.647, 6.241, "", ""], [6.241, 6.359, 15, 15], [6.359, 6.468, 30, 30], [6.468, 6.702, "", ""], [6.702, 6.969, 20, 20], [6.969, 7.364, "", ""], [7.364, 7.701, 20, 20], [7.701, 9.955, "", ""]]
+curves = [[0.1, 0.175, 330], [0.375, 0.6, 420], [0.65, 1.525, 280], [1.8, 2.075, 390], [2.125, 2.3, 410], [2.4, 2.65, 580], [2.725, 2.95, 730], [3, 3.2, 890], [3.25, 3.35, 1640], [3.425, 3.525, 1340], [3.85, 4.025, 1220], [4.15, 4.3, 840], [4.375, 4.7, 340], [4.775, 5, 190], [5.225, 5.3, 1830], [5.4, 5.475, 890], [5.525, 5.6, 1120], [5.65, 5.85, 650], [5.9, 6.25, 230], [6.3, 6.45, 180], [6.5, 6.575, 2530], [6.7, 7.775, 310], [8.075, 8.2, 1240], [8.25, 8.4, 630], [9.1, 9.375, 1800]]
+points = [
+  { km = 0.275, kind = "halt", label = "Urbicher Kreuz", pos = [50.95034, 11.09362] },
+  { km = 0.647, kind = "halt", label = "Windischholzhausen/X-FAB", pos = [50.94837, 11.08976] },
+  { km = 1.132, kind = "halt", label = "Katholisches Krankenhaus", pos = [50.9453, 11.08568] },
+  { km = 1.719, kind = "halt", label = "Drosselberg", pos = [50.94676, 11.07884] },
+  { km = 2.102, kind = "halt", label = "Melchendorfer Markt", pos = [50.94975, 11.07666] },
+  { km = 2.349, kind = "halt", label = "Melchendorf", pos = [50.95173, 11.07538] },
+  { km = 2.799, kind = "halt", label = "Abzweig Wiesenhügel", pos = [50.95428, 11.07049] },
+  { km = 3.398, kind = "halt", label = "Blücherstraße", pos = [50.95629, 11.06262] },
+  { km = 3.835, kind = "halt", label = "Sozialversicherungszentrum", pos = [50.9575, 11.05669] },
+  { km = 4.303, kind = "halt", label = "Am Schwemmbach", pos = [50.95922, 11.05062] },
+  { km = 4.83, kind = "halt", label = "Stadion Ost", pos = [50.96, 11.04374] },
+  { km = 5.42, kind = "halt", label = "Tschaikowskistraße", pos = [50.96459, 11.04092] },
+  { km = 5.917, kind = "halt", label = "Robert-Koch-Straße", pos = [50.96901, 11.04068] },
+  { km = 6.279, kind = "signal", signal = "catenary_mast,switch", dir = 1 },
+  { km = 6.31, kind = "signal", signal = "catenary_mast,main,switch", dir = 1 },
+  { km = 6.312, kind = "signal", signal = "catenary_mast,minor,speed_limit", dir = 1 },
+  { km = 6.421, kind = "station", label = "Erfurt Hauptbahnhof", uic = "8016043", pos = [50.97229, 11.03808] },
+  { km = 6.44, kind = "halt", label = "Hauptbahnhof", pos = [50.97221, 11.0372] },
+  { km = 6.651, kind = "signal", signal = "stop", dir = 1 },
+  { km = 6.693, kind = "signal", signal = "tram", dir = 1 },
+  { km = 6.969, kind = "halt", label = "Anger", pos = [50.97651, 11.03399] },
+  { km = 7.364, kind = "halt", label = "Fischmarkt/Rathaus", pos = [50.97769, 11.02911] },
+  { km = 7.737, kind = "halt", label = "Domplatz Nord", pos = [50.97792, 11.02446] },
+  { km = 8.14, kind = "halt", label = "Webergasse/Andreaskirche", pos = [50.9811, 11.0217] },
+  { km = 8.656, kind = "halt", label = "Bergstraße", pos = [50.98507, 11.018] },
+  { km = 8.984, kind = "halt", label = "Baumerstraße", pos = [50.98749, 11.01531] },
+  { km = 9.564, kind = "halt", label = "Universität", pos = [50.99201, 11.01125] },
+  { km = 9.922, kind = "halt", label = "Klinikum", pos = [50.99495, 11.00913] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.489, kmTo = 1.532, length = 43 },
+  { kind = "tunnel", kmFrom = 2.703, kmTo = 2.754, length = 51 },
+  { kind = "bridge", kmFrom = 6.345, kmTo = 6.376, length = 31 },
+  { kind = "tunnel", kmFrom = 6.376, kmTo = 6.468, length = 92 },
+  { kind = "bridge", kmFrom = 7.208, kmTo = 7.239, length = 31 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wp~uHmfvbAj@|FtM`M" },
+  { line = "u`~uHmpubAbCpDfAzK", v = 10 },
+  { line = "iz}uH_~tbAf@vFt@jBzHhCfCbDtD`NLzDa@lEyA~D{N~VwCdBkJ^kBp@}I|LuE|N" },
+  { line = "_|~uHmlqbAw@rB", tunnel = true },
+  { line = "w}~uHyhqbAqBhG}BhUaGpZgG`h@mFhUqBvQ_DzHzAdUUrB}QfHsIdBuO`BmKsAmFTaBxAaAbE" },
+  { line = "sjbvHibkbAPvFe@z@", v = 15 },
+  { line = "gkbvHuxjbAYT", v = 30 },
+  { line = "albvH_xjbAsCpB", tunnel = true, v = 30 },
+  { line = "upbvHmtjbAcKbG" },
+  { line = "y|bvHiljbAkLzI", v = 20 },
+  { line = "ejcvHmajbAo@|ABrNqB~GmA|A" },
+  { line = "qqcvH}bibAy@bAKjAbBvSShA", v = 20 },
+  { line = "gqcvHkghbA_SnPyJrFuh@dm@kc@dZ" },
+]
+posts = [[0, 50.95196, 11.09623], [1, 50.94607, 11.08709], [2, 50.94884, 11.07672], [3, 50.95492, 11.06785], [4, 50.95804, 11.05451], [5, 50.96092, 11.04232], [6, 50.96976, 11.04081], [7, 50.97671, 11.03371], [8, 50.97999, 11.02265], [9, 50.9876, 11.01518]]
+
+[[connections]]
+km = 6.421
+station = "Erfurt Hauptbahnhof"
+lines = [
+  { id = "5919", ref = "5919", name = "5919 Eltersdorf - Leipzig Hbf", km = 191.095 },
+  { id = "6300", ref = "6300", name = "6300 Sangerhausen - Erfurt Hbf", km = 69.702 },
+  { id = "6302", ref = "6302", name = "Nordhausen-Erfurter Eisenbahn", km = 71.031 },
+  { id = "6340", ref = "6340", name = "6340 Halle (Saale) Hbf - Baunatal-Guntershausen", km = 108.339 },
+]

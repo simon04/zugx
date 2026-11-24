@@ -1,0 +1,136 @@
+id = "3300"
+ref = "3300"
+name = "3300 Kaiserslautern Hbf - Pirmasens Nord"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Kaiserslautern Hbf"
+to = "Pirmasens Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.18
+kmTo = 28.813
+length = 28.639
+speeds = [[0.18, 0.423, 60, ""], [0.423, 1.202, 60, 60], [1.202, 23.392, 80, 80], [23.392, 24.068, 40, 40], [24.068, 24.814, 70, 70], [24.814, 25.856, 80, 80], [25.856, 28.609, 70, 70], [28.609, 28.773, 50, 50], [28.773, 28.813, 40, 40]]
+curves = [[0.455, 0.754, 1000], [0.879, 1.004, 1420], [1.104, 1.479, 1400], [1.529, 2.029, 390], [2.404, 2.604, 860], [2.654, 2.879, 600], [2.929, 3.204, 720], [3.454, 3.729, 910], [3.979, 4.204, 510], [4.254, 4.429, 880], [4.504, 4.854, 1230], [4.904, 5.254, 570], [5.529, 5.678, 870], [5.728, 5.953, 480], [6.003, 6.528, 310], [6.578, 6.778, 920], [6.903, 7.128, 870], [7.353, 7.703, 400], [8.128, 8.353, 1260], [8.603, 8.953, 650], [9.103, 9.478, 590], [9.628, 9.853, 470], [9.903, 10.153, 470], [10.203, 10.603, 360], [10.653, 10.777, 920], [10.852, 11.152, 450], [11.202, 11.502, 360], [11.552, 11.802, 360], [11.877, 12.627, 870], [12.852, 13.077, 610], [13.177, 13.302, 1120], [13.377, 13.827, 660], [13.902, 14.227, 370], [14.277, 14.477, 440], [14.527, 15.102, 350], [15.152, 15.726, 470], [15.776, 15.901, 790], [16.001, 16.401, 1100], [16.451, 17.076, 550], [17.451, 18.401, 430], [18.676, 19.726, 390], [20.051, 20.85, 320], [20.9, 21.075, 820], [21.125, 21.35, 560], [21.4, 22, 660], [22.05, 22.75, 310], [22.8, 23.125, 360], [23.2, 23.725, 850], [23.875, 24.225, 640], [24.275, 24.525, 430], [24.575, 25, 360], [25.05, 25.724, 310], [25.774, 26.399, 320], [26.574, 26.999, 1240], [27.249, 27.699, 1160], [28.049, 28.199, 1390], [28.249, 28.349, 2140], [28.399, 28.699, 370]]
+points = [
+  { km = 0.18, kind = "station", label = "Kaiserslautern Hauptbahnhof", uic = "8019698", pos = [49.43599, 7.76893] },
+  { km = 0.316, kind = "signal", label = "P45", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 0.506, kind = "signal", label = "35II", signal = "minor", dir = -1 },
+  { km = 0.648, kind = "signal", label = "35I", signal = "minor", dir = 1 },
+  { km = 0.839, kind = "signal", label = "I", signal = "route", dir = 1 },
+  { km = 0.84, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.945, kind = "signal", label = "25", signal = "minor", dir = -1 },
+  { km = 1.074, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.202, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.233, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.316, kind = "halt", label = "Kaiserslautern Pfaffwerk", uic = "8003150", pos = [49.4348, 7.75122] },
+  { km = 1.553, kind = "signal", label = "A", signal = "main", dir = -1 },
+  { km = 1.643, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.84, kind = "stop", label = "Galgenschanze", pos = [49.43547, 7.74415], uic = "8002175" },
+  { km = 5.813, kind = "stop", label = "Kaiserslautern-Hohenecken", pos = [49.41598, 7.69967], uic = "8002943" },
+  { km = 11.832, kind = "signal", label = "Va", signal = "distant", dir = 1 },
+  { km = 12.518, kind = "signal", label = "Vg", signal = "distant", dir = 1 },
+  { km = 12.522, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 12.961, kind = "signal", label = "D", signal = "main", dir = -1 },
+  { km = 13.085, kind = "station", label = "Schopp", pos = [49.3591, 7.68737], uic = "8005423" },
+  { km = 13.288, kind = "signal", label = "G", signal = "main", dir = 1 },
+  { km = 13.798, kind = "signal", label = "Vd", signal = "distant", dir = -1 },
+  { km = 14.213, kind = "signal", label = "H", signal = "main", dir = -1 },
+  { km = 15.112, kind = "signal", label = "Vh", signal = "distant", dir = -1 },
+  { km = 19.074, kind = "stop", label = "Steinalben", pos = [49.31622, 7.65158], uic = "8005689" },
+  { km = 22.05, kind = "signal", label = "91Va", signal = "distant", dir = 1 },
+  { km = 22.813, kind = "signal", label = "91A", signal = "combined", dir = 1 },
+  { km = 23.385, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.389, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 23.623, kind = "signal", label = "91P1", signal = "main,speed_limit", dir = -1 },
+  { km = 23.708, kind = "station", label = "Waldfischbach", pos = [49.28845, 7.65167], uic = "8006156" },
+  { km = 23.877, kind = "signal", label = "91N1", signal = "main,speed_limit", dir = 1 },
+  { km = 24.068, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 24.07, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.454, kind = "signal", label = "91F", signal = "combined", dir = -1 },
+  { km = 24.812, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 24.814, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.822, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 25.11, kind = "signal", label = "91Vf", signal = "distant", dir = -1 },
+  { km = 25.254, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 25.856, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 25.859, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 27.551, kind = "signal", label = "85Vg", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 28.331, kind = "signal", label = "85G", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 28.554, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 28.611, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 28.668, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.753, kind = "signal", label = "85W47Y", signal = "minor", dir = 1 },
+  { km = 28.754, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.754, kind = "signal", signal = "route", dir = -1 },
+  { km = 28.813, kind = "station", label = "Pirmasens Nord", uic = "8000876", pos = [49.25913, 7.60439] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.532, kmTo = 0.555, length = 23 },
+  { kind = "bridge", kmFrom = 1.212, kmTo = 1.247, length = 35 },
+  { kind = "bridge", kmFrom = 1.646, kmTo = 1.718, length = 72 },
+  { kind = "bridge", kmFrom = 2.696, kmTo = 2.738, length = 43 },
+  { kind = "bridge", kmFrom = 3.922, kmTo = 3.938, length = 17 },
+  { kind = "bridge", kmFrom = 4.932, kmTo = 4.959, length = 27 },
+  { kind = "bridge", kmFrom = 5.897, kmTo = 5.929, length = 33 },
+  { kind = "bridge", kmFrom = 6.541, kmTo = 6.57, length = 29 },
+  { kind = "bridge", kmFrom = 7.927, kmTo = 7.95, length = 24 },
+  { kind = "bridge", kmFrom = 9.438, kmTo = 9.466, length = 28 },
+  { kind = "bridge", kmFrom = 9.479, kmTo = 9.511, length = 32 },
+  { kind = "bridge", kmFrom = 10.051, kmTo = 10.067, length = 16 },
+  { kind = "bridge", kmFrom = 10.444, kmTo = 10.467, length = 23 },
+  { kind = "bridge", kmFrom = 11.664, kmTo = 11.693, length = 29 },
+  { kind = "bridge", kmFrom = 12.197, kmTo = 12.233, length = 37 },
+  { kind = "bridge", kmFrom = 14.086, kmTo = 14.103, length = 17 },
+  { kind = "bridge", kmFrom = 19.235, kmTo = 19.252, length = 17 },
+  { kind = "bridge", kmFrom = 20.158, kmTo = 20.184, length = 26 },
+  { kind = "bridge", kmFrom = 20.562, kmTo = 20.597, length = 34 },
+  { kind = "bridge", kmFrom = 21.8, kmTo = 21.834, length = 34 },
+  { kind = "bridge", kmFrom = 22.06, kmTo = 22.123, length = 63 },
+  { kind = "bridge", kmFrom = 22.397, kmTo = 22.438, length = 41 },
+  { kind = "bridge", kmFrom = 22.927, kmTo = 22.966, length = 39 },
+  { kind = "bridge", kmFrom = 24.882, kmTo = 24.904, length = 22 },
+  { kind = "bridge", kmFrom = 25.22, kmTo = 25.243, length = 23 },
+  { kind = "bridge", kmFrom = 28.072, kmTo = 28.107, length = 35 },
+  { kind = "bridge", kmFrom = 28.616, kmTo = 28.634, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ajvlHk{kn@zDtYv@rKR~Wq@bU", v = 60 },
+  { line = "kcvlH}din@oGbd@CpIhAvHvRvb@fHbWbJtNhBhGpIpb@bRr]tCfS~G|XlBdX`CvLlOpZ|HdJ~ArDzC|LbEvFzDjAfEa@xKqHrQoF`ScQrFw@p_@~MvY`VnGlArRUnFyDdMkQzLyD|BmBnG{KrD_DxFe@vGxBbKpAfDlBtG~MxBtCtCzArIt@pCpAzIhMzIrJdC|AhHtA|CjBzPbVpLhFjLpBhCrAfEpFnHlRfDrE~CtAfIdA|JrIzJ|AtC~A~CbFfCpK`EjLdE~ExFbAtGoAvLIhGq@lEiAzHuFpEeAlGh@~G|CbYj]hC`J`A|T|@nE`C|EdDxCzOd_@nFvFrGfC`E@jFiCfDgFvAgHJyEiBog@PsFv@sE~CsG`F{B~ETvBfA|H`J~ErLpAbBpK`GdKnCdCCtCeAnBiBdFoJxDgDhEm@lCd@bCzA~C|FdCdO|B`GjCfCjKrFdC`D", v = 80 },
+  { line = "a_zkHwcvm@pEfIpI~YjDhH", v = 40 },
+  { line = "qhykHeutm@tAtB`FpQdCnDxIfIhBrF", v = 70 },
+  { line = "olxkHqgsm@f@vGKjVr@zEtBdFjDzC|Dp@|LgC", v = 80 },
+  { line = "amwkHewqm@tCKtDnAxChDrAhDv@rErAf\\lAbMfJpa@`G~PdDvFhT|WvLzT`E`D", v = 70 },
+  { line = "yrtkHghlm@bH`@", v = 50 },
+  { line = "uitkHeglm@hA@", v = 40 },
+]
+posts = [[1, 49.43409, 7.75541], [2, 49.43479, 7.74235], [3, 49.42915, 7.73172], [4, 49.42417, 7.72045], [5, 49.42083, 7.70781], [6, 49.41511, 7.69744], [7, 49.40713, 7.69754], [8, 49.39885, 7.69938], [9, 49.3906, 7.69446], [10, 49.38257, 7.69947], [11, 49.3745, 7.70153], [12, 49.36716, 7.69449], [13, 49.35957, 7.68757], [14, 49.35215, 7.68098], [15, 49.34396, 7.67613], [16, 49.33692, 7.67053], [17, 49.32832, 7.67161], [18, 49.32317, 7.66127], [19, 49.31684, 7.65189], [20, 49.31306, 7.66086], [21, 49.3075, 7.66431], [22, 49.29978, 7.66139], [23, 49.29336, 7.65759], [24, 49.28707, 7.64839], [25, 49.28199, 7.63789], [26, 49.27584, 7.63256], [27, 49.27253, 7.62042], [28, 49.2668, 7.61011]]
+
+[[connections]]
+km = 0.18
+station = "Kaiserslautern Hauptbahnhof"
+lines = [
+  { id = "3280", ref = "3280", name = "3280 Homburg - Ludwigshafen", km = 43.626 },
+  { id = "3302", ref = "3302", name = "3302 Kaiserslautern Hbf - Lauterecken-Grumbach", km = 0.086 },
+  { id = "3450", ref = "3450", name = "3450 Rheinsheim - Rohrbach (Saar)", km = 43.626 },
+]
+
+[[connections]]
+km = 1.84
+station = "Galgenschanze"
+lines = [
+  { id = "3280", ref = "3280", name = "3280 Homburg - Ludwigshafen", km = 1.86 },
+  { id = "3302", ref = "3302", name = "3302 Kaiserslautern Hbf - Lauterecken-Grumbach", km = 1.86 },
+  { id = "3450", ref = "3450", name = "3450 Rheinsheim - Rohrbach (Saar)", km = 1.86 },
+]
+
+[[connections]]
+km = 28.813
+station = "Pirmasens Nord"
+lines = [
+  { id = "3310", ref = "3310", name = "3310 Pirmasens Nord - Pirmasens Hbf", km = -0.017 },
+]

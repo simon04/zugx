@@ -1,0 +1,52 @@
+id = "3810"
+ref = "3810"
+name = "Bad Hersfeld - Treysa"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q801877"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 141.958
+kmTo = 153.927
+length = 11.976
+speeds = [[141.958, 148.957, "", ""], [148.957, 149.33, 50, 50], [149.33, 152.346, "", ""], [152.346, 152.655, 50, 50], [152.655, 153.927, "", ""]]
+curves = [[142.058, 142.283, 330], [142.758, 143.133, 670], [143.408, 143.633, 1380], [144.533, 144.733, 840], [147.358, 147.508, 890], [148.858, 149.058, 950], [149.233, 149.408, 1640], [149.833, 150.008, 1010], [150.233, 150.458, 1080], [150.783, 151.033, 850], [151.408, 151.733, 710], [151.958, 152.133, 1120], [152.308, 152.708, 520], [152.758, 152.908, 1430]]
+points = [
+  { km = 149.33, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 152.607, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 152.703, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 152.714, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 152.716, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 152.882, kind = "signal", label = "30L 201X", signal = "minor", dir = 1 },
+  { km = 152.934, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 152.98, kind = "signal", label = "30 P1", signal = "combined,minor,speed_limit,traversable", dir = -1 },
+  { km = 153.135, kind = "station", label = "Bad Hersfeld", pos = [50.86989, 9.71664], uic = "8000020" },
+  { km = 153.232, kind = "signal", label = "30 ZR1", signal = "combined,minor,speed_limit,traversable", dir = 1 },
+  { km = 153.292, kind = "signal", label = "30L 401Y", signal = "minor", dir = -1 },
+  { km = 153.328, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 153.678, kind = "signal", label = "30L 401X", signal = "minor", dir = 1 },
+  { km = 153.735, kind = "signal", label = "30L 501Y", signal = "minor", dir = -1 },
+  { km = 153.832, kind = "signal", label = "30 N1", signal = "main,minor,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 141.958, kmTo = 141.976, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gp`uHscty@_BuGwCkE}_@{QaEiDyCkE}P_c@s\\}tAqiAc~By\\gt@er@cz@}RgS" },
+  { line = "{biuH}naz@wRqJ", v = 50 },
+  { line = "sviuHozaz@a[yVuPyXuVwUeEsFeQk`@wByGcGqg@uFeV" },
+  { line = "_hmuHmtgz@sCgIcGkF", v = 50 },
+  { line = "wtmuHafhz@eKkEwt@se@" },
+]
+posts = [[142, 50.79843, 9.61152], [143, 50.80627, 9.61788], [144, 50.81129, 9.6296], [145, 50.81622, 9.64138], [146, 50.82235, 9.6518], [147, 50.82842, 9.6623], [148, 50.83513, 9.67166], [149, 50.84258, 9.6796], [150, 50.85058, 9.68595], [151, 50.85773, 9.69444], [152, 50.86214, 9.70654], [153, 50.86847, 9.71547]]
+
+[[connections]]
+km = 153.135
+station = "Bad Hersfeld"
+lines = [
+  { id = "3600", ref = "3600", name = "3600 Frankfurt (M) Hbf - Göttingen", km = 153.136 },
+]

@@ -1,0 +1,25 @@
+id = "9127"
+ref = "9127"
+name = "Wilstedt - Tostedt"
+operator = "Eisenbahnen und Verkehrsbetriebe Elbe-Weser GmbH"
+gauge = "1435"
+wikidata = "Q2808047"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.8
+kmTo = 7
+length = 6.196
+speeds = [[0.8, 7, "", ""]]
+curves = [[1.119, 1.218, 1360], [1.291, 1.611, 1230], [2.386, 2.834, 810], [3.727, 4.401, 920], [6.779, 6.879, 1250]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 1.494, kmTo = 1.511, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sxucIkrlv@yQnMmJhE_Eb@kOE_j@cEmIyGgn@a}@kHkFwFeBiIQej@~CirA`MoLv@wGQ" },
+]
+posts = [[1, 53.20256, 9.07958], [2, 53.21128, 9.07763], [3, 53.21953, 9.0819], [4, 53.22681, 9.09079], [5, 53.23573, 9.0908], [6, 53.24467, 9.08937], [7, 53.25362, 9.08824]]

@@ -1,0 +1,55 @@
+id = "1110"
+ref = "1110"
+name = "1110 Eutin - Bad Schwartau Abzw"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q107750949"
+from = "Eutin"
+to = "Bad Schwartau Abzw"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.595
+kmTo = 26.479
+length = 25.981
+speeds = [[0.595, 23.81, 120, 120], [23.81, 25.396, 110, 110], [25.396, 25.448, "", 120], [25.448, 26.479, 120, 120]]
+curves = [[0.701, 0.826, 1430], [1.451, 2.017, 840], [2.457, 2.583, 1590], [3.061, 3.591, 1470], [3.918, 4.134, 1550], [5.112, 5.238, 1680], [8.168, 8.319, 2030], [8.97, 9.47, 780], [9.544, 10.009, 850], [13.497, 13.724, 1180], [13.896, 14.07, 1510], [14.468, 14.667, 1280], [15.066, 15.339, 1530], [15.562, 15.783, 1210], [16.259, 16.51, 1230], [18.489, 18.568, 2220], [19.856, 19.905, 2510], [22.404, 22.561, 1720], [22.64, 23.085, 1470], [23.137, 23.268, 1940], [23.876, 24.203, 950], [24.278, 24.646, 810], [24.743, 24.986, 1080], [25.06, 25.482, 780]]
+points = [
+  { km = 1.157, kind = "signal", label = "72F", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 2.07, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.952, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 11.445, kind = "signal", signal = "main", dir = -1 },
+  { km = 11.611, kind = "station", label = "Pönitz", uic = "8004848", pos = [54.04599, 10.67115] },
+  { km = 11.74, kind = "signal", label = "71N1", signal = "main", dir = -1 },
+  { km = 12.245, kind = "signal", label = "71F", signal = "combined,speed_limit", dir = -1 },
+  { km = 13.215, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 15.553, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 16.804, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 17.408, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 18.425, kind = "signal", signal = "crossing_distant,crossing_hint,crossing_info", dir = -1 },
+  { km = 18.562, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 19.136, kind = "signal", label = "70P2", signal = "main", dir = -1 },
+  { km = 19.256, kind = "station", label = "Pansdorf", uic = "8004750", pos = [53.98084, 10.70335] },
+  { km = 19.474, kind = "signal", label = "70N2", signal = "main", dir = 1 },
+  { km = 19.837, kind = "signal", label = "70F", signal = "combined,speed_limit", dir = -1 },
+  { km = 20.787, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 23.81, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.939, kind = "signal", signal = "distant", dir = 1 },
+  { km = 25.492, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 25.493, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 25.839, kind = "signal", label = "94 20", signal = "main,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 26.091, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 26.467, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 25.849, kmTo = 25.869, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}dbhIybj`A}q@cx@", v = 120 },
+  { line = "{wchI}{k`AcIaE}RqAiRoGoHKkOdBeL}B", v = 110 },
+  { line = "ipfhIenl`A{^eL{G_AgNGyR|FudCvoAqt@xc@oPxKsgBlyAsFhCm_@rKg\\rT{_@|Km_@zUoSrEmmErD_EfA{FbEqKxMaJdF_Ej@ii@Bo\\rE}iCzr@ey@vb@cg@~LsLvI}Yd]oWvb@_FjKsD`OkAhJoE~w@aA|MqBdO", v = 120 },
+]
+posts = [[26, 53.92325, 10.7106], [25, 53.93129, 10.71689], [24, 53.9403, 10.71801], [23, 53.94891, 10.72106], [22, 53.9572, 10.7179], [21, 53.96549, 10.71288], [20, 53.97451, 10.70742], [19, 53.98295, 10.70175], [18, 53.99091, 10.69543], [17, 53.99902, 10.6884], [16, 54.00738, 10.68278], [15, 54.01591, 10.67777], [14, 54.02444, 10.67295], [13, 54.03349, 10.67138], [12, 54.04256, 10.67116], [11, 54.0513, 10.67096], [10, 54.06021, 10.67076], [9, 54.06857, 10.66552], [8, 54.07752, 10.66509], [7, 54.08625, 10.66214], [6, 54.09494, 10.6589], [5, 54.10357, 10.65526], [4, 54.11231, 10.65001], [3, 54.12079, 10.64566], [2, 54.12833, 10.63581], [1, 54.13159, 10.6214]]

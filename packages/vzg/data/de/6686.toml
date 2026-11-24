@@ -1,0 +1,88 @@
+id = "6686"
+ref = "6686"
+name = "6686 Abzw Hockeroda - Wurzbach (Thür)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q109444796"
+from = "Hockeroda"
+to = "Wurzbach (Thür)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.235
+kmTo = 19.535
+length = 19.775
+speeds = [[-0.235, 0.353, 50, 60], [0.353, 0.516, 40, 60], [0.516, 0.541, 40, 20], [0.541, 0.68, 60, 20], [0.68, 3.504, 60, 50], [3.504, 4.578, 40, 50], [4.578, 4.721, 30, 50], [4.721, 4.758, 60, 20], [4.758, 9.105, 60, 60], [9.105, 9.744, 40, 50], [9.744, 10.582, 50, 50], [10.582, 18.205, "", ""], [18.205, 18.994, 60, 60], [18.994, 19.053, 50, 50], [19.053, 19.535, 40, 40]]
+curves = [[-0.135, 0.74, 480], [0.864, 1.014, 700], [1.538, 1.713, 1440], [2.112, 2.437, 660], [2.587, 3.111, 440], [3.186, 3.361, 720], [3.411, 3.785, 560], [3.985, 4.06, 2250], [4.135, 4.41, 510], [4.46, 4.635, 590], [4.735, 5.46, 310], [5.51, 6.01, 310], [6.06, 6.335, 350], [6.385, 6.785, 320], [6.835, 7.11, 580], [7.21, 7.485, 390], [7.535, 7.61, 890], [7.76, 7.985, 630], [8.06, 8.435, 380], [8.485, 8.935, 430], [8.985, 9.285, 370], [9.335, 9.46, 1540], [9.61, 10.085, 810], [10.135, 10.285, 530], [10.435, 10.71, 410], [10.76, 11.21, 320], [11.26, 11.635, 300], [11.685, 12.285, 740], [12.41, 12.91, 660], [12.96, 13.135, 700], [13.285, 13.51, 510], [13.56, 13.635, 1540], [13.71, 13.81, 1430], [13.86, 14.36, 270], [14.41, 14.735, 310], [14.785, 14.91, 820], [14.96, 15.385, 390], [15.56, 15.71, 760], [15.76, 16.185, 470], [16.285, 16.485, 450], [16.585, 18.035, 310], [18.11, 18.81, 740], [18.885, 19.01, 1520], [19.335, 19.435, 1110]]
+points = [
+  { km = -0.178, kind = "signal", signal = "crossing_distant" },
+  { km = -0.143, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -0.074, kind = "signal", label = "28 P1", signal = "main,speed_limit", dir = -1 },
+  { km = 0.046, kind = "stop", label = "Hockeroda", pos = [50.5974, 11.43409], uic = "8016337", ele = 258 },
+  { km = 0.163, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 0.196, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.212, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 0.353, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.541, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.375, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.105, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.504, kind = "signal", label = "50A", signal = "main,speed_limit", dir = 1 },
+  { km = 3.594, kind = "signal", signal = "main,minor,traversable", dir = 1 },
+  { km = 3.695, kind = "signal", label = "50P2", signal = "main,minor,traversable", dir = -1 },
+  { km = 3.953, kind = "station", label = "Leutenberg", uic = "8016368", pos = [50.56494, 11.44776] },
+  { km = 4.045, kind = "signal", label = "50 N2", signal = "main,minor,traversable", dir = 1 },
+  { km = 4.134, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.308, kind = "signal", label = "50?", signal = "main", dir = -1 },
+  { km = 4.334, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.578, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.688, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.728, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.105, kind = "signal", label = "51A", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 9.649, kind = "station", label = "Lichtentanne (Thür)", uic = "8016367", pos = [50.52441, 11.48159] },
+  { km = 9.689, kind = "signal", label = "51N2", signal = "main,traversable", dir = 1 },
+  { km = 9.744, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.994, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.149, kind = "signal", label = "53P2", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 19.403, kind = "station", label = "Wurzbach (Thür)", pos = [50.46623, 11.54323], uic = "8016364" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.034, kmTo = 1.055, length = 21 },
+  { kind = "bridge", kmFrom = 5.818, kmTo = 5.844, length = 27 },
+  { kind = "bridge", kmFrom = 6.45, kmTo = 6.464, length = 14 },
+  { kind = "bridge", kmFrom = 8.243, kmTo = 8.284, length = 41 },
+  { kind = "bridge", kmFrom = 8.87, kmTo = 8.918, length = 48 },
+  { kind = "bridge", kmFrom = 9.058, kmTo = 9.081, length = 24 },
+  { kind = "bridge", kmFrom = 9.227, kmTo = 9.285, length = 57 },
+  { kind = "bridge", kmFrom = 10.582, kmTo = 10.593, length = 11 },
+  { kind = "bridge", kmFrom = 18.098, kmTo = 18.205, length = 107 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mtysHivxdAlFdKlJrGtDp@rCQ~BuA~A_C", v = 60 },
+  { line = "gpxsHegxdA^q@", v = 40 },
+  { line = "goxsHwhxdA~DwFrNgI`b@gGb^PlFy@nQqMpGkMjDaDtMsBhLp@", v = 60 },
+  { line = "qsssHihzdAnJwEpTuYdBiGbBkQtDmL", v = 50 },
+  { line = "ofrsH{q|dA`BqEpBgCbLiC~CcDlCeIz@}M~@}FdBiE~C}CnD{@dIr@|Cc@nBiArFkGnE{A~Db@tI`IzDzArMh@~BYfC}AtDcFxMiLhN}AtDeB`DgFbFkP`EsF|EqBbLC", v = 60 },
+  { line = "wyksHgt`eAbDqBtG_JvKcLtIsNnAyGj@}LjFcXToD", v = 50 },
+  { line = "qhjsH}tceAmAgW^gJzB_HhIiGnDiIf@eEU{Of@{Pv@eHdBmGrLmPfLaIxCkEbFoMpLeNpEgB`YmEhDuCzAeDdAgHeBkTRsGhAoEpMk[lDkCfEa@bQpAtHpC|Jw@bBsAxHuMpAuD~C_UzAyDrB}B~D}@tDx@xBzBrEfLjA~ArC~@rCDbHcEhBiC|CwHpK}I" },
+  { line = "wsasHskneAjEiBpKHjIfDhKxI", v = 60 },
+  { line = "cj`sHq~meA~A`A", v = 50 },
+  { line = "cg`sHo|meA|OrJlFzE", v = 40 },
+]
+posts = [[0, 50.59775, 11.43442], [1, 50.58969, 11.43744], [2, 50.58075, 11.43867], [3, 50.5729, 11.44435], [4, 50.56457, 11.44809], [5, 50.55921, 11.45857], [6, 50.55323, 11.46706], [7, 50.54497, 11.46696], [8, 50.5367, 11.47092], [9, 50.52938, 11.4772], [10, 50.5222, 11.48506], [11, 50.52076, 11.4986], [12, 50.51722, 11.5102], [13, 50.51072, 11.51938], [14, 50.50254, 11.52427], [15, 50.4996, 11.53643], [16, 50.4911, 11.53729], [17, 50.48511, 11.54643], [18, 50.47791, 11.54628], [19, 50.46957, 11.5455]]
+
+[[connections]]
+km = 0.046
+station = "Hockeroda"
+lines = [
+  { id = "6383", ref = "6383", name = "Leipzig-Probstzella", km = 152.121 },
+]
+
+[[connections]]
+km = 19.403
+station = "Wurzbach"
+lines = [
+  { id = "6709", ref = "6709", name = "6709 Wurzbach (Thür) - Unterlemnitz", km = 0.215 },
+]

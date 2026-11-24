@@ -1,0 +1,56 @@
+id = "5452"
+ref = "5452"
+name = "5452 Garmisch-Partenkirchen - Griesen (Oberbayern) Grenze"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q315988"
+from = "Garmisch-Partenkirchen"
+to = "Griesen (Oberbayern) Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 14.608
+length = 14.608
+speeds = [[0, 4.026, 60, 60], [4.026, 4.04, "", ""], [4.04, 4.423, 60, 60], [4.423, 4.428, "", ""], [4.428, 5.494, 60, 60], [5.494, 5.501, "", ""], [5.501, 6.195, 60, 60], [6.195, 8.646, 70, 70], [8.646, 13.853, 60, 60], [13.853, 14.608, 30, 30]]
+curves = [[0.575, 0.675, 870], [0.725, 0.875, 440], [0.925, 1.5, 380], [1.85, 2.125, 470], [2.975, 3.125, 690], [3.175, 3.3, 880], [3.425, 4.55, 470], [4.675, 5, 610], [5.05, 5.525, 520], [5.575, 5.8, 360], [5.85, 6.25, 950], [6.3, 6.35, 1510], [6.4, 6.5, 880], [6.7, 6.875, 1210], [7.2, 7.3, 2070], [7.425, 7.625, 1260], [7.9, 8.075, 1270], [8.275, 8.725, 730], [8.95, 9.225, 990], [9.45, 9.7, 440], [9.775, 10.375, 320], [10.725, 10.8, 2880], [10.95, 11.125, 690], [11.25, 11.475, 670], [11.525, 11.725, 710], [11.775, 11.925, 720], [12.125, 12.3, 760], [12.7, 12.825, 1680], [13.075, 13.325, 550], [13.375, 13.55, 1070], [13.625, 13.75, 1390], [13.95, 14.5, 370]]
+points = [
+  { km = 1.089, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.596, kind = "station", label = "Griesen (Oberbay)", pos = [47.47819, 10.94612], uic = "8017041", ele = 821 },
+  { km = 5.5, kind = "stop", label = "Untergrainau", uic = "8017042", pos = [47.48103, 11.04291], measured = true },
+  { km = 13.6, kind = "stop", label = "Garmisch-Partenkirchen Hausberg", pos = [47.48328, 11.09197] },
+  { km = 14.135, kind = "signal", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 14.542, kind = "signal", signal = "minor", dir = 1 },
+  { km = 14.608, kind = "station", label = "Garmisch-Partenkirchen", uic = "8002187", ele = 708, pos = [47.49154, 11.09702] },
+  { km = 14.608, kind = "station", label = "Garmisch-Partenkirchen (BZB)", ele = 754, pos = [47.48965, 11.09656] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.111, kmTo = 1.126, length = 15 },
+  { kind = "bridge", kmFrom = 4.026, kmTo = 4.04, length = 14 },
+  { kind = "bridge", kmFrom = 7.949, kmTo = 7.973, length = 24 },
+  { kind = "bridge", kmFrom = 8.598, kmTo = 8.646, length = 48 },
+  { kind = "bridge", kmFrom = 9.976, kmTo = 10.007, length = 31 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "slv`HyxuaA{BcCqSs\\_F_LcGeGaBqC{AeGa@qLm@qE{Oec@u@qIf@gpAaAeMSkWg@oEkC_KkBuCcHyE", v = 60 },
+  { line = "wby`Heu~aAUW" },
+  { line = "mcy`H}u~aAmDmIk@kQ", v = 60 },
+  { line = "gjy`Hwr_bA@M" },
+  { line = "ejy`Hes_bA`Bs\\dA_G~FkMt@aERqPU_F", v = 60 },
+  { line = "i{x`HyebbACQ" },
+  { line = "m{x`HkfbbA}@gNXoDfC{Lj@eT", v = 60 },
+  { line = "}vx`He~cbAUwTcB_]V}a@_@cWwDob@eHy_@AiFp@yK", v = 70 },
+  { line = "mhy`HmejbAlFq\\xDcJnMqStCcB|KcCpCeCjCaGt@wIOsEsMyw@_AkY{DkQyAoRkG}Z_Cml@[ka@yNeq@", v = 60 },
+  { line = "igy`Hq~ubAaF_PmEiFgC{@iD?iIfD", v = 30 },
+]
+posts = [[0, 47.4697, 10.93021], [1, 47.47622, 10.93924], [2, 47.48027, 10.95082], [3, 47.48015, 10.96411], [4, 47.48329, 10.97552], [5, 47.48325, 10.98766], [6, 47.48173, 11.00015], [7, 47.48214, 11.01338], [8, 47.48325, 11.02649], [9, 47.48329, 11.03905], [10, 47.47624, 11.04647], [11, 47.47772, 11.05882], [12, 47.4801, 11.0715], [13, 47.48159, 11.08449], [14, 47.48485, 11.09668]]
+
+[[connections]]
+km = 14.608
+station = "Garmisch-Partenkirchen"
+lines = [
+  { id = "5504", ref = "5504", name = "5504 München Hbf - Mittenwald Grenze", km = 100.506 },
+]

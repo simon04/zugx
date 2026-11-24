@@ -1,0 +1,40 @@
+id = "3100"
+ref = "3100"
+name = "3100 Gerolstein–Pronsfeld"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Gerolstein"
+to = "Pronsfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.267
+kmTo = 0.364
+length = 0.629
+speeds = [[-0.267, 0.198, "", ""], [0.198, 0.215, 40, 40], [0.215, 0.364, "", ""]]
+curves = [[-0.042, 0.208, 620]]
+points = [
+  { km = -0.063, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.02, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.001, kind = "station", label = "Gerolstein", uic = "8000123", pos = [50.22392, 6.66036] },
+  { km = 0.017, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.055, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.274, kind = "signal", label = "4", signal = "minor", dir = -1 },
+  { km = 0.364, kind = "signal", signal = "minor" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "akpqH}ptg@@hYnAzL" },
+  { line = "ohpqHwhsg@Jh@", v = 40 },
+  { line = "chpqHmgsg@lBxJ" },
+]
+posts = [[0, 50.22402, 6.66024]]
+
+[[connections]]
+km = 0.001
+station = "Gerolstein"
+lines = [
+  { id = "2631", ref = "2631", name = "2631 Hürth-Kalscheuren - Ehrang", km = 101.06 },
+]

@@ -1,0 +1,33 @@
+id = "9202"
+ref = "9202"
+operator = "BE Netz GmbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.507
+length = 0.507
+speeds = [[0, 0.507, 40, 40]]
+curves = [[0.275, 0.4, 600]]
+points = [
+  { km = 0, kind = "station", label = "Bad Bentheim", uic = "8000879", pos = [52.30973, 7.15829] },
+  { km = 0.053, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.301, kind = "signal", label = "20ZV1", signal = "main,traversable", dir = -1 },
+  { km = 0.436, kind = "signal", signal = "minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_{g~Haxuj@wCu_@gC{I", v = 40 },
+]
+posts = [[0, 52.3104, 7.16177]]
+
+[[connections]]
+km = 0
+station = "Bad Bentheim"
+lines = [
+  { id = "2026", ref = "2026", name = "2026 Salzbergen - Bad Bentheim Grenze", km = 13.666 },
+  { id = "9203", ref = "9203", name = "Gronau - Coevorden", km = 18.553 },
+]

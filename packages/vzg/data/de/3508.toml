@@ -1,0 +1,28 @@
+id = "3508"
+ref = "3508"
+name = "3508 Wiesbaden Ost"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Wiesbaden Ost Gbf Ültg"
+to = "Wiesbaden Ost"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 4.502
+kmTo = 5.591
+length = 1.049
+speeds = [[4.502, 5.591, "", ""]]
+curves = [[4.633, 4.966, 360], [5.366, 5.491, 780]]
+points = [
+  { km = 4.81, kind = "signal", label = "P 506", signal = "distant,main", dir = -1 },
+  { km = 5.202, kind = "signal", signal = "main,minor", dir = 1 },
+  { km = 5.506, kind = "signal", signal = "minor", dir = 1 },
+  { km = 5.559, kind = "signal", signal = "distant", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "i_lpHsclq@~F}H~Smc@bGgDfGP" },
+]
+posts = [[5, 50.03413, 8.26521]]

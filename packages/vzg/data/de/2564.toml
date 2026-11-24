@@ -1,0 +1,44 @@
+id = "2564"
+ref = "2564"
+name = "2564 Aachen-Rothe Erde - Aachen Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Aachen-Rothe Erde"
+to = "Aachen Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 68.417
+kmTo = 69.612
+length = 1.202
+speeds = [[68.417, 68.574, 100, 100], [68.574, 68.762, 100, 60], [68.762, 69.331, 100, 100], [69.331, 69.521, 60, 100], [69.521, 69.612, 60, 40]]
+curves = [[68.667, 69.46, 610]]
+points = [
+  { km = 68.417, kind = "station", label = "Aachen-Rothe Erde", uic = "8000406", pos = [50.77006, 6.11618] },
+  { km = 68.579, kind = "signal", label = "02L202Y", signal = "minor", dir = -1 },
+  { km = 68.595, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 68.762, kind = "signal", label = "02G", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 68.96, kind = "signal", label = "02VWg", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 69.135, kind = "signal", label = "04VWb", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 69.331, kind = "signal", label = "04B", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 69.521, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 69.522, kind = "signal", label = "04L105X", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 68.865, kmTo = 68.882, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{wztHycid@~MlWvDrPf@bIAvIg@rHgBxK", v = 100 },
+  { line = "mfztHmnfd@{@pF", v = 60 },
+]
+posts = [[69, 50.76552, 6.1076]]
+
+[[connections]]
+km = 68.417
+station = "Aachen-Rothe Erde"
+lines = [
+  { id = "2600", ref = "2600", name = "2600 Köln Hbf - Aachen Süd Grenze", km = 68.271 },
+]

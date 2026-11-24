@@ -1,0 +1,36 @@
+id = "1130"
+ref = "1130"
+name = "1130 Lübeck Hbf - Lübeck Hgbf Abzw"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q21950454"
+from = "Lübeck Hbf"
+to = "Lübeck Hgbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.906
+length = 1.906
+speeds = [[0, 1.906, "", ""]]
+curves = [[0.1, 0.175, 1610], [0.85, 0.95, 1360], [1.025, 1.25, 930], [1.35, 1.675, 470], [1.75, 1.8, 1760]]
+points = [
+  { km = 0.04, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.147, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.161, kind = "signal", label = "90 N401", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 0.289, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.927, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.063, kind = "signal", label = "P401", signal = "main,minor", dir = 1 },
+  { km = 1.226, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.246, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.391, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 1.756, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.759, kind = "signal", signal = "shunting", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eltgI{f``Aaq@rEgL[yLoGoDwDaCmFyGqV" },
+]
+posts = [[0, 53.84915, 10.65598], [1, 53.85812, 10.65492]]

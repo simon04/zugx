@@ -1,0 +1,46 @@
+id = "4261"
+ref = "4261"
+name = "4261 Bft Appenweier-Muhrhaag - Bft Appenweier Kurve"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Appenweier-Muhrhaag"
+to = "Appenweier Kurve"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.065
+length = 1.065
+speeds = [[0, 1.065, "", ""]]
+curves = [[0.2, 0.825, 420]]
+points = [
+  { km = 0.008, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.149, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.232, kind = "signal", label = "8009", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 0.444, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.444, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.505, kind = "signal", signal = "main_repeated" },
+  { km = 0.559, kind = "station", label = "Appenweier", pos = [48.54053, 7.9716], uic = "8014289" },
+  { km = 0.597, kind = "signal", signal = "main_repeated" },
+  { km = 0.652, kind = "signal", label = "80 N9", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 0.941, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.312, kmTo = 0.34, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{ahgHuvro@nEsWtCqGdCgCfDaBfEa@vPpB" },
+]
+posts = [[0, 48.54318, 7.96539], [1, 48.53662, 7.9716]]
+
+[[connections]]
+km = 0.559
+station = "Appenweier"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 137.978 },
+  { id = "4260", ref = "4260", name = "4260 Appenweier - Kehl Grenze", km = 137.9 },
+  { id = "4280", ref = "4280", name = "Ausbau- und Neubaustrecke Karlsruhe-Basel", km = 137.9 },
+]

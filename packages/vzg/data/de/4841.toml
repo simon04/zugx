@@ -1,0 +1,61 @@
+id = "4841"
+ref = "4841"
+operator = "Albtal-Verkehrs-Gesellschaft mbH"
+gauge = "1435"
+wikidata = "Q802747"
+from = "Maulbronn West"
+to = "Maulbronn Stadt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.425
+kmTo = 2.401
+length = 2.89
+speeds = [[-0.425, -0.007, 40, 40], [-0.007, 0.023, 10, 10], [0.023, 1.688, 50, 50], [1.688, 2.401, 30, 50]]
+curves = [[-0.311, -0.089, 500], [-0.014, 0.232, 1080], [0.305, 0.812, 490], [0.908, 1.077, 890], [1.125, 1.319, 840], [1.415, 1.777, 500], [1.876, 2.301, 670]]
+points = [
+  { km = -0.415, kind = "signal", label = "641", signal = "minor", dir = -1 },
+  { km = -0.124, kind = "signal", label = "N642", signal = "main,minor", dir = -1 },
+  { km = -0.053, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.029, kind = "station", label = "Maulbronn West AVG", pos = [48.98388, 8.78216] },
+  { km = -0.007, kind = "signal", label = "N642", signal = "main,minor", dir = 1 },
+  { km = -0.007, kind = "signal", signal = "stop", dir = 1 },
+  { km = -0.005, kind = "station", label = "Maulbronn West", uic = "8029003", ele = 269, pos = [48.98384, 8.78145] },
+  { km = 0.023, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.1, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.135, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.135, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.18, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.571, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.688, kind = "signal", signal = "distant,speed_limit", dir = 1 },
+  { km = 2.271, kind = "station", label = "Maulbronn Stadt/Kloster", pos = [48.99657, 8.80268] },
+  { km = 2.297, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.343, kind = "station", label = "Maulbronn Stadt/Kloster", pos = [48.99657, 8.80268] },
+  { km = 2.401, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.821, kmTo = 1.842, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wv`jHwqvt@lC~K|EbK~CbCtLrEnC|BjAbCnE|UnArSfDjUv@rNjA|EhDlCrKdAzFE", v = 50 },
+  { line = "se~iH{frt@l@G", v = 10 },
+  { line = "ed~iHcgrt@hKcBpH}G", v = 40 },
+]
+posts = [[2, 48.99495, 8.79994], [1, 48.98968, 8.79003], [0, 48.98393, 8.78209]]
+
+[[connections]]
+km = -0.029
+station = "Maulbronn West AVG"
+lines = [
+  { id = "4800", ref = "4800", name = "4800 Stuttgart - Bretten Strw 4130/4800", km = 52.609 },
+]
+
+[[connections]]
+km = -0.005
+station = "Maulbronn West"
+lines = [
+  { id = "4800", ref = "4800", name = "4800 Stuttgart - Bretten Strw 4130/4800", km = 52.595 },
+]

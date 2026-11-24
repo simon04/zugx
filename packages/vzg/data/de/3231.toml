@@ -1,0 +1,62 @@
+id = "3231"
+ref = "3231"
+name = "3231 Saarbrücken Hbf - Saarbrücken Grenze"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q829217"
+from = "Saarbrücken Hbf"
+to = "Saarbrücken Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.499
+length = 5.477
+speeds = [[0, 0.818, 60, 60], [0.818, 3.588, "", ""], [3.588, 5.499, 110, ""]]
+curves = [[0.664, 0.767, 1020], [0.818, 1.022, 690], [1.322, 1.447, 1750], [1.547, 2.022, 800], [2.122, 2.397, 780], [2.497, 2.672, 850], [2.822, 3.072, 940], [3.197, 3.422, 910], [3.497, 4.522, 1120], [4.797, 4.847, 2350], [5.322, 5.397, 1900]]
+points = [
+  { km = 0, kind = "station", label = "Saarbrücken Hauptbahnhof", pos = [49.2412, 6.99079], measured = true, uic = "8025391" },
+  { km = 0.017, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.019, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.1, kind = "signal", signal = "main_repeated" },
+  { km = 0.221, kind = "signal", label = "20 ZT16", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 0.726, kind = "signal", label = "204016X", signal = "minor", dir = -1 },
+  { km = 0.737, kind = "signal", signal = "distant,speed_limit", dir = 1 },
+  { km = 0.795, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.603, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.821, kind = "signal", label = "20 N16", signal = "main,speed_limit", dir = 1 },
+  { km = 2.702, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.845, kind = "signal", label = "20 II", signal = "minor", dir = -1 },
+  { km = 3.334, kind = "halt", label = "Nordbahnhof", pos = [49.22885, 6.96136] },
+  { km = 3.588, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.645, kind = "halt", label = "Parkhotel", pos = [49.22599, 6.9619] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.598, kmTo = 0.66, length = 61 },
+  { kind = "bridge", kmFrom = 0.818, kmTo = 0.835, length = 16 },
+  { kind = "bridge", kmFrom = 2.662, kmTo = 2.814, length = 152 },
+  { kind = "bridge", kmFrom = 2.893, kmTo = 2.925, length = 32 },
+  { kind = "bridge", kmFrom = 3.154, kmTo = 3.211, length = 57 },
+  { kind = "bridge", kmFrom = 4.838, kmTo = 4.862, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ynpkHkmti@iCpz@k@vG", v = 60 },
+  { line = "otpkHairi@YdNv@d`@`AzPhCvPxCpHxKhM|NfF|SHjU`FbNE" },
+  { line = "eqmkHwnni@`JlApGbCdG`E~GvH~EnIpJrTxQng@hCnF", v = 110 },
+]
+posts = [[0, 49.24157, 6.9911], [1, 49.24261, 6.97774], [2, 49.24026, 6.96485], [3, 49.23181, 6.96154], [4, 49.22301, 6.95926], [5, 49.2167, 6.94971]]
+
+[[connections]]
+km = 0
+station = "Saarbrücken Hauptbahnhof"
+lines = [
+  { id = "3230", ref = "3230", name = "Saarstrecke", km = 0 },
+  { id = "3250", ref = "3250", name = "3250 Saarbrücken - Homburg", km = 0 },
+  { id = "3261", ref = "3261", name = "3261 Saarbrücken Rbf -Saarbrücken Hbf", km = 0 },
+  { id = "3274", ref = "3274", name = "3274 Wemmetsweiler - Nonnweiler", km = 0 },
+  { id = "3291", ref = "3291", name = "3291 Bahnstrecke Lebach – Völklingen", km = 0 },
+  { id = "3511", ref = "3511", name = "3511 Bingen (Rhein) Hbf - Saarbrücken Hbf", km = 141.889 },
+]

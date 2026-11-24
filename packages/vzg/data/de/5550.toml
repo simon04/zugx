@@ -1,0 +1,152 @@
+id = "5550"
+ref = "5550"
+name = "5550 München Hbf tief - München Ost Pbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "München Hbf tief"
+to = "München Ost Pbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.05
+kmTo = 7.577
+length = 8.778
+speeds = [[0.05, 2.197, "", ""], [2.197, 2.302, 40, 40], [2.302, 3.649, "", ""], [3.649, 7.577, 60, 60]]
+curves = [[0.707, 1.166, 860], [1.452, 1.583, 1080], [1.688, 1.793, 1630], [1.898, 2.149, 960], [2.193, 2.282, 40], [2.355, 2.562, 960], [2.621, 2.665, 2290], [2.724, 2.812, 1230], [2.959, 3.181, 730], [3.239, 3.313, 1690], [3.387, 3.446, 2020], [3.711, 4.249, 370], [4.449, 4.524, 1250], [4.574, 4.624, 2050], [4.899, 5.174, 850], [5.224, 5.524, 860], [5.674, 5.924, 690], [5.999, 6.099, 1160], [6.149, 6.274, 800], [6.374, 6.474, 1000], [6.524, 6.699, 720], [6.749, 6.999, 660], [7.049, 7.174, 860], [7.349, 7.474, 1640]]
+points = [
+  { km = 0.05, kind = "station", label = "Ostbahnhof", uic = "8000262", pos = [48.12808, 11.60363] },
+  { km = 0.065, kind = "signal", label = "68", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 0.066, kind = "station", label = "München Ost", uic = "8000262", pos = [48.12772, 11.60552] },
+  { km = 0.155, kind = "signal", signal = "departure", dir = 1 },
+  { km = 0.167, kind = "signal", label = "45 ZS305", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 0.186, kind = "signal", signal = "catenary_mast,train_protection", dir = -1 },
+  { km = 0.949, kind = "signal", label = "50 ZW604", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 0.965, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.048, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.066, kind = "station", label = "Leuchtenbergring", uic = "8004134", pos = [48.13429, 11.61599] },
+  { km = 1.172, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.271, kind = "signal", label = "50 ZS604", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 2.033, kind = "signal", label = "46 C", signal = "combined,traversable", dir = 1 },
+  { km = 2.039, kind = "signal", label = "46 ZR223", signal = "main", dir = 1 },
+  { km = 2.04, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.197, kind = "signal", label = "46 ZR219", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 2.25, kind = "station", label = "Berg am Laim", uic = "8004142", pos = [48.13397, 11.6336] },
+  { km = 2.299, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.46, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.476, kind = "signal", label = "46 CC", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.91, kind = "signal", label = "50 ZS603", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.912, kind = "signal", signal = "stop", dir = -1 },
+  { km = 2.978, kind = "stop", label = "Leuchtenbergring", uic = "8004134", pos = [48.1344, 11.61653] },
+  { km = 3.035, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.042, kind = "signal", label = "50 ZW603", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 3.579, kind = "signal", label = "45 ZS302", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 3.649, kind = "stop", label = "Ostbahnhof", uic = "8000262", pos = [48.12776, 11.60515] },
+  { km = 3.711, kind = "signal", signal = "departure", dir = 1 },
+  { km = 3.713, kind = "signal", label = "45 P302", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 3.799, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.854, kind = "signal", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 3.897, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.091, kind = "signal", label = "605", signal = "combined", dir = 1 },
+  { km = 4.507, kind = "signal", label = "607", signal = "combined", dir = 1 },
+  { km = 4.568, kind = "signal", label = "656", signal = "combined,traversable", dir = -1 },
+  { km = 4.572, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.633, kind = "signal", label = "03", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 4.664, kind = "station", label = "Rosenheimer Platz", uic = "8004136", pos = [48.12918, 11.59307] },
+  { km = 4.708, kind = "signal", label = "05", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 4.783, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.787, kind = "signal", label = "609", signal = "combined,traversable", dir = 1 },
+  { km = 5.263, kind = "signal", signal = "combined", dir = 1 },
+  { km = 5.42, kind = "signal", label = "09", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 5.545, kind = "signal", label = "11", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 5.594, kind = "station", label = "Isartor", uic = "8004131", pos = [48.13421, 11.58314] },
+  { km = 5.621, kind = "signal", label = "13", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 5.695, kind = "signal", signal = "combined", dir = 1 },
+  { km = 6.164, kind = "signal", label = "615", signal = "combined", dir = 1 },
+  { km = 6.223, kind = "signal", label = "15", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 6.254, kind = "signal", label = "17", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 6.256, kind = "station", label = "Marienplatz", uic = "8004135", pos = [48.13836, 11.57618] },
+  { km = 6.305, kind = "signal", label = "19", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 6.359, kind = "signal", label = "21", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 6.431, kind = "signal", label = "617", signal = "combined", dir = 1 },
+  { km = 6.909, kind = "signal", label = "619", signal = "combined", dir = 1 },
+  { km = 6.956, kind = "signal", label = "668", signal = "combined,traversable", dir = -1 },
+  { km = 6.959, kind = "signal", signal = "stop", dir = -1 },
+  { km = 7.026, kind = "signal", label = "25", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 7.037, kind = "station", label = "Karlsplatz (Stachus)", uic = "8004132", pos = [48.14034, 11.56702] },
+  { km = 7.07, kind = "signal", label = "27", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 7.163, kind = "signal", label = "621", signal = "combined", dir = 1 },
+  { km = 7.363, kind = "signal", label = "623", signal = "combined", dir = 1 },
+  { km = 7.417, kind = "signal", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 7.419, kind = "signal", label = "672", signal = "combined,traversable", dir = -1 },
+  { km = 7.423, kind = "signal", signal = "stop", dir = -1 },
+  { km = 7.443, kind = "station", label = "Hauptbahnhof", pos = [48.14015, 11.5611] },
+  { km = 7.474, kind = "signal", label = "31", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 7.494, kind = "stop", label = "München Hauptbahnhof (tief)", uic = "8098263", pos = [48.14126, 11.56024] },
+  { km = 7.509, kind = "halt", label = "Hauptbahnhof (tief)", uic = "8098263", pos = [48.14126, 11.56003] },
+  { km = 7.548, kind = "signal", label = "33", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 7.577, kind = "station", label = "München Hauptbahnhof", uic = "8020347", pos = [48.14073, 11.55694] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.835, kmTo = 1.896, length = 57 },
+  { kind = "bridge", kmFrom = 2.558, kmTo = 2.592, length = 57 },
+  { kind = "tunnel", kmFrom = 3.942, kmTo = 7.577, length = 3635 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q|vdHstyeA}LmSgQiVmCqFiBuGsEac@oBed@EiNv@gO" },
+  { line = "amxdHmy~eARmF[jF", v = 40 },
+  { line = "imxdHoy~eAw@jODfNnBfd@dEta@zDdMx`@po@" },
+  { line = "o}vdHesyeAtHxN`B`J", v = 60 },
+  { line = "wpvdHixxeAJxEeAvGwLnVcT`_@_GbWcOj[{Hv^oBtO{BbKgC~XuErN}EjUuAhK", tunnel = true, v = 60 },
+]
+posts = [[1, 48.13386, 11.61456], [2, 48.13566, 11.62728], [3, 48.13431, 11.61605], [4, 48.12566, 11.60008], [5, 48.13135, 11.5899], [6, 48.13614, 11.57868], [7, 48.1393, 11.56616]]
+
+[[connections]]
+km = 0.05
+station = "Ostbahnhof"
+lines = [
+  { id = "5510", ref = "5510", name = "5510 München Hbf - Rosenheim", km = 9.758 },
+  { id = "5551", ref = "5551", name = "5551 München Ost Pbf - Deisenhofen", km = -0.077 },
+  { id = "5600", ref = "5600", name = "5600 München Ost Pbf - Simbach (Inn) Grenze", km = 0.011 },
+]
+
+[[connections]]
+km = 0.066
+station = "München Ost"
+lines = [
+  { id = "5551", ref = "5551", name = "5551 München Ost Pbf - Deisenhofen", km = -0.093 },
+]
+
+[[connections]]
+km = 2.25
+station = "Berg am Laim"
+lines = [
+  { id = "5600", ref = "5600", name = "5600 München Ost Pbf - Simbach (Inn) Grenze", km = 2.476 },
+]
+
+[[connections]]
+km = 7.443
+station = "Hauptbahnhof"
+lines = [
+  { id = "5500", ref = "5500", name = "5500 München - Regensburg", km = 0.149 },
+  { id = "5501", ref = "5501", name = "5501 München - Treuchtlingen", km = 0.025 },
+  { id = "5503", ref = "5503", name = "5503 München - Augsburg", km = 0.017 },
+  { id = "5504", ref = "5504", name = "5504 München Hbf - Mittenwald Grenze", km = 0.099 },
+  { id = "5505", ref = "5505", name = "5505 München Hbf - Lenggries", km = 0.099 },
+  { id = "5540", ref = "5540", name = "5540 München Hbf tief - Gauting", km = -0.024 },
+]
+
+[[connections]]
+km = 7.494
+station = "München Hauptbahnhof"
+lines = [
+  { id = "5500", ref = "5500", name = "5500 München - Regensburg", km = 0.249 },
+  { id = "5501", ref = "5501", name = "5501 München - Treuchtlingen", km = 0.119 },
+  { id = "5503", ref = "5503", name = "5503 München - Augsburg", km = 0.111 },
+  { id = "5504", ref = "5504", name = "5504 München Hbf - Mittenwald Grenze", km = 0.107 },
+  { id = "5505", ref = "5505", name = "5505 München Hbf - Lenggries", km = 0.106 },
+  { id = "5510", ref = "5510", name = "5510 München Hbf - Rosenheim", km = 0.113 },
+  { id = "5540", ref = "5540", name = "5540 München Hbf tief - Gauting", km = 0.108 },
+]

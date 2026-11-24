@@ -1,0 +1,60 @@
+id = "6831"
+ref = "6831"
+name = "6831 Pretzsch - Eilenburg"
+operator = "DB Netz AG;Deutsche Regionaleisenbahn GmbH"
+gauge = "1435"
+wikidata = "Q802692"
+from = "Pretzsch"
+to = "Eilenburg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.423
+kmTo = 38.901
+length = 39.333
+speeds = [[-0.423, 38.477, "", ""], [38.477, 38.901, 100, 100]]
+curves = [[0.185, 0.885, 310], [1.26, 1.535, 1120], [2.185, 2.535, 420], [2.585, 2.935, 440], [2.985, 3.135, 1230], [4.51, 4.76, 680], [5.385, 5.56, 1020], [5.935, 6.135, 1280], [6.56, 6.96, 860], [7.135, 7.71, 700], [8.51, 8.885, 880], [9.385, 9.835, 1020], [10.26, 10.61, 820], [10.96, 11.385, 640], [11.585, 12.035, 620], [13.735, 13.86, 1640], [15.31, 15.385, 2210], [16.26, 16.535, 1490], [18.61, 18.685, 2560], [18.785, 18.885, 1940], [18.96, 19.385, 1100], [19.76, 20.66, 720], [21.485, 21.785, 860], [29.335, 29.66, 1090], [35.285, 35.832, 400]]
+points = [
+  { km = 35.343, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 35.674, kind = "signal", label = "H", signal = "main", dir = -1 },
+  { km = 35.776, kind = "signal", signal = "stop", dir = -1 },
+  { km = 36.015, kind = "station", label = "Eilenburg Ost", pos = [51.46325, 12.66689], uic = "8023300" },
+  { km = 36.051, kind = "signal", signal = "stop", dir = 1 },
+  { km = 36.185, kind = "signal", label = "D", signal = "main", dir = 1 },
+  { km = 36.455, kind = "signal", signal = "distant", dir = 1 },
+  { km = 36.508, kind = "signal", label = "G", signal = "combined", dir = -1 },
+  { km = 36.875, kind = "signal", label = "T", signal = "main", dir = 1 },
+  { km = 36.914, kind = "signal", signal = "distant", dir = -1 },
+  { km = 37.249, kind = "signal", signal = "distant", dir = 1 },
+  { km = 38.477, kind = "station", label = "Eilenburg", pos = [51.4518, 12.63683], uic = "8023401" },
+  { km = 51.784, kind = "halt", label = "Eilenburg Ost Bk Hp", uic = "8010161", pos = [51.46348, 12.66813], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.452, kmTo = 2.472, length = 19 },
+  { kind = "bridge", kmFrom = 12.461, kmTo = 12.473, length = 11 },
+  { kind = "bridge", kmFrom = 16.913, kmTo = 16.923, length = 10 },
+  { kind = "bridge", kmFrom = 20.647, kmTo = 20.657, length = 10 },
+  { kind = "bridge", kmFrom = 37.376, kmTo = 37.66, length = 283 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cy_yHibblAkKs_@", v = 100 },
+  { line = "oe`yH}bclAqmAarEwBmEuDmDeEgAcETqyHtzA_HbCqgDlmCkqEdmEaJrDmp@rNgGNuHaBwHuF{D{F{CsHqNkh@eIkPuOgQofBmeByEeGcg@m|@gx@{gBikAkmBgEeE{E}B{U}AaIyCoEqEqSoZaF{NiKug@gBsMs@iNi@ey@gA_OeSq`AyCmMeBkEuCgF{EcFqSiIyJqIqWee@sXa[mi@wYoCqCcx@w_B}IoUqEsEaM}E}EqHiVuz@oByMsFwj@yCsIiFsDyCOuCt@}`@zf@" },
+]
+posts = [[38, 51.45413, 12.64269], [37, 51.45874, 12.65508], [36, 51.46336, 12.66755], [35, 51.47082, 12.67188], [34, 51.47967, 12.66931], [33, 51.48852, 12.66673], [32, 51.49737, 12.66415], [31, 51.50621, 12.66156], [30, 51.51506, 12.65899], [28, 51.53144, 12.64756], [29, 51.52349, 12.65432], [27, 51.53939, 12.64081], [26, 51.54733, 12.63402], [25, 51.55501, 12.62649], [24, 51.56268, 12.61895], [23, 51.57035, 12.6114], [22, 51.57803, 12.60385], [21, 51.58646, 12.59933], [20, 51.59502, 12.60052], [19, 51.60034, 12.61207], [18, 51.60794, 12.61978], [17, 51.61559, 12.62742], [16, 51.62282, 12.63592], [15, 51.62913, 12.64624], [14, 51.63506, 12.65713], [13, 51.64158, 12.66708], [12, 51.64829, 12.67673], [11, 51.65674, 12.68071], [10, 51.66242, 12.6916], [9, 51.66415, 12.70561], [8, 51.66708, 12.71909], [7, 51.67338, 12.72835], [6, 51.68044, 12.737], [5, 51.68836, 12.74368], [4, 51.69537, 12.75228], [3, 51.7015, 12.76289], [2, 51.70814, 12.77176], [1, 51.71194, 12.78478], [0, 51.71832, 12.78744]]
+
+[[connections]]
+km = 36.015
+station = "Eilenburg Ost"
+lines = [
+  { id = "6830", ref = "6830", name = "Pratau–Torgau", km = 45.939 },
+]
+
+[[connections]]
+km = 51.784
+station = "Eilenburg Ost Bk Hp"
+lines = [
+  { id = "6830", ref = "6830", name = "Pratau–Torgau", km = 51.784 },
+]

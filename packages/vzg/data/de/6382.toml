@@ -1,0 +1,107 @@
+id = "6382"
+ref = "6382"
+name = "6382 Leipzig-Wahren - Leipzig Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802635"
+from = "Leipzig-Wahren"
+to = "Leipzig Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.381
+kmTo = 9.279
+length = 9.615
+speeds = [[-0.381, 7.322, 120, 120], [7.322, 8.072, 100, 100], [8.072, 9.279, 80, 80]]
+curves = [[2.973, 3.027, 2420], [7.216, 7.951, 980], [8.316, 8.829, 680], [8.929, 9.079, 880]]
+points = [
+  { km = 0.667, kind = "stop", label = "Leipzig-Lützschena", pos = [51.38997, 12.29337], uic = "8023456" },
+  { km = 1.441, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.468, kind = "signal", label = "33 N1", signal = "main", dir = 1 },
+  { km = 2.836, kind = "station", label = "Leipzig-Wahren", pos = [51.38064, 12.32166], uic = "8023457" },
+  { km = 4.389, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.704, kind = "stop", label = "Leipzig Slevogtstraße", pos = [51.37299, 12.34427], uic = "8033069" },
+  { km = 4.851, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.378, kind = "stop", label = "Leipzig Olbrichtstraße", pos = [51.36989, 12.35349], uic = "8032903" },
+  { km = 5.494, kind = "signal", label = "33 01", signal = "main", dir = 1 },
+  { km = 5.712, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.797, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.005, kind = "signal", label = "33 02", signal = "main,speed_limit,wrong_road", dir = -1 },
+  { km = 6.314, kind = "halt", label = "Leipzig Coppiplatz", uic = "8023181", pos = [51.36702, 12.36627] },
+  { km = 6.794, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 6.933, kind = "stop", label = "Leipzig-Gohlis", uic = "DE16250", pos = [51.36299, 12.37415] },
+  { km = 6.967, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 7.009, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 7.322, kind = "signal", label = "88K", signal = "combined,route_distant,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 7.323, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.662, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.2, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.2, kind = "signal", label = "88 N496", signal = "main,speed_limit", dir = -1 },
+  { km = 8.727, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.155, kind = "station", label = "Leipzig Hauptbahnhof", uic = "8023179", pos = [51.34655, 12.38309] },
+  { km = 9.279, kind = "station", label = "Leipzig Hauptbahnhof (Tiefgleise)", uic = "8015378", pos = [51.34543, 12.38013] },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.096, kmTo = -0.072, length = 24 },
+  { kind = "bridge", kmFrom = 0.55, kmTo = 0.562, length = 12 },
+  { kind = "bridge", kmFrom = 2.622, kmTo = 2.639, length = 18 },
+  { kind = "bridge", kmFrom = 3.019, kmTo = 3.041, length = 20 },
+  { kind = "bridge", kmFrom = 3.502, kmTo = 3.535, length = 33 },
+  { kind = "bridge", kmFrom = 4.422, kmTo = 4.482, length = 43 },
+  { kind = "bridge", kmFrom = 4.606, kmTo = 4.631, length = 25 },
+  { kind = "bridge", kmFrom = 6.007, kmTo = 6.076, length = 74 },
+  { kind = "bridge", kmFrom = 6.085, kmTo = 6.104, length = 21 },
+  { kind = "bridge", kmFrom = 6.377, kmTo = 6.432, length = 49 },
+  { kind = "bridge", kmFrom = 6.68, kmTo = 6.72, length = 35 },
+  { kind = "bridge", kmFrom = 6.975, kmTo = 7.221, length = 276 },
+  { kind = "bridge", kmFrom = 7.349, kmTo = 7.378, length = 24 },
+  { kind = "bridge", kmFrom = 7.453, kmTo = 7.512, length = 66 },
+  { kind = "bridge", kmFrom = 7.517, kmTo = 7.538, length = 24 },
+  { kind = "bridge", kmFrom = 7.623, kmTo = 7.649, length = 25 },
+  { kind = "bridge", kmFrom = 7.953, kmTo = 8.026, length = 75 },
+  { kind = "bridge", kmFrom = 8.458, kmTo = 8.492, length = 35 },
+  { kind = "tunnel", kmFrom = 8.8, kmTo = 9.279, length = 479, name = "City-Tunnel Leipzig" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wpkxHcdqjAaKkNcIuG", tunnel = true, v = 80 },
+  { line = "}flxHe|qjAyFyCiH[wFfAmNdG", v = 80 },
+  { line = "gomxHmwqjAgKdFmGjGmDxFwFlN", v = 100 },
+  { line = "cqnxHsppjAarB|rI_\\tzAoz@`lD", v = 120 },
+]
+posts = [[9, 51.34816, 12.38347], [8, 51.35683, 12.38371], [7, 51.36305, 12.37363], [6, 51.36724, 12.36127], [5, 51.37153, 12.34855], [4, 51.37579, 12.33588], [3, 51.38001, 12.32353], [2, 51.38403, 12.31071], [1, 51.38836, 12.29807], [0, 51.39257, 12.28595]]
+
+[[connections]]
+km = 0.667
+station = "Leipzig-Lützschena"
+lines = [
+  { id = "6403", ref = "6403", name = "Magdeburg-Leipzig", km = 110.491 },
+]
+
+[[connections]]
+km = 2.836
+station = "Leipzig-Wahren"
+lines = [
+  { id = "6403", ref = "6403", name = "Magdeburg-Leipzig", km = 112.745 },
+]
+
+[[connections]]
+km = 6.314
+station = "Leipzig Coppiplatz"
+lines = [
+  { id = "6367", ref = "6367", name = "6367 Leipzig Hbf - Großkorbetha", km = 2.811 },
+]
+
+[[connections]]
+km = 9.155
+station = "Leipzig Hauptbahnhof"
+lines = [
+  { id = "5919", ref = "5919", name = "5919 Eltersdorf - Leipzig Hbf", km = 311.76 },
+  { id = "6363", ref = "6363", name = "6363 Leipzig Hbf - Dresden-Neustadt", km = -0.114 },
+  { id = "6366", ref = "6366", name = "6366 Leipzig - Geithain", km = -0.009 },
+  { id = "6367", ref = "6367", name = "6367 Leipzig Hbf - Großkorbetha", km = -0.341 },
+  { id = "6396", ref = "6396", name = "6396 City-Tunnel Leipzig", km = 3.691 },
+  { id = "6411", ref = "6411", name = "6411 Trebnitz – Leipzig", km = 81.148 },
+]

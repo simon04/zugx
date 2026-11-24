@@ -1,0 +1,100 @@
+id = "3533"
+ref = "3533"
+name = "3533 Groß-Gerau-Dornberg - Groß-Gerau"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Groß-Gerau-Dornberg"
+to = "Groß-Gerau"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 53.636
+kmTo = 56.198
+length = 2.553
+speeds = [[53.636, 53.831, "", ""], [53.831, 53.997, 80, 80], [53.997, 54.895, "", ""], [54.895, 55.876, 80, 80], [55.876, 56.038, 70, 70], [56.038, 56.121, 100, 100], [56.121, 56.198, 60, 60]]
+curves = [[54.824, 54.898, 2140], [54.972, 55.051, 2750], [55.301, 55.948, 510], [55.998, 56.098, 30]]
+points = [
+  { km = 53.997, kind = "signal", label = "23 ZV1", signal = "combined,speed_limit,train_protection", dir = 1 },
+  { km = 54.367, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 54.406, kind = "stop", label = "Groß-Gerau Dornberg", pos = [49.91199, 8.49452] },
+  { km = 54.426, kind = "station", label = "Groß Gerau-Dornberg", uic = "8002386", pos = [49.91217, 8.4947] },
+  { km = 54.624, kind = "signal", label = "23 N1", signal = "catenary_mast,combined,speed_limit,train_protection,traversable,wrong_road", dir = 1 },
+  { km = 54.839, kind = "signal", signal = "minor", dir = 1 },
+  { km = 54.905, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 55.224, kind = "signal", label = "23 H", signal = "catenary_mast,combined,speed_limit,speed_limit_distant,train_protection,traversable", dir = -1 },
+  { km = 55.367, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 55.454, kind = "signal", signal = "distant", dir = 1 },
+  { km = 55.508, kind = "signal", signal = "distant", dir = 1 },
+  { km = 55.591, kind = "signal", label = "GG", signal = "distant,main", dir = 1 },
+  { km = 55.876, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 56.038, kind = "station", label = "Groß Gerau", uic = "8000136", pos = [49.92483, 8.48585] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 53.711, kmTo = 53.734, length = 23 },
+  { kind = "bridge", kmFrom = 54.64, kmTo = 54.654, length = 15 },
+  { kind = "bridge", kmFrom = 55.094, kmTo = 55.111, length = 15 },
+  { kind = "bridge", kmFrom = 55.561, kmTo = 55.581, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ozuoHc}xr@h@iE", v = 60 },
+  { line = "eyuoHmcyr@c@`F", v = 100 },
+  { line = "izuoHk|xr@|AkL", v = 70 },
+  { line = "kwuoHwiyr@pCeJ~CyDvDcC`E{@|Wc@", v = 80 },
+  { line = "aitoH{azr@ds@\\" },
+  { line = "{troH}`zr@xHA", v = 80 },
+  { line = "akroH_azr@~IB" },
+]
+posts = [[56, 49.92428, 8.48905], [55, 49.91744, 8.49444], [54, 49.90816, 8.49439]]
+
+[[tracks]]
+track = "2"
+kmFrom = 53.638
+kmTo = 56.016
+length = 2.391
+speeds = [[53.638, 53.809, 200, 200], [53.809, 55.632, 80, 80], [55.632, 56.016, 60, 60]]
+curves = [[53.804, 53.857, 2550], [54.801, 54.894, 1530], [54.986, 55.065, 2370], [55.313, 55.916, 510]]
+points = [
+  { km = 54.02, kind = "signal", label = "23 ZV2", signal = "combined,speed_limit,train_protection", dir = -1 },
+  { km = 54.455, kind = "stop", label = "Groß-Gerau Dornberg", pos = [49.91199, 8.49457] },
+  { km = 54.472, kind = "station", label = "Groß Gerau-Dornberg", uic = "8002386", pos = [49.91217, 8.4947] },
+  { km = 54.632, kind = "signal", label = "23 ZS2", signal = "catenary_mast,combined,route,speed_limit,speed_limit_distant,train_protection,traversable,wrong_road", dir = 1 },
+  { km = 54.824, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 54.849, kind = "signal", signal = "minor", dir = -1 },
+  { km = 55.223, kind = "signal", label = "23 HH", signal = "catenary_mast,combined,speed_limit,speed_limit_distant,train_protection", dir = -1 },
+  { km = 55.362, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 55.464, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 55.534, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 55.632, kind = "signal", label = "G", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 56.016, kind = "station", label = "Groß Gerau", uic = "8000136", pos = [49.92483, 8.48585] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 53.713, kmTo = 53.736, length = 23 },
+  { kind = "bridge", kmFrom = 54.661, kmTo = 54.675, length = 15 },
+  { kind = "bridge", kmFrom = 55.095, kmTo = 55.111, length = 15 },
+  { kind = "bridge", kmFrom = 55.602, kmTo = 55.621, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ozuoHc}xr@vCwQxEcI", v = 60 },
+  { line = "}nuoH_zyr@xEeDxFaAdZm@nz@h@", v = 80 },
+  { line = "siroHkazr@pHN", v = 200 },
+]
+posts = [[56, 49.92436, 8.48888], [55, 49.91745, 8.49451], [54, 49.90797, 8.49445]]
+
+[[connections]]
+km = 54.406
+station = "Groß-Gerau Dornberg"
+lines = [
+  { id = "4010", ref = "4010", name = "4010 Mannheim Hbf - Frankfurt am Main Stadion", km = 54.43 },
+]
+
+[[connections]]
+km = 56.038
+station = "Groß Gerau"
+lines = [
+  { id = "3530", ref = "3530", name = "3530 Mainz-Bischofsheim - Darmstadt Hbf", km = 19.729 },
+]

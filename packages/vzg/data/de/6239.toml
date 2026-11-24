@@ -1,0 +1,73 @@
+id = "6239"
+ref = "6239"
+name = "Bahnstrecke Pirna–Coswig"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q2204401"
+from = "Pirna"
+to = "Coswig (b Dresden)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 101.761
+kmTo = 102.941
+length = 1.19
+speeds = [[101.761, 102.308, 110, 110], [102.308, 102.592, 100, 100], [102.592, 102.941, 120, 120]]
+curves = [[101.86, 102.107, 1280]]
+points = [
+  { km = 101.869, kind = "signal", label = "512", signal = "combined,minor,traversable", dir = -1 },
+  { km = 101.931, kind = "signal", signal = "distant", dir = -1 },
+  { km = 101.992, kind = "station", label = "Coswig (b Dresden)", pos = [51.12282, 13.57946], uic = "8006226" },
+  { km = 102.063, kind = "signal", signal = "distant", dir = -1 },
+  { km = 102.077, kind = "signal", signal = "stop", dir = 1 },
+  { km = 102.305, kind = "signal", label = "519", signal = "main,minor,route,wrong_road", dir = 1 },
+  { km = 102.308, kind = "signal", label = "522", signal = "combined,minor,speed_limit,traversable", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 101.781, kmTo = 101.792, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}b`wHgzzqAxFwO`GqX", v = 110 },
+  { line = "as_wHqd|qAhFaV", v = 100 },
+  { line = "wk_wHs{|qAnGc[", v = 120 },
+]
+posts = [[102, 51.12254, 13.58026]]
+
+[[tracks]]
+track = "2"
+kmFrom = 101.761
+kmTo = 102.941
+length = 1.19
+speeds = [[101.761, 102.308, 110, 110], [102.308, 102.592, 100, 100], [102.592, 102.941, 120, 120]]
+curves = [[101.86, 102.107, 1280]]
+points = [
+  { km = 101.869, kind = "signal", label = "512", signal = "combined,minor,traversable", dir = -1 },
+  { km = 101.931, kind = "signal", signal = "distant", dir = -1 },
+  { km = 101.992, kind = "station", label = "Coswig (b Dresden)", pos = [51.12282, 13.57946], uic = "8006226" },
+  { km = 102.063, kind = "signal", signal = "distant", dir = -1 },
+  { km = 102.077, kind = "signal", signal = "stop", dir = 1 },
+  { km = 102.305, kind = "signal", label = "519", signal = "main,minor,route,wrong_road", dir = 1 },
+  { km = 102.308, kind = "signal", label = "522", signal = "combined,minor,speed_limit,traversable", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 101.781, kmTo = 101.792, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}b`wHgzzqAxFwO`GqX", v = 110 },
+  { line = "as_wHqd|qAhFaV", v = 100 },
+  { line = "wk_wHs{|qAnGc[", v = 120 },
+]
+posts = [[102, 51.12254, 13.58026]]
+
+[[connections]]
+km = 101.992
+station = "Coswig"
+lines = [
+  { id = "6198", ref = "6198", name = "6198 Brieske - Hosena Streckenwechsel 6198/6194", km = 34.792 },
+  { id = "6363", ref = "6363", name = "6363 Leipzig Hbf - Dresden-Neustadt", km = 101.991 },
+]

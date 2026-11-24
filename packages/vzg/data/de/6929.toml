@@ -1,0 +1,53 @@
+id = "6929"
+ref = "6929"
+name = "6929 Dalwitzhof - Sanitz (bei Rostock)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q107722057"
+from = "Dalwitzhof"
+to = "Sanitz (bei Rostock)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 16.581
+length = 16.581
+speeds = [[0, 16.581, 80, 80]]
+curves = [[5, 5.275, 700], [7.425, 7.65, 1020], [8.45, 8.65, 1030], [11.15, 11.75, 620], [12.5, 13.025, 650], [14.125, 14.4, 920], [15, 15.225, 910], [16.1, 16.375, 580], [16.425, 16.475, 1980]]
+points = [
+  { km = 0.405, kind = "station", label = "Sanitz (b Rostock)", pos = [54.07503, 12.37668] },
+  { km = 0.446, kind = "signal", signal = "catenary_mast,stop", dir = 1 },
+  { km = 0.452, kind = "signal", label = "29P1", signal = "main", dir = 1 },
+  { km = 0.954, kind = "signal", label = "A", signal = "height,speed_limit", dir = -1 },
+  { km = 2.829, kind = "signal", signal = "height,stop", dir = -1 },
+  { km = 2.885, kind = "signal", signal = "height,stop", dir = -1 },
+  { km = 2.887, kind = "stop", label = "Groß Lüsewitz", pos = [54.0734, 12.33877] },
+  { km = 6.664, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.89, kind = "signal", signal = "height,stop", dir = -1 },
+  { km = 7.928, kind = "signal", signal = "height,stop", dir = -1 },
+  { km = 7.954, kind = "stop", label = "Broderstorf", pos = [54.07895, 12.26302], uic = "8011270" },
+  { km = 8.131, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 8.189, kind = "signal", signal = "height,snowplow", dir = -1 },
+  { km = 8.877, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 11.233, kind = "signal", signal = "height,stop", dir = -1 },
+  { km = 11.266, kind = "signal", signal = "height,stop", dir = -1 },
+  { km = 11.298, kind = "halt", label = "Roggentin", uic = "8012785", pos = [54.07342, 12.21279] },
+  { km = 11.38, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 11.496, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 12.225, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 12.359, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 16.115, kind = "signal", label = "E", signal = "combined", dir = 1 },
+  { km = 16.353, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 13.107, kmTo = 13.163, length = 56 },
+  { kind = "bridge", kmFrom = 13.895, kmTo = 13.926, length = 31 },
+  { kind = "bridge", kmFrom = 14.476, kmTo = 14.563, length = 87 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uq`iIkoqjA|SfeNa@jJog@lnEc@bJ{@~uAt`@`yF`AzHlCdKzF`Kfn@`e@tHdLzC`LnXdoBb@lLAp`Ak@fMuOtyA{B`JwHjQ", v = 80 },
+]
+posts = [[0, 54.07531, 12.38278], [1, 54.07469, 12.3675], [2, 54.07402, 12.35221], [3, 54.07334, 12.33693], [4, 54.07266, 12.32164], [5, 54.07198, 12.30636], [6, 54.07437, 12.29168], [7, 54.07722, 12.27714], [8, 54.07893, 12.26223], [9, 54.07817, 12.24708], [10, 54.07613, 12.23215], [11, 54.0741, 12.21721], [12, 54.06853, 12.20645], [13, 54.06137, 12.19795], [14, 54.05809, 12.18368], [15, 54.05726, 12.16859], [16, 54.05964, 12.15386]]

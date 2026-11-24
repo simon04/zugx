@@ -1,0 +1,32 @@
+id = "2205"
+ref = "2205"
+name = "2205 Wanne-Eickel Hbf - Gelsenkirchen Streckenw. 2205/2206"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Wanne-Eickel Hbf"
+to = "Gelsenkirchen Streckenwechsel 2205/2206"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.872
+length = 1.872
+speeds = [[0, 0.087, "", ""], [0.087, 1.872, 60, 60]]
+curves = [[0.1, 1.125, 320]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.087, kmTo = 0.1, length = 13 },
+  { kind = "bridge", kmFrom = 0.315, kmTo = 0.336, length = 21 },
+  { kind = "bridge", kmFrom = 0.479, kmTo = 0.495, length = 16 },
+  { kind = "bridge", kmFrom = 0.682, kmTo = 0.695, length = 14 },
+  { kind = "bridge", kmFrom = 0.959, kmTo = 1.024, length = 65 },
+  { kind = "bridge", kmFrom = 1.367, kmTo = 1.378, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yqmyHymtj@fBxD" },
+  { line = "qnmyH_htj@`AbEX~FWxGw@lEuDlHqKxHiBzDgAvF}AplA", v = 60 },
+]
+posts = [[0, 51.52045, 7.15501], [1, 51.52365, 7.14427]]

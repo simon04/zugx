@@ -1,0 +1,72 @@
+id = "3306"
+ref = "3306"
+name = "3306 Landstuhl – Glan-Münchweiler"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802608"
+from = "Landstuhl"
+to = "Glan-Münchweiler"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.555
+kmTo = 14.085
+length = 14.582
+speeds = [[-0.555, 0.435, 60, 60], [0.435, 4.323, 80, 80], [4.323, 9.814, "", ""], [9.814, 10.286, 70, 70], [10.286, 14.085, "", ""]]
+curves = [[-0.448, -0.148, 1370], [0.027, 0.953, 500], [2.042, 2.711, 830], [3.385, 4.135, 470], [4.185, 4.46, 640], [5.01, 5.985, 660], [6.285, 6.51, 1320], [7.785, 7.96, 1090], [8.135, 8.36, 1210], [9.36, 9.835, 780], [9.91, 10.435, 970], [10.485, 10.735, 570], [10.785, 11.01, 760], [11.41, 11.685, 780], [11.785, 12.285, 420], [12.51, 12.86, 570], [13.06, 13.785, 770], [13.885, 13.985, 970]]
+points = [
+  { km = -0.489, kind = "signal", label = "15N3", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = -0.475, kind = "signal", label = "15N3", signal = "main,speed_limit", dir = -1 },
+  { km = -0.229, kind = "station", label = "Landstuhl", pos = [49.41631, 7.56639], uic = "8003515" },
+  { km = -0.14, kind = "signal", label = "15P3", signal = "main,minor,traversable", dir = 1 },
+  { km = -0.127, kind = "signal", label = "15P2", signal = "main,speed_limit", dir = 1 },
+  { km = 0.055, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.102, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.388, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.423, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.435, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.507, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.752, kind = "signal", label = "15B", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 0.759, kind = "signal", label = "15B", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 1.314, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.425, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.435, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.436, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.971, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.011, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 2.375, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.339, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.493, kind = "station", label = "Ramstein", pos = [49.44891, 7.55661], uic = "8004938" },
+  { km = 5.574, kind = "stop", label = "Miesenbach", pos = [49.45644, 7.54828], uic = "8007482" },
+  { km = 7.346, kind = "stop", label = "Steinwenden", pos = [49.4542, 7.52437], uic = "8005715" },
+  { km = 9.057, kind = "stop", label = "Obermohr", pos = [49.45629, 7.50134], uic = "8004557" },
+  { km = 11.256, kind = "stop", label = "Niedermohr", pos = [49.45849, 7.47154], uic = "8004396" },
+  { km = 13.857, kind = "station", label = "Glan-Münchweiler", pos = [49.47044, 7.44482], uic = "8002286" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.152, kmTo = 5.168, length = 16 },
+  { kind = "bridge", kmFrom = 7.403, kmTo = 7.416, length = 12 },
+  { kind = "bridge", kmFrom = 9.509, kmTo = 9.531, length = 21 },
+  { kind = "bridge", kmFrom = 10.286, kmTo = 10.296, length = 10 },
+  { kind = "bridge", kmFrom = 11.683, kmTo = 11.7, length = 17 },
+  { kind = "bridge", kmFrom = 12.426, kmTo = 12.452, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sr}lHabml@vFf@bNy@zG{BxDuCzGiNrFg\\jBoG|CwFxNwQjCsGtAkMa@s^`Hin@T}\\fDsY" },
+  { line = "mozlHgytl@KqQeBqT", v = 70 },
+  { line = "_szlHkavl@s@eOZuMjSy}A`Bub@iGcwBm@qJkGif@O{H^kLnCsQnFsK~CoCna@wTvBoB" },
+  { line = "uvxlH_bcm@rHaPbE}ElGiCrGJ|GxDbg@dm@nGjDdMvAxeA_OnH_EfCmDvBcF", v = 80 },
+  { line = "yurlHkdcm@dBgIf@iIiAy_@?eO`@yJ", v = 60 },
+]
+posts = [[14, 49.47182, 7.44479], [13, 49.4646, 7.45087], [12, 49.45912, 7.4614], [11, 49.45777, 7.47489], [10, 49.45686, 7.48845], [9, 49.45613, 7.50183], [8, 49.45374, 7.51512], [7, 49.45446, 7.52888], [6, 49.45623, 7.54237], [5, 49.45321, 7.5539], [4, 49.44568, 7.56088], [3, 49.43782, 7.55745], [2, 49.4297, 7.55268], [1, 49.42071, 7.55472], [0, 49.41618, 7.56337]]
+
+[[connections]]
+km = -0.229
+station = "Landstuhl"
+lines = [
+  { id = "3280", ref = "3280", name = "3280 Homburg - Ludwigshafen", km = 28.389 },
+  { id = "3450", ref = "3450", name = "3450 Rheinsheim - Rohrbach (Saar)", km = 28.389 },
+]

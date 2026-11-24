@@ -1,0 +1,29 @@
+id = "1773"
+ref = "1773"
+name = "1773 Hildesheim Hbf - Goslar"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q802435"
+from = "Goslar"
+to = "Goslar"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.222
+length = 0.222
+speeds = [[0, 0.166, "", ""], [0.166, 0.222, 80, 80]]
+curves = []
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.131, kmTo = 0.15, length = 19 },
+  { kind = "bridge", kmFrom = 0.181, kmTo = 0.2, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "khj}He~u{@{BwL" },
+  { line = "glj}H}kv{@f@tC", v = 80 },
+]
+posts = [[0, 52.15894, 9.94803]]

@@ -1,0 +1,123 @@
+id = "5210"
+ref = "5210"
+name = "5210 Gemünden (Main) - Bad Kissingen"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q802328"
+from = "Gemünden (Main)"
+to = "Bad Kissingen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.362
+kmTo = 47.024
+length = 45.606
+speeds = [[1.362, 1.431, 60, 60], [1.431, 1.699, 70, 60], [1.699, 7.148, 70, 70], [7.148, 7.434, 60, 60], [7.434, 23.965, 70, 70], [23.965, 28.842, 80, 80], [28.842, 28.945, 50, 50], [28.945, 31.185, 70, 70], [31.185, 32.961, 80, 80], [32.961, 33.232, 50, 50], [33.232, 34.42, 70, 70], [34.42, 34.66, 50, 50], [34.66, 35.934, 70, 70], [35.934, 36.221, 50, 50], [36.221, 38.927, 80, 80], [38.927, 44.332, 70, 70], [44.332, 44.51, 50, 50], [44.51, 46.207, 80, 80], [46.207, 46.513, 40, 80], [46.513, 47.024, 40, 40]]
+curves = [[1.469, 2.269, 370], [2.444, 2.669, 700], [3.094, 3.244, 760], [3.694, 3.844, 1440], [3.944, 4.269, 730], [4.319, 4.994, 330], [5.069, 5.144, 1650], [5.369, 5.519, 1410], [5.844, 6.844, 470], [7.569, 8.269, 490], [8.369, 8.669, 450], [8.769, 9.219, 1000], [9.519, 9.694, 900], [9.794, 10.569, 790], [10.769, 11.219, 810], [11.294, 11.494, 1010], [11.624, 11.755, 1400], [11.86, 12.096, 620], [12.358, 12.41, 2160], [12.515, 12.749, 1260], [12.799, 13.124, 430], [13.199, 13.724, 800], [13.824, 14.524, 350], [15.049, 15.624, 320], [15.724, 15.874, 1920], [15.924, 16.574, 310], [16.974, 18.149, 330], [18.299, 18.374, 2020], [18.449, 19.424, 830], [19.849, 20.624, 360], [20.674, 21.299, 600], [21.374, 21.524, 980], [21.599, 22.399, 560], [22.649, 23.274, 490], [23.549, 23.699, 730], [23.749, 23.974, 660], [24.549, 25.024, 1010], [25.299, 25.449, 1370], [25.549, 25.924, 1720], [26.074, 26.199, 1510], [26.349, 26.574, 710], [26.624, 26.799, 940], [27.699, 27.799, 1540], [27.974, 28.274, 510], [28.324, 28.849, 430], [29.074, 29.624, 580], [29.824, 30.424, 660], [30.674, 31.249, 840], [31.749, 32.274, 530], [33.124, 33.574, 600], [33.799, 34.449, 510], [34.674, 34.999, 1260], [35.999, 36.324, 500], [36.449, 36.724, 1310], [36.949, 37.374, 870], [37.449, 37.849, 920], [38.524, 38.924, 710], [38.974, 39.849, 650], [40.049, 40.274, 920], [40.349, 40.474, 1440], [40.549, 40.649, 1560], [41.049, 41.174, 1080], [41.749, 41.799, 2230], [41.949, 42.024, 2860], [42.099, 42.874, 510], [43.074, 43.624, 310], [43.674, 44.024, 370], [44.074, 44.474, 340], [44.524, 44.849, 920], [45.074, 45.699, 600], [46.099, 46.474, 990], [46.574, 46.674, 2080]]
+points = [
+  { km = 1.431, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.699, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 2.22, kind = "stop", label = "Kleingemünden", pos = [50.06297, 9.6879], uic = "8003329" },
+  { km = 2.629, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 7.148, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.434, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.15, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.866, kind = "halt", label = "Wolfsmünster", uic = "8006554", pos = [50.09463, 9.7347] },
+  { km = 11.924, kind = "signal", label = "98P2", signal = "main,traversable", dir = -1 },
+  { km = 12.023, kind = "signal", label = "98?", signal = "distant", dir = -1 },
+  { km = 12.148, kind = "station", label = "Gräfendorf", uic = "8002341", pos = [50.11781, 9.73622] },
+  { km = 12.251, kind = "signal", label = "98N2", signal = "main,traversable", dir = 1 },
+  { km = 15.829, kind = "halt", label = "Michelaubrück", uic = "8004013", pos = [50.11667, 9.76797] },
+  { km = 17.837, kind = "halt", label = "Weickersgrüben", pos = [50.10687, 9.78238] },
+  { km = 19.876, kind = "stop", label = "Morlesau", pos = [50.11707, 9.79911], uic = "8004090" },
+  { km = 23.965, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 23.97, kind = "halt", label = "Diebach", pos = [50.12867, 9.83801] },
+  { km = 24.603, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 27.415, kind = "station", label = "Hammelburg", uic = "8002567", pos = [50.11991, 9.88331] },
+  { km = 27.49, kind = "signal", label = "97N2", signal = "main,minor,traversable" },
+  { km = 28.842, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 28.892, kind = "stop", label = "Hammelburg Ost", pos = [50.11595, 9.90227], uic = "8002568" },
+  { km = 28.945, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 29.642, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 31.693, kind = "stop", label = "Westheim-Langendorf", pos = [50.126, 9.93183] },
+  { km = 32.285, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 32.961, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 33.232, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 33.658, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 33.933, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 34.42, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 34.66, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 35.179, kind = "station", label = "Elfershausen-Trimberg", pos = [50.14051, 9.96913] },
+  { km = 35.502, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 35.934, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 36.221, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 36.911, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 37.946, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 38.927, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 39.771, kind = "halt", label = "Euerdorf", pos = [50.14992, 10.02806] },
+  { km = 44.163, kind = "signal", label = "91Vb", signal = "distant", dir = 1 },
+  { km = 44.332, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 44.51, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 45.137, kind = "signal", label = "91A", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 45.215, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 45.547, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 46.207, kind = "signal", label = "91ZR", signal = "combined,minor,speed_limit", dir = 1 },
+  { km = 46.513, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 46.637, kind = "signal", label = "91P1", signal = "main,minor,route", dir = -1 },
+  { km = 46.843, kind = "station", label = "Bad Kissingen", pos = [50.19156, 10.07974], uic = "8000714" },
+  { km = 46.875, kind = "signal", label = "91 01X", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.668, kmTo = 1.693, length = 25 },
+  { kind = "bridge", kmFrom = 1.82, kmTo = 1.834, length = 14 },
+  { kind = "bridge", kmFrom = 1.886, kmTo = 1.927, length = 41 },
+  { kind = "bridge", kmFrom = 2.15, kmTo = 2.166, length = 16 },
+  { kind = "bridge", kmFrom = 2.3, kmTo = 2.349, length = 49 },
+  { kind = "bridge", kmFrom = 2.392, kmTo = 2.432, length = 40 },
+  { kind = "bridge", kmFrom = 8.542, kmTo = 8.572, length = 30 },
+  { kind = "bridge", kmFrom = 8.717, kmTo = 8.734, length = 17 },
+  { kind = "bridge", kmFrom = 12.412, kmTo = 12.447, length = 33 },
+  { kind = "bridge", kmFrom = 13.391, kmTo = 13.403, length = 12 },
+  { kind = "bridge", kmFrom = 15.75, kmTo = 15.762, length = 12 },
+  { kind = "bridge", kmFrom = 23.625, kmTo = 23.642, length = 17 },
+  { kind = "bridge", kmFrom = 23.708, kmTo = 23.749, length = 41 },
+  { kind = "bridge", kmFrom = 24.762, kmTo = 24.774, length = 12 },
+  { kind = "bridge", kmFrom = 26.546, kmTo = 26.594, length = 49 },
+  { kind = "bridge", kmFrom = 27.729, kmTo = 27.749, length = 19 },
+  { kind = "bridge", kmFrom = 27.805, kmTo = 27.828, length = 23 },
+  { kind = "bridge", kmFrom = 29.732, kmTo = 29.754, length = 22 },
+  { kind = "bridge", kmFrom = 31.173, kmTo = 31.185, length = 13 },
+  { kind = "bridge", kmFrom = 33.03, kmTo = 33.141, length = 111 },
+  { kind = "bridge", kmFrom = 34.471, kmTo = 34.574, length = 103 },
+  { kind = "bridge", kmFrom = 34.68, kmTo = 34.691, length = 11 },
+  { kind = "bridge", kmFrom = 35.937, kmTo = 36.057, length = 120 },
+  { kind = "bridge", kmFrom = 39.09, kmTo = 39.108, length = 18 },
+  { kind = "bridge", kmFrom = 39.224, kmTo = 39.296, length = 72, name = "Viadukt" },
+  { kind = "bridge", kmFrom = 44.382, kmTo = 44.44, length = 58 },
+  { kind = "bridge", kmFrom = 45.265, kmTo = 45.302, length = 37 },
+  { kind = "bridge", kmFrom = 46.467, kmTo = 46.509, length = 42 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gijqHmxo|@d[xG", v = 40 },
+  { line = "amiqHsoo|@jN^p`@oLpIK`F|AfDjCvR`Z~IhG", v = 80 },
+  { line = "offqHyqn|@|GrE", v = 50 },
+  { line = "q}eqHekn|@|ClIrAfRdA|EzCjFpJ|IdCjKNlDe@vHsJx[iCxOUfJ\\|DbBxFjCnDvRxNz`@d]bg@jo@rOl]bEhFpHtF|BvDjA|Eb@jG}@nN", v = 70 },
+  { line = "odaqHe|c|@o@lJNlMbMpmANtL_AlY\\zLrIlc@bLl[", v = 80 },
+  { line = "e``qH{||{@p@dGAnO", v = 50 },
+  { line = "u~_qHed|{@aB|tAt@lX", v = 70 },
+  { line = "a``qHytx{@~AnS", v = 50 },
+  { line = "a}_qHi`x{@|B~MvGbLjGbD|WvE`DtCvAhC", v = 70 },
+  { line = "gg~pHiov{@pGrR", v = 50 },
+  { line = "u~}pHu{u{@nV|v@`BrLLvHWfGcJjt@", v = 80 },
+  { line = "qo}pHwnq{@k@xS\\bJrOpe@nBpDjClClLxDnOpI`D|CzC|FrAzEvClU", v = 70 },
+  { line = "gh{pHucm{@t@rG", v = 50 },
+  { line = "qf{pHa{l{@r@dL_@fJoBfIuGhLeCrIsCp[sQrsAs@tQy@dG}DtQsFf]iLp`@oIt_@aAfLG~Lj@zv@", v = 80 },
+  { line = "iw}pHan`{@\\`JjCrNd@zFhB|\\IlCy@xGkJpT}Gd_@aBjUVlJlA|GtCvGrJlKjGpKpC~CdGhDdEp@lD]pIaF~DgAxEf@lCnBnCzFtA~IzAf~@bBhPnDtNhC`EdFdCl\\u@nDv@lBxAxBtDhAfE^|FSxGeCrNqCpFkB|AcEz@e_@iDkEvA_ErFoAtF[fGhAxVLnU}@fFmBrEwFxDie@J_FdAiBhBaDzHm@rI`@rI|DnSvDnKxBnDfClCnJbGhCrDfFxSzTzl@`K|JdIhKdN|X`ElFzBzAzR~HxDj@dJSdGsBfGiFdJwMjNs_@hCaFvHiHnJwFfCg@jCNrLhEhCpBrEhIdBzHf@fG[rW", v = 70 },
+  { line = "gpupHktjz@s@zW", v = 60 },
+  { line = "{qupHo{iz@{@v`@\\pJlDvOfCxC`CpAxEJdFwAjYqWxZiRvBY~Db@vEfEfBnFb@hDh@tTlAlJfGnTvQrc@|M`o@`@xGXrZpBbMhEzIdEhClETjGiE", v = 70 },
+  { line = "q}opHoibz@tAiC", v = 60 },
+]
+posts = [[47, 50.19279, 10.08013], [46, 50.18395, 10.07944], [45, 50.17567, 10.07792], [44, 50.16954, 10.06882], [43, 50.1667, 10.05777], [42, 50.16584, 10.04657], [41, 50.15805, 10.03957], [40, 50.15117, 10.03063], [39, 50.146, 10.02038], [38, 50.14478, 10.00676], [37, 50.14391, 9.99301], [36, 50.14009, 9.98064], [35, 50.14057, 9.96663], [34, 50.13768, 9.954], [33, 50.13006, 9.9481], [32, 50.12558, 9.93605], [31, 50.12765, 9.92251], [30, 50.12271, 9.91173], [29, 50.11618, 9.90357], [28, 50.11846, 9.89119], [27, 50.12117, 9.87783], [26, 50.12401, 9.86462], [25, 50.12824, 9.85228], [24, 50.1287, 9.83843], [23, 50.1277, 9.82496], [22, 50.13118, 9.8124], [21, 50.12489, 9.80312], [20, 50.11727, 9.8008], [19, 50.11608, 9.78699], [18, 50.10809, 9.78362], [17, 50.10977, 9.77412], [16, 50.11695, 9.77033], [15, 50.11998, 9.76005], [14, 50.12745, 9.75587], [13, 50.122, 9.74572], [12, 50.11705, 9.73464], [11, 50.11044, 9.72577], [10, 50.10189, 9.72384], [9, 50.09567, 9.73375], [8, 50.08751, 9.7338], [7, 50.08699, 9.72025], [6, 50.08268, 9.71153], [5, 50.07473, 9.71803], [4, 50.06984, 9.70987], [3, 50.0648, 9.69834], [2, 50.06237, 9.6851]]

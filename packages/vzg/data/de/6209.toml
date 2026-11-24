@@ -1,0 +1,27 @@
+id = "6209"
+ref = "6209"
+name = "Särichen–Mückenhain"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.815
+length = 1.815
+speeds = [[0, 1.815, 60, 60]]
+curves = [[0.1, 0.175, 1960], [0.35, 1.025, 610], [1.35, 1.7, 700]]
+points = [
+  { km = 1.748, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.165, kmTo = 1.181, length = 16 },
+  { kind = "bridge", kmFrom = 1.62, kmTo = 1.635, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q{`xHet}yAa[fBwFxCeFfGuDfJyK~d@mAdOHbO", v = 60 },
+]
+posts = [[0, 51.29161, 14.90259], [1, 51.29954, 14.89779]]

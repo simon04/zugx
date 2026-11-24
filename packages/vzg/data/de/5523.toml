@@ -1,0 +1,50 @@
+id = "5523"
+ref = "5523"
+name = "5523 München-Allach - München Nord Rbf Forstweg"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q121815707"
+from = "München-Allach"
+to = "München Nord Rbf Forstweg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.132
+length = 3.132
+speeds = [[0, 0.207, "", ""], [0.207, 2.006, 60, 60], [2.006, 2.949, 80, 80], [2.949, 3.132, 60, 60]]
+curves = [[0.225, 1.35, 260]]
+points = [
+  { km = 0.229, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.452, kind = "signal", label = "A", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 1.641, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.166, kind = "signal", label = "59N3", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 2.365, kind = "station", label = "Allach", uic = "8004140", pos = [48.19003, 11.46811] },
+  { km = 2.949, kind = "signal", label = "59P3", signal = "distant,main,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.513, kmTo = 0.588, length = 75 },
+  { kind = "bridge", kmFrom = 0.98, kmTo = 1.022, length = 42 },
+  { kind = "bridge", kmFrom = 1.185, kmTo = 1.235, length = 50 },
+  { kind = "bridge", kmFrom = 1.463, kmTo = 1.497, length = 33 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uxeeHma_eAkDlN" },
+  { line = "a~eeH_r~dAeBlK`@hJ|CdHhBrAvCl@~BU|CmB~EaK|CgD`g@uO", v = 60 },
+  { line = "gvceHcs~dAjr@sR", v = 80 },
+  { line = "{bbeHwf_eA~H}B", v = 60 },
+]
+posts = [[0, 48.20379, 11.46919], [1, 48.20125, 11.46174], [2, 48.19321, 11.46688], [3, 48.18449, 11.4702]]
+
+[[connections]]
+km = 2.365
+station = "Allach"
+lines = [
+  { id = "5501", ref = "5501", name = "5501 München - Treuchtlingen", km = 10.411 },
+  { id = "5544", ref = "5544", name = "5544 München-Laim Pbf - Petershausen (Oberbay)", km = 10.4 },
+  { id = "5561", ref = "5561", name = "5561 Olching - Olching Streckenwechsel 5561/5560", km = 9.509 },
+  { id = "5566", ref = "5566", name = "5566 München-Feldmoching - München Nord Rbf Lassallestraße", km = 2.833 },
+]

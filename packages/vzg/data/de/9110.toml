@@ -1,0 +1,67 @@
+id = "9110"
+ref = "9110"
+name = "9110 Lüneburg Nord - Bleckede"
+operator = "Bleckeder Kleinbahn GmbH"
+gauge = "1435"
+wikidata = "Q802721"
+from = "Lüneburg Nord"
+to = "Bleckede"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 25.019
+length = 25.019
+speeds = [[0, 1.136, "", ""], [1.136, 5.599, 50, 50], [5.599, 5.683, "", ""], [5.683, 23.206, 50, 50], [23.206, 25.019, "", ""]]
+curves = [[0.325, 0.775, 320], [1.4, 1.55, 1700], [1.9, 2.275, 620], [3.275, 3.5, 870], [3.675, 3.925, 760], [4, 4.3, 600], [4.7, 4.925, 430], [4.975, 5.325, 320], [5.375, 5.65, 420], [6.325, 6.425, 1810], [6.6, 6.85, 410], [6.9, 7.3, 320], [8.05, 8.25, 880], [8.4, 8.575, 1230], [8.875, 8.975, 1540], [9.875, 10.175, 1080], [11.7, 11.85, 820], [13.375, 13.525, 1470], [15.45, 16.025, 370], [17.2, 17.325, 1110], [17.375, 17.425, 1720], [17.775, 18.15, 530], [19.075, 19.2, 1480], [20.825, 21.175, 1010], [22.95, 23.625, 440], [23.85, 23.975, 1010], [24.225, 24.575, 990], [24.65, 24.9, 330]]
+points = [
+  { km = 0.06, kind = "halt", label = "Lüneburg Nord", pos = [53.25418, 10.42171] },
+  { km = 0.571, kind = "signal", signal = "switch", dir = 1 },
+  { km = 0.572, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 3.321, kind = "station", label = "Erbstorf Ziegelei", pos = [53.26324, 10.46379] },
+  { km = 4.674, kind = "station", label = "Erbstorf", pos = [53.27274, 10.47595] },
+  { km = 7.217, kind = "station", label = "Scharnebeck", pos = [53.2866, 10.50452] },
+  { km = 8.852, kind = "station", label = "Rullstorf", pos = [53.28896, 10.5287] },
+  { km = 10.647, kind = "stop", label = "Ehemaliger Haltepunkt Bockelkathen", pos = [53.28827, 10.55539] },
+  { km = 11.673, kind = "station", label = "Boltersen", pos = [53.28603, 10.57036] },
+  { km = 15.833, kind = "station", label = "Neetze", pos = [53.26963, 10.62553] },
+  { km = 19.137, kind = "station", label = "Neu Neetze", pos = [53.28625, 10.66331] },
+  { km = 22.952, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 23.153, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 23.193, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 23.212, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 23.415, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 23.429, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 23.454, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 23.47, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 23.746, kind = "station", label = "Bleckede", pos = [53.29164, 10.72733] },
+  { km = 23.754, kind = "signal", signal = "stop", dir = 1 },
+  { km = 24.454, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 24.565, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 25.019, kind = "halt", label = "Bleckede Süd", pos = [53.28164, 10.74027] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 5.599, kmTo = 5.683, length = 85 },
+  { kind = "bridge", kmFrom = 7.863, kmTo = 7.878, length = 15 },
+  { kind = "bridge", kmFrom = 15.69, kmTo = 15.702, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mb`dIylr~@oS{LkBuByAwDs@qEMcFjBwg@" },
+  { line = "y{`dIqzt~@xAcd@Pye@e@iLaBiJ}_@ctAgDsIqLwP}CsCmK_FmEiFyTge@w@wD{AiPuA_FuCiE{IaFqDoH", v = 50 },
+  { line = "ozddIw~~~@kA{E", tunnel = true },
+  { line = "{|ddIse__AiRyv@wG}SyDuGqIoFqBqD{A}GkDevAuEe`@aCch@aB{`Bb@aMfVwxCve@yiC~|@mbD|@aHBeGmAyKsBsGmz@{gAwVkc@}CiKu@_GmI}`BqDi_Dg@cLeAwJsCgPag@aoCg@wHLqG", v = 50 },
+  { line = "qdhdIoam`ArAaIlC_GpDyF`O}PbP}XlDwJnGmVvCqDrFcB" },
+]
+posts = [[0, 53.25367, 10.42141], [1, 53.2579, 10.43184], [2, 53.25722, 10.4468], [3, 53.26167, 10.45975], [4, 53.26817, 10.4695], [5, 53.27403, 10.48021], [6, 53.2798, 10.49094], [7, 53.28559, 10.50182], [8, 53.28727, 10.51625], [9, 53.28913, 10.5309], [10, 53.28957, 10.54592], [11, 53.28751, 10.56055], [12, 53.28497, 10.57494], [13, 53.28118, 10.58857], [14, 53.2768, 10.60168], [15, 53.27198, 10.61437], [16, 53.27059, 10.62741], [17, 53.27785, 10.63629], [18, 53.28435, 10.64652], [19, 53.28604, 10.66128], [20, 53.2867, 10.67627], [21, 53.28738, 10.69125], [22, 53.29102, 10.70499], [23, 53.29481, 10.71864], [24, 53.28979, 10.72956], [25, 53.2836, 10.73982]]
+
+[[connections]]
+km = 0.06
+station = "Lüneburg Nord"
+lines = [
+  { id = "1150", ref = "1150", name = "1150 Lüneburg - Büchen", km = 132.111 },
+  { id = "1151", ref = "1151", name = "1151: Wittenberge–Buchholz", km = 268.536 },
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 132.1 },
+]

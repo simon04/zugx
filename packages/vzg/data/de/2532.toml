@@ -1,0 +1,26 @@
+id = "2532"
+ref = "2532"
+name = "2532 Abzw Neuss Nordkanal W 1 - Abzw Neuss Nordkanal W 7"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Neuss Nordkanal W 1"
+to = "Neuss Nordkanal W 7"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.663
+length = 0.663
+speeds = [[0, 0.663, 60, 60]]
+curves = [[0.1, 0.4, 410]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.093, kmTo = 0.119, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yqmwHmuwg@hGeCdF@rRbL", v = 60 },
+]
+posts = [[0, 51.19277, 6.68007]]

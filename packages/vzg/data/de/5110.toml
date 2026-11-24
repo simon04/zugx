@@ -1,0 +1,85 @@
+id = "5110"
+ref = "5110"
+name = "Bahnstrecke Strullendorf - Ebrach"
+operator = "Deutsche Regionaleisenbahn"
+gauge = "1435"
+wikidata = "Q96098854"
+from = "Strullendorf"
+to = "Ebrach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.105
+kmTo = 7.723
+length = 7.612
+speeds = [[0.105, 0.186, 60, 60], [0.186, 0.761, 40, 40], [0.761, 7.723, "", ""]]
+curves = [[0.217, 0.692, 300], [3.772, 3.872, 990], [4.448, 4.698, 880], [6.873, 6.923, 2150], [7.498, 7.623, 1080]]
+points = [
+  { km = 0.105, kind = "halt", label = "Strullendorf", uic = "8005760", pos = [49.84554, 10.96162] },
+  { km = 0.186, kind = "signal", label = "21ZR5", signal = "main,main_repeated,route,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 0.459, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 0.472, kind = "signal", label = "21P5", signal = "main", dir = 1 },
+  { km = 0.502, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.539, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.551, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.581, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.586, kind = "signal", label = "21C", signal = "combined", dir = -1 },
+  { km = 0.591, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 0.789, kind = "signal", label = "21Vc", signal = "distant", dir = -1 },
+  { km = 0.888, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.963, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.026, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.036, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.026, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.358, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.424, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.87, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.891, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 2.924, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.972, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.008, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 3.222, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.276, kind = "signal", signal = "speed_limit,stop,whistle", dir = -1 },
+  { km = 3.36, kind = "signal", signal = "speed_limit,stop", dir = 1 },
+  { km = 3.536, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.557, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.67, kind = "signal", signal = "main", dir = -1 },
+  { km = 3.686, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.707, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.863, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.904, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.983, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.037, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.075, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 6.217, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.215, kind = "signal", signal = "main", dir = 1 },
+  { km = 7.331, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 7.345, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.474, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 7.54, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 7.706, kind = "signal", signal = "whistle", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.761, kmTo = 0.773, length = 12 },
+  { kind = "bridge", kmFrom = 1.074, kmTo = 1.105, length = 33 },
+  { kind = "bridge", kmFrom = 1.851, kmTo = 1.867, length = 17 },
+  { kind = "bridge", kmFrom = 2.059, kmTo = 2.199, length = 149 },
+  { kind = "bridge", kmFrom = 2.36, kmTo = 2.371, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ir`oHyjjaAwCgOwHcs@cHky@gWudCiDaMcSmj@goAciF" },
+  { line = "{keoH{r{aAwC{KyD_FiGoAiEhB", v = 40 },
+  { line = "aefoH}e|aAuBbC", v = 60 },
+]
+posts = [[7, 49.81762, 10.88118], [6, 49.81984, 10.89468], [5, 49.82225, 10.90811], [4, 49.8263, 10.92035], [3, 49.8307, 10.93245], [2, 49.83467, 10.94397], [1, 49.83913, 10.95704]]
+
+[[connections]]
+km = 0.105
+station = "Strullendorf"
+lines = [
+  { id = "5900", ref = "5900", name = "5900 Nürnberg - Bamberg", km = 54.8 },
+  { id = "5919", ref = "5919", name = "5919 Eltersdorf - Leipzig Hbf", km = 54.782 },
+]

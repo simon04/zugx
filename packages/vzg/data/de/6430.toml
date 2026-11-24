@@ -1,0 +1,50 @@
+id = "6430"
+ref = "6430"
+name = "6430 Abzw Halle (Saale) Leuchtturm - Halle (Saale) Gbf Nord"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131681359"
+from = "Halle (Saale) Leuchtturm"
+to = "Halle (Saale) Gbf Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.024
+kmTo = 5.374
+length = 5.386
+speeds = [[-0.024, 5.374, 80, 80]]
+curves = [[0.201, 0.388, 1670], [1.006, 1.287, 560], [1.364, 1.466, 1280], [1.517, 1.824, 440], [2.311, 2.667, 550], [3.052, 3.184, 1690], [3.258, 3.792, 830], [3.911, 4.21, 850], [4.388, 4.464, 2510], [4.589, 4.739, 1340]]
+points = [
+  { km = 0.075, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.253, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 0.323, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 1.608, kind = "signal", label = "96 G", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 1.797, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.175, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.388, kind = "signal", label = "96 O4 53", signal = "combined,minor,route_distant,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.471, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.222, kind = "signal", label = "95 ZU453", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 3.509, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.601, kind = "signal", signal = "distant,route,speed_limit_distant", dir = -1 },
+  { km = 3.681, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 3.853, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.047, kind = "signal", label = "95 ZR4 33", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 4.273, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.274, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.398, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.695, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.924, kind = "signal", label = "95 P423", signal = "combined,minor,route,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 5.091, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.029, kmTo = 1.075, length = 45 },
+  { kind = "bridge", kmFrom = 1.116, kmTo = 1.134, length = 17 },
+  { kind = "bridge", kmFrom = 2.664, kmTo = 2.703, length = 36 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "csayHy`ihAyKjWuNrUoQpV_EbBsRbBwDjBkZjc@}E~DyCv@e\\z@eLrAiJ[yFaBiMmKkEeGmI}RkGcRyP_y@", v = 80 },
+]
+posts = [[0, 51.45935, 12.01154], [1, 51.46579, 12.00162], [2, 51.47367, 11.99651], [3, 51.48175, 11.99168], [4, 51.49047, 11.99417], [5, 51.49559, 12.00578]]

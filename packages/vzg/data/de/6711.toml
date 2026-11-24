@@ -1,0 +1,48 @@
+id = "6711"
+ref = "6711"
+name = "6711 Weimar - Weimar Berkaer Bf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q109444778"
+from = "Weimar"
+to = "Weimar Berkaer Bf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.075
+length = 2.075
+speeds = [[0, 1.531, 50, 50], [1.531, 2.075, 40, 40]]
+curves = [[0.375, 0.95, 390], [1.125, 1.4, 390], [1.45, 1.975, 250]]
+points = [
+  { km = 0.12, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 0.397, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.469, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 0.484, kind = "signal", label = "50", signal = "shunting", dir = -1 },
+  { km = 0.517, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.521, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.565, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 0.6, kind = "signal", label = "696", signal = "main", dir = -1 },
+  { km = 0.608, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 0.986, kind = "stop", label = "Weimar West", pos = [50.9882, 11.31167], uic = "8023825" },
+  { km = 1.885, kind = "signal", signal = "main", dir = 1 },
+  { km = 2.075, kind = "station", label = "Weimar Berkaer Bahnhof", uic = "8016020", pos = [50.98063, 11.31366] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.074, kmTo = 0.088, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ygfvHslbdAKni@r@jFrBlFxBnD`CbBrQzBrCdAhCrCtEhJ", v = 50 },
+  { line = "yxdvHut_dAxEdBzBYrBsA~CmGx@oK", v = 40 },
+]
+posts = [[0, 50.99149, 11.3225], [1, 50.98806, 11.31162], [2, 50.98068, 11.31075]]
+
+[[connections]]
+km = 2.075
+station = "Weimar Berkaer Bahnhof"
+lines = [
+  { id = "6681", ref = "6681", name = "6681 Weimar Berkaer Bf - Kranichfeld", km = 0.043 },
+]

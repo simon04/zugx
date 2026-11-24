@@ -1,0 +1,92 @@
+id = "2691"
+ref = "2691"
+name = "2691 Abzweig Flughafen Nordwest - Porz-Wahn Süd"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Flughafen Nordwest"
+to = "Porz-Wahn Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 5.526
+kmTo = 20.749
+length = 15.145
+speeds = [[5.526, 6.05, 130, 130], [6.05, 6.125, "", ""], [6.125, 13.995, 130, 130], [13.995, 16.276, 80, 80], [16.276, 20.749, 130, 130]]
+curves = [[6.362, 7.145, 710], [8.132, 9.23, 810], [11.71, 11.822, 2060], [12.295, 13.466, 810], [13.967, 14.875, 420], [15.621, 16.17, 450], [16.246, 16.321, 2090], [17.097, 18.527, 1420], [18.827, 19.579, 760], [19.779, 20.453, 2270]]
+points = [
+  { km = 6.216, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.646, kind = "signal", label = "454", signal = "distant,main", dir = -1 },
+  { km = 6.864, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.318, kind = "signal", label = "31 029", signal = "combined,speed_limit", dir = 1 },
+  { km = 7.606, kind = "station", label = "Köln Frankfurter Straße", uic = "8003358", pos = [50.91542, 7.05153] },
+  { km = 7.667, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.629, kind = "signal", label = "31F", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = 8.774, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.94, kind = "signal", signal = "distant", dir = -1 },
+  { km = 9.676, kind = "signal", label = "31 030", signal = "combined", dir = -1 },
+  { km = 10.804, kind = "signal", signal = "combined", dir = -1 },
+  { km = 11.868, kind = "signal", label = "75030", signal = "combined", dir = -1 },
+  { km = 12.57, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 12.833, kind = "signal", label = "75 034", signal = "combined", dir = -1 },
+  { km = 13.004, kind = "signal", signal = "distant", dir = -1 },
+  { km = 13.177, kind = "signal", signal = "distant", dir = 1 },
+  { km = 13.183, kind = "signal", signal = "distant", dir = -1 },
+  { km = 13.995, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.014, kind = "signal", signal = "combined", dir = -1 },
+  { km = 14.114, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 14.236, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 14.347, kind = "signal", signal = "combined", dir = 1 },
+  { km = 15.075, kind = "signal", label = "75P2", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 15.157, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.234, kind = "station", label = "Köln/Bonn Flughafen", pos = [50.87908, 7.11936], uic = "8003330" },
+  { km = 15.444, kind = "signal", signal = "stop", dir = 1 },
+  { km = 15.459, kind = "signal", label = "75N2", signal = "main,minor,traversable", dir = 1 },
+  { km = 15.852, kind = "signal", signal = "combined", dir = -1 },
+  { km = 16.892, kind = "signal", signal = "combined", dir = -1 },
+  { km = 17.329, kind = "signal", signal = "distant", dir = 1 },
+  { km = 18.003, kind = "signal", signal = "distant", dir = 1 },
+  { km = 18.097, kind = "signal", signal = "combined", dir = -1 },
+  { km = 18.312, kind = "signal", signal = "combined", dir = 1 },
+  { km = 19.524, kind = "station", label = "Porz-Wahn", uic = "8004873", pos = [50.85816, 7.07923] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 6.05, kmTo = 6.125, length = 70 },
+  { kind = "bridge", kmFrom = 6.435, kmTo = 6.587, length = 171 },
+  { kind = "bridge", kmFrom = 7.442, kmTo = 7.467, length = 24 },
+  { kind = "bridge", kmFrom = 7.7, kmTo = 7.715, length = 15 },
+  { kind = "tunnel", kmFrom = 10.254, kmTo = 11.333, length = 1056, name = "Schloß-Röttgen-Tunnel" },
+  { kind = "tunnel", kmFrom = 13.182, kmTo = 17.418, length = 4212, name = "Flughafentunnel" },
+  { kind = "bridge", kmFrom = 19.252, kmTo = 19.501, length = 249 },
+  { kind = "bridge", kmFrom = 19.94, kmTo = 19.966, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oqxuHel{i@nTe_@", v = 130 },
+  { line = "_|wuHkl|i@vAmC" },
+  { line = "gywuHyp|i@nJuQjCqHzBkMl@qLa@uQkMcaBCkWtA_PfDaNbHmM|u@wr@", v = 130 },
+  { line = "skuuHmxej@~q@ao@", tunnel = true, v = 130 },
+  { line = "sxsuHohgj@fVqTr[mTdGwHhEsJtCqLrAmMTaK", v = 130 },
+  { line = "gnquH}pjj@w@}RqIgq@", tunnel = true, v = 130 },
+  { line = "qzquHcwlj@[kEXqI`AcF`CyEbDuBtDs@hL|@tk@dVjCvBbGrLfA`JPxL", tunnel = true, v = 80 },
+  { line = "k`ouH}wkj@SvlAbAjV", tunnel = true, v = 130 },
+  { line = "{~nuHyrhj@jBxNtDbPtDvKrGrMxHdKjQbPfFzD`HpChH`@jF{@fWoMtOkNzRyW", v = 130 },
+]
+posts = [[6, 50.91822, 7.03142], [7, 50.91413, 7.04333], [8, 50.9161, 7.05677], [9, 50.91487, 7.07015], [10, 50.90741, 7.07771], [11, 50.89941, 7.08523], [12, 50.8916, 7.09223], [13, 50.88527, 7.10131], [14, 50.88698, 7.11561], [15, 50.88092, 7.12033], [16, 50.87295, 7.11439], [17, 50.87261, 7.10025], [18, 50.86994, 7.08706], [19, 50.86267, 7.07895], [20, 50.85453, 7.0811]]
+
+[[connections]]
+km = 7.606
+station = "Köln Frankfurter Straße"
+lines = [
+  { id = "2655", ref = "2655", name = "2655 Köln Frankfurter Straße - Overath", km = 4.069 },
+]
+
+[[connections]]
+km = 19.524
+station = "Porz-Wahn"
+lines = [
+  { id = "2324", ref = "2324", name = "2324 Mülheim (Ruhr)-Speldorf - Niederlahnstein", km = 73.882 },
+  { id = "2651", ref = "2651", name = "2651 Köln Messe/Deutz - Gießen", km = 12.404 },
+  { id = "2690", ref = "2690", name = "2690 Köln - Frankfurt am Main", km = 14.419 },
+]

@@ -1,0 +1,51 @@
+id = "2601"
+ref = "2601"
+name = "2601 Horrem - Streckenwechsel 2581/2601"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Horrem"
+to = "Streckenwechsel 2581/2601"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 15.641
+kmTo = 19.982
+length = 4.635
+speeds = [[15.641, 16.085, 40, 40], [16.085, 16.897, 40, 60], [16.897, 19.982, 60, 60]]
+curves = [[15.752, 15.952, 300], [16.919, 17.195, 1300], [17.797, 18.007, 830], [18.382, 18.857, 1750], [19.132, 19.532, 480]]
+points = [
+  { km = 15.749, kind = "signal", label = "32N10", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 15.77, kind = "station", label = "Horrem", uic = "8000178", pos = [50.91635, 6.71334] },
+  { km = 16.085, kind = "signal", label = "32ZS20", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = 16.333, kind = "signal", signal = "distant", dir = 1 },
+  { km = 16.48, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 16.732, kind = "signal", label = "32N20", signal = "main,minor", dir = 1 },
+  { km = 16.897, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.997, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 17.392, kind = "signal", signal = "distant", dir = 1 },
+  { km = 17.797, kind = "signal", label = "73A", signal = "main,speed_limit", dir = 1 },
+  { km = 18.177, kind = "signal", signal = "main", dir = -1 },
+  { km = 18.43, kind = "signal", signal = "distant", dir = -1 },
+  { km = 18.478, kind = "signal", signal = "main_repeated" },
+  { km = 18.625, kind = "stop", label = "Quadrath-Ichendorf", pos = [50.93775, 6.68654], uic = "8004907" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 15.781, kmTo = 15.815, length = 34 },
+  { kind = "bridge", kmFrom = 19.378, kmTo = 19.407, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "w`}uHkbvg@~UmUhCcD~AyDhBcKdDqc@jB_OfKie@xE_Pha@cr@pm@sf@", v = 60 },
+  { line = "srxuHov}g@xNoKzDoAvCLxB`AfEtG", v = 40 },
+]
+posts = [[19, 50.93855, 6.68158], [18, 50.93521, 6.69473], [17, 50.92878, 6.70485], [16, 50.92086, 6.71152]]
+
+[[connections]]
+km = 15.77
+station = "Horrem"
+lines = [
+  { id = "2600", ref = "2600", name = "2600 Köln Hbf - Aachen Süd Grenze", km = 18.795 },
+  { id = "2622", ref = "2622", name = "2622 Köln Hbf - Düren", km = 18.805 },
+]

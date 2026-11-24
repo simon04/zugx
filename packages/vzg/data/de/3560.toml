@@ -1,0 +1,262 @@
+id = "3560"
+ref = "3560"
+name = "3560 Worms - Gensingen-Horrweiler"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Worms Hbf"
+to = "Gensingen-Horrweiler Abzw"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.326
+kmTo = 52.68
+length = 52.907
+speeds = [[-0.326, 2.821, "", ""], [2.821, 10.025, 110, 110], [10.025, 11.876, "", ""], [11.876, 12.748, 70, 70], [12.748, 13.498, 90, 90], [13.498, 18.722, 120, 120], [18.722, 21.951, 90, 90], [21.951, 28.674, 120, 120], [28.674, 29.52, 80, 80], [29.52, 29.751, 60, 60], [29.751, 30.466, 100, 100], [30.466, 30.508, "", ""], [30.508, 38, 100, 100], [38, 38.226, 60, 60], [38.226, 46.998, 90, 90], [46.998, 47.093, 60, 60], [47.093, 48.493, 120, 120], [48.493, 48.5, "", ""], [48.5, 51.33, 120, 120], [51.33, 52.68, 100, 100]]
+curves = [[-0.218, -0.068, 950], [0.007, 0.182, 1210], [0.423, 1.254, 500], [5.134, 5.515, 1530], [6.338, 6.689, 930], [7.273, 7.329, 2470], [7.855, 7.901, 2700], [8.062, 8.13, 2580], [8.689, 8.764, 2120], [8.939, 8.989, 2580], [9.214, 9.289, 2960], [10.639, 10.717, 2270], [11.054, 11.128, 2620], [11.741, 11.79, 2640], [11.864, 11.913, 2210], [12.028, 13.504, 910], [16.912, 18.996, 1230], [19.959, 20.164, 1020], [20.725, 21.43, 1010], [25.164, 25.657, 1170], [25.779, 25.853, 2410], [26.564, 26.638, 2160], [26.687, 26.76, 1890], [27.32, 28.23, 1030], [28.625, 29.732, 510], [30.171, 30.444, 1170], [30.597, 30.785, 870], [31.83, 32.032, 980], [32.742, 33.29, 820], [36.48, 36.69, 1260], [40.066, 40.405, 1180], [41.386, 41.901, 1060], [44.353, 45.169, 1030], [46.363, 46.446, 2420], [46.996, 47.037, 2000], [47.077, 47.117, 1770], [50.976, 51.131, 1680], [51.197, 51.456, 1240], [51.715, 52.181, 670]]
+points = [
+  { km = -0.012, kind = "station", label = "Worms Hauptbahnhof", pos = [49.63518, 8.35665], uic = "8019066" },
+  { km = 0.158, kind = "signal", label = "N4", signal = "main,wrong_road", dir = 1 },
+  { km = 0.423, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.593, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.786, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 1.358, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.733, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.698, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.4, kind = "signal", signal = "crossing_distant", dir = 1, measured = true },
+  { km = 4.45, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 5.524, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.088, kind = "stop", label = "Pfeddersheim", pos = [49.63468, 8.28022] },
+  { km = 6.101, kind = "halt", label = "Worms-Pfeddersheim", uic = "8004788", pos = [49.63464, 8.28004] },
+  { km = 6.164, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.817, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.84, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.618, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 8.616, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 9.506, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10, kind = "signal", signal = "distant,speed_limit_distant", dir = 1, measured = true },
+  { km = 10.7, kind = "signal", label = "68A", signal = "combined,speed_limit", dir = 1, measured = true },
+  { km = 11.523, kind = "station", label = "Monsheim", pos = [49.63347, 8.20818], uic = "8000663" },
+  { km = 11.628, kind = "signal", label = "N3", signal = "main,speed_limit", dir = 1 },
+  { km = 12.2, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 12.4, kind = "signal", label = "68F", signal = "combined,speed_limit,speed_limit_distant", dir = -1, measured = true },
+  { km = 12.748, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.1, kind = "signal", signal = "distant,speed_limit_distant", dir = -1, measured = true },
+  { km = 13.4, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 13.498, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 13.831, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 14.126, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.171, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 14.247, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 14.818, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.849, kind = "stop", label = "Flörsheim-Dalsheim", pos = [49.65682, 8.20429], uic = "8004345" },
+  { km = 15.526, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 15.6, kind = "signal", signal = "station_distant", dir = -1, measured = true },
+  { km = 15.8, kind = "signal", signal = "crossing_distant", dir = -1, measured = true },
+  { km = 18, kind = "signal", signal = "speed_limit_distant", dir = 1, measured = true },
+  { km = 18.71, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.722, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19, kind = "signal", signal = "station_distant", dir = 1, measured = true },
+  { km = 19.708, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.821, kind = "stop", label = "Gundersheim (Rheinhessen)", pos = [49.69021, 8.19634], uic = "8002473" },
+  { km = 20.046, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 20.307, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 20.378, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 20.605, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 20.67, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 20.835, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 21.078, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 21.4, kind = "signal", signal = "distant", dir = 1, measured = true },
+  { km = 21.555, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 21.599, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.759, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 21.82, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 21.951, kind = "signal", signal = "crossing_distant,speed_limit", dir = -1 },
+  { km = 22, kind = "signal", label = "69A", signal = "combined", dir = 1, measured = true },
+  { km = 22.412, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 22.478, kind = "signal", label = "69P2", signal = "main", dir = -1 },
+  { km = 22.495, kind = "station", label = "Eppelsheim (Rheinhessen)", pos = [49.70011, 8.16285], uic = "8001813" },
+  { km = 22.675, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 22.7, kind = "signal", label = "69N2", signal = "main", dir = 1, measured = true },
+  { km = 23.3, kind = "signal", label = "69F", signal = "combined,speed_limit", dir = -1, measured = true },
+  { km = 23.817, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 25.058, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 25.226, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 26.609, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 26.832, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 27.129, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 27.236, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 27.277, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 27.492, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 27.914, kind = "stop", label = "Alzey Süd", pos = [49.73806, 8.11879], uic = "8000558" },
+  { km = 27.976, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 27.987, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 28.291, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.4, kind = "signal", label = "Va", signal = "distant,speed_limit_distant", dir = 1, measured = true },
+  { km = 28.674, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 28.731, kind = "signal", signal = "crossing,station_distant", dir = -1 },
+  { km = 28.845, kind = "halt", label = "Alzey West", uic = "8007474", pos = [49.74091, 8.10721] },
+  { km = 28.887, kind = "signal", label = "VWa2", signal = "distant,speed_limit_distant", dir = 1, measured = true },
+  { km = 28.987, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 29.017, kind = "signal", label = "VWa1", signal = "distant,speed_limit_distant", dir = 1, measured = true },
+  { km = 29.127, kind = "signal", label = "A", signal = "combined,speed_limit,speed_limit_distant", dir = 1, measured = true },
+  { km = 29.427, kind = "signal", signal = "shunting", dir = -1, measured = true },
+  { km = 29.52, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 29.552, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 29.916, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 30.06, kind = "station", label = "Alzey", pos = [49.75034, 8.10975], uic = "8000007" },
+  { km = 30.223, kind = "signal", label = "N 3", signal = "main", dir = 1, measured = true },
+  { km = 30.514, kind = "signal", label = "602Y", signal = "minor", dir = -1, measured = true },
+  { km = 30.8, kind = "signal", label = "70F", signal = "combined,speed_limit,speed_limit_distant", dir = -1, measured = true },
+  { km = 31.5, kind = "signal", signal = "distant,speed_limit_distant", dir = -1, measured = true },
+  { km = 32, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 32.412, kind = "stop", label = "Albig", pos = [49.77132, 8.11658], uic = "8000468" },
+  { km = 34.8, kind = "signal", signal = "distant", dir = -1, measured = true },
+  { km = 36.1, kind = "signal", label = "71 4", signal = "main", dir = -1, measured = true },
+  { km = 36.2, kind = "signal", signal = "distant", dir = 1, measured = true },
+  { km = 37.062, kind = "signal", signal = "main", dir = 1 },
+  { km = 37.6, kind = "signal", label = "71P1", signal = "main", dir = -1, measured = true },
+  { km = 37.662, kind = "station", label = "Armsheim", pos = [49.80798, 8.07442], uic = "8000602" },
+  { km = 38.2, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 38.223, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 38.226, kind = "signal", label = "71F", signal = "combined,speed_limit", dir = -1 },
+  { km = 38.3, kind = "signal", signal = "crossing", dir = 1, measured = true },
+  { km = 39, kind = "signal", signal = "distant,speed_limit_distant", dir = -1, measured = true },
+  { km = 39.375, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 39.421, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 39.794, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 40.06, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 40.2, kind = "signal", signal = "crossing", dir = -1, measured = true },
+  { km = 40.26, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 40.371, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 40.805, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 40.855, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 41.001, kind = "stop", label = "Wallertheim", pos = [49.83268, 8.04951], uic = "8006183" },
+  { km = 41.155, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 41.2, kind = "signal", signal = "crossing", dir = -1, measured = true },
+  { km = 41.377, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 41.655, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 42.114, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 42.291, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 42.33, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 42.384, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 42.432, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 43.126, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 43.219, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 43.232, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 43.292, kind = "stop", label = "Gau-Bickelheim", pos = [49.84022, 8.0205], uic = "8002191" },
+  { km = 43.351, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 43.684, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 43.839, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 44.095, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 44.4, kind = "signal", signal = "crossing", dir = -1, measured = true },
+  { km = 44.618, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 45.6, kind = "signal", signal = "distant,speed_limit_distant", dir = 1, measured = true },
+  { km = 46.3, kind = "signal", label = "72A", signal = "combined,speed_limit,speed_limit_distant", dir = 1, measured = true },
+  { km = 46.961, kind = "stop", label = "Sprendlingen", pos = [49.85905, 7.98167] },
+  { km = 46.99, kind = "signal", signal = "stop", dir = 1 },
+  { km = 47, kind = "signal", label = "72N1", signal = "main,speed_limit", dir = 1, measured = true },
+  { km = 47.1, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 47.106, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 47.114, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 47.167, kind = "station", label = "Sprendlingen", pos = [49.85958, 7.98093], uic = "8005637" },
+  { km = 47.5, kind = "signal", label = "72F", signal = "combined,speed_limit_distant", dir = -1, measured = true },
+  { km = 47.713, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 48.353, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 48.5, kind = "signal", signal = "distant", dir = -1, measured = true },
+  { km = 48.842, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 49.4, kind = "signal", signal = "crossing", dir = 1, measured = true },
+  { km = 49.5, kind = "signal", signal = "crossing", dir = -1, measured = true },
+  { km = 49.768, kind = "stop", label = "Welgesheim-Zotzenheim", pos = [49.87908, 7.95607], uic = "8006312" },
+  { km = 49.818, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 49.891, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 50.8, kind = "signal", signal = "crossing", dir = -1, measured = true },
+  { km = 51.2, kind = "signal", signal = "crossing_distant", dir = -1, measured = true },
+  { km = 52.2, kind = "signal", signal = "distant", dir = 1, measured = true },
+  { km = 52.377, kind = "stop", label = "Gensingen-Horrweiler", pos = [49.89771, 7.93825], uic = "8000121" },
+  { km = 52.548, kind = "signal", signal = "distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 9.259, kmTo = 9.268, length = 10 },
+  { kind = "bridge", kmFrom = 10.014, kmTo = 10.025, length = 10 },
+  { kind = "bridge", kmFrom = 12.568, kmTo = 12.61, length = 45 },
+  { kind = "bridge", kmFrom = 12.755, kmTo = 12.774, length = 21 },
+  { kind = "bridge", kmFrom = 15.815, kmTo = 15.826, length = 11 },
+  { kind = "bridge", kmFrom = 29.189, kmTo = 29.252, length = 63, name = "Selztalbrücke" },
+  { kind = "bridge", kmFrom = 29.485, kmTo = 29.518, length = 32 },
+  { kind = "bridge", kmFrom = 34.6, kmTo = 34.613, length = 13 },
+  { kind = "bridge", kmFrom = 35.18, kmTo = 35.195, length = 15 },
+  { kind = "bridge", kmFrom = 35.786, kmTo = 35.8, length = 14 },
+  { kind = "bridge", kmFrom = 39.295, kmTo = 39.313, length = 27 },
+  { kind = "bridge", kmFrom = 41.863, kmTo = 41.884, length = 19 },
+  { kind = "bridge", kmFrom = 46.179, kmTo = 46.215, length = 36 },
+  { kind = "bridge", kmFrom = 46.559, kmTo = 46.581, length = 20 },
+  { kind = "bridge", kmFrom = 47.803, kmTo = 47.842, length = 36 },
+  { kind = "tunnel", kmFrom = 50.913, kmTo = 50.99, length = 88 },
+  { kind = "bridge", kmFrom = 51.467, kmTo = 51.511, length = 42 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "seqoH{pmo@f^vDbHS|HsDbRyR", v = 100 },
+  { line = "e`ooHeeno@lMgU", v = 120 },
+  { line = "wqnoHm{no@xB{C", tunnel = true, v = 120 },
+  { line = "}mnoHi`oo@djBghC", v = 120 },
+  { line = "wbkoHqiso@HK" },
+  { line = "mbkoH}iso@xx@mhA", v = 120 },
+  { line = "shioHksuo@|C}E", v = 60 },
+  { line = "ucioHizuo@vXy_@|y@m`AnEuHjEsLhDwQza@u~EdCgOnDeL|h@ydAlG_Jf|A{pA", v = 90 },
+  { line = "s``oHmfgp@jLwJ", v = 60 },
+  { line = "gs_oHergp@h_Auv@lGyGfdCsaE|DeFlE}CnI{Brn@yDvcAdQlI~E", v = 100 },
+  { line = "qotnH}qop@~@l@" },
+  { line = "qmtnHopop@`IvGdUjY", v = 100 },
+  { line = "imsnHkmnp@rIzI", v = 60 },
+  { line = "ubsnHobnp@zDlBrDd@jEYvDyArG}GzBiFvA}G", v = 80 },
+  { line = "y{qnHuznp@dFmb@|BiNrGkRpEkHbJiIz_Bus@~EkEhG_IrxBupE", v = 120 },
+  { line = "qlinHgkzp@bUoe@nCgIdCyLdBkTnA}{@n@oJfRozA`D{NzCqI", v = 90 },
+  { line = "kignHq}bq@xGiMnDoEbGmFvHcEfF_BzI{@hIRlHtArKjFziDvdC", v = 120 },
+  { line = "yk_nHkt_q@rLlFdGj@fHu@lGgC", v = 90 },
+  { line = "id~mHoq_q@jHkGnFmI|DeLnEmV", v = 70 },
+  { line = "_g}mH}haq@fP{bAfMqz@dCeT" },
+  { line = "ic|mHq}eq@nC{^rAo`@Csj@cAgZyCya@}E{^aGe[gO}o@}AmKo@gOsAsgAAaLf@sOjYoaE", v = 110 },
+  { line = "_n|mHc{xq@xQeiCRmHg@{JgD_NyBwDwDqDmT{IkPeCeG_C" },
+]
+posts = [[52, 49.89455, 7.93796], [51, 49.88723, 7.94558], [50, 49.88063, 7.95403], [49, 49.87371, 7.96289], [48, 49.86623, 7.97247], [47, 49.85933, 7.98131], [46, 49.85234, 7.98974], [45, 49.84531, 7.99765], [44, 49.84186, 8.01009], [43, 49.83963, 8.02446], [42, 49.83756, 8.03779], [41, 49.8327, 8.04935], [40, 49.82632, 8.05844], [39, 49.81912, 8.06473], [38, 49.8106, 8.07219], [37, 49.80276, 8.07896], [36, 49.79492, 8.08838], [35, 49.78907, 8.09695], [34, 49.78247, 8.10657], [33, 49.7759, 8.11542], [32, 49.76716, 8.11714], [31, 49.75776, 8.11489], [30, 49.74997, 8.10933], [29, 49.74208, 8.1059], [28, 49.73845, 8.11767], [27, 49.73091, 8.12565], [26, 49.72224, 8.13025], [25, 49.71469, 8.13756], [24, 49.70888, 8.14763], [23, 49.70342, 8.15709], [22, 49.6973, 8.16765], [21, 49.69184, 8.17891], [20, 49.69081, 8.19338], [19, 49.68795, 8.20709], [18, 49.67747, 8.21853], [17, 49.67324, 8.21706], [16, 49.66589, 8.21131], [15, 49.658, 8.20512], [14, 49.64974, 8.19867], [13, 49.6415, 8.19408], [12, 49.63498, 8.2022], [11, 49.63164, 8.21538], [10, 49.62879, 8.22792], [9, 49.62765, 8.24167], [8, 49.62899, 8.25574], [7, 49.63247, 8.26823], [6, 49.63472, 8.28157], [5, 49.63453, 8.29526], [4, 49.63261, 8.30934], [3, 49.63088, 8.32211], [2, 49.62906, 8.33549], [1, 49.62748, 8.3487], [0, 49.63469, 8.35631]]
+
+[[connections]]
+km = -0.012
+station = "Worms Hauptbahnhof"
+lines = [
+  { id = "3522", ref = "3522", name = "3522 Mainz - Mannheim", km = 45.858 },
+  { id = "3570", ref = "3570", name = "3570 Worms - Biblis", km = 0.106 },
+]
+
+[[connections]]
+km = 11.523
+station = "Monsheim"
+lines = [
+  { id = "3430", ref = "3430", name = "3430 Bad Dürkheim - Monsheim", km = 38.02 },
+]
+
+[[connections]]
+km = 27.914
+station = "Alzey Süd"
+lines = [
+  { id = "3322", ref = "3322", name = "3322 Langmeil (Pfalz), W 29 - Morschheim", km = 28 },
+  { id = "3523", ref = "3523", name = "3523 Morschheim - Mainz Hbf, W 326", km = 28 },
+]
+
+[[connections]]
+km = 37.662
+station = "Armsheim"
+lines = [
+  { id = "3523", ref = "3523", name = "3523 Morschheim - Mainz Hbf, W 326", km = 16.577 },
+]
+
+[[connections]]
+km = 52.377
+station = "Gensingen-Horrweiler"
+lines = [
+  { id = "3322", ref = "3322", name = "3322 Langmeil (Pfalz), W 29 - Morschheim", km = 52.377 },
+  { id = "3512", ref = "3512", name = "3512 Gau Algesheim – Bad Kreuznach", km = 11.508 },
+]

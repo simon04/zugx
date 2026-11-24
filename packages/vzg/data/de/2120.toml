@@ -1,0 +1,66 @@
+id = "2120"
+ref = "2120"
+name = "2120 Abzw Dortmund-Lütgendortmund Gbf Flm - Dortmund Signal Iduna Park"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q4463678"
+from = "Dortmund-Lütgendortmund Gbf Flm"
+to = "Dortmund Signal Iduna Park"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.111
+length = 5.111
+speeds = [[0, 5.111, "", ""]]
+curves = [[0.125, 0.175, 1960], [0.275, 0.525, 650], [1.05, 1.175, 1450], [1.25, 1.45, 720], [1.9, 2.35, 500], [2.45, 2.55, 1710], [2.825, 2.9, 2240], [3.175, 3.45, 1480], [3.525, 3.95, 860], [4.575, 4.775, 1780], [4.875, 5, 1050]]
+points = [
+  { km = 0.468, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.811, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 1.507, kind = "signal", signal = "main", dir = -1 },
+  { km = 2.041, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.1, kind = "signal", signal = "main", dir = 1 },
+  { km = 2.546, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.61, kind = "station", label = "Dortmund-Dorstfeld", uic = "8000081", pos = [51.50927, 7.42429] },
+  { km = 2.695, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.065, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.654, kind = "signal", signal = "main", dir = -1 },
+  { km = 3.747, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.648, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.78, kind = "signal", label = "641", signal = "distant,main,wrong_road", dir = 1 },
+  { km = 5.111, kind = "halt", label = "Dortmund-Marten Süd", uic = "8001542", pos = [51.50802, 7.38759] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.921, kmTo = 3.954, length = 33 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_`hyHwnml@kKx_@_]td@{KvJkb@tN_EpF{CtKsQzmAoAnOs@nSj@bNxLl}@nCp`@zAzK" },
+]
+posts = [[0, 51.492, 7.447], [1, 51.49804, 7.43662], [2, 51.50633, 7.43146], [3, 51.51039, 7.41895], [4, 51.51119, 7.40502], [5, 51.50863, 7.39121]]
+
+[[connections]]
+km = 2.61
+station = "Dortmund-Dorstfeld"
+lines = [
+  { id = "2112", ref = "2112", name = "2112 Welver - Dortmund Süd", km = 48.447 },
+  { id = "2125", ref = "2125", name = "2125 Abzw Bochum Stockumer Straße - Dortmund Hbf", km = 8.922 },
+  { id = "2126", ref = "2126", name = "2126 Dortmund-Dorstfeld - Dortmund Süd", km = 1.571 },
+  { id = "2158", ref = "2158", name = "2158 Bochum Hbf - Dortmund Hbf (Ferngleise)", km = 161.708 },
+  { id = "2190", ref = "2190", name = "2190 Bochum Hbf - Dortmund Hbf (S-Bahn-Gleise)", km = 16.38 },
+  { id = "2191", ref = "2191", name = "2191 Dortmund-Mengede - Dortmund-Dorstfeld", km = 0.601 },
+  { id = "2213", ref = "2213", name = "2213 Dortmund-Lütgendortmund - Dortmund-Dorstfeld", km = 0.811 },
+]
+
+[[connections]]
+km = 5.111
+station = "Dortmund-Marten Süd"
+lines = [
+  { id = "2112", ref = "2112", name = "2112 Welver - Dortmund Süd", km = 52.595 },
+  { id = "2125", ref = "2125", name = "2125 Abzw Bochum Stockumer Straße - Dortmund Hbf", km = 6.261 },
+  { id = "2126", ref = "2126", name = "2126 Dortmund-Dorstfeld - Dortmund Süd", km = 4.35 },
+  { id = "2158", ref = "2158", name = "2158 Bochum Hbf - Dortmund Hbf (Ferngleise)", km = 158.941 },
+  { id = "2213", ref = "2213", name = "2213 Dortmund-Lütgendortmund - Dortmund-Dorstfeld", km = 3.593 },
+]

@@ -1,0 +1,169 @@
+id = "2950"
+ref = "2950"
+name = "2950 Brackwede - Osnabrück"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802946"
+from = "Brackwede"
+to = "Osnabrück Hbf Po"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.215
+kmTo = 53.219
+length = 53.307
+speeds = [[-0.215, 3.112, "", ""], [3.112, 3.485, 80, 80], [3.485, 5.973, "", ""], [5.973, 12.673, 80, 80], [12.673, 12.876, "", ""], [12.876, 13.826, 80, 80], [13.826, 13.833, "", ""], [13.833, 16.079, 80, 80], [16.079, 16.088, "", ""], [16.088, 26.352, 80, 80], [26.352, 38.301, "", ""], [38.301, 41.903, 80, 80], [41.903, 41.91, "", ""], [41.91, 42.467, 80, 80], [42.467, 42.475, "", ""], [42.475, 45.675, 80, 80], [45.675, 45.68, "", ""], [45.68, 49.263, 80, 80], [49.263, 49.266, "", ""], [49.266, 52.095, 80, 80], [52.095, 53.219, "", ""]]
+curves = [[-0.115, 0.035, 810], [0.21, 0.635, 620], [0.785, 1.231, 410], [2.209, 2.36, 1020], [5.216, 5.341, 1330], [5.818, 5.943, 1620], [7.972, 8.023, 2330], [8.224, 8.325, 1720], [8.451, 8.751, 1720], [9.675, 9.9, 1570], [10.025, 10.203, 1310], [10.608, 10.682, 2690], [10.831, 11.078, 1170], [11.699, 11.925, 1290], [12.38, 12.685, 930], [13.089, 13.263, 1400], [14.786, 14.935, 1510], [16.917, 17.067, 1650], [18.189, 18.616, 890], [19.417, 19.68, 970], [21.076, 21.201, 1260], [23.54, 23.67, 1580], [23.956, 24.034, 2890], [24.236, 24.312, 2350], [25.238, 25.487, 920], [26.372, 26.468, 1820], [27.063, 27.286, 870], [27.361, 27.534, 1080], [28.626, 29.098, 860], [29.42, 29.594, 1450], [30.147, 30.473, 620], [30.573, 30.774, 780], [30.975, 31.1, 820], [31.15, 31.326, 810], [31.552, 31.752, 730], [31.803, 32.881, 320], [33.132, 33.458, 580], [34.01, 34.085, 2400], [34.587, 34.738, 1090], [34.813, 35.44, 520], [35.891, 36.343, 600], [37.447, 37.597, 1230], [37.898, 38.199, 570], [38.551, 38.701, 1070], [39.052, 39.504, 740], [39.654, 39.755, 1820], [40.884, 41.21, 740], [41.686, 42.037, 900], [42.213, 42.364, 840], [42.414, 42.589, 890], [42.665, 42.865, 1200], [43.267, 44.12, 1170], [44.872, 44.998, 1370], [45.048, 45.198, 920], [45.324, 45.549, 1050], [46.001, 46.277, 690], [46.352, 46.553, 1020], [46.703, 46.779, 2000], [47.958, 48.61, 500], [49.637, 50.262, 1160], [51.612, 52.187, 760], [52.237, 52.412, 1440], [52.662, 52.812, 1310], [52.862, 53.062, 900]]
+points = [
+  { km = -0.051, kind = "signal", label = "S6", signal = "distant,main,minor,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = -0.037, kind = "station", label = "Bielefeld-Brackwede", uic = "8000048", pos = [51.99727, 8.49848] },
+  { km = 0.2, kind = "signal", label = "N6", signal = "main,minor,traversable", dir = 1 },
+  { km = 0.304, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.373, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.397, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.88, kind = "stop", label = "Quelle Kupferheide", pos = [51.99407, 8.47662], uic = "8004905" },
+  { km = 3.031, kind = "station", label = "Quelle", pos = [52.00033, 8.46121], uic = "8004908" },
+  { km = 3.065, kind = "signal", label = "40 L201X", signal = "minor,traversable", dir = 1 },
+  { km = 3.112, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.13, kind = "signal", label = "40 P1", signal = "main,traversable", dir = -1 },
+  { km = 3.186, kind = "stop", label = "Quelle", pos = [52.00066, 8.46041] },
+  { km = 3.35, kind = "signal", label = "40 N1", signal = "main,traversable", dir = 1 },
+  { km = 5.282, kind = "stop", label = "Steinhagen(Westf) Bielefelder Straße", pos = [52.01144, 8.43615], uic = "8005702" },
+  { km = 6.514, kind = "station", label = "Steinhagen (Westf)", pos = [52.01737, 8.42092], uic = "8005704" },
+  { km = 9.831, kind = "stop", label = "Künsebeck", pos = [52.03662, 8.38452], uic = "8003469" },
+  { km = 12.673, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.749, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.814, kind = "station", label = "Halle (Westf)", pos = [52.05728, 8.35777], uic = "8002539" },
+  { km = 12.876, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.878, kind = "signal", label = "43 N1", signal = "main,traversable", dir = 1 },
+  { km = 13.887, kind = "stop", label = "Halle (Westf) OWL-Arena", pos = [52.06166, 8.34378], uic = "8080630" },
+  { km = 13.935, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 13.936, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 14.799, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 16.154, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 16.171, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 16.234, kind = "stop", label = "Hesseln", pos = [52.06853, 8.31147], uic = "8002810" },
+  { km = 16.291, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 19.934, kind = "stop", label = "Borgholzhausen", pos = [52.08518, 8.26677], uic = "8001095" },
+  { km = 22.626, kind = "stop", label = "Westbarthausen", pos = [52.09704, 8.23256], uic = "8006360" },
+  { km = 26.26, kind = "stop", label = "Dissen-Bad Rothenfelde", pos = [52.11198, 8.18508], uic = "8001471" },
+  { km = 29.748, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 29.756, kind = "signal", signal = "stop", dir = -1 },
+  { km = 29.795, kind = "signal", signal = "stop", dir = -1 },
+  { km = 29.808, kind = "stop", label = "Hilter a.T.W.", pos = [52.1352, 8.15222], uic = "8002839" },
+  { km = 29.85, kind = "signal", signal = "stop", dir = 1 },
+  { km = 29.877, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 29.891, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 29.917, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 35.585, kind = "signal", label = "21P1", signal = "main,traversable", dir = -1 },
+  { km = 35.676, kind = "station", label = "Wellendorf", pos = [52.18121, 8.14004], uic = "8006316" },
+  { km = 35.695, kind = "signal", label = "21N1", signal = "main,traversable", dir = 1 },
+  { km = 38.681, kind = "stop", label = "Kloster Oesede", pos = [52.20056, 8.11175], uic = "8004627" },
+  { km = 42.128, kind = "stop", label = "Oesede", pos = [52.20869, 8.06432], uic = "8004628" },
+  { km = 45.115, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 46.285, kind = "stop", label = "Osnabrück-Sutthausen", pos = [52.23179, 8.02135], uic = "8004690" },
+  { km = 46.35, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 48.522, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 48.541, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 48.765, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 48.818, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 49.058, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 49.268, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 49.269, kind = "signal", signal = "minor", dir = 1 },
+  { km = 49.422, kind = "signal", label = "77 P1", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 50.159, kind = "signal", signal = "distant", dir = 1 },
+  { km = 50.28, kind = "signal", label = "77 N1", signal = "main", dir = 1 },
+  { km = 50.665, kind = "signal", signal = "minor", dir = -1 },
+  { km = 50.69, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 50.744, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 50.763, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 50.964, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 50.965, kind = "signal", label = "1G", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 51.057, kind = "signal", label = "77 G", signal = "main,speed_limit", dir = -1 },
+  { km = 51.584, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 51.801, kind = "signal", label = "76 B", signal = "combined,route,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 52.089, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 52.176, kind = "signal", label = "76L105X", signal = "minor", dir = 1 },
+  { km = 52.192, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 52.199, kind = "signal", signal = "distant", dir = -1 },
+  { km = 52.275, kind = "signal", signal = "minor", dir = -1 },
+  { km = 52.395, kind = "signal", label = "76L205X", signal = "minor", dir = 1 },
+  { km = 52.476, kind = "signal", signal = "minor", dir = -1 },
+  { km = 52.59, kind = "signal", signal = "minor", dir = 1 },
+  { km = 52.663, kind = "signal", signal = "minor", dir = 1 },
+  { km = 52.767, kind = "signal", signal = "minor", dir = 1 },
+  { km = 52.769, kind = "signal", label = "76 P5", signal = "departure,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 52.78, kind = "signal", signal = "stop", dir = 1 },
+  { km = 52.836, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 52.842, kind = "signal", signal = "minor", dir = 1 },
+  { km = 52.89, kind = "signal", signal = "stop", dir = -1 },
+  { km = 52.892, kind = "signal", signal = "brake_test,departure,main_repeated" },
+  { km = 52.894, kind = "signal", label = "R5 I", signal = "distant,main,minor,traversable", dir = 1 },
+  { km = 52.897, kind = "signal", signal = "minor", dir = 1 },
+  { km = 52.964, kind = "signal", signal = "minor", dir = 1 },
+  { km = 52.97, kind = "signal", signal = "stop", dir = 1 },
+  { km = 52.992, kind = "station", label = "Osnabrück Hauptbahnhof", pos = [52.27291, 8.06157], uic = "8000294" },
+  { km = 53.011, kind = "signal", signal = "stop", dir = 1 },
+  { km = 53.152, kind = "signal", label = "76 ZS5", signal = "combined,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.591, kmTo = 0.607, length = 17 },
+  { kind = "bridge", kmFrom = 1.552, kmTo = 1.594, length = 41 },
+  { kind = "bridge", kmFrom = 26.616, kmTo = 26.728, length = 113 },
+  { kind = "bridge", kmFrom = 30.664, kmTo = 30.675, length = 12 },
+  { kind = "bridge", kmFrom = 30.903, kmTo = 30.935, length = 32 },
+  { kind = "bridge", kmFrom = 38.29, kmTo = 38.301, length = 11 },
+  { kind = "bridge", kmFrom = 50.908, kmTo = 50.931, length = 23 },
+  { kind = "bridge", kmFrom = 51.273, kmTo = 51.302, length = 28 },
+  { kind = "bridge", kmFrom = 51.594, kmTo = 51.625, length = 31 },
+  { kind = "bridge", kmFrom = 51.983, kmTo = 52.02, length = 36 },
+  { kind = "bridge", kmFrom = 52.095, kmTo = 52.133, length = 38 },
+  { kind = "bridge", kmFrom = 52.343, kmTo = 52.373, length = 29 },
+  { kind = "bridge", kmFrom = 52.666, kmTo = 52.7, length = 34 },
+  { kind = "bridge", kmFrom = 52.765, kmTo = 52.802, length = 38 },
+  { kind = "bridge", kmFrom = 52.992, kmTo = 53.046, length = 54 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{_k|Hi`{r@vGvFvPjH~FjHjB~DpGnVt@pGHjHy@hJmY`yAg\\r~@" },
+  { line = "}hk|Hkqsr@{InW", v = 80 },
+  { line = "ysk|H{xrr@ey@p`CeSjx@" },
+  { line = "ebn|H}}lr@q_AhqCaInX_LvXwk@x|@sOl]i\\fi@wHvIcf@b^iZja@eG|N", v = 80 },
+  { line = "{hv|Huu_r@cEjN" },
+  { line = "_ov|Hif_r@oHxWkM|s@", v = 80 },
+  { line = "{fw|Hqx|q@CP" },
+  { line = "_gw|H_x|q@qVbxA_Q~eB", v = 80 },
+  { line = "qpx|H{wvq@CX" },
+  { line = "upx|Hawvq@iMpoAq\\rlBsGtP_f@ls@sCbG{O|f@q\\vkAaUfhA_j@l`Ccb@nrCw`@lgA", v = 80 },
+  { line = "eea}Hio}p@uYp`AyKfQik@prAqExG{EbE}ZlM_g@~FcHeBaMiHwQsBiL_E_Su@uLhCsDKwE_DsFqMmCaDyDuAeFp@sEjEmMr]oDjE{d@xO{_@bHuOj@yG~DcD|EgC`HaLhp@sBpHmB~DmFdGe|@jp@}TzY_BrEmChN" },
+  { line = "acr}Hghpp@mFjY{Mxb@qB|JcA`PEbW_FpuBkBfMcN`h@_DvP", v = 80 },
+  { line = "w}s}Hiufp@AR" },
+  { line = "y}s}Hutfp@}A|a@}AzM", v = 80 },
+  { line = "uct}H{bep@CV" },
+  { line = "yct}Hcbep@{Ap]aGdl@qDlRgFxNuLjQ{f@te@eH~I{N~LuH|K", v = 80 },
+  { line = "{sw}Hct~o@EH" },
+  { line = "atw}Hys~o@{S`ZsPzHgMjKy|@hn@}DlBkFd@qC]eHiE}^}l@", v = 80 },
+  { line = "sa}}Hwc}o@EE" },
+  { line = "ya}}H}c}o@cRk\\cDyIcDiNgBsNcRk~B{AcJkBmGyEcJ", v = 80 },
+  { line = "sb_~Hcidp@qJyKkSsN{GeHeNiH" },
+]
+posts = [[0, 51.99715, 8.49799], [1, 51.99111, 8.48848], [2, 51.9945, 8.47504], [3, 51.99945, 8.46302], [4, 52.00468, 8.45116], [5, 52.01005, 8.43943], [6, 52.01473, 8.42703], [7, 52.01995, 8.41521], [8, 52.02518, 8.40333], [9, 52.03101, 8.39241], [10, 52.03761, 8.38249], [11, 52.04429, 8.37287], [12, 52.05223, 8.36595], [13, 52.05819, 8.35551], [14, 52.06204, 8.34223], [15, 52.06547, 8.32873], [16, 52.06789, 8.31488], [17, 52.0704, 8.30072], [18, 52.07399, 8.28723], [19, 52.07957, 8.27623], [20, 52.08547, 8.26601], [21, 52.09039, 8.2533], [22, 52.09445, 8.24027], [23, 52.0987, 8.22745], [24, 52.10263, 8.21432], [25, 52.10579, 8.20069], [26, 52.11042, 8.18841], [27, 52.11556, 8.17628], [28, 52.12161, 8.16538], [29, 52.12801, 8.15513], [30, 52.13654, 8.15196], [31, 52.14525, 8.15414], [32, 52.15407, 8.15486], [33, 52.16116, 8.15558], [34, 52.16892, 8.14945], [35, 52.17776, 8.14735], [36, 52.18249, 8.13546], [37, 52.19006, 8.12801], [38, 52.1977, 8.12046], [39, 52.20215, 8.10785], [40, 52.20381, 8.09376], [41, 52.20469, 8.07921], [42, 52.20859, 8.06617], [43, 52.21033, 8.05188], [44, 52.21468, 8.0395], [45, 52.22232, 8.03186], [46, 52.22957, 8.02337], [47, 52.23762, 8.01712], [48, 52.24573, 8.01089], [49, 52.2534, 8.01609], [50, 52.25958, 8.02663], [51, 52.26195, 8.04077], [52, 52.2649, 8.05446], [53, 52.27264, 8.06183]]
+
+[[connections]]
+km = -0.037
+station = "Bielefeld-Brackwede"
+lines = [
+  { id = "1700", ref = "1700", name = "1700 Hannover - Hamm", km = 113.777 },
+  { id = "2960", ref = "2960", name = "2960 Paderborn Hbf - Brackwede", km = 40.032 },
+  { id = "2990", ref = "2990", name = "2990 Minden - Hamm", km = 113.778 },
+]
+
+[[connections]]
+km = 52.992
+station = "Osnabrück Hauptbahnhof"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 117.742 },
+  { id = "2992", ref = "2992", name = "2992 Löhne (Westf) - Rheine", km = 132.393 },
+]

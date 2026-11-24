@@ -1,0 +1,106 @@
+id = "6702"
+ref = "6702"
+name = "6702 Fröttstädt–Georgenthal"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q749353"
+from = "Fröttstädt"
+to = "Georgenthal"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.077
+kmTo = 9.915
+length = 9.965
+speeds = [[-0.077, 0.396, "", ""], [0.396, 0.503, 30, 30], [0.503, 0.892, 50, 50], [0.892, 0.921, 10, 10], [0.921, 6.121, 50, 50], [6.121, 6.145, 10, 10], [6.145, 8.639, 50, 50], [8.639, 8.9, 20, 20], [8.9, 9.915, 50, 50]]
+curves = [[0.039, 0.139, 490], [0.714, 1.189, 430], [1.689, 1.864, 2530], [2.439, 2.739, 1310], [3.314, 3.815, 660], [3.966, 4.117, 1460], [4.268, 4.394, 1500], [4.495, 4.721, 900], [4.797, 5.099, 650], [5.199, 5.778, 400], [6.332, 6.483, 910], [6.558, 7.062, 620], [7.137, 7.414, 680], [7.59, 7.741, 820], [7.918, 8.421, 550], [8.572, 9.02, 450], [9.357, 9.742, 360]]
+points = [
+  { km = -0.069, kind = "signal", signal = "catenary_mast,main_repeated", dir = -1 },
+  { km = -0.026, kind = "station", label = "Fröttstädt", pos = [50.93051, 10.57325], uic = "8016066" },
+  { km = 0.36, kind = "signal", signal = "main", dir = 1 },
+  { km = 0.508, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.602, kind = "signal", label = "18 B", signal = "combined", dir = -1 },
+  { km = 0.694, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 0.753, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.85, kind = "stop", label = "Hörselgau", uic = "8087061", pos = [50.92323, 10.57802] },
+  { km = 0.872, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.897, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.916, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.004, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.216, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.189, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.499, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.879, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.917, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.157, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.232, kind = "signal", signal = "main", dir = 1 },
+  { km = 3.279, kind = "signal", signal = "minor,resetting_switch", dir = 1 },
+  { km = 3.327, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 3.455, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.493, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.631, kind = "station", label = "Waltershausen", pos = [50.90063, 10.56384], uic = "8016068" },
+  { km = 4.016, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.036, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.142, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.32, kind = "signal", signal = "minor,resetting_switch", dir = -1 },
+  { km = 4.785, kind = "signal", signal = "main", dir = -1 },
+  { km = 5.436, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.627, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.911, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 6.083, kind = "signal", signal = "stop", dir = -1 },
+  { km = 6.096, kind = "stop", label = "Waltershausen Schnepfenthal", pos = [50.88389, 10.57619], uic = "8016069" },
+  { km = 6.128, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.145, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.615, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.781, kind = "halt", label = "Reinhardsbrunn-Friedrichroda", pos = [50.86353, 10.56273], uic = "8016070" },
+  { km = 8.888, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.89, kind = "signal", signal = "crossing_distant" },
+  { km = 8.916, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 8.928, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.951, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 8.96, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.977, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 8.997, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 9.299, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 9.356, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 9.481, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.608, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 9.692, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 9.707, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 9.714, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.761, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.766, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 9.771, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 9.834, kind = "stop", label = "Friedrichroda", pos = [50.86194, 10.57644], uic = "8016071" },
+  { km = 9.868, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.407, kmTo = 1.426, length = 20 },
+  { kind = "bridge", kmFrom = 3.519, kmTo = 3.533, length = 14 },
+  { kind = "bridge", kmFrom = 7.124, kmTo = 7.141, length = 17 },
+  { kind = "tunnel", kmFrom = 9.002, kmTo = 9.273, length = 282 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "y`muHq{p_AtF`Rx@hHIpHcCpN", v = 50 },
+  { line = "w{luHafo_AiE~U", tunnel = true, v = 50 },
+  { line = "abmuHaon_AiAdF", v = 50 },
+  { line = "kdmuH{gn_A{CtHiDzC", v = 20 },
+  { line = "qnmuHiym_AqPpDiCKgH_C}B{B_LgReMqL{EiCqOsCuFkDmE}FcHaPgIqL", v = 50 },
+  { line = "wequHuqp_Aa@k@", v = 10 },
+  { line = "yfquHasp_AqRoWsHoB{GxA_D|C{HxL}BvG_GfWkH|NiGdJmRjSuHbCcETyc@aMsHiDmf@{a@g\\c`@wCaBoDa@", v = 50 },
+  { line = "_zxuHu_q_As@B", v = 10 },
+  { line = "s{xuHq_q_AaEdAgMbI", v = 50 },
+  { line = "}oyuHgsp_AoD~B", v = 30 },
+  { line = "muyuHgop_A{NpJ}EbH" },
+]
+posts = [[9, 50.86258, 10.5651], [8, 50.87007, 10.56194], [7, 50.87771, 10.56855], [6, 50.88464, 10.5771], [5, 50.89222, 10.57714], [4, 50.89784, 10.5664], [3, 50.90625, 10.56471], [2, 50.91446, 10.57028], [1, 50.92201, 10.57792], [0, 50.93026, 10.57283]]
+
+[[connections]]
+km = -0.026
+station = "Fröttstädt"
+lines = [
+  { id = "6340", ref = "6340", name = "6340 Halle (Saale) Hbf - Baunatal-Guntershausen", km = 146.921 },
+]

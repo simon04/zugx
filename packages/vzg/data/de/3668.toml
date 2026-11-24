@@ -1,0 +1,21 @@
+id = "3668"
+ref = "3668"
+name = "Main-Neckar-Bahn"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 80.8
+kmTo = 81
+length = 0.251
+speeds = [[80.8, 81, 100, 100]]
+curves = []
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "iemoH_fts@xLmC", v = 100 },
+]
+posts = [[81, 49.87784, 8.62903]]

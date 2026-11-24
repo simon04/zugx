@@ -1,0 +1,70 @@
+id = "4711"
+ref = "4711"
+name = "4711 Stuttgart-Bad Cannstatt - Stuttgart-Untertürkheim"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Stuttgart-Bad Cannstatt"
+to = "Stuttgart-Untertürkheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.419
+kmTo = 1.898
+length = 1.923
+speeds = [[0.419, 1.405, 60, 60], [1.405, 1.551, 40, 40], [1.551, 1.849, "", ""], [1.849, 1.898, 40, 40]]
+curves = [[0.624, 0.956, 690], [0.997, 1.268, 1150], [1.309, 1.35, 1510], [1.377, 1.6, 710]]
+points = [
+  { km = 0.597, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.807, kind = "signal", label = "WVf 599", signal = "distant", dir = 1 },
+  { km = 0.861, kind = "signal", label = "61ZK", signal = "catenary_mast,combined,minor,train_protection,traversable", dir = -1 },
+  { km = 0.869, kind = "signal", label = "I", signal = "distant,main,traversable", dir = -1 },
+  { km = 0.898, kind = "signal", label = "F 599", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 0.932, kind = "signal", label = "60 ZB", signal = "catenary_mast,combined,minor,train_protection,traversable", dir = 1 },
+  { km = 1.1, kind = "signal", label = "60ZP528", signal = "catenary_mast,combined,minor,train_protection,traversable", dir = -1 },
+  { km = 1.102, kind = "signal", label = "N528", signal = "main", dir = 1 },
+  { km = 1.158, kind = "signal", label = "WVs 528", signal = "distant", dir = 1 },
+  { km = 1.274, kind = "signal", label = "S 528", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 1.292, kind = "signal", signal = "combined,minor,train_protection,traversable", dir = 1 },
+  { km = 1.347, kind = "signal", label = "529", signal = "minor", dir = 1 },
+  { km = 1.435, kind = "signal", label = "Zn 536", signal = "speed_limit", dir = -1 },
+  { km = 1.465, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.498, kind = "signal", label = "500 I", signal = "minor", dir = 1 },
+  { km = 1.544, kind = "halt", label = "Blick", pos = [48.79322, 9.24211] },
+  { km = 1.555, kind = "signal", label = "201", signal = "minor", dir = -1 },
+  { km = 1.556, kind = "signal", signal = "catenary_mast,combined,train_protection,traversable", dir = -1 },
+  { km = 1.631, kind = "station", label = "Stuttgart Neckarpark", uic = "8029377", pos = [48.79182, 9.24117] },
+  { km = 1.76, kind = "signal", label = "S 201", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 1.762, kind = "signal", signal = "catenary_mast,combined,minor,train_protection,traversable", dir = 1 },
+  { km = 1.763, kind = "signal", signal = "route", dir = -1 },
+  { km = 1.837, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ahzhHelhw@bBeNzB_JzKmQjEmJxCuJvFcW", v = 60 },
+  { line = "gayhHahkw@tCeL", v = 40 },
+  { line = "q|xhHgukw@d@y@", tunnel = true, v = 40 },
+  { line = "k{xhHawkw@|AgB", v = 40 },
+  { line = "mxxhHizkw@`NwJ" },
+  { line = "kixhHaflw@jAeA", v = 40 },
+]
+posts = [[1, 48.79761, 9.22951]]
+
+[[connections]]
+km = 1.544
+station = "Blick"
+lines = [
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 5.417 },
+  { id = "4701", ref = "4701", name = "4701 Stuttgart Hbf - Plochingen", km = 5.5 },
+  { id = "4720", ref = "4720", name = "4720 Stuttgart-Untertürkheim - Kornwestheim Pbf", km = 1.597 },
+]
+
+[[connections]]
+km = 1.631
+station = "Stuttgart Neckarpark"
+lines = [
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 5.472 },
+  { id = "4701", ref = "4701", name = "4701 Stuttgart Hbf - Plochingen", km = 5.587 },
+  { id = "4720", ref = "4720", name = "4720 Stuttgart-Untertürkheim - Kornwestheim Pbf", km = 1.487 },
+]

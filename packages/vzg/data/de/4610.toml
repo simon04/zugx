@@ -1,0 +1,153 @@
+id = "4610"
+ref = "4610"
+name = "4610 Wendlingen (Neckar) - Oberlenningen"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q1745391"
+from = "Wendlingen (Neckar)"
+to = "Oberlenningen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.658
+kmTo = 17.49
+length = 18.008
+speeds = [[-0.658, -0.068, 80, 80], [-0.068, 0.075, 40, 40], [0.075, 0.381, 60, 40], [0.381, 0.425, 60, 100], [0.425, 5.787, 100, 100], [5.787, 7.004, "", ""], [7.004, 7.886, 50, ""], [7.886, 8.436, 60, 60], [8.436, 11.243, 80, 80], [11.243, 13.264, 60, 60], [13.264, 13.272, "", ""], [13.272, 14.776, 60, 60], [14.776, 15.016, 20, 60], [15.016, 15.314, 20, 20], [15.314, 15.428, 50, 20], [15.428, 17.075, 50, 50], [17.075, 17.49, 30, ""]]
+curves = [[-0.533, -0.483, 2320], [-0.083, 0.435, 290], [0.589, 0.753, 1320], [2.385, 2.697, 910], [4.351, 4.733, 1100], [5.011, 5.415, 620], [6.483, 7.431, 650], [7.537, 7.833, 550], [8.055, 8.449, 700], [10.219, 10.392, 1080], [12.316, 12.545, 870], [12.791, 13.06, 800], [13.111, 13.264, 870], [13.651, 13.986, 740], [14.28, 14.329, 2570], [14.543, 14.74, 670], [14.819, 15.104, 580], [15.357, 15.586, 860], [15.886, 16.136, 520], [16.186, 16.484, 780], [16.602, 16.872, 730], [17.057, 17.232, 1090]]
+points = [
+  { km = -0.263, kind = "signal", label = "P 12", signal = "main,speed_limit", dir = -1 },
+  { km = -0.257, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.188, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.154, kind = "station", label = "Wendlingen (Neckar)", pos = [48.67303, 9.37318], uic = "8029285" },
+  { km = -0.152, kind = "signal", signal = "distant", dir = 1 },
+  { km = -0.14, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.131, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.068, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = -0.05, kind = "signal", signal = "stop", dir = 1 },
+  { km = -0.044, kind = "signal", label = "N12", signal = "main,minor", dir = 1 },
+  { km = 0.068, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.075, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.381, kind = "signal", label = "G", signal = "distant,main", dir = -1 },
+  { km = 0.425, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.1, kind = "signal", signal = "distant", dir = -1, measured = true },
+  { km = 1.79, kind = "signal", label = "V1a", signal = "distant", dir = 1 },
+  { km = 2.826, kind = "signal", label = "1A", signal = "distant,main", dir = 1 },
+  { km = 3.416, kind = "signal", label = "P 101", signal = "main", dir = -1 },
+  { km = 3.578, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.607, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.636, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.659, kind = "station", label = "Kirchheim (Teck)-Ötlingen", pos = [48.65779, 9.41633], uic = "8029286" },
+  { km = 3.696, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.734, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.778, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.962, kind = "signal", label = "N101", signal = "main,minor", dir = 1 },
+  { km = 4.469, kind = "signal", label = "1F", signal = "distant,main", dir = -1 },
+  { km = 5.315, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 5.405, kind = "signal", label = "V1f", signal = "distant", dir = -1 },
+  { km = 5.591, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 5.787, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.818, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 6.046, kind = "signal", label = "P3", signal = "main,minor", dir = -1 },
+  { km = 6.29, kind = "station", label = "Kirchheim (Teck)", pos = [48.64422, 9.44378], uic = "8029287" },
+  { km = 6.447, kind = "signal", label = "N3", signal = "main,minor", dir = 1 },
+  { km = 6.633, kind = "signal", label = "W35", signal = "minor", dir = -1 },
+  { km = 6.701, kind = "signal", label = "W37", signal = "minor", dir = -1 },
+  { km = 6.836, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 6.841, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 6.853, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 7.004, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.01, kind = "signal", label = "G", signal = "distant,main,speed_limit_distant,traversable", dir = -1 },
+  { km = 7.25, kind = "stop", label = "Kirchheim (Teck)-Süd", pos = [48.63934, 9.4521], uic = "8029288" },
+  { km = 7.386, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.592, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.886, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.668, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.986, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 9.101, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 9.108, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 9.547, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 9.758, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 9.803, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 9.904, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 9.923, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.933, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.961, kind = "stop", label = "Dettingen (Teck)", pos = [48.61651, 9.4549], uic = "8029289" },
+  { km = 10.037, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.057, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.164, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 13.158, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 13.171, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 13.264, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.272, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.279, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.37, kind = "halt", label = "Owen (Teck)", uic = "8029290", pos = [48.58692, 9.44773] },
+  { km = 13.403, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.681, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 13.982, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.391, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 14.395, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 14.628, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 14.714, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 14.776, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.818, kind = "halt", label = "Brucken", uic = "8029291", pos = [48.57402, 9.45308] },
+  { km = 14.872, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 15.016, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.077, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.094, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 15.314, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.428, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.566, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 15.593, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 15.666, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 15.812, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 15.881, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.954, kind = "halt", label = "Unterlenningen", uic = "8029292", pos = [48.56539, 9.46045] },
+  { km = 15.983, kind = "signal", signal = "stop", dir = 1 },
+  { km = 15.993, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 16.068, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 16.134, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 16.136, kind = "signal", signal = "stop", dir = -1 },
+  { km = 16.383, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 16.46, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 16.615, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 17.075, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.078, kind = "signal", signal = "main", dir = 1 },
+  { km = 17.18, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 17.436, kind = "station", label = "Oberlenningen", uic = "8029293", pos = [48.55436, 9.4708] },
+  { km = 17.49, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.083, kmTo = 3.11, length = 26 },
+  { kind = "bridge", kmFrom = 5.205, kmTo = 5.255, length = 48 },
+  { kind = "bridge", kmFrom = 6.964, kmTo = 6.986, length = 24 },
+  { kind = "bridge", kmFrom = 13.012, kmTo = 13.049, length = 37 },
+  { kind = "bridge", kmFrom = 13.077, kmTo = 13.122, length = 44 },
+  { kind = "bridge", kmFrom = 15.039, kmTo = 15.077, length = 38 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "opbhHupfx@|\\vT", v = 80 },
+  { line = "qrahH}zex@lC|AbCN", v = 40 },
+  { line = "_jahHowex@xCw@tCmC~AsD|@qF", v = 60 },
+  { line = "q{`hH{jfx@hCs^~\\keCdBqIhaAyuB~HsKvRgP~DmFrDqL~F}_@", v = 100 },
+  { line = "kb|gHafrx@jNu~@vFqMnHoJ" },
+  { line = "wa{gHy_ux@`FeBhQv@`IgF", v = 50 },
+  { line = "i~ygHohux@rNoKnEkA~ES", v = 60 },
+  { line = "eaygH_xux@lfB|Cvs@nQ", v = 80 },
+  { line = "_etgHq`ux@`|@|TzDPzTiAbRtC", v = 60 },
+  { line = "aypgHugtx@L@" },
+  { line = "sxpgHsgtx@hX\\~Fo@fEoB~a@mYfP_CfCaB", v = 60 },
+  { line = "qxmgHemux@pKiO", v = 20 },
+  { line = "_lmgHo}ux@`GkHhXyP|J{UxOkQnEeCdLyC", v = 50 },
+  { line = "ezjgH}jxx@pDwAvNmJ", v = 30 },
+]
+posts = [[0, 48.6733, 9.37368], [1, 48.66881, 9.38468], [2, 48.66579, 9.3982], [3, 48.66167, 9.4095], [4, 48.6559, 9.41975], [5, 48.64924, 9.42827], [6, 48.64504, 9.43995], [7, 48.64046, 9.45164], [8, 48.63387, 9.45384], [9, 48.62514, 9.4553], [10, 48.61615, 9.45486], [11, 48.60731, 9.45256], [12, 48.59863, 9.44943], [13, 48.59013, 9.44841], [14, 48.58089, 9.44887], [15, 48.57253, 9.45367], [16, 48.56504, 9.46077], [17, 48.55797, 9.46855]]
+
+[[connections]]
+km = -0.154
+station = "Wendlingen"
+lines = [
+  { id = "4600", ref = "4600", name = "4600 Plochingen - Immendingen", km = 6.541 },
+]

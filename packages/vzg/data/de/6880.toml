@@ -1,0 +1,54 @@
+id = "6880"
+ref = "6880"
+name = "6880 Biederitz - Altengrabow"
+operator = "RegioInfra Gesellschaft mbH"
+gauge = "1435"
+wikidata = "Q801963"
+from = "Biederitz"
+to = "Altengrabow"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 39.192
+length = 39.192
+speeds = [[0, 38.495, "", ""], [38.495, 39.053, 60, 60], [39.053, 39.192, 40, 40]]
+curves = [[0.8, 0.925, 1510], [4.3, 4.625, 420], [5.15, 5.3, 960], [5.375, 5.575, 670], [7.35, 7.525, 1090], [9.425, 9.65, 810], [10.25, 10.475, 650], [11.075, 11.6, 310], [12.475, 12.775, 860], [13.05, 13.625, 820], [16, 16.15, 1430], [18.75, 19.275, 1020], [21.575, 22.1, 1010], [23.85, 24.125, 1270], [30.45, 30.875, 1020], [34.85, 35.2, 1060], [37.35, 37.425, 2110], [38.075, 38.7, 790], [38.9, 39.075, 970]]
+points = [
+  { km = 0.238, kind = "station", label = "Altengrabow", pos = [52.19737, 12.17377] },
+  { km = 12.193, kind = "station", label = "Loburg", pos = [52.11574, 12.08812] },
+  { km = 17.076, kind = "halt", label = "Zeppernick", pos = [52.12327, 12.01939] },
+  { km = 22.294, kind = "halt", label = "Möckern", pos = [52.14296, 11.95228] },
+  { km = 27.877, kind = "halt", label = "Ziepel", pos = [52.143, 11.87095] },
+  { km = 30.237, kind = "station", label = "Büden", pos = [52.14145, 11.83713] },
+  { km = 34.65, kind = "halt", label = "Woltersdorf", pos = [52.15295, 11.775] },
+  { km = 38.023, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 38.563, kind = "signal", signal = "main,minor,route,wrong_road", dir = -1 },
+  { km = 38.703, kind = "station", label = "Biederitz", uic = "8010047", pos = [52.15318, 11.71707] },
+  { km = 38.915, kind = "signal", signal = "distant", dir = 1 },
+  { km = 39.053, kind = "signal", label = "597", signal = "combined,minor,traversable,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 15.527, kmTo = 15.542, length = 14 },
+  { kind = "bridge", kmFrom = 16.904, kmTo = 16.916, length = 12 },
+  { kind = "bridge", kmFrom = 20.962, kmTo = 20.978, length = 16 },
+  { kind = "bridge", kmFrom = 35.794, kmTo = 35.804, length = 10 },
+  { kind = "bridge", kmFrom = 38.542, kmTo = 38.555, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{`r}HefiiAf\\z~@zyBxuElMbVzEpBz_@rApR_ArhBlc@liBhnAhElAbe@nElDjAxd@v_@jCvFhApIYxK{RbtAkC`K_Pt`@_CvKcA~J[nKwApbFwN`|CeJp}AoBzMyCvKgrArhDyEpPsC|U_Px~CY|VjYjoQyAxUaiAryIgA~LY`MGzhEaB|dAb@pNpBvN" },
+  { line = "ihi}Hm{ofA`CrI~Mx\\", v = 60 },
+  { line = "guh}H_snfArBdJ", v = 40 },
+]
+posts = [[0, 52.1987, 12.17651], [1, 52.19322, 12.1649], [2, 52.18705, 12.15422], [3, 52.18093, 12.14347], [4, 52.17481, 12.13272], [5, 52.16704, 12.12733], [6, 52.15816, 12.12605], [7, 52.14936, 12.12301], [8, 52.14092, 12.11823], [9, 52.13275, 12.11209], [10, 52.12421, 12.10807], [11, 52.11589, 12.10315], [12, 52.11511, 12.09076], [13, 52.11932, 12.07801], [14, 52.12145, 12.06424], [15, 52.12161, 12.0496], [16, 52.12177, 12.03495], [17, 52.12314, 12.02048], [18, 52.12463, 12.00604], [19, 52.1265, 11.99173], [20, 52.13186, 11.98002], [21, 52.13748, 11.96858], [22, 52.14245, 11.95651], [23, 52.14402, 11.94208], [24, 52.14548, 11.92762], [25, 52.14487, 11.91301], [26, 52.14421, 11.89839], [27, 52.14355, 11.88378], [28, 52.14289, 11.86916], [29, 52.14222, 11.85455], [30, 52.14155, 11.83993], [31, 52.14213, 11.8255], [32, 52.14509, 11.81166], [33, 52.14804, 11.79782], [34, 52.151, 11.78398], [35, 52.15387, 11.7701], [36, 52.15404, 11.75546], [37, 52.15406, 11.7408], [38, 52.15448, 11.72616], [39, 52.15102, 11.71329]]
+
+[[connections]]
+km = 38.703
+station = "Biederitz"
+lines = [
+  { id = "6110", ref = "6110", name = "6110 Potsdam Griebnitzsee - Eilsleben", km = 133.706 },
+  { id = "6410", ref = "6410", name = "6410 Biederitz – Trebnitz Streckenwechsel 6410/6411", km = 0.634 },
+]

@@ -1,0 +1,38 @@
+id = "4214"
+ref = "4214"
+name = "4214 Karlsruhe Gbf - Abzw Karlsruhe-Dammerstock"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Karlsruhe Gbf"
+to = "Karlsruhe-Dammerstock"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 2.238
+kmTo = 4.196
+length = 1.984
+speeds = [[2.238, 2.322, 80, 80], [2.322, 2.398, 60, 60], [2.398, 4.196, 80, 80]]
+curves = [[2.397, 2.597, 1830], [3.996, 4.096, 1420]]
+points = [
+  { km = 2.414, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 2.476, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.899, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 2.91, kind = "signal", signal = "catenary_mast,main", dir = -1 },
+  { km = 2.962, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.603, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.925, kind = "signal", label = "43 374", signal = "catenary_mast,main,traversable,wrong_road", dir = 1 },
+  { km = 3.966, kind = "signal", signal = "catenary_mast,distant", dir = 1 },
+  { km = 4.042, kind = "signal", signal = "catenary_mast,distant", dir = 1 },
+  { km = 4.078, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+  { km = 4.117, kind = "signal", signal = "catenary_mast,distant", dir = 1 },
+  { km = 4.194, kind = "signal", signal = "catenary_mast,distant", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ok}iHglbr@oc@orAcMub@}ByK", v = 80 },
+  { line = "ab_jHgpfr@o@cE", v = 60 },
+  { line = "qc_jHkvfr@}@qE", v = 80 },
+]
+posts = [[4, 48.98085, 8.37561], [3, 48.986, 8.38727]]

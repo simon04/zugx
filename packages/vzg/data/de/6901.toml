@@ -1,0 +1,32 @@
+id = "6901"
+ref = "6901"
+name = "Bahnstrecke Salzwedel–Geestgottberg"
+gauge = "1435"
+wikidata = "Q803156"
+from = "Salzwedel"
+to = "Geestgottberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.836
+length = 1.836
+speeds = [[0, 1.836, "", ""]]
+curves = [[0.1, 0.7, 500]]
+points = [
+  { km = 0, kind = "halt", label = "Geestgottberg", uic = "8024106", pos = [52.95579, 11.73727] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}tebIamsfAhMnC`E|DtDxHjBhIfWfeB" },
+]
+posts = [[0, 52.95455, 11.73729], [1, 52.94872, 11.72765]]
+
+[[connections]]
+km = 0
+station = "Geestgottberg"
+lines = [
+  { id = "6401", ref = "6401", name = "6401 Stendal - Wittenberge", km = 47.904 },
+]

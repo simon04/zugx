@@ -1,0 +1,83 @@
+id = "2571"
+ref = "2571"
+name = "2571 Langerwehe - Stolberg (Rheinland) Hbf"
+operator = "EVS EUREGIO Verkehrsschienennetz GmbH"
+gauge = "1435"
+wikidata = "Q186874"
+from = "Langerwehe"
+to = "Stolberg (Rheinland) Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 47.055
+kmTo = 56
+length = 8.92
+speeds = [[47.055, 47.817, "", ""], [47.817, 50.303, 80, 80], [50.303, 50.32, "", ""], [50.32, 52.235, 80, 80], [52.235, 52.298, 60, 80], [52.298, 56, 60, 60]]
+curves = [[47.328, 47.726, 1860], [48.729, 49.708, 1890], [50.16, 50.557, 1830], [51.488, 51.863, 1020], [53.425, 53.496, 1960], [53.694, 54.221, 410], [54.473, 54.998, 310], [55.05, 55.803, 590]]
+points = [
+  { km = 47.566, kind = "signal", label = "03W02X", signal = "minor", dir = 1 },
+  { km = 47.811, kind = "signal", label = "03Za", signal = "speed_limit", dir = 1 },
+  { km = 47.913, kind = "signal", label = "03P1", signal = "main,minor", dir = -1 },
+  { km = 47.98, kind = "station", label = "Eschweiler-Weisweiler", uic = "8001893", pos = [50.82366, 6.31962] },
+  { km = 48.093, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 48.288, kind = "signal", label = "03N1", signal = "main", dir = 1 },
+  { km = 48.645, kind = "signal", label = "03W05Y", signal = "minor", dir = -1 },
+  { km = 48.671, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 48.949, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 48.98, kind = "signal", label = "03F", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 49.596, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 49.678, kind = "signal", signal = "distant", dir = -1 },
+  { km = 50.21, kind = "stop", label = "Eschweiler-Nothberg", uic = "8001889", pos = [50.81283, 6.29401] },
+  { km = 50.265, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 50.39, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 50.606, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 50.751, kind = "signal", signal = "distant", dir = 1 },
+  { km = 50.993, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 51.183, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 51.194, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 51.457, kind = "signal", label = "05A", signal = "combined", dir = 1 },
+  { km = 52.026, kind = "signal", label = "05 P1", signal = "main", dir = -1 },
+  { km = 52.235, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 52.237, kind = "signal", label = "05 N1", signal = "main", dir = 1 },
+  { km = 52.298, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 52.453, kind = "station", label = "Eschweiler Talbahnhof", uic = "8001888", pos = [50.81481, 6.26319] },
+  { km = 52.586, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 52.643, kind = "signal", label = "05F", signal = "combined", dir = -1 },
+  { km = 52.76, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 53.201, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 53.327, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 53.372, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 53.373, kind = "signal", signal = "distant", dir = -1 },
+  { km = 53.374, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 53.408, kind = "stop", label = "Eschweiler West", uic = "8001887", pos = [50.8178, 6.25132] },
+  { km = 53.457, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 53.582, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 53.632, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 54.2, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 54.31, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 54.497, kind = "signal", signal = "distant", dir = 1 },
+  { km = 54.886, kind = "signal", label = "07 A", signal = "combined", dir = 1 },
+  { km = 54.944, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 54.989, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 55.185, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 55.32, kind = "signal", label = "07 P1", signal = "main,speed_limit", dir = -1 },
+  { km = 55.622, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 55.712, kind = "signal", label = "07 N1", signal = "main", dir = 1 },
+  { km = 55.842, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 55.998, kind = "signal", label = "07 F", signal = "combined", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 50.303, kmTo = 50.32, length = 18 },
+  { kind = "bridge", kmFrom = 54.207, kmTo = 54.238, length = 31 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yofuHahse@bLn^hEvJ|EdI" },
+  { line = "mueuHsrqe@`f@pw@tLzXpDlM|DbTxIb{@", v = 80 },
+  { line = "kjcuHo`le@Dp@" },
+  { line = "ejcuH}~ke@j@pTh@f|AoAlOmIlg@", v = 80 },
+  { line = "mtcuHgsfe@wUbwA{Dz[c@fN`BdMpCbG|MnQzF`DjDEfD}AlJ_Q`CsBnCw@vHHbF`AnEnCrJ~I", v = 60 },
+]
+posts = [[48, 50.82349, 6.31947], [49, 50.81704, 6.30969], [50, 50.81337, 6.29685], [51, 50.81234, 6.28267], [52, 50.81329, 6.26891], [53, 50.81666, 6.25588], [54, 50.81882, 6.24231], [55, 50.81163, 6.23825], [56, 50.8037, 6.23788]]

@@ -1,0 +1,29 @@
+id = "1576"
+ref = "1576"
+name = "Emden Hauptbahnhof - Emden VW-Werk"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q2190346"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.905
+length = 0.905
+speeds = [[0, 0.862, 40, 40], [0.862, 0.905, 30, 30]]
+curves = [[0.1, 0.75, 300]]
+points = [
+  { km = 0.051, kind = "signal", label = "17", signal = "minor", dir = -1 },
+  { km = 0.433, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.452, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.465, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.862, kind = "signal", signal = "main,speed_limit", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oyudIkm|j@aCrCuCrI}@zH@vGl@hFnB`GpJxJ", v = 40 },
+  { line = "ssudIipzj@`A~@", v = 30 },
+]
+posts = [[0, 53.36488, 7.1959]]

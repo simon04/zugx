@@ -1,0 +1,55 @@
+id = "2923"
+ref = "2923"
+name = "2923 Hamm (Westf) Rbf - Hamm (Westf) Pbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hamm (Westf) Rbf"
+to = "Hamm (Westf) Pbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.332
+length = 2.332
+speeds = [[0, 1.107, 100, 100], [1.107, 1.231, 70, 70], [1.231, 2.332, "", ""]]
+curves = [[0.2, 0.6, 810], [1.1, 1.3, 830], [1.775, 1.9, 1500], [2.05, 2.225, 1580]]
+points = [
+  { km = 0.112, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.334, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 0.467, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.993, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.013, kind = "signal", label = "D 606", signal = "distant,main", dir = 1 },
+  { km = 1.107, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.231, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.242, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.395, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.795, kind = "signal", label = "P716", signal = "main,minor,traversable", dir = -1 },
+  { km = 1.968, kind = "station", label = "Hamm (Westf) Hbf", uic = "8000149", ele = 63, pos = [51.67857, 7.80771] },
+  { km = 2.201, kind = "signal", signal = "main,minor,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.301, kmTo = 2.332, length = 31 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eeizHqhsn@eKyMaGmEsDsAu^kG", v = 100 },
+  { line = "w~jzHyhtn@{Ea@", v = 70 },
+  { line = "sekzH{itn@ua@fD_M|C_KvE" },
+]
+posts = [[0, 51.66179, 7.80441], [1, 51.67005, 7.80932], [2, 51.67896, 7.80844]]
+
+[[connections]]
+km = 1.968
+station = "Hamm Hbf"
+lines = [
+  { id = "1700", ref = "1700", name = "1700 Hannover - Hamm", km = 176.349 },
+  { id = "2250", ref = "2250", name = "2250 Oberhausen-Osterfeld - Hamm (Westf) Pbf", km = 76.722 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 150.702 },
+  { id = "2911", ref = "2911", name = "2911 Bf Abzw Selmig - Hamm (Westf) Rbf", km = 5.22 },
+  { id = "2930", ref = "2930", name = "2930 Soest - Hamm", km = 136.746 },
+  { id = "2931", ref = "2931", name = "2931 Hamm (Westf) - Emden", km = 134.652 },
+  { id = "2932", ref = "2932", name = "2932 Unna - Hamm", km = 207.297 },
+  { id = "2990", ref = "2990", name = "2990 Minden - Hamm", km = 176.31 },
+]

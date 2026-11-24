@@ -1,0 +1,59 @@
+id = "9470"
+ref = "9470"
+name = "9470 Amstetten - Gerstetten"
+operator = "UEF Lokalbahn Amstetten-Gerstetten e. V."
+gauge = "1435"
+from = "Amstetten"
+to = "Gerstetten"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.341
+kmTo = 20.027
+length = 20.351
+speeds = [[-0.341, 19.665, "", ""], [19.665, 19.958, 50, 50], [19.958, 20.027, 20, 20]]
+curves = [[-0.24, 0.035, 990], [0.235, 0.811, 200], [0.861, 1.112, 390], [1.262, 1.563, 350], [1.688, 3.04, 340], [3.215, 3.391, 880], [3.691, 4.217, 310], [4.317, 4.868, 310], [5.219, 5.594, 330], [5.695, 5.895, 800], [6.045, 6.321, 550], [6.897, 7.097, 480], [7.448, 7.673, 460], [7.748, 8.099, 960], [8.199, 8.324, 1210], [8.7, 8.875, 1400], [10.152, 10.652, 310], [11.377, 11.552, 1500], [11.627, 11.827, 660], [12.077, 12.352, 450], [12.977, 13.252, 730], [13.777, 13.977, 730], [14.077, 14.252, 410], [14.302, 14.577, 270], [14.727, 14.827, 1970], [14.902, 15.127, 580], [15.377, 15.527, 710], [15.602, 15.827, 620], [15.877, 16.002, 860], [16.602, 16.952, 560], [17.252, 17.627, 380], [17.852, 18.402, 430], [18.527, 18.827, 590], [19.452, 19.702, 750]]
+points = [
+  { km = -0.003, kind = "station", label = "Amstetten (Württemberg)", uic = "8029096", pos = [48.57845, 9.87293] },
+  { km = 0.009, kind = "station", label = "Amstetten (Württ) Alb-Bähnle", pos = [48.57817, 9.87251] },
+  { km = 0.092, kind = "halt", label = "Amstetten (Württ) Lokalbahn", pos = [48.57787, 9.874] },
+  { km = 4.728, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.791, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.804, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.826, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.026, kind = "station", label = "Stubersheim", pos = [48.59384, 9.92043] },
+  { km = 5.07, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.15, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.314, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.453, kind = "halt", label = "Schalkstetten", pos = [48.61245, 9.91105] },
+  { km = 7.48, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 9.983, kind = "station", label = "Waldhausen", pos = [48.6349, 9.90784] },
+  { km = 10, kind = "signal", signal = "whistle", dir = 1, measured = true },
+  { km = 14.605, kind = "station", label = "Gussenstadt", pos = [48.63988, 9.95768] },
+  { km = 19.904, kind = "station", label = "Gerstetten", pos = [48.62493, 10.02237] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "o}wgH}wd|@{@bD", v = 20 },
+  { line = "k_xgHyrd|@}FzT", v = 50 },
+  { line = "igxgH}|c|@wAtJcEd`AV|JfDzVUnKoAlGmBxE}OrRcC~Fw@hI\\hc@u@pL}Ulw@wG|MyDfUwJvZqEpn@kCvEcInEcHrOuAhFgLpn@q@`HjAraAb@bFxAfErMtUzArEpDjPrF|c@hGfa@`EdHdFjBjoAiT~\\_@~QeBhFX|IjBfDSzVyKbCiBh[gi@nCqCxSuD~NoHxCAbDzAdTlZdBvEVrFq@lMbFhXBxC{@xLp@fGnPp[~OzObBtCpAlEn@vFH~MiAxEkGrIiAxCa@rG`ApGnBxCdCbA~Nm@dDz@~M|WrBjBfKxCdBrBbA|CXpDKjDuBrGuOnMiEbFwG~D" },
+]
+posts = [[20, 48.62451, 10.02351], [19, 48.62708, 10.01067], [18, 48.62718, 9.99759], [17, 48.63102, 9.9866], [16, 48.63469, 9.97452], [15, 48.63929, 9.96298], [14, 48.64346, 9.95215], [13, 48.64678, 9.93969], [12, 48.64493, 9.92686], [11, 48.64089, 9.91498], [10, 48.63504, 9.9078], [9, 48.62621, 9.91026], [8, 48.61728, 9.91134], [7, 48.60864, 9.91319], [6, 48.60172, 9.92131], [5, 48.59367, 9.9202], [4, 48.59092, 9.90826], [3, 48.58558, 9.89848], [2, 48.58625, 9.88701], [1, 48.57895, 9.88124], [0, 48.57859, 9.87338]]
+
+[[connections]]
+km = -0.003
+station = "Amstetten"
+lines = [
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 67.005 },
+  { id = "9471", ref = "9471", name = "9471 Amstetten - Laichingen", km = 0.016 },
+]
+
+[[connections]]
+km = 0.092
+station = "Amstetten Lokalbahn"
+lines = [
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 67.1 },
+  { id = "9471", ref = "9471", name = "9471 Amstetten - Laichingen", km = 0.11 },
+]

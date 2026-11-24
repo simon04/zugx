@@ -1,0 +1,50 @@
+id = "6969"
+ref = "6969"
+name = "6969 Oschatz - Döbeln"
+operator = "Döllnitzbahn GmbH"
+gauge = "750"
+from = "Oschatz"
+to = "Döbeln"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 11.154
+length = 11.154
+speeds = [[0, 11.154, "", ""]]
+curves = [[0.1, 0.4, 250], [0.55, 0.7, 1030], [1.15, 1.35, 760], [1.4, 1.775, 330], [1.825, 2.25, 560], [2.375, 2.525, 380], [2.575, 2.925, 340], [2.975, 3.125, 250], [3.3, 3.475, 350], [3.525, 3.725, 220], [3.8, 3.95, 500], [4, 4.15, 320], [4.25, 4.375, 1480], [4.425, 4.75, 230], [4.8, 5.325, 450], [5.4, 5.5, 1250], [5.65, 6.05, 470], [6.1, 6.525, 520], [6.575, 7.175, 530], [7.5, 7.75, 580], [8.925, 9.2, 1100], [9.525, 9.775, 470], [10.3, 10.425, 1150], [10.55, 10.75, 370], [10.85, 10.975, 430]]
+points = [
+  { km = 0.131, kind = "stop", label = "Oschatz Hbf", uic = "8013461", pos = [51.31131, 13.10484] },
+  { km = 0.164, kind = "station", label = "Oschatz", uic = "8006237", pos = [51.31166, 13.10576] },
+  { km = 0.233, kind = "signal", label = "P", signal = "main", dir = 1 },
+  { km = 1.202, kind = "halt", label = "Oschatz Lichtstraße", pos = [51.30246, 13.10953] },
+  { km = 1.502, kind = "halt", label = "Oschatz Körnerstraße", pos = [51.30014, 13.1115] },
+  { km = 2.291, kind = "station", label = "Oschatz Süd", pos = [51.29406, 13.11013] },
+  { km = 2.926, kind = "halt", label = "Kleinforst Rosensee", pos = [51.28992, 13.10484] },
+  { km = 3.422, kind = "halt", label = "Altoschatz-Rosenthal", pos = [51.28785, 13.09879] },
+  { km = 4.471, kind = "station", label = "Thalheim-Kreischa", pos = [51.28118, 13.08986] },
+  { km = 7.299, kind = "station", label = "Naundorf (b Oschatz)", pos = [51.25938, 13.10123] },
+  { km = 9.299, kind = "halt", label = "Schweta Gasthof", pos = [51.24504, 13.08438] },
+  { km = 9.966, kind = "halt", label = "Schweta (b Oschatz) Bahnhof", pos = [51.24079, 13.0782] },
+  { km = 10.794, kind = "halt", label = "Mügeln-Flocke", pos = [51.2373, 13.06794] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.567, kmTo = 1.607, length = 40 },
+  { kind = "bridge", kmFrom = 3.013, kmTo = 3.033, length = 20 },
+  { kind = "bridge", kmFrom = 3.072, kmTo = 3.083, length = 11 },
+  { kind = "bridge", kmFrom = 10.896, kmTo = 10.906, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uwdxHwd~nAZcJnBoGvA{A~Q}BjPwF`L{EbF_ErCw@t@eAlAkFx@aA|LeBzAThH|E`N|RfLnFnCbEl@zDLdNtJlW^nD?pJbAjDhJtIdF~JbWrNrAa@dA}AbD{YvDyEvEy@pL\\lPw@zJmGbIQjF}AhEuD~HaMvD}CxG}AfI`A|ThKnDjCfv@nmAhGzGvTvObC|CvRpu@nHvRx@fXlB|HZnG" },
+]
+posts = [[0, 51.31147, 13.103], [1, 51.30418, 13.10863], [2, 51.29616, 13.11259], [3, 51.28992, 13.10378], [4, 51.28496, 13.09276], [5, 51.27873, 13.09507], [6, 51.27006, 13.09741], [7, 51.26196, 13.10238], [8, 51.25411, 13.09602], [9, 51.24737, 13.08652], [10, 51.24061, 13.0778], [11, 51.23687, 13.06511]]
+
+[[connections]]
+km = 0.164
+station = "Oschatz"
+lines = [
+  { id = "6363", ref = "6363", name = "6363 Leipzig Hbf - Dresden-Neustadt", km = 52.778 },
+]

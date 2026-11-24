@@ -1,0 +1,97 @@
+id = "5601"
+ref = "5601"
+name = "5601 Markt Schwaben - Erding"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802741"
+from = "Markt Schwaben"
+to = "Erding"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 13.8
+length = 13.779
+speeds = [[0, 0.237, 60, 60], [0.237, 0.795, 120, 80], [0.795, 2.504, 120, 120], [2.504, 3.016, 80, 120], [3.016, 3.403, 80, 80], [3.403, 4.478, 110, 110], [4.478, 12.364, 120, 120], [12.364, 13.564, 80, 80], [13.564, 13.8, 40, 40]]
+curves = [[0.575, 1.473, 1490], [2.391, 3.154, 760], [3.664, 4.497, 590], [5.798, 5.982, 2490], [6.976, 7.227, 1430], [7.485, 7.588, 2160], [7.691, 8.18, 2470], [10.489, 10.742, 1670], [12.015, 12.664, 1480]]
+points = [
+  { km = 0.062, kind = "signal", label = "IV I", signal = "minor", dir = 1 },
+  { km = 0.063, kind = "station", label = "Markt Schwaben", uic = "8003879", pos = [48.19338, 11.86194] },
+  { km = 0.064, kind = "signal", label = "IV II", signal = "minor", dir = -1 },
+  { km = 0.224, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.233, kind = "signal", label = "N4", signal = "main,minor", dir = 1 },
+  { km = 0.237, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.29, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.597, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.662, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.795, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.935, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.044, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 1.544, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.546, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.78, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.005, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.504, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.509, kind = "signal", label = "1A", signal = "distant,main", dir = 1 },
+  { km = 2.96, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 3.214, kind = "station", label = "Ottenhofen", uic = "8004723", pos = [48.21818, 11.87938] },
+  { km = 3.35, kind = "signal", label = "1N1", signal = "main", dir = 1 },
+  { km = 3.403, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.707, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 3.991, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 4.185, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.478, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.948, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.447, kind = "stop", label = "St. Koloman", uic = "8005652", pos = [48.2436, 11.88291] },
+  { km = 8.904, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 9.088, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 9.492, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.945, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.013, kind = "stop", label = "Aufhausen", uic = "8000653", pos = [48.27411, 11.89415] },
+  { km = 10.018, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.071, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.566, kind = "signal", label = "a30", signal = "distant", dir = 1 },
+  { km = 11.08, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 11.106, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 11.512, kind = "signal", label = "A30", signal = "distant,main,speed_limit_distant,traversable", dir = 1 },
+  { km = 11.528, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.024, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 12.163, kind = "signal", label = "WVr31", signal = "distant", dir = 1 },
+  { km = 12.201, kind = "station", label = "Altenerding", uic = "8000524", pos = [48.29368, 11.90178] },
+  { km = 12.43, kind = "signal", label = "R31", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 13.254, kind = "signal", label = "p32", signal = "distant", dir = -1 },
+  { km = 13.257, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.289, kind = "signal", label = "4", signal = "minor", dir = 1 },
+  { km = 13.438, kind = "signal", label = "S1", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 13.564, kind = "station", label = "Erding", uic = "8001825", pos = [48.30332, 11.91204] },
+  { km = 13.639, kind = "signal", label = "N1", signal = "main,minor,traversable", dir = 1 },
+  { km = 13.659, kind = "signal", label = "21", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.161, kmTo = 0.203, length = 44 },
+  { kind = "bridge", kmFrom = 3.129, kmTo = 3.177, length = 45 },
+  { kind = "bridge", kmFrom = 5.495, kmTo = 5.506, length = 11 },
+  { kind = "bridge", kmFrom = 5.909, kmTo = 5.944, length = 34 },
+  { kind = "bridge", kmFrom = 11.62, kmTo = 11.659, length = 35 },
+  { kind = "bridge", kmFrom = 12.818, kmTo = 12.857, length = 40 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ovceH}tkgA{HoM", v = 60 },
+  { line = "k`deHmclgAeSgZ}GwGoH{EeO}Eq~@sLiEeBiEeDgHyK", v = 120 },
+  { line = "slheHaxngAyIuX", v = 80 },
+  { line = "mwheHwqogA{J}ZiG{IsDcCuEoAeEMaG~@", v = 110 },
+  { line = "efjeHs}pgAk~@hWsR|Dqz@dHc[_BwO{CeNiFc{BylAaJiC}eAqSwHgCsGsD", v = 120 },
+  { line = "iqweH}usgAyIqH_j@yp@", v = 80 },
+  { line = "cgyeHiqugAyHwJ", v = 40 },
+]
+posts = [[0, 48.1932, 11.86143], [1, 48.20003, 11.86997], [2, 48.20911, 11.87288], [3, 48.21714, 11.87714], [4, 48.22224, 11.88766], [5, 48.23146, 11.88649], [6, 48.2398, 11.88357], [7, 48.24881, 11.88216], [8, 48.25747, 11.88383], [9, 48.26604, 11.88907], [10, 48.27397, 11.89406], [11, 48.28246, 11.89825], [12, 48.29127, 11.9008], [13, 48.29941, 11.90745]]
+
+[[connections]]
+km = 0.063
+station = "Markt Schwaben"
+lines = [
+  { id = "5600", ref = "5600", name = "5600 München Ost Pbf - Simbach (Inn) Grenze", km = 21.157 },
+]

@@ -1,0 +1,70 @@
+id = "6249"
+ref = "6249"
+name = "6249 Abzw Radebeul-Naundorf - Coswig (bei Dresden)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131693988"
+from = "Radebeul-Naundorf"
+to = "Coswig (bei Dresden)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.022
+kmTo = 3.684
+length = 3.67
+speeds = [[0.022, 1.37, 60, 60], [1.37, 1.797, 120, 120], [1.797, 3.684, 60, 60]]
+curves = [[0.122, 0.218, 1860], [0.515, 0.962, 750], [1.284, 1.411, 1470], [1.819, 2.836, 1170]]
+points = [
+  { km = 0.022, kind = "halt", label = "Radebeul-Naundorf", uic = "8006245", pos = [51.11045, 13.59905] },
+  { km = 0.175, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.323, kind = "signal", label = "805", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 0.701, kind = "signal", label = "528", signal = "combined,traversable", dir = 1 },
+  { km = 0.918, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 0.969, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.972, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.986, kind = "signal", label = "22II", signal = "shunting", dir = 1 },
+  { km = 1.101, kind = "signal", label = "527", signal = "combined,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 1.213, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.38, kind = "signal", label = "3I", signal = "shunting", dir = -1 },
+  { km = 1.55, kind = "signal", label = "520", signal = "combined", dir = 1 },
+  { km = 1.797, kind = "signal", label = "523", signal = "combined,minor,route,speed_limit,wrong_road", dir = -1 },
+  { km = 1.812, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.826, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.902, kind = "station", label = "Coswig (b Dresden)", pos = [51.12282, 13.57946], uic = "8006226" },
+  { km = 1.966, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.021, kind = "signal", label = "508", signal = "combined,minor", dir = 1 },
+  { km = 2.397, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 2.642, kind = "signal", label = "507", signal = "combined,route", dir = -1 },
+  { km = 2.794, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.184, kind = "signal", label = "492", signal = "combined,route,wrong_road", dir = 1 },
+  { km = 3.396, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.389, kmTo = 0.415, length = 26 },
+  { kind = "bridge", kmFrom = 2.11, kmTo = 2.121, length = 11 },
+  { kind = "bridge", kmFrom = 2.414, kmTo = 2.429, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gs}vHq__rAm\\fSiFfFeFrJgMdc@", v = 60 },
+  { line = "mm_wHgt|qAgIv`@", v = 120 },
+  { line = "uw_wHor{qAgDpM{EdL}FxI{FxFaLhGmo@hQ", v = 60 },
+]
+posts = [[1, 51.11862, 13.59131], [2, 51.12294, 13.57889], [3, 51.13035, 13.57194]]
+
+[[connections]]
+km = 0.022
+station = "Radebeul-Naundorf"
+lines = [
+  { id = "6248", ref = "6248", name = "6248 Dresden-Friedrichstadt - Elsterwerda Streckenwechsel 6135/6248", km = 10.722 },
+]
+
+[[connections]]
+km = 1.902
+station = "Coswig"
+lines = [
+  { id = "6198", ref = "6198", name = "6198 Brieske - Hosena Streckenwechsel 6198/6194", km = 34.792 },
+  { id = "6363", ref = "6363", name = "6363 Leipzig Hbf - Dresden-Neustadt", km = 101.991 },
+]

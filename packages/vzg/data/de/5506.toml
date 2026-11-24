@@ -1,0 +1,99 @@
+id = "5506"
+ref = "5506"
+name = "5506 München-Solln - Großhesselohe Isartalbahnhof"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "München-Solln"
+to = "Großhesselohe Isartalbahnhof"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 6.478
+kmTo = 14.22
+length = 7.734
+speeds = [[6.478, 9.466, 120, 120], [9.466, 9.775, 110, 110], [9.775, 13.24, 120, 120], [13.24, 14.22, 70, 70]]
+curves = [[9.436, 9.486, 2220], [9.561, 9.686, 30], [13.061, 13.261, 1730], [13.386, 13.886, 450], [13.936, 14.111, 680]]
+points = [
+  { km = 6.492, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.494, kind = "signal", label = "212", signal = "minor", dir = -1 },
+  { km = 6.854, kind = "signal", label = "GG", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 7.103, kind = "signal", label = "149", signal = "distant,main", dir = 1 },
+  { km = 7.251, kind = "signal", label = "VWgg", signal = "distant", dir = -1 },
+  { km = 7.259, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 7.31, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 7.384, kind = "stop", label = "Pullach", uic = "8004899", pos = [48.05896, 11.52184] },
+  { km = 7.454, kind = "signal", signal = "crossing_info,stop", dir = 1 },
+  { km = 7.488, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 7.509, kind = "signal", label = "VW151", signal = "distant", dir = 1 },
+  { km = 7.539, kind = "signal", label = "Vg", signal = "distant", dir = -1 },
+  { km = 7.861, kind = "signal", label = "151", signal = "distant,main", dir = 1 },
+  { km = 8.785, kind = "signal", label = "A", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 8.971, kind = "signal", label = "Ls2I", signal = "minor", dir = 1 },
+  { km = 9.175, kind = "signal", label = "Ls5", signal = "minor", dir = 1 },
+  { km = 9.18, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 9.294, kind = "signal", label = "P2", signal = "main,minor", dir = -1 },
+  { km = 9.356, kind = "station", label = "Höllriegelskreuth", uic = "8002899", pos = [48.0433, 11.50961] },
+  { km = 9.466, kind = "signal", label = "N2", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 9.683, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.724, kind = "signal", label = "N1", signal = "main,speed_limit", dir = -1 },
+  { km = 9.836, kind = "signal", label = "1", signal = "minor", dir = 1 },
+  { km = 9.882, kind = "stop", label = "Höllriegelskreuth", uic = "8002899", pos = [48.04328, 11.50966] },
+  { km = 10.073, kind = "signal", label = "P1", signal = "main,minor,wrong_road", dir = 1 },
+  { km = 10.163, kind = "signal", label = "Ls3", signal = "minor", dir = -1 },
+  { km = 10.253, kind = "signal", label = "Ls1I", signal = "minor", dir = -1 },
+  { km = 10.461, kind = "signal", label = "AA", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 10.987, kind = "signal", label = "V150", signal = "distant", dir = 1 },
+  { km = 11.381, kind = "signal", label = "Vaa", signal = "distant", dir = -1 },
+  { km = 11.688, kind = "signal", label = "150", signal = "distant,main", dir = 1 },
+  { km = 11.739, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 11.762, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 11.844, kind = "stop", label = "Pullach", uic = "8004899", pos = [48.05893, 11.52184] },
+  { km = 11.92, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 11.961, kind = "signal", label = "VWg", signal = "distant", dir = 1 },
+  { km = 11.968, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 12.376, kind = "signal", label = "G", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 12.745, kind = "signal", label = "211", signal = "minor", dir = -1 },
+  { km = 13.057, kind = "signal", label = "N220", signal = "distant,main,minor,wrong_road", dir = -1 },
+  { km = 13.334, kind = "signal", label = "206", signal = "minor", dir = 1 },
+  { km = 13.365, kind = "station", label = "Großhesselohe Isartalbahnhof", uic = "8002422", pos = [48.07116, 11.5309] },
+  { km = 13.427, kind = "signal", label = "S220", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 14.22, kind = "station", label = "München-Solln", uic = "8004161", pos = [48.07994, 11.52694] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 9.269, kmTo = 9.29, length = 20 },
+  { kind = "bridge", kmFrom = 9.95, kmTo = 9.97, length = 20 },
+  { kind = "bridge", kmFrom = 12.987, kmTo = 12.997, length = 10 },
+  { kind = "bridge", kmFrom = 13.437, kmTo = 13.462, length = 25 },
+  { kind = "bridge", kmFrom = 13.747, kmTo = 13.869, length = 122 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "u|jdHqmjeAlsC~rB", v = 120 },
+  { line = "ghfdHqyfeAzFjDwF_E", v = 110 },
+  { line = "chfdHezfeAsbDq~BkHgE", v = 120 },
+  { line = "cukdH_`keAcMuEoDMoDl@iDdC_JjNcFnD", v = 70 },
+]
+posts = [[7, 48.06202, 11.5242], [8, 48.05406, 11.51799], [9, 48.04615, 11.51182], [10, 48.04422, 11.51039], [11, 48.05219, 11.5166], [12, 48.06017, 11.52282], [13, 48.06814, 11.52904], [14, 48.07618, 11.52882]]
+
+[[connections]]
+km = 7.384
+station = "Pullach"
+lines = [
+  { id = "5507", ref = "5507", name = "5507 München Süd - Wolfratshausen", km = 7.382 },
+]
+
+[[connections]]
+km = 9.356
+station = "Höllriegelskreuth"
+lines = [
+  { id = "5507", ref = "5507", name = "5507 München Süd - Wolfratshausen", km = 9.343 },
+]
+
+[[connections]]
+km = 14.22
+station = "München-Solln"
+lines = [
+  { id = "5505", ref = "5505", name = "5505 München Hbf - Lenggries", km = 9.6 },
+]

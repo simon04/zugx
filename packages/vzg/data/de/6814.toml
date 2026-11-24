@@ -1,0 +1,37 @@
+id = "6814"
+ref = "6814"
+name = "Bahnstrecke Zeitz–Altenburg"
+operator = "Bayerische Regionaleisenbahn"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.265
+length = 4.265
+speeds = [[0, 4.194, "", ""], [4.194, 4.265, 20, 20]]
+curves = [[2.125, 2.45, 620], [3.5, 3.8, 530], [3.85, 4.15, 500]]
+points = [
+  { km = 3.81, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.008, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.057, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.061, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 4.137, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 4.191, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.194, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.531, kmTo = 0.541, length = 10 },
+  { kind = "bridge", kmFrom = 1.929, kmTo = 2.01, length = 81 },
+  { kind = "bridge", kmFrom = 2.112, kmTo = 2.231, length = 119, name = "Elsterflutgrabenbrücke" },
+  { kind = "bridge", kmFrom = 3.067, kmTo = 3.08, length = 13 },
+  { kind = "bridge", kmFrom = 3.643, kmTo = 3.656, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ctsvHkwliA}Sv|DI|Kn@fJhTvaB~BzHnFjHxBrEzApFt@dG" },
+  { line = "u~rvHauaiALfE", v = 20 },
+]
+posts = [[0, 51.06002, 12.19462], [1, 51.06154, 12.18052], [2, 51.06313, 12.16644], [3, 51.06153, 12.15264], [4, 51.05731, 12.14043]]

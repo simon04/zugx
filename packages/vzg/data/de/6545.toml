@@ -1,0 +1,23 @@
+id = "6545"
+ref = "6545"
+name = "6545 Treuenbrietzen - Brandenburg Hbf"
+operator = "Deutsche Regionaleisenbahn GmbH"
+gauge = "1435"
+from = "Treuenbrietzen"
+to = "Brandenburg Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.028
+length = 4.028
+speeds = [[0, 4.028, "", ""]]
+curves = [[0.35, 0.65, 710], [2, 2.15, 990], [2.325, 2.5, 1180], [2.85, 3, 1110], [3.85, 3.9, 2740]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "ild}HcxalAbN_^fFuH`gAo_AfSoKrT_T|n@acA" },
+]
+posts = [[0, 52.12885, 12.62994], [1, 52.12212, 12.63927], [2, 52.11424, 12.64632], [3, 52.10631, 12.65307], [4, 52.09955, 12.66273]]

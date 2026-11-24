@@ -1,0 +1,33 @@
+id = "3254"
+ref = "3254"
+name = "3254 Brebach - Halberger Hütte"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Brebach"
+to = "Halberger Hütte"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.879
+length = 0.879
+speeds = [[0, 0.879, "", ""]]
+curves = [[0.4, 0.575, 1670]]
+points = [
+  { km = 0.834, kind = "signal", label = "N3", signal = "main,traversable", dir = 1 },
+  { km = 0.838, kind = "station", label = "Saarbrücken-Brebach", pos = [49.21666, 7.02877] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "k_mkH_a{i@zWsOjTeH" },
+]
+posts = [[0, 49.22374, 7.02496]]
+
+[[connections]]
+km = 0.838
+station = "Saarbrücken-Brebach"
+lines = [
+  { id = "3251", ref = "3251", name = "3251 Saarbrücken - Hanweiler Grenze", km = 4.375 },
+]

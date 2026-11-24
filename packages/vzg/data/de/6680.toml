@@ -1,0 +1,46 @@
+id = "6680"
+ref = "6680"
+name = "6680 Naumburg (Saale) Hbf - Teuchern"
+operator = "DB Netz AG;ZossenRail Betriebsgesellschaft"
+gauge = "1435"
+from = "Naumburg (Saale) Hbf"
+to = "Teuchern"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.035
+kmTo = 2.992
+length = 2.999
+speeds = [[-0.035, 0.277, "", ""], [0.277, 0.386, 50, 50], [0.386, 1.087, 40, 40], [1.087, 2.992, 50, 50]]
+curves = [[0.19, 0.315, 1680], [0.365, 0.591, 470], [0.642, 1.148, 260], [1.451, 1.628, 1380], [1.831, 2.033, 1210], [2.134, 2.513, 1030]]
+points = [
+  { km = -0.035, kind = "station", label = "Naumburg (Saale) Hauptbahnhof", uic = "8016011", pos = [51.16293, 11.79664] },
+  { km = 0.064, kind = "signal", signal = "main_repeated" },
+  { km = 0.206, kind = "signal", label = "52 P5", signal = "main,minor,route,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 0.383, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.448, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.775, kind = "signal", label = "52 C", signal = "combined", dir = -1 },
+  { km = 2.764, kind = "station", label = "Naumburg (Saale) Ost", pos = [51.15534, 11.8238], uic = "8016653" },
+  { km = 2.992, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.087, kmTo = 1.146, length = 59 },
+  { kind = "bridge", kmFrom = 2, kmTo = 2.043, length = 42 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ywgwHw__gAaH}V" },
+  { line = "{`hwHuw_gAqAyG", v = 50 },
+  { line = "mchwHo``gAgCkI_FiG{BiHOaJd@{DpA}D", v = 40 },
+  { line = "iohwHksagA`Qq[vJuXbK{QtKcGf\\uH", v = 50 },
+]
+posts = [[0, 51.16318, 11.79703], [1, 51.1672, 11.80897], [2, 51.16142, 11.81967]]
+
+[[connections]]
+km = -0.035
+station = "Naumburg Hauptbahnhof"
+lines = [
+  { id = "6340", ref = "6340", name = "6340 Halle (Saale) Hbf - Baunatal-Guntershausen", km = 45.565 },
+]

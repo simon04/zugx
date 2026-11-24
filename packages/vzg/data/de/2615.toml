@@ -1,0 +1,87 @@
+id = "2615"
+ref = "2615"
+name = "2615 Köln West - Köln-Longerich"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q19818812"
+from = "Köln West"
+to = "Köln-Longerich"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.017
+kmTo = 8.467
+length = 8.455
+speeds = [[-0.017, 1.292, 60, 60], [1.292, 1.369, "", ""], [1.369, 2.473, 60, 60], [2.473, 2.504, "", ""], [2.504, 8.073, 60, 60], [8.073, 8.096, 150, 150], [8.096, 8.467, 60, 60]]
+curves = [[0.215, 0.719, 340], [0.769, 1.262, 990], [1.508, 1.978, 1920], [2.54, 3.123, 880], [6.607, 6.791, 1330], [7.367, 7.467, 2210], [7.792, 7.992, 1510], [8.192, 8.367, 1430]]
+points = [
+  { km = 0.078, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.35, kind = "signal", label = "60CC", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 0.429, kind = "signal", label = "60VWcc", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.675, kind = "signal", label = "Wv2c610", signal = "distant", dir = 1 },
+  { km = 0.866, kind = "signal", label = "Wv1c610", signal = "distant", dir = 1 },
+  { km = 0.938, kind = "signal", label = "C610", signal = "main", dir = 1 },
+  { km = 1.034, kind = "signal", label = "60Vcc", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.292, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.4, kind = "station", label = "Köln-Nippes", uic = "8003372", pos = [50.95899, 6.94178] },
+  { km = 1.546, kind = "signal", label = "D621", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 1.859, kind = "signal", label = "A550", signal = "main,traversable", dir = 1 },
+  { km = 2.068, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.188, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.434, kind = "halt", label = "Köln Geldernstraße/Parkgürtel", uic = "8003360", pos = [50.9685, 6.94135] },
+  { km = 2.566, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.76, kind = "signal", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 3.038, kind = "signal", label = "R101", signal = "main", dir = 1 },
+  { km = 4.057, kind = "signal", signal = "main", dir = 1 },
+  { km = 4.061, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.403, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.72, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.397, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.666, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 6.117, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.31, kind = "signal", signal = "minor", dir = -1 },
+  { km = 6.644, kind = "signal", label = "B401", signal = "distant,main", dir = 1 },
+  { km = 6.776, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.869, kind = "station", label = "Köln-Longerich", uic = "8003371", pos = [50.99824, 6.90148] },
+  { km = 7.704, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 8.081, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 8.085, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.806, kmTo = 0.841, length = 36 },
+  { kind = "bridge", kmFrom = 1.197, kmTo = 1.221, length = 24 },
+  { kind = "bridge", kmFrom = 1.316, kmTo = 1.369, length = 54 },
+  { kind = "bridge", kmFrom = 2.402, kmTo = 2.504, length = 96 },
+  { kind = "bridge", kmFrom = 5.995, kmTo = 6.039, length = 44 },
+  { kind = "bridge", kmFrom = 6.567, kmTo = 6.603, length = 34 },
+  { kind = "bridge", kmFrom = 6.84, kmTo = 6.856, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "i_jvHcv`i@lGsFhIsE", v = 60 },
+  { line = "qlivHkdai@d@W", v = 150 },
+  { line = "kkivHceai@hJkF`T}Qr_@cb@h`BivCjo@ueArEgGvFqErEmB|F}@", v = 60 },
+  { line = "w{avHwtji@r@I" },
+  { line = "czavHauji@vd@cEvIPlMzB", v = 60 },
+  { line = "e{_vHwvji@hCh@" },
+  { line = "{v_vHmuji@bH|@`IQhDy@vJyFhGWrCnAjBpBnKhU", v = 60 },
+]
+posts = [[8, 51.0068, 6.89285], [7, 50.99907, 6.90009], [6, 50.99247, 6.90934], [5, 50.98604, 6.91939], [4, 50.97955, 6.92931], [3, 50.97298, 6.9388], [2, 50.96445, 6.94193], [1, 50.9554, 6.9409], [0, 50.94776, 6.93826]]
+
+[[connections]]
+km = 1.4
+station = "Köln-Nippes"
+lines = [
+  { id = "2610", ref = "2610", name = "2610 Köln - Kleve", km = 2.387 },
+  { id = "2620", ref = "2620", name = "2620 Köln Hbf - Köln-Worringen", km = 2.296 },
+]
+
+[[connections]]
+km = 6.869
+station = "Köln-Longerich"
+lines = [
+  { id = "2610", ref = "2610", name = "2610 Köln - Kleve", km = 7.796 },
+  { id = "2620", ref = "2620", name = "2620 Köln Hbf - Köln-Worringen", km = 7.794 },
+]

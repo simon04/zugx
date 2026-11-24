@@ -1,0 +1,55 @@
+id = "3662"
+ref = "3662"
+name = "3662 Offenbach-Bieber - Dietzenbach Bahnhof"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Offenbach-Bieber"
+to = "Dietzenbach Bahnhof"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 4.781
+kmTo = 14.19
+length = 9.473
+speeds = [[4.781, 5.182, 80, 80], [5.182, 5.414, 120, 80], [5.414, 10.351, 120, 120], [10.351, 11.152, 100, 100], [11.152, 11.183, "", ""], [11.183, 12.709, 100, 100], [12.709, 14.19, 80, 80]]
+curves = [[4.88, 5.149, 390], [5.252, 5.329, 2070], [5.665, 5.923, 1200], [6.62, 7.229, 1050], [9.124, 9.372, 830], [13.531, 13.746, 750]]
+points = [
+  { km = 5.21, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.41, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.414, kind = "signal", label = "04 G426", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 6.155, kind = "signal", signal = "main", dir = 1 },
+  { km = 6.392, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 7.831, kind = "station", label = "Heusenstamm", pos = [50.06012, 8.80216], uic = "8011161" },
+  { km = 9.42, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 10.351, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.352, kind = "signal", signal = "combined,speed_limit", dir = 1 },
+  { km = 11.549, kind = "signal", label = "06 P692", signal = "main", dir = -1 },
+  { km = 11.675, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 11.732, kind = "station", label = "Dietzenbach-Steinberg", pos = [50.02614, 8.7931], uic = "8001459" },
+  { km = 12.604, kind = "signal", label = "06 ZS624", signal = "combined", dir = -1 },
+  { km = 12.709, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.725, kind = "station", label = "Dietzenbach Mitte", pos = [50.01757, 8.78918], uic = "8001455" },
+  { km = 13.725, kind = "signal", label = "06 ZU653", signal = "combined", dir = -1 },
+  { km = 13.78, kind = "station", label = "Dietzenbach Bahnhof", pos = [50.00808, 8.7855], uic = "8001456" },
+  { km = 13.883, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.946, kind = "signal", signal = "main", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.781, kmTo = 4.852, length = 86 },
+  { kind = "bridge", kmFrom = 11.161, kmTo = 11.183, length = 28 },
+  { kind = "bridge", kmFrom = 11.87, kmTo = 11.904, length = 31 },
+  { kind = "bridge", kmFrom = 12.874, kmTo = 12.916, length = 39 },
+  { kind = "bridge", kmFrom = 13.447, kmTo = 13.471, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}nepHq`st@m^nCer@aW", v = 80 },
+  { line = "qahpHctst@koAwc@", v = 100 },
+  { line = "}qjpH{xtt@aA]" },
+  { line = "_tjpHyytt@{g@aR", v = 100 },
+  { line = "{|kpH{lut@ax@iY}FmAaoBnF}HWuHwBmGqDwg@uf@ia@{P", v = 120 },
+  { line = "autpHwext@gEqBsD[eCf@eGvD", v = 80 },
+]
+posts = [[14, 50.00617, 8.78589], [13, 50.01532, 8.78813], [12, 50.02387, 8.79212], [11, 50.03253, 8.7961], [10, 50.04094, 8.8], [9, 50.04962, 8.80292], [8, 50.05852, 8.8023], [7, 50.06773, 8.80203], [6, 50.07528, 8.80841], [5, 50.08376, 8.8133]]

@@ -1,0 +1,79 @@
+id = "2572"
+ref = "2572"
+name = "2572 Stolberg (Rheinland) Hbf - Walheim (b Aachen) Grenze"
+operator = "EVS EUREGIO Verkehrsschienennetz GmbH"
+gauge = "1435"
+from = "Stolberg (Rheinland) Hbf"
+to = "Walheim (b Aachen) Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.556
+kmTo = 9.107
+length = 9.635
+speeds = [[-0.556, 0.092, "", ""], [0.092, 3.612, 60, 60], [3.612, 3.832, "", ""], [3.832, 5.395, 40, 40], [5.395, 5.453, "", ""], [5.453, 9.107, 30, 30]]
+curves = [[-0.331, -0.231, 1500], [-0.181, 0.24, 500], [0.418, 0.936, 310], [0.988, 1.403, 650], [1.453, 1.678, 550], [1.778, 1.953, 670], [2.002, 2.101, 1470], [2.554, 2.778, 890], [2.987, 3.506, 650], [3.574, 3.794, 1280], [3.87, 4.308, 420], [4.668, 4.848, 1480], [5.105, 5.773, 300], [5.825, 6.3, 320], [6.349, 7.343, 300], [8.595, 8.872, 1220]]
+points = [
+  { km = -0.316, kind = "signal", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = -0.005, kind = "signal", label = "09 ZS 27", signal = "combined,minor,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 0.024, kind = "station", label = "Stolberg (Rheinl) Hbf", pos = [50.79433, 6.21885], uic = "8000348" },
+  { km = 0.086, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.092, kind = "signal", label = "09 N27", signal = "main", dir = 1 },
+  { km = 1.133, kind = "stop", label = "Stolberg Schneidmühle", uic = "8005744", pos = [50.78505, 6.21889] },
+  { km = 1.18, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.487, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 1.906, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.393, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.463, kind = "stop", label = "Stolberg Mühlener Bahnhof", uic = "8005745", pos = [50.77363, 6.22383] },
+  { km = 3.052, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.054, kind = "signal", label = "11Va", signal = "distant", dir = -1 },
+  { km = 3.179, kind = "stop", label = "Stolberg Rathaus", uic = "8005743", pos = [50.76858, 6.22989] },
+  { km = 3.468, kind = "signal", label = "11A", signal = "main", dir = 1 },
+  { km = 3.567, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.612, kind = "signal", label = "11 P4", signal = "main", dir = -1 },
+  { km = 3.671, kind = "station", label = "Stolberg Altstadt", uic = "8005741", pos = [50.76425, 6.23049] },
+  { km = 3.679, kind = "signal", label = "11ZR4", signal = "combined,minor,traversable", dir = 1 },
+  { km = 3.743, kind = "signal", label = "11R24", signal = "combined,minor,speed_limit,traversable", dir = -1 },
+  { km = 4.219, kind = "signal", label = "11N44", signal = "main,minor", dir = 1 },
+  { km = 4.938, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.882, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.919, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 6.259, kind = "signal", signal = "main", dir = -1 },
+  { km = 6.607, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.704, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.761, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.025, kind = "signal", signal = "crossing_distant,crossing_hint,crossing_info", dir = 1 },
+  { km = 8.085, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.389, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 8.501, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.867, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 8.903, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 8.93, kind = "halt", label = "Breinig", uic = "8079063", pos = [50.73111, 6.21391] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.617, kmTo = 0.653, length = 35 },
+  { kind = "bridge", kmFrom = 5.032, kmTo = 5.046, length = 13 },
+  { kind = "bridge", kmFrom = 5.395, kmTo = 5.453, length = 56 },
+  { kind = "bridge", kmFrom = 6.259, kmTo = 6.273, length = 14 },
+  { kind = "bridge", kmFrom = 6.592, kmTo = 6.602, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "em`uH_z~d@zNd_@~BbDdDfB" },
+  { line = "ct_uHmq}d@fVhBpGxE~D`@hCkAdHyGnHaDdCOrLhBvM{C`i@{_@lWc_@`EuAzME", v = 60 },
+  { line = "i_ztHm|_e@pLzB" },
+  { line = "wqytHqx_e@~ElArCEjCy@bCwB~Qg_@hMma@zB{C|C}A", v = 40 },
+  { line = "oswtHkfbe@dBQ" },
+  { line = "ipwtH}fbe@tC\\lCbBtIjQrEjDhG?zIkGpC{@xE`@hEvDpCjJXbSnAbIft@p{AhC~HtFjW", v = 30 },
+]
+posts = [[0, 50.79457, 6.21911], [1, 50.78623, 6.21807], [2, 50.77757, 6.22083], [3, 50.76906, 6.22916], [4, 50.76124, 6.22963], [5, 50.75513, 6.23883], [6, 50.74842, 6.23835], [7, 50.74124, 6.23546], [8, 50.73627, 6.22407], [9, 50.7308, 6.21304]]
+
+[[connections]]
+km = 0.024
+station = "Stolberg Hbf"
+lines = [
+  { id = "2570", ref = "2570", name = "2570 Stolberg (Rheinl) Hbf - Herzogenrath", km = 0.117 },
+  { id = "2600", ref = "2600", name = "2600 Köln Hbf - Aachen Süd Grenze", km = 60.395 },
+]

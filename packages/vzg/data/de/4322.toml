@@ -1,0 +1,48 @@
+id = "4322"
+ref = "4322"
+name = "4322 Konstanz - Konstanz Grenze Romanshorn"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Konstanz"
+to = "Konstanz Grenze Romanshorn"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.927
+length = 0.927
+speeds = [[0, 0.687, 20, 20], [0.687, 0.927, 40, 40]]
+curves = [[0.1, 0.2, 710], [0.575, 0.825, 640]]
+points = [
+  { km = 0.15, kind = "signal", label = "P 3", signal = "main,minor", dir = -1 },
+  { km = 0.155, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.173, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.226, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 0.229, kind = "station", label = "Konstanz", uic = "8003400", pos = [47.65887, 9.17722], ele = 405 },
+  { km = 0.248, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.295, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.322, kind = "stop", label = "Konstanz", uic = "8003400", pos = [47.65874, 9.17749] },
+  { km = 0.332, kind = "signal", label = "3 III", signal = "minor", dir = -1 },
+  { km = 0.335, kind = "signal", label = "3 II", signal = "minor", dir = 1 },
+  { km = 0.34, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.367, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.384, kind = "stop", label = "Konstanz", uic = "8003400", pos = [47.65819, 9.17734] },
+  { km = 0.385, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.405, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 0.501, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.504, kind = "signal", label = "N 3", signal = "main,minor,route,traversable", dir = 1 },
+  { km = 0.691, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.754, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.759, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.763, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.802, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.822, kind = "signal", signal = "crossing_info", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a|{aHcq_w@|F@d]rF", v = 20 },
+  { line = "}uzaHmi_w@pESrE}A", v = 40 },
+]
+posts = [[0, 47.66161, 9.17794]]

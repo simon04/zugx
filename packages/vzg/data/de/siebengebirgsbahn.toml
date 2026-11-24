@@ -1,0 +1,80 @@
+id = "siebengebirgsbahn"
+name = "Siebengebirgsbahn"
+operator = "SSB"
+gauge = "1435"
+wikidata = "Q1403785"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 14.15
+length = 14.15
+speeds = [[0, 0.623, 30, 30], [0.623, 0.709, 20, 20], [0.709, 0.906, 30, 30], [0.906, 3.602, 70, 70], [3.602, 3.997, 90, 90], [3.997, 10.474, "", ""], [10.474, 11.014, 50, 50], [11.014, 12.425, 80, 80], [12.425, 14.15, "", ""]]
+curves = [[0.1, 0.2, 290], [0.35, 0.775, 290], [0.825, 0.95, 980], [1.475, 1.65, 1290], [1.725, 2.05, 320], [2.3, 2.6, 1060], [2.975, 3.6, 570], [3.65, 4.175, 670], [4.825, 5.075, 2510], [5.325, 5.65, 900], [6.7, 6.775, 1460], [6.85, 6.925, 1300], [7.275, 7.35, 2620], [7.475, 7.55, 2480], [8.375, 8.775, 230], [8.925, 9.2, 210], [10.05, 10.175, 1710], [10.275, 10.4, 1400], [10.75, 10.875, 1850], [11.35, 11.425, 2800], [11.875, 12.525, 1230], [13.275, 13.35, 1910], [13.65, 13.75, 1820], [13.85, 13.95, 1940]]
+points = [
+  { km = 0.062, kind = "stop", label = "Konrad-Adenauer-Platz", pos = [50.73919, 7.11802] },
+  { km = 0.271, kind = "halt", label = "Beuel Rathaus", pos = [50.73949, 7.12083] },
+  { km = 0.59, kind = "halt", label = "Obere Wilhelmstraße", pos = [50.73995, 7.12515] },
+  { km = 0.795, kind = "halt", label = "Beuel Bahnhof", pos = [50.739, 7.12697] },
+  { km = 0.859, kind = "station", label = "Bonn-Beuel", uic = "8001083", pos = [50.73852, 7.12768] },
+  { km = 1.797, kind = "halt", label = "Limperich Nord", pos = [50.73062, 7.13202] },
+  { km = 2.17, kind = "halt", label = "Limperich", pos = [50.72902, 7.13639] },
+  { km = 2.612, kind = "halt", label = "Küdinghoven", pos = [50.72755, 7.14218] },
+  { km = 2.99, kind = "halt", label = "Schießbergweg", pos = [50.72568, 7.14668] },
+  { km = 3.716, kind = "stop", label = "Ramersdorf", pos = [50.72239, 7.15494] },
+  { km = 3.759, kind = "stop", label = "Ramersdorf", pos = [50.7223, 7.15552] },
+  { km = 4.742, kind = "stop", label = "Oberkassel Nord", pos = [50.7163, 7.16541] },
+  { km = 5.202, kind = "stop", label = "Oberkassel Mitte", pos = [50.71331, 7.16991] },
+  { km = 5.716, kind = "stop", label = "Oberkassel Süd / Römlinghoven", pos = [50.70972, 7.17438] },
+  { km = 6.595, kind = "stop", label = "Oberdollendorf Nord", pos = [50.70253, 7.17957] },
+  { km = 7.347, kind = "stop", label = "Oberdollendorf", pos = [50.69651, 7.18442] },
+  { km = 8.827, kind = "stop", label = "Longenburg / CJD Königswinter", pos = [50.68486, 7.18671] },
+  { km = 9.884, kind = "stop", label = "Königswinter Clemens-August-Straße", pos = [50.67728, 7.18897] },
+  { km = 10.44, kind = "stop", label = "Königswinter Fähre", pos = [50.67282, 7.19251] },
+  { km = 10.474, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.976, kind = "stop", label = "Königswinter Denkmal", pos = [50.6687, 7.19643] },
+  { km = 11.017, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.513, kind = "station", label = "Rhöndorf", pos = [50.65812, 7.21009], uic = "8005074" },
+  { km = 13.574, kind = "stop", label = "Am Spitzenbach", pos = [50.64881, 7.21492] },
+  { km = 14.064, kind = "halt", label = "Bad Honnef (Rhein)", uic = "8000713", pos = [50.64476, 7.21772] },
+  { km = 14.106, kind = "stop", label = "Bad Honnef Stadtbahn", pos = [50.64421, 7.21701] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 3.464, kmTo = 3.997, length = 533 },
+  { kind = "bridge", kmFrom = 6.77, kmTo = 6.909, length = 140 },
+  { kind = "tunnel", kmFrom = 7.398, kmTo = 8.008, length = 610 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a_utHgamj@`@yIuDuW\\uEi@uI", v = 30 },
+  { line = "adutHcvnj@?uBr@wA", v = 20 },
+  { line = "mbutHq|nj@rIoC", v = 30 },
+  { line = "ywttHaaoj@t]wTrOyF`CuCdAeEnEab@zByKzM{b@`BwCxG_HrAkDt@aF", v = 70 },
+  { line = "yxqtHmwsj@t@_K", tunnel = true, v = 70 },
+  { line = "cwqtHmctj@pAqQxC_M", tunnel = true, v = 90 },
+  { line = "woqtH_duj@hD}Gl`@aj@lVcd@xNsLzTcN" },
+  { line = "{kntH{yxj@t@c@", tunnel = true },
+  { line = "ejntH_{xj@rw@ok@" },
+  { line = "qqltHogzj@b_@uQ", tunnel = true },
+  { line = "mqktHezzj@zUsKjEDrBhBfAlCvEjXhA`B`BNjp@uh@jQ}L" },
+  { line = "m~gtHqy{j@~PaOxFaH", v = 50 },
+  { line = "sdgtHur|j@xOmRr`@ik@|JeL", v = 80 },
+  { line = "gfetHs__k@nl@a\\xl@yT" },
+]
+posts = [[0, 50.73921, 7.11716], [1, 50.73727, 7.12791], [2, 50.72944, 7.13406], [3, 50.72563, 7.14679], [4, 50.72138, 7.15859], [5, 50.71456, 7.16783], [6, 50.7074, 7.17608], [7, 50.69931, 7.18225], [8, 50.69101, 7.18767], [9, 50.68427, 7.18445], [10, 50.67636, 7.18974], [11, 50.66852, 7.19663], [12, 50.66145, 7.20537], [13, 50.65365, 7.21214], [14, 50.64512, 7.21655]]
+
+[[connections]]
+km = 0.859
+station = "Bonn-Beuel"
+lines = [
+  { id = "2324", ref = "2324", name = "2324 Mülheim (Ruhr)-Speldorf - Niederlahnstein", km = 90.32 },
+]
+
+[[connections]]
+km = 14.064
+station = "Bad Honnef"
+lines = [
+  { id = "2324", ref = "2324", name = "2324 Mülheim (Ruhr)-Speldorf - Niederlahnstein", km = 102.703 },
+]

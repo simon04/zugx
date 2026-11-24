@@ -1,0 +1,48 @@
+id = "2401"
+ref = "2401"
+name = "2401 Düsseldorf-Derendorf Dnf - Abzw Düsseldorf Vogelsang"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Düsseldorf-Derendorf Dnf"
+to = "Düsseldorf Vogelsang"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.25
+length = 2.25
+speeds = [[0, 2.25, "", ""]]
+curves = [[0.1, 0.85, 370], [1.05, 1.35, 630], [1.5, 1.55, 1990], [1.925, 2.1, 1360]]
+points = [
+  { km = 0.561, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.042, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.266, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.509, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.777, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.954, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 2.154, kind = "halt", label = "Düsseldorf-Derendorf", uic = "8001586", pos = [51.2478, 6.79449] },
+  { km = 2.189, kind = "signal", signal = "main,minor,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.23, kmTo = 0.312, length = 83 },
+  { kind = "bridge", kmFrom = 0.566, kmTo = 0.601, length = 35 },
+  { kind = "bridge", kmFrom = 0.643, kmTo = 0.69, length = 47 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{f{wHa}nh@oA~Nj@nLrDbMlB~BtCvAxDLtOwBhKgEde@oEdLaD" },
+]
+posts = [[0, 51.2627, 6.79905], [1, 51.25792, 6.79134], [2, 51.24908, 6.79354]]
+
+[[connections]]
+km = 2.154
+station = "Düsseldorf-Derendorf"
+lines = [
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 3.292 },
+  { id = "2413", ref = "2413", name = "2413 Düsseldorf-Eller - Düsseldorf Hbf", km = 8.995 },
+  { id = "2416", ref = "2416", name = "2416 Düsseldorf Hbf - Düsseldorf-Unterrath", km = 3.239 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 42.771 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 42.718 },
+]

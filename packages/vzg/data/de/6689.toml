@@ -1,0 +1,113 @@
+id = "6689"
+ref = "6689"
+name = "6689 Lauscha (Thür)–Ernstthal am Rennsteig"
+operator = "Thüringer Eisenbahn GmbH"
+gauge = "1435"
+wikidata = "Q107043796"
+from = "Lauscha (Thür)"
+to = "Ernstthal am Rennsteig"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 6.692
+length = 6.692
+speeds = [[0, 0.14, "", ""], [0.14, 0.613, 40, 40], [0.613, 0.791, 60, 40], [0.791, 1.946, 60, 60], [1.946, 2.018, 20, 60], [2.018, 2.105, 20, 20], [2.105, 5.53, 60, 60], [5.53, 5.757, 50, 60], [5.757, 6.151, 40, 60], [6.151, 6.692, 40, 40]]
+curves = [[0.1, 0.425, 530], [0.575, 1.325, 580], [1.375, 1.85, 250], [1.9, 2.375, 260], [2.475, 2.8, 500], [3, 3.9, 260], [3.975, 4.975, 300], [5.025, 5.675, 270], [5.725, 6.025, 520], [6.075, 6.15, 1520], [6.25, 6.325, 2160], [6.375, 6.575, 450]]
+points = [
+  { km = 0.14, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.258, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.307, kind = "station", label = "Ernstthal am Rennsteig", pos = [50.49652, 11.16431], uic = "8016351", ele = 769 },
+  { km = 0.376, kind = "signal", label = "6 P2", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 0.462, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.588, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.607, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.613, kind = "signal", signal = "crossing_info,speed_limit", dir = 1 },
+  { km = 0.636, kind = "signal", signal = "crossing_info,snowplow", dir = -1 },
+  { km = 0.68, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.681, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 0.785, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 0.791, kind = "signal", label = "6 A", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 0.811, kind = "signal", signal = "snowplow,whistle", dir = -1 },
+  { km = 0.94, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.117, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.22, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.315, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 1.328, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.341, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 1.483, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 1.494, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.504, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 1.728, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 1.729, kind = "signal", signal = "crossing_info,snowplow", dir = 1 },
+  { km = 1.754, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 1.757, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.762, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.946, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 2.018, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.02, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 2.035, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 2.083, kind = "stop", label = "Oberlauscha", pos = [50.48498, 11.15645], uic = "8016354", ele = 735 },
+  { km = 2.104, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.105, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 2.13, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 2.14, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.151, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 2.2, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.324, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 2.457, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.466, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 2.571, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 2.589, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 2.699, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.8, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.175, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.381, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 3.395, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 3.51, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.639, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.117, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 4.328, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 4.771, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 4.791, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 4.838, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.027, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 5.039, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.052, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 5.53, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.736, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 5.757, kind = "signal", label = "5 F", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 5.762, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 6.059, kind = "signal", signal = "crossing_info,snowplow", dir = 1 },
+  { km = 6.087, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 6.104, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 6.151, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.489, kind = "signal", label = "5 P1", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 6.651, kind = "station", label = "Lauscha (Thür)", pos = [50.47302, 11.16028], ele = 611 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.147, kmTo = 4.298, length = 151 },
+  { kind = "tunnel", kmFrom = 5.234, kmTo = 5.51, length = 276, name = "Lauschensteintunnel" },
+  { kind = "bridge", kmFrom = 6.09, kmTo = 6.184, length = 94 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qbfsHshccAbFeD" },
+  { line = "m{esHymccA|HoAfOdC", v = 40 },
+  { line = "gaesHclccApF?rHoE`Dk@zXzEzCdEvAlHFbE}@`R", v = 60 },
+  { line = "ekcsHidbcAl@fF", v = 20 },
+  { line = "wicsHa}acAfBnEfC~BfO`CxFoApQiMdC[xBZrBrA`BdChDlPtC|EhDzAvMLvCr@vCzCxEpKzE`CxEo@vE{EfAgD~EuW", v = 60 },
+  { line = "{|~rH_lacAMqJqCeI", tunnel = true, v = 60 },
+  { line = "{a_sHwabcAiCqBkI_CeGmEcJyA", v = 60 },
+  { line = "{c`sHqrbcAoPgEeKrB", v = 40 },
+]
+posts = [[0, 50.49913, 11.16314], [1, 50.49049, 11.16494], [2, 50.48516, 11.15759], [3, 50.47765, 11.156], [4, 50.47044, 11.15105], [5, 50.46325, 11.15045], [6, 50.46728, 11.15931]]
+
+[[connections]]
+km = 6.651
+station = "Lauscha"
+lines = [
+  { id = "5121", ref = "5121", name = "5121 Coburg - Lauscha (Thür)", km = 38.46 },
+]

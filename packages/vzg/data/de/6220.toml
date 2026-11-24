@@ -1,0 +1,94 @@
+id = "6220"
+ref = "6220"
+name = "6220 Merzdorf Strw - Peitz Ost Strw"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131702030"
+from = "Merzdorf Streckenwechsel 6345/6220"
+to = "Peitz Ost Streckenwechsel 6220/6345"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.014
+kmTo = 11.369
+length = 11.372
+speeds = [[-0.014, 11.276, 140, 140], [11.276, 11.369, 120, 120]]
+curves = [[0.086, 0.713, 1170], [5.165, 5.213, 2380], [5.864, 7.376, 1130], [8.964, 11.169, 1810]]
+points = [
+  { km = 0.191, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.383, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 0.405, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.471, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.569, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.211, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.224, kind = "halt", label = "Cottbus-Merzdorf - Chóśebuz-Žylowk", uic = "8004059", pos = [51.76879, 14.36665] },
+  { km = 1.264, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.269, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.308, kind = "stop", label = "Cottbus-Merzdorf", uic = "8012341", pos = [51.7696, 14.36682] },
+  { km = 1.541, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.692, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.805, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 2.262, kind = "signal", signal = "crossing_distant" },
+  { km = 2.313, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.582, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 2.666, kind = "signal", label = "20 21", signal = "main,traversable", dir = 1 },
+  { km = 2.828, kind = "signal", signal = "crossing_distant" },
+  { km = 3.01, kind = "signal", signal = "crossing_distant" },
+  { km = 3.93, kind = "signal", signal = "crossing_distant" },
+  { km = 4.267, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 4.294, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 5.486, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 5.513, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 5.696, kind = "signal", signal = "crossing_distant" },
+  { km = 5.798, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 6.713, kind = "stop", label = "Cottbus-Willmersdorf Nord", pos = [51.81628, 14.38523], uic = "8004898" },
+  { km = 6.971, kind = "signal", signal = "crossing_distant" },
+  { km = 7.089, kind = "signal", signal = "crossing_distant" },
+  { km = 7.672, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 7.973, kind = "signal", signal = "crossing_distant" },
+  { km = 8.49, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 8.527, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 8.544, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 8.81, kind = "signal", signal = "crossing_distant" },
+  { km = 9.381, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 9.428, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 9.519, kind = "stop", label = "Teichland / Gatojce", pos = [51.81862, 14.42406], uic = "8004058" },
+  { km = 10.152, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 10.206, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 10.261, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 10.262, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.313, kind = "signal", signal = "crossing_distant" },
+  { km = 10.443, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 10.851, kind = "signal", signal = "crossing_distant" },
+  { km = 10.984, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.276, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.276, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.278, kind = "signal", label = "D", signal = "combined,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.577, kmTo = 1.592, length = 14 },
+  { kind = "bridge", kmFrom = 7.908, kmTo = 7.922, length = 16 },
+  { kind = "bridge", kmFrom = 8.013, kmTo = 8.029, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_d|zHuwsvA}MiR}EqDyGyC_|F_eA_g@kN}IwEkG{FoGmJeGkOoD_PoBiQg@qU@sqCgAiYkDgZaI}\\qDyJeIaP_PyRkJcHoKcF", v = 140 },
+  { line = "e`j{HcvcwA}CqA", v = 120 },
+]
+posts = [[0, 51.75897, 14.36057], [1, 51.76724, 14.36619], [2, 51.77613, 14.3686], [3, 51.78523, 14.37114], [4, 51.79369, 14.37349], [5, 51.80241, 14.37586], [6, 51.81145, 14.37925], [7, 51.8175, 14.38911], [8, 51.81806, 14.40369], [9, 51.81806, 14.41835], [10, 51.82089, 14.43171], [11, 51.82776, 14.44082]]
+
+[[connections]]
+km = 1.224
+station = "Cottbus-Merzdorf - Chóśebuz-Žylowk"
+lines = [
+  { id = "6253", ref = "6253", name = "6253 Großenhain - Frankfurt (Oder)", km = 175.196 },
+]
+
+[[connections]]
+km = 9.519
+station = "Teichland / Gatojce"
+lines = [
+  { id = "6253", ref = "6253", name = "6253 Großenhain - Frankfurt (Oder)", km = 164.449 },
+]

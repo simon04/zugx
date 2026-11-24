@@ -1,0 +1,57 @@
+id = "6380"
+ref = "6380"
+name = "6380 Leipzig-Leutzsch - Leipzig-Wahren"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q77558797"
+from = "Leipzig-Leutzsch"
+to = "Leipzig-Wahren"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.243
+kmTo = 3.199
+length = 3.024
+speeds = [[0.243, 0.49, 40, 40], [0.49, 2.134, 80, 80], [2.134, 2.776, "", ""], [2.776, 3.199, 60, 60]]
+curves = [[0.367, 0.996, 510], [1.065, 1.178, 1240], [1.271, 1.436, 1240], [2.431, 2.974, 420]]
+points = [
+  { km = 0.413, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.49, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.741, kind = "signal", label = "18 BB", signal = "main,route,speed_limit", dir = -1 },
+  { km = 0.791, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = 1.099, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.505, kind = "halt", label = "Hp Haus am See", pos = [51.36732, 12.32216] },
+  { km = 1.744, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = 1.793, kind = "halt", label = "Hp Elsteraue", pos = [51.36942, 12.32464] },
+  { km = 2.01, kind = "signal", signal = "combined", dir = 1 },
+  { km = 2.014, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.37, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.199, kind = "station", label = "Leipzig-Wahren", uic = "8023457", pos = [51.38064, 12.32166] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.315, kmTo = 0.33, length = 15 },
+  { kind = "bridge", kmFrom = 0.962, kmTo = 0.986, length = 21 },
+  { kind = "bridge", kmFrom = 1.236, kmTo = 1.273, length = 39 },
+  { kind = "bridge", kmFrom = 1.429, kmTo = 1.588, length = 168 },
+  { kind = "bridge", kmFrom = 2.007, kmTo = 2.583, length = 568 },
+  { kind = "bridge", kmFrom = 2.753, kmTo = 2.776, length = 29 },
+  { kind = "bridge", kmFrom = 3.077, kmTo = 3.099, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "agrxH_wejA~GyTxDmG", v = 60 },
+  { line = "gxqxHgufjA|EqCbFW~UfI" },
+  { line = "espxHipfjA~h@jSdLlAlKApDt@dGjEfE|H", v = 80 },
+  { line = "q{mxHqgejAzD~R", v = 40 },
+]
+posts = [[3, 51.37951, 12.32496], [2, 51.37105, 12.32606], [1, 51.36213, 12.323]]
+
+[[connections]]
+km = 3.199
+station = "Leipzig-Wahren"
+lines = [
+  { id = "6382", ref = "6382", name = "6382 Leipzig-Wahren - Leipzig Hbf", km = 2.836 },
+  { id = "6403", ref = "6403", name = "Magdeburg-Leipzig", km = 112.745 },
+]

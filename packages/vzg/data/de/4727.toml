@@ -1,0 +1,52 @@
+id = "4727"
+ref = "4727"
+name = "4727 Stuttgart-Untertürkheim - Stuttgart Neckarpark"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Stuttgart-Untertürkheim"
+to = "Stuttgart Neckarpark"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.662
+length = 0.662
+speeds = [[0, 0.662, 60, 60]]
+curves = [[0.1, 0.225, 970], [0.325, 0.55, 520]]
+points = [
+  { km = 0.159, kind = "signal", signal = "main,minor,traversable", dir = -1 },
+  { km = 0.199, kind = "signal", label = "P 830", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 0.206, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.27, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.321, kind = "station", label = "Stuttgart Neckarpark", uic = "8029377", pos = [48.79182, 9.24117] },
+  { km = 0.334, kind = "stop", label = "Stuttgart Neckarpark (Mercedes-Benz)", pos = [48.79188, 9.24095] },
+  { km = 0.42, kind = "halt", label = "Blick", pos = [48.79322, 9.24211] },
+  { km = 0.443, kind = "signal", label = "31ZW703", signal = "catenary_mast,combined,train_protection,traversable", dir = 1 },
+  { km = 0.451, kind = "signal", label = "R 830", signal = "distant,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 0.551, kind = "signal", label = "830", signal = "minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_dxhHailw@aFjF_NtJoBjDuBpG", v = 60 },
+]
+posts = [[0, 48.78928, 9.24321]]
+
+[[connections]]
+km = 0.321
+station = "Stuttgart Neckarpark"
+lines = [
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 5.472 },
+  { id = "4701", ref = "4701", name = "4701 Stuttgart Hbf - Plochingen", km = 5.587 },
+  { id = "4720", ref = "4720", name = "4720 Stuttgart-Untertürkheim - Kornwestheim Pbf", km = 1.487 },
+]
+
+[[connections]]
+km = 0.42
+station = "Blick"
+lines = [
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 5.417 },
+  { id = "4701", ref = "4701", name = "4701 Stuttgart Hbf - Plochingen", km = 5.5 },
+  { id = "4720", ref = "4720", name = "4720 Stuttgart-Untertürkheim - Kornwestheim Pbf", km = 1.597 },
+]

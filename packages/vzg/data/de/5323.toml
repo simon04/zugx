@@ -1,0 +1,29 @@
+id = "5323"
+ref = "5323"
+name = "Eichstätt–Beilngries"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.492
+kmTo = 4.449
+length = 2.955
+speeds = [[1.492, 4.206, 50, 50], [4.206, 4.449, "", ""]]
+curves = [[1.892, 2.193, 420], [2.243, 2.368, 580], [2.418, 3.043, 1480], [3.168, 4.319, 360]]
+points = [
+  { km = 3.01, kind = "stop", label = "Rebdorf-Hofmühle", pos = [48.89222, 11.16949], uic = "8004966" },
+  { km = 4.415, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.204, kmTo = 2.241, length = 36 },
+  { kind = "bridge", kmFrom = 2.492, kmTo = 2.507, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "iziiH_kecAaW}HqFQyJlGuGfBkDvBiKjKaPbX_DzBiGvBuC?cDqAoBkBmBeEkAmKz@eO", v = 50 },
+  { line = "womiHuaecAvE_Q" },
+]
+posts = [[2, 48.8843, 11.17549], [3, 48.89218, 11.16947], [4, 48.89897, 11.1695]]

@@ -1,0 +1,46 @@
+id = "3674"
+ref = "3674"
+name = "3674 Hanau Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hanau Hbf"
+to = "Hanau Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.001
+kmTo = 1.372
+length = 1.377
+speeds = [[-0.001, 0.834, 80, 80], [0.834, 0.939, 100, 100], [0.939, 1.372, 80, 80]]
+curves = [[0.099, 0.149, 1860], [0.499, 0.761, 570], [0.927, 1.27, 1430]]
+points = [
+  { km = 0.137, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.358, kind = "signal", label = "20 P35", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 0.536, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.633, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.885, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 1.186, kind = "signal", signal = "route", dir = -1 },
+  { km = 1.372, kind = "station", label = "Hanau Hbf", uic = "8000150", pos = [50.12107, 8.92921] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.834, kmTo = 0.939, length = 116 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "e`~pHgrku@pVy`@zBiG|A_J", v = 80 },
+  { line = "ya}pHkgmu@pAiH", tunnel = true, v = 100 },
+  { line = "g_}pHupmu@xCmLrHkP", v = 80 },
+]
+posts = [[0, 50.1301, 8.91189], [1, 50.12459, 8.92271]]
+
+[[connections]]
+km = 1.372
+station = "Hanau Hbf"
+lines = [
+  { id = "3600", ref = "3600", name = "3600 Frankfurt (M) Hbf - Göttingen", km = 22.943 },
+  { id = "3660", ref = "3660", name = "3660 Frankfurt (Main) Süd - Aschaffenburg Hbf", km = 19.966 },
+  { id = "3742", ref = "3742", name = "3742 Friedberg (Hess) - Hanau Hbf", km = 32.118 },
+  { id = "4113", ref = "4113", name = "4113 Eberbach - Hanau Hbf", km = 88.162 },
+]

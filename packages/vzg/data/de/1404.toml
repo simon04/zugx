@@ -1,0 +1,92 @@
+id = "1404"
+ref = "1404"
+name = "1404 Abzw Bremen Gabelung - Sagehorn"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q23310079"
+from = "Bremen Gabelung"
+to = "Sagehorn"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 5.389
+kmTo = 18.246
+length = 12.851
+speeds = [[5.389, 6.081, 80, 80], [6.081, 18.246, 100, 100]]
+curves = [[5.514, 5.614, 1320], [5.764, 6.139, 860], [10.41, 11.236, 1570], [15.993, 16.519, 770], [18.045, 18.095, 2270]]
+points = [
+  { km = 6.081, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 7.061, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 9.132, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 9.407, kind = "signal", label = "42", signal = "main", dir = -1 },
+  { km = 9.601, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 9.602, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 9.778, kind = "station", label = "Bremen-Mahndorf", uic = "8001160", pos = [53.03979, 8.94449] },
+  { km = 9.864, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 9.865, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 10.248, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 10.407, kind = "signal", signal = "distant", dir = -1 },
+  { km = 13.307, kind = "signal", signal = "main", dir = -1 },
+  { km = 14.317, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.333, kind = "signal", signal = "distant", dir = 1 },
+  { km = 16.272, kind = "halt", label = "Sagehorn", pos = [53.0825, 9.00967] },
+  { km = 16.418, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 16.653, kind = "signal", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 16.766, kind = "signal", label = "3 I", signal = "minor", dir = -1 },
+  { km = 16.79, kind = "signal", signal = "distant", dir = 1 },
+  { km = 16.839, kind = "signal", signal = "minor", dir = 1 },
+  { km = 16.919, kind = "signal", signal = "train_protection", dir = -1 },
+  { km = 17.069, kind = "signal", signal = "route", dir = -1 },
+  { km = 17.143, kind = "signal", label = "P3", signal = "main,minor,wrong_road", dir = -1 },
+  { km = 17.278, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 17.884, kind = "signal", label = "N3", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 18.24, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 256.7, kind = "halt", label = "Sagehorn Hp", pos = [53.08249, 9.0099], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.578, kmTo = 5.588, length = 10 },
+  { kind = "bridge", kmFrom = 5.773, kmTo = 5.783, length = 10 },
+  { kind = "bridge", kmFrom = 5.898, kmTo = 5.967, length = 68 },
+  { kind = "bridge", kmFrom = 6.569, kmTo = 6.589, length = 20 },
+  { kind = "bridge", kmFrom = 6.789, kmTo = 6.824, length = 35 },
+  { kind = "bridge", kmFrom = 6.858, kmTo = 6.87, length = 12 },
+  { kind = "bridge", kmFrom = 7.588, kmTo = 7.606, length = 18 },
+  { kind = "bridge", kmFrom = 7.813, kmTo = 7.859, length = 46 },
+  { kind = "bridge", kmFrom = 8.003, kmTo = 8.016, length = 13 },
+  { kind = "bridge", kmFrom = 9.053, kmTo = 9.08, length = 27 },
+  { kind = "bridge", kmFrom = 9.642, kmTo = 9.659, length = 17 },
+  { kind = "bridge", kmFrom = 9.801, kmTo = 9.856, length = 55 },
+  { kind = "bridge", kmFrom = 10.264, kmTo = 10.292, length = 28 },
+  { kind = "bridge", kmFrom = 14.274, kmTo = 14.305, length = 31 },
+  { kind = "bridge", kmFrom = 14.681, kmTo = 14.696, length = 15 },
+  { kind = "bridge", kmFrom = 16.194, kmTo = 16.215, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "utsbIabfu@aF}H_KwScEsP", v = 80 },
+  { line = "{mtbIkrgu@_kAetJ{CmTsDePkFsO_JmPwnEyrGqFyJqDwMwAuKoUu~C", v = 100 },
+]
+posts = [[6, 53.02993, 8.89032], [7, 53.03283, 8.90446], [8, 53.03572, 8.91863], [9, 53.03863, 8.93282], [10, 53.04154, 8.947], [11, 53.04543, 8.96031], [12, 53.05233, 8.96985], [13, 53.05936, 8.97915], [14, 53.06637, 8.98848], [15, 53.07339, 8.9978], [16, 53.08041, 9.00712], [17, 53.08381, 9.02057], [18, 53.08584, 9.03516]]
+
+[[connections]]
+km = 9.778
+station = "Bremen-Mahndorf"
+lines = [
+  { id = "1740", ref = "1740", name = "Wunstorf, W 18 - DB-Grenze, (Bremerhaven-Seehafen)", km = 111.985 },
+]
+
+[[connections]]
+km = 16.272
+station = "Sagehorn"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 256.85 },
+]
+
+[[connections]]
+km = 256.7
+station = "Sagehorn Hp"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 256.7 },
+]

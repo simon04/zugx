@@ -1,0 +1,41 @@
+id = "5610"
+ref = "5610"
+name = "5610 München Ost Pbf- München Ost Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "München Ost Pbf"
+to = "München Ost Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.131
+length = 1.131
+speeds = [[0, 1.131, "", ""]]
+curves = []
+points = [
+  { km = 0.036, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.068, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.072, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.136, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.396, kind = "signal", label = "6", signal = "minor", dir = -1 },
+  { km = 0.658, kind = "station", label = "Berg am Laim", uic = "8004142", pos = [48.13397, 11.6336] },
+  { km = 1.014, kind = "signal", label = "Hs 6", signal = "minor", dir = 1 },
+  { km = 1.015, kind = "signal", label = "M6", signal = "main", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ikxdHsn}eAFoHjGwsA" },
+]
+posts = [[0, 48.13509, 11.6249], [1, 48.13385, 11.63823]]
+
+[[connections]]
+km = 0.658
+station = "Berg am Laim"
+lines = [
+  { id = "5510", ref = "5510", name = "5510 München Hbf - Rosenheim", km = 12.181 },
+  { id = "5550", ref = "5550", name = "5550 München Hbf tief - München Ost Pbf", km = 2.25 },
+  { id = "5600", ref = "5600", name = "5600 München Ost Pbf - Simbach (Inn) Grenze", km = 2.476 },
+]

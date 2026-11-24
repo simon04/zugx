@@ -1,0 +1,28 @@
+id = "1426"
+ref = "1426"
+name = "1426 Bremen Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Bremen Rbf"
+to = "Bremen Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.068
+length = 1.068
+speeds = [[0, 1.068, "", ""]]
+curves = [[0.1, 0.75, 1000], [0.875, 0.95, 1150]]
+points = [
+  { km = 0.127, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.129, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.82, kind = "signal", signal = "main", dir = 1 },
+  { km = 1.007, kind = "signal", signal = "minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "i}ecI__qt@{HbE{FxGkElHcD|H_GfWiCbH" },
+]
+posts = [[0, 53.11973, 8.77568], [1, 53.12599, 8.76564]]

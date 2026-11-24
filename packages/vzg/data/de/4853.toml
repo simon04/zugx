@@ -1,0 +1,54 @@
+id = "4853"
+ref = "4853"
+name = "Nagoldtalbahn"
+operator = "Albtal-Verkehrs-Gesellschaft mbH"
+gauge = "1435"
+from = "Pforzheim Hbf"
+to = "Brötzingen Mitte"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.599
+kmTo = 2.92
+length = 2.312
+speeds = [[0.599, 0.762, "", ""], [0.762, 2.871, 80, 80], [2.871, 2.92, 60, 60]]
+curves = [[0.699, 0.824, 1190], [1.049, 1.308, 960], [1.475, 1.59, 1460], [1.769, 1.901, 1370], [1.984, 2.108, 1570], [2.447, 2.808, 530]]
+points = [
+  { km = 0.762, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.803, kind = "signal", signal = "catenary_mast,stop", dir = -1 },
+  { km = 1.842, kind = "signal", signal = "catenary_mast,stop", dir = -1 },
+  { km = 1.883, kind = "signal", signal = "catenary_mast,stop", dir = -1 },
+  { km = 1.9, kind = "stop", label = "Pforzheim Maihälden", uic = "8004804", pos = [48.89338, 8.67829], measured = true },
+  { km = 1.938, kind = "signal", signal = "catenary_mast,stop", dir = 1 },
+  { km = 1.945, kind = "signal", signal = "catenary_mast,route_distant", dir = 1 },
+  { km = 1.948, kind = "signal", label = "41 A", signal = "catenary_mast,combined,speed_limit_distant", dir = 1 },
+  { km = 2.764, kind = "signal", label = "2", signal = "stop", dir = -1 },
+  { km = 2.798, kind = "station", label = "Brötzingen Mitte", uic = "8004799", pos = [48.88949, 8.66712] },
+  { km = 2.864, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.871, kind = "signal", label = "41 N1", signal = "main,speed_limit", dir = 1 },
+  { km = 2.908, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uwliH_fat@{@nL" },
+  { line = "qyliHox`t@Mbb@nC~[`TtnA|DvJlFtF", v = 80 },
+  { line = "askiHgu{s@pAr@", v = 60 },
+]
+posts = [[1, 48.89522, 8.68946], [2, 48.89296, 8.67688]]
+
+[[connections]]
+km = 1.9
+station = "Pforzheim Maihälden"
+lines = [
+  { id = "4850", ref = "4850", name = "4850 Pforzheim Hbf - Hochdorf (b Horb)", km = 1.9 },
+]
+
+[[connections]]
+km = 2.798
+station = "Brötzingen Mitte"
+lines = [
+  { id = "4850", ref = "4850", name = "4850 Pforzheim Hbf - Hochdorf (b Horb)", km = 2.798 },
+  { id = "4851", ref = "4851", name = "4851 Brötzingen Mitte - Bad Wildbad", km = 2.8 },
+]

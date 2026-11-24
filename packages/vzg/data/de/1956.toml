@@ -1,0 +1,75 @@
+id = "1956"
+ref = "1956"
+name = "1956 Abzw Weddel - Fallersleben"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q2553882"
+from = "Weddel (Abzw)"
+to = "Fallersleben"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 3.351
+kmTo = 24.186
+length = 20.838
+speeds = [[3.351, 3.54, "", ""], [3.54, 3.912, 140, 140], [3.912, 24.186, 160, 160]]
+curves = [[3.465, 3.868, 1780], [4.049, 5.052, 1170], [7.681, 7.974, 2580], [8.047, 8.206, 2600], [8.256, 8.406, 2230], [8.555, 8.605, 2570], [10.747, 10.896, 2410], [11, 11.538, 2610], [11.608, 11.672, 2920], [11.735, 11.799, 2450], [20.381, 20.742, 2150], [20.832, 21.159, 2310], [21.256, 21.434, 1760], [21.669, 21.822, 1860], [22.014, 22.138, 1930], [22.233, 22.391, 1620], [22.485, 23.62, 1370], [23.791, 24.061, 2250]]
+points = [
+  { km = 3.351, kind = "station", label = "Weddel (Braunschw)", uic = "8013237", pos = [52.26914, 10.62352] },
+  { km = 3.54, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.912, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.965, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.216, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 4.409, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.785, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.882, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.992, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = 5.178, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.704, kind = "signal", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 6.653, kind = "signal", signal = "distant,speed_limit_distant" },
+  { km = 8.642, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 9.554, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10.523, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 11.474, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 11.74, kind = "signal", signal = "main,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 12.567, kind = "signal", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 13.611, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 17.577, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 18.552, kind = "signal", signal = "distant", dir = -1 },
+  { km = 20.105, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 21.125, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 21.382, kind = "signal", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 22.307, kind = "signal", label = "382S", signal = "main", dir = -1 },
+  { km = 23.981, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 23.983, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.063, kmTo = 5.084, length = 27 },
+  { kind = "bridge", kmFrom = 6.298, kmTo = 6.36, length = 62 },
+  { kind = "bridge", kmFrom = 10.361, kmTo = 10.387, length = 27 },
+  { kind = "bridge", kmFrom = 10.605, kmTo = 10.642, length = 39 },
+  { kind = "bridge", kmFrom = 11.764, kmTo = 11.79, length = 31 },
+  { kind = "bridge", kmFrom = 12.731, kmTo = 12.789, length = 39 },
+  { kind = "bridge", kmFrom = 12.916, kmTo = 13.175, length = 251 },
+  { kind = "bridge", kmFrom = 16.157, kmTo = 16.174, length = 18 },
+  { kind = "bridge", kmFrom = 16.888, kmTo = 16.905, length = 17 },
+  { kind = "bridge", kmFrom = 22.393, kmTo = 22.425, length = 25 },
+  { kind = "bridge", kmFrom = 22.822, kmTo = 22.934, length = 100 },
+  { kind = "bridge", kmFrom = 23.169, kmTo = 23.185, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "y{}~Hizj`ARv[{@ra@\\zUjAnO~A~KfGfVfF~MhIzOtS~WfTvO~U|H`MpApM?ppFic@fe@}FhfE}p@fOeAfQb@lSvDvtBdx@|StLpInH|J|KttBhaDdH|Q`EvSfBvVHnY", v = 160 },
+  { line = "s_`~Hcy{_Ap@j`@", v = 140 },
+  { line = "a~_~Hwwz_AnAzO" },
+]
+posts = [[24, 52.42307, 10.70754], [23, 52.42256, 10.69259], [22, 52.41731, 10.68169], [21, 52.4091, 10.6751], [20, 52.40012, 10.67472], [19, 52.39084, 10.67613], [18, 52.38198, 10.67748], [17, 52.3741, 10.67866], [16, 52.36399, 10.6802], [15, 52.35512, 10.68219], [14, 52.34662, 10.68434], [13, 52.33775, 10.68656], [12, 52.32857, 10.68885], [11, 52.31952, 10.68916], [10, 52.31114, 10.68539], [9, 52.30251, 10.68118], [8, 52.29413, 10.67593], [7, 52.2867, 10.66641], [6, 52.28009, 10.6573], [5, 52.27334, 10.64791], [4, 52.27018, 10.63453]]
+
+[[connections]]
+km = 3.351
+station = "Weddel"
+lines = [
+  { id = "1900", ref = "1900", name = "1900 Braunschweig - Helmstedt", km = 9.545 },
+]

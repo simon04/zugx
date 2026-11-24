@@ -1,0 +1,68 @@
+id = "2504"
+ref = "2504"
+name = "2504 Abzw Krefeld Lohbruch - Krefeld-Uerdingen"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Krefeld Lohbruch"
+to = "Krefeld-Uerdingen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.138
+kmTo = 6.068
+length = 6.192
+speeds = [[-0.138, 2.827, 60, 60], [2.827, 6.068, "", ""]]
+curves = [[0.037, 0.087, 2230], [0.235, 0.901, 1460], [1.547, 1.626, 2190], [1.901, 2.026, 1500], [3.576, 3.801, 2320], [5.826, 5.876, 2120]]
+points = [
+  { km = -0.006, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.21, kind = "signal", label = "6Vc", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.217, kind = "signal", label = "520", signal = "main", dir = -1 },
+  { km = 0.412, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.714, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.845, kind = "signal", label = "6Vwc", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.097, kind = "signal", label = "6C", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 1.102, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.363, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 1.546, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.673, kind = "station", label = "Krefeld-Linn", uic = "8003426", pos = [51.33765, 6.63002] },
+  { km = 2.519, kind = "signal", label = "6N5", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 2.755, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.834, kind = "signal", signal = "route", dir = 1 },
+  { km = 3.241, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.339, kind = "signal", signal = "main", dir = -1 },
+  { km = 4.117, kind = "halt", label = "Krefeld-Uerdingen", uic = "8003427", pos = [51.35733, 6.64568] },
+  { km = 4.25, kind = "signal", label = "7B", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 4.337, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.871, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.946, kind = "signal", signal = "minor", dir = -1 },
+  { km = 5.002, kind = "signal", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 5.751, kind = "signal", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 5.916, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.917, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.442, kmTo = 3.477, length = 35 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "k|fxHallg@qYoBaRcGwi@y`@sVoMoh@e`@", v = 60 },
+  { line = "{ukxHeiog@kl@mb@kmB_rB" },
+]
+posts = [[0, 51.32369, 6.62244], [1, 51.33219, 6.62603], [2, 51.34037, 6.63183], [3, 51.34843, 6.63821], [4, 51.35636, 6.64497], [5, 51.36386, 6.6529], [6, 51.37144, 6.66064]]
+
+[[connections]]
+km = 1.673
+station = "Krefeld-Linn"
+lines = [
+  { id = "2500", ref = "2500", name = "2500 Krefeld Hbf - Krefeld-Linn", km = 4.972 },
+  { id = "2505", ref = "2505", name = "2505 Krefeld-Oppum - Mülheim (Ruhr)-Speldorf", km = 1.771 },
+]
+
+[[connections]]
+km = 4.117
+station = "Krefeld-Uerdingen"
+lines = [
+  { id = "2505", ref = "2505", name = "2505 Krefeld-Oppum - Mülheim (Ruhr)-Speldorf", km = 4.234 },
+]

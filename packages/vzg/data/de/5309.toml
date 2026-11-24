@@ -1,0 +1,46 @@
+id = "5309"
+ref = "5309"
+name = "5309 Augsburg Hbf - Augsburg Morellstraße"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Augsburg Hbf"
+to = "Augsburg Morellstraße"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.459
+length = 1.459
+speeds = [[0, 1.459, 40, 40]]
+curves = [[0.125, 0.325, 1170], [0.625, 1.05, 740], [1.2, 1.325, 1310]]
+points = [
+  { km = 0.063, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.532, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.541, kind = "station", label = "Augsburg Morellstraße", uic = "8000660", pos = [48.35518, 10.89309] },
+  { km = 1.1, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.114, kind = "signal", label = "812", signal = "minor", dir = 1 },
+  { km = 1.173, kind = "signal", label = "131I", signal = "minor", dir = -1 },
+  { km = 1.227, kind = "signal", label = "131II", signal = "minor", dir = 1 },
+  { km = 1.289, kind = "signal", label = "129II", signal = "minor", dir = 1 },
+  { km = 1.29, kind = "signal", label = "129I", signal = "minor", dir = -1 },
+  { km = 1.42, kind = "signal", label = "125", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.31, kmTo = 0.339, length = 29 },
+  { kind = "bridge", kmFrom = 0.606, kmTo = 0.62, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qlbfH_nnaAsNsAaUTeGv@iG~CmL`M_GhI", v = 40 },
+]
+posts = [[0, 48.35033, 10.89264], [1, 48.35915, 10.89172]]
+
+[[connections]]
+km = 0.541
+station = "Augsburg Morellstraße"
+lines = [
+  { id = "5304", ref = "5304", name = "5304 Augsburg Hbf - Buchloe", km = 72.693 },
+  { id = "5340", ref = "5340", name = "Staudenbahn", km = -1.284 },
+]

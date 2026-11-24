@@ -1,0 +1,30 @@
+id = "5307"
+ref = "5307"
+name = "5307 Meitingen Stahlwerk - Herbertshofen Süd"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Meitingen Stahlwerk"
+to = "Herbertshofen Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.035
+length = 1.035
+speeds = [[0, 0.75, 60, 60], [0.75, 1.035, 25, 25]]
+curves = [[0.125, 0.2, 2020]]
+points = [
+  { km = 0.076, kind = "signal", label = "W205", signal = "minor", dir = 1 },
+  { km = 0.19, kind = "signal", label = "P204", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.75, kind = "signal", label = "204", signal = "minor", dir = 1 },
+  { km = 0.875, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.886, kind = "signal", label = "W223", signal = "minor", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{nagHeweaAci@a@", v = 60 },
+  { line = "_ybgHgxeaAaO?", v = 25 },
+]
+posts = [[0, 48.50942, 10.84803], [1, 48.51841, 10.8482]]

@@ -1,0 +1,33 @@
+id = "3202"
+ref = "3202"
+name = "3202 Altenglan – Kusel"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q33526365"
+from = "Altenglan"
+to = "Kusel"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.208
+kmTo = 4.951
+length = 4.668
+speeds = [[0.208, 0.288, 50, 50], [0.288, 0.489, "", ""], [0.489, 1.913, 40, 40], [1.913, 4.951, "", ""]]
+curves = [[0.325, 1.175, 360], [1.225, 1.325, 1100], [1.45, 1.675, 560], [1.725, 1.88, 420], [1.976, 2.319, 1170], [2.863, 3.206, 810], [3.32, 3.921, 700], [4.236, 4.522, 2230], [4.665, 4.837, 1560]]
+points = [
+  { km = 0.288, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.327, kind = "station", label = "Altenglan", pos = [49.5482, 7.46206], uic = "8000491" },
+  { km = 1.913, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.001, kind = "stop", label = "Rammelsbach", pos = [49.54218, 7.44426], uic = "8004929" },
+  { km = 4.782, kind = "station", label = "Kusel", pos = [49.5383, 7.41089], uic = "8003481" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wljmHgefl@w@aO}CqYsHg`@{AcLMmQ|BuXLqLeDwp@yAsLmBgJ" },
+  { line = "mgkmHqbml@}B}JmC{F_FgEkKoD_RoTeDgGgA{IZyIdBuGhE}G", v = 40 },
+  { line = "gslmHegpl@fI}E" },
+  { line = "_ilmHcnpl@nCa@", v = 50 },
+]
+posts = [[4, 49.54045, 7.42056], [3, 49.54062, 7.43229], [2, 49.54217, 7.4441], [1, 49.55085, 7.45507]]

@@ -1,0 +1,28 @@
+id = "3925"
+ref = "3925"
+name = "3925 Abzw Kassel Rbf Abzw Berg - Abzw Kassel Nordwest"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Kassel Rbf Abzw Berg"
+to = "Kassel Nordwest"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.029
+length = 1.029
+speeds = [[0, 1.029, "", ""]]
+curves = [[0.125, 0.25, 1540], [0.35, 0.675, 1040]]
+points = [
+  { km = 0.417, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.634, kind = "signal", label = "243", signal = "distant,main,traversable", dir = 1 },
+  { km = 0.877, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 0.923, kind = "signal", signal = "electricity", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}_lxHgaxx@tZuR~Y{F" },
+]
+posts = [[0, 51.34863, 9.46724], [1, 51.34013, 9.4716]]

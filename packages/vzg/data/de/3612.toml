@@ -1,0 +1,76 @@
+id = "3612"
+ref = "3612"
+name = "3612 Frankfurt (Main) Hbf (tief) - Frankfurt (Main) Galluswarte"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Frankfurt (Main) Hbf (tief)"
+to = "Frankfurt (Main) Galluswarte"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.305
+kmTo = 1.539
+length = 1.839
+speeds = [[-0.305, 0.256, "", ""], [0.256, 0.919, 60, 60], [0.919, 1.539, 80, 80]]
+curves = [[-0.187, 0.047, 660], [0.562, 0.613, 2280], [0.715, 0.765, 1890], [0.892, 1.439, 320]]
+points = [
+  { km = -0.021, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.001, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.06, kind = "station", label = "Hauptbahnhof (tief)", pos = [50.10717, 8.66233], uic = "8067016" },
+  { km = 0.065, kind = "station", label = "Frankfurt (Main) Hauptbahnhof", uic = "8011068", pos = [50.10665, 8.66258] },
+  { km = 0.2, kind = "signal", label = "71 ZV1", signal = "main,route,speed_limit", dir = 1, measured = true },
+  { km = 0.495, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 0.907, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.108, kind = "signal", label = "61 AA", signal = "combined", dir = 1 },
+  { km = 1.243, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.539, kind = "station", label = "Frankfurt (Main) Galluswarte", uic = "8006690", pos = [50.10439, 8.64444] },
+  { km = 10, kind = "station", label = "Hauptbahnhof", pos = [50.10774, 8.66379], measured = true },
+  { km = 50, kind = "signal", label = "71 ZT1", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1, measured = true },
+]
+structures = [
+  { kind = "tunnel", kmFrom = -0.305, kmTo = 0.745, length = 1044, name = "City-Tunnel Frankfurt" },
+  { kind = "bridge", kmFrom = 1.119, kmTo = 1.2, length = 81 },
+  { kind = "bridge", kmFrom = 1.274, kmTo = 1.301, length = 28 },
+  { kind = "bridge", kmFrom = 1.459, kmTo = 1.52, length = 61 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "w{xpHsmws@hFoGzBwJGyJiCoL", v = 80 },
+  { line = "cuxpHe{xs@mDkK", v = 60 },
+  { line = "qzxpHqgys@eNqc@", tunnel = true, v = 60 },
+  { line = "wiypHclzs@oGaTcCkFiFoE", tunnel = true },
+]
+posts = [[1, 50.10237, 8.65123], [0, 50.10725, 8.66303]]
+
+[[connections]]
+km = 0.06
+station = "Hauptbahnhof"
+lines = [
+  { id = "3520", ref = "3520", name = "3520 Mainz Hbf - Frankfurt (Main) Hbf", km = 0 },
+  { id = "3601", ref = "3601", name = "3601 Frankfurt (Main) Hbf - Abzw Heidelberg-Wieblingen", km = 0 },
+  { id = "3603", ref = "3603", name = "3603 Frankfurt (Main) Hbf - Wiesbaden Hbf", km = 0 },
+  { id = "3610", ref = "3610", name = "3610 Frankfurt (Main) Hbf (tief) - Eschhofen", km = 0.056 },
+  { id = "3613", ref = "3613", name = "3613 Frankfurt (Main) Hbf - Frankfurt-Rödelheim", km = 0 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 0 },
+]
+
+[[connections]]
+km = 0.065
+station = "Frankfurt Hauptbahnhof"
+lines = [
+  { id = "3520", ref = "3520", name = "3520 Mainz Hbf - Frankfurt (Main) Hbf", km = 37.476 },
+  { id = "3601", ref = "3601", name = "3601 Frankfurt (Main) Hbf - Abzw Heidelberg-Wieblingen", km = 0.059 },
+  { id = "3603", ref = "3603", name = "3603 Frankfurt (Main) Hbf - Wiesbaden Hbf", km = 0.041 },
+  { id = "3610", ref = "3610", name = "3610 Frankfurt (Main) Hbf (tief) - Eschhofen", km = 0.057 },
+  { id = "3613", ref = "3613", name = "3613 Frankfurt (Main) Hbf - Frankfurt-Rödelheim", km = 0.06 },
+]
+
+[[connections]]
+km = 1.539
+station = "Frankfurt Galluswarte"
+lines = [
+  { id = "3611", ref = "3611", name = "3611 Frankfurt (Main) Hbf (tief) - Friedberg (Hess)", km = 1.561 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 198.158 },
+]

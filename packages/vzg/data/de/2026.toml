@@ -1,0 +1,111 @@
+id = "2026"
+ref = "2026"
+name = "2026 Salzbergen - Bad Bentheim Grenze"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q801832"
+from = "Salzbergen"
+to = "Bad Bentheim Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.236
+kmTo = 21.779
+length = 21.931
+speeds = [[-0.236, -0.125, 140, 140], [-0.125, -0.013, 100, 100], [-0.013, 13.18, 140, 140], [13.18, 21.779, 125, 125]]
+curves = [[-0.136, 0.039, 30], [0.489, 1.743, 1210], [10.267, 10.47, 1660], [11.297, 11.923, 1460], [12.475, 12.875, 1430], [14.902, 15.154, 2430], [16.107, 16.283, 1760]]
+points = [
+  { km = -0.013, kind = "station", label = "Salzbergen", uic = "8005262", pos = [52.32288, 7.35096] },
+  { km = 0.248, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.33, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.489, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.856, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.075, kind = "signal", label = "2 G", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 1.226, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.406, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.063, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.908, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 4.828, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 4.848, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 6.527, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 7.456, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.461, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 8.819, kind = "signal", signal = "minor", dir = 1 },
+  { km = 8.89, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 8.915, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 9.02, kind = "signal", label = "1 P2", signal = "main,minor,traversable", dir = -1 },
+  { km = 9.147, kind = "station", label = "Schüttorf", pos = [52.31706, 7.22226], uic = "8005436" },
+  { km = 9.58, kind = "signal", label = "1 N2", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 9.773, kind = "signal", signal = "minor", dir = -1 },
+  { km = 10.07, kind = "signal", label = "1 F", signal = "distant,main,traversable", dir = -1 },
+  { km = 10.366, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.078, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.966, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.965, kind = "signal", signal = "main,speed_limit,traversable", dir = 1, measured = true },
+  { km = 13.18, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.246, kind = "signal", signal = "minor", dir = 1 },
+  { km = 13.341, kind = "signal", signal = "minor", dir = -1 },
+  { km = 13.388, kind = "signal", signal = "minor", dir = -1 },
+  { km = 13.598, kind = "signal", label = "P1", signal = "main,traversable", dir = -1 },
+  { km = 13.666, kind = "station", label = "Bad Bentheim", pos = [52.30973, 7.15829], uic = "8000879" },
+  { km = 13.998, kind = "signal", label = "Z1", signal = "main,minor,traversable", dir = 1 },
+  { km = 14.062, kind = "signal", signal = "minor", dir = -1 },
+  { km = 14.436, kind = "signal", signal = "minor", dir = 1 },
+  { km = 14.515, kind = "signal", label = "P34", signal = "minor", dir = -1 },
+  { km = 14.583, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 14.822, kind = "signal", label = "F", signal = "distant,main,speed_limit,traversable", dir = -1, measured = true },
+  { km = 15.101, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 15.171, kind = "signal", signal = "crossing_hint", dir = 1 },
+  { km = 15.702, kind = "signal", signal = "crossing_hint", dir = 1 },
+  { km = 16.037, kind = "signal", signal = "train_protection", dir = -1, measured = true },
+  { km = 16.041, kind = "signal", label = "V34", signal = "distant", dir = -1, measured = true },
+  { km = 16.341, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 16.342, kind = "signal", signal = "train_protection", dir = -1, measured = true },
+  { km = 16.372, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 16.78, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 16.843, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 17.049, kind = "signal", signal = "crossing_hint", dir = 1 },
+  { km = 17.64, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 17.64, kind = "signal", signal = "crossing_hint", dir = -1 },
+  { km = 17.663, kind = "signal", signal = "crossing_hint", dir = 1 },
+  { km = 17.663, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 18.083, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 18.23, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 18.277, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 18.979, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 19.021, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 20.337, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 21.082, kind = "signal", signal = "train_protection", dir = -1, measured = true },
+  { km = 21.222, kind = "signal", label = "2", signal = "main,traversable", dir = -1, measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.172, kmTo = 0.186, length = 13 },
+  { kind = "bridge", kmFrom = 8.148, kmTo = 8.18, length = 32 },
+  { kind = "bridge", kmFrom = 8.426, kmTo = 8.452, length = 27 },
+  { kind = "bridge", kmFrom = 9.427, kmTo = 9.454, length = 26 },
+  { kind = "bridge", kmFrom = 13.569, kmTo = 13.587, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ylj~H}qzk@uCtE", v = 140 },
+  { line = "oqj~Hgkzk@|CmE", v = 100 },
+  { line = "qlj~Huqzk@qW|a@oJlXeCdMgBrPg@|NHvNv_BxbWrAjNlPxhAjBtRp@v[gBhgAd@hQhCt`@", v = 140 },
+  { line = "_}g~Halvj@pSn_DnBjrAO~_@}QdqEeAzi@Dfc@vFluE", v = 125 },
+]
+posts = [[0, 52.32354, 7.35007], [1, 52.32959, 7.33936], [2, 52.32996, 7.32508], [3, 52.32816, 7.31073], [4, 52.32636, 7.29639], [5, 52.32457, 7.28205], [6, 52.32276, 7.26772], [7, 52.32096, 7.25338], [8, 52.31915, 7.23904], [9, 52.31734, 7.22471], [10, 52.31557, 7.21071], [11, 52.31289, 7.19691], [12, 52.31117, 7.1827], [13, 52.31112, 7.16802], [14, 52.30922, 7.1534], [15, 52.3074, 7.13899], [16, 52.30687, 7.12438], [17, 52.30793, 7.10971], [18, 52.30929, 7.0947], [19, 52.31034, 7.07963], [20, 52.31, 7.06613], [21, 52.30947, 7.05153]]
+
+[[connections]]
+km = -0.013
+station = "Salzbergen"
+lines = [
+  { id = "2931", ref = "2931", name = "2931 Hamm (Westf) - Emden", km = 216.648 },
+]
+
+[[connections]]
+km = 13.666
+station = "Bad Bentheim"
+lines = [
+  { id = "9203", ref = "9203", name = "Gronau - Coevorden", km = 18.553 },
+]

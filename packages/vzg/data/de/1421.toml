@@ -1,0 +1,38 @@
+id = "1421"
+ref = "1421"
+name = "1421 Bremen Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Bremen Rbf"
+to = "Bremen Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.659
+length = 3.659
+speeds = [[0, 2.164, 80, 80], [2.164, 3.659, 60, 60]]
+curves = [[0.1, 0.325, 1430], [1.675, 2.1, 520], [2.175, 2.375, 680], [2.9, 3.25, 1230], [3.3, 3.5, 820]]
+points = [
+  { km = 0.311, kind = "signal", label = "11 227", signal = "main,speed_limit", dir = -1 },
+  { km = 1.302, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.444, kind = "signal", signal = "main", dir = -1 },
+  { km = 3.143, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.325, kind = "signal", label = "2", signal = "minor", dir = 1 },
+  { km = 3.327, kind = "signal", label = "D", signal = "main", dir = 1 },
+  { km = 3.585, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.596, kmTo = 0.612, length = 15 },
+  { kind = "tunnel", kmFrom = 2.028, kmTo = 2.104, length = 76 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ynhcIqklt@vGcX~n@sfB`EiHvGsE", v = 80 },
+  { line = "ggfcIg|pt@fCi@", tunnel = true, v = 80 },
+  { line = "_cfcIq}pt@hB[", v = 80 },
+  { line = "u_fcIm~pt@jFgBx`@}XdHeC|LeBlMgH", v = 60 },
+]
+posts = [[0, 53.13277, 8.75209], [1, 53.12756, 8.76425], [2, 53.12156, 8.77512], [3, 53.1132, 8.78043]]

@@ -1,0 +1,77 @@
+id = "1011"
+ref = "1011"
+name = "1011 Jübek - Husum"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q108688942"
+from = "Jübek"
+to = "Husum"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 25.772
+length = 25.772
+speeds = [[0, 0.07, 60, 60], [0.07, 0.646, 80, 60], [0.646, 25.031, 80, 80], [25.031, 25.772, 60, 60]]
+curves = [[0.1, 0.7, 710], [4.675, 4.9, 2390], [5, 5.1, 1720], [5.15, 5.35, 2430], [9.075, 9.125, 2510], [9.225, 9.275, 2730], [9.425, 9.525, 1360], [12.7, 13.475, 960], [15.2, 16.175, 1140], [16.3, 17.625, 1910], [17.8, 18.175, 1990], [19.75, 19.85, 2210], [19.975, 20.05, 2610], [20.475, 20.55, 2890], [21.975, 22.4, 1060], [22.5, 22.85, 970], [23.15, 23.3, 2710], [23.475, 23.675, 2210], [23.95, 24.3, 520], [24.35, 25.425, 1160], [25.525, 25.65, 980]]
+points = [
+  { km = 0.056, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.07, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.232, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.264, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.326, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.646, kind = "signal", label = "07 G", signal = "combined,main,speed_limit", dir = -1 },
+  { km = 0.834, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.933, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.942, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.023, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.347, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.514, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.606, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.613, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.712, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.505, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.868, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.997, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 9.403, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.811, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 12.21, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.775, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 12.888, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.411, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.465, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 15.865, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 18.927, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 19.134, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 20.486, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 24.142, kind = "signal", signal = "distant", dir = 1 },
+  { km = 24.884, kind = "signal", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 25.173, kind = "signal", label = "50 P1", signal = "main,minor", dir = -1 },
+  { km = 25.397, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 25.581, kind = "station", label = "Husum", pos = [54.47207, 9.05605], uic = "8001551" },
+  { km = 25.642, kind = "signal", signal = "stop", dir = 1 },
+  { km = 25.645, kind = "signal", label = "50 N1", signal = "main,minor", dir = 1 },
+  { km = 25.703, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 25.723, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.037, kmTo = 4.053, length = 16 },
+  { kind = "bridge", kmFrom = 4.827, kmTo = 4.851, length = 24 },
+  { kind = "bridge", kmFrom = 24.284, kmTo = 24.306, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "k{_lIiijx@iAnD", v = 60 },
+  { line = "u}_lIycjx@yBtLgArMIvM^nI`_ApxJzEh[nEnRt|Br_HrNb^zW|b@xyBp}CvG~LlFrRlClWvJ`lDfChYzBbLlEjN~E`KzN|RdHrL~IxTtEzPbFpY`Fxk@hB|Mrk@tqCdG~b@dDv`@xAv_@j@~fBk@|XoE~^}@xPGfe@dAra@lEjj@jA`IzBrGjH`LtFlMhE|OfCxO", v = 80 },
+  { line = "ycnkI}giv@lApLPbGaAb`@FzN", v = 60 },
+]
+posts = [[0, 54.56326, 9.39685], [1, 54.56361, 9.38212], [2, 54.56109, 9.36723], [3, 54.55856, 9.35235], [4, 54.55603, 9.33746], [5, 54.55322, 9.32276], [6, 54.54811, 9.31003], [7, 54.5427, 9.29765], [8, 54.53728, 9.28527], [9, 54.53187, 9.2729], [10, 54.52538, 9.26226], [11, 54.51818, 9.25298], [12, 54.51098, 9.24368], [13, 54.50404, 9.23391], [14, 54.50197, 9.21905], [15, 54.50093, 9.20367], [16, 54.4975, 9.18981], [17, 54.49098, 9.17931], [18, 54.48785, 9.1649], [19, 54.48373, 9.15114], [20, 54.47969, 9.13732], [21, 54.47779, 9.12225], [22, 54.47764, 9.10678], [23, 54.47928, 9.0917], [24, 54.47784, 9.07649], [25, 54.47256, 9.06428]]
+
+[[connections]]
+km = 25.581
+station = "Husum"
+lines = [
+  { id = "1210", ref = "1210", name = "1210 Elmshorn, W 104 - Westerland (Sylt)", km = 158.204 },
+]

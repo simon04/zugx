@@ -1,0 +1,37 @@
+id = "5930"
+ref = "5930"
+name = "Anschlussbahn Max Bögl"
+operator = "DB Netz AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 6.063
+length = 6.063
+speeds = [[0, 5.318, "", ""], [5.318, 6.063, 40, 40]]
+curves = [[0.1, 0.225, 570], [0.325, 0.425, 1740], [0.675, 0.75, 2250], [0.825, 0.95, 1380], [1, 1.1, 1990], [1.375, 1.575, 720], [2.2, 2.25, 2410], [2.45, 2.575, 960], [2.625, 2.7, 2260], [2.95, 3.05, 1630], [3.45, 3.55, 1370], [3.7, 3.975, 1180], [4.5, 4.55, 2410], [4.675, 4.85, 1030], [5, 5.375, 900], [5.625, 5.7, 1970], [5.875, 5.95, 1500]]
+points = [
+  { km = 5.092, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 5.107, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 5.268, kind = "signal", label = "44LW14Y", signal = "minor", dir = 1 },
+  { km = 5.48, kind = "signal", label = "44P6", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 5.792, kind = "station", label = "Neumarkt (Oberpf)", uic = "8022353", pos = [49.27332, 11.45667] },
+  { km = 5.915, kind = "signal", label = "44N6", signal = "combined,minor,speed_limit,traversable", dir = 1 },
+  { km = 5.974, kind = "signal", signal = "electricity", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a{lkHec|dAoGuCsg@yFw_@mM}f@BmOl@uZkAo[jA}JQgKyAa^gMqL}CqQDqFz@kCvB" },
+  { line = "y`vkHim}dA}MhTwOnS", v = 40 },
+]
+posts = [[0, 49.22305, 11.45411], [1, 49.23186, 11.45646], [2, 49.24066, 11.45842], [3, 49.24964, 11.45854], [4, 49.25858, 11.45895], [5, 49.26732, 11.4618], [6, 49.27467, 11.45469]]
+
+[[connections]]
+km = 5.792
+station = "Neumarkt"
+lines = [
+  { id = "5850", ref = "5850", name = "5850 Regensburg - Nürnberg", km = 64.4 },
+]

@@ -1,0 +1,39 @@
+id = "6352"
+ref = "6352"
+name = "6352 Abzw Halle Thüringer Bahn - Halle-Ammendorf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Halle Thüringer Bahn"
+to = "Halle-Ammendorf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 2.868
+kmTo = 6.614
+length = 3.721
+speeds = [[2.868, 3.174, "", ""], [3.174, 6.614, 100, 100]]
+curves = [[3.706, 4.177, 610], [4.25, 4.778, 630]]
+points = [
+  { km = 3.375, kind = "signal", label = "93 32", signal = "combined,speed_limit,speed_limit_distant,train_protection,traversable", dir = -1 },
+  { km = 3.755, kind = "signal", signal = "distant,route,speed_limit_distant", dir = 1 },
+  { km = 4.311, kind = "signal", label = "93 34", signal = "combined,speed_limit_distant,train_protection,traversable", dir = -1 },
+  { km = 4.42, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.525, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.051, kind = "signal", label = "94 D", signal = "catenary_mast,combined,route,speed_limit,speed_limit_distant,train_protection,traversable", dir = -1 },
+  { km = 5.295, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.46, kind = "signal", signal = "minor", dir = 1 },
+  { km = 5.461, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.649, kind = "signal", label = "94 P15", signal = "main,traversable", dir = -1 },
+  { km = 5.784, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 5.827, kind = "signal", signal = "minor", dir = 1 },
+  { km = 5.905, kind = "signal", label = "94 ZV5", signal = "main,traversable", dir = -1 },
+  { km = 6.414, kind = "signal", label = "94 ZR5", signal = "combined,speed_limit,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yzayHexehArQr@" },
+  { line = "ehayHqvehAh^b@rHhAzGdFzMlTnIzDbkBzC", v = 100 },
+]
+posts = [[3, 51.45927, 11.99494], [4, 51.45004, 11.99366], [5, 51.44224, 11.98848], [6, 51.43366, 11.98811]]

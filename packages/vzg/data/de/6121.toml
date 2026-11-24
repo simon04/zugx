@@ -1,0 +1,35 @@
+id = "6121"
+ref = "6121"
+name = "6121 Beelitz Heilstätten - Abzw Lienewitz (Lia)"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131705645"
+from = "Beelitz Heilstätten"
+to = "Lienewitz (Lia)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.275
+kmTo = 3.024
+length = 1.779
+speeds = [[1.275, 3.024, 100, 100]]
+curves = [[2.226, 2.924, 650]]
+points = [
+  { km = 1.426, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.631, kind = "signal", label = "48 C", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.991, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.286, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.551, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.667, kind = "signal", signal = "combined", dir = 1 },
+  { km = 2.85, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.851, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.86, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.861, kind = "signal", signal = "electricity", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_hb~Hm`anAfJaBjHUtEbApFfElF|J|`@hbA", v = 100 },
+]
+posts = [[3, 52.28155, 12.9539], [2, 52.27367, 12.94854]]

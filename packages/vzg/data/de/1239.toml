@@ -1,0 +1,58 @@
+id = "1239"
+ref = "1239"
+name = "1239 Hamburg-Ohlsdorf - Hamburg Airport"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hamburg-Ohlsdorf"
+to = "Hamburg Airport"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 11.589
+kmTo = 14.301
+length = 3.893
+speeds = [[11.589, 14.301, "", ""]]
+curves = [[11.607, 11.613, 1700], [11.628, 11.636, 1520], [11.64, 11.65, 30], [11.667, 11.673, 1070], [11.677, 11.691, 740], [11.733, 12.458, 350], [12.658, 12.858, 1260], [13.458, 14.158, 390]]
+points = [
+  { km = 11.608, kind = "signal", signal = "combined,route,speed_limit,speed_limit_distant,traversable,wrong_road", dir = -1 },
+  { km = 11.624, kind = "signal", label = "235", signal = "combined,minor,route_distant,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 11.626, kind = "station", label = "Ohlsdorf", pos = [53.62055, 10.03177], uic = "8004661" },
+  { km = 11.629, kind = "signal", label = "L202X", signal = "minor", dir = -1 },
+  { km = 11.636, kind = "signal", label = "645", signal = "combined,minor,speed_limit,wrong_road", dir = 1 },
+  { km = 11.654, kind = "signal", label = "234", signal = "combined,minor,speed_limit,wrong_road", dir = -1 },
+  { km = 11.664, kind = "stop", label = "Ohlsdorf", pos = [53.62076, 10.03172] },
+  { km = 11.666, kind = "signal", label = "646", signal = "combined,minor,route,speed_limit,wrong_road", dir = 1 },
+  { km = 11.672, kind = "signal", signal = "combined", dir = -1 },
+  { km = 11.687, kind = "signal", signal = "combined", dir = -1 },
+  { km = 12.08, kind = "station", label = "Klein Borstel", pos = [53.62803, 10.0333] },
+  { km = 14.182, kind = "station", label = "Hamburg Airport (Flughafen)", pos = [53.63265, 10.00668], uic = "8002547" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 11.601, kmTo = 11.608, length = 93 },
+  { kind = "bridge", kmFrom = 11.636, kmTo = 11.639, length = 35 },
+  { kind = "bridge", kmFrom = 11.651, kmTo = 11.654, length = 43 },
+  { kind = "bridge", kmFrom = 11.688, kmTo = 11.693, length = 69 },
+  { kind = "tunnel", kmFrom = 11.807, kmTo = 14.301, length = 2494 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qkhfIkpf|@l_@|I{P{CyG_@wP_H" },
+  { line = "qwhfIitf|@aGmAqEfA}DpFsB`Ky@de@pDphAGfIq@`GaBrF_EdFgEdBiKn@", tunnel = true },
+]
+posts = [[12, 53.6274, 10.03384], [13, 53.62961, 10.02058], [14, 53.63099, 10.00703]]
+
+[[connections]]
+km = 11.626
+station = "Ohlsdorf"
+lines = [
+  { id = "1241", ref = "1241", name = "1241 Hamburg Hbf - Hamburg-Poppenbüttel", km = 11.255 },
+]
+
+[[connections]]
+km = 12.08
+station = "Klein Borstel"
+lines = [
+  { id = "1241", ref = "1241", name = "1241 Hamburg Hbf - Hamburg-Poppenbüttel", km = 12.024 },
+]

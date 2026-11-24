@@ -1,0 +1,36 @@
+id = "2842"
+ref = "2842"
+name = "2842 Abzw Schwerte Heide - Schwerte (Ruhr) Ost"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Schwerte Heide"
+to = "Schwerte (Ruhr) Ost"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.171
+kmTo = 2.028
+length = 1.855
+speeds = [[0.171, 0.804, 80, 80], [0.804, 2.028, 60, 60]]
+curves = [[0.271, 0.796, 550], [0.846, 1.273, 350], [1.348, 1.923, 320]]
+points = [
+  { km = 0.238, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.366, kind = "signal", signal = "main,route,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 0.368, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.516, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.52, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.793, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.801, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.413, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = 1.427, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.66, kind = "signal", label = "C 353", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 1.963, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "k`byHixgm@xIxBhEnCtE`HxCzJ", v = 80 },
+  { line = "wcayHa{fm@xClKfExElEz@bMcA~D}DjCwI^cIo@}M", v = 60 },
+]
+posts = [[1, 51.45578, 7.57466], [2, 51.45007, 7.58021]]

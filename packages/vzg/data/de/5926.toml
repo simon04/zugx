@@ -1,0 +1,21 @@
+id = "5926"
+ref = "5926"
+name = "Hersbruck–Pommelsbrunn"
+operator = "DB Netz"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.4
+kmTo = 1.8
+length = 0.338
+speeds = [[1.4, 1.8, 100, 100]]
+curves = [[1.518, 1.666, 2440]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "aqemH}|ydAw@c\\", v = 100 },
+]
+posts = []

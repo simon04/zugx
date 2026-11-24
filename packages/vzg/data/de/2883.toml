@@ -1,0 +1,48 @@
+id = "2883"
+ref = "2883"
+name = "2883 ehe. Abzw Grünebach - Daaden"
+operator = "Westerwaldbahn"
+gauge = "1435"
+from = "ehem. Abzw Grünebach"
+to = "Daaden"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 8.423
+length = 8.423
+speeds = [[0, 8.423, "", ""]]
+curves = [[0.225, 0.5, 1050], [0.55, 0.7, 520], [0.75, 0.95, 650], [1, 1.4, 460], [1.45, 1.55, 810], [1.65, 1.775, 470], [1.825, 2.4, 940], [2.45, 2.725, 460], [2.825, 3, 1050], [3.125, 3.325, 690], [3.425, 4.375, 760], [4.425, 4.525, 1730], [4.6, 5.1, 350], [5.175, 5.375, 470], [5.575, 5.7, 1800], [5.8, 6.35, 510], [6.4, 7.25, 370], [7.3, 8.3, 300]]
+points = [
+  { km = 0.156, kind = "station", label = "Daaden", pos = [50.74042, 7.96391], uic = "8007077" },
+  { km = 1.545, kind = "stop", label = "Biersdorf-Ort(Ww)", pos = [50.74814, 7.94923], uic = "8007113" },
+  { km = 3.641, kind = "stop", label = "Niederdreisbach", pos = [50.75552, 7.92264], uic = "8007079" },
+  { km = 5.101, kind = "stop", label = "Schutzbach", pos = [50.75819, 7.90394], uic = "8007080" },
+  { km = 8.095, kind = "halt", label = "Grünebacherhütte", uic = "8002442", pos = [50.78151, 7.89181] },
+  { km = 8.104, kind = "stop", label = "Alsdorf (Westerwald)", pos = [50.78099, 7.89046], uic = "8007078" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.281, kmTo = 0.293, length = 12 },
+  { kind = "bridge", kmFrom = 8.403, kmTo = 8.423, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}_utHivro@gKhPcEpIeG`HqGhPoHvHyEtLsE`c@iD|JwDdSs@|RN~Ni@rFeH~TcFdXaIbSgCjNoAfSbBp^Wd_@k@`IeBxF{CrDiOnI{Sx\\oEbF}CxAwGOoMsGaBUiI`AgHe@kDx@wBnBoBzDoCjQoBjGeCrCkCdA_E?uGkAeGdBcBpBeBpEq@pDYbJ" },
+]
+posts = [[0, 50.73935, 7.96533], [1, 50.74589, 7.95575], [2, 50.75002, 7.94353], [3, 50.7526, 7.93035], [4, 50.75605, 7.91759], [5, 50.75735, 7.90452], [6, 50.7647, 7.8967], [7, 50.77343, 7.8975], [8, 50.78013, 7.89103]]
+
+[[connections]]
+km = 8.095
+station = "Grünebacherhütte"
+lines = [
+  { id = "2651", ref = "2651", name = "2651 Köln Messe/Deutz - Gießen", km = 84.889 },
+]
+
+[[connections]]
+km = 8.104
+station = "Alsdorf"
+lines = [
+  { id = "2651", ref = "2651", name = "2651 Köln Messe/Deutz - Gießen", km = 84.814 },
+]

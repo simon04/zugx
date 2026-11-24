@@ -1,0 +1,33 @@
+id = "7380"
+ref = "7380"
+name = "7380 Pritzwalk DB-Grenze - Pritzwalk"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Pritzwalk DB-Grenze"
+to = "Pritzwalk"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.275
+length = 0.275
+speeds = [[0, 0.275, "", ""]]
+curves = [[0.1, 0.15, 2340]]
+points = [
+  { km = 0, kind = "station", label = "Pritzwalk", uic = "8027153", pos = [53.14578, 12.18489] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}}jcIiojiArB|W" },
+]
+posts = [[0, 53.14543, 12.18309]]
+
+[[connections]]
+km = 0
+station = "Pritzwalk"
+lines = [
+  { id = "6938", ref = "6938", name = "6938 Neustadt (Dosse) - Meyenburg", km = 41.789 },
+  { id = "6941", ref = "6941", name = "6941 Wittenberge - Buschhof (b Neustrelitz)", km = 41.578 },
+]

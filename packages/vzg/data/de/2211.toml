@@ -1,0 +1,34 @@
+id = "2211"
+ref = "2211"
+name = "2211 Herne - Abzw Castrop-Rauxel Süd"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Herne"
+to = "Castrop-Rauxel Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.99
+length = 2.99
+speeds = [[0, 2.99, "", ""]]
+curves = [[0.1, 0.5, 420], [0.55, 1.175, 940], [1.5, 1.7, 1420]]
+points = [
+  { km = 0.318, kind = "signal", signal = "distant,main,traversable", dir = -1 },
+  { km = 1.251, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.385, kind = "stop", label = "Herne-Börnig", pos = [51.55468, 7.26806], uic = "8002779" },
+  { km = 1.835, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.833, kind = "signal", signal = "main,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.511, kmTo = 0.522, length = 11 },
+  { kind = "bridge", kmFrom = 1.113, kmTo = 1.13, length = 17 },
+  { kind = "bridge", kmFrom = 2.604, kmTo = 2.638, length = 34 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ojtyHsxfk@cBkKIgLz@qHdGaW`@}Qc@aPmFsn@eF}vB" },
+]
+posts = [[0, 51.55512, 7.2489], [1, 51.55394, 7.26252], [2, 51.55555, 7.27671]]

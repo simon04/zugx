@@ -1,0 +1,84 @@
+id = "2663"
+ref = "2663"
+name = "2663 Köln-Mülheim - Bergisch Gladbach"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Köln-Mülheim"
+to = "Bergisch Gladbach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.773
+kmTo = 9.516
+length = 8.738
+speeds = [[0.773, 1.427, 80, 80], [1.427, 2.104, 70, 70], [2.104, 6.002, 120, 120], [6.002, 6.107, 80, 80], [6.107, 8.321, 120, 120], [8.321, 8.618, 90, 90], [8.618, 8.996, 60, 90], [8.996, 9.516, 30, 60]]
+curves = [[0.873, 0.973, 640], [1.023, 1.398, 440], [1.473, 2.023, 320], [6.013, 6.234, 1470], [8.308, 8.756, 750]]
+points = [
+  { km = 0.857, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.896, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.254, kind = "signal", label = "H 505", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 1.427, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.431, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.569, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.667, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.774, kind = "signal", label = "W 505", signal = "main,wrong_road", dir = 1 },
+  { km = 2.104, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.105, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.403, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 3.026, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.081, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.158, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.241, kind = "stop", label = "Köln-Holweide", pos = [50.97622, 7.04111], uic = "8003369" },
+  { km = 3.647, kind = "signal", signal = "distant,main,traversable", dir = -1 },
+  { km = 3.743, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.677, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.747, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.749, kind = "signal", signal = "distant,main,traversable", dir = 1 },
+  { km = 5.267, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 5.379, kind = "signal", label = "P 432", signal = "main,minor,traversable", dir = -1 },
+  { km = 5.401, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.449, kind = "station", label = "Köln-Dellbrück", pos = [50.98148, 7.07024], uic = "8003367" },
+  { km = 5.781, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.785, kind = "signal", label = "N 432", signal = "main,traversable", dir = 1 },
+  { km = 6.107, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.117, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 6.432, kind = "signal", signal = "distant,main,traversable", dir = -1 },
+  { km = 6.538, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.12, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.471, kind = "signal", signal = "distant,main,traversable", dir = 1 },
+  { km = 7.613, kind = "signal", label = "450", signal = "distant,main,traversable", dir = -1 },
+  { km = 7.758, kind = "stop", label = "Duckterath", pos = [50.98476, 7.10355], uic = "8001566" },
+  { km = 7.934, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.319, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.321, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.439, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.618, kind = "signal", label = "B", signal = "main", dir = 1 },
+  { km = 8.619, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.703, kind = "signal", signal = "distant", dir = -1 },
+  { km = 9, kind = "signal", signal = "electricity,speed_limit", dir = 1 },
+  { km = 9.005, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 9.294, kind = "signal", label = "E", signal = "main,speed_limit", dir = -1 },
+  { km = 9.464, kind = "station", label = "Bergisch Gladbach", pos = [50.99087, 7.12378], uic = "8000899" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.808, kmTo = 0.831, length = 23 },
+  { kind = "bridge", kmFrom = 1.973, kmTo = 1.987, length = 14 },
+  { kind = "bridge", kmFrom = 2.001, kmTo = 2.013, length = 12 },
+  { kind = "bridge", kmFrom = 2.617, kmTo = 2.652, length = 37 },
+  { kind = "bridge", kmFrom = 5.087, kmTo = 5.098, length = 11 },
+  { kind = "bridge", kmFrom = 7.871, kmTo = 7.887, length = 13 },
+  { kind = "bridge", kmFrom = 8.458, kmTo = 8.48, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sy`vHusyi@uEgCcGcGcDiBcFc@aF`A", v = 80 },
+  { line = "w{avHmbzi@yHbAeCo@_CkBgDsHmB{O", v = 70 },
+  { line = "mvbvHu_{i@a{@mnI", v = 120 },
+  { line = "ordvHcoej@k@iH", v = 80 },
+  { line = "{sdvHmxej@iLqaE", v = 120 },
+  { line = "eaevH_{kj@w@_MqAcIkM_Z", v = 90 },
+  { line = "{sevHcnmj@sRoa@", v = 60 },
+]
+posts = [[1, 50.96545, 7.01912], [2, 50.97309, 7.02331], [3, 50.97559, 7.03751], [4, 50.97807, 7.05129], [5, 50.98048, 7.06462], [6, 50.98296, 7.0784], [7, 50.98405, 7.09259], [8, 50.985, 7.10647], [9, 50.98832, 7.11926]]

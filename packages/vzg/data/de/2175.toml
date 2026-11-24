@@ -1,0 +1,69 @@
+id = "2175"
+ref = "2175"
+name = "2175 Essen Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Essen Hbf"
+to = "Essen Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.409
+length = 2.409
+speeds = [[0, 0.317, 60, 60], [0.317, 2.157, 80, 80], [2.157, 2.409, 90, 90]]
+curves = [[0.775, 1.25, 820], [1.35, 1.5, 1300], [1.575, 1.75, 1380], [1.85, 2.075, 1710], [2.175, 2.3, 1090]]
+points = [
+  { km = 0, kind = "station", label = "Bismarckplatz", pos = [51.44854, 7.00551] },
+  { km = 0.317, kind = "signal", label = "P10", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 0.55, kind = "signal", signal = "main_repeated" },
+  { km = 0.638, kind = "station", label = "Essen Hauptbahnhof", pos = [51.4502, 7.01266], uic = "8010184" },
+  { km = 0.647, kind = "signal", signal = "main_repeated" },
+  { km = 0.679, kind = "signal", label = "R10", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 0.803, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.979, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.065, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.146, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.301, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.591, kind = "signal", label = "S108", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 1.718, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.853, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.166, kmTo = 0.181, length = 15 },
+  { kind = "tunnel", kmFrom = 1.716, kmTo = 1.805, length = 89 },
+  { kind = "tunnel", kmFrom = 1.854, kmTo = 1.909, length = 54 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "k|_yH_fwi@oAi[", v = 60 },
+  { line = "{~_yHibxi@qByk@yAcNyBkJiHwQ{HmV", v = 80 },
+  { line = "g|`yHys{i@gBcE", tunnel = true, v = 80 },
+  { line = "o_ayH}y{i@{@gB", v = 80 },
+  { line = "kaayHe}{i@}@uB", tunnel = true, v = 80 },
+  { line = "icayH{`|i@qF{Q", v = 80 },
+  { line = "{jayHws|i@}BsHwCeG", v = 90 },
+]
+posts = [[0, 51.45046, 7.00528], [1, 51.4519, 7.01949], [2, 51.45716, 7.03115]]
+
+[[connections]]
+km = 0
+station = "Bismarckplatz"
+lines = [
+  { id = "2163", ref = "2163", name = "2163 Essen Hbf - Essen-Kray Nord", km = -0.366 },
+  { id = "2291", ref = "2291", name = "2291 Mülheim (Ruhr)-Styrum - Bochum Hbf", km = 128.942 },
+  { id = "2300", ref = "2300", name = "2300 Mülheim (Rhur)-Styrum - Essen Hbf", km = 128.907 },
+]
+
+[[connections]]
+km = 0.638
+station = "Essen Hauptbahnhof"
+lines = [
+  { id = "2160", ref = "2160", name = "2160 Essen Hbf - Bochum Hbf", km = 0.108 },
+  { id = "2161", ref = "2161", name = "2161 Essen Werden - Essen Hbf", km = 8.522 },
+  { id = "2163", ref = "2163", name = "2163 Essen Hbf - Essen-Kray Nord", km = 0.189 },
+  { id = "2291", ref = "2291", name = "2291 Mülheim (Ruhr)-Styrum - Bochum Hbf", km = 129.581 },
+  { id = "2300", ref = "2300", name = "2300 Mülheim (Rhur)-Styrum - Essen Hbf", km = 129.482 },
+]

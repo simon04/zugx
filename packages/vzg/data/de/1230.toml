@@ -1,0 +1,48 @@
+id = "1230"
+ref = "1230"
+name = "1230 Abzw Hamburg-Bahrenfeld - Hamburg-Langenfelde Bbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hamburg-Bahrenfeld Abzw"
+to = "Hamburg-Langenfelde Bbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.175
+kmTo = 2.435
+length = 1.042
+speeds = [[1.175, 2.435, 50, 50]]
+curves = [[1.292, 1.959, 340]]
+points = [
+  { km = 1.175, kind = "halt", label = "Ottensen", pos = [53.55959, 9.92657] },
+  { km = 2.107, kind = "signal", label = "E", signal = "main", dir = 1 },
+  { km = 2.435, kind = "station", label = "Diebsteich", uic = "8001282", pos = [53.56889, 9.93426] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.907, kmTo = 1.937, length = 20 },
+  { kind = "bridge", kmFrom = 2.357, kmTo = 2.389, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oj}eIsbs{@dWuAxC`@fNtMbB|GVhH", v = 50 },
+]
+posts = [[2, 53.56416, 9.93373]]
+
+[[connections]]
+km = 1.175
+station = "Ottensen"
+lines = [
+  { id = "1224", ref = "1224", name = "1224 Hamburg-Altona - Hamburg-Blankenese", km = 1.818 },
+]
+
+[[connections]]
+km = 2.435
+station = "Diebsteich"
+lines = [
+  { id = "1225", ref = "1225", name = "1225 Hamburg Holstenstraße - Pinneberg", km = 1.564 },
+  { id = "1232", ref = "1232", name = "1232 Abzw Rainweg - Eidelstedt", km = 3.042 },
+  { id = "1240", ref = "1240", name = "1240 Hamburg Hbf - Hamburg-Altona", km = 0.965 },
+  { id = "1270", ref = "1270", name = "1270 Hamburg Hbf - Hamburg Diebsteich", km = 7.824 },
+]

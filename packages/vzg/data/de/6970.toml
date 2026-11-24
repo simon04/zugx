@@ -1,0 +1,102 @@
+id = "6970"
+ref = "6970"
+name = "Lößnitzgrundbahn"
+operator = "Sächsische Dampfeisenbahngesellschaft mbH (SDG)"
+gauge = "750"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 8.4
+length = 8.388
+speeds = [[0, 0.813, 25, 25], [0.813, 1.241, 20, 20], [1.241, 1.57, 20, 25], [1.57, 2.051, 20, 20], [2.051, 3.385, 25, 25], [3.385, 4.124, 20, 20], [4.124, 4.502, 25, 25], [4.502, 4.516, 20, 20], [4.516, 8.4, 25, 25]]
+curves = [[0.089, 0.133, 1770], [0.266, 0.518, 260], [0.78, 0.851, 2520], [1.06, 1.279, 320], [1.388, 2.076, 510], [2.177, 2.755, 420], [2.805, 3.811, 330], [3.861, 4.037, 190], [4.087, 4.414, 390], [4.49, 4.967, 260], [5.018, 5.143, 240], [5.194, 5.269, 630], [5.319, 5.998, 210], [6.049, 6.25, 450], [7.708, 7.884, 820]]
+points = [
+  { km = 0, kind = "station", label = "Radebeul Ost", uic = "8006222", pos = [51.09845, 13.68019] },
+  { km = 0.063, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.096, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.098, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.202, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.229, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.251, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.374, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.427, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.562, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 0.622, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 0.681, kind = "signal", signal = "crossing_count,ring,speed_limit", dir = 1 },
+  { km = 0.718, kind = "signal", signal = "crossing_count,crossing_distant", dir = 1 },
+  { km = 0.756, kind = "signal", label = "ÜS1 0,9/1,0", signal = "crossing,crossing_count", dir = 1 },
+  { km = 0.813, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.886, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.914, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.994, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.007, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.195, kind = "signal", signal = "crossing,crossing_count", dir = -1 },
+  { km = 1.241, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.244, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.246, kind = "signal", signal = "crossing_count,crossing_distant", dir = -1 },
+  { km = 1.443, kind = "signal", signal = "crossing_count,ring,speed_limit", dir = -1 },
+  { km = 1.456, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.467, kind = "signal", label = "ÜS1 1,5", signal = "crossing", dir = 1 },
+  { km = 1.563, kind = "signal", label = "ÜS2 1,5", signal = "crossing", dir = -1 },
+  { km = 1.567, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.57, kind = "signal", signal = "speed_limit,stop", dir = -1 },
+  { km = 1.612, kind = "halt", label = "Weißes Roß", uic = "8006901", pos = [51.10651, 13.66166] },
+  { km = 1.714, kind = "signal", signal = "ring,speed_limit,stop", dir = 1 },
+  { km = 1.72, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.797, kind = "signal", signal = "crossing_distant" },
+  { km = 2.051, kind = "signal", signal = "ring,speed_limit", dir = 1 },
+  { km = 2.054, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.233, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.385, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.385, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.493, kind = "halt", label = "Lößnitzgrund", pos = [51.12144, 13.65382] },
+  { km = 4.124, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.125, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.248, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.314, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.5, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.502, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.516, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.517, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.638, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.723, kind = "halt", label = "Friedewald (Kr Dresden) Hp", pos = [51.13145, 13.65203] },
+  { km = 5.738, kind = "signal", signal = "main", dir = 1 },
+  { km = 5.739, kind = "signal", signal = "main", dir = 1 },
+  { km = 5.93, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.041, kind = "stop", label = "Friedewald(Kr Dresden) Bad", pos = [51.13794, 13.66231] },
+  { km = 6.093, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.096, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.103, kind = "station", label = "Friedewald (Kr Dresden) Bad", pos = [51.13819, 13.6631] },
+  { km = 8.147, kind = "signal", signal = "main", dir = 1 },
+  { km = 8.246, kind = "signal", signal = "crossing,crossing_count", dir = 1 },
+  { km = 8.279, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 8.333, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 8.342, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 8.374, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 8.376, kind = "signal", signal = "speed_limit_distant,whistle", dir = 1 },
+  { km = 8.4, kind = "station", label = "Moritzburg", pos = [51.15567, 13.68353] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ge{vHiznrAiHr[}DvDyEz`@", v = 25 },
+  { line = "i{{vHavlrAeEnX{BhE", v = 20 },
+  { line = "ke|vHgvkrAwGzGgEnC", v = 25 },
+  { line = "kt|vH{hkrAsEt@qDoA{CdCkGfB", v = 20 },
+  { line = "ym}vHgbkrAqJjG{C~M_A~A}Ef@sIpFeIf@kElDcHoAuAV", v = 25 },
+  { line = "en_wHczirAgEtAyHLsDdC}C|EqAd@iASeEoD", v = 20 },
+  { line = "{s`wHypirA{BIgFvEmGlB", v = 25 },
+  { line = "mgawH}firAYF", v = 20 },
+  { line = "ghawHufirAaB\\yAg@aIkLWmDRcNiBsGqCiPeCc@gDjGyAr@wAWuEsD}@yAiDyMmAuBqmAefAqUqg@", v = 25 },
+]
+posts = [[0, 51.0986, 13.67989], [1, 51.10273, 13.6665], [2, 51.10978, 13.66093], [3, 51.11726, 13.65492], [4, 51.12558, 13.65191], [5, 51.13238, 13.65528], [6, 51.13776, 13.6618], [7, 51.14508, 13.6696], [8, 51.15249, 13.67736]]
+
+[[connections]]
+km = 0
+station = "Radebeul Ost"
+lines = [
+  { id = "6198", ref = "6198", name = "6198 Brieske - Hosena Streckenwechsel 6198/6194", km = 27.233 },
+  { id = "6363", ref = "6363", name = "6363 Leipzig Hbf - Dresden-Neustadt", km = 109.566 },
+]

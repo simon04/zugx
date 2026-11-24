@@ -1,0 +1,66 @@
+id = "6925"
+ref = "6925"
+name = "6925 Bentwisch - Rostock Seehafen"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131650567"
+from = "Bentwisch"
+to = "Rostock Seehafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.673
+kmTo = 4.145
+length = 4.758
+speeds = [[-0.673, 3.926, 60, 60], [3.926, 4.145, "", ""]]
+curves = [[0.027, 0.448, 1030], [1.096, 1.144, 2200], [1.853, 2.512, 370]]
+points = [
+  { km = -0.561, kind = "signal", label = "B", signal = "main", dir = -1 },
+  { km = -0.09, kind = "station", label = "Bentwisch", uic = "8027074", pos = [54.11729, 12.21061] },
+  { km = -0.083, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.009, kind = "signal", label = "G", signal = "main,traversable", dir = 1 },
+  { km = 0.038, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.076, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.228, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.267, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.503, kind = "signal", label = "H", signal = "combined,traversable", dir = -1 },
+  { km = 1.004, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.044, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.095, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.264, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.372, kind = "signal", signal = "distant_distant", dir = -1 },
+  { km = 1.438, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.444, kind = "signal", signal = "distant_distant", dir = -1 },
+  { km = 1.516, kind = "signal", signal = "distant_distant", dir = -1 },
+  { km = 1.812, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.89, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 2.147, kind = "signal", signal = "main", dir = 1 },
+  { km = 2.23, kind = "signal", signal = "crossing_distant" },
+  { km = 2.352, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.359, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.395, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 2.709, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.847, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.015, kind = "signal", label = "476", signal = "main,substitute_signal", dir = -1 },
+  { km = 3.759, kind = "signal", label = "449", signal = "combined", dir = 1 },
+  { km = 3.779, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.781, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.866, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 3.898, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 4.062, kind = "signal", signal = "shunting", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "iwiiIukpiA~e@xSjKvHtEhHtY|j@b^vl@lC`K`@`HGlGe@|EoBbHiz@deB", v = 60 },
+  { line = "e~giIivgiAoGbN" },
+]
+posts = [[0, 54.11652, 12.21015], [1, 54.10993, 12.20177], [2, 54.10333, 12.1916], [3, 54.10729, 12.17894], [4, 54.11362, 12.16805]]
+
+[[connections]]
+km = -0.09
+station = "Bentwisch"
+lines = [
+  { id = "6322", ref = "6322", name = "6322 Stralsund - Rostock", km = 64.667 },
+]

@@ -1,0 +1,39 @@
+id = "6666"
+ref = "6666"
+name = "6666 Sebnitz Grenze - Sebnitz (Sachs)"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Sebnitz Grenze"
+to = "Sebnitz (Sachs)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 26.293
+kmTo = 26.961
+length = 0.673
+speeds = [[26.293, 26.961, 50, 50]]
+curves = [[26.393, 26.838, 270]]
+points = [
+  { km = 26.296, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 26.632, kind = "signal", signal = "main", dir = 1 },
+  { km = 26.663, kind = "signal", signal = "resetting_switch_distant", dir = 1 },
+  { km = 26.743, kind = "signal", signal = "resetting_switch", dir = 1 },
+  { km = 26.961, kind = "station", label = "Sebnitz", uic = "8006062", pos = [50.97585, 14.27214] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 26.558, kmTo = 26.573, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{fdvHk{cvAvAtB`CzA|JXbD~ArBpDvApI", v = 50 },
+]
+posts = []
+
+[[connections]]
+km = 26.961
+station = "Sebnitz"
+lines = [
+  { id = "6216", ref = "6216", name = "6216 Bautzen - Bad Schandau", km = 48.76 },
+]

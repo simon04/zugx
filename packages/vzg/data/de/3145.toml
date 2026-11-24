@@ -1,0 +1,43 @@
+id = "3145"
+ref = "3145"
+name = "3145 Ehrang"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Ehrang"
+to = "Ehrang"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.028
+kmTo = 2.256
+length = 2.229
+speeds = [[0.028, 2.256, "", ""]]
+curves = [[0.357, 0.407, 2580], [0.832, 0.907, 2300], [1.057, 1.257, 420], [1.307, 1.534, 610], [1.775, 1.997, 1060], [2.031, 2.156, 330]]
+points = [
+  { km = 0.246, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.82, kind = "signal", signal = "main,minor", dir = 1 },
+  { km = 0.882, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.188, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.19, kind = "signal", label = "S190", signal = "distant,main", dir = -1 },
+  { km = 1.215, kind = "halt", label = "Trier Hafenstraße", pos = [49.79181, 6.68261] },
+  { km = 1.303, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.998, kind = "signal", label = "200 II", signal = "minor", dir = 1 },
+  { km = 2.144, kind = "signal", label = "N300", signal = "distant,main,minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.147, kmTo = 2.158, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oeznHexwg@yB}AkB[wQlCcMyBiG{BcGoHmCyAkf@iKcSeC" },
+]
+posts = [[2, 49.785, 6.68085], [1, 49.79347, 6.68388]]
+
+[[connections]]
+km = 1.215
+station = "Trier Hafenstraße"
+lines = [
+  { id = "3010", ref = "3010", name = "Moselstrecke", km = 106.61 },
+]

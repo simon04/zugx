@@ -1,0 +1,54 @@
+id = "1552"
+ref = "1552"
+name = "1552 Abzw Schortens Weißer Floh - Wilhelmshaven Nord"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q14378264"
+from = "Schortens Weißer Floh"
+to = "Wilhelmshaven Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.08
+kmTo = 15.157
+length = 15.195
+speeds = [[-0.08, 3.482, 80, 80], [3.482, 3.492, "", ""], [3.492, 10.412, 80, 80], [10.412, 10.468, 60, 80], [10.468, 10.563, 60, 60], [10.563, 15.157, "", ""]]
+curves = [[0.02, 0.973, 750], [6.271, 6.371, 1650], [6.647, 6.747, 2200], [6.923, 6.998, 2290], [7.048, 7.124, 2580], [7.249, 7.375, 2730], [10.637, 11.662, 810], [12.387, 12.837, 1070], [13.487, 13.637, 1180], [13.762, 14.137, 1320], [14.812, 14.937, 1860], [14.987, 15.037, 630]]
+points = [
+  { km = 0.021, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 0.241, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.254, kind = "signal", label = "124", signal = "main,traversable", dir = -1 },
+  { km = 0.992, kind = "signal", label = "13 A", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 1.232, kind = "signal", label = "13 P1", signal = "combined,traversable", dir = -1 },
+  { km = 1.993, kind = "signal", label = "13 N1", signal = "main", dir = 1 },
+  { km = 2.227, kind = "signal", label = "13 F", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 2.93, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 8.501, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 9.433, kind = "signal", label = "14 A", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 9.537, kind = "signal", signal = "distant", dir = 1 },
+  { km = 9.619, kind = "signal", signal = "minor", dir = -1 },
+  { km = 9.678, kind = "signal", label = "14 P1", signal = "main,traversable", dir = -1 },
+  { km = 9.737, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 10.412, kind = "signal", label = "14 N1", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 10.463, kind = "signal", signal = "minor", dir = 1 },
+  { km = 10.468, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.559, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 10.562, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10.674, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.482, kmTo = 3.492, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ceueIofwo@_JbLmJhEaKRoKqD_KqK}qAadB_Zg\\", v = 80 },
+  { line = "anzeI{f{o@OM" },
+  { line = "qnzeIig{o@ohC}bCwJwM{LaTaKwUkJuYktAyeF", v = 80 },
+  { line = "o~bfIigip@yAsF", v = 60 },
+  { line = "iacfI}nip@qEeTaA}MIeK\\aLz@yI~A{ItCiJf]sw@vE_IvHwHle@_[dOyM" },
+  { line = "kz_fIodpp@h@]", tunnel = true },
+  { line = "ay_fImepp@~KgEfd@sJ|LsAjC{B" },
+]
+posts = [[0, 53.52603, 7.98763], [1, 53.53434, 7.98743], [2, 53.54159, 7.99626], [3, 53.54885, 8.00504], [4, 53.55654, 8.01278], [5, 53.56433, 8.02022], [6, 53.57212, 8.02768], [7, 53.57921, 8.03679], [8, 53.58439, 8.04906], [9, 53.58913, 8.06188], [10, 53.59387, 8.07469], [11, 53.59793, 8.08802], [12, 53.59411, 8.1011], [13, 53.5872, 8.11044], [14, 53.57903, 8.1167], [15, 53.57019, 8.11939]]

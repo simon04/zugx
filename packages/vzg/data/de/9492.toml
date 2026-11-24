@@ -1,0 +1,23 @@
+id = "9492"
+ref = "9492"
+name = "Gaildorf West–Untergröningen"
+operator = "Uhlbachhof Familie Jäger GbR"
+gauge = "1435"
+from = "Gaildorf West"
+to = "Untergröningen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.778
+length = 3.778
+speeds = [[0, 3.778, "", ""]]
+curves = [[0.1, 0.15, 760], [0.2, 0.325, 1600], [0.575, 1.175, 310], [1.25, 1.35, 1990], [1.45, 2.325, 510], [2.625, 3.225, 300], [3.3, 3.6, 320]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "oqqiHk|h{@gBp@iKOcT`AsAf@{AbBaCrF{BdBiEz@wUtYaD|H_B|I[tItAxMGfGiElb@iAxDuB`DkE~BsEA_K}GaE}@mCx@iJjH" },
+]
+posts = [[0, 48.91944, 9.88118], [1, 48.92779, 9.87815], [2, 48.93354, 9.86864], [3, 48.93615, 9.85689]]

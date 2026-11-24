@@ -1,0 +1,58 @@
+id = "5801"
+ref = "5801"
+name = "5801 Furth im Wald Grenze - Furth im Wald"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q122021364"
+from = "Furth im Wald Grenze"
+to = "Furth im Wald"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 184.118
+kmTo = 190.823
+length = 6.726
+speeds = [[184.118, 189.945, 80, 80], [189.945, 190.823, 70, 70]]
+curves = [[184.534, 185.078, 850], [185.725, 186.5, 370], [186.55, 186.701, 830], [186.952, 187.302, 500], [187.578, 188.929, 440], [189.381, 189.664, 1950], [189.971, 190.597, 390]]
+points = [
+  { km = 187.653, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 187.669, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 188.315, kind = "signal", signal = "distant", dir = 1 },
+  { km = 188.389, kind = "signal", signal = "distant", dir = 1 },
+  { km = 188.462, kind = "signal", signal = "distant", dir = 1 },
+  { km = 188.561, kind = "signal", label = "79Vf", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 188.998, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 189.07, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 189.09, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 189.565, kind = "signal", label = "79F", signal = "main,speed_limit", dir = 1 },
+  { km = 189.855, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 189.86, kind = "signal", label = "79Vp", signal = "distant", dir = 1 },
+  { km = 189.944, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 189.945, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 190.459, kind = "signal", label = "79L702Y", signal = "minor", dir = 1 },
+  { km = 190.68, kind = "signal", label = "79N2", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 190.823, kind = "station", label = "Furth im Wald", pos = [49.30996, 12.83949], uic = "8002159" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 185.867, kmTo = 185.908, length = 41 },
+  { kind = "tunnel", kmFrom = 186.07, kmTo = 186.179, length = 109 },
+  { kind = "bridge", kmFrom = 188.195, kmTo = 188.225, length = 31 },
+  { kind = "bridge", kmFrom = 189.914, kmTo = 189.958, length = 47 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wiblHuormAbZ{LbGcAnGRbDr@ri@nWvEjG~AxF", v = 80 },
+  { line = "od_lHwtqmA`@fH", tunnel = true, v = 80 },
+  { line = "mc_lHokqmAKxDsAhIeH`PoHtWmC~GkFxEeThKqEtEqB|DuA`Fw@jHLlNlA|G~B~FlFzFjDnAtCTr`@gBxJf@rQdC", v = 80 },
+  { line = "gp~kHyjlmArHpBfF`HvAfG\\bE~@~X", v = 70 },
+]
+posts = [[185, 49.32514, 12.88168], [186, 49.31701, 12.87601], [187, 49.32017, 12.86405], [188, 49.32739, 12.85661], [189, 49.32244, 12.84844], [190, 49.31296, 12.84784]]
+
+[[connections]]
+km = 190.823
+station = "Furth im Wald"
+lines = [
+  { id = "5800", ref = "5800", name = "5800 Schwandorf - Furth im Wald", km = 67.205 },
+]

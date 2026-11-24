@@ -1,0 +1,36 @@
+id = "6093"
+ref = "6093"
+name = "6093 Hennigsdorf (b Berlin) - Hennigsdorf Nord (Hdo)"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131720484"
+from = "Hennigsdorf (b Berlin)"
+to = "Hennigsdorf Nord (Hdo)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.71
+length = 1.71
+speeds = [[0, 1.71, "", ""]]
+curves = [[0.1, 0.775, 610], [0.85, 0.95, 1760]]
+points = [
+  { km = 0.07, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.265, kind = "signal", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 0.445, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.626, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.108, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.393, kind = "signal", label = "51F", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 1.651, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.499, kmTo = 0.545, length = 45 },
+  { kind = "bridge", kmFrom = 0.973, kmTo = 1.01, length = 37 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ell`I{`soAtB`LxCxHrEhGrFjDzPbB~k@y@" },
+]
+posts = [[0, 52.66131, 13.2099], [1, 52.65399, 13.20357]]

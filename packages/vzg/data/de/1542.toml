@@ -1,0 +1,31 @@
+id = "1542"
+ref = "1542"
+name = "1542 Wangerooge - Wangerooge Westanleger"
+operator = "DB Fernverkehr AG"
+gauge = "1000"
+from = "Wangerooge"
+to = "Wangerooge Westanleger"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.259
+kmTo = 3.555
+length = 3.286
+speeds = [[0.259, 3.142, 20, 20], [3.142, 3.555, "", ""]]
+curves = [[0.585, 0.685, 1140], [0.736, 0.811, 1450], [0.986, 1.187, 700], [1.412, 1.713, 270], [2.315, 2.834, 410], [2.886, 3.219, 420]]
+points = [
+  { km = 3.467, kind = "station", label = "Westanleger", pos = [53.77461, 7.86705] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.666, kmTo = 1.677, length = 11 },
+  { kind = "bridge", kmFrom = 1.853, kmTo = 1.865, length = 13 },
+  { kind = "bridge", kmFrom = 1.881, kmTo = 1.895, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sjhgI}_eo@_@~`@kArg@gGfe@ErDh@vDp^nm@dDlDrDpAxEChOcJxFM", v = 20 },
+  { line = "ykfgI{x_o@dUfJ" },
+]
+posts = [[1, 53.78796, 7.88399], [2, 53.78648, 7.87134], [3, 53.77866, 7.86839]]

@@ -1,0 +1,31 @@
+id = "9268"
+ref = "9268"
+name = "9268 Wesseling-Berzdorf - Wesseling"
+operator = "HGK"
+gauge = "1435"
+from = "Wesseling-Berzdorf"
+to = "Wesseling"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.884
+length = 0.884
+speeds = [[0, 0.884, "", ""]]
+curves = [[0.1, 0.25, 460], [0.325, 0.675, 290], [0.725, 0.775, 520]]
+points = []
+structures = [
+  { kind = "tunnel", kmFrom = 0.158, kmTo = 0.21, length = 52 },
+  { kind = "bridge", kmFrom = 0.817, kmTo = 0.862, length = 46 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q~fuHoloi@F}L" },
+  { line = "i~fuHmzoi@ZmC", tunnel = true },
+  { line = "m}fuH{~oi@tCoP" },
+  { line = "wxfuHkppi@Tq@", tunnel = true },
+  { line = "axfuH}qpi@hEgFtI_ArD{A" },
+]
+posts = [[0, 50.83129, 6.96536]]

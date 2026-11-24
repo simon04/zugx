@@ -1,0 +1,78 @@
+id = "2820"
+ref = "2820"
+name = "2820 Hagen-Vorhalle - Hagen-Kabel"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q20310438"
+from = "Hagen-Vorhalle"
+to = "Hagen-Kabel"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 75.925
+kmTo = 83.408
+length = 7.508
+speeds = [[75.925, 76.656, 80, 80], [76.656, 77.085, 60, 60], [77.085, 77.13, 10, 10], [77.13, 79.616, 80, 80], [79.616, 80.276, 50, 50], [80.276, 80.398, "", ""], [80.398, 81.797, 50, 50], [81.797, 83.408, 40, 40]]
+curves = [[76.105, 76.706, 1060], [76.753, 77.382, 590], [77.457, 77.557, 1690], [77.733, 78.185, 870], [78.662, 78.939, 1110], [79.139, 79.491, 830], [79.568, 79.826, 1580], [80.109, 80.48, 1100], [80.669, 81.443, 430], [81.492, 81.937, 370], [81.98, 82.333, 790], [83.058, 83.133, 2360]]
+points = [
+  { km = 76.03, kind = "signal", label = "R504", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 76.044, kind = "station", label = "Hagen-Vorhalle", uic = "8000977", pos = [51.38814, 7.43367] },
+  { km = 76.419, kind = "signal", label = "P504", signal = "distant,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 76.541, kind = "signal", signal = "minor", dir = -1 },
+  { km = 76.723, kind = "signal", label = "P534", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 76.86, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 76.936, kind = "signal", signal = "minor", dir = -1 },
+  { km = 77.081, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 77.133, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 78.391, kind = "signal", signal = "distant", dir = -1 },
+  { km = 78.596, kind = "signal", signal = "distant,height", dir = 1 },
+  { km = 79.616, kind = "signal", label = "A 556", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 79.912, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 80.418, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 80.649, kind = "signal", signal = "distant", dir = 1 },
+  { km = 80.654, kind = "signal", label = "C 569", signal = "main,wrong_road", dir = -1 },
+  { km = 80.829, kind = "signal", signal = "distant", dir = -1 },
+  { km = 81.535, kind = "signal", signal = "distant", dir = 1 },
+  { km = 81.716, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 81.726, kind = "signal", label = "C369", signal = "distant,main", dir = 1 },
+  { km = 81.955, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 82.096, kind = "signal", label = "c569", signal = "distant", dir = -1 },
+  { km = 82.211, kind = "signal", signal = "minor", dir = 1 },
+  { km = 82.347, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 82.445, kind = "signal", label = "P 303", signal = "main,minor", dir = -1 },
+  { km = 83.198, kind = "signal", label = "N303", signal = "main", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 76.948, kmTo = 76.993, length = 48 },
+  { kind = "bridge", kmFrom = 77.085, kmTo = 77.13, length = 45 },
+  { kind = "bridge", kmFrom = 80.916, kmTo = 80.937, length = 20 },
+  { kind = "bridge", kmFrom = 81.181, kmTo = 81.191, length = 12 },
+  { kind = "bridge", kmFrom = 81.213, kmTo = 81.225, length = 12 },
+  { kind = "bridge", kmFrom = 81.414, kmTo = 81.425, length = 11 },
+  { kind = "bridge", kmFrom = 81.487, kmTo = 81.505, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qjuxHebwl@}L`Pah@dg@sDpFkFrN_ChD", v = 40 },
+  { line = "qrwxHmltl@eGrCyL{@iCX}DnC{BhEuBtJc@zKdD`d@", v = 50 },
+  { line = "ivxxHm`rl@~AnH" },
+  { line = "isxxH}vql@xMj_@jF|K", v = 50 },
+  { line = "c}wxHsipl@`GhJ|EfF~S|IrHfAh_@\\hLdDnOhMbHvHrCbE~BzF", v = 80 },
+  { line = "s_txHu}ml@l@jB", v = 10 },
+  { line = "e~sxHizml@jApFZnGQbIaAhL", v = 60 },
+  { line = "q}sxHyrll@KtNl@nLtAnLbEhU", v = 80 },
+]
+posts = [[83, 51.39936, 7.49272], [82, 51.40655, 7.48495], [81, 51.4142, 7.47874], [80, 51.41178, 7.46564], [79, 51.40491, 7.45731], [78, 51.39603, 7.45601], [77, 51.38895, 7.44774], [76, 51.38791, 7.43311]]
+
+[[connections]]
+km = 76.044
+station = "Hagen-Vorhalle"
+lines = [
+  { id = "2143", ref = "2143", name = "2143 Witten Hbf - Schwelm", km = 76.002 },
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 76.002 },
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 58.99 },
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = 6.336 },
+  { id = "2801", ref = "2801", name = "2801 Hagen - Dortmund", km = 4.273 },
+]

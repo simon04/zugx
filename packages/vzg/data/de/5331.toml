@@ -1,0 +1,81 @@
+id = "5331"
+ref = "5331"
+name = "5331 Nördlingen - Dombühl"
+operator = "DB Netz AG;Bayern Bahn Infra GmbH"
+gauge = "1435"
+wikidata = "Q802895"
+from = "Nördlingen"
+to = "Dombühl"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 54.3
+length = 54.3
+speeds = [[0, 0.609, 60, 60], [0.609, 0.668, "", ""], [0.668, 54.205, 50, 50], [54.205, 54.3, "", ""]]
+curves = [[0.575, 1.65, 560], [1.9, 2.325, 910], [2.9, 3.775, 790], [5.875, 6.35, 980], [6.9, 7.1, 1270], [7.825, 8.3, 610], [8.475, 8.975, 590], [9.275, 9.775, 580], [9.95, 10.45, 570], [11.525, 12.075, 980], [12.225, 12.625, 520], [12.7, 13.375, 430], [13.45, 13.775, 600], [13.9, 14.15, 980], [14.95, 15.3, 1090], [15.575, 15.95, 490], [16.025, 16.35, 680], [16.45, 16.675, 920], [16.875, 17.45, 750], [17.9, 18.5, 1570], [18.775, 19.425, 1040], [20.4, 20.725, 1480], [21.5, 22.05, 1530], [22.25, 22.575, 800], [22.675, 23.025, 570], [23.35, 23.85, 1650], [24.95, 25.15, 1140], [25.325, 25.925, 630], [26.075, 26.675, 620], [26.95, 27.375, 630], [27.8, 27.925, 1900], [28.35, 29.1, 1230], [29.15, 29.375, 430], [29.525, 29.675, 1120], [29.875, 30.45, 330], [30.5, 30.625, 1480], [30.875, 31.3, 640], [31.95, 32.55, 1490], [33.2, 34.1, 730], [34.225, 35.325, 630], [35.45, 35.875, 680], [35.95, 36.5, 650], [36.65, 37.075, 860], [37.35, 37.6, 1210], [38, 38.35, 1160], [38.675, 39.2, 620], [39.3, 39.9, 610], [40.2, 40.6, 660], [40.85, 41.375, 1070], [41.85, 42.15, 1590], [43.075, 43.3, 1060], [43.55, 43.95, 1070], [44.25, 45.2, 720], [45.725, 46.425, 630], [49.45, 49.875, 1190], [50.525, 50.975, 650], [53.275, 53.625, 1020]]
+points = [
+  { km = 0.106, kind = "signal", label = "N704", signal = "main,minor,speed_limit,wrong_road", dir = -1 },
+  { km = 0.338, kind = "station", label = "Dombühl", pos = [49.25206, 10.29856], uic = "8000365" },
+  { km = 0.594, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.596, kind = "signal", label = "P704", signal = "main,minor,route,speed_limit", dir = 1 },
+  { km = 0.665, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.976, kind = "signal", label = "7B", signal = "main", dir = -1 },
+  { km = 1.682, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.683, kind = "halt", label = "Vehlberg", pos = [49.23498, 10.32576] },
+  { km = 6.577, kind = "halt", label = "Dorfgütingen", pos = [49.21007, 10.31608] },
+  { km = 11.4, kind = "station", label = "Feuchtwangen", pos = [49.1688, 10.32389] },
+  { km = 19.676, kind = "halt", label = "Lehengütingen", pos = [49.10275, 10.29951] },
+  { km = 24.113, kind = "station", label = "Dinkelsbühl", pos = [49.06854, 10.32912] },
+  { km = 27.75, kind = "halt", label = "Knittelsbach", pos = [49.04343, 10.358] },
+  { km = 31.569, kind = "station", label = "Wilburgstetten", pos = [49.02525, 10.39701] },
+  { km = 36.255, kind = "halt", label = "Rühlingstetten", pos = [48.99113, 10.4226] },
+  { km = 40.013, kind = "station", label = "Fremdingen", pos = [48.97102, 10.46123] },
+  { km = 42.301, kind = "halt", label = "Bühlingen", pos = [48.95367, 10.47403] },
+  { km = 45.623, kind = "halt", label = "Marktoffingen", pos = [48.92655, 10.47427] },
+  { km = 50.469, kind = "halt", label = "Wallerstein", pos = [48.88469, 10.47922] },
+  { km = 54.217, kind = "signal", signal = "electricity", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.628, kmTo = 4.64, length = 12 },
+  { kind = "bridge", kmFrom = 6.265, kmTo = 6.275, length = 10 },
+  { kind = "bridge", kmFrom = 13.718, kmTo = 13.733, length = 15 },
+  { kind = "bridge", kmFrom = 14.036, kmTo = 14.051, length = 15 },
+  { kind = "bridge", kmFrom = 17.337, kmTo = 17.36, length = 22 },
+  { kind = "bridge", kmFrom = 17.774, kmTo = 17.794, length = 20 },
+  { kind = "bridge", kmFrom = 18.798, kmTo = 18.817, length = 20 },
+  { kind = "bridge", kmFrom = 21.518, kmTo = 21.529, length = 11 },
+  { kind = "bridge", kmFrom = 30.744, kmTo = 30.822, length = 78 },
+  { kind = "bridge", kmFrom = 31.038, kmTo = 31.053, length = 15 },
+  { kind = "bridge", kmFrom = 34.662, kmTo = 34.675, length = 13 },
+  { kind = "bridge", kmFrom = 36.629, kmTo = 36.646, length = 17 },
+  { kind = "bridge", kmFrom = 40.594, kmTo = 40.606, length = 12 },
+  { kind = "bridge", kmFrom = 41.673, kmTo = 41.682, length = 10 },
+  { kind = "bridge", kmFrom = 43.523, kmTo = 43.533, length = 10 },
+  { kind = "bridge", kmFrom = 44.035, kmTo = 44.051, length = 16 },
+  { kind = "bridge", kmFrom = 46.015, kmTo = 46.031, length = 15 },
+  { kind = "bridge", kmFrom = 46.753, kmTo = 46.767, length = 13 },
+  { kind = "bridge", kmFrom = 47.452, kmTo = 47.469, length = 17 },
+  { kind = "bridge", kmFrom = 48.968, kmTo = 48.983, length = 14 },
+  { kind = "bridge", kmFrom = 50.829, kmTo = 50.839, length = 10 },
+  { kind = "bridge", kmFrom = 52.235, kmTo = 52.253, length = 18 },
+  { kind = "bridge", kmFrom = 52.953, kmTo = 52.985, length = 32 },
+  { kind = "bridge", kmFrom = 53.208, kmTo = 53.223, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ugrkHuvy}@_Qsk@", v = 60 },
+  { line = "uyrkHic{}@s@mC" },
+  { line = "i{rkHwg{}@aBmMBuMbBcMnDkJ`CgDjEiDtU}IdFwDhEqF|[}h@bHaGzIuCjGWhHz@ttBd|@nFpAvFXzj@qIds@g[fEM~Dn@nQvJbJbB|G_AnVoL`Ig@bGtA`Q|K|ItApIgBdx@i_@hGuBlKg@`TnG~Fb@xEkAlNgJjFm@`FdAdEnD`JjR`C`DzRbIbD|B|h@rj@bEvGvNp`@xCdFvDpCjOhF~B`ClLhRfTdP~GbBhGBl^uKxOwB|KRp[|D`N}AdGqC`w@wj@hG_Hvh@cv@xI{HnXyN~PuV`HmDtZ{GzK}Fhz@_v@nEsCrNqFrGsFnFkK~Gm_@fF{LlFsFjXuJbGaF|CcFfTmg@vTwa@|GoSrBsKBwGgCiNMqFfAaYzDe[tCeGjHoDfBgBxPub@tF{J~GcFjg@yPjMmHdKiKr_@mh@tIiG|HyAnI`@rFtBhPlL|HfBlKuA|DuB|CcDzCiFtBmGdEeWtB_IpD_HlJmLhEcKrBkLzAeZvA_LlCwJvKwYr\\ii@xCqH|Jw^vDmIpGsGpS}InGqHvDgKhHw`@bCiItFsIpR_R`G}CdG}Al^sClIwAz{@e\\bY{A`Ey@fFmB`W}NpIcBrKfAhI~E|FzH|Yzi@xGlFtIhBxIaAvhDi}@vLS~j@~IbILjEgA~D}BpuBs|A|KuD|`@cE", v = 50 },
+  { line = "_wdiHada_AdDs@" },
+]
+posts = [[0, 49.25067, 10.29499], [1, 49.2543, 10.30727], [2, 49.24763, 10.31501], [3, 49.2408, 10.32387], [4, 49.23226, 10.32444], [5, 49.22375, 10.32], [6, 49.21522, 10.31565], [7, 49.20634, 10.31714], [8, 49.19785, 10.32164], [9, 49.18923, 10.3198], [10, 49.18077, 10.31942], [11, 49.17219, 10.32204], [12, 49.16357, 10.32502], [13, 49.15501, 10.32612], [14, 49.14749, 10.31942], [15, 49.13999, 10.31187], [16, 49.13365, 10.30271], [17, 49.12611, 10.29559], [18, 49.11736, 10.29722], [19, 49.10844, 10.29654], [20, 49.10014, 10.30151], [21, 49.09266, 10.30897], [22, 49.0855, 10.31715], [23, 49.0778, 10.3238], [24, 49.06939, 10.32828], [25, 49.06172, 10.33543], [26, 49.05498, 10.34333], [27, 49.04812, 10.35084], [28, 49.04192, 10.36054], [29, 49.03695, 10.37163], [30, 49.03623, 10.38475], [31, 49.02995, 10.3941], [32, 49.02152, 10.39863], [33, 49.01413, 10.40625], [34, 49.00602, 10.40969], [35, 48.99773, 10.40907], [36, 48.99262, 10.41996], [37, 48.98926, 10.43232], [38, 48.98323, 10.44238], [39, 48.97781, 10.45312], [40, 48.97109, 10.46107], [41, 48.96509, 10.47064], [42, 48.95627, 10.47288], [43, 48.94769, 10.477], [44, 48.93894, 10.47959], [45, 48.93047, 10.48034], [46, 48.92392, 10.47107], [47, 48.91516, 10.47259], [48, 48.90642, 10.47581], [49, 48.89768, 10.47901], [50, 48.88885, 10.48031], [51, 48.88007, 10.48007], [52, 48.87209, 10.48639], [53, 48.86412, 10.4927], [54, 48.85559, 10.49646]]
+
+[[connections]]
+km = 0.338
+station = "Dombühl"
+lines = [
+  { id = "5902", ref = "5902", name = "5902 Nürnberg Hbf - Schnelldorf Streckenwechsel 4951/5902", km = 67.035 },
+]

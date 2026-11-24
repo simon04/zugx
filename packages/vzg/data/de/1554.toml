@@ -1,0 +1,40 @@
+id = "1554"
+ref = "1554"
+name = "1554 Wilhelmshaven Ölweiche - Wilhelmshaven JadeWeserPort"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q108067737"
+from = "Wilhelmshaven Ölweiche"
+to = "Wilhelmshaven JadeWeserPort"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.037
+kmTo = 4.005
+length = 4.466
+speeds = [[-0.037, 3.517, 60, 60], [3.517, 3.935, 30, 60], [3.935, 4.005, 30, 30]]
+curves = [[0.043, 0.315, 420], [0.366, 0.689, 550], [0.757, 0.808, 2280], [1.689, 2.864, 470], [3.514, 3.889, 320]]
+points = [
+  { km = 0.288, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.683, kind = "signal", label = "14 F", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 1.28, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.815, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.517, kind = "signal", label = "A", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 3.614, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 3.934, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.934, kind = "signal", label = "P 3/16", signal = "main,traversable", dir = -1 },
+  { km = 3.935, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.99, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 4.003, kind = "signal", signal = "crossing_info", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.881, kmTo = 3.911, length = 30 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "iacfI}nip@yDkLoDeFoE}BiJy@{DmA{D_DcDoFuGyQ}]glAwAgIa@cKXaJvA}IjCcH`DeEhGaEjIeDdj@oMtEgGrAeFf@uF", v = 60 },
+  { line = "iecfIydqp@PoE", v = 30 },
+]
+posts = [[0, 53.59672, 8.08237], [1, 53.60648, 8.0945], [2, 53.61084, 8.10753], [3, 53.60426, 8.11572], [4, 53.59709, 8.12222]]

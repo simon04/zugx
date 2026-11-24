@@ -1,0 +1,44 @@
+id = "6071"
+ref = "6071"
+name = "6071 Abzw Biesdorfer Kreuz West - Abzw Biesdorfer Kreuz Süd-West"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131693121"
+from = "Biesdorfer Kreuz West"
+to = "Biesdorfer Kreuz Süd-West"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 6.053
+kmTo = 7.578
+length = 1.594
+speeds = [[6.053, 7.578, 60, 60]]
+curves = [[6.92, 7.478, 380]]
+points = [
+  { km = 6.204, kind = "halt", label = "Friedrichsfelde Ost", uic = "8089059", pos = [52.51411, 13.52009] },
+  { km = 6.446, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.624, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.718, kind = "signal", label = "25 330", signal = "combined,route,speed_limit_distant,traversable", dir = -1 },
+  { km = 7.26, kind = "signal", label = "28 326", signal = "combined,route,traversable", dir = 1 },
+  { km = 7.331, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.5, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 6.507, kmTo = 6.526, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}|n_IecsqAmEX{DzBeDzFuA`H}@tReAfsA", v = 60 },
+]
+posts = [[7, 52.51391, 13.53176]]
+
+[[connections]]
+km = 6.204
+station = "Friedrichsfelde Ost"
+lines = [
+  { id = "6006", ref = "6006", name = "6006 Berlin Warschauer Straße - Strausberg", km = 6.246 },
+  { id = "6072", ref = "6072", name = "6072 Berlin-Lichtenberg - Ahrensfelde", km = 6.204 },
+  { id = "6078", ref = "6078", name = "6078 Berlin Warschauer Straße - Küstrin-Kietz Grenze", km = 6.204 },
+]

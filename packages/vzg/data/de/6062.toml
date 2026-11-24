@@ -1,0 +1,43 @@
+id = "6062"
+ref = "6062"
+name = "6062 Berlin-Grunewald Gds - Berlin-Grunewald Gdr"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Berlin-Grunewald Gds"
+to = "Berlin-Grunewald Gdr"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.013
+length = 1.013
+speeds = [[0, 0.063, 120, 120], [0.063, 1.013, 40, 40]]
+curves = [[0.2, 0.55, 1050]]
+points = [
+  { km = 0.202, kind = "signal", label = "C1", signal = "main,route,speed_limit,traversable", dir = -1 },
+  { km = 0.493, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.683, kind = "signal", label = "A", signal = "combined,traversable", dir = 1 },
+  { km = 0.71, kind = "station", label = "Grunewald", uic = "8085766", pos = [52.48825, 13.26101] },
+  { km = 0.767, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.013, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.331, kmTo = 0.356, length = 25 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}qi_Iwz{oAgBiA", v = 120 },
+  { line = "eui_Ia}{oAuIuHwFqIeSye@", v = 40 },
+]
+posts = [[0, 52.48303, 13.255], [1, 52.48966, 13.26467]]
+
+[[connections]]
+km = 0.71
+station = "Grunewald"
+lines = [
+  { id = "6024", ref = "6024", name = "6024 Berlin Ostbahnhof - Potsdam Hbf", km = 14.668 },
+  { id = "6109", ref = "6109", name = "6109 Berlin Ostbahnhopf - Berlin-Spandau", km = 3.303 },
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 3.303 },
+]

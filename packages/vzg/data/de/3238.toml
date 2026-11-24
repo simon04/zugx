@@ -1,0 +1,39 @@
+id = "3238"
+ref = "3238"
+name = "3238 Saarbrücken Hbf - Saarbrücken Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Saarbrücken Hbf"
+to = "Saarbrücken Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.123
+length = 3.123
+speeds = [[0, 3.123, "", ""]]
+curves = [[0.2, 0.25, 2590], [0.3, 0.8, 410], [1.05, 1.325, 710], [1.375, 2.075, 360], [2.15, 2.225, 1470], [2.275, 2.625, 1140], [2.675, 2.9, 600], [2.95, 3, 1120]]
+points = [
+  { km = 1.708, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.412, kind = "signal", label = "F", signal = "main,traversable", dir = 1 },
+  { km = 2.727, kind = "signal", label = "236 II", signal = "minor", dir = -1 },
+  { km = 2.892, kind = "signal", label = "236 I", signal = "minor", dir = 1 },
+  { km = 3.026, kind = "signal", label = "226 II", signal = "minor", dir = -1 },
+  { km = 3.115, kind = "signal", label = "226 I", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.382, kmTo = 0.453, length = 71 },
+  { kind = "bridge", kmFrom = 0.508, kmTo = 0.558, length = 50 },
+  { kind = "tunnel", kmFrom = 1.566, kmTo = 1.632, length = 66 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uspkH{hqi@?{_@" },
+  { line = "uspkHwiri@[_E", tunnel = true },
+  { line = "qtpkHwori@aEiRa@}\\L_K|CcTNqH" },
+  { line = "yupkHukui@YsD", tunnel = true },
+  { line = "svpkHiqui@mDaM_CyCeCoAmXuC}PbAkMiEuCI" },
+]
+posts = [[0, 49.24235, 6.97502], [1, 49.24361, 6.9884], [2, 49.24505, 7.00029], [3, 49.2539, 7.00155]]

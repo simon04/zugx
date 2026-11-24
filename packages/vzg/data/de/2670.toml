@@ -1,0 +1,465 @@
+id = "2670"
+ref = "2670"
+name = "2670 Köln - Duisburg"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Köln Hbf"
+to = "Duisburg Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.171
+kmTo = 63.527
+length = 64.1
+speeds = [[0.171, 0.38, 40, 40], [0.38, 2.228, 80, 80], [2.228, 3.8, 100, 100], [3.8, 7.041, 80, 80], [7.041, 9.666, 120, 120], [9.666, 12.785, 160, 160], [12.785, 16.581, 120, 120], [16.581, 19.202, 160, 160], [19.202, 19.209, 120, 160], [19.209, 21.004, 120, 120], [21.004, 34.615, 160, 160], [34.615, 36.662, 140, 140], [36.662, 37.077, 70, 70], [37.077, 38.06, 40, 40], [38.06, 39.282, "", ""], [39.282, 40.365, 60, 60], [40.365, 40.431, 30, 30], [40.431, 40.687, 40, 40], [40.687, 40.912, 160, 40], [40.912, 52.402, 160, 160], [52.402, 52.535, 10, 10], [52.535, 55.55, 160, 160], [55.55, 55.741, 80, 80], [55.741, 55.965, 60, 80], [55.965, 56.139, 60, 60], [56.139, 60.903, 160, 160], [60.903, 62.027, 120, 120], [62.027, 62.435, 100, 100], [62.435, 63.527, 90, 90]]
+curves = [[0.272, 0.322, 1020], [0.942, 1.071, 1660], [1.433, 1.614, 1330], [1.792, 2.754, 720], [3.076, 3.264, 1350], [3.436, 4.165, 680], [4.285, 4.665, 440], [4.761, 4.809, 1950], [4.86, 5.013, 910], [5.614, 5.665, 2360], [5.766, 5.942, 1340], [5.993, 6.578, 480], [6.637, 6.766, 730], [6.907, 7.013, 1410], [7.331, 7.419, 2250], [7.509, 7.514, 910], [13.479, 14.497, 1420], [15.914, 16.688, 1650], [20.579, 20.649, 2370], [28.409, 28.538, 2530], [31.38, 31.457, 2650], [31.615, 31.727, 2530], [31.842, 31.891, 2920], [34.733, 35.44, 1060], [36.661, 37.508, 470], [37.723, 38.5, 530], [39.363, 39.578, 1750], [39.794, 40.371, 450], [40.423, 40.553, 1680], [40.761, 40.96, 1820], [41.329, 41.428, 2560], [41.748, 42.142, 1780], [42.757, 42.979, 1890], [44.36, 44.538, 2540], [47.437, 47.537, 2420], [47.661, 47.76, 2440], [55.716, 55.891, 2130], [55.991, 56.065, 1790], [56.115, 56.165, 2130], [58.434, 58.508, 2120], [58.658, 58.783, 2490], [60.977, 61.402, 970], [61.627, 62.027, 900], [62.277, 62.477, 2270], [62.977, 63.402, 1240]]
+points = [
+  { km = 0.171, kind = "station", label = "Köln Hauptbahnhof", uic = "8015458", pos = [50.94278, 6.95907] },
+  { km = 0.326, kind = "signal", label = "Vzu411", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.38, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.534, kind = "signal", label = "94 ZR 0510", signal = "combined", dir = 1 },
+  { km = 0.639, kind = "signal", signal = "combined", dir = -1 },
+  { km = 0.759, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.794, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.899, kind = "signal", label = "93 ZR 0120", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 0.989, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.04, kind = "station", label = "Köln Messe/Deutz (tief)", uic = "8073368", pos = [50.9417, 6.97382] },
+  { km = 1.091, kind = "station", label = "Köln Messe/Deutz", uic = "8083368", pos = [50.94123, 6.97546] },
+  { km = 1.247, kind = "signal", label = "93 ZR 0320", signal = "combined,minor,route_distant,traversable", dir = 1 },
+  { km = 1.463, kind = "signal", signal = "distant,route_distant", dir = 1 },
+  { km = 1.605, kind = "signal", label = "92 N20", signal = "combined,route", dir = 1 },
+  { km = 2.162, kind = "signal", signal = "combined", dir = -1 },
+  { km = 2.228, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.23, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.384, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.53, kind = "signal", label = "91 170", signal = "combined", dir = 1 },
+  { km = 2.864, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.926, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.173, kind = "signal", signal = "combined", dir = -1 },
+  { km = 3.311, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.442, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.576, kind = "signal", label = "91 176", signal = "combined", dir = 1 },
+  { km = 3.798, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.802, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.032, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.101, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.132, kind = "stop", label = "Köln-Buchforst", pos = [50.95353, 7.0043], uic = "8003364" },
+  { km = 4.298, kind = "signal", label = "E275", signal = "distant,main", dir = 1 },
+  { km = 4.904, kind = "signal", label = "P 007", signal = "main,speed_limit", dir = -1 },
+  { km = 4.991, kind = "station", label = "Köln-Mülheim", uic = "8000209", pos = [50.95815, 7.01353] },
+  { km = 5.453, kind = "signal", label = "N007", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 5.865, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.375, kind = "signal", label = "K256", signal = "distant,main", dir = -1 },
+  { km = 6.651, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 6.87, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 6.872, kind = "signal", label = "319", signal = "wrong_road", dir = 1 },
+  { km = 7.04, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.041, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.169, kind = "signal", label = "282", signal = "distant,main", dir = -1 },
+  { km = 7.506, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 7.51, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.515, kind = "signal", label = "02 202", signal = "main", dir = -1 },
+  { km = 7.516, kind = "stop", label = "Köln-Stammheim", pos = [50.99004, 7.00189], uic = "8003310" },
+  { km = 7.987, kind = "signal", label = "02 204", signal = "combined", dir = -1 },
+  { km = 9.114, kind = "signal", label = "02 206", signal = "combined", dir = -1 },
+  { km = 9.426, kind = "station", label = "Leverkusen Chempark", uic = "8000832", pos = [51.0114, 6.99659] },
+  { km = 9.43, kind = "stop", label = "Leverkusen-Chempark", uic = "8000832", pos = [51.01143, 6.9965] },
+  { km = 9.527, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 9.665, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.666, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.126, kind = "signal", label = "02 208", signal = "combined", dir = -1 },
+  { km = 10.543, kind = "signal", label = "02 BB", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 10.807, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 10.819, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.547, kind = "signal", label = "02 P1", signal = "combined", dir = -1 },
+  { km = 11.778, kind = "station", label = "Leverkusen Mitte", uic = "8006713", pos = [51.03175, 6.99136] },
+  { km = 11.856, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 12.006, kind = "signal", label = "02 N1", signal = "main,wrong_road", dir = 1 },
+  { km = 12.783, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.785, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.015, kind = "signal", label = "02 G", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 13.332, kind = "stop", label = "Leverkusen-Küppersteg", uic = "8003668", pos = [51.04619, 6.98791] },
+  { km = 14.278, kind = "signal", label = "02 212", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 14.405, kind = "signal", signal = "distant", dir = -1 },
+  { km = 14.45, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.562, kind = "signal", label = "02 214", signal = "combined", dir = -1 },
+  { km = 16.095, kind = "stop", label = "Leverkusen-Rheindorf", pos = [51.06426, 6.96343], uic = "8003672" },
+  { km = 16.581, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.876, kind = "signal", label = "04 202", signal = "combined", dir = -1 },
+  { km = 17.533, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 17.718, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 17.977, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 18.138, kind = "signal", label = "04 204", signal = "combined", dir = -1 },
+  { km = 18.584, kind = "signal", label = "04 BB", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 19.134, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 19.202, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.209, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.302, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 19.449, kind = "signal", label = "04 P4", signal = "combined,speed_limit", dir = -1 },
+  { km = 19.947, kind = "signal", label = "04 ZR4", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 20.65, kind = "signal", label = "04 ZU14", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 20.654, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 20.716, kind = "station", label = "Langenfeld (Rheinland)", uic = "8003540", pos = [51.10272, 6.93812] },
+  { km = 20.816, kind = "signal", label = "04 N14", signal = "combined,speed_limit,wrong_road", dir = 1 },
+  { km = 20.817, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 21.004, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 21.004, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.36, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 21.681, kind = "signal", label = "04 G", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 22.298, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 22.683, kind = "stop", label = "Langenfeld (Rheinl)-Berghausen", uic = "8003539", pos = [51.11748, 6.92372] },
+  { km = 23.117, kind = "signal", label = "04 208", signal = "combined", dir = -1 },
+  { km = 24.624, kind = "signal", label = "04 210", signal = "combined", dir = -1 },
+  { km = 24.713, kind = "stop", label = "Düsseldorf-Hellerhof", pos = [51.13311, 6.90812], uic = "8004920" },
+  { km = 25.934, kind = "signal", label = "08 212", signal = "combined", dir = -1 },
+  { km = 26.111, kind = "stop", label = "Düsseldorf-Garath", pos = [51.14359, 6.89768], uic = "8001589" },
+  { km = 27.222, kind = "signal", label = "08 214", signal = "combined", dir = -1 },
+  { km = 28.307, kind = "signal", label = "08 216", signal = "combined", dir = -1 },
+  { km = 28.504, kind = "halt", label = "Benrath S", pos = [51.16154, 6.87759] },
+  { km = 28.526, kind = "stop", label = "Düsseldorf-Benrath", pos = [51.16231, 6.87886], uic = "8008117" },
+  { km = 28.642, kind = "halt", label = "Urdenbacher Allee", pos = [51.16208, 6.87502] },
+  { km = 28.895, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 29.579, kind = "signal", label = "08 218", signal = "combined", dir = -1 },
+  { km = 29.946, kind = "signal", label = "08 BB", signal = "combined,speed_limit", dir = 1 },
+  { km = 30.312, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 30.792, kind = "signal", signal = "combined", dir = -1 },
+  { km = 30.924, kind = "stop", label = "Düsseldorf-Reisholz", pos = [51.18134, 6.86041], uic = "8001594" },
+  { km = 31.009, kind = "signal", label = "08 N4", signal = "main,wrong_road", dir = 1 },
+  { km = 31.941, kind = "signal", label = "08 G", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 32.119, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 33.299, kind = "signal", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 33.535, kind = "stop", label = "Düsseldorf-Eller Süd", pos = [51.19799, 6.83625], uic = "8001588" },
+  { km = 34.337, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 34.615, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 35.219, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 35.23, kind = "signal", signal = "distant", dir = 1 },
+  { km = 35.375, kind = "signal", signal = "distant", dir = -1 },
+  { km = 35.487, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 35.676, kind = "signal", label = "532", signal = "main", dir = -1 },
+  { km = 35.745, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 35.759, kind = "signal", signal = "distant", dir = 1 },
+  { km = 35.807, kind = "halt", label = "Düsseldorf-Oberbilk", uic = "8001591", pos = [51.20805, 6.80878] },
+  { km = 35.866, kind = "halt", label = "Oberbilk S", pos = [51.20855, 6.80818] },
+  { km = 36.243, kind = "signal", label = "534", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 36.662, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 36.777, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 36.811, kind = "signal", label = "536", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 36.951, kind = "signal", label = "wv536/534", signal = "distant", dir = -1 },
+  { km = 37.047, kind = "halt", label = "Düsseldorf Volksgarten", uic = "8001581", pos = [51.2101, 6.79188] },
+  { km = 37.077, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 37.138, kind = "signal", signal = "distant", dir = 1 },
+  { km = 37.265, kind = "signal", label = "R102", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 37.343, kind = "halt", label = "Düsseldorf-Friedrichstadt", uic = "8001579", pos = [51.21212, 6.78915] },
+  { km = 37.561, kind = "signal", signal = "distant", dir = -1 },
+  { km = 38.04, kind = "signal", signal = "minor", dir = 1 },
+  { km = 38.134, kind = "signal", signal = "minor", dir = -1 },
+  { km = 38.53, kind = "signal", label = "P104", signal = "main", dir = 1 },
+  { km = 38.731, kind = "signal", label = "104", signal = "minor", dir = 1 },
+  { km = 38.767, kind = "signal", signal = "brake_test,departure,main_repeated" },
+  { km = 38.821, kind = "signal", label = "P105", signal = "main,minor,route", dir = -1 },
+  { km = 38.829, kind = "signal", signal = "stop", dir = -1 },
+  { km = 38.954, kind = "station", label = "Düsseldorf Hauptbahnhof", uic = "8008094", pos = [51.21971, 6.79394] },
+  { km = 39.101, kind = "signal", signal = "stop", dir = 1 },
+  { km = 39.282, kind = "signal", label = "N100", signal = "distant,main,minor,route,speed_limit", dir = 1 },
+  { km = 39.809, kind = "signal", signal = "distant", dir = 1 },
+  { km = 39.811, kind = "signal", signal = "minor", dir = -1 },
+  { km = 40.354, kind = "signal", signal = "minor", dir = 1 },
+  { km = 40.374, kind = "signal", signal = "distant", dir = -1 },
+  { km = 40.546, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 40.559, kind = "station", label = "Düsseldorf Wehrhahn", uic = "8001582", pos = [51.22842, 6.79816] },
+  { km = 40.687, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 40.734, kind = "halt", label = "Wehrhahn S", pos = [51.22999, 6.79826] },
+  { km = 40.912, kind = "signal", label = "H049", signal = "main,speed_limit", dir = -1 },
+  { km = 41.359, kind = "halt", label = "Schillerplatz", pos = [51.23555, 6.79985] },
+  { km = 41.536, kind = "halt", label = "Düsseldorf Zoo", uic = "8001583", pos = [51.23713, 6.79693] },
+  { km = 41.782, kind = "signal", signal = "distant", dir = 1 },
+  { km = 41.85, kind = "signal", label = "732", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 42.694, kind = "signal", signal = "distant", dir = 1 },
+  { km = 42.718, kind = "halt", label = "Düsseldorf-Derendorf", uic = "8001586", pos = [51.2478, 6.79449] },
+  { km = 42.832, kind = "signal", label = "736", signal = "main", dir = 1 },
+  { km = 42.85, kind = "signal", signal = "distant", dir = -1 },
+  { km = 43.121, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 43.253, kind = "signal", signal = "minor", dir = 1 },
+  { km = 43.258, kind = "signal", signal = "main", dir = 1 },
+  { km = 43.409, kind = "signal", label = "741", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 44.123, kind = "signal", label = "A 751", signal = "main,speed_limit", dir = 1 },
+  { km = 44.325, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 44.686, kind = "signal", signal = "distant", dir = -1 },
+  { km = 45.107, kind = "signal", label = "P 761", signal = "main,speed_limit", dir = -1 },
+  { km = 45.546, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 45.974, kind = "station", label = "Düsseldorf-Unterrath", pos = [51.27647, 6.78884] },
+  { km = 46.314, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 46.32, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 46.582, kind = "signal", label = "N 761", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 47.082, kind = "signal", label = "P 766", signal = "main,speed_limit,wrong_road", dir = 1 },
+  { km = 47.085, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 47.562, kind = "signal", label = "F772", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 47.645, kind = "station", label = "Flughafen Bahnhof", pos = [51.29097, 6.78598] },
+  { km = 47.703, kind = "station", label = "Düsseldorf Flughafen", uic = "8000082", pos = [51.29156, 6.78661] },
+  { km = 47.716, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 48.661, kind = "signal", label = "34 342", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 49.65, kind = "signal", label = "34 344", signal = "combined", dir = -1 },
+  { km = 50.693, kind = "signal", label = "34 346", signal = "combined", dir = -1 },
+  { km = 51.399, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 51.918, kind = "signal", label = "34 348", signal = "combined", dir = -1 },
+  { km = 52.1, kind = "stop", label = "Angermund", pos = [51.33055, 6.78185], measured = true, uic = "8000579" },
+  { km = 52.174, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 52.402, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 52.403, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 52.534, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 52.535, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 53.238, kind = "signal", label = "34 350", signal = "combined", dir = -1 },
+  { km = 53.46, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 53.702, kind = "signal", signal = "stop", dir = -1 },
+  { km = 53.767, kind = "signal", signal = "stop", dir = -1 },
+  { km = 53.837, kind = "stop", label = "Duisburg-Rahm", pos = [51.347, 6.7798], uic = "8001609" },
+  { km = 53.879, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 54.626, kind = "signal", label = "34 352", signal = "combined", dir = -1 },
+  { km = 54.863, kind = "signal", label = "34BB", signal = "combined,speed_limit", dir = 1 },
+  { km = 54.997, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 55.264, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 55.309, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 55.741, kind = "signal", label = "34P5", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = 55.754, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 55.872, kind = "station", label = "Duisburg-Großenbaum", pos = [51.36474, 6.77748], uic = "8001602" },
+  { km = 55.965, kind = "signal", label = "34ZR5", signal = "combined,speed_limit", dir = 1 },
+  { km = 56.482, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 56.484, kind = "signal", label = "34N7", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = 56.487, kind = "signal", label = "34 ZS7", signal = "combined,minor,speed_limit_distant", dir = -1 },
+  { km = 56.977, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 57.434, kind = "signal", label = "34G", signal = "combined,speed_limit", dir = -1 },
+  { km = 57.661, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 57.856, kind = "stop", label = "Duisburg-Buchholz", pos = [51.38281, 6.77541], uic = "8001600" },
+  { km = 58.21, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 58.434, kind = "signal", label = "31 10", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 59.917, kind = "signal", label = "31 12", signal = "combined", dir = -1 },
+  { km = 59.929, kind = "signal", signal = "stop", dir = -1 },
+  { km = 60.023, kind = "stop", label = "Duisburg-Schlenk", uic = "8001596", pos = [51.40229, 6.77315] },
+  { km = 60.764, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 60.9, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 60.903, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 61.186, kind = "halt", label = "Grunewald", pos = [51.41297, 6.77003] },
+  { km = 61.371, kind = "signal", signal = "combined", dir = -1 },
+  { km = 61.966, kind = "signal", label = "32BB", signal = "combined,speed_limit", dir = 1 },
+  { km = 62.027, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 62.417, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 62.435, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 62.473, kind = "signal", signal = "distant", dir = -1 },
+  { km = 62.988, kind = "signal", label = "32P5", signal = "main,minor,route,speed_limit", dir = -1 },
+  { km = 63.059, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 63.104, kind = "station", label = "Duisburg Hauptbahnhof", uic = "8000086", pos = [51.42967, 6.77618] },
+  { km = 63.32, kind = "signal", label = "32N5", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 63.369, kind = "station", label = "Duisburg Hauptbahnhof U", pos = [51.43185, 6.77721] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.263, kmTo = 0.708, length = 415 },
+  { kind = "bridge", kmFrom = 0.996, kmTo = 1.03, length = 39 },
+  { kind = "bridge", kmFrom = 1.251, kmTo = 1.692, length = 393 },
+  { kind = "bridge", kmFrom = 3.318, kmTo = 3.333, length = 16 },
+  { kind = "bridge", kmFrom = 3.899, kmTo = 3.921, length = 22 },
+  { kind = "bridge", kmFrom = 4.117, kmTo = 4.149, length = 32 },
+  { kind = "bridge", kmFrom = 4.806, kmTo = 4.824, length = 18 },
+  { kind = "bridge", kmFrom = 5.758, kmTo = 5.781, length = 23 },
+  { kind = "bridge", kmFrom = 6.525, kmTo = 6.639, length = 97 },
+  { kind = "bridge", kmFrom = 6.798, kmTo = 6.805, length = 10 },
+  { kind = "bridge", kmFrom = 7.091, kmTo = 7.103, length = 17 },
+  { kind = "bridge", kmFrom = 7.502, kmTo = 7.503, length = 21 },
+  { kind = "bridge", kmFrom = 7.516, kmTo = 7.516, length = 45 },
+  { kind = "bridge", kmFrom = 9.41, kmTo = 9.447, length = 40 },
+  { kind = "bridge", kmFrom = 10.723, kmTo = 10.761, length = 23 },
+  { kind = "bridge", kmFrom = 11.185, kmTo = 11.195, length = 10 },
+  { kind = "bridge", kmFrom = 11.887, kmTo = 11.918, length = 30 },
+  { kind = "bridge", kmFrom = 12.172, kmTo = 12.207, length = 37 },
+  { kind = "bridge", kmFrom = 13.211, kmTo = 13.225, length = 15 },
+  { kind = "bridge", kmFrom = 14.229, kmTo = 14.24, length = 11 },
+  { kind = "bridge", kmFrom = 14.852, kmTo = 14.861, length = 10 },
+  { kind = "bridge", kmFrom = 15.118, kmTo = 15.181, length = 45 },
+  { kind = "bridge", kmFrom = 16.757, kmTo = 16.775, length = 15 },
+  { kind = "bridge", kmFrom = 19.148, kmTo = 19.184, length = 44 },
+  { kind = "bridge", kmFrom = 22.246, kmTo = 22.257, length = 11 },
+  { kind = "bridge", kmFrom = 24.652, kmTo = 24.692, length = 46 },
+  { kind = "bridge", kmFrom = 25.161, kmTo = 25.186, length = 20 },
+  { kind = "bridge", kmFrom = 25.633, kmTo = 25.656, length = 22 },
+  { kind = "bridge", kmFrom = 26.094, kmTo = 26.125, length = 35 },
+  { kind = "bridge", kmFrom = 26.691, kmTo = 26.712, length = 22 },
+  { kind = "bridge", kmFrom = 27.474, kmTo = 27.547, length = 71 },
+  { kind = "bridge", kmFrom = 27.751, kmTo = 27.763, length = 12 },
+  { kind = "bridge", kmFrom = 28.317, kmTo = 28.381, length = 67 },
+  { kind = "bridge", kmFrom = 29.309, kmTo = 29.338, length = 29 },
+  { kind = "bridge", kmFrom = 29.606, kmTo = 29.621, length = 17 },
+  { kind = "bridge", kmFrom = 30.804, kmTo = 30.823, length = 19 },
+  { kind = "bridge", kmFrom = 33.441, kmTo = 33.456, length = 15 },
+  { kind = "bridge", kmFrom = 34.097, kmTo = 34.112, length = 16 },
+  { kind = "bridge", kmFrom = 35.807, kmTo = 35.857, length = 39 },
+  { kind = "bridge", kmFrom = 36.899, kmTo = 36.926, length = 31 },
+  { kind = "bridge", kmFrom = 37.167, kmTo = 37.187, length = 24 },
+  { kind = "bridge", kmFrom = 37.448, kmTo = 37.508, length = 34 },
+  { kind = "bridge", kmFrom = 39.596, kmTo = 39.634, length = 22 },
+  { kind = "bridge", kmFrom = 39.816, kmTo = 39.855, length = 22 },
+  { kind = "bridge", kmFrom = 44.855, kmTo = 44.871, length = 16 },
+  { kind = "bridge", kmFrom = 45.729, kmTo = 45.758, length = 28 },
+  { kind = "tunnel", kmFrom = 47.855, kmTo = 48.412, length = 561, name = "Flughafentunnel" },
+  { kind = "bridge", kmFrom = 52.459, kmTo = 52.472, length = 13 },
+  { kind = "bridge", kmFrom = 56.593, kmTo = 56.612, length = 19 },
+  { kind = "bridge", kmFrom = 57.94, kmTo = 57.977, length = 37 },
+  { kind = "bridge", kmFrom = 58.696, kmTo = 58.71, length = 15 },
+  { kind = "bridge", kmFrom = 59.884, kmTo = 59.902, length = 18 },
+  { kind = "bridge", kmFrom = 60.401, kmTo = 60.439, length = 38 },
+  { kind = "bridge", kmFrom = 61.314, kmTo = 61.342, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ap|xHqzjh@fKjHrHfDld@bD", v = 90 },
+  { line = "wtzxHyfjh@zU[", v = 100 },
+  { line = "{}yxHugjh@hF@nGnAtY~N|En@tJQ", v = 120 },
+  { line = "w`xxHetih@luB}Npe@sA~rAiKrYw@", v = 160 },
+  { line = "cuoxHytjh@xHU", v = 60 },
+  { line = "ikoxHoujh@hVkA", v = 80 },
+  { line = "_tnxH{wjh@jTwB`qCeQ", v = 160 },
+  { line = "qlixHymkh@dFQ", v = 10 },
+  { line = "keixHknkh@`aEeX`_@kA", v = 160 },
+  { line = "gcbxH}ilh@l^}B", tunnel = true, v = 160 },
+  { line = "ycaxH{mlh@nXwCbzCyQtt@kNxg@yE`a@qLlMkCvq@k@bJm@`JkB", v = 160 },
+  { line = "gwtwHwsnh@nLiD", v = 40 },
+  { line = "witwHaynh@fBaA", v = 30 },
+  { line = "oftwHc{nh@jEiA~Gp@`LvJrErF", v = 60 },
+  { line = "mcswHohnh@xUzZvC`CnDpA" },
+  { line = "kbrwH_fmh@dWSvDkAbDsC", v = 40 },
+  { line = "i_qwHsmmh@`C}D~BsHrAgP", v = 70 },
+  { line = "stpwHmnnh@xB{jAtBuq@bBcNrB_JbKcV", v = 140 },
+  { line = "gzowHg~sh@h|AobDhKkQjJcMvjA_gA~s@_t@zRwPda@sc@d`Ig_I", v = 160 },
+  { line = "gm|vH{uii@`VeQjdAsi@", v = 120 },
+  { line = "ypyvHurki@diCmsA", v = 160 },
+  { line = "sfuvHcgni@`PyN|IaNrs@_fBzEaJ|F{HbLsJfLmFbl@cJ", v = 120 },
+  { line = "u_pvHc`ti@|}@_N~mBe\\", v = 160 },
+  { line = "wqjvHilui@~gD_i@tF}ClDiDlc@en@bVoV", v = 120 },
+  { line = "a`cvHggyi@fFgEbPgJjK{K~Eu@|GtB`LlJni@x]bPjQzB~E~@hExBha@fAnHjBbH", v = 80 },
+  { line = "ks~uHwdvi@rChGhCdDpNtJr[bLnGnDrG|HbEnJ", v = 100 },
+  { line = "_g|uHocti@rA|GP|KgEdb@iCrg@e@dz@", v = 80 },
+  { line = "qo|uHsfoi@CnK_@zD", v = 40 },
+]
+posts = [[63, 51.42871, 6.7756], [62, 51.41973, 6.77516], [61, 51.41107, 6.77195], [60, 51.40209, 6.7731], [59, 51.3931, 6.7743], [58, 51.3841, 6.77514], [57, 51.37513, 6.77651], [56, 51.36613, 6.77737], [55, 51.35726, 6.77851], [54, 51.34837, 6.7796], [53, 51.33949, 6.78076], [52, 51.33025, 6.78183], [51, 51.32163, 6.78303], [50, 51.31229, 6.7842], [49, 51.30327, 6.78534], [48, 51.29424, 6.78622], [47, 51.28538, 6.7875], [46, 51.27669, 6.78859], [45, 51.2679, 6.78965], [44, 51.25919, 6.79158], [43, 51.25027, 6.79341], [42, 51.24136, 6.79652], [41, 51.23224, 6.79687], [40, 51.22436, 6.79888], [39, 51.22002, 6.79433], [38, 51.21559, 6.79019], [37, 51.20969, 6.79232], [36, 51.20809, 6.80662], [35, 51.20651, 6.82056], [34, 51.20064, 6.83155], [33, 51.19479, 6.84175], [32, 51.18861, 6.85229], [31, 51.1814, 6.86031], [30, 51.17352, 6.86772], [29, 51.16595, 6.87531], [28, 51.15801, 6.88321], [27, 51.15086, 6.89043], [26, 51.14268, 6.89851], [25, 51.13568, 6.90556], [24, 51.12799, 6.91326], [23, 51.12024, 6.92095], [22, 51.11222, 6.92902], [21, 51.10496, 6.93618], [20, 51.09649, 6.94208], [19, 51.08805, 6.9472], [18, 51.08016, 6.95203], [17, 51.07138, 6.95734], [16, 51.06362, 6.96432], [15, 51.05825, 6.97482], [14, 51.0518, 6.98516], [13, 51.04332, 6.98852], [12, 51.03414, 6.99078], [11, 51.02538, 6.99307], [10, 51.01674, 6.99523], [9, 51.0078, 6.99751], [8, 50.99882, 6.99974], [7, 50.97444, 7.01613], [6, 50.96586, 7.01978], [5, 50.95799, 7.01383], [4, 50.95318, 7.00245], [3, 50.94623, 6.99481], [2, 50.93964, 6.98697], [1, 50.9414, 6.97311]]
+
+[[connections]]
+km = 0.171
+station = "Köln Hauptbahnhof"
+lines = [
+  { id = "2600", ref = "2600", name = "2600 Köln Hbf - Aachen Süd Grenze", km = 0.053 },
+  { id = "2620", ref = "2620", name = "2620 Köln Hbf - Köln-Worringen", km = 0.006 },
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = -1.977 },
+]
+
+[[connections]]
+km = 1.04
+station = "Köln Messe/Deutz"
+lines = [
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 0.029 },
+  { id = "2651", ref = "2651", name = "2651 Köln Messe/Deutz - Gießen", km = -0.006 },
+  { id = "2652", ref = "2652", name = "2652 Köln-Deutz - Köln Neurather Ring Strw 2652/2659/2730", km = -0.068 },
+  { id = "2658", ref = "2658", name = "2658 Köln Messe/Deutz - Abzw Köln Bruder Klaus-Siedlung", km = 40.021 },
+  { id = "2659", ref = "2659", name = "2659 Köln Messe/Deutz - Köln Neurather Ring Strw 2652/2659/2730", km = 39.899 },
+  { id = "2660", ref = "2660", name = "2660 Köln-Mülheim - Köln-Kalk", km = 3.666 },
+]
+
+[[connections]]
+km = 4.991
+station = "Köln-Mülheim"
+lines = [
+  { id = "2324", ref = "2324", name = "2324 Mülheim (Ruhr)-Speldorf - Niederlahnstein", km = 60.733 },
+  { id = "2652", ref = "2652", name = "2652 Köln-Deutz - Köln Neurather Ring Strw 2652/2659/2730", km = 3.875 },
+  { id = "2658", ref = "2658", name = "2658 Köln Messe/Deutz - Abzw Köln Bruder Klaus-Siedlung", km = 43.599 },
+  { id = "2659", ref = "2659", name = "2659 Köln Messe/Deutz - Köln Neurather Ring Strw 2652/2659/2730", km = 43.608 },
+  { id = "2660", ref = "2660", name = "2660 Köln-Mülheim - Köln-Kalk", km = -0.079 },
+]
+
+[[connections]]
+km = 30.924
+station = "Düsseldorf-Reisholz"
+lines = [
+  { id = "2411", ref = "2411", name = "2411 Abzw Düsseldorf-Reisholz - Düsseldorf Streckenwechsel 2410/2411", km = 30.999 },
+]
+
+[[connections]]
+km = 33.535
+station = "Düsseldorf-Eller Süd"
+lines = [
+  { id = "2411", ref = "2411", name = "2411 Abzw Düsseldorf-Reisholz - Düsseldorf Streckenwechsel 2410/2411", km = 33.531 },
+]
+
+[[connections]]
+km = 35.807
+station = "Düsseldorf-Oberbilk"
+lines = [
+  { id = "2413", ref = "2413", name = "2413 Düsseldorf-Eller - Düsseldorf Hbf", km = 3.294 },
+]
+
+[[connections]]
+km = 37.343
+station = "Düsseldorf-Friedrichstadt"
+lines = [
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 10.167 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 87.451 },
+]
+
+[[connections]]
+km = 38.954
+station = "Düsseldorf Hauptbahnhof"
+lines = [
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = -0.011 },
+  { id = "2416", ref = "2416", name = "2416 Düsseldorf Hbf - Düsseldorf-Unterrath", km = -0.06 },
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 11.145 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 88.383 },
+]
+
+[[connections]]
+km = 42.718
+station = "Düsseldorf-Derendorf"
+lines = [
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 3.292 },
+  { id = "2416", ref = "2416", name = "2416 Düsseldorf Hbf - Düsseldorf-Unterrath", km = 3.239 },
+]
+
+[[connections]]
+km = 45.974
+station = "Düsseldorf-Unterrath"
+lines = [
+  { id = "2413", ref = "2413", name = "2413 Düsseldorf-Eller - Düsseldorf Hbf", km = 12.209 },
+]
+
+[[connections]]
+km = 55.872
+station = "Duisburg-Großenbaum"
+lines = [
+  { id = "2310", ref = "2310", name = "2310 Duisburg Großenbaum - Duisburg Hbf", km = -0.123 },
+]
+
+[[connections]]
+km = 61.186
+station = "Grunewald"
+lines = [
+  { id = "2310", ref = "2310", name = "2310 Duisburg Großenbaum - Duisburg Hbf", km = 5.33 },
+  { id = "2505", ref = "2505", name = "2505 Krefeld-Oppum - Mülheim (Ruhr)-Speldorf", km = 14.983 },
+]
+
+[[connections]]
+km = 63.104
+station = "Duisburg Hauptbahnhof"
+lines = [
+  { id = "2184", ref = "2184", name = "2184 Mülheim (Ruhr)-Styrum - Duisburg Hbf", km = 6.304 },
+  { id = "2290", ref = "2290", name = "2290 Mülheim-Styrum - Duisburg Hbf", km = 7.219 },
+  { id = "2320", ref = "2320", name = "2320 Duisburg-Wedau - Oberhausen-Osterfeld", km = 5.128 },
+  { id = "2326", ref = "2326", name = "2326 Duisburg Bissingheim - Duisburg", km = 5.46 },
+]
+
+[[connections]]
+km = 63.369
+station = "Duisburg Hauptbahnhof U"
+lines = [
+  { id = "2184", ref = "2184", name = "2184 Mülheim (Ruhr)-Styrum - Duisburg Hbf", km = 6.018 },
+  { id = "2290", ref = "2290", name = "2290 Mülheim-Styrum - Duisburg Hbf", km = 6.966 },
+  { id = "2320", ref = "2320", name = "2320 Duisburg-Wedau - Oberhausen-Osterfeld", km = 5.306 },
+  { id = "2326", ref = "2326", name = "2326 Duisburg Bissingheim - Duisburg", km = 5.723 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 63.326 },
+]

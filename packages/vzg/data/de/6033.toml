@@ -1,0 +1,144 @@
+id = "6033"
+ref = "6033"
+name = "6033 Schöneberg - Wannsee"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q107657282"
+from = "Berlin-Schöneberg (Vorortbahn)"
+to = "Berlin-Wannsee S-Bahn"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 3.285
+kmTo = 18.823
+length = 15.545
+speeds = [[3.285, 3.597, 80, 80], [3.597, 11.881, 100, 100], [11.881, 11.922, 30, 30], [11.922, 12.076, 60, 60], [12.076, 12.257, 80, 80], [12.257, 16.9, 100, 100], [16.9, 17.102, 70, 70], [17.102, 17.221, 70, 100], [17.221, 18.385, 100, 100], [18.385, 18.603, 80, 80], [18.603, 18.823, 100, 100]]
+curves = [[3.433, 3.576, 1670], [5.568, 5.668, 2070], [6.567, 6.667, 1690], [6.717, 6.792, 1960], [7.191, 7.666, 1780], [7.866, 7.941, 2180], [8.016, 8.09, 2360], [8.215, 8.265, 2590], [8.365, 8.415, 2170], [8.69, 8.74, 2790], [9.065, 9.14, 2710], [9.666, 9.767, 2010], [9.842, 9.917, 2200], [11.722, 11.872, 1260], [12.148, 12.8, 620], [13.677, 13.752, 2010], [13.828, 13.903, 2180], [14.028, 14.103, 1810], [14.179, 14.229, 1600], [14.53, 15.18, 660], [15.655, 15.88, 950], [16.479, 17.078, 1590], [17.903, 18.103, 870], [18.653, 18.703, 1540]]
+points = [
+  { km = 3.559, kind = "station", label = "Schöneberg", pos = [52.47935, 13.35192], uic = "8089474" },
+  { km = 3.594, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.599, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.6, kind = "signal", label = "71 2533", signal = "combined,minor,traversable", dir = 1 },
+  { km = 3.602, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.798, kind = "signal", label = "71 2537", signal = "combined,traversable", dir = 1 },
+  { km = 3.979, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.615, kind = "signal", label = "71 2542", signal = "combined,departure,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 4.731, kind = "station", label = "Friedenau", pos = [52.47072, 13.3415], uic = "8089058" },
+  { km = 4.766, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.792, kind = "signal", label = "71 2543", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 5.66, kind = "stop", label = "Feuerbachstraße", pos = [52.46367, 13.3327], uic = "8089012" },
+  { km = 6.876, kind = "station", label = "Rathaus Steglitz", pos = [52.45553, 13.3225], uic = "8089036" },
+  { km = 6.917, kind = "signal", label = "71 2563", signal = "combined,traversable", dir = 1 },
+  { km = 7.166, kind = "signal", label = "71 2567", signal = "combined,traversable", dir = 1 },
+  { km = 7.405, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.409, kind = "signal", label = "71 2571", signal = "combined,traversable", dir = 1 },
+  { km = 8.17, kind = "station", label = "Botanischer Garten", pos = [52.44796, 13.30713], uic = "8089009" },
+  { km = 9.125, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 9.231, kind = "stop", label = "Lichterfelde West", pos = [52.44331, 13.29359], uic = "8089071" },
+  { km = 9.84, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10.748, kind = "stop", label = "Sundgauer Straße", pos = [52.43644, 13.2742], uic = "8089042" },
+  { km = 11.42, kind = "signal", label = "72 2623", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 11.503, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 11.88, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.881, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.922, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.935, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.013, kind = "station", label = "Zehlendorf", pos = [52.43107, 13.25859], uic = "8003197" },
+  { km = 12.076, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.078, kind = "signal", label = "72 2631", signal = "combined,traversable", dir = 1 },
+  { km = 12.246, kind = "signal", label = "72 2635", signal = "combined,traversable", dir = 1 },
+  { km = 12.257, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.668, kind = "signal", label = "72 2642", signal = "combined", dir = -1 },
+  { km = 13.396, kind = "signal", label = "72 2643", signal = "combined,traversable", dir = 1 },
+  { km = 13.936, kind = "stop", label = "Mexikoplatz", pos = [52.43677, 13.23324], uic = "8089023" },
+  { km = 15.333, kind = "station", label = "Schlachtensee", pos = [52.44009, 13.21544], uic = "8089085" },
+  { km = 16.103, kind = "signal", label = "72 2682", signal = "combined", dir = -1 },
+  { km = 16.295, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 16.5, kind = "signal", label = "72 2681", signal = "combined,traversable", dir = 1 },
+  { km = 16.549, kind = "signal", signal = "distant", dir = -1 },
+  { km = 16.891, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.9, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.938, kind = "signal", signal = "stop", dir = -1 },
+  { km = 16.975, kind = "signal", signal = "stop", dir = -1 },
+  { km = 17.009, kind = "signal", signal = "stop", dir = -1 },
+  { km = 17.024, kind = "stop", label = "Nikolassee", pos = [52.43206, 13.19316], uic = "8035410" },
+  { km = 17.056, kind = "halt", label = "Nikolassee (Wannseebahn)", pos = [52.43161, 13.19397] },
+  { km = 17.087, kind = "signal", signal = "stop", dir = 1 },
+  { km = 17.101, kind = "signal", label = "72 2653", signal = "combined,departure,traversable", dir = 1 },
+  { km = 17.102, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.221, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.388, kind = "signal", label = "2655", signal = "combined,traversable", dir = 1 },
+  { km = 17.657, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 17.972, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 17.974, kind = "signal", label = "2657", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 18.554, kind = "station", label = "Berlin-Wannsee", uic = "8003037", pos = [52.4212, 13.18006] },
+  { km = 18.603, kind = "station", label = "Wannsee", pos = [52.42141, 13.17981], uic = "8085793" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.407, kmTo = 3.439, length = 34 },
+  { kind = "bridge", kmFrom = 3.911, kmTo = 3.965, length = 57 },
+  { kind = "bridge", kmFrom = 4.415, kmTo = 4.47, length = 49 },
+  { kind = "bridge", kmFrom = 6.443, kmTo = 6.468, length = 25 },
+  { kind = "bridge", kmFrom = 6.684, kmTo = 6.71, length = 26 },
+  { kind = "bridge", kmFrom = 7.104, kmTo = 7.149, length = 45 },
+  { kind = "bridge", kmFrom = 7.5, kmTo = 7.519, length = 19 },
+  { kind = "bridge", kmFrom = 9.038, kmTo = 9.064, length = 25 },
+  { kind = "bridge", kmFrom = 11.9, kmTo = 11.922, length = 22 },
+  { kind = "bridge", kmFrom = 12.886, kmTo = 12.897, length = 11 },
+  { kind = "bridge", kmFrom = 13.273, kmTo = 13.321, length = 48 },
+  { kind = "bridge", kmFrom = 14.013, kmTo = 14.058, length = 44 },
+  { kind = "bridge", kmFrom = 14.463, kmTo = 14.483, length = 20 },
+  { kind = "bridge", kmFrom = 15.34, kmTo = 15.365, length = 25 },
+  { kind = "bridge", kmFrom = 16.037, kmTo = 16.053, length = 15 },
+  { kind = "bridge", kmFrom = 16.592, kmTo = 16.608, length = 16 },
+  { kind = "bridge", kmFrom = 17.307, kmTo = 17.385, length = 78 },
+  { kind = "bridge", kmFrom = 17.82, kmTo = 17.834, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "udi_IceopA`MvQ", v = 80 },
+  { line = "svh_IkrnpAbW|ZjmBrgCrYvc@lHnNhEhM|E`RbWzcAfI|_@lb@~`B~J~b@dZhjAvAzH", v = 100 },
+  { line = "ao__Iew|oAXpB", v = 30 },
+  { line = "gn__Iss|oAjB~K", v = 60 },
+  { line = "{j__Isf|oAxBlN", v = 80 },
+  { line = "ag__Iew{oAd@bHBvJYbGwAjJoz@pjC}BlKy@vLBzIh@tJ~Jrw@fVty@`MxX", v = 100 },
+  { line = "yw__IkepoAdH|I", v = 70 },
+  { line = "sn__ImzooAbg@~l@hNh[", v = 100 },
+  { line = "ew}~HcpmoAbG|M", v = 80 },
+  { line = "ao}~HeamoAtGpM", v = 100 },
+]
+posts = [[4, 52.47553, 13.34735], [5, 52.46846, 13.33861], [6, 52.46127, 13.32972], [7, 52.45419, 13.32061], [8, 52.44869, 13.30911], [9, 52.44426, 13.29626], [10, 52.43973, 13.28357], [11, 52.43527, 13.27081], [12, 52.43097, 13.25793], [13, 52.43192, 13.24446], [14, 52.43714, 13.23249], [15, 52.44086, 13.21952], [16, 52.43761, 13.20588], [17, 52.43207, 13.19434], [18, 52.4247, 13.1859]]
+
+[[connections]]
+km = 3.559
+station = "Schöneberg"
+lines = [
+  { id = "6032", ref = "6032", name = "6032 Berlin Nordbahnhof Strw - Berlin-Schöneberg", km = 7.691 },
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 24.547 },
+]
+
+[[connections]]
+km = 12.013
+station = "Zehlendorf"
+lines = [
+  { id = "6184", ref = "6184", name = "Berlin-Zehlendorf - Berlin-Wannsee", km = 12.111 },
+]
+
+[[connections]]
+km = 17.024
+station = "Nikolassee"
+lines = [
+  { id = "6024", ref = "6024", name = "6024 Berlin Ostbahnhof - Potsdam Hbf", km = 22.497 },
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 11.119 },
+  { id = "6184", ref = "6184", name = "Berlin-Zehlendorf - Berlin-Wannsee", km = 17.044 },
+]
+
+[[connections]]
+km = 18.603
+station = "Wannsee"
+lines = [
+  { id = "6024", ref = "6024", name = "6024 Berlin Ostbahnhof - Potsdam Hbf", km = 24.059 },
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 12.714 },
+]

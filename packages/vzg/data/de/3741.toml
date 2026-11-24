@@ -1,0 +1,101 @@
+id = "3741"
+ref = "3741"
+name = "3741 Beienheim - Nidda"
+operator = "DB Netz"
+gauge = "1435"
+from = "Beienheim"
+to = "Nidda"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.071
+kmTo = 19.454
+length = 19.408
+speeds = [[0.071, 0.283, 40, 40], [0.283, 3.514, 60, 60], [3.514, 3.609, 40, 60], [3.609, 4.284, 40, 40], [4.284, 7.407, 60, 60], [7.407, 8.173, 40, 40], [8.173, 18.136, 60, 60], [18.136, 18.854, 80, 80], [18.854, 19.454, "", ""]]
+curves = [[0.179, 0.404, 380], [1.329, 1.429, 1350], [1.904, 2.004, 1820], [3.482, 3.783, 400], [4.06, 4.232, 840], [4.646, 5.086, 360], [5.286, 5.437, 910], [5.487, 5.662, 1040], [5.813, 5.888, 1930], [6.139, 6.314, 900], [6.389, 6.866, 450], [6.916, 7.314, 410], [8.036, 8.484, 620], [8.583, 8.633, 2490], [9.105, 9.255, 1150], [9.578, 10.103, 580], [10.679, 10.854, 1000], [11.854, 12.129, 720], [12.504, 12.704, 640], [12.954, 13.279, 410], [13.554, 13.854, 440], [13.904, 14.129, 420], [14.179, 14.404, 450], [14.929, 15.304, 410], [15.404, 15.904, 310], [15.954, 16.079, 660], [16.329, 16.629, 380], [16.679, 16.879, 560], [17.429, 18.779, 520]]
+points = [
+  { km = 0.071, kind = "station", label = "Beienheim", uic = "8000851", pos = [50.35887, 8.82079] },
+  { km = 0.122, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.258, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.283, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.283, kind = "signal", label = "H", signal = "main", dir = 1 },
+  { km = 0.298, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.714, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.012, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.187, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.404, kind = "signal", signal = "stop,whistle", dir = -1 },
+  { km = 1.488, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.551, kind = "station", label = "Weckesheim", uic = "8006232", pos = [50.35976, 8.84165] },
+  { km = 1.557, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.109, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.514, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 3.609, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.649, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.721, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.844, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.85, kind = "station", label = "Reichelsheim (Wetterau)", uic = "8004995", pos = [50.35974, 8.87405] },
+  { km = 4.094, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.126, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.13, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 4.284, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 5.06, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.129, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 6.313, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.644, kind = "stop", label = "Gettenau-Bingenheim", uic = "8002265", pos = [50.38009, 8.88614] },
+  { km = 6.698, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.029, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 7.407, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 7.515, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 7.604, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.857, kind = "station", label = "Echzell", uic = "8001648", pos = [50.38998, 8.89052] },
+  { km = 8.041, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.082, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 8.173, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.089, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 10.289, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 11.941, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 12.259, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 12.512, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 12.631, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 12.851, kind = "signal", signal = "stop", dir = -1 },
+  { km = 12.938, kind = "stop", label = "Häuserhof", pos = [50.41861, 8.93902] },
+  { km = 12.939, kind = "signal", signal = "stop", dir = -1 },
+  { km = 16.118, kind = "stop", label = "Bad Salzhausen", pos = [50.41883, 8.98017] },
+  { km = 19.018, kind = "signal", label = "15P4", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 19.205, kind = "station", label = "Nidda", pos = [50.41125, 8.99916], uic = "8000277" },
+  { km = 19.299, kind = "signal", label = "15N4", signal = "main,minor,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 9.762, kmTo = 9.78, length = 17 },
+  { kind = "bridge", kmFrom = 18.136, kmTo = 18.151, length = 15 },
+  { kind = "bridge", kmFrom = 18.854, kmTo = 18.869, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}rtrHkc|u@uVqd@" },
+  { line = "sjurH}h}u@cF{IoEiDaLwAuHjA", v = 80 },
+  { line = "_ovrHoy}u@eFxDoE`IkClJ_@dJtIf}@HrFe@`M^nHlLl^lGnKvAvJGdGe@dEgI`S}AjKNzHjFlu@A|FwAbQdCnZYzFwFn_@WnFd@~H|Hfa@xCnr@~@pEdb@rrAhNty@bDbJ~DnFdEjCrXzHpe@bVbNlA", v = 60 },
+  { line = "ghqrHgzgu@hJjHxXlX", v = 40 },
+  { line = "ccprHmwfu@vInHrE`A|Da@zH}ChNtAnOaDba@i@`KjAtUDdEbCdCvEjJxd@", v = 60 },
+  { line = "ogkrHibeu@bCvKhMnZrAzG", v = 40 },
+  { line = "mrjrHeqcu@LfG}DzfCuCvs@_Av}A", v = 60 },
+  { line = "s~jrHqmzt@r@`FfC~G", v = 40 },
+]
+posts = [[19, 50.41247, 9.00108], [18, 50.42029, 9.00434], [17, 50.42097, 8.99157], [16, 50.41819, 8.97875], [15, 50.41891, 8.96672], [14, 50.4181, 8.95291], [13, 50.41869, 8.93939], [12, 50.41639, 8.92591], [11, 50.41152, 8.91406], [10, 50.40776, 8.90134], [9, 50.39965, 8.89582], [8, 50.39113, 8.89157], [7, 50.38319, 8.88532], [6, 50.3744, 8.88659], [5, 50.36546, 8.88647], [4, 50.36031, 8.87519], [3, 50.35855, 8.86221], [2, 50.35916, 8.84818], [1, 50.36007, 8.83418]]
+
+[[connections]]
+km = 0.071
+station = "Beienheim"
+lines = [
+  { id = "3740", ref = "3740", name = "3740 Friedberg (Hess) - Laubach (Oberhess)", km = 54.778 },
+]
+
+[[connections]]
+km = 19.205
+station = "Nidda"
+lines = [
+  { id = "3701", ref = "3701", name = "3701 Gießen - Gelnhausen", km = 35.014 },
+  { id = "3740", ref = "3740", name = "3740 Friedberg (Hess) - Laubach (Oberhess)", km = 35.013 },
+]

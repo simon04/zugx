@@ -1,0 +1,26 @@
+id = "7455"
+ref = "7455"
+name = "7455 Köln-Mülheim - Köln-Kalk Nord Einf. Gr."
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Köln-Mülheim"
+to = "Köln-Kalk Nord Einf. Gr."
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.205
+length = 0.205
+speeds = [[0, 0.205, 40, 40]]
+curves = []
+points = [
+  { km = 0.07, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.109, kind = "signal", label = "Q 021", signal = "main", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ej_vHgqxi@jHrI", v = 40 },
+]
+posts = [[0, 50.95603, 7.0122]]

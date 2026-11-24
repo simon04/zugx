@@ -1,0 +1,52 @@
+id = "2664"
+ref = "2664"
+name = "2664 Köln-Mülheim - Köln-Kalk Nord"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Köln-Mülheim"
+to = "Köln-Kalk Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.408
+length = 1.408
+speeds = [[0, 0.967, 60, 60], [0.967, 1.079, "", ""], [1.079, 1.408, 40, 40]]
+curves = [[0.1, 0.225, 770], [0.275, 0.525, 1010], [0.875, 1.15, 1100]]
+points = [
+  { km = 0.15, kind = "signal", signal = "distant,wrong_road", dir = -1 },
+  { km = 0.269, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.354, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 0.531, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.638, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.967, kind = "signal", label = "B", signal = "main", dir = 1 },
+  { km = 0.979, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.162, kind = "signal", label = "P 14-21", signal = "main", dir = -1 },
+  { km = 1.166, kind = "station", label = "Köln-Mülheim", uic = "8000209", pos = [50.95815, 7.01353] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.392, kmTo = 0.415, length = 23 },
+  { kind = "bridge", kmFrom = 1.341, kmTo = 1.358, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wpavH{fzi@lE`BlObMlZbM", v = 60 },
+  { line = "m~_vHqgyi@tDdC" },
+  { line = "wx_vHkcyi@pMbQ", v = 40 },
+]
+posts = [[0, 50.96732, 7.02078], [1, 50.95899, 7.01559]]
+
+[[connections]]
+km = 1.166
+station = "Köln-Mülheim"
+lines = [
+  { id = "2324", ref = "2324", name = "2324 Mülheim (Ruhr)-Speldorf - Niederlahnstein", km = 60.733 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 3.868 },
+  { id = "2652", ref = "2652", name = "2652 Köln-Deutz - Köln Neurather Ring Strw 2652/2659/2730", km = 3.875 },
+  { id = "2658", ref = "2658", name = "2658 Köln Messe/Deutz - Abzw Köln Bruder Klaus-Siedlung", km = 43.599 },
+  { id = "2659", ref = "2659", name = "2659 Köln Messe/Deutz - Köln Neurather Ring Strw 2652/2659/2730", km = 43.608 },
+  { id = "2660", ref = "2660", name = "2660 Köln-Mülheim - Köln-Kalk", km = -0.079 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 4.991 },
+]

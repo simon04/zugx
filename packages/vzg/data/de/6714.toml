@@ -1,0 +1,64 @@
+id = "6714"
+ref = "6714"
+name = "6714 Ballstädt–Straußfurt"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q801891"
+from = "Gräfentonna"
+to = "Döllstädt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 6.083
+length = 6.083
+speeds = [[0, 0.245, 80, 80], [0.245, 0.57, 50, 80], [0.57, 0.885, 80, 50], [0.885, 3.623, 80, 80], [3.623, 4.003, 60, 80], [4.003, 4.391, 70, 60], [4.391, 5.591, 70, 70], [5.591, 6.083, 80, 80]]
+curves = [[0.45, 0.625, 890], [1, 1.125, 1540], [2.925, 3.075, 1380], [3.975, 4.425, 370], [4.475, 4.8, 370], [5.15, 5.6, 350]]
+points = [
+  { km = 0, kind = "station", label = "Döllstädt", uic = "8016682", pos = [51.08487, 10.81334] },
+  { km = 0.066, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.245, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 0.35, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.396, kind = "signal", signal = "combined,speed_limit", dir = -1 },
+  { km = 0.561, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.577, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.777, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.885, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 1.098, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.316, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.31, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.623, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 3.743, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.994, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.008, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.26, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.391, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 4.699, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.59, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.591, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.656, kind = "stop", label = "Gräfentonna", pos = [51.08967, 10.73359], uic = "8016681" },
+  { km = 5.761, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "aoxvH_m~`AZxo@}E`o@sIpgDx@nyA", v = 80 },
+  { line = "}}xvHais`AQ`IoBpJqBvDiJdKuAvDq@nE_Dvm@pA|KfElH", v = 70 },
+  { line = "iqyvHcpo`AfUbY", v = 80 },
+]
+posts = [[0, 51.08481, 10.81056], [1, 51.08562, 10.79643], [2, 51.08667, 10.78222], [3, 51.08748, 10.76796], [4, 51.08719, 10.75365], [5, 51.09132, 10.74184], [6, 51.08732, 10.73079]]
+
+[[connections]]
+km = 0
+station = "Döllstädt"
+lines = [
+  { id = "6715", ref = "6715", name = "6715 Kühnhausen - Döllstädt", km = 13.627 },
+]
+
+[[connections]]
+km = 5.656
+station = "Gräfentonna"
+lines = [
+  { id = "6713", ref = "6713", name = "6713 Gräfentonna - Bad Langensalza", km = 0.001 },
+]

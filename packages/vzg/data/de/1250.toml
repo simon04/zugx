@@ -1,0 +1,123 @@
+id = "1250"
+ref = "1250"
+name = "1250 Abzw Oberhafen - Hamburg Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hamburg Oberhafen"
+to = "Hamburg Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 352.466
+kmTo = 355.505
+length = 3.073
+speeds = [[352.466, 353.579, 80, 80], [353.579, 353.788, 80, 60], [353.788, 354.136, 60, 60], [354.136, 354.302, "", ""], [354.302, 354.485, 60, 60], [354.485, 354.709, 40, 40], [354.709, 354.735, "", ""], [354.735, 354.914, 40, 40], [354.914, 355.505, "", ""]]
+curves = [[352.566, 353.091, 340], [353.666, 354.381, 450], [354.509, 354.791, 740], [354.843, 354.945, 1390], [355.019, 355.385, 910]]
+points = [
+  { km = 352.466, kind = "station", label = "Elbbrücken", pos = [53.53514, 10.02501] },
+  { km = 352.645, kind = "signal", label = "527", signal = "distant,main", dir = 1 },
+  { km = 352.903, kind = "signal", label = "924", signal = "distant,main,wrong_road", dir = -1 },
+  { km = 353.026, kind = "signal", signal = "distant", dir = -1 },
+  { km = 353.304, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 353.307, kind = "signal", label = "529", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 353.357, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 353.573, kind = "signal", signal = "distant", dir = -1 },
+  { km = 353.579, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 353.788, kind = "signal", label = "531", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 353.901, kind = "station", label = "HafenCity Universität", pos = [53.54055, 10.00796] },
+  { km = 354.136, kind = "signal", label = "926", signal = "main,route,speed_limit", dir = -1 },
+  { km = 354.283, kind = "signal", signal = "distant", dir = -1 },
+  { km = 354.482, kind = "signal", label = "G", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 354.485, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 354.709, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 354.79, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 354.87, kind = "station", label = "Steinstraße", pos = [53.54927, 10.00624] },
+  { km = 354.905, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 354.92, kind = "signal", signal = "brake_test" },
+  { km = 354.959, kind = "signal", label = "S11", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 354.961, kind = "signal", signal = "stop", dir = -1 },
+  { km = 354.998, kind = "signal", signal = "stop", dir = -1 },
+  { km = 355.023, kind = "signal", signal = "stop", dir = -1 },
+  { km = 355.024, kind = "signal", label = "R11", signal = "main,minor,traversable", dir = -1 },
+  { km = 355.038, kind = "station", label = "Hamburg Hauptbahnhof", pos = [53.5527, 10.00756], uic = "8001071" },
+  { km = 355.053, kind = "signal", label = "WV s11 III", signal = "distant", dir = -1 },
+  { km = 355.099, kind = "signal", label = "WV s11 II", signal = "distant", dir = -1 },
+  { km = 355.11, kind = "signal", signal = "stop", dir = -1 },
+  { km = 355.122, kind = "signal", signal = "distant", dir = 1 },
+  { km = 355.127, kind = "station", label = "Hauptbahnhof Süd", pos = [53.55216, 10.00933] },
+  { km = 355.13, kind = "signal", label = "211 I", signal = "minor", dir = 1 },
+  { km = 355.131, kind = "signal", label = "411 II", signal = "minor", dir = 1 },
+  { km = 355.134, kind = "stop", label = "Hamburg Hauptbahnhof", pos = [53.55186, 10.00695] },
+  { km = 355.161, kind = "signal", label = "R11", signal = "main_repeated", dir = -1 },
+  { km = 355.237, kind = "stop", label = "Hamburg Hauptbahnhof", pos = [53.5529, 10.00645] },
+  { km = 355.267, kind = "signal", signal = "brake_test,departure,main_repeated", dir = 1 },
+  { km = 355.311, kind = "signal", signal = "stop", dir = 1 },
+  { km = 355.324, kind = "signal", signal = "brake_test" },
+  { km = 355.34, kind = "signal", signal = "departure", dir = 1 },
+  { km = 355.341, kind = "signal", signal = "stop", dir = 1 },
+  { km = 355.342, kind = "signal", signal = "brake_test" },
+  { km = 355.342, kind = "signal", label = "T11", signal = "distant,main,minor", dir = 1 },
+  { km = 355.35, kind = "station", label = "Hauptbahnhof Nord", pos = [53.55412, 10.00613] },
+  { km = 355.354, kind = "signal", signal = "distant", dir = -1 },
+  { km = 355.384, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 355.445, kind = "signal", label = "512 II", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 354.302, kmTo = 354.482, length = 175 },
+  { kind = "bridge", kmFrom = 354.514, kmTo = 354.539, length = 24 },
+  { kind = "bridge", kmFrom = 354.671, kmTo = 354.735, length = 63 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "maweIo}d|@kEqAyDNgEtCwBhEkBzJmI~bA", v = 80 },
+  { line = "mexeIudb|@eChJaHtI", v = 60 },
+  { line = "urxeIuna|@_Hr@" },
+  { line = "u{xeIama|@yHkB", v = 60 },
+  { line = "oeyeImpa|@cKeA", v = 40 },
+  { line = "sqyeIsra|@m@B" },
+  { line = "asyeIora|@uHhA", v = 40 },
+  { line = "w|yeIepa|@mKj@sDnAyG~DgFrG" },
+]
+posts = [[353, 53.53907, 10.02203], [354, 53.54199, 10.00806], [355, 53.55047, 10.00718]]
+
+[[connections]]
+km = 352.466
+station = "Elbbrücken"
+lines = [
+  { id = "1271", ref = "1271", name = "1271 Hamburg Hbf - Hamburg-Neugraben", km = 2.983 },
+  { id = "1280", ref = "1280", name = "1280 Buchholz - Abzw Hamburg-Allermöhe", km = 38.503 },
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 352.441 },
+]
+
+[[connections]]
+km = 354.87
+station = "Steinstraße"
+lines = [
+  { id = "1120", ref = "1120", name = "1120 Lübeck - Hamburg", km = 63.544 },
+  { id = "1244", ref = "1244", name = "1244 Hamburg Hbf - Aumühle", km = 0.321 },
+  { id = "6100", ref = "6100", name = "6100 Berlin - Hamburg", km = 286.307 },
+]
+
+[[connections]]
+km = 355.038
+station = "Hamburg Hauptbahnhof"
+lines = [
+  { id = "1240", ref = "1240", name = "1240 Hamburg Hbf - Hamburg-Altona", km = -4.408 },
+  { id = "1241", ref = "1241", name = "1241 Hamburg Hbf - Hamburg-Poppenbüttel", km = 0.192 },
+  { id = "1270", ref = "1270", name = "1270 Hamburg Hbf - Hamburg Diebsteich", km = -0.079 },
+]
+
+[[connections]]
+km = 355.35
+station = "Hauptbahnhof Nord"
+lines = [
+  { id = "1120", ref = "1120", name = "1120 Lübeck - Hamburg", km = 63.949 },
+  { id = "1240", ref = "1240", name = "1240 Hamburg Hbf - Hamburg-Altona", km = -4.308 },
+  { id = "1241", ref = "1241", name = "1241 Hamburg Hbf - Hamburg-Poppenbüttel", km = 0.066 },
+  { id = "1244", ref = "1244", name = "1244 Hamburg Hbf - Aumühle", km = -0.032 },
+  { id = "1270", ref = "1270", name = "1270 Hamburg Hbf - Hamburg Diebsteich", km = 0.038 },
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 355.401 },
+  { id = "6100", ref = "6100", name = "6100 Berlin - Hamburg", km = 286.74 },
+]

@@ -1,0 +1,117 @@
+id = "9150"
+ref = "9150"
+name = "Delmenhorst-Harpstedter Eisenbahn"
+operator = "Delmenhorst-Harpstedter Eisenbahn GmbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1
+kmTo = 22.3
+length = 21.266
+speeds = [[1, 22.3, "", ""]]
+curves = [[1.5, 1.85, 630], [2.978, 3.404, 620], [4.581, 4.979, 2070], [5.933, 6.267, 2030], [7.864, 8.371, 500], [8.944, 9.317, 580], [9.567, 9.642, 2070], [10.39, 10.793, 520], [11.42, 11.76, 520], [12.446, 12.773, 1050], [13.795, 14.512, 520], [15.154, 15.455, 1020], [16.601, 17.563, 590], [20.06, 20.555, 530], [21.802, 21.926, 1560], [22.001, 22.176, 950]]
+points = [
+  { km = 1, kind = "station", label = "Delmenhorst Süd", pos = [53.04826, 8.64073] },
+  { km = 1.006, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.07, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.1, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.147, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.296, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.045, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.052, kind = "stop", label = "Hasporter Damm", pos = [53.03875, 8.64555] },
+  { km = 2.053, kind = "halt", label = "Delmenhorst Hasporter Damm", pos = [53.03875, 8.6455] },
+  { km = 2.148, kind = "stop", label = "Hasporter Damm", pos = [53.03789, 8.64547] },
+  { km = 2.191, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.324, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.374, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.723, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 3.04, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.471, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 3.497, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.535, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.676, kind = "signal", signal = "main", dir = 1 },
+  { km = 3.767, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.769, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.795, kind = "station", label = "Annenheide", pos = [53.02413, 8.65021] },
+  { km = 4.155, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.244, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 4.309, kind = "signal", signal = "main", dir = -1 },
+  { km = 5.096, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.308, kind = "signal", signal = "whistle" },
+  { km = 5.394, kind = "signal", signal = "whistle" },
+  { km = 6.244, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 6.333, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.387, kind = "signal", signal = "whistle" },
+  { km = 6.546, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 6.549, kind = "signal", signal = "stop", dir = -1 },
+  { km = 6.568, kind = "stop", label = "Stelle", pos = [53.00803, 8.68121] },
+  { km = 6.568, kind = "halt", label = "Stelle (b Groß Mackenstedt)", pos = [53.00801, 8.68118] },
+  { km = 6.736, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.758, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.827, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 7.557, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 7.645, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.846, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.424, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.481, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.497, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.58, kind = "station", label = "Groß Mackenstedt", pos = [52.99758, 8.70382] },
+  { km = 8.588, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.627, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.652, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.692, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 8.695, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.734, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.742, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 8.776, kind = "signal", signal = "main", dir = -1 },
+  { km = 8.794, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 9.102, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 9.168, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.095, kind = "signal", signal = "main", dir = 1 },
+  { km = 10.187, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.457, kind = "station", label = "Heiligenrode", pos = [52.98137, 8.69896] },
+  { km = 10.673, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.702, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.756, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.765, kind = "signal", signal = "main", dir = -1 },
+  { km = 11.099, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 11.38, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 11.385, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 11.95, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 12.005, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 12.414, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 12.597, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 12.659, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 12.936, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 13.665, kind = "signal", signal = "main", dir = 1 },
+  { km = 13.674, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 13.762, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.936, kind = "station", label = "Kirchseelte", pos = [52.95487, 8.67834] },
+  { km = 13.96, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 17.18, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 17.285, kind = "stop", label = "Groß Ippener", pos = [52.94919, 8.63245] },
+  { km = 17.467, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 17.717, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 17.971, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 18.197, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 19.324, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 19.875, kind = "signal", signal = "main", dir = 1 },
+  { km = 19.982, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 20.053, kind = "stop", label = "Dünsen", pos = [52.9245, 8.62793] },
+  { km = 20.175, kind = "signal", signal = "main", dir = -1 },
+  { km = 20.218, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 21.863, kind = "signal", signal = "main", dir = 1 },
+  { km = 21.92, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 22.3, kind = "station", label = "Harpstedt", pos = [52.91104, 8.60071] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.007, kmTo = 5.02, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uzwbIiwvs@xZ_VhG_CtiAlDfGeA~E}Dl}@arA|FkMz^kbArIwYfi@kiC|CuJrEoGnGcD|b@cMpHDjUtLzi@fVnEdDnF~J|Uvz@~C~FpDfDzd@nXzGrCzcA~GtFhBlEfEzDjItBhKdHtgAJnT{EdrB`@dJzB~NfElMbEfGhF`CdqCnTxGdChErEpCfGhi@leBtG`X|CxH" },
+]
+posts = [[1, 53.04763, 8.64133], [2, 53.03922, 8.64559], [3, 53.03026, 8.64479], [4, 53.02274, 8.65225], [5, 53.01599, 8.66211], [6, 53.01048, 8.67383], [7, 53.00627, 8.68698], [8, 53.00214, 8.70019], [9, 52.99386, 8.70512], [10, 52.98527, 8.70117], [11, 52.9782, 8.69314], [12, 52.97174, 8.68321], [13, 52.9633, 8.67944], [14, 52.95434, 8.67799], [15, 52.95073, 8.66488], [16, 52.95079, 8.65021], [17, 52.95067, 8.63582], [18, 52.9429, 8.63057], [19, 52.93403, 8.62926], [20, 52.92502, 8.62796], [21, 52.91845, 8.61879], [22, 52.91347, 8.60634]]

@@ -1,0 +1,164 @@
+id = "3433"
+ref = "3433"
+name = "3433 Neustadt (Weinstr) Hbf - Kapsweyer Grenze"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q315785"
+from = "Neustadt (Weinstr) Hbf"
+to = "Kapsweyer Grenze"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.205
+kmTo = 44.616
+length = 44.872
+speeds = [[-0.205, -0.041, 50, 50], [-0.041, 0.801, 70, 70], [0.801, 1.389, 90, 90], [1.389, 2.01, 120, 120], [2.01, 2.577, 140, 140], [2.577, 8.048, "", ""], [8.048, 9.902, 120, 120], [9.902, 18.553, "", ""], [18.553, 19.08, 80, 80], [19.08, 19.907, "", ""], [19.907, 20.805, 110, 110], [20.805, 31.125, 140, 140], [31.125, 44.172, 100, 100], [44.172, 44.606, 80, 100], [44.606, 44.616, 80, 80]]
+curves = [[-0.058, 0.017, 1820], [0.317, 0.417, 1270], [0.592, 1.094, 610], [1.247, 1.903, 780], [9.882, 10.509, 1060], [11.37, 11.639, 1850], [11.761, 11.908, 1500], [12.128, 12.372, 1620], [14.379, 15.391, 2040], [16.248, 16.497, 1320], [16.647, 17.046, 970], [17.246, 17.371, 1510], [17.595, 18.019, 660], [18.118, 18.168, 2760], [18.766, 18.816, 2860], [19.24, 19.866, 410], [20.223, 21.349, 1600], [21.421, 21.492, 2580], [22.922, 23.021, 2470], [23.145, 23.347, 2450], [23.473, 23.572, 1980], [23.647, 23.856, 2290], [23.955, 24.103, 2430], [24.228, 24.431, 2090], [28.049, 28.372, 2370], [31.377, 31.477, 1850], [31.551, 31.601, 2340], [32.343, 32.417, 2250], [32.541, 32.644, 1900], [32.746, 32.926, 1650], [33.08, 33.465, 1850], [33.565, 33.69, 1650], [33.765, 33.964, 1930], [40.626, 40.676, 2470]]
+points = [
+  { km = -0.041, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 0.023, kind = "station", label = "Neustadt (Weinstraße) Hauptbahnhof", uic = "8000275", pos = [49.34957, 8.14039] },
+  { km = 0.081, kind = "stop", label = "Neustadt (Weinstr)Hbf", pos = [49.34942, 8.14118] },
+  { km = 0.145, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.266, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.295, kind = "signal", signal = "combined,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 0.441, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.438, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.677, kind = "signal", signal = "radio", dir = 1 },
+  { km = 1.91, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.932, kind = "stop", label = "Neustadt Süd", pos = [49.34127, 8.15703], uic = "8004306" },
+  { km = 2.01, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.362, kind = "signal", label = "5", signal = "main,traversable", dir = 1 },
+  { km = 5.892, kind = "stop", label = "Maikammer-Kirrweiler", pos = [49.30553, 8.14713], uic = "8003809" },
+  { km = 8.492, kind = "station", label = "Edenkoben", pos = [49.28185, 8.14055], uic = "8001663" },
+  { km = 10.529, kind = "stop", label = "Edesheim (Pfalz)", pos = [49.2638, 8.13902], uic = "8001665" },
+  { km = 13.677, kind = "stop", label = "Knöringen-Essingen", pos = [49.23757, 8.14825], uic = "8003349" },
+  { km = 13.841, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 17.284, kind = "signal", label = "A", signal = "combined,speed_limit,speed_limit_distant", dir = 1, measured = true },
+  { km = 17.495, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.013, kind = "signal", signal = "minor", dir = 1 },
+  { km = 18.226, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.233, kind = "signal", label = "90P3", signal = "main,speed_limit", dir = -1 },
+  { km = 18.443, kind = "signal", label = "90L403X", signal = "minor", dir = 1 },
+  { km = 18.448, kind = "signal", label = "90L403Y", signal = "minor", dir = -1 },
+  { km = 18.465, kind = "station", label = "Landau (Pfalz) Hauptbahnhof", pos = [49.19793, 8.12615], uic = "8000216" },
+  { km = 18.553, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.663, kind = "signal", label = "90N3", signal = "main,speed_limit", dir = 1 },
+  { km = 18.968, kind = "signal", signal = "minor", dir = -1 },
+  { km = 19.492, kind = "signal", signal = "main", dir = -1 },
+  { km = 19.902, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 20.654, kind = "signal", signal = "distant", dir = -1 },
+  { km = 20.802, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.992, kind = "stop", label = "Insheim", pos = [49.15724, 8.15214], uic = "8003080" },
+  { km = 25.088, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 26.181, kind = "stop", label = "Rohrbach (Pfalz)", pos = [49.13812, 8.14165], uic = "8005146" },
+  { km = 28.222, kind = "stop", label = "Steinweiler", pos = [49.12102, 8.13072], uic = "8005713" },
+  { km = 29.125, kind = "signal", signal = "distant", dir = 1 },
+  { km = 30.127, kind = "signal", label = "B", signal = "distant,main,speed_limit_distant", dir = 1, measured = true },
+  { km = 30.807, kind = "signal", label = "N1", signal = "main", dir = -1 },
+  { km = 31.066, kind = "station", label = "Winden (Pfalz)", pos = [49.09537, 8.12242], uic = "8006468" },
+  { km = 31.125, kind = "signal", label = "O", signal = "main,speed_limit", dir = 1 },
+  { km = 31.411, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 31.535, kind = "signal", signal = "shunting", dir = 1, measured = true },
+  { km = 31.606, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 31.836, kind = "signal", label = "K", signal = "distant,main", dir = -1, measured = true },
+  { km = 31.838, kind = "signal", signal = "distant", dir = -1 },
+  { km = 32.514, kind = "signal", signal = "distant", dir = -1 },
+  { km = 35.273, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 35.561, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 36.135, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 36.163, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 36.275, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 36.334, kind = "stop", label = "Schaidt (Pfalz)", pos = [49.06106, 8.07951], uic = "8007857" },
+  { km = 36.383, kind = "signal", signal = "crossing_hint", dir = 1 },
+  { km = 36.441, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 36.528, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 36.95, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 37.735, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 37.863, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 38.036, kind = "signal", signal = "crossing", dir = 1, measured = true },
+  { km = 38.159, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 38.496, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 38.507, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 38.768, kind = "signal", signal = "crossing", dir = 1, measured = true },
+  { km = 39.123, kind = "signal", signal = "crossing", dir = 1, measured = true },
+  { km = 39.437, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 39.55, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 39.661, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 39.765, kind = "stop", label = "Steinfeld (Pfalz)", pos = [49.04481, 8.03954], uic = "8007858" },
+  { km = 39.809, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 39.933, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 39.973, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 40.168, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 40.17, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 40.452, kind = "signal", signal = "crossing", dir = 1, measured = true },
+  { km = 40.456, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 40.536, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 41.023, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 41.132, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 41.171, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 41.22, kind = "stop", label = "Kapsweyer", pos = [49.03887, 8.02199], uic = "8007859" },
+  { km = 41.439, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 41.864, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 42.076, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 42.136, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 42.369, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 42.839, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 43.014, kind = "stop", label = "Schweighofen", pos = [49.03279, 7.99953], uic = "8007860" },
+  { km = 43.046, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 43.194, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 43.447, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 43.793, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 44.053, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 44.172, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 44.194, kind = "signal", label = "A12", signal = "distant", dir = 1, measured = true },
+  { km = 44.594, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 44.603, kind = "signal", label = "C12", signal = "combined", dir = 1, measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.408, kmTo = 0.48, length = 72 },
+  { kind = "bridge", kmFrom = 0.866, kmTo = 0.88, length = 14 },
+  { kind = "bridge", kmFrom = 2.155, kmTo = 2.174, length = 20 },
+  { kind = "bridge", kmFrom = 2.577, kmTo = 2.587, length = 10 },
+  { kind = "bridge", kmFrom = 7.576, kmTo = 7.599, length = 23 },
+  { kind = "bridge", kmFrom = 8.031, kmTo = 8.048, length = 19 },
+  { kind = "bridge", kmFrom = 9.902, kmTo = 9.918, length = 15 },
+  { kind = "bridge", kmFrom = 14.704, kmTo = 14.735, length = 30 },
+  { kind = "bridge", kmFrom = 15.7, kmTo = 15.738, length = 37 },
+  { kind = "bridge", kmFrom = 16.006, kmTo = 16.066, length = 61 },
+  { kind = "bridge", kmFrom = 16.697, kmTo = 16.71, length = 14 },
+  { kind = "bridge", kmFrom = 16.731, kmTo = 16.758, length = 27 },
+  { kind = "bridge", kmFrom = 20.29, kmTo = 20.3, length = 10 },
+  { kind = "bridge", kmFrom = 21.861, kmTo = 21.87, length = 10 },
+  { kind = "bridge", kmFrom = 21.894, kmTo = 21.93, length = 37 },
+  { kind = "bridge", kmFrom = 22.209, kmTo = 22.22, length = 10 },
+  { kind = "bridge", kmFrom = 27.201, kmTo = 27.234, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "irfjH{juo@EU", v = 80 },
+  { line = "orfjHqkuo@ynAgdHoMcl@cpAqgEwlBkiG}G_P{J}OsIqJgMoJeVuJudAoT", v = 100 },
+  { line = "gzsjHakqp@utC_n@aJoCy~DuxBqLyEuNaDiKcAsMMsNdAsMjCenAn_@cPzH_PhN", v = 140 },
+  { line = "qbekHmfup@gGrIiEzL}AhKkCb\\", v = 110 },
+  { line = "mxekHodsp@uBxO_B|D_C`D}G|C_NN" },
+  { line = "a{fkHgcrp@s\\U", v = 80 },
+  { line = "uxgkH}crp@q_@RmJmBqDiCsMgOgRmXsGaFuRcKim@cl@cIyFqLsFuScEmgBaDqRIqJ|@uMxCiNvGyx@rr@iFnBsG`A}Lk@" },
+  { line = "k`vkHuhtp@icByZ", v = 120 },
+  { line = "udykHodup@coHosA" },
+  { line = "ytblH_ywp@y^{G", v = 140 },
+  { line = "stclH{axp@iIqAcGG_G~@mF`C", v = 120 },
+  { line = "ovdlHs~wp@kOjPeDbFmB`F", v = 90 },
+  { line = "ooelHa_wp@w@fI\\b[[z`@", v = 70 },
+  { line = "eqelHyvtp@a@~L", v = 50 },
+]
+posts = [[44, 49.0292, 7.98647], [43, 49.03278, 7.99959], [42, 49.03617, 8.01217], [41, 49.03961, 8.02485], [40, 49.0437, 8.03692], [39, 49.04832, 8.04823], [38, 49.05312, 8.06007], [37, 49.05782, 8.0716], [36, 49.06283, 8.08369], [35, 49.06745, 8.09498], [34, 49.07225, 8.10666], [33, 49.07866, 8.11584], [32, 49.08718, 8.11985], [31, 49.09602, 8.1226], [30, 49.10484, 8.12537], [29, 49.11359, 8.12812], [28, 49.12233, 8.13143], [27, 49.13024, 8.1365], [26, 49.13894, 8.14212], [25, 49.14724, 8.14737], [24, 49.15574, 8.15179], [23, 49.1646, 8.15142], [22, 49.17329, 8.1479], [21, 49.18183, 8.14342], [20, 49.18661, 8.13264], [19, 49.19305, 8.12613], [18, 49.20206, 8.12613], [17, 49.20959, 8.13308], [16, 49.21748, 8.13957], [15, 49.22518, 8.1463], [14, 49.23394, 8.14806], [13, 49.24301, 8.14845], [12, 49.25217, 8.14803], [11, 49.26046, 8.14213], [10, 49.26915, 8.13706], [9, 49.27759, 8.13934], [8, 49.28653, 8.14181], [7, 49.29519, 8.14423], [6, 49.30386, 8.14664], [5, 49.31302, 8.14918], [4, 49.32187, 8.15164], [3, 49.33087, 8.15414], [2, 49.33987, 8.15664], [1, 49.34801, 8.15307], [0, 49.34945, 8.14006]]
+
+[[connections]]
+km = 0.023
+station = "Neustadt Hauptbahnhof"
+lines = [
+  { id = "3280", ref = "3280", name = "3280 Homburg - Ludwigshafen", km = 77.179 },
+  { id = "3436", ref = "3436", name = "3436 Neustadt (Weinstr) Hbf - Bad Dürkheim", km = -1.827 },
+  { id = "3450", ref = "3450", name = "3450 Rheinsheim - Rohrbach (Saar)", km = 77.179 },
+]

@@ -1,0 +1,43 @@
+id = "3670"
+ref = "3670"
+name = "3670 Hanau Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Hanau Hbf"
+to = "Hanau Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.158
+length = 1.158
+speeds = [[0, 0.063, 60, 60], [0.063, 0.125, 100, 100], [0.125, 1.158, 60, 60]]
+curves = [[0.1, 0.725, 550], [0.775, 1.025, 710]]
+points = [
+  { km = 0.712, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.714, kind = "signal", label = "D", signal = "main,speed_limit", dir = 1 },
+  { km = 1.077, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.158, kind = "station", label = "Hanau Hbf", uic = "8000150", pos = [50.12107, 8.92921] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.284, kmTo = 0.304, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a_}pHeclu@SmD", v = 60 },
+  { line = "u_}pHshlu@ZhD", v = 100 },
+  { line = "y~|pHiclu@_@wLt@uKbEqN|D_UrGqO", v = 60 },
+]
+posts = [[0, 50.12481, 8.91459], [1, 50.12228, 8.92583]]
+
+[[connections]]
+km = 1.158
+station = "Hanau Hbf"
+lines = [
+  { id = "3600", ref = "3600", name = "3600 Frankfurt (M) Hbf - Göttingen", km = 22.943 },
+  { id = "3660", ref = "3660", name = "3660 Frankfurt (Main) Süd - Aschaffenburg Hbf", km = 19.966 },
+  { id = "3742", ref = "3742", name = "3742 Friedberg (Hess) - Hanau Hbf", km = 32.118 },
+  { id = "4113", ref = "4113", name = "4113 Eberbach - Hanau Hbf", km = 88.162 },
+]

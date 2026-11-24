@@ -1,0 +1,106 @@
+id = "6377"
+ref = "6377"
+name = "6377 Leipzig Bayerischer Bahnhof - Markkleeberg-Gaschwitz"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q106392842"
+from = "Leipzig Bayerischer Bahnhof"
+to = "Markkleeberg-Gaschwitz"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.172
+kmTo = 10.851
+length = 10.69
+speeds = [[0.172, 1.345, 80, 80], [1.345, 3.863, 120, 120], [3.863, 10.703, 160, 160], [10.703, 10.851, 100, 100]]
+curves = [[1.898, 2.248, 1740], [2.373, 2.697, 1260], [2.922, 3.621, 1710], [4.17, 5.718, 1680]]
+points = [
+  { km = 0.172, kind = "halt", label = "Leipzig Bayerischer Bahnhof", uic = "8023546", pos = [51.32952, 12.38152] },
+  { km = 0.809, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 0.814, kind = "signal", label = "87 ZS 902", signal = "main", dir = -1 },
+  { km = 1.18, kind = "stop", label = "Leipzig MDR", pos = [51.32009, 12.38625] },
+  { km = 1.29, kind = "signal", label = "87 P902", signal = "combined,route,speed_limit,speed_limit_distant,wrong_road", dir = 1 },
+  { km = 1.345, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.347, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.59, kind = "signal", label = "B7 ZR 902", signal = "combined", dir = -1 },
+  { km = 1.618, kind = "signal", label = "87 ZR 907", signal = "combined", dir = -1 },
+  { km = 2.073, kind = "signal", label = "87 A", signal = "combined,speed_limit", dir = -1 },
+  { km = 2.38, kind = "signal", signal = "combined,speed_limit", dir = 1 },
+  { km = 2.458, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.296, kind = "signal", label = "61 P1", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 3.433, kind = "station", label = "Leipzig-Connewitz", pos = [51.30093, 12.38652], uic = "8023549" },
+  { km = 3.458, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.863, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.305, kind = "signal", label = "61 F", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 4.484, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.005, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.008, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.201, kind = "stop", label = "Markkleeberg Nord", pos = [51.28787, 12.37208], uic = "8091078" },
+  { km = 5.669, kind = "signal", label = "61 14", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 5.812, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.224, kind = "stop", label = "Markkleeberg", pos = [51.27901, 12.37258], uic = "8023550" },
+  { km = 6.62, kind = "signal", label = "61 24", signal = "combined", dir = -1 },
+  { km = 7.107, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 7.631, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.023, kind = "stop", label = "Markkleeberg-Großstädteln", pos = [51.26251, 12.37631], uic = "8023551" },
+  { km = 8.759, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.389, kind = "signal", label = "62 P8", signal = "main,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 9.426, kind = "stop", label = "Markkleeberg-Gaschwitz, Gleis 2", pos = [51.25008, 12.37919] },
+  { km = 9.467, kind = "station", label = "Markkleeberg-Gaschwitz", uic = "8011598", pos = [51.24971, 12.37917] },
+  { km = 9.939, kind = "signal", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 9.94, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.219, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.172, kmTo = 0.496, length = 324, name = "City-Tunnel" },
+  { kind = "bridge", kmFrom = 1.91, kmTo = 1.938, length = 27 },
+  { kind = "bridge", kmFrom = 4.071, kmTo = 4.145, length = 74 },
+  { kind = "bridge", kmFrom = 4.332, kmTo = 4.404, length = 72 },
+  { kind = "bridge", kmFrom = 4.498, kmTo = 4.567, length = 69 },
+  { kind = "bridge", kmFrom = 5.169, kmTo = 5.188, length = 18 },
+  { kind = "bridge", kmFrom = 6.114, kmTo = 6.148, length = 34 },
+  { kind = "bridge", kmFrom = 6.866, kmTo = 6.886, length = 21 },
+  { kind = "bridge", kmFrom = 8.075, kmTo = 8.1, length = 25 },
+  { kind = "bridge", kmFrom = 9.302, kmTo = 9.32, length = 18 },
+  { kind = "bridge", kmFrom = 10.679, kmTo = 10.701, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cchxHwjqjAlPgG", tunnel = true, v = 80 },
+  { line = "uqgxH_sqjAjl@cV", v = 80 },
+  { line = "idfxHcjrjAxb@}PnOoBjODzT~GrLdH|JbK|L`U", v = 120 },
+  { line = "gbbxH_kqjAvQr\\vIhKtFzEjG|DhI`DfIjBvL~@tIUdSaCtaG{x@", v = 160 },
+  { line = "ypvwHmhqjAfGu@", v = 100 },
+]
+posts = [[1, 51.32155, 12.38553], [2, 51.31298, 12.38989], [3, 51.30413, 12.38902], [4, 51.29695, 12.38067], [5, 51.28954, 12.37281], [6, 51.28063, 12.3723], [7, 51.27171, 12.3743], [8, 51.2628, 12.37635], [9, 51.25388, 12.37834], [10, 51.24496, 12.38031]]
+
+[[connections]]
+km = 0.172
+station = "Leipzig Bayerischer Bahnhof"
+lines = [
+  { id = "6396", ref = "6396", name = "6396 City-Tunnel Leipzig", km = 1.636 },
+]
+
+[[connections]]
+km = 3.433
+station = "Leipzig-Connewitz"
+lines = [
+  { id = "6362", ref = "6362", name = "6362 Leipzig - Hof", km = 3.431 },
+]
+
+[[connections]]
+km = 6.224
+station = "Markkleeberg"
+lines = [
+  { id = "6379", ref = "6379", name = "6379 Leipzig-Plagwitz - Markkleeberg-Gaschwitz", km = 6.747 },
+]
+
+[[connections]]
+km = 9.467
+station = "Markkleeberg-Gaschwitz"
+lines = [
+  { id = "6362", ref = "6362", name = "6362 Leipzig - Hof", km = 9.505 },
+  { id = "6379", ref = "6379", name = "6379 Leipzig-Plagwitz - Markkleeberg-Gaschwitz", km = 10.005 },
+]

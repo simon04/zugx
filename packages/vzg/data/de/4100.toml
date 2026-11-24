@@ -1,0 +1,88 @@
+id = "4100"
+ref = "4100"
+name = "Neckartalbahn"
+operator = "DB Netz AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 16.948
+kmTo = 22.215
+length = 4.906
+speeds = [[16.948, 17.154, 60, 60], [17.154, 17.262, "", 40], [17.262, 17.278, 60, 60], [17.278, 18.408, "", ""], [18.408, 21.857, 90, 90], [21.857, 21.991, "", ""], [21.991, 22.215, 90, 90]]
+curves = [[17.103, 17.284, 730], [17.646, 17.861, 1280], [18.116, 18.903, 470], [21.228, 21.686, 690], [21.735, 22.134, 600]]
+points = [
+  { km = 16.948, kind = "halt", label = "Gneisenaustraße Süd", uic = "506924", pos = [49.40662, 8.66727] },
+  { km = 17.262, kind = "signal", label = "30ZV3", signal = "combined,departure,minor,speed_limit,traversable", dir = -1 },
+  { km = 17.281, kind = "signal", signal = "stop", dir = -1 },
+  { km = 17.353, kind = "signal", signal = "stop", dir = -1 },
+  { km = 17.434, kind = "signal", signal = "stop", dir = -1 },
+  { km = 17.525, kind = "station", label = "Heidelberg Hauptbahnhof", pos = [49.40347, 8.67542], uic = "8014021" },
+  { km = 17.54, kind = "signal", signal = "stop", dir = 1 },
+  { km = 17.587, kind = "signal", signal = "stop", dir = -1 },
+  { km = 17.627, kind = "signal", signal = "stop", dir = -1 },
+  { km = 17.719, kind = "signal", signal = "stop", dir = 1 },
+  { km = 17.721, kind = "signal", signal = "departure", dir = 1 },
+  { km = 17.723, kind = "signal", label = "30ZS3", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 17.895, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.908, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 18.408, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.446, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.538, kind = "signal", label = "ZU3", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 18.56, kind = "signal", signal = "distant", dir = 1 },
+  { km = 18.652, kind = "stop", label = "Heidelberg-Weststadt/Südstadt", pos = [49.39828, 8.68849], uic = "8069606" },
+  { km = 18.697, kind = "signal", label = "VWzu3", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 18.717, kind = "signal", signal = "combined", dir = 1 },
+  { km = 19.802, kind = "signal", label = "FF", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 20.58, kind = "signal", label = "45", signal = "combined", dir = 1, measured = true },
+  { km = 20.975, kind = "signal", signal = "distant", dir = -1 },
+  { km = 21.255, kind = "halt", label = "Schloss", pos = [49.40905, 8.71299] },
+  { km = 21.258, kind = "halt", label = "Molkenkur", pos = [49.40716, 8.71467] },
+  { km = 21.404, kind = "signal", signal = "distant", dir = 1 },
+  { km = 21.548, kind = "signal", signal = "combined", dir = 1 },
+  { km = 22.033, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.071, kind = "signal", label = "P202", signal = "combined,speed_limit,wrong_road", dir = -1 },
+  { km = 22.14, kind = "station", label = "Heidelberg-Altstadt", pos = [49.41524, 8.72087], uic = "8014112" },
+  { km = 22.16, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 19.038, kmTo = 21.91, length = 2486, name = "Königstuhltunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wqplHed|s@pBiO", v = 60 },
+  { line = "enplHot|s@xA{F", v = 40 },
+  { line = "kkplHk||s@Na@", v = 60 },
+  { line = "{jplHm}|s@xL}]jSo\\hBoEnA{F" },
+  { line = "{bolHgh_t@j@_K]wJaAoFyEeO", v = 90 },
+  { line = "ikolHuw`t@q{@akCkCyDeEiDoLyE", tunnel = true, v = 90 },
+  { line = "}_rlHuuet@uAoA", tunnel = true },
+  { line = "sbrlHexet@qBuC" },
+  { line = "efrlH{|et@iHmS", v = 90 },
+]
+posts = [[17, 49.4057, 8.66963], [18, 49.40048, 8.68102], [19, 49.3996, 8.69228], [20, 49.40314, 8.70056], [21, 49.40735, 8.71039], [22, 49.41433, 8.71911]]
+
+[[connections]]
+km = 16.948
+station = "Gneisenaustraße Süd"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 16.801 },
+  { id = "9402", ref = "9402", km = 18.135 },
+]
+
+[[connections]]
+km = 17.525
+station = "Heidelberg Hauptbahnhof"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 17.875 },
+  { id = "9402", ref = "9402", km = 18.631 },
+]
+
+[[connections]]
+km = 22.14
+station = "Heidelberg-Altstadt"
+lines = [
+  { id = "4110", ref = "4110", name = "Bahnstrecke Meckesheim-Neckarelz", km = 22.215 },
+]

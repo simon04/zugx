@@ -1,0 +1,137 @@
+id = "6032"
+ref = "6032"
+name = "6032 Berlin Nordbahnhof Strw - Berlin-Schöneberg"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131689837"
+from = "Berlin Nordbahnhof Strw 6032/6002"
+to = "Berlin-Schöneberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.691
+length = 7.691
+speeds = [[0, 3.515, 50, 50], [3.515, 4.709, 40, 40], [4.709, 5.722, 60, 60], [5.722, 6.193, 50, 50], [6.193, 7.098, 80, 80], [7.098, 7.207, 70, 70], [7.207, 7.691, 100, 100]]
+curves = [[0.2, 0.25, 2090], [0.325, 0.625, 1780], [0.725, 1, 1780], [1.1, 1.325, 390], [1.55, 2, 220], [2.1, 2.3, 300], [2.35, 2.8, 330], [2.85, 3.175, 240], [3.35, 3.4, 2430], [3.5, 3.575, 2000], [3.7, 3.9, 310], [4.025, 4.1, 2090], [4.225, 4.55, 370], [4.825, 5.125, 460], [5.175, 5.4, 710], [5.7, 5.8, 1050], [5.85, 6, 430], [6.05, 6.225, 840], [7.075, 7.2, 1390], [7.25, 7.35, 1460]]
+points = [
+  { km = 0.307, kind = "signal", label = "184", signal = "combined,traversable", dir = -1 },
+  { km = 0.308, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.39, kind = "station", label = "Nordbahnhof", pos = [52.53227, 13.38784], uic = "8089024" },
+  { km = 0.463, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.467, kind = "signal", label = "185", signal = "combined,traversable", dir = 1 },
+  { km = 1.281, kind = "signal", label = "194", signal = "combined,departure,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.291, kind = "station", label = "Oranienburger Straße", pos = [52.52522, 13.39301], uic = "8089027" },
+  { km = 1.439, kind = "signal", label = "195", signal = "departure,main,traversable", dir = 1 },
+  { km = 2.039, kind = "station", label = "U Friedrichstraße", pos = [52.52026, 13.38829] },
+  { km = 2.075, kind = "stop", label = "Friedrichstraße", pos = [52.52062, 13.38665] },
+  { km = 2.079, kind = "station", label = "S Friedrichstraße", pos = [52.52077, 13.38669] },
+  { km = 2.1, kind = "station", label = "Berlin Friedrichstraße", uic = "8011306", pos = [52.52017, 13.38699] },
+  { km = 2.44, kind = "station", label = "Unter den Linden", pos = [52.51699, 13.38882] },
+  { km = 2.681, kind = "station", label = "Brandenburger Tor", pos = [52.5166, 13.38099], uic = "8089044" },
+  { km = 3.392, kind = "signal", signal = "combined", dir = -1 },
+  { km = 3.515, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.615, kind = "signal", label = "230", signal = "combined,minor,traversable", dir = -1 },
+  { km = 3.618, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.698, kind = "station", label = "Potsdamer Platz", pos = [52.5094, 13.37664], uic = "8089032" },
+  { km = 3.769, kind = "halt", label = "Berlin Potsdamer Platz", uic = "8011118", pos = [52.5092, 13.37594] },
+  { km = 3.778, kind = "station", label = "U Potsdamer Platz", pos = [52.50916, 13.37821] },
+  { km = 4.438, kind = "signal", label = "2505", signal = "combined", dir = -1 },
+  { km = 4.507, kind = "station", label = "S Anhalter Bahnhof", uic = "8024968", pos = [52.50358, 13.38148] },
+  { km = 4.525, kind = "stop", label = "Anhalter Bahnhof", pos = [52.50342, 13.3814] },
+  { km = 4.595, kind = "signal", label = "2503", signal = "main,traversable", dir = 1 },
+  { km = 4.666, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.709, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.14, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.241, kind = "station", label = "Gleisdreieck", pos = [52.49953, 13.37403] },
+  { km = 5.721, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.722, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.803, kind = "signal", label = "2510", signal = "combined,traversable", dir = -1 },
+  { km = 5.928, kind = "station", label = "Yorckstraße", pos = [52.49207, 13.37215] },
+  { km = 6.034, kind = "station", label = "Yorckstraße (Großgörschenstraße)", pos = [52.49227, 13.36786] },
+  { km = 6.192, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.192, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.193, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = 6.594, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.774, kind = "signal", label = "71 2520", signal = "combined,traversable", dir = -1 },
+  { km = 6.775, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.894, kind = "stop", label = "Julius-Leber-Brücke", pos = [52.48651, 13.36117], uic = "8089537" },
+  { km = 7.098, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.102, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.207, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.592, kind = "signal", label = "71 2528", signal = "combined,traversable", dir = -1 },
+  { km = 7.599, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 7.691, kind = "station", label = "Schöneberg", uic = "8089474", pos = [52.47935, 13.35192] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0, kmTo = 5.635, length = 5635 },
+  { kind = "bridge", kmFrom = 5.737, kmTo = 5.761, length = 24 },
+  { kind = "bridge", kmFrom = 5.974, kmTo = 6.003, length = 29 },
+  { kind = "bridge", kmFrom = 6.201, kmTo = 6.212, length = 12 },
+  { kind = "tunnel", kmFrom = 7.172, kmTo = 7.303, length = 131 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ows_Is}tpA|Qs]hKgNdIuH~IwElCIxT~JzA|D~@tNzJlMbCfAtH]jC|BvA~H~@f[zBvFlXtB", tunnel = true, v = 50 },
+  { line = "yco_IguspAnKPjDc@tRuX~BmB~DRnKvF", tunnel = true, v = 40 },
+  { line = "wgm_IqjtpA~GxDzCjDhIjUbNtR", tunnel = true, v = 60 },
+  { line = "m`l_IiurpAzB~C", v = 60 },
+  { line = "q|k_IiprpAfG|KjL`J", v = 50 },
+  { line = "}fk_IixqpAbh@hp@", v = 80 },
+  { line = "y}i_I_gppAdBhC", v = 70 },
+  { line = "szi_IubppAl@dA", tunnel = true, v = 70 },
+  { line = "eyi_Io`ppA|B~D", tunnel = true, v = 100 },
+  { line = "gui_IozopAhPzT", v = 100 },
+]
+posts = [[0, 52.53512, 13.38346], [1, 52.52813, 13.39257], [2, 52.52116, 13.38731], [3, 52.51596, 13.37816], [4, 52.50744, 13.37854], [5, 52.49957, 13.37848], [6, 52.49305, 13.36853], [7, 52.48565, 13.36021]]
+
+[[connections]]
+km = 2.039
+station = "U Friedrichstraße"
+lines = [
+  { id = "6024", ref = "6024", name = "6024 Berlin Ostbahnhof - Potsdam Hbf", km = 3.944 },
+  { id = "6109", ref = "6109", name = "6109 Berlin Ostbahnhopf - Berlin-Spandau", km = -7.433 },
+]
+
+[[connections]]
+km = 2.1
+station = "Berlin Friedrichstraße"
+lines = [
+  { id = "6024", ref = "6024", name = "6024 Berlin Ostbahnhof - Potsdam Hbf", km = 4.02 },
+  { id = "6109", ref = "6109", name = "6109 Berlin Ostbahnhopf - Berlin-Spandau", km = -7.358 },
+]
+
+[[connections]]
+km = 3.698
+station = "Potsdamer Platz"
+lines = [
+  { id = "6134", ref = "6134", name = "6134 Berlin Hbf (tief) - Berlin Südkreuz Süd", km = 4.084 },
+  { id = "6171", ref = "6171", name = "6171 Abzw Berlin-Wedding Abzw - Berlin Südkreuz Südende", km = 4.098 },
+]
+
+[[connections]]
+km = 4.507
+station = "S Anhalter Bahnhof"
+lines = [
+  { id = "6034", ref = "6034", name = "6034 Berlin Anhalter Bf - Berlin Yorckstraße Strw", km = 12.408 },
+]
+
+[[connections]]
+km = 5.928
+station = "Yorckstraße"
+lines = [
+  { id = "6034", ref = "6034", name = "6034 Berlin Anhalter Bf - Berlin Yorckstraße Strw", km = 1.564 },
+  { id = "6035", ref = "6035", name = "6035 Berlin Yorckstraße Strw - Blankenfelde", km = 1.564 },
+  { id = "6134", ref = "6134", name = "6134 Berlin Hbf (tief) - Berlin Südkreuz Süd", km = 5.972 },
+  { id = "6171", ref = "6171", name = "6171 Abzw Berlin-Wedding Abzw - Berlin Südkreuz Südende", km = 5.98 },
+]
+
+[[connections]]
+km = 7.691
+station = "Schöneberg"
+lines = [
+  { id = "6033", ref = "6033", name = "6033 Schöneberg - Wannsee", km = 3.559 },
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 24.547 },
+]

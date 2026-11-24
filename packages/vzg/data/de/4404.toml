@@ -1,0 +1,50 @@
+id = "4404"
+ref = "4404"
+name = "4404 Basel Grenze - Basel Bad Bf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Basel Grenze"
+to = "Basel Bad Bf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.609
+length = 1.609
+speeds = [[0, 1.609, 70, 70]]
+curves = [[1.15, 1.25, 1820], [1.425, 1.5, 1910]]
+points = [
+  { km = 0.313, kind = "signal", label = "P3", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.325, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.406, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.446, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.466, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 0.538, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.547, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.555, kind = "signal", signal = "catenary_mast,train_protection", dir = -1 },
+  { km = 0.617, kind = "station", label = "Basel Badischer Bahnhof", uic = "8000026", pos = [47.56746, 7.60731], ele = 277 },
+  { km = 0.645, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.712, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.712, kind = "signal", signal = "brake_test" },
+  { km = 0.716, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.784, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.926, kind = "signal", label = "N 103", signal = "main,minor,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.531, kmTo = 1.581, length = 50 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kojaHublm@hx@_l@bVcO", v = 70 },
+]
+posts = [[0, 47.57254, 7.60379], [1, 47.56459, 7.61003]]
+
+[[connections]]
+km = 0.617
+station = "Basel Badischer Bahnhof"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 270.688 },
+  { id = "4400", ref = "4400", name = "4400 Basel Bad Bf - Zell (Wiesental)", km = -1.587 },
+]

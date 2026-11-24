@@ -1,0 +1,38 @@
+id = "5726"
+ref = "5726"
+name = "5726 Burghausen (Oberbay) - Burghausen Wackerwerk"
+operator = "DB RegioNetz Infrastruktur GmbH;Südostbayernbahn"
+gauge = "1435"
+from = "Burghausen"
+to = "Burghausen Wackerwerk"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.009
+kmTo = 1.529
+length = 1.517
+speeds = [[0.009, 0.839, "", 50], [0.839, 1.529, "", ""]]
+curves = [[0.109, 0.26, 700], [0.486, 0.537, 2960], [0.612, 0.937, 730]]
+points = [
+  { km = 0.157, kind = "signal", label = "89 P4", signal = "combined,speed_limit", dir = -1 },
+  { km = 0.232, kind = "station", label = "Burghausen (Oberbay)", uic = "8001284", pos = [48.17399, 12.82834] },
+  { km = 0.839, kind = "signal", signal = "combined,speed_limit" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.166, kmTo = 0.2, length = 34 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mu_eHeahmAuGgH{VyO_H{B", v = 50 },
+  { line = "__aeHc_imAwe@S" },
+]
+posts = [[1, 48.18064, 12.83078]]
+
+[[connections]]
+km = 0.232
+station = "Burghausen"
+lines = [
+  { id = "5725", ref = "5725", name = "5725 Tüßling - Burghausen", km = 32.254 },
+]

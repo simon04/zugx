@@ -1,0 +1,25 @@
+id = "4333"
+ref = "4333"
+name = "Räuberbahn (Altshausen - Pfullendorf)"
+operator = "Stadt Pfullendorf"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.158
+length = 1.158
+speeds = [[0, 1.158, 50, 50]]
+curves = []
+points = [
+  { km = 0.018, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.043, kind = "stop", label = "Pfullendorf", pos = [47.92284, 9.25589], uic = "8070630" },
+  { km = 0.071, kind = "signal", signal = "stop", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "k}ncHeunw@hKk~A", v = 50 },
+]
+posts = [[0, 47.92294, 9.25539], [1, 47.92124, 9.26857]]

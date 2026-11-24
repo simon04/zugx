@@ -1,0 +1,38 @@
+id = "6443"
+ref = "6443"
+name = "Riekdahl –Rostock Seehafen Nord"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q803116"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.846
+kmTo = 2.828
+length = 1.97
+speeds = [[0.846, 2.828, 60, 60]]
+curves = [[0.966, 1.166, 1220], [1.266, 1.875, 960], [1.99, 2.728, 450]]
+points = [
+  { km = 0.848, kind = "signal", signal = "height,speed_limit", dir = 1 },
+  { km = 1.05, kind = "signal", label = "B", signal = "main,traversable", dir = -1 },
+  { km = 1.231, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.276, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.313, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.631, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.749, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.088, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.203, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 2.215, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 2.33, kind = "signal", label = "31 A", signal = "main,traversable", dir = 1 },
+  { km = 2.339, kind = "signal", label = "423", signal = "combined,traversable", dir = 1 },
+  { km = 2.466, kind = "signal", signal = "crossing_distant" },
+  { km = 2.5, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.634, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qjfiIumjiAhGyLnE}EpEyAbEHtFzCxMfR|H~GxHtC~QhDdIbE", v = 60 },
+]
+posts = [[2, 54.09838, 12.18469], [1, 54.09036, 12.1795]]

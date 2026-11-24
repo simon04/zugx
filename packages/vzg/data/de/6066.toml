@@ -1,0 +1,61 @@
+id = "6066"
+ref = "6066"
+name = "6066 Abzw Birkengrund Süd - Ludwigsfelde"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Birkengrund Süd"
+to = "Ludwigsfelde"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 21.812
+kmTo = 24.606
+length = 2.751
+speeds = [[21.812, 23.24, 100, 100], [23.24, 24.606, "", ""]]
+curves = [[24.431, 24.506, 2130]]
+points = [
+  { km = 21.816, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.844, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 22.03, kind = "signal", label = "24I", signal = "main,route,traversable", dir = -1 },
+  { km = 22.411, kind = "signal", signal = "distant", dir = -1 },
+  { km = 22.529, kind = "station", label = "Birkengrund", pos = [52.3159, 13.27203], uic = "8003436" },
+  { km = 22.813, kind = "signal", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 23.024, kind = "signal", signal = "distant,route_distant", dir = -1 },
+  { km = 23.109, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 23.21, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 23.24, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 23.242, kind = "signal", signal = "minor", dir = 1 },
+  { km = 23.457, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 23.493, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 23.563, kind = "signal", signal = "minor", dir = -1 },
+  { km = 23.815, kind = "signal", label = "25 P4", signal = "main,minor,route,speed_limit,traversable", dir = -1 },
+  { km = 24.201, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 24.258, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 24.29, kind = "signal", signal = "main_repeated" },
+  { km = 24.42, kind = "station", label = "Ludwigsfelde", uic = "8010215", pos = [52.29835, 13.26746] },
+  { km = 24.439, kind = "signal", label = "25 N4", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 24.447, kind = "signal", signal = "electricity", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ike~Heg~oAkhAgS" },
+  { line = "utg~Hm{~oAenAeT", v = 100 },
+]
+posts = [[24, 52.30302, 13.26874], [23, 52.31145, 13.27102], [22, 52.32039, 13.27338]]
+
+[[connections]]
+km = 22.529
+station = "Birkengrund"
+lines = [
+  { id = "6129", ref = "6129", name = "6129 Genshagener Heide Mitte - Ludwigsfelde", km = 6.333 },
+  { id = "6132", ref = "6132", name = "6132 Berlin - Halle (Saale) Hbf", km = 22.503 },
+]
+
+[[connections]]
+km = 24.42
+station = "Ludwigsfelde"
+lines = [
+  { id = "6132", ref = "6132", name = "6132 Berlin - Halle (Saale) Hbf", km = 24.451 },
+]

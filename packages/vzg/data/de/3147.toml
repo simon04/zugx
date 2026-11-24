@@ -1,0 +1,33 @@
+id = "3147"
+ref = "3147"
+name = "3147 Ehrang"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Ehrang"
+to = "Ehrang"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.338
+length = 0.338
+speeds = [[0, 0.338, "", ""]]
+curves = [[0.15, 0.2, 1870]]
+points = [
+  { km = 0.051, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 0.338, kind = "halt", label = "Trier Hafenstraße", pos = [49.79181, 6.68261] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "u~znHynxg@_RP" },
+]
+posts = [[0, 49.78683, 6.68413]]
+
+[[connections]]
+km = 0.338
+station = "Trier Hafenstraße"
+lines = [
+  { id = "3010", ref = "3010", name = "Moselstrecke", km = 106.61 },
+]

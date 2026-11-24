@@ -1,0 +1,61 @@
+id = "6984"
+ref = "6984"
+name = "Ferropolis–Oranienbaum"
+operator = "ELS Eisenbahn und Logistik und Service GmbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 10.341
+length = 10.341
+speeds = [[0, 6.165, 40, 40], [6.165, 6.173, 20, 40], [6.173, 6.18, 40, 20], [6.18, 7.662, 40, 40], [7.662, 7.711, 10, ""], [7.711, 7.755, 40, 10], [7.755, 8.516, 40, 40], [8.516, 8.535, 10, 10], [8.535, 10.341, 40, 40]]
+curves = [[0.1, 0.55, 260], [0.6, 0.65, 1790], [0.8, 0.85, 2780], [2.625, 3.125, 2050], [3.55, 3.65, 2050], [5.35, 5.7, 630], [5.85, 6.4, 580], [6.925, 7.525, 320], [7.7, 7.75, 1990], [7.8, 7.875, 2330], [8.325, 8.45, 1910], [8.5, 9.075, 430], [9.125, 9.475, 330], [9.825, 9.9, 960], [9.95, 10.15, 1860]]
+points = [
+  { km = 0.075, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.194, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.38, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.771, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.831, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.118, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.165, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.168, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.178, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.18, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.225, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.371, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.58, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.631, kind = "signal", signal = "main", dir = 1 },
+  { km = 6.96, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.662, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.663, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.713, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.755, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.769, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.111, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.156, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.472, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.516, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.517, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.534, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.535, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.731, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.938, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 9.265, kind = "signal", signal = "minor" },
+  { km = 9.785, kind = "signal", signal = "main", dir = 1 },
+  { km = 9.888, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 10.193, kind = "station", label = "Gräfenhainichen Ferropolis", pos = [51.759, 12.44593] },
+  { km = 10.208, kind = "signal", signal = "stop", dir = 1 },
+  { km = 10.272, kind = "signal", signal = "stop", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_gd{HshrjA`AdJbBdFjDlDdEd@xUyI~}Acb@vMiFdHoErZkWnzAaeA~FmAjTlC`GoAzCgCpEmGd]wZdEmHhAoH?wHkA}HcEsN", v = 40 },
+  { line = "ibyzH_iyjAm@yB", v = 10 },
+  { line = "wcyzHylyjAgVq}@", v = 40 },
+  { line = "_{yzHkk{jAMq@", v = 10 },
+  { line = "m{yzH}l{jAcC{G{D_F_CyAkE}@cM~@}FiD_Ru^wFkN_IoN", v = 40 },
+]
+posts = [[0, 51.80032, 12.38682], [1, 51.79289, 12.38496], [2, 51.78413, 12.3882], [3, 51.77547, 12.392], [4, 51.76747, 12.39863], [5, 51.75935, 12.40488], [6, 51.75078, 12.40721], [7, 51.743, 12.41431], [8, 51.74483, 12.42691], [9, 51.7507, 12.43688], [10, 51.75777, 12.44395]]

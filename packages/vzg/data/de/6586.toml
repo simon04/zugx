@@ -1,0 +1,22 @@
+id = "6586"
+ref = "6586"
+name = "Ebersbach Grenze - Ebersbach"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q109520732"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.213
+length = 0.213
+speeds = [[0, 0.213, 40, 40]]
+curves = []
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "{xgvHup~wAzJ_A", v = 40 },
+]
+posts = [[0, 50.99934, 14.57947]]

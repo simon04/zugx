@@ -1,0 +1,64 @@
+id = "6772"
+ref = "6772"
+name = "6772 Züssow - Wolgast Hafen"
+operator = "DB InfraGO;Usedomer Bäderbahn GmbH"
+gauge = "1435"
+wikidata = "Q803569"
+from = "Züssow"
+to = "Wolgast Hafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 192.624
+kmTo = 211.037
+length = 18.396
+speeds = [[192.624, 192.958, "", ""], [192.958, 201.768, 100, 100], [201.768, 202.271, "", ""], [202.271, 207.055, 100, 100], [207.055, 207.073, "", ""], [207.073, 209.303, 100, 100], [209.303, 211.037, "", ""]]
+curves = [[192.819, 194.219, 1140], [195.994, 196.044, 2560], [197.797, 198.399, 1570], [201.206, 201.457, 1470], [201.532, 201.682, 1310], [204.836, 205.336, 1580], [206.637, 207.837, 1550], [208.237, 209.212, 1150], [209.362, 209.412, 2130], [209.987, 210.287, 670], [210.512, 210.787, 450], [210.837, 210.937, 470]]
+points = [
+  { km = 192.945, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 193.068, kind = "signal", label = "47 B", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 193.764, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 194.115, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 194.339, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 195.507, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 196.074, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 196.79, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 196.86, kind = "stop", label = "Karlsburg", pos = [53.98236, 13.60994], uic = "8044425" },
+  { km = 197.478, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 200.699, kind = "signal", signal = "distant", dir = 1 },
+  { km = 201.399, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = 201.872, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 202.122, kind = "station", label = "Buddenhagen", pos = [54.00133, 13.68195], uic = "8044423" },
+  { km = 202.155, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 205.774, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 206.45, kind = "stop", label = "Hohendorf", pos = [54.02725, 13.73038], uic = "8044424" },
+  { km = 206.477, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 209.032, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = 209.433, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 209.719, kind = "station", label = "Wolgast", uic = "8044426", pos = [54.04376, 13.76874] },
+  { km = 210.583, kind = "signal", signal = "distant", dir = 1 },
+  { km = 210.956, kind = "stop", label = "Wolgast Hafen", pos = [54.05224, 13.78], uic = "8044428" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 207.055, kmTo = 207.073, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "se|hIcpbsAxEtEnK~EhB|CzIpZnDpHhe@te@" },
+  { line = "ixyhIuq_sAnG|GdGbKvHfU~B|MlAzLzCln@vBbUnEpUzFjQ", v = 100 },
+  { line = "m`xhIa{yrATh@" },
+  { line = "w_xhIwyyrA~L~T`bAdkA`IdNrElLjtA~fE", v = 100 },
+  { line = "shrhI}rorArOve@" },
+  { line = "_xqhIelnrAzDhM|Ft\\fk@reGxEbZzGzTl_A|aCvz@jjCpDjOtCdWd@pVmAdZ}CvS", v = 100 },
+  { line = "_nkhIejwqA}DrNcDbI" },
+]
+posts = [[211, 54.05262, 13.78035], [210, 54.04594, 13.77092], [209, 54.03831, 13.76289], [208, 54.03478, 13.74921], [207, 54.03114, 13.73551], [206, 54.02389, 13.72653], [205, 54.01665, 13.71752], [204, 54.01131, 13.70523], [203, 54.00603, 13.69285], [202, 54.00074, 13.68049], [201, 53.99671, 13.66704], [200, 53.99424, 13.65237], [199, 53.99176, 13.63771], [198, 53.98882, 13.62336], [197, 53.98317, 13.61152], [196, 53.97742, 13.59978], [195, 53.9721, 13.58744], [194, 53.96697, 13.5749], [193, 53.96704, 13.56012]]
+
+[[connections]]
+km = 210.956
+station = "Wolgast Hafen"
+lines = [
+  { id = "6773", ref = "6773", name = "6773 Seebad Heringsdorf - Wolgast Hafen", km = 244.198 },
+]

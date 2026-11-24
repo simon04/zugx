@@ -1,0 +1,212 @@
+id = "3320"
+ref = "3320"
+name = "3320 Hochspeyer - Bad Münster am Stein"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Hochspeyer"
+to = "Bad Münster am Stein"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.838
+kmTo = 49.004
+length = 49.795
+speeds = [[-0.838, 0, 60, 60], [0, 0.2, 40, 40], [0.2, 1.003, 60, 60], [1.003, 1.906, 90, 90], [1.906, 2.276, 110, 90], [2.276, 10.931, 110, 110], [10.931, 12.131, "", ""], [12.131, 12.605, 90, 90], [12.605, 15.518, 100, 100], [15.518, 16.903, 90, 90], [16.903, 22.58, 80, 80], [22.58, 28.58, 90, 90], [28.58, 31.342, 80, 80], [31.342, 34.056, 90, 90], [34.056, 34.4, 80, 80], [34.4, 47.398, 90, 90], [47.398, 48.603, 60, 60], [48.603, 48.925, 40, 40], [48.925, 49.004, 50, 50]]
+curves = [[0.047, 0.524, 360], [0.598, 0.794, 630], [1.039, 1.236, 980], [1.383, 1.915, 470], [3.092, 3.414, 1120], [4.667, 4.971, 1130], [5.953, 6.153, 1580], [6.68, 7.107, 790], [7.182, 7.53, 700], [7.629, 7.874, 1500], [8.187, 8.394, 1820], [9.55, 10.099, 720], [10.704, 11.082, 960], [11.309, 11.583, 970], [12.306, 12.639, 550], [12.736, 13.08, 700], [13.273, 13.568, 690], [14.155, 14.79, 900], [14.914, 15.611, 750], [15.661, 15.992, 600], [16.402, 16.683, 1170], [16.913, 17.118, 750], [17.169, 17.598, 440], [17.648, 18.073, 440], [18.123, 18.747, 430], [18.797, 19.246, 510], [19.422, 19.822, 690], [20.147, 20.372, 930], [20.497, 20.674, 700], [20.724, 21.254, 470], [21.858, 22.664, 550], [22.763, 23.085, 500], [23.16, 23.506, 760], [23.58, 23.927, 500], [24.001, 24.917, 420], [24.967, 25.437, 480], [25.986, 26.364, 950], [26.761, 27.052, 1070], [27.455, 27.925, 720], [28.107, 28.549, 570], [28.627, 29.139, 470], [29.415, 29.916, 430], [30.016, 30.692, 540], [30.742, 31.093, 450], [31.143, 31.343, 740], [32.243, 32.698, 700], [32.899, 33.051, 1520], [33.124, 33.388, 610], [33.46, 33.941, 510], [34.061, 34.779, 440], [34.829, 35.205, 640], [35.53, 35.855, 470], [35.905, 36.456, 420], [36.681, 37.207, 790], [38.183, 38.433, 880], [38.759, 39.232, 420], [39.406, 40.175, 630], [40.25, 40.573, 530], [40.746, 41.044, 610], [41.094, 41.342, 600], [41.392, 41.839, 410], [41.888, 42.484, 410], [42.559, 42.956, 460], [43.006, 43.279, 630], [43.378, 43.726, 450], [43.775, 44.421, 410], [44.524, 44.895, 530], [45.254, 45.443, 860], [45.81, 45.96, 1060], [46.185, 46.635, 450], [46.71, 47.31, 400], [47.56, 47.76, 590], [47.91, 48.06, 1400], [48.135, 48.635, 550], [48.685, 48.885, 1100]]
+points = [
+  { km = -0.684, kind = "signal", label = "10P1", signal = "main,minor,speed_limit", dir = -1 },
+  { km = -0.416, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.359, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.291, kind = "station", label = "Hochspeyer", pos = [49.44401, 7.9034], uic = "8002875" },
+  { km = -0.273, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.259, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = -0.188, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.029, kind = "signal", label = "N1", signal = "distant,main,minor,route", dir = 1 },
+  { km = 0.041, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.186, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.201, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 0.312, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.786, kind = "signal", signal = "main,minor", dir = 1 },
+  { km = 0.909, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.986, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.003, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.252, kind = "signal", label = "F", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 1.906, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.267, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.276, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.274, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.549, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.55, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 4.853, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 5.129, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.315, kind = "signal", signal = "minor", dir = 1 },
+  { km = 5.644, kind = "signal", label = "P23", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 5.777, kind = "signal", signal = "speed_limit,stop", dir = -1 },
+  { km = 5.797, kind = "station", label = "Enkenbach-Alsenborn", pos = [49.4904, 7.89952], uic = "8000372" },
+  { km = 5.895, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 6.118, kind = "signal", label = "N23", signal = "main,minor", dir = 1 },
+  { km = 6.268, kind = "signal", signal = "minor", dir = -1 },
+  { km = 6.47, kind = "signal", signal = "minor", dir = 1 },
+  { km = 6.54, kind = "signal", signal = "minor", dir = -1 },
+  { km = 6.872, kind = "signal", label = "Y", signal = "main,minor", dir = -1 },
+  { km = 7.864, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.141, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.603, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 9.182, kind = "signal", label = "1", signal = "main,traversable", dir = 1, measured = true },
+  { km = 10.986, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 11.124, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 11.421, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.131, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.424, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 12.469, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 12.605, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.723, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 12.822, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 12.902, kind = "stop", label = "Münchweiler (Alsenz)", pos = [49.55053, 7.88782], uic = "8087062" },
+  { km = 12.931, kind = "signal", signal = "stop", dir = 1 },
+  { km = 12.991, kind = "signal", signal = "distant", dir = 1 },
+  { km = 13.101, kind = "signal", signal = "minor", dir = 1 },
+  { km = 13.469, kind = "signal", label = "P3", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 13.588, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 13.897, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 13.94, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.958, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.095, kind = "signal", label = "N3", signal = "main,minor", dir = 1 },
+  { km = 14.559, kind = "signal", label = "3 II", signal = "minor", dir = -1 },
+  { km = 14.566, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 14.588, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 14.758, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 14.894, kind = "signal", label = "Y", signal = "main", dir = -1 },
+  { km = 15.518, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.52, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 15.863, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 15.895, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.971, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 16.545, kind = "signal", signal = "distant", dir = 1 },
+  { km = 16.873, kind = "station", label = "Winnweiler", pos = [49.57047, 7.85612], uic = "8006483" },
+  { km = 16.903, kind = "signal", label = "N2", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 17.367, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 18.458, kind = "signal", signal = "distant", dir = -1 },
+  { km = 22.046, kind = "stop", label = "Imsweiler", pos = [49.5974, 7.80813], uic = "8003070" },
+  { km = 22.632, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.892, kind = "signal", signal = "distant", dir = 1 },
+  { km = 24.885, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 25.915, kind = "station", label = "Rockenhausen", pos = [49.62839, 7.81729], uic = "8005111" },
+  { km = 26.049, kind = "signal", label = "N1", signal = "main,minor", dir = 1 },
+  { km = 26.425, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 27.39, kind = "signal", signal = "distant", dir = -1 },
+  { km = 28.58, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.938, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 31.342, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 33.08, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 34.056, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 34.397, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 36.635, kind = "signal", signal = "distant", dir = 1 },
+  { km = 37.62, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 38.27, kind = "station", label = "Alsenz", pos = [49.72797, 7.81719], uic = "8000505" },
+  { km = 38.65, kind = "signal", label = "N2", signal = "main,minor", dir = 1 },
+  { km = 39.26, kind = "signal", signal = "main", dir = -1, measured = true },
+  { km = 40.241, kind = "signal", signal = "distant", dir = -1 },
+  { km = 40.66, kind = "signal", signal = "distant", dir = 1 },
+  { km = 41.599, kind = "signal", label = "13", signal = "main,traversable", dir = 1 },
+  { km = 42.694, kind = "stop", label = "Hochstätten (Pfalz)", pos = [49.7637, 7.82907], uic = "8002879" },
+  { km = 43.421, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 43.882, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 45.405, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 45.451, kind = "stop", label = "Altenbamberg", pos = [49.78641, 7.83053], uic = "8000517" },
+  { km = 45.923, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 46.275, kind = "signal", signal = "distant", dir = 1 },
+  { km = 46.546, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 47.398, kind = "signal", label = "B", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 48.503, kind = "signal", signal = "minor,speed_limit", dir = 1 },
+  { km = 48.653, kind = "signal", signal = "minor", dir = -1 },
+  { km = 48.849, kind = "station", label = "Bad Münster am Stein", pos = [49.81355, 7.84719], uic = "8000726" },
+  { km = 48.915, kind = "signal", label = "P1", signal = "main,minor,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.261, kmTo = 0.281, length = 20 },
+  { kind = "bridge", kmFrom = 0.449, kmTo = 0.481, length = 32 },
+  { kind = "bridge", kmFrom = 1.744, kmTo = 1.819, length = 74 },
+  { kind = "tunnel", kmFrom = 3.61, kmTo = 4.051, length = 437, name = "Altenhof-Tunnel" },
+  { kind = "bridge", kmFrom = 5.934, kmTo = 5.96, length = 25 },
+  { kind = "bridge", kmFrom = 11.639, kmTo = 11.653, length = 14 },
+  { kind = "bridge", kmFrom = 17.594, kmTo = 17.624, length = 30 },
+  { kind = "tunnel", kmFrom = 17.752, kmTo = 17.836, length = 84, name = "Kupferschmelz-Tunnel" },
+  { kind = "bridge", kmFrom = 18.285, kmTo = 18.303, length = 19 },
+  { kind = "bridge", kmFrom = 18.509, kmTo = 18.534, length = 25 },
+  { kind = "bridge", kmFrom = 19.183, kmTo = 19.196, length = 13 },
+  { kind = "bridge", kmFrom = 20.432, kmTo = 20.45, length = 18 },
+  { kind = "bridge", kmFrom = 21.863, kmTo = 21.889, length = 25 },
+  { kind = "tunnel", kmFrom = 22.213, kmTo = 22.58, length = 371, name = "Imsweilertunnel" },
+  { kind = "bridge", kmFrom = 24.493, kmTo = 24.515, length = 22 },
+  { kind = "bridge", kmFrom = 29.747, kmTo = 29.773, length = 26 },
+  { kind = "bridge", kmFrom = 31.597, kmTo = 31.619, length = 23 },
+  { kind = "bridge", kmFrom = 31.845, kmTo = 31.877, length = 31 },
+  { kind = "bridge", kmFrom = 36.799, kmTo = 36.823, length = 24 },
+  { kind = "tunnel", kmFrom = 37.63, kmTo = 37.913, length = 283, name = "Alsenz-Tunnel" },
+  { kind = "bridge", kmFrom = 41.908, kmTo = 41.935, length = 27 },
+  { kind = "bridge", kmFrom = 42.154, kmTo = 42.182, length = 28 },
+  { kind = "bridge", kmFrom = 42.51, kmTo = 42.532, length = 23 },
+  { kind = "bridge", kmFrom = 43.288, kmTo = 43.324, length = 37 },
+  { kind = "bridge", kmFrom = 43.806, kmTo = 43.846, length = 39 },
+  { kind = "bridge", kmFrom = 44.861, kmTo = 44.877, length = 16 },
+  { kind = "bridge", kmFrom = 45.029, kmTo = 45.066, length = 34 },
+  { kind = "bridge", kmFrom = 45.257, kmTo = 45.285, length = 35 },
+  { kind = "bridge", kmFrom = 45.975, kmTo = 46.042, length = 67 },
+  { kind = "bridge", kmFrom = 46.296, kmTo = 46.336, length = 40 },
+  { kind = "bridge", kmFrom = 48.073, kmTo = 48.193, length = 121 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a{wlHadeo@eGseA", v = 60 },
+  { line = "gcxlHujgo@sAwN", v = 40 },
+  { line = "{exlHmzgo@wAyDqDqEcPuEmMmK", v = 60 },
+  { line = "wmylH}yho@{GuGiJyNiEiDoGsA{GhA", v = 90 },
+  { line = "syzlHaxio@}MlFqu@~T}FjDsKvK", v = 110 },
+  { line = "us}lHohho@kSdT", tunnel = true, v = 110 },
+  { line = "ah~lHisgo@mZdYeIbGg_AzYug@b[kIv@yL_AiEPwSrHsc@lEu`AaGuI\\eEvAaFnDk`@dd@iGnE", v = 110 },
+  { line = "yqimHy|bo@ySrGgGx@id@mD" },
+  { line = "etkmHywbo@iOkBoGkF", v = 90 },
+  { line = "_mlmHqbco@iGeJuEcEaXeIeI`@{c@nMcGpEwG`JmCrF{ExNqB|IiAzKOjJTzI", v = 100 },
+  { line = "_fpmHkw`o@jBpRIzMqHpo@cJtY", v = 90 },
+  { line = "swpmHui}n@cCpIaC~OiBdF_FlFoKdE", v = 80 },
+  { line = "svqmHiy{n@}BzB", tunnel = true, v = 80 },
+  { line = "qzqmHmu{n@aE`KaCtOaAzCyD~FiCfBwCr@aEB{IqAmF|@gFfE{KjMmDfGcD|KsHnf@_@pX|AtTQxG}@hH_EbJm]le@uDlCoGz@", v = 80 },
+  { line = "oivmH{|sn@yHeA{BkBoCaF", tunnel = true, v = 80 },
+  { line = "u{vmHoitn@{FuNmCqEuCeC{K}E_DoCcJcOsC}CgE{BgNkCyJ}IiFiBsEJqEnBcD~DmDrImCfEyElD{GdAga@WaIy@sEaC}\\qWib@qJmGN{E`BgTvOqGv@kHaA", v = 90 },
+  { line = "om`nHiovn@iJmAgFnAoF|FaOjWiHbFeFVuQiFeFRcD|@kHpHaGlOcD`FoB|AsJpDoD~C", v = 80 },
+  { line = "irdnHg}sn@oi@rj@kJrG}D^kT{AyLBgEuAcK}GsFw@uGhAoJtG", v = 90 },
+  { line = "o_inHcmrn@wFxCoGJ", v = 80 },
+  { line = "woinH}grn@eE{A_C_C}BcE{GuQeIcI_XwNoEA}MfDcGaAwFgFeM_YiFgGcLgE{XoC", v = 90 },
+  { line = "wknnHsrun@yNyA", tunnel = true, v = 90 },
+  { line = "q{nnHmuun@wTcBo[fFgFQkGwDsRe\\oGgFwEuAgIlAmJhImElBiDVqSq@uD}AcKgHmMkBoEmCgDmFcG{RaCeDqCoBqGaAwPjEqFScQ{JcOWkDq@sEiDiHwJiFkC{EMcEpAaDrC_JbMmEjCg^hBg^yKuQcMiFaBuGj@aOvI_D^wDa@uFsDiGuL", v = 90 },
+  { line = "ic~nH_pyn@{FeMeCiD}MeKqI_EiJuBaCcCwBmE", v = 60 },
+  { line = "_|_oH}c{n@sDoJiEmH", v = 40 },
+  { line = "}g`oH{x{n@kBoC", v = 50 },
+]
+posts = [[0, 49.44452, 7.90715], [1, 49.4513, 7.91469], [2, 49.45912, 7.91911], [3, 49.4678, 7.91554], [4, 49.47564, 7.90892], [5, 49.48344, 7.90234], [6, 49.49208, 7.89885], [7, 49.50038, 7.89397], [8, 49.50927, 7.89217], [9, 49.5187, 7.89231], [10, 49.52703, 7.89161], [11, 49.53447, 7.8841], [12, 49.54331, 7.88345], [13, 49.55145, 7.88848], [14, 49.56021, 7.8882], [15, 49.56708, 7.8803], [16, 49.56752, 7.8669], [17, 49.57112, 7.85468], [18, 49.57716, 7.84565], [19, 49.58418, 7.84019], [20, 49.59013, 7.83051], [21, 49.5909, 7.81708], [22, 49.5973, 7.80828], [23, 49.60466, 7.81384], [24, 49.61255, 7.82007], [25, 49.62042, 7.81946], [26, 49.62903, 7.81733], [27, 49.63732, 7.82252], [28, 49.64621, 7.82227], [29, 49.65447, 7.82037], [30, 49.66198, 7.81509], [31, 49.66938, 7.80948], [32, 49.67714, 7.80266], [33, 49.68546, 7.79966], [34, 49.69433, 7.80039], [35, 49.70129, 7.80456], [36, 49.70964, 7.80765], [37, 49.71678, 7.81497], [38, 49.72566, 7.81683], [39, 49.73455, 7.81636], [40, 49.74202, 7.82321], [41, 49.75063, 7.82138], [42, 49.75793, 7.82831], [43, 49.7664, 7.83032], [44, 49.77466, 7.83487], [45, 49.78258, 7.83058], [46, 49.79165, 7.83322], [47, 49.80011, 7.83314], [48, 49.80716, 7.84134], [49, 49.81442, 7.84866]]
+
+[[connections]]
+km = -0.291
+station = "Hochspeyer"
+lines = [
+  { id = "3280", ref = "3280", name = "3280 Homburg - Ludwigshafen", km = 54.149 },
+  { id = "3450", ref = "3450", name = "3450 Rheinsheim - Rohrbach (Saar)", km = 54.149 },
+]
+
+[[connections]]
+km = 16.873
+station = "Winnweiler"
+lines = [
+  { id = "3322", ref = "3322", name = "3322 Langmeil (Pfalz), W 29 - Morschheim", km = 98.273 },
+]
+
+[[connections]]
+km = 48.849
+station = "Bad Münster am Stein"
+lines = [
+  { id = "3322", ref = "3322", name = "3322 Langmeil (Pfalz), W 29 - Morschheim", km = 66.294 },
+  { id = "3511", ref = "3511", name = "3511 Bingen (Rhein) Hbf - Saarbrücken Hbf", km = 20.161 },
+]

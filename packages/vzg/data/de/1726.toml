@@ -1,0 +1,46 @@
+id = "1726"
+ref = "1726"
+name = "Celle - NE-Strecke 9170"
+operator = "DB Netz AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.963
+length = 0.963
+speeds = [[0, 0.228, "", ""], [0.228, 0.433, 60, 60], [0.433, 0.963, "", ""]]
+curves = [[0.1, 0.15, 1820], [0.3, 0.425, 1610]]
+points = [
+  { km = 0.133, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.154, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.236, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.307, kind = "signal", label = "76 N4", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = 0.313, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.399, kind = "station", label = "Celle", pos = [52.62098, 10.06258], uic = "8000064" },
+  { km = 0.619, kind = "signal", label = "76 ZU4", signal = "combined,minor,speed_limit", dir = 1 },
+  { km = 0.678, kind = "signal", label = "76L104X", signal = "minor", dir = -1 },
+  { km = 0.892, kind = "signal", signal = "combined,minor,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.136, kmTo = 0.228, length = 92 },
+  { kind = "bridge", kmFrom = 0.433, kmTo = 0.474, length = 41 },
+  { kind = "bridge", kmFrom = 0.537, kmTo = 0.603, length = 66 },
+  { kind = "bridge", kmFrom = 0.747, kmTo = 0.773, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "afe`Iiol|@vK|@" },
+  { line = "iyd`Ikml|@jJ|A", v = 60 },
+  { line = "}md`Imjl|@`\\zI" },
+]
+posts = [[0, 52.62449, 10.06341]]
+
+[[connections]]
+km = 0.399
+station = "Celle"
+lines = [
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 44.037 },
+]

@@ -1,0 +1,69 @@
+id = "9212"
+ref = "9212"
+name = "9212 Lippstadt - Beckum"
+operator = "Westfälische Landes-Eisenbahn GmbH"
+gauge = "1435"
+from = "Lippstadt"
+to = "Beckum"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 28.391
+length = 28.391
+speeds = [[0, 28.218, 50, 50], [28.218, 28.228, 130, 130], [28.228, 28.299, "", ""], [28.299, 28.391, 130, 130]]
+curves = [[0.25, 0.5, 370], [0.55, 0.675, 620], [0.725, 1.1, 810], [1.175, 1.45, 710], [1.5, 1.775, 310], [1.825, 1.875, 1520], [1.95, 2.425, 570], [2.575, 2.675, 1060], [2.725, 3.3, 420], [3.7, 3.85, 1060], [4.05, 4.325, 690], [4.5, 4.775, 790], [5.25, 5.525, 670], [6.225, 6.45, 770], [7.3, 7.425, 1160], [7.475, 7.675, 570], [8.15, 8.4, 710], [8.75, 9.025, 550], [10.5, 10.675, 1830], [10.75, 11, 750], [11.05, 11.2, 970], [11.35, 11.5, 1230], [11.8, 12.15, 490], [12.875, 13.325, 640], [13.5, 14.225, 500], [14.5, 14.85, 410], [15.4, 15.525, 1690], [15.675, 16.075, 400], [16.125, 16.225, 1250], [16.525, 16.85, 470], [16.9, 17.575, 630], [17.75, 18.425, 500], [18.975, 19.45, 610], [19.6, 19.7, 1570], [19.875, 19.925, 2210], [19.975, 20.1, 990], [20.575, 20.825, 920], [21.375, 21.575, 590], [21.625, 21.775, 800], [22.225, 22.425, 1280], [23.625, 23.85, 1170], [24.075, 24.2, 1450], [24.375, 24.525, 500], [24.575, 24.7, 1030], [24.825, 25.05, 500], [25.1, 25.175, 1660], [25.25, 25.55, 1190], [25.6, 25.975, 380], [26.025, 26.45, 1010], [26.5, 27.375, 520], [27.625, 28.225, 340]]
+points = [
+  { km = 9.571, kind = "signal", signal = "main", dir = 1 },
+  { km = 9.572, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 9.673, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.343, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.377, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.433, kind = "signal", signal = "minor" },
+  { km = 10.734, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 10.735, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.765, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.506, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 18.696, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 18.7, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 18.716, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 18.803, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 18.848, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 22.832, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 22.879, kind = "signal", signal = "main", dir = 1 },
+  { km = 23.172, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 28.154, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 28.303, kind = "signal", signal = "minor", dir = -1 },
+  { km = 28.37, kind = "signal", signal = "minor", dir = 1 },
+  { km = 28.39, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 28.391, kind = "station", label = "Lippstadt", uic = "8000571", pos = [51.67069, 8.34832] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.868, kmTo = 3.878, length = 10 },
+  { kind = "bridge", kmFrom = 13.989, kmTo = 14.009, length = 20 },
+  { kind = "bridge", kmFrom = 14.194, kmTo = 14.22, length = 27 },
+  { kind = "bridge", kmFrom = 16.264, kmTo = 16.313, length = 49 },
+  { kind = "bridge", kmFrom = 18.414, kmTo = 18.428, length = 14 },
+  { kind = "bridge", kmFrom = 22.597, kmTo = 22.622, length = 26 },
+  { kind = "bridge", kmFrom = 23.428, kmTo = 23.443, length = 15 },
+  { kind = "bridge", kmFrom = 26.913, kmTo = 26.956, length = 43 },
+  { kind = "bridge", kmFrom = 27.351, kmTo = 27.431, length = 79 },
+  { kind = "bridge", kmFrom = 28.274, kmTo = 28.323, length = 49 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ap|zHejap@lJ{RzAqFx@yR~AoLx@kMBeIiA{QqAwIoDuMWcFZmEjEkWvEmMx@iF@kZk@sRFeIf@_FzAcF|BcDp]uRxNsNlDoHvFsTlA{HjCao@jAyO|AoGf[u~@vO}sAjDgTtAyz@c@wH}Fwe@EkLrVygCvBy^vDkSlDyYtImb@j@gKS}GeJmgAUmHl@}OhGia@VgI[mIkAiIgBuFsSc\\{AoEm@kFCu~@v@kXdAmKfA_DxAiBf]aStIg@rH}CzIy@`CkAnI{MfKo^~C_FlEcDjDcAbEE|d@hHrFStFsBjP}PfQkOzYcb@vCyHhRsp@bJkOvT}i@zb@wcBdCsMjDq\\jBg[bDqNdD_ZmBwe@oD_YTcSqCcWa@yOeBmOn@uP|@mGtDwL|D}EpF}AdTaA~E|A`ElFnB~Hj@`J", v = 50 },
+  { line = "a~jzH_o~q@?Z", v = 130 },
+  { line = "a~jzHcn~q@NlE" },
+  { line = "q}jzHug~q@HhG", v = 130 },
+]
+posts = [[0, 51.76081, 8.04019], [1, 51.75741, 8.0531], [2, 51.75815, 8.06668], [3, 51.75674, 8.08042], [4, 51.74909, 8.0874], [5, 51.74518, 8.0998], [6, 51.7414, 8.11259], [7, 51.73781, 8.12573], [8, 51.73573, 8.13973], [9, 51.73701, 8.15384], [10, 51.73459, 8.16783], [11, 51.7323, 8.18183], [12, 51.72899, 8.19526], [13, 51.73096, 8.2094], [14, 51.72988, 8.2233], [15, 51.73438, 8.23484], [16, 51.733, 8.24877], [17, 51.72452, 8.25314], [18, 51.7181, 8.26212], [19, 51.70936, 8.26201], [20, 51.7013, 8.26773], [21, 51.69491, 8.2777], [22, 51.68937, 8.289], [23, 51.6845, 8.30114], [24, 51.68055, 8.3141], [25, 51.67805, 8.3279], [26, 51.67961, 8.34199], [27, 51.67959, 8.3558], [28, 51.67148, 8.35626]]
+
+[[connections]]
+km = 28.391
+station = "Lippstadt"
+lines = [
+  { id = "1760", ref = "1760", name = "1760 Hannover - Soest", km = 160.172 },
+]

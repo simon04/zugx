@@ -1,0 +1,89 @@
+id = "6866"
+ref = "6866"
+name = "6866 Halberstadt - Blankenburg (Harz)"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q802393"
+from = "Halberstadt"
+to = "Blankenburg (Harz)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.1
+kmTo = 19.008
+length = 18.9
+speeds = [[0.1, 0.523, 50, 40], [0.523, 0.7, 50, 50], [0.7, 0.948, 40, 40], [0.948, 3.534, 60, 60], [3.534, 3.896, 50, 50], [3.896, 5.059, 60, 60], [5.059, 9.068, 80, 80], [9.068, 10.668, 60, 60], [10.668, 14.186, 80, 80], [14.186, 15.193, 60, 60], [15.193, 17.275, 80, 80], [17.275, 19.008, 40, 40]]
+curves = [[0.425, 2.124, 670], [6.107, 6.607, 910], [8.158, 8.733, 570], [8.783, 9.533, 450], [9.958, 10.383, 740], [10.533, 11.083, 1480], [11.458, 11.733, 980], [11.983, 12.158, 1330], [12.608, 12.883, 1120], [13.408, 13.933, 710], [14.083, 14.533, 600], [14.733, 15.183, 910], [15.583, 16.158, 570], [17.633, 17.808, 1030], [18.058, 18.633, 320], [18.833, 18.908, 2400]]
+points = [
+  { km = 0.1, kind = "station", label = "Halberstadt Hauptbahnhof", uic = "8024154", pos = [51.89938, 11.07335] },
+  { km = 0.141, kind = "stop", label = "Halberstadt Hbf", pos = [51.89879, 11.07498] },
+  { km = 0.461, kind = "signal", label = "73 P101", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 0.527, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.531, kind = "signal", label = "73L804X", signal = "minor", dir = -1 },
+  { km = 0.649, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.948, kind = "signal", label = "73B", signal = "combined,short_route,speed_limit,traversable", dir = -1 },
+  { km = 1.112, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.327, kind = "signal", signal = "combined", dir = 1 },
+  { km = 2.704, kind = "signal", signal = "main", dir = -1 },
+  { km = 2.922, kind = "stop", label = "Halberstadt Oststraße", uic = "8011808", pos = [51.88495, 11.0652] },
+  { km = 3.002, kind = "signal", label = "F", signal = "combined", dir = 1 },
+  { km = 3.212, kind = "signal", signal = "combined", dir = -1 },
+  { km = 3.753, kind = "signal", signal = "combined", dir = 1 },
+  { km = 4.07, kind = "signal", label = "B", signal = "combined", dir = -1 },
+  { km = 4.124, kind = "station", label = "Halberstadt-Spiegelsberge", pos = [51.88256, 11.04856], uic = "8024444" },
+  { km = 4.752, kind = "signal", signal = "main", dir = 1 },
+  { km = 5.059, kind = "signal", label = "H", signal = "combined", dir = -1 },
+  { km = 9.068, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 9.67, kind = "signal", label = "D", signal = "main", dir = -1 },
+  { km = 9.789, kind = "station", label = "Langenstein", pos = [51.86048, 10.97948] },
+  { km = 10.268, kind = "signal", label = "G", signal = "main", dir = 1 },
+  { km = 10.668, kind = "signal", label = "H", signal = "main", dir = -1 },
+  { km = 14.186, kind = "signal", label = "A", signal = "main,traversable", dir = 1 },
+  { km = 14.603, kind = "signal", label = "D", signal = "main,traversable", dir = -1 },
+  { km = 14.737, kind = "stop", label = "Börnecke (Harz)", pos = [51.81948, 10.99597] },
+  { km = 14.867, kind = "signal", label = "E", signal = "main,traversable", dir = 1 },
+  { km = 15.193, kind = "signal", label = "H", signal = "main,traversable", dir = -1 },
+  { km = 17.275, kind = "signal", label = "A", signal = "combined", dir = 1 },
+  { km = 18.649, kind = "signal", label = "J2", signal = "combined,minor", dir = -1 },
+  { km = 18.821, kind = "station", label = "Blankenburg (Harz)", uic = "8024456", pos = [51.79595, 10.96123] },
+  { km = 18.883, kind = "signal", label = "K2", signal = "main,minor", dir = 1 },
+  { km = 18.983, kind = "signal", label = "16", signal = "shunting", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 11.28, kmTo = 11.29, length = 10 },
+  { kind = "bridge", kmFrom = 16.68, kmTo = 16.712, length = 32 },
+  { kind = "bridge", kmFrom = 16.89, kmTo = 17.018, length = 128 },
+  { kind = "bridge", kmFrom = 17.07, kmTo = 17.099, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gow{Hc~qbAtFs_@tEmO", v = 50 },
+  { line = "{`w{HeosbA`D{EtE}C", v = 40 },
+  { line = "cuv{H_{sbA`E}AzD]hJhBpLfK~CnFxBdGzCjQdQ||B", v = 60 },
+  { line = "mpt{HionbAtCv_@", v = 50 },
+  { line = "wkt{HqnmbA|M~eB", v = 60 },
+  { line = "y|s{HqgjbAzLp~A`DjSzEdNj{@bjBzCxJ`A|Gb@zIkAp\\n@lN", v = 80 },
+  { line = "m_q{Hul`bAlClKjFvH~`@fP~En@bFUtSsH", v = 60 },
+  { line = "ynn{Han_bAnOiMbYs_@jYgPjZqXnFgDza@sNxG{@pKfBdQpK", v = 80 },
+  { line = "o|h{HwnbbAfE~@lFEtRqGrF{@pMv@", v = 60 },
+  { line = "}dg{HsubbApYjH`FrD|DdGhDvKzY~}A", v = 80 },
+  { line = "e}d{Hur~aAfIdd@~Cdc@jChI|C|CpDz@v\\gC", v = 40 },
+]
+posts = [[1, 51.8943, 11.08441], [2, 51.88695, 11.07826], [3, 51.88483, 11.06416], [4, 51.88278, 11.04995], [5, 51.88073, 11.0358], [6, 51.87868, 11.02167], [7, 51.874, 11.00958], [8, 51.86794, 10.99883], [9, 51.86583, 10.98554], [10, 51.85862, 10.97839], [11, 51.85014, 10.98197], [12, 51.84252, 10.98941], [13, 51.83445, 10.99568], [14, 51.82578, 10.99621], [15, 51.81707, 10.99657], [16, 51.80876, 10.99206], [17, 51.8049, 10.97895], [18, 51.80169, 10.96543], [19, 51.79436, 10.96149]]
+
+[[connections]]
+km = 0.1
+station = "Halberstadt Hauptbahnhof"
+lines = [
+  { id = "6344", ref = "6344", name = "Bahnstrecke 6344 Halle (Saale) Hbf – Vienenburg", km = 88.888 },
+  { id = "6404", ref = "6404", name = "6404 Magdeburg Hbf – Halberstadt", km = 58.311 },
+]
+
+[[connections]]
+km = 18.821
+station = "Blankenburg"
+lines = [
+  { id = "6867", ref = "6867", name = "6867 Blankenburg (Harz) - Michaelstein", km = 0.131 },
+]

@@ -1,0 +1,111 @@
+id = "2331"
+ref = "2331"
+name = "2331 Abzw Meerbeck - Oberhausen Walzwerk"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Meerbeck (Abzw)"
+to = "Oberhausen Walzwerk"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 18.282
+length = 18.282
+speeds = [[0, 0.088, 80, 80], [0.088, 0.176, 100, 100], [0.176, 4.011, 80, 80], [4.011, 9.004, 100, 100], [9.004, 10.861, 90, 90], [10.861, 11.539, 70, 70], [11.539, 18.282, 60, 60]]
+curves = [[0.1, 0.225, 30], [0.7, 1.725, 500], [2.775, 3.325, 500], [3.575, 3.95, 780], [5, 5.875, 1170], [6.5, 6.75, 1120], [7.55, 7.8, 910], [8.15, 8.325, 1580], [8.55, 9.125, 680], [9.275, 9.975, 700], [10.25, 10.725, 640], [11.5, 11.925, 620], [13.95, 14.1, 490], [14.15, 14.275, 540], [14.325, 14.575, 510], [15.725, 15.775, 2360], [17.2, 17.3, 1590], [17.425, 17.5, 1310], [17.55, 17.7, 810], [18.125, 18.175, 970]]
+points = [
+  { km = 0.315, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.562, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.555, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.011, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.999, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.788, kind = "signal", signal = "distant,main,traversable", dir = 1 },
+  { km = 6.924, kind = "signal", signal = "main,minor,traversable", dir = 1 },
+  { km = 7.455, kind = "signal", signal = "main", dir = -1 },
+  { km = 7.998, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.45, kind = "signal", signal = "distant", dir = -1 },
+  { km = 9.004, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.78, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 10.861, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.157, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.058, kind = "halt", label = "Duisburg-Meiderich Bf", pos = [51.46755, 6.77907] },
+  { km = 12.143, kind = "station", label = "Duisburg-Meiderich Süd", uic = "8000367", pos = [51.46876, 6.7803] },
+  { km = 12.161, kind = "signal", signal = "distant,main,speed_limit_distant,traversable", dir = 1 },
+  { km = 12.575, kind = "signal", signal = "distant,main,traversable", dir = -1 },
+  { km = 13.203, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 13.504, kind = "signal", signal = "distant,speed_limit", dir = -1 },
+  { km = 13.588, kind = "halt", label = "Duisburg-Meiderich Ost", uic = "8001607", pos = [51.46883, 6.80116] },
+  { km = 15.4, kind = "signal", signal = "distant", dir = -1 },
+  { km = 16.006, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.008, kind = "signal", signal = "distant", dir = 1 },
+  { km = 16.102, kind = "signal", signal = "main", dir = -1 },
+  { km = 16.955, kind = "signal", label = "117", signal = "distant,main", dir = 1 },
+  { km = 17.093, kind = "signal", signal = "distant", dir = -1 },
+  { km = 17.885, kind = "signal", label = "213 313", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 18.015, kind = "signal", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.362, kmTo = 0.383, length = 21 },
+  { kind = "bridge", kmFrom = 1.056, kmTo = 1.069, length = 13 },
+  { kind = "bridge", kmFrom = 1.499, kmTo = 1.517, length = 18 },
+  { kind = "bridge", kmFrom = 1.781, kmTo = 1.81, length = 29 },
+  { kind = "bridge", kmFrom = 2.391, kmTo = 2.409, length = 18 },
+  { kind = "bridge", kmFrom = 3.033, kmTo = 3.05, length = 16 },
+  { kind = "bridge", kmFrom = 3.311, kmTo = 3.358, length = 48 },
+  { kind = "bridge", kmFrom = 3.876, kmTo = 3.892, length = 16 },
+  { kind = "bridge", kmFrom = 4.046, kmTo = 4.985, length = 939 },
+  { kind = "bridge", kmFrom = 6.047, kmTo = 6.067, length = 20 },
+  { kind = "bridge", kmFrom = 7, kmTo = 7.014, length = 14 },
+  { kind = "bridge", kmFrom = 7.594, kmTo = 7.612, length = 18 },
+  { kind = "bridge", kmFrom = 8.374, kmTo = 8.389, length = 16 },
+  { kind = "bridge", kmFrom = 8.688, kmTo = 8.702, length = 15 },
+  { kind = "bridge", kmFrom = 9.069, kmTo = 9.089, length = 20 },
+  { kind = "bridge", kmFrom = 9.257, kmTo = 9.273, length = 16 },
+  { kind = "bridge", kmFrom = 9.929, kmTo = 9.952, length = 23 },
+  { kind = "bridge", kmFrom = 10.118, kmTo = 10.146, length = 28 },
+  { kind = "bridge", kmFrom = 10.603, kmTo = 10.613, length = 10 },
+  { kind = "bridge", kmFrom = 10.908, kmTo = 10.953, length = 46 },
+  { kind = "bridge", kmFrom = 11.097, kmTo = 11.111, length = 14 },
+  { kind = "bridge", kmFrom = 11.263, kmTo = 11.278, length = 15 },
+  { kind = "bridge", kmFrom = 11.465, kmTo = 11.486, length = 21 },
+  { kind = "bridge", kmFrom = 11.519, kmTo = 11.539, length = 20 },
+  { kind = "bridge", kmFrom = 12.176, kmTo = 12.197, length = 21 },
+  { kind = "bridge", kmFrom = 12.385, kmTo = 12.405, length = 20 },
+  { kind = "bridge", kmFrom = 12.887, kmTo = 12.899, length = 12 },
+  { kind = "bridge", kmFrom = 12.934, kmTo = 12.994, length = 60 },
+  { kind = "bridge", kmFrom = 13.539, kmTo = 13.561, length = 21 },
+  { kind = "bridge", kmFrom = 13.633, kmTo = 13.705, length = 71 },
+  { kind = "bridge", kmFrom = 13.764, kmTo = 13.782, length = 17 },
+  { kind = "bridge", kmFrom = 14.291, kmTo = 14.309, length = 18 },
+  { kind = "bridge", kmFrom = 14.657, kmTo = 14.708, length = 51 },
+  { kind = "bridge", kmFrom = 14.761, kmTo = 14.776, length = 15 },
+  { kind = "bridge", kmFrom = 17.284, kmTo = 17.351, length = 66 },
+  { kind = "bridge", kmFrom = 17.692, kmTo = 17.73, length = 38 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ixbyH_eog@{Cf@", v = 80 },
+  { line = "e}byHwcog@xCu@", v = 100 },
+  { line = "kxbyHmeog@i]vDoHOmEiBgDaD}B{DqBaG}AkLGkLpLohBFmNs@sH{AyGgReb@eB_IqAwK", v = 80 },
+  { line = "gfeyHqvvg@kO_zA]}JRuPjAaSfBqKlX}u@bCyI|SmqAzAap@q@kb@}AqPiEuN", v = 100 },
+  { line = "wfdyHuych@wM}R}CyG}CcMkA{MH}c@n@{NnCaNrHgP", v = 90 },
+  { line = "yqdyHqhhh@lYck@", v = 70 },
+  { line = "kwcyHutih@vDsL~@iNLk}D}AiPGiMe@}GiHyZaa@e{AqXa~@_M}^gMmY}Lsc@_DoI", v = 60 },
+]
+posts = [[0, 51.46517, 6.63648], [1, 51.4725, 6.63618], [2, 51.47448, 6.64879], [3, 51.47293, 6.66296], [4, 51.47761, 6.67498], [5, 51.48012, 6.68885], [6, 51.47819, 6.70237], [7, 51.47351, 6.7146], [8, 51.47099, 6.72832], [9, 51.47257, 6.74215], [10, 51.47696, 6.75388], [11, 51.4735, 6.76649], [12, 51.4689, 6.77823], [13, 51.46886, 6.79267], [14, 51.46883, 6.8071], [15, 51.47186, 6.82041], [16, 51.47645, 6.83282], [17, 51.48139, 6.84489], [18, 51.48667, 6.85652]]
+
+[[connections]]
+km = 12.058
+station = "Duisburg-Meiderich Bf"
+lines = [
+  { id = "2274", ref = "2274", name = "2274 Oberhausen Hbf - Duisburg-Ruhrort", km = 5.368 },
+]
+
+[[connections]]
+km = 13.588
+station = "Duisburg-Meiderich Ost"
+lines = [
+  { id = "2274", ref = "2274", name = "2274 Oberhausen Hbf - Duisburg-Ruhrort", km = 3.843 },
+]

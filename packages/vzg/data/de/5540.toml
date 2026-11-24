@@ -1,0 +1,209 @@
+id = "5540"
+ref = "5540"
+name = "5540 München Hbf tief - Gauting"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "München Hbf tief"
+to = "Gauting"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.024
+kmTo = 18.639
+length = 18.688
+speeds = [[-0.024, 0.674, 60, 60], [0.674, 1.795, 80, 80], [1.795, 2.851, 100, 90], [2.851, 3.144, 100, 100], [3.144, 3.224, "", ""], [3.224, 3.472, 100, 100], [3.472, 4.437, "", ""], [4.437, 6.314, 100, 100], [6.314, 6.884, "", 100], [6.884, 7.013, 60, 100], [7.013, 7.284, 60, ""], [7.284, 7.291, 100, 100], [7.291, 9.175, 90, 90], [9.175, 15.888, 120, 120], [15.888, 18.639, 140, 140]]
+curves = [[0.089, 0.139, 1800], [0.189, 0.464, 600], [0.514, 0.719, 670], [1.54, 1.716, 1700], [1.787, 1.834, 2060], [1.905, 2, 1680], [2.071, 2.214, 1010], [2.601, 2.652, 2480], [2.781, 3.155, 1940], [3.203, 3.275, 2430], [3.322, 3.607, 1030], [3.66, 3.74, 1780], [4.29, 4.363, 1250], [4.412, 4.51, 1200], [4.559, 4.658, 2310], [4.878, 5.106, 1080], [5.223, 5.353, 1450], [6.441, 6.824, 1070], [7.143, 7.242, 2240], [7.729, 8.231, 700], [8.37, 9.061, 800], [12.698, 12.921, 1680], [17.414, 17.564, 2130]]
+points = [
+  { km = -0.024, kind = "halt", label = "Hauptbahnhof (tief)", uic = "8098263", pos = [48.14126, 11.56003] },
+  { km = -0.024, kind = "station", label = "Hauptbahnhof", pos = [48.14015, 11.5611] },
+  { km = 0.046, kind = "signal", signal = "combined", dir = 1 },
+  { km = 0.108, kind = "station", label = "München Hauptbahnhof", uic = "8020347", pos = [48.14073, 11.55694] },
+  { km = 0.232, kind = "station", label = "München Hbf Gleis 27-36, Starnberger Bahnhof", uic = "8020348", pos = [48.14153, 11.55562] },
+  { km = 0.381, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.492, kind = "station", label = "München Hbf Gleis 5-10, Holzkirchner Bahnhof", uic = "8069685", pos = [48.14015, 11.55316] },
+  { km = 0.547, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.617, kind = "signal", label = "43 ZR2", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 0.671, kind = "signal", label = "35", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 0.674, kind = "signal", label = "43 P2", signal = "combined,speed_limit", dir = -1 },
+  { km = 0.721, kind = "signal", label = "37", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 0.787, kind = "station", label = "Hackerbrücke", uic = "8004129", pos = [48.14196, 11.54853] },
+  { km = 0.802, kind = "signal", label = "39", signal = "catenary_mast,speed_limit,train_protection", dir = 1 },
+  { km = 0.853, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.87, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.874, kind = "signal", label = "43 N2", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 1.065, kind = "signal", signal = "combined,speed_limit", dir = -1 },
+  { km = 1.071, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.306, kind = "signal", label = "42 A", signal = "combined,speed_limit", dir = 1 },
+  { km = 1.468, kind = "signal", label = "41", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 1.548, kind = "signal", label = "43", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 1.55, kind = "signal", label = "42 P1", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.603, kind = "signal", label = "45", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 1.687, kind = "signal", label = "47", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 1.707, kind = "station", label = "Donnersbergerbrücke", uic = "8004128", pos = [48.14267, 11.53652] },
+  { km = 1.757, kind = "signal", label = "42 N1", signal = "combined", dir = 1 },
+  { km = 1.795, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.907, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.956, kind = "signal", label = "42FF", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 2.739, kind = "signal", label = "42 635", signal = "combined", dir = 1 },
+  { km = 2.845, kind = "signal", label = "049", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 2.847, kind = "signal", label = "62 P401", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 2.851, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.92, kind = "signal", label = "051", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 2.974, kind = "stop", label = "Hirschgarten", uic = "8004179", pos = [48.14355, 11.51947] },
+  { km = 2.994, kind = "signal", label = "053", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 3.009, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.089, kind = "signal", label = "62 ZR401", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 3.131, kind = "signal", label = "42688", signal = "combined", dir = -1 },
+  { km = 3.303, kind = "signal", signal = "catenary_mast,train_protection", dir = -1 },
+  { km = 3.791, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.808, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.184, kind = "signal", label = "41 ZV503", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 4.216, kind = "station", label = "Laim", uic = "8020345", pos = [48.1445, 11.50297] },
+  { km = 4.893, kind = "signal", label = "41 F", signal = "combined", dir = -1 },
+  { km = 4.896, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.809, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 5.876, kind = "signal", label = "644", signal = "combined", dir = -1 },
+  { km = 6.314, kind = "signal", signal = "catenary_mast,train_protection", dir = -1 },
+  { km = 6.72, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.811, kind = "signal", label = "11 646", signal = "combined", dir = -1 },
+  { km = 6.884, kind = "signal", signal = "combined,speed_limit", dir = 1 },
+  { km = 6.946, kind = "signal", signal = "minor", dir = 1 },
+  { km = 6.949, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.291, kind = "signal", label = "11 P6", signal = "combined,speed_limit", dir = -1 },
+  { km = 7.302, kind = "signal", signal = "stop", dir = -1 },
+  { km = 7.39, kind = "station", label = "München-Pasing", uic = "8004158", pos = [48.14996, 11.46177] },
+  { km = 7.4, kind = "stop", label = "Pasing", uic = "8004158", pos = [48.14997, 11.46163], measured = true },
+  { km = 7.513, kind = "signal", label = "11 ZS6", signal = "combined,route,speed_limit", dir = 1 },
+  { km = 7.751, kind = "signal", label = "11 ZV6", signal = "combined,speed_limit", dir = 1 },
+  { km = 7.864, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 7.895, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 7.972, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 8.03, kind = "signal", label = "70 ZT6", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 8.298, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = 8.714, kind = "signal", label = "70 ZU6", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 8.837, kind = "station", label = "Westkreuz", uic = "8004163", pos = [48.1489, 11.44376] },
+  { km = 8.912, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 8.941, kind = "signal", label = "70 N6", signal = "main,minor,route,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 9.175, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.175, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.432, kind = "signal", signal = "combined", dir = -1 },
+  { km = 10.361, kind = "signal", signal = "combined", dir = -1 },
+  { km = 11.199, kind = "signal", signal = "combined,minor", dir = -1 },
+  { km = 11.313, kind = "stop", label = "Lochham", uic = "8003720", pos = [48.12826, 11.43089] },
+  { km = 12.206, kind = "signal", label = "35 656", signal = "combined,traversable", dir = -1 },
+  { km = 12.243, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 12.337, kind = "stop", label = "Gräfelfing", uic = "8002339", pos = [48.11964, 11.42562] },
+  { km = 14.028, kind = "signal", label = "35 660", signal = "combined,traversable", dir = -1 },
+  { km = 14.114, kind = "signal", signal = "stop", dir = -1 },
+  { km = 14.136, kind = "station", label = "Planegg", uic = "8004827", pos = [48.10546, 11.41375] },
+  { km = 14.274, kind = "signal", label = "35 663", signal = "main,traversable", dir = 1 },
+  { km = 15.786, kind = "stop", label = "Stockdorf", uic = "8005735", pos = [48.09285, 11.40026] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = -0.024, kmTo = 0.505, length = 529 },
+  { kind = "bridge", kmFrom = 3.236, kmTo = 3.325, length = 93 },
+  { kind = "bridge", kmFrom = 5.051, kmTo = 5.153, length = 112 },
+  { kind = "bridge", kmFrom = 7.787, kmTo = 7.847, length = 62 },
+  { kind = "bridge", kmFrom = 8.837, kmTo = 8.873, length = 36 },
+  { kind = "bridge", kmFrom = 9.236, kmTo = 9.263, length = 28 },
+  { kind = "bridge", kmFrom = 11.163, kmTo = 11.186, length = 23 },
+  { kind = "bridge", kmFrom = 12.201, kmTo = 12.223, length = 22 },
+  { kind = "bridge", kmFrom = 13.808, kmTo = 13.839, length = 31 },
+  { kind = "bridge", kmFrom = 15.071, kmTo = 15.096, length = 25 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gfldHsgmdA}u@}r@ycA{tA", v = 140 },
+  { line = "_bpdHmqqdAoWs]aNqOogBy_B_~DgtB", v = 120 },
+  { line = "aqzdHuvydAyKwGgDsDgD_GeEyMsEqYQgH`@wHzMip@", v = 90 },
+  { line = "ye{dHwz}dADQ", v = 100 },
+  { line = "se{dHi{}dAbFqS", v = 60 },
+  { line = "o~zdH{o~dApEcSfB_Q~Em~AHq\\dEqm@", v = 100 },
+  { line = "egzdHqaeeAFuHrFodA" },
+  { line = "i_zdHwpgeAQcT", v = 100 },
+  { line = "{_zdH{eheASaF" },
+  { line = "o`zdH}lheA@uPfDi}@Eq`@", v = 100 },
+  { line = "k{ydHo~keAFiUbD_eA", v = 80 },
+  { line = "_vydHyzneA]yL", v = 60 },
+  { line = "}vydHshoeAo@cIBmF|CsX", tunnel = true, v = 60 },
+]
+posts = [[18, 48.07771, 11.38258], [17, 48.08498, 11.39046], [16, 48.09187, 11.39911], [15, 48.09888, 11.40753], [14, 48.10651, 11.41469], [13, 48.1142, 11.42182], [12, 48.12247, 11.42732], [11, 48.13089, 11.43247], [10, 48.13931, 11.43762], [9, 48.14772, 11.4428], [8, 48.1521, 11.45397], [7, 48.14834, 11.46655], [6, 48.14634, 11.47892], [5, 48.14568, 11.49222], [4, 48.14418, 11.5059], [3, 48.14363, 11.51914], [2, 48.1428, 11.53235], [1, 48.14232, 11.54459], [0, 48.14157, 11.55886]]
+
+[[connections]]
+km = -0.024
+station = "Hauptbahnhof"
+lines = [
+  { id = "5500", ref = "5500", name = "5500 München - Regensburg", km = 0.149 },
+  { id = "5501", ref = "5501", name = "5501 München - Treuchtlingen", km = 0.025 },
+  { id = "5503", ref = "5503", name = "5503 München - Augsburg", km = 0.017 },
+  { id = "5504", ref = "5504", name = "5504 München Hbf - Mittenwald Grenze", km = 0.099 },
+  { id = "5505", ref = "5505", name = "5505 München Hbf - Lenggries", km = 0.099 },
+  { id = "5510", ref = "5510", name = "5510 München Hbf - Rosenheim", km = 0.02 },
+  { id = "5550", ref = "5550", name = "5550 München Hbf tief - München Ost Pbf", km = 7.443 },
+]
+
+[[connections]]
+km = 0.108
+station = "München Hauptbahnhof"
+lines = [
+  { id = "5550", ref = "5550", name = "5550 München Hbf tief - München Ost Pbf", km = 7.494 },
+]
+
+[[connections]]
+km = 1.707
+station = "Donnersbergerbrücke"
+lines = [
+  { id = "5505", ref = "5505", name = "5505 München Hbf - Lenggries", km = 1.697 },
+  { id = "5510", ref = "5510", name = "5510 München Hbf - Rosenheim", km = 1.691 },
+]
+
+[[connections]]
+km = 2.974
+station = "Hirschgarten"
+lines = [
+  { id = "5530", ref = "5530", name = "5530 München-Laim Rbf - München-Mittersendling", km = 1.231 },
+  { id = "5531", ref = "5531", name = "5531 München-Laim Rbf - München Süd", km = 1.675 },
+]
+
+[[connections]]
+km = 4.216
+station = "Laim"
+lines = [
+  { id = "5500", ref = "5500", name = "5500 München - Regensburg", km = 4.211 },
+  { id = "5501", ref = "5501", name = "5501 München - Treuchtlingen", km = 4.212 },
+  { id = "5525", ref = "5525", name = "5525 München-Laim - München Nord Rbf Lassallestraße", km = -0.056 },
+  { id = "5530", ref = "5530", name = "5530 München-Laim Rbf - München-Mittersendling", km = 0.056 },
+  { id = "5531", ref = "5531", name = "5531 München-Laim Rbf - München Süd", km = 0.506 },
+  { id = "5544", ref = "5544", name = "5544 München-Laim Pbf - Petershausen (Oberbay)", km = 4.177 },
+]
+
+[[connections]]
+km = 7.39
+station = "München-Pasing"
+lines = [
+  { id = "5503", ref = "5503", name = "5503 München - Augsburg", km = 7.4 },
+  { id = "5543", ref = "5543", name = "5543 München-Pasing - Mammendorf", km = 7.387 },
+]
+
+[[connections]]
+km = 7.4
+station = "Pasing"
+lines = [
+  { id = "5543", ref = "5543", name = "5543 München-Pasing - Mammendorf", km = 7.4 },
+]
+
+[[connections]]
+km = 8.837
+station = "Westkreuz"
+lines = [
+  { id = "5541", ref = "5541", name = "5541 München-Westkreuz - Herrsching", km = 1.539 },
+]
+
+[[connections]]
+km = 15.786
+station = "Stockdorf"
+lines = [
+  { id = "5504", ref = "5504", name = "5504 München Hbf - Mittenwald Grenze", km = 15.868 },
+]

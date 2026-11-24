@@ -1,0 +1,116 @@
+id = "5111"
+ref = "5111"
+name = "Bahnstrecke Frensdorf - Schlüsselfeld"
+operator = "Deutsche Regionaleisenbahn"
+gauge = "1435"
+from = "Frensdorf"
+to = "Schlüsselfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.066
+kmTo = 24.311
+length = 24.336
+speeds = [[-0.066, 13.387, "", ""], [13.387, 15.908, 40, 40], [15.908, 15.932, "", ""], [15.932, 18.065, 30, 30], [18.065, 18.089, "", ""], [18.089, 19.754, 40, 40], [19.754, 24.311, "", ""]]
+curves = [[0.294, 0.444, 580], [0.494, 1.069, 520], [1.469, 1.918, 340], [1.968, 2.193, 720], [2.543, 2.818, 670], [2.868, 3.043, 450], [3.093, 3.717, 310], [4.117, 4.192, 2610], [5.369, 5.595, 760], [5.646, 5.822, 730], [6.752, 6.928, 1990], [7.532, 7.632, 1910], [8.06, 8.236, 1160], [8.286, 8.513, 830], [9.265, 9.541, 800], [9.591, 9.917, 460], [10.167, 10.293, 960], [11.321, 11.496, 770], [11.546, 11.596, 2040], [11.872, 12.023, 1080], [12.8, 12.9, 1510], [13.953, 14.429, 820], [14.906, 15.407, 780], [15.783, 16.26, 730], [16.661, 17.037, 340], [17.086, 17.634, 670], [17.759, 18.008, 830], [18.133, 18.382, 560], [18.506, 18.73, 1190], [19.029, 19.378, 750], [19.727, 19.951, 840], [20.001, 20.203, 850], [21.536, 21.611, 2610], [21.761, 22.036, 380], [22.086, 22.261, 1090], [22.336, 22.961, 440], [23.036, 23.211, 1000], [23.361, 23.561, 430], [23.611, 23.836, 450], [24.111, 24.211, 450]]
+points = [
+  { km = -0.053, kind = "signal", signal = "whistle", dir = -1 },
+  { km = -0.015, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.508, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.554, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.003, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.155, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.942, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.44, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.813, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.818, kind = "signal", signal = "main", dir = 1 },
+  { km = 8.1, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.51, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.321, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 10.841, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 13.374, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.387, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.908, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.932, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.417, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 16.807, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 16.972, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 17.16, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 17.988, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 18.023, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 18.065, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.089, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.105, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 18.16, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 18.16, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 18.336, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 18.393, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 19.728, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 19.754, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.786, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.866, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 19.903, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.903, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 19.955, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 20.276, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 20.304, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 20.481, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 20.484, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 20.694, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 20.757, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 20.848, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 21.128, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 21.131, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 21.269, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 21.484, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 21.522, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 21.615, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 21.631, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 21.75, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 22.086, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.087, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.095, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 22.156, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 22.201, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 22.488, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 22.492, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 22.662, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 22.823, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.839, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.855, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 22.88, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 22.882, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 22.897, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 23.01, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 23.239, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 23.284, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 23.285, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 23.334, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 23.39, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 23.396, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 23.548, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 23.616, kind = "signal", signal = "main", dir = 1 },
+  { km = 23.678, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 23.767, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 23.79, kind = "signal", signal = "crossing", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.23, kmTo = 0.245, length = 15 },
+  { kind = "bridge", kmFrom = 0.869, kmTo = 0.879, length = 10 },
+  { kind = "bridge", kmFrom = 5.242, kmTo = 5.252, length = 10 },
+  { kind = "bridge", kmFrom = 5.585, kmTo = 5.594, length = 10 },
+  { kind = "bridge", kmFrom = 12.988, kmTo = 13, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "w`vnH{ix_AjDsDxM{^fB}BvIoGtKkU~KwLjK}B|DyDxHiUtGkOp@qFTi\\vE{pBEeI_AaODwH" },
+  { line = "ayrnHckb`A`Bwf@YgNoHge@uJaZsAwN", v = 40 },
+  { line = "snsnHesf`AEaA" },
+  { line = "ynsnHguf`Ak@aNfAq]IgIiCwPwG_Q{@gJZgH~Gsk@JwR", v = 30 },
+  { line = "}rsnHwel`AEaA" },
+  { line = "cssnHygl`AeJ{v@LgRnHes@d@wOs@_PsHeq@", v = 40 },
+  { line = "m~snHa{r`AoGwk@gHyjAqI}l@}c@irAaIs_@yD_HsI_HeDwEg]{u@oDgKcEqRyN}c@yRgx@sSyuA_IuUqTs`BwMyq@iCeEgEcCyDCcCv@gHnIoM`F_FrEgU~XcFjPuBtDgCfB{Cf@c_@iFuGsCqCgCoD}GcDoRaLe]" },
+]
+posts = [[24, 49.75968, 10.61861], [23, 49.75325, 10.62799], [22, 49.74646, 10.63613], [21, 49.74532, 10.64979], [20, 49.74478, 10.6635], [19, 49.74498, 10.67726], [18, 49.74857, 10.68989], [17, 49.75017, 10.70299], [16, 49.74906, 10.7163], [15, 49.75084, 10.72972], [14, 49.74939, 10.74322], [13, 49.75195, 10.75652], [12, 49.75371, 10.77012], [11, 49.7575, 10.78257], [10, 49.76227, 10.79428], [9, 49.76841, 10.804], [8, 49.77354, 10.81526], [7, 49.77811, 10.82715], [6, 49.78136, 10.84002], [5, 49.78502, 10.85254], [4, 49.78805, 10.86565], [3, 49.79423, 10.87054], [2, 49.80171, 10.86326], [1, 49.80961, 10.86084], [0, 49.81521, 10.87091]]

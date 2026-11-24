@@ -1,0 +1,52 @@
+id = "2130"
+ref = "2130"
+name = "2130 Abzw Dortmund-Lütgendortmund Gbf Flm - Dortmund-Huckarde Süd"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q4626991"
+from = "Dortmund-Lütgendortmund Gbf Flm"
+to = "Dortmund-Huckarde Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.264
+length = 3.264
+speeds = [[0, 0.028, 60, 60], [0.028, 0.031, "", ""], [0.031, 0.124, 60, 60], [0.124, 0.176, "", ""], [0.176, 0.42, 60, 60], [0.42, 3.264, "", ""]]
+curves = [[0.125, 0.175, 2460], [0.225, 0.3, 2870], [0.6, 0.725, 1560], [0.825, 0.925, 1850], [1.1, 1.15, 2290], [1.275, 2.05, 610], [2.1, 2.45, 940], [3.025, 3.075, 2700]]
+points = [
+  { km = 1.036, kind = "halt", label = "Dortmund-Wischlingen", uic = "8001531", pos = [51.5194, 7.41278] },
+  { km = 1.778, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.271, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.864, kind = "signal", signal = "main", dir = 1 },
+  { km = 2.865, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.258, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0, kmTo = 0.028, length = 28 },
+  { kind = "bridge", kmFrom = 0.563, kmTo = 0.634, length = 70 },
+  { kind = "bridge", kmFrom = 1.083, kmTo = 1.108, length = 25 },
+  { kind = "bridge", kmFrom = 1.655, kmTo = 1.675, length = 20 },
+  { kind = "tunnel", kmFrom = 1.794, kmTo = 1.849, length = 55 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a`oyHyqel@l@]", v = 60 },
+  { line = "s~nyHwrel@DC" },
+  { line = "m~nyH{rel@zC{A", v = 60 },
+  { line = "qynyHwuel@tAy@" },
+  { line = "{vnyHqwel@lKgH", v = 60 },
+  { line = "mjnyHy`fl@rJ_HvXsOrPsHxC?~BzAzAxCdAjE" },
+  { line = "qelyH_vfl@d@rC", tunnel = true },
+  { line = "kdlyHkqfl@x@xJdApZtTloA" },
+]
+posts = [[0, 51.52785, 7.40653], [1, 51.51959, 7.41221], [2, 51.51288, 7.40946], [3, 51.50995, 7.39595]]
+
+[[connections]]
+km = 1.036
+station = "Dortmund-Wischlingen"
+lines = [
+  { id = "2191", ref = "2191", name = "2191 Dortmund-Mengede - Dortmund-Dorstfeld", km = 2.152 },
+]

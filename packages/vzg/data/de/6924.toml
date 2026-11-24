@@ -1,0 +1,28 @@
+id = "6924"
+ref = "6924"
+name = "6924 Dalwitzhof - Dalwitzhof Nordkopf"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131650793"
+from = "Dalwitzhof"
+to = "Dalwitzhof Nordkopf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.9
+length = 0.9
+speeds = [[0, 0.9, 60, 60]]
+curves = [[0.1, 0.375, 510], [0.725, 0.775, 1290]]
+points = [
+  { km = 0.152, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.362, kind = "signal", label = "F", signal = "main,traversable", dir = -1 },
+  { km = 0.587, kind = "signal", label = "R", signal = "combined,minor,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ex}hIexciAuFvHoEzBaZY}Eb@", v = 60 },
+]
+posts = [[0, 54.06099, 12.14867]]

@@ -1,0 +1,80 @@
+id = "6020"
+ref = "6020"
+name = "6020 Berlin-Moabit - Berlin-Moabit, Ring S-Bahn"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131631598"
+from = "Berlin-Moabit"
+to = "Berlin-Moabit"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.552
+length = 3.552
+speeds = [[0, 3.053, 100, 100], [3.053, 3.552, 80, 80]]
+curves = [[3.4, 3.45, 2170]]
+points = [
+  { km = 0.021, kind = "station", label = "Westhafen", uic = "8089116", pos = [52.53674, 13.34257] },
+  { km = 0.031, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.031, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.109, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.135, kind = "signal", label = "957", signal = "combined,traversable", dir = -1 },
+  { km = 0.143, kind = "signal", label = "956", signal = "combined,traversable", dir = 1 },
+  { km = 0.398, kind = "signal", label = "955", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 0.4, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.439, kind = "signal", label = "948", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 0.718, kind = "signal", label = "949", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.986, kind = "signal", label = "945", signal = "combined,departure,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.017, kind = "station", label = "Beusselstraße", pos = [52.53441, 13.32939], uic = "8089118" },
+  { km = 1.153, kind = "signal", label = "944", signal = "combined,route,speed_limit,traversable", dir = 1 },
+  { km = 1.176, kind = "signal", label = "943", signal = "combined,traversable", dir = -1 },
+  { km = 1.304, kind = "signal", label = "941", signal = "combined,traversable", dir = -1 },
+  { km = 1.667, kind = "signal", label = "939", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 2.103, kind = "signal", label = "937", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.547, kind = "signal", label = "931", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.568, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.834, kind = "signal", label = "929", signal = "combined,traversable", dir = -1 },
+  { km = 3.052, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.053, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.055, kind = "signal", label = "925", signal = "combined,traversable", dir = -1 },
+  { km = 3.064, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.075, kind = "station", label = "Jungfernheide", pos = [52.5304, 13.29927], uic = "8072196" },
+  { km = 3.081, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.099, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.12, kind = "halt", label = "Berlin Jungfernheide", uic = "8003064", pos = [52.53028, 13.29967] },
+  { km = 3.231, kind = "signal", label = "923", signal = "combined,traversable", dir = -1 },
+  { km = 3.318, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.343, kind = "signal", label = "921", signal = "combined,speed_limit,traversable", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.148, kmTo = 2.226, length = 78 },
+  { kind = "bridge", kmFrom = 2.648, kmTo = 2.685, length = 37 },
+  { kind = "bridge", kmFrom = 3.344, kmTo = 3.489, length = 145 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "s~s_IskmpAzb@zrG", v = 100 },
+  { line = "wzr_IwwdpAfE|k@", v = 80 },
+]
+posts = [[0, 52.53626, 13.34474], [1, 52.53445, 13.33025], [2, 52.5325, 13.31582], [3, 52.53062, 13.30137]]
+
+[[connections]]
+km = 0.021
+station = "Westhafen"
+lines = [
+  { id = "6030", ref = "6030", name = "6030 Berlin-Gesundbrunnen - Oranienburg", km = 2.016 },
+  { id = "6107", ref = "6107", name = "6107 Berlin Hbf (tief) - Lehrte", km = 2.766 },
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 37.709 },
+  { id = "6183", ref = "6183", name = "6183 Berlin-Schönholz - Kremmen", km = -13.679 },
+]
+
+[[connections]]
+km = 3.12
+station = "Berlin Jungfernheide"
+lines = [
+  { id = "6107", ref = "6107", name = "6107 Berlin Hbf (tief) - Lehrte", km = 5.515 },
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 34.562 },
+]

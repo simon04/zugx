@@ -1,0 +1,62 @@
+id = "2731"
+ref = "2731"
+name = "2731 Gruiten - Abzw Wuppertal Linden"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Gruiten"
+to = "Wuppertal Linden"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 101.63
+kmTo = 108.034
+length = 6.355
+speeds = [[101.63, 101.751, 100, 100], [101.751, 106.013, 120, 120], [106.013, 106.133, 100, 100], [106.133, 107.723, 130, 130], [107.723, 108.034, 120, 120]]
+curves = [[101.73, 101.93, 1350], [102.48, 102.63, 1240], [102.78, 102.955, 1630], [103.33, 103.63, 1300], [103.805, 103.93, 30], [104.084, 104.4, 1270], [104.742, 105.079, 1500], [105.804, 105.904, 2060], [106.004, 106.454, 1680], [107.229, 107.529, 1040], [107.804, 107.929, 1450]]
+points = [
+  { km = 101.819, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 101.936, kind = "signal", label = "78 105", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 103.011, kind = "signal", label = "76 103", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 103.451, kind = "signal", label = "76 152", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 104.284, kind = "signal", label = "76 102", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 104.748, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 105.398, kind = "signal", label = "76 104", signal = "combined,traversable", dir = -1 },
+  { km = 105.495, kind = "signal", label = "76104", signal = "combined", dir = -1 },
+  { km = 105.827, kind = "signal", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 105.945, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 106.436, kind = "signal", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = 106.677, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 106.723, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 107.311, kind = "signal", label = "76F", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 107.741, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 107.741, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 107.927, kind = "signal", label = "76ZR6", signal = "combined,minor,speed_limit,traversable", dir = -1 },
+  { km = 107.947, kind = "signal", signal = "stop", dir = -1 },
+  { km = 108.006, kind = "signal", signal = "distant", dir = -1 },
+  { km = 108.034, kind = "station", label = "Haan-Gruiten", pos = [51.21457, 7.01036], uic = "8000138" },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 102.617, kmTo = 102.69, length = 73 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oirwHir}i@tA|H", v = 100 },
+  { line = "yfrwHkh}i@tBjRnFbw@", v = 120 },
+  { line = "s{qwH{|zi@FpE", tunnel = true, v = 120 },
+  { line = "k{qwHivzi@XpRa@po@|Bdc@cCya@Vmk@[cRsGceA_BoP", v = 120 },
+  { line = "qgrwH_h}i@eAeI", v = 100 },
+  { line = "wirwHer}i@rCdSbJtoARxL_@rW", v = 130 },
+  { line = "kzqwH{fyi@GfQVpH", v = 120 },
+]
+posts = [[102, 51.21598, 7.03296], [103, 51.21468, 7.01881], [104, 51.21447, 7.00851], [105, 51.21485, 7.0221], [106, 51.21669, 7.03614], [107, 51.21514, 7.02592], [108, 51.21458, 7.01169]]
+
+[[connections]]
+km = 108.034
+station = "Haan-Gruiten"
+lines = [
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 26.9 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 104.183 },
+  { id = "2730", ref = "2730", name = "2730 Gruiten - Köln Neurather Ring Strw 2652/2659/2730", km = -0.029 },
+]

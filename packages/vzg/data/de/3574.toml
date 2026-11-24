@@ -1,0 +1,32 @@
+id = "3574"
+ref = "3574"
+name = "3574 Worms - Worms Hafen"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Worms Hbf"
+to = "Worms Hafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.409
+length = 1.409
+speeds = [[0, 1.409, "", ""]]
+curves = [[0.1, 0.775, 450], [0.95, 1.05, 1120], [1.1, 1.3, 190]]
+points = [
+  { km = 0.647, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.698, kind = "signal", signal = "crossing", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.59, kmTo = 0.637, length = 46 },
+  { kind = "tunnel", kmFrom = 1.248, kmTo = 1.327, length = 78 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ad_nHen_r@yGh@yFcAoF}DiCuEkByIeB}XkA_JNqH" },
+  { line = "}h`nH}tar@nAqD", tunnel = true },
+  { line = "mf`nHozar@~BoB" },
+]
+posts = [[0, 49.64433, 8.35827], [1, 49.64993, 8.36627]]

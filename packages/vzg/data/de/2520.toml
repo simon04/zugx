@@ -1,0 +1,196 @@
+id = "2520"
+ref = "2520"
+name = "2520 Mönchengladbach - Krefeld-Oppum"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q19838762"
+from = "Mönchengladbach Hbf"
+to = "Krefeld-Oppum"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 63.489
+kmTo = 90.436
+length = 27.588
+speeds = [[63.489, 64.212, 60, 60], [64.212, 66.227, 100, 100], [66.227, 67.199, 110, 110], [67.199, 69.427, 120, 120], [69.427, 70.816, 110, 110], [70.816, 72.31, 120, 120], [72.31, 72.879, 90, 90], [72.879, 75.517, 130, 130], [75.517, 85.814, 120, 120], [85.814, 86.458, 100, 100], [86.458, 86.864, 60, 60], [86.864, 87.776, "", ""], [87.776, 88.584, 100, 100], [88.584, 89.205, 110, 100], [89.205, 90.436, 120, 120]]
+curves = [[63.589, 63.639, 1920], [63.689, 64.139, 650], [64.389, 65.636, 1100], [65.842, 66.125, 790], [66.304, 66.587, 1720], [67.157, 68.026, 1010], [69.65, 70.662, 700], [71.02, 71.109, 2530], [71.286, 71.383, 1700], [72.489, 72.877, 520], [72.935, 74.031, 1000], [84.896, 85.43, 800], [85.555, 86.23, 720], [86.535, 86.843, 880], [87.022, 87.074, 2000], [88.283, 88.378, 1500], [88.503, 89.222, 740], [89.745, 90.098, 1190]]
+points = [
+  { km = 63.734, kind = "signal", signal = "minor", dir = -1 },
+  { km = 63.802, kind = "signal", label = "P001", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 63.926, kind = "station", label = "Mönchengladbach Hbf", uic = "8000253", pos = [51.19672, 6.44627] },
+  { km = 64.033, kind = "signal", signal = "distant", dir = -1 },
+  { km = 64.11, kind = "signal", label = "R001", signal = "main,minor,traversable", dir = 1 },
+  { km = 64.212, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 64.974, kind = "signal", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 65.145, kind = "signal", signal = "distant", dir = -1 },
+  { km = 66.917, kind = "signal", signal = "main", dir = -1 },
+  { km = 67.103, kind = "signal", signal = "distant", dir = -1 },
+  { km = 68.13, kind = "signal", signal = "distant", dir = -1 },
+  { km = 68.143, kind = "signal", signal = "main", dir = 1 },
+  { km = 68.172, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 68.707, kind = "signal", signal = "main,minor,traversable", dir = -1 },
+  { km = 69.263, kind = "signal", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 69.498, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 69.506, kind = "signal", signal = "minor", dir = 1 },
+  { km = 69.684, kind = "signal", signal = "minor", dir = -1 },
+  { km = 69.692, kind = "signal", signal = "distant", dir = 1 },
+  { km = 69.717, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 69.922, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 70.229, kind = "signal", signal = "minor", dir = 1 },
+  { km = 70.447, kind = "signal", signal = "minor", dir = 1 },
+  { km = 70.448, kind = "signal", signal = "distant", dir = -1 },
+  { km = 70.541, kind = "signal", signal = "minor", dir = -1 },
+  { km = 70.816, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 70.897, kind = "signal", label = "P130", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 71.427, kind = "signal", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 71.647, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 71.664, kind = "signal", signal = "minor", dir = 1 },
+  { km = 71.67, kind = "signal", signal = "distant", dir = -1 },
+  { km = 71.786, kind = "signal", signal = "minor", dir = -1 },
+  { km = 71.976, kind = "signal", signal = "main,minor,traversable", dir = -1 },
+  { km = 72.189, kind = "station", label = "Viersen", uic = "8000174", pos = [51.25482, 6.40409] },
+  { km = 72.31, kind = "signal", label = "N4", signal = "main,minor,traversable,wrong_road", dir = -1 },
+  { km = 72.425, kind = "signal", signal = "minor", dir = 1 },
+  { km = 72.432, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 72.489, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 72.536, kind = "signal", signal = "minor", dir = -1 },
+  { km = 72.606, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 72.766, kind = "signal", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 72.877, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 72.879, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 73.612, kind = "signal", signal = "distant", dir = 1 },
+  { km = 73.615, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 74.301, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 74.92, kind = "signal", label = "102", signal = "main", dir = -1 },
+  { km = 75.511, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 75.517, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 75.944, kind = "signal", signal = "distant", dir = -1 },
+  { km = 77.492, kind = "signal", label = "104", signal = "main", dir = -1 },
+  { km = 77.789, kind = "stop", label = "Anrath", pos = [51.28571, 6.45066], uic = "8000584" },
+  { km = 78.505, kind = "signal", signal = "distant", dir = -1 },
+  { km = 79.212, kind = "signal", label = "106", signal = "main", dir = -1 },
+  { km = 80.218, kind = "signal", signal = "distant", dir = -1 },
+  { km = 81.803, kind = "signal", signal = "main", dir = -1 },
+  { km = 82.027, kind = "stop", label = "Forsthaus", pos = [51.30334, 6.5034], uic = "8002027" },
+  { km = 82.675, kind = "signal", signal = "distant", dir = -1 },
+  { km = 83.006, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 83.035, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 84.666, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 84.813, kind = "signal", label = "210", signal = "main,traversable", dir = -1 },
+  { km = 84.928, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 85.008, kind = "signal", signal = "distant", dir = -1 },
+  { km = 85.209, kind = "signal", signal = "distant", dir = -1 },
+  { km = 85.742, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 85.812, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 85.814, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 85.87, kind = "signal", signal = "distant", dir = -1 },
+  { km = 85.944, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 86.137, kind = "signal", label = "2GG", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 86.458, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 86.69, kind = "signal", signal = "minor", dir = -1 },
+  { km = 86.7, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 86.718, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 86.853, kind = "signal", signal = "minor", dir = 1 },
+  { km = 87.21, kind = "signal", label = "2N1", signal = "main,minor,route,speed_limit,traversable", dir = -1 },
+  { km = 87.342, kind = "station", label = "Krefeld Hbf", uic = "8000211", pos = [51.3268, 6.57005] },
+  { km = 87.405, kind = "signal", label = "1X", signal = "minor", dir = 1 },
+  { km = 87.975, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 88.048, kind = "halt", label = "Dießem", pos = [51.32657, 6.57982] },
+  { km = 88.43, kind = "signal", label = "2A", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 88.584, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 89.203, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 89.205, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 89.515, kind = "signal", label = "2Va", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 90.156, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 90.173, kind = "signal", label = "401", signal = "main,traversable", dir = -1 },
+  { km = 90.176, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 90.359, kind = "stop", label = "Krefeld-Oppum", uic = "8000212", pos = [51.32973, 6.61087] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 63.599, kmTo = 63.627, length = 28 },
+  { kind = "bridge", kmFrom = 64.242, kmTo = 64.263, length = 22 },
+  { kind = "bridge", kmFrom = 64.895, kmTo = 64.924, length = 29 },
+  { kind = "bridge", kmFrom = 65.311, kmTo = 65.343, length = 31 },
+  { kind = "bridge", kmFrom = 65.673, kmTo = 65.716, length = 41 },
+  { kind = "bridge", kmFrom = 66.625, kmTo = 66.659, length = 36 },
+  { kind = "bridge", kmFrom = 67.133, kmTo = 67.161, length = 30 },
+  { kind = "bridge", kmFrom = 67.8, kmTo = 67.852, length = 51 },
+  { kind = "bridge", kmFrom = 68.063, kmTo = 68.076, length = 12 },
+  { kind = "bridge", kmFrom = 68.719, kmTo = 68.752, length = 33 },
+  { kind = "bridge", kmFrom = 69.416, kmTo = 69.427, length = 11 },
+  { kind = "bridge", kmFrom = 69.836, kmTo = 69.846, length = 10 },
+  { kind = "bridge", kmFrom = 70.341, kmTo = 70.354, length = 13 },
+  { kind = "bridge", kmFrom = 71.167, kmTo = 71.196, length = 36 },
+  { kind = "bridge", kmFrom = 71.589, kmTo = 71.609, length = 26 },
+  { kind = "bridge", kmFrom = 72.31, kmTo = 72.329, length = 25 },
+  { kind = "bridge", kmFrom = 72.528, kmTo = 72.55, length = 28 },
+  { kind = "bridge", kmFrom = 72.729, kmTo = 72.74, length = 14 },
+  { kind = "bridge", kmFrom = 72.976, kmTo = 72.999, length = 29 },
+  { kind = "bridge", kmFrom = 73.563, kmTo = 73.584, length = 27 },
+  { kind = "bridge", kmFrom = 73.97, kmTo = 74, length = 29 },
+  { kind = "bridge", kmFrom = 74.8, kmTo = 74.834, length = 25 },
+  { kind = "bridge", kmFrom = 85.566, kmTo = 85.58, length = 14 },
+  { kind = "bridge", kmFrom = 85.814, kmTo = 85.843, length = 30 },
+  { kind = "bridge", kmFrom = 86.283, kmTo = 86.32, length = 36 },
+  { kind = "bridge", kmFrom = 86.518, kmTo = 86.549, length = 31 },
+  { kind = "bridge", kmFrom = 86.733, kmTo = 86.789, length = 54 },
+  { kind = "bridge", kmFrom = 86.959, kmTo = 86.984, length = 24 },
+  { kind = "bridge", kmFrom = 87.169, kmTo = 87.197, length = 27 },
+  { kind = "bridge", kmFrom = 87.767, kmTo = 87.789, length = 21 },
+  { kind = "bridge", kmFrom = 88.184, kmTo = 88.197, length = 15 },
+  { kind = "bridge", kmFrom = 88.206, kmTo = 88.221, length = 16 },
+  { kind = "bridge", kmFrom = 88.771, kmTo = 88.794, length = 22 },
+  { kind = "bridge", kmFrom = 89.877, kmTo = 89.902, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ctmwH_pif@_NwDuBuAuG_IoE}K", v = 60 },
+  { line = "_vnwHkojf@iHqRmF{HqH{F{JyCyK_@{NnBsQvGaK`L", v = 100 },
+  { line = "qwqwHeakf@iJnNaZ~o@", v = 110 },
+  { line = "}}rwHu`if@{E~HwF~FiHhEsHnBgIX{kAuA", v = 120 },
+  { line = "svvwHwfhf@kTRaGzBwF~EkEdHwC|I_Fv]", v = 110 },
+  { line = "}mxwHkhff@eCvUyE|[u^`cB", v = 120 },
+  { line = "sxywHspaf@mFjVaCnGsEdFsHpC", v = 90 },
+  { line = "ktzwH_e`f@gNhBmLyAyKgGiJoLqH{Rca@ogB", v = 130 },
+  { line = "{t}wHsvdf@u~F}{V}BgHqEkIgQuPsFoI", v = 120 },
+  { line = "}xfxHkc~f@kCyH{AcKg@q_@", v = 100 },
+  { line = "magxH{y_g@]oQiBeO", v = 60 },
+  { line = "uegxHq|`g@sTwhA" },
+  { line = "i{gxHifcg@gL}i@yF}S", v = 100 },
+  { line = "kphxHefeg@_CeLaAeKMeLt@sN", v = 110 },
+  { line = "euhxHk|fg@rIe{@Dco@", v = 120 },
+]
+posts = [[64, 51.19734, 6.44638], [65, 51.20401, 6.45526], [66, 51.21256, 6.4534], [67, 51.21907, 6.44349], [68, 51.22698, 6.43665], [69, 51.23584, 6.43695], [70, 51.2446, 6.43617], [71, 51.24894, 6.42447], [72, 51.25367, 6.40793], [73, 51.26113, 6.39543], [74, 51.26985, 6.40279], [75, 51.27373, 6.41483], [76, 51.27811, 6.42791], [77, 51.28248, 6.44094], [78, 51.28672, 6.45361], [79, 51.29075, 6.46566], [80, 51.29504, 6.4785], [81, 51.29925, 6.4911], [82, 51.30329, 6.50318], [83, 51.30768, 6.51633], [84, 51.31205, 6.52945], [85, 51.31632, 6.54212], [86, 51.32283, 6.5515], [87, 51.32442, 6.56521], [88, 51.32817, 6.57772], [89, 51.33183, 6.59089], [90, 51.32977, 6.60505]]
+
+[[connections]]
+km = 63.926
+station = "Mönchengladbach Hbf"
+lines = [
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 63.927 },
+]
+
+[[connections]]
+km = 72.189
+station = "Viersen"
+lines = [
+  { id = "2510", ref = "2510", name = "2510 Viersen - Kaldenkirchen Grenze", km = -0.513 },
+]
+
+[[connections]]
+km = 87.342
+station = "Krefeld Hbf"
+lines = [
+  { id = "2500", ref = "2500", name = "2500 Krefeld Hbf - Krefeld-Linn", km = 0.037 },
+  { id = "2610", ref = "2610", name = "2610 Köln - Kleve", km = 53.539 },
+]
+
+[[connections]]
+km = 90.359
+station = "Krefeld-Oppum"
+lines = [
+  { id = "2500", ref = "2500", name = "2500 Krefeld Hbf - Krefeld-Linn", km = 3.009 },
+  { id = "2505", ref = "2505", name = "2505 Krefeld-Oppum - Mülheim (Ruhr)-Speldorf", km = 0.031 },
+  { id = "2610", ref = "2610", name = "2610 Köln - Kleve", km = 50.549 },
+]

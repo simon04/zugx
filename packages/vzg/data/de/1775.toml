@@ -1,0 +1,70 @@
+id = "1775"
+ref = "1775"
+name = "1775 Lehrte"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q110548545"
+from = "Lehrte"
+to = "Lehrte"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 15.416
+kmTo = 18.857
+length = 3.389
+speeds = [[15.416, 15.896, "", ""], [15.896, 16.203, 60, 60], [16.203, 16.801, "", ""], [16.801, 16.956, 60, 60], [16.956, 18.857, 80, 80]]
+curves = [[15.53, 16.328, 710], [16.484, 16.924, 580], [17.873, 18.407, 1220], [18.657, 18.757, 910]]
+points = [
+  { km = 15.529, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.531, kind = "signal", signal = "minor", dir = -1 },
+  { km = 15.568, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 15.598, kind = "signal", label = "132 II", signal = "minor", dir = 1 },
+  { km = 15.66, kind = "signal", label = "122 I", signal = "minor", dir = -1 },
+  { km = 15.814, kind = "signal", label = "122", signal = "minor", dir = 1 },
+  { km = 15.898, kind = "signal", label = "162 I", signal = "minor", dir = -1 },
+  { km = 15.965, kind = "signal", signal = "minor", dir = 1 },
+  { km = 16.06, kind = "signal", label = "144 I", signal = "minor", dir = -1 },
+  { km = 16.135, kind = "signal", label = "144 II", signal = "minor", dir = 1 },
+  { km = 16.276, kind = "signal", label = "U013", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 16.295, kind = "signal", signal = "stop", dir = -1 },
+  { km = 16.326, kind = "signal", signal = "main_repeated" },
+  { km = 16.373, kind = "station", label = "Lehrte", pos = [52.37649, 9.97423], uic = "8013540" },
+  { km = 16.422, kind = "signal", signal = "stop", dir = 1 },
+  { km = 16.473, kind = "signal", signal = "stop", dir = 1 },
+  { km = 16.513, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 16.538, kind = "signal", signal = "stop", dir = 1 },
+  { km = 16.542, kind = "signal", signal = "distant", dir = -1 },
+  { km = 16.617, kind = "signal", label = "X 013", signal = "distant,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 16.813, kind = "signal", signal = "minor", dir = -1 },
+  { km = 16.956, kind = "signal", label = "S750", signal = "distant,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 17.633, kind = "signal", label = "Q 750", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 17.768, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 17.794, kind = "signal", signal = "minor", dir = 1 },
+  { km = 17.87, kind = "signal", signal = "minor", dir = -1 },
+  { km = 18.01, kind = "signal", label = "S 824", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 18.167, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 18.684, kind = "signal", label = "Y824", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 18.774, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 16.677, kmTo = 16.716, length = 37 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uws~Hira|@B|LfBr`@AdWw@~L}OhrA", v = 80 },
+  { line = "agt~Hgi|{@}AzK", v = 60 },
+  { line = "_jt~Hk|{{@oBlHgCfFoO`P" },
+  { line = "gbu~Hszz{@iDlGqCxK", v = 60 },
+  { line = "clu~Hkez{@wAvI{@xM@nEx@~H" },
+]
+posts = [[18, 52.37087, 9.99517], [17, 52.37365, 9.98111], [16, 52.37926, 9.97094]]
+
+[[connections]]
+km = 16.373
+station = "Lehrte"
+lines = [
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 16.247 },
+  { id = "1730", ref = "1730", name = "1730 Hannover - Braunschweig", km = 16.29 },
+]

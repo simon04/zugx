@@ -1,0 +1,47 @@
+id = "3569"
+ref = "3569"
+name = "Büdesh-Dromersh - Bingen(Rh) Stadt"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q108208472"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 56.304
+kmTo = 63.285
+length = 6.981
+speeds = [[56.304, 56.414, 60, 60], [56.414, 56.584, 110, 60], [56.584, 62.352, 110, 110], [62.352, 62.924, 90, 90], [62.924, 63.285, 30, 90]]
+curves = [[59.409, 60.609, 840], [61.234, 61.584, 1430], [62.308, 62.356, 2160], [62.924, 62.983, 2210]]
+points = [
+  { km = 3.4, kind = "signal", signal = "distant", dir = 1, measured = true },
+  { km = 7.3, kind = "signal", signal = "main,wrong_road", dir = -1, measured = true },
+  { km = 57.287, kind = "signal", signal = "distant", dir = -1 },
+  { km = 62.8, kind = "signal", label = "16 N344", signal = "main", dir = -1, measured = true },
+  { km = 62.9, kind = "signal", label = "G374", signal = "distant,main,speed_limit,speed_limit_distant", dir = 1, measured = true },
+  { km = 62.924, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 63.211, kind = "station", label = "Bingen(Rhein) Stadt", pos = [49.96977, 7.90374], uic = "8000976" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 57.351, kmTo = 57.369, length = 18 },
+  { kind = "bridge", kmFrom = 57.703, kmTo = 57.728, length = 24 },
+  { kind = "bridge", kmFrom = 58.599, kmTo = 58.618, length = 19 },
+  { kind = "bridge", kmFrom = 58.917, kmTo = 58.996, length = 80 },
+  { kind = "bridge", kmFrom = 59.119, kmTo = 59.196, length = 77 },
+  { kind = "bridge", kmFrom = 59.694, kmTo = 59.707, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "iu~oHsxfo@KcpA", v = 90 },
+  { line = "uu~oHwiio@sAcnAh@iPpEcj@zAwPrCoNxFoMbJ{JzHcDvLs@hhDr^", v = 110 },
+  { line = "auwoHaxno@`Ev@", v = 60 },
+]
+posts = [[63, 49.96964, 7.90825], [62, 49.9699, 7.92226], [61, 49.9694, 7.93606], [60, 49.96557, 7.94826], [59, 49.95686, 7.94947], [58, 49.94793, 7.94776], [57, 49.939, 7.9461]]
+
+[[connections]]
+km = 63.211
+station = "Bingen Stadt"
+lines = [
+  { id = "3510", ref = "3510", name = "3510 Bingen Hbf - Mainz", km = 0.945 },
+]

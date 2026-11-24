@@ -1,0 +1,33 @@
+id = "6426"
+ref = "6426"
+name = "6426 Borstel (Kr Stendal) - Niedergörne"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q803265"
+from = "Borstel (Kr Stendal)"
+to = "Niedergörne"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 16.899
+length = 16.899
+speeds = [[0, 14.988, 50, 50], [14.988, 16.899, 20, 20]]
+curves = [[0.1, 1.425, 750], [3.225, 3.425, 1520], [5.125, 6, 710], [6.5, 6.825, 930], [7.025, 7.275, 1150], [7.45, 7.7, 1010], [9.025, 9.85, 1310], [14.625, 15.675, 770]]
+points = [
+  { km = 0.294, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 14.988, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.988, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 15.083, kind = "signal", label = "B", signal = "main,traversable", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.044, kmTo = 1.06, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "coh`Io|igAiHQuDcAyFoD}F_H_EyIsCgL_AgHk@mL^}SlV{_DdAaSpFufDOuIaAkKsEoQ_H{Ke^q[mEyFuOg]eT{Zyu@klByHuLyHsHsLkGmfGapByFeDaFyF", v = 50 },
+  { line = "wew`IandhAaDeGyCcK}A_Jy@mKOg}B", v = 20 },
+]
+posts = [[0, 52.6413, 11.8524], [1, 52.64818, 11.86017], [2, 52.64705, 11.87468], [3, 52.64494, 11.88908], [4, 52.6438, 11.90375], [5, 52.64311, 11.91853], [6, 52.64653, 11.93108], [7, 52.65374, 11.93965], [8, 52.66016, 11.94993], [9, 52.66585, 11.9614], [10, 52.67344, 11.96875], [11, 52.68214, 11.97248], [12, 52.69085, 11.97621], [13, 52.69955, 11.97994], [14, 52.70825, 11.98368], [15, 52.71669, 11.98845], [16, 52.71903, 12.00218]]

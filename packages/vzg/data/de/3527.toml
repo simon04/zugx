@@ -1,0 +1,73 @@
+id = "3527"
+ref = "3527"
+name = "3527 Mainz Hbf - Abzw Mainz Kaiserbrücke"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Mainz Hbf"
+to = "Mainz Kaiserbrücke"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.027
+kmTo = 3.006
+length = 2.965
+speeds = [[0.027, 3.006, 80, 80]]
+curves = [[0.252, 0.377, 1580], [1.227, 1.302, 2380], [1.402, 1.477, 2440], [1.626, 2.666, 430], [2.716, 2.891, 570]]
+points = [
+  { km = 0.027, kind = "station", label = "Mainz Hauptbahnhof", pos = [50.00111, 8.25872], uic = "8000240" },
+  { km = 0.068, kind = "signal", signal = "main_repeated" },
+  { km = 0.133, kind = "signal", signal = "departure", dir = 1 },
+  { km = 0.211, kind = "signal", label = "O225", signal = "departure,distant,main,minor,traversable", dir = 1 },
+  { km = 0.292, kind = "signal", label = "235", signal = "minor", dir = 1 },
+  { km = 0.36, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.429, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.51, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.512, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.769, kind = "signal", label = "T55", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.859, kind = "signal", label = "R55", signal = "distant,main,minor,traversable", dir = 1 },
+  { km = 1.062, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.143, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.219, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.502, kind = "signal", label = "G135", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.05, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.238, kind = "signal", label = "125", signal = "distant,main,traversable", dir = -1 },
+  { km = 2.373, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.5, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.568, kind = "signal", signal = "stop", dir = -1 },
+  { km = 2.575, kind = "stop", label = "Mainz Nord", pos = [50.02003, 8.24616], uic = "8003815" },
+  { km = 2.6, kind = "signal", signal = "stop", dir = -1, measured = true },
+  { km = 2.775, kind = "signal", signal = "distant,main,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.913, kmTo = 0.926, length = 13 },
+  { kind = "bridge", kmFrom = 1.464, kmTo = 1.958, length = 508, name = "Überwerfungsbrücke Mainzer Nordkopf" },
+  { kind = "bridge", kmFrom = 1.958, kmTo = 1.999, length = 42 },
+  { kind = "bridge", kmFrom = 2.4, kmTo = 2.447, length = 48 },
+  { kind = "bridge", kmFrom = 2.519, kmTo = 2.55, length = 31 },
+  { kind = "bridge", kmFrom = 2.775, kmTo = 2.792, length = 17 },
+  { kind = "bridge", kmFrom = 2.962, kmTo = 3.006, length = 44 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a}dpHq{kq@_O|Mc{@dgAgLlHaEZ{Dq@_DmBkCqDkCsHiCwWcDgL", v = 80 },
+]
+posts = [[1, 50.00875, 8.2502], [2, 50.01629, 8.24245], [3, 50.0215, 8.25166]]
+
+[[connections]]
+km = 0.027
+station = "Mainz Hauptbahnhof"
+lines = [
+  { id = "3510", ref = "3510", name = "3510 Bingen Hbf - Mainz", km = 30.562 },
+  { id = "3520", ref = "3520", name = "3520 Mainz Hbf - Frankfurt (Main) Hbf", km = -0.039 },
+  { id = "3522", ref = "3522", name = "3522 Mainz - Mannheim", km = 0.005 },
+  { id = "3523", ref = "3523", name = "3523 Morschheim - Mainz Hbf, W 326", km = 50.029 },
+]
+
+[[connections]]
+km = 2.575
+station = "Mainz Nord"
+lines = [
+  { id = "3525", ref = "3525", name = "3525 Umgehungsbahn Mainz", km = 2.679 },
+]

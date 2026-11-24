@@ -1,0 +1,98 @@
+id = "3710"
+ref = "3710"
+name = "3710 Wetzlar - Koblenz Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q883768"
+from = "Wetzlar"
+to = "Koblenz Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 93.893
+kmTo = 103.735
+length = 9.869
+speeds = [[93.893, 94.171, 40, 40], [94.171, 98.086, 60, 60], [98.086, 98.157, 40, 40], [98.157, 98.193, 60, 80], [98.193, 99.579, 40, 40], [99.579, 100.378, 80, 60], [100.378, 103.735, 60, 60]]
+curves = [[94.087, 94.437, 650], [94.712, 95.237, 380], [95.887, 96.187, 490], [96.437, 96.937, 310], [97.087, 97.287, 900], [97.462, 98.087, 950], [98.137, 98.262, 2280], [98.487, 99.162, 660], [99.512, 100.143, 910], [100.359, 100.532, 970], [100.681, 101.175, 320], [101.347, 101.733, 460], [102.403, 102.91, 360], [103.185, 103.535, 630]]
+points = [
+  { km = 94.78, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 95.089, kind = "signal", label = "G2", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 95.804, kind = "signal", label = "12", signal = "distant,main", dir = 1 },
+  { km = 96.021, kind = "signal", label = "VG2", signal = "distant", dir = -1 },
+  { km = 96.573, kind = "signal", label = "wvg1II", signal = "distant", dir = 1 },
+  { km = 96.647, kind = "signal", label = "wvg1I", signal = "distant", dir = 1 },
+  { km = 96.678, kind = "signal", label = "115", signal = "main", dir = -1 },
+  { km = 96.759, kind = "signal", label = "G1", signal = "distant,main", dir = 1 },
+  { km = 96.775, kind = "signal", label = "Wv115I", signal = "distant", dir = -1 },
+  { km = 96.846, kind = "signal", label = "Wv115II", signal = "distant", dir = -1 },
+  { km = 97.003, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 97.029, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 97.095, kind = "signal", label = "W64", signal = "minor", dir = -1 },
+  { km = 97.175, kind = "signal", label = "W63", signal = "minor", dir = 1 },
+  { km = 97.25, kind = "signal", label = "105II", signal = "minor", dir = -1 },
+  { km = 97.735, kind = "signal", label = "S105", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 98.012, kind = "signal", label = "105'", signal = "minor", dir = 1 },
+  { km = 98.32, kind = "signal", label = "T3", signal = "main", dir = 1 },
+  { km = 98.456, kind = "stop", label = "Niederlahnstein", pos = [50.31646, 7.59946] },
+  { km = 98.648, kind = "signal", label = "U3", signal = "main", dir = 1 },
+  { km = 99.013, kind = "signal", label = "U2", signal = "main", dir = 1 },
+  { km = 99.203, kind = "station", label = "Niederlahnstein", pos = [50.31636, 7.59949], uic = "8000278" },
+  { km = 99.3, kind = "signal", label = "T2", signal = "main", dir = 1 },
+  { km = 99.378, kind = "signal", label = "?", signal = "minor", dir = -1 },
+  { km = 99.532, kind = "signal", label = "W36", signal = "minor", dir = 1 },
+  { km = 99.586, kind = "signal", label = "104\"", signal = "minor", dir = 1 },
+  { km = 99.882, kind = "signal", label = "S104", signal = "distant,main", dir = -1 },
+  { km = 100.378, kind = "signal", label = "N104", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 100.609, kind = "signal", label = "W65", signal = "minor", dir = -1 },
+  { km = 100.62, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 100.779, kind = "signal", label = "Vw15", signal = "distant", dir = 1 },
+  { km = 100.831, kind = "signal", label = "G2", signal = "distant,main", dir = -1 },
+  { km = 100.874, kind = "signal", label = "15/13", signal = "distant,main", dir = 1 },
+  { km = 100.891, kind = "signal", label = "wvg2I", signal = "distant", dir = -1 },
+  { km = 101.376, kind = "signal", signal = "distant", dir = 1 },
+  { km = 101.604, kind = "signal", label = "13", signal = "distant,main", dir = 1 },
+  { km = 101.833, kind = "signal", label = "112", signal = "distant,main", dir = -1 },
+  { km = 102.539, kind = "signal", label = "G1", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 102.847, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 103.735, kind = "station", label = "Koblenz Hbf", uic = "8019021", pos = [50.35082, 7.58926] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 94.476, kmTo = 94.505, length = 29 },
+  { kind = "bridge", kmFrom = 95.325, kmTo = 95.438, length = 113 },
+  { kind = "bridge", kmFrom = 95.475, kmTo = 95.498, length = 23 },
+  { kind = "bridge", kmFrom = 95.953, kmTo = 95.974, length = 21 },
+  { kind = "bridge", kmFrom = 96.121, kmTo = 96.518, length = 397 },
+  { kind = "bridge", kmFrom = 101.072, kmTo = 101.4, length = 397 },
+  { kind = "bridge", kmFrom = 101.661, kmTo = 101.681, length = 21 },
+  { kind = "bridge", kmFrom = 102.138, kmTo = 102.159, length = 23 },
+  { kind = "bridge", kmFrom = 102.191, kmTo = 102.3, length = 113 },
+  { kind = "bridge", kmFrom = 103.121, kmTo = 103.15, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ybirHkaim@|LzAdEtAnDfCbUpWfEpAjEa@pJ_Jd]kb@vB_H`Fka@fDaInCyBlDm@dNjAdErA", v = 60 },
+  { line = "imdrHqakm@vNdHzF`AbISbJeC", v = 80 },
+  { line = "m`crHc{jm@xYiRdHcLyGxLcTtN", v = 40 },
+  { line = "kzbrHa~jm@{@\\", v = 80 },
+  { line = "g|brHc}jm@wBdA", v = 40 },
+  { line = "_`crH}zjm@qJlCeIP{FaA{SqJsNsAmEt@}D`EwA|DoFvb@yBbHsc@li@eElCoDTiEsA{TgWkIuE", v = 60 },
+  { line = "mshrHs}hm@mNkB", v = 40 },
+]
+posts = [[103, 50.3447, 7.58448], [102, 50.33682, 7.58695], [101, 50.33247, 7.59727], [100, 50.32381, 7.59686], [99, 50.31491, 7.60098], [98, 50.32026, 7.59707], [97, 50.32899, 7.59907], [96, 50.33431, 7.58989], [95, 50.34175, 7.58224], [94, 50.34975, 7.58797]]
+
+[[connections]]
+km = 98.456
+station = "Niederlahnstein"
+lines = [
+  { id = "3507", ref = "3507", name = "3507 Wiesbaden-Ost - Niederlahnstein", km = 123.823 },
+]
+
+[[connections]]
+km = 103.735
+station = "Koblenz Hbf"
+lines = [
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = 91.18 },
+  { id = "3010", ref = "3010", name = "Moselstrecke", km = 0.016 },
+]

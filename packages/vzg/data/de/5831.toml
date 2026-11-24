@@ -1,0 +1,52 @@
+id = "5831"
+ref = "5831"
+name = "5831 Passau DB-Grenze - Passau Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q109559259"
+from = "Passau DB-Grenze"
+to = "Passau Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 79.636
+kmTo = 81.213
+length = 1.582
+speeds = [[79.636, 79.694, 110, 110], [79.694, 79.817, 40, 110], [79.817, 81.213, 40, 40]]
+curves = [[79.846, 80.269, 470], [80.368, 81.114, 300]]
+points = [
+  { km = 79.694, kind = "signal", label = "A143", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 79.875, kind = "signal", label = "ym92", signal = "distant", dir = -1, measured = true },
+  { km = 79.963, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 80.056, kind = "signal", label = "103", signal = "minor", dir = 1 },
+  { km = 80.112, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 80.218, kind = "signal", label = "083I", signal = "minor,speed_limit", dir = -1 },
+  { km = 80.417, kind = "signal", label = "r001-008I", signal = "distant", dir = 1 },
+  { km = 80.763, kind = "signal", label = "083II", signal = "minor", dir = 1 },
+  { km = 80.906, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 81.042, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 81.049, kind = "signal", label = "P003", signal = "main,minor,traversable", dir = -1 },
+  { km = 81.213, kind = "station", label = "Passau Hbf", pos = [48.57371, 13.45047], uic = "8000460" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 80.219, kmTo = 80.41, length = 191 },
+  { kind = "bridge", kmFrom = 80.445, kmTo = 80.473, length = 28 },
+  { kind = "tunnel", kmFrom = 80.596, kmTo = 80.768, length = 173, name = "Passauer Tunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}`ngHibbqAMsM`@_EfBoE|C{C", v = 40 },
+  { line = "cxmgHibcqAfD}@bCt@", tunnel = true, v = 40 },
+  { line = "wnmgHqbcqAtElA`OaA`D`@pD`C~EzH", v = 40 },
+  { line = "kflgHesbqAvEbJ", v = 110 },
+]
+posts = [[81, 48.57375, 13.45367], [80, 48.56559, 13.45514]]
+
+[[connections]]
+km = 81.213
+station = "Passau Hbf"
+lines = [
+  { id = "5830", ref = "5830", name = "5830 Passau Hbf - Obertraubling", km = 0.058 },
+]

@@ -1,0 +1,57 @@
+id = "6261"
+ref = "6261"
+name = "6261 Niederwiesa – Chemnitz Hbf"
+operator = "Deutsche Bahn AG"
+gauge = "1435"
+from = "Niederwiesa"
+to = "Chemnitz Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.421
+length = 4.421
+speeds = [[0, 2.432, 25, 25], [2.432, 2.469, 10, 10], [2.469, 3.625, 25, 25], [3.625, 3.715, 10, 10], [3.715, 4.421, "", ""]]
+curves = [[0.75, 0.975, 1190], [1.275, 1.875, 690], [2.025, 2.175, 1130], [3.475, 3.725, 890], [3.85, 4.025, 1170], [4.075, 4.3, 610]]
+points = [
+  { km = 0.056, kind = "signal", signal = "minor,traversable", dir = -1 },
+  { km = 2.432, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.432, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.469, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.469, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.203, kind = "signal", signal = "main", dir = 1 },
+  { km = 3.4, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 3.45, kind = "signal", signal = "shunting" },
+  { km = 3.524, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.622, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.625, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.715, kind = "signal", label = "C", signal = "main", dir = -1 },
+  { km = 3.75, kind = "halt", label = "Chemnitz-Hilbersdorf Museumsbahnsteig", pos = [50.86234, 12.96553] },
+  { km = 4.421, kind = "halt", label = "Chemnitz-Hilbersdorf", uic = "8006376", pos = [50.86196, 12.95382] },
+  { km = 4.421, kind = "halt", label = "Technikmuseum Seilablaufanlage", pos = [50.86193, 12.95574] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ejmuHu~lnAaVx_AkF|b@}@tLAbMt@`KvHv\\|Eb[", v = 25 },
+  { line = "gxmuHexfnAVbB", v = 10 },
+  { line = "owmuHaufnA~SduAl@hI", v = 25 },
+  { line = "aamuHqtcnAJ~F", v = 10 },
+  { line = "u`muHqlcnAD`Ru@tWRxFrAbI" },
+]
+posts = [[0, 50.86387, 13.01499], [1, 50.86807, 13.00242], [2, 50.86763, 12.98889], [3, 50.8643, 12.97566], [4, 50.86239, 12.96197]]
+
+[[connections]]
+km = 3.75
+station = "Chemnitz-Hilbersdorf Museumsbahnsteig"
+lines = [
+  { id = "6258", ref = "6258", name = "6258 Dresden - Abzweig Werdau Bogendreieck", km = 75.288 },
+]
+
+[[connections]]
+km = 4.421
+station = "Technikmuseum Seilablaufanlage"
+lines = [
+  { id = "6258", ref = "6258", name = "6258 Dresden - Abzweig Werdau Bogendreieck", km = 75.987 },
+]

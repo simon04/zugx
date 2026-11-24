@@ -1,0 +1,65 @@
+id = "4714"
+ref = "4714"
+name = "4714 Fellbach - Waiblingen"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Fellbach"
+to = "Waiblingen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 6.331
+kmTo = 8.984
+length = 2.63
+speeds = [[6.331, 6.454, 80, 80], [6.454, 8.418, 110, 110], [8.418, 8.984, 90, 90]]
+curves = [[6.948, 7.331, 1990], [7.456, 7.506, 2430], [8.559, 8.784, 660]]
+points = [
+  { km = 6.331, kind = "station", label = "Fellbach", uic = "8029514", pos = [48.8203, 9.27078] },
+  { km = 6.454, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.585, kind = "signal", label = "S 448", signal = "distant,main", dir = -1 },
+  { km = 7.14, kind = "signal", label = "466 II", signal = "minor", dir = 1 },
+  { km = 7.209, kind = "signal", label = "N 476", signal = "distant,main", dir = 1 },
+  { km = 7.223, kind = "signal", signal = "minor", dir = -1 },
+  { km = 7.401, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.461, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.508, kind = "signal", label = "I 408", signal = "distant,main", dir = -1 },
+  { km = 7.605, kind = "signal", label = "C 295", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 8.11, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 8.139, kind = "signal", label = "027", signal = "minor", dir = 1 },
+  { km = 8.226, kind = "signal", signal = "minor", dir = -1 },
+  { km = 8.299, kind = "signal", label = "P 007", signal = "distant,main", dir = -1 },
+  { km = 8.418, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.528, kind = "station", label = "Waiblingen", uic = "8000180", pos = [48.82628, 9.30064] },
+  { km = 8.557, kind = "signal", label = "N 007", signal = "distant,main", dir = 1 },
+  { km = 8.564, kind = "signal", signal = "stop", dir = 1 },
+  { km = 8.65, kind = "signal", signal = "stop", dir = 1 },
+  { km = 8.716, kind = "signal", label = "N057", signal = "distant,main", dir = 1 },
+  { km = 8.819, kind = "signal", signal = "minor", dir = 1 },
+  { km = 8.832, kind = "signal", signal = "electricity", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eg_iHuvxw@qAzWdAvU", v = 90 },
+  { line = "qg_iHagww@fLjaB~B~QrJzh@", v = 110 },
+  { line = "uj~hHygrw@nAxH", v = 80 },
+]
+posts = [[8, 48.82495, 9.29362], [7, 48.82293, 9.28044]]
+
+[[connections]]
+km = 6.331
+station = "Fellbach"
+lines = [
+  { id = "4710", ref = "4710", name = "4710 Stuttgart-Bad Cannstatt - Nördlingen", km = 6.223 },
+  { id = "4713", ref = "4713", name = "4713 Stuttgart-Bad Cannstatt - Waiblingen", km = 6.216 },
+]
+
+[[connections]]
+km = 8.528
+station = "Waiblingen"
+lines = [
+  { id = "4710", ref = "4710", name = "4710 Stuttgart-Bad Cannstatt - Nördlingen", km = 8.536 },
+  { id = "4713", ref = "4713", name = "4713 Stuttgart-Bad Cannstatt - Waiblingen", km = 8.452 },
+  { id = "4930", ref = "4930", name = "4930 Waiblingen - Schwäbisch Hall-Hessental", km = -0.006 },
+]

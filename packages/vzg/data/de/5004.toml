@@ -1,0 +1,33 @@
+id = "5004"
+ref = "5004"
+name = "5004 Bahnstrecke Untersteinach–Stadtsteinach"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q803367"
+from = "Untersteinach (b Stadtsteinach)"
+to = "Stadtsteinach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.635
+length = 4.635
+speeds = [[0, 4.635, 50, 50]]
+curves = [[0.1, 0.4, 390], [0.525, 0.875, 470], [1.65, 2.05, 340], [2.1, 2.475, 340], [2.525, 2.725, 390], [2.775, 3, 510], [3.475, 3.7, 640], [4.05, 4.35, 510]]
+points = [
+  { km = 0, kind = "station", label = "Untersteinach(b Stadtsteinach)", uic = "8006017", pos = [50.13006, 11.52879] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ib~pH_`keAgBeKsFsFyNeEaIn@sm@b_@_C~BiBbEy@~Dw@fRkA`HmDxFoIjFqJlQ_a@|Uqa@XwDrBcOlN", v = 50 },
+]
+posts = [[0, 50.13045, 11.5304], [1, 50.1381, 11.53312], [2, 50.14535, 11.52584], [3, 50.15102, 11.51617], [4, 50.1596, 11.51299]]
+
+[[connections]]
+km = 0
+station = "Untersteinach"
+lines = [
+  { id = "5003", ref = "5003", name = "Bayreuth Altstadt - Kulmbach", km = 68.309 },
+]

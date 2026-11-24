@@ -1,0 +1,73 @@
+id = "5943"
+ref = "5943"
+name = "5943 Nürnberg Rbf Minervabrücke - Nürnberg-Reichelsdorf"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q120435434"
+from = "Nürnberg Rbf Minervabrücke"
+to = "Nürnberg-Reichelsdorf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.401
+kmTo = 7.147
+length = 5.683
+speeds = [[1.401, 1.81, 80, 80], [1.81, 2.979, 60, 60], [2.979, 7.147, 80, 80]]
+curves = [[1.844, 2.496, 380], [2.571, 2.724, 1620], [2.83, 2.951, 1820], [6.997, 7.047, 2380]]
+points = [
+  { km = 1.693, kind = "signal", label = "V2i", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.81, kind = "signal", label = "A715", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 2.008, kind = "signal", label = "WV2iI", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.129, kind = "signal", label = "WV2iII", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.199, kind = "signal", label = "2I", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 2.882, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.979, kind = "signal", label = "2N24", signal = "distant,main,route,route_distant,traversable", dir = -1 },
+  { km = 3.552, kind = "halt", label = "Nürnberg-Eibach", uic = "8004477", pos = [49.40969, 11.04775] },
+  { km = 3.59, kind = "signal", label = "2P24", signal = "main,minor,traversable", dir = 1 },
+  { km = 3.775, kind = "signal", label = "W64", signal = "minor", dir = -1 },
+  { km = 3.804, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.88, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.919, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 3.955, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.052, kind = "signal", label = "V1g", signal = "distant", dir = 1 },
+  { km = 4.246, kind = "signal", label = "2B", signal = "distant,main,route_distant,traversable", dir = -1 },
+  { km = 5.275, kind = "signal", label = "V2b", signal = "distant", dir = -1 },
+  { km = 5.374, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.449, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.524, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.577, kind = "signal", label = "1G", signal = "distant,main,traversable", dir = 1 },
+  { km = 5.781, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 6.217, kind = "signal", label = "W23", signal = "minor", dir = 1 },
+  { km = 6.289, kind = "signal", label = "1N4", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 6.725, kind = "halt", label = "Nürnberg-Reichelsdorf", uic = "8004483", pos = [49.38216, 11.03886] },
+  { km = 7.065, kind = "signal", label = "4", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.482, kmTo = 2.567, length = 112 },
+  { kind = "bridge", kmFrom = 6.674, kmTo = 6.696, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ufklH}ujbAeTkG{w@cQetCus@", v = 80 },
+  { line = "}irlHcembAwZ{KeGwE}BaFqA{GUmH\\}H", v = 60 },
+  { line = "ctslHa|nbAfCqa@", v = 80 },
+]
+posts = [[7, 49.37978, 11.03783], [6, 49.38857, 11.04073], [5, 49.39735, 11.04377], [4, 49.40591, 11.04681], [3, 49.41468, 11.04987], [2, 49.42177, 11.05665]]
+
+[[connections]]
+km = 3.552
+station = "Nürnberg-Eibach"
+lines = [
+  { id = "5320", ref = "5320", name = "5320 Treuchtlingen - Nürnberg Hbf, W 44", km = 56.553 },
+  { id = "5971", ref = "5971", name = "5971 Nürnberg Hbf - Roth", km = 5.3 },
+]
+
+[[connections]]
+km = 6.725
+station = "Nürnberg-Reichelsdorf"
+lines = [
+  { id = "5320", ref = "5320", name = "5320 Treuchtlingen - Nürnberg Hbf, W 44", km = 53.392 },
+  { id = "5971", ref = "5971", name = "5971 Nürnberg Hbf - Roth", km = 8.4 },
+]

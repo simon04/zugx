@@ -1,0 +1,69 @@
+id = "2312"
+ref = "2312"
+name = "2312 Abzw Duisburg-Hochfeld Süd - Duisburg Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q19630991"
+from = "Duisburg-Hochfeld Süd Abzw"
+to = "Duisburg Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.787
+length = 2.787
+speeds = [[0, 1.634, 100, 100], [1.634, 1.685, 80, 100], [1.685, 2.787, 80, 80]]
+curves = [[0.4, 1.075, 680], [1.325, 1.625, 2030], [1.775, 2.1, 1420], [2.5, 2.675, 1180]]
+points = [
+  { km = 0.417, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.427, kind = "signal", signal = "combined", dir = -1 },
+  { km = 0.491, kind = "halt", label = "Grunewald Betriebshof", pos = [51.4096, 6.76823] },
+  { km = 0.776, kind = "halt", label = "Grunewald", pos = [51.41297, 6.77003] },
+  { km = 1.561, kind = "signal", label = "32C", signal = "combined", dir = 1 },
+  { km = 1.634, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.685, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.831, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.651, kind = "signal", label = "32 P8", signal = "main,minor,speed_limit,wrong_road", dir = -1 },
+  { km = 2.787, kind = "station", label = "Duisburg Hauptbahnhof", uic = "8000086", pos = [51.42967, 6.77618] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.614, kmTo = 0.647, length = 33 },
+  { kind = "bridge", kmFrom = 0.841, kmTo = 1.014, length = 174 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "e_xxHqlgh@yFml@_B_IeDoIaFqGoIqF}KcGeNgE", v = 100 },
+  { line = "{|yxH_mjh@uNkBcb@|BwI{@", v = 80 },
+]
+posts = [[0, 51.40995, 6.76057], [1, 51.41401, 6.7728], [2, 51.42262, 6.77654]]
+
+[[connections]]
+km = 0.491
+station = "Grunewald Betriebshof"
+lines = [
+  { id = "2505", ref = "2505", name = "2505 Krefeld-Oppum - Mülheim (Ruhr)-Speldorf", km = 14.775 },
+]
+
+[[connections]]
+km = 0.776
+station = "Grunewald"
+lines = [
+  { id = "2310", ref = "2310", name = "2310 Duisburg Großenbaum - Duisburg Hbf", km = 5.33 },
+  { id = "2505", ref = "2505", name = "2505 Krefeld-Oppum - Mülheim (Ruhr)-Speldorf", km = 14.983 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 61.174 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 61.186 },
+]
+
+[[connections]]
+km = 2.787
+station = "Duisburg Hauptbahnhof"
+lines = [
+  { id = "2184", ref = "2184", name = "2184 Mülheim (Ruhr)-Styrum - Duisburg Hbf", km = 6.304 },
+  { id = "2290", ref = "2290", name = "2290 Mülheim-Styrum - Duisburg Hbf", km = 7.219 },
+  { id = "2320", ref = "2320", name = "2320 Duisburg-Wedau - Oberhausen-Osterfeld", km = 5.128 },
+  { id = "2326", ref = "2326", name = "2326 Duisburg Bissingheim - Duisburg", km = 5.46 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 63.087 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 63.104 },
+]

@@ -1,0 +1,66 @@
+id = "2852"
+ref = "2852"
+name = "2852 Fröndenberg - Unna"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q20638550"
+from = "Fröndenberg"
+to = "Unna"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 12.46
+length = 12.46
+speeds = [[0, 6.597, "", ""], [6.597, 6.614, 30, 30], [6.614, 11.912, "", ""], [11.912, 12.46, 80, 80]]
+curves = [[0.1, 0.175, 1540], [0.625, 0.75, 1580], [0.8, 1, 840], [1.125, 1.225, 2230], [2.15, 3.25, 510], [3.55, 4.925, 730], [5.125, 5.95, 860], [7.3, 7.6, 610], [9.45, 10.225, 360], [10.875, 11, 1420], [11.3, 11.45, 1250], [11.575, 11.675, 1260], [11.725, 11.9, 1370], [12.25, 12.35, 1190]]
+points = [
+  { km = 0.068, kind = "signal", label = "18I", signal = "minor", dir = -1 },
+  { km = 0.163, kind = "signal", signal = "main_repeated" },
+  { km = 0.168, kind = "signal", label = "P18", signal = "main,minor,traversable", dir = -1 },
+  { km = 0.198, kind = "station", label = "Unna", pos = [51.53902, 7.69222], uic = "8000171" },
+  { km = 0.332, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 0.427, kind = "signal", label = "N18", signal = "main,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 0.505, kind = "signal", label = "W41", signal = "minor", dir = -1 },
+  { km = 0.577, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.58, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.631, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.809, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.818, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.875, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.938, kind = "stop", label = "Fröndenberg-Frömern", pos = [51.49929, 7.73597], uic = "8002130" },
+  { km = 9.094, kind = "stop", label = "Ardey", pos = [51.48117, 7.72717], uic = "8000597" },
+  { km = 11.454, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.307, kind = "signal", label = "P111", signal = "main,minor,traversable", dir = -1 },
+  { km = 12.46, kind = "station", label = "Fröndenberg", pos = [51.47134, 7.76176], uic = "8000113" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.772, kmTo = 3.795, length = 23 },
+  { kind = "bridge", kmFrom = 4.351, kmTo = 4.38, length = 29 },
+  { kind = "bridge", kmFrom = 6.597, kmTo = 6.614, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}eqyH_i}m@nCmo@Tw_@bBwTxQe{AjBwHzDmHjEuDrEyAjECvElApDfChTt]vGnHhK|DrKQnI{D`GyGxDkIrLyd@dEyIlG{HvLgGhg@{G" },
+  { line = "e`jyHkxen@^E", v = 30 },
+  { line = "e_jyHqxen@df@oGhGEhgB`jArD`AfFc@zCuBjC_ErAeEv@aGVchAfBqd@X_d@t@aM" },
+  { line = "kfdyH}nin@~Cc_@jBmN", v = 80 },
+]
+posts = [[0, 51.53903, 7.69184], [1, 51.53803, 7.70617], [2, 51.53534, 7.71996], [3, 51.52892, 7.72706], [4, 51.52158, 7.71912], [5, 51.51444, 7.72594], [6, 51.50759, 7.73412], [7, 51.49867, 7.73602], [8, 51.49012, 7.73362], [9, 51.48193, 7.72765], [10, 51.47393, 7.72685], [11, 51.47337, 7.74117], [12, 51.47232, 7.75545]]
+
+[[connections]]
+km = 0.198
+station = "Unna"
+lines = [
+  { id = "2103", ref = "2103", km = 188.978 },
+]
+
+[[connections]]
+km = 12.46
+station = "Fröndenberg"
+lines = [
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 170.947 },
+  { id = "2850", ref = "2850", name = "2850 Letmathe - Fröndenberg", km = -30.628 },
+]

@@ -1,0 +1,96 @@
+id = "6036"
+ref = "6036"
+name = "6036 Priesterweg - Lichterfelde Süd"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q545128"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 4.87
+kmTo = 11.994
+length = 7.122
+speeds = [[4.87, 5.304, 90, 90], [5.304, 6.663, 100, 100], [6.663, 7.989, "", ""], [7.989, 10.687, 100, 100], [10.687, 10.728, "", ""], [10.728, 11.994, 100, 100]]
+curves = [[5.095, 5.495, 1020], [5.695, 6.22, 1180], [6.37, 6.465, 1670], [6.611, 6.963, 2620], [9.08, 9.357, 1970], [9.482, 9.709, 1190], [9.834, 10.06, 1990], [11.116, 11.348, 2430]]
+points = [
+  { km = 4.876, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.915, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 5.141, kind = "signal", label = "292", signal = "combined,departure,minor,speed_limit,speed_limit_distant,traversable,wrong_road", dir = -1 },
+  { km = 5.145, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.174, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.193, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.223, kind = "station", label = "Priesterweg", pos = [52.45992, 13.35625] },
+  { km = 5.299, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.304, kind = "signal", label = "2203", signal = "departure,main", dir = 1 },
+  { km = 5.855, kind = "signal", label = "2204", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 6.505, kind = "signal", signal = "stop", dir = -1 },
+  { km = 6.546, kind = "station", label = "Südende", pos = [52.44828, 13.35375], uic = "8089115" },
+  { km = 6.663, kind = "signal", label = "2211", signal = "combined,traversable", dir = 1 },
+  { km = 7.207, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.301, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.342, kind = "signal", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 7.436, kind = "signal", label = "2213", signal = "combined,traversable", dir = 1 },
+  { km = 7.529, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.699, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.841, kind = "signal", label = "2220", signal = "combined,traversable", dir = -1 },
+  { km = 7.852, kind = "stop", label = "Lankwitz", pos = [52.43879, 13.34206], uic = "8089114" },
+  { km = 7.989, kind = "signal", label = "2221", signal = "combined,traversable", dir = 1 },
+  { km = 8.168, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.55, kind = "signal", label = "2227", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 9.087, kind = "signal", label = "2226", signal = "combined,departure,minor", dir = -1 },
+  { km = 9.129, kind = "station", label = "Lichterfelde Ost", pos = [52.42986, 13.32808] },
+  { km = 9.228, kind = "halt", label = "Berlin-Lichterfelde Ost", uic = "8003111", pos = [52.42964, 13.32882] },
+  { km = 9.274, kind = "signal", label = "2231", signal = "combined,departure,traversable", dir = 1 },
+  { km = 9.678, kind = "signal", label = "2232", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 10.649, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 10.66, kind = "signal", label = "2234", signal = "combined,traversable", dir = -1 },
+  { km = 10.691, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.728, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.759, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.78, kind = "stop", label = "Osdorfer Straße", pos = [52.41887, 13.31425], uic = "8089473" },
+  { km = 11.11, kind = "signal", label = "2245", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 11.415, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 11.566, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.773, kind = "signal", label = "2246", signal = "combined,departure,traversable", dir = -1 },
+  { km = 11.821, kind = "station", label = "Lichterfelde Süd", pos = [52.40997, 13.30855], uic = "8089472" },
+  { km = 11.942, kind = "signal", label = "2251", signal = "departure,main,minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.505, kmTo = 5.522, length = 17 },
+  { kind = "bridge", kmFrom = 7.096, kmTo = 7.141, length = 44 },
+  { kind = "bridge", kmFrom = 7.207, kmTo = 7.223, length = 19 },
+  { kind = "bridge", kmFrom = 7.724, kmTo = 7.75, length = 26 },
+  { kind = "bridge", kmFrom = 8.121, kmTo = 8.138, length = 17 },
+  { kind = "bridge", kmFrom = 8.596, kmTo = 8.615, length = 19 },
+  { kind = "bridge", kmFrom = 9.487, kmTo = 9.515, length = 27 },
+  { kind = "bridge", kmFrom = 10.853, kmTo = 10.881, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kte_Iu}opApMdF~GjA", v = 90 },
+  { line = "y|d_IctopAnZ_BhKl@`R~HhN`K", v = 100 },
+  { line = "srb_Is_opAdKdKvLtOt_@pn@" },
+  { line = "_x`_IeslpA|Tt_@~Vxf@tSbYpNnX|MbRzOtP", v = 100 },
+  { line = "_f}~HgrgpA|@z@" },
+  { line = "ad}~HkpgpAn[lUhd@bR", v = 100 },
+]
+posts = [[5, 52.46183, 13.35729], [6, 52.45293, 13.35663], [7, 52.44476, 13.35044], [8, 52.43785, 13.34072], [9, 52.43139, 13.33056], [10, 52.42471, 13.32087], [11, 52.4172, 13.31297]]
+
+[[connections]]
+km = 5.223
+station = "Priesterweg"
+lines = [
+  { id = "6034", ref = "6034", name = "6034 Berlin Anhalter Bf - Berlin Yorckstraße Strw", km = 5.223 },
+  { id = "6035", ref = "6035", name = "6035 Berlin Yorckstraße Strw - Blankenfelde", km = 5.223 },
+  { id = "6132", ref = "6132", name = "6132 Berlin - Halle (Saale) Hbf", km = 5.141 },
+  { id = "6135", ref = "6135", name = "6135 Berlin - Elsterwerda", km = 5.181 },
+]
+
+[[connections]]
+km = 11.821
+station = "Lichterfelde Süd"
+lines = [
+  { id = "6132", ref = "6132", name = "6132 Berlin - Halle (Saale) Hbf", km = 11.726 },
+]

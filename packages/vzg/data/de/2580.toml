@@ -1,0 +1,126 @@
+id = "2580"
+ref = "2580"
+name = "Bahnstrecke Düren–Neuss"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 21.6
+kmTo = 50.8
+length = 28.982
+speeds = [[21.6, 32.644, "", ""], [32.644, 33.837, 100, 100], [33.837, 33.909, "", ""], [33.909, 33.953, 80, 80], [33.953, 34.485, 60, 60], [34.485, 34.618, 40, 40], [34.618, 34.638, 80, 80], [34.638, 35.215, "", ""], [35.215, 46.798, 100, 100], [46.798, 46.892, 60, 100], [46.892, 48.857, 60, 60], [48.857, 49.566, "", ""], [49.566, 49.695, 60, 60], [49.695, 50.8, "", ""]]
+curves = [[21.881, 22.188, 1750], [22.265, 23.108, 510], [23.645, 24.693, 1210], [25.307, 26.33, 1210], [27.173, 27.915, 1010], [28.835, 29.142, 1380], [29.423, 30.369, 1240], [30.693, 31.069, 1130], [32.034, 32.208, 1440], [33.77, 33.871, 1560], [33.921, 34.021, 970], [34.071, 34.172, 1540], [34.649, 35.076, 1490], [37.604, 37.854, 1310], [42.233, 42.66, 1000], [46.76, 46.961, 2090], [47.212, 47.559, 400], [47.611, 47.838, 990], [47.988, 48.427, 1090], [48.512, 48.859, 620], [48.907, 49.385, 710], [49.506, 49.832, 1820], [49.991, 50.284, 780], [50.342, 50.686, 320]]
+points = [
+  { km = 21.694, kind = "signal", signal = "crossing_hint", dir = 1 },
+  { km = 21.748, kind = "signal", signal = "crossing,height", dir = 1 },
+  { km = 28.727, kind = "stop", label = "Frimmersdorf", pos = [51.04618, 6.56663], uic = "8002127" },
+  { km = 30.575, kind = "signal", label = "52A", signal = "combined", dir = 1 },
+  { km = 31.308, kind = "station", label = "Gustorf", uic = "8002477", pos = [51.06713, 6.57005] },
+  { km = 31.337, kind = "signal", label = "52N2", signal = "main", dir = 1 },
+  { km = 32.65, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 33.819, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 33.837, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 33.943, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 34.204, kind = "signal", label = "44 P2", signal = "main,route,speed_limit,traversable", dir = 1 },
+  { km = 34.313, kind = "station", label = "Grevenbroich", uic = "8000133", pos = [51.09377, 6.58051] },
+  { km = 34.485, kind = "signal", label = "44 N2", signal = "main,route,speed_limit,traversable", dir = -1 },
+  { km = 34.622, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 35.215, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 36.113, kind = "signal", signal = "distant", dir = -1 },
+  { km = 37.93, kind = "signal", signal = "distant", dir = 1 },
+  { km = 38.93, kind = "signal", signal = "main", dir = 1 },
+  { km = 39.34, kind = "stop", label = "Kapellen-Wevelinghoven", uic = "8003174", pos = [51.12985, 6.62114] },
+  { km = 42.73, kind = "signal", label = "51VA", signal = "distant", dir = 1 },
+  { km = 43.735, kind = "signal", label = "51A", signal = "main", dir = 1 },
+  { km = 44.268, kind = "signal", label = "51VN2", signal = "distant", dir = 1 },
+  { km = 44.365, kind = "station", label = "Holzheim (bei Neuss)", uic = "8002979", pos = [51.16559, 6.66454] },
+  { km = 44.448, kind = "signal", signal = "distant", dir = 1 },
+  { km = 45.279, kind = "signal", label = "51N2", signal = "main", dir = 1 },
+  { km = 45.282, kind = "signal", signal = "distant", dir = -1 },
+  { km = 45.927, kind = "signal", signal = "minor", dir = -1 },
+  { km = 45.944, kind = "signal", signal = "distant", dir = 1 },
+  { km = 46.004, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 46.798, kind = "signal", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 46.888, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 46.89, kind = "signal", signal = "distant", dir = -1 },
+  { km = 47.139, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 47.579, kind = "signal", label = "353", signal = "main,speed_limit", dir = -1 },
+  { km = 47.816, kind = "signal", label = "D452", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 48.15, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 48.262, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 48.529, kind = "signal", signal = "minor", dir = -1 },
+  { km = 48.647, kind = "signal", label = "33II", signal = "minor", dir = 1 },
+  { km = 48.717, kind = "signal", signal = "route", dir = -1 },
+  { km = 48.857, kind = "signal", label = "P3", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 48.987, kind = "signal", signal = "stop", dir = -1 },
+  { km = 49.011, kind = "station", label = "Neuss Hbf", pos = [51.20349, 6.68471], uic = "8000274" },
+  { km = 49.067, kind = "signal", signal = "distant", dir = -1 },
+  { km = 49.206, kind = "signal", label = "N3", signal = "distant,main,minor", dir = 1 },
+  { km = 49.598, kind = "signal", signal = "minor", dir = 1 },
+  { km = 49.688, kind = "signal", signal = "route", dir = 1 },
+  { km = 49.816, kind = "signal", signal = "distant", dir = -1 },
+  { km = 50.005, kind = "signal", label = "F462", signal = "main,speed_limit", dir = -1 },
+  { km = 50.474, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 50.721, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 23.022, kmTo = 23.052, length = 29 },
+  { kind = "bridge", kmFrom = 24.385, kmTo = 24.423, length = 37 },
+  { kind = "bridge", kmFrom = 25.764, kmTo = 25.795, length = 31 },
+  { kind = "bridge", kmFrom = 27.951, kmTo = 27.996, length = 44 },
+  { kind = "bridge", kmFrom = 28.846, kmTo = 28.93, length = 82 },
+  { kind = "bridge", kmFrom = 29.27, kmTo = 29.305, length = 35 },
+  { kind = "bridge", kmFrom = 29.42, kmTo = 29.454, length = 33 },
+  { kind = "bridge", kmFrom = 29.53, kmTo = 29.574, length = 43 },
+  { kind = "bridge", kmFrom = 33.925, kmTo = 33.937, length = 12 },
+  { kind = "bridge", kmFrom = 38.93, kmTo = 38.945, length = 14 },
+  { kind = "bridge", kmFrom = 45.956, kmTo = 46.121, length = 165 },
+  { kind = "bridge", kmFrom = 46.332, kmTo = 46.422, length = 89 },
+  { kind = "bridge", kmFrom = 46.543, kmTo = 46.585, length = 42 },
+  { kind = "bridge", kmFrom = 46.892, kmTo = 46.939, length = 47 },
+  { kind = "tunnel", kmFrom = 47.43, kmTo = 47.496, length = 69 },
+  { kind = "bridge", kmFrom = 47.51, kmTo = 47.537, length = 26 },
+  { kind = "bridge", kmFrom = 47.941, kmTo = 47.965, length = 23 },
+  { kind = "bridge", kmFrom = 48.354, kmTo = 48.376, length = 23 },
+  { kind = "bridge", kmFrom = 48.415, kmTo = 48.442, length = 25 },
+  { kind = "bridge", kmFrom = 48.866, kmTo = 48.885, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eefvHimbg@gTjHaUxNiFt@iFi@uEeC}D}EeZ_u@eGwJgHoHyIkFiI_Coj@}C}HXcHxAsHjDwFjEiHvIyf@xx@iFzFqGdEuL~Cc|@jDo[`KsF`AsLHgL_CeIgEsTuPqHkDw~@uMu\\iL" },
+  { line = "aowvH}|bg@k_Aw]", v = 100 },
+  { line = "moyvHu{cg@{Bq@" },
+  { line = "isyvHg}cg@mA[", v = 80 },
+  { line = "wuyvHc~cg@k[mM", v = 60 },
+  { line = "crzvHqldg@cFeB", v = 40 },
+  { line = "gyzvHwodg@c@K", v = 80 },
+  { line = "kzzvHcpdg@oMmGiM_M" },
+  { line = "ew{vHqfeg@euBc|BonDyaHqGoJqHgGy{E_oC", v = 100 },
+  { line = "yklwHgjwg@cSeOoFeA", v = 60 },
+  { line = "mgmwHs|wg@{B`@", tunnel = true, v = 60 },
+  { line = "ikmwHq{wg@uM~EaOpA_IUcGkAeKoEoEkEgC}E", v = 60 },
+  { line = "csowH{hxg@_G_MuDwEkDwBoLkD" },
+  { line = "uspwHwfyg@sF_@", v = 60 },
+  { line = "i{pwHwgyg@}W~@cRbHwFiAeFcH" },
+]
+posts = [[22, 50.99446, 6.56976], [23, 51.0025, 6.56917], [24, 51.00823, 6.57971], [25, 51.01658, 6.58326], [26, 51.02516, 6.58159], [27, 51.03185, 6.57257], [28, 51.03961, 6.56698], [29, 51.04839, 6.56616], [30, 51.057, 6.56415], [31, 51.06522, 6.56944], [32, 51.07427, 6.57146], [33, 51.08275, 6.57517], [34, 51.0914, 6.57927], [35, 51.09986, 6.58386], [36, 51.10734, 6.59171], [37, 51.11484, 6.59961], [38, 51.122, 6.60817], [39, 51.12823, 6.61849], [40, 51.13444, 6.62882], [41, 51.14067, 6.63915], [42, 51.1469, 6.64949], [43, 51.15421, 6.65711], [44, 51.16263, 6.66264], [45, 51.17093, 6.66809], [46, 51.17924, 6.67355], [47, 51.18756, 6.67897], [48, 51.19609, 6.67959], [49, 51.20411, 6.68479], [50, 51.21291, 6.68792]]
+
+[[connections]]
+km = 34.313
+station = "Grevenbroich"
+lines = [
+  { id = "2611", ref = "2611", name = "2611 Köln-Ehrenfeld - Rheydt Hbf", km = 31.38 },
+]
+
+[[connections]]
+km = 49.011
+station = "Neuss Hbf"
+lines = [
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 0.261 },
+  { id = "2530", ref = "2530", name = "Bahnstrecke Neuss-Kaarst", km = -0.013 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 80.959 },
+  { id = "2610", ref = "2610", name = "2610 Köln - Kleve", km = 36.193 },
+]

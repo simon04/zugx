@@ -1,0 +1,28 @@
+id = "3817"
+ref = "3817"
+name = "3817 Melsungen - Melsungen Süd"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Melsungen"
+to = "Melsungen Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.213
+length = 0.213
+speeds = [[0, 0.213, "", ""]]
+curves = []
+points = [
+  { km = 0.048, kind = "signal", label = "45 111X", signal = "minor", dir = 1 },
+  { km = 0.054, kind = "signal", label = "45 211Y", signal = "minor", dir = -1 },
+  { km = 0.135, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 0.142, kind = "signal", label = "45 ZR11", signal = "combined,speed_limit,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{n_wH}dfy@sHeJ" },
+]
+posts = [[0, 51.12062, 9.53951]]

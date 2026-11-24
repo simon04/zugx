@@ -1,0 +1,50 @@
+id = "3746"
+ref = "3746"
+name = "3746 Grävenwiesbach - Albshausen"
+operator = "Verkehrsverband Hochtaunus"
+gauge = "1435"
+wikidata = "Q314249"
+from = "Grävenwiesbach"
+to = "Albshausen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.872
+length = 7.872
+speeds = [[0, 0.144, 30, 30], [0.144, 7.717, 70, 70], [7.717, 7.872, "", ""]]
+curves = [[0.1, 0.35, 520], [0.525, 0.8, 520], [0.975, 1.2, 600], [1.375, 1.575, 770], [1.675, 1.875, 730], [2.15, 2.925, 470], [3, 3.2, 760], [3.5, 3.85, 540], [5.725, 5.925, 450], [6.05, 6.275, 510], [6.775, 7.25, 320]]
+points = [
+  { km = 0.077, kind = "station", label = "Brandoberndorf", pos = [50.43161, 8.49392], uic = "8001126" },
+  { km = 0.103, kind = "signal", label = "P90", signal = "main,traversable", dir = 1 },
+  { km = 0.144, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.514, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.55, kind = "stop", label = "Hasselborn", pos = [50.40646, 8.49502] },
+  { km = 3.576, kind = "signal", signal = "crossing,crossing_distant", dir = 1 },
+  { km = 7.872, kind = "station", label = "Grävenwiesbach", uic = "8000132", pos = [50.38251, 8.45791] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.124, kmTo = 0.144, length = 21 },
+  { kind = "bridge", kmFrom = 0.318, kmTo = 0.341, length = 24 },
+  { kind = "tunnel", kmFrom = 4.075, kmTo = 5.373, length = 1298, name = "Hasselborner Tunnel" },
+  { kind = "bridge", kmFrom = 5.982, kmTo = 5.998, length = 16 },
+  { kind = "bridge", kmFrom = 6.551, kmTo = 6.567, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q}xrHgwyr@|@kK", v = 30 },
+  { line = "s{xrHsczr@xBaJnJ{QxC{CxTuEtTlFjPk@vVoKfL_L`Fw@vCj@nCpBxHnPhJhd@fCpHdCnDjM|K", v = 70 },
+  { line = "kisrHqjyr@b~@lx@", tunnel = true, v = 70 },
+  { line = "gjqrHcqwr@dT|QdPzAdDtAz[`\\dBrChBdIFhJwHnm@", v = 70 },
+  { line = "ydorH}rsr@yAzK" },
+]
+posts = [[0, 50.43177, 8.49284], [1, 50.42549, 8.50135], [2, 50.41669, 8.50141], [3, 50.40887, 8.50215], [4, 50.40353, 8.49133], [5, 50.39575, 8.48426], [6, 50.38774, 8.47825], [7, 50.3803, 8.47112]]
+
+[[connections]]
+km = 7.872
+station = "Grävenwiesbach"
+lines = [
+  { id = "9374", ref = "9374", name = "9374 Friedrichsdorf (Taunus) - Grävenwiesbach", km = 28.787 },
+]

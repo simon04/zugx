@@ -1,0 +1,74 @@
+id = "3218"
+ref = "3218"
+name = "3218 Merzig Süd – Büschfeld"
+operator = "Gemeinde Losheim am See"
+gauge = "1435"
+wikidata = "Q1463072"
+from = "Merzig-Süd"
+to = "Büschfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.074
+kmTo = 16.65
+length = 16.725
+speeds = [[-0.074, 16.65, "", ""]]
+curves = [[0.101, 0.226, 510], [0.301, 0.626, 750], [0.676, 0.851, 1290], [0.951, 1.376, 820], [1.451, 1.651, 550], [2.251, 2.451, 1220], [2.976, 3.401, 800], [3.626, 4.351, 820], [4.701, 4.801, 1890], [5.426, 5.601, 800], [5.751, 5.876, 760], [5.926, 6.126, 750], [6.176, 6.301, 1530], [6.376, 6.601, 500], [6.951, 7.251, 670], [7.401, 7.551, 1020], [8.026, 8.476, 320], [8.576, 9.226, 670], [9.301, 9.501, 1570], [9.551, 9.926, 410], [9.976, 10.051, 1160], [10.101, 10.226, 1240], [10.276, 10.576, 620], [10.726, 11.251, 760], [11.501, 11.751, 610], [12.076, 12.201, 810], [12.251, 12.775, 390], [12.875, 13.25, 370], [13.625, 13.9, 440], [13.95, 14.225, 460], [14.3, 14.525, 500], [14.575, 14.725, 620], [14.8, 14.95, 1180], [15.2, 15.725, 540], [16.1, 16.525, 990]]
+points = [
+  { km = -0.019, kind = "signal", label = "66", signal = "minor", dir = -1 },
+  { km = 1.932, kind = "station", label = "Merzig Ost (Museumseisenbahn)", pos = [49.44588, 6.65158] },
+  { km = 2.551, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.62, kind = "signal", signal = "main", dir = -1 },
+  { km = 5.043, kind = "halt", label = "Brotdorf", pos = [49.46555, 6.67938] },
+  { km = 11.678, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 11.71, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 11.917, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 11.973, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.015, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.062, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 12.224, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 12.303, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 12.328, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 12.398, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 12.456, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 12.498, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.558, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.771, kind = "station", label = "Museumsbahn Losheim", pos = [49.50569, 6.74687] },
+  { km = 13.154, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 13.245, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.289, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.398, kind = "signal", signal = "main", dir = -1 },
+  { km = 13.449, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 13.692, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 13.765, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.784, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.855, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 15.078, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 15.145, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 15.177, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.242, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 16.012, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 16.294, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 16.39, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.499, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.534, kind = "halt", label = "Dellborner Mühle (Museumsbahn)", pos = [49.50001, 6.79606] },
+  { km = 16.589, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 39.2, kind = "station", label = "Merzig (Saar)", uic = "8003992", pos = [49.43658, 6.63419], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 15.123, kmTo = 15.139, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "y|ulHewng@oLYoKoEgF{FkH_MmImKiFyOqEyWa[mw@iOko@qCsPoCoFyNiSsKeIsJcAiCkAwUcTsd@c\\uKeQoJyJcOm\\s]cVoM_W{Wg^}BuBiEu@cDd@mSlP_Gb@sJgFsJcMgKoKkCoGm@aIuA{h@sByGkIsR_BqG{A_Rv@ub@S}E{Hee@}E{Pa@uH~AyMxIeRhAsE^kECiFeEsm@ToFpB}K`@uGgAwY|BeVNwPm@sd@tAqJnEeL~Kki@xAqORqT" },
+]
+posts = [[0, 49.43391, 6.63439], [1, 49.44156, 6.64067], [2, 49.44634, 6.65222], [3, 49.45095, 6.66404], [4, 49.45719, 6.67332], [5, 49.46527, 6.67892], [6, 49.47277, 6.68635], [7, 49.47979, 6.69446], [8, 49.48651, 6.70355], [9, 49.49471, 6.70215], [10, 49.50058, 6.71149], [11, 49.5039, 6.72387], [12, 49.50516, 6.73729], [13, 49.50436, 6.74927], [14, 49.50439, 6.76269], [15, 49.50398, 6.77631], [16, 49.50133, 6.78901]]
+
+[[connections]]
+km = 39.2
+station = "Merzig"
+lines = [
+  { id = "3230", ref = "3230", name = "Saarstrecke", km = 39.2 },
+]

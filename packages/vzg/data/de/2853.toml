@@ -1,0 +1,69 @@
+id = "2853"
+ref = "2853"
+name = "2853 Menden (Sauerland) - Neuenrade"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Menden (Sauerland)"
+to = "Neuenrade"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 22.091
+length = 22.091
+speeds = [[0, 0.053, 30, 30], [0.053, 0.65, 50, 50], [0.65, 4.834, 60, 60], [4.834, 9.172, 50, 50], [9.172, 13.259, 60, 60], [13.259, 13.774, 40, 40], [13.774, 18.928, 60, 60], [18.928, 21.031, 50, 50], [21.031, 22.091, 40, 40]]
+curves = [[1.475, 1.775, 870], [2.55, 3.025, 620], [3.3, 3.5, 1040], [4.625, 4.85, 840], [6.075, 6.6, 420], [7.15, 7.35, 820], [7.5, 7.65, 1130], [7.825, 8.1, 790], [8.15, 8.375, 750], [8.925, 9.175, 740], [9.45, 9.675, 1040], [9.85, 10.15, 450], [10.4, 10.575, 730], [10.8, 11.25, 260], [11.3, 11.9, 360], [11.95, 12.25, 360], [12.3, 12.975, 380], [13.025, 13.5, 320], [13.55, 13.75, 720], [13.975, 14.1, 1790], [14.4, 14.625, 450], [14.675, 14.85, 660], [15.4, 15.75, 430], [15.825, 16.15, 370], [16.2, 16.4, 920], [16.875, 16.975, 1510], [17.15, 17.4, 980], [19.125, 19.35, 610], [19.4, 19.6, 480], [19.825, 20.025, 800], [20.15, 20.4, 500], [20.55, 20.8, 750], [20.85, 21.05, 630], [21.15, 21.3, 590], [21.35, 21.65, 850], [21.7, 21.825, 1630]]
+points = [
+  { km = 0.053, kind = "stop", label = "Neuenrade", pos = [51.28484, 7.79463], uic = "8004273" },
+  { km = 1.78, kind = "stop", label = "Neuenrade-Küntrop", pos = [51.29347, 7.81537], uic = "8003470" },
+  { km = 5.758, kind = "stop", label = "Balve-Garbeck", pos = [51.32145, 7.83983], uic = "8002180" },
+  { km = 8.046, kind = "station", label = "Balve", pos = [51.33257, 7.86313], uic = "8000793" },
+  { km = 10.726, kind = "stop", label = "Balve-Sanssouci", pos = [51.35336, 7.87881], uic = "8005289" },
+  { km = 11.711, kind = "stop", label = "Balve-Volkringhausen", pos = [51.35993, 7.87216], uic = "8006109" },
+  { km = 13.595, kind = "station", label = "Binolen", uic = "8000978", pos = [51.37223, 7.85936] },
+  { km = 18.543, kind = "stop", label = "Lendringsen", pos = [51.41023, 7.82667], uic = "8003638" },
+  { km = 20.96, kind = "stop", label = "Menden (Sauerland) Süd", pos = [51.42841, 7.80747], uic = "8003965" },
+  { km = 22.091, kind = "station", label = "Menden (Sauerland)", uic = "8003967", pos = [51.4353, 7.79197] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.399, kmTo = 0.411, length = 12 },
+  { kind = "bridge", kmFrom = 0.917, kmTo = 0.958, length = 41 },
+  { kind = "bridge", kmFrom = 5.108, kmTo = 5.147, length = 38 },
+  { kind = "bridge", kmFrom = 9.136, kmTo = 9.149, length = 13 },
+  { kind = "bridge", kmFrom = 9.774, kmTo = 9.808, length = 34 },
+  { kind = "bridge", kmFrom = 9.859, kmTo = 9.884, length = 25 },
+  { kind = "bridge", kmFrom = 10.847, kmTo = 10.862, length = 15 },
+  { kind = "bridge", kmFrom = 10.905, kmTo = 10.95, length = 45 },
+  { kind = "bridge", kmFrom = 11.298, kmTo = 11.312, length = 15 },
+  { kind = "bridge", kmFrom = 11.567, kmTo = 11.592, length = 25 },
+  { kind = "bridge", kmFrom = 11.877, kmTo = 11.89, length = 13 },
+  { kind = "bridge", kmFrom = 13.259, kmTo = 13.28, length = 20 },
+  { kind = "bridge", kmFrom = 14.027, kmTo = 14.073, length = 45 },
+  { kind = "tunnel", kmFrom = 14.073, kmTo = 14.354, length = 281, name = "Binolener Tunnel" },
+  { kind = "bridge", kmFrom = 15.189, kmTo = 15.291, length = 102 },
+  { kind = "tunnel", kmFrom = 15.291, kmTo = 15.411, length = 119, name = "Uhutunnel" },
+  { kind = "bridge", kmFrom = 15.411, kmTo = 15.54, length = 129 },
+  { kind = "bridge", kmFrom = 15.901, kmTo = 15.934, length = 33 },
+  { kind = "bridge", kmFrom = 16.022, kmTo = 16.037, length = 16 },
+  { kind = "bridge", kmFrom = 17.63, kmTo = 17.643, length = 13 },
+  { kind = "bridge", kmFrom = 21.02, kmTo = 21.031, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eo_xH}eqn@w@{B", v = 30 },
+  { line = "}p_xHyiqn@qRsj@", v = 50 },
+  { line = "od`xHmurn@i^ufAsOitAqByImCoGqI_KkOyMk_Asa@_IoA", v = 60 },
+  { line = "waexHuezn@qgAW_Dm@eEwCqEcJgOyu@cAaIgBwYmDeWsByHgIePcb@uZgG}I", v = 50 },
+  { line = "kpjxHem`o@eMuVuSwSgE_@yUrC{SeD_CFcDdB}A`CiAxDsBfQgB`E_B|AuLvB_MrJiENgLsBuCz@{C|C{BrFwAvHs@`VyBzJ", v = 60 },
+  { line = "ibpxHgk~n@mDnE{LfDaFhD", v = 40 },
+  { line = "u|pxHez}n@uMdL", v = 60 },
+  { line = "kkqxH_m}n@aLbM", tunnel = true, v = 60 },
+  { line = "mxqxH{~|n@qDvDoB|@kKj@e[hO", v = 60 },
+  { line = "ajsxHoe|n@gEvB", tunnel = true, v = 60 },
+  { line = "ipsxHwa|n@oDvB}BhDiG~WsCxEoNrEm\\vSuTfLejA~pA", v = 60 },
+  { line = "otxxHg~vn@eM~MyMjE_QhT_QjKwNzZiJ|JsCvF", v = 50 },
+  { line = "eu{xHswsn@uEbMoBnLcDlLqH~NiHdS", v = 40 },
+]
+posts = [[0, 51.28451, 7.79375], [1, 51.28975, 7.80544], [2, 51.29399, 7.81795], [3, 51.29773, 7.83064], [4, 51.30591, 7.83641], [5, 51.31457, 7.83981], [6, 51.32357, 7.83989], [7, 51.32943, 7.84905], [8, 51.33235, 7.86256], [9, 51.33986, 7.8701], [10, 51.34685, 7.87893], [11, 51.35574, 7.87877], [12, 51.36223, 7.87054], [13, 51.3688, 7.86463], [14, 51.3755, 7.85686], [15, 51.38362, 7.85144], [16, 51.39039, 7.84316], [17, 51.39874, 7.83797], [18, 51.40649, 7.83081], [19, 51.4139, 7.82264], [20, 51.42167, 7.8158], [21, 51.42866, 7.80717], [22, 51.43387, 7.79556]]

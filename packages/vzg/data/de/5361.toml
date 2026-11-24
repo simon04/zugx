@@ -1,0 +1,45 @@
+id = "5361"
+ref = "5361"
+name = "5361 Türkheim (Bay) Bahnhof - Bad Wörishofen"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Türkheim (Bay) Bahnhof"
+to = "Bad Wörishofen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.767
+length = 5.767
+speeds = [[0, 4.55, "", ""], [4.55, 5.239, 60, 60], [5.239, 5.767, "", ""]]
+curves = [[0.1, 0.475, 410], [0.6, 0.8, 1230], [1.075, 1.225, 1410], [2.3, 2.525, 840], [3.8, 3.975, 1870], [4.5, 5.025, 230]]
+points = [
+  { km = 0.044, kind = "stop", label = "Bad Wörishofen", pos = [48.00595, 10.59789], uic = "8000768" },
+  { km = 4.926, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 4.95, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.239, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 5.345, kind = "station", label = "Türkheim (Bayern)", pos = [48.04554, 10.61801], uic = "8000144" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.713, kmTo = 1.749, length = 36 },
+  { kind = "bridge", kmFrom = 4.16, kmTo = 4.204, length = 44 },
+  { kind = "bridge", kmFrom = 4.409, kmTo = 4.43, length = 21 },
+  { kind = "bridge", kmFrom = 5.587, kmTo = 5.604, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ua_dHc|t_AkJx@sEiAqByAoM}PgTcQq_Auf@ynAgDgg@zB" },
+  { line = "ssfdHqlw_AqCGgCmAsBuDi@uCD{EpD{U", v = 60 },
+  { line = "s{fdHkwx_A|Hyh@" },
+]
+posts = [[0, 48.00555, 10.59794], [1, 48.01341, 10.60313], [2, 48.02162, 10.60857], [3, 48.03034, 10.611], [4, 48.03933, 10.61133], [5, 48.04629, 10.61464]]
+
+[[connections]]
+km = 5.345
+station = "Türkheim"
+lines = [
+  { id = "5340", ref = "5340", name = "Staudenbahn", km = -48.976 },
+  { id = "5360", ref = "5360", name = "5360 Buchloe - Memmingen", km = 8.227 },
+]

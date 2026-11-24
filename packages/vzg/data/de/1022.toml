@@ -1,0 +1,153 @@
+id = "1022"
+ref = "1022"
+name = "1022 Kiel Hbf - Osterrönfeld"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q2840550"
+from = "Kiel Hbf"
+to = "Osterrönfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.061
+kmTo = 30.955
+length = 30.801
+speeds = [[0.061, 0.267, "", ""], [0.267, 0.521, 40, 30], [0.521, 0.527, 40, 40], [0.527, 3.393, 60, 60], [3.393, 3.477, 50, 50], [3.477, 3.715, 60, 60], [3.715, 3.94, 70, 60], [3.94, 4.47, 70, 70], [4.47, 4.706, 120, 70], [4.706, 11.407, 120, 120], [11.407, 11.422, 110, 120], [11.422, 13.02, 110, 110], [13.02, 13.565, 60, 110], [13.565, 13.788, 110, 110], [13.788, 27.195, 120, 120], [27.195, 29.251, 100, 100], [29.251, 30.955, 80, 80]]
+curves = [[0.237, 0.338, 750], [0.389, 0.465, 930], [0.541, 0.667, 1180], [0.718, 1.224, 310], [1.275, 1.477, 910], [1.882, 2.059, 1230], [2.135, 2.943, 500], [3.341, 3.939, 350], [4.263, 4.437, 1000], [4.736, 5.135, 1060], [5.634, 6.11, 1340], [9.143, 9.294, 1690], [9.945, 10.07, 1600], [10.396, 10.722, 940], [11.474, 11.925, 680], [12.176, 12.426, 1160], [12.953, 13.805, 910], [15.636, 15.887, 2050], [16.714, 16.99, 1110], [17.516, 17.692, 1300], [20.701, 20.976, 1670], [22.631, 23.007, 1070], [27.245, 27.796, 540], [29.351, 30.254, 420]]
+points = [
+  { km = 0.071, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.117, kind = "stop", label = "Kiel Hbf", uic = "8000199", pos = [54.31449, 10.13122] },
+  { km = 0.167, kind = "signal", signal = "main_repeated" },
+  { km = 0.23, kind = "station", label = "Kiel Hauptbahnhof", uic = "8000199", pos = [54.31347, 10.13097] },
+  { km = 0.252, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.255, kind = "signal", label = "20P6", signal = "main,minor,route,speed_limit", dir = 1 },
+  { km = 0.527, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.704, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.727, kind = "signal", label = "20 C", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 0.917, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.067, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.115, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.28, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.437, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.781, kind = "signal", label = "22 1", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 1.787, kind = "signal", label = "22 2", signal = "main,traversable", dir = -1 },
+  { km = 1.865, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.174, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.225, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.269, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.282, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.36, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.485, kind = "signal", label = "22 A", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 2.491, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.626, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.778, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.793, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.857, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.013, kind = "signal", label = "22 P3", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 3.205, kind = "station", label = "Kiel-Hassee CITTI-Park", uic = "8007221", pos = [54.31119, 10.09821] },
+  { km = 3.213, kind = "stop", label = "Kiel-Hassee CITTI-PARK", pos = [54.31127, 10.0982] },
+  { km = 3.223, kind = "signal", label = "22 N3", signal = "electricity,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 3.244, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.245, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.27, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 3.487, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.715, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.754, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 3.94, kind = "signal", label = "22F", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 4.47, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.652, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.706, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.242, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.365, kind = "stop", label = "Kiel-Russee", pos = [54.31002, 10.06994] },
+  { km = 6.771, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 7.127, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.874, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.961, kind = "stop", label = "Melsdorf", pos = [54.31281, 10.03065] },
+  { km = 8.55, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 8.636, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 8.875, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.907, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.278, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.519, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.534, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 10.774, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 11.004, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 11.407, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.422, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.608, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 11.961, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 12.265, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.409, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 12.565, kind = "stop", label = "Achterwehr", pos = [54.31509, 9.96435], uic = "8000416" },
+  { km = 12.644, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 12.672, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 12.869, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 13.02, kind = "signal", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 13.787, kind = "signal", signal = "main", dir = -1 },
+  { km = 13.788, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.871, kind = "station", label = "Felde", pos = [54.30985, 9.94773], uic = "8001977" },
+  { km = 13.942, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.944, kind = "signal", label = "27N1", signal = "main", dir = 1 },
+  { km = 14.476, kind = "signal", signal = "combined,speed_limit", dir = -1 },
+  { km = 14.48, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 15.176, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 19.153, kind = "stop", label = "Bredenbek", pos = [54.31498, 9.86707], uic = "8001136" },
+  { km = 23.482, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 23.724, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 24.874, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 25.105, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 25.125, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 25.448, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 26.356, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 26.493, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 26.516, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 26.576, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 26.747, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 27.195, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 27.202, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 27.309, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 27.381, kind = "stop", label = "Schülldorf", pos = [54.29874, 9.7473], uic = "8005435" },
+  { km = 28.012, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 28.252, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 29.251, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 29.253, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 29.667, kind = "signal", signal = "distant", dir = 1 },
+  { km = 30.669, kind = "signal", label = "B 175", signal = "main,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.089, kmTo = 1.113, length = 23 },
+  { kind = "bridge", kmFrom = 5.668, kmTo = 5.919, length = 251 },
+  { kind = "bridge", kmFrom = 13.536, kmTo = 13.556, length = 20 },
+  { kind = "bridge", kmFrom = 29.881, kmTo = 29.916, length = 35 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_fijIwliz@|Wi{@|AiJ\\sIs@aNeDgLqFgGcJoC", v = 80 },
+  { line = "ubijIahmz@ouAu]oDyCkD_GwE_S", v = 100 },
+  { line = "yjljIqgoz@i`B}lJkBoNw@_PoE_`DDqTnU_dHS_pAnL_fB`HcyD", v = 120 },
+  { line = "cknjIucv{@@gKq@{OkDyTkFkO{Ych@kG{PcGmS_C}Le@qKHwN", v = 110 },
+  { line = "sipjIu`|{@rB_pAlAwKdIue@zLihA`a@alHCs\\oE_}@gC{QkI{\\", v = 120 },
+  { line = "u~njI{gp|@_CiLiFke@[wGRsG", v = 70 },
+  { line = "gjojI}lr|@~A}HdDsF", v = 60 },
+  { line = "abojIo~r|@fCyB", v = 50 },
+  { line = "y}njIibs|@fXkPbFcF~E_MhA_Hd@oIIuKeC}YcBam@\\uYe@{IwA{FoCkEsOyE", v = 60 },
+  { line = "urnjIsly|@}LyD", v = 40 },
+  { line = "s`ojImry|@_JiE" },
+]
+posts = [[30, 54.27879, 9.73227], [29, 54.28504, 9.74042], [28, 54.29383, 9.7435], [27, 54.30022, 9.75258], [26, 54.30394, 9.76656], [25, 54.30766, 9.78055], [24, 54.31138, 9.79453], [23, 54.31509, 9.80853], [22, 54.31629, 9.82367], [21, 54.31691, 9.839], [20, 54.31606, 9.85428], [19, 54.31487, 9.86952], [18, 54.31368, 9.88476], [17, 54.31344, 9.90007], [16, 54.31172, 9.91511], [15, 54.31067, 9.93035], [14, 54.30993, 9.94567], [13, 54.31218, 9.95989], [12, 54.3184, 9.97086], [11, 54.31954, 9.98562], [10, 54.3172, 10.00027], [9, 54.31462, 10.01497], [8, 54.31285, 10.03005], [7, 54.31118, 10.04516], [6, 54.30951, 10.06026], [5, 54.31067, 10.07548], [4, 54.31444, 10.08946], [3, 54.30948, 10.09942], [2, 54.30649, 10.11166], [1, 54.30732, 10.1267]]
+
+[[connections]]
+km = 3.205
+station = "Kiel-Hassee CITTI-Park"
+lines = [
+  { id = "1020", ref = "1020", name = "1020 Kiel-Hassee CITTI-PARK - Flensburg", km = 77.513 },
+]
+
+[[connections]]
+km = 27.381
+station = "Schülldorf"
+lines = [
+  { id = "1020", ref = "1020", name = "1020 Kiel-Hassee CITTI-PARK - Flensburg", km = 101.448 },
+]

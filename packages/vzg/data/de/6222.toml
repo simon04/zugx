@@ -1,0 +1,27 @@
+id = "6222"
+ref = "6222"
+name = "6222 Abzw Spreewitz Süd - Graustein"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q803248"
+from = "Spreewitz Süd"
+to = "Graustein"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 9.677
+kmTo = 20.3
+length = 10.615
+speeds = [[9.677, 20.3, 100, 100]]
+curves = [[14.952, 15.027, 2860], [15.427, 15.477, 2730], [18.836, 20.06, 710]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 12.829, kmTo = 12.894, length = 65 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wkcyHcc}vAqZ_Tga@yVs|DooBm[oQaTmPmLeLe_CqeCmW{UwGaCoGUoGhA{F`D{ErFmD`HoCpJkE~U", v = 100 },
+]
+posts = [[10, 51.47091, 14.41032], [11, 51.47915, 14.4161], [12, 51.48758, 14.42115], [13, 51.49602, 14.42615], [14, 51.50446, 14.43114], [15, 51.51285, 14.43631], [16, 51.52062, 14.4435], [17, 51.52814, 14.45137], [18, 51.53564, 14.45924], [19, 51.5433, 14.46674], [20, 51.55098, 14.46189]]

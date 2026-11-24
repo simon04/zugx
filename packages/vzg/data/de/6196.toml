@@ -1,0 +1,30 @@
+id = "6196"
+ref = "6196"
+name = "6196 Senftenberg, W 170 - W 469"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Senftenberg Stw B 7"
+to = "Senftenberg Stw B 10"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.514
+length = 1.514
+speeds = [[0, 1.416, 60, 60], [1.416, 1.514, "", ""]]
+curves = [[0.325, 0.4, 2490], [1.075, 1.2, 1030], [1.25, 1.4, 910]]
+points = [
+  { km = 0.263, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.096, kind = "signal", signal = "main", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.404, kmTo = 1.416, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "awryHcwutAtM`V|Zno@zIxU", v = 60 },
+  { line = "qaqyHwxrtA|BhE" },
+]
+posts = [[0, 51.54689, 14.0429], [1, 51.54066, 14.03248]]

@@ -1,0 +1,105 @@
+id = "4311"
+ref = "4311"
+name = "4311 Denzlingen - Elzach"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q884374"
+from = "Denzlingen"
+to = "Elzach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.011
+kmTo = 19.362
+length = 19.333
+speeds = [[0.011, 0.584, 60, 60], [0.584, 1.412, 80, 80], [1.412, 1.418, "", ""], [1.418, 7.425, 80, 80], [7.425, 7.507, "", ""], [7.507, 9.794, 80, 80], [9.794, 10.058, "", ""], [10.058, 10.153, 60, 80], [10.153, 10.268, 60, ""], [10.268, 10.48, 60, 60], [10.48, 10.554, 80, 80], [10.554, 10.781, 80, 60], [10.781, 18.787, 80, 80], [18.787, 19.362, 30, 80]]
+curves = [[0.776, 1.089, 600], [1.839, 2.568, 730], [3.576, 3.63, 2710], [3.846, 4.155, 800], [5.06, 5.335, 1100], [5.775, 5.992, 780], [6.074, 6.377, 630], [6.43, 6.814, 610], [6.854, 7.079, 1370], [7.545, 7.67, 1490], [7.996, 8.598, 560], [9.322, 9.572, 720], [9.672, 10.045, 690], [10.818, 10.973, 1390], [12.064, 12.267, 900], [13.076, 13.451, 1170], [14.232, 14.437, 1200], [14.846, 15.268, 640], [15.317, 15.538, 670], [15.636, 15.783, 1020], [15.832, 16.129, 620], [16.172, 16.299, 720], [16.605, 16.805, 960], [17.004, 17.179, 1630], [17.404, 17.729, 940], [17.878, 18.078, 750], [18.129, 18.404, 570], [18.454, 18.854, 710]]
+points = [
+  { km = 0.089, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.104, kind = "signal", label = "73N5", signal = "main,minor", dir = -1 },
+  { km = 0.153, kind = "station", label = "Denzlingen", uic = "8001415", pos = [48.06909, 7.88173], ele = 235 },
+  { km = 0.372, kind = "signal", label = "73 P5", signal = "main", dir = 1 },
+  { km = 0.584, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.96, kind = "signal", label = "73 B", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 1.092, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.406, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.453, kind = "signal", label = "48 11", signal = "main", dir = 1 },
+  { km = 3.532, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.6, kind = "halt", label = "Buchholz (Baden)", uic = "8014336", pos = [48.08348, 7.91579], measured = true },
+  { km = 3.645, kind = "stop", label = "Buchholz (Breisgau)", uic = "8001234", pos = [48.08352, 7.9158] },
+  { km = 3.69, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.6, kind = "stop", label = "Batzenhäusle", uic = "8000821", pos = [48.08901, 7.94091], measured = true },
+  { km = 6.237, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.534, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.653, kind = "signal", label = "40 A", signal = "combined,speed_limit", dir = 1 },
+  { km = 7.036, kind = "signal", label = "40 P1", signal = "main", dir = -1 },
+  { km = 7.086, kind = "stop", label = "Waldkirch (Breisgau)", pos = [48.0956, 7.95702] },
+  { km = 7.1, kind = "station", label = "Waldkirch", uic = "8014338", pos = [48.0957, 7.95726], measured = true },
+  { km = 7.217, kind = "signal", label = "40 N1", signal = "main", dir = 1 },
+  { km = 7.43, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.758, kind = "signal", label = "40 F", signal = "main,speed_limit", dir = -1 },
+  { km = 8.148, kind = "signal", signal = "distant,speed_limit_distant" },
+  { km = 8.58, kind = "stop", label = "Kollnau", uic = "8003399", pos = [48.10153, 7.97464] },
+  { km = 9.829, kind = "signal", label = "41 A", signal = "combined", dir = 1 },
+  { km = 10.058, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.153, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.268, kind = "signal", label = "41 P1", signal = "main", dir = 1 },
+  { km = 10.285, kind = "station", label = "Gutach (Breisgau)", uic = "8002478", pos = [48.11348, 7.98933] },
+  { km = 10.554, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.781, kind = "signal", label = "41 F", signal = "combined,speed_limit", dir = -1 },
+  { km = 10.891, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 11.199, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 11.921, kind = "stop", label = "Bleibach", uic = "8001017", pos = [48.12385, 8.00477] },
+  { km = 14.166, kind = "stop", label = "Niederwinden", uic = "8004423", pos = [48.13955, 8.02274] },
+  { km = 16.348, kind = "stop", label = "Oberwinden (Elztal)", uic = "8004603", pos = [48.15259, 8.04507] },
+  { km = 18.787, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.154, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.158, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.27, kind = "station", label = "Elzach", uic = "8001766", pos = [48.171, 8.07084] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.263, kmTo = 0.322, length = 59 },
+  { kind = "bridge", kmFrom = 0.52, kmTo = 0.535, length = 15 },
+  { kind = "bridge", kmFrom = 0.976, kmTo = 0.989, length = 12 },
+  { kind = "bridge", kmFrom = 1.412, kmTo = 1.418, length = 10 },
+  { kind = "bridge", kmFrom = 1.732, kmTo = 1.804, length = 73 },
+  { kind = "bridge", kmFrom = 7.435, kmTo = 7.507, length = 72 },
+  { kind = "bridge", kmFrom = 8.2, kmTo = 8.232, length = 36 },
+  { kind = "bridge", kmFrom = 8.832, kmTo = 8.845, length = 15 },
+  { kind = "bridge", kmFrom = 9.783, kmTo = 9.794, length = 11 },
+  { kind = "bridge", kmFrom = 10.48, kmTo = 10.499, length = 17 },
+  { kind = "bridge", kmFrom = 11.205, kmTo = 11.248, length = 43 },
+  { kind = "bridge", kmFrom = 11.474, kmTo = 11.527, length = 53 },
+  { kind = "bridge", kmFrom = 13.719, kmTo = 13.803, length = 84 },
+  { kind = "bridge", kmFrom = 14.752, kmTo = 14.769, length = 17 },
+  { kind = "bridge", kmFrom = 14.932, kmTo = 15.025, length = 92 },
+  { kind = "bridge", kmFrom = 15.907, kmTo = 15.919, length = 13 },
+  { kind = "bridge", kmFrom = 16.25, kmTo = 16.267, length = 20 },
+  { kind = "bridge", kmFrom = 17.049, kmTo = 17.065, length = 16 },
+  { kind = "bridge", kmFrom = 17.566, kmTo = 17.58, length = 13 },
+  { kind = "bridge", kmFrom = 18.314, kmTo = 18.336, length = 22 },
+  { kind = "bridge", kmFrom = 18.347, kmTo = 18.362, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ilkdHwkbo@u^iI", v = 60 },
+  { line = "_lldHavbo@oLaCsCuAiDkD}M{S", v = 80 },
+  { line = "krmdHawco@KS" },
+  { line = "wrmdHuwco@sU_`@qCwJgAyJUaOrFq{Ax@k_@i@mIqJ_r@yEi\\cC_LmSgi@}FqWgMuRyBcG{C}V_Io`@", v = 80 },
+  { line = "q|pdHa}qo@{@gE" },
+  { line = "m~pdHicro@wNch@oBuR{CcK_LgRqXka@gRcK", v = 80 },
+  { line = "kpsdH_nvo@gEkE_DcG" },
+  { line = "s{sdHo|vo@qBkE", v = 80 },
+  { line = "e_tdH{bwo@oIyQ", v = 60 },
+  { line = "uitdHuuwo@aOm[cs@wdAwo@gf@{IgKsb@wz@gYq\\sC_FcCyHeDoToHkR{DyNiDoGiIuImOgX{JqZqKsUkHkJkM{J_LkPyNsHiGoG_Tag@", v = 80 },
+]
+posts = [[1, 48.07728, 7.88505], [2, 48.08374, 7.89436], [3, 48.08421, 7.90747], [4, 48.08329, 7.92075], [5, 48.08611, 7.93352], [6, 48.09073, 7.94495], [7, 48.09529, 7.95593], [8, 48.0994, 7.96802], [9, 48.1044, 7.97875], [10, 48.11175, 7.98618], [11, 48.11762, 7.99634], [12, 48.12439, 8.00542], [13, 48.13207, 8.01201], [14, 48.13857, 8.02113], [15, 48.14518, 8.02974], [16, 48.14977, 8.04151], [17, 48.1559, 8.05116], [18, 48.16251, 8.06], [19, 48.16955, 8.06791]]
+
+[[connections]]
+km = 0.153
+station = "Denzlingen"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 199.879 },
+]

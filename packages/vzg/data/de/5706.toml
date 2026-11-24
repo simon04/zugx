@@ -1,0 +1,44 @@
+id = "5706"
+ref = "5706"
+name = "5706 Prien am Chiemsee - Aschau (Chiemgau)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Prien a Chiemsee"
+to = "Aschau (Chiemgau)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 9.135
+length = 9.135
+speeds = [[0, 1.449, 70, 70], [1.449, 1.47, "", ""], [1.47, 8.776, 70, 70], [8.776, 8.781, "", ""], [8.781, 9.06, 40, 40], [9.06, 9.135, 130, 130]]
+curves = [[0.3, 0.4, 1780], [1.25, 1.525, 1190], [3.025, 3.575, 970], [4.775, 5.475, 570], [6.15, 6.225, 2520], [6.325, 6.525, 2360], [6.65, 6.725, 2220], [7.15, 7.55, 600], [7.8, 8.05, 830], [8.35, 8.975, 560]]
+points = [
+  { km = 0.036, kind = "stop", label = "Aschau (Chiemgau)", pos = [47.7791, 12.32547], uic = "8000621" },
+  { km = 3.014, kind = "stop", label = "Umrathshausen Ort", pos = [47.80571, 12.32706], uic = "8005962" },
+  { km = 3.044, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.566, kind = "stop", label = "Umrathshausen Bahnhof", pos = [47.81877, 12.32064] },
+  { km = 5.547, kind = "stop", label = "Vachendorf", pos = [47.82682, 12.32171], uic = "8006717" },
+  { km = 7.196, kind = "stop", label = "Urschalling", pos = [47.83581, 12.33898], uic = "8006037" },
+  { km = 8.22, kind = "signal", label = "24Vg", signal = "distant", dir = 1 },
+  { km = 8.644, kind = "signal", label = "24G", signal = "combined", dir = 1 },
+  { km = 9.066, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 9.132, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.449, kmTo = 1.47, length = 21 },
+  { kind = "bridge", kmFrom = 8.23, kmTo = 8.271, length = 41 },
+  { kind = "bridge", kmFrom = 9.077, kmTo = 9.092, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kxrbHyifjAqSXor@vG_H?", v = 70 },
+  { line = "miubHg`fjAe@E" },
+  { line = "sjubHm`fjA{tAiQoKUqIzAuElBwaAlj@aHjAgIeAkEeCcDuD{^cn@_IqQiSoq@cD}GcEqEuTiOcVw]iFwCeG_A", v = 70 },
+  { line = "qe`cH{dkjAI?" },
+  { line = "{e`cH{dkjAeEZcHvB", v = 40 },
+  { line = "eu`cHg`kjA}BdA", v = 130 },
+]
+posts = [[0, 47.77878, 12.32557], [1, 47.78773, 12.32448], [2, 47.79666, 12.32507], [3, 47.80556, 12.32697], [4, 47.81411, 12.3237], [5, 47.82244, 12.31878], [6, 47.82967, 12.32597], [7, 47.83499, 12.33669], [8, 47.84175, 12.34494], [9, 47.84943, 12.34984]]

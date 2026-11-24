@@ -1,0 +1,227 @@
+id = "3557"
+ref = "3557"
+name = "3557 Darmstadt Hbf - Aschaffenburg Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q118629518"
+from = "Darmstadt Hbf"
+to = "Aschaffenburg Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 33.539
+kmTo = 78.057
+length = 44.411
+speeds = [[33.539, 35.407, "", ""], [35.407, 37.396, 80, 80], [37.396, 38.603, 90, 90], [38.603, 41.608, 100, 100], [41.608, 41.735, 120, 100], [41.735, 53.347, 120, 120], [53.347, 54.49, 110, 110], [54.49, 72.006, 120, 120], [72.006, 72.283, 60, 60], [72.283, 73.429, 100, 100], [73.429, 76.713, 120, 120], [76.713, 77.695, 60, 60], [77.695, 78.057, 40, 40]]
+curves = [[33.65, 33.725, 1030], [33.775, 33.851, 970], [34.179, 34.305, 1210], [35.146, 35.762, 720], [36.293, 36.904, 430], [37.123, 37.506, 830], [37.558, 37.635, 2880], [37.885, 37.955, 2480], [38.166, 38.572, 630], [41.255, 41.99, 1460], [47.769, 49.477, 2010], [52.214, 52.757, 1320], [53.509, 54.394, 1000], [63.951, 64.275, 1730], [64.849, 65.024, 1200], [71.148, 71.722, 1060], [72.277, 72.936, 770], [77.206, 77.282, 1810], [77.357, 77.432, 2560], [77.832, 77.957, 920]]
+points = [
+  { km = 33.569, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 33.688, kind = "signal", signal = "minor", dir = -1 },
+  { km = 33.88, kind = "signal", label = "N7", signal = "departure,distant,main,wrong_road", dir = 1 },
+  { km = 33.916, kind = "signal", signal = "stop" },
+  { km = 34.047, kind = "station", label = "Darmstadt Hauptbahnhof", pos = [49.87285, 8.62941], uic = "8000068" },
+  { km = 34.136, kind = "signal", signal = "stop", dir = 1 },
+  { km = 34.139, kind = "signal", label = "S7", signal = "departure,distant,main,minor", dir = 1 },
+  { km = 34.258, kind = "signal", signal = "route,wrong_road", dir = 1 },
+  { km = 34.471, kind = "signal", signal = "minor", dir = -1 },
+  { km = 35.14, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 35.257, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 35.329, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 35.496, kind = "signal", signal = "distant", dir = -1 },
+  { km = 35.661, kind = "signal", signal = "distant", dir = -1 },
+  { km = 36.137, kind = "signal", signal = "distant", dir = 1 },
+  { km = 36.527, kind = "signal", label = "271", signal = "distant,main", dir = -1 },
+  { km = 36.668, kind = "signal", label = "Wv261II", signal = "distant", dir = -1 },
+  { km = 36.796, kind = "signal", signal = "distant", dir = 1 },
+  { km = 36.802, kind = "signal", signal = "distant", dir = -1 },
+  { km = 37.093, kind = "signal", label = "A784", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 37.396, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 37.484, kind = "signal", signal = "distant", dir = -1 },
+  { km = 37.785, kind = "signal", signal = "distant", dir = 1 },
+  { km = 37.885, kind = "signal", label = "P794", signal = "main", dir = -1 },
+  { km = 37.894, kind = "station", label = "Darmstadt Nord", pos = [49.89211, 8.65407], uic = "8001375" },
+  { km = 37.895, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 38.034, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 38.04, kind = "signal", label = "N704", signal = "main", dir = 1 },
+  { km = 38.048, kind = "signal", signal = "distant", dir = -1 },
+  { km = 38.45, kind = "signal", label = "31Vbb", signal = "distant", dir = 1 },
+  { km = 38.603, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 39.063, kind = "signal", label = "G 794", signal = "distant,main,traversable", dir = -1 },
+  { km = 39.532, kind = "signal", label = "31BB", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 39.585, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 40.046, kind = "signal", label = "31Vn02", signal = "distant", dir = 1 },
+  { km = 40.048, kind = "signal", label = "Vg794", signal = "distant", dir = -1 },
+  { km = 40.323, kind = "signal", label = "31P2", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 40.366, kind = "signal", signal = "stop", dir = -1 },
+  { km = 40.431, kind = "station", label = "Darmstadt-Kranichstein", uic = "8001380", pos = [49.90714, 8.67989] },
+  { km = 40.595, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 41.078, kind = "signal", label = "31N2", signal = "main,traversable,wrong_road", dir = 1 },
+  { km = 41.608, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 41.687, kind = "signal", label = "31F", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 41.735, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 41.806, kind = "signal", label = "31VWf", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 42.639, kind = "signal", label = "31Vf", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 42.846, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 43.59, kind = "signal", label = "3212", signal = "main,traversable", dir = -1 },
+  { km = 43.692, kind = "signal", label = "32VAA", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 44.554, kind = "signal", signal = "distant", dir = -1 },
+  { km = 44.665, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 45.165, kind = "signal", signal = "type", dir = -1 },
+  { km = 45.578, kind = "station", label = "Messel", pos = [49.92171, 8.74596], uic = "8003996" },
+  { km = 45.895, kind = "signal", label = "32 N1", signal = "type", dir = 1 },
+  { km = 46.209, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 46.476, kind = "signal", label = "F", signal = "distant,main", dir = -1 },
+  { km = 47.488, kind = "signal", signal = "distant", dir = -1 },
+  { km = 51.46, kind = "signal", signal = "distant", dir = 1 },
+  { km = 52.47, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 53.062, kind = "signal", label = "P2", signal = "main", dir = -1 },
+  { km = 53.084, kind = "signal", signal = "stop", dir = -1 },
+  { km = 53.139, kind = "signal", signal = "stop", dir = -1 },
+  { km = 53.154, kind = "station", label = "Dieburg", pos = [49.90357, 8.84104], uic = "8000362" },
+  { km = 53.347, kind = "signal", signal = "distant,speed_limit", dir = -1 },
+  { km = 54.36, kind = "signal", label = "30 F", signal = "combined", dir = -1 },
+  { km = 54.49, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 55.062, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 55.339, kind = "signal", signal = "distant", dir = -1 },
+  { km = 55.608, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 57.341, kind = "signal", signal = "stop", dir = -1 },
+  { km = 57.399, kind = "signal", signal = "stop", dir = -1 },
+  { km = 57.462, kind = "stop", label = "Altheim (Hess)", pos = [49.92338, 8.89103], uic = "8000546" },
+  { km = 58.621, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 59.743, kind = "signal", label = "33 34", signal = "main", dir = -1 },
+  { km = 59.894, kind = "stop", label = "Hergershausen", pos = [49.93672, 8.91654], uic = "8002773" },
+  { km = 60.704, kind = "signal", signal = "distant", dir = -1 },
+  { km = 60.92, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 61.726, kind = "signal", signal = "distant", dir = 1 },
+  { km = 62.795, kind = "signal", signal = "main", dir = 1 },
+  { km = 63.484, kind = "signal", label = "P1", signal = "main,minor", dir = -1 },
+  { km = 63.678, kind = "station", label = "Babenhausen (Hess)", pos = [49.95779, 8.95736], uic = "8000015" },
+  { km = 63.963, kind = "signal", signal = "distant", dir = -1 },
+  { km = 65.097, kind = "signal", label = "F", signal = "main", dir = -1 },
+  { km = 66.095, kind = "signal", signal = "distant", dir = -1 },
+  { km = 67.311, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 68.567, kind = "signal", label = "16", signal = "main", dir = -1 },
+  { km = 69.572, kind = "signal", signal = "distant", dir = -1 },
+  { km = 69.726, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 70.536, kind = "signal", label = "Lsfa", signal = "minor", dir = 1 },
+  { km = 70.752, kind = "signal", label = "1 I", signal = "minor", dir = 1 },
+  { km = 71.038, kind = "signal", label = "P1", signal = "main,wrong_road", dir = -1 },
+  { km = 71.364, kind = "signal", signal = "distant", dir = -1 },
+  { km = 71.553, kind = "signal", signal = "distant", dir = -1 },
+  { km = 71.622, kind = "station", label = "Stockstadt (Main)", pos = [49.9767, 9.06353], uic = "8005739" },
+  { km = 71.947, kind = "signal", label = "2 II", signal = "minor", dir = -1 },
+  { km = 71.983, kind = "signal", signal = "distant,wrong_road", dir = 1 },
+  { km = 72.005, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 72.006, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 72.283, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 72.424, kind = "signal", label = "F", signal = "distant,main", dir = -1 },
+  { km = 73.035, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 73.214, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 73.429, kind = "signal", signal = "distant,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 73.545, kind = "signal", signal = "stop", dir = -1 },
+  { km = 73.564, kind = "stop", label = "Mainaschaff", pos = [49.98239, 9.08598], uic = "8003810" },
+  { km = 73.963, kind = "signal", label = "932", signal = "main", dir = -1 },
+  { km = 74.1, kind = "signal", signal = "distant", dir = 1 },
+  { km = 74.451, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 74.987, kind = "signal", signal = "distant", dir = -1 },
+  { km = 75.115, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 75.297, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 75.387, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 75.782, kind = "signal", label = "N 502", signal = "main", dir = -1 },
+  { km = 76.713, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 76.727, kind = "signal", signal = "minor", dir = 1 },
+  { km = 76.73, kind = "signal", signal = "minor", dir = -1 },
+  { km = 76.802, kind = "signal", signal = "distant", dir = -1 },
+  { km = 76.803, kind = "signal", signal = "minor", dir = 1 },
+  { km = 76.905, kind = "signal", signal = "minor", dir = -1 },
+  { km = 77.134, kind = "signal", signal = "minor", dir = 1 },
+  { km = 77.347, kind = "signal", signal = "minor", dir = -1 },
+  { km = 77.398, kind = "signal", signal = "minor", dir = 1 },
+  { km = 77.474, kind = "signal", label = "R 005", signal = "main,speed_limit", dir = -1 },
+  { km = 77.48, kind = "signal", signal = "stop", dir = -1 },
+  { km = 77.695, kind = "station", label = "Aschaffenburg Hbf", pos = [49.98067, 9.14388], uic = "8000010" },
+  { km = 77.731, kind = "signal", signal = "stop", dir = 1 },
+  { km = 77.892, kind = "signal", label = "P 005", signal = "main,minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 35.407, kmTo = 35.421, length = 15 },
+  { kind = "bridge", kmFrom = 35.935, kmTo = 35.95, length = 16 },
+  { kind = "bridge", kmFrom = 44.453, kmTo = 44.468, length = 17 },
+  { kind = "bridge", kmFrom = 52.665, kmTo = 52.689, length = 23 },
+  { kind = "bridge", kmFrom = 52.775, kmTo = 52.8, length = 24 },
+  { kind = "bridge", kmFrom = 52.893, kmTo = 52.916, length = 23 },
+  { kind = "bridge", kmFrom = 53.423, kmTo = 53.444, length = 19 },
+  { kind = "bridge", kmFrom = 58.089, kmTo = 58.099, length = 10 },
+  { kind = "bridge", kmFrom = 70.149, kmTo = 70.198, length = 48 },
+  { kind = "bridge", kmFrom = 72.046, kmTo = 72.283, length = 225 },
+  { kind = "bridge", kmFrom = 72.325, kmTo = 72.345, length = 19 },
+  { kind = "bridge", kmFrom = 72.457, kmTo = 72.471, length = 13 },
+  { kind = "bridge", kmFrom = 73.048, kmTo = 73.079, length = 32 },
+  { kind = "bridge", kmFrom = 75.44, kmTo = 75.482, length = 41 },
+  { kind = "bridge", kmFrom = 76.48, kmTo = 76.52, length = 40 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{y`pHy{yv@`@tLQzP", v = 40 },
+  { line = "ky`pHg|xv@gAhtA", v = 60 },
+  { line = "s{`pH}fvv@sHr{G", v = 120 },
+  { line = "geapHijmv@k@di@J`NpBdPpBbHzCxG", v = 100 },
+  { line = "gz`pH}mjv@lIhO", v = 60 },
+  { line = "yo`pHs}iv@`Pp[jC~IhCnOlgAhrOx@pH`Nls@|F`Sxg@voAvdHtpP", v = 120 },
+  { line = "gfroHw}`u@pH|R~DhVj@jTw@zV", v = 110 },
+  { line = "awqoHge~t@uDjv@uAlLaCnLyFjPqbBb}DsFfR}DrSsCpWs@lNYbVz@v[z}@~lNbBjP|BbM", v = 120 },
+  { line = "u{soHer`t@zFlQde@hx@lkAtgB", v = 100 },
+  { line = "eapoHw}zs@|EzIbCtKhD~c@tAfb@", v = 90 },
+  { line = "cnooH}}ws@i@hOeGd[s@xGFvJfA~H~ClH~Yda@hFfFfItC", v = 80 },
+  { line = "eenoHi{ss@jKO`q@_Ovf@yE" },
+]
+posts = [[78, 49.98055, 9.14813], [77, 49.98077, 9.13421], [76, 49.98124, 9.12035], [75, 49.98171, 9.10648], [74, 49.98218, 9.09251], [73, 49.98265, 9.07856], [72, 49.97898, 9.06725], [71, 49.97443, 9.05505], [70, 49.97261, 9.04152], [69, 49.97079, 9.02799], [68, 49.96891, 9.01439], [67, 49.96704, 9.00068], [66, 49.96517, 8.98698], [65, 49.9633, 8.97328], [64, 49.95952, 8.96061], [63, 49.95397, 8.94957], [62, 49.94842, 8.93889], [61, 49.94294, 8.9284], [60, 49.93708, 8.91718], [59, 49.93152, 8.90654], [58, 49.92607, 8.89613], [57, 49.91988, 8.88432], [56, 49.91459, 8.87417], [55, 49.90877, 8.86306], [54, 49.90349, 8.85144], [53, 49.90379, 8.83888], [52, 49.90759, 8.82541], [51, 49.91324, 8.81463], [50, 49.9189, 8.80386], [49, 49.92413, 8.79263], [48, 49.9258, 8.77911], [47, 49.92422, 8.76543], [46, 49.92248, 8.75179], [45, 49.92076, 8.73827], [44, 49.91896, 8.72408], [43, 49.91724, 8.71059], [42, 49.91551, 8.69693], [41, 49.91076, 8.68519], [40, 49.90405, 8.67556], [39, 49.89735, 8.66641], [38, 49.89247, 8.65584], [37, 49.89266, 8.64228], [36, 49.88984, 8.63089], [35, 49.8816, 8.62716], [34, 49.87289, 8.62958]]
+
+[[connections]]
+km = 34.047
+station = "Darmstadt Hauptbahnhof"
+lines = [
+  { id = "3530", ref = "3530", name = "3530 Mainz-Bischofsheim - Darmstadt Hbf", km = 33.287 },
+  { id = "3601", ref = "3601", name = "3601 Frankfurt (Main) Hbf - Abzw Heidelberg-Wieblingen", km = 27.664 },
+  { id = "3688", ref = "3688", name = "3688 Frankfurt Süd - Darmstadt Hbf", km = 81.468 },
+]
+
+[[connections]]
+km = 37.894
+station = "Darmstadt Nord"
+lines = [
+  { id = "3540", ref = "3540", name = "3540 Abzw Weiterstadt Stockschneise - Darmstadt-Kranichstein", km = 32.396 },
+  { id = "3554", ref = "3554", name = "3554 Darmstadt Nord - Groß-Umstadt-Wiebelsbach", km = 3.779 },
+]
+
+[[connections]]
+km = 40.431
+station = "Darmstadt-Kranichstein"
+lines = [
+  { id = "3540", ref = "3540", name = "3540 Abzw Weiterstadt Stockschneise - Darmstadt-Kranichstein", km = 34.91 },
+]
+
+[[connections]]
+km = 53.154
+station = "Dieburg"
+lines = [
+  { id = "3661", ref = "3661", name = "3661 Offenbach (Main) Hbf - Reinheim (Odenw)", km = 30.338 },
+]
+
+[[connections]]
+km = 63.678
+station = "Babenhausen"
+lines = [
+  { id = "4113", ref = "4113", name = "4113 Eberbach - Hanau Hbf", km = 68.209 },
+]
+
+[[connections]]
+km = 77.695
+station = "Aschaffenburg Hbf"
+lines = [
+  { id = "3660", ref = "3660", name = "3660 Frankfurt (Main) Süd - Aschaffenburg Hbf", km = 43.203 },
+  { id = "5200", ref = "5200", name = "5200 Würzburg - Aschaffenburg", km = 89.347 },
+  { id = "5220", ref = "5220", name = "5220 Aschaffenburg Hbf - Miltenberg West", km = -0.044 },
+]

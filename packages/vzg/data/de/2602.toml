@@ -1,0 +1,29 @@
+id = "2602"
+ref = "2602"
+name = "2602 Horrem - Horrem Ubergabebf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Horrem"
+to = "Horrem Ubergabebf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.883
+length = 0.883
+speeds = [[0, 0.262, 50, 50], [0.262, 0.883, 50, 40]]
+curves = [[0.1, 0.225, 830], [0.375, 0.775, 360]]
+points = [
+  { km = 0.262, kind = "signal", label = "32P19", signal = "main,speed_limit", dir = -1 },
+  { km = 0.603, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.696, kind = "signal", signal = "main,minor,speed_limit", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qhxuHsa`h@tBvK`BjSXbIOnE", v = 50 },
+  { line = "oaxuH{o~g@Ed@", tunnel = true, v = 50 },
+  { line = "uaxuHun~g@oBdI}ErG", v = 50 },
+]
+posts = [[0, 50.91993, 6.72298]]

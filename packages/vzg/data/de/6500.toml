@@ -1,0 +1,66 @@
+id = "6500"
+ref = "6500"
+name = "6500 Berlin-Karow – Fichtengrund"
+operator = "Niederbarnimer Eisenbahn AG;DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q20170696"
+from = "Berlin-Karow"
+to = "Fichtengrund"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 45.701
+kmTo = 68.301
+length = 22.597
+speeds = [[45.701, 63.955, 80, 80], [63.955, 63.999, "", ""], [63.999, 68.015, 80, 80], [68.015, 68.301, 10, ""]]
+curves = [[46.173, 47.399, 740], [47.474, 47.721, 1080], [48.091, 48.166, 2720], [50.34, 51.433, 1050], [53.364, 53.614, 1260], [53.79, 53.94, 1280], [56.524, 56.599, 2720], [57.928, 58.028, 1920], [58.129, 58.204, 2480], [58.405, 58.856, 460], [60.787, 61.013, 700], [62.092, 62.342, 1280], [63.492, 63.667, 1270], [64.217, 64.967, 1000], [66.368, 67.193, 1990]]
+points = [
+  { km = 45.876, kind = "signal", label = "49 ZU5", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 45.962, kind = "signal", label = "49 N5", signal = "main,traversable", dir = 1 },
+  { km = 46.128, kind = "signal", signal = "minor", dir = -1 },
+  { km = 46.193, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 46.223, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 46.54, kind = "signal", label = "138", signal = "main", measured = true },
+  { km = 47.24, kind = "signal", signal = "distant", measured = true },
+  { km = 50.935, kind = "signal", signal = "shunting" },
+  { km = 50.947, kind = "signal", signal = "shunting" },
+  { km = 51.173, kind = "station", label = "Schönerlinde", pos = [52.65254, 13.42858], uic = "8003608" },
+  { km = 54.293, kind = "stop", label = "Schönwalde", pos = [52.67997, 13.4324] },
+  { km = 54.375, kind = "stop", label = "Schönwalde", pos = [52.68027, 13.43247], uic = "8003609" },
+  { km = 58.281, kind = "station", label = "Basdorf", pos = [52.71542, 13.43389], uic = "8003593" },
+  { km = 61.16, kind = "stop", label = "Zühlsdorf", pos = [52.73259, 13.40366] },
+  { km = 61.196, kind = "stop", label = "Zühlsdorf", pos = [52.73274, 13.40343], uic = "8003594" },
+  { km = 61.37, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 61.51, kind = "signal", label = "KV6120", signal = "type", dir = 1 },
+  { km = 63.95, kind = "stop", label = "Wensickendorf", pos = [52.75509, 13.38657], uic = "8003595" },
+  { km = 67.752, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 68.015, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 68.278, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 46.132, kmTo = 46.143, length = 12 },
+  { kind = "bridge", kmFrom = 46.353, kmTo = 46.415, length = 63 },
+  { kind = "bridge", kmFrom = 46.579, kmTo = 46.622, length = 43 },
+  { kind = "bridge", kmFrom = 46.888, kmTo = 46.978, length = 90 },
+  { kind = "bridge", kmFrom = 48.033, kmTo = 48.058, length = 26 },
+  { kind = "bridge", kmFrom = 48.125, kmTo = 48.162, length = 38 },
+  { kind = "bridge", kmFrom = 48.312, kmTo = 48.342, length = 31 },
+  { kind = "bridge", kmFrom = 62.318, kmTo = 62.329, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ytbaIavkpAxAmX", v = 10 },
+  { line = "_rbaIoolpAbJq{A`EuXfG{Vlo@}jBlEyJdGkIxGoFxGqCnMmC", v = 80 },
+  { line = "ky~`IgpupAlAU" },
+  { line = "}v~`I}pupAzUsFv`Asi@vG_Gjt@gz@bD_Gl`A}yCzD{GnC{B`Ey@jYm@hmA[zoC~JfGBhUsBpqBrXhJBnF_AnIuDtG_GvCyDxFsLdkAubDdO}h@tGyb@pCiIvDaHtDgEhFaDbFmAdFNfGvCbYn[", v = 80 },
+]
+posts = [[68, 52.77485, 13.34046], [67, 52.7731, 13.35503], [66, 52.76865, 13.36783], [65, 52.76329, 13.37976], [64, 52.75559, 13.38643], [63, 52.74701, 13.39069], [62, 52.73883, 13.39673], [61, 52.73139, 13.40499], [60, 52.726, 13.41671], [59, 52.72087, 13.42885], [58, 52.71317, 13.43396], [57, 52.70421, 13.43406], [56, 52.69525, 13.43371], [55, 52.6863, 13.43294], [54, 52.67734, 13.43221], [53, 52.66843, 13.43192], [52, 52.65955, 13.42992], [51, 52.65065, 13.42911], [50, 52.64389, 13.43859], [49, 52.63835, 13.45048], [48, 52.6329, 13.46248], [47, 52.62851, 13.4754], [46, 52.62044, 13.47528]]
+
+[[connections]]
+km = 54.293
+station = "Schönwalde"
+lines = [
+  { id = "6501", ref = "6501", name = "6501 Berlin-Wilhelmsruh–Abzw Schönwalde", km = 0.409 },
+]

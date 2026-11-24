@@ -1,0 +1,36 @@
+id = "2681"
+ref = "2681"
+name = "Hermesdorf - Morsbach"
+operator = "RSE Rhein-Sieg-Eisenbahn GmbH"
+gauge = "1435"
+wikidata = "Q19838739"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.085
+length = 7.085
+speeds = [[0, 7.085, "", ""]]
+curves = [[0.1, 0.15, 1030], [0.275, 0.5, 530], [0.55, 0.775, 880], [0.875, 1.05, 1320], [1.2, 1.45, 540], [1.55, 1.725, 1190], [2.35, 2.875, 400], [2.925, 3.1, 670], [3.225, 3.55, 530], [3.6, 3.925, 550], [3.975, 4.225, 450], [4.275, 4.575, 540], [4.7, 5.325, 700], [5.575, 6.7, 410], [6.875, 6.975, 1810]]
+points = [
+  { km = 0.229, kind = "station", label = "Hermesdorf", pos = [50.89184, 7.65618] },
+  { km = 2.922, kind = "halt", label = "Kömpel", pos = [50.88516, 7.68918] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 1.736, kmTo = 2.519, length = 782, name = "Kömpeler Tunnel" },
+  { kind = "bridge", kmFrom = 3.121, kmTo = 3.14, length = 18 },
+  { kind = "bridge", kmFrom = 3.634, kmTo = 3.693, length = 58 },
+  { kind = "bridge", kmFrom = 3.832, kmTo = 3.883, length = 51 },
+  { kind = "bridge", kmFrom = 4.441, kmTo = 4.455, length = 14 },
+  { kind = "bridge", kmFrom = 5.37, kmTo = 5.389, length = 19 },
+  { kind = "bridge", kmFrom = 6.535, kmTo = 6.564, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "struH_wum@mAiHkBuTBmEjAoOHkJYcR_Ci\\j@eMrCuU" },
+  { line = "mvruHsmzm@|Mws@|BcI", tunnel = true },
+  { line = "qcruHol|m@vCwEvDcCxMg@hP_FrFTtNjFhEc@xI{ChQvCfFeAtJgEvD_DbFeJnCqHx@sFhCo]hBcJnEyH|LsI~AyCfAuE^sHg@uH{Mqd@" },
+]
+posts = [[0, 50.89114, 7.65312], [1, 50.8918, 7.66705], [2, 50.89046, 7.68065], [3, 50.88445, 7.6892], [4, 50.87575, 7.68982], [5, 50.8674, 7.69267], [6, 50.86325, 7.70466], [7, 50.86282, 7.71575]]

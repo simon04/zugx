@@ -1,0 +1,223 @@
+id = "6269"
+ref = "6269"
+name = "6269 Elstertalbahn"
+operator = "DB Netz"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.295
+kmTo = 59.998
+length = 58.665
+speeds = [[1.295, 2.392, 80, 80], [2.392, 5.017, 100, 100], [5.017, 5.301, 90, 90], [5.301, 6.566, 100, 100], [6.566, 9.886, "", ""], [9.886, 10.4, 60, 60], [10.4, 57.816, "", ""], [57.816, 59.118, 80, 80], [59.118, 59.998, "", ""]]
+curves = [[2.184, 2.584, 1140], [4.484, 5.084, 490], [5.384, 5.784, 580], [6.01, 6.236, 840], [6.739, 7.291, 400], [8.566, 9.106, 560], [9.597, 9.908, 410], [9.96, 10.235, 540], [10.31, 10.611, 520], [10.762, 11.188, 430], [11.288, 11.639, 430], [11.715, 12.166, 410], [12.341, 13.244, 400], [13.395, 13.646, 430], [13.696, 13.997, 390], [14.047, 14.323, 380], [14.373, 14.598, 560], [14.649, 15.1, 420], [15.15, 15.752, 510], [15.827, 16.429, 340], [16.479, 17.142, 310], [17.338, 18.052, 310], [18.727, 18.777, 2560], [19.177, 19.452, 590], [19.527, 20.177, 380], [20.377, 21.227, 880], [21.352, 21.852, 390], [22.551, 23.162, 820], [23.391, 24.028, 300], [24.078, 24.879, 400], [24.954, 25.254, 450], [25.379, 25.804, 610], [25.929, 26.705, 470], [26.805, 27.58, 560], [27.78, 27.98, 1010], [28.13, 28.306, 910], [28.356, 29.206, 540], [29.356, 29.781, 770], [29.881, 30.257, 710], [30.782, 31.107, 520], [31.407, 31.557, 870], [31.758, 32.182, 430], [32.257, 32.507, 530], [32.583, 32.784, 710], [33.503, 33.731, 610], [33.782, 34.579, 350], [34.956, 35.184, 760], [35.334, 35.61, 610], [36.448, 36.715, 500], [36.985, 37.627, 360], [37.977, 38.552, 520], [38.677, 38.878, 890], [38.978, 39.203, 850], [39.278, 39.528, 670], [39.604, 39.929, 470], [39.979, 40.279, 350], [40.329, 40.63, 400], [40.755, 40.805, 2980], [41.08, 41.506, 580], [41.556, 42.156, 320], [42.231, 42.757, 340], [42.807, 43.005, 590], [43.055, 43.231, 970], [43.456, 43.875, 810], [43.91, 44.07, 690], [44.105, 44.229, 700], [44.265, 44.389, 660], [44.424, 44.548, 610], [44.59, 44.923, 630], [44.974, 46.615, 470], [46.871, 47.205, 630], [47.461, 48.076, 500], [48.128, 48.41, 470], [48.512, 49.153, 700], [49.23, 49.922, 470], [50.102, 50.845, 960], [50.896, 51.332, 330], [51.383, 51.64, 740], [51.717, 51.794, 1440], [51.871, 52.229, 700], [53.05, 53.563, 580], [53.716, 54.255, 370], [54.46, 55.101, 370], [55.357, 56.229, 730], [56.434, 56.947, 480], [57.434, 57.639, 780], [57.869, 58.098, 700], [59.248, 59.573, 560], [59.648, 59.798, 1570]]
+points = [
+  { km = 1.547, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 2.01, kind = "signal", label = "37ZR2", signal = "combined,speed_limit", dir = 1 },
+  { km = 2.418, kind = "signal", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 2.485, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.52, kind = "station", label = "Gera-Zwötzen", uic = "8011623", pos = [50.85051, 12.08236] },
+  { km = 2.584, kind = "signal", signal = "main", dir = 1 },
+  { km = 2.723, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.666, kind = "signal", label = "60G", signal = "main", dir = -1 },
+  { km = 6.495, kind = "halt", label = "Wünschendorf (Elster) Nord", ele = 207, pos = [50.81738, 12.07796] },
+  { km = 7.463, kind = "signal", label = "Va", signal = "distant", dir = 1 },
+  { km = 8.2, kind = "signal", label = "A", signal = "main", dir = 1, measured = true },
+  { km = 8.585, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.73, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 8.793, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.077, kind = "signal", label = "D", signal = "main", dir = -1 },
+  { km = 9.408, kind = "station", label = "Wünschendorf (Elster)", pos = [50.79742, 12.09764], ele = 213 },
+  { km = 9.488, kind = "signal", label = "M", signal = "main,speed_limit", dir = 1 },
+  { km = 9.798, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 9.886, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.151, kind = "signal", label = "R", signal = "main", dir = -1 },
+  { km = 10.4, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 16.716, kind = "signal", label = "Va", signal = "distant", dir = 1 },
+  { km = 17.392, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 17.9, kind = "signal", signal = "shunting", dir = -1, measured = true },
+  { km = 18.127, kind = "signal", label = "B", signal = "main", dir = -1 },
+  { km = 18.217, kind = "stop", label = "Berga/Elster", pos = [50.7473, 12.15885] },
+  { km = 18.218, kind = "station", label = "Berga (Elster)", uic = "8016717", ele = 228, pos = [50.74729, 12.1589] },
+  { km = 18.647, kind = "signal", label = "E", signal = "main", dir = 1 },
+  { km = 23.803, kind = "signal", signal = "stop", dir = -1 },
+  { km = 23.994, kind = "signal", signal = "stop", dir = -1 },
+  { km = 24.063, kind = "signal", signal = "stop", dir = 1 },
+  { km = 24.063, kind = "halt", label = "Neumühle (Elster)", ele = 245, pos = [50.70219, 12.16986] },
+  { km = 24.078, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 29.021, kind = "signal", label = "Va", signal = "distant", dir = 1 },
+  { km = 29.501, kind = "signal", label = "Wva", signal = "distant", dir = 1 },
+  { km = 29.714, kind = "signal", signal = "distant", dir = 1 },
+  { km = 29.717, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 30.636, kind = "signal", label = "C", signal = "main", dir = -1 },
+  { km = 30.767, kind = "station", label = "Greiz", pos = [50.65256, 12.19431], uic = "8016720", ele = 261 },
+  { km = 31.098, kind = "signal", label = "M", signal = "main", dir = 1 },
+  { km = 31.542, kind = "signal", label = "L", signal = "main", dir = -1 },
+  { km = 31.544, kind = "signal", signal = "distant", dir = -1 },
+  { km = 31.791, kind = "signal", label = "Va", signal = "distant", dir = 1, measured = true },
+  { km = 32.357, kind = "signal", label = "Vwa", signal = "distant", dir = 1, measured = true },
+  { km = 32.528, kind = "signal", label = "A", signal = "combined,traversable", dir = 1, measured = true },
+  { km = 32.64, kind = "signal", signal = "shunting", dir = -1, measured = true },
+  { km = 32.912, kind = "signal", label = "Rs1I", signal = "shunting", dir = 1, measured = true },
+  { km = 33.057, kind = "signal", label = "B", signal = "main,traversable", dir = -1, measured = true },
+  { km = 33.327, kind = "signal", signal = "stop", dir = -1, measured = true },
+  { km = 33.378, kind = "station", label = "Greiz-Dölau", pos = [50.63139, 12.18598], ele = 269 },
+  { km = 33.563, kind = "signal", label = "Vwf", signal = "distant", dir = 1, measured = true },
+  { km = 33.715, kind = "signal", label = "F", signal = "main,traversable", dir = 1, measured = true },
+  { km = 33.898, kind = "signal", label = "RS1II", signal = "shunting", dir = -1, measured = true },
+  { km = 33.97, kind = "signal", signal = "shunting", dir = 1, measured = true },
+  { km = 34.072, kind = "signal", label = "G", signal = "combined,distant,traversable", dir = -1, measured = true },
+  { km = 35, kind = "signal", label = "A", signal = "main", dir = 1, measured = true },
+  { km = 35, kind = "signal", label = "Vfg", signal = "distant", dir = 1, measured = true },
+  { km = 35.12, kind = "signal", signal = "shunting", dir = -1, measured = true },
+  { km = 35.395, kind = "signal", label = "C", signal = "main", dir = -1, measured = true },
+  { km = 35.87, kind = "station", label = "Elsterberg", pos = [50.61364, 12.16747], uic = "8016723", ele = 275 },
+  { km = 35.97, kind = "signal", label = "F", signal = "main", dir = 1, measured = true },
+  { km = 36.152, kind = "signal", label = "Vb,c", signal = "distant", dir = -1, measured = true },
+  { km = 36.785, kind = "signal", label = "H", signal = "main", dir = -1, measured = true },
+  { km = 37.041, kind = "stop", label = "Elsterberg Kunstseidenwerk", pos = [50.6049, 12.15958], uic = "8059060", ele = 276 },
+  { km = 37.637, kind = "signal", label = "Vh", signal = "distant", dir = -1, measured = true },
+  { km = 40.736, kind = "halt", label = "Rentzschmühle", pos = [50.57483, 12.1578] },
+  { km = 41.6, kind = "signal", label = "Va", signal = "distant", dir = 1, measured = true },
+  { km = 42.11, kind = "signal", signal = "speed_limit_distant", dir = 1, measured = true },
+  { km = 42.36, kind = "signal", label = "A", signal = "combined", dir = 1, measured = true },
+  { km = 42.57, kind = "signal", signal = "shunting", dir = -1, measured = true },
+  { km = 42.833, kind = "signal", label = "B", signal = "main", dir = -1, measured = true },
+  { km = 42.9, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 42.9, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 42.935, kind = "halt", label = "Barthmühle", pos = [50.55788, 12.16373] },
+  { km = 43, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 43, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 43.403, kind = "signal", label = "D", signal = "main,traversable", dir = 1, measured = true },
+  { km = 43.439, kind = "halt", label = "Jocketa", uic = "8006710", pos = [50.55519, 12.16998] },
+  { km = 43.658, kind = "signal", signal = "shunting", dir = 1, measured = true },
+  { km = 43.7, kind = "signal", signal = "speed_limit_distant", dir = -1, measured = true },
+  { km = 43.8, kind = "signal", label = "F", signal = "combined,traversable", dir = -1, measured = true },
+  { km = 44.57, kind = "signal", label = "Vf", signal = "distant", dir = -1, measured = true },
+  { km = 50.942, kind = "halt", label = "Plauen Mitte", pos = [50.49288, 12.14765] },
+  { km = 58.15, kind = "halt", label = "Kürbitz", pos = [50.46264, 12.06974] },
+  { km = 58.86, kind = "signal", label = "B", signal = "main", dir = 1 },
+  { km = 59.118, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 59.902, kind = "station", label = "Weischlitz", pos = [50.44864, 12.06078], uic = "8059067" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.618, kmTo = 2.693, length = 75 },
+  { kind = "bridge", kmFrom = 3.224, kmTo = 3.239, length = 15 },
+  { kind = "bridge", kmFrom = 4.698, kmTo = 4.717, length = 19 },
+  { kind = "bridge", kmFrom = 5.912, kmTo = 5.923, length = 10 },
+  { kind = "bridge", kmFrom = 6.319, kmTo = 6.329, length = 10 },
+  { kind = "bridge", kmFrom = 6.566, kmTo = 6.692, length = 125 },
+  { kind = "bridge", kmFrom = 9.718, kmTo = 9.733, length = 15 },
+  { kind = "bridge", kmFrom = 9.904, kmTo = 9.918, length = 13 },
+  { kind = "bridge", kmFrom = 10.235, kmTo = 10.327, length = 92 },
+  { kind = "tunnel", kmFrom = 12.052, kmTo = 12.11, length = 58, name = "Lochguttunnel" },
+  { kind = "bridge", kmFrom = 12.124, kmTo = 12.188, length = 63 },
+  { kind = "bridge", kmFrom = 13.243, kmTo = 13.256, length = 13 },
+  { kind = "bridge", kmFrom = 20.1, kmTo = 20.11, length = 10 },
+  { kind = "bridge", kmFrom = 21.862, kmTo = 21.907, length = 45 },
+  { kind = "tunnel", kmFrom = 21.934, kmTo = 22.196, length = 263, name = "Rüßdorfer Tunnel" },
+  { kind = "bridge", kmFrom = 25.212, kmTo = 25.312, length = 100 },
+  { kind = "bridge", kmFrom = 25.91, kmTo = 25.97, length = 60 },
+  { kind = "tunnel", kmFrom = 26.075, kmTo = 26.189, length = 114, name = "Bretmühlentunnel" },
+  { kind = "bridge", kmFrom = 26.252, kmTo = 26.323, length = 71 },
+  { kind = "tunnel", kmFrom = 29.952, kmTo = 30.219, length = 267, name = "Schlossbergtunnel" },
+  { kind = "bridge", kmFrom = 30.245, kmTo = 30.267, length = 22 },
+  { kind = "bridge", kmFrom = 30.287, kmTo = 30.349, length = 61 },
+  { kind = "bridge", kmFrom = 30.446, kmTo = 30.469, length = 22 },
+  { kind = "bridge", kmFrom = 31.932, kmTo = 32.029, length = 97 },
+  { kind = "bridge", kmFrom = 32.537, kmTo = 32.638, length = 99 },
+  { kind = "tunnel", kmFrom = 32.746, kmTo = 32.886, length = 140, name = "Rothentaltunnel" },
+  { kind = "bridge", kmFrom = 32.886, kmTo = 32.965, length = 75 },
+  { kind = "bridge", kmFrom = 32.974, kmTo = 32.989, length = 13 },
+  { kind = "bridge", kmFrom = 36.08, kmTo = 36.142, length = 65 },
+  { kind = "tunnel", kmFrom = 36.28, kmTo = 36.67, length = 365, name = "Tunnel Elsterberg" },
+  { kind = "bridge", kmFrom = 37.072, kmTo = 37.081, length = 10 },
+  { kind = "bridge", kmFrom = 39.555, kmTo = 39.601, length = 46 },
+  { kind = "tunnel", kmFrom = 39.752, kmTo = 39.836, length = 84, name = "Steinicht-Tunnel" },
+  { kind = "bridge", kmFrom = 39.904, kmTo = 39.958, length = 54 },
+  { kind = "bridge", kmFrom = 40.263, kmTo = 40.311, length = 48 },
+  { kind = "bridge", kmFrom = 40.497, kmTo = 40.547, length = 49 },
+  { kind = "bridge", kmFrom = 42.144, kmTo = 42.196, length = 52 },
+  { kind = "bridge", kmFrom = 42.59, kmTo = 42.611, length = 21 },
+  { kind = "bridge", kmFrom = 43.7, kmTo = 43.726, length = 27 },
+  { kind = "tunnel", kmFrom = 44.678, kmTo = 44.887, length = 204, name = "Möschwitzer Tunnel" },
+  { kind = "bridge", kmFrom = 44.91, kmTo = 44.946, length = 35 },
+  { kind = "bridge", kmFrom = 45.478, kmTo = 45.524, length = 45 },
+  { kind = "bridge", kmFrom = 47.206, kmTo = 47.235, length = 29 },
+  { kind = "bridge", kmFrom = 48.376, kmTo = 48.443, length = 66 },
+  { kind = "bridge", kmFrom = 50.881, kmTo = 50.928, length = 45 },
+  { kind = "bridge", kmFrom = 51.346, kmTo = 51.363, length = 17 },
+  { kind = "bridge", kmFrom = 51.576, kmTo = 51.586, length = 10 },
+  { kind = "bridge", kmFrom = 51.621, kmTo = 51.663, length = 41 },
+  { kind = "bridge", kmFrom = 51.683, kmTo = 51.716, length = 32 },
+  { kind = "bridge", kmFrom = 51.817, kmTo = 51.838, length = 21 },
+  { kind = "bridge", kmFrom = 51.923, kmTo = 51.948, length = 25 },
+  { kind = "bridge", kmFrom = 55.18, kmTo = 55.196, length = 16 },
+  { kind = "bridge", kmFrom = 57.781, kmTo = 57.816, length = 34 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "y_|rHctrhA_N[qN^gFoByHuG" },
+  { line = "mo}rHe`shAqr@ym@yCyDuCwG", v = 80 },
+  { line = "ol_sHq}thAqIcRwYo]cEkH_CoMs@wd@i@wIuAiIeCmIuDcHcFaF}UqMmC{DsA}D}@}FMuEvC{c@@}G]{DeC_JkQeRkDeI_BmM_E}jAgAqN{A}EwLsVaBaGyCeRkCqFaEsCmL}AcFkCiGiFwHwLiKeX{DoE{DgC}Dc@}Ch@kMnJsDjAyHe@kIsCkLqKwByFyCoO_CmHaDwEiDuBu]gBgC_B_SeSkGuByEh@aMlGqDBiFmC_JwKwHgDoEF}B|@}HvG" },
+  { line = "mymsHabhiAyItD", tunnel = true },
+  { line = "gdnsHk|giAyLUuIdCoKK_K`DwMq@mI`@iE`CkPrQiLjHcJlMwErBcFo@iOkQcGaBsC^aDbC_H|P}CvFqD~CuBn@}`@xBwDeAeH}HoC}AuCWwJfA" },
+  { line = "qkvsH}}eiAuC]", tunnel = true },
+  { line = "gpvsH{~eiAcQkNsNoCaRqLkLuC_EGoGfBkE|D}Rx_@uBnCyCjB{E^gDu@cDiCoOa\\" },
+  { line = "oe{sHmufiAyD}EqKgE", tunnel = true },
+  { line = "{w{sHsbgiAef@cQwCoBqNoWi^gW}C_I_CeRmCyFoCyBkMmDc`@_b@" },
+  { line = "at`tHgzkiAoE_F", tunnel = true },
+  { line = "qz`tHgaliAaRyJwJmQcC_CuCaA{CAyQzCaV~KeEt@yDYa`@yM" },
+  { line = "_~dtHuamiAsEe@gGj@", tunnel = true },
+  { line = "{letHoamiAeLvDoEXgGUaOoFoDi@_FXqF~BsDrDmElH_G`XmIrUwNhUwHfFmHfAgFm@cDgB{KeLuDgBoFBqIbD" },
+  { line = "k_ktH}pjiAgDvD", tunnel = true },
+  { line = "sdktHekjiAqKb[}C`FcFfEgOzF}D[}HmDgEo@gGz@sDhCcC~EmA|GGzF~@vPUbGyAnG}CrEmEdB_Vu@oKfBsIvF{RfU" },
+  { line = "egptH}weiAaKlL", tunnel = true },
+  { line = "gsptHojeiAkHpHsBv@iEP}DmAcRmMiJeC{JKsCnAsClCaPtXaEbCqD^uC]_D_BiKsNqEqC}cAoTsD@iD|AqD|FcAdE]zELdGfEx_@CfFi@tEoB|FgDpDwC|@sMVoC|AqBhCoAdD{@nFc@zZu@jHaAzDyElJaO`LgEjImAlG}AbRcGbTYlF`@dOOtFyGnWy@va@mBvKsBnE{CdDmD~A{CTaHuBsMcL" },
+  { line = "m}{tHid{hA_B_A", tunnel = true },
+  { line = "m`|tHif{hAmE_AcE`@oLxHoDt@oDSwLaEsF@cFfC}M~NyDzA" },
+  { line = "wv~tHgkzhAyNlAsCjBcEdF", v = 60 },
+  { line = "iq_uHg~yhAwCjC}Cx@ed@oBcMnE_FdIsj@laBoCbGgE|DyEhAgPuC" },
+  { line = "wcduHw|uhAsWsFkTvAqDx@oDxByHrK", v = 100 },
+  { line = "sffuHkouhAeKhO", v = 90 },
+  { line = "yrfuHa_uhAqExDiDjAiEN{Du@yfBy~@kIyC", v = 100 },
+  { line = "a}juHu|vhAmH{@cs@g@", v = 80 },
+]
+posts = [[59, 50.45602, 12.06374], [58, 50.46379, 12.07086], [57, 50.47027, 12.08001], [56, 50.47297, 12.09238], [55, 50.47962, 12.10038], [54, 50.48066, 12.11303], [53, 50.48575, 12.12337], [52, 50.4871, 12.13694], [51, 50.49238, 12.14753], [50, 50.49967, 12.15414], [49, 50.50715, 12.15573], [48, 50.51412, 12.16217], [47, 50.52186, 12.16644], [46, 50.52977, 12.16901], [45, 50.5378, 12.17157], [44, 50.54842, 12.1685], [43, 50.55734, 12.16406], [42, 50.56501, 12.16392], [41, 50.57248, 12.15815], [40, 50.58103, 12.16011], [39, 50.58947, 12.16372], [38, 50.59775, 12.16381], [37, 50.60516, 12.16], [36, 50.61244, 12.16685], [35, 50.62006, 12.17353], [34, 50.62639, 12.1824], [33, 50.63425, 12.18912], [32, 50.64166, 12.19654], [31, 50.65033, 12.19386], [30, 50.65908, 12.19635], [29, 50.66785, 12.19671], [28, 50.67392, 12.18734], [27, 50.68138, 12.18104], [26, 50.68933, 12.18161], [25, 50.69649, 12.17473], [24, 50.70204, 12.169], [23, 50.70868, 12.16412], [22, 50.71635, 12.15726], [21, 50.72453, 12.15777], [20, 50.73222, 12.15272], [19, 50.74039, 12.15673], [18, 50.74921, 12.15948], [17, 50.75136, 12.14864], [16, 50.75804, 12.14141], [15, 50.76234, 12.13049], [14, 50.76573, 12.118], [13, 50.76786, 12.10463], [12, 50.77571, 12.10505], [11, 50.78433, 12.10428], [10, 50.79255, 12.09937], [9, 50.80115, 12.09796], [8, 50.80738, 12.08819], [7, 50.81295, 12.07732], [6, 50.82175, 12.07887], [5, 50.82954, 12.07284], [4, 50.838, 12.07474], [3, 50.84638, 12.07993], [2, 50.85504, 12.08305]]
+
+[[connections]]
+km = 2.52
+station = "Gera-Zwötzen"
+lines = [
+  { id = "6383", ref = "6383", name = "Leipzig-Probstzella", km = 76.817 },
+]
+
+[[connections]]
+km = 6.495
+station = "Wünschendorf Nord"
+lines = [
+  { id = "6383", ref = "6383", name = "Leipzig-Probstzella", km = 80.798 },
+]
+
+[[connections]]
+km = 43.439
+station = "Jocketa"
+lines = [
+  { id = "6362", ref = "6362", name = "6362 Leipzig - Hof", km = 108.486 },
+]
+
+[[connections]]
+km = 58.15
+station = "Kürbitz"
+lines = [
+  { id = "6270", ref = "6270", name = "6270 Plauen (Vogtl) ob Bf - Bad Brambach Grenze", km = 7.69 },
+]
+
+[[connections]]
+km = 59.902
+station = "Weischlitz"
+lines = [
+  { id = "6270", ref = "6270", name = "6270 Plauen (Vogtl) ob Bf - Bad Brambach Grenze", km = 9.375 },
+]

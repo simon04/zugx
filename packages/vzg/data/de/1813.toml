@@ -1,0 +1,34 @@
+id = "1813"
+ref = "1813"
+name = "Siebertalbahn"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q802430"
+from = "Herzberg"
+to = "Herzberg-Siebertal"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.769
+length = 0.769
+speeds = [[0, 0.769, "", ""]]
+curves = [[0.425, 0.65, 1050]]
+points = [
+  { km = 0, kind = "station", label = "Herzberg (Harz)", uic = "8013088", pos = [51.64379, 10.32985] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ioezH}t`~@~YoNfKoK" },
+]
+posts = [[0, 51.64293, 10.33055]]
+
+[[connections]]
+km = 0
+station = "Herzberg"
+lines = [
+  { id = "1810", ref = "1810", name = "1810 Northeim - Nordhausen", km = 115.756 },
+  { id = "1812", ref = "1812", name = "1812 Seesen - Herzberg", km = 117.69 },
+]

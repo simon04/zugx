@@ -1,0 +1,48 @@
+id = "1753"
+ref = "1753"
+name = "1753 Hannover-Waldhausen - Hannover-Wülfel"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q108302997"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.41
+length = 3.41
+speeds = [[0, 0.068, 80, 80], [0.068, 0.135, 100, 100], [0.135, 3.41, "", ""]]
+curves = [[0.125, 0.175, 30], [0.225, 0.9, 540], [1.075, 1.225, 1410]]
+points = [
+  { km = 0.224, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.456, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.576, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.577, kind = "signal", label = "868", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 0.759, kind = "signal", label = "C 010", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 0.768, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.557, kind = "signal", label = "T 082", signal = "main,speed_limit", dir = 1 },
+  { km = 1.647, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.765, kind = "signal", signal = "route", dir = -1 },
+  { km = 1.891, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.081, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.083, kind = "signal", signal = "route", dir = 1 },
+  { km = 2.418, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.54, kind = "signal", signal = "main,minor,route,speed_limit", dir = -1 },
+  { km = 3.07, kind = "signal", label = "R 412", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 3.139, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.333, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.238, kmTo = 0.256, length = 18 },
+  { kind = "bridge", kmFrom = 0.529, kmTo = 0.561, length = 32 },
+  { kind = "bridge", kmFrom = 0.785, kmTo = 0.819, length = 34 },
+  { kind = "bridge", kmFrom = 1.264, kmTo = 1.298, length = 34 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "grn~Hkqrz@YaE", v = 80 },
+  { line = "asn~Hmwrz@`@|D", v = 100 },
+  { line = "_rn~Hoqrz@{@mSXkI~C}NtE_I|OsMxtB_gA" },
+]
+posts = [[0, 52.34484, 9.76678], [1, 52.34177, 9.77707], [2, 52.33342, 9.78249], [3, 52.32499, 9.78762]]

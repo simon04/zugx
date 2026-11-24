@@ -1,0 +1,27 @@
+id = "9520"
+ref = "9520"
+name = "9520 Aschaffenburg-Nilkheim - Aschaffenburg Hafen"
+operator = "Bayernhafen GmbH & Co. KG"
+gauge = "1435"
+wikidata = "Q119726442"
+from = "Aschaffenburg-Nilkheim"
+to = "Aschaffenburg Hafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.002
+kmTo = 1.352
+length = 1.343
+speeds = [[0.002, 1.352, "", ""]]
+curves = [[0.102, 0.425, 460], [1.108, 1.233, 1270]]
+points = [
+  { km = 0.602, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.696, kind = "signal", signal = "crossing", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "i~{oHylsv@sGdJqF`C_l@jFeDDqDiA" },
+]
+posts = [[1, 49.96411, 9.11238]]

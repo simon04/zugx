@@ -1,0 +1,35 @@
+id = "1774"
+ref = "1774"
+name = "1774 Abzw Sorsum - Abzw Himmelsthür"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q1618456"
+from = "Sorsum"
+to = "Himmelsthür (Abzw)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.014
+kmTo = 3.483
+length = 3.527
+speeds = [[-0.014, 3.483, 130, 130]]
+curves = [[0.792, 0.989, 1610], [1.59, 2.983, 970]]
+points = [
+  { km = 0.176, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.295, kind = "signal", signal = "catenary_mast,train_protection", dir = -1 },
+  { km = 0.55, kind = "signal", label = "177", signal = "main,speed_limit,wrong_road", dir = -1 },
+  { km = 1.747, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.941, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.759, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.044, kind = "signal", label = "55 246", signal = "combined,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.844, kmTo = 2.855, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ymj}H}wi{@j@nr@h@xJrBfOvDvM|CzG~GfJzErDpErBlJxAhg@oArr@qO", v = 130 },
+]
+posts = [[3, 52.15966, 9.87851], [2, 52.15456, 9.86639], [1, 52.14569, 9.8657], [0, 52.13709, 9.86836]]

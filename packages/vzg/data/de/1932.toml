@@ -1,0 +1,114 @@
+id = "1932"
+ref = "1932"
+name = "1932 Vienenburg - Goslar"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q803397"
+from = "Vienenburg"
+to = "Goslar"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.123
+kmTo = 12.817
+length = 12.675
+speeds = [[0.123, 0.338, 60, 60], [0.338, 0.562, "", ""], [0.562, 7.537, 120, 120], [7.537, 9.8, 80, 80], [9.8, 11.526, 100, 100], [11.526, 11.577, "", ""], [11.577, 12.388, 100, 100], [12.388, 12.817, "", ""]]
+curves = [[0.302, 0.555, 690], [1.68, 2.154, 1160], [5.136, 5.585, 1400], [6.311, 6.51, 1570], [6.618, 7.454, 680], [7.59, 8.656, 430], [8.932, 9.309, 970], [9.559, 9.91, 720], [10.085, 10.712, 640], [11.112, 11.312, 1070], [11.562, 11.827, 790], [11.942, 12.178, 1540], [12.307, 12.692, 590]]
+points = [
+  { km = 0.123, kind = "station", label = "Vienenburg", uic = "8013368", pos = [51.9552, 10.56242] },
+  { km = 0.205, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.237, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.243, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.34, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.343, kind = "signal", label = "42L052Y", signal = "minor", dir = -1 },
+  { km = 0.405, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.484, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.509, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.562, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.709, kind = "signal", label = "42 F", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.76, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.72, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 2.861, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 3.109, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.06, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.1, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 4.119, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 4.299, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.115, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.294, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 5.316, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 5.36, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 6.406, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.515, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 6.613, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.678, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 7.537, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.538, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.668, kind = "signal", label = "34 A", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 7.876, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 7.937, kind = "signal", label = "34L201X", signal = "minor", dir = 1 },
+  { km = 7.94, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.165, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.528, kind = "signal", label = "34 P2", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 8.6, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 8.67, kind = "station", label = "Oker", pos = [51.90523, 10.47769], uic = "8013395" },
+  { km = 8.698, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.896, kind = "signal", label = "34 N2", signal = "main,minor,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 9.16, kind = "signal", signal = "minor", dir = -1 },
+  { km = 9.479, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.492, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 9.791, kind = "signal", label = "34 F", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 10.084, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 10.808, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 11.281, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.132, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.267, kind = "signal", label = "33 AA", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 12.292, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.467, kind = "signal", signal = "minor", dir = 1 },
+  { km = 12.776, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.817, kind = "station", label = "Goslar", uic = "8013397", pos = [51.91173, 10.42072] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.879, kmTo = 5.909, length = 30 },
+  { kind = "bridge", kmFrom = 8.229, kmTo = 8.291, length = 63 },
+  { kind = "bridge", kmFrom = 8.426, kmTo = 8.45, length = 24 },
+  { kind = "bridge", kmFrom = 10.061, kmTo = 10.076, length = 15 },
+  { kind = "bridge", kmFrom = 11.526, kmTo = 11.577, length = 51 },
+  { kind = "bridge", kmFrom = 11.707, kmTo = 11.749, length = 44 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sjb|Hcum_AxGtK", v = 60 },
+  { line = "yab|Hmhm_A|BpF~A`H" },
+  { line = "{za|Hywl_A`[n{A~CbL|EzKjkC~tDfJjU~WtaAvLlX~EfFvHbDtINvHeB", v = 120 },
+  { line = "ioy{Hco__AbGkArDPxChAdD|CjCjE`BtGz@`KDxGk@zGsAfFeOt[yC|I}AtIeD`[cDnN", v = 80 },
+  { line = "ity{Hwwz~@qMpZwApGcAvJGpQjE|n@N`^", v = 100 },
+  { line = "caz{Hifv~@@tC" },
+  { line = "aaz{Hsav~@XbKfFn`@fB|X", v = 100 },
+  { line = "wuy{Hazs~@UnPcDxQ" },
+]
+posts = [[1, 51.95022, 10.55046], [2, 51.9459, 10.53785], [3, 51.93892, 10.52863], [4, 51.93189, 10.51959], [5, 51.9249, 10.51061], [6, 51.91932, 10.49924], [7, 51.91244, 10.48791], [8, 51.90496, 10.48693], [9, 51.90704, 10.47462], [10, 51.91115, 10.46193], [11, 51.91245, 10.44845], [12, 51.91092, 10.43386]]
+
+[[connections]]
+km = 0.123
+station = "Vienenburg"
+lines = [
+  { id = "1901", ref = "1901", name = "1901 Braunschweig Hbf - Bad Harzburg", km = 39.441 },
+  { id = "6425", ref = "6425", name = "6425 Oker–Bad Harzburg", km = 6.012 },
+]
+
+[[connections]]
+km = 8.67
+station = "Oker"
+lines = [
+  { id = "6425", ref = "6425", name = "6425 Oker–Bad Harzburg", km = 2.927 },
+]
+
+[[connections]]
+km = 12.817
+station = "Goslar"
+lines = [
+  { id = "1930", ref = "1930", name = "1930 Neuekrug-Hahausen - Goslar", km = 95.223 },
+]

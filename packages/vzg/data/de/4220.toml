@@ -1,0 +1,41 @@
+id = "4220"
+ref = "4220"
+name = "4220 Karlsruhe West - Karlsruhe Hafen"
+operator = "DB Netz AG;KVVH – Karlsruher Versorgungs-, Verkehrs- und Hafen GmbH"
+gauge = "1435"
+from = "Karlsruhe West"
+to = "Karlsruhe Hafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.832
+length = 0.832
+speeds = [[0, 0.832, "", ""]]
+curves = [[0.425, 0.725, 510]]
+points = [
+  { km = 0.105, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.176, kind = "signal", label = "C100", signal = "main", dir = -1 },
+  { km = 0.41, kind = "signal", signal = "main", dir = 1 },
+  { km = 0.539, kind = "station", label = "Karlsruhe-Mühlburg", uic = "8014083", pos = [49.01456, 8.35111] },
+  { km = 0.701, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.756, kind = "signal", signal = "radio", dir = 1 },
+  { km = 0.756, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.808, kmTo = 0.832, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ahcjHqw~q@qWf[gDnJe@`I" },
+]
+posts = [[0, 49.01009, 8.35465]]
+
+[[connections]]
+km = 0.539
+station = "Karlsruhe-Mühlburg"
+lines = [
+  { id = "3443", ref = "3443", name = "3443 Winden (Pfalz) - Karlsruhe Hbf", km = 20.827 },
+]

@@ -1,0 +1,26 @@
+id = "1803"
+ref = "1803"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.982
+kmTo = 2.523
+length = 1.554
+speeds = [[0.982, 2.523, 100, 100]]
+curves = [[1.082, 1.182, 890], [1.232, 1.432, 850], [1.557, 1.805, 1270], [1.995, 2.191, 2600]]
+points = [
+  { km = 1.069, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.334, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 2.273, kind = "signal", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 2.323, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.352, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 2.382, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eroyHu}o{@tKhZ~E~TtNxa@zJl`@", v = 100 },
+]
+posts = [[1, 51.53067, 9.91701], [2, 51.52532, 9.90432]]

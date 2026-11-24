@@ -1,0 +1,45 @@
+id = "3506"
+ref = "3506"
+name = "3506 Wiesbaden Ost"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Wiesbaden Ost Gbf Ültg"
+to = "Wiesbaden Ost"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.603
+length = 1.603
+speeds = [[0, 0.278, "", ""], [0.278, 0.316, 70, 70], [0.316, 1.492, "", ""], [1.492, 1.603, 80, 80]]
+curves = [[0.15, 0.2, 1560], [0.25, 0.35, 720], [0.5, 0.7, 820], [0.875, 1.075, 910], [1.15, 1.5, 410]]
+points = [
+  { km = 0.096, kind = "signal", label = "pI", signal = "distant", dir = 1 },
+  { km = 0.205, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.378, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.445, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.481, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.519, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.841, kind = "signal", signal = "main,minor", dir = -1 },
+  { km = 1.191, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 37.8, kind = "station", label = "Wiesbaden Ost", uic = "8006404", pos = [50.0413, 8.25658], measured = true },
+]
+
+[tracks.geo]
+segments = [
+  { line = "evlpHipkq@|LyI" },
+  { line = "ghlpHc{kq@z@w@", v = 70 },
+  { line = "kflpH{|kq@`MyNzKiWvFqT|C{EfDaC" },
+  { line = "oyjpHoenq@bEs@", v = 80 },
+]
+posts = [[0, 50.04147, 8.25621], [1, 50.03456, 8.2648]]
+
+[[connections]]
+km = 37.8
+station = "Wiesbaden Ost"
+lines = [
+  { id = "3507", ref = "3507", name = "3507 Wiesbaden-Ost - Niederlahnstein", km = 37.8 },
+  { id = "3528", ref = "3528", name = "3528 Abzw Mainz Kaiserbrücke Ost - Wiesbaden Hbf", km = 6.235 },
+  { id = "3603", ref = "3603", name = "3603 Frankfurt (Main) Hbf - Wiesbaden Hbf", km = 37.769 },
+]

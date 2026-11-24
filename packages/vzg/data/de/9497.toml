@@ -1,0 +1,60 @@
+id = "9497"
+ref = "9497"
+operator = "Verkehrsbetriebe Karlsruhe GmbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.183
+length = 3.183
+speeds = [[0, 0.487, 80, ""], [0.487, 1.389, 70, 70], [1.389, 1.518, 50, 50], [1.518, 1.523, 30, 30], [1.523, 1.536, 20, 20], [1.536, 2.816, 70, 70], [2.816, 3.183, "", ""]]
+curves = [[0.225, 0.85, 350], [0.9, 1.1, 560], [1.15, 1.45, 320], [1.5, 1.925, 280], [1.975, 2.175, 560], [2.225, 2.425, 310], [2.475, 2.725, 340], [2.875, 3, 1660]]
+points = [
+  { km = 0.093, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.094, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.326, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.487, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 0.532, kind = "signal", label = "P14", signal = "main,train_protection,wrong_road", dir = -1 },
+  { km = 0.914, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.942, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.071, kind = "signal", signal = "main,request", dir = 1 },
+  { km = 1.141, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.291, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 1.389, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.454, kind = "signal", signal = "main,request", dir = 1 },
+  { km = 1.512, kind = "signal", signal = "catenary_mast,electricity" },
+  { km = 1.561, kind = "signal", signal = "catenary_mast,electricity" },
+  { km = 1.59, kind = "signal", label = "314", signal = "speed_limit,switch", dir = -1 },
+  { km = 1.596, kind = "signal", signal = "main,request", dir = 1 },
+  { km = 1.615, kind = "signal", signal = "speed_limit,switch", dir = 1 },
+  { km = 1.618, kind = "signal", signal = "main,request", dir = -1 },
+  { km = 1.783, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.992, kind = "signal", signal = "main,request", dir = 1 },
+  { km = 2.279, kind = "signal", signal = "distant,main_repeated", dir = 1 },
+  { km = 2.476, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.719, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 2.72, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 2.816, kind = "signal", label = "P13", signal = "distant,main,train_protection,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.697, kmTo = 0.857, length = 160 },
+  { kind = "bridge", kmFrom = 2.229, kmTo = 2.378, length = 149 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{bhjHohwq@~CmXGqI", v = 80 },
+  { line = "c~gjHolxq@YeB", tunnel = true, v = 80 },
+  { line = "}~gjHuoxq@Ia@", v = 80 },
+  { line = "g_hjHwpxq@iEgLq@cE@qQwCeVd@aJ", v = 70 },
+  { line = "sjhjH}xzq@|BeH", v = 50 },
+  { line = "ufhjHcb{q@BI", v = 30 },
+  { line = "qfhjHmb{q@J_@", v = 20 },
+  { line = "efhjHmc{q@wCrIc@xHxCpW@jR`DxLh@jEo@vQ", v = 70 },
+  { line = "ibhjHc|wq@Ex@" },
+  { line = "obhjHizwq@KtA", tunnel = true },
+  { line = "{bhjHswwq@y@vY" },
+]
+posts = [[0, 49.03486, 8.3164], [1, 49.03558, 8.32927], [2, 49.03582, 8.33023], [3, 49.03502, 8.31705]]

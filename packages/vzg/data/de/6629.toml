@@ -1,0 +1,58 @@
+id = "6629"
+ref = "6629"
+name = "6629 Glauchau-Wurzen"
+operator = "Verein Sächsischer Eisenbahnfreunde"
+gauge = "1435"
+wikidata = "Q802340"
+from = "Glauchau"
+to = "Wurzen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 19.8
+kmTo = 39.1
+length = 19.293
+speeds = [[19.8, 39.1, "", ""]]
+curves = [[19.891, 20.282, 630], [20.43, 21.074, 310], [21.124, 21.549, 300], [21.599, 21.899, 360], [21.973, 22.348, 510], [22.398, 22.798, 320], [22.848, 23.048, 490], [23.147, 23.497, 330], [23.547, 23.897, 300], [23.947, 24.122, 700], [24.172, 24.596, 700], [24.646, 24.896, 470], [25.146, 25.945, 310], [26.095, 26.52, 360], [26.894, 27.144, 470], [27.519, 27.694, 1320], [27.893, 28.218, 490], [28.268, 29.649, 380], [29.7, 29.855, 690], [30.112, 30.189, 2330], [30.45, 30.613, 1250], [31.222, 31.584, 1380], [31.921, 32.338, 630], [32.412, 32.586, 590], [32.636, 33.439, 360], [33.489, 34.344, 330], [34.416, 34.917, 330], [35.242, 35.54, 570], [35.73, 36.01, 760], [36.059, 36.359, 480], [37.144, 37.555, 1020], [37.633, 37.789, 730], [37.946, 38.181, 580], [38.231, 38.681, 360], [38.881, 38.981, 440]]
+points = [
+  { km = 20.088, kind = "signal", signal = "main", dir = 1 },
+  { km = 21.001, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 21.028, kind = "signal", signal = "stop", dir = -1 },
+  { km = 21.042, kind = "signal", signal = "stop", dir = 1 },
+  { km = 21.07, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 21.85, kind = "halt", label = "Amerika (Sachs)", pos = [50.93218, 12.73345] },
+  { km = 24.396, kind = "halt", label = "Rochsburg", pos = [50.94553, 12.75921] },
+  { km = 27.45, kind = "halt", label = "Lunzenau", pos = [50.96506, 12.76026] },
+  { km = 31.502, kind = "signal", signal = "catenary_mast,main", dir = -1 },
+  { km = 31.89, kind = "station", label = "Wechselburg", pos = [50.99987, 12.7782] },
+  { km = 32.5, kind = "signal", signal = "catenary_mast,main", measured = true },
+  { km = 34.309, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 35.664, kind = "halt", label = "Steudten", pos = [51.02594, 12.79703] },
+  { km = 35.758, kind = "signal", signal = "stop", dir = 1 },
+  { km = 39.06, kind = "signal", signal = "catenary_mast,main", dir = -1 },
+  { km = 39.1, kind = "station", label = "Rochlitz (Sachs)", pos = [51.05602, 12.79379] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 19.814, kmTo = 19.824, length = 10 },
+  { kind = "bridge", kmFrom = 24.52, kmTo = 24.53, length = 10 },
+  { kind = "tunnel", kmFrom = 24.871, kmTo = 25.148, length = 277, name = "Tunnel Rochsburg" },
+  { kind = "bridge", kmFrom = 25.303, kmTo = 25.429, length = 127 },
+  { kind = "bridge", kmFrom = 29.366, kmTo = 29.43, length = 71 },
+  { kind = "bridge", kmFrom = 30.413, kmTo = 30.495, length = 74 },
+  { kind = "bridge", kmFrom = 31.475, kmTo = 31.488, length = 13 },
+  { kind = "bridge", kmFrom = 32.104, kmTo = 32.116, length = 14 },
+  { kind = "bridge", kmFrom = 35.237, kmTo = 35.252, length = 14 },
+  { kind = "bridge", kmFrom = 36.35, kmTo = 36.362, length = 12 },
+  { kind = "bridge", kmFrom = 36.53, kmTo = 36.544, length = 14 },
+  { kind = "bridge", kmFrom = 37.603, kmTo = 37.614, length = 11 },
+  { kind = "bridge", kmFrom = 37.738, kmTo = 38.016, length = 266, name = "Viadukt Rochlitz" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qj{uHuzqlAxCwB~I{BjEgD`MyPdByGZiEK}FyA{HaBeDcHgIyBoIMsIjAeMByHo@}EsEuO}@yF_@eJj@sNYaGcCwHeLwL{FwPgCcEsDsBmL}@sEeFeEsOgHsNuDeMw@}E_A}N}CuJ" },
+  { line = "yr}uHif|lAyIyP", tunnel = true },
+  { line = "s}}uHcx|lAuDkFiDaBmFX}CvByBzD_AfDuEtd@yDzGyF`CiW~DkEU_\\_PaQcPaEuAqNnBoBlAwHjJyC|@aEGyD{AoCmD_BgFoAkMcBiGgMgR_ReQgQoM}d@uQ_KwBkCB_YxF}HQmC}AaIsIkKmEyBiCyFkLyHuDeG^_I~GeCz@iDCsCmAaIoIsCwI_@wG\\cZs@_GsAcEkFoFsUqIaGGwQrHeDvCqGnKeCfBmd@xEkPdAoJm@kPqG{PeCsK_KwE}AwFhAkQ`PeF^" },
+]
+posts = [[20, 50.93404, 12.71313], [21, 50.93001, 12.72307], [22, 50.93294, 12.73523], [23, 50.93657, 12.74695], [24, 50.9433, 12.75483], [25, 50.94798, 12.76666], [26, 50.95411, 12.76425], [27, 50.96122, 12.75826], [28, 50.96941, 12.76396], [29, 50.97779, 12.76198], [30, 50.98371, 12.7722], [31, 50.99179, 12.77765], [32, 51.00089, 12.77797], [33, 51.0083, 12.7839], [34, 51.01657, 12.7849], [35, 51.02063, 12.7967], [36, 51.02854, 12.795], [37, 51.03709, 12.79182], [38, 51.04598, 12.79371], [39, 51.05398, 12.79303]]

@@ -1,0 +1,45 @@
+id = "6591"
+ref = "6591"
+operator = "BCG Officeconsult"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.172
+length = 7.172
+speeds = [[0, 7.172, "", ""]]
+curves = [[0.1, 0.15, 1590], [0.45, 1.175, 390], [1.275, 1.475, 960], [2.95, 3.125, 1340], [4.025, 4.3, 1350], [5.175, 5.225, 2970]]
+points = [
+  { km = 0, kind = "station", label = "Finsterwalde (Niederlausitz)", uic = "8004328", pos = [51.63699, 13.71038] },
+  { km = 0.141, kind = "signal", label = "15 ZV4", signal = "combined,speed_limit", dir = -1 },
+  { km = 0.578, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.831, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.883, kind = "signal", label = "A 26", signal = "shunting", dir = -1 },
+  { km = 1.312, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.316, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.348, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.384, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.476, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.499, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.551, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.594, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.649, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.677, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.774, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.972, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.556, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 4.653, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.694, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.774, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.872, kind = "stop", label = "Schacksdorf", pos = [51.6135, 13.76024] },
+  { km = 4.982, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.008, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}kdzHs}trAaNad@_B}HQ_LbBwL~EwH~PoLvfAqoAjj@edA|EwMrYyeAd}@qrC" },
+]
+posts = [[0, 51.63727, 13.71114], [1, 51.63926, 13.7238], [2, 51.63161, 13.73131], [3, 51.62424, 13.73959], [4, 51.61784, 13.74977], [5, 51.6129, 13.76182], [6, 51.60793, 13.77388], [7, 51.60287, 13.78586]]

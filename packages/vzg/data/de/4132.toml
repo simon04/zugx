@@ -1,0 +1,157 @@
+id = "4132"
+ref = "4132"
+name = "4132 Bruchsal - Rheinsheim Streckenwechsel 4132/3450"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q108814793"
+from = "Bruchsal"
+to = "Rheinsheim Streckenwechsel 4132/3450"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.043
+kmTo = 22.047
+length = 22.803
+speeds = [[-0.043, 0.613, "", ""], [0.613, 0.873, 60, 60], [0.873, 1.448, 80, 80], [1.448, 7.781, 160, 160], [7.781, 8.543, 80, 80], [8.543, 8.997, 70, 60], [8.997, 9.011, 90, 60], [9.011, 10.683, 90, 90], [10.683, 10.727, 90, 100], [10.727, 11.843, 100, 100], [11.843, 12.695, 100, 110], [12.695, 16.969, 140, 140], [16.969, 17.536, 120, 130], [17.536, 22.029, 120, 120], [22.029, 22.047, 100, 100]]
+curves = [[0.582, 1.382, 470], [7.814, 8.098, 1130], [8.231, 8.894, 470], [10.446, 10.707, 780], [10.885, 11.861, 470], [12.205, 12.727, 630], [14, 14.458, 1250], [16.994, 17.769, 1120], [18.262, 19.457, 1120]]
+points = [
+  { km = -0.043, kind = "station", label = "Bruchsal", uic = "8014040", pos = [49.12443, 8.58979] },
+  { km = 0.416, kind = "signal", label = "37P10", signal = "combined,route,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 0.541, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.736, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.759, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 0.767, kind = "halt", label = "Bruchsal Schlossgarten", pos = [49.13139, 8.59408] },
+  { km = 0.873, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.206, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.374, kind = "stop", label = "Bruchsal Sportzentrum", pos = [49.13556, 8.58962], uic = "8094403" },
+  { km = 1.448, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.449, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.661, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.076, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.782, kind = "signal", label = "37 151", signal = "distant,main", dir = 1 },
+  { km = 3.295, kind = "halt", label = "Bruchsal Am Mantel", uic = "8094402", pos = [49.14108, 8.56381] },
+  { km = 3.483, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 3.672, kind = "signal", signal = "main", dir = 1 },
+  { km = 4.533, kind = "stop", label = "Karlsdorf", pos = [49.14436, 8.54835], uic = "8014090" },
+  { km = 4.672, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.547, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 5.686, kind = "signal", signal = "main", dir = 1 },
+  { km = 7.781, kind = "signal", signal = "distant,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 8.543, kind = "signal", label = "38F", signal = "main,speed_limit", dir = 1 },
+  { km = 8.739, kind = "signal", signal = "minor", dir = -1 },
+  { km = 8.769, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.885, kind = "signal", label = "38L 74Y", signal = "minor", dir = 1 },
+  { km = 8.939, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 8.997, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.011, kind = "signal", label = "38 N4", signal = "main,minor,route,speed_limit", dir = -1 },
+  { km = 9.049, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.088, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.089, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 9.107, kind = "station", label = "Graben-Neudorf", pos = [49.16171, 8.49057], uic = "8014068" },
+  { km = 9.132, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 9.144, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.171, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.208, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.62, kind = "signal", label = "38 P4", signal = "main,minor,route,speed_limit", dir = 1 },
+  { km = 9.708, kind = "signal", label = "38L 44X", signal = "minor", dir = -1 },
+  { km = 9.765, kind = "signal", label = "38L 44Y", signal = "minor", dir = 1 },
+  { km = 9.819, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.823, kind = "signal", signal = "minor", dir = -1 },
+  { km = 9.828, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 9.914, kind = "signal", label = "38L 36Y", signal = "minor", dir = 1 },
+  { km = 10.02, kind = "signal", signal = "minor", dir = -1 },
+  { km = 10.037, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10.58, kind = "signal", label = "38 D", signal = "main", dir = -1 },
+  { km = 10.655, kind = "stop", label = "Graben-Neudorf Nord", uic = "8002345", pos = [49.17794, 8.49407], measured = true },
+  { km = 10.683, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.727, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.658, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.663, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 11.736, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 11.843, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.695, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.701, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 12.713, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 13.681, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 13.782, kind = "stop", label = "Huttenheim", pos = [49.1971, 8.47272], uic = "8014089" },
+  { km = 14.894, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 16.328, kind = "signal", label = "71Va", signal = "distant", dir = 1 },
+  { km = 16.967, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.969, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.328, kind = "signal", label = "71A", signal = "combined,minor,traversable", dir = 1 },
+  { km = 17.536, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.734, kind = "signal", label = "71P1", signal = "main,traversable", dir = -1 },
+  { km = 17.927, kind = "station", label = "Philippsburg (Baden)", pos = [49.23168, 8.45384], uic = "8014088" },
+  { km = 18.04, kind = "stop", label = "Philippsburg (Baden)", pos = [49.23209, 8.45311] },
+  { km = 18.063, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 18.385, kind = "signal", label = "71N1", signal = "main,traversable", dir = 1 },
+  { km = 18.602, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 18.883, kind = "signal", label = "71F", signal = "combined,traversable", dir = -1 },
+  { km = 19.911, kind = "signal", label = "71Vf", signal = "distant", dir = -1 },
+  { km = 20.732, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 20.929, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 20.944, kind = "signal", signal = "stop", dir = -1 },
+  { km = 20.972, kind = "station", label = "Rheinsheim", pos = [49.22911, 8.41584], uic = "8014087" },
+  { km = 22.029, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.179, kmTo = 5.194, length = 19 },
+  { kind = "bridge", kmFrom = 5.747, kmTo = 5.775, length = 21 },
+  { kind = "bridge", kmFrom = 9.69, kmTo = 9.704, length = 18 },
+  { kind = "bridge", kmFrom = 11.528, kmTo = 11.599, length = 64 },
+  { kind = "bridge", kmFrom = 11.708, kmTo = 11.723, length = 16 },
+  { kind = "bridge", kmFrom = 12.583, kmTo = 12.695, length = 111 },
+  { kind = "bridge", kmFrom = 14.205, kmTo = 14.232, length = 28 },
+  { kind = "bridge", kmFrom = 18.559, kmTo = 18.592, length = 36 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}syjHssls@ca@kT" },
+  { line = "avzjH_ims@{FkBoED", v = 60 },
+  { line = "md{jHelms@iElAwF~FaDxIeBtL", v = 80 },
+  { line = "wz{jHgils@amBzdO", v = 160 },
+  { line = "yh_kHkc|r@mBvUMdf@kAhIuCtH", v = 80 },
+  { line = "ws_kHmqyr@gEzEkF~B}DNcKcA", v = 70 },
+  { line = "ms`kHehyr@ocBkQcDw@eEuC", v = 90 },
+  { line = "gcdkH_azr@_PmM{Ey@wEf@gGrD}DzGqBlG_AdJ", v = 100 },
+  { line = "suekH{myr@iD`i@uCvKyEhH", v = 110 },
+  { line = "mffkHwmwr@o{@v}@wLnIaJrCgfCdi@", v = 140 },
+  { line = "_cmkHuusr@eMnEeM|K", v = 130 },
+  { line = "k_nkHgbsr@mHjM}R|e@wCrJ_CxLeA|Je@~K@zMp@bMfBzMhy@jhE", v = 120 },
+  { line = "uimkHiehr@Jn@", v = 100 },
+]
+posts = [[0, 49.12499, 8.58976], [1, 49.13352, 8.59298], [2, 49.13763, 8.58009], [3, 49.14024, 8.56787], [4, 49.14293, 8.55515], [5, 49.14578, 8.54182], [6, 49.14856, 8.52869], [7, 49.15153, 8.51469], [8, 49.15413, 8.50126], [9, 49.16042, 8.49043], [10, 49.17221, 8.49256], [11, 49.1808, 8.4966], [12, 49.18657, 8.48942], [13, 49.19115, 8.47894], [14, 49.19858, 8.47117], [15, 49.20741, 8.46716], [16, 49.21595, 8.46449], [17, 49.22459, 8.46178], [18, 49.23187, 8.45353], [19, 49.23552, 8.441], [20, 49.23275, 8.42838], [21, 49.22899, 8.41532], [22, 49.22549, 8.40329]]
+
+[[connections]]
+km = -0.043
+station = "Bruchsal"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 51.573 },
+  { id = "4130", ref = "4130", name = "4130 Bruchsal - Bretten Strw 4130/4800", km = -0.874 },
+]
+
+[[connections]]
+km = 0.767
+station = "Bruchsal Schlossgarten"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 50.776 },
+  { id = "9412", ref = "9412", name = "Katzbachbahn", km = 0.84 },
+]
+
+[[connections]]
+km = 9.107
+station = "Graben-Neudorf"
+lines = [
+  { id = "4020", ref = "4020", name = "4020 Mannheim Hbf - Rastatt", km = 39.662 },
+  { id = "4082", ref = "4082", name = "Rheinbahn", km = 39.662 },
+]
+
+[[connections]]
+km = 10.655
+station = "Graben-Neudorf Nord"
+lines = [
+  { id = "4020", ref = "4020", name = "4020 Mannheim Hbf - Rastatt", km = 37.841 },
+  { id = "4082", ref = "4082", name = "Rheinbahn", km = 37.841 },
+]

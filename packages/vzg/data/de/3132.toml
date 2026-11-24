@@ -1,0 +1,66 @@
+id = "3132"
+ref = "3132"
+name = "3132 Trier Hbf - Trier Süd"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Trier Hbf"
+to = "Trier Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 108.319
+kmTo = 113.569
+length = 5.272
+speeds = [[108.319, 109.556, "", ""], [109.556, 110.836, "", 70], [110.836, 113.569, "", ""]]
+curves = [[108.436, 108.997, 600], [109.432, 109.607, 1100], [109.809, 109.966, 1130], [110.064, 110.29, 1090], [110.484, 111.217, 1250], [111.291, 111.365, 1550], [111.735, 111.834, 1200], [111.883, 111.982, 1330], [112.253, 112.56, 1270], [113.12, 113.469, 990]]
+points = [
+  { km = 108.61, kind = "signal", label = "P111", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 108.78, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 109.018, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 109.216, kind = "signal", signal = "distant", dir = 1 },
+  { km = 109.556, kind = "signal", label = "S211", signal = "distant,main,minor,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 110.343, kind = "signal", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 110.602, kind = "signal", signal = "minor", dir = 1 },
+  { km = 110.771, kind = "signal", label = "S322", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 111.152, kind = "signal", signal = "minor", dir = 1 },
+  { km = 111.325, kind = "signal", label = "S405", signal = "distant,main", dir = -1 },
+  { km = 111.568, kind = "station", label = "Trier Hbf", uic = "8000134", pos = [49.75697, 6.652] },
+  { km = 111.7, kind = "signal", signal = "main", dir = 1 },
+  { km = 112.003, kind = "signal", signal = "minor", dir = -1 },
+  { km = 112.132, kind = "signal", signal = "distant", dir = 1 },
+  { km = 112.246, kind = "signal", signal = "minor", dir = 1 },
+  { km = 112.309, kind = "signal", signal = "minor", dir = -1 },
+  { km = 112.571, kind = "signal", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 113.114, kind = "signal", label = "N503", signal = "main,wrong_road", dir = 1 },
+  { km = 113.377, kind = "station", label = "Trier Süd", uic = "8005905", pos = [49.74441, 6.63647] },
+  { km = 113.455, kind = "signal", signal = "catenary_mast,stop", dir = 1 },
+  { km = 113.481, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 108.319, kmTo = 108.344, length = 25 },
+  { kind = "bridge", kmFrom = 111.04, kmTo = 111.057, length = 17 },
+  { kind = "bridge", kmFrom = 113.335, kmTo = 113.351, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kkrnHe_og@cJqF{D_EeYwj@oFoIsZo\\ab@w`@uF{J" },
+  { line = "mdvnHcnsg@sFiRcEuYkBoI}EoOiKaS", v = 70 },
+  { line = "yhwnHekvg@}Q_k@gD_ImDoE{FuD_EcAeFT" },
+]
+posts = [[113, 49.74698, 6.64008], [112, 49.75352, 6.64906], [111, 49.76111, 6.65675], [110, 49.76526, 6.66837], [109, 49.77082, 6.67993]]
+
+[[connections]]
+km = 111.568
+station = "Trier Hbf"
+lines = [
+  { id = "3010", ref = "3010", name = "Moselstrecke", km = 111.434 },
+]
+
+[[connections]]
+km = 113.377
+station = "Trier Süd"
+lines = [
+  { id = "3010", ref = "3010", name = "Moselstrecke", km = 113.378 },
+]

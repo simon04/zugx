@@ -1,0 +1,45 @@
+id = "4405"
+ref = "4405"
+name = "4405 Basel Bad Bf – Basel Bad Rbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q110550752"
+from = "Basel Bad Bf"
+to = "Basel Bad Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.072
+kmTo = 3.118
+length = 3.215
+speeds = [[-0.072, -0.009, "", ""], [-0.009, 3.049, 40, 40], [3.049, 3.118, "", ""]]
+curves = [[0.215, 0.339, 1310], [0.413, 0.462, 2140], [1.116, 1.216, 1100], [1.266, 1.391, 1720], [1.691, 1.766, 2230], [1.916, 2.455, 580], [2.504, 2.627, 1050], [2.724, 2.896, 510], [2.944, 3.018, 490]]
+points = [
+  { km = 0.592, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.762, kind = "signal", label = "R1", signal = "distant,main,speed_limit", dir = -1, measured = true },
+  { km = 0.911, kind = "station", label = "Basel Badischer Bahnhof", uic = "8500090", ele = 277, pos = [47.56746, 7.60731] },
+  { km = 1.501, kind = "signal", signal = "train_protection", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.05, kmTo = 0.006, length = 57 },
+  { kind = "bridge", kmFrom = 1.672, kmTo = 1.707, length = 36 },
+  { kind = "bridge", kmFrom = 1.785, kmTo = 1.859, length = 75 },
+  { kind = "bridge", kmFrom = 1.898, kmTo = 1.92, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "w`maHsdlm@nBpA" },
+  { line = "g}laHablm@dJrJxLbDrLxFzE@zi@}_@lIoEbi@}`@pMsH", v = 40 },
+  { line = "wahaHm|mm@fBgA" },
+]
+posts = [[3, 47.58461, 7.60339], [2, 47.57626, 7.60101], [1, 47.56818, 7.60686], [0, 47.56019, 7.61299]]
+
+[[connections]]
+km = 0.911
+station = "Basel Badischer Bahnhof"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 270.688 },
+  { id = "4400", ref = "4400", name = "4400 Basel Bad Bf - Zell (Wiesental)", km = -1.587 },
+]

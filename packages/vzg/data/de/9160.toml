@@ -1,0 +1,33 @@
+id = "9160"
+ref = "9160"
+name = "Bersenbrück - Ankum"
+operator = "Ankum-Bersenbrücker Eisenbahn GmbH"
+gauge = "1435"
+wikidata = "Q129318"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.03
+length = 5.03
+speeds = [[0, 5.03, "", ""]]
+curves = [[0.1, 0.425, 430], [0.5, 0.7, 550], [0.9, 0.975, 2030], [1.05, 1.1, 1830], [1.4, 1.475, 2760], [1.575, 1.675, 1210], [1.725, 1.95, 1100], [2.15, 2.375, 670], [2.5, 2.675, 740], [2.8, 2.975, 950], [3.05, 3.225, 1060], [3.3, 3.55, 480], [3.625, 3.975, 470], [4.2, 4.375, 1270], [4.5, 4.625, 1530], [4.675, 4.925, 1230]]
+points = [
+  { km = 0, kind = "station", label = "Bersenbrück", uic = "8000919", pos = [52.5511, 7.94262] },
+  { km = 1.842, kind = "halt", label = "Ahausen", pos = [52.55606, 7.91672] },
+  { km = 5.03, kind = "station", label = "Ankum", pos = [52.54188, 7.87789] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mhw_I{ano@aFpCaD|EiBjHoCdSn@jkBlDjd@tA|H~GbOpOvOlIzPtEzRZ~EB`RdAzIbPv]rGvTfDpPbCtV" },
+]
+posts = [[0, 52.55319, 7.94158], [1, 52.55632, 7.92916], [2, 52.55574, 7.91445], [3, 52.55008, 7.90377], [4, 52.54645, 7.89084], [5, 52.54195, 7.87833]]
+
+[[connections]]
+km = 0
+station = "Bersenbrück"
+lines = [
+  { id = "1502", ref = "1502", name = "1502 Oldenburg - Osnabrück", km = 77.167 },
+]

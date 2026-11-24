@@ -1,0 +1,151 @@
+id = "3683"
+ref = "3683"
+name = "3683 Abzw Frankfurt am Main Kleyerstraße - Kelsterbach"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Frankfurt am Main Kleyerstraße"
+to = "Kelsterbach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 2.093
+kmTo = 16.535
+length = 14.433
+speeds = [[2.093, 5.883, 100, 100], [5.883, 6.224, 110, 110], [6.224, 6.947, 120, 120], [6.947, 9.616, 110, 110], [9.616, 9.687, 110, 90], [9.687, 10.81, 90, 90], [10.81, 11.71, 110, 110], [11.71, 16.164, 120, 120], [16.164, 16.397, "", ""], [16.397, 16.535, 100, 100]]
+curves = [[2.368, 3.242, 600], [3.422, 3.555, 1550], [4.288, 4.449, 1630], [4.508, 4.635, 1910], [4.971, 5.818, 450], [6.288, 6.599, 1310], [6.778, 6.923, 1820], [7.239, 8.145, 500], [8.2, 8.989, 500], [9.762, 10.015, 760], [10.197, 10.432, 480], [10.484, 11.068, 1270], [11.132, 11.196, 2330], [11.518, 11.71, 1580], [11.882, 13.436, 670], [13.556, 15.802, 850]]
+points = [
+  { km = 2.214, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.547, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.665, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 3.52, kind = "signal", label = "56 E", signal = "combined,traversable", dir = 1, measured = true },
+  { km = 3.701, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 4.136, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.258, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.26, kind = "signal", label = "56 ZR4", signal = "combined,route,speed_limit,traversable", dir = -1 },
+  { km = 4.264, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.272, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.295, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.338, kind = "station", label = "Frankfurt-Niederrad", pos = [50.08077, 8.63724], uic = "8002050" },
+  { km = 4.345, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.418, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.453, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.474, kind = "signal", label = "56 P4", signal = "combined,speed_limit_distant,traversable", dir = 1, measured = true },
+  { km = 4.968, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 5.064, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.212, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.465, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 5.571, kind = "signal", label = "55 G", signal = "combined,route,route_distant,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 5.808, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.883, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.002, kind = "signal", label = "55 N207", signal = "combined,speed_limit_distant,traversable,wrong_road", dir = -1 },
+  { km = 6.136, kind = "station", label = "Frankfurt am Main Stadion", pos = [50.06821, 8.63305], uic = "8002040" },
+  { km = 6.181, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.223, kind = "signal", label = "55 ZV207", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 6.852, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.853, kind = "signal", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 7.2, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.284, kind = "signal", label = "55 ZR107", signal = "combined,route,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 7.44, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = 7.681, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.881, kind = "signal", label = "55 P107", signal = "combined,traversable", dir = 1 },
+  { km = 8.219, kind = "signal", label = "55 BB", signal = "combined,route_distant,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 8.222, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.406, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 8.449, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.453, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 9.405, kind = "signal", label = "54 104", signal = "combined", dir = -1 },
+  { km = 9.501, kind = "stop", label = "Frankfurt-Gateway Gardens", pos = [50.05661, 8.59475] },
+  { km = 9.616, kind = "signal", label = "54 105", signal = "combined,speed_limit", dir = 1 },
+  { km = 9.687, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.46, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10.483, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.681, kind = "signal", label = "F413", signal = "distant,main", dir = 1 },
+  { km = 10.81, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.908, kind = "station", label = "Terminal 1 C", pos = [50.05082, 8.57885] },
+  { km = 10.983, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.224, kind = "signal", label = "N403", signal = "departure,main,minor,wrong_road", dir = -1 },
+  { km = 11.268, kind = "station", label = "Terminal 1", pos = [50.0515, 8.57227] },
+  { km = 11.279, kind = "station", label = "Terminal 1 — Flugsteige B, C", pos = [50.05002, 8.57293] },
+  { km = 11.31, kind = "station", label = "Frankfurt am Main Flughafen Regionalbahnhof", pos = [50.0513, 8.57175], uic = "8070004" },
+  { km = 11.367, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.49, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.492, kind = "signal", label = "P403", signal = "main", dir = 1 },
+  { km = 11.71, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.287, kind = "signal", signal = "minor", dir = -1 },
+  { km = 12.323, kind = "signal", label = "AA 453", signal = "distant,main,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 12.377, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.597, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.723, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 14.642, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 15.992, kind = "station", label = "Kelsterbach", pos = [50.06238, 8.52961], uic = "8003228" },
+  { km = 16.081, kind = "signal", signal = "stop", dir = 1 },
+  { km = 16.127, kind = "signal", label = "S 303", signal = "distant,main", dir = 1 },
+  { km = 169.3, kind = "station", label = "Frankfurt am Main Flughafen Fernbahnhof", uic = "8070003", pos = [50.05293, 8.56991], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.925, kmTo = 3.476, length = 580, name = "Neue Niederräder Brücke" },
+  { kind = "bridge", kmFrom = 3.796, kmTo = 3.815, length = 23 },
+  { kind = "bridge", kmFrom = 4.336, kmTo = 4.388, length = 56 },
+  { kind = "bridge", kmFrom = 5.003, kmTo = 5.032, length = 27 },
+  { kind = "bridge", kmFrom = 7.325, kmTo = 7.44, length = 119 },
+  { kind = "tunnel", kmFrom = 8.428, kmTo = 12.28, length = 4013 },
+  { kind = "tunnel", kmFrom = 12.38, kmTo = 12.442, length = 73 },
+  { kind = "bridge", kmFrom = 14.276, kmTo = 14.364, length = 88 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "suwpHkcvs@vGzXzD|JpHfIbEdBzCZhGu@dQ{HvZoTjOaJn`@iZpEsBdHGzHdEtEfI|CdO", v = 100 },
+  { line = "aerpH}yus@`Gt[", v = 110 },
+  { line = "_}qpHg}ts@nD`W~Apc@", v = 120 },
+  { line = "otqpHs`ss@f@ve@tA`J~CfI~C`ErD`CtEbA|Qn@dEpBvDdE", v = 110 },
+  { line = "k{opHamps@zAtC`ChIhAjM}BpjA", tunnel = true, v = 110 },
+  { line = "avopHcdms@EbQ|Dt]bBnFpG~K~DnM", tunnel = true, v = 90 },
+  { line = "s~npHipjs@~NrcArAzM", tunnel = true, v = 110 },
+  { line = "_lnpHy|gs@lBf`@W|KiA|I", tunnel = true, v = 120 },
+  { line = "sknpHucfs@cB~G", v = 120 },
+  { line = "wnnpHuzes@oA`D", tunnel = true, v = 120 },
+  { line = "gqnpHsues@qHrKwDfC{EzAqILiTcEmELiEdAmDjBoElEwC|EeCvGsBvKq@`L?nSfA`QnBbMxC`LlPz^", v = 120 },
+  { line = "crppH_p`s@tGhN" },
+  { line = "mippHu``s@xClH", v = 100 },
+]
+posts = [[3, 50.09218, 8.62981], [4, 50.08282, 8.63549], [5, 50.07541, 8.64123], [6, 50.06896, 8.63481], [7, 50.06679, 8.62156], [8, 50.06328, 8.61094], [9, 50.05623, 8.60252], [10, 50.05661, 8.5879], [11, 50.05244, 8.57641], [12, 50.04955, 8.56074], [13, 50.0544, 8.55088], [14, 50.06074, 8.55167], [15, 50.06582, 8.54166], [16, 50.06227, 8.52923]]
+
+[[connections]]
+km = 4.338
+station = "Frankfurt-Niederrad"
+lines = [
+  { id = "3520", ref = "3520", name = "3520 Mainz Hbf - Frankfurt (Main) Hbf", km = 33.211 },
+]
+
+[[connections]]
+km = 6.136
+station = "Frankfurt am Main Stadion"
+lines = [
+  { id = "3650", ref = "3650", name = "3650 Frankfurt am Main Stadion - Frankfurt (Main) Süd", km = 31.467 },
+  { id = "4010", ref = "4010", name = "4010 Mannheim Hbf - Frankfurt am Main Stadion", km = 74.738 },
+]
+
+[[connections]]
+km = 11.268
+station = "Terminal 1"
+lines = [
+  { id = "2690", ref = "2690", name = "2690 Köln - Frankfurt am Main", km = 169.413 },
+  { id = "3656", ref = "3656", name = "3656 Frankfurt (M) Flughafen Fernbahnhof - Zeppelinheim (Verbindungskurve Zeppelinheim)", km = 77.832 },
+]
+
+[[connections]]
+km = 15.992
+station = "Kelsterbach"
+lines = [
+  { id = "3520", ref = "3520", name = "3520 Mainz Hbf - Frankfurt (Main) Hbf", km = 23.832 },
+]
+
+[[connections]]
+km = 169.3
+station = "Frankfurt am Main Flughafen Fernbahnhof"
+lines = [
+  { id = "2690", ref = "2690", name = "2690 Köln - Frankfurt am Main", km = 169.334 },
+  { id = "3656", ref = "3656", name = "3656 Frankfurt (M) Flughafen Fernbahnhof - Zeppelinheim (Verbindungskurve Zeppelinheim)", km = 77.97 },
+]

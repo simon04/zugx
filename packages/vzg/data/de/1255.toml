@@ -1,0 +1,151 @@
+id = "1255"
+ref = "1255"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q23123963"
+from = "Maschen Rbf"
+to = "Hamburg Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.009
+kmTo = 11.772
+length = 11.766
+speeds = [[0.009, 2.725, 120, 120], [2.725, 4.468, "", ""], [4.468, 5.285, 80, 80], [5.285, 7.795, "", ""], [7.795, 8.892, 120, 120], [8.892, 10.502, "", ""], [10.502, 10.826, 60, 60], [10.826, 11.006, 60, 80], [11.006, 11.772, 40, 40]]
+curves = [[0.159, 0.209, 2250], [2.196, 2.337, 1860], [2.688, 2.97, 2440], [4.43, 5.175, 690], [5.226, 5.328, 1350], [6.225, 6.275, 2370], [6.475, 6.525, 2620], [9.596, 9.647, 2570], [10.2, 10.301, 2230], [10.931, 11.281, 1550]]
+points = [
+  { km = 0.065, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.118, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.486, kind = "halt", label = "Meckelfeld", pos = [53.42489, 10.02912] },
+  { km = 0.504, kind = "signal", label = "1005 II", signal = "minor", dir = 1 },
+  { km = 0.611, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.612, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.7, kind = "signal", signal = "route", dir = -1 },
+  { km = 0.768, kind = "signal", label = "S1003", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 0.78, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.176, kind = "signal", signal = "distant,main,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 1.241, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.316, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.436, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.774, kind = "signal", signal = "route_distant", dir = -1 },
+  { km = 1.857, kind = "signal", label = "F", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 1.998, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.233, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.525, kind = "signal", label = "41DD", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 2.725, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.811, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 2.936, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 2.981, kind = "signal", label = "41 P8", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 3.249, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.409, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.677, kind = "signal", label = "41 R8", signal = "distant,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 3.992, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.086, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.5, kind = "signal", label = "41 U8", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 4.54, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.645, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.701, kind = "signal", label = "41 T8", signal = "distant,main,minor,route", dir = 1 },
+  { km = 4.74, kind = "station", label = "Hamburg-Harburg", uic = "8001134", pos = [53.45572, 9.99177] },
+  { km = 4.772, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 4.882, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 4.882, kind = "halt", label = "Harburg", uic = "8098147", pos = [53.45695, 9.99134] },
+  { km = 4.927, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.937, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 4.964, kind = "signal", label = "41 078y", signal = "minor", dir = -1 },
+  { km = 5.255, kind = "signal", signal = "route_distant", dir = -1 },
+  { km = 5.285, kind = "signal", label = "41S8", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 5.585, kind = "signal", signal = "minor", dir = 1 },
+  { km = 6.287, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.517, kind = "signal", label = "41 H", signal = "distant,main,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 7.302, kind = "signal", label = "42 AA", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 7.382, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 7.502, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.685, kind = "signal", label = "42 12Y", signal = "minor", dir = 1 },
+  { km = 8.084, kind = "signal", label = "42 12X", signal = "minor", dir = 1 },
+  { km = 8.18, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 8.18, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.293, kind = "signal", signal = "minor", dir = -1 },
+  { km = 8.338, kind = "signal", label = "42 22Y", signal = "minor", dir = -1 },
+  { km = 8.479, kind = "signal", label = "42 P22", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 9.217, kind = "signal", label = "42 T22", signal = "combined,minor,route,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 9.29, kind = "signal", label = "42 22 X", signal = "minor", dir = 1 },
+  { km = 9.481, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.482, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 9.62, kind = "signal", label = "42 43Y", signal = "minor", dir = -1 },
+  { km = 9.647, kind = "station", label = "Wilhelmsburg", uic = "8002561", pos = [53.49847, 10.00686] },
+  { km = 9.855, kind = "signal", label = "42 S43", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 9.856, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.502, kind = "signal", label = "42N43", signal = "combined,minor,route,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 10.626, kind = "signal", label = "4243X", signal = "minor", dir = 1 },
+  { km = 10.682, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 10.686, kind = "signal", label = "4253Y", signal = "minor", dir = -1 },
+  { km = 10.772, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 11.006, kind = "signal", label = "AA297", signal = "main", dir = 1 },
+  { km = 11.011, kind = "signal", label = "42H", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 11.13, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 11.204, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 11.282, kind = "signal", signal = "minor", dir = -1 },
+  { km = 11.51, kind = "signal", label = "42h", signal = "distant,speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.508, kmTo = 2.522, length = 15 },
+  { kind = "bridge", kmFrom = 4.238, kmTo = 4.271, length = 33 },
+  { kind = "bridge", kmFrom = 5.856, kmTo = 5.882, length = 26 },
+  { kind = "bridge", kmFrom = 6.119, kmTo = 6.188, length = 72 },
+  { kind = "bridge", kmFrom = 6.397, kmTo = 6.435, length = 38 },
+  { kind = "bridge", kmFrom = 6.472, kmTo = 6.508, length = 36 },
+  { kind = "bridge", kmFrom = 6.609, kmTo = 6.978, length = 350 },
+  { kind = "bridge", kmFrom = 7.159, kmTo = 7.196, length = 36 },
+  { kind = "bridge", kmFrom = 7.76, kmTo = 7.795, length = 34 },
+  { kind = "bridge", kmFrom = 11.298, kmTo = 11.316, length = 19 },
+  { kind = "bridge", kmFrom = 11.662, kmTo = 11.717, length = 55 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "e{`eIctf|@mR|[cRfX{_AnhAcVjU", v = 120 },
+  { line = "wydeIa~a|@mP|Tkv@|pA" },
+  { line = "qbgeIev~{@{HhH}LhCcGImJcF", v = 80 },
+  { line = "}mheI_p~{@ybB{p@_a@wM" },
+  { line = "wsleIsp`|@c]cHg`@mE", v = 120 },
+  { line = "csneIe`a|@eXwC_q@wLwLu@" },
+  { line = "alqeIkta|@cQG", v = 60 },
+  { line = "e~qeIsta|@_I?", v = 80 },
+  { line = "ehreIsta|@aJeAc^}J", v = 40 },
+]
+posts = [[1, 53.42834, 10.02397], [2, 53.43583, 10.01562], [3, 53.44386, 10.00685], [4, 53.45015, 9.99746], [5, 53.45794, 9.99059], [6, 53.4664, 9.99497], [7, 53.47494, 9.99912], [8, 53.48396, 10.00295], [9, 53.49282, 10.00484], [10, 53.50164, 10.00706], [11, 53.51054, 10.00793]]
+
+[[connections]]
+km = 0.486
+station = "Meckelfeld"
+lines = [
+  { id = "1280", ref = "1280", name = "1280 Buchholz - Abzw Hamburg-Allermöhe", km = 25.111 },
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 164.95 },
+]
+
+[[connections]]
+km = 4.74
+station = "Hamburg-Harburg"
+lines = [
+  { id = "1271", ref = "1271", name = "1271 Hamburg Hbf - Hamburg-Neugraben", km = 12.322 },
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 343.196 },
+  { id = "hamburg-wilhelmsburg-hamburg-sued", name = "Hamburg-Wilhelmsburg – Hamburg-Süd", km = 6.856 },
+]
+
+[[connections]]
+km = 4.882
+station = "Harburg"
+lines = [
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 169.454 },
+]
+
+[[connections]]
+km = 9.647
+station = "Wilhelmsburg"
+lines = [
+  { id = "1271", ref = "1271", name = "1271 Hamburg Hbf - Hamburg-Neugraben", km = 7.284 },
+  { id = "1280", ref = "1280", name = "1280 Buchholz - Abzw Hamburg-Allermöhe", km = 34.221 },
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 348.141 },
+  { id = "hamburg-wilhelmsburg-hamburg-sued", name = "Hamburg-Wilhelmsburg – Hamburg-Süd", km = 9.67 },
+]

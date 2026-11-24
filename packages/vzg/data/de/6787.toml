@@ -1,0 +1,71 @@
+id = "6787"
+ref = "6787"
+name = "Greifswald–Ladebow"
+operator = "Regio Infra Nord-Ost"
+gauge = "1435"
+wikidata = "Q115491877"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.137
+kmTo = 5.553
+length = 5.678
+speeds = [[-0.137, 0.008, 25, 20], [0.008, 0.073, 20, 20], [0.073, 0.999, 20, 30], [0.999, 1.005, 10, 30], [1.005, 1.287, 10, 10], [1.287, 1.308, 20, 10], [1.308, 2.102, 20, 20], [2.102, 2.108, 30, 20], [2.108, 4.698, 30, 30], [4.698, 4.738, 10, 30], [4.738, 5.346, 20, 10], [5.346, 5.414, "", 10], [5.414, 5.553, "", ""]]
+curves = [[-0.033, 0.439, 230], [0.816, 0.966, 460], [1.017, 1.346, 490], [1.472, 1.927, 650], [2.116, 2.303, 370], [3.129, 3.724, 550], [4.377, 4.853, 680], [5.378, 5.453, 1750]]
+points = [
+  { km = -0.024, kind = "signal", signal = "whistle", dir = 1 },
+  { km = -0.001, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.008, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.073, kind = "signal", signal = "speed_limit,stop,whistle", dir = -1 },
+  { km = 0.098, kind = "stop", label = "Greifswald Ryck", pos = [54.0973, 13.36583] },
+  { km = 0.985, kind = "stop", label = "Greifswald Ryck", pos = [54.09899, 13.37817] },
+  { km = 0.992, kind = "signal", signal = "main,shunting", dir = 1 },
+  { km = 0.996, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.999, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.044, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.308, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.309, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.465, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.523, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.84, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.982, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.097, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.107, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.108, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.257, kind = "signal", signal = "main", dir = 1 },
+  { km = 2.397, kind = "signal", signal = "stop", dir = -1 },
+  { km = 2.681, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.741, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.828, kind = "signal", signal = "main", dir = -1 },
+  { km = 4.692, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.698, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.729, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.748, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.8, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.209, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.25, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.299, kind = "signal", signal = "main", dir = 1 },
+  { km = 5.38, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.414, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.415, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.464, kind = "signal", signal = "stop,whistle", dir = -1 },
+  { km = 5.553, kind = "signal", signal = "stop,whistle", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.927, kmTo = 0.995, length = 68 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{{eiIoj`qADhL" },
+  { line = "u{eiIe}_qAEpE", v = 10 },
+  { line = "{{eiIsv_qAg@dy@", v = 20 },
+  { line = "c}eiIm|}pAd@lO[jG{TrbAcAbHa@bKr@vPtSnrAVxDWxH", v = 30 },
+  { line = "q_fiI{uvpAgAnVf@vHtGrNhKfM", v = 20 },
+  { line = "qkeiIwvtpA~ApFnAzO", v = 10 },
+  { line = "afeiIi~spA~@nIDjt@d@`DvAlDfEbD", v = 30 },
+  { line = "uydiIynqpAvBF", v = 20 },
+  { line = "}udiIqnqpAlBw@vBkC", v = 25 },
+]
+posts = [[5, 54.10269, 13.43339], [4, 54.10473, 13.41903], [3, 54.10591, 13.40617], [2, 54.10329, 13.39081], [1, 54.09904, 13.37838], [0, 54.0964, 13.36572]]

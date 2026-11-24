@@ -1,0 +1,27 @@
+id = "9609"
+ref = "9609"
+name = "9609 Köln-Bickendorf - Köln-Ehrenfeld"
+operator = "HGK"
+gauge = "1435"
+from = "Köln-Bickendorf"
+to = "Köln-Ehrenfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.522
+length = 1.522
+speeds = [[0, 1.522, "", ""]]
+curves = [[0.15, 0.225, 1520], [0.375, 0.475, 1310], [0.6, 0.7, 800], [0.75, 1.075, 860], [1.15, 1.4, 450]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.244, kmTo = 0.27, length = 25 },
+  { kind = "bridge", kmFrom = 1.346, kmTo = 1.381, length = 35 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yr`vHys`i@xVnCjL^zEfAjEA~ReG|DkEfCmG" },
+]
+posts = [[0, 50.96253, 6.88973], [1, 50.95361, 6.88875]]

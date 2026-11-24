@@ -1,0 +1,75 @@
+id = "5733"
+ref = "5733"
+name = "5733 Traunstein - Ruhpolding"
+operator = "DB InfraGO AG;DB RegioNetz Infrastruktur GmbH;Südostbayernbahn"
+gauge = "1435"
+from = "Traunstein"
+to = "Ruhpolding"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.428
+kmTo = 13.2
+length = 13.627
+speeds = [[-0.428, 0.123, 60, 60], [0.123, 0.958, 40, 40], [0.958, 2.102, 50, 50], [2.102, 2.149, 20, 20], [2.149, 5.151, 60, 60], [5.151, 5.298, 20, 20], [5.298, 6.74, 40, 40], [6.74, 6.918, 20, 20], [6.918, 8.577, 50, 50], [8.577, 8.612, 10, 10], [8.612, 12.949, 60, 60], [12.949, 13.2, 20, 20]]
+curves = [[-0.028, 0.197, 580], [0.397, 0.597, 330], [0.647, 0.997, 210], [1.048, 1.432, 300], [1.714, 1.995, 630], [2.044, 2.24, 760], [2.363, 2.485, 1300], [3.344, 3.566, 1160], [3.763, 4.401, 500], [5.371, 5.495, 1700], [5.94, 6.062, 1280], [6.11, 6.472, 1030], [6.521, 6.714, 730], [6.858, 7.16, 320], [7.369, 7.552, 800], [7.682, 8.074, 370], [8.126, 8.309, 530], [8.44, 8.989, 420], [9.063, 9.982, 460], [10.031, 10.735, 400], [10.784, 11.577, 450], [11.927, 12.401, 780], [12.849, 13.023, 830]]
+points = [
+  { km = -0.357, kind = "signal", label = "N1", signal = "main", dir = -1 },
+  { km = -0.012, kind = "station", label = "Traunstein", pos = [47.86974, 12.63881], uic = "8000116" },
+  { km = 0.123, kind = "stop", label = "Traunstein", pos = [47.86864, 12.63832] },
+  { km = 0.203, kind = "signal", label = "P1a", signal = "main", dir = 1 },
+  { km = 0.574, kind = "signal", label = "C", signal = "main", dir = -1 },
+  { km = 0.958, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.591, kind = "stop", label = "Seiboldsdorf", pos = [47.85688, 12.63681], uic = "8005512" },
+  { km = 2.102, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.149, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.67, kind = "stop", label = "Traundorf", pos = [47.83833, 12.63987], uic = "8005893" },
+  { km = 5.151, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.298, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.592, kind = "signal", label = "30P1", signal = "main,traversable", dir = -1 },
+  { km = 5.599, kind = "station", label = "Siegsdorf", pos = [47.82225, 12.64592], uic = "8005559" },
+  { km = 6.74, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.862, kind = "stop", label = "Höpfling", pos = [47.81127, 12.65117], uic = "8002908" },
+  { km = 6.918, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.577, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.612, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.994, kind = "stop", label = "Eisenärzt", pos = [47.79611, 12.63824], uic = "8001725" },
+  { km = 12.098, kind = "stop", label = "Bibelöd", pos = [47.77177, 12.64647], uic = "8000946" },
+  { km = 12.949, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.142, kind = "stop", label = "Ruhpolding", pos = [47.76228, 12.6489], uic = "8005222" },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.286, kmTo = -0.246, length = 39 },
+  { kind = "bridge", kmFrom = 1.23, kmTo = 1.245, length = 16 },
+  { kind = "bridge", kmFrom = 5.195, kmTo = 5.235, length = 41 },
+  { kind = "bridge", kmFrom = 5.359, kmTo = 5.377, length = 18 },
+  { kind = "bridge", kmFrom = 8.064, kmTo = 8.12, length = 53 },
+  { kind = "bridge", kmFrom = 12.138, kmTo = 12.151, length = 12 },
+  { kind = "bridge", kmFrom = 12.497, kmTo = 12.514, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "geecH_bdlA|T~QhDnA", v = 60 },
+  { line = "_jdcHolclAhS^rBw@lEsEhCs@~Cj@dCtC", v = 40 },
+  { line = "c~bcHmoclAlDzIhBnBfC`AhDGrWkGfCNbIhC", v = 50 },
+  { line = "ydacHybclArAT", v = 20 },
+  { line = "ebacHcbclAlPQ`v@yKjUyKlIgMvEgDrDw@lj@sD", v = 60 },
+  { line = "aa|bHewdlAhGa@", v = 20 },
+  { line = "wx{bHgxdlAnGg@x]yG~Ie@`HeEfJ_J|FqC", v = 40 },
+  { line = "ejybHgyelAzH_D", v = 20 },
+  { line = "i`ybHg~elAxDQvCtBnLdP`HrQ`BjCrHxDtGvItP`I", v = 50 },
+  { line = "cxvbHixclAj@|@", v = 10 },
+  { line = "wvvbHkvclAtChEdGtBfMq@hBh@dHxF|JbA`He@jFeDlEyLjDgEbCcG|BkB|BQ~Bz@vO`QdCr@fCIhTuHjV}\\fGyElHeB~`@kB", v = 60 },
+  { line = "k}obH}helAhL}E", v = 20 },
+]
+posts = [[0, 47.86968, 12.63887], [1, 47.8614, 12.63834], [2, 47.85334, 12.63717], [3, 47.84427, 12.63788], [4, 47.8358, 12.64221], [5, 47.82762, 12.64497], [6, 47.81863, 12.64693], [7, 47.81002, 12.65153], [8, 47.80353, 12.64361], [9, 47.796, 12.63836], [10, 47.78754, 12.63894], [11, 47.78015, 12.63945], [12, 47.77252, 12.6458], [13, 47.76378, 12.64818]]
+
+[[connections]]
+km = -0.012
+station = "Traunstein"
+lines = [
+  { id = "5703", ref = "5703", name = "5703 Rosenheim - Salzburg Grenze", km = 53.313 },
+  { id = "5730", ref = "5730", name = "5730 Traunstein - Garching (Alz)", km = -0.011 },
+]

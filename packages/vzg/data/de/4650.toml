@@ -1,0 +1,141 @@
+id = "4650"
+ref = "4650"
+name = "4650 Rottweil - Villingen (Schwarzw)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Rottweil"
+to = "Villingen (Schwarzw)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.306
+kmTo = 27.505
+length = 27.756
+speeds = [[-0.306, 0.791, "", ""], [0.791, 1.198, 60, 60], [1.198, 16.082, 100, 100], [16.082, 16.7, 90, 90], [16.7, 17.351, 80, 80], [17.351, 18.226, 70, 70], [18.226, 18.6, 80, 80], [18.6, 25.626, 100, 100], [25.626, 25.979, 100, 80], [25.979, 26.304, 60, 80], [26.304, 26.863, 60, 60], [26.863, 27.505, 40, 40]]
+curves = [[-0.2, -0.15, 880], [0.199, 1.391, 530], [1.741, 2.196, 690], [2.865, 3.464, 1870], [3.962, 4.691, 590], [6.669, 6.744, 2900], [6.87, 6.97, 2790], [7.895, 7.946, 2680], [8.797, 9.577, 870], [9.692, 10.444, 700], [10.752, 11.271, 1240], [12.1, 12.501, 1330], [13.651, 14.401, 1180], [15.478, 16.299, 700], [16.867, 17.707, 570], [18.008, 18.348, 940], [18.552, 18.804, 1240], [19.035, 19.986, 580], [20.186, 21.088, 700], [21.764, 22.491, 580], [23.164, 23.386, 1200], [23.756, 24.622, 580], [25.545, 25.972, 620], [26.175, 26.456, 930], [27.105, 27.405, 730]]
+points = [
+  { km = -0.087, kind = "signal", label = "P002", signal = "main,minor,traversable", dir = -1 },
+  { km = -0.082, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.053, kind = "signal", signal = "main_repeated" },
+  { km = 0.026, kind = "station", label = "Rottweil", pos = [48.16524, 8.63956], uic = "8029411", ele = 557 },
+  { km = 0.033, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.052, kind = "signal", signal = "main_repeated" },
+  { km = 0.228, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.352, kind = "signal", label = "N002", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 0.517, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.583, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.774, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.791, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.892, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.994, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.195, kind = "signal", label = "F299", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 1.2, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 1.239, kind = "halt", label = "Rottweil-Göllsdorf", uic = "8080300", pos = [48.15974, 8.65083] },
+  { km = 1.395, kind = "signal", label = "Wvf299", signal = "distant", dir = -1 },
+  { km = 2.24, kind = "signal", label = "f299", signal = "distant", dir = -1 },
+  { km = 2.544, kind = "stop", label = "Rottweil Saline", uic = "8005202", pos = [48.14901, 8.64552], measured = true },
+  { km = 6.27, kind = "signal", label = "33Va", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.929, kind = "signal", label = "33A", signal = "combined,speed_limit", dir = 1 },
+  { km = 7.046, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 7.144, kind = "signal", signal = "minor", dir = 1 },
+  { km = 7.236, kind = "signal", label = "33P2", signal = "main,minor", dir = -1 },
+  { km = 7.642, kind = "signal", label = "33N2", signal = "main,minor", dir = 1 },
+  { km = 7.865, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 7.911, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 8.081, kind = "signal", label = "33ZU1", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = 8.148, kind = "signal", signal = "stop_demand", dir = 1 },
+  { km = 8.229, kind = "stop", label = "Deißlingen Mitte", pos = [48.10828, 8.61152], uic = "8029433", ele = 611 },
+  { km = 8.255, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 8.259, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 8.299, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 8.56, kind = "signal", label = "33F", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 9.266, kind = "signal", label = "33Vf", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 9.91, kind = "signal", label = "32Va", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 10.857, kind = "signal", label = "32A", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 11.315, kind = "signal", label = "32P2", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 11.319, kind = "signal", signal = "stop", dir = -1 },
+  { km = 11.358, kind = "stop", label = "Trossingen Bahnhof", uic = "8005911", pos = [48.08959, 8.5852] },
+  { km = 11.4, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.405, kind = "signal", label = "32ZR2", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 11.497, kind = "signal", label = "32ZU12", signal = "main,minor", dir = -1 },
+  { km = 11.501, kind = "signal", signal = "stop", dir = -1 },
+  { km = 11.505, kind = "station", label = "Trossingen", uic = "8029434", pos = [48.0883, 8.58519] },
+  { km = 11.531, kind = "stop", label = "Trossingen Bahnhof", uic = "8005911", pos = [48.08806, 8.58517] },
+  { km = 11.557, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.59, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.612, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 11.613, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.645, kind = "signal", label = "32N12", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 12.029, kind = "signal", label = "32F", signal = "combined,main,speed_limit", dir = 1 },
+  { km = 16.746, kind = "stop", label = "VS-Hammerstatt", pos = [48.06025, 8.54686], uic = "8071996" },
+  { km = 17.6, kind = "stop", label = "Schwenningen (Neckar)", pos = [48.0599, 8.53584], measured = true },
+  { km = 17.6, kind = "station", label = "Schwenningen", uic = "8029436", pos = [48.05965, 8.53552], measured = true },
+  { km = 18.6, kind = "stop", label = "Villingen-Schwenningen Eisstadion", pos = [48.05275, 8.52857], measured = true },
+  { km = 18.6, kind = "halt", label = "Eisstadion", uic = "8072025", pos = [48.05266, 8.52859], measured = true },
+  { km = 21.143, kind = "stop", label = "VS-Zollhaus", pos = [48.04107, 8.50596], uic = "8080306" },
+  { km = 23.9, kind = "stop", label = "Marbach Ost", uic = "8003857", pos = [48.03383, 8.47584], measured = true },
+  { km = 25.626, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 25.979, kind = "signal", label = "G", signal = "main", dir = 1 },
+  { km = 25.979, kind = "signal", label = "p", signal = "distant", dir = 1 },
+  { km = 26.065, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 26.304, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 26.629, kind = "signal", label = "N3", signal = "main,speed_limit,wrong_road", dir = -1 },
+  { km = 26.63, kind = "signal", label = "3II", signal = "minor", dir = -1 },
+  { km = 26.729, kind = "signal", signal = "stop", dir = -1 },
+  { km = 26.863, kind = "station", label = "Villingen (Schwarzwald)", uic = "8000366", pos = [48.05781, 8.46529], ele = 704 },
+  { km = 26.924, kind = "signal", label = "P3", signal = "main_repeated", dir = 1 },
+  { km = 27.141, kind = "signal", label = "3I", signal = "minor", dir = 1 },
+  { km = 27.143, kind = "signal", label = "P3", signal = "main", dir = 1 },
+  { km = 125.8, kind = "halt", label = "Rottweil-Saline", uic = "8080301", pos = [48.14924, 8.6456], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.165, kmTo = 1.176, length = 11 },
+  { kind = "bridge", kmFrom = 2.154, kmTo = 2.168, length = 10 },
+  { kind = "bridge", kmFrom = 3.15, kmTo = 3.174, length = 24 },
+  { kind = "bridge", kmFrom = 9.347, kmTo = 9.384, length = 37 },
+  { kind = "bridge", kmFrom = 9.664, kmTo = 9.677, length = 14 },
+  { kind = "bridge", kmFrom = 11.846, kmTo = 11.859, length = 13 },
+  { kind = "bridge", kmFrom = 12.985, kmTo = 13.003, length = 19 },
+  { kind = "bridge", kmFrom = 14.81, kmTo = 14.878, length = 68 },
+  { kind = "bridge", kmFrom = 16.082, kmTo = 16.106, length = 27 },
+  { kind = "bridge", kmFrom = 17.351, kmTo = 17.37, length = 21 },
+  { kind = "bridge", kmFrom = 24.718, kmTo = 24.747, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "whjdHixsr@|C}ElEoDvSuG", v = 40 },
+  { line = "shidHmmtr@`\\mJ", v = 60 },
+  { line = "qkhdH{xtr@rOiN", v = 80 },
+  { line = "}zgdHehur@zFoExGeB~~@NhGwBhGmGrCuFxBeJvEgl@VsiAm@aLoAyGmBqFeDoFsDcDmh@sZqF}G{CaH{BsJcAkLCcJv@qZQwHoAwJaDmJsDoFwFyDa\\sG", v = 100 },
+  { line = "uhhdHqv`s@iTmL", v = 80 },
+  { line = "_~hdH_das@oFaGuOgXsDwJ_A{E", v = 70 },
+  { line = "y}idH}wbs@s@sKRwJfAoInDsM", v = 80 },
+  { line = "awidHmids@nMed@hBgL", v = 90 },
+  { line = "geidH{{es@^sIKeJs@cIkByIag@yrAeGqKcHuH_LsGidA_]qKq@gn@FoO}AaKgEcTeOsDwDeEmHsCuJkA}I_AkYy@gJiBoJeEmLaEuGo^ob@ct@kdAgJuPofAuzBkFgHyHeEaIa@mFfAq^~MoMzBuKXul@cBcFu@oEwB}UaUqFuC", v = 100 },
+  { line = "sg}dHesxs@wDWkDl@eDpByCbE", v = 60 },
+  { line = "w|}dHyhxs@qExN}BjNSpIb@nf@UnF" },
+]
+posts = [[27, 48.05901, 8.46525], [26, 48.05066, 8.46984], [25, 48.04222, 8.47143], [24, 48.03409, 8.47497], [23, 48.03245, 8.48801], [22, 48.03395, 8.50082], [21, 48.04197, 8.50672], [20, 48.04473, 8.51855], [19, 48.04977, 8.52772], [18, 48.05791, 8.53281], [17, 48.06114, 8.54428], [16, 48.05718, 8.55622], [15, 48.06093, 8.56801], [14, 48.06663, 8.5783], [13, 48.07509, 8.58278], [12, 48.08385, 8.5852], [11, 48.09279, 8.58577], [10, 48.10026, 8.59282], [9, 48.10303, 8.60534], [8, 48.11005, 8.61371], [7, 48.11682, 8.62254], [6, 48.12288, 8.63244], [5, 48.12876, 8.64262], [4, 48.1361, 8.64851], [3, 48.14483, 8.64527], [2, 48.15379, 8.6459], [1, 48.16188, 8.6508], [0, 48.16517, 8.63916]]
+
+[[connections]]
+km = 0.026
+station = "Rottweil"
+lines = [
+  { id = "4600", ref = "4600", name = "4600 Plochingen - Immendingen", km = 123.234 },
+]
+
+[[connections]]
+km = 2.544
+station = "Rottweil Saline"
+lines = [
+  { id = "4600", ref = "4600", name = "4600 Plochingen - Immendingen", km = 125.8 },
+]
+
+[[connections]]
+km = 26.863
+station = "Villingen"
+lines = [
+  { id = "4250", ref = "4250", name = "4250 Offenburg - Singen", km = 85.9 },
+]

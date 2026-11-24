@@ -1,0 +1,44 @@
+id = "2283"
+ref = "2283"
+name = "2283 Oberhausen Hbf - Oberhausen West"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Oberhausen Hbf"
+to = "Oberhausen West"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.306
+length = 1.306
+speeds = [[0, 1.306, 40, 40]]
+curves = [[0.1, 0.75, 480], [0.85, 0.95, 810], [1, 1.2, 890]]
+points = [
+  { km = 0.988, kind = "signal", label = "R016", signal = "distant,main,minor", dir = -1 },
+  { km = 1.009, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.051, kind = "station", label = "Oberhausen Hbf", pos = [51.47491, 6.85168], uic = "8000286" },
+  { km = 1.191, kind = "signal", label = "P016", signal = "distant,main,minor", dir = 1 },
+  { km = 1.215, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.098, kmTo = 0.119, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "egfyHqayh@dB_KdB_DhH_CbGQjHnCbHbGzFdHtJlG", v = 40 },
+]
+posts = [[0, 51.48291, 6.85097], [1, 51.47546, 6.85155]]
+
+[[connections]]
+km = 1.051
+station = "Oberhausen Hbf"
+lines = [
+  { id = "2184", ref = "2184", name = "2184 Mülheim (Ruhr)-Styrum - Duisburg Hbf", km = -4.082 },
+  { id = "2270", ref = "2270", name = "2270 Oberhausen Hbf - Emmerich Grenze", km = -0.011 },
+  { id = "2274", ref = "2274", name = "2274 Oberhausen Hbf - Duisburg-Ruhrort", km = 0.018 },
+  { id = "2277", ref = "2277", name = "2277 Oberhausen Hbf - Essen-Altenessen", km = 70.901 },
+  { id = "2300", ref = "2300", name = "2300 Mülheim (Rhur)-Styrum - Essen Hbf", km = 111.086 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 70.737 },
+]

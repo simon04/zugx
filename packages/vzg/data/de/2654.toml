@@ -1,0 +1,34 @@
+id = "2654"
+ref = "2654"
+name = "2654 Köln-Deutz - Köln-Deutzerfeld"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Köln Messe/Deutz"
+to = "Köln Deutzerfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.485
+length = 0.485
+speeds = [[0, 0.138, 60, 60], [0.138, 0.484, 25, 25], [0.484, 0.485, "", ""]]
+curves = [[0.1, 0.2, 1560], [0.3, 0.375, 750]]
+points = [
+  { km = 0.196, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.198, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.378, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.485, kind = "signal", label = "70L 609Y", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.384, kmTo = 0.484, length = 100 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ah|uHkfri@dAyJ", v = 60 },
+  { line = "{e|uHerri@nAqT", v = 25 },
+  { line = "kc|uHwgsi@c@uG", tunnel = true, v = 25 },
+  { line = "od|uHmpsi@AC" },
+]
+posts = [[0, 50.94033, 6.97974]]

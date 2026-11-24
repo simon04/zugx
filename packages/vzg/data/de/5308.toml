@@ -1,0 +1,30 @@
+id = "5308"
+ref = "5308"
+name = "5308 Augsburg Morellstraße - Augsburg Hbf (Bbf Süd)"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Augsburg Morellstraße"
+to = "Augsburg Hbf (Bbf Süd)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.092
+length = 1.092
+speeds = [[0, 1.092, 40, 40]]
+curves = [[0.2, 0.25, 2110], [0.5, 0.55, 2670]]
+points = [
+  { km = 0.088, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 0.155, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.7, kmTo = 0.742, length = 42 },
+  { kind = "bridge", kmFrom = 0.904, kmTo = 0.959, length = 55 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ikbfHqmnaAnYlLz]hR", v = 40 },
+]
+posts = [[0, 48.35013, 10.89257], [1, 48.34172, 10.88781]]

@@ -1,0 +1,45 @@
+id = "6609"
+ref = "6609"
+name = "Windbergbahn"
+operator = "Windbergbahn e. V."
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 2
+kmTo = 5.6
+length = 3.603
+speeds = [[2, 5.6, "", ""]]
+curves = [[2.132, 2.568, 120], [2.667, 4.192, 180], [4.269, 4.722, 270], [4.77, 4.92, 170], [4.969, 5.491, 190]]
+points = [
+  { km = 2, kind = "halt", label = "Hp Gitterseer Straße", pos = [51.01194, 13.6772] },
+  { km = 2.9, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.978, kind = "halt", label = "Leisnitz / Schloss Burgk", pos = [51.00695, 13.66702] },
+  { km = 2.997, kind = "signal", signal = "stop,whistle", dir = 1 },
+  { km = 3.095, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.15, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.447, kind = "signal", signal = "caption,speed_limit", dir = 1 },
+  { km = 3.469, kind = "signal", signal = "caption,speed_limit", dir = -1 },
+  { km = 3.947, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.709, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.883, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.949, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.254, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.281, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 5.43, kind = "signal", signal = "minor", dir = 1 },
+  { km = 5.434, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 5.443, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.6, kind = "station", label = "Dresden-Gittersee", ele = 275, pos = [51.00491, 13.68948] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.681, kmTo = 3.691, length = 10 },
+  { kind = "bridge", kmFrom = 4.554, kmTo = 4.575, length = 21, name = "Kesselgrundbrücke" },
+  { kind = "bridge", kmFrom = 5.2, kmTo = 5.218, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{_jvHwwmrAlArAbEh@`A|BEjEwCfEc@`ExG~UjB|@jBc@nEqINkEiAkKjCmLIiFkByFqAcBaHeAgAw@}@gCIoCx@mEtJwLhB_HRsDqBcJYeKsHcJk@uEX{ClAwBvFq@dBn@hF~F" },
+]
+posts = [[2, 51.0107, 13.67436], [3, 51.00681, 13.66724], [4, 51.00919, 13.67769], [5, 51.00836, 13.6888]]

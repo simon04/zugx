@@ -1,0 +1,108 @@
+id = "7712"
+ref = "7712"
+operator = "Albtal-Verkehrs-Gesellschaft mbH;DB Netz AG;Stadtwerke Heilbronn GmbH"
+gauge = "1435"
+from = "Heilbronn Kanalbrücke"
+to = "Heilbronn Pfühlpark"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.653
+length = 3.653
+speeds = [[0, 0.336, "", ""], [0.336, 0.595, 80, 80], [0.595, 0.656, 50, 50], [0.656, 0.667, 30, ""], [0.667, 0.846, 50, 50], [0.846, 0.989, 25, 25], [0.989, 1.386, 30, 30], [1.386, 1.798, 20, 20], [1.798, 2.574, 50, 50], [2.574, 2.875, 30, 30], [2.875, 2.893, "", 20], [2.893, 2.949, "", 30], [2.949, 2.977, "", 20], [2.977, 3.239, 40, 40], [3.239, 3.555, 50, 50], [3.555, 3.653, 60, 60]]
+curves = [[0.1, 0.175, 920], [0.425, 0.55, 1180], [0.6, 0.875, 570], [1, 1.15, 1090], [1.675, 1.775, 1070], [2.55, 2.875, 240], [3, 3.15, 740], [3.225, 3.3, 2080], [3.5, 3.55, 1190]]
+points = [
+  { km = 0.346, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.558, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.563, kind = "signal", label = "851", signal = "minor", dir = -1 },
+  { km = 0.595, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.595, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.603, kind = "signal", signal = "main,request", dir = 1 },
+  { km = 0.656, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.754, kind = "stop", label = "Hauptbahnhof/Willy-Brandt-Platz", pos = [49.1426, 9.20848] },
+  { km = 0.873, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.897, kind = "signal", label = "51V", signal = "distant", dir = 1 },
+  { km = 0.934, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.958, kind = "signal", signal = "main,request", dir = 1 },
+  { km = 0.989, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.025, kind = "signal", signal = "main,request", dir = 1 },
+  { km = 1.061, kind = "signal", label = "53", signal = "main,request", dir = 1 },
+  { km = 1.173, kind = "stop", label = "Neckarturm am Kurt-Schumacher-Platz", pos = [49.14259, 9.21419] },
+  { km = 1.195, kind = "signal", signal = "departure,main,request,stop", dir = 1 },
+  { km = 1.234, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.328, kind = "signal", signal = "main,request", dir = 1 },
+  { km = 1.366, kind = "signal", signal = "main,request", dir = 1 },
+  { km = 1.5, kind = "stop", label = "Rathaus", pos = [49.142, 9.21858] },
+  { km = 1.714, kind = "signal", signal = "main,switch", dir = 1 },
+  { km = 1.752, kind = "signal", signal = "main,request", dir = 1 },
+  { km = 1.846, kind = "stop", label = "Harmonie", pos = [49.14155, 9.22328] },
+  { km = 1.911, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.98, kind = "signal", signal = "main,request", dir = 1 },
+  { km = 2.194, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.255, kind = "stop", label = "Friedensplatz", pos = [49.14128, 9.22889] },
+  { km = 2.293, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.294, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.446, kind = "signal", signal = "main,request", dir = 1 },
+  { km = 2.47, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.748, kind = "stop", label = "Finanzamt", pos = [49.14033, 9.23521] },
+  { km = 2.754, kind = "signal", signal = "departure,main,request,route", dir = 1 },
+  { km = 2.832, kind = "signal", signal = "main,request", dir = 1 },
+  { km = 2.901, kind = "signal", signal = "main,request,speed_limit", dir = 1 },
+  { km = 2.924, kind = "signal", signal = "main,request", dir = -1 },
+  { km = 3.038, kind = "signal", signal = "main,request", dir = 1 },
+  { km = 3.084, kind = "signal", signal = "electricity" },
+  { km = 3.122, kind = "signal", signal = "main", dir = 1 },
+  { km = 3.125, kind = "signal", label = "25", signal = "departure,main,request,route", dir = -1 },
+  { km = 3.134, kind = "signal", signal = "radio", dir = -1 },
+  { km = 3.202, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.203, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.239, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.243, kind = "signal", signal = "departure,main,request,route", dir = 1 },
+  { km = 3.356, kind = "signal", label = "16880", signal = "combined,speed_limit,train_protection", dir = 1 },
+  { km = 3.429, kind = "signal", signal = "train_protection" },
+  { km = 3.46, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 3.483, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.555, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.594, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 3.624, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 117.957, kind = "station", label = "Heilbronn Hauptbahnhof", uic = "8029629", pos = [49.14314, 9.20766], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.051, kmTo = 0.078, length = 27 },
+  { kind = "bridge", kmFrom = 0.093, kmTo = 0.103, length = 10 },
+  { kind = "bridge", kmFrom = 0.141, kmTo = 0.247, length = 106 },
+  { kind = "bridge", kmFrom = 0.313, kmTo = 0.336, length = 24 },
+  { kind = "bridge", kmFrom = 1.224, kmTo = 1.325, length = 101 },
+  { kind = "bridge", kmFrom = 3.381, kmTo = 3.429, length = 48 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ev|jHgscw@{AuFoCyQ" },
+  { line = "q}|jHwmdw@}BkT", v = 80 },
+  { line = "oa}jHccew@UaD", v = 50 },
+  { line = "eb}jHehew@E]", v = 30 },
+  { line = "kb}jHciew@sAyHIuC", v = 50 },
+  { line = "ie}jHswew@@iK", v = 25 },
+  { line = "ge}jH}cfw@FeHdBmW", v = 30 },
+  { line = "ya}jHqegw@zBya@", v = 20 },
+  { line = "}}|jHkhhw@~AoaA", v = 50 },
+  { line = "}z|jH{jjw@X_EbDkGBaG", v = 30 },
+  { line = "{t|jHiakw@?q@", v = 20 },
+  { line = "{t|jH{bkw@CyC", v = 30 },
+  { line = "_u|jHugkw@AmA", v = 20 },
+  { line = "au|jHcjkw@?wGz@mL", v = 40 },
+  { line = "es|jHi`lw@vAyY", v = 50 },
+  { line = "mp|jHc{lw@DmG", v = 60 },
+]
+posts = [[0, 49.14035, 9.19876], [1, 49.14276, 9.21182], [2, 49.14143, 9.22539], [3, 49.14017, 9.23857]]
+
+[[connections]]
+km = 117.957
+station = "Heilbronn Hauptbahnhof"
+lines = [
+  { id = "4900", ref = "4900", name = "4900 Bietigheim-Bissingen - Osterburken", km = 52.57 },
+  { id = "4950", ref = "4950", name = "4950 Crailsheim - Eppingen", km = 118.603 },
+]

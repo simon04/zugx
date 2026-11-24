@@ -1,0 +1,39 @@
+id = "9291"
+ref = "9291"
+operator = "Mindener Kreisbahnen GmbH"
+gauge = "1435"
+from = "Minden Oberstadt"
+to = "Hille"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.704
+kmTo = 17.342
+length = 18.124
+speeds = [[-0.704, 17.342, "", ""]]
+curves = [[-0.58, -0.48, 590], [-0.205, 0.07, 280], [0.17, 0.62, 350], [0.845, 0.97, 700], [1.02, 1.07, 1530], [1.295, 1.67, 270], [1.745, 2.145, 220], [2.22, 2.295, 1730], [2.345, 2.47, 810], [2.57, 3.295, 570], [3.67, 4.295, 320], [4.72, 4.97, 1210], [5.545, 5.92, 420], [6.22, 6.62, 350], [6.995, 7.77, 360], [9.195, 9.32, 1880], [10.045, 10.095, 1450], [13.52, 13.745, 1760], [15.095, 15.611, 310], [15.639, 15.681, 1740], [15.717, 15.942, 530]]
+points = [
+  { km = -0.169, kind = "signal", signal = "shunting", dir = 1 },
+  { km = -0.163, kind = "signal", signal = "crossing_info,speed_limit", dir = -1 },
+  { km = 2.206, kind = "station", label = "Minden-Oberstadt", uic = "8070489", pos = [52.30027, 8.91326] },
+  { km = 8.312, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.362, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 8.603, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.698, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.041, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.373, kind = "halt", label = "Specken", pos = [52.32677, 8.779] },
+  { km = 15.662, kind = "station", label = "Hille", pos = [52.33269, 8.74944] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.538, kmTo = 0.895, length = 356 },
+  { kind = "bridge", kmFrom = 1.913, kmTo = 1.942, length = 28 },
+  { kind = "bridge", kmFrom = 5.915, kmTo = 5.987, length = 71 },
+  { kind = "bridge", kmFrom = 16.626, kmTo = 16.698, length = 73 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uii~Hkwjt@wqAwW{QcUqB{IIiKbAaHlb@gaBlGyYzrAipJ|e@i`CnAoDtCuDhB_A|H{@|B}B`CsKhFsn@rCiIbD{CfVaMvDeGjAwF`Lu`ArPsn@t@{ELgHq@cI{CsHqBmA_YwCqFuAcFeFkCaFeBuGcAcIqA_TWs]VmD~@qCtBeBpC[`Kf@nCiAdBkCnAwGlEwb@xHk`@U}Do@{BcDkEmM{F{BgDa@mCcBud@cBiL" },
+]
+posts = [[17, 52.3209, 8.74462], [16, 52.32975, 8.74722], [15, 52.33382, 8.75807], [14, 52.32924, 8.77074], [13, 52.32563, 8.78417], [12, 52.3225, 8.79796], [11, 52.31937, 8.81175], [10, 52.31623, 8.82554], [9, 52.31288, 8.83917], [8, 52.30889, 8.85236], [7, 52.30308, 8.86198], [6, 52.29817, 8.87265], [5, 52.29384, 8.88449], [4, 52.2903, 8.89764], [3, 52.29818, 8.90256], [2, 52.30017, 8.91622], [1, 52.2942, 8.92413], [0, 52.29601, 8.93458]]

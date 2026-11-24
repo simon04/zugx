@@ -1,0 +1,35 @@
+id = "3807"
+ref = "3807"
+name = "3807 Bebra-Blankenheim - Bebra Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Bebra-Blankenheim"
+to = "Bebra Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.118
+length = 2.118
+speeds = [[0, 0.347, "", ""], [0.347, 2.118, 100, 100]]
+curves = [[0.1, 0.2, 1480], [0.25, 0.775, 570], [0.9, 1.15, 720], [1.5, 1.625, 1000], [1.675, 1.825, 960]]
+points = [
+  { km = 0.081, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.124, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.161, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.227, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.357, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.789, kmTo = 0.946, length = 157 },
+  { kind = "bridge", kmFrom = 1.398, kmTo = 1.425, length = 27 },
+  { kind = "bridge", kmFrom = 1.813, kmTo = 1.882, length = 69 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uh~uHs_xz@jIdY" },
+  { line = "i~}uHmewz@|DtHlE`EpRnExC~AzTtTlHrKxOrP", v = 100 },
+]
+posts = [[0, 50.95067, 9.79466], [1, 50.9438, 9.78686], [2, 50.93631, 9.77908]]

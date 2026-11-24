@@ -1,0 +1,43 @@
+id = "2302"
+ref = "2302"
+name = "2302 Duisburg-Ruhrort Hafen - Oberhausen West"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q19838710"
+from = "Duisburg-Ruhrort Hafen"
+to = "Oberhausen West"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.495
+length = 3.495
+speeds = [[0, 0.361, 40, 40], [0.361, 3.495, "", ""]]
+curves = [[0.1, 0.25, 790], [0.325, 0.775, 500], [0.875, 0.975, 1620], [1.05, 1.35, 420], [1.425, 1.475, 2160], [1.55, 1.6, 2110], [1.7, 1.775, 1860], [2.2, 2.425, 810], [2.525, 2.75, 800], [3.1, 3.375, 570]]
+points = [
+  { km = 0.068, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.71, kind = "signal", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 2.47, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.551, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.98, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 3.199, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.321, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.198, kmTo = 0.225, length = 27 },
+  { kind = "bridge", kmFrom = 0.267, kmTo = 0.358, length = 91 },
+  { kind = "bridge", kmFrom = 0.755, kmTo = 0.771, length = 16 },
+  { kind = "bridge", kmFrom = 1.058, kmTo = 1.078, length = 20 },
+  { kind = "bridge", kmFrom = 1.304, kmTo = 1.351, length = 47 },
+  { kind = "bridge", kmFrom = 1.671, kmTo = 1.698, length = 27 },
+  { kind = "bridge", kmFrom = 2.008, kmTo = 2.025, length = 17 },
+  { kind = "bridge", kmFrom = 2.126, kmTo = 2.177, length = 50 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yyayHsanh@m@sGmEcT", v = 40 },
+  { line = "uabyHk_oh@iCyHsEiGkXmJoC}BcBaDiMu`@mOul@uBy_@uIke@oDuKuBqL" },
+]
+posts = [[0, 51.46029, 6.79466], [1, 51.46638, 6.80365], [2, 51.47205, 6.81426], [3, 51.47522, 6.82758]]

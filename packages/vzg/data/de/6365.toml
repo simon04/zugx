@@ -1,0 +1,39 @@
+id = "6365"
+ref = "6365"
+name = "6365 Engelsdorf Ost - Borsdorf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Leipzig-Engelsdorf"
+to = "Borsdorf (Sachs)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 7.544
+kmTo = 11.059
+length = 3.524
+speeds = [[7.544, 7.592, "", ""], [7.592, 11.059, 100, 100]]
+curves = [[10.184, 10.459, 1300]]
+points = [
+  { km = 7.597, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 7.721, kind = "signal", label = "54ZS3", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = 7.836, kind = "signal", label = "54N3", signal = "combined,minor,route,speed_limit,wrong_road", dir = 1 },
+  { km = 7.898, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 7.9, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.174, kind = "signal", label = "54G", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 9.14, kind = "signal", label = "5433", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 9.669, kind = "signal", label = "5534", signal = "combined", dir = -1 },
+  { km = 10.365, kind = "signal", label = "55B", signal = "combined", dir = 1 },
+  { km = 10.727, kind = "signal", label = "55V34", signal = "distant", dir = -1 },
+  { km = 10.966, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 10.472, kmTo = 10.495, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mhkxH}jokAdGjt@p@~NqAppF", v = 100 },
+  { line = "gakxH_tekA?hC" },
+]
+posts = [[11, 51.34474, 12.53484], [10, 51.34333, 12.52071], [9, 51.34351, 12.50619], [8, 51.34364, 12.49505]]

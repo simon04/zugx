@@ -1,0 +1,56 @@
+id = "5228"
+ref = "5228"
+name = "5228 Aschaffenburg Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Aschaffenburg Hbf"
+to = "Aschaffenburg Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.519
+length = 3.519
+speeds = [[0, 0.881, 60, 60], [0.881, 3.519, "", ""]]
+curves = [[0.15, 0.225, 1840], [0.375, 0.5, 1620], [0.825, 0.875, 2600], [0.95, 1.275, 630], [1.925, 2, 2290], [2.075, 2.125, 1850]]
+points = [
+  { km = 0.212, kind = "signal", label = "R 101", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 0.623, kind = "station", label = "Aschaffenburg Hbf", uic = "8000010", pos = [49.98067, 9.14388] },
+  { km = 0.879, kind = "signal", label = "P 101", signal = "distant,main,minor", dir = 1 },
+  { km = 0.976, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.978, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.985, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.025, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.09, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.094, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.158, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.235, kind = "signal", label = "R 203", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 2.019, kind = "signal", label = "S 203", signal = "main,minor", dir = 1 },
+  { km = 2.094, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.145, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.303, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.306, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.375, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.399, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.644, kind = "signal", label = "R 602", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 3.151, kind = "signal", label = "P 602", signal = "main,minor,wrong_road", dir = 1 },
+  { km = 3.413, kind = "signal", signal = "minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a{`pH{ewv@Q{e@d@ae@", v = 60 },
+  { line = "mz`pHyryv@IoN_BuM_p@atCwGc\\" },
+]
+posts = [[0, 49.98081, 9.13518], [1, 49.98071, 9.14915], [2, 49.98435, 9.16185], [3, 49.98846, 9.1743]]
+
+[[connections]]
+km = 0.623
+station = "Aschaffenburg Hbf"
+lines = [
+  { id = "3557", ref = "3557", name = "3557 Darmstadt Hbf - Aschaffenburg Hbf", km = 77.695 },
+  { id = "3660", ref = "3660", name = "3660 Frankfurt (Main) Süd - Aschaffenburg Hbf", km = 43.203 },
+  { id = "5200", ref = "5200", name = "5200 Würzburg - Aschaffenburg", km = 89.347 },
+  { id = "5220", ref = "5220", name = "5220 Aschaffenburg Hbf - Miltenberg West", km = -0.044 },
+]

@@ -1,0 +1,69 @@
+id = "6017"
+ref = "6017"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.302
+length = 2.302
+speeds = [[0, 2.302, "", ""]]
+curves = [[0.125, 0.25, 1620], [0.3, 0.4, 1350], [0.525, 1.175, 580], [1.575, 1.85, 1830], [1.9, 2.2, 1770]]
+points = [
+  { km = 0, kind = "station", label = "Westhafen", uic = "8089116", pos = [52.53674, 13.34257] },
+  { km = 0.102, kind = "signal", label = "6202", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 0.19, kind = "signal", label = "6206", signal = "combined,traversable", dir = -1 },
+  { km = 1.092, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.118, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.259, kind = "signal", signal = "combined", dir = -1 },
+  { km = 2.163, kind = "signal", label = "6248", signal = "combined,traversable", dir = -1 },
+  { km = 2.229, kind = "station", label = "Berlin Hauptbahnhof Tunnel (S-Bahn)", pos = [52.52662, 13.36959] },
+  { km = 2.302, kind = "station", label = "Berlin Hauptbahnhof (tief)", uic = "8098160", pos = [52.52464, 13.36986] },
+  { km = 2.302, kind = "station", label = "Berlin Hauptbahnhof", uic = "8065969", pos = [52.52495, 13.36966] },
+  { km = 2.302, kind = "station", label = "Hauptbahnhof", pos = [52.52528, 13.37012] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.211, kmTo = 0.62, length = 409 },
+  { kind = "tunnel", kmFrom = 1.881, kmTo = 2.302, length = 421 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a`t_IkpmpAy@iR" },
+  { line = "{at_IucnpAeAqd@", tunnel = true },
+  { line = "adt_IgiopARuH`AqHpEkLjDwEzWaXrHoK" },
+  { line = "}rr_IevqpAnHeJrI{G", tunnel = true },
+]
+posts = [[0, 52.53649, 13.3455], [1, 52.53579, 13.35958], [2, 52.52843, 13.36799]]
+
+[[connections]]
+km = 0
+station = "Westhafen"
+lines = [
+  { id = "6030", ref = "6030", name = "6030 Berlin-Gesundbrunnen - Oranienburg", km = 2.016 },
+  { id = "6107", ref = "6107", name = "6107 Berlin Hbf (tief) - Lehrte", km = 2.766 },
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 37.709 },
+  { id = "6183", ref = "6183", name = "6183 Berlin-Schönholz - Kremmen", km = -13.679 },
+]
+
+[[connections]]
+km = 2.229
+station = "Berlin Hauptbahnhof Tunnel"
+lines = [
+  { id = "6024", ref = "6024", name = "6024 Berlin Ostbahnhof - Potsdam Hbf", km = 5.317 },
+  { id = "6109", ref = "6109", name = "6109 Berlin Ostbahnhopf - Berlin-Spandau", km = -5.988 },
+  { id = "6134", ref = "6134", name = "6134 Berlin Hbf (tief) - Berlin Südkreuz Süd", km = 2.145 },
+  { id = "6171", ref = "6171", name = "6171 Abzw Berlin-Wedding Abzw - Berlin Südkreuz Südende", km = 2.063 },
+]
+
+[[connections]]
+km = 2.302
+station = "Hauptbahnhof"
+lines = [
+  { id = "6024", ref = "6024", name = "6024 Berlin Ostbahnhof - Potsdam Hbf", km = 5.35 },
+  { id = "6109", ref = "6109", name = "6109 Berlin Ostbahnhopf - Berlin-Spandau", km = -5.953 },
+  { id = "6134", ref = "6134", name = "6134 Berlin Hbf (tief) - Berlin Südkreuz Süd", km = 2.285 },
+  { id = "6171", ref = "6171", name = "6171 Abzw Berlin-Wedding Abzw - Berlin Südkreuz Südende", km = 2.216 },
+]

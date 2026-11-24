@@ -1,0 +1,54 @@
+id = "6707"
+ref = "6707"
+name = "6707 Gerstungen - Vacha"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q802334"
+from = "Gerstungen"
+to = "Vacha"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -1.018
+kmTo = 18.725
+length = 19.75
+speeds = [[-1.018, -0.835, 60, 60], [-0.835, -0.746, "", ""], [-0.746, 17.865, 50, 50], [17.865, 18.725, "", ""]]
+curves = [[-0.918, -0.418, 1110], [0.157, 0.207, 1980], [0.257, 0.332, 1370], [0.686, 1.176, 340], [1.452, 1.578, 1720], [2.126, 2.876, 620], [3.576, 3.826, 560], [5.101, 5.326, 720], [5.526, 5.601, 2550], [6.001, 6.551, 810], [7.301, 7.801, 460], [7.851, 8.101, 400], [8.151, 8.301, 610], [8.426, 8.726, 430], [8.776, 9.251, 630], [9.451, 9.701, 480], [9.926, 10.176, 870], [10.376, 10.876, 1010], [11.076, 11.226, 1210], [11.376, 11.501, 1450], [11.551, 11.651, 2300], [12.076, 12.276, 500], [12.476, 12.901, 520], [13.201, 13.551, 460], [13.601, 13.826, 1270], [13.976, 14.251, 930], [14.301, 14.501, 580], [14.701, 15.151, 380], [15.351, 15.576, 670], [15.726, 15.826, 1290], [15.976, 16.101, 1030], [16.276, 17.501, 800], [17.701, 18.026, 970]]
+points = [
+  { km = -0.003, kind = "station", label = "Gerstungen", uic = "8016084", pos = [50.96461, 10.06516] },
+  { km = 0.118, kind = "signal", label = "24N803", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 0.364, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.435, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.439, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.817, kind = "signal", label = "24H803", signal = "combined", dir = -1 },
+  { km = 0.93, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.624, kind = "signal", label = "Vh803", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.756, kmTo = 0.808, length = 50 },
+  { kind = "bridge", kmFrom = 1.473, kmTo = 1.489, length = 15 },
+  { kind = "bridge", kmFrom = 1.858, kmTo = 1.876, length = 19 },
+  { kind = "bridge", kmFrom = 2.124, kmTo = 2.138, length = 14 },
+  { kind = "bridge", kmFrom = 6.583, kmTo = 6.602, length = 19 },
+  { kind = "bridge", kmFrom = 13.353, kmTo = 13.367, length = 14 },
+  { kind = "bridge", kmFrom = 18.692, kmTo = 18.705, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "egbvHmyn|@nCpM", v = 60 },
+  { line = "ubbvH{jn|@xApE" },
+  { line = "{_bvHidn|@rIvPta@|h@dSzY", v = 50 },
+  { line = "k~_vHwmk|@lAhA", tunnel = true, v = 50 },
+  { line = "}{_vHmkk|@|ExAnFcArUuRdd@cX|Eq@lG`@rD|AhCvCvQrj@dIp\\lIh|Bz@jJvFzVhOdj@bEnI|FpFno@dW`JzHrCz@tCG`GyB~CWrKpD`Pl@pDqAlKuKpJoCxBA~P|FxE`FtLrUnMxh@vBzFpD|FrNdM|UbNp[bYpB~@tR~BtFm@rEoChTaW~B}AdDs@fKl@rV|IzNx@jR|LtCtEvBdJfAza@_@fIcCjTaDpReCvZD|VpA|NfAtHfB~GvJzPjF|BtMvAfFC", v = 50 },
+  { line = "w}kuHcjw{@pEi@dg@qP" },
+]
+posts = [[-1, 50.97085, 10.07503], [0, 50.96468, 10.06494], [1, 50.95729, 10.05726], [2, 50.94917, 10.06335], [3, 50.94156, 10.06053], [4, 50.93796, 10.04774], [5, 50.93678, 10.03359], [6, 50.93309, 10.02075], [7, 50.92552, 10.01401], [8, 50.91703, 10.01138], [9, 50.90859, 10.01313], [10, 50.90091, 10.00748], [11, 50.8954, 9.99667], [12, 50.88738, 9.99029], [13, 50.87903, 9.99081], [14, 50.87073, 9.99233], [15, 50.86283, 9.98704], [16, 50.86386, 9.97326], [17, 50.86355, 9.95948], [18, 50.85557, 9.95533]]
+
+[[connections]]
+km = -0.003
+station = "Gerstungen"
+lines = [
+  { id = "6340", ref = "6340", name = "6340 Halle (Saale) Hbf - Baunatal-Guntershausen", km = 189.298 },
+]

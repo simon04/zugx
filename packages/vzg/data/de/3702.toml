@@ -1,0 +1,55 @@
+id = "3702"
+ref = "3702"
+name = "3702 Gießen"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Gießen"
+to = "Gießen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.474
+length = 2.474
+speeds = [[0, 2.136, "", ""], [2.136, 2.357, 40, 40], [2.357, 2.474, "", ""]]
+curves = [[0.1, 0.7, 600], [0.75, 0.975, 610], [1.025, 1.175, 1270], [1.275, 1.375, 1580], [1.75, 1.875, 1560], [2.15, 2.2, 1600], [2.275, 2.35, 670]]
+points = [
+  { km = 0.185, kind = "signal", label = "20 O104", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 0.289, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.358, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.499, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.636, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.775, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.776, kind = "signal", label = "S63", signal = "main", dir = -1 },
+  { km = 0.779, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.531, kind = "signal", label = "20 ZW63", signal = "combined,minor,speed_limit,traversable", dir = 1 },
+  { km = 1.79, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.87, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.965, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.994, kind = "station", label = "Gießen", uic = "8000124", pos = [50.57987, 8.66221] },
+  { km = 2.136, kind = "signal", label = "20 P6", signal = "combined,minor,speed_limit,traversable", dir = 1 },
+  { km = 2.24, kind = "signal", signal = "electricity", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.289, kmTo = 0.31, length = 21 },
+  { kind = "bridge", kmFrom = 2.357, kmTo = 2.389, length = 32 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a`ssHi|ws@sDcNqEmHeK}GgJu@wDyAgIkHqGsIyV{VeMwP" },
+  { line = "gbvsH}_{s@qHoK", v = 40 },
+  { line = "ykvsHml{s@wDaD" },
+]
+posts = [[0, 50.56529, 8.64725], [1, 50.57264, 8.65398], [2, 50.58004, 8.662]]
+
+[[connections]]
+km = 1.994
+station = "Gießen"
+lines = [
+  { id = "2651", ref = "2651", name = "2651 Köln Messe/Deutz - Gießen", km = 165.895 },
+  { id = "3700", ref = "3700", name = "3700 Gießen - Fulda", km = -0.092 },
+  { id = "3701", ref = "3701", name = "3701 Gießen - Gelnhausen", km = -0.054 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 133.971 },
+]

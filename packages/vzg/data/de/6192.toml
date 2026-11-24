@@ -1,0 +1,40 @@
+id = "6192"
+ref = "6192"
+name = "Elsterwerda, W 7 - Elsterwerda-Biehla"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q105245206"
+from = "Elsterwerda"
+to = "Elsterwerda-Biehla"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.372
+length = 1.372
+speeds = [[0, 0.12, 60, 60], [0.12, 1.372, 40, 40]]
+curves = [[0.1, 0.425, 450], [0.475, 1.25, 410]]
+points = [
+  { km = 1.204, kind = "station", label = "Elsterwerda-Biehla", pos = [51.47224, 13.51946], uic = "8004308" },
+  { km = 1.256, kind = "signal", signal = "main", dir = 1 },
+  { km = 1.275, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.881, kmTo = 0.901, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "khbyHuboqAqEkA", v = 60 },
+  { line = "}nbyHaeoqA_Dc@}Dd@cJxGqCdAcDNuDs@yDqCkFgIeBcHy@aL", v = 40 },
+]
+posts = [[0, 51.46262, 13.51739], [1, 51.47108, 13.51748]]
+
+[[connections]]
+km = 1.204
+station = "Elsterwerda-Biehla"
+lines = [
+  { id = "6135", ref = "6135", name = "6135 Berlin - Elsterwerda", km = 121.387 },
+  { id = "6207", ref = "6207", name = "6207 Horka Grenze – Roßlau", km = 124.689 },
+]

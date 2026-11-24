@@ -1,0 +1,76 @@
+id = "5810"
+ref = "5810"
+name = "5810 Bahnstrecke Cham - Waldmünchen"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q802087"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.229
+kmTo = 21.901
+length = 22.121
+speeds = [[-0.229, -0.072, 60, 60], [-0.072, 0.401, 60, ""], [0.401, 0.55, "", ""], [0.55, 1.906, 50, 50], [1.906, 2.393, 30, 30], [2.393, 2.418, 10, ""], [2.418, 2.432, 30, ""], [2.432, 3.344, 30, 30], [3.344, 5.252, 50, 50], [5.252, 5.301, 10, ""], [5.301, 5.398, 50, ""], [5.398, 6.23, 50, 50], [6.23, 6.437, 40, 40], [6.437, 21.711, 50, 50], [21.711, 21.901, "", ""]]
+curves = [[-0.108, -0.008, 1540], [0.292, 0.567, 760], [0.761, 0.93, 1650], [1.284, 1.74, 270], [2.086, 2.408, 340], [2.509, 2.862, 350], [2.988, 3.266, 400], [3.618, 3.71, 1570], [4.586, 5.016, 310], [5.066, 5.291, 440], [5.34, 5.69, 470], [6.265, 6.44, 790], [6.815, 7.489, 1170], [7.789, 8.039, 1020], [8.114, 8.339, 700], [8.967, 9.195, 820], [9.245, 9.346, 400], [9.397, 9.952, 260], [10.053, 10.455, 550], [10.505, 10.706, 330], [10.756, 10.906, 420], [10.956, 11.132, 890], [11.233, 11.483, 490], [11.534, 11.785, 460], [12.161, 12.387, 390], [12.437, 13.36, 330], [13.483, 13.853, 340], [14.376, 14.626, 500], [14.676, 15.426, 290], [15.826, 16.001, 1220], [16.126, 16.276, 1470], [16.376, 16.601, 530], [16.801, 16.876, 2380], [17.026, 17.176, 530], [17.226, 17.451, 510], [17.526, 17.851, 700], [18.101, 18.626, 490], [18.676, 19.601, 250], [19.676, 19.951, 290], [20.001, 20.426, 290], [20.476, 20.651, 460], [20.701, 21.551, 410]]
+points = [
+  { km = -0.072, kind = "signal", label = "R1", signal = "main,minor,speed_limit", dir = -1 },
+  { km = -0.001, kind = "station", label = "Cham (Oberpf)", pos = [49.22184, 12.65681], uic = "8001330" },
+  { km = 0.008, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.043, kind = "signal", label = "CS 1 II", signal = "main_repeated,minor", dir = 1 },
+  { km = 0.043, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.093, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.401, kind = "signal", label = "P1", signal = "main,minor", dir = 1 },
+  { km = 0.638, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.328, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.906, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 2.393, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.418, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.344, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.631, kind = "stop", label = "Willmering", pos = [49.24657, 12.66993] },
+  { km = 4.66, kind = "stop", label = "Willmering", pos = [49.2466, 12.67017] },
+  { km = 4.799, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.252, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.301, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.824, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.23, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.437, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.46, kind = "stop", label = "Waffenbrunn", pos = [49.26147, 12.67507] },
+  { km = 10.048, kind = "stop", label = "Balbersdorf", pos = [49.29035, 12.68308] },
+  { km = 13.976, kind = "stop", label = "Geigant", pos = [49.32341, 12.68152] },
+  { km = 15.917, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.703, kind = "stop", label = "Zillendorf", pos = [49.34551, 12.67331] },
+  { km = 18.241, kind = "halt", label = "Grub (Oberpf)", pos = [49.35794, 12.68172] },
+  { km = 18.242, kind = "stop", label = "Grub(Oberpf)", pos = [49.35796, 12.68168] },
+  { km = 21.856, kind = "stop", label = "Waldmünchen", pos = [49.37787, 12.69636] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.612, kmTo = 5.627, length = 15 },
+  { kind = "bridge", kmFrom = 10.105, kmTo = 10.138, length = 33 },
+  { kind = "bridge", kmFrom = 12.528, kmTo = 12.655, length = 126 },
+  { kind = "bridge", kmFrom = 21.711, kmTo = 21.73, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "abklHa{nlAy@dO" },
+  { line = "{cklH{jnlAaArSz@jI~CxFdKhEnHSlLmHdIEpImCzDtAbGpJbEp@~J}BlCwApBeC|CeIzB{BzBe@`Dr@xBlCjAjFBdEaAzJQzOd@hEdBxD|VnKlFlEvNpEpJzLbKnGpObHla@eG|\\gM~Er@vIdHxEMvCcDdEoMjByCz_@qZpDsAdF`ApL|MjEtAlDiAxFsKvDiDzBy@lEXdKtGvBZn]kHnQrEjPcCrKLdIsCdMvDzEN`Dc@fLkF`B{ApDyGpDsAhEvAxE|GzEtCzCrE~b@jd@dNdEpF~CfRfHnHhBjOKrHwB|SeJ", v = 50 },
+  { line = "witkHwrjlA~B}@lF[", v = 40 },
+  { line = "i~skHqujlA|c@y@nEnBlEbG", v = 50 },
+  { line = "mlrkHwkjlA`AvA", v = 10 },
+  { line = "kjrkH_ijlAhD`CfJp@bC|@nBxBzAbE~KpsAtAx\\", v = 50 },
+  { line = "s_qkHceflAj@vL|@vDtMfNhGtAjJyC", v = 30 },
+  { line = "}yokHodelAh@U", v = 10 },
+  { line = "sxokHeeelAxDaAdC`@|LxN", v = 30 },
+  { line = "u`okHkvdlAlKrMpBp@hDWjD{CfSe]tLwN", v = 50 },
+  { line = "admkHwyelAbEwG" },
+  { line = "}}lkHobflAnOyn@", v = 60 },
+]
+posts = [[21, 49.37546, 12.68721], [20, 49.367, 12.68848], [19, 49.35929, 12.69101], [18, 49.35596, 12.68044], [17, 49.34791, 12.67482], [16, 49.33929, 12.67343], [15, 49.33081, 12.67429], [14, 49.32357, 12.68136], [13, 49.31549, 12.68083], [12, 49.30742, 12.68243], [11, 49.29866, 12.68284], [10, 49.28995, 12.68334], [9, 49.28248, 12.6822], [8, 49.27474, 12.67558], [7, 49.26605, 12.67279], [6, 49.25734, 12.67573], [5, 49.24895, 12.67278], [4, 49.24533, 12.66154], [3, 49.243, 12.6485], [2, 49.23486, 12.64583], [1, 49.22773, 12.64664], [0, 49.22188, 12.657]]
+
+[[connections]]
+km = -0.001
+station = "Cham"
+lines = [
+  { id = "5800", ref = "5800", name = "5800 Schwandorf - Furth im Wald", km = 48.037 },
+]

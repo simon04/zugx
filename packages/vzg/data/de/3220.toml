@@ -1,0 +1,39 @@
+id = "3220"
+ref = "3220"
+name = "3220 Saarbrücken-Burbach - Saarbrücken Saardamm"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Saarbrücken-Burbach"
+to = "Saarbrücken Saardamm"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.464
+length = 1.464
+speeds = [[0, 1.464, "", ""]]
+curves = [[0.2, 0.8, 380]]
+points = [
+  { km = 0.215, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.269, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.848, kind = "signal", label = "20 ZQ501", signal = "combined,minor,speed_limit", dir = -1 },
+  { km = 1.321, kind = "signal", label = "20 N501", signal = "main,minor,speed_limit,wrong_road", dir = 1 },
+  { km = 2.5, kind = "station", label = "Saarbrücken-Burbach", uic = "8005243", pos = [49.24226, 6.95612], measured = true },
+]
+
+[tracks.geo]
+segments = [
+  { line = "alokHewni@uPkB{EfB_DxDsBlEs@lDeKp{@" },
+]
+posts = [[0, 49.23601, 6.96195], [1, 49.2423, 6.95555]]
+
+[[connections]]
+km = 2.5
+station = "Saarbrücken-Burbach"
+lines = [
+  { id = "3230", ref = "3230", name = "Saarstrecke", km = 2.569 },
+  { id = "3261", ref = "3261", name = "3261 Saarbrücken Rbf -Saarbrücken Hbf", km = 2.5 },
+  { id = "3274", ref = "3274", name = "3274 Wemmetsweiler - Nonnweiler", km = 34.641 },
+  { id = "3291", ref = "3291", name = "3291 Bahnstrecke Lebach – Völklingen", km = 34.641 },
+]

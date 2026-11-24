@@ -1,0 +1,45 @@
+id = "3705"
+ref = "3705"
+name = "Lumdatalbahn"
+operator = "HLB Basis AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 22.588
+kmTo = 25.9
+length = 3.404
+speeds = [[22.588, 25.844, 30, 30], [25.844, 25.9, 15, 15]]
+curves = [[22.957, 23.13, 620], [23.179, 23.596, 730], [23.742, 24.009, 500], [24.058, 24.372, 440], [24.445, 24.953, 300], [25.001, 25.267, 400]]
+points = [
+  { km = 22.91, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 22.985, kind = "signal", signal = "stop", dir = -1 },
+  { km = 23.034, kind = "halt", label = "Mainzlar", pos = [50.65786, 8.74599] },
+  { km = 23.081, kind = "signal", signal = "stop", dir = 1 },
+  { km = 23.176, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 23.281, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 23.334, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 23.707, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 23.855, kind = "halt", label = "Daubringen", pos = [50.65454, 8.73573] },
+  { km = 24.106, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 24.421, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 24.51, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 24.639, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 25.449, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 25.485, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 25.603, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 25.844, kind = "signal", label = "B", signal = "main,traversable", dir = 1 },
+  { km = 25.882, kind = "signal", signal = "crossing", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 23.373, kmTo = 23.4, length = 28 },
+  { kind = "bridge", kmFrom = 23.748, kmTo = 23.762, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ometHuilt@pIza@r@~Rt@xFpDhNtKxVr@dFn@vNbAnGhKjQlBpINnGe@xFgAfEyDjIgAxH@v{@", v = 30 },
+  { line = "icdtH_`dt@R`D", v = 15 },
+]
+posts = [[23, 50.65797, 8.74644], [24, 50.65414, 8.73371], [25, 50.65212, 8.72132]]

@@ -1,0 +1,115 @@
+id = "6291"
+ref = "6291"
+name = "6291 Erfurt Hbf - Neudietendorf"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131690197"
+from = "Erfurt Hbf"
+to = "Neudietendorf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 108.833
+kmTo = 121.719
+length = 12.855
+speeds = [[108.833, 109.605, 100, 100], [109.605, 109.659, "", ""], [109.659, 111.509, 120, 120], [111.509, 120.717, 140, 140], [120.717, 121.24, 160, 160], [121.24, 121.719, 100, 100]]
+curves = [[109.114, 109.514, 830], [110.014, 110.524, 800], [110.651, 111.008, 1050], [111.136, 111.543, 880], [111.875, 112.206, 1430], [112.945, 113.534, 1050], [114.591, 115.886, 910], [116.813, 117.482, 1130], [117.699, 118.515, 1160], [118.732, 119.445, 1450], [119.918, 120.313, 1340], [120.455, 120.597, 2270]]
+points = [
+  { km = 109.114, kind = "signal", signal = "minor", dir = -1 },
+  { km = 109.255, kind = "signal", signal = "minor", dir = 1 },
+  { km = 109.428, kind = "signal", label = "01 ZU1", signal = "catenary_mast,combined,minor,speed_limit,speed_limit_distant,train_protection,traversable", dir = -1 },
+  { km = 109.507, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 109.509, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 109.58, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 109.922, kind = "signal", signal = "distant", dir = 1 },
+  { km = 110.055, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 110.412, kind = "signal", label = "01 H", signal = "combined,speed_limit,speed_limit_distant,train_protection,traversable", dir = -1 },
+  { km = 110.544, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 110.696, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 110.893, kind = "signal", signal = "distant", dir = 1 },
+  { km = 110.933, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 111.122, kind = "signal", label = "12 31", signal = "main,train_protection,traversable", dir = 1 },
+  { km = 111.6, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 111.601, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 111.805, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 112.05, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 112.256, kind = "signal", label = "12 32", signal = "main,train_protection,traversable", dir = -1 },
+  { km = 112.59, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 113.068, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 113.215, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 113.324, kind = "signal", label = "12 A", signal = "combined,route_distant,speed_limit,speed_limit_distant,train_protection,traversable", dir = 1 },
+  { km = 113.544, kind = "signal", signal = "distant", dir = -1 },
+  { km = 113.547, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 113.77, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 113.843, kind = "signal", signal = "minor", dir = 1 },
+  { km = 113.917, kind = "signal", signal = "minor", dir = -1 },
+  { km = 114, kind = "signal", signal = "minor", dir = 1 },
+  { km = 114.117, kind = "signal", label = "12 P3", signal = "combined,minor,route,speed_limit,train_protection,traversable", dir = -1 },
+  { km = 114.125, kind = "station", label = "Erfurt-Bischleben", pos = [50.93415, 10.98851], uic = "8016047" },
+  { km = 114.343, kind = "signal", label = "12 ZR3", signal = "combined,minor,route,speed_limit,train_protection,traversable", dir = 1 },
+  { km = 114.539, kind = "signal", signal = "minor", dir = -1 },
+  { km = 114.816, kind = "signal", label = "12 N23", signal = "main,minor,train_protection,traversable", dir = 1 },
+  { km = 114.953, kind = "signal", signal = "minor", dir = -1 },
+  { km = 115.084, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 115.379, kind = "signal", label = "12 H", signal = "catenary_mast,combined,route_distant,speed_limit,speed_limit_distant,train_protection,traversable", dir = -1 },
+  { km = 115.566, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 115.788, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 116.081, kind = "signal", signal = "distant", dir = 1 },
+  { km = 116.418, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 116.918, kind = "signal", signal = "distant", dir = 1 },
+  { km = 117.107, kind = "signal", label = "13 33", signal = "main,train_protection,traversable", dir = 1 },
+  { km = 117.334, kind = "signal", label = "13 34", signal = "catenary_mast,main,train_protection,traversable", dir = -1 },
+  { km = 118.485, kind = "signal", signal = "distant", dir = -1 },
+  { km = 118.754, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 120.005, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 120.184, kind = "signal", label = "13 A", signal = "combined,speed_limit,speed_limit_distant,train_protection,traversable", dir = 1 },
+  { km = 120.322, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 120.469, kind = "signal", signal = "minor", dir = -1 },
+  { km = 120.583, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 120.601, kind = "signal", signal = "minor", dir = 1 },
+  { km = 120.899, kind = "signal", label = "13 P3", signal = "catenary_mast,combined,minor,route,speed_limit,train_protection,traversable", dir = -1 },
+  { km = 121.042, kind = "station", label = "Neudietendorf", pos = [50.91389, 10.90976], uic = "8016048", ele = 249 },
+  { km = 121.082, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 121.24, kind = "signal", label = "13 ZR3", signal = "combined,minor,route,speed_limit,speed_limit_distant,train_protection,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 108.862, kmTo = 108.886, length = 24 },
+  { kind = "bridge", kmFrom = 109.187, kmTo = 109.224, length = 37 },
+  { kind = "bridge", kmFrom = 109.299, kmTo = 109.313, length = 14 },
+  { kind = "bridge", kmFrom = 109.605, kmTo = 109.659, length = 54 },
+  { kind = "bridge", kmFrom = 111.248, kmTo = 111.332, length = 82 },
+  { kind = "bridge", kmFrom = 112.405, kmTo = 112.492, length = 85 },
+  { kind = "bridge", kmFrom = 113.555, kmTo = 113.599, length = 42 },
+  { kind = "bridge", kmFrom = 113.638, kmTo = 113.659, length = 20 },
+  { kind = "bridge", kmFrom = 113.779, kmTo = 113.8, length = 20 },
+  { kind = "bridge", kmFrom = 115.018, kmTo = 115.032, length = 14 },
+  { kind = "bridge", kmFrom = 116.802, kmTo = 116.816, length = 13 },
+  { kind = "bridge", kmFrom = 119.085, kmTo = 119.096, length = 11 },
+  { kind = "bridge", kmFrom = 120.696, kmTo = 120.715, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ulvuHeapaA}Msb@", v = 100 },
+  { line = "s{vuHydqaAuOgi@", v = 160 },
+  { line = "ilwuHaoraAqOgp@kXwm@uF_QoDiScDgb@_@gTx@aTvB}O~Joe@rAeLp@_Q_DocBwAyNaDmNsCiHiFoIsEoE{HgEqEeAidAaKsLkEcIgHcg@sp@a[{T", v = 140 },
+  { line = "{d_vHgcdbAsDeDaEyFiJ}S{CmKoFo[yE{MgWu[", v = 120 },
+  { line = "igavHuygbAmAyA" },
+  { line = "wiavHo|gbAqHqJ}C{GaJs`@", v = 100 },
+]
+posts = [[121, 50.91389, 10.90942], [120, 50.91863, 10.92239], [119, 50.9238, 10.93307], [118, 50.92487, 10.9475], [117, 50.92176, 10.96056], [116, 50.92235, 10.97437], [115, 50.92642, 10.98605], [114, 50.93549, 10.98869], [113, 50.94426, 10.99211], [112, 50.95126, 11.00062], [111, 50.95849, 11.00826], [110, 50.96331, 11.01969], [109, 50.96959, 11.02951]]
+
+[[connections]]
+km = 114.125
+station = "Erfurt-Bischleben"
+lines = [
+  { id = "6340", ref = "6340", name = "6340 Halle (Saale) Hbf - Baunatal-Guntershausen", km = 114.131 },
+]
+
+[[connections]]
+km = 121.042
+station = "Neudietendorf"
+lines = [
+  { id = "6340", ref = "6340", name = "6340 Halle (Saale) Hbf - Baunatal-Guntershausen", km = 120.92 },
+]

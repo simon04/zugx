@@ -1,0 +1,27 @@
+id = "6865"
+ref = "6865"
+name = "6865 Abzw Halberstadt Ost – Harsleben"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Halberstadt Ost"
+to = "Harsleben"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.042
+kmTo = 2.797
+length = 2.754
+speeds = [[0.042, 2.797, 60, 60]]
+curves = [[0.267, 1.343, 1430], [1.843, 2.268, 720]]
+points = [
+  { km = 0.148, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.353, kind = "signal", label = "7206", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 2.468, kind = "signal", signal = "combined", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gdv{HkzwbAwDtYwAhR]jVf@nMvAfJlCfIxWne@xDdK|B~MbFbr@", v = 60 },
+]
+posts = [[1, 51.89333, 11.09098], [2, 51.8875, 11.08008]]

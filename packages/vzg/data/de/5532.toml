@@ -1,0 +1,74 @@
+id = "5532"
+ref = "5532"
+name = "5532 München-Laim ICE WuA - München Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "München-Laim ICE WuA"
+to = "München Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.662
+length = 2.662
+speeds = [[0, 2.537, "", ""], [2.537, 2.662, 40, 40]]
+curves = [[0.125, 0.225, 830], [0.275, 0.475, 470], [0.775, 0.85, 1290], [0.9, 1.4, 420], [1.5, 1.65, 1940], [2.35, 2.4, 2670], [2.45, 2.55, 1350]]
+points = [
+  { km = 0.252, kind = "halt", label = "Hirschgarten", uic = "8004179", pos = [48.14355, 11.51947] },
+  { km = 1.323, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.4, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.647, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.65, kind = "station", label = "Donnersbergerbrücke", uic = "8004128", pos = [48.14267, 11.53652] },
+  { km = 1.655, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.41, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.461, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.477, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.544, kind = "station", label = "Hackerbrücke", uic = "8004129", pos = [48.14196, 11.54853] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.959, kmTo = 1.063, length = 104 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a`zdHeaheAtCmMvDeL|Cgo@" },
+  { line = "upydHamjeAMwG", tunnel = true },
+  { line = "cqydHyujeAqCwMUkShEwuA" },
+  { line = "apydHuoneAFoI", v = 40 },
+]
+posts = [[0, 48.14353, 11.51523], [1, 48.14106, 11.52793], [2, 48.14153, 11.54108]]
+
+[[connections]]
+km = 0.252
+station = "Hirschgarten"
+lines = [
+  { id = "5500", ref = "5500", name = "5500 München - Regensburg", km = 2.981 },
+  { id = "5501", ref = "5501", name = "5501 München - Treuchtlingen", km = 2.971 },
+  { id = "5503", ref = "5503", name = "5503 München - Augsburg", km = 2.967 },
+  { id = "5504", ref = "5504", name = "5504 München Hbf - Mittenwald Grenze", km = 2.98 },
+  { id = "5530", ref = "5530", name = "5530 München-Laim Rbf - München-Mittersendling", km = 1.231 },
+  { id = "5531", ref = "5531", name = "5531 München-Laim Rbf - München Süd", km = 1.675 },
+  { id = "5540", ref = "5540", name = "5540 München Hbf tief - Gauting", km = 2.974 },
+]
+
+[[connections]]
+km = 1.65
+station = "Donnersbergerbrücke"
+lines = [
+  { id = "5505", ref = "5505", name = "5505 München Hbf - Lenggries", km = 1.697 },
+  { id = "5510", ref = "5510", name = "5510 München Hbf - Rosenheim", km = 1.691 },
+]
+
+[[connections]]
+km = 2.544
+station = "Hackerbrücke"
+lines = [
+  { id = "5500", ref = "5500", name = "5500 München - Regensburg", km = 0.793 },
+  { id = "5501", ref = "5501", name = "5501 München - Treuchtlingen", km = 0.796 },
+  { id = "5503", ref = "5503", name = "5503 München - Augsburg", km = 0.792 },
+  { id = "5504", ref = "5504", name = "5504 München Hbf - Mittenwald Grenze", km = 0.75 },
+  { id = "5505", ref = "5505", name = "5505 München Hbf - Lenggries", km = 0.781 },
+  { id = "5510", ref = "5510", name = "5510 München Hbf - Rosenheim", km = 0.796 },
+  { id = "5540", ref = "5540", name = "5540 München Hbf tief - Gauting", km = 0.787 },
+]

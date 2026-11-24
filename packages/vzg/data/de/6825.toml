@@ -1,0 +1,26 @@
+id = "6825"
+ref = "6825"
+name = "Bahnstrecke Wurzen–Eilenburg"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.262
+length = 0.262
+speeds = [[0, 0.218, 30, 30], [0.218, 0.262, 60, 60]]
+curves = []
+points = [
+  { km = 0.007, kind = "signal", label = "V", signal = "combined", dir = 1 },
+  { km = 0.18, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.218, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "isayHwbglApDnP", v = 30 },
+  { line = "wmayHgqflAb@pB", v = 60 },
+]
+posts = [[0, 51.45925, 12.65724]]

@@ -1,0 +1,82 @@
+id = "5545"
+ref = "5545"
+name = "5545 Abzw München-Nymphenburg - Abzw München-Neulustheim"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q121814505"
+from = "München-Nymphenburg"
+to = "München-Neulustheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 2.891
+kmTo = 6.706
+length = 4.715
+speeds = [[2.891, 4.456, "", ""], [4.456, 6.706, 100, 100]]
+curves = [[2.991, 3.166, 1290], [3.266, 3.566, 1970], [3.616, 3.716, 1370], [4.068, 4.085, 30], [4.102, 4.128, 1070], [4.235, 4.33, 880], [4.378, 4.706, 1660], [4.866, 5.666, 1290], [5.791, 6.016, 1250], [6.241, 6.591, 1740]]
+points = [
+  { km = 2.983, kind = "signal", signal = "catenary_mast,train_protection", dir = 1 },
+  { km = 3.065, kind = "signal", label = "353", signal = "main,route", dir = -1 },
+  { km = 3.173, kind = "signal", label = "41G", signal = "combined,speed_limit_distant", dir = 1 },
+  { km = 3.489, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 3.669, kind = "signal", label = "41 ZR502", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 3.779, kind = "station", label = "Laim", pos = [48.1445, 11.50297], uic = "8020345" },
+  { km = 3.883, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.887, kind = "signal", label = "41 ZV502", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 3.971, kind = "signal", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 4.16, kind = "signal", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 4.175, kind = "signal", label = "101", signal = "train_protection", dir = 1 },
+  { km = 4.176, kind = "signal", label = "41 ZV501", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 4.177, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.185, kind = "signal", label = "103", signal = "train_protection", dir = 1 },
+  { km = 4.195, kind = "stop", label = "Laim", uic = "8004151", pos = [48.14465, 11.50296] },
+  { km = 4.199, kind = "signal", label = "105", signal = "train_protection", dir = 1 },
+  { km = 4.2, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.22, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.273, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.278, kind = "signal", label = "41 ZR501", signal = "combined,route,speed_limit,traversable", dir = 1 },
+  { km = 4.621, kind = "signal", signal = "route_distant", dir = 1 },
+  { km = 4.832, kind = "signal", label = "41GG", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 4.933, kind = "signal", label = "303", signal = "main,route", dir = 1 },
+  { km = 5.019, kind = "signal", signal = "catenary_mast,train_protection", dir = -1 },
+  { km = 5.238, kind = "signal", label = "V405", signal = "distant", dir = 1 },
+  { km = 5.494, kind = "signal", label = "454", signal = "combined", dir = -1 },
+  { km = 5.962, kind = "signal", label = "VW405", signal = "distant", dir = 1 },
+  { km = 6.16, kind = "signal", label = "405", signal = "distant,main", dir = 1 },
+  { km = 6.54, kind = "signal", label = "V454", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 2.892, kmTo = 2.983, length = 91 },
+  { kind = "tunnel", kmFrom = 5.019, kmTo = 5.111, length = 92 },
+  { kind = "tunnel", kmFrom = 6.176, kmTo = 6.261, length = 84 },
+  { kind = "bridge", kmFrom = 6.598, kmTo = 6.617, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qqzdHalceA?A" },
+  { line = "qqzdHclceAfA{E", tunnel = true },
+  { line = "iozdH_sceAxAiJzB}Vh@sRdFkaAqAtLgDfr@KtN" },
+  { line = "ihzdHs{deAcAnOaDvV", v = 100 },
+  { line = "oozdHksceAgA~E", tunnel = true, v = 100 },
+  { line = "wqzdHklceAsFlPeHdLaMpMyMhH", v = 100 },
+  { line = "m_|dH{uaeAmCnA", tunnel = true, v = 100 },
+  { line = "{c|dHksaeA{LvDqIv@", v = 100 },
+]
+posts = [[3, 48.14591, 11.49269], [4, 48.14422, 11.50588], [5, 48.14593, 11.49278], [6, 48.1522, 11.48357]]
+
+[[connections]]
+km = 3.779
+station = "Laim"
+lines = [
+  { id = "5500", ref = "5500", name = "5500 München - Regensburg", km = 4.211 },
+  { id = "5501", ref = "5501", name = "5501 München - Treuchtlingen", km = 4.212 },
+  { id = "5503", ref = "5503", name = "5503 München - Augsburg", km = 4.211 },
+  { id = "5504", ref = "5504", name = "5504 München Hbf - Mittenwald Grenze", km = 4.212 },
+  { id = "5525", ref = "5525", name = "5525 München-Laim - München Nord Rbf Lassallestraße", km = -0.056 },
+  { id = "5530", ref = "5530", name = "5530 München-Laim Rbf - München-Mittersendling", km = 0.056 },
+  { id = "5531", ref = "5531", name = "5531 München-Laim Rbf - München Süd", km = 0.506 },
+  { id = "5540", ref = "5540", name = "5540 München Hbf tief - Gauting", km = 4.216 },
+  { id = "5544", ref = "5544", name = "5544 München-Laim Pbf - Petershausen (Oberbay)", km = 4.177 },
+]

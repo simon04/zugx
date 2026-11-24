@@ -1,0 +1,35 @@
+id = "5604"
+ref = "5604"
+name = "5604 München Ost Pbf- München-Steinhausen"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "München Ost Pbf"
+to = "München-Steinhausen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.269
+length = 0.269
+speeds = [[0, 0.269, 40, 40]]
+curves = []
+points = [
+  { km = 0.035, kind = "station", label = "Berg am Laim", uic = "8004142", pos = [48.13397, 11.6336] },
+  { km = 0.17, kind = "signal", signal = "main,minor,speed_limit,traversable", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wkxdH}a_fANqU", v = 40 },
+]
+posts = [[0, 48.13516, 11.63311]]
+
+[[connections]]
+km = 0.035
+station = "Berg am Laim"
+lines = [
+  { id = "5510", ref = "5510", name = "5510 München Hbf - Rosenheim", km = 12.181 },
+  { id = "5550", ref = "5550", name = "5550 München Hbf tief - München Ost Pbf", km = 2.25 },
+  { id = "5600", ref = "5600", name = "5600 München Ost Pbf - Simbach (Inn) Grenze", km = 2.476 },
+]

@@ -1,0 +1,50 @@
+id = "6211"
+ref = "6211"
+name = "6211 Görlitz Grenze - Görlitz"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Görlitz Grenze"
+to = "Görlitz"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.819
+length = 1.819
+speeds = [[0, 0.563, 80, 80], [0.563, 1.195, "", ""], [1.195, 1.819, 80, 80]]
+curves = [[0.4, 0.475, 2010], [0.525, 0.775, 810], [1, 1.075, 2380], [1.125, 1.2, 2180]]
+points = [
+  { km = 0.06, kind = "signal", label = "40P8", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 0.214, kind = "station", label = "Görlitz", uic = "8010131", pos = [51.14679, 14.9783], ele = 221 },
+  { km = 0.391, kind = "signal", label = "40N8", signal = "main,minor,traversable", dir = 1 },
+  { km = 0.736, kind = "signal", label = "40N7", signal = "main,minor,traversable", dir = -1 },
+  { km = 0.913, kind = "stop", label = "Görlitz", uic = "8010131", pos = [51.14704, 14.97838] },
+  { km = 1.035, kind = "signal", label = "40P7", signal = "departure,main,minor,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 1.317, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.38, kind = "signal", label = "ToY", signal = "distant,short_route", dir = 1 },
+  { km = 1.45, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.599, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 1.659, kind = "signal", label = "40A", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.769, kind = "signal", label = "40VWa", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.817, kind = "signal", signal = "radio", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.685, kmTo = 1.701, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}mdwHo~lzAyLjl@", v = 80 },
+  { line = "w{dwHcqkzAjB_NzJ}b@" },
+  { line = "oldwHadmzApOgp@", v = 80 },
+]
+posts = [[0, 51.14607, 14.98104], [1, 51.14669, 14.97949]]
+
+[[connections]]
+km = 0.214
+station = "Görlitz"
+lines = [
+  { id = "6142", ref = "6142", name = "6142 Berlin - Görlitz", km = 208.376 },
+  { id = "6212", ref = "6212", name = "6212 Görlitz - Dresden-Neustadt", km = 0.257 },
+]

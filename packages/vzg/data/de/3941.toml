@@ -1,0 +1,67 @@
+id = "3941"
+ref = "3941"
+name = "3941 Wabern (Bz Kassel) - Bad Wildungen"
+operator = "DB InfraGO AG;DB RegioNetz Infrastruktur GmbH;Kurhessenbahn"
+gauge = "1435"
+from = "Wabern (Bz Kassel)"
+to = "Bad Wildungen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.943
+kmTo = 17.221
+length = 18.117
+speeds = [[-0.943, 0.5, "", ""], [0.5, 5.188, 60, 60], [5.188, 5.268, 20, 60], [5.268, 5.296, 60, 60], [5.296, 5.405, 60, 20], [5.405, 6.168, 60, 60], [6.168, 6.237, "", ""], [6.237, 10.811, 60, 60], [10.811, 11.266, 20, 20], [11.266, 14.449, 40, 40], [14.449, 16.437, 60, 60], [16.437, 17.221, "", ""]]
+curves = [[-0.793, -0.193, 1340], [-0.143, -0.093, 1790], [0.036, 0.58, 330], [0.809, 1.064, 530], [2.027, 2.115, 650], [2.14, 2.203, 830], [2.228, 2.303, 730], [2.391, 2.508, 1340], [2.582, 2.757, 1100], [2.931, 3.209, 1890], [3.628, 3.87, 670], [4.296, 4.539, 1040], [4.608, 4.7, 790], [4.815, 5.038, 1280], [5.134, 5.292, 1650], [5.392, 5.722, 570], [6.199, 6.422, 490], [6.842, 7.064, 820], [7.193, 7.531, 540], [7.609, 7.87, 1040], [8.026, 8.84, 490], [8.888, 9.209, 370], [9.258, 9.481, 890], [9.633, 9.811, 790], [9.861, 10.116, 1150], [10.22, 10.376, 790], [10.428, 10.556, 1040], [11.687, 11.815, 1630], [11.893, 12.196, 610], [12.268, 12.638, 360], [12.713, 13.044, 460], [13.386, 13.615, 870], [13.913, 14.089, 2230], [14.751, 14.954, 540], [15.005, 15.158, 1130], [15.209, 15.414, 970], [15.49, 15.809, 940], [16.653, 16.978, 650]]
+points = [
+  { km = -0.085, kind = "signal", label = "S1", signal = "main", dir = -1, measured = true },
+  { km = 0.061, kind = "station", label = "Wabern (Bz Kassel)", pos = [51.10291, 9.35809], uic = "8000368" },
+  { km = 0.109, kind = "signal", label = "N1", signal = "main", dir = 1, measured = true },
+  { km = 0.849, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.971, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.304, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.945, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.193, kind = "stop", label = "Zennern", pos = [51.11213, 9.31728], uic = "8006647" },
+  { km = 3.256, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.807, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.677, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.051, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.188, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.268, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.296, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.405, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.802, kind = "signal", label = "42 P1", signal = "main,traversable", dir = -1 },
+  { km = 6.113, kind = "signal", label = "42 N1", signal = "main,traversable", dir = 1 },
+  { km = 6.168, kind = "station", label = "Fritzlar", pos = [51.12515, 9.28352], uic = "8002129" },
+  { km = 10.811, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.09, kind = "stop", label = "Ungedanken", pos = [51.12459, 9.21882], uic = "8005968" },
+  { km = 11.193, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 11.262, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 11.266, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.021, kind = "stop", label = "Mandern", pos = [51.12557, 9.20607], uic = "8003836" },
+  { km = 14.236, kind = "stop", label = "Wega", pos = [51.1282, 9.17558], uic = "8006241" },
+  { km = 14.447, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.449, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.205, kind = "station", label = "Bad Wildungen", pos = [51.11961, 9.13646], uic = "8000764" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wa}vHaydx@hDxQlCjJfI`QtMfTbBhEx@rERvE{@tK" },
+  { line = "k{{vHesax@uMpZmAjEwF~|@}ChNkB~NyHbYgEvYoFhReDtO{Jxp@yRxb@kKjMeJtPaK~Y}JtUu@`Im@fk@", v = 60 },
+  { line = "uk`wHk}sw@EdE" },
+  { line = "{k`wHewsw@j@|JbM~n@hA~Xp@lGvAtF`KrUdFnTl@fIo@bR{AfIuG|KiIrEoCfDwAxD_DdRkAt]pAp\\i@nVX`Oo@`[", v = 60 },
+  { line = "of`wHukhw@eA`i@", v = 20 },
+  { line = "uh`wHsagw@iAxi@mAbRiBrJcGlP}@~HHvGbClQRxHYpG_Hdm@@zh@|Abf@", v = 40 },
+  { line = "q|`wH{o~v@hBza@rDpPdCdPpClb@xU|w@", v = 60 },
+  { line = "at_wH{myv@fI~Yb@pI?xZ" },
+]
+posts = [[0, 51.10327, 9.35835], [1, 51.10502, 9.34627], [2, 51.10586, 9.3391], [3, 51.11146, 9.31975], [4, 51.11528, 9.30733], [5, 51.12128, 9.29815], [6, 51.12515, 9.28474], [7, 51.12268, 9.27107], [8, 51.119, 9.25903], [9, 51.12258, 9.24802], [10, 51.1241, 9.23452], [11, 51.12456, 9.21996], [12, 51.12556, 9.20623], [13, 51.12705, 9.19258], [14, 51.1284, 9.17888], [15, 51.12681, 9.16514], [16, 51.12361, 9.15196], [17, 51.11963, 9.1394]]
+
+[[connections]]
+km = 0.061
+station = "Wabern"
+lines = [
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 33.901 },
+]

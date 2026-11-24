@@ -1,0 +1,46 @@
+id = "3743"
+ref = "3743"
+name = "3743 Friedberg (Hess) - Abzw Friedberg Görbelheim"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Friedberg (Hess)"
+to = "Friedberg Görbelheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.759
+length = 2.759
+speeds = [[0, 1.349, 60, 60], [1.349, 1.569, 40, 60], [1.569, 1.606, 40, 40], [1.606, 2.759, 60, 60]]
+curves = [[0.125, 0.2, 1850], [0.875, 0.975, 1540], [1.15, 1.375, 1190], [1.875, 2.125, 910], [2.3, 2.475, 1300], [2.55, 2.65, 1400]]
+points = [
+  { km = 1.015, kind = "signal", label = "33 G", signal = "combined,speed_limit,traversable", dir = 1, measured = true },
+  { km = 1.418, kind = "signal", label = "34V403", signal = "distant,speed_limit", dir = -1 },
+  { km = 1.569, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.753, kind = "signal", label = "33N20", signal = "main,minor,route,speed_limit,wrong_road", dir = -1 },
+  { km = 1.985, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.362, kind = "station", label = "Friedberg (Hess)", uic = "8011379", pos = [50.33269, 8.76126] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.149, kmTo = 1.165, length = 16 },
+  { kind = "bridge", kmFrom = 1.227, kmTo = 1.264, length = 37 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "iebrHmzqt@uj@ri@ePlMaLlP", v = 60 },
+  { line = "godrH}oot@q@dA", v = 40 },
+  { line = "ypdrHwmot@cOvT}QzLiRjQ", v = 60 },
+]
+posts = [[0, 50.31525, 8.78007], [1, 50.3229, 8.77269], [2, 50.33003, 8.76421]]
+
+[[connections]]
+km = 2.362
+station = "Friedberg"
+lines = [
+  { id = "3611", ref = "3611", name = "3611 Frankfurt (Main) Hbf (tief) - Friedberg (Hess)", km = 40.074 },
+  { id = "3740", ref = "3740", name = "3740 Friedberg (Hess) - Laubach (Oberhess)", km = 60.953 },
+  { id = "3742", ref = "3742", name = "3742 Friedberg (Hess) - Hanau Hbf", km = 0.003 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 166.062 },
+]

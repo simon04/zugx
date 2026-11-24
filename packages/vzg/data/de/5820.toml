@@ -1,0 +1,87 @@
+id = "5820"
+ref = "5820"
+name = "Bahnstrecke Zwiesel–Bodenmais"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q803554"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.388
+kmTo = 14.667
+length = 15.093
+speeds = [[-0.388, 0.375, "", ""], [0.375, 0.43, 30, 30], [0.43, 0.443, "", ""], [0.443, 0.473, 30, 30], [0.473, 0.855, 60, 30], [0.855, 1.759, 60, 60], [1.759, 1.801, "", ""], [1.801, 2.002, 50, 60], [2.002, 2.008, 50, ""], [2.008, 2.092, 60, ""], [2.092, 5.262, 60, 60], [5.262, 5.356, 20, 20], [5.356, 6.339, 40, 40], [6.339, 6.364, 20, 20], [6.364, 7.341, 60, 60], [7.341, 7.514, 10, 10], [7.514, 12.006, 60, 60], [12.006, 13.122, 30, 30], [13.122, 14.226, 60, 60], [14.226, 14.469, 50, 50], [14.469, 14.667, "", ""]]
+curves = [[-0.271, -0.071, 640], [0.254, 0.329, 1480], [0.404, 0.479, 1300], [0.929, 1.982, 310], [2.03, 2.456, 330], [2.507, 3.335, 560], [3.587, 3.938, 420], [4.014, 4.265, 580], [4.817, 5.068, 380], [5.119, 5.32, 380], [5.37, 6.039, 350], [6.52, 6.873, 360], [6.924, 7.255, 320], [7.306, 7.686, 330], [7.735, 8.005, 390], [8.227, 8.571, 470], [8.719, 8.817, 1320], [8.866, 9.112, 360], [9.162, 9.729, 460], [9.798, 10.276, 440], [10.327, 10.453, 1450], [10.503, 10.553, 2310], [10.654, 10.956, 540], [11.006, 11.157, 900], [12.473, 12.798, 420], [12.923, 14.268, 330], [14.317, 14.367, 1860], [14.417, 14.567, 420]]
+points = [
+  { km = -0.033, kind = "station", label = "Zwiesel (Bay)", pos = [49.02095, 13.22628], uic = "8006684" },
+  { km = 0.473, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.376, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.801, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 2.002, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.002, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.59, kind = "stop", label = "Außenried", pos = [49.01574, 13.1818] },
+  { km = 4.881, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.262, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.344, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.941, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.241, kind = "stop", label = "Langdorf", pos = [49.02074, 13.16126], uic = "542881" },
+  { km = 6.339, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.364, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.009, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.341, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.514, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.006, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.061, kind = "stop", label = "Böhmhof", pos = [49.05212, 13.11091] },
+  { km = 12.222, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 13.118, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.845, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 14.226, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.359, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.368, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 14.454, kind = "station", label = "Bodenmais", pos = [49.07044, 13.10082] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.759, kmTo = 1.775, length = 15 },
+  { kind = "bridge", kmFrom = 2.283, kmTo = 2.371, length = 88 },
+  { kind = "bridge", kmFrom = 5.58, kmTo = 5.6, length = 19 },
+  { kind = "bridge", kmFrom = 5.665, kmTo = 5.703, length = 39 },
+  { kind = "bridge", kmFrom = 7.247, kmTo = 7.263, length = 16 },
+  { kind = "bridge", kmFrom = 7.6, kmTo = 7.61, length = 10 },
+  { kind = "bridge", kmFrom = 12.313, kmTo = 12.336, length = 23 },
+  { kind = "bridge", kmFrom = 13.376, kmTo = 13.4, length = 24 },
+  { kind = "bridge", kmFrom = 13.861, kmTo = 13.879, length = 19 },
+  { kind = "bridge", kmFrom = 14.186, kmTo = 14.207, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "w_ojHuj}nAm@eH?oF" },
+  { line = "eaojHk{}nAtAwS", v = 50 },
+  { line = "o~njHcp~nArBuIfEkFlFcA`JhChFW|BqA~GyIlEyA", v = 60 },
+  { line = "mgmjH}p_oA`E^vLzGzF`AzBa@j[wP", v = 30 },
+  { line = "okkjHyw_oAtm@aZbPcE|J_O|KeV~BsClEuB~QLnDuA`CqCzDsHfCeL|A}D`UgQ`CsChBaE~Faf@YuHyBwLMcG", v = 60 },
+  { line = "k~ejHsofoA^cFdAiE", v = 10 },
+  { line = "e{ejHa}foAzCyH`AcICuF_B_MPiJpGaU", v = 60 },
+  { line = "gnejHahioAVy@", v = 20 },
+  { line = "omejH{iioAbKk]XmHkAiTl@eGfBkF", v = 40 },
+  { line = "g~djHqvkoA`BoE", v = 20 },
+  { line = "e{djHa}koA|@qGLaMbAsFhXsn@~DaEjIgF~BeDnAiElGwd@eAuTaC_OiEqFqJwCgC{B{BsFkAeL", v = 60 },
+  { line = "u`djHetroAAQ", v = 50 },
+  { line = "w`djHwtroA_@yI`@eG", v = 60 },
+  { line = "u`djHwgsoAZgB" },
+  { line = "y_djH_ksoAzA}DhE_HdAsDl@aHg@_JsD{IsYkU", v = 60 },
+  { line = "otdjH{tuoAo@e@", v = 30 },
+  { line = "_vdjHavuoASQ" },
+  { line = "svdjHsvuoA{Ay@", v = 30 },
+  { line = "oydjHmxuoAyYkSsKqB" },
+]
+posts = [[14, 49.06878, 13.10741], [13, 49.06008, 13.10985], [12, 49.05155, 13.11121], [11, 49.04316, 13.11584], [10, 49.03626, 13.12382], [9, 49.02916, 13.12961], [8, 49.0233, 13.13922], [7, 49.02227, 13.15195], [6, 49.01957, 13.16398], [5, 49.01791, 13.17693], [4, 49.01218, 13.18712], [3, 49.00872, 13.1985], [2, 49.01404, 13.20798], [1, 49.01305, 13.21987], [0, 49.02101, 13.22621]]
+
+[[connections]]
+km = -0.033
+station = "Zwiesel"
+lines = [
+  { id = "5634", ref = "5634", name = "5634 Landshut (Bay) Hbf - Bayerisch Eisenstein Grenze", km = 120.677 },
+  { id = "5821", ref = "5821", name = "5821 Zwiesel - Grafenau", km = 0.042 },
+]

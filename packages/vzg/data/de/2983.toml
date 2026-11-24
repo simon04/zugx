@@ -1,0 +1,90 @@
+id = "2983"
+ref = "2983"
+name = "2983 Lage (Lippe) - Lemgo"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q21716960"
+from = "Lage (Lippe)"
+to = "Lemgo"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.102
+kmTo = 26.112
+length = 26.19
+speeds = [[-0.102, 0.5, "", ""], [0.5, 7.803, 80, 80], [7.803, 8.2, 50, 80], [8.2, 8.712, 50, 50], [8.712, 8.965, 80, 50], [8.965, 9.52, 80, 80], [9.52, 9.629, 30, 80], [9.629, 26.112, "", ""]]
+curves = [[-0.002, 0.048, 1150], [0.373, 1.336, 510], [1.536, 1.834, 1000], [2.058, 2.432, 640], [2.506, 2.681, 2150], [2.979, 3.552, 940], [3.626, 4.149, 870], [6.041, 6.365, 1090], [6.613, 7.037, 720], [7.335, 7.659, 600], [7.759, 7.808, 2470], [8.705, 9.088, 760], [9.315, 9.519, 970], [9.747, 10.247, 630], [10.422, 10.722, 780], [10.997, 11.672, 670], [12.997, 13.472, 520], [14.422, 14.922, 700], [14.972, 15.372, 770], [15.722, 16.497, 610], [16.997, 17.122, 1750], [19.022, 19.622, 1060], [19.747, 19.822, 2490], [19.922, 20.022, 1810], [20.247, 20.347, 1290], [21.522, 21.697, 830], [23.172, 23.247, 2550], [23.372, 23.497, 1280], [23.822, 23.897, 2000], [24.272, 24.572, 960], [25.622, 25.822, 920]]
+points = [
+  { km = -0.036, kind = "signal", label = "P5", signal = "main", dir = -1 },
+  { km = -0.035, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 0.039, kind = "station", label = "Lage (Lippe)", pos = [51.99162, 8.80133], uic = "8000215" },
+  { km = 0.378, kind = "signal", label = "N5", signal = "main", dir = 1 },
+  { km = 4.719, kind = "stop", label = "Hörstmar (Lippe)", pos = [52.01258, 8.84524], uic = "8002916" },
+  { km = 7.803, kind = "signal", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 8.009, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 8.2, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.393, kind = "signal", label = "P1", signal = "main,speed_limit", dir = -1 },
+  { km = 8.397, kind = "signal", signal = "stop", dir = -1 },
+  { km = 8.429, kind = "signal", signal = "stop", dir = -1 },
+  { km = 8.439, kind = "signal", signal = "stop", dir = -1 },
+  { km = 8.474, kind = "station", label = "Lemgo", pos = [52.0225, 8.89499], uic = "8003633" },
+  { km = 8.541, kind = "signal", signal = "stop", dir = 1 },
+  { km = 8.546, kind = "signal", label = "N1", signal = "main,speed_limit", dir = 1 },
+  { km = 8.712, kind = "signal", signal = "crossing_distant,crossing_hint,speed_limit", dir = 1 },
+  { km = 8.965, kind = "signal", label = "F", signal = "combined,speed_limit", dir = -1 },
+  { km = 9.336, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 9.371, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 9.52, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.523, kind = "signal", signal = "speed_limit,stop", dir = -1 },
+  { km = 9.59, kind = "stop", label = "Lemgo-Lüttfeld", pos = [52.02116, 8.91009], uic = "8003634" },
+  { km = 9.604, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.627, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.629, kind = "signal", signal = "minor", dir = 1 },
+  { km = 9.629, kind = "signal", signal = "minor", dir = -1 },
+  { km = 9.667, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 9.705, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 9.797, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 16.701, kind = "station", label = "Dörentrup", pos = [52.03325, 8.99924] },
+  { km = 19.015, kind = "station", label = "Farmbeck", pos = [52.0277, 9.03181] },
+  { km = 21.502, kind = "station", label = "Bega", pos = [52.01244, 9.05783] },
+  { km = 26.112, kind = "station", label = "Barntrup (Extertalbahn)", pos = [51.99268, 9.11913] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.099, kmTo = 2.15, length = 52 },
+  { kind = "bridge", kmFrom = 2.567, kmTo = 2.58, length = 12 },
+  { kind = "bridge", kmFrom = 5.227, kmTo = 5.251, length = 24 },
+  { kind = "bridge", kmFrom = 7.516, kmTo = 7.548, length = 32 },
+  { kind = "bridge", kmFrom = 10.125, kmTo = 10.144, length = 19 },
+  { kind = "bridge", kmFrom = 10.493, kmTo = 10.518, length = 25 },
+  { kind = "bridge", kmFrom = 21.633, kmTo = 21.652, length = 19 },
+  { kind = "bridge", kmFrom = 21.813, kmTo = 21.851, length = 38 },
+  { kind = "bridge", kmFrom = 21.916, kmTo = 21.932, length = 16 },
+  { kind = "bridge", kmFrom = 22.566, kmTo = 22.595, length = 29 },
+  { kind = "bridge", kmFrom = 24.82, kmTo = 24.861, length = 42 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "izi|Hkxut@v[{[" },
+  { line = "q}h|Hguvt@jB{Dr@iEf@cNm@cLgAaGsB_GaC}DkO{PmE{CmSsImC_CkDwFgW}o@_DmFsJkKoM}FqEcDaEgFcEwIcbAytC{CcPoEsd@ZyPtEef@PoFQ{IkFor@", v = 80 },
+  { line = "epo|Hapgu@}D_l@", v = 50 },
+  { line = "cvo|Ha}hu@]{Nd@qM~Di^pDuN", v = 80 },
+  { line = "ijo|Hojku@vEsRz@eMKsLyC_a@yA{HcKeZeCaMe@aGCkMhAeNl\\iwB`@gJWcKc@aFy]mwAiDeHgEsE{OsHyFwF_W}e@kBeHaAgH_@oHNkMfMg~@pZslDhCaP|AkGnDuI~`@mm@jr@gqAvn@s|BrFuOxOk[dPw`@dBgNdLggBdIgb@" },
+]
+posts = [[0, 51.99211, 8.8011], [1, 51.9875, 8.81141], [2, 51.9947, 8.81947], [3, 52.00114, 8.82926], [4, 52.00874, 8.83676], [5, 52.01414, 8.8485], [6, 52.01947, 8.86036], [7, 52.02176, 8.87412], [8, 52.02159, 8.88839], [9, 52.02292, 8.90267], [10, 52.01966, 8.91564], [11, 52.0226, 8.92904], [12, 52.02215, 8.94277], [13, 52.01884, 8.95636], [14, 52.02144, 8.96972], [15, 52.02745, 8.9797], [16, 52.03396, 8.98941], [17, 52.03228, 9.00332], [18, 52.02998, 9.01745], [19, 52.02773, 9.0316], [20, 52.02222, 9.0427], [21, 52.01568, 9.0527], [22, 52.00993, 9.06381], [23, 52.00526, 9.0763], [24, 51.99957, 9.08756], [25, 51.99624, 9.10074], [26, 51.99379, 9.1147]]
+
+[[connections]]
+km = 0.039
+station = "Lage"
+lines = [
+  { id = "2980", ref = "2980", name = "2980 Herford - Himmighausen", km = 19.209 },
+  { id = "2984", ref = "2984", name = "2984 Lage (Lippe) - Bielefeld", km = 0.026 },
+]
+
+[[connections]]
+km = 26.112
+station = "Barntrup"
+lines = [
+  { id = "9176", ref = "9176", name = "9176 Extertalbahn", km = 23.311 },
+]

@@ -1,0 +1,25 @@
+id = "1543"
+ref = "1543"
+name = "1543 Wangerooge Saline - Wangerooge Westen"
+operator = "DB Fernverkehr AG"
+gauge = "1000"
+from = "Wangerooge Saline"
+to = "Wangerooge Westen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.008
+length = 2.008
+speeds = [[0, 2.008, 20, 20]]
+curves = [[0.1, 1, 360]]
+points = [
+  { km = 1.959, kind = "station", label = "Westen", pos = [53.78881, 7.85108] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ouhgIwrao@mDxNcGbFeBbDy@`EQ|EX~EpE|VzM~aB", v = 20 },
+]
+posts = [[0, 53.7892, 7.87772], [1, 53.79092, 7.86524], [2, 53.78872, 7.85049]]

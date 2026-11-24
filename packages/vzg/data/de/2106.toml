@@ -1,0 +1,61 @@
+id = "2106"
+ref = "2106"
+name = "2106 Dortmund Hbf - Abzw Dortmund-Körne"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Dortmund Hbf"
+to = "Dortmund-Körne (Abzw)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.815
+length = 3.815
+speeds = [[0, 2.37, "", ""], [2.37, 3.248, 60, 60], [3.248, 3.815, "", ""]]
+curves = [[0.1, 0.2, 1140], [0.45, 0.5, 2050], [0.55, 0.6, 2100], [1.475, 1.7, 1600], [2.05, 2.2, 2080], [3.425, 3.5, 2270]]
+points = [
+  { km = 0.061, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.07, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 0.155, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.485, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.539, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.746, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.862, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.045, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.142, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.759, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.894, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.317, kind = "signal", label = "P 603", signal = "distant,main,minor,wrong_road", dir = 1 },
+  { km = 2.41, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.458, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.699, kind = "signal", signal = "main", dir = -1 },
+  { km = 2.808, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 3.505, kind = "signal", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 3.507, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.539, kind = "station", label = "Brügmannplatz", pos = [51.51929, 7.46967] },
+  { km = 3.723, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.832, kmTo = 2.877, length = 45 },
+  { kind = "bridge", kmFrom = 3.225, kmTo = 3.248, length = 22 },
+  { kind = "bridge", kmFrom = 3.528, kmTo = 3.561, length = 33 },
+  { kind = "bridge", kmFrom = 3.683, kmTo = 3.71, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kroyHgb{l@rl@xyBfHtg@|BzY" },
+  { line = "qwmyH{cul@lInlA", v = 60 },
+  { line = "cmmyHkvrl@pEbq@" },
+]
+posts = [[0, 51.53078, 7.51668], [1, 51.52613, 7.50431], [2, 51.52217, 7.4914], [3, 51.52021, 7.4773]]
+
+[[connections]]
+km = 3.539
+station = "Brügmannplatz"
+lines = [
+  { id = "2100", ref = "2100", name = "2100 Dortmund - Gronau", km = 0.767 },
+  { id = "2158", ref = "2158", name = "2158 Bochum Hbf - Dortmund Hbf (Ferngleise)", km = 164.775 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 120.226 },
+]

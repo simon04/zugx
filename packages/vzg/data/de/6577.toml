@@ -1,0 +1,24 @@
+id = "6577"
+ref = "6577"
+name = "6577 Horka–Steinbach"
+operator = "Deutsche Regionaleisenbahn GmbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.103
+length = 5.103
+speeds = [[0, 4.337, 25, 25], [4.337, 5.103, 5, 5]]
+curves = [[0.1, 0.325, 360], [3.275, 3.825, 410], [4.075, 4.35, 550], [4.65, 4.925, 540]]
+points = [
+  { km = 5.103, kind = "station", label = "Rothenburg (OL.)", pos = [51.33344, 14.96503] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oacxHsxczAZ{IuAmKoaBicFuBwCgDcCuDu@{CJyTrJgCdC_CrE", v = 25 },
+  { line = "kwgxH_hkzAyNz\\{CpCeKzE", v = 5 },
+]
+posts = [[0, 51.3028, 14.93402], [1, 51.3068, 14.9464], [2, 51.31189, 14.95826], [3, 51.31697, 14.97013], [4, 51.32423, 14.97476], [5, 51.33117, 14.9662]]

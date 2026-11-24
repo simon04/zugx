@@ -1,0 +1,38 @@
+id = "6843"
+ref = "6843"
+name = "6843 Falkenberg (Elster)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131651585"
+from = "Falkenberg (Elster)"
+to = "Falkenberg (Elster)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.815
+length = 2.815
+speeds = [[0, 2.533, "", ""], [2.533, 2.815, 40, ""]]
+curves = [[0.1, 0.275, 1690], [0.475, 0.6, 1700], [1.075, 1.325, 830], [1.55, 1.6, 2410], [1.675, 1.95, 2030], [2.075, 2.15, 1390], [2.2, 2.65, 350]]
+points = [
+  { km = 2.019, kind = "signal", signal = "combined", dir = 1 },
+  { km = 2.343, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.487, kind = "station", label = "Falkenberg (Elster)", uic = "8023235", pos = [51.58359, 13.24726] },
+  { km = 2.533, kind = "signal", label = "Q", signal = "combined,minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uazyHulapAj@bTdC~Z~Bjt@UlIRns@{@xd@uAdK{C|F" },
+  { line = "sazyHimzoAqM~H", v = 40 },
+]
+posts = [[0, 51.58443, 13.28347], [1, 51.58304, 13.2692], [2, 51.58303, 13.25476]]
+
+[[connections]]
+km = 2.487
+station = "Falkenberg"
+lines = [
+  { id = "6133", ref = "6133", name = "6133 Jüterbog – Röderau", km = 112.174 },
+  { id = "6207", ref = "6207", name = "6207 Horka Grenze – Roßlau", km = 147.947 },
+]

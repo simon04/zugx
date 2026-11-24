@@ -1,0 +1,31 @@
+id = "6444"
+ref = "6444"
+name = "6444 Dalwitzhof - Rostock Gbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q107693912"
+from = "Dalwitzhof"
+to = "Rostock Gbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 27.848
+kmTo = 29.017
+length = 1.139
+speeds = [[27.848, 29.017, 60, 60]]
+curves = [[28.805, 28.899, 2380]]
+points = [
+  { km = 28.11, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 28.378, kind = "signal", label = "C", signal = "main,traversable", dir = -1 },
+  { km = 28.721, kind = "signal", label = "Q", signal = "combined,minor,traversable", dir = 1 },
+  { km = 28.913, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 28.945, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 28.981, kind = "signal", signal = "electricity", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kh_iIgjciA|KC~q@nC", v = 60 },
+]
+posts = [[29, 54.06855, 12.14645], [29, 54.06855, 12.14645], [28, 54.05983, 12.14588]]

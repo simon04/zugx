@@ -1,0 +1,43 @@
+id = "2194"
+ref = "2194"
+name = "2194 Bochum Hbf - Bochum West"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q4533213"
+from = "Bochum Hbf"
+to = "Bochum West"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.788
+length = 0.788
+speeds = [[0, 0.403, 50, 50], [0.403, 0.788, 40, 40]]
+curves = [[0.1, 0.25, 570], [0.3, 0.675, 180]]
+points = [
+  { km = 0, kind = "halt", label = "Bochum West", uic = "8006711", pos = [51.48158, 7.21118] },
+  { km = 0.069, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.396, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.403, kind = "signal", label = "14 ZV2", signal = "combined,speed_limit", dir = 1 },
+  { km = 0.771, kind = "signal", signal = "station_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.099, kmTo = 0.128, length = 29 },
+  { kind = "bridge", kmFrom = 0.286, kmTo = 0.312, length = 25 },
+  { kind = "bridge", kmFrom = 0.491, kmTo = 0.705, length = 214 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cveyH}t_k@lGcCvLU", v = 50 },
+  { line = "}_eyHwy_k@fC}BlAkGKiEoBkH", v = 40 },
+]
+posts = [[0, 51.48018, 7.21247]]
+
+[[connections]]
+km = 0
+station = "Bochum West"
+lines = [
+  { id = "2153", ref = "2153", name = "2153 Bochum West - Abzw Gelsenkirchen Nordstern", km = 16.04 },
+]

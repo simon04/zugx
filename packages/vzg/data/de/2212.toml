@@ -1,0 +1,48 @@
+id = "2212"
+ref = "2212"
+name = "2212 Herne-Rottbruch - Herne"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Herne-Rottbruch"
+to = "Herne"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.71
+length = 1.71
+speeds = [[0, 1.71, "", ""]]
+curves = [[0.1, 0.2, 1960], [0.35, 1.075, 570]]
+points = [
+  { km = 0.347, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.349, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 0.505, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 0.509, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.103, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.107, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.231, kind = "signal", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 1.46, kind = "station", label = "Herne", uic = "8000164", pos = [51.54355, 7.21765] },
+  { km = 1.571, kind = "signal", signal = "main,minor,traversable", dir = 1 },
+  { km = 1.578, kind = "station", label = "Herne Bahnhof", pos = [51.54463, 7.21875] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0, kmTo = 0.036, length = 36 },
+  { kind = "bridge", kmFrom = 0.214, kmTo = 0.33, length = 116 },
+  { kind = "bridge", kmFrom = 1.012, kmTo = 1.026, length = 13 },
+  { kind = "bridge", kmFrom = 1.582, kmTo = 1.601, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{hpyHqo~j@_KT{Mq@aEuBeFkGiCmFqB}HaGuf@iDiT" },
+]
+posts = [[0, 51.53438, 7.20649], [1, 51.54208, 7.21143]]
+
+[[connections]]
+km = 1.46
+station = "Herne"
+lines = [
+  { id = "2208", ref = "2208", name = "2208 Wanne-Eickel Hbf - Herne", km = 4.544 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 98.377 },
+]

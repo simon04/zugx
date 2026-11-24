@@ -1,0 +1,31 @@
+id = "5731"
+ref = "5731"
+name = "5731 Hörpolding - Traunreut"
+operator = "DB RegioNetz Infrastruktur GmbH;Südostbayernbahn"
+gauge = "1435"
+from = "Hörpolding"
+to = "Traunreut"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.426
+kmTo = 3.116
+length = 2.676
+speeds = [[0.426, 2.628, 50, 50], [2.628, 3.116, "", ""]]
+curves = [[0.528, 0.978, 180], [1.206, 1.334, 1420], [1.639, 1.791, 1190], [2.244, 2.443, 870], [2.592, 2.692, 1270]]
+points = [
+  { km = 0.737, kind = "signal", label = "G", signal = "main", dir = -1 },
+  { km = 2.057, kind = "signal", signal = "main", dir = 1 },
+  { km = 2.583, kind = "station", label = "Traunreut", pos = [47.96503, 12.58984], uic = "8005894" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.508, kmTo = 0.525, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gcwcHij{kA_@`h@" },
+  { line = "gdwcHgazkA{AnWcLrj@cGxf@_Gr\\d@fH~B~D~Dv@hEwA", v = 50 },
+]
+posts = [[3, 47.96488, 12.59546], [3, 47.96488, 12.59546], [2, 47.96669, 12.58244], [1, 47.96973, 12.57007]]

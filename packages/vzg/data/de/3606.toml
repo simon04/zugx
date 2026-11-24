@@ -1,0 +1,46 @@
+id = "3606"
+ref = "3606"
+name = "3606 Frankfurt (Main) Süd"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Frankfurt (Main) Süd"
+to = "Frankfurt (Main) Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.291
+length = 1.291
+speeds = [[0, 0.181, 80, 80], [0.181, 0.215, 60, 60], [0.215, 0.957, 80, 80], [0.957, 1.291, 60, 60]]
+curves = [[0.1, 0.175, 880], [0.225, 0.575, 1200], [0.775, 0.925, 2260], [0.975, 1.175, 1940]]
+points = [
+  { km = 0.078, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.134, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.278, kind = "signal", label = "P527", signal = "distant,main,minor,route,traversable", dir = -1 },
+  { km = 0.28, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.308, kind = "halt", label = "Stresemannallee", uic = "8002059", pos = [50.09424, 8.67096] },
+  { km = 0.488, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.85, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.957, kind = "signal", label = "R527", signal = "distant,main,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.321, kmTo = 0.362, length = 41 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{wvpHux{s@wC}L", v = 80 },
+  { line = "s|vpHsf|s@g@iA", v = 60 },
+  { line = "{}vpH}h|s@wFoSoG}e@", v = 80 },
+  { line = "cnwpHkd~s@qG}X", v = 60 },
+]
+posts = [[0, 50.09294, 8.66715], [1, 50.09665, 8.67981]]
+
+[[connections]]
+km = 0.308
+station = "Stresemannallee"
+lines = [
+  { id = "3600", ref = "3600", name = "3600 Frankfurt (M) Hbf - Göttingen", km = 3.166 },
+  { id = "3688", ref = "3688", name = "3688 Frankfurt Süd - Darmstadt Hbf", km = 56.179 },
+]

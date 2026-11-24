@@ -1,0 +1,31 @@
+id = "6827"
+ref = "6827"
+name = "6827 Neuburxdorf - Mühlberg (Elbe)"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Neuburxdorf"
+to = "Mühlberg (Elbe)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.529
+length = 7.529
+speeds = [[0, 0.165, 60, 60], [0.165, 7.529, "", ""]]
+curves = [[0.825, 1.325, 260], [1.425, 1.575, 1170], [2.35, 2.475, 1730], [2.55, 2.675, 1850], [3.6, 3.9, 1000], [3.975, 4.225, 1020], [5.075, 5.125, 2130], [5.55, 6.025, 280], [6.15, 6.375, 460], [6.425, 6.55, 650], [6.6, 6.7, 1140], [6.925, 7.05, 2180], [7.2, 7.25, 2380]]
+points = [
+  { km = 0.168, kind = "signal", label = "M", signal = "main,minor", dir = -1 },
+  { km = 0.778, kind = "signal", label = "E", signal = "main,minor", dir = 1 },
+  { km = 0.869, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.95, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.025, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.06, kind = "signal", signal = "shunting", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cwayHe_dpA_H`C", v = 60 },
+  { line = "c`byHc{cpAij@|PqCtEq@xInEd\\tI~iAtBhQzCt_@fG`~@bJhe@`Un}BvBnGjE~C|BHnOcEzBClHjCjy@lI" },
+]
+posts = [[0, 51.45986, 13.29667], [1, 51.46852, 13.29286], [2, 51.46725, 13.27925], [3, 51.46505, 13.26526], [4, 51.4626, 13.25148], [5, 51.45998, 13.23769], [6, 51.45565, 13.22703], [7, 51.44683, 13.22621]]

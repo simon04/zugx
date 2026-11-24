@@ -1,0 +1,34 @@
+id = "6130"
+ref = "6130"
+name = "6130 Genshagener Heide - Genshagener Heide Nord"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131689698"
+from = "Genshagener Heide"
+to = "Genshagener Heide Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.016
+kmTo = 1.421
+length = 1.342
+speeds = [[0.016, 0.31, 60, 60], [0.31, 1.307, 80, 80], [1.307, 1.421, "", ""]]
+curves = [[0.133, 0.808, 500], [0.889, 1.321, 660]]
+points = [
+  { km = 0.098, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.31, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.311, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.311, kind = "signal", label = "78 P6", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 0.856, kind = "signal", label = "78 L6", signal = "main,traversable", dir = 1 },
+  { km = 1.29, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.307, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uhm~Hy}{oAjEX" },
+  { line = "ibm~H_}{oApJ}BzMyLjEyBlGa@|FzA", v = 80 },
+  { line = "cqk~Hwp|oAdFpE~DhH", v = 60 },
+]
+posts = [[1, 52.33493, 13.25626]]

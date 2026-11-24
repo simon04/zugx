@@ -1,0 +1,103 @@
+id = "1153"
+ref = "1153"
+name = "1153 Lüneburg - Stelle"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q110548569"
+from = "Lüneburg"
+to = "Stelle"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 133.015
+kmTo = 157.824
+length = 24.774
+speeds = [[133.015, 133.64, "", ""], [133.64, 136.37, 160, 160], [136.37, 150.788, "", ""], [150.788, 151.054, 160, 160], [151.054, 154.762, "", ""], [154.762, 154.773, 160, 160], [154.773, 157.144, "", ""], [157.144, 157.155, 160, 160], [157.155, 157.824, "", ""]]
+curves = [[133.115, 133.365, 1100], [136.396, 136.471, 2380], [136.647, 136.698, 2140], [137.125, 137.201, 2780], [145.238, 145.289, 2330], [145.466, 145.517, 2200], [149.645, 149.721, 2590], [149.974, 150.025, 2520], [150.779, 150.926, 1730], [151.171, 151.294, 2500], [154.704, 154.827, 2730], [156.85, 156.925, 2360]]
+points = [
+  { km = 133.02, kind = "signal", signal = "minor", dir = -1 },
+  { km = 133.604, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 133.679, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 133.921, kind = "signal", label = "F 004", signal = "distant,main,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 133.922, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 134.931, kind = "signal", label = "65 312", signal = "combined,speed_limit_distant,train_protection", dir = -1 },
+  { km = 136.141, kind = "signal", label = "65 314", signal = "combined,train_protection", dir = -1 },
+  { km = 137.052, kind = "signal", signal = "distant", dir = 1 },
+  { km = 137.342, kind = "signal", label = "65 316", signal = "combined,train_protection", dir = -1 },
+  { km = 137.476, kind = "halt", label = "Bardowick Hp", pos = [53.29063, 10.37125] },
+  { km = 137.482, kind = "station", label = "Bardowick", pos = [53.2904, 10.37216], uic = "8001177" },
+  { km = 138.067, kind = "signal", label = "65 319", signal = "main,train_protection", dir = 1 },
+  { km = 138.645, kind = "signal", label = "65 320", signal = "combined,train_protection", dir = -1 },
+  { km = 139.717, kind = "signal", label = "65 322", signal = "combined,train_protection", dir = -1 },
+  { km = 141.003, kind = "signal", label = "65 234", signal = "combined,train_protection", dir = 1 },
+  { km = 142.307, kind = "signal", label = "65 326", signal = "combined,train_protection", dir = -1 },
+  { km = 142.986, kind = "signal", signal = "distant", dir = 1 },
+  { km = 143.567, kind = "signal", label = "65 328", signal = "combined,train_protection", dir = -1 },
+  { km = 143.739, kind = "stop", label = "Radbruch", pos = [53.318, 10.28917], uic = "8001178" },
+  { km = 143.988, kind = "signal", label = "63 329", signal = "catenary_mast,main,train_protection", dir = 1 },
+  { km = 144.768, kind = "signal", label = "63 330", signal = "combined,train_protection", dir = -1 },
+  { km = 146.06, kind = "signal", label = "63 332", signal = "combined,train_protection", dir = 1 },
+  { km = 147.482, kind = "signal", label = "63 334", signal = "combined,train_protection", dir = -1 },
+  { km = 147.754, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 148.827, kind = "signal", label = "63 336", signal = "combined,train_protection", dir = -1 },
+  { km = 148.864, kind = "signal", label = "63 B", signal = "main,speed_limit,train_protection", dir = 1 },
+  { km = 149.598, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 149.911, kind = "signal", label = "63L24X", signal = "minor", dir = 1 },
+  { km = 150.086, kind = "signal", label = "63 P4", signal = "combined,train_protection", dir = -1 },
+  { km = 150.42, kind = "signal", signal = "distant", dir = 1 },
+  { km = 150.445, kind = "station", label = "Winsen (Luhe)", pos = [53.35343, 10.20868] },
+  { km = 150.598, kind = "signal", label = "63 N4", signal = "main,minor,train_protection,traversable", dir = 1 },
+  { km = 150.788, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 150.789, kind = "signal", label = "63L44X", signal = "minor", dir = -1 },
+  { km = 150.99, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 151.235, kind = "signal", label = "63 G", signal = "combined,speed_limit,speed_limit_distant,train_protection,traversable", dir = -1 },
+  { km = 152.337, kind = "signal", label = "63 342", signal = "combined,speed_limit_distant,train_protection", dir = -1 },
+  { km = 153.483, kind = "signal", label = "63 344", signal = "combined,train_protection", dir = -1 },
+  { km = 154.54, kind = "signal", label = "62 346", signal = "combined,train_protection", dir = -1 },
+  { km = 154.947, kind = "stop", label = "Ashausen", pos = [53.36879, 10.14529] },
+  { km = 155.69, kind = "signal", label = "62 348", signal = "combined,train_protection", dir = -1 },
+  { km = 156.089, kind = "signal", signal = "distant", dir = 1 },
+  { km = 156.852, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 156.853, kind = "signal", label = "62 350", signal = "combined,train_protection", dir = -1 },
+  { km = 157.099, kind = "signal", label = "B", signal = "main,speed_limit,train_protection", dir = 1 },
+  { km = 157.537, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 136.37, kmTo = 136.384, length = 13 },
+  { kind = "bridge", kmFrom = 145.254, kmTo = 145.265, length = 11 },
+  { kind = "bridge", kmFrom = 151.16, kmTo = 151.218, length = 59 },
+  { kind = "bridge", kmFrom = 154.762, kmTo = 154.773, length = 11 },
+  { kind = "bridge", kmFrom = 157.144, kmTo = 157.155, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "azadIezq~@mKvKgNtV" },
+  { line = "wubdIwup~@wmBdoD", v = 160 },
+  { line = "odfdIqek~@qPl_@eOpg@}{DvvPy[dsA_K|ZkjCpvGwJzZuU|{@" },
+  { line = "yysdIidh}@aFpU", v = 160 },
+  { line = "{`tdIwmg}@kExXaKhz@}w@nvF" },
+  { line = "glvdIca}|@G^", v = 160 },
+  { line = "olvdIc`}|@{G~]oGvWiOvf@iLxYaJjRcJpPwKbP" },
+  { line = "m~xdIwow|@OR", v = 160 },
+  { line = "}~xdIcow|@mOdVqJ|Q" },
+]
+posts = [[134, 53.26936, 10.40882], [135, 53.27584, 10.39853], [136, 53.28232, 10.38822], [137, 53.28838, 10.37728], [138, 53.2929, 10.3644], [139, 53.29725, 10.35134], [140, 53.3016, 10.33827], [141, 53.30595, 10.32522], [142, 53.3103, 10.31215], [143, 53.31466, 10.2991], [144, 53.31897, 10.28604], [145, 53.32332, 10.27308], [146, 53.32839, 10.26092], [147, 53.3341, 10.24954], [148, 53.33978, 10.23811], [149, 53.34546, 10.2267], [150, 53.35095, 10.21503], [151, 53.3556, 10.20214], [152, 53.35878, 10.18775], [153, 53.36208, 10.17343], [154, 53.36538, 10.1591], [155, 53.36879, 10.14485], [156, 53.3737, 10.13192], [157, 53.38001, 10.12114]]
+
+[[connections]]
+km = 137.476
+station = "Bardowick Hp"
+lines = [
+  { id = "1151", ref = "1151", name = "1151: Wittenberge–Buchholz", km = 316.393 },
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 137.496 },
+]
+
+[[connections]]
+km = 154.947
+station = "Ashausen"
+lines = [
+  { id = "1151", ref = "1151", name = "1151: Wittenberge–Buchholz", km = 298.969 },
+  { id = "1281", ref = "1281", name = "1281 Abzw Ashausen – Maschen Rbf", km = 0.219 },
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 154.922 },
+]

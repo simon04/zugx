@@ -1,0 +1,195 @@
+id = "6214"
+ref = "6214"
+name = "6214 Zittau Grenze - Löbau (Sachs)"
+operator = "DB Netz AG;Deutsche Regionaleisenbahn GmbH"
+gauge = "1435"
+wikidata = "Q803540"
+from = "Zittau Grenze"
+to = "Löbau (Sachs)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -13.833
+kmTo = 27.971
+length = 41.812
+speeds = [[-13.833, -13.256, 50, 50], [-13.256, -10.907, 70, 70], [-10.907, -6.13, 100, 100], [-6.13, -5.928, 100, 80], [-5.928, -5.81, 80, 80], [-5.81, -0.596, 100, 100], [-0.596, 0.402, 70, 70], [0.402, 5.744, 80, 80], [5.744, 6.989, 70, 70], [6.989, 12.975, 80, 80], [12.975, 13.689, "", ""], [13.689, 13.726, 80, 80], [13.726, 14.145, 40, 40], [14.145, 27.107, "", ""], [27.107, 27.971, 40, 40]]
+curves = [[-13.433, -12.483, 1970], [-12.383, -11.758, 680], [-11.483, -11.133, 600], [-11.083, -10.933, 1010], [-10.733, -10.108, 960], [-8.708, -8.633, 2010], [-8.308, -7.983, 860], [-7.883, -7.683, 1170], [-7.608, -6.983, 730], [-6.033, -5.833, 970], [-5.733, -4.933, 870], [-4.808, -3.408, 1210], [-1.083, -0.858, 1490], [-0.558, -0.433, 1730], [-0.258, -0.033, 570], [0.065, 0.422, 420], [1.206, 1.531, 720], [2.28, 3.005, 470], [3.055, 4.205, 350], [4.255, 4.88, 430], [5.08, 6.005, 800], [6.955, 7.829, 560], [8.604, 9.229, 510], [9.279, 9.829, 520], [10.113, 10.535, 1000], [10.583, 10.796, 740], [11.115, 11.415, 660], [11.993, 12.367, 700], [12.549, 12.725, 1210], [13.019, 13.362, 870], [13.609, 14.259, 490], [14.334, 14.484, 830], [15.009, 15.334, 820], [15.384, 16.159, 440], [16.309, 17.184, 530], [17.359, 17.959, 360], [18.134, 18.784, 480], [18.859, 19.134, 600], [19.209, 19.559, 390], [19.634, 19.959, 660], [20.034, 20.734, 350], [20.809, 21.859, 340], [21.959, 22.934, 1260], [24.084, 24.309, 1570], [24.359, 24.684, 2500], [25.509, 25.634, 1610], [25.909, 26.284, 1710], [26.409, 26.659, 1580], [27.134, 27.859, 530]]
+points = [
+  { km = -12.746, kind = "halt", label = "Zittau Haltepunkt", uic = "8013410", pos = [50.89855, 14.81714] },
+  { km = -12.318, kind = "signal", label = "62A", signal = "combined,speed_limit,speed_limit_distant" },
+  { km = -12.184, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = -12.131, kind = "signal", signal = "shunting", dir = -1 },
+  { km = -12.1, kind = "signal", label = "62L201X", signal = "minor", dir = 1 },
+  { km = -11.952, kind = "signal", signal = "distant,speed_limit_distant" },
+  { km = -11.723, kind = "signal", label = "62P2", signal = "main,minor,route,speed_limit", dir = -1 },
+  { km = -11.718, kind = "station", label = "Zittau (SOEG)", ele = 263, pos = [50.90384, 14.80723] },
+  { km = -11.666, kind = "station", label = "Zittau", pos = [50.90446, 14.80574], uic = "8006113" },
+  { km = -11.594, kind = "signal", label = "62ZR2", signal = "main,minor,speed_limit,wrong_road", dir = 1 },
+  { km = -11.506, kind = "signal", label = "62ZU22", signal = "main,minor,route,speed_limit", dir = -1 },
+  { km = -11.497, kind = "stop", label = "Zittau", pos = [50.90449, 14.80408] },
+  { km = -11.338, kind = "signal", label = "62N22", signal = "main,minor,speed_limit,wrong_road", dir = 1 },
+  { km = -11.328, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = -10.907, kind = "signal", label = "L322Y", signal = "minor", dir = -1 },
+  { km = -10.907, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -10.558, kind = "signal", label = "FF", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = -10.404, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = -9.258, kind = "signal", label = "Vff", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = -8.169, kind = "signal", signal = "crossing_distant" },
+  { km = -7.54, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = -7.017, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = -6.906, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = -6.877, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = -6.807, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = -6.327, kind = "signal", label = "6101", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = -6.139, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = -5.928, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -5.81, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -5.809, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = -5.765, kind = "stop", label = "Mittelherwigsdorf", pos = [50.92279, 14.74133], uic = "8006114" },
+  { km = -5.303, kind = "signal", label = "6114", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = -5.158, kind = "signal", signal = "distant", dir = -1 },
+  { km = -4.592, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = -4.555, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = -4.482, kind = "signal", signal = "crossing_distant" },
+  { km = -4.328, kind = "signal", signal = "distant", dir = -1 },
+  { km = -3.136, kind = "signal", signal = "crossing_distant" },
+  { km = -2.724, kind = "signal", signal = "crossing_distant" },
+  { km = -2.589, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = -2.547, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = -2.106, kind = "signal", signal = "distant", dir = 1 },
+  { km = -1.956, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = -1.86, kind = "stop", label = "Niederoderwitz", pos = [50.95235, 14.72434], uic = "8006117" },
+  { km = -1.623, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = -1.347, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = -1.112, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = -1.092, kind = "signal", label = "6003", signal = "main,traversable", dir = 1 },
+  { km = -0.596, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -0.221, kind = "signal", label = "6006", signal = "main,traversable,wrong_road", dir = -1 },
+  { km = -0.103, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.036, kind = "stop", label = "Oberoderwitz", pos = [50.96618, 14.70881], uic = "8006118" },
+  { km = 0.402, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.434, kind = "stop", label = "Oberoderwitz Oberdorf", pos = [50.97388, 14.67875], uic = "8006119" },
+  { km = 5.045, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.744, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.609, kind = "stop", label = "Eibau", pos = [50.98627, 14.64615], uic = "8006120" },
+  { km = 6.989, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.892, kind = "stop", label = "Neugersdorf", pos = [50.98665, 14.6116], uic = "8006123" },
+  { km = 11.496, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 11.998, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.109, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.248, kind = "signal", label = "57A", signal = "main,speed_limit", dir = 1 },
+  { km = 12.594, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.802, kind = "signal", signal = "minor", dir = 1 },
+  { km = 13.408, kind = "station", label = "Ebersbach (Sachsen)", pos = [51.00443, 14.57899], uic = "8006124" },
+  { km = 13.448, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.453, kind = "signal", label = "57N2", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 13.496, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 13.506, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 13.778, kind = "signal", signal = "combined", dir = 1 },
+  { km = 22.147, kind = "signal", label = "E", signal = "main,traversable", dir = 1 },
+  { km = 22.359, kind = "signal", label = "1III", signal = "shunting", dir = -1 },
+  { km = 22.927, kind = "signal", label = "E", signal = "combined,traversable", dir = -1 },
+  { km = 23.666, kind = "stop", label = "Großschweidnitz", pos = [51.07134, 14.63196] },
+  { km = 27.106, kind = "signal", label = "42G", signal = "combined,speed_limit", dir = 1 },
+  { km = 27.69, kind = "halt", label = "Haltepunkt Maschinenhaus", pos = [51.10057, 14.66391] },
+]
+structures = [
+  { kind = "bridge", kmFrom = -13.833, kmTo = -13.256, length = 577, name = "Neißeviadukt" },
+  { kind = "bridge", kmFrom = -12.812, kmTo = -12.766, length = 46 },
+  { kind = "bridge", kmFrom = -12.117, kmTo = -12.098, length = 19 },
+  { kind = "bridge", kmFrom = -10.551, kmTo = -10.535, length = 17 },
+  { kind = "bridge", kmFrom = -9.475, kmTo = -9.449, length = 25 },
+  { kind = "bridge", kmFrom = -7.885, kmTo = -7.79, length = 95 },
+  { kind = "bridge", kmFrom = -7.267, kmTo = -7.151, length = 116 },
+  { kind = "bridge", kmFrom = -5.663, kmTo = -5.648, length = 15 },
+  { kind = "bridge", kmFrom = -5.566, kmTo = -5.445, length = 121 },
+  { kind = "bridge", kmFrom = -5.367, kmTo = -5.344, length = 24 },
+  { kind = "bridge", kmFrom = -3.062, kmTo = -3.049, length = 13 },
+  { kind = "bridge", kmFrom = -2.277, kmTo = -2.263, length = 14 },
+  { kind = "bridge", kmFrom = -1.033, kmTo = -1.018, length = 15 },
+  { kind = "bridge", kmFrom = -0.937, kmTo = -0.924, length = 12 },
+  { kind = "bridge", kmFrom = -0.238, kmTo = -0.225, length = 13 },
+  { kind = "bridge", kmFrom = 0.296, kmTo = 0.317, length = 22 },
+  { kind = "bridge", kmFrom = 1.05, kmTo = 1.065, length = 15 },
+  { kind = "bridge", kmFrom = 1.336, kmTo = 1.35, length = 14 },
+  { kind = "bridge", kmFrom = 1.455, kmTo = 1.468, length = 13 },
+  { kind = "bridge", kmFrom = 3.485, kmTo = 3.501, length = 16 },
+  { kind = "bridge", kmFrom = 4.538, kmTo = 4.563, length = 25 },
+  { kind = "bridge", kmFrom = 5.552, kmTo = 5.568, length = 16 },
+  { kind = "bridge", kmFrom = 7.16, kmTo = 7.177, length = 17 },
+  { kind = "bridge", kmFrom = 8.183, kmTo = 8.201, length = 18 },
+  { kind = "bridge", kmFrom = 10.305, kmTo = 10.325, length = 22 },
+  { kind = "bridge", kmFrom = 10.784, kmTo = 10.8, length = 15 },
+  { kind = "bridge", kmFrom = 11.229, kmTo = 11.243, length = 13 },
+  { kind = "bridge", kmFrom = 13.721, kmTo = 13.764, length = 43 },
+  { kind = "bridge", kmFrom = 14.16, kmTo = 14.305, length = 145 },
+  { kind = "bridge", kmFrom = 18.007, kmTo = 18.029, length = 22 },
+  { kind = "bridge", kmFrom = 18.911, kmTo = 18.927, length = 15 },
+  { kind = "bridge", kmFrom = 20.087, kmTo = 20.107, length = 20 },
+  { kind = "bridge", kmFrom = 22.497, kmTo = 22.647, length = 150 },
+  { kind = "bridge", kmFrom = 26.881, kmTo = 26.894, length = 13 },
+  { kind = "bridge", kmFrom = 27.015, kmTo = 27.042, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "y|ruHuhoyAyP~i@", v = 50 },
+  { line = "snsuHu}myAwGfOiHzLaHdIuTlRaD~F{@bDq@pLFle@`BhJvHzV", v = 70 },
+  { line = "{ztuHs}hyAzF`\\t@vL?`NiPzcC{Efd@}AxIgJzWgGpVoDvH{EdG{GvDez@dW", v = 100 },
+  { line = "kpxuHon~xA_ErC", v = 80 },
+  { line = "kvxuH{i~xAwLtHeLpB}L{AiSmLoMkDiKCaHbAaM~F_MzMe`B`pCqEbGwNjN", v = 100 },
+  { line = "_k`vH{pxxAySbU{MtCmDlBuBpCyB`G", v = 70 },
+  { line = "s{avH_fwxAmX||@yAvGu@nUYtcAbBjN|EjKvFdEdNlDhFlFlBtFl@zDTrFU~GiBpIuBzDwBnBkEvA}Mh@oDjBoCbDwAnCuAbGkDf`@iBbKgDhIiLhO", v = 80 },
+  { line = "}wcvH_blxAkJvE}w@`O", v = 70 },
+  { line = "g|evHekkxAgGnCaGlH_DvIaBnKYbNjCllApAvL`DfJhFrGnLfHpB`DfBhFhBrMfBh`@F~P]hGsE|TmDze@}@hGyBtHsU|k@sGhJaFbDmM~FmPbD", v = 80 },
+  { line = "}_hvHsn~wAgI`BsE@cVcG" },
+  { line = "}givHss~wA_AM", v = 80 },
+  { line = "}iivHat~wAoMHkCy@yBoB", v = 40 },
+  { line = "s`jvHay~wA_IkPu\\{b@{CgHgFuT{CsFuEuDuCw@gFE}FzCuKfLiEdB{E?eG{BuFeHcFmLsHcXsFmF_Fw@cEt@cPvLeHtBaGW_EwCuKgVgBoB_LyGkCqDsAkDgDkQ}AkEcM{NoDgI}@kIXqKzB}I`HwMhBoKA_Hq@aH{BoGoCiDcEcBqFP}PjNqGfDwLvBmJ?gOgEa{@o`@qJgH_M}Mee@qr@cPw[oGmJqQyOc[cO" },
+  { line = "{{zvHq{mxA{GmE{DoGwAsEsA{M\\oX", v = 40 },
+]
+posts = [[-13, 50.89679, 14.81943], [-12, 50.90402, 14.81113], [-11, 50.90277, 14.79776], [-10, 50.90122, 14.78417], [-9, 50.90306, 14.77022], [-8, 50.90584, 14.75677], [-7, 50.91185, 14.74677], [-6, 50.92057, 14.74327], [-5, 50.92912, 14.7408], [-4, 50.93778, 14.7432], [-3, 50.94509, 14.73524], [-2, 50.95163, 14.72545], [-1, 50.95821, 14.71572], [0, 50.96591, 14.70861], [1, 50.97196, 14.69868], [2, 50.97394, 14.6852], [3, 50.97024, 14.67411], [4, 50.96847, 14.66435], [5, 50.9749, 14.65704], [6, 50.98087, 14.64761], [7, 50.98973, 14.64512], [8, 50.99351, 14.63387], [9, 50.99163, 14.62022], [10, 50.98648, 14.60994], [11, 50.98798, 14.59641], [12, 50.99258, 14.58439], [13, 51.00069, 14.57906], [14, 51.00964, 14.57999], [15, 51.01665, 14.5887], [16, 51.02325, 14.59654], [17, 51.03118, 14.59598], [18, 51.03789, 14.60192], [19, 51.04541, 14.6047], [20, 51.05181, 14.61395], [21, 51.05117, 14.62557], [22, 51.05705, 14.62986], [23, 51.06573, 14.62884], [24, 51.07422, 14.63354], [25, 51.08174, 14.64119], [26, 51.0883, 14.65095], [27, 51.0962, 14.65751]]
+
+[[connections]]
+km = -12.746
+station = "Zittau Haltepunkt"
+lines = [
+  { id = "6960", ref = "6960", name = "Bahnstrecke Zittau - Oybin", km = 1.144 },
+]
+
+[[connections]]
+km = -11.718
+station = "Zittau"
+lines = [
+  { id = "6589", ref = "6589", name = "6589 Zittau - Hagenwerder", km = 34.473 },
+  { id = "6960", ref = "6960", name = "Bahnstrecke Zittau - Oybin", km = 0.266 },
+]
+
+[[connections]]
+km = -5.765
+station = "Mittelherwigsdorf"
+lines = [
+  { id = "6588", ref = "6588", name = "Mittelherwigsdorf (S) - Eibau", km = 0.174 },
+]
+
+[[connections]]
+km = 0.036
+station = "Oberoderwitz"
+lines = [
+  { id = "6215", ref = "6215", name = "6215 Abzw Oberoderwitz - Wilthen", km = 0.036 },
+]
+
+[[connections]]
+km = 13.408
+station = "Ebersbach"
+lines = [
+  { id = "6215", ref = "6215", name = "6215 Abzw Oberoderwitz - Wilthen", km = 13.408 },
+]
+
+[[connections]]
+km = 27.69
+station = "Haltepunkt Maschinenhaus"
+lines = [
+  { id = "6212", ref = "6212", name = "6212 Görlitz - Dresden-Neustadt", km = 24.876 },
+]

@@ -1,0 +1,118 @@
+id = "6156"
+ref = "6156"
+name = "6156 Werbig oben - Frankfurt (Oder) Pbf"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q108869345"
+from = "Werbig oben"
+to = "Frankfurt (Oder) Pbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 101.284
+kmTo = 131.52
+length = 30.387
+speeds = [[101.284, 102.023, 60, 60], [102.023, 102.023, 30, 30], [102.023, 102.038, 60, 60], [102.038, 105.302, 100, 100], [105.302, 105.606, 90, 90], [105.606, 128.6, 100, 100], [128.6, 129.314, 90, 90], [129.314, 129.4, 70, 70], [129.4, 130.233, 50, 50], [130.233, 131.52, 40, 40]]
+curves = [[101.396, 102.121, 1080], [103.571, 104.021, 960], [105.346, 105.646, 770], [106.471, 106.821, 1030], [107.296, 107.646, 1010], [109.221, 109.346, 2330], [116.371, 116.496, 1990], [121.371, 121.696, 1260], [125.346, 125.871, 950], [126.121, 126.696, 820], [128.171, 128.571, 820], [128.64, 128.725, 1120], [128.768, 129.004, 680], [129.24, 129.347, 1720], [129.438, 129.61, 640], [129.781, 130.248, 690], [130.321, 130.495, 1400], [130.67, 130.995, 640], [131.22, 131.42, 650]]
+points = [
+  { km = 101.628, kind = "signal", label = "95 G", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 102.007, kind = "station", label = "Werbig", pos = [52.56488, 14.40504], uic = "8003211" },
+  { km = 102.012, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 102.038, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 102.328, kind = "signal", label = "95Vg", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 102.33, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 102.915, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 104.5, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 104.829, kind = "signal", label = "47P1", signal = "main", dir = -1 },
+  { km = 105.003, kind = "signal", label = "47ZR1", signal = "combined,speed_limit", dir = 1 },
+  { km = 105.153, kind = "station", label = "Seelow (Mark)", pos = [52.53817, 14.39446], uic = "8003210" },
+  { km = 105.236, kind = "signal", label = "47N1", signal = "main,speed_limit", dir = 1 },
+  { km = 105.299, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 105.302, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 105.41, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 105.41, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 105.606, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 105.606, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 105.856, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 106.141, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 106.764, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 109.469, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 113.895, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 114.894, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 117.66, kind = "station", label = "Schönfließ (Mark) Dorf", uic = "8003202", pos = [52.43704, 14.47277] },
+  { km = 126.878, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 128.6, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 128.6, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 128.751, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 129.314, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 129.4, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 130.201, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 130.233, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 130.235, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 130.239, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 130.326, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 130.338, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 130.383, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 130.522, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 130.583, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 130.664, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 130.741, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 130.822, kind = "signal", label = "B405", signal = "combined,minor,route,traversable,wrong_road", dir = -1 },
+  { km = 130.919, kind = "signal", signal = "stop", dir = -1 },
+  { km = 130.921, kind = "signal", signal = "brake_test" },
+  { km = 130.95, kind = "signal", signal = "distant", dir = -1 },
+  { km = 130.959, kind = "signal", signal = "stop", dir = -1 },
+  { km = 130.999, kind = "signal", signal = "stop", dir = -1 },
+  { km = 131.036, kind = "station", label = "Frankfurt (Oder)", uic = "8010113", pos = [52.33654, 14.54669] },
+  { km = 131.059, kind = "signal", signal = "main_repeated" },
+  { km = 131.079, kind = "signal", signal = "stop", dir = 1 },
+  { km = 131.126, kind = "signal", signal = "brake_test" },
+  { km = 131.13, kind = "signal", signal = "stop", dir = 1 },
+  { km = 131.267, kind = "signal", label = "A405", signal = "combined,minor,route,traversable,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 101.584, kmTo = 101.608, length = 24 },
+  { kind = "bridge", kmFrom = 101.774, kmTo = 101.785, length = 12 },
+  { kind = "bridge", kmFrom = 102.023, kmTo = 102.038, length = 15 },
+  { kind = "bridge", kmFrom = 103.673, kmTo = 103.698, length = 25 },
+  { kind = "bridge", kmFrom = 110.771, kmTo = 110.782, length = 10 },
+  { kind = "bridge", kmFrom = 118.457, kmTo = 118.47, length = 13 },
+  { kind = "bridge", kmFrom = 121.412, kmTo = 121.444, length = 33 },
+  { kind = "bridge", kmFrom = 128.574, kmTo = 128.595, length = 21 },
+  { kind = "bridge", kmFrom = 129.606, kmTo = 129.648, length = 42 },
+  { kind = "bridge", kmFrom = 130.447, kmTo = 130.474, length = 27 },
+  { kind = "bridge", kmFrom = 130.863, kmTo = 130.877, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "egl~HeyxwA{DdAuDjCwSjXkBrFgExTcClT", v = 40 },
+  { line = "gum~HkfvwAsBpMcEfLeN`ReGzC", v = 50 },
+  { line = "kvn~HsrtwAkDlA", v = 70 },
+  { line = "w{n~HeptwA{WjOgCzCqI|O", v = 90 },
+  { line = "mcp~H_jswAaF|JqClKw]faCuClOoDxJ}DvG_WlUmGhCqIr@gpAwCccCoIkKdByrBrs@qxCnwAqhEr~C_vCp~Bq{A~z@yGhH}Wfg@yFbHyq@rc@", v = 100 },
+  { line = "qqs_ImrzvAcGxBqGd@", v = 90 },
+  { line = "gbt_ImmzvAijAjFgHw@}JmFmlAa|@", v = 100 },
+  { line = "epy_Iil|vAYO", v = 60 },
+  { line = "_qy_Iyl|vA??", v = 30 },
+  { line = "_qy_Iyl|vAcIyCqJu@aIv@yGbC", v = 60 },
+]
+posts = [[131, 52.33689, 14.54652], [130, 52.34109, 14.53371], [129, 52.34944, 14.52625], [128, 52.35545, 14.51463], [127, 52.35865, 14.50087], [126, 52.36393, 14.48959], [125, 52.37257, 14.48712], [124, 52.38156, 14.48761], [123, 52.39054, 14.48832], [122, 52.39952, 14.48908], [120, 52.41704, 14.48343], [121, 52.40837, 14.48735], [119, 52.42566, 14.47924], [118, 52.43415, 14.47439], [117, 52.44264, 14.46953], [116, 52.45097, 14.46402], [115, 52.45907, 14.45761], [114, 52.46717, 14.45121], [113, 52.47527, 14.4448], [112, 52.48333, 14.43823], [111, 52.49132, 14.43146], [110, 52.49931, 14.42469], [108, 52.51582, 14.41302], [109, 52.50744, 14.41838], [107, 52.52328, 14.40521], [106, 52.53091, 14.39772], [105, 52.53955, 14.39438], [104, 52.54853, 14.39348], [103, 52.55687, 14.39855], [102, 52.56499, 14.40488]]
+
+[[connections]]
+km = 102.007
+station = "Werbig"
+lines = [
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 56.116 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 56.116 },
+]
+
+[[connections]]
+km = 131.036
+station = "Frankfurt"
+lines = [
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 80.114 },
+  { id = "6253", ref = "6253", name = "6253 Großenhain - Frankfurt (Oder)", km = 81.184 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 80.114 },
+]

@@ -1,0 +1,67 @@
+id = "4541"
+ref = "4541"
+name = "4541 Ulm Hbf - Ulm-Söflingen"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Ulm Hbf"
+to = "Ulm-Söflingen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.523
+kmTo = 3.138
+length = 3.654
+speeds = [[-0.523, -0.312, "", ""], [-0.312, -0.134, 40, 40], [-0.134, 2.874, "", ""], [2.874, 2.89, 40, 40], [2.89, 3.138, 50, 50]]
+curves = [[-0.423, -0.048, 750], [0.177, 0.277, 1740], [0.351, 1.078, 450], [1.301, 1.524, 1110], [1.697, 1.797, 1880], [1.874, 2.506, 1070], [2.682, 2.858, 2320]]
+points = [
+  { km = -0.464, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.391, kind = "signal", signal = "minor", dir = 1 },
+  { km = -0.389, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.134, kind = "signal", label = "N11", signal = "main,minor", dir = -1 },
+  { km = -0.025, kind = "station", label = "Ulm Hauptbahnhof", uic = "8029103", pos = [48.39942, 9.9826] },
+  { km = 0.003, kind = "signal", label = "79 ZS 10", signal = "combined", dir = -1 },
+  { km = 0.261, kind = "signal", label = "S 011", signal = "main", dir = 1 },
+  { km = 0.309, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.406, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.566, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.038, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.112, kind = "signal", label = "U 509", signal = "distant,main", dir = -1 },
+  { km = 1.817, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.911, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.355, kind = "halt", label = "Ulm-Söflingen", uic = "8029227", pos = [48.4027, 9.95854] },
+  { km = 2.359, kind = "signal", signal = "combined,speed_limit", dir = -1 },
+  { km = 2.89, kind = "signal", label = "76 O906", signal = "main,speed_limit", dir = 1 },
+  { km = 3.043, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.447, kmTo = -0.407, length = 40 },
+  { kind = "bridge", kmFrom = 3.014, kmTo = 3.047, length = 34 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "afkfHwa}{@uHbI" },
+  { line = "wokfHsw|{@kH|C", v = 40 },
+  { line = "cykfHur|{@_Sp@mIOmCd@yA`AqB~CiChMi@`NfC`_@bGxZ`E`PxAzMR`MSpIkDta@" },
+  { line = "cxlfH{tv{@Gf@", v = 40 },
+  { line = "kxlfHssv{@wCtR", v = 50 },
+]
+posts = [[0, 48.39962, 9.98192], [1, 48.40592, 9.97584], [2, 48.4029, 9.96318], [3, 48.40374, 9.95005]]
+
+[[connections]]
+km = -0.025
+station = "Ulm Hauptbahnhof"
+lines = [
+  { id = "4500", ref = "4500", name = "4500 Ulm Hbf - Friedrichshafen Stadt", km = 93.957 },
+  { id = "4540", ref = "4540", name = "4540 Ulm Hbf - Sigmaringen", km = -0.038 },
+  { id = "4700", ref = "4700", name = "4700 Stuttgart - Neu-Ulm", km = 93.956 },
+  { id = "4813", ref = "4813", name = "4813 Schnellfahrstrecke Stuttgart – Ulm", km = 88.569 },
+]
+
+[[connections]]
+km = 2.355
+station = "Ulm-Söflingen"
+lines = [
+  { id = "4540", ref = "4540", name = "4540 Ulm Hbf - Sigmaringen", km = 2.354 },
+]

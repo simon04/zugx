@@ -1,0 +1,23 @@
+id = "9617"
+ref = "9617"
+operator = "Eisenbahn Köln-Mülheim - Leverkusen"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.2
+length = 0.219
+speeds = [[0, 0.2, 40, 40]]
+curves = []
+points = [
+  { km = 0.065, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.158, kind = "signal", label = "G603", signal = "distant,main", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ifdvHu{wi@gHzK", v = 40 },
+]
+posts = [[0, 50.98101, 7.00875]]

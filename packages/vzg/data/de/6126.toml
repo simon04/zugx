@@ -1,0 +1,175 @@
+id = "6126"
+ref = "6126"
+name = "6126 Saarmund - Berlin Eichgestell"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131693440"
+from = "Saarmund"
+to = "Berlin Eichgestell"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 8.493
+kmTo = 44.573
+length = 35.635
+speeds = [[8.493, 16.068, 120, 120], [16.068, 16.09, 70, 70], [16.09, 18.477, 120, 120], [18.477, 18.685, 120, ""], [18.685, 27.231, 160, 160], [27.231, 28.557, 100, 100], [28.557, 36.393, 120, 120], [36.393, 36.766, 60, 60], [36.766, 38.851, 110, 120], [38.851, 39.596, 100, 120], [39.596, 43.769, 120, 120], [43.769, 44.573, 100, 100]]
+curves = [[9.631, 9.706, 2630], [13.802, 14.542, 1020], [16.523, 16.999, 1370], [19.249, 19.641, 1800], [25.573, 25.692, 2900], [25.736, 25.802, 2880], [28.577, 28.652, 2520], [28.776, 28.878, 2460], [36.429, 36.478, 2190], [36.697, 36.761, 2260], [38.171, 38.231, 2660], [38.327, 38.405, 2180], [38.563, 38.641, 2670], [38.845, 38.891, 2910], [39.129, 39.228, 2430], [39.302, 39.352, 1960], [40.031, 40.222, 1470], [40.945, 41.193, 1170], [41.317, 41.96, 1550], [42.118, 42.664, 1540], [43.336, 43.391, 2890], [44.181, 44.473, 1340]]
+points = [
+  { km = 8.951, kind = "signal", label = "77F", signal = "combined,route,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 9.73, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.064, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 10.731, kind = "signal", label = "7813", signal = "main,traversable", dir = 1 },
+  { km = 12.181, kind = "signal", signal = "distant", dir = 1 },
+  { km = 13.135, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 13.178, kind = "signal", label = "78 15", signal = "main,traversable", dir = 1 },
+  { km = 14.174, kind = "stop", label = "Ludwigsfelde-Struveshof", pos = [52.31716, 13.23201] },
+  { km = 14.566, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 15.3, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 15.592, kind = "signal", label = "78B", signal = "combined,route,speed_limit,traversable", dir = 1 },
+  { km = 15.796, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 15.959, kind = "signal", signal = "minor", dir = 1 },
+  { km = 16.309, kind = "signal", label = "78 P1", signal = "main,minor,traversable,wrong_road", dir = -1 },
+  { km = 16.797, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 17.108, kind = "signal", signal = "minor", dir = -1 },
+  { km = 17.163, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 17.415, kind = "signal", signal = "minor", dir = 1 },
+  { km = 17.552, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.764, kind = "signal", label = "78F", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 18.055, kind = "signal", label = "79B", signal = "combined,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 18.685, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.689, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.816, kind = "signal", label = "79F", signal = "combined,speed_limit,speed_limit_distant,traversable,wrong_road", dir = -1 },
+  { km = 19.237, kind = "signal", label = "80 11", signal = "combined,traversable", dir = 1 },
+  { km = 19.707, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 20.084, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 20.73, kind = "signal", label = "80 13", signal = "combined,traversable", dir = 1 },
+  { km = 22.177, kind = "signal", label = "8015", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 23.485, kind = "signal", label = "80 A", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 23.679, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 24.033, kind = "signal", label = "80 P1", signal = "combined,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 24.816, kind = "signal", label = "80 N1", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 25.175, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 25.246, kind = "signal", signal = "distant", dir = 1 },
+  { km = 25.37, kind = "signal", label = "80 FF", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 25.691, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 26.372, kind = "signal", label = "5951", signal = "combined,route,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 26.461, kind = "signal", label = "80Vff", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 26.466, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 26.56, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 26.59, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 26.853, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 27.094, kind = "signal", label = "59 52", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 27.281, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 27.416, kind = "signal", label = "5851", signal = "main,route,speed_limit,traversable", dir = 1 },
+  { km = 27.665, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 27.737, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 28.143, kind = "signal", label = "58V5", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 28.564, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.653, kind = "signal", label = "62V51", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 28.804, kind = "signal", label = "5854", signal = "main,route,speed_limit,wrong_road", dir = -1 },
+  { km = 29.608, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 29.719, kind = "signal", label = "6251", signal = "combined,speed_limit", dir = 1 },
+  { km = 30.632, kind = "signal", label = "6253", signal = "combined,traversable", dir = 1 },
+  { km = 31.257, kind = "halt", label = "Waßmannsdorf", pos = [52.36828, 13.46343] },
+  { km = 31.437, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 31.587, kind = "signal", label = "6255", signal = "combined,traversable", dir = 1 },
+  { km = 32.929, kind = "signal", label = "6257", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 32.951, kind = "signal", label = "6256", signal = "combined,traversable", dir = -1 },
+  { km = 34.126, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 34.133, kind = "signal", label = "133", signal = "combined,traversable", dir = 1 },
+  { km = 34.28, kind = "signal", label = "6258", signal = "combined,traversable", dir = -1 },
+  { km = 34.612, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 34.651, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 35.275, kind = "signal", label = "140", signal = "combined,minor", dir = -1 },
+  { km = 35.468, kind = "station", label = "Schönefeld (bei Berlin)", uic = "8003424", pos = [52.39143, 13.51268] },
+  { km = 35.783, kind = "signal", label = "151", signal = "combined,route,traversable", dir = 1 },
+  { km = 36.212, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 36.405, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 36.448, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 36.776, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 36.835, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 37.018, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = 37.021, kind = "signal", label = "180", signal = "combined", dir = -1 },
+  { km = 37.965, kind = "signal", label = "5189", signal = "combined,traversable", dir = 1 },
+  { km = 37.975, kind = "signal", label = "5188", signal = "combined,traversable", dir = -1 },
+  { km = 38.851, kind = "signal", label = "8611", signal = "combined,route,speed_limit,speed_limit_distant,traversable,wrong_road", dir = 1 },
+  { km = 38.882, kind = "signal", label = "5190", signal = "combined,traversable", dir = -1 },
+  { km = 39.316, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 39.596, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 39.881, kind = "signal", label = "8712", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 40.18, kind = "signal", label = "8711", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 40.677, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 40.989, kind = "signal", label = "8712", signal = "combined,speed_limit,speed_limit_distant,traversable,wrong_road", dir = -1 },
+  { km = 41.081, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 41.424, kind = "signal", signal = "distant", dir = 1 },
+  { km = 41.533, kind = "signal", label = "8811", signal = "combined,traversable", dir = 1 },
+  { km = 41.948, kind = "signal", label = "8812", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 42.157, kind = "signal", signal = "distant", dir = -1 },
+  { km = 42.241, kind = "signal", signal = "distant", dir = 1 },
+  { km = 42.248, kind = "signal", signal = "distant", dir = 1 },
+  { km = 42.369, kind = "signal", signal = "distant", dir = 1 },
+  { km = 42.472, kind = "signal", label = "8815", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 43.055, kind = "halt", label = "Spindlersfeld", uic = "8089088", pos = [52.4469, 13.56157] },
+  { km = 43.099, kind = "signal", label = "8816", signal = "combined,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 43.763, kind = "signal", label = "89A", signal = "combined,route_distant,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 43.769, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 16.068, kmTo = 16.09, length = 22 },
+  { kind = "bridge", kmFrom = 17.609, kmTo = 17.629, length = 20 },
+  { kind = "bridge", kmFrom = 17.807, kmTo = 17.853, length = 48 },
+  { kind = "bridge", kmFrom = 18.205, kmTo = 18.258, length = 53 },
+  { kind = "bridge", kmFrom = 18.45, kmTo = 18.477, length = 31 },
+  { kind = "bridge", kmFrom = 19.443, kmTo = 19.467, length = 22 },
+  { kind = "bridge", kmFrom = 20.518, kmTo = 20.548, length = 23 },
+  { kind = "bridge", kmFrom = 20.84, kmTo = 20.871, length = 32 },
+  { kind = "bridge", kmFrom = 21.503, kmTo = 21.53, length = 28 },
+  { kind = "bridge", kmFrom = 22.361, kmTo = 22.385, length = 25 },
+  { kind = "bridge", kmFrom = 31.809, kmTo = 31.839, length = 31 },
+  { kind = "bridge", kmFrom = 39.557, kmTo = 39.586, length = 30 },
+  { kind = "bridge", kmFrom = 39.913, kmTo = 39.939, length = 24 },
+  { kind = "bridge", kmFrom = 40.27, kmTo = 40.401, length = 112 },
+  { kind = "bridge", kmFrom = 40.79, kmTo = 40.871, length = 81 },
+  { kind = "bridge", kmFrom = 41.877, kmTo = 41.917, length = 37 },
+  { kind = "bridge", kmFrom = 42.505, kmTo = 42.537, length = 30 },
+  { kind = "bridge", kmFrom = 43.029, kmTo = 43.066, length = 34 },
+  { kind = "bridge", kmFrom = 43.459, kmTo = 43.501, length = 38 },
+  { kind = "bridge", kmFrom = 43.835, kmTo = 44.162, length = 152 },
+  { kind = "bridge", kmFrom = 44.416, kmTo = 44.46, length = 44 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wnd_IwzvqAnHeBhPw@", v = 100 },
+  { line = "}sc_Iu_wqApcA{FlLoDfQuKbGcCfIiBbIg@vNh@lGpAxg@tTtGbEpp@~h@`KbKzMlQlJlPvHzP~g@bvA", v = 120 },
+  { line = "y~x~Hw_qqA`JlX", v = 60 },
+  { line = "wsx~HifpqAhz@v}BlrDdsKzI~YrF~V", v = 120 },
+  { line = "orp~Hk`~pAfSnnAjF~a@", v = 100 },
+  { line = "{vo~H{mzpAxUxdBlEnf@de@`kLxEtuBvBpXrIjp@", v = 160 },
+  { line = "g~l~H{rbpAta@~{ClF|R~Qld@", v = 120 },
+  { line = "cak~Ho|{oAVp@", v = 70 },
+  { line = "k`k~H}z{oAjs@ltBzDxStAnVIlNoNfbE{GvsDoIjjB", v = 120 },
+]
+posts = [[44, 52.45372, 13.55778], [43, 52.44636, 13.55854], [42, 52.43755, 13.56136], [41, 52.42825, 13.56284], [40, 52.4201, 13.55825], [39, 52.41231, 13.55164], [38, 52.40476, 13.54139], [37, 52.3992, 13.52959], [36, 52.39419, 13.51862], [35, 52.38876, 13.50702], [34, 52.38338, 13.49512], [33, 52.37816, 13.4833], [32, 52.37283, 13.47125], [31, 52.36752, 13.45927], [30, 52.3623, 13.44761], [29, 52.35701, 13.43562], [28, 52.35326, 13.42272], [27, 52.35008, 13.40889], [26, 52.34705, 13.39537], [25, 52.34526, 13.38079], [24, 52.34396, 13.36619], [23, 52.34266, 13.35145], [22, 52.34142, 13.33753], [21, 52.34008, 13.32248], [20, 52.33918, 13.30772], [19, 52.3374, 13.29363], [18, 52.33441, 13.28003], [17, 52.33139, 13.26616], [16, 52.32624, 13.25424], [15, 52.32099, 13.24249], [14, 52.31689, 13.22947], [13, 52.31788, 13.21468], [12, 52.31905, 13.20007], [11, 52.31987, 13.18582], [10, 52.32058, 13.17121], [9, 52.32179, 13.1567]]
+
+[[connections]]
+km = 31.257
+station = "Waßmannsdorf"
+lines = [
+  { id = "6008", ref = "6008", name = "6008 Grünauer Kr - Bln Flughafen", km = 9.888 },
+]
+
+[[connections]]
+km = 35.468
+station = "Schönefeld"
+lines = [
+  { id = "6008", ref = "6008", name = "6008 Grünauer Kr - Bln Flughafen", km = 5.634 },
+]
+
+[[connections]]
+km = 43.055
+station = "Spindlersfeld"
+lines = [
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 3.286 },
+]

@@ -1,0 +1,84 @@
+id = "2132"
+ref = "2132"
+name = "2132 Abzweig Dortmund-Nette - Dortmund-Scharnhorst (Nordspange Dortmund)"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Dortmund-Nette"
+to = "Dortmund-Scharnhorst"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.254
+kmTo = 11.962
+length = 11.641
+speeds = [[0.254, 0.299, 60, 60], [0.299, 1.833, 90, 90], [1.833, 2.587, 60, 60], [2.587, 7.109, 80, 80], [7.109, 7.707, 70, 70], [7.707, 10.667, 100, 100], [10.667, 10.961, 90, 90], [10.961, 11.962, "", ""]]
+curves = [[0.596, 0.671, 2260], [0.846, 1.648, 520], [1.773, 1.823, 2070], [1.873, 1.948, 2890], [3.05, 3.276, 1130], [3.401, 3.576, 1420], [3.902, 4.252, 680], [5.254, 5.354, 2010], [5.88, 6.657, 840], [7.258, 7.633, 540], [9.164, 9.519, 1210], [10.687, 11.037, 720]]
+points = [
+  { km = 0.402, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.639, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.601, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 1.616, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.502, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.574, kind = "signal", label = "34", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 3.59, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.592, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.192, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 4.995, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.194, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.995, kind = "signal", signal = "main", dir = 1 },
+  { km = 6.39, kind = "signal", signal = "minor", dir = 1 },
+  { km = 6.464, kind = "signal", signal = "minor", dir = -1 },
+  { km = 6.642, kind = "signal", signal = "minor", dir = 1 },
+  { km = 6.644, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 6.994, kind = "signal", signal = "main,minor,traversable", dir = -1 },
+  { km = 7.192, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.698, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.17, kind = "signal", signal = "distant,main,traversable", dir = 1 },
+  { km = 8.462, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.202, kind = "signal", signal = "distant", dir = -1 },
+  { km = 9.642, kind = "signal", signal = "distant", dir = 1 },
+  { km = 9.745, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 10.688, kind = "signal", label = "A", signal = "main,traversable", dir = 1 },
+  { km = 10.688, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.782, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10.904, kind = "station", label = "Dortmund-Scharnhorst", uic = "8001515", pos = [51.53831, 7.53643] },
+  { km = 10.938, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.166, kind = "signal", label = "P5", signal = "main,minor,traversable", dir = -1 },
+  { km = 11.715, kind = "signal", signal = "main,minor", dir = 1 },
+  { km = 11.91, kind = "signal", signal = "train_protection", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.266, kmTo = 1.297, length = 31 },
+  { kind = "bridge", kmFrom = 2.133, kmTo = 2.156, length = 23 },
+  { kind = "bridge", kmFrom = 2.587, kmTo = 2.606, length = 19 },
+  { kind = "bridge", kmFrom = 3.293, kmTo = 3.373, length = 80 },
+  { kind = "bridge", kmFrom = 3.868, kmTo = 3.903, length = 35 },
+  { kind = "bridge", kmFrom = 5.211, kmTo = 5.24, length = 29 },
+  { kind = "bridge", kmFrom = 6.016, kmTo = 6.034, length = 18 },
+  { kind = "bridge", kmFrom = 6.51, kmTo = 6.565, length = 55 },
+  { kind = "bridge", kmFrom = 7.707, kmTo = 7.791, length = 84 },
+  { kind = "bridge", kmFrom = 9.147, kmTo = 9.173, length = 25 },
+  { kind = "bridge", kmFrom = 9.497, kmTo = 9.592, length = 102 },
+  { kind = "bridge", kmFrom = 10.652, kmTo = 10.667, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "y`ryHgoam@`\\jlA" },
+  { line = "wcqyH{a_m@fAbIh@tN", v = 90 },
+  { line = "e`qyHah~l@pAjaBWrSu@pJsX~{B", v = 100 },
+  { line = "uyqyHohvl@wAlMKnH\\|FtCvR", v = 70 },
+  { line = "ewqyH{ttl@`Knq@x@nQa@xM}BlM{Svk@}i@~lA{C`LaFrk@e@|WR`LbD~j@", v = 80 },
+  { line = "ousyHelil@~FxaA", v = 60 },
+  { line = "omsyHkigl@lA|S?nKaAvJeCxI{ClFeD~C}`@~T", v = 90 },
+  { line = "i}tyH}ndl@gAz@", v = 60 },
+]
+posts = [[11, 51.53884, 7.5376], [10, 51.53785, 7.52387], [9, 51.53863, 7.50948], [8, 51.54138, 7.49605], [7, 51.54142, 7.48235], [6, 51.54019, 7.46859], [5, 51.54573, 7.45725], [4, 51.55141, 7.44615], [3, 51.55244, 7.43197], [2, 51.5508, 7.41778], [1, 51.55232, 7.4048]]
+
+[[connections]]
+km = 10.904
+station = "Dortmund-Scharnhorst"
+lines = [
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 125.377 },
+]

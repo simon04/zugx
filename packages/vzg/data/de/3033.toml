@@ -1,0 +1,55 @@
+id = "3033"
+ref = "3033"
+name = "3033 Linz (Rhein) - Flammersfeld"
+operator = "Eifelbahn Verkehrsgesellschaft mbH"
+gauge = "1435"
+from = "Linz (Rhein)"
+to = "Flammersfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 8.19
+length = 8.19
+speeds = [[0, 4.397, 30, 30], [4.397, 4.408, "", ""], [4.408, 6.545, 30, 30], [6.545, 6.56, "", ""], [6.56, 6.908, 30, 30], [6.908, 6.983, "", ""], [6.983, 7.317, 30, 30], [7.317, 7.335, "", ""], [7.335, 7.991, 30, 30], [7.991, 8.19, "", ""]]
+curves = [[0.1, 0.2, 590], [0.35, 1, 310], [1.075, 1.525, 320], [1.725, 2.125, 460], [2.325, 2.55, 510], [2.6, 2.725, 1390], [2.825, 2.9, 2610], [3.05, 3.175, 810], [3.4, 3.6, 580], [3.75, 4.025, 500], [4.075, 4.4, 410], [4.65, 4.925, 500], [5.075, 5.7, 410], [5.75, 6.225, 320], [6.3, 6.45, 790], [6.6, 7.025, 300], [7.075, 7.5, 320]]
+points = [
+  { km = 0.041, kind = "station", label = "Kalenborn", uic = "8070018", pos = [50.61561, 7.31272] },
+  { km = 0.319, kind = "signal", signal = "main", dir = -1 },
+  { km = 5.643, kind = "halt", label = "Brauerei", pos = [50.59196, 7.25912] },
+  { km = 6.424, kind = "halt", label = "Kasbach", pos = [50.58613, 7.25918] },
+  { km = 6.641, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 7.382, kind = "signal", label = "11B", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 7.628, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 7.707, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 7.985, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.006, kind = "signal", signal = "electricity,minor", dir = 1 },
+  { km = 8.075, kind = "signal", label = "11LW6X", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.369, kmTo = 0.384, length = 15 },
+  { kind = "bridge", kmFrom = 3.848, kmTo = 3.858, length = 11 },
+  { kind = "bridge", kmFrom = 4.397, kmTo = 4.408, length = 11 },
+  { kind = "bridge", kmFrom = 5.244, kmTo = 5.262, length = 18 },
+  { kind = "bridge", kmFrom = 5.416, kmTo = 5.427, length = 11 },
+  { kind = "bridge", kmFrom = 5.956, kmTo = 5.979, length = 23 },
+  { kind = "bridge", kmFrom = 6.545, kmTo = 6.56, length = 15 },
+  { kind = "bridge", kmFrom = 6.908, kmTo = 6.983, length = 75 },
+  { kind = "bridge", kmFrom = 7.317, kmTo = 7.335, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mx|sH_isk@cEpE{ItRcAhGIfFz@vI~@zCxOxP~CbIl@xK_Bdb@|@nHvMhXlD|DvHrCdWtM~OzNhRfEdD`ChH|Pt@pGE`H", v = 30 },
+  { line = "kgysHyikk@?^" },
+  { line = "kgysHyhkk@q@lXNbHvG~WdEvHrC|AjHdBvCzCnF~J`DzBzCb@`De@hBuArHuJlD}H", v = 30 },
+  { line = "{}vsH_aik@Pa@" },
+  { line = "i}vsHabik@`FmJvC}AdCU", v = 30 },
+  { line = "imvsHcqik@dCb@" },
+  { line = "civsH_pik@zH|D`GY", v = 30 },
+  { line = "ewusH{jik@\\O" },
+  { line = "gvusHkkik@dEkE|Rca@", v = 30 },
+  { line = "c|tsH{sjk@rF}K" },
+]
+posts = [[0, 50.61527, 7.31296], [1, 50.61634, 7.30212], [2, 50.61407, 7.28981], [3, 50.60659, 7.28262], [4, 50.59849, 7.27709], [5, 50.59652, 7.26395], [6, 50.58936, 7.25644], [7, 50.58196, 7.26278], [8, 50.57484, 7.26871]]

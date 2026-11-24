@@ -1,0 +1,29 @@
+id = "5917"
+ref = "5917"
+name = "5917 Frauenaurach - Lände Erlangen"
+operator = "Stadt Erlangen"
+gauge = "1435"
+from = "Frauenaurach"
+to = "Lände Erlangen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.009
+kmTo = 1.34
+length = 1.351
+speeds = [[-0.009, 1.34, 25, 25]]
+curves = [[0.095, 0.319, 290], [0.418, 0.468, 2430], [0.691, 0.765, 2240], [0.939, 1.013, 2310], [1.088, 1.163, 1760]]
+points = [
+  { km = 0.121, kind = "signal", label = "L02", signal = "crossing", dir = 1 },
+  { km = 0.155, kind = "signal", label = "L01", signal = "crossing", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.732, kmTo = 0.768, length = 36 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{pomHic}aA{CyHeE{B{[Me_@aB", v = 25 },
+]
+posts = [[0, 49.5645, 10.96783], [1, 49.57295, 10.97019]]

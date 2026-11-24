@@ -1,0 +1,38 @@
+id = "1546"
+ref = "1546"
+name = "1546 Sande - Abzw Schortens Weißer Floh"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q134723069"
+from = "Sande"
+to = "Schortens Weißer Floh"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.01
+kmTo = 5.867
+length = 5.822
+speeds = [[-0.01, 5.867, 80, 80]]
+curves = [[0.428, 0.506, 2590], [1, 1.417, 1240], [1.663, 3.314, 810], [3.749, 4.537, 710], [4.992, 5.167, 1420], [5.492, 5.767, 1320]]
+points = [
+  { km = 0.053, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.08, kind = "signal", label = "2 II", signal = "minor", dir = 1 },
+  { km = 0.394, kind = "signal", label = "54 G", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.378, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.58, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.006, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.163, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.562, kind = "signal", label = "123", signal = "main,traversable", dir = 1 },
+  { km = 5.701, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.099, kmTo = 2.193, length = 95 },
+  { kind = "bridge", kmFrom = 4.956, kmTo = 4.984, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ohueI}awo@`KyQdNsb@rXmk@|DmOnAeMP{LeFsz@H_Sv@mKlB{K~C_KlEmIpCiDbGkEnLsC|Hj@fVjJlKdBzb@kBjYC", v = 80 },
+]
+posts = [[5, 53.52098, 7.99762], [4, 53.51613, 8.00907], [3, 53.51725, 8.02278], [2, 53.51079, 8.03352], [1, 53.50182, 8.03106], [0, 53.49318, 8.03161]]

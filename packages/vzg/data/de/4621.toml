@@ -1,0 +1,108 @@
+id = "4621"
+ref = "4621"
+name = "4621 Metzingen (Württ) - Bad Urach"
+operator = "DB Netz AG;Erms-Neckar-Bahn AG"
+gauge = "1435"
+from = "Metzingen (Württ)"
+to = "Bad Urach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.361
+kmTo = 10.448
+length = 10.806
+speeds = [[-0.361, 0.436, "", ""], [0.436, 0.641, 60, 50], [0.641, 1.811, 60, 60], [1.811, 3.882, 80, 80], [3.882, 4.061, 60, 80], [4.061, 6.49, 60, 60], [6.49, 6.635, 80, 80], [6.635, 6.805, 80, 60], [6.805, 8.599, 80, 80], [8.599, 10.002, 60, 60], [10.002, 10.199, 40, 60], [10.199, 10.448, 40, 50]]
+curves = [[-0.261, -0.161, 570], [0.189, 0.737, 390], [0.887, 0.961, 2810], [1.769, 2.088, 890], [2.731, 3.253, 420], [3.379, 3.854, 430], [4.054, 4.325, 930], [4.66, 5.041, 480], [5.126, 5.333, 630], [5.382, 5.627, 650], [5.892, 6.061, 1220], [6.161, 6.338, 820], [6.388, 7.047, 1370], [7.363, 7.526, 990], [7.622, 7.809, 1660], [7.943, 8.098, 1760], [8.474, 8.801, 930], [8.877, 9.055, 910], [9.106, 9.284, 840], [9.36, 9.434, 2690], [9.576, 10.026, 1260], [10.082, 10.301, 400]]
+points = [
+  { km = -0.164, kind = "signal", label = "P 603", signal = "main,minor,traversable,wrong_road", dir = -1 },
+  { km = -0.151, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.039, kind = "station", label = "Metzingen (Württemberg)", pos = [48.53967, 9.29016], uic = "8029303" },
+  { km = 0.046, kind = "signal", label = "N 603", signal = "main,minor,route,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 0.261, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.436, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.641, kind = "signal", signal = "distant,main,traversable", dir = -1 },
+  { km = 1.492, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.611, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.619, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.661, kind = "stop", label = "Metzingen Neuhausen", pos = [48.53267, 9.30716] },
+  { km = 1.675, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.811, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.813, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.238, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.882, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.061, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.07, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.086, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.113, kind = "halt", label = "Dettingen Erms Lehen", pos = [48.5293, 9.33715] },
+  { km = 4.622, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.643, kind = "halt", label = "Dettingen Erms Mitte", ele = 397, pos = [48.52793, 9.3443] },
+  { km = 5.402, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.428, kind = "halt", label = "Dettingen Erms Freibad", pos = [48.52313, 9.35132] },
+  { km = 5.438, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.973, kind = "signal", label = "81A", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 6.021, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 6.266, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.268, kind = "signal", signal = "minor", dir = 1 },
+  { km = 6.388, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 6.398, kind = "signal", label = "81P2", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 6.453, kind = "halt", label = "Dettingen Erms Gsaidt", pos = [48.51479, 9.35761] },
+  { km = 6.49, kind = "signal", label = "81N2", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 6.564, kind = "signal", label = "81LW 4X.2", signal = "minor", dir = 1 },
+  { km = 6.64, kind = "signal", signal = "minor", dir = -1 },
+  { km = 6.644, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.682, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 6.805, kind = "signal", label = "81F", signal = "combined,speed_limit", dir = -1 },
+  { km = 6.806, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.217, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 7.218, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.201, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.388, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 8.598, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 8.599, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 8.621, kind = "signal", signal = "stop", dir = -1 },
+  { km = 8.645, kind = "signal", signal = "stop", dir = -1 },
+  { km = 8.679, kind = "stop", label = "Bad Urach Wasserfall", pos = [48.49927, 9.37633] },
+  { km = 8.929, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 9.655, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.671, kind = "stop", label = "Bad Urach Ermstalklinik", pos = [48.49399, 9.38727] },
+  { km = 9.713, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.734, kind = "signal", signal = "stop", dir = 1 },
+  { km = 9.742, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 9.883, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.002, kind = "signal", label = "82A", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 10.193, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 10.199, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.278, kind = "signal", signal = "minor", dir = 1 },
+  { km = 10.315, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.358, kind = "signal", label = "82P1", signal = "main,minor,traversable", dir = -1 },
+  { km = 10.415, kind = "stop", label = "Bad Urach Bahnhof", pos = [48.49139, 9.39623] },
+  { km = 10.431, kind = "station", label = "Bad Urach", ele = 463, pos = [48.49132, 9.39641] },
+  { km = 10.448, kind = "signal", label = "82L1X", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.261, kmTo = 3.285, length = 23 },
+  { kind = "bridge", kmFrom = 3.416, kmTo = 3.444, length = 28 },
+  { kind = "bridge", kmFrom = 5.853, kmTo = 5.866, length = 14 },
+  { kind = "bridge", kmFrom = 8.232, kmTo = 8.254, length = 22 },
+  { kind = "bridge", kmFrom = 9.621, kmTo = 9.648, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q`hgHsiuw@~FsBh\\wBlEeC" },
+  { line = "ytfgHeuuw@vDyHrCiRjBsR~Fm}@", v = 60 },
+  { line = "a_fgHkdyw@J{NgFk}@@_LbAwGzAkErMcPzCaHrAaLEwX", v = 80 },
+  { line = "}jegHwo~w@b@wNxGof@fAmEfBwDdNsLzJoOhWaOjMgLhJgE", v = 60 },
+  { line = "mnbgH{tbx@pIgFtGyGrUcb@pp@qz@", v = 80 },
+  { line = "_s_gHscfx@hCgFlGsQtGyK`M__@bEsTvBsU", v = 60 },
+  { line = "se~fHqvix@nGaP", v = 50 },
+]
+posts = [[0, 48.53978, 9.29021], [1, 48.53391, 9.29811], [2, 48.5324, 9.31109], [3, 48.53338, 9.32459], [4, 48.52925, 9.33562], [5, 48.52604, 9.34804], [6, 48.51835, 9.35481], [7, 48.51066, 9.36132], [8, 48.50408, 9.37051], [9, 48.4977, 9.37974], [10, 48.49294, 9.39153]]
+
+[[connections]]
+km = -0.039
+station = "Metzingen"
+lines = [
+  { id = "4600", ref = "4600", name = "4600 Plochingen - Immendingen", km = 26.161 },
+]

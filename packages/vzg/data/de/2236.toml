@@ -1,0 +1,95 @@
+id = "2236"
+ref = "2236"
+name = "2236 Gelsenkirchen Bismarck - Borken"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.914
+kmTo = 42.223
+length = 41.334
+speeds = [[0.914, 1.428, "", ""], [1.428, 11.093, 100, 100], [11.093, 19.411, "", ""], [19.411, 40.926, 100, 100], [40.926, 42.133, 60, 100], [42.133, 42.223, 100, 100]]
+curves = [[1.014, 1.139, 1280], [1.364, 1.839, 930], [2.564, 2.614, 1720], [2.689, 2.764, 2140], [2.964, 3.039, 1630], [3.764, 4.064, 1230], [7.114, 7.189, 2000], [7.239, 7.364, 1980], [7.464, 7.539, 2490], [7.664, 7.739, 2150], [9.114, 9.264, 1580], [9.689, 10.264, 1380], [14.289, 14.439, 1920], [15.839, 16.239, 2010], [18.264, 18.364, 1240], [19.364, 19.639, 1100], [20.614, 20.964, 620], [21.064, 21.614, 650], [22.414, 22.639, 1850], [22.739, 22.939, 2020], [28.589, 28.889, 1950], [32.664, 32.914, 2020], [38.164, 38.214, 2400], [38.289, 38.514, 1890], [38.639, 38.689, 2410], [40.414, 40.514, 1540]]
+points = [
+  { km = 1.055, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.196, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.251, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.732, kind = "signal", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 2.457, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 2.657, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.222, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 4.215, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.067, kind = "signal", label = "511", signal = "main", dir = -1 },
+  { km = 5.122, kind = "stop", label = "Gelsenkirchen-Buer Süd", pos = [51.54915, 7.0397], uic = "8002225" },
+  { km = 9.467, kind = "stop", label = "Gladbeck Ost", pos = [51.5757, 6.99471], uic = "8002283" },
+  { km = 10.742, kind = "signal", signal = "main", dir = 1 },
+  { km = 11.275, kind = "stop", label = "Gladbeck-Zweckel", pos = [51.59036, 6.9844], uic = "8002284", ele = 60 },
+  { km = 11.389, kind = "signal", signal = "main", dir = -1 },
+  { km = 14.1, kind = "stop", label = "Feldhausen", pos = [51.61468, 6.97337], uic = "8001972" },
+  { km = 17.688, kind = "signal", label = "42A", signal = "main", dir = 1 },
+  { km = 18.422, kind = "signal", label = "42P1", signal = "main,route,speed_limit", dir = -1 },
+  { km = 18.937, kind = "station", label = "Dorsten", pos = [51.65791, 6.97051], uic = "8006709" },
+  { km = 19.045, kind = "signal", label = "42N1", signal = "main,minor", dir = 1 },
+  { km = 19.74, kind = "signal", label = "42", signal = "main", dir = -1 },
+  { km = 20.521, kind = "stop", label = "Hervest-Dorsten", pos = [51.67183, 6.9741], uic = "8000165" },
+  { km = 25.362, kind = "station", label = "Deuten", pos = [51.71314, 6.97086], uic = "8001432" },
+  { km = 29.052, kind = "signal", label = "44A", signal = "combined,traversable", dir = 1 },
+  { km = 29.767, kind = "signal", label = "44P1", signal = "main,traversable", dir = -1 },
+  { km = 29.886, kind = "station", label = "Rhade", pos = [51.75095, 6.9484], uic = "8005055" },
+  { km = 29.979, kind = "signal", label = "44N1", signal = "main,traversable", dir = 1 },
+  { km = 30.563, kind = "signal", label = "44F", signal = "combined,main,traversable", dir = -1 },
+  { km = 37.061, kind = "stop", label = "Marbeck-Heiden", pos = [51.8097, 6.90596], uic = "8003855" },
+  { km = 40.925, kind = "signal", label = "45A", signal = "main,traversable", dir = 1 },
+  { km = 40.926, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 41.39, kind = "signal", signal = "distant", dir = 1 },
+  { km = 41.843, kind = "signal", label = "45P1", signal = "main,traversable", dir = -1 },
+  { km = 41.845, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 42.133, kind = "station", label = "Borken (Westf)", pos = [51.84793, 6.86668], uic = "8000346" },
+  { km = 42.159, kind = "signal", label = "45N1", signal = "main,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.268, kmTo = 2.293, length = 25 },
+  { kind = "bridge", kmFrom = 2.47, kmTo = 2.537, length = 68 },
+  { kind = "bridge", kmFrom = 2.709, kmTo = 2.769, length = 60 },
+  { kind = "bridge", kmFrom = 2.861, kmTo = 2.877, length = 16 },
+  { kind = "bridge", kmFrom = 4.074, kmTo = 4.099, length = 25 },
+  { kind = "bridge", kmFrom = 6.893, kmTo = 6.995, length = 102 },
+  { kind = "bridge", kmFrom = 7.491, kmTo = 7.516, length = 24 },
+  { kind = "bridge", kmFrom = 8.588, kmTo = 8.609, length = 20 },
+  { kind = "bridge", kmFrom = 8.661, kmTo = 8.692, length = 31 },
+  { kind = "bridge", kmFrom = 10.088, kmTo = 10.11, length = 22 },
+  { kind = "bridge", kmFrom = 10.448, kmTo = 10.465, length = 17 },
+  { kind = "bridge", kmFrom = 10.832, kmTo = 10.844, length = 12 },
+  { kind = "bridge", kmFrom = 19.17, kmTo = 19.217, length = 47 },
+  { kind = "bridge", kmFrom = 19.621, kmTo = 19.673, length = 52 },
+  { kind = "bridge", kmFrom = 19.859, kmTo = 19.973, length = 114 },
+  { kind = "bridge", kmFrom = 20.275, kmTo = 20.322, length = 48 },
+  { kind = "bridge", kmFrom = 20.575, kmTo = 20.639, length = 64 },
+  { kind = "bridge", kmFrom = 20.94, kmTo = 20.976, length = 36 },
+  { kind = "bridge", kmFrom = 21.603, kmTo = 21.65, length = 46 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ctpyHixhj@J|OvAb\\" },
+  { line = "_qpyHgjgj@MtOcA~L_YxcBkM`cA_CnMs[h`Aoo@jtByWvw@uDxI_OxVwaAxkA_]vh@mIvHkFzCum@`T", v = 100 },
+  { line = "y|zyH{gsi@goDnnA{rA~TiTb@{qBmN}_@n@y\\vB" },
+  { line = "{gizHmkpi@wIyAa{@uY{FsFwLcT}CwCiFiCcPgAom@e@{MtByUhIs|G`hCoSjNslDjiDyK~IwyGz}CyMzI}nAfsAoLvNejA`jB", v = 100 },
+]
+posts = [[1, 51.53618, 7.09401], [2, 51.53685, 7.07992], [3, 51.54031, 7.06658], [4, 51.54341, 7.05303], [5, 51.5486, 7.04122], [6, 51.55357, 7.02917], [7, 51.55864, 7.01722], [8, 51.56509, 7.00727], [9, 51.57242, 6.99889], [10, 51.57942, 6.98986], [11, 51.58797, 6.98546], [12, 51.59663, 6.98159], [13, 51.60528, 6.97765], [14, 51.61394, 6.97374], [15, 51.62274, 6.97083], [16, 51.63163, 6.96868], [17, 51.6406, 6.9696], [18, 51.64956, 6.9708], [19, 51.65854, 6.97076], [20, 51.66737, 6.97227], [21, 51.67559, 6.9775], [22, 51.68384, 6.98153], [23, 51.69276, 6.98052], [24, 51.70139, 6.97642], [25, 51.71001, 6.97229], [26, 51.71863, 6.96817], [27, 51.72725, 6.96403], [28, 51.73587, 6.9599], [29, 51.74428, 6.95489], [30, 51.75199, 6.9474], [31, 51.75966, 6.93982], [32, 51.76735, 6.93228], [33, 51.7752, 6.92525], [34, 51.78369, 6.92046], [35, 51.79219, 6.91571], [36, 51.80068, 6.91095], [37, 51.80918, 6.90621], [38, 51.81768, 6.90144], [39, 51.8256, 6.8947], [40, 51.83312, 6.8867], [41, 51.84015, 6.87767], [42, 51.84708, 6.86783]]
+
+[[connections]]
+km = 18.937
+station = "Dorsten"
+lines = [
+  { id = "2273", ref = "2273", name = "2273 Bottrop Nord - Quakenbrück", km = 93.627 },
+]
+
+[[connections]]
+km = 20.521
+station = "Hervest-Dorsten"
+lines = [
+  { id = "2273", ref = "2273", name = "2273 Bottrop Nord - Quakenbrück", km = 95.12 },
+]

@@ -1,0 +1,36 @@
+id = "3031"
+ref = "3031"
+name = "3031 Abzw Koblenz-Pfaffendorf - Abzw Koblenz Horchheimer Brücke"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Koblenz-Pfaffendorf"
+to = "Koblenz Horchheimer Brücke"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.047
+kmTo = 2.357
+length = 1.301
+speeds = [[1.047, 1.097, 50, 60], [1.097, 2.357, 60, 60]]
+curves = [[1.147, 1.856, 310], [1.956, 2.256, 630]]
+points = [
+  { km = 1.116, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.246, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.301, kind = "signal", label = "21", signal = "distant,main", dir = -1 },
+  { km = 1.96, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.023, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.077, kind = "signal", signal = "main", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.047, kmTo = 1.097, length = 50, name = "Horchheimer Eisenbahnbrücke" },
+  { kind = "tunnel", kmFrom = 1.35, kmTo = 1.94, length = 590, name = "Horchheimer Tunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cserH_rjm@l@aLiA}J", v = 60 },
+  { line = "_terH_kkm@aCcGaFsCkERoJ`F", tunnel = true, v = 60 },
+  { line = "_qfrHapkm@}JhDyIw@", v = 60 },
+]
+posts = [[2, 50.33809, 7.60049]]

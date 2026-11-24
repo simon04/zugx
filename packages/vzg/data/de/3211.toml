@@ -1,0 +1,46 @@
+id = "3211"
+ref = "3211"
+name = "3211 Dillingen (Saar) - Primsweiler"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q35200763"
+from = "Dillingen (Saar)"
+to = "Primsweiler"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 13.421
+length = 13.421
+speeds = [[0, 13.421, "", ""]]
+curves = [[0.85, 1.15, 880], [1.275, 1.5, 590], [1.55, 2.05, 410], [2.275, 2.525, 430], [2.6, 2.775, 740], [3.075, 3.25, 1160], [3.525, 3.75, 680], [4.075, 4.375, 610], [4.925, 5.025, 1680], [5.075, 5.35, 430], [5.4, 5.7, 370], [5.85, 6.125, 670], [6.175, 6.5, 590], [6.575, 6.925, 610], [7.875, 8, 1240], [8.775, 8.925, 1020], [8.975, 9.1, 1020], [9.35, 9.525, 1150], [9.75, 9.925, 790], [10.525, 10.6, 1820], [10.65, 10.875, 500], [10.925, 11.15, 540], [11.575, 11.675, 1230], [11.9, 12.775, 580]]
+points = [
+  { km = 12.818, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 12.92, kind = "signal", label = "3 I", signal = "minor", dir = 1 },
+  { km = 12.932, kind = "signal", signal = "distant", dir = -1 },
+  { km = 13.001, kind = "signal", label = "3 II", signal = "minor", dir = -1 },
+  { km = 13.066, kind = "signal", label = "3 III", signal = "minor", dir = 1 },
+  { km = 13.271, kind = "signal", label = "P3", signal = "main,minor", dir = -1 },
+  { km = 13.419, kind = "signal", signal = "main_repeated" },
+  { km = 13.421, kind = "station", label = "Dillingen (Saar)", pos = [49.35253, 6.72212], uic = "8000075" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.863, kmTo = 1.942, length = 79 },
+  { kind = "bridge", kmFrom = 12.485, kmTo = 12.59, length = 104 },
+  { kind = "bridge", kmFrom = 12.735, kmTo = 12.75, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "iuqlHioyh@tt@eIzDN|OfFvQsA|DlAnDbDlNhZdApGv@nRzGp_@pOzf@bD~f@~AlIz`@v{@~@pFp@lP|A~GpNjTpFpSrBhF~LrNlDhHfYtxAfXt~@xGjOjIrXpHnd@p[py@tN~O`Qte@~MhZlBlOR~Ga@bGqCrMeB`Ew\\bg@" },
+]
+posts = [[0, 49.41157, 6.85317], [1, 49.40264, 6.8548], [2, 49.39412, 6.85222], [3, 49.39035, 6.84004], [4, 49.38672, 6.82764], [5, 49.38174, 6.81642], [6, 49.37694, 6.80539], [7, 49.37143, 6.79486], [8, 49.36775, 6.78226], [9, 49.36285, 6.77071], [10, 49.35867, 6.75861], [11, 49.35271, 6.74852], [12, 49.34713, 6.73774], [13, 49.34965, 6.72605]]
+
+[[connections]]
+km = 13.421
+station = "Dillingen"
+lines = [
+  { id = "3212", ref = "3212", name = "3212 Hemmersdorf (Saar) Grenze - Dillingen (Saar)", km = 20.311 },
+  { id = "3230", ref = "3230", name = "Saarstrecke", km = 27 },
+]

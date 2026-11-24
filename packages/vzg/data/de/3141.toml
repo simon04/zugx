@@ -1,0 +1,54 @@
+id = "3141"
+ref = "3141"
+name = "3141 Ehrang - Streckenwechsel 3141/3140"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q108638914"
+from = "Ehrang"
+to = "Biewer Streckenwechsel 3141/3140"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.352
+kmTo = 3.289
+length = 3.621
+speeds = [[-0.352, 0.958, "", ""], [0.958, 2.015, 40, 40], [2.015, 2.429, "", ""], [2.429, 3.289, 60, 60]]
+curves = [[-0.177, -0.127, 2390], [0.173, 0.348, 1350], [1.071, 1.204, 990], [1.273, 1.519, 1230], [1.712, 1.882, 650], [1.934, 2.04, 410], [2.093, 2.639, 410], [2.687, 3.089, 450]]
+points = [
+  { km = -0.169, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.129, kind = "signal", signal = "minor", dir = 1 },
+  { km = -0.061, kind = "signal", label = "P42 bis P 48", signal = "main,minor,route", dir = -1 },
+  { km = 0.097, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.814, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.973, kind = "signal", label = "114 I", signal = "minor", dir = -1 },
+  { km = 1.081, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.168, kind = "halt", label = "Trier Hafenstraße", pos = [49.79181, 6.68261] },
+  { km = 1.21, kind = "signal", label = "143 I", signal = "minor", dir = -1 },
+  { km = 1.456, kind = "signal", label = "S243", signal = "distant,main,minor", dir = -1 },
+  { km = 2.004, kind = "signal", label = "N340", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 2.223, kind = "signal", label = "44 II", signal = "minor", dir = -1 },
+  { km = 2.295, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 2.479, kind = "signal", label = "H", signal = "distant,main", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.098, kmTo = 2.109, length = 11 },
+  { kind = "bridge", kmFrom = 2.414, kmTo = 2.429, length = 15 },
+  { kind = "bridge", kmFrom = 2.885, kmTo = 2.898, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yp~nHs|xg@pa@n@rd@xI" },
+  { line = "sh|nHipxg@hHdArLCnEh@nOxDjJrG", v = 40 },
+  { line = "ioznHo~wg@dDt@lDxBdCzD|B`I" },
+  { line = "q|ynHaiwg@n@rHWhQ^xIzAfH`H`Q", v = 60 },
+]
+posts = [[0, 49.80193, 6.68625], [1, 49.79321, 6.68428], [2, 49.78449, 6.68158], [3, 49.78073, 6.67063]]
+
+[[connections]]
+km = 1.168
+station = "Trier Hafenstraße"
+lines = [
+  { id = "3010", ref = "3010", name = "Moselstrecke", km = 106.61 },
+]

@@ -1,0 +1,32 @@
+id = "2316"
+ref = "2316"
+name = "2316 Abzweig Duisburg Sigle - Duisburg Hafen"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q19630886"
+from = "Duisburg Sigle"
+to = "Duisburg Hafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.469
+length = 0.469
+speeds = [[0, 0.047, 60, 60], [0.047, 0.469, 10, 10]]
+curves = [[0.1, 0.35, 320]]
+points = [
+  { km = 0.047, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 0.414, kind = "signal", signal = "main", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.054, kmTo = 0.122, length = 68 },
+  { kind = "bridge", kmFrom = 0.219, kmTo = 0.239, length = 20 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "si_yHctnh@rAL", v = 60 },
+  { line = "_g_yHusnh@fGbA~CnBrBhDpAvE", v = 10 },
+]
+posts = [[0, 51.44746, 6.79762]]

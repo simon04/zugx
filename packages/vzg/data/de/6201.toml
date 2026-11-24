@@ -1,0 +1,32 @@
+id = "6201"
+ref = "6201"
+name = "6201 Cottbus Cbn - 20W 112"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131702055"
+from = "Cottbus Cbn"
+to = "Cottbus 20W 112"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 111.847
+kmTo = 113.15
+length = 1.342
+speeds = [[111.847, 113.15, 60, 60]]
+curves = [[111.947, 111.997, 1630], [112.589, 112.881, 670], [112.983, 113.033, 1080]]
+points = [
+  { km = 111.913, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 112.006, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 112.126, kind = "signal", label = "20 P52", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 112.938, kind = "signal", label = "20 ZR52", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 112.833, kmTo = 112.859, length = 25 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yxzzHwjdvApJgjAAcJ_Ck_@", v = 60 },
+]
+posts = [[112, 51.75166, 14.28372], [113, 51.75058, 14.29841]]

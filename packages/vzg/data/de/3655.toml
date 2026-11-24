@@ -1,0 +1,84 @@
+id = "3655"
+ref = "3655"
+name = "3655 Neu-Isenburg - Dreieich-Buchschlag"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Neu-Isenburg"
+to = "Dreieich-Buchschlag"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.764
+length = 4.764
+speeds = [[0, 0.358, 60, 60], [0.358, 0.933, 120, 60], [0.933, 3.941, 120, 120], [3.941, 4.483, 120, 80], [4.483, 4.764, 80, 80]]
+curves = [[0.1, 0.15, 1750]]
+points = [
+  { km = 0.028, kind = "signal", label = "323.1", signal = "main,minor,traversable", dir = -1 },
+  { km = 0.086, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.09, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.117, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.135, kind = "station", label = "Dreieich-Buchschlag", pos = [50.02264, 8.66099], uic = "8001236" },
+  { km = 0.149, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.186, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.186, kind = "signal", signal = "main_repeated" },
+  { km = 0.209, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.358, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.378, kind = "signal", label = "322.1", signal = "distant,main,traversable", dir = 1 },
+  { km = 0.506, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.688, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.933, kind = "signal", label = "319B", signal = "distant,main,traversable", dir = -1 },
+  { km = 1.514, kind = "signal", label = "318.B", signal = "main,traversable", dir = 1 },
+  { km = 1.749, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 1.836, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.844, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.082, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.086, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.288, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.462, kind = "signal", label = "W 38", signal = "minor", dir = 1 },
+  { km = 2.471, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 2.536, kind = "signal", label = "317.1", signal = "main,minor,traversable", dir = -1 },
+  { km = 3.175, kind = "signal", label = "1I", signal = "minor", dir = 1 },
+  { km = 3.249, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.271, kind = "signal", label = "W 26", signal = "minor", dir = -1 },
+  { km = 3.288, kind = "signal", signal = "main_repeated" },
+  { km = 3.379, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.508, kind = "stop", label = "Neu-Isenburg", pos = [50.05301, 8.66574] },
+  { km = 3.508, kind = "station", label = "Neu Isenburg", uic = "8004246", pos = [50.05325, 8.66572] },
+  { km = 3.513, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.524, kind = "signal", label = "316.1", signal = "distant,main,minor,speed_limit_distant,traversable", dir = 1 },
+  { km = 3.544, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.918, kind = "signal", label = "315.1", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 3.941, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.971, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.483, kind = "signal", label = "314.2", signal = "main,minor,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.613, kmTo = 0.639, length = 25 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "azhpHiszs@}RmB", v = 60 },
+  { line = "_nipHwvzs@{eFe`@", v = 120 },
+  { line = "{tppH}w{s@yNy@", v = 80 },
+]
+posts = [[0, 50.02161, 8.66117], [1, 50.03056, 8.66247], [2, 50.03951, 8.66378], [3, 50.04847, 8.66508], [4, 50.05742, 8.66639]]
+
+[[connections]]
+km = 0.135
+station = "Dreieich-Buchschlag"
+lines = [
+  { id = "3601", ref = "3601", name = "3601 Frankfurt (Main) Hbf - Abzw Heidelberg-Wieblingen", km = 10.556 },
+  { id = "3653", ref = "3653", name = "3653 Dreieich-Buchschlag - Rödermark-Ober Roden", km = 0 },
+  { id = "3688", ref = "3688", name = "3688 Frankfurt Süd - Darmstadt Hbf", km = 64.345 },
+]
+
+[[connections]]
+km = 3.508
+station = "Neu-Isenburg"
+lines = [
+  { id = "3601", ref = "3601", name = "3601 Frankfurt (Main) Hbf - Abzw Heidelberg-Wieblingen", km = 7.195 },
+  { id = "3688", ref = "3688", name = "3688 Frankfurt Süd - Darmstadt Hbf", km = 60.949 },
+]

@@ -1,0 +1,60 @@
+id = "6145"
+ref = "6145"
+name = "6145 Abzw Grünauer Kreuz West - Abzw Grünauer Kreuz Süd"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131690255"
+from = "Grünauer Kreuz West"
+to = "Grünauer Kreuz Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 11.272
+kmTo = 14.889
+length = 3.739
+speeds = [[11.272, 11.696, 100, 100], [11.696, 12.599, 80, 80], [12.599, 13.464, 100, 100], [13.464, 13.592, "", 60], [13.592, 14.889, 60, 60]]
+curves = [[11.435, 12.023, 650], [12.074, 12.65, 550], [13.101, 13.664, 1280], [13.814, 13.864, 2320], [14.139, 14.789, 460]]
+points = [
+  { km = 11.607, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.696, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.185, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.599, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.874, kind = "signal", signal = "distant", dir = -1 },
+  { km = 13.164, kind = "signal", label = "39 E", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 13.289, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 13.464, kind = "station", label = "Grünau", uic = "8089063", pos = [52.41288, 13.57364] },
+  { km = 13.611, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.653, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 13.845, kind = "signal", label = "39 C", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 14.599, kind = "signal", label = "8632", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 14.642, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 14.658, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.859, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 11.539, kmTo = 11.592, length = 53 },
+  { kind = "bridge", kmFrom = 13.078, kmTo = 13.096, length = 19 },
+  { kind = "bridge", kmFrom = 13.205, kmTo = 13.221, length = 27 },
+  { kind = "bridge", kmFrom = 13.861, kmTo = 13.886, length = 25 },
+  { kind = "bridge", kmFrom = 14.078, kmTo = 14.121, length = 43 },
+  { kind = "bridge", kmFrom = 14.601, kmTo = 14.618, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yu|~H{rvqAwDwI{AcJUsKz@qLfBgHlKeVhO{W", v = 60 },
+  { line = "g}{~Hg|yqAwEhIuFnNmNrq@", v = 100 },
+  { line = "c{|~HyowqAaEzK_ExDaGjBcMf@_IzE", v = 80 },
+  { line = "kg~~HsqvqAgHdLyFtL", v = 100 },
+]
+posts = [[14, 52.4166, 13.56716], [13, 52.41653, 13.56524], [12, 52.42252, 13.55687]]
+
+[[connections]]
+km = 13.464
+station = "Grünau"
+lines = [
+  { id = "6007", ref = "6007", name = "6007 Berlin Warschauer Straße - Königs Wusterhausen", km = 13.527 },
+  { id = "6142", ref = "6142", name = "6142 Berlin - Görlitz", km = 13.53 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 0.104 },
+]

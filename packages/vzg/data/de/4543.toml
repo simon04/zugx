@@ -1,0 +1,27 @@
+id = "4543"
+ref = "4543"
+name = "4543 Ulm Hbf - Ulm Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Ulm Hbf"
+to = "Ulm Hbf Bft Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.337
+length = 0.337
+speeds = [[0, 0.337, 40, 40]]
+curves = [[0.1, 0.225, 460]]
+points = [
+  { km = 0.059, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.175, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.3, kind = "signal", signal = "minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ggmfHka}{@jBpNAbEg@tD", v = 40 },
+]
+posts = [[0, 48.4058, 9.98438]]

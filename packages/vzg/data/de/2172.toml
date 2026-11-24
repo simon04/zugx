@@ -1,0 +1,24 @@
+id = "2172"
+ref = "2172"
+name = "2172 Essen Hbf - Gelsenkirchen Zoo"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Essen Hbf"
+to = "Gelsenkirchen Zoo"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.076
+length = 2.076
+speeds = [[0, 1.653, 50, 50], [1.653, 2.076, "", ""]]
+curves = [[0.1, 0.3, 1330], [0.375, 0.85, 2230]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "uwlyHouaj@xClMtD|VlDjN~`@|eA", v = 50 },
+  { line = "wekyHyx}i@vM`]" },
+]
+posts = [[0, 51.51627, 7.05896], [1, 51.51192, 7.04641], [2, 51.50635, 7.03507]]

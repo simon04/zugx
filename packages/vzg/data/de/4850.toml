@@ -1,0 +1,210 @@
+id = "4850"
+ref = "4850"
+name = "4850 Pforzheim Hbf - Hochdorf (b Horb)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Pforzheim Hbf"
+to = "Hochdorf (b Horb)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.086
+kmTo = 56.652
+length = 56.583
+speeds = [[0.086, 0.499, "", ""], [0.499, 0.599, 80, 80], [0.599, 0.762, "", ""], [0.762, 2.868, 80, 80], [2.868, 3.243, 60, 60], [3.243, 4.299, 80, 80], [4.299, 5.158, 90, 90], [5.158, 5.951, 80, 80], [5.951, 9.872, 90, 90], [9.872, 11.78, 100, 100], [11.78, 12.013, 40, 80], [12.013, 12.048, 40, 50], [12.048, 12.181, 40, 40], [12.181, 12.356, 90, ""], [12.356, 13.69, 90, 90], [13.69, 15.512, 100, 100], [15.512, 15.998, 80, 80], [15.998, 17.086, 90, 90], [17.086, 18.785, 80, 80], [18.785, 19.138, 60, 60], [19.138, 23.423, 90, 90], [23.423, 23.648, 80, 80], [23.648, 25.902, 90, 90], [25.902, 25.995, 80, 90], [25.995, 26.295, 80, 80], [26.295, 28.305, 100, 100], [28.305, 28.485, 90, 90], [28.485, 30.184, 70, 70], [30.184, 30.57, "", ""], [30.57, 34.749, 100, 100], [34.749, 36.288, 80, 80], [36.288, 37.217, 60, 60], [37.217, 37.628, 100, 100], [37.628, 37.634, "", ""], [37.634, 37.951, 100, 100], [37.951, 38.013, 80, 80], [38.013, 40.349, 100, 100], [40.349, 45.692, 80, 80], [45.692, 46.171, 50, 50], [46.171, 46.419, 60, 60], [46.419, 47.356, 80, 80], [47.356, 47.415, 70, 70], [47.415, 48.627, 100, 100], [48.627, 48.644, 50, 50], [48.644, 55.391, 100, 100], [55.391, 56.249, 60, 60], [56.249, 56.652, 100, 100]]
+curves = [[0.318, 0.518, 610], [0.568, 0.818, 690], [1.043, 1.301, 910], [1.468, 1.584, 1390], [1.764, 1.895, 1480], [1.977, 2.102, 1560], [2.466, 3.351, 520], [3.947, 4.32, 1030], [4.42, 4.62, 1440], [5.196, 5.822, 460], [5.872, 6.397, 550], [6.672, 7.223, 450], [7.348, 8.376, 580], [8.751, 9.9, 450], [9.975, 10.755, 560], [10.856, 11.032, 1280], [11.082, 11.531, 850], [11.806, 12.206, 540], [12.506, 12.71, 820], [12.759, 13.107, 710], [13.157, 13.633, 460], [13.708, 14.434, 590], [14.784, 15.635, 710], [15.71, 16.36, 410], [16.584, 17.358, 560], [17.458, 17.833, 510], [18.607, 18.832, 1180], [19.007, 19.232, 730], [19.657, 20.458, 680], [20.533, 20.858, 590], [20.959, 21.259, 1530], [21.634, 21.759, 2360], [21.984, 22.635, 760], [22.735, 23.11, 470], [23.385, 23.711, 550], [23.761, 24.446, 500], [24.495, 24.765, 660], [25.061, 25.161, 1830], [25.463, 25.714, 690], [25.839, 26.312, 450], [26.512, 26.712, 1080], [26.863, 27.039, 1400], [27.14, 27.473, 650], [28.241, 28.641, 440], [28.716, 29.216, 380], [29.416, 29.616, 1000], [29.667, 30.192, 500], [31.344, 31.769, 560], [31.819, 32.245, 540], [32.395, 32.72, 700], [32.995, 33.445, 450], [34.045, 34.196, 1570], [34.296, 34.371, 1990], [34.446, 34.721, 490], [34.796, 35.447, 480], [35.597, 35.822, 1440], [36.047, 36.622, 550], [36.672, 37.022, 440], [37.822, 38.371, 560], [38.445, 39.019, 420], [39.144, 39.294, 780], [39.418, 39.643, 640], [39.718, 40.092, 630], [40.442, 41.39, 450], [41.44, 41.689, 550], [41.864, 42.439, 430], [42.489, 42.79, 760], [43.24, 43.815, 500], [44.29, 44.565, 1070], [44.791, 45.466, 1190], [45.991, 46.267, 1330], [46.517, 46.592, 2480], [47.193, 47.793, 500], [47.893, 48.268, 730], [48.419, 48.67, 1090], [48.845, 49.12, 1010], [49.195, 49.295, 1600], [49.821, 50.296, 510], [50.747, 50.847, 1730], [51.773, 52.024, 880], [52.074, 52.299, 930], [52.624, 52.825, 1190], [53.15, 53.85, 730], [53.975, 54.025, 2880], [54.801, 54.876, 1900], [54.976, 55.026, 2400], [55.602, 56.252, 490]]
+points = [
+  { km = 0.124, kind = "station", label = "Pforzheim Hauptbahnhof", pos = [48.89398, 8.70326], uic = "8000299" },
+  { km = 0.34, kind = "halt", label = "Brötzingen Sandweg", pos = [48.88592, 8.66263], measured = true },
+  { km = 0.366, kind = "signal", label = "P 104", signal = "main", dir = 1 },
+  { km = 0.762, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.803, kind = "signal", signal = "catenary_mast,stop", dir = -1 },
+  { km = 1.842, kind = "signal", signal = "catenary_mast,stop", dir = -1 },
+  { km = 1.883, kind = "signal", signal = "catenary_mast,stop", dir = -1 },
+  { km = 1.9, kind = "stop", label = "Pforzheim Maihälden", uic = "8004804", pos = [48.89338, 8.67829], measured = true },
+  { km = 1.938, kind = "signal", signal = "catenary_mast,stop", dir = 1 },
+  { km = 1.945, kind = "signal", signal = "catenary_mast,route_distant", dir = 1 },
+  { km = 1.948, kind = "signal", label = "41 A", signal = "catenary_mast,combined,speed_limit_distant", dir = 1 },
+  { km = 2.764, kind = "signal", label = "2", signal = "stop", dir = -1 },
+  { km = 2.798, kind = "station", label = "Brötzingen Mitte", uic = "8004799", pos = [48.88949, 8.66712] },
+  { km = 2.861, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.868, kind = "signal", label = "41 N1", signal = "main,speed_limit", dir = 1 },
+  { km = 2.903, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 4.086, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.732, kind = "station", label = "Pforzheim Weißenstein", pos = [48.86519, 8.67639], uic = "8029466" },
+  { km = 5.737, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.751, kind = "signal", signal = "caption,form,height", dir = 1 },
+  { km = 12.013, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+  { km = 12.172, kind = "station", label = "Unterreichenbach", pos = [48.82686, 8.71131], uic = "8029468" },
+  { km = 12.181, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 12.184, kind = "signal", label = "21 N1", signal = "catenary_mast,main,traversable", dir = 1 },
+  { km = 15.768, kind = "halt", label = "Monbach-Neuhausen", uic = "8029469", pos = [48.79922, 8.72825] },
+  { km = 15.996, kind = "signal", signal = "catenary_mast,speed_limit", dir = 1 },
+  { km = 15.998, kind = "signal", signal = "catenary_mast,speed_limit", dir = -1 },
+  { km = 18.92, kind = "station", label = "Bad Liebenzell", pos = [48.77291, 8.7341], uic = "8029470" },
+  { km = 18.941, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.952, kind = "signal", label = "22 N1", signal = "main,traversable", dir = 1 },
+  { km = 23.423, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 23.498, kind = "stop", label = "Hirsau", pos = [48.73405, 8.73684], uic = "8029472" },
+  { km = 23.648, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.214, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 24.314, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 25.849, kind = "station", label = "Calw", pos = [48.71496, 8.74185] },
+  { km = 25.902, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 25.995, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 26.295, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 28.125, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 30.338, kind = "stop", label = "Bad Teinach-Neubulach, Gleis 1", pos = [48.67845, 8.72714] },
+  { km = 30.338, kind = "station", label = "Bad Teinach-Neubulach", uic = "8029474", pos = [48.67846, 8.72716] },
+  { km = 37.019, kind = "station", label = "Wildberg (Württ)", pos = [48.62538, 8.74294], uic = "8029476" },
+  { km = 45.916, kind = "station", label = "Nagold", pos = [48.55539, 8.7279], uic = "8029478" },
+  { km = 46.367, kind = "stop", label = "Nagold Stadtmitte", pos = [48.55142, 8.72845], uic = "8033750" },
+  { km = 47.459, kind = "stop", label = "Nagold Steinberg", pos = [48.54191, 8.73276], uic = "8089413" },
+  { km = 48.742, kind = "stop", label = "Nagold-Iselshausen", pos = [48.53159, 8.72598], uic = "8094404" },
+  { km = 56.288, kind = "station", label = "Hochdorf", uic = "8029486", pos = [48.48233, 8.72352] },
+  { km = 56.323, kind = "stop", label = "Hochdorf (bei Horb)", pos = [48.4825, 8.72392] },
+  { km = 56.332, kind = "signal", signal = "stop", dir = 1 },
+  { km = 56.368, kind = "signal", signal = "stop", dir = -1 },
+  { km = 56.409, kind = "stop", label = "Hochdorf (bei Horb)", pos = [48.48281, 8.725] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.405, kmTo = 3.51, length = 110 },
+  { kind = "tunnel", kmFrom = 3.633, kmTo = 4.021, length = 405, name = "Brötzinger Tunnel" },
+  { kind = "tunnel", kmFrom = 5.158, kmTo = 5.529, length = 371, name = "Weißenstein-Tunnel" },
+  { kind = "tunnel", kmFrom = 7.404, kmTo = 7.963, length = 558, name = "Zelgenbergtunnel" },
+  { kind = "bridge", kmFrom = 9.037, kmTo = 9.053, length = 16 },
+  { kind = "bridge", kmFrom = 11.728, kmTo = 11.75, length = 23 },
+  { kind = "bridge", kmFrom = 12.368, kmTo = 12.43, length = 62 },
+  { kind = "bridge", kmFrom = 15.901, kmTo = 15.934, length = 32 },
+  { kind = "bridge", kmFrom = 21.748, kmTo = 21.771, length = 22 },
+  { kind = "bridge", kmFrom = 23.098, kmTo = 23.126, length = 28 },
+  { kind = "bridge", kmFrom = 23.446, kmTo = 23.464, length = 18 },
+  { kind = "bridge", kmFrom = 25.358, kmTo = 25.369, length = 11 },
+  { kind = "bridge", kmFrom = 26.062, kmTo = 26.085, length = 23 },
+  { kind = "bridge", kmFrom = 27.454, kmTo = 27.515, length = 57 },
+  { kind = "tunnel", kmFrom = 27.657, kmTo = 28.12, length = 477, name = "Rudersbergtunnel" },
+  { kind = "bridge", kmFrom = 28.159, kmTo = 28.305, length = 146 },
+  { kind = "bridge", kmFrom = 28.457, kmTo = 28.485, length = 28 },
+  { kind = "bridge", kmFrom = 30.871, kmTo = 30.976, length = 105 },
+  { kind = "tunnel", kmFrom = 31.038, kmTo = 31.326, length = 288, name = "Schlossbergtunnel" },
+  { kind = "bridge", kmFrom = 31.348, kmTo = 31.429, length = 81 },
+  { kind = "bridge", kmFrom = 34.749, kmTo = 34.804, length = 55 },
+  { kind = "tunnel", kmFrom = 34.915, kmTo = 35.163, length = 247, name = "Kengeltunnel" },
+  { kind = "bridge", kmFrom = 36.288, kmTo = 36.305, length = 17 },
+  { kind = "tunnel", kmFrom = 37.241, kmTo = 37.474, length = 233, name = "Wildberger Tunnel" },
+  { kind = "bridge", kmFrom = 37.951, kmTo = 38.013, length = 62 },
+  { kind = "tunnel", kmFrom = 40.172, kmTo = 40.349, length = 178, name = "Bettenbergtunnel" },
+  { kind = "bridge", kmFrom = 47.356, kmTo = 47.415, length = 59 },
+  { kind = "bridge", kmFrom = 48.627, kmTo = 48.644, length = 17 },
+  { kind = "bridge", kmFrom = 49.128, kmTo = 49.142, length = 14 },
+  { kind = "bridge", kmFrom = 50.828, kmTo = 50.85, length = 22 },
+  { kind = "tunnel", kmFrom = 53.832, kmTo = 55.391, length = 1557, name = "Hochdorfer Tunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ym|fHeugt@xGj^", v = 100 },
+  { line = "_e|fHyuft@jBbQa@hM_DhLiJzO", v = 60 },
+  { line = "_s|fHewdt@uTz`@eh@zx@", tunnel = true, v = 100 },
+  { line = "{q~fHm{at@uDtEeDrBuIlBiGTeZ{FoYeOwEqEyG}Ji`@qnAiPwa@{DgH}CmCsEaByc@oA}H_AkGiBqLkH", v = 100 },
+  { line = "w}egHykgt@[S", v = 50 },
+  { line = "s~egHmlgt@k\\}J_FqEeKoMyEcCkE_@", v = 100 },
+  { line = "k|ggHqrht@iBJ", v = 70 },
+  { line = "u_hgHerht@_q@nW", v = 80 },
+  { line = "uqigHuygt@mLfD", v = 60 },
+  { line = "c_jgHmtgt@{YL", v = 50 },
+  { line = "_zjgH_tgt@gPAcLpC}KrG_OdPkHbGu^|MmDp@}EQgE_BwCoC}Vga@}BqFaGcXgCaEaCsBuGeBiQs@aEv@cJrF_DT_Fs@oFmFyEwKiCmDkMsF", v = 80 },
+  { line = "e{rgHkoit@sH_C", tunnel = true, v = 100 },
+  { line = "ydsgHksit@mHiByDKoElA}MvG_NR{MxDmGa@gD}AgD_FwE_Q}B{FqEoEqBo@", v = 100 },
+  { line = "covgHirjt@kB_@", v = 80 },
+  { line = "orvgHisjt@yPI", v = 100 },
+  { line = "idwgHssjt@I?" },
+  { line = "sdwgHssjt@uGF", v = 100 },
+  { line = "imwgHksjt@cLR", tunnel = true, v = 100 },
+  { line = "mzwgHwrjt@i@?", v = 100 },
+  { line = "w{wgHwrjt@wLHcFy@kDaCoIqKcJkD", v = 60 },
+  { line = "skygHgjkt@uHZeTxGmShB}ErBaB~A", v = 80 },
+  { line = "}h{gHsvjt@qDjG{A|F", tunnel = true, v = 80 },
+  { line = "kq{gHifjt@iArL", v = 80 },
+  { line = "us{gHuxit@m@vGyBtH{LfSia@rc@oFvDkILoU_J}Du@mFP_LtBgFSsGmCoGuGmEgCuCi@uH~@", v = 100 },
+  { line = "ay`hH}`ht@{N|C", tunnel = true, v = 100 },
+  { line = "}hahH_|gt@sXhG", v = 100 },
+  { line = "qbbhHusgt@eTtE" },
+  { line = "wwbhH_mgt@iIh@cG{BaP{U{MqMcDoA}COkDn@_L`KqChA", v = 70 },
+  { line = "ckehHchht@}CXaD_@", v = 90 },
+  { line = "cuehHihht@}HkC", v = 100 },
+  { line = "a_fhHulht@{XyI", tunnel = true, v = 100 },
+  { line = "}xfhHowht@iLuDgDuBgNcSeJsJ_ScM", v = 100 },
+  { line = "}yhhHwnjt@wFkBsGd@", v = 80 },
+  { line = "ijihH}pjt@gThP{YtFsT|GcD|B_JdLqEdCgF\\{Es@oDqBwGkH", v = 90 },
+  { line = "ccmhHigit@qEgCkD_@", v = 80 },
+  { line = "aomhHqlit@gQMsFp@wFlEeK~NmCdBsGbBqGG{U}EaX_DaMW}MvAqEfC}MjMoFjByHz@kFYuEyAs\\mS", v = 90 },
+  { line = "}qthHayht@uRgB", v = 60 },
+  { line = "seuhHi|ht@{PhA_d@fFcEfAqEvDaK`R_G~D", v = 80 },
+  { line = "g}whHuqgt@aGlA_GMu[wQuE_@{E|@", v = 90 },
+  { line = "qwyhHoaht@{CnBkCrDiH~R", v = 80 },
+  { line = "cjzhHkdgt@cJdLaEbCuFxAeI@{XsE}Ip@mDbBmD`DgDzFmBlG", v = 100 },
+  { line = "qe}hHw|et@wCpJwCjEmBrAeDhAuO|AqPhLsUzH", v = 90 },
+  { line = "qp_iHwkdt@wEvC", v = 40 },
+  { line = "iw_iH_gdt@o@x@", v = 50 },
+  { line = "yx_iHeedt@eFpO", v = 80 },
+  { line = "_``iHstct@_GzUcDnIuCxEaMlLoFjH}DtG}AhE_BbIo@xJl@jN|BbL", v = 100 },
+  { line = "koaiHet_t@pAtMm@~LoAtFwC|F_H|EyE`@uEk@q`@{ViFuAyEJ", v = 90 },
+  { line = "u{ciHm{~s@gEtAaHzF_DpF{BlH", tunnel = true, v = 90 },
+  { line = "{sdiH{_~s@eGfXeD|E_ElCuGt@oUPoGyBqFyF", v = 90 },
+  { line = "ovfiHsd}s@yGuNeCmCqCuA", v = 80 },
+  { line = "ahgiHm{}s@oHi@yIrC", tunnel = true, v = 80 },
+  { line = "k|giHcx}s@i^fOyMrC", v = 90 },
+  { line = "ojiiHgc}s@qEzAqFxE", v = 80 },
+  { line = "sxiiHqy|s@kQlS", tunnel = true, v = 80 },
+  { line = "_kjiHce|s@yQ|R", v = 80 },
+  { line = "y}jiHeq{s@iCz@uC@gK_E", v = 60 },
+  { line = "askiHgu{s@mFuF}DwJaTunAoC_\\Lcb@", v = 80 },
+  { line = "qyliHox`t@z@oL" },
+  { line = "uwliH_fat@nAuF", v = 80 },
+  { line = "euliHumat@hAwIn@{V" },
+]
+posts = [[56, 48.48169, 8.71974], [55, 48.48696, 8.70923], [54, 48.49346, 8.69989], [53, 48.50161, 8.69663], [52, 48.50977, 8.70189], [51, 48.51472, 8.71315], [50, 48.52042, 8.72341], [49, 48.52934, 8.72468], [48, 48.53777, 8.72909], [47, 48.54588, 8.73123], [46, 48.55452, 8.72778], [45, 48.56336, 8.72641], [44, 48.57128, 8.72027], [43, 48.57919, 8.72332], [42, 48.58503, 8.73301], [41, 48.59374, 8.73249], [40, 48.60148, 8.73851], [39, 48.61021, 8.73592], [38, 48.61709, 8.74296], [37, 48.62608, 8.74295], [36, 48.63433, 8.74622], [35, 48.64258, 8.74202], [34, 48.64757, 8.73128], [33, 48.65544, 8.72611], [32, 48.6642, 8.72742], [31, 48.67264, 8.72901], [30, 48.68145, 8.72651], [29, 48.68893, 8.73356], [28, 48.69739, 8.73217], [27, 48.70541, 8.73763], [26, 48.71345, 8.74272], [25, 48.72187, 8.73845], [24, 48.73006, 8.73382], [23, 48.73853, 8.73685], [22, 48.74655, 8.7324], [21, 48.75544, 8.73418], [20, 48.76379, 8.72995], [19, 48.77225, 8.73405], [18, 48.78119, 8.73311], [17, 48.78895, 8.72722], [16, 48.79751, 8.73001], [15, 48.80448, 8.72212], [14, 48.81327, 8.72207], [13, 48.82027, 8.71503], [12, 48.82854, 8.70998], [11, 48.83403, 8.69953], [10, 48.83767, 8.68849], [9, 48.84069, 8.67854], [8, 48.84906, 8.68302], [7, 48.85503, 8.67381], [6, 48.86358, 8.67374], [5, 48.87132, 8.67661], [4, 48.87978, 8.67227], [3, 48.88781, 8.66592], [2, 48.89296, 8.67688], [1, 48.89522, 8.68946]]
+
+[[connections]]
+km = 0.124
+station = "Pforzheim Hauptbahnhof"
+lines = [
+  { id = "4200", ref = "4200", name = "4200 Karlsruhe - Mühlacker", km = 26.29 },
+]
+
+[[connections]]
+km = 0.34
+station = "Brötzingen Sandweg"
+lines = [
+  { id = "4851", ref = "4851", name = "4851 Brötzingen Mitte - Bad Wildbad", km = 0.34 },
+]
+
+[[connections]]
+km = 2.798
+station = "Brötzingen Mitte"
+lines = [
+  { id = "4851", ref = "4851", name = "4851 Brötzingen Mitte - Bad Wildbad", km = 2.8 },
+]
+
+[[connections]]
+km = 23.498
+station = "Hirsau"
+lines = [
+  { id = "4810", ref = "4810", name = "4810 Stuttgart-Zuffenhausen - Calw", km = 45.432 },
+]
+
+[[connections]]
+km = 25.849
+station = "Calw"
+lines = [
+  { id = "4810", ref = "4810", name = "4810 Stuttgart-Zuffenhausen - Calw", km = 47.572 },
+]
+
+[[connections]]
+km = 56.288
+station = "Hochdorf"
+lines = [
+  { id = "4880", ref = "4880", name = "4880 Eutingen im Gäu - Schiltach", km = 4.579 },
+]

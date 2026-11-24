@@ -1,0 +1,42 @@
+id = "3950"
+ref = "3950"
+name = "Ohmtalbahn"
+gauge = "1435"
+wikidata = "Q802530"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 8.025
+kmTo = 19.535
+length = 11.487
+speeds = [[8.025, 8.034, 5, 5], [8.034, 10.157, "", ""], [10.157, 18.807, 50, 50], [18.807, 19.095, "", 50], [19.095, 19.535, "", ""]]
+curves = [[8.187, 8.462, 730], [9.262, 9.437, 880], [9.587, 9.662, 1830], [10.262, 10.487, 970], [11.137, 11.587, 630], [11.662, 11.837, 610], [12.337, 12.587, 1190], [13.062, 13.137, 1170], [13.187, 13.462, 1420], [13.512, 13.662, 690], [13.712, 13.912, 620], [14.012, 14.162, 900], [14.362, 14.512, 1030], [14.612, 14.937, 530], [14.987, 15.387, 300], [15.687, 15.787, 1840], [15.887, 16.087, 530], [16.162, 16.312, 640], [17.116, 17.427, 600], [17.655, 18.057, 480], [18.107, 18.455, 500], [18.537, 18.795, 1150], [19.071, 19.435, 410]]
+points = [
+  { km = 11.467, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 16.978, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 17.064, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 18.35, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 18.849, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 18.968, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 19.095, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.262, kind = "signal", signal = "minor", dir = 1 },
+  { km = 19.397, kind = "signal", signal = "distant", dir = 1 },
+  { km = 19.482, kind = "signal", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 13.308, kmTo = 13.319, length = 11 },
+  { kind = "bridge", kmFrom = 14.768, kmTo = 14.792, length = 25 },
+  { kind = "bridge", kmFrom = 14.983, kmTo = 15.01, length = 28 },
+  { kind = "bridge", kmFrom = 16.282, kmTo = 16.33, length = 49 },
+  { kind = "bridge", kmFrom = 17.129, kmTo = 17.155, length = 25 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mxeuH{znu@_@iFC}NlAiFbCyC" },
+  { line = "_seuHg~ou@fSsP`OgGnCqBbCsDnF{MjEeFpEoBlSuCfGt@ro@pXlMhL|b@~KdEYnDcDfFuNdEaGtP{JhLuKlK_PpIwF|N}Nrg@}Yzf@wKjLeKlMyDde@md@nLiF", v = 50 },
+  { line = "{rwtHkovu@x[cLdOuIli@yp@hBgEjEeR" },
+  { line = "wqttHmryu@DW", v = 5 },
+]
+posts = [[19, 50.82353, 8.93499], [18, 50.81612, 8.94195], [17, 50.80782, 8.9437], [16, 50.79952, 8.93843], [15, 50.79112, 8.93797], [14, 50.78379, 8.94575], [13, 50.77606, 8.95277], [12, 50.76752, 8.957], [11, 50.75928, 8.96216], [10, 50.75126, 8.96836], [9, 50.74317, 8.97417]]

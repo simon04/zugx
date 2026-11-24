@@ -1,0 +1,79 @@
+id = "6143"
+ref = "6143"
+name = "6143 Berlin-Schöneweide - Spindlersfeld"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q232795"
+from = "Berlin-Schöneweide S-Bahn"
+to = "Spindlersfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.317
+kmTo = 4.145
+length = 4.475
+speeds = [[-0.317, 0.978, 80, 80], [0.978, 1.155, "", ""], [1.155, 3.818, 60, 60], [3.818, 3.89, 40, 60], [3.89, 4.145, 40, 40]]
+curves = [[0.508, 1.133, 680], [2.453, 2.751, 480], [3.47, 3.795, 440]]
+points = [
+  { km = -0.136, kind = "signal", label = "1671", signal = "combined,minor,traversable", dir = 1 },
+  { km = -0.13, kind = "signal", label = "1672", signal = "main,minor,traversable", dir = -1 },
+  { km = -0.028, kind = "station", label = "Berlin-Schöneweide", uic = "8010041", pos = [52.45487, 13.50925] },
+  { km = 0.029, kind = "station", label = "Schöneweide", pos = [52.45491, 13.50977], uic = "8089168" },
+  { km = 0.074, kind = "signal", label = "1685", signal = "combined,minor,route,traversable", dir = 1 },
+  { km = 0.227, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.348, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.475, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.815, kind = "signal", label = "1693", signal = "combined,minor,route,traversable", dir = 1 },
+  { km = 0.818, kind = "signal", label = "1690", signal = "combined,minor,traversable", dir = -1 },
+  { km = 1.175, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.339, kind = "signal", label = "1696", signal = "combined,traversable", dir = -1 },
+  { km = 1.738, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.12, kind = "stop", label = "Oberspree", pos = [52.45241, 13.53808] },
+  { km = 2.222, kind = "stop", label = "Oberspree", pos = [52.45255, 13.53849] },
+  { km = 3.418, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.818, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.832, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.89, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.056, kind = "stop", label = "Spindlersfeld", pos = [52.4469, 13.56157], uic = "8089088" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.089, kmTo = 0.109, length = 20 },
+  { kind = "bridge", kmFrom = 0.878, kmTo = 0.978, length = 100 },
+  { kind = "bridge", kmFrom = 1.198, kmTo = 1.217, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qnd_I{~lqA~d@e{@bEkLv@uN", v = 80 },
+  { line = "u`c_IcxoqAC{Fq@}F" },
+  { line = "kbc_I}gpqAmTsuB[gIh@yHjOchAvC{HxHkH", v = 60 },
+  { line = "mxb_I_owqArKaJ", v = 40 },
+]
+posts = [[0, 52.45485, 13.50981], [1, 52.44954, 13.52114], [2, 52.45198, 13.53532], [3, 52.45228, 13.54958], [4, 52.44736, 13.56109]]
+
+[[connections]]
+km = -0.028
+station = "Berlin-Schöneweide"
+lines = [
+  { id = "6007", ref = "6007", name = "6007 Berlin Warschauer Straße - Königs Wusterhausen", km = 7.106 },
+  { id = "6021", ref = "6021", name = "6021 Berlin-Neukölln - Berlin-Baumschulenweg", km = 5.415 },
+  { id = "6142", ref = "6142", name = "6142 Berlin - Görlitz", km = 7.096 },
+]
+
+[[connections]]
+km = 0.029
+station = "Schöneweide"
+lines = [
+  { id = "6007", ref = "6007", name = "6007 Berlin Warschauer Straße - Königs Wusterhausen", km = 7.166 },
+  { id = "6021", ref = "6021", name = "6021 Berlin-Neukölln - Berlin-Baumschulenweg", km = 4.141 },
+  { id = "6142", ref = "6142", name = "6142 Berlin - Görlitz", km = 7.112 },
+]
+
+[[connections]]
+km = 4.056
+station = "Spindlersfeld"
+lines = [
+  { id = "6126", ref = "6126", name = "6126 Saarmund - Berlin Eichgestell", km = 43.055 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 3.286 },
+]

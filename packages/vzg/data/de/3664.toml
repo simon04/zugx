@@ -1,0 +1,45 @@
+id = "3664"
+ref = "3664"
+name = "3664 Offenbach (Main) Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Offenbach (Main) Hbf"
+to = "Offenbach (Main) Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.236
+kmTo = 1.976
+length = 1.735
+speeds = [[0.236, 0.932, 60, 60], [0.932, 0.972, "", ""], [0.972, 1.976, 60, 60]]
+curves = [[0.336, 0.612, 990], [0.813, 0.888, 2800], [1.665, 1.79, 1600]]
+points = [
+  { km = 0.503, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.514, kind = "signal", label = "23 ZV18", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 0.774, kind = "signal", label = "23 ZT18", signal = "combined,minor,speed_limit,traversable", dir = 1 },
+  { km = 0.931, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.031, kind = "signal", label = "23 ZU17", signal = "combined,minor,speed_limit,traversable", dir = -1 },
+  { km = 1.754, kind = "signal", label = "23 N17", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 1.882, kind = "signal", label = "Zn", signal = "wrong_road", dir = 1 },
+  { km = 1.883, kind = "signal", label = "W223Y", signal = "minor", dir = -1 },
+  { km = 1.96, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 61.613, kind = "station", label = "Offenbach (Main) Ost", uic = "8004645", pos = [50.10269, 8.78436], measured = true },
+]
+
+[tracks.geo]
+segments = [
+  { line = "avxpH}vrt@oCcWmJy]", v = 60 },
+  { line = "_fypH{mtt@g@}A" },
+  { line = "ggypHyptt@}Uou@yE}R", v = 60 },
+]
+posts = [[1, 50.10578, 8.79422]]
+
+[[connections]]
+km = 61.613
+station = "Offenbach Ost"
+lines = [
+  { id = "3600", ref = "3600", name = "3600 Frankfurt (M) Hbf - Göttingen", km = 61.613 },
+  { id = "3661", ref = "3661", name = "3661 Offenbach (Main) Hbf - Reinheim (Odenw)", km = 61.613 },
+  { id = "3680", ref = "3680", name = "3680 Abzw Frankfurt (Main) Schlachthof - Hanau Hbf", km = 60.554 },
+]

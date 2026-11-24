@@ -1,0 +1,43 @@
+id = "9128"
+ref = "9128"
+name = "9128 Buxtehude - Harsefeld"
+operator = "Eisenbahnen und Verkehrsbetriebe Elbe-Weser GmbH"
+gauge = "1435"
+wikidata = "Q14378243"
+from = "Buxtehude"
+to = "Harsefeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 12.051
+length = 12.051
+speeds = [[0, 11.679, 80, 80], [11.679, 12.051, 30, 30]]
+curves = [[0.275, 0.625, 630], [0.775, 1.5, 1530], [5.275, 5.9, 1120], [6.7, 7.125, 1930], [8.775, 9.65, 1060], [10, 11, 1050], [11.15, 11.675, 700]]
+points = [
+  { km = 0.023, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.729, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.519, kind = "stop", label = "Ruschwedel", pos = [53.44627, 9.5603] },
+  { km = 3.155, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.03, kind = "signal", label = "65 Va", signal = "distant", dir = 1 },
+  { km = 5.728, kind = "signal", label = "65 A", signal = "combined", dir = -1 },
+  { km = 5.95, kind = "signal", signal = "main", dir = -1 },
+  { km = 6.008, kind = "station", label = "Apensen", pos = [53.44154, 9.61169] },
+  { km = 6.426, kind = "signal", label = "65 N", signal = "main", dir = 1 },
+  { km = 6.657, kind = "signal", signal = "combined", dir = -1 },
+  { km = 7.869, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.103, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.977, kind = "signal", label = "9", signal = "distant", dir = 1 },
+  { km = 11.431, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.526, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.636, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 11.679, kind = "signal", label = "G 404", signal = "distant,main,speed_limit_distant", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eafeIa~by@`Cq[VuLeF}p@W}S\\cR`o@keJTySeA}VuPkpAuFqYgz@wkCgH_NcK{J{KgEoXsBaHuA}FiCiJwJ}HkOaJo^cA}Go@yKZ{S", v = 80 },
+  { line = "gyjeIc``z@hCoa@", v = 30 },
+]
+posts = [[0, 53.44803, 9.52305], [1, 53.4484, 9.53777], [2, 53.44728, 9.55265], [3, 53.4453, 9.56737], [4, 53.44331, 9.5821], [5, 53.44132, 9.59683], [6, 53.44153, 9.61157], [7, 53.44485, 9.62558], [8, 53.45, 9.63796], [9, 53.45536, 9.65006], [10, 53.46376, 9.65434], [11, 53.47099, 9.66219], [12, 53.47177, 9.67662]]

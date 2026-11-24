@@ -1,0 +1,158 @@
+id = "1770"
+ref = "1770"
+name = "1770 Lehrte - Nordstemmen"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q513003"
+from = "Lehrte"
+to = "Nordstemmen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 14.04
+kmTo = 52.596
+length = 38.505
+speeds = [[14.04, 16.684, 80, 80], [16.684, 19.394, 120, 120], [19.394, 39.286, 140, 140], [39.286, 40.297, 110, 110], [40.297, 40.358, 60, 60], [40.358, 40.449, 50, 50], [40.449, 41.941, "", ""], [41.941, 42.69, 140, 80], [42.69, 51.253, 140, 140], [51.253, 52.596, "", ""]]
+curves = [[14.14, 15.445, 730], [15.673, 16.509, 740], [17.816, 19.395, 1120], [23.799, 24.174, 2300], [31.396, 31.496, 2160], [38.581, 38.907, 2570], [39.384, 40.489, 830], [40.614, 40.74, 940], [40.79, 41.066, 1670], [41.611, 41.97, 1520], [42.542, 42.943, 1530], [43.39, 43.877, 1360], [45.705, 45.846, 2190], [46.028, 46.229, 2360], [46.375, 46.496, 1480], [48.629, 49.317, 1530], [51.435, 51.97, 1260], [52.216, 52.291, 2170]]
+points = [
+  { km = 14.408, kind = "signal", label = "S 854", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 15.187, kind = "signal", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 15.831, kind = "signal", label = "H", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 16.851, kind = "signal", signal = "distant,speed_limit", dir = -1 },
+  { km = 18.255, kind = "signal", label = "292", signal = "main", dir = -1 },
+  { km = 21.386, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.406, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 22.685, kind = "signal", signal = "minor", dir = -1 },
+  { km = 22.75, kind = "signal", signal = "main_repeated" },
+  { km = 22.806, kind = "station", label = "Sehnde", pos = [52.31838, 9.96263] },
+  { km = 23.33, kind = "signal", label = "F254", signal = "main", dir = -1 },
+  { km = 29.496, kind = "signal", signal = "main", measured = true },
+  { km = 30.2, kind = "station", label = "Algermissen", uic = "8000488", pos = [52.25232, 9.96659], measured = true },
+  { km = 30.339, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 30.857, kind = "signal", signal = "main,minor", dir = 1 },
+  { km = 31.318, kind = "signal", signal = "main", dir = -1 },
+  { km = 32.299, kind = "signal", signal = "distant", dir = -1 },
+  { km = 33.04, kind = "signal", signal = "distant", dir = 1 },
+  { km = 34.033, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 34.723, kind = "signal", signal = "main", dir = -1 },
+  { km = 35.048, kind = "signal", signal = "minor", dir = 1 },
+  { km = 35.111, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 35.112, kind = "signal", label = "002 I", signal = "minor", dir = -1 },
+  { km = 35.2, kind = "station", label = "Harsum", pos = [52.20745, 9.96575], measured = true, uic = "8002607" },
+  { km = 35.307, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 35.336, kind = "signal", signal = "main,minor", dir = 1 },
+  { km = 35.663, kind = "signal", label = "F054", signal = "distant,main", dir = -1 },
+  { km = 36.708, kind = "signal", signal = "distant", dir = 1 },
+  { km = 39.286, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 39.286, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 39.796, kind = "signal", label = "53 AA", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 40.089, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 40.109, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 40.456, kind = "signal", label = "53 P5", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 40.463, kind = "signal", signal = "stop", dir = -1 },
+  { km = 40.547, kind = "signal", signal = "stop", dir = -1 },
+  { km = 40.568, kind = "station", label = "Hildesheim Hauptbahnhof", uic = "8000169", pos = [52.16072, 9.9542], ele = 88 },
+  { km = 40.628, kind = "signal", label = "53VWzr5", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 40.636, kind = "signal", signal = "stop", dir = -1 },
+  { km = 40.718, kind = "signal", signal = "stop", dir = 1 },
+  { km = 40.72, kind = "signal", label = "53 ZR5", signal = "combined,minor,speed_limit", dir = 1 },
+  { km = 41.072, kind = "signal", signal = "minor", dir = 1 },
+  { km = 41.219, kind = "signal", label = "53 ZU32", signal = "combined,minor,route_distant,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 41.417, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 41.941, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 41.966, kind = "signal", label = "53 N32", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 42.198, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 42.312, kind = "signal", signal = "minor", dir = -1 },
+  { km = 42.328, kind = "signal", signal = "distant", dir = 1 },
+  { km = 42.395, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 42.684, kind = "signal", label = "53 F", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 42.69, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 42.858, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 43.415, kind = "signal", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 43.45, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 43.518, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 43.722, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 43.78, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 43.941, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 44.42, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 44.461, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 44.534, kind = "signal", label = "55 42", signal = "main,traversable", dir = -1 },
+  { km = 44.932, kind = "signal", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 45.285, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 45.357, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 45.745, kind = "signal", label = "55 46", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 46.702, kind = "signal", label = "55 48", signal = "main,speed_limit_distant,traversable", dir = -1 },
+  { km = 46.732, kind = "stop", label = "Emmerke", pos = [52.16246, 9.86581], uic = "8001775" },
+  { km = 47.925, kind = "signal", signal = "distant", dir = 1 },
+  { km = 48.029, kind = "signal", label = "55 50", signal = "combined,traversable", dir = -1 },
+  { km = 49.272, kind = "signal", label = "55 153", signal = "main,traversable", dir = 1 },
+  { km = 49.499, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 50.028, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 50.117, kind = "signal", signal = "main", dir = -1 },
+  { km = 51.044, kind = "signal", label = "34BB", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 51.082, kind = "signal", signal = "distant", dir = -1 },
+  { km = 51.351, kind = "signal", signal = "minor", dir = 1 },
+  { km = 51.358, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 51.466, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 51.622, kind = "signal", signal = "main,minor", dir = -1 },
+  { km = 51.772, kind = "signal", label = "P12", signal = "main,minor", dir = -1 },
+  { km = 51.956, kind = "signal", signal = "distant", dir = -1 },
+  { km = 52.127, kind = "signal", signal = "main_repeated" },
+  { km = 52.128, kind = "station", label = "Nordstemmen", uic = "8000282", pos = [52.16757, 9.79048] },
+  { km = 52.27, kind = "signal", label = "34 N12", signal = "combined,minor,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 52.408, kind = "signal", signal = "minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 14.193, kmTo = 14.267, length = 47 },
+  { kind = "bridge", kmFrom = 14.971, kmTo = 15.015, length = 45 },
+  { kind = "bridge", kmFrom = 15.26, kmTo = 15.289, length = 30 },
+  { kind = "bridge", kmFrom = 15.719, kmTo = 15.751, length = 32 },
+  { kind = "bridge", kmFrom = 22.912, kmTo = 22.935, length = 22 },
+  { kind = "bridge", kmFrom = 23.65, kmTo = 23.661, length = 10 },
+  { kind = "bridge", kmFrom = 24.042, kmTo = 24.122, length = 80 },
+  { kind = "bridge", kmFrom = 28.838, kmTo = 28.851, length = 13 },
+  { kind = "bridge", kmFrom = 29.252, kmTo = 29.264, length = 11 },
+  { kind = "bridge", kmFrom = 29.859, kmTo = 29.876, length = 17 },
+  { kind = "bridge", kmFrom = 31.914, kmTo = 31.927, length = 13 },
+  { kind = "bridge", kmFrom = 32.144, kmTo = 32.158, length = 14 },
+  { kind = "bridge", kmFrom = 33.43, kmTo = 33.441, length = 11 },
+  { kind = "bridge", kmFrom = 36.131, kmTo = 36.144, length = 12 },
+  { kind = "bridge", kmFrom = 36.444, kmTo = 36.456, length = 12 },
+  { kind = "bridge", kmFrom = 36.716, kmTo = 36.728, length = 12 },
+  { kind = "bridge", kmFrom = 38.704, kmTo = 38.73, length = 26 },
+  { kind = "bridge", kmFrom = 40.874, kmTo = 40.893, length = 19 },
+  { kind = "bridge", kmFrom = 42.438, kmTo = 42.518, length = 75 },
+  { kind = "bridge", kmFrom = 42.619, kmTo = 42.662, length = 46 },
+  { kind = "bridge", kmFrom = 48.136, kmTo = 48.242, length = 116 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yvs~H_{a|@xAgLzBuI~DwIzEaGjE{CxFcBjGUfI|AvUhQbFdH~BlFxBlIzAbMZbMIrQ", v = 80 },
+  { line = "iyp~Hgo`|@u@fmBv@hPbBlNpBnJfDhKdKpQlJnIhOfF", v = 120 },
+  { line = "keo~Hcdz{@hqFtv@bMz@~LSrsKun@hsFrOh{CxUjKCtWaC", v = 140 },
+  { line = "sll}Hswx{@tM{@nLnClD~BfFxF`H~N", v = 110 },
+  { line = "uzj}Heyw{@x@tC", v = 60 },
+  { line = "{xj}Hotw{@fAlF", v = 50 },
+  { line = "svj}Hamw{@tChQbFbRzNb`At@xIVbP" },
+  { line = "oxi}Hqjs{@Wro@q@nSyApOuJ~o@cBbXq@~cDc@rVuBv_@yBjSkClPyo@`eD{BpO}@~L_@`]fEbsD", v = 140 },
+  { line = "kll}Hwpyz@`@tXlBxUvB|H~Ubp@" },
+]
+posts = [[15, 52.36551, 10.01712], [16, 52.35751, 10.0114], [17, 52.35629, 9.99734], [18, 52.35635, 9.98267], [19, 52.35126, 9.97119], [20, 52.34252, 9.96822], [21, 52.33363, 9.96617], [22, 52.32473, 9.96414], [23, 52.31583, 9.96208], [24, 52.3069, 9.96025], [25, 52.29794, 9.96115], [26, 52.28897, 9.96224], [27, 52.28001, 9.96332], [28, 52.27104, 9.96435], [29, 52.26204, 9.96542], [30, 52.25306, 9.96653], [31, 52.24438, 9.96753], [32, 52.2351, 9.96768], [33, 52.22611, 9.96707], [34, 52.21711, 9.96643], [35, 52.20816, 9.96581], [36, 52.19917, 9.96511], [37, 52.19025, 9.96379], [38, 52.18133, 9.96247], [39, 52.1724, 9.96188], [40, 52.16373, 9.96053], [41, 52.15902, 9.94836], [42, 52.15641, 9.93378], [43, 52.15753, 9.91962], [44, 52.15967, 9.90602], [45, 52.15977, 9.89124], [46, 52.16025, 9.87653], [47, 52.16336, 9.86274], [48, 52.16718, 9.8497], [49, 52.17066, 9.83615], [50, 52.17046, 9.82113], [51, 52.16997, 9.80632], [52, 52.16806, 9.79225]]
+
+[[connections]]
+km = 40.568
+station = "Hildesheim Hauptbahnhof"
+lines = [
+  { id = "1772", ref = "1772", name = "Hildesheimer-Börde-Bahn", km = 40.707 },
+  { id = "1821", ref = "1821", name = "Nettetalbahn", km = 40.498 },
+]
+
+[[connections]]
+km = 52.128
+station = "Nordstemmen"
+lines = [
+  { id = "1732", ref = "1732", name = "1732 Hannover Bismarckstr - Kassel Hbf", km = 26.362 },
+  { id = "1821", ref = "1821", name = "Nettetalbahn", km = 52.128 },
+]

@@ -1,0 +1,98 @@
+id = "4104"
+ref = "4104"
+name = "Weschnitztalbahn"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q601126"
+from = "Weinheim"
+to = "Fürth"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.257
+kmTo = 16.575
+length = 16.297
+speeds = [[0.257, 0.265, 40, 40], [0.265, 0.4, 50, 40], [0.4, 0.867, 50, 50], [0.867, 1.477, 60, 50], [1.477, 3.015, 60, 60], [3.015, 3.036, 20, 60], [3.036, 3.095, "", ""], [3.095, 3.116, 60, 20], [3.116, 16.266, 60, 60], [16.266, 16.575, 30, 60]]
+curves = [[0.379, 0.727, 250], [0.786, 1.37, 440], [1.421, 1.863, 220], [1.96, 2.056, 1170], [2.103, 2.582, 490], [2.659, 2.787, 580], [2.838, 3.302, 210], [3.512, 3.901, 910], [4.13, 4.808, 370], [4.861, 5.168, 290], [5.215, 5.496, 680], [5.604, 5.768, 940], [5.85, 6.13, 1040], [6.781, 7.007, 850], [7.109, 7.237, 1790], [7.442, 7.617, 630], [7.666, 7.962, 370], [8.211, 8.794, 350], [8.909, 9.552, 560], [9.64, 10.025, 410], [11.065, 11.605, 310], [11.656, 12.14, 310], [12.241, 12.467, 1100], [13.053, 13.236, 660], [13.531, 13.91, 640], [14.112, 14.334, 650], [14.79, 15.128, 360], [15.204, 15.536, 410], [15.586, 15.759, 810], [15.859, 16.047, 880], [16.137, 16.474, 490]]
+points = [
+  { km = 0.261, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.265, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.4, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.524, kind = "signal", label = "63ZR6", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 0.635, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.801, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 0.867, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.961, kind = "signal", label = "63B", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 1.385, kind = "signal", label = "63Vb", signal = "distant", dir = -1 },
+  { km = 1.477, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.916, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.357, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.871, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 3.015, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.036, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.095, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.116, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.572, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.691, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.074, kind = "signal", label = "4A", signal = "distant,main", dir = 1 },
+  { km = 4.333, kind = "signal", label = "4P1", signal = "main", dir = -1 },
+  { km = 4.362, kind = "station", label = "Birkenau", pos = [49.56104, 8.70834], uic = "8000984" },
+  { km = 5.05, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.086, kind = "signal", label = "4F", signal = "main", dir = -1 },
+  { km = 5.921, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.224, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.564, kind = "halt", label = "Reisen", uic = "8005026", pos = [49.57795, 8.72014] },
+  { km = 9.03, kind = "stop", label = "Mörlenbach", pos = [49.59705, 8.73084] },
+  { km = 11.235, kind = "stop", label = "Zotzenbach", pos = [49.60971, 8.75334], uic = "8006672" },
+  { km = 12.827, kind = "stop", label = "Rimbach Schulzentrum", pos = [49.62232, 8.75364], uic = "8005100" },
+  { km = 12.95, kind = "signal", label = "6A", signal = "main", dir = 1 },
+  { km = 13.404, kind = "signal", label = "6P1", signal = "main", dir = -1 },
+  { km = 13.463, kind = "station", label = "Rimbach", pos = [49.62731, 8.75738], uic = "8005098" },
+  { km = 13.794, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.857, kind = "signal", label = "6F", signal = "main", dir = -1 },
+  { km = 14.307, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 14.426, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.553, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 14.592, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.768, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 14.852, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.859, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 14.868, kind = "halt", label = "Lörzenbach-Fahrenbach", uic = "8003731", pos = [49.63869, 8.76446] },
+  { km = 15.061, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 15.26, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 15.371, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 15.92, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 16.266, kind = "signal", signal = "speed_limit,station_distant", dir = 1 },
+  { km = 16.319, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 16.523, kind = "halt", label = "Fürth (Odenw)", uic = "8002150", pos = [49.6484, 8.78046] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 1.556, kmTo = 1.684, length = 132, name = "Tunnel Weinheim Tal 1" },
+  { kind = "bridge", kmFrom = 1.797, kmTo = 1.901, length = 107 },
+  { kind = "bridge", kmFrom = 2.047, kmTo = 2.097, length = 54 },
+  { kind = "tunnel", kmFrom = 2.121, kmTo = 2.249, length = 135, name = "Tunnel Weinheim Tal 2" },
+  { kind = "tunnel", kmFrom = 2.404, kmTo = 2.486, length = 87, name = "Tunnel Weinheim Tal 3" },
+  { kind = "bridge", kmFrom = 3.455, kmTo = 3.5, length = 15 },
+  { kind = "bridge", kmFrom = 4.074, kmTo = 4.085, length = 10 },
+  { kind = "bridge", kmFrom = 9.239, kmTo = 9.251, length = 12 },
+  { kind = "bridge", kmFrom = 11.304, kmTo = 11.315, length = 11 },
+  { kind = "bridge", kmFrom = 11.557, kmTo = 11.578, length = 20 },
+  { kind = "bridge", kmFrom = 15.105, kmTo = 15.124, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "o~_nHcart@pAfIfDpHxO~M~JpOzGzFfCjDnBjI|AxQxBhGz[dXxDjB~QrAfGdBrC~BdNpStBdBbj@hQlRjMzDDzBs@rCsCxDeIvDoDzEs@zDdAxC~Cbp@neA`BzHZpYr@`GzCjH~EzE~EbCpL`CnDu@pGuGnC{@vZlEvCjD|FfOxLjObJrNvDbD|f@bZfMhP`JfIpHjDlFrFdCrAhDJ~FyBdCUxCd@dCfBxCbG|CpNX~_@cB~VeGzVMzCh@fF", v = 60 },
+  { line = "caomHup`t@|@lC" },
+  { line = "e_omHgl`t@vD`DlI[xKxC", v = 60 },
+  { line = "ebnmHgc`t@`CbC", tunnel = true, v = 60 },
+  { line = "c~mmHc_`t@nDhJ", v = 60 },
+  { line = "sxmmHys_t@vAzI", tunnel = true, v = 60 },
+  { line = "{ummH}h_t@hD|\\E~F", v = 60 },
+  { line = "wpmmH_c~s@aA`EeAbB", tunnel = true, v = 60 },
+  { line = "_ummHyy}s@aCxAqHh@qCxBqBfFcBvN", v = 60 },
+  { line = "{mnmH{z|s@IhQbAhGlD|DzI|A", v = 50 },
+  { line = "w{mmHkw{s@LD", v = 40 },
+]
+posts = [[16, 49.64489, 8.77584], [15, 49.63944, 8.76575], [14, 49.63164, 8.75998], [13, 49.62388, 8.75425], [12, 49.61528, 8.74963], [11, 49.60757, 8.75115], [10, 49.60091, 8.74167], [9, 49.59681, 8.73067], [8, 49.58831, 8.73126], [7, 49.58145, 8.72295], [6, 49.57336, 8.71684], [5, 49.56573, 8.7101], [4, 49.56028, 8.70328], [3, 49.56138, 8.69042], [2, 49.55479, 8.68338], [1, 49.55867, 8.67391]]

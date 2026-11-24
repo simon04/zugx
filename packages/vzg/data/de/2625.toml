@@ -1,0 +1,26 @@
+id = "2625"
+ref = "2625"
+name = "2625 Abzw Köln-Mülheim Berliner Straße"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Köln-Mülheim Berliner Straße"
+to = "Köln-Mülheim Berliner Straße"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.321
+length = 0.321
+speeds = [[0, 0.321, 60, 60]]
+curves = [[0.1, 0.2, 1150]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 0.058, kmTo = 0.068, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qkbvHmvyi@uOvI", v = 60 },
+]
+posts = [[0, 50.97161, 7.01815]]

@@ -1,0 +1,106 @@
+id = "5383"
+ref = "5383"
+name = "5383 Rohrbach (Ilm) - Mainburg"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Rohrbach (Ilm)"
+to = "Mainburg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.217
+kmTo = 7.225
+length = 7.411
+speeds = [[-0.217, 0.356, 80, 80], [0.356, 0.738, 40, 30], [0.738, 2.042, 40, 40], [2.042, 3.65, 20, 20], [3.65, 5.047, 40, 40], [5.047, 5.254, 30, 30], [5.254, 7.225, 20, 20]]
+curves = [[-0.117, -0.067, 2000], [0.313, 0.745, 320], [0.821, 1.049, 840], [1.554, 1.68, 1290], [2.056, 2.307, 570], [2.432, 2.533, 1540], [2.683, 3.16, 1070], [3.235, 3.31, 2010], [3.561, 3.887, 700], [4.239, 4.714, 950], [4.789, 5.014, 490], [5.139, 5.339, 660], [5.664, 5.839, 820], [5.939, 6.514, 540], [6.789, 6.839, 2030]]
+points = [
+  { km = -0.1, kind = "signal", label = "52P1", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = -0.09, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.02, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.095, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.146, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.226, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.231, kind = "signal", label = "52ZR1", signal = "combined,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 0.355, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.648, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.738, kind = "signal", label = "52G", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 0.897, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 0.991, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.145, kind = "signal", label = "52Vg", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.296, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.343, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.387, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.409, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.792, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 1.8, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.859, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 1.863, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.913, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.042, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.204, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.226, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.316, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.692, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.728, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.113, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.143, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.563, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.598, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.616, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.65, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.217, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.383, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.471, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.625, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.8, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.83, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.887, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.911, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.01, kind = "signal", signal = "main", dir = 1 },
+  { km = 5.047, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 5.254, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.294, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.453, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.486, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.616, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.646, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.706, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.918, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.96, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 5.984, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.005, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.013, kind = "signal", signal = "main", dir = -1 },
+  { km = 6.125, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.137, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 6.14, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.175, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.208, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.22, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.411, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.443, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 7, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.095, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 60.2, kind = "station", label = "Rohrbach (Ilm)", uic = "8000256", pos = [48.60634, 11.57333], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 6.223, kmTo = 6.24, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "w_tgH_lseAw^}@", v = 80 },
+  { line = "o_ugH}mseAgEsAwDqFuFgZaToj@yJe_@", v = 40 },
+  { line = "atvgHa_weAuAcG_@iF?eTfA_[fEcOfTcg@", v = 20 },
+  { line = "_zugH}wzeA~EcGdXePnHoHpDkGtFsPbFgF", v = 40 },
+  { line = "}{sgH_||eAhIcG", v = 30 },
+  { line = "sqsgHcd}eAh[wHxKcJ|EiIbBoGz@aJf@c^?aa@", v = 20 },
+]
+posts = [[0, 48.60623, 11.57345], [1, 48.61267, 11.57995], [2, 48.61758, 11.59119], [3, 48.61723, 11.60414], [4, 48.61092, 11.61341], [5, 48.60404, 11.6216], [6, 48.5957, 11.6263], [7, 48.59333, 11.63871]]
+
+[[connections]]
+km = 60.2
+station = "Rohrbach"
+lines = [
+  { id = "5501", ref = "5501", name = "5501 München - Treuchtlingen", km = 60.217 },
+]

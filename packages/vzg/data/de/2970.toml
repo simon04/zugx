@@ -1,0 +1,96 @@
+id = "2970"
+ref = "2970"
+name = "2970 Altenbeken - Warburg (Westf)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q108913646"
+from = "Altenbeken"
+to = "Warburg (Westf)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 110.471
+kmTo = 148.935
+length = 38.574
+speeds = [[110.471, 112.233, 80, 80], [112.233, 116.284, 120, 120], [116.284, 131.329, 160, 160], [131.329, 146.583, 120, 120], [146.583, 146.699, 100, 100], [146.699, 146.901, 120, 120], [146.901, 148.935, 130, 130]]
+curves = [[110.796, 110.846, 2380], [110.946, 111.766, 940], [111.963, 112.843, 950], [112.992, 113.394, 980], [114.173, 114.622, 980], [114.746, 115.095, 1170], [115.345, 115.544, 1440], [120.364, 120.662, 1870], [121.406, 121.48, 2630], [121.827, 121.927, 2590], [123.167, 123.241, 2540], [123.563, 123.663, 2230], [123.811, 123.911, 2420], [124.01, 124.084, 2870], [124.407, 124.456, 2780], [124.68, 124.779, 2280], [124.928, 125.027, 1830], [125.324, 125.424, 2030], [125.647, 125.696, 2720], [126.688, 127.333, 1590], [127.383, 127.606, 1720], [127.978, 128.662, 1570], [129.181, 129.75, 1590], [130.171, 131.111, 1820], [131.358, 131.705, 1860], [135.827, 136.543, 1480], [136.623, 136.782, 2310], [137.186, 137.686, 970], [138.261, 139.136, 980], [140.986, 141.911, 960], [142.086, 143.011, 990], [143.411, 143.686, 1280], [143.736, 144.086, 1110], [146.536, 146.761, 30], [147.011, 147.636, 1360], [148.436, 148.486, 2580]]
+points = [
+  { km = 110.591, kind = "signal", label = "46 N22", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 110.815, kind = "signal", signal = "main_repeated" },
+  { km = 110.861, kind = "station", label = "Altenbeken", pos = [51.76646, 8.94302], uic = "8000004" },
+  { km = 111.02, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 111.084, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 111.343, kind = "signal", label = "46 O22", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 111.401, kind = "signal", signal = "minor", dir = 1 },
+  { km = 111.487, kind = "signal", signal = "minor", dir = -1 },
+  { km = 111.575, kind = "signal", label = "46L 322X", signal = "minor", dir = 1 },
+  { km = 111.663, kind = "signal", signal = "minor", dir = -1 },
+  { km = 111.779, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 111.791, kind = "signal", label = "46L 422X", signal = "minor", dir = 1 },
+  { km = 111.874, kind = "signal", signal = "minor", dir = -1 },
+  { km = 111.889, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 111.901, kind = "signal", signal = "distant", dir = 1 },
+  { km = 112.202, kind = "signal", label = "46 GG", signal = "combined,route,speed_limit,traversable", dir = -1 },
+  { km = 112.251, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 112.869, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 113.281, kind = "signal", signal = "distant", dir = 1 },
+  { km = 114.299, kind = "signal", label = "A", signal = "distant,main", dir = 1, measured = true },
+  { km = 115.811, kind = "signal", label = "N1", signal = "main,minor", dir = 1, measured = true },
+  { km = 116.297, kind = "signal", label = "FF", signal = "distant,main", dir = -1, measured = true },
+  { km = 129.119, kind = "station", label = "Willebadessen", uic = "8006449", pos = [51.62172, 9.01189] },
+  { km = 146.901, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 147.113, kind = "signal", label = "P4", signal = "main,minor", dir = -1 },
+  { km = 148.337, kind = "station", label = "Warburg (Westf)", pos = [51.49289, 9.16405], uic = "8000196" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 116.273, kmTo = 116.284, length = 12 },
+  { kind = "bridge", kmFrom = 120.11, kmTo = 120.145, length = 35 },
+  { kind = "bridge", kmFrom = 120.602, kmTo = 120.655, length = 53 },
+  { kind = "bridge", kmFrom = 121.782, kmTo = 121.831, length = 49 },
+  { kind = "bridge", kmFrom = 122.676, kmTo = 122.78, length = 104 },
+  { kind = "bridge", kmFrom = 123.197, kmTo = 123.214, length = 17 },
+  { kind = "bridge", kmFrom = 123.268, kmTo = 123.374, length = 107 },
+  { kind = "bridge", kmFrom = 123.84, kmTo = 123.878, length = 38 },
+  { kind = "tunnel", kmFrom = 124.628, kmTo = 127.454, length = 2849, name = "Eggetunnel" },
+  { kind = "bridge", kmFrom = 127.891, kmTo = 127.914, length = 23 },
+  { kind = "tunnel", kmFrom = 128.042, kmTo = 128.246, length = 220, name = "Eggegallerie" },
+  { kind = "bridge", kmFrom = 129.184, kmTo = 129.211, length = 26 },
+  { kind = "bridge", kmFrom = 130.048, kmTo = 130.182, length = 136 },
+  { kind = "bridge", kmFrom = 132.465, kmTo = 132.481, length = 16 },
+  { kind = "bridge", kmFrom = 137.511, kmTo = 137.528, length = 17 },
+  { kind = "bridge", kmFrom = 138.69, kmTo = 138.705, length = 15 },
+  { kind = "bridge", kmFrom = 141.327, kmTo = 141.342, length = 15 },
+  { kind = "bridge", kmFrom = 141.503, kmTo = 141.535, length = 32 },
+  { kind = "bridge", kmFrom = 148.024, kmTo = 148.039, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}r}zH}ipu@d@wp@|@oJ|A_HbEyLnFqJlP}PbIoE", v = 80 },
+  { line = "uc|zH_btu@vI_B|ITzGhB`OtHfJhBhy@oAvHfBpV|LdUxBpHDbj@yD", v = 120 },
+  { line = "icuzHcgsu@peF}]fO\\hj@hIdNx@lPQxu@mFhUuDdLkD`K{ExQcMbSsS", v = 160 },
+  { line = "gsfzHuuuu@`NwRvNaZdM}_@hYgjA|CgJjG}MbMeQ", tunnel = true, v = 160 },
+  { line = "opczHa}{u@f\\aY", v = 160 },
+  { line = "gsbzHcw|u@~HuJ", tunnel = true, v = 160 },
+  { line = "gibzHyb}u@nGgLnE_L~U}t@bGwLxGmJlWyXrN{JfSeGtU_A", v = 160 },
+  { line = "i_~yHa|av@bLs@fM{Cp`Fy~A~JqGvKuLnIqOtPi_@tGmJvH_Gza@aRzI{GpEeGrCaG|F{Svc@cfDlBuJ`EgL~FwJjFkF|FiDfUsI|E}D|EiGbEiIvCmJdNyx@xFcRbE_JtuBoiC", v = 120 },
+  { line = "wqiyHqgyv@oDtD", v = 100 },
+  { line = "gwiyH{ayv@hHmI", v = 120 },
+  { line = "}miyHilyv@bMeQ~CkGvDoLhMwcAtJuq@", v = 130 },
+]
+posts = [[111, 51.76622, 8.94383], [112, 51.7608, 8.95401], [113, 51.75202, 8.954], [114, 51.74312, 8.95348], [115, 51.73443, 8.95062], [116, 51.72546, 8.95072], [117, 51.71646, 8.95193], [118, 51.70743, 8.95315], [119, 51.6984, 8.95437], [120, 51.68936, 8.95559], [121, 51.68034, 8.95515], [122, 51.67133, 8.95401], [123, 51.6623, 8.95525], [124, 51.65358, 8.95899], [125, 51.64608, 8.96708], [126, 51.64065, 8.9787], [127, 51.63598, 8.99119], [128, 51.62855, 8.99936], [129, 51.62227, 9.0104], [130, 51.61586, 9.02053], [131, 51.60752, 9.0259], [132, 51.59855, 9.02781], [133, 51.58976, 9.03153], [134, 51.58097, 9.03524], [135, 51.57218, 9.03895], [136, 51.56366, 9.04272], [137, 51.55706, 9.05117], [138, 51.54959, 9.05863], [139, 51.54247, 9.06664], [140, 51.53942, 9.08024], [141, 51.53643, 9.09387], [142, 51.52977, 9.10258], [143, 51.52307, 9.11127], [144, 51.51877, 9.12379], [145, 51.5115, 9.1323], [146, 51.50423, 9.14079], [147, 51.49863, 9.14729], [148, 51.49398, 9.15922]]
+
+[[connections]]
+km = 110.861
+station = "Altenbeken"
+lines = [
+  { id = "1760", ref = "1760", name = "1760 Hannover - Soest", km = 110.745 },
+]
+
+[[connections]]
+km = 148.337
+station = "Warburg"
+lines = [
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 292.923 },
+]

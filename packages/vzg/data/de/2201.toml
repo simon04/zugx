@@ -1,0 +1,34 @@
+id = "2201"
+ref = "2201"
+name = "2201 Wanne-Eickel - Abzweig Baukau"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Wanne-Eickel Hbf"
+to = "Baukau"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.266
+length = 1.266
+speeds = [[0, 1.266, "", ""]]
+curves = [[0.1, 0.325, 510], [0.375, 0.575, 1010], [0.75, 1.15, 340]]
+points = [
+  { km = 0.134, kind = "signal", label = "80L 12X", signal = "minor", dir = -1 },
+  { km = 0.228, kind = "signal", signal = "distant,speed_limit", dir = 1 },
+  { km = 0.772, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.895, kind = "signal", label = "RR", signal = "distant,main", dir = -1 },
+  { km = 1.084, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.415, kind = "signal", signal = "main", dir = -1, measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.4, kmTo = 0.464, length = 64 },
+  { kind = "bridge", kmFrom = 0.544, kmTo = 0.561, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "e{ryHkf{j@dJtCtNuBtRd@bCbArBxB~DtL" },
+]
+posts = [[0, 51.54755, 7.18966], [1, 51.53883, 7.18831]]

@@ -1,0 +1,38 @@
+id = "1031"
+ref = "1031"
+name = "1031 Meimersdorf - Kiel-Hassee Cittipark"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q108287391"
+from = "Meimersdorf"
+to = "Kiel-Hassee Cittipark"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 6.452
+length = 6.452
+speeds = [[0, 1.144, 40, 40], [1.144, 2.418, 70, 70], [2.418, 6.283, 60, 60], [6.283, 6.452, "", ""]]
+curves = [[0.2, 0.45, 640], [0.5, 0.65, 1590], [0.925, 1.075, 780], [1.4, 1.5, 1260], [1.7, 2.625, 1020], [2.8, 4.025, 1220], [4.275, 4.575, 490], [4.625, 4.8, 790], [4.95, 5.2, 970], [5.575, 5.75, 1190], [5.825, 6.35, 500]]
+points = [
+  { km = 0.245, kind = "signal", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.704, kind = "signal", label = "23 ZR5", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 1.144, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.492, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.057, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.188, kind = "signal", label = "22 B", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 6.283, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.81, kmTo = 4.836, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}rhjIg_s|@uJgM}CqHyDsOeGy]{AwQ", v = 40 },
+  { line = "mtijIgyu|@gBsZ}@i_@u@_LkEgViG_Q", v = 70 },
+  { line = "_jjjImky|@_FgIuQqRsI{EwMgCqJPeJpCuHtF}OvOkB`FaDvQkBr^AjJ~Axk@rC``@SrMgBxL", v = 60 },
+  { line = "qvmjIugt|@iE`K" },
+]
+posts = [[0, 54.28031, 10.09668], [1, 54.2854, 10.10892], [2, 54.28705, 10.12402], [3, 54.29346, 10.1343], [4, 54.30214, 10.13415], [5, 54.30704, 10.12251], [6, 54.30586, 10.10731]]

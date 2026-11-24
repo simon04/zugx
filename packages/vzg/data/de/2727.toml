@@ -1,0 +1,39 @@
+id = "2727"
+ref = "2727"
+operator = "Regiobahn GmbH"
+gauge = "1435"
+from = "Dornap-Hahnenfurth"
+to = "Wuppertal-Dornap Abzw"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.907
+length = 1.907
+speeds = [[0, 1.496, "", ""], [1.496, 1.907, 60, 60]]
+curves = [[0.1, 0.575, 380], [1.275, 1.8, 200]]
+points = [
+  { km = 0.35, kind = "signal", label = "9P936", signal = "main", dir = -1 },
+  { km = 0.45, kind = "signal", label = "9VWp936", signal = "distant", dir = -1 },
+  { km = 0.759, kind = "signal", label = "9N936", signal = "main", dir = 1 },
+  { km = 1.135, kind = "signal", label = "9F", signal = "combined,route_distant,speed_limit", dir = -1 },
+  { km = 1.239, kind = "stop", label = "Hahnenfurth / Düssel", pos = [51.25401, 7.05538] },
+  { km = 1.24, kind = "halt", label = "Hahnenfurth/Düssel", pos = [51.25398, 7.05542] },
+  { km = 1.764, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.802, kind = "signal", signal = "distant", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "maywH_}}i@zE{P^kHSwGaAyFqVi~@_@mEL_E" },
+  { line = "ktywHqtaj@tA{EdCcCvBYbHz@", v = 60 },
+]
+posts = [[0, 51.25159, 7.03968], [1, 51.2529, 7.05245]]
+
+[[connections]]
+km = 1.239
+station = "Hahnenfurth / Düssel"
+lines = [
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 21.613 },
+]

@@ -1,0 +1,27 @@
+id = "6204"
+ref = "6204"
+name = "6204 Cottbus Cfw - 20W 34"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131702043"
+from = "Cottbus Cfw"
+to = "Cottbus 20W 34"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.08
+kmTo = 0.98
+length = 0.987
+speeds = [[-0.08, 0.98, 60, 60]]
+curves = [[0.069, 0.131, 1600], [0.63, 0.855, 660]]
+points = [
+  { km = 0.1, kind = "signal", label = "20 P51", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 0.63, kind = "signal", label = "20ZR51", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yizzH}`gvAgAzMKdHnEd_A", v = 60 },
+]
+posts = [[0, 51.74905, 14.28238]]

@@ -1,0 +1,39 @@
+id = "6435"
+ref = "6435"
+name = "6435 Halle (Saale) Gbf - Halle (Saale) Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Halle (Saale) Gbf"
+to = "Halle (Saale) Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.207
+length = 0.207
+speeds = [[0, 0.207, "", ""]]
+curves = []
+points = [
+  { km = 0, kind = "station", label = "Halle (Saale) Hauptbahnhof", uic = "8023002", pos = [51.47749, 11.9873] },
+  { km = 0.065, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.137, kind = "signal", signal = "minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ooeyHeedhAmJxA" },
+]
+posts = [[0, 51.47912, 11.98691]]
+
+[[connections]]
+km = 0
+station = "Halle Hauptbahnhof"
+lines = [
+  { id = "6053", ref = "6053", name = "S-Bahn", km = 0.029 },
+  { id = "6132", ref = "6132", name = "6132 Berlin - Halle (Saale) Hbf", km = 161.656 },
+  { id = "6340", ref = "6340", name = "6340 Halle (Saale) Hbf - Baunatal-Guntershausen", km = -0.148 },
+  { id = "6343", ref = "6343", name = "6343 Halle (Saale) Hbf – Hann Münden", km = 0.019 },
+  { id = "6344", ref = "6344", name = "Bahnstrecke 6344 Halle (Saale) Hbf – Vienenburg", km = -1.146 },
+  { id = "6403", ref = "6403", name = "Magdeburg-Leipzig", km = 86.056 },
+]

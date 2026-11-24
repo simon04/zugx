@@ -1,0 +1,72 @@
+id = "2248"
+ref = "2248"
+name = "2248 Essen-Dellwig Ost - Bottrop Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q19838719"
+from = "Essen-Dellwig Ost"
+to = "Bottrop Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.103
+kmTo = 3.401
+length = 3.292
+speeds = [[0.103, 2.108, 80, 80], [2.108, 3.267, 60, 60], [3.267, 3.275, "", ""], [3.275, 3.307, 80, 80], [3.307, 3.401, 60, 60]]
+curves = [[0.203, 0.53, 960], [0.784, 0.886, 1920], [1.14, 1.741, 530], [1.815, 2.038, 720], [2.137, 2.384, 500], [2.434, 2.859, 1060], [3.034, 3.159, 1450], [3.209, 3.284, 2200]]
+points = [
+  { km = 0.103, kind = "station", label = "Essen-Dellwig Ost", uic = "8001904", pos = [51.48758, 6.92714] },
+  { km = 0.14, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.167, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.399, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.557, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 1.433, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.504, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.131, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.273, kind = "signal", label = "48 B", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 2.392, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.872, kind = "signal", label = "48P 101", signal = "main,minor", dir = -1 },
+  { km = 2.967, kind = "station", label = "Bottrop Hbf", uic = "8000047", pos = [51.50949, 6.93672] },
+  { km = 3.047, kind = "signal", label = "48R 101", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 3.114, kind = "signal", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.265, kmTo = 0.287, length = 23 },
+  { kind = "bridge", kmFrom = 0.524, kmTo = 0.54, length = 16 },
+  { kind = "bridge", kmFrom = 0.919, kmTo = 1.147, length = 224 },
+  { kind = "bridge", kmFrom = 1.338, kmTo = 1.393, length = 55 },
+  { kind = "bridge", kmFrom = 1.53, kmTo = 1.54, length = 10 },
+  { kind = "bridge", kmFrom = 1.739, kmTo = 1.749, length = 10 },
+  { kind = "bridge", kmFrom = 2.029, kmTo = 2.108, length = 80 },
+  { kind = "bridge", kmFrom = 2.277, kmTo = 2.303, length = 26 },
+  { kind = "bridge", kmFrom = 2.777, kmTo = 2.823, length = 46 },
+  { kind = "bridge", kmFrom = 3.275, kmTo = 3.293, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}igyH}vgi@eGfIsGbFgU|GcUxCoEy@cFkD{DcGwGsOaHwH", v = 80 },
+  { line = "mljyHoahi@yD}D{A}CiEyO}EiLoW{]", v = 60 },
+  { line = "{zkyHkiji@IM" },
+  { line = "e{kyHyiji@o@u@", v = 80 },
+  { line = "u|kyHokji@eCeD", v = 60 },
+]
+posts = [[1, 51.4958, 6.92158], [2, 51.50339, 6.92694], [3, 51.50979, 6.93683]]
+
+[[connections]]
+km = 0.103
+station = "Essen-Dellwig Ost"
+lines = [
+  { id = "2277", ref = "2277", name = "2277 Oberhausen Hbf - Essen-Altenessen", km = 76.399 },
+  { id = "2280", ref = "2280", name = "2280 Abzw Oberhausen Walzwerk - Essen West", km = 0.013 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 76.349 },
+]
+
+[[connections]]
+km = 2.967
+station = "Bottrop Hbf"
+lines = [
+  { id = "2250", ref = "2250", name = "2250 Oberhausen-Osterfeld - Hamm (Westf) Pbf", km = 4.13 },
+  { id = "2280", ref = "2280", name = "2280 Abzw Oberhausen Walzwerk - Essen West", km = 3.401 },
+]

@@ -1,0 +1,52 @@
+id = "3122"
+ref = "3122"
+name = "3122 Karthaus Nordost - Karthaus West/Konz Mitte"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q2214282"
+from = "Karthaus Nordost"
+to = "Karthaus West/Konz Mitte"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.061
+kmTo = 1.271
+length = 1.279
+speeds = [[0.061, 1.271, 40, 40]]
+curves = [[0.165, 0.466, 310], [0.633, 1.174, 300]]
+points = [
+  { km = 0.307, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.412, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 0.646, kind = "signal", label = "114", signal = "minor", dir = 1 },
+  { km = 0.722, kind = "signal", label = "105 I", signal = "minor", dir = -1 },
+  { km = 0.785, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.792, kind = "halt", label = "Kreuz Konz", uic = "8003434", pos = [49.70385, 6.57659] },
+  { km = 0.988, kind = "signal", label = "N106", signal = "main,minor", dir = 1 },
+  { km = 1.264, kind = "halt", label = "Konz Mitte", uic = "8003403", pos = [49.7001, 6.57341] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.409, kmTo = 0.643, length = 209 },
+  { kind = "bridge", kmFrom = 0.889, kmTo = 0.923, length = 31 },
+  { kind = "bridge", kmFrom = 1.066, kmTo = 1.08, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "o`jnHazbg@{CiH}BaDmD{AwDHuBt@mBrB{InTwCvDoFdBuF}@", v = 40 },
+]
+posts = [[1, 49.70199, 6.57592]]
+
+[[connections]]
+km = 0.792
+station = "Kreuz Konz"
+lines = [
+  { id = "3010", ref = "3010", name = "Moselstrecke", km = 119.968 },
+]
+
+[[connections]]
+km = 1.264
+station = "Konz Mitte"
+lines = [
+  { id = "3010", ref = "3010", name = "Moselstrecke", km = 120.346 },
+]

@@ -1,0 +1,28 @@
+id = "5052"
+ref = "5052"
+name = "Bahnstrecke Pressath–Kirchenthumbach"
+operator = "DB Netz AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.929
+length = 4.929
+speeds = [[0, 0.347, 40, 40], [0.347, 0.647, 10, 10], [0.647, 4.929, "", ""]]
+curves = [[0.1, 0.2, 630], [0.3, 0.7, 390], [1.15, 1.675, 670], [2.275, 2.325, 2790], [3.95, 4.075, 1690], [4.7, 4.825, 660]]
+points = [
+  { km = 0.081, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.449, kmTo = 0.534, length = 85 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gyvnHuhzgAuBxIcBfP", v = 40 },
+  { line = "a`wnHslygAAzKtBtJ", v = 10 },
+  { line = "m|vnHatxgA|Tbh@bErFpDhCxEzAvc@lGt{At[di@jRtCtB|AlC" },
+]
+posts = [[0, 49.76548, 11.93627], [1, 49.76398, 11.92405], [2, 49.75629, 11.91816], [3, 49.74745, 11.91564], [4, 49.73863, 11.91289]]

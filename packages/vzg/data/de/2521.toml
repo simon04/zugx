@@ -1,0 +1,48 @@
+id = "2521"
+ref = "2521"
+name = "2521 Mönchengladbach Hbf - Rheydt-Geneicken"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q2547758"
+from = "Mönchengladbach Hbf"
+to = "Rheydt-Geneicken"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.982
+length = 2.982
+speeds = [[0, 2.45, "", ""], [2.45, 2.834, 40, 40], [2.834, 2.846, "", ""], [2.846, 2.949, 40, 40], [2.949, 2.982, 60, 60]]
+curves = [[0.1, 0.2, 920], [0.925, 1.325, 1140], [1.875, 2.125, 460], [2.325, 2.625, 1240], [2.75, 2.825, 2130]]
+points = [
+  { km = 1.833, kind = "signal", signal = "distant,main", dir = 1 },
+  { km = 2.042, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.15, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.435, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.642, kind = "signal", label = "P009", signal = "main,minor,traversable", dir = -1 },
+  { km = 2.709, kind = "station", label = "Mönchengladbach Hbf", uic = "8000253", pos = [51.19672, 6.44627] },
+  { km = 2.791, kind = "signal", label = "R009", signal = "distant,main,minor,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.946, kmTo = 2.108, length = 162 },
+  { kind = "bridge", kmFrom = 2.403, kmTo = 2.43, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "s`jwH}vkf@uGjFed@dj@}LrIqe@`OsDi@sRuI" },
+  { line = "g|mwHuuif@aQwQ", v = 40 },
+  { line = "innwHmhjf@QQ" },
+  { line = "{nnwH_ijf@{C_D", v = 40 },
+  { line = "wsnwH_njf@i@aA", v = 60 },
+]
+posts = [[0, 51.17466, 6.45503], [1, 51.18205, 6.44689], [2, 51.19059, 6.44267]]
+
+[[connections]]
+km = 2.709
+station = "Mönchengladbach Hbf"
+lines = [
+  { id = "2520", ref = "2520", name = "2520 Mönchengladbach - Krefeld-Oppum", km = 63.926 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 63.927 },
+]

@@ -1,0 +1,201 @@
+id = "5382"
+ref = "5382"
+name = "5382 Ingolstadt Hbf - Augsburg-Hochzoll"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q122870674"
+from = "Ingolstadt Hbf"
+to = "Augsburg-Hochzoll"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -1.103
+kmTo = 62.21
+length = 63.269
+speeds = [[-1.103, -0.875, 60, 60], [-0.875, 4.004, 130, 130], [4.004, 4.925, 130, 140], [4.925, 4.937, 140, 140], [4.937, 24.176, 120, 120], [24.176, 24.684, "", ""], [24.684, 35.501, 120, 120], [35.501, 36.52, 100, 100], [36.52, 41.994, 120, 120], [41.994, 42.771, 100, 100], [42.771, 44.107, "", ""], [44.107, 44.538, 100, 120], [44.538, 44.803, 120, 100], [44.803, 44.896, "", ""], [44.896, 46.053, 120, 120], [46.053, 46.165, 100, 100], [46.165, 46.672, 70, 70], [46.672, 49.139, 120, 120], [49.139, 52.2, "", ""], [52.2, 58.523, 120, 120], [58.523, 59.18, 80, 80], [59.18, 59.555, 110, 110], [59.555, 61.21, 120, 120], [61.21, 61.212, 80, 80], [61.212, 62.21, 60, 60]]
+curves = [[-1.003, -0.928, 2310], [1.711, 1.9, 1490], [2.022, 3.25, 920], [5.246, 5.62, 1270], [17.792, 18.595, 1300], [19.819, 20.277, 1530], [21.279, 22.226, 1420], [22.744, 23.408, 760], [24.635, 24.812, 2550], [26.286, 27.212, 1350], [30.538, 31.213, 1690], [32.304, 32.589, 1680], [37.606, 37.934, 1750], [41.734, 41.908, 1250], [42.454, 43.113, 1240], [45.771, 45.87, 2230], [47.868, 48.219, 1490], [51.973, 52.073, 1960], [53.696, 54.069, 1550], [54.764, 55.865, 780], [58.388, 58.658, 1560], [59.281, 59.538, 980], [61.291, 61.341, 2280], [62.041, 62.091, 1240]]
+points = [
+  { km = -0.973, kind = "signal", label = "204I", signal = "minor", dir = -1 },
+  { km = -0.875, kind = "signal", label = "N2", signal = "main,minor,traversable", dir = -1 },
+  { km = -0.755, kind = "signal", signal = "catenary_mast,stop", dir = -1 },
+  { km = -0.701, kind = "signal", label = "II²", signal = "minor", dir = 1 },
+  { km = -0.7, kind = "stop", label = "Ingolstadt Hbf Gleis 2", uic = "8000183", pos = [48.74441, 11.4372], measured = true },
+  { km = -0.694, kind = "station", label = "Ingolstadt Hbf", uic = "8000183", pos = [48.74439, 11.43741] },
+  { km = -0.691, kind = "signal", label = "II1", signal = "minor", dir = -1 },
+  { km = -0.536, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -0.534, kind = "signal", label = "P2", signal = "distant,main,minor,traversable", dir = 1 },
+  { km = -0.392, kind = "signal", label = "92", signal = "minor", dir = -1 },
+  { km = -0.334, kind = "signal", label = "88II", signal = "minor", dir = 1 },
+  { km = -0.263, kind = "signal", label = "88I", signal = "minor", dir = -1 },
+  { km = 0.228, kind = "signal", label = "D2", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.231, kind = "signal", label = "Q30", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 0.396, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.492, kind = "signal", label = "18", signal = "minor", dir = -1 },
+  { km = 0.602, kind = "signal", label = "17", signal = "minor", dir = -1 },
+  { km = 0.604, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.222, kind = "signal", label = "1II", signal = "minor", dir = 1 },
+  { km = 1.294, kind = "signal", label = "1I", signal = "minor", dir = -1 },
+  { km = 1.296, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.852, kind = "signal", label = "E", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.263, kind = "signal", label = "V1a", signal = "distant", dir = 1 },
+  { km = 3.063, kind = "signal", label = "Ve", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 3.263, kind = "signal", label = "1A", signal = "distant,main,traversable", dir = 1 },
+  { km = 4.004, kind = "signal", label = "1P2", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 4.596, kind = "signal", label = "1N2", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 4.931, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 5.112, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.259, kind = "signal", label = "1G", signal = "distant,main", dir = -1 },
+  { km = 6.469, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.914, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.92, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 13.959, kind = "signal", signal = "main", dir = 1 },
+  { km = 14.511, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 17.131, kind = "halt", label = "Brunnen", pos = [48.62932, 11.29833] },
+  { km = 22.807, kind = "signal", signal = "distant", dir = 1 },
+  { km = 23.992, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 24.881, kind = "signal", signal = "main", dir = -1 },
+  { km = 25.146, kind = "station", label = "Schrobenhausen", pos = [48.5654, 11.25947], uic = "8005432" },
+  { km = 25.392, kind = "signal", label = "N2", signal = "main", dir = 1 },
+  { km = 26.093, kind = "signal", label = "F", signal = "distant,main" },
+  { km = 27.062, kind = "signal", signal = "distant", dir = -1 },
+  { km = 32.804, kind = "signal", signal = "distant", dir = 1 },
+  { km = 33.764, kind = "signal", label = "A", signal = "distant,main", dir = 1 },
+  { km = 34.229, kind = "signal", label = "P2", signal = "main", dir = -1 },
+  { km = 34.524, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 34.693, kind = "station", label = "Radersdorf", pos = [48.51456, 11.16218] },
+  { km = 34.791, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 35.468, kind = "signal", label = "F", signal = "distant,main,traversable", dir = -1 },
+  { km = 35.501, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 36.467, kind = "signal", signal = "distant", dir = -1 },
+  { km = 36.52, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 39.918, kind = "signal", signal = "distant", dir = 1 },
+  { km = 40.614, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 41.21, kind = "signal", label = "C", signal = "main", dir = -1 },
+  { km = 41.361, kind = "station", label = "Aichach", pos = [48.46109, 11.12279] },
+  { km = 41.414, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 41.713, kind = "signal", label = "F", signal = "main", dir = 1 },
+  { km = 41.994, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 42.27, kind = "signal", label = "H", signal = "main", dir = -1 },
+  { km = 42.273, kind = "signal", signal = "distant", dir = -1 },
+  { km = 42.975, kind = "signal", signal = "distant", dir = -1 },
+  { km = 43.105, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 44.107, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 44.442, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 44.803, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 45.61, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 45.711, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 46.162, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 46.572, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 46.672, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 46.826, kind = "stop", label = "Obergriesbach", pos = [48.42206, 11.07991] },
+  { km = 47.722, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 48.003, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 49.626, kind = "signal", signal = "distant", dir = 1 },
+  { km = 50.633, kind = "signal", label = "A", signal = "distant,main,traversable", dir = 1 },
+  { km = 51.099, kind = "signal", label = "P2", signal = "main,minor,traversable", dir = -1 },
+  { km = 51.33, kind = "station", label = "Dasing", pos = [48.38631, 11.05218] },
+  { km = 51.564, kind = "signal", label = "N2", signal = "main,minor,traversable", dir = 1 },
+  { km = 52.174, kind = "signal", label = "F", signal = "distant,main,traversable", dir = -1 },
+  { km = 53.175, kind = "signal", signal = "distant", dir = -1 },
+  { km = 57.184, kind = "signal", signal = "distant", dir = 1 },
+  { km = 57.561, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 58.219, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 58.513, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 58.523, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 58.703, kind = "signal", label = "P2", signal = "main", dir = -1 },
+  { km = 58.921, kind = "station", label = "Friedberg", uic = "8002099", pos = [48.35207, 10.98252] },
+  { km = 59.18, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 59.18, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 59.203, kind = "signal", label = "N2", signal = "main", dir = 1 },
+  { km = 59.678, kind = "signal", label = "F", signal = "distant,main", dir = -1 },
+  { km = 59.715, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 60.666, kind = "signal", signal = "distant", dir = -1 },
+  { km = 60.703, kind = "signal", label = "11B", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 61.037, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 61.21, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 61.295, kind = "signal", label = "11 P06", signal = "main", dir = -1 },
+  { km = 61.71, kind = "station", label = "Augsburg-Hochzoll", pos = [48.35288, 10.94402], uic = "8000661" },
+  { km = 61.769, kind = "signal", signal = "stop", dir = 1 },
+  { km = 61.794, kind = "signal", label = "11 N06", signal = "main,speed_limit,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.916, kmTo = 0.951, length = 37 },
+  { kind = "bridge", kmFrom = 1.623, kmTo = 1.65, length = 29 },
+  { kind = "bridge", kmFrom = 2.209, kmTo = 2.241, length = 30 },
+  { kind = "bridge", kmFrom = 2.8, kmTo = 2.864, length = 65 },
+  { kind = "bridge", kmFrom = 11.739, kmTo = 11.752, length = 12 },
+  { kind = "bridge", kmFrom = 24.176, kmTo = 24.195, length = 19 },
+  { kind = "bridge", kmFrom = 29.372, kmTo = 29.394, length = 23 },
+  { kind = "bridge", kmFrom = 29.852, kmTo = 29.868, length = 18 },
+  { kind = "bridge", kmFrom = 30.275, kmTo = 30.293, length = 18 },
+  { kind = "bridge", kmFrom = 31.325, kmTo = 31.337, length = 12 },
+  { kind = "bridge", kmFrom = 32.552, kmTo = 32.591, length = 38 },
+  { kind = "bridge", kmFrom = 33.328, kmTo = 33.345, length = 17 },
+  { kind = "bridge", kmFrom = 38.285, kmTo = 38.3, length = 14 },
+  { kind = "bridge", kmFrom = 38.395, kmTo = 38.415, length = 20 },
+  { kind = "bridge", kmFrom = 40.925, kmTo = 40.953, length = 30 },
+  { kind = "bridge", kmFrom = 42.771, kmTo = 42.787, length = 15 },
+  { kind = "bridge", kmFrom = 44.527, kmTo = 44.538, length = 11 },
+  { kind = "bridge", kmFrom = 46.041, kmTo = 46.053, length = 12 },
+  { kind = "bridge", kmFrom = 54.763, kmTo = 54.795, length = 33 },
+  { kind = "bridge", kmFrom = 59.231, kmTo = 59.265, length = 32 },
+  { kind = "bridge", kmFrom = 59.555, kmTo = 59.579, length = 24 },
+  { kind = "bridge", kmFrom = 60.15, kmTo = 60.189, length = 39 },
+  { kind = "bridge", kmFrom = 61.121, kmTo = 61.162, length = 40 },
+  { kind = "bridge", kmFrom = 61.441, kmTo = 61.459, length = 18 },
+  { kind = "bridge", kmFrom = 61.725, kmTo = 61.744, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "saphH_rxdAnK}B", v = 60 },
+  { line = "cuohH}uxdA|nCgw@bPkBlMPrGjBhG~D`F|F~DnHdHbVjPzw@", v = 130 },
+  { line = "amhhHefwdAtTrhA", v = 140 },
+  { line = "kwghHq|tdA|I|^tGnOfiMvyTd]bk@bMhKjM|E|iAvOjJrC`HzDbs@`k@~ExCxKpD`OpAtL{@v`@yGxGL|D~@nKlHld@nk@", v = 120 },
+  { line = "iwmgHapwcAjUlY" },
+  { line = "}`mgHsuvcAtqAtlA~I|LxHjRfEdTfx@zjGzDjTbH~Rjl@fgApGpJhkCviC", v = 120 },
+  { line = "uhagHs}acA|n@fn@", v = 100 },
+  { line = "wx_gHkn`cAro@~n@`KhIxdCreA~jApn@tJtC", v = 120 },
+  { line = "q~vfHeyzbAzZ|HzLfG", v = 100 },
+  { line = "ytufH_gzbAnGxFpEhG~f@nz@" },
+  { line = "w}sfHk{wbAvZhh@", v = 120 },
+  { line = "_bsfHarvbAtBnD" },
+  { line = "i~rfHqlvbA`c@rt@`JzL", v = 120 },
+  { line = "eoqfHaitbA~C|D", v = 100 },
+  { line = "ejqfHcctbAhVnZ", v = 70 },
+  { line = "{rpfHsgsbAls@`}@`GbGtv@`d@", v = 120 },
+  { line = "u~lfHk|obAvhCvwA~RjM" },
+  { line = "}`hfHgulbAtnAd~@bL`Etn@pNvJlIbGnLzChN~@bPs@reF", v = 120 },
+  { line = "i{bfHmaabAhFdv@", v = 80 },
+  { line = "_tbfHgj_bA`AhPEbL", v = 110 },
+  { line = "crbfHyk~aAsGbjC", v = 120 },
+  { line = "wzbfHu`zaA?D", v = 80 },
+  { line = "wzbfHo`zaAuCleACpL", v = 60 },
+]
+posts = [[-1, 48.74703, 11.43625], [0, 48.73817, 11.43969], [1, 48.72921, 11.44318], [2, 48.72017, 11.44617], [3, 48.7128, 11.44125], [4, 48.70882, 11.42903], [5, 48.70511, 11.41644], [6, 48.69968, 11.40561], [7, 48.69339, 11.396], [8, 48.68728, 11.38669], [9, 48.68075, 11.37674], [10, 48.67451, 11.36719], [11, 48.66792, 11.35713], [12, 48.66181, 11.34783], [13, 48.65552, 11.33823], [14, 48.64922, 11.32863], [15, 48.64289, 11.31903], [16, 48.63665, 11.30952], [17, 48.63026, 11.29976], [18, 48.62371, 11.29024], [19, 48.61508, 11.28651], [20, 48.60617, 11.28432], [21, 48.59833, 11.27819], [22, 48.59015, 11.27404], [23, 48.58115, 11.27568], [24, 48.57346, 11.26822], [25, 48.56637, 11.26026], [26, 48.55867, 11.25307], [27, 48.55191, 11.24431], [28, 48.54899, 11.23158], [29, 48.54611, 11.21808], [30, 48.54335, 11.20518], [31, 48.53994, 11.19271], [32, 48.53405, 11.18315], [33, 48.52715, 11.17473], [34, 48.51974, 11.16742], [35, 48.51221, 11.15998], [36, 48.50468, 11.15255], [37, 48.49714, 11.14514], [38, 48.48932, 11.13837], [39, 48.48091, 11.13395], [40, 48.47239, 11.12951], [41, 48.46384, 11.12444], [42, 48.45555, 11.11969], [43, 48.44723, 11.11515], [44, 48.4408, 11.10571], [45, 48.43442, 11.09621], [46, 48.42793, 11.08686], [47, 48.42137, 11.07912], [48, 48.41374, 11.0702], [49, 48.40558, 11.06464], [50, 48.39741, 11.05938], [51, 48.38922, 11.05411], [52, 48.3808, 11.04864], [53, 48.37286, 11.0423], [54, 48.36473, 11.03646], [55, 48.35599, 11.03332], [56, 48.35244, 11.02215], [57, 48.35257, 11.00838], [58, 48.35269, 10.99512], [59, 48.35187, 10.98149], [60, 48.35157, 10.96834], [61, 48.35242, 10.95474], [62, 48.35331, 10.94132]]
+
+[[connections]]
+km = -0.7
+station = "Ingolstadt Hbf Gleis 2"
+lines = [
+  { id = "5934", ref = "5934", name = "5934 Nürnberg - Ingolstadt", km = -0.7 },
+]
+
+[[connections]]
+km = -0.694
+station = "Ingolstadt Hbf"
+lines = [
+  { id = "5501", ref = "5501", name = "5501 München - Treuchtlingen", km = 80.995 },
+  { id = "5851", ref = "5851", name = "5851 Regensburg - Ingolstadt", km = 73.895 },
+  { id = "5934", ref = "5934", name = "5934 Nürnberg - Ingolstadt", km = 91.258 },
+]
+
+[[connections]]
+km = 61.71
+station = "Augsburg-Hochzoll"
+lines = [
+  { id = "5304", ref = "5304", name = "5304 Augsburg Hbf - Buchloe", km = 57.1 },
+  { id = "5503", ref = "5503", name = "5503 München - Augsburg", km = 57.057 },
+  { id = "5581", ref = "5581", name = "5581 Olching - Augsburg Hbf", km = 57.1 },
+]

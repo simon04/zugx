@@ -1,0 +1,66 @@
+id = "1913"
+ref = "1913"
+name = "1913 Braunschweig Rbf - Abzw Braunschweig Lünischteich"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Braunschweig Rbf"
+to = "Braunschweig Lünischteich"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 2.628
+kmTo = 6.005
+length = 3.357
+speeds = [[2.628, 2.97, "", ""], [2.97, 3.273, 60, 60], [3.273, 3.486, 50, 60], [3.486, 3.491, 50, 50], [3.491, 3.593, "", ""], [3.593, 3.661, 50, 50], [3.661, 3.668, "", ""], [3.668, 3.956, 50, 50], [3.956, 6.005, "", ""]]
+curves = [[2.835, 2.935, 1080], [3.03, 3.605, 510], [3.655, 4.705, 520], [4.855, 5.105, 720], [5.83, 5.905, 1060]]
+points = [
+  { km = 2.71, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.97, kind = "signal", label = "41 31", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 3.111, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.118, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.178, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.222, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.238, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.273, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.318, kind = "signal", label = "31 21", signal = "main", dir = 1 },
+  { km = 3.358, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.488, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 3.566, kind = "stop", label = "Braunschweig Schmiedekamp", pos = [52.26061, 10.57047] },
+  { km = 3.589, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 3.665, kind = "stop", label = "Braunschweig Schmiedekamp", pos = [52.26062, 10.57192] },
+  { km = 3.666, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 3.723, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.991, kind = "stop", label = "Braunschweig Schmiedekamp", pos = [52.25904, 10.57547] },
+  { km = 4.01, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.098, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 4.347, kind = "signal", signal = "main", dir = 1 },
+  { km = 4.625, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.639, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.671, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.728, kind = "signal", label = "403", signal = "minor", dir = -1 },
+  { km = 4.767, kind = "signal", label = "400", signal = "minor", dir = 1 },
+  { km = 4.925, kind = "signal", signal = "minor", dir = -1 },
+  { km = 5.048, kind = "signal", label = "W184", signal = "main", dir = -1 },
+  { km = 5.271, kind = "signal", signal = "electricity", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "e~{}Hgkl_A]aJcLmiAiBqImFgOuE_JiI{FaJwAwGvA" },
+  { line = "y{}}Hmnp_AwBjBuA|Cm@`EGfE", v = 50 },
+  { line = "}c~}Hyyo_A@R" },
+  { line = "{c~}Heyo_A?fE", v = 50 },
+  { line = "{c~}H}ro_AMhH" },
+  { line = "id~}Hsio_AAL", v = 50 },
+  { line = "kd~}Heio_AgA|LqAfFkCfEoF|C", v = 60 },
+  { line = "au~}Hyhn_AkPfL" },
+]
+posts = [[6, 52.24948, 10.55435], [5, 52.25186, 10.5685], [4, 52.25896, 10.5755], [3, 52.26311, 10.56427]]
+
+[[connections]]
+km = 3.566
+station = "Braunschweig Schmiedekamp"
+lines = [
+  { id = "1900", ref = "1900", name = "1900 Braunschweig - Helmstedt", km = 5.825 },
+]

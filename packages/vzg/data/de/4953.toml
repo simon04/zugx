@@ -1,0 +1,135 @@
+id = "4953"
+ref = "4953"
+name = "4953 Crailsheim - Bad Mergentheim Strw 4922/4953"
+operator = "DB InfraGO AG;DB RegioNetz Infrastruktur GmbH;Westfrankenbahn"
+gauge = "1435"
+from = "Crailsheim"
+to = "Bad Mergentheim Streckenw 4922/4953"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.011
+kmTo = 60.269
+length = 60.207
+speeds = [[-0.011, 0.175, 80, ""], [0.175, 0.663, 60, 60], [0.663, 0.664, "", ""], [0.664, 1.131, 100, 60], [1.131, 8.2, 100, 100], [8.2, 9.589, 80, 80], [9.589, 14.178, 100, 100], [14.178, 14.382, 90, 90], [14.382, 19.235, 100, 100], [19.235, 19.245, "", ""], [19.245, 38.026, 100, 100], [38.026, 38.253, 80, 80], [38.253, 38.253, "", ""], [38.253, 39.095, 80, 80], [39.095, 55.188, 100, 100], [55.188, 55.79, 80, 80], [55.79, 60.269, 100, 100]]
+curves = [[0.098, 0.239, 960], [0.29, 0.415, 1320], [0.748, 1.443, 610], [1.759, 1.812, 2690], [1.89, 3.37, 1090], [4.22, 4.595, 1430], [5.895, 6.789, 870], [7.195, 8.087, 630], [8.304, 8.995, 450], [9.194, 9.595, 640], [10.67, 11.395, 1010], [11.72, 12.472, 1170], [13.094, 13.345, 980], [13.395, 13.595, 1380], [14.17, 14.546, 620], [15.071, 16.099, 710], [16.349, 16.625, 1610], [17.071, 17.466, 860], [18.58, 19.131, 500], [19.531, 20.206, 960], [21.536, 21.704, 1370], [24.811, 25.386, 1050], [27.06, 27.822, 750], [29.077, 29.333, 810], [29.413, 30.671, 500], [30.871, 31.121, 1140], [31.221, 31.746, 440], [31.846, 32.171, 650], [32.271, 32.371, 2450], [32.447, 32.847, 510], [32.998, 33.348, 490], [33.548, 33.773, 1150], [34.648, 34.848, 870], [35.023, 35.349, 450], [35.574, 35.749, 1470], [36, 36.401, 650], [37.754, 38.255, 720], [38.305, 38.63, 500], [38.755, 39.081, 570], [39.681, 39.931, 990], [40.056, 40.656, 1010], [40.981, 41.081, 1760], [41.406, 41.906, 740], [42.305, 42.555, 1110], [42.906, 43.256, 590], [43.355, 43.606, 650], [43.757, 44.408, 940], [44.483, 44.983, 720], [45.058, 45.208, 1090], [45.633, 45.958, 890], [46.269, 46.619, 1270], [46.925, 47.133, 1080], [47.209, 47.835, 1160], [47.962, 48.639, 480], [48.714, 49.794, 740], [51.044, 51.27, 1490], [51.395, 51.646, 1390], [51.821, 52.223, 1210], [52.851, 53.178, 1280], [53.856, 54.107, 2180], [54.807, 55.232, 980], [55.532, 56.834, 950], [57.586, 57.887, 1330], [57.963, 58.038, 2740], [59.617, 60.169, 1260]]
+points = [
+  { km = -0.011, kind = "station", label = "Crailsheim", pos = [49.13827, 10.06429], uic = "8029685" },
+  { km = 0.002, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.009, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.021, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.064, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.167, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.175, kind = "signal", label = "1N21", signal = "main,speed_limit", dir = 1 },
+  { km = 0.291, kind = "signal", label = "V", signal = "route", dir = 1 },
+  { km = 0.495, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.664, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.674, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.909, kind = "signal", label = "V1p''", signal = "distant", dir = -1 },
+  { km = 1.131, kind = "signal", label = "1G", signal = "main,speed_limit", dir = -1 },
+  { km = 4.112, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 5.058, kind = "stop", label = "Satteldorf", pos = [49.17819, 10.07813] },
+  { km = 5.063, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.1, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.955, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.125, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.198, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.058, kind = "stop", label = "Wallhausen (Württ)", pos = [49.20921, 10.06306] },
+  { km = 9.589, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.824, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 10.301, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 14.178, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.382, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.473, kind = "station", label = "Rot am See", pos = [49.24942, 10.03039], uic = "8005179" },
+  { km = 16.016, kind = "signal", signal = "distant", dir = -1 },
+  { km = 16.191, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 18.39, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 22.159, kind = "station", label = "Blaufelden", pos = [49.29625, 9.96769] },
+  { km = 22.558, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 27.725, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 28.545, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 29.006, kind = "station", label = "Schrozberg", pos = [49.34687, 9.97473] },
+  { km = 29.093, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 30.379, kind = "signal", signal = "distant", dir = -1 },
+  { km = 38.564, kind = "station", label = "Niederstetten", pos = [49.40356, 9.91505] },
+  { km = 39.095, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 40.128, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 44.63, kind = "stop", label = "Laudenbach (Württ)", pos = [49.45522, 9.92325] },
+  { km = 47.483, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 47.756, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 47.849, kind = "signal", signal = "stop", dir = -1 },
+  { km = 47.869, kind = "station", label = "Weikersheim", pos = [49.47835, 9.90601] },
+  { km = 48.411, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 50.665, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 50.674, kind = "stop", label = "Elpersheim", pos = [49.47307, 9.87334] },
+  { km = 53.562, kind = "station", label = "Markelsheim", pos = [49.47826, 9.83529] },
+  { km = 55.972, kind = "stop", label = "Igersheim", pos = [49.49338, 9.81275] },
+  { km = 58.903, kind = "signal", label = "P2", signal = "main", dir = -1 },
+  { km = 58.904, kind = "signal", signal = "minor", dir = -1 },
+  { km = 58.906, kind = "signal", signal = "stop", dir = -1 },
+  { km = 58.974, kind = "station", label = "Bad Mergentheim", pos = [49.49372, 9.77174] },
+  { km = 59.455, kind = "signal", signal = "minor", dir = 1 },
+  { km = 59.459, kind = "signal", label = "N2", signal = "main", dir = 1 },
+  { km = 60.05, kind = "signal", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.26, kmTo = 0.281, length = 21 },
+  { kind = "bridge", kmFrom = 0.363, kmTo = 0.453, length = 93 },
+  { kind = "bridge", kmFrom = 6.2, kmTo = 6.221, length = 21 },
+  { kind = "bridge", kmFrom = 6.339, kmTo = 6.367, length = 28 },
+  { kind = "bridge", kmFrom = 7.243, kmTo = 7.271, length = 28 },
+  { kind = "bridge", kmFrom = 9.337, kmTo = 9.365, length = 28 },
+  { kind = "bridge", kmFrom = 11.691, kmTo = 11.737, length = 46 },
+  { kind = "bridge", kmFrom = 13.273, kmTo = 13.288, length = 15 },
+  { kind = "bridge", kmFrom = 14.8, kmTo = 14.83, length = 30 },
+  { kind = "bridge", kmFrom = 15.232, kmTo = 15.25, length = 18 },
+  { kind = "bridge", kmFrom = 15.514, kmTo = 15.536, length = 22 },
+  { kind = "bridge", kmFrom = 19.235, kmTo = 19.245, length = 10 },
+  { kind = "bridge", kmFrom = 19.958, kmTo = 19.971, length = 13 },
+  { kind = "bridge", kmFrom = 21.53, kmTo = 21.554, length = 25 },
+  { kind = "bridge", kmFrom = 32.041, kmTo = 32.077, length = 36 },
+  { kind = "bridge", kmFrom = 34.704, kmTo = 34.722, length = 17 },
+  { kind = "bridge", kmFrom = 34.906, kmTo = 34.931, length = 25 },
+  { kind = "bridge", kmFrom = 36.332, kmTo = 36.368, length = 36 },
+  { kind = "tunnel", kmFrom = 37.754, kmTo = 38.026, length = 272, name = "Niederstettener Tunnel" },
+  { kind = "bridge", kmFrom = 38.232, kmTo = 38.253, length = 21 },
+  { kind = "bridge", kmFrom = 41.872, kmTo = 41.896, length = 24 },
+  { kind = "bridge", kmFrom = 44.473, kmTo = 44.502, length = 29 },
+  { kind = "bridge", kmFrom = 49.212, kmTo = 49.327, length = 114 },
+  { kind = "bridge", kmFrom = 55.173, kmTo = 55.188, length = 15 },
+  { kind = "bridge", kmFrom = 56.648, kmTo = 56.673, length = 25 },
+  { kind = "bridge", kmFrom = 58.286, kmTo = 58.392, length = 105 },
+  { kind = "bridge", kmFrom = 58.461, kmTo = 58.48, length = 18 },
+  { kind = "bridge", kmFrom = 59.18, kmTo = 59.204, length = 25 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "edbmHkfpz@`G_X~AwRpDgrCO_VoKaoAWsSnAuQbCgMvDyKrE}H", v = 100 },
+  { line = "inamHwy{z@|HyH~RcM", v = 80 },
+  { line = "kp`mHuq|z@xG{GfEcHdZor@tE{M`Pik@tC{KpB}L`Hs|@ZeXiAka@f@aYpT_yB`@yHM}MyB}QiBwH{DwHaCeCyOcImEuEeD_JcAsNZoWvBgUzEyOnE{JpDqFvLoOpGmGjVgMdHgCvFi@~Z~@xQdDzDHvHwArOqHdMm@jJbBjOpH~K`PrEvDrc@pL~W~QjHjCtHVpDk@rSoFbW{JhLcBnHr@pOnIpF`Bbb@`G", v = 100 },
+  { line = "y~plHufo{@nEh@tCQlTuJnDAnFlA", v = 80 },
+  { line = "eqolHgoo{@??" },
+  { line = "eqolHgoo{@tF|@zCO", v = 80 },
+  { line = "sdolHymo{@zFwApEmC", tunnel = true, v = 100 },
+  { line = "evnlH_uo{@tn@ec@lUkNrGkGdCqGjGsWlHud@xAqEpBoDfQsPfa@wt@nFmLrGcYfBmElEyEfO}ItEgI|EgUzBqONmJ_AuZf@iHpB}GfD_FtKwJ`PcYbGqE`GoAtJpA`HvDxE`InBjLx@`\\|D|TlY`zAlEhL`FnGhIfFbJdBzaBjPvKeAzHyD`{CmxB`fAskAlDsC|GaDlIkAfWdB", v = 100 },
+  { line = "srvkH{b}{@PB" },
+  { line = "arvkHwb}{@lJv@zBSlF}BvB{BxBmDdm@otA`C}PbDcs@g@ej@PcMxBuO~BgHvD_HzGcG|b@wOvEsC", v = 100 },
+  { line = "}{qkHedf|@fCoChC{E", v = 90 },
+  { line = "ksqkHqof|@rS}f@tCiGhFqH`EiEde@_[hKuDdMq@`FXvYpGzFJ~JuAtKqGdt@_r@", v = 100 },
+  { line = "mtjkHmgk|@dDuDbC_FrHsb@vAeEpBaDdFyD~F}@lEh@hHbD", v = 80 },
+  { line = "g|hkHidm|@pHpD|G~@|Go@lG}CzH_K`Quc@nDwGvHgInJoEfI_A~pAzDvN{Bbq@cSrNu@tMvBlGnC|GrFhInKdGjN`Nxk@jElJlDrDnFpCnEl@hHC", v = 100 },
+  { line = "eo}jHusl|@B?" },
+  { line = "ao}jHusl|@bRKrGp@", v = 60 },
+  { line = "is|jHorl|@tHO", v = 80 },
+]
+posts = [[60, 49.49476, 9.75808], [59, 49.49373, 9.77172], [58, 49.49321, 9.7855], [57, 49.49481, 9.79902], [56, 49.49368, 9.81213], [55, 49.48617, 9.81945], [54, 49.48039, 9.83004], [53, 49.47592, 9.84196], [52, 49.4741, 9.8554], [51, 49.47388, 9.86909], [50, 49.47147, 9.88241], [49, 49.47235, 9.8954], [48, 49.47834, 9.90422], [47, 49.475, 9.91647], [46, 49.46727, 9.92327], [45, 49.45838, 9.92339], [44, 49.44964, 9.92516], [43, 49.44172, 9.91928], [42, 49.43323, 9.91506], [41, 49.42456, 9.91506], [40, 49.4159, 9.91607], [39, 49.40713, 9.91335], [38, 49.39843, 9.91476], [37, 49.39028, 9.92046], [36, 49.38282, 9.92754], [35, 49.37853, 9.93932], [34, 49.37186, 9.94847], [33, 49.36623, 9.95884], [32, 49.36119, 9.96922], [31, 49.35788, 9.98035], [30, 49.35027, 9.98538], [29, 49.34664, 9.97376], [28, 49.34299, 9.96119], [27, 49.33653, 9.95301], [26, 49.3276, 9.95139], [25, 49.31867, 9.95058], [24, 49.31059, 9.95657], [23, 49.30257, 9.9628], [22, 49.29489, 9.96879], [21, 49.287, 9.97641], [20, 49.27958, 9.98415], [19, 49.27071, 9.98436], [18, 49.26425, 9.99337], [17, 49.25974, 10.0049], [16, 49.2593, 10.01855], [15, 49.25406, 10.02827], [14, 49.24643, 10.03466], [13, 49.23996, 10.04394], [12, 49.23158, 10.04863], [11, 49.2227, 10.04735], [10, 49.21489, 10.05405], [9, 49.20901, 10.0637], [8, 49.2014, 10.06596], [7, 49.19397, 10.07148], [6, 49.18704, 10.07874], [5, 49.17782, 10.07814], [4, 49.16893, 10.07932], [3, 49.16015, 10.08193], [2, 49.15257, 10.07536], [1, 49.14729, 10.06451], [0, 49.13844, 10.06399]]
+
+[[connections]]
+km = -0.011
+station = "Crailsheim"
+lines = [
+  { id = "4950", ref = "4950", name = "4950 Crailsheim - Eppingen", km = 30.031 },
+  { id = "4951", ref = "4951", name = "4951 Crailsheim - Schnelldorf Streckenwechsel", km = 0.028 },
+]

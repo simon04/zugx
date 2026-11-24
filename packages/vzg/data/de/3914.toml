@@ -1,0 +1,28 @@
+id = "3914"
+ref = "3914"
+name = "3914 Abzw Kassel Rbf Berg - Kassel Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Kassel Rbf Abzw Berg"
+to = "Kassel Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.083
+length = 1.083
+speeds = [[0, 1.083, "", ""]]
+curves = [[0.1, 0.25, 660], [0.3, 0.575, 420], [0.7, 0.85, 2060], [0.9, 0.975, 680]]
+points = [
+  { km = 0.146, kind = "signal", label = "185", signal = "distant,main", dir = 1 },
+  { km = 0.54, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.698, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.007, kind = "signal", signal = "minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "e_lxHebxx@~EyEbHgMxCgCnYwHbF_@" },
+]
+posts = [[0, 51.34851, 9.46739], [1, 51.34053, 9.47308]]

@@ -1,0 +1,65 @@
+id = "2531"
+ref = "2531"
+name = "2531 Abzw Neuss Nordkanal Bksig - Abzw Weißenberg"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q110580844"
+from = "Neuss Nordkanal Bksig"
+to = "Weißenberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.016
+kmTo = 4.905
+length = 4.909
+speeds = [[-0.016, 0.322, 60, 60], [0.322, 0.42, 60, 110], [0.42, 1.66, 60, 60], [1.66, 4.187, "", ""], [4.187, 4.905, 60, 60]]
+curves = [[0.111, 0.522, 1000], [0.635, 0.84, 570], [1.042, 1.783, 360], [2.079, 2.802, 600], [3.351, 3.401, 2250], [3.45, 3.922, 610], [4.486, 4.633, 1130]]
+points = [
+  { km = 0.624, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.833, kind = "signal", label = "356", signal = "main,route,speed_limit", dir = -1 },
+  { km = 1.571, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.786, kind = "signal", label = "156", signal = "minor", dir = -1 },
+  { km = 2.31, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.312, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.368, kind = "station", label = "Neuss Hbf", uic = "8000274", pos = [51.20349, 6.68471] },
+  { km = 2.508, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.658, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.364, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.39, kind = "signal", signal = "main", dir = 1 },
+  { km = 3.761, kind = "signal", label = "F", signal = "main", dir = -1 },
+  { km = 3.765, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.425, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.731, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.811, kind = "signal", signal = "crossing_distant,crossing_hint,crossing_info", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.354, kmTo = 0.376, length = 26 },
+  { kind = "bridge", kmFrom = 1.213, kmTo = 1.307, length = 89 },
+  { kind = "bridge", kmFrom = 1.484, kmTo = 1.533, length = 46 },
+  { kind = "bridge", kmFrom = 1.605, kmTo = 1.637, length = 33 },
+  { kind = "bridge", kmFrom = 2.21, kmTo = 2.229, length = 19 },
+  { kind = "bridge", kmFrom = 4.187, kmTo = 4.224, length = 38 },
+  { kind = "bridge", kmFrom = 4.647, kmTo = 4.666, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qzswHujvg@lNwQpN}V", v = 60 },
+  { line = "q{rwHkuwg@rLqSbIwGdJuAvj@cBvEpAdCdBrIdM`B|EzJ~d@" },
+  { line = "khowHswvg@nBpD`DvBdD`@dDu@vEiE`OqWhNwH", v = 60 },
+  { line = "iomwHqwwg@jDaC", v = 110 },
+  { line = "}imwHs{wg@tEcGvEgJ", v = 60 },
+]
+posts = [[4, 51.21869, 6.68195], [3, 51.21026, 6.68553], [2, 51.20289, 6.67969], [1, 51.19656, 6.67621], [0, 51.18946, 6.68399]]
+
+[[connections]]
+km = 2.368
+station = "Neuss Hbf"
+lines = [
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 0.261 },
+  { id = "2530", ref = "2530", name = "Bahnstrecke Neuss-Kaarst", km = -0.013 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 80.959 },
+  { id = "2580", ref = "2580", name = "Bahnstrecke Düren–Neuss", km = 49.011 },
+  { id = "2610", ref = "2610", name = "2610 Köln - Kleve", km = 36.193 },
+]

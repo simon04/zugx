@@ -1,0 +1,50 @@
+id = "6521"
+ref = "6521"
+name = "Regionalbahn Bad Saarow–Fürstenwalde"
+operator = "Niederbarnimer Eisenbahn AG / NEB Betriebsgesellschaft mbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 14.56
+length = 14.56
+speeds = [[0, 13.531, "", ""], [13.531, 14.56, 40, 40]]
+curves = [[0.1, 0.15, 2050], [0.8, 0.85, 1920], [0.925, 0.975, 1930], [1.1, 1.15, 1310], [1.225, 1.275, 1460], [1.575, 1.65, 1770], [2.05, 2.15, 2190], [2.55, 3.3, 1540], [3.4, 3.675, 1100], [3.875, 4.5, 310], [4.95, 5.35, 1200], [5.875, 6.225, 1020], [6.95, 7.35, 560], [8.125, 8.55, 1060], [9, 9.6, 910], [9.7, 10.35, 970], [11.125, 11.45, 640], [11.575, 11.95, 640], [13.2, 13.25, 2830], [14, 14.075, 1930], [14.15, 14.375, 2000]]
+points = [
+  { km = 0.13, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.195, kind = "signal", label = "65 P4", signal = "combined,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 0.447, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.737, kind = "signal", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 0.968, kind = "signal", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 1.048, kind = "station", label = "Fürstenwalde (Spree)", pos = [52.36719, 14.05842], uic = "8003163" },
+  { km = 1.103, kind = "signal", signal = "main_repeated" },
+  { km = 1.116, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.119, kind = "signal", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 1.22, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.223, kind = "signal", label = "65 N4", signal = "combined,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 1.267, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.664, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.723, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 2.043, kind = "signal", label = "65 H", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 3.037, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.035, kind = "stop", label = "Fürstenwalde (Spree) Süd", pos = [52.34188, 14.08661], uic = "8003291" },
+  { km = 12.94, kind = "signal", signal = "stop", dir = 1, measured = true },
+  { km = 13.109, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.13, kind = "station", label = "Bad Saarow", pos = [52.29349, 14.06481] },
+  { km = 13.197, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.14, kind = "stop", label = "Bad Saarow Klinikum", pos = [52.28491, 14.06596] },
+  { km = 14.168, kind = "halt", label = "Bad Saarow-Klinikum", uic = "8093801", pos = [52.28465, 14.06593] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 4.463, kmTo = 4.488, length = 25 },
+  { kind = "bridge", kmFrom = 5.72, kmTo = 5.795, length = 75 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gss~Hs~utAtR_tApLyt@fGug@`BuSfBg^FmXy@qRwEud@m@kb@\\mFvAaGzCuEjDcBlDChc@fFxGdD`_@pYjKtM~]rt@xDbFlD~Bdv@rNvMWd_@{KhJi@vL`ClJpFvHxHxCrEzEdLnZdmA~EbHtK~H~DfA`FN~aAqMzWmB" },
+  { line = "y}c~HccztA|j@mDpL{B", v = 40 },
+]
+posts = [[0, 52.3706, 14.0441], [1, 52.36741, 14.05786], [2, 52.3642, 14.0716], [3, 52.36296, 14.08609], [4, 52.36447, 14.1005], [5, 52.35661, 14.10324], [6, 52.34844, 14.09726], [7, 52.34209, 14.08688], [8, 52.33351, 14.0832], [9, 52.32469, 14.08456], [10, 52.31627, 14.08118], [11, 52.31142, 14.0689], [12, 52.30404, 14.06264], [13, 52.29512, 14.06459], [14, 52.28617, 14.06588]]

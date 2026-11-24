@@ -1,0 +1,58 @@
+id = "6149"
+ref = "6149"
+name = "6149 Abzw Eichgestell Nord - Abzw Berlin Stadtforst"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131728161"
+from = "Berlin Eichgestell Nord"
+to = "Berlin Stadtforst"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.015
+kmTo = 1.477
+length = 1.494
+speeds = [[-0.015, 1.07, 60, 60], [1.07, 1.43, 40, 60], [1.43, 1.477, "", ""]]
+curves = [[0.085, 0.657, 300], [0.871, 1.183, 1100]]
+points = [
+  { km = -0.006, kind = "station", label = "Wuhlheide", uic = "8089097", pos = [52.46855, 13.55434] },
+  { km = 0.032, kind = "station", label = "Wuhlheide Parkeisenbahn", pos = [52.46837, 13.55404] },
+  { km = 0.064, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.258, kind = "signal", label = "2931", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 0.389, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.406, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.979, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.07, kind = "signal", label = "59C", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.301, kmTo = 0.312, length = 11 },
+  { kind = "bridge", kmFrom = 0.601, kmTo = 0.628, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "szf_Im}uqAhDbAvD[fD{B`CkEnAiGhFsl@`Kga@", v = 60 },
+  { line = "kpe_Is~xqAn@sB" },
+]
+posts = [[0, 52.46894, 13.55232], [1, 52.46423, 13.56246]]
+
+[[connections]]
+km = -0.006
+station = "Wuhlheide"
+lines = [
+  { id = "6004", ref = "6004", name = "6004 Berlin Ostbahnhof - Erkner", km = 9.484 },
+  { id = "6080", ref = "6080", name = "6080 Berlin Eichgestell - Biesdorfer Kreuz Nord", km = 26.489 },
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 8.986 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 4.897 },
+]
+
+[[connections]]
+km = 0.032
+station = "Wuhlheide Parkeisenbahn"
+lines = [
+  { id = "6004", ref = "6004", name = "6004 Berlin Ostbahnhof - Erkner", km = 9.557 },
+  { id = "6080", ref = "6080", name = "6080 Berlin Eichgestell - Biesdorfer Kreuz Nord", km = 26.463 },
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 8.983 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 4.881 },
+]

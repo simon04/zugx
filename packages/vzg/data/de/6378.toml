@@ -1,0 +1,59 @@
+id = "6378"
+ref = "6378"
+name = "6378 Markkleeberg-Gaschwitz - Böhlen (b Leipzig)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q121505198"
+from = "Markkleeberg-Gaschwitz"
+to = "Böhlen (b Leipzig)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 4.484
+length = 4.484
+speeds = [[0, 4.132, 80, 80], [4.132, 4.484, "", ""]]
+curves = [[1.6, 1.675, 2570], [1.725, 1.925, 2730], [2, 2.075, 2790]]
+points = [
+  { km = 0.322, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = -1 },
+  { km = 0.683, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.767, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.94, kind = "halt", label = "Großdeuben", uic = "8023555", pos = [51.23179, 12.38328] },
+  { km = 1.183, kind = "signal", label = "62 G", signal = "main,speed_limit", dir = -1 },
+  { km = 1.662, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.183, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.703, kind = "signal", label = "65 B", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 3.143, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.426, kind = "signal", label = "65 P3", signal = "combined,speed_limit,wrong_road", dir = -1 },
+  { km = 3.662, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.066, kind = "signal", label = "65 N3", signal = "main,route,speed_limit", dir = 1 },
+  { km = 4.169, kind = "station", label = "Böhlen (b Leipzig)", uic = "8023556", pos = [51.20287, 12.38205] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.141, kmTo = 0.163, length = 22 },
+  { kind = "bridge", kmFrom = 0.44, kmTo = 0.461, length = 21 },
+  { kind = "bridge", kmFrom = 0.964, kmTo = 0.978, length = 14 },
+  { kind = "bridge", kmFrom = 4.275, kmTo = 4.298, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{yvwHceqjAznA{QtVmBdQd@~kBbO", v = 80 },
+  { line = "csowHcjqjAvR`A" },
+]
+posts = [[0, 51.24014, 12.38114], [1, 51.23124, 12.38325], [2, 51.22231, 12.38468], [3, 51.21335, 12.38345], [4, 51.2044, 12.38211]]
+
+[[connections]]
+km = 0.94
+station = "Großdeuben"
+lines = [
+  { id = "6362", ref = "6362", name = "6362 Leipzig - Hof", km = 11.478 },
+]
+
+[[connections]]
+km = 4.169
+station = "Böhlen"
+lines = [
+  { id = "6362", ref = "6362", name = "6362 Leipzig - Hof", km = 14.726 },
+]

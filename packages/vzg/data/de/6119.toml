@@ -1,0 +1,55 @@
+id = "6119"
+ref = "6119"
+name = "6119 Michendorf - Beelitz Bea Streckenwechsel 6115/6119"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131705632"
+from = "Michendorf"
+to = "Beelitz Bea Streckenwechsel 6115/6119"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 30.001
+kmTo = 35.485
+length = 5.586
+speeds = [[30.001, 31.133, "", ""], [31.133, 35.485, 60, 60]]
+curves = [[30.101, 30.151, 1620], [30.608, 30.842, 870], [30.913, 31.06, 820], [31.139, 31.192, 1960], [31.245, 31.427, 1270], [32.006, 32.157, 930], [32.232, 32.333, 1860], [32.409, 32.534, 1540], [33.341, 33.623, 680], [33.67, 33.905, 860], [34.188, 34.258, 2460], [34.499, 34.624, 2090], [34.949, 35.374, 430]]
+points = [
+  { km = 30.128, kind = "signal", signal = "distant", dir = 1 },
+  { km = 30.419, kind = "signal", label = "41 K", signal = "main", dir = -1 },
+  { km = 30.818, kind = "signal", label = "A515", signal = "combined", dir = 1 },
+  { km = 30.915, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 31.395, kind = "signal", label = "B533", signal = "combined", dir = -1 },
+  { km = 32.036, kind = "signal", label = "E533", signal = "combined", dir = 1 },
+  { km = 32.292, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 32.706, kind = "station", label = "Seddin", uic = "8003496", pos = [52.29153, 12.98451] },
+  { km = 32.811, kind = "signal", label = "F631", signal = "combined", dir = -1 },
+  { km = 33.22, kind = "signal", label = "G631", signal = "combined", dir = 1 },
+  { km = 33.232, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 33.652, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 33.966, kind = "signal", label = "H452", signal = "combined", dir = -1 },
+  { km = 34.231, kind = "signal", label = "C452", signal = "combined", dir = 1 },
+  { km = 34.488, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 34.662, kind = "signal", label = "D465", signal = "combined", dir = -1 },
+  { km = 35.216, kind = "signal", label = "B465", signal = "main,traversable", dir = 1 },
+  { km = 35.418, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 30.54, kmTo = 30.58, length = 43 },
+  { kind = "bridge", kmFrom = 30.612, kmTo = 30.659, length = 50 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kgg~H{|lnAfYjl@`NdOzDzG" },
+  { line = "exe~HmvjnAfIpNbXpo@vOnW`a@|`ArCxKxB~QfBtItKp]vKtXxNlY`EtEfHlBjIgA", v = 60 },
+]
+posts = [[31, 52.30054, 13.00469], [32, 52.29444, 12.99389], [33, 52.28831, 12.98333], [34, 52.28335, 12.97017], [35, 52.27744, 12.95866]]
+
+[[connections]]
+km = 32.706
+station = "Seddin"
+lines = [
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 32.734 },
+]

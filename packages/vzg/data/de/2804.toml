@@ -1,0 +1,88 @@
+id = "2804"
+ref = "2804"
+name = "2804 Hagen Hbf - Hagen-Heubing"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q20011031"
+from = "Hagen Hbf"
+to = "Hagen-Heubing"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.246
+kmTo = 2.466
+length = 2.874
+speeds = [[-0.246, 0.524, "", ""], [0.524, 1.295, 70, 70], [1.295, 2.466, 80, 80]]
+curves = [[-0.096, -0.046, 2530], [0.104, 0.387, 900], [0.442, 0.71, 720], [0.84, 1.351, 410], [1.453, 1.784, 630], [1.835, 2.014, 1010], [2.09, 2.192, 980], [2.243, 2.343, 550]]
+points = [
+  { km = -0.116, kind = "signal", label = "N 018", signal = "distant,main,minor,route,traversable", dir = -1 },
+  { km = -0.109, kind = "signal", signal = "brake_test", dir = -1 },
+  { km = -0.108, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.07, kind = "signal", label = "018II", signal = "minor", dir = -1 },
+  { km = -0.066, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.021, kind = "signal", label = "019 II", signal = "minor", dir = 1 },
+  { km = 0.008, kind = "station", label = "Hagen Hbf", pos = [51.36296, 7.46061] },
+  { km = 0.036, kind = "signal", signal = "main_repeated" },
+  { km = 0.059, kind = "signal", label = "018 I", signal = "minor", dir = 1 },
+  { km = 0.145, kind = "signal", label = "033 I", signal = "minor", dir = 1 },
+  { km = 0.319, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.461, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.525, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.532, kind = "signal", label = "163 II", signal = "minor", dir = -1 },
+  { km = 0.543, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.766, kind = "signal", label = "ZR 063", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 0.934, kind = "signal", label = "064 I", signal = "minor", dir = 1 },
+  { km = 0.936, kind = "signal", label = "Vw ZR 063", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.05, kind = "stop", label = "Hagen-Wehringhausen", pos = [51.35357, 7.45278] },
+  { km = 1.212, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.367, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.372, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.396, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.431, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.756, kind = "signal", signal = "distant,main,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.079, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.239, kind = "signal", label = "F 662", signal = "distant,main,traversable", dir = 1 },
+  { km = 2.376, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.402, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.547, kmTo = 0.56, length = 18 },
+  { kind = "bridge", kmFrom = 0.939, kmTo = 0.957, length = 18 },
+  { kind = "bridge", kmFrom = 1.295, kmTo = 1.37, length = 73 },
+  { kind = "bridge", kmFrom = 1.614, kmTo = 1.681, length = 66 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "choxH}`pl@xT~BpLTvLvD" },
+  { line = "_wmxHovol@dGzFlLrSlBbLKlN", v = 70 },
+  { line = "i~lxHm}ml@oB`TInG`BlTvAd`@IvP", v = 80 },
+]
+posts = [[0, 51.36311, 7.45973], [1, 51.35378, 7.45339], [2, 51.35348, 7.43964]]
+
+[[connections]]
+km = 0.008
+station = "Hagen Hbf"
+lines = [
+  { id = "2143", ref = "2143", name = "2143 Witten Hbf - Schwelm", km = 80.137 },
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 80.164 },
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 55.499 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 141.818 },
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = 5.252 },
+  { id = "2801", ref = "2801", name = "2801 Hagen - Dortmund", km = 0.052 },
+  { id = "2811", ref = "2811", name = "2811 Abzw Hagen Rehsiepen - Hagen Streckenwechsel 2811/2823", km = 141.791 },
+  { id = "2843", ref = "2843", name = "2843 Abzw Hohensyburg - Schwerte (Ruhr) Ost", km = 140.932 },
+  { id = "2850", ref = "2850", name = "2850 Letmathe - Fröndenberg", km = -1.026 },
+]
+
+[[connections]]
+km = 1.05
+station = "Hagen-Wehringhausen"
+lines = [
+  { id = "2143", ref = "2143", name = "2143 Witten Hbf - Schwelm", km = 81.363 },
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 54.449 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 140.516 },
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = 4.935 },
+  { id = "2811", ref = "2811", name = "2811 Abzw Hagen Rehsiepen - Hagen Streckenwechsel 2811/2823", km = 141.54 },
+]

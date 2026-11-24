@@ -1,0 +1,106 @@
+id = "5402"
+ref = "5402"
+name = "5402 Immenstadt - Oberstdorf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Immenstadt"
+to = "Oberstdorf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 20.992
+length = 20.992
+speeds = [[0, 0.54, "", ""], [0.54, 0.726, 60, 60], [0.726, 5.596, 80, 80], [5.596, 5.899, 70, 60], [5.899, 7.841, 80, 80], [7.841, 8.51, 80, ""], [8.51, 10.964, 80, 80], [10.964, 10.97, 80, ""], [10.97, 11.064, "", ""], [11.064, 12.99, 80, 80], [12.99, 14.895, 50, 50], [14.895, 14.962, 60, 60], [14.962, 15.376, 50, 50], [15.376, 16.881, 60, 60], [16.881, 16.989, 20, 20], [16.989, 17.151, 40, 40], [17.151, 17.396, "", ""], [17.396, 18.714, 50, 50], [18.714, 18.891, 60, 60], [18.891, 20.16, 70, 70], [20.16, 20.194, 40, 70], [20.194, 20.585, 40, 40], [20.585, 20.992, "", ""]]
+curves = [[0.1, 0.275, 650], [0.75, 0.975, 880], [2.225, 2.6, 520], [3.125, 3.6, 360], [4, 4.225, 940], [4.8, 5.125, 650], [5.525, 6.025, 340], [6.35, 6.725, 750], [7.075, 7.425, 780], [8.525, 9.1, 660], [9.25, 9.575, 760], [9.825, 10.05, 720], [11.025, 11.175, 1200], [12.4, 12.6, 1190], [13, 13.175, 1350], [13.4, 13.75, 290], [13.8, 14.125, 270], [14.3, 14.875, 750], [14.925, 15.2, 330], [15.275, 15.4, 1700], [16, 16.175, 1040], [16.625, 16.825, 950], [16.875, 17, 1460], [17.05, 17.2, 1100], [17.4, 17.625, 810], [17.875, 18.1, 620], [18.325, 19.05, 420], [19.5, 19.75, 710], [19.975, 20.65, 460]]
+points = [
+  { km = 0.117, kind = "signal", label = "52N3", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.206, kind = "signal", label = "52?", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.253, kind = "signal", label = "52 203X", signal = "minor", dir = -1 },
+  { km = 0.267, kind = "station", label = "Immenstadt", pos = [47.55911, 10.2138], uic = "8003065" },
+  { km = 0.425, kind = "signal", label = "52P3", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 0.62, kind = "signal", label = "52W07X", signal = "minor", dir = -1 },
+  { km = 0.736, kind = "signal", label = "52?03X", signal = "minor", dir = -1 },
+  { km = 1.228, kind = "signal", label = "52B", signal = "combined,speed_limit", dir = -1 },
+  { km = 4.385, kind = "signal", label = "53P1", signal = "main", dir = -1 },
+  { km = 4.477, kind = "station", label = "Blaichach (Allgäu)", pos = [47.5437, 10.25889] },
+  { km = 4.661, kind = "signal", label = "53N1", signal = "main", dir = 1 },
+  { km = 5.085, kind = "signal", label = "53F", signal = "combined", dir = -1 },
+  { km = 5.596, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.899, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.478, kind = "signal", label = "54A", signal = "main", dir = 1 },
+  { km = 7.952, kind = "signal", label = "54P2", signal = "main", dir = -1 },
+  { km = 8.302, kind = "station", label = "Sonthofen", pos = [47.51341, 10.27215], uic = "8005609" },
+  { km = 8.327, kind = "signal", label = "54N2", signal = "main", dir = 1 },
+  { km = 8.888, kind = "signal", label = "54F", signal = "combined", dir = -1 },
+  { km = 9.589, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 10.709, kind = "signal", label = "1A", signal = "distant,main", dir = 1 },
+  { km = 11.164, kind = "signal", label = "1P2", signal = "main", dir = -1 },
+  { km = 11.259, kind = "station", label = "Altstädten (Allgäu)", pos = [47.48856, 10.28097], uic = "8000561" },
+  { km = 11.445, kind = "signal", label = "1N2", signal = "main", dir = 1 },
+  { km = 11.933, kind = "signal", label = "1F", signal = "distant,main", dir = -1 },
+  { km = 14.895, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.147, kind = "station", label = "Fischen", pos = [47.45597, 10.27173], uic = "8001995" },
+  { km = 16.881, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.989, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.204, kind = "signal", signal = "main", dir = -1 },
+  { km = 17.269, kind = "signal", label = "57P2", signal = "main", dir = -1 },
+  { km = 17.327, kind = "station", label = "Langenwang (Schwaben)", pos = [47.43668, 10.27599], uic = "8003551" },
+  { km = 17.49, kind = "signal", signal = "main", dir = 1 },
+  { km = 18.714, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.397, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 20.194, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 20.321, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 20.565, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 20.585, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 20.67, kind = "signal", label = "58P5", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 20.882, kind = "station", label = "Oberstdorf", pos = [47.41127, 10.27825], uic = "8004585" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.678, kmTo = 1.702, length = 23 },
+  { kind = "bridge", kmFrom = 5.134, kmTo = 5.155, length = 22 },
+  { kind = "bridge", kmFrom = 5.98, kmTo = 6.042, length = 62 },
+  { kind = "bridge", kmFrom = 7.632, kmTo = 7.647, length = 15 },
+  { kind = "bridge", kmFrom = 8.51, kmTo = 8.542, length = 31 },
+  { kind = "bridge", kmFrom = 8.985, kmTo = 9.012, length = 27 },
+  { kind = "bridge", kmFrom = 13.762, kmTo = 13.829, length = 67 },
+  { kind = "bridge", kmFrom = 13.896, kmTo = 13.92, length = 24 },
+  { kind = "bridge", kmFrom = 14.091, kmTo = 14.107, length = 17 },
+  { kind = "bridge", kmFrom = 14.919, kmTo = 14.945, length = 26 },
+  { kind = "bridge", kmFrom = 15.341, kmTo = 15.376, length = 35 },
+  { kind = "bridge", kmFrom = 18.653, kmTo = 18.704, length = 50 },
+  { kind = "bridge", kmFrom = 19.033, kmTo = 19.059, length = 26 },
+  { kind = "bridge", kmFrom = 19.332, kmTo = 19.391, length = 59 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eahaHcfi}@hBcF|@cF~B}Z" },
+  { line = "}wgaHipj}@dAeN", v = 60 },
+  { line = "wugaHo_k}@~AeMvf@e~AxAwGXeGM_EaHqv@d@oJrBgGz[k[lg@eQxCc@nELl\\xI", v = 80 },
+  { line = "_~baHqsr}@xCPjCi@lEaE", v = 70 },
+  { line = "knbaHkzr}@~Nac@tCwFbHcHfVoQxHcBzfA}CjE_BzE_EjNgWhDeEhU_NjFq@ht@@", v = 80 },
+  { line = "urz`Hyaw}@hDJ" },
+  { line = "kmz`Hmaw}@xlAvT~[Z", v = 80 },
+  { line = "qbw`Hyjv}@lEK~RiDzBJ~C~BbFdO`C~B~CX`PwE`EMpKlGbGjG", v = 50 },
+  { line = "gct`Homu}@vAxB", v = 60 },
+  { line = "o`t`Huiu}@hBbBjB`@tNcB", v = 50 },
+  { line = "cjs`Hshu}@ze@kCp`@iMpIy@", v = 60 },
+  { line = "cwp`Hc}u}@`E_@", v = 20 },
+  { line = "aqp`Hc~u}@|G}@", v = 40 },
+  { line = "chp`Ha`v}@xLG" },
+  { line = "izo`Hi`v}@~Hr@vRrIjCpCbM|SfB~ApDz@rFgB", v = 50 },
+  { line = "sym`H}xt}@lGuF", v = 60 },
+  { line = "eqm`Hs`u}@|BoF~Psk@jPsTlBcBpCaA", v = 70 },
+  { line = "{al`Hqow}@nCCtCx@bI|I", v = 40 },
+  { line = "qnk`H}bw}@|NhW" },
+]
+posts = [[0, 47.56003, 10.21042], [1, 47.55728, 10.22295], [2, 47.55254, 10.23428], [3, 47.55185, 10.24675], [4, 47.5477, 10.25668], [5, 47.53914, 10.26046], [6, 47.53088, 10.26082], [7, 47.5246, 10.26991], [8, 47.51586, 10.27199], [9, 47.50727, 10.27451], [10, 47.49987, 10.28141], [11, 47.49088, 10.28139], [12, 47.48203, 10.27909], [13, 47.47312, 10.27773], [14, 47.46541, 10.27458], [15, 47.45725, 10.27213], [16, 47.44834, 10.27287], [17, 47.4396, 10.27573], [18, 47.43091, 10.27375], [19, 47.42375, 10.27211], [20, 47.41832, 10.28248]]
+
+[[connections]]
+km = 0.267
+station = "Immenstadt"
+lines = [
+  { id = "5362", ref = "5362", name = "5362 Buchloe - Lindau", km = 84.532 },
+]

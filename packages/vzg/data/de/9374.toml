@@ -1,0 +1,112 @@
+id = "9374"
+ref = "9374"
+name = "9374 Friedrichsdorf (Taunus) - Grävenwiesbach"
+operator = "Verkehrsverband Hochtaunus"
+gauge = "1435"
+wikidata = "Q314249"
+from = "Friedrichsdorf (Taunus)"
+to = "Grävenwiesbach"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.284
+kmTo = 28.787
+length = 28.984
+speeds = [[-0.284, 2.441, 60, 60], [2.441, 3.26, 80, 80], [3.26, 3.394, 70, 70], [3.394, 4.658, 80, 80], [4.658, 5.042, 60, 60], [5.042, 6.07, 80, 80], [6.07, 7.441, 60, 60], [7.441, 8.559, 80, 80], [8.559, 9.355, 60, 60], [9.355, 12.204, 80, 80], [12.204, 14.433, 60, 60], [14.433, 17.159, 80, 80], [17.159, 18.176, 50, 50], [18.176, 18.389, 60, 60], [18.389, 18.404, "", ""], [18.404, 27.192, 60, 60], [27.192, 27.199, "", ""], [27.199, 28.787, 60, 60]]
+curves = [[0.116, 0.441, 380], [0.491, 0.816, 360], [0.991, 1.391, 460], [1.441, 2.01, 400], [2.341, 2.504, 750], [2.551, 2.785, 420], [3.02, 3.16, 1180], [3.404, 3.739, 700], [3.868, 4.074, 910], [4.77, 4.87, 980], [4.919, 5.116, 410], [5.215, 5.388, 1130], [5.462, 5.635, 1300], [5.808, 6.005, 1320], [6.054, 6.277, 650], [6.375, 6.82, 540], [7.098, 7.401, 360], [7.452, 7.604, 770], [8.008, 8.134, 850], [8.185, 8.311, 910], [8.488, 8.943, 330], [9.676, 9.878, 490], [9.929, 10.232, 410], [10.308, 10.637, 730], [10.712, 11.445, 790], [11.546, 11.774, 570], [12.128, 12.633, 490], [12.684, 13.341, 260], [13.568, 13.922, 290], [13.973, 14.727, 460], [14.902, 15.302, 520], [15.602, 16.452, 1030], [16.627, 17.027, 400], [17.077, 17.702, 250], [17.927, 18.177, 1010], [18.227, 18.927, 500], [19.202, 20.402, 290], [20.652, 21.102, 300], [21.327, 22.402, 300], [22.902, 23.002, 1440], [23.077, 23.477, 760], [23.527, 24.152, 380], [24.402, 24.877, 300], [24.927, 25.802, 250], [25.852, 26.177, 300], [26.227, 26.327, 1030], [26.527, 27.452, 300], [27.502, 27.902, 270], [28.052, 28.677, 260]]
+points = [
+  { km = -0.119, kind = "signal", label = "54 P1", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = -0.058, kind = "station", label = "Friedrichsdorf", pos = [50.25228, 8.64442], uic = "8002108" },
+  { km = -0.022, kind = "signal", label = "54 L301Y", signal = "minor", dir = -1 },
+  { km = 0.121, kind = "signal", label = "54 N1", signal = "main,route,speed_limit,traversable", dir = 1 },
+  { km = 0.138, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.188, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.35, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.361, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.716, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.796, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.932, kind = "signal", label = "54 G", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.808, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 1.896, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.1, kind = "station", label = "Köppern", pos = [50.27016, 8.64649], measured = true },
+  { km = 2.142, kind = "stop", label = "Friedrichsdorf-Köppern", pos = [50.27012, 8.64643] },
+  { km = 6.855, kind = "station", label = "Saalburg/Lochmühle", pos = [50.28317, 8.58741], uic = "8007851" },
+  { km = 9.127, kind = "station", label = "Wehrheim", pos = [50.29643, 8.56711] },
+  { km = 13.328, kind = "signal", label = "P42", signal = "main", dir = -1 },
+  { km = 13.412, kind = "station", label = "Neu Anspach", pos = [50.3008, 8.51472] },
+  { km = 13.493, kind = "signal", label = "N42", signal = "main", dir = 1 },
+  { km = 14.347, kind = "stop", label = "Hausen (Taunus)", uic = "8007847", pos = [50.30757, 8.50742] },
+  { km = 14.382, kind = "halt", label = "Hausen", uic = "8007847", pos = [50.30784, 8.50716] },
+  { km = 14.407, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.433, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.368, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 17.159, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.644, kind = "signal", label = "P 52", signal = "main,minor,traversable", dir = -1 },
+  { km = 17.647, kind = "signal", signal = "stop", dir = 1 },
+  { km = 17.713, kind = "station", label = "Usingen", pos = [50.33085, 8.52784] },
+  { km = 17.79, kind = "signal", label = "N 52", signal = "main,minor,traversable", dir = 1 },
+  { km = 17.85, kind = "signal", label = "N 53", signal = "main,minor,traversable", dir = 1 },
+  { km = 22.699, kind = "signal", label = "P61", signal = "main,minor", dir = -1 },
+  { km = 22.816, kind = "stop", label = "Wilhelmsdorf (Taunus)", pos = [50.34996, 8.48113] },
+  { km = 22.816, kind = "station", label = "Wilhelmsdorf", pos = [50.34999, 8.48117] },
+  { km = 22.884, kind = "signal", label = "N61", signal = "main,minor", dir = 1 },
+  { km = 22.884, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 26.454, kind = "halt", label = "Hundstadt", pos = [50.37122, 8.46809] },
+  { km = 28.071, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 28.787, kind = "station", label = "Grävenwiesbach", uic = "8000132", pos = [50.38251, 8.45791] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.317, kmTo = 0.346, length = 30 },
+  { kind = "bridge", kmFrom = 4.828, kmTo = 4.864, length = 37 },
+  { kind = "bridge", kmFrom = 4.889, kmTo = 4.951, length = 63 },
+  { kind = "bridge", kmFrom = 8.737, kmTo = 8.756, length = 19 },
+  { kind = "bridge", kmFrom = 10.388, kmTo = 10.438, length = 50 },
+  { kind = "bridge", kmFrom = 12.975, kmTo = 13.049, length = 73, name = "Anspacher Viadukt" },
+  { kind = "bridge", kmFrom = 13.588, kmTo = 13.621, length = 33 },
+  { kind = "bridge", kmFrom = 14.596, kmTo = 14.621, length = 26 },
+  { kind = "bridge", kmFrom = 14.906, kmTo = 14.93, length = 24 },
+  { kind = "bridge", kmFrom = 18.389, kmTo = 18.404, length = 15 },
+  { kind = "bridge", kmFrom = 18.644, kmTo = 18.669, length = 24 },
+  { kind = "bridge", kmFrom = 26.524, kmTo = 26.539, length = 16 },
+  { kind = "bridge", kmFrom = 28.071, kmTo = 28.094, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}nuqHkows@k\\|DcF{BwG{HuEmAyRlEqENiEyAkLsKyGaAcHfCmVfW", v = 60 },
+  { line = "izyqHugws@{HxDyBnC{Kh[cDdO", v = 80 },
+  { line = "_zzqH{pus@aBvI", v = 70 },
+  { line = "a}zqHcfus@gFfQiDfXeBnz@", v = 80 },
+  { line = "yl{qHc_rs@YpMy@tKD~D", v = 60 },
+  { line = "go{qH{}ps@dC`Tf@lQs@nf@TfJ", v = 80 },
+  { line = "wj{qHscns@SrKuD|WiH~N}Ktb@uCpDwDzA", v = 60 },
+  { line = "wq|qH}aks@sDnBcXrU_IdDsMhK", v = 80 },
+  { line = "ci~qHivis@yCrFmAlIbA~m@", v = 60 },
+  { line = "gn~qHgugs@d@vb@dD~RLzJyDzZ_MlXyDpQu@dPvA`_@_Flj@", v = 80 },
+  { line = "_g_rHam`s@AjKv@|HvIxXL`H}@vGiBpDoCtBkVrCqCpA{CfFsCfOoBlF{DhFeFlC", v = 60 },
+  { line = "{y`rH_p|r@wD`@uDe@cTaMsEoI}Lef@sGwNcFqG_HoFwSsHeDyB{DoG_EgP", v = 80 },
+  { line = "qmdrH{v`s@uB_DkD{AgDNsChBqBpDmIxZwEpK", v = 50 },
+  { line = "guerH_m_s@}FzL", v = 60 },
+  { line = "e}erHc__s@Mb@" },
+  { line = "s}erH_~~r@kB|MD~M|@rHtIj_@ArJ", v = 60 },
+  { line = "gterHmj|r@QnA", tunnel = true, v = 60 },
+  { line = "yterH}g|r@_D~GmJ`HeClH[|DLfEbDpSBfa@}@tGqDtGyB~@wUfC_E{B_EsHkCoCaDy@eDr@cE`FyCxMi^fx@kHxG{KjFeG~KiG`EoDNgRkBiEiBwBuCeB}FaA}T_BoGeBeC}BqAoCQaCn@cDlDcBlGOnHdA`OWpE_AzD{F`LeGvOyF~QcD|CqIvBgCvC", v = 60 },
+  { line = "ebnrHqvsr@GL" },
+  { line = "mbnrHcvsr@eAlDc@fE@nE|@|L{@lJaC~EuMbKoC|@sCOmCyAoBcD_AmD[{DDuEx@mH", v = 60 },
+]
+posts = [[0, 50.25276, 8.6446], [1, 50.26123, 8.64597], [2, 50.26902, 8.64757], [3, 50.27641, 8.6386], [4, 50.28016, 8.62594], [5, 50.28104, 8.61226], [6, 50.28035, 8.59821], [7, 50.28386, 8.58566], [8, 50.29089, 8.57791], [9, 50.29648, 8.56912], [10, 50.29522, 8.55548], [11, 50.29882, 8.54337], [12, 50.29971, 8.5298], [13, 50.29827, 8.51692], [14, 50.30544, 8.51076], [15, 50.31314, 8.50895], [16, 50.31843, 8.52012], [17, 50.32615, 8.52664], [18, 50.33213, 8.5238], [19, 50.33416, 8.51157], [20, 50.33651, 8.50062], [21, 50.33703, 8.48771], [22, 50.34528, 8.48979], [23, 50.35104, 8.47916], [24, 50.35828, 8.47146], [25, 50.36468, 8.47787], [26, 50.36881, 8.47318], [27, 50.37465, 8.46312], [28, 50.37877, 8.4527]]
+
+[[connections]]
+km = -0.058
+station = "Friedrichsdorf"
+lines = [
+  { id = "3611", ref = "3611", name = "3611 Frankfurt (Main) Hbf (tief) - Friedberg (Hess)", km = 23.939 },
+]
+
+[[connections]]
+km = 28.787
+station = "Grävenwiesbach"
+lines = [
+  { id = "3746", ref = "3746", name = "3746 Grävenwiesbach - Albshausen", km = 7.872 },
+]

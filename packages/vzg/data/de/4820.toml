@@ -1,0 +1,83 @@
+id = "4820"
+ref = "4820"
+name = "4820 Stuttgart-Zazenhausen - Ludwigsburg"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Stuttgart-Zazenhausen"
+to = "Ludwigsburg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 9.509
+kmTo = 15.163
+length = 5.66
+speeds = [[9.509, 9.694, "", ""], [9.694, 9.796, "", 90], [9.796, 11.774, 80, 80], [11.774, 12.096, 40, 40], [12.096, 12.11, "", ""], [12.11, 13.416, 40, 40], [13.416, 13.721, 50, 50], [13.721, 15.056, 80, 80], [15.056, 15.163, "", ""]]
+curves = [[9.892, 10.841, 630], [11.59, 11.739, 1480], [11.989, 12.163, 1060], [12.288, 12.413, 1220], [12.886, 13.011, 1700], [13.56, 13.684, 1420], [13.784, 14.018, 2180], [14.064, 15.063, 830]]
+points = [
+  { km = 9.693, kind = "signal", label = "685II", signal = "minor", dir = -1 },
+  { km = 9.77, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 9.796, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.077, kind = "signal", label = "E 689", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 10.304, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 10.313, kind = "signal", label = "Wve 689", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 10.541, kind = "signal", label = "B", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 10.66, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 10.687, kind = "signal", label = "W16", signal = "minor", dir = 1 },
+  { km = 10.814, kind = "signal", label = "W23", signal = "minor", dir = 1 },
+  { km = 10.833, kind = "signal", label = "e 689I", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 10.879, kind = "signal", label = "309I", signal = "minor", dir = -1 },
+  { km = 10.934, kind = "signal", label = "P 309", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 11.658, kind = "signal", label = "R309", signal = "main,minor", dir = 1 },
+  { km = 11.708, kind = "signal", label = "309II", signal = "minor", dir = 1 },
+  { km = 11.976, kind = "signal", label = "W137", signal = "minor", dir = -1 },
+  { km = 12.043, kind = "signal", label = "364II", signal = "minor", dir = 1 },
+  { km = 12.1, kind = "signal", label = "W140", signal = "minor", dir = -1 },
+  { km = 12.288, kind = "signal", label = "485II", signal = "minor", dir = 1 },
+  { km = 12.36, kind = "signal", label = "r78 n82-n86", signal = "distant", dir = 1 },
+  { km = 12.366, kind = "signal", label = "W313", signal = "minor", dir = 1 },
+  { km = 12.369, kind = "signal", label = "313I", signal = "minor", dir = -1 },
+  { km = 12.439, kind = "signal", label = "88I", signal = "minor", dir = -1 },
+  { km = 12.689, kind = "signal", label = "W340", signal = "minor", dir = 1 },
+  { km = 12.824, kind = "signal", label = "86", signal = "minor", dir = -1 },
+  { km = 13.416, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.593, kind = "signal", label = "N86", signal = "main,minor", dir = 1 },
+  { km = 13.712, kind = "signal", label = "W363", signal = "minor", dir = -1 },
+  { km = 13.713, kind = "signal", label = "d279", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 13.721, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.222, kind = "signal", signal = "main", dir = -1 },
+  { km = 14.254, kind = "signal", label = "WVd279", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 14.57, kind = "signal", label = "D279", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 15.037, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 15.049, kind = "signal", label = "037", signal = "minor", dir = 1 },
+  { km = 15.163, kind = "station", label = "Ludwigsburg", uic = "8029017", pos = [48.89226, 9.18521] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 9.846, kmTo = 9.869, length = 23 },
+  { kind = "bridge", kmFrom = 12.11, kmTo = 12.123, length = 13 },
+  { kind = "tunnel", kmFrom = 14.043, kmTo = 14.127, length = 93 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "c~kiHmhaw@~CeD" },
+  { line = "cykiHsmaw@pJaGnHgAlOpA~ExA`DtB", v = 80 },
+  { line = "qgjiH{naw@fCpC", tunnel = true, v = 80 },
+  { line = "icjiHijaw@jO~M", v = 80 },
+  { line = "}riiHi{`w@zN|H", v = 50 },
+  { line = "aciiHkq`w@zVjL`]hVnLpF", v = 40 },
+  { line = "s_giHce_w@VJ" },
+  { line = "{~fiHwd_w@zPxC", v = 40 },
+  { line = "_mfiH}__w@nG`Bbk@jUhFlA|DJ`HyArHaGlEgIxDeN", v = 80 },
+  { line = "elciH_h_w@tAwF", v = 90 },
+  { line = "oiciHwo_w@vCaM" },
+]
+posts = [[15, 48.88951, 9.188], [14, 48.88098, 9.18671], [13, 48.87265, 9.18114], [12, 48.86442, 9.17569], [11, 48.85575, 9.17201], [10, 48.84784, 9.17405]]
+
+[[connections]]
+km = 15.163
+station = "Ludwigsburg"
+lines = [
+  { id = "4800", ref = "4800", name = "4800 Stuttgart - Bretten Strw 4130/4800", km = 13.958 },
+  { id = "4801", ref = "4801", name = "4801 Stuttgart Hbf - Bietigheim-Bissingen", km = 13.953 },
+]

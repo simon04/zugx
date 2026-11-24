@@ -1,0 +1,38 @@
+id = "3541"
+ref = "3541"
+name = "3541 Riedstadt-Goddelau - Darmstadt Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Riedstadt-Goddelau"
+to = "Darmstadt Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.508
+length = 2.508
+speeds = [[0, 0.419, "", ""], [0.419, 0.73, 70, ""], [0.73, 2.111, 70, 70], [2.111, 2.486, 60, 60], [2.486, 2.508, 80, 80]]
+curves = [[0.55, 1.175, 730], [1.8, 2.4, 320]]
+points = [
+  { km = 0.73, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 0.9, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.072, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.074, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.893, kind = "signal", label = "Wv523", signal = "distant", dir = 1 },
+  { km = 2.111, kind = "signal", label = "523", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 2.491, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.808, kmTo = 0.823, length = 15 },
+  { kind = "bridge", kmFrom = 1.358, kmTo = 1.374, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oxloH_ets@cVxE" },
+  { line = "somoHe~ss@qOvB}DUsFgBcHqGi_@mg@kDoBkEK", v = 70 },
+  { line = "}bpoHgsus@kC|@qCvCuDlM", v = 60 },
+  { line = "qqpoHc~ts@Ov@", v = 80 },
+]
+posts = [[0, 49.878, 8.62816], [1, 49.88682, 8.62729], [2, 49.89403, 8.63551]]

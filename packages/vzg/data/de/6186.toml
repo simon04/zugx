@@ -1,0 +1,27 @@
+id = "6186"
+ref = "6186"
+name = "6186 Abzw Selchow West - Abzw Selchow Süd"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Selchow West"
+to = "Selchow Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.76
+length = 0.76
+speeds = [[0, 0.76, 80, 80]]
+curves = [[0.275, 0.65, 850]]
+points = [
+  { km = 0.097, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.313, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.709, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q_r~H_oaqAcKm`@yAoNWwM", v = 80 },
+]
+posts = [[0, 52.36233, 13.44768]]

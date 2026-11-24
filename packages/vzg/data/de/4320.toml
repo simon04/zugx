@@ -1,0 +1,23 @@
+id = "4320"
+ref = "4320"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 43.1
+kmTo = 44.146
+length = 1.037
+speeds = [[43.1, 44.146, "", ""]]
+curves = [[43.28, 43.753, 650]]
+points = [
+  { km = 43.441, kind = "signal", signal = "distant", dir = 1 },
+  { km = 44.146, kind = "signal", label = "G", signal = "main", dir = 1, measured = true },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uembHy_`u@{LeGcI}@gGx@qVjJ" },
+]
+posts = [[44, 47.75799, 8.85268]]

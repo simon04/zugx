@@ -1,0 +1,48 @@
+id = "5563"
+ref = "5563"
+name = "5563 München Nord Rbf Forstweg - München-Karlsfeld"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "München Nord Rbf Forstweg"
+to = "München-Karlsfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.08
+length = 2.08
+speeds = [[0, 1.859, 60, 60], [1.859, 2.08, "", ""]]
+curves = [[0.125, 0.2, 1800], [1.3, 1.675, 410], [1.725, 1.85, 1640]]
+points = [
+  { km = 0.347, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.41, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.418, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.506, kind = "signal", label = "Vcc", signal = "distant", dir = 1 },
+  { km = 0.709, kind = "signal", label = "58A", signal = "distant,main,traversable", dir = -1 },
+  { km = 0.902, kind = "halt", label = "Karlsfeld", uic = "8004150", pos = [48.21126, 11.45952] },
+  { km = 1.495, kind = "signal", label = "CC", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 1.674, kind = "signal", label = "58Va", signal = "distant", dir = -1 },
+  { km = 1.859, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.27, kmTo = 1.311, length = 40 },
+  { kind = "bridge", kmFrom = 1.38, kmTo = 1.458, length = 78 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wxheH{s|dArjAs]bC_C`BiDrEqU", v = 60 },
+  { line = "i_feHkr~dAtDqO" },
+]
+posts = [[0, 48.21916, 11.45678], [1, 48.21048, 11.46029], [2, 48.20426, 11.46847]]
+
+[[connections]]
+km = 0.902
+station = "Karlsfeld"
+lines = [
+  { id = "5501", ref = "5501", name = "5501 München - Treuchtlingen", km = 12.883 },
+  { id = "5544", ref = "5544", name = "5544 München-Laim Pbf - Petershausen (Oberbay)", km = 12.9 },
+  { id = "5561", ref = "5561", name = "5561 Olching - Olching Streckenwechsel 5561/5560", km = 4.81 },
+  { id = "5566", ref = "5566", name = "5566 München-Feldmoching - München Nord Rbf Lassallestraße", km = 0.388 },
+]

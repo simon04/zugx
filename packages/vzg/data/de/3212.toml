@@ -1,0 +1,98 @@
+id = "3212"
+ref = "3212"
+name = "3212 Hemmersdorf (Saar) Grenze - Dillingen (Saar)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q17177231"
+from = "Hemmersdorf (Saar) Grenze"
+to = "Dillingen (Saar)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 7.716
+kmTo = 20.311
+length = 12.582
+speeds = [[7.716, 8.806, 60, 60], [8.806, 10.817, 70, 70], [10.817, 18.911, 80, 80], [18.911, 19.282, 70, 70], [19.282, 19.752, 60, 60], [19.752, 20.311, "", ""]]
+curves = [[7.874, 8.45, 410], [8.576, 9.327, 360], [9.378, 10.205, 1180], [10.305, 10.804, 380], [11.228, 11.452, 720], [11.577, 12.125, 490], [12.45, 13.304, 450], [13.555, 13.881, 550], [13.931, 14.082, 1150], [14.559, 14.735, 1070], [14.81, 15.036, 950], [15.511, 15.711, 810], [16.111, 16.361, 680], [16.436, 16.761, 540], [18.411, 18.711, 610], [18.811, 19.236, 380], [19.361, 19.636, 540], [19.811, 19.936, 1860]]
+points = [
+  { km = 7.718, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.723, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.371, kind = "signal", label = "N", signal = "main", dir = 1 },
+  { km = 8.402, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.623, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 8.732, kind = "station", label = "Niedaltdorf", pos = [49.34369, 6.59403], uic = "8004344" },
+  { km = 8.806, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.299, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 9.475, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 9.567, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.143, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 10.817, kind = "signal", label = "B", signal = "main,speed_limit", dir = -1 },
+  { km = 10.818, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.826, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.884, kind = "station", label = "Hemmersdorf (Saar)", pos = [49.35407, 6.61554], uic = "8002746" },
+  { km = 11.498, kind = "signal", label = "D", signal = "main", dir = 1 },
+  { km = 11.501, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 11.648, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 11.832, kind = "signal", label = "F", signal = "main", dir = -1 },
+  { km = 12.53, kind = "signal", signal = "distant", dir = -1 },
+  { km = 14.058, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 14.359, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.962, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 14.999, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 15.211, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 15.317, kind = "stop", label = "Siersburg", pos = [49.3618, 6.66536], uic = "8005562" },
+  { km = 15.35, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 15.364, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 15.382, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 15.983, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 16.23, kind = "signal", signal = "crossing_distant,crossing_info", dir = -1 },
+  { km = 18.219, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 18.395, kind = "signal", signal = "distant", dir = 1 },
+  { km = 18.91, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 18.911, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.965, kind = "signal", signal = "distant", dir = 1 },
+  { km = 19.084, kind = "signal", label = "G", signal = "distant,main", dir = 1 },
+  { km = 19.282, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.285, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 19.289, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 19.38, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.386, kind = "signal", label = "3 VIII", signal = "minor", dir = 1 },
+  { km = 19.546, kind = "signal", label = "3 VII", signal = "minor", dir = -1 },
+  { km = 19.638, kind = "signal", label = "3 VI", signal = "minor", dir = 1 },
+  { km = 19.846, kind = "signal", label = "N3", signal = "main,minor", dir = -1 },
+  { km = 20.175, kind = "signal", label = "3 V", signal = "minor", dir = 1 },
+  { km = 20.241, kind = "signal", label = "3 IV", signal = "minor", dir = -1 },
+  { km = 20.311, kind = "station", label = "Dillingen (Saar)", pos = [49.35253, 6.72212], uic = "8000075" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 8.175, kmTo = 8.271, length = 96 },
+  { kind = "bridge", kmFrom = 8.626, kmTo = 8.637, length = 11 },
+  { kind = "bridge", kmFrom = 11.62, kmTo = 11.651, length = 31 },
+  { kind = "bridge", kmFrom = 16.93, kmTo = 16.963, length = 33 },
+  { kind = "bridge", kmFrom = 17.485, kmTo = 17.539, length = 54 },
+  { kind = "bridge", kmFrom = 17.649, kmTo = 17.862, length = 214 },
+  { kind = "bridge", kmFrom = 18.23, kmTo = 18.266, length = 36 },
+  { kind = "bridge", kmFrom = 18.418, kmTo = 18.43, length = 12 },
+  { kind = "bridge", kmFrom = 18.599, kmTo = 18.612, length = 13 },
+  { kind = "bridge", kmFrom = 18.809, kmTo = 18.832, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "adflHy|_h@aW|]" },
+  { line = "c|flH{}~g@_KfJeKz@", v = 60 },
+  { line = "itglHwp~g@cIl@_D|BqBhD", v = 70 },
+  { line = "_ghlHaf~g@uFnSeAnJq@byCnAfNzFrPnA`GjFli@RjGU~a@SxQiCpWq@fVa@|]h@jPK~Gy@dGmHv\\[zKj@lGnAtEpBfEdDrDjH|ChY`EfD~BnCtEfCnJ|ClXOfl@", v = 80 },
+  { line = "gnflHq{jg@PfM|@jEhBpE|CpDhRzLlDtFlAvEzAbLhBr\\~@jG|AfEnBrCvGxC", v = 70 },
+  { line = "}pdlHu{fg@xFc@~NsHnFCvCvAtB~BzJlU", v = 60 },
+]
+posts = [[20, 49.35459, 6.71937], [19, 49.36263, 6.7143], [18, 49.36487, 6.70146], [17, 49.365, 6.68765], [16, 49.36255, 6.67477], [15, 49.36185, 6.66113], [14, 49.363, 6.64755], [13, 49.36467, 6.63449], [12, 49.35693, 6.62927], [11, 49.35407, 6.61702], [10, 49.34944, 6.60714], [9, 49.3459, 6.59501], [8, 49.33762, 6.59417]]
+
+[[connections]]
+km = 20.311
+station = "Dillingen"
+lines = [
+  { id = "3211", ref = "3211", name = "3211 Dillingen (Saar) - Primsweiler", km = 13.421 },
+  { id = "3230", ref = "3230", name = "Saarstrecke", km = 27 },
+]

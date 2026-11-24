@@ -1,0 +1,21 @@
+id = "6782"
+ref = "6782"
+name = "Draisinen-Strecke Waren-Schwinkendorf"
+operator = "Mecklenburger Draisinenbahn"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 6.736
+length = 6.736
+speeds = [[0, 6.736, "", ""]]
+curves = [[0.425, 0.725, 950], [2.75, 2.95, 910], [3.3, 3.525, 640], [4.875, 4.925, 2720], [5.7, 6, 610]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "yl`fIcvmlAa^^iE~BsjBrzAw]|JeEMelAc]mo@_WgHCsi@lL" },
+]
+posts = [[0, 53.58301, 12.69106], [1, 53.59161, 12.68802], [2, 53.59965, 12.68124], [3, 53.60779, 12.6749], [4, 53.61658, 12.67553], [5, 53.62533, 12.67897], [6, 53.63402, 12.68234]]

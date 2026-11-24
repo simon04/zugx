@@ -1,0 +1,456 @@
+id = "2400"
+ref = "2400"
+name = "2400 Düsseldorf – Hagen"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q1542627"
+from = "Düsseldorf Hbf"
+to = "Hagen Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.011
+kmTo = 80.164
+length = 80.519
+speeds = [[-0.011, 0.938, 70, 70], [0.938, 4.063, 120, 120], [4.063, 4.349, 80, 100], [4.349, 5.034, 80, 80], [5.034, 11.12, "", ""], [11.12, 16.422, 120, 120], [16.422, 18.211, 100, 100], [18.211, 19.251, 90, 90], [19.251, 19.693, 70, 70], [19.693, 21.712, 90, 90], [21.712, 24.678, 100, 100], [24.678, 26.052, 50, 50], [26.052, 30.017, 100, 100], [30.017, 30.669, 90, 90], [30.669, 33.582, 100, 100], [33.582, 34.396, 40, 40], [34.396, 35.65, 80, 80], [35.65, 38.181, 120, 120], [38.181, 39.981, 100, 100], [39.981, 40.529, 60, 60], [40.529, 40.668, 80, 80], [40.668, 40.739, "", ""], [40.739, 42.125, 80, 80], [42.125, 42.791, 100, 100], [42.791, 45.033, "", ""], [45.033, 47.786, 100, 100], [47.786, 49.372, 70, 70], [49.372, 67.363, "", ""], [67.363, 70.897, 80, 80], [70.897, 74.3, 90, 90], [74.3, 75.215, 80, 80], [75.215, 76.095, "", ""], [76.095, 76.464, 80, 80], [76.464, 79.439, 90, 90], [79.439, 79.968, "", ""], [79.968, 80.115, 40, 40], [80.115, 80.164, "", ""]]
+curves = [[0.214, 0.314, 1530], [0.439, 0.846, 430], [0.974, 1.052, 2290], [1.283, 1.515, 1580], [2.261, 2.696, 1920], [3.387, 3.642, 2590], [4.294, 4.349, 2420], [4.441, 4.992, 320], [5.653, 6.259, 600], [6.939, 7.031, 1780], [7.233, 7.325, 1900], [7.655, 7.821, 1020], [7.968, 8.427, 610], [8.959, 9.327, 530], [9.4, 9.639, 1010], [10.135, 10.373, 1640], [10.502, 10.667, 1660], [14.444, 15.147, 1130], [15.949, 16.802, 970], [17.053, 17.755, 840], [17.955, 18.633, 1070], [18.733, 19.36, 510], [19.41, 19.711, 650], [19.912, 20.112, 1290], [20.288, 20.488, 1220], [20.965, 21.14, 1150], [21.241, 21.845, 1000], [22.028, 22.777, 580], [23.365, 23.766, 1170], [24.381, 24.622, 900], [24.729, 25.05, 780], [25.103, 26.093, 600], [26.734, 27.751, 680], [27.991, 28.954, 890], [29.355, 29.622, 1060], [29.863, 30.505, 1030], [33.232, 33.419, 1630], [33.9, 33.981, 1150], [34.034, 34.649, 770], [34.997, 35.398, 810], [35.692, 36.04, 1110], [36.574, 37.189, 1280], [37.323, 37.831, 1390], [38.098, 38.179, 2320], [38.393, 38.767, 1230], [38.954, 39.168, 1700], [39.302, 39.355, 2710], [40.184, 40.585, 500], [40.853, 42.083, 850], [42.189, 42.484, 830], [42.751, 42.804, 2120], [42.858, 42.992, 1190], [43.099, 43.259, 1420], [43.312, 43.847, 660], [44.008, 44.141, 1500], [44.329, 44.516, 830], [44.756, 45.264, 790], [45.425, 45.559, 1570], [45.772, 46.334, 1750], [47.805, 48.553, 370], [49.436, 49.997, 530], [51.249, 52, 610], [52.751, 53.102, 690], [53.202, 53.302, 1810], [53.552, 53.702, 1330], [53.853, 54.103, 690], [54.203, 54.428, 750], [54.654, 54.829, 1200], [54.954, 56.263, 930], [56.37, 56.494, 1490], [57.571, 57.816, 1370], [58.845, 59.812, 490], [59.936, 60.233, 640], [60.332, 61.1, 460], [61.819, 62.513, 680], [62.712, 63.029, 840], [63.742, 63.869, 1920], [64.375, 65.412, 590], [65.842, 66.02, 1270], [66.273, 66.804, 670], [67.108, 67.31, 2090], [67.462, 67.639, 1580], [68.378, 68.798, 1010], [69.47, 69.782, 780], [70.223, 70.71, 480], [70.888, 71.371, 610], [71.6, 71.956, 820], [72.058, 73.114, 810], [73.438, 73.637, 1090], [74.2, 74.43, 750], [74.482, 74.916, 440], [76.069, 76.644, 1220], [76.794, 77.494, 1350], [77.594, 78.119, 1020], [78.394, 78.519, 1830], [78.744, 78.844, 2630], [78.919, 79.169, 990], [79.219, 79.419, 700], [79.869, 79.919, 2290], [79.969, 80.019, 2540]]
+points = [
+  { km = -0.011, kind = "station", label = "Düsseldorf Hauptbahnhof", uic = "8008094", pos = [51.21971, 6.79394] },
+  { km = 0.085, kind = "signal", label = "N110", signal = "distant,main,minor,route", dir = 1 },
+  { km = 0.398, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 0.512, kind = "signal", label = "T119", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 0.612, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.673, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.706, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.929, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.938, kind = "signal", label = "P804", signal = "distant,main,minor,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 0.96, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.062, kind = "station", label = "Düsseldorf Wehrhahn", pos = [51.22842, 6.79816], uic = "8001582" },
+  { km = 1.197, kind = "signal", label = "N804", signal = "main,minor", dir = 1 },
+  { km = 1.227, kind = "halt", label = "Wehrhahn S", pos = [51.22999, 6.79826] },
+  { km = 1.279, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.409, kind = "signal", label = "S812", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 1.877, kind = "halt", label = "Schillerplatz", pos = [51.23555, 6.79985] },
+  { km = 2.002, kind = "signal", label = "F814", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 2.06, kind = "stop", label = "Düsseldorf Zoo", pos = [51.23713, 6.79693], uic = "8001583" },
+  { km = 2.316, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.519, kind = "signal", label = "816", signal = "distant,main", dir = -1 },
+  { km = 3.12, kind = "signal", label = "818", signal = "distant,main", dir = -1 },
+  { km = 3.196, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.292, kind = "halt", label = "Düsseldorf-Derendorf", uic = "8001586", pos = [51.2478, 6.79449] },
+  { km = 3.538, kind = "signal", label = "820", signal = "main,speed_limit,wrong_road", dir = 1 },
+  { km = 3.676, kind = "signal", label = "822", signal = "distant,main,traversable", dir = -1 },
+  { km = 3.892, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.047, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 4.282, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.283, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 4.349, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.594, kind = "signal", signal = "main", dir = -1 },
+  { km = 5.24, kind = "signal", label = "828", signal = "main", dir = -1 },
+  { km = 5.538, kind = "halt", label = "Düsseldorf-Rath Mitte", uic = "8001593", pos = [51.2611, 6.80858] },
+  { km = 5.552, kind = "stop", label = "Düsseldorf-Rath Mitte S", pos = [51.26108, 6.80885] },
+  { km = 5.647, kind = "halt", label = "Rath Mitte S", pos = [51.2623, 6.8113] },
+  { km = 5.969, kind = "halt", label = "Rotdornstraße", pos = [51.26294, 6.81569] },
+  { km = 6.226, kind = "halt", label = "Rath S", pos = [51.26339, 6.81891] },
+  { km = 6.268, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 6.365, kind = "signal", signal = "main_repeated" },
+  { km = 6.417, kind = "station", label = "Düsseldorf-Rath", pos = [51.26489, 6.82157], uic = "8001592" },
+  { km = 6.816, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 7.356, kind = "signal", signal = "main", dir = -1 },
+  { km = 7.359, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.985, kind = "halt", label = "Ratingen, Felderhof", pos = [51.28174, 6.8362] },
+  { km = 9.432, kind = "signal", signal = "main", dir = 1 },
+  { km = 9.803, kind = "signal", label = "P1", signal = "main", dir = -1 },
+  { km = 10.049, kind = "station", label = "Ratingen Ost", pos = [51.2953, 6.86363], uic = "8004948", ele = 67 },
+  { km = 14.431, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.41, kind = "station", label = "Hösel", pos = [51.3414, 6.89293], uic = "8002919" },
+  { km = 17.232, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 18.211, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 18.438, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.251, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.445, kind = "stop", label = "Kettwig Stausee", pos = [51.35651, 6.93867], uic = "8003245" },
+  { km = 19.693, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 20.797, kind = "station", label = "Kettwig", pos = [51.36355, 6.95409], uic = "8000198" },
+  { km = 21.081, kind = "signal", signal = "main", dir = 1 },
+  { km = 21.712, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.774, kind = "signal", signal = "main", dir = -1 },
+  { km = 23.287, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 24.678, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 25.42, kind = "station", label = "Essen-Werden", pos = [51.3865, 6.99779], uic = "8001915" },
+  { km = 26.052, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.128, kind = "stop", label = "Essen-Hügel", pos = [51.40444, 7.00834], uic = "8001908" },
+  { km = 28.965, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 30.017, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 30.669, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 30.758, kind = "station", label = "Essen-Stadtwald", pos = [51.42312, 7.02328], uic = "8001896" },
+  { km = 32.676, kind = "stop", label = "Essen Süd", pos = [51.43931, 7.0231], uic = "8001897" },
+  { km = 33.582, kind = "signal", signal = "main", dir = 1 },
+  { km = 34.064, kind = "signal", label = "N124", signal = "main", dir = -1 },
+  { km = 34.168, kind = "signal", signal = "main", dir = 1 },
+  { km = 34.334, kind = "signal", signal = "minor", dir = -1 },
+  { km = 34.404, kind = "signal", signal = "minor", dir = -1 },
+  { km = 34.46, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 34.49, kind = "signal", signal = "minor", dir = 1 },
+  { km = 34.556, kind = "signal", signal = "route_distant", dir = 1 },
+  { km = 34.704, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 35.65, kind = "signal", label = "N 111", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 35.758, kind = "signal", signal = "route", dir = 1 },
+  { km = 35.826, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 36.416, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 36.541, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 36.563, kind = "signal", signal = "minor", dir = -1 },
+  { km = 37.161, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 37.629, kind = "signal", label = "B 942", signal = "distant,main,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 37.646, kind = "signal", signal = "distant", dir = -1 },
+  { km = 38.161, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 38.252, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 38.32, kind = "signal", signal = "main", dir = -1 },
+  { km = 38.495, kind = "station", label = "Essen-Steele", uic = "8000099", pos = [51.45068, 7.07555] },
+  { km = 38.642, kind = "signal", label = "R104", signal = "distant,main,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 39.08, kind = "signal", signal = "minor", dir = -1 },
+  { km = 39.643, kind = "signal", label = "S4", signal = "distant,main,minor", dir = -1 },
+  { km = 39.712, kind = "station", label = "Essen-Steele Ost", pos = [51.44417, 7.08861] },
+  { km = 39.8, kind = "signal", label = "N4", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 40.192, kind = "signal", signal = "minor", dir = -1 },
+  { km = 41.296, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 41.556, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 41.664, kind = "stop", label = "Essen-Horst", uic = "8006194", pos = [51.43119, 7.10278] },
+  { km = 42.125, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 42.485, kind = "signal", signal = "distant", dir = -1 },
+  { km = 43.084, kind = "signal", signal = "main,minor,traversable", dir = -1 },
+  { km = 43.245, kind = "station", label = "Bochum-Dahlhausen Eisenbahnmuseum", pos = [51.4323, 7.12318] },
+  { km = 43.626, kind = "signal", signal = "distant", dir = 1 },
+  { km = 43.735, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 43.757, kind = "signal", signal = "electricity,minor", dir = 1 },
+  { km = 43.758, kind = "signal", label = "R383", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 43.79, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 43.924, kind = "signal", label = "313I", signal = "minor", dir = -1 },
+  { km = 44.8, kind = "station", label = "Bochum-Dahlhausen", pos = [51.42638, 7.14077], uic = "8001038" },
+  { km = 44.828, kind = "signal", signal = "distant", dir = 1 },
+  { km = 44.856, kind = "signal", label = "N313", signal = "main,minor,traversable", dir = -1 },
+  { km = 44.928, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 44.929, kind = "signal", signal = "distant", dir = -1 },
+  { km = 45.654, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 45.661, kind = "signal", label = "F358", signal = "main", dir = -1 },
+  { km = 46.691, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 46.703, kind = "signal", signal = "distant", dir = -1 },
+  { km = 47.054, kind = "signal", signal = "distant", dir = 1 },
+  { km = 47.767, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 48.152, kind = "signal", signal = "main", dir = 1 },
+  { km = 48.377, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 48.718, kind = "signal", label = "722", signal = "minor", dir = 1 },
+  { km = 48.792, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 48.793, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 48.876, kind = "signal", label = "P702", signal = "main,minor", dir = -1 },
+  { km = 49.219, kind = "station", label = "Hattingen (Ruhr)", uic = "8002639", pos = [51.40089, 7.16921] },
+  { km = 49.328, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 49.372, kind = "signal", label = "N702", signal = "main,minor", dir = 1 },
+  { km = 49.665, kind = "signal", signal = "minor", dir = -1 },
+  { km = 49.888, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 49.994, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 50.049, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 50.075, kind = "signal", label = "F762", signal = "main", dir = -1 },
+  { km = 50.4, kind = "signal", signal = "whistle", dir = 1, measured = true },
+  { km = 50.543, kind = "signal", signal = "stop,whistle", dir = -1 },
+  { km = 50.6, kind = "signal", signal = "stop", dir = 1, measured = true },
+  { km = 50.624, kind = "stop", label = "Henrichshütte", pos = [51.4091, 7.18209] },
+  { km = 50.626, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 50.694, kind = "signal", signal = "stop", dir = 1 },
+  { km = 52.462, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 52.785, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 54.147, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 54.294, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 54.504, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 54.516, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 54.523, kind = "signal", signal = "stop", dir = -1 },
+  { km = 54.64, kind = "stop", label = "Blankenstein Burg", pos = [51.40896, 7.2302] },
+  { km = 54.669, kind = "signal", signal = "stop,whistle", dir = 1 },
+  { km = 55.654, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 55.722, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 56.212, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 56.251, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 56.252, kind = "signal", signal = "stop", dir = -1 },
+  { km = 56.27, kind = "halt", label = "Haus Kemnade", pos = [51.40623, 7.25086] },
+  { km = 56.374, kind = "signal", signal = "stop", dir = 1 },
+  { km = 56.567, kind = "signal", signal = "distant", dir = 1 },
+  { km = 56.886, kind = "signal", signal = "main", dir = 1 },
+  { km = 56.95, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 57.217, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 57.593, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 57.709, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 58.085, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 58.405, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 58.529, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 58.671, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 58.823, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 59.106, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 59.236, kind = "halt", label = "Herbede", pos = [51.42529, 7.28099] },
+  { km = 59.493, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 59.89, kind = "signal", signal = "main", dir = -1 },
+  { km = 60.843, kind = "halt", label = "Ruine Hardenstein", pos = [51.42052, 7.30074] },
+  { km = 61.745, kind = "signal", signal = "crossing_distant,crossing_hint,speed_limit_distant", dir = 1 },
+  { km = 61.844, kind = "signal", label = "ÜS 1 I", signal = "crossing", dir = 1 },
+  { km = 62.415, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 62.516, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 62.594, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 62.666, kind = "signal", signal = "stop", dir = 1 },
+  { km = 62.67, kind = "halt", label = "Haltestelle Zeche Nachtigall", pos = [51.42961, 7.3192] },
+  { km = 62.678, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 62.766, kind = "signal", signal = "speed_limit_distant,stop", dir = 1 },
+  { km = 62.771, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 62.871, kind = "signal", label = "ÜS 1 II", signal = "crossing", dir = 1 },
+  { km = 63.1, kind = "station", label = "Gruben- und Feldbahnmuseum", pos = [51.42833, 7.32504] },
+  { km = 63.148, kind = "signal", signal = "crossing_info,speed_limit", dir = -1 },
+  { km = 63.324, kind = "halt", label = "Parkplatz Nachtigallstraße", pos = [51.42765, 7.32799] },
+  { km = 63.478, kind = "signal", label = "ÜS 2 II", signal = "crossing", dir = -1 },
+  { km = 63.58, kind = "signal", signal = "crossing_distant,crossing_hint,speed_limit_distant", dir = -1 },
+  { km = 64.277, kind = "halt", label = "Witten-Bommern", pos = [51.42456, 7.34056] },
+  { km = 64.306, kind = "signal", signal = "stop", dir = 1 },
+  { km = 67.07, kind = "signal", signal = "distant,main,traversable", dir = 1 },
+  { km = 67.179, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 67.279, kind = "signal", signal = "minor", dir = 1 },
+  { km = 67.552, kind = "signal", label = "N 102", signal = "main,minor,traversable,wrong_road", dir = -1 },
+  { km = 67.611, kind = "stop", label = "Wengern Ost", pos = [51.39953, 7.35084] },
+  { km = 68.14, kind = "signal", label = "P 102", signal = "main,minor,traversable", dir = 1 },
+  { km = 68.613, kind = "signal", signal = "distant,main,traversable", dir = -1 },
+  { km = 69.722, kind = "signal", signal = "distant", dir = -1 },
+  { km = 69.8, kind = "signal", signal = "speed_limit_distant", dir = 1, measured = true },
+  { km = 70.404, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 70.577, kind = "signal", signal = "distant", dir = -1 },
+  { km = 70.888, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 71.095, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 71.137, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 71.403, kind = "signal", signal = "distant", dir = 1 },
+  { km = 71.422, kind = "signal", signal = "distant", dir = -1 },
+  { km = 71.608, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 72.314, kind = "signal", signal = "crossing_hint", dir = -1 },
+  { km = 72.406, kind = "signal", signal = "main", dir = 1 },
+  { km = 72.67, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 72.979, kind = "signal", label = "N 467", signal = "main", dir = -1 },
+  { km = 73.979, kind = "signal", signal = "distant", dir = -1 },
+  { km = 74.007, kind = "signal", signal = "distant", dir = 1 },
+  { km = 74.402, kind = "signal", label = "565", signal = "main", dir = -1 },
+  { km = 74.404, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 74.601, kind = "signal", signal = "distant", dir = -1 },
+  { km = 74.974, kind = "signal", signal = "minor", dir = 1 },
+  { km = 75.123, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 75.199, kind = "signal", signal = "distant", dir = -1 },
+  { km = 75.374, kind = "signal", signal = "distant", dir = 1 },
+  { km = 75.472, kind = "signal", signal = "minor", dir = -1 },
+  { km = 75.643, kind = "signal", signal = "minor", dir = 1 },
+  { km = 75.956, kind = "signal", label = "533 II", signal = "minor", dir = -1 },
+  { km = 76.002, kind = "station", label = "Hagen-Vorhalle", uic = "8000977", pos = [51.38814, 7.43367] },
+  { km = 76.021, kind = "signal", label = "533 II", signal = "minor", dir = 1 },
+  { km = 76.101, kind = "signal", label = "P522", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 76.486, kind = "signal", signal = "minor", dir = -1 },
+  { km = 76.5, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 76.818, kind = "signal", signal = "minor", dir = -1 },
+  { km = 76.851, kind = "signal", signal = "distant", dir = 1 },
+  { km = 77.743, kind = "signal", signal = "distant", dir = 1 },
+  { km = 77.896, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 78.06, kind = "signal", signal = "distant", dir = -1 },
+  { km = 78.216, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 79.233, kind = "signal", label = "F 044", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 79.479, kind = "signal", signal = "minor", dir = -1 },
+  { km = 79.665, kind = "signal", signal = "minor", dir = 1 },
+  { km = 79.774, kind = "signal", signal = "minor", dir = -1 },
+  { km = 79.829, kind = "signal", signal = "minor", dir = 1 },
+  { km = 80.115, kind = "signal", label = "N 011", signal = "main,route", dir = 1 },
+  { km = 80.164, kind = "station", label = "Hagen Hbf", pos = [51.36296, 7.46061] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.34, kmTo = 0.362, length = 22 },
+  { kind = "bridge", kmFrom = 0.473, kmTo = 0.494, length = 22 },
+  { kind = "bridge", kmFrom = 4.293, kmTo = 4.3, length = 10 },
+  { kind = "bridge", kmFrom = 4.553, kmTo = 4.587, length = 47 },
+  { kind = "bridge", kmFrom = 4.806, kmTo = 4.867, length = 82 },
+  { kind = "bridge", kmFrom = 5.575, kmTo = 5.596, length = 28 },
+  { kind = "bridge", kmFrom = 5.798, kmTo = 5.815, length = 24 },
+  { kind = "bridge", kmFrom = 7.878, kmTo = 7.918, length = 55 },
+  { kind = "bridge", kmFrom = 8.296, kmTo = 8.323, length = 37 },
+  { kind = "bridge", kmFrom = 9.302, kmTo = 9.335, length = 45 },
+  { kind = "bridge", kmFrom = 9.65, kmTo = 9.666, length = 22 },
+  { kind = "bridge", kmFrom = 11.106, kmTo = 11.12, length = 15 },
+  { kind = "tunnel", kmFrom = 16.428, kmTo = 16.755, length = 326, name = "Höseler Tunnel" },
+  { kind = "bridge", kmFrom = 19.611, kmTo = 19.88, length = 268 },
+  { kind = "bridge", kmFrom = 20.134, kmTo = 20.144, length = 10 },
+  { kind = "bridge", kmFrom = 20.193, kmTo = 20.21, length = 16 },
+  { kind = "bridge", kmFrom = 27.094, kmTo = 27.109, length = 14 },
+  { kind = "bridge", kmFrom = 28.255, kmTo = 28.273, length = 17 },
+  { kind = "bridge", kmFrom = 29.322, kmTo = 29.343, length = 20 },
+  { kind = "tunnel", kmFrom = 30.293, kmTo = 30.557, length = 247, name = "Stadtwaldtunnel" },
+  { kind = "bridge", kmFrom = 31.364, kmTo = 31.382, length = 17 },
+  { kind = "bridge", kmFrom = 31.838, kmTo = 31.913, length = 70 },
+  { kind = "bridge", kmFrom = 33.619, kmTo = 33.655, length = 33 },
+  { kind = "bridge", kmFrom = 38.534, kmTo = 38.581, length = 44 },
+  { kind = "bridge", kmFrom = 38.711, kmTo = 38.742, length = 29 },
+  { kind = "bridge", kmFrom = 38.859, kmTo = 38.874, length = 15 },
+  { kind = "tunnel", kmFrom = 38.999, kmTo = 39.082, length = 77 },
+  { kind = "bridge", kmFrom = 39.48, kmTo = 39.563, length = 78 },
+  { kind = "bridge", kmFrom = 41.197, kmTo = 41.208, length = 11 },
+  { kind = "bridge", kmFrom = 42.177, kmTo = 42.188, length = 11 },
+  { kind = "bridge", kmFrom = 42.248, kmTo = 42.263, length = 14 },
+  { kind = "bridge", kmFrom = 47.775, kmTo = 47.786, length = 11 },
+  { kind = "bridge", kmFrom = 48.046, kmTo = 48.081, length = 33 },
+  { kind = "bridge", kmFrom = 48.536, kmTo = 48.716, length = 168 },
+  { kind = "bridge", kmFrom = 52.476, kmTo = 52.487, length = 11 },
+  { kind = "bridge", kmFrom = 52.531, kmTo = 52.548, length = 16 },
+  { kind = "tunnel", kmFrom = 52.883, kmTo = 52.956, length = 72, name = "Blankensteiner Tunnel" },
+  { kind = "bridge", kmFrom = 64.429, kmTo = 64.45, length = 21 },
+  { kind = "bridge", kmFrom = 74.254, kmTo = 74.3, length = 45 },
+  { kind = "bridge", kmFrom = 77.21, kmTo = 77.276, length = 66 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q{rwHo_nh@mMaP_LwJwHk@uH`C", v = 70 },
+  { line = "mjtwHsynh@wYzGsUp@iYQgKr@_r@`Qo^hD", v = 120 },
+  { line = "{tywHwvmh@uTjC", v = 100 },
+  { line = "qjzwHkrmh@sMlBqDiAuCyCsBmF_AiI?yEdAmM", v = 80 },
+  { line = "{f{wHa}nh@lLmrAOyNe@aHqA}HkB_FqFyFqt@m_@aWkQo[mO}TeVsEkLuBoO_A{mAo@wKkD{MqLkQwGcFek@qW{\\sHy[aN" },
+  { line = "aycxHuo|h@aoDs|AqK{G}G_IiFoJs\\k`AoEaSuAsQ", v = 120 },
+  { line = "wlkxHwsci@?Q", v = 100 },
+  { line = "wlkxHitci@d@e\\", tunnel = true, v = 100 },
+  { line = "qkkxHoqdi@bDuc@DyLg@kKmAyJyBiJkG}RcF}K", v = 100 },
+  { line = "g}kxHkhhi@}D}FeEkDmQ}EkEaCqEeGaDiK", v = 90 },
+  { line = "ymmxHeuii@kCoUqDkL", v = 70 },
+  { line = "wwmxHayji@iJkT_Le_@eUsf@sOiRoG}DgGmB", v = 90 },
+  { line = "sgpxH}rni@sTYyEiAcHoFcDsFeBgFiQo`AeAqPqBg{@qByO", v = 100 },
+  { line = "cqrxHqlti@uBcLeC{GiG}K{EeEoD{@yCJiMhHsIlA", v = 50 },
+  { line = "mktxHmkui@ki@@yG_BeGgEiFyH_DcJaBeJ{F}h@{BqJqDgI{F}HmEkDi]}P_WkW", v = 100 },
+  { line = "clyxHcnzi@yL_F", v = 90 },
+  { line = "}yyxHcuzi@yLo@", tunnel = true, v = 90 },
+  { line = "wgzxHsvzi@{DC", v = 90 },
+  { line = "smzxHwvzi@_fCr@}PrB", v = 100 },
+  { line = "qf_yHoqzi@}ZdG}DeBoDaH", v = 40 },
+  { line = "}m`yHquzi@sEkNoJ{g@a@}MZcZ", v = 80 },
+  { line = "g`ayH{w}i@ZkMx@gJlK{o@fB{Nv@mTYun@tAeQlE{Z", v = 120 },
+  { line = "yc`yHmedj@lH_]vMcY", v = 100 },
+  { line = "sk_yHq}ej@xAiD", tunnel = true, v = 100 },
+  { line = "yh_yH{bfj@j[q{@", v = 100 },
+  { line = "ml~xHm_hj@dJoUtCiDtCaB", v = 60 },
+  { line = "{w}xHi~hj@dFkA", v = 80 },
+  { line = "up}xHu`ij@rBm@" },
+  { line = "am}xHcbij@bIkBxFmChHcGbFwGzD{IlCeKzAcLb@{K", v = 80 },
+  { line = "k|{xH{kkj@@oR_Fua@", v = 100 },
+  { line = "ic|xHabmj@qAyIaBgXOqObAeSzAuFbJyPtIuTlH__@tEoL" },
+  { line = "o~zxHqgrj@dEaGnMiKbNwNdHsD~MyCrkAiL", v = 100 },
+  { line = "{uvxHmctj@xFeApEuDzCaHpAcJAqJgHufA", v = 70 },
+  { line = "kivxHwrwj@uBwSiBaGqCaF{eAm}@aEuFqCaHsBqKs@{M|AalAb@wI" },
+  { line = "sgyxHay~j@f@eE", tunnel = true },
+  { line = "kfyxHg__k@rQgs@`J}WvCeZfA_GdIaW|KkUjDqLtBkNx@qKXwN]aNgCoSiG{Rsm@mrAkGmJqq@cy@gEgK_AoFc@cHBmHx@_I`EqM`NyQpCwGrEqU`@yGGsHmBeMaGoLug@{n@gCiF_B}GoA_NZaf@vAiMjRaaA~K}y@hF}Q|EkIvGkD|HH|`@xVvSpG|Fh@nFi@jF}B|QiNxIeJ" },
+  { line = "_jvxHyhzk@dJyKvQwZfQs\\vEaQfPibAtEoMtVa`@lDeDfImBdOtB", v = 80 },
+  { line = "qcrxH{x`l@pHLjGqBbW_X`DwGvHeWzAqK`@eMa@aOyAmNuCiKkIuSgHiO}QyUkLcM", v = 90 },
+  { line = "gcrxHmfgl@mL}DyEaEaDeIgGc]", v = 80 },
+  { line = "ydsxHwzhl@gSigA" },
+  { line = "aysxHackl@{A{KoAaR", v = 80 },
+  { line = "m~sxH_cll@f@w^h@_JlA_H|HeR`QgWnHoFjG}BlUmEh[_BlOoFhFc@", v = 90 },
+  { line = "aapxHu_pl@t\\c@" },
+  { line = "kcoxHy`pl@fGI", v = 40 },
+  { line = "c{nxHcapl@vAD" },
+]
+posts = [[0, 51.22001, 6.79442], [1, 51.22795, 6.79826], [2, 51.23661, 6.79683], [3, 51.24528, 6.79532], [4, 51.25394, 6.79307], [5, 51.26281, 6.79841], [6, 51.26106, 6.8174], [7, 51.27186, 6.82575], [8, 51.28289, 6.83407], [9, 51.28545, 6.8524], [10, 51.29475, 6.86323], [11, 51.30554, 6.86804], [12, 51.31406, 6.87257], [13, 51.32256, 6.87709], [14, 51.33107, 6.88161], [15, 51.33902, 6.88785], [16, 51.34431, 6.89942], [17, 51.34485, 6.91326], [18, 51.34696, 6.92658], [19, 51.35459, 6.93324], [20, 51.35934, 6.94512], [21, 51.36483, 6.95641], [22, 51.37284, 6.96137], [23, 51.37882, 6.96922], [24, 51.38115, 6.98202], [25, 51.38347, 6.99467], [26, 51.39099, 6.99595], [27, 51.39938, 6.99627], [28, 51.40405, 7.00651], [29, 51.40955, 7.01583], [30, 51.41701, 7.02184], [31, 51.42528, 7.02329], [32, 51.43369, 7.02319], [33, 51.4421, 7.02309], [34, 51.45043, 7.02152], [35, 51.45572, 7.03024], [36, 51.45566, 7.04347], [37, 51.453, 7.0562], [38, 51.4522, 7.06946], [39, 51.44778, 7.08074], [40, 51.44269, 7.09147], [41, 51.43564, 7.09761], [42, 51.43011, 7.10695], [43, 51.43163, 7.11997], [44, 51.42995, 7.13224], [45, 51.4254, 7.14346], [46, 51.41823, 7.15035], [47, 51.40992, 7.15221], [48, 51.40161, 7.15403], [49, 51.40071, 7.16625], [50, 51.40416, 7.17786], [51, 51.41205, 7.18471], [52, 51.41704, 7.19533], [53, 51.41606, 7.20958], [54, 51.41135, 7.2218], [55, 51.40688, 7.23397], [56, 51.40518, 7.24751], [57, 51.41053, 7.25891], [58, 51.41708, 7.26915], [59, 51.42442, 7.27789], [60, 51.4218, 7.28977], [61, 51.42154, 7.30234], [62, 51.42873, 7.31117], [63, 51.42897, 7.32388], [64, 51.42535, 7.33682], [65, 51.421, 7.34875], [66, 51.41269, 7.34504], [67, 51.40421, 7.34612], [68, 51.39711, 7.35457], [69, 51.39168, 7.36668], [70, 51.38693, 7.37863], [71, 51.37902, 7.38193], [72, 51.3718, 7.38931], [73, 51.37136, 7.40263], [74, 51.37768, 7.41262], [75, 51.38448, 7.42049], [76, 51.38811, 7.43366], [77, 51.38876, 7.44762], [78, 51.38202, 7.45672], [79, 51.37312, 7.45856], [80, 51.36425, 7.46014]]
+
+[[connections]]
+km = -0.011
+station = "Düsseldorf Hauptbahnhof"
+lines = [
+  { id = "2413", ref = "2413", name = "2413 Düsseldorf-Eller - Düsseldorf Hbf", km = 5.735 },
+  { id = "2416", ref = "2416", name = "2416 Düsseldorf Hbf - Düsseldorf-Unterrath", km = -0.06 },
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 11.145 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 88.383 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 39.307 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 38.954 },
+]
+
+[[connections]]
+km = 3.292
+station = "Düsseldorf-Derendorf"
+lines = [
+  { id = "2413", ref = "2413", name = "2413 Düsseldorf-Eller - Düsseldorf Hbf", km = 8.995 },
+  { id = "2416", ref = "2416", name = "2416 Düsseldorf Hbf - Düsseldorf-Unterrath", km = 3.239 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 42.771 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 42.718 },
+]
+
+[[connections]]
+km = 6.226
+station = "Rath S"
+lines = [
+  { id = "2324", ref = "2324", name = "2324 Mülheim (Ruhr)-Speldorf - Niederlahnstein", km = 21.424 },
+]
+
+[[connections]]
+km = 7.985
+station = "Ratingen, Felderhof"
+lines = [
+  { id = "2324", ref = "2324", name = "2324 Mülheim (Ruhr)-Speldorf - Niederlahnstein", km = 19.105 },
+]
+
+[[connections]]
+km = 25.42
+station = "Essen-Werden"
+lines = [
+  { id = "2161", ref = "2161", name = "2161 Essen Werden - Essen Hbf", km = 0 },
+]
+
+[[connections]]
+km = 32.676
+station = "Essen Süd"
+lines = [
+  { id = "2161", ref = "2161", name = "2161 Essen Werden - Essen Hbf", km = 6.704 },
+]
+
+[[connections]]
+km = 38.495
+station = "Essen-Steele"
+lines = [
+  { id = "2165", ref = "2165", name = "2165 Essen-Überruhr - Bochum-Langendreer", km = 0.969 },
+  { id = "2291", ref = "2291", name = "2291 Mülheim (Ruhr)-Styrum - Bochum Hbf", km = 134.214 },
+]
+
+[[connections]]
+km = 39.712
+station = "Essen-Steele Ost"
+lines = [
+  { id = "2291", ref = "2291", name = "2291 Mülheim (Ruhr)-Styrum - Bochum Hbf", km = 135.348 },
+]
+
+[[connections]]
+km = 43.245
+station = "Bochum-Dahlhausen Eisenbahnmuseum"
+lines = [
+  { id = "2165", ref = "2165", name = "2165 Essen-Überruhr - Bochum-Langendreer", km = 5.554 },
+]
+
+[[connections]]
+km = 67.611
+station = "Wengern Ost"
+lines = [
+  { id = "2143", ref = "2143", name = "2143 Witten Hbf - Schwelm", km = 67.616 },
+]
+
+[[connections]]
+km = 76.002
+station = "Hagen-Vorhalle"
+lines = [
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 58.99 },
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = 6.336 },
+  { id = "2801", ref = "2801", name = "2801 Hagen - Dortmund", km = 4.273 },
+  { id = "2820", ref = "2820", name = "2820 Hagen-Vorhalle - Hagen-Kabel", km = 76.044 },
+]
+
+[[connections]]
+km = 80.164
+station = "Hagen Hbf"
+lines = [
+  { id = "2143", ref = "2143", name = "2143 Witten Hbf - Schwelm", km = 80.137 },
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 55.499 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 141.818 },
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = 5.252 },
+  { id = "2801", ref = "2801", name = "2801 Hagen - Dortmund", km = 0.052 },
+  { id = "2811", ref = "2811", name = "2811 Abzw Hagen Rehsiepen - Hagen Streckenwechsel 2811/2823", km = 141.791 },
+  { id = "2843", ref = "2843", name = "2843 Abzw Hohensyburg - Schwerte (Ruhr) Ost", km = 140.932 },
+  { id = "2850", ref = "2850", name = "2850 Letmathe - Fröndenberg", km = -1.026 },
+]

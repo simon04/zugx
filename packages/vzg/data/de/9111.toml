@@ -1,0 +1,77 @@
+id = "9111"
+ref = "9111"
+name = "9111 Lüneburg Süd - Soltau (Han) Süd"
+operator = "Schieneninfrastruktur Ost-Niedersachsen GmbH"
+gauge = "1435"
+wikidata = "Q802722"
+from = "Lüneburg Süd"
+to = "Soltau (Han) Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.931
+kmTo = 56.713
+length = 55.688
+speeds = [[0.931, 56.532, 50, 50], [56.532, 56.573, "", ""], [56.573, 56.601, 60, 60], [56.601, 56.713, "", ""]]
+curves = [[1.356, 1.806, 350], [2.731, 2.831, 2210], [3.181, 3.681, 680], [4.131, 4.256, 1480], [4.306, 4.906, 1590], [7.206, 7.381, 1510], [8.481, 8.631, 1180], [10.256, 10.306, 2370], [10.431, 10.531, 1680], [10.631, 10.731, 1110], [11.931, 12.056, 1720], [12.181, 12.256, 2400], [12.823, 12.973, 1290], [13.098, 13.248, 990], [13.523, 13.573, 2820], [14.273, 14.448, 2130], [14.523, 14.698, 2040], [16.572, 17.172, 1180], [18.797, 19.022, 1000], [21.091, 22.17, 800], [22.747, 23.248, 790], [24.728, 25.004, 1420], [26.509, 27.036, 800], [27.512, 27.587, 2360], [29.594, 29.895, 800], [30.798, 30.923, 1960], [37.168, 37.218, 2600], [37.795, 37.946, 1690], [38.071, 38.121, 2530], [38.247, 38.347, 1750], [38.773, 39.225, 650], [40.15, 40.625, 1050], [41.725, 41.95, 1390], [43.525, 43.65, 1500], [43.7, 44.075, 1510], [46.2, 46.7, 1340], [49.825, 50.275, 620], [50.55, 50.625, 2680], [53.025, 53.575, 510], [55.3, 55.95, 520], [56.325, 56.55, 570]]
+points = [
+  { km = 0.999, kind = "signal", signal = "main,minor", dir = -1 },
+  { km = 1.102, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.253, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.323, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.212, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.449, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.622, kind = "station", label = "Oedeme", pos = [53.23007, 10.38916] },
+  { km = 4.995, kind = "station", label = "Rettmer", pos = [53.21893, 10.38119] },
+  { km = 9.243, kind = "station", label = "Melbeck-Embsen", pos = [53.1815, 10.37117] },
+  { km = 12.554, kind = "station", label = "Heinsen", pos = [53.15647, 10.34524] },
+  { km = 19.786, kind = "halt", label = "Schafstall", pos = [53.13109, 10.24887] },
+  { km = 22.151, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.195, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 22.195, kind = "signal", signal = "stop", dir = -1 },
+  { km = 22.242, kind = "signal", signal = "stop", dir = 1 },
+  { km = 22.243, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 22.259, kind = "station", label = "Amelinghausen-Sottorf", pos = [53.12998, 10.21598] },
+  { km = 22.341, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 22.547, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 22.719, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 22.763, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 27.241, kind = "station", label = "Soderstorf", pos = [53.13738, 10.14794] },
+  { km = 29.952, kind = "halt", label = "Schwindebeck", pos = [53.12242, 10.11625] },
+  { km = 31.442, kind = "station", label = "Kleine Raubkammer", pos = [53.11777, 10.09542] },
+  { km = 34.479, kind = "halt", label = "Steinbeck / Luhe", pos = [53.10649, 10.05415] },
+  { km = 36.136, kind = "station", label = "Hützel (Lüneb)", pos = [53.10039, 10.03158] },
+  { km = 39.283, kind = "station", label = "Bispingen", pos = [53.08517, 9.99374] },
+  { km = 41.589, kind = "halt", label = "Luhegrund", pos = [53.06733, 9.97841] },
+  { km = 48.596, kind = "station", label = "Hambostel", pos = [53.02254, 9.90824] },
+  { km = 55.968, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 56.038, kind = "signal", label = "P2", signal = "main,minor,traversable", dir = -1 },
+  { km = 56.367, kind = "signal", label = "N2", signal = "main,minor,traversable", dir = 1 },
+  { km = 56.448, kind = "signal", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.009, kmTo = 2.152, length = 143 },
+  { kind = "bridge", kmFrom = 2.179, kmTo = 2.21, length = 31 },
+  { kind = "bridge", kmFrom = 4.002, kmTo = 4.021, length = 20 },
+  { kind = "bridge", kmFrom = 4.171, kmTo = 4.202, length = 31 },
+  { kind = "bridge", kmFrom = 12.423, kmTo = 12.447, length = 23 },
+  { kind = "bridge", kmFrom = 20.997, kmTo = 21.053, length = 56 },
+  { kind = "bridge", kmFrom = 23.309, kmTo = 23.341, length = 32 },
+  { kind = "bridge", kmFrom = 28.105, kmTo = 28.12, length = 15 },
+  { kind = "bridge", kmFrom = 29.494, kmTo = 29.504, length = 10 },
+  { kind = "bridge", kmFrom = 34.77, kmTo = 34.791, length = 20 },
+  { kind = "bridge", kmFrom = 53.441, kmTo = 53.454, length = 12 },
+  { kind = "bridge", kmFrom = 54.889, kmTo = 54.917, length = 28 },
+  { kind = "bridge", kmFrom = 55.003, kmTo = 55.04, length = 37 },
+  { kind = "bridge", kmFrom = 56.573, kmTo = 56.601, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}l}cIuer~@zZbD`CfBvBnEjBfL|G~|A~@~g@p@bJlA`F`F|J~Zn^pOdK|QpEtfCxK~eAzZdwAdy@jS`Pnz@|gAjH|LvY|m@xFxQvGp_@bOfdAjB~RzLlyDjBzWjB|KxC|Jpp@`}AdNv^|E~Wjg@~eDn@jINjLi@dPaB|LqClK{FlL_a@|h@qDvIiCdPyTtiCw@~Nq@nmCF`Mz@vL|DbSvXzy@zbAraCdCpI`R`~AvBxMp_DfiQfJb\\fR|e@bFjHzDnChFdBju@|PpKxHjInLfl@ddAxv@jhCbGdN`JvKfI~Gf`BroAfLhLhH`Ohp@hiB`u@dmBtGhPzD~FxH|ExSpEpkCx]vEhCxClD~DjJhk@zyCbA~KOdNsArJqApEoRzd@iBvI", v = 50 },
+  { line = "m{jbI{da{@QrB" },
+  { line = "_|jbIgaa{@MpA", v = 60 },
+  { line = "m|jbIu~`{@aAxH" },
+]
+posts = [[1, 53.23938, 10.42008], [2, 53.23341, 10.41224], [3, 53.23214, 10.39737], [4, 53.22727, 10.38595], [5, 53.21889, 10.38118], [6, 53.20991, 10.38037], [7, 53.20093, 10.37954], [8, 53.19211, 10.37683], [9, 53.18353, 10.37249], [10, 53.17517, 10.36698], [11, 53.1673, 10.35989], [12, 53.16005, 10.35102], [13, 53.15394, 10.34042], [14, 53.15019, 10.32683], [15, 53.14801, 10.31237], [16, 53.14694, 10.29748], [17, 53.14521, 10.28286], [18, 53.13942, 10.2714], [19, 53.13377, 10.25979], [20, 53.13043, 10.24613], [21, 53.12706, 10.23229], [22, 53.12819, 10.21842], [23, 53.13514, 10.20907], [24, 53.13772, 10.19482], [25, 53.13974, 10.18028], [26, 53.13991, 10.16534], [27, 53.13865, 10.15085], [28, 53.13326, 10.13892], [29, 53.12736, 10.12768], [30, 53.12229, 10.11557], [31, 53.11941, 10.10143], [32, 53.11568, 10.08785], [33, 53.11196, 10.07426], [34, 53.10826, 10.06066], [35, 53.10457, 10.04705], [36, 53.10085, 10.03347], [37, 53.09714, 10.01988], [38, 53.09328, 10.00642], [39, 53.08758, 9.99504], [40, 53.07884, 9.99175], [41, 53.07123, 9.98438], [42, 53.0649, 9.97381], [43, 53.0599, 9.96137], [44, 53.05418, 9.95002], [45, 53.04616, 9.94326], [46, 53.03812, 9.93656], [47, 53.03141, 9.927], [48, 53.02592, 9.91517], [49, 53.02026, 9.90354], [50, 53.01442, 9.89221], [51, 53.00569, 9.88908], [52, 52.99678, 9.88712], [53, 52.98786, 9.88518], [54, 52.98214, 9.87491], [55, 52.97829, 9.86141], [56, 52.97831, 9.84786]]

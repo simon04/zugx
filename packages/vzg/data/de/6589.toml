@@ -1,0 +1,163 @@
+id = "6589"
+ref = "6589"
+name = "6589 Zittau - Hagenwerder"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q145111"
+from = "Zittau"
+to = "Hagenwerder"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 11.077
+kmTo = 34.473
+length = 23.323
+speeds = [[11.077, 13.719, 60, 60], [13.719, 13.816, 60, 80], [13.816, 24.734, 80, 80], [24.734, 25.043, 50, 50], [25.043, 26.269, 80, 80], [26.269, 26.335, 60, 80], [26.335, 34.473, 60, 60]]
+curves = [[11.775, 12.1, 1010], [14.5, 15.699, 2010], [16.401, 16.752, 860], [17.153, 17.278, 1620], [17.953, 18.003, 2120], [18.078, 18.128, 1990], [18.303, 18.627, 1420], [19.002, 19.178, 1470], [20.236, 20.795, 460], [20.897, 21.405, 410], [21.609, 21.812, 750], [22.32, 22.981, 400], [23.337, 23.947, 420], [24.023, 24.398, 670], [24.448, 24.723, 530], [24.773, 25.148, 640], [25.198, 25.448, 510], [25.673, 25.798, 1590], [26.298, 26.398, 1800], [26.698, 27.248, 920], [27.848, 28.273, 1180], [28.923, 29.098, 1590], [31.248, 32.173, 1440], [33.373, 33.748, 510], [33.848, 34.373, 530]]
+points = [
+  { km = 11.117, kind = "station", label = "Hagenwerder", pos = [51.07027, 14.96023], uic = "8047973" },
+  { km = 11.259, kind = "signal", label = "H", signal = "combined", dir = 1 },
+  { km = 11.51, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 11.565, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 11.567, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 11.633, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 11.736, kind = "signal", label = "P", signal = "combined", dir = -1 },
+  { km = 12.322, kind = "signal", label = "Vp", signal = "distant", dir = -1 },
+  { km = 13.16, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 13.229, kind = "signal", signal = "distant", dir = 1 },
+  { km = 13.329, kind = "signal", signal = "distant", dir = 1 },
+  { km = 13.436, kind = "signal", signal = "distant", dir = 1 },
+  { km = 13.528, kind = "signal", label = "ToB", signal = "distant", dir = 1 },
+  { km = 13.569, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 13.719, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.781, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 13.815, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.141, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 14.259, kind = "signal", label = "B", signal = "main", dir = 1 },
+  { km = 14.439, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 14.673, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 14.752, kind = "signal", label = "C", signal = "combined", dir = -1 },
+  { km = 15.498, kind = "signal", label = "ToC", signal = "distant", dir = -1 },
+  { km = 15.597, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.697, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.709, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 15.796, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.98, kind = "signal", signal = "distant", dir = 1 },
+  { km = 16.08, kind = "signal", signal = "distant", dir = 1 },
+  { km = 16.179, kind = "signal", signal = "distant", dir = 1 },
+  { km = 16.278, kind = "signal", label = "ToD", signal = "distant", dir = 1 },
+  { km = 16.7, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 16.981, kind = "signal", label = "D", signal = "combined", dir = 1 },
+  { km = 17.162, kind = "signal", label = "Tm1", signal = "shunting", dir = -1 },
+  { km = 17.386, kind = "signal", label = "E", signal = "main", dir = -1 },
+  { km = 17.427, kind = "signal", signal = "stop", dir = -1 },
+  { km = 17.529, kind = "station", label = "Krzewina Zgorzelecka", pos = [51.01544, 14.93979], uic = "5105285" },
+  { km = 17.611, kind = "signal", signal = "stop", dir = 1 },
+  { km = 17.813, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 17.919, kind = "signal", label = "H", signal = "combined", dir = 1 },
+  { km = 18.101, kind = "signal", label = "Tm14", signal = "shunting", dir = -1 },
+  { km = 18.248, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 18.361, kind = "signal", label = "L", signal = "combined", dir = -1 },
+  { km = 18.545, kind = "signal", label = "ISpL", signal = "main_repeated", dir = -1 },
+  { km = 19.132, kind = "signal", label = "ToL", signal = "distant", dir = -1 },
+  { km = 19.133, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 19.233, kind = "signal", signal = "distant", dir = -1 },
+  { km = 19.334, kind = "signal", signal = "distant", dir = -1 },
+  { km = 19.434, kind = "signal", signal = "distant", dir = -1 },
+  { km = 24.202, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 24.708, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 24.827, kind = "signal", signal = "distant", dir = 1 },
+  { km = 24.928, kind = "signal", signal = "distant", dir = 1 },
+  { km = 25.028, kind = "signal", signal = "distant", dir = 1 },
+  { km = 25.039, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 25.047, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 25.128, kind = "signal", label = "ToA", signal = "distant", dir = 1 },
+  { km = 25.746, kind = "signal", label = "ISpA", signal = "main_repeated", dir = 1 },
+  { km = 25.858, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 26.004, kind = "signal", label = "A", signal = "combined", dir = 1 },
+  { km = 26.112, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 26.159, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 26.161, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 26.269, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 26.279, kind = "signal", label = "KV8040", signal = "crossing", dir = 1 },
+  { km = 26.331, kind = "signal", label = "B", signal = "main", dir = -1 },
+  { km = 26.335, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 26.674, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 26.704, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 26.924, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 26.997, kind = "stop", label = "Hirschfelde", pos = [50.94338, 14.89094], uic = "8047975" },
+  { km = 27.086, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 27.181, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 27.245, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 27.298, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 27.336, kind = "signal", label = "ToB", signal = "distant", dir = -1 },
+  { km = 27.435, kind = "signal", signal = "distant", dir = -1 },
+  { km = 27.458, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 27.535, kind = "signal", signal = "distant", dir = -1 },
+  { km = 27.634, kind = "signal", signal = "distant", dir = -1 },
+  { km = 27.849, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 27.876, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 28.266, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 28.426, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 28.542, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 28.928, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 29.249, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 29.917, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 30.519, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 30.748, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 30.866, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 30.973, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 31.013, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 31.174, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 31.339, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 31.567, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 31.596, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 31.993, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 32.157, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 32.305, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 33.475, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 33.97, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 34.069, kind = "signal", label = "62 C", signal = "combined,speed_limit", dir = 1 },
+  { km = 34.188, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 34.402, kind = "signal", signal = "distant,speed_limit_distant" },
+  { km = 34.473, kind = "station", label = "Zittau (SOEG)", ele = 263, pos = [50.90384, 14.80723] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 11.583, kmTo = 11.623, length = 40 },
+  { kind = "bridge", kmFrom = 13.603, kmTo = 13.669, length = 66 },
+  { kind = "bridge", kmFrom = 13.739, kmTo = 13.762, length = 22 },
+  { kind = "bridge", kmFrom = 13.816, kmTo = 13.876, length = 60 },
+  { kind = "bridge", kmFrom = 14.152, kmTo = 14.167, length = 15 },
+  { kind = "bridge", kmFrom = 19.567, kmTo = 19.577, length = 10 },
+  { kind = "bridge", kmFrom = 24.713, kmTo = 24.758, length = 46 },
+  { kind = "bridge", kmFrom = 24.969, kmTo = 25.019, length = 50 },
+  { kind = "bridge", kmFrom = 26.353, kmTo = 26.405, length = 53 },
+  { kind = "bridge", kmFrom = 26.483, kmTo = 26.521, length = 38 },
+  { kind = "bridge", kmFrom = 34.247, kmTo = 34.269, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mguuHonkyATcRg@eHeAoFiC_G{L}N{CcJcQ_yBiEyUuH_U_HkMqe@yq@{u@onA}c@gg@sEqGoGaNmU}q@iGiMeHoFcWuG", v = 60 },
+  { line = "}}}uHe~{yAu^oNyUqFeLqM", v = 80 },
+  { line = "sa`vHyc}yAyFgD{Gq@", v = 50 },
+  { line = "ir`vHsj}yAeD[oCoAeJgKsDiCqDmAyNkBaCwAmCcDoBkF}@eGmCwh@s@mGiDgJmEkE}Fy@gd@pFyTmDgE{CiCmEsAcFuCwVsAyFyDqHeEgDu_AiXmZcQiIaDw`AwNs\\gKoJcHsg@yo@iLeJyL_GuJoCkKoAio@g@", v = 80 },
+  { line = "{bqvH_bhzAy`BcAgIsB{d@cT", v = 60 },
+]
+posts = [[34, 50.90514, 14.81593], [33, 50.90952, 14.82754], [32, 50.91165, 14.84139], [31, 50.91727, 14.85227], [30, 50.92408, 14.86158], [29, 50.93074, 14.87117], [28, 50.93798, 14.87957], [27, 50.94336, 14.89099], [26, 50.95184, 14.89535], [25, 50.96013, 14.90026], [24, 50.96847, 14.90481], [23, 50.97297, 14.91484], [22, 50.97995, 14.91934], [21, 50.98799, 14.92257], [20, 50.99392, 14.93122], [19, 51.00256, 14.9348], [18, 51.01116, 14.93873], [17, 51.02001, 14.94117], [16, 51.0278, 14.94774], [15, 51.03557, 14.95474], [14, 51.0445, 14.95595], [13, 51.05349, 14.95611], [12, 51.06248, 14.9563]]
+
+[[connections]]
+km = 11.117
+station = "Hagenwerder"
+lines = [
+  { id = "6590", ref = "6590", name = "6590 Görlitz - Hagenwerder", km = 9.795 },
+]
+
+[[connections]]
+km = 34.473
+station = "Zittau"
+lines = [
+  { id = "6214", ref = "6214", name = "6214 Zittau Grenze - Löbau (Sachs)", km = -11.718 },
+  { id = "6960", ref = "6960", name = "Bahnstrecke Zittau - Oybin", km = 0.266 },
+]

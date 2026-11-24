@@ -1,0 +1,38 @@
+id = "2643"
+ref = "2643"
+name = "2643 Köln Eifeltor - Köln Bonntor"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Köln Eifeltor"
+to = "Köln Bonntor"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -2.789
+kmTo = 0.847
+length = 3.606
+speeds = [[-2.789, -2.695, 100, 100], [-2.695, 0.847, "", ""]]
+curves = [[-1.883, -1.733, 1340], [-1.583, -1.433, 1470], [-1.008, -0.908, 1240], [-0.808, -0.683, 1800], [-0.033, 0.557, 270], [0.637, 0.717, 2110]]
+points = [
+  { km = -2.717, kind = "signal", signal = "distant", dir = 1 },
+  { km = -2.622, kind = "signal", signal = "minor", dir = -1 },
+  { km = -1.259, kind = "signal", label = "K", signal = "main", dir = 1 },
+  { km = -1.256, kind = "signal", signal = "distant", dir = -1 },
+  { km = -1.251, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.801, kind = "signal", signal = "minor", dir = -1 },
+  { km = -0.557, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.361, kind = "signal", label = "B", signal = "main", dir = -1 },
+  { km = 0.782, kind = "signal", signal = "distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.103, kmTo = -0.073, length = 30 },
+  { kind = "bridge", kmFrom = 0.162, kmTo = 0.189, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "k}wuHaali@cKvTmAtFQ|DR`FlC`JtBxBzb@dXdNlGdYhQ~OzNlk@b_@" },
+  { line = "aysuHycgi@xClB", v = 100 },
+]
+posts = [[0, 50.919, 6.93889], [-1, 50.9107, 6.93342], [-2, 50.90265, 6.92714]]

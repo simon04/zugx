@@ -1,0 +1,186 @@
+id = "6941"
+ref = "6941"
+name = "6941 Wittenberge - Buschhof (b Neustrelitz)"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Wittenberge"
+to = "Buschhof (b Neustrelitz)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -64.593
+kmTo = 76.887
+length = 141.471
+speeds = [[-64.593, -51.892, 120, 120], [-51.892, -51.87, "", ""], [-51.87, -28.216, 120, 120], [-28.216, -27.993, "", 80], [-27.993, -27.813, 60, 60], [-27.813, -27.735, "", 60], [-27.735, -27.271, 50, 50], [-27.271, 0, "", ""], [0, 0.004, 80, 80], [0.004, 0.414, 60, 60], [0.414, 0.48, "", ""], [0.48, 0.86, 60, 60], [0.86, 41.578, "", ""], [41.578, 41.717, 120, 120], [41.717, 41.855, "", ""], [41.855, 76.294, 100, 100], [76.294, 76.887, 80, 80]]
+curves = [[-64.093, -63.668, 470], [-63.518, -63.368, 2480], [-63.168, -62.943, 830], [-62.768, -62.568, 830], [-62.368, -62.043, 520], [-61.218, -60.918, 1140], [-60.618, -60.468, 1290], [-58.518, -58.343, 1060], [-57.493, -57.143, 890], [-53.193, -52.768, 660], [-52.243, -51.993, 1120], [-49.518, -49.218, 1880], [-49.168, -49.093, 2160], [-42.468, -42.243, 1300], [-39.768, -39.418, 1000], [-38.618, -38.368, 1070], [-37.643, -37.543, 1130], [-36.243, -35.868, 840], [-33.368, -33.043, 810], [-30.768, -30.318, 980], [-28.468, -27.743, 410], [-27.643, -27.193, 430], [-25.593, -25.343, 990], [-23.393, -23.318, 2030], [-23.018, -22.793, 1970], [-22.718, -22.568, 2150], [-21.668, -21.343, 690], [-21.293, -21.168, 1650], [-19.218, -18.843, 340], [-18.793, -18.668, 990], [-18.593, -18.318, 980], [-16.493, -16.168, 820], [-15.668, -15.443, 1350], [-14.893, -14.643, 1190], [-14.043, -13.793, 1050], [-13.043, -12.618, 840], [-10.818, -10.693, 1560], [-10.293, -9.393, 990], [-7.893, -7.643, 820], [-6.893, -6.443, 530], [-5.768, -5.718, 2520], [-5.018, -4.818, 1660], [-4.168, -3.593, 560], [-3.543, -3.493, 1970], [-1.493, -1.043, 560], [-0.368, -0.293, 2130], [-0.243, -0.093, 840], [-0.018, 0.056, 2100], [0.669, 1.254, 530], [3.884, 4.297, 470], [5.146, 5.371, 960], [11.117, 11.567, 710], [11.741, 11.791, 1670], [12.416, 12.466, 2120], [12.516, 12.791, 920], [17.416, 17.691, 820], [18.216, 18.391, 960], [18.541, 18.991, 550], [19.766, 20.066, 710], [20.116, 20.266, 1050], [21.066, 21.316, 1580], [22.666, 22.866, 1010], [23.966, 24.091, 1830], [25.341, 25.391, 2510], [25.941, 26.041, 1810], [27.041, 27.291, 2070], [27.941, 28.441, 610], [29.316, 30.091, 1030], [31.191, 32.016, 1060], [32.991, 33.291, 1870], [33.391, 33.441, 2670], [34.916, 35.366, 670], [35.541, 36.091, 1050], [36.741, 36.916, 1470], [40.141, 40.916, 860], [40.991, 41.616, 350], [41.666, 41.766, 800], [42.041, 42.141, 1360], [43.716, 43.891, 1480], [44.566, 44.741, 1720], [46.016, 46.241, 1350], [47.241, 47.316, 2520], [48.066, 48.591, 1090], [48.666, 49.041, 1050], [49.266, 49.516, 1070], [49.916, 50.191, 1390], [50.541, 50.891, 1180], [51.791, 52.116, 1050], [52.716, 52.766, 2840], [52.841, 53.191, 1410], [54.066, 54.266, 1190], [55.266, 55.616, 1070], [55.916, 56.491, 1080], [57.691, 57.866, 1520], [58.366, 58.591, 890], [58.916, 59.116, 880], [59.416, 59.541, 1110], [60.366, 60.616, 1220], [61.416, 61.566, 1440], [63.691, 63.816, 1350], [64.241, 64.816, 630], [65.091, 65.541, 810], [65.591, 66.416, 580], [66.741, 67.166, 460], [67.316, 67.691, 890], [67.791, 67.841, 2270], [72.341, 72.766, 780], [74.666, 75.341, 510], [76.441, 76.516, 2080]]
+points = [
+  { km = -64.185, kind = "station", label = "Wittstock (Dosse)", uic = "8027192", pos = [53.16049, 12.47929] },
+  { km = -58.683, kind = "station", label = "Dossow (Prignitz)", pos = [53.12062, 12.52184], uic = "8027238" },
+  { km = -52.121, kind = "stop", label = "Fretzdorf", pos = [53.06512, 12.54584], uic = "8027237" },
+  { km = -42.568, kind = "stop", label = "Netzeband", pos = [52.99557, 12.62804], uic = "8027234" },
+  { km = -36.043, kind = "stop", label = "Walsleben", pos = [52.94668, 12.67988], uic = "8027233" },
+  { km = -28.216, kind = "signal", label = "60 F", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = -28.016, kind = "signal", signal = "shunting", dir = -1 },
+  { km = -27.993, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = -27.885, kind = "signal", label = "60L 901Y", signal = "minor,traversable", dir = 1 },
+  { km = -27.813, kind = "station", label = "Neuruppin West", uic = "8027231", pos = [52.92637, 12.79413] },
+  { km = -27.741, kind = "signal", label = "60 L902Y", signal = "minor,traversable", dir = -1 },
+  { km = -27.735, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -27.735, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = -27.393, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = -27.325, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = -27.266, kind = "signal", label = "60 G", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = -0.093, kind = "signal", label = "3384X", signal = "minor", dir = 1 },
+  { km = 0.004, kind = "signal", label = "33 S07", signal = "combined,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.006, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.018, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.028, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.049, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.109, kind = "station", label = "Neustadt (Dosse)", pos = [52.85333, 12.45001], uic = "8027307" },
+  { km = 0.166, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.173, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.226, kind = "signal", label = "33 N07", signal = "main,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 0.391, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.48, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.5, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.733, kind = "signal", label = "33 G", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.067, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.185, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.385, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.385, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.676, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.779, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.448, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.052, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.271, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.317, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.456, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 3.618, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.805, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.93, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.103, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.296, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.303, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.515, kind = "stop", label = "Wusterhausen (Dosse)", pos = [52.8894, 12.45608] },
+  { km = 11.964, kind = "station", label = "Kyritz", uic = "8043008", pos = [52.94234, 12.39096] },
+  { km = 12.698, kind = "signal", label = "R 11", signal = "catenary_mast,shunting", dir = -1 },
+  { km = 12.702, kind = "signal", signal = "catenary_mast,stop", dir = -1 },
+  { km = 12.734, kind = "signal", signal = "catenary_mast,stop", dir = 1 },
+  { km = 12.735, kind = "stop", label = "Kyritz Am Bürgerpark", pos = [52.94925, 12.38991] },
+  { km = 12.763, kind = "signal", signal = "catenary_mast,shunting", dir = 1 },
+  { km = 12.764, kind = "signal", signal = "catenary_mast,stop", dir = 1 },
+  { km = 19.511, kind = "stop", label = "Wutike", pos = [53.00417, 12.35288], uic = "8043017" },
+  { km = 23.38, kind = "stop", label = "Rosenwinkel", pos = [53.03804, 12.34319], uic = "8043031" },
+  { km = 27.69, kind = "station", label = "Blumenthal", pos = [53.07654, 12.33394], uic = "8043000" },
+  { km = 33.541, kind = "stop", label = "Bölzke", pos = [53.10731, 12.26962], uic = "8043018" },
+  { km = 36.496, kind = "stop", label = "Sarnow", pos = [53.11732, 12.22995] },
+  { km = 41.578, kind = "station", label = "Pritzwalk", uic = "8027153", pos = [53.14578, 12.18489] },
+  { km = 42.079, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 42.105, kind = "signal", label = "B", signal = "combined", dir = 1 },
+  { km = 42.393, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 42.575, kind = "signal", signal = "distant", dir = 1 },
+  { km = 42.763, kind = "halt", label = "Pritzwalk West", uic = "8089264", pos = [53.14462, 12.16434] },
+  { km = 42.815, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 42.816, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 43.181, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 43.287, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 43.417, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 43.42, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 43.818, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 44.296, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 51.145, kind = "station", label = "Groß Pankow", pos = [53.1228, 12.047], uic = "8027187" },
+  { km = 66.329, kind = "station", label = "Perleberg", uic = "8012622", pos = [53.07117, 11.85177] },
+  { km = 73.056, kind = "stop", label = "Weisen", pos = [53.0255, 11.78761], uic = "8027181" },
+  { km = 75.252, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 75.452, kind = "signal", label = "30 G", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 75.504, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 75.683, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 75.774, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 75.958, kind = "signal", label = "30 T3", signal = "combined,minor,route,speed_limit", dir = -1 },
+  { km = 76.283, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 76.459, kind = "signal", label = "30 ZV3", signal = "main,route,speed_limit,wrong_road", dir = 1 },
+  { km = 76.523, kind = "signal", label = "30 ZR3", signal = "main,minor,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 76.554, kind = "signal", signal = "main_repeated" },
+  { km = 76.6, kind = "station", label = "Wittenberge", pos = [53.00353, 11.76281], uic = "8027316" },
+  { km = 76.694, kind = "signal", signal = "departure", dir = 1 },
+  { km = 76.695, kind = "signal", label = "30 P3", signal = "main,route,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -51.892, kmTo = -51.87, length = 22 },
+  { kind = "bridge", kmFrom = -21.505, kmTo = -21.476, length = 29 },
+  { kind = "bridge", kmFrom = -15.668, kmTo = -15.655, length = 13 },
+  { kind = "bridge", kmFrom = 0.825, kmTo = 0.86, length = 34 },
+  { kind = "bridge", kmFrom = 1.699, kmTo = 1.715, length = 16 },
+  { kind = "bridge", kmFrom = 4.278, kmTo = 4.288, length = 10 },
+  { kind = "bridge", kmFrom = 4.623, kmTo = 4.641, length = 18 },
+  { kind = "bridge", kmFrom = 9.779, kmTo = 9.795, length = 17 },
+  { kind = "bridge", kmFrom = 13.959, kmTo = 13.969, length = 10 },
+  { kind = "bridge", kmFrom = 17.422, kmTo = 17.445, length = 23 },
+  { kind = "bridge", kmFrom = 24.326, kmTo = 24.336, length = 11 },
+  { kind = "bridge", kmFrom = 41.33, kmTo = 41.343, length = 12 },
+  { kind = "bridge", kmFrom = 41.843, kmTo = 41.855, length = 12 },
+  { kind = "bridge", kmFrom = 65.916, kmTo = 65.971, length = 54 },
+  { kind = "bridge", kmFrom = 76.104, kmTo = 76.119, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}`ncIeeckA`F_s@xBaK`BeDtf@w^|P_DrXdB~FuCdm@{m@pEiHpPu^`xAmyBtq@_l@pKoDzcFu_@pFqBnD}Cj\\}g@dE{EzFyD", v = 120 },
+  { line = "w{zbIitqkAb@Y" },
+  { line = "szzbIcuqkAhyB}vAxHiGxtDofG~pB_wCpGyFd{BoyAtJuHbDwElg@qaA~i@ak@z|@gqAjFsOnHa`@p{@o|Dx@cM~DkzEv@eOvBoOpv@yyCpAeH^sH", v = 120 },
+  { line = "}q_bIoo`mAM_HkA_J", v = 80 },
+  { line = "wt_bIocamA{A_FyBiDrBbC", v = 60 },
+  { line = "yw_bIukamAvF`HnBhExAfGl@bH", v = 50 },
+  { line = "ih_bI}j`mA|BnyCh@hPhb@nwDjFb^|Dhe@nPhyAzBbIrGpJb_BpeBdDvF`BtJXrRdAnPrAlJxv@dyCbBtJlBxbAoChdAiApNaLj|@cBvHc]tdAiAhFsAzLmNbtDOts@tBxVpC|MdHhQdiAbaB`\\hhA|CbGpGpFri@|Plh@lVzi@`c@nCbElCtHxB|PpOfiEFdJy@nKqB~Iw[pdAyE`K" },
+  { line = "ixqaIiz~jACD", v = 80 },
+  { line = "mxqaIcz~jAqQtZ", v = 60 },
+  { line = "_kraIm~}jAeAdB" },
+  { line = "emraIg{}jA}GhLyDvD", v = 60 },
+  { line = "}{raIeh}jAkIfBoFu@wqCy|AmEs@yEv@wp@xb@sElEiuFtdJcGrHiEjCeHbA_t@jDyGfA{lChwAmlBfoAkE~G}Vpi@_PfQsGpBgDAqp@aM{GBkM|Dgt@fJktAhk@_gArFajBp\\g{@vHkOvDw`@pNqD`CkEtF{A~EwRb{AyC|MqDxJoDtGuEvFy`Alx@mHhLqFtOqCtOwMrmAwEn[iF|Sgo@xvByAfH}@pL`Axe@o@hUmBnOcOlz@yBrJubBt_GsFbN{HdJyH|DqMhBkEQeEiCaD_GsCsM" },
+  { line = "g|jcIshjiAz@rK", v = 120 },
+  { line = "kzjcI_|iiATxK" },
+  { line = "uyjcIeoiiAh@jXOx|CrF~pAdJlv@`PhfAp`@fyAzVdmA~AjQr@|j@~Gzo@lBhw@|Jnw@~C~Lhc@nnAtBbLlNjiAlGdQhe@tdAxc@vaB~DtInQ|XfIjT~BhMhUnmBnFr`Ax@|H|Jtk@xBff@`O~rA|AlJ`ZvlAlkAr`DxPvr@bAjMExM}G`j@aB`IoCrHsMbTuBbHiAxG[nFJrGxCpQdLp`@`DzGpGvEjM`BtExAfObPriEzoG~BnFbCxIjj@fjDfA~EvCtGdG|F|H`Bny@wG", v = 100 },
+  { line = "cyobIahxfAxJmBtSuG", v = 80 },
+]
+posts = [[-64, 53.16007, 12.48198], [-63, 53.15255, 12.48951], [-62, 53.1438, 12.49114], [-61, 53.13622, 12.49917], [-60, 53.12968, 12.5094], [-59, 53.12275, 12.51896], [-58, 53.11537, 12.52739], [-57, 53.10704, 12.5325], [-56, 53.09808, 12.53379], [-55, 53.08912, 12.53509], [-54, 53.08016, 12.53635], [-53, 53.07123, 12.5379], [-52, 53.06405, 12.54676], [-51, 53.0558, 12.55273], [-50, 53.04754, 12.55865], [-49, 53.03973, 12.56583], [-48, 53.03298, 12.57571], [-47, 53.02622, 12.58557], [-46, 53.01946, 12.59543], [-45, 53.01266, 12.60522], [-44, 53.00565, 12.61459], [-43, 52.99864, 12.62393], [-42, 52.99118, 12.63211], [-41, 52.98294, 12.6381], [-40, 52.97471, 12.64411], [-39, 52.96757, 12.65284], [-38, 52.96057, 12.66205], [-37, 52.95326, 12.67072], [-36, 52.94648, 12.68043], [-35, 52.94236, 12.69369], [-34, 52.93812, 12.70685], [-33, 52.93461, 12.72041], [-32, 52.93421, 12.73531], [-31, 52.93381, 12.75022], [-30, 52.93116, 12.76416], [-29, 52.92656, 12.77697], [-28, 52.92377, 12.79039], [-27, 52.92169, 12.78252], [-26, 52.92133, 12.76762], [-25, 52.91983, 12.75302], [-24, 52.91711, 12.73881], [-23, 52.91418, 12.72472], [-22, 52.91166, 12.71041], [-21, 52.90673, 12.69871], [-20, 52.89916, 12.69068], [-19, 52.8919, 12.68208], [-18, 52.889, 12.66825], [-17, 52.88436, 12.65548], [-16, 52.88107, 12.64193], [-15, 52.88137, 12.6271], [-14, 52.88389, 12.61285], [-13, 52.88897, 12.60058], [-12, 52.89098, 12.58621], [-11, 52.89225, 12.57146], [-10, 52.89236, 12.55664], [-9, 52.88666, 12.54556], [-8, 52.87959, 12.53634], [-7, 52.87421, 12.52455], [-6, 52.86658, 12.51798], [-5, 52.85803, 12.5134], [-4, 52.85012, 12.50642], [-3, 52.84806, 12.49217], [-2, 52.84683, 12.47742], [-1, 52.84742, 12.46313], [0, 52.85268, 12.45109], [1, 52.85961, 12.44259], [2, 52.86828, 12.44729], [3, 52.87671, 12.4527], [4, 52.88517, 12.458], [5, 52.89336, 12.45315], [6, 52.90053, 12.44432], [7, 52.9073, 12.43449], [8, 52.91407, 12.42465], [9, 52.92084, 12.41482], [10, 52.92761, 12.40498], [11, 52.93438, 12.39514], [12, 52.94266, 12.39079], [13, 52.95147, 12.3885], [14, 52.95989, 12.38324], [15, 52.9683, 12.37798], [16, 52.97662, 12.37231], [17, 52.98485, 12.36629], [18, 52.99216, 12.35805], [19, 52.99974, 12.35152], [20, 53.00861, 12.35344], [21, 53.01749, 12.35121], [22, 53.02612, 12.34712], [23, 53.0348, 12.34349], [24, 53.04377, 12.34257], [25, 53.05264, 12.34013], [26, 53.06152, 12.33775], [27, 53.07047, 12.3363], [28, 53.07919, 12.33273], [29, 53.08349, 12.32031], [30, 53.08827, 12.3081], [31, 53.09625, 12.30121], [32, 53.10233, 12.29088], [33, 53.10506, 12.27661], [34, 53.1097, 12.26381], [35, 53.11469, 12.25135], [36, 53.11553, 12.23669], [37, 53.11941, 12.2232], [38, 53.1243, 12.21062], [39, 53.12918, 12.19803], [40, 53.13407, 12.18545], [41, 53.14122, 12.17769], [42, 53.14462, 12.17578], [43, 53.14459, 12.16079], [44, 53.14439, 12.14583], [45, 53.14257, 12.13118], [46, 53.13939, 12.11716], [47, 53.13476, 12.10433], [48, 53.13052, 12.09112], [49, 53.12868, 12.07665], [50, 53.12701, 12.06202], [51, 53.12342, 12.04843], [52, 53.1181, 12.03638], [53, 53.11492, 12.02242], [54, 53.10889, 12.01131], [55, 53.10399, 11.9988], [56, 53.09806, 11.98773], [57, 53.09425, 11.97437], [58, 53.09168, 11.96004], [59, 53.089, 11.94587], [60, 53.0868, 11.93139], [61, 53.08319, 11.91775], [62, 53.07815, 11.9054], [63, 53.07258, 11.89364], [64, 53.06728, 11.88159], [65, 53.06641, 11.8676], [66, 53.07147, 11.85562], [67, 53.06721, 11.8431], [68, 53.05917, 11.83722], [69, 53.05218, 11.82781], [70, 53.04518, 11.81841], [71, 53.0382, 11.80898], [72, 53.03121, 11.79958], [73, 53.02567, 11.78823], [74, 53.02222, 11.77442], [75, 53.01792, 11.7616], [76, 53.00905, 11.76161]]
+
+[[connections]]
+km = -64.185
+station = "Wittstock"
+lines = [
+  { id = "6504", ref = "6504", name = "6504 Kremmen - Wittstock (Dosse)", km = 65.746 },
+]
+
+[[connections]]
+km = -27.813
+station = "Neuruppin West"
+lines = [
+  { id = "6504", ref = "6504", name = "6504 Kremmen - Wittstock (Dosse)", km = 29.126 },
+  { id = "6946", ref = "6946", name = "6946 Neustadt (Dosse) - Herzberg (Mark)", km = 29.386 },
+]
+
+[[connections]]
+km = 0.109
+station = "Neustadt"
+lines = [
+  { id = "6100", ref = "6100", name = "6100 Berlin - Hamburg", km = 75.555 },
+  { id = "6938", ref = "6938", name = "6938 Neustadt (Dosse) - Meyenburg", km = 0.109 },
+  { id = "6946", ref = "6946", name = "6946 Neustadt (Dosse) - Herzberg (Mark)", km = -0.027 },
+]
+
+[[connections]]
+km = 41.578
+station = "Pritzwalk"
+lines = [
+  { id = "6938", ref = "6938", name = "6938 Neustadt (Dosse) - Meyenburg", km = 41.789 },
+]
+
+[[connections]]
+km = 76.6
+station = "Wittenberge"
+lines = [
+  { id = "1151", ref = "1151", name = "1151: Wittenberge–Buchholz", km = 126.782 },
+  { id = "6100", ref = "6100", name = "6100 Berlin - Hamburg", km = 126.749 },
+  { id = "6401", ref = "6401", name = "6401 Stendal - Wittenberge", km = 53.783 },
+]

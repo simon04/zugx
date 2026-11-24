@@ -1,0 +1,86 @@
+id = "9107"
+ref = "9107"
+operator = "AKN Eisenbahn GmbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.323
+kmTo = 6.8
+length = 5.475
+speeds = [[1.323, 1.466, 60, 60], [1.466, 2.602, 80, 80], [2.602, 2.867, 70, 70], [2.867, 5.098, 80, 80], [5.098, 6.401, 60, 60], [6.401, 6.411, "", ""], [6.411, 6.8, 60, 60]]
+curves = [[1.415, 1.506, 750], [1.575, 1.667, 1470], [2.057, 2.194, 1050], [2.669, 2.891, 650], [3.121, 3.236, 1750], [3.425, 3.563, 1260], [3.773, 3.993, 790], [4.383, 4.584, 870], [5.037, 5.436, 380], [5.833, 6.233, 340], [6.528, 6.573, 2560]]
+points = [
+  { km = 1.337, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.464, kind = "signal", label = "21 12", signal = "combined", dir = -1 },
+  { km = 1.466, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.678, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.7, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.702, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.035, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.189, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.202, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 2.249, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.388, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.426, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.43, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 2.445, kind = "signal", signal = "stop", dir = -1 },
+  { km = 2.449, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.519, kind = "stop", label = "Kiel Schulen am Langsee", pos = [54.30747, 10.15729], uic = "8003251" },
+  { km = 2.593, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.602, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.807, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.866, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.867, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.025, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.125, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 3.387, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 3.39, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.411, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.414, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.584, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 3.588, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.621, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.627, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 3.717, kind = "stop", label = "Kiel-Ellerbek", pos = [54.31408, 10.17004], uic = "8003259" },
+  { km = 3.997, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.216, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 4.875, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.993, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.098, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.29, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.308, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.311, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 5.393, kind = "signal", signal = "main", dir = 1 },
+  { km = 5.723, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.728, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.891, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 5.98, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.09, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.11, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 6.112, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 6.221, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.342, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.41, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 6.423, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 6.557, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 6.693, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.727, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 6.8, kind = "station", label = "Kiel-Oppendorf", uic = "8079607", pos = [54.32607, 10.20841] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 6.344, kmTo = 6.411, length = 75 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "o|kjIsn}|@oB_CgCkA", v = 60 },
+  { line = "gdljI_u}|@iIkCaZkNsTmR", v = 80 },
+  { line = "g_njIe|~|@qFqF}BsF", v = 70 },
+  { line = "wjnjIkk_}@_JqYeKoWoI_ZqYib@_Uon@", v = 80 },
+  { line = "_}pjIgld}@mAiHI}JxHor@VsIoAwLaIgR", v = 60 },
+  { line = "waqjIs`h}@KY" },
+  { line = "cbqjImah}@gMyV", v = 60 },
+]
+posts = [[2, 54.30345, 10.15396], [3, 54.31048, 10.16188], [4, 54.31614, 10.17408], [5, 54.32234, 10.18462], [6, 54.32163, 10.19902]]

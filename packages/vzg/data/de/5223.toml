@@ -1,0 +1,56 @@
+id = "5223"
+ref = "5223"
+name = "5223 Miltenberg–Schneeberg"
+operator = "DB RegioNetz Infrastruktur GmbH;Westfrankenbahn"
+gauge = "1435"
+wikidata = "Q107140824"
+from = "Miltenberg West"
+to = "Schneeberg Streckenwechsel 5223/4124"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 37.022
+kmTo = 49.306
+length = 12.34
+speeds = [[37.022, 38.609, 80, 80], [38.609, 42.287, 60, 60], [42.287, 42.421, 30, 30], [42.421, 45.028, 60, 60], [45.028, 45.277, 40, 40], [45.277, 45.717, 50, 50], [45.717, 49.306, 60, 60]]
+curves = [[37.122, 38.147, 470], [38.722, 39.147, 810], [39.347, 39.747, 450], [40.522, 40.947, 1040], [41.122, 41.522, 440], [41.972, 42.391, 550], [42.61, 42.902, 1410], [42.975, 43.242, 1380], [43.534, 44.166, 430], [44.24, 44.465, 1100], [44.815, 45.04, 920], [45.74, 46.115, 480], [46.19, 46.515, 740], [46.59, 46.94, 1010], [47.215, 47.415, 640], [47.665, 47.89, 780], [47.99, 48.14, 910], [48.265, 49.015, 510]]
+points = [
+  { km = 38.609, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 39.565, kind = "stop", label = "Breitendiel", pos = [49.69083, 9.22506], uic = "8001148" },
+  { km = 42.232, kind = "halt", label = "Weilbach (Unterfr)", uic = "8006274", pos = [49.66897, 9.21326] },
+  { km = 42.246, kind = "stop", label = "Weilbach (Unterfranken)", pos = [49.66885, 9.21318] },
+  { km = 42.287, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 42.421, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 42.851, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 45.028, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 45.277, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 45.323, kind = "station", label = "Amorbach", pos = [49.64594, 9.22254], uic = "8000575" },
+  { km = 45.717, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 46.064, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 47.561, kind = "stop", label = "Schneeberg im Odenwald", pos = [49.64128, 9.25241], uic = "8005386" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 39.271, kmTo = 39.296, length = 25 },
+  { kind = "bridge", kmFrom = 39.329, kmTo = 39.366, length = 37 },
+  { kind = "bridge", kmFrom = 44.228, kmTo = 44.257, length = 29 },
+  { kind = "bridge", kmFrom = 46.083, kmTo = 46.102, length = 19 },
+  { kind = "bridge", kmFrom = 46.123, kmTo = 46.149, length = 26 },
+  { kind = "bridge", kmFrom = 46.209, kmTo = 46.228, length = 20 },
+  { kind = "bridge", kmFrom = 47.281, kmTo = 47.312, length = 31 },
+  { kind = "bridge", kmFrom = 47.817, kmTo = 47.842, length = 24 },
+  { kind = "bridge", kmFrom = 48.071, kmTo = 48.095, length = 24 },
+  { kind = "bridge", kmFrom = 48.801, kmTo = 48.832, length = 31 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wgknH}kjw@eEbOq@nN~@|L~DzKtDzDfFrBt_@zA", v = 80 },
+  { line = "{yinHcehw@zLP~Dk@bFuBlOoKfDs@fEDfv@pZxIt@`PyA`G^|E~C|Zhd@~ClB|Cn@", v = 60 },
+  { line = "}zcnH{lfw@vF?", v = 30 },
+  { line = "escnH{lfw@bPA~OrC~IrEpVnPdC\\fEYdDoAnCsC~H_S|Ui_@xC}H", v = 60 },
+  { line = "st_nHmugw@zEyQ", v = 40 },
+  { line = "wm_nHghhw@nLa_@", v = 50 },
+  { line = "g`_nHihiw@`E{OP{GcA{QLkK|BaTdC}LhC{d@qBqj@|AeWJoT^aGdCiI`FcIlFmNtOcP", v = 60 },
+]
+posts = [[38, 49.70449, 9.22264], [39, 49.69553, 9.22237], [40, 49.68707, 9.2235], [41, 49.67839, 9.22053], [42, 49.67078, 9.21477], [43, 49.66192, 9.21242], [44, 49.65336, 9.20928], [45, 49.64711, 9.21926], [46, 49.64268, 9.23125], [47, 49.64135, 9.24467], [48, 49.64115, 9.25838], [49, 49.63746, 9.27022]]

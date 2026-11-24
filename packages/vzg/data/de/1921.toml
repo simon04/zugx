@@ -1,0 +1,32 @@
+id = "1921"
+ref = "1921"
+name = "1921 Groß Gleidingen Ostkopf - Wolfenbüttel"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Groß Gleidingen Ostkopf"
+to = "Wolfenbüttel"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.794
+length = 1.794
+speeds = [[0, 1.173, "", ""], [1.173, 1.61, 60, 60], [1.61, 1.794, 80, 80]]
+curves = [[0.825, 0.975, 830], [1.025, 1.225, 1050], [1.375, 1.675, 310]]
+points = [
+  { km = 1.2, kind = "signal", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 1.496, kind = "signal", signal = "distant,main,minor", dir = 1 },
+  { km = 1.61, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.134, kmTo = 1.173, length = 39 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ebv}Hqbx~@kp@xBmO}A" },
+  { line = "_dx}Huax~@mOXsFcC", v = 60 },
+  { line = "a|x}H_ex~@yBmDyAeF", v = 80 },
+]
+posts = [[0, 52.21939, 10.45049], [1, 52.22837, 10.45009]]

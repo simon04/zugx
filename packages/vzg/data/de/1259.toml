@@ -1,0 +1,66 @@
+id = "1259"
+ref = "1259"
+name = "1259 Hamburg-Harburg"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hamburg-Harburg"
+to = "Hamburg-Harburg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 341.86
+kmTo = 343.915
+length = 2.109
+speeds = [[341.86, 342.37, 160, 160], [342.37, 343.915, 120, 120]]
+curves = [[342.76, 343.182, 940], [343.257, 343.732, 1030]]
+points = [
+  { km = 341.968, kind = "signal", signal = "minor", dir = -1 },
+  { km = 342.37, kind = "signal", label = "41R1", signal = "distant,main,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 342.736, kind = "signal", label = "41 041Y", signal = "minor", dir = -1 },
+  { km = 342.914, kind = "signal", signal = "route_distant", dir = -1 },
+  { km = 342.95, kind = "signal", label = "41 U1", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 343.046, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 343.074, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 343.117, kind = "signal", signal = "main_repeated" },
+  { km = 343.175, kind = "station", label = "Hamburg-Harburg", pos = [53.45572, 9.99177], uic = "8001134" },
+  { km = 343.278, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 343.318, kind = "halt", label = "Harburg", uic = "8098147", pos = [53.45695, 9.99134] },
+  { km = 343.345, kind = "signal", label = "41 T1", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 343.652, kind = "signal", signal = "minor", dir = 1 },
+  { km = 343.777, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 342.735, kmTo = 342.769, length = 32 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_teeIc~`|@iUh`@", v = 160 },
+  { line = "ijfeIy|_|@oSh\\{EhEcFdCgIrBeIp@yGo@cOoF", v = 120 },
+]
+posts = [[342, 53.44686, 10.00293], [343, 53.45422, 9.99306]]
+
+[[connections]]
+km = 343.175
+station = "Hamburg-Harburg"
+lines = [
+  { id = "1255", ref = "1255", km = 4.74 },
+  { id = "1271", ref = "1271", name = "1271 Hamburg Hbf - Hamburg-Neugraben", km = 12.322 },
+  { id = "1280", ref = "1280", name = "1280 Buchholz - Abzw Hamburg-Allermöhe", km = 29.352 },
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 169.175 },
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 343.196 },
+  { id = "hamburg-wilhelmsburg-hamburg-sued", name = "Hamburg-Wilhelmsburg – Hamburg-Süd", km = 6.856 },
+]
+
+[[connections]]
+km = 343.318
+station = "Harburg"
+lines = [
+  { id = "1255", ref = "1255", km = 4.882 },
+  { id = "1271", ref = "1271", name = "1271 Hamburg Hbf - Hamburg-Neugraben", km = 12.39 },
+  { id = "1280", ref = "1280", name = "1280 Buchholz - Abzw Hamburg-Allermöhe", km = 29.49 },
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 169.454 },
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 343.337 },
+  { id = "hamburg-wilhelmsburg-hamburg-sued", name = "Hamburg-Wilhelmsburg – Hamburg-Süd", km = 6.856 },
+]

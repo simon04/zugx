@@ -1,0 +1,28 @@
+id = "9621"
+ref = "9621"
+name = "9621 Köln-Niehl - Industriegelände"
+operator = "HGK"
+gauge = "1435"
+from = "Köln-Niehl"
+to = "Industriegelände"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.772
+length = 3.772
+speeds = [[0, 3.772, "", ""]]
+curves = [[0.1, 0.225, 890], [0.55, 0.6, 2650], [0.65, 0.7, 2750], [2.875, 3.25, 380], [3.3, 3.65, 230]]
+points = []
+structures = [
+  { kind = "tunnel", kmFrom = 3.48, kmTo = 3.592, length = 112 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "cklvHwjmi@xHcBnWC`yATri@jAjDhCrCzFrBjJzDtE" },
+  { line = "spfvHulli@dE?", tunnel = true },
+  { line = "mjfvHulli@fE{A`B}A" },
+]
+posts = [[0, 51.02274, 6.95484], [1, 51.01379, 6.95531], [2, 51.0048, 6.95527], [3, 50.99582, 6.95478]]

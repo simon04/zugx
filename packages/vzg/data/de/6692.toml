@@ -1,0 +1,157 @@
+id = "6692"
+ref = "6692"
+name = "6692 Rauenstein (Thür) – Sonneberg (Thür)"
+operator = "Thüringer Eisenbahn GmbH"
+gauge = "1435"
+wikidata = "Q109463576"
+from = "Rauenstein (Thür)"
+to = "Sonneberg (Thür) Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 15.877
+kmTo = 33.14
+length = 17.268
+speeds = [[15.877, 24.86, "", ""], [24.86, 25.074, 40, 60], [25.074, 25.518, 40, 40], [25.518, 25.698, 60, 40], [25.698, 31.059, 60, 60], [31.059, 31.169, 20, 60], [31.169, 31.186, 20, 20], [31.186, 31.265, 60, 20], [31.265, 31.947, 60, 60], [31.947, 32.573, 40, 60], [32.573, 33.14, 40, 40]]
+curves = [[16.427, 16.777, 280], [16.827, 16.952, 660], [17.302, 17.427, 1020], [17.702, 17.852, 790], [18.002, 18.177, 870], [18.277, 18.802, 260], [18.852, 19.527, 290], [19.702, 20.202, 270], [20.377, 20.877, 510], [21.602, 21.902, 400], [21.952, 22.052, 1150], [22.127, 22.477, 470], [22.552, 22.702, 980], [22.952, 23.152, 570], [23.252, 23.552, 390], [23.777, 25.102, 460], [25.452, 26.703, 540], [26.803, 27.344, 320], [27.537, 29.35, 290], [29.435, 29.62, 630], [29.789, 31.134, 290], [31.184, 31.582, 250], [31.631, 32.376, 280], [32.424, 32.572, 700], [32.622, 32.672, 1660], [32.722, 32.972, 890]]
+points = [
+  { km = 15.959, kind = "signal", signal = "stop", dir = -1 },
+  { km = 16.105, kind = "signal", signal = "stop", dir = -1 },
+  { km = 16.138, kind = "station", label = "Rauenstein(Thür)", ele = 448, pos = [50.41224, 11.04753] },
+  { km = 16.18, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.181, kind = "signal", signal = "resetting_switch", dir = 1 },
+  { km = 16.31, kind = "signal", signal = "resetting_switch", dir = -1 },
+  { km = 16.352, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 16.372, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 16.382, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.511, kind = "signal", signal = "resetting_switch_distant", dir = 1 },
+  { km = 16.55, kind = "signal", signal = "main", dir = -1 },
+  { km = 16.579, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 16.936, kind = "signal", signal = "distant", dir = -1 },
+  { km = 17.874, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 17.898, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 18.532, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 18.556, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 19.263, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 19.297, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 19.495, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 19.523, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 20.113, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 20.225, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 20.226, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 20.227, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 20.248, kind = "stop", label = "Seltendorf", pos = [50.387, 11.06406], uic = "8016236", ele = 411 },
+  { km = 21.523, kind = "stop", label = "Effelder (Thür)", pos = [50.37981, 11.07589], ele = 405 },
+  { km = 21.56, kind = "signal", signal = "stop", dir = 1 },
+  { km = 24.859, kind = "signal", signal = "resetting_switch_distant", dir = 1 },
+  { km = 24.86, kind = "signal", signal = "main,speed_limit", dir = 1 },
+  { km = 24.969, kind = "signal", signal = "resetting_switch", dir = 1 },
+  { km = 25.038, kind = "signal", signal = "train_protection", dir = -1 },
+  { km = 25.043, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 25.327, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 25.385, kind = "station", label = "Mengersgereuth-Hämmern", pos = [50.39291, 11.1183], ele = 488 },
+  { km = 25.403, kind = "signal", signal = "crossing_distant,stop", dir = 1 },
+  { km = 25.413, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 25.416, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 25.472, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 25.507, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 25.518, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 25.525, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 25.55, kind = "signal", signal = "resetting_switch", dir = -1 },
+  { km = 25.698, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 25.699, kind = "signal", signal = "resetting_switch_distant", dir = -1 },
+  { km = 25.88, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 25.882, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 25.915, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 25.974, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 26.015, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 26.09, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 26.098, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 26.15, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 26.164, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 26.409, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 26.526, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 26.537, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 26.56, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 26.569, kind = "signal", signal = "crossing_info,snowplow", dir = -1 },
+  { km = 26.811, kind = "stop", label = "Mengersgereuth-Hämmern Ost", pos = [50.38931, 11.12773], ele = 491 },
+  { km = 26.95, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 27.006, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 27.254, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 29.128, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 29.293, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 29.311, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 29.479, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 30.12, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 30.254, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 30.436, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 30.563, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 30.59, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 30.66, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 30.675, kind = "signal", signal = "snowplow,whistle", dir = -1 },
+  { km = 30.686, kind = "stop", label = "Sonneberg (Thür) West", pos = [50.36806, 11.15906], ele = 399 },
+  { km = 30.771, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 30.772, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 30.83, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 30.952, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 31.002, kind = "signal", signal = "distant", dir = 1 },
+  { km = 31.059, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 31.077, kind = "signal", signal = "distant", dir = 1 },
+  { km = 31.152, kind = "signal", signal = "distant", dir = 1 },
+  { km = 31.165, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 31.169, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 31.186, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 31.189, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 31.252, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 31.265, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 31.304, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 31.366, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 31.618, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 31.947, kind = "signal", label = "1B", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 32.387, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 32.573, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 32.587, kind = "signal", signal = "minor", dir = 1 },
+  { km = 32.759, kind = "signal", label = "1 P2", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 32.836, kind = "stop", label = "Sonneberg(Thür)Hbf", pos = [50.35552, 11.16843] },
+  { km = 32.845, kind = "station", label = "Sonneberg (Thür) Hbf", uic = "8016243", ele = 387, pos = [50.35545, 11.16854] },
+  { km = 32.968, kind = "signal", signal = "stop", dir = 1 },
+  { km = 33.073, kind = "signal", label = "1 N2", signal = "main,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 21.062, kmTo = 21.073, length = 11 },
+  { kind = "bridge", kmFrom = 25.764, kmTo = 25.861, length = 98 },
+  { kind = "bridge", kmFrom = 26.324, kmTo = 26.336, length = 12 },
+  { kind = "bridge", kmFrom = 30.435, kmTo = 30.542, length = 157 },
+  { kind = "bridge", kmFrom = 31.327, kmTo = 31.35, length = 24 },
+  { kind = "bridge", kmFrom = 31.913, kmTo = 31.934, length = 21 },
+  { kind = "bridge", kmFrom = 32.5, kmTo = 32.539, length = 39 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "onurHaembAxAtAdV`a@lE~BxDY~FgDnYcDtV~@dR~FrJTjCg@rD}D|AyFReGq@iLb@yIrAeEfFsHvAsGHiGwAqYVuE~@aE~AuCrDyBnQ_A`DgAnFyDnBiDfS{fAXaGOeEqAwL}@mPgBaJ_JkO{Me[oMcMaCwG}Ci_@O{Mt@_IjDyNl@wLs@yJuEcQ" },
+  { line = "{nprHqdzbAcDgEgDaA", v = 60 },
+  { line = "gyprH{lzbAyWsC", v = 40 },
+  { line = "arqrHoqzbAoEoCwBcFo@iHt@sIhGyM`D}DlD_CnGuAtQ\\jCyAzAuBxHeXjAoBdFyDjCaGj@_J_BySd@qFtBwF|BuBtBo@xSTjUsQnCoGbCmQjH_KdB}DtB{SbBiE`BcBzDiAnDn@rBxA|EjHvDpBvCCtB}@hD}E", v = 60 },
+  { line = "qpkrHchbcARa@", v = 20 },
+  { line = "}okrHeibcAnDyD`Fc@fD`BpFfHtBlAhETxCaA`DeEdBkHPaGgAgW", v = 60 },
+  { line = "eajrHsrccADaVtCyX", v = 40 },
+]
+posts = [[16, 50.41312, 11.04889], [17, 50.40557, 11.0446], [18, 50.39669, 11.04401], [19, 50.3916, 11.05078], [20, 50.3891, 11.06319], [21, 50.38175, 11.06914], [22, 50.37967, 11.08233], [23, 50.38447, 11.09377], [24, 50.3885, 11.10523], [25, 50.38948, 11.11752], [26, 50.39563, 11.12368], [27, 50.38767, 11.1282], [28, 50.3848, 11.13377], [29, 50.38359, 11.13979], [30, 50.37372, 11.14977], [31, 50.36437, 11.15661], [32, 50.35639, 11.15728], [33, 50.35516, 11.17068]]
+
+[[connections]]
+km = 16.138
+station = "Rauenstein"
+lines = [
+  { id = "6311", ref = "6311", name = "6311 Eisenach - Lichtenfels", km = 113.536 },
+  { id = "6693", ref = "6693", name = "Eisfeld - Rauenstein (Thür)", km = 0.26 },
+]
+
+[[connections]]
+km = 32.836
+station = "SonnebergHbf"
+lines = [
+  { id = "5121", ref = "5121", name = "5121 Coburg - Lauscha (Thür)", km = 19.492 },
+  { id = "6311", ref = "6311", name = "6311 Eisenach - Lichtenfels", km = 121.316 },
+]

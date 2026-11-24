@@ -1,0 +1,38 @@
+id = "2332"
+ref = "2332"
+name = "2332 Trompet - Homberg (Niederrhein)"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Trompet"
+to = "Homberg (Niederrhein)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.547
+length = 5.547
+speeds = [[0, 5.547, "", ""]]
+curves = [[0.1, 0.525, 750], [0.675, 0.75, 1580], [1.075, 1.15, 2240], [1.275, 1.375, 1260], [1.5, 1.55, 2830]]
+points = [
+  { km = 0.738, kind = "station", label = "Trompet", uic = "8005910", pos = [51.4135, 6.66901] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.294, kmTo = 1.31, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}nwxHqztg@kLw@oEoBqD_D_KiMi[a]s|BiwC" },
+  { line = "in}xHoi{g@GI", tunnel = true },
+  { line = "qn}xHyi{g@{|@clA" },
+]
+posts = [[0, 51.40735, 6.66553], [1, 51.41528, 6.67153], [2, 51.42257, 6.67995], [3, 51.42974, 6.68866], [4, 51.43691, 6.69736], [5, 51.44404, 6.70615]]
+
+[[connections]]
+km = 0.738
+station = "Trompet"
+lines = [
+  { id = "2330", ref = "2330", name = "2330 Rheinhausen - Xanten", km = 4.507 },
+  { id = "2340", ref = "2340", name = "2340 Abzweig Duisburg-Mühlenberg - Trompet", km = 0.493 },
+]

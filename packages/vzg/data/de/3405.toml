@@ -1,0 +1,47 @@
+id = "3405"
+ref = "3405"
+name = "3405 Ludwigshafen (Rhein) Hbf (tief) (RL T) - Ludwigshafen (Rhein) BASF Südtor (RLBST)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.048
+kmTo = 2.345
+length = 2.298
+speeds = [[0.048, 0.329, "", ""], [0.329, 2.345, 40, 40]]
+curves = [[0.148, 0.298, 490], [0.373, 2.005, 430], [2.057, 2.231, 580]]
+points = [
+  { km = 0.048, kind = "station", label = "Ludwigshafen (Rhein) Hauptbahnhof", pos = [49.47756, 8.43415], uic = "8000236" },
+  { km = 0.074, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.216, kind = "signal", label = "O10", signal = "main,traversable", dir = 1 },
+  { km = 0.661, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.822, kind = "signal", label = "H", signal = "distant,main,traversable", dir = -1 },
+  { km = 1.161, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.891, kind = "signal", label = "d", signal = "distant", dir = 1 },
+  { km = 1.953, kind = "signal", label = "E", signal = "main,traversable", dir = -1 },
+  { km = 2.162, kind = "signal", label = "D", signal = "main,traversable", dir = 1 },
+  { km = 2.345, kind = "station", label = "Ludwigshafen(Rhein) BASF Süd", uic = "8002056", pos = [49.494, 8.43886] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 1.175, kmTo = 1.792, length = 602 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wk~lHs|mr@aF[kGjB" },
+  { line = "e{~lHczmr@qEdBiDSiCoBoB}CkC}I{@mPoAaG", v = 40 },
+  { line = "sw_mHmdor@uC{FwGaJaGcCaFS", tunnel = true, v = 40 },
+  { line = "et`mHc|or@iF~AmJ`JiIhC", v = 40 },
+]
+posts = [[1, 49.48313, 8.43643], [2, 49.48995, 8.44136]]
+
+[[connections]]
+km = 0.048
+station = "Ludwigshafen Hauptbahnhof"
+lines = [
+  { id = "3280", ref = "3280", name = "3280 Homburg - Ludwigshafen", km = 105.04 },
+  { id = "3401", ref = "3401", name = "3401 Abzw Böhl-Iggelheim - Mannheim", km = 105.093 },
+  { id = "3522", ref = "3522", name = "3522 Mainz - Mannheim", km = 67.285 },
+]

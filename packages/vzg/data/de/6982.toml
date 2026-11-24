@@ -1,0 +1,85 @@
+id = "6982"
+ref = "6982"
+name = "Bahnstrecke Putbus - Göhren"
+operator = "Eisenbahn-Bau- und Betriebsgesellschaft Pressnitztalbahn mbH"
+gauge = "750"
+wikidata = "Q109269744"
+from = "Putbus"
+to = "Göhren"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 35.377
+kmTo = 59.557
+length = 24.171
+speeds = [[35.377, 46.314, "", ""], [46.314, 54.3, 30, 30], [54.3, 57.761, "", ""], [57.761, 59.239, 30, 30], [59.239, 59.557, "", ""]]
+curves = [[35.498, 35.798, 440], [36.223, 36.523, 370], [36.773, 36.923, 1240], [37.448, 37.723, 280], [37.873, 38.023, 750], [38.273, 38.398, 1520], [39.073, 39.398, 580], [39.948, 40.123, 1080], [40.273, 40.373, 1310], [40.423, 40.873, 510], [40.923, 41.048, 810], [41.373, 41.548, 1050], [41.698, 41.848, 1070], [41.948, 42.198, 290], [42.548, 42.798, 300], [42.873, 43.023, 710], [43.073, 43.273, 230], [43.373, 43.798, 290], [43.848, 44.423, 690], [44.573, 44.923, 300], [44.973, 45.223, 340], [45.448, 45.798, 550], [45.848, 46.148, 220], [46.223, 46.298, 2630], [46.773, 46.998, 290], [47.173, 47.348, 360], [47.423, 48.498, 280], [48.548, 48.773, 830], [48.823, 49.298, 440], [49.373, 49.598, 240], [49.648, 49.973, 370], [50.023, 50.223, 670], [50.273, 50.548, 480], [50.673, 50.823, 1250], [50.898, 51.073, 420], [51.123, 51.223, 770], [51.273, 51.648, 420], [51.698, 51.948, 780], [52.023, 52.223, 430], [52.298, 52.498, 410], [52.698, 53.123, 880], [53.173, 53.523, 430], [53.573, 54.063, 340], [54.31, 54.632, 360], [55.007, 55.182, 420], [55.282, 55.507, 420], [55.582, 55.682, 760], [55.732, 55.857, 230], [55.907, 56.032, 410], [56.282, 56.432, 980], [56.582, 56.757, 730], [57.332, 57.682, 280], [58.657, 58.857, 550], [58.907, 59.157, 450], [59.257, 59.382, 900]]
+points = [
+  { km = 35.377, kind = "station", label = "Putbus", uic = "8048535", pos = [54.35681, 13.48099] },
+  { km = 35.867, kind = "signal", label = "C", signal = "main,minor", dir = -1 },
+  { km = 37.191, kind = "stop", label = "Beuchow", pos = [54.36203, 13.50274], uic = "8028945" },
+  { km = 39.097, kind = "stop", label = "Posewald", pos = [54.3681, 13.52856] },
+  { km = 39.097, kind = "halt", label = "Posewald Hp", uic = "8028946", pos = [54.36807, 13.52858] },
+  { km = 41.317, kind = "station", label = "Seelvitz", uic = "8028949", pos = [54.36746, 13.56101] },
+  { km = 43.214, kind = "signal", signal = "catenary_mast,crossing_info", dir = 1 },
+  { km = 43.251, kind = "signal", signal = "catenary_mast,crossing_info", dir = -1 },
+  { km = 43.292, kind = "signal", signal = "catenary_mast,crossing", dir = -1 },
+  { km = 43.307, kind = "signal", signal = "catenary_mast,stop", dir = -1 },
+  { km = 43.364, kind = "stop", label = "Serams", pos = [54.37779, 13.58305], uic = "8028950" },
+  { km = 46.037, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 46.089, kind = "signal", signal = "ring", dir = 1 },
+  { km = 46.09, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 46.14, kind = "station", label = "Ostseebad Binz Landesbahn", uic = "8028951", pos = [54.39281, 13.60997] },
+  { km = 46.173, kind = "signal", signal = "stop", dir = -1 },
+  { km = 46.219, kind = "stop", label = "Binz LB", pos = [54.39237, 13.61094] },
+  { km = 46.302, kind = "signal", signal = "stop", dir = 1 },
+  { km = 46.341, kind = "signal", signal = "catenary_mast,whistle", dir = -1 },
+  { km = 48.462, kind = "halt", label = "Jagdschloß", uic = "8028952", pos = [54.3764, 13.61994] },
+  { km = 48.466, kind = "stop", label = "Ostseebad Binz Jagdschloss", pos = [54.37638, 13.62004] },
+  { km = 49.812, kind = "station", label = "Garftitz", pos = [54.37769, 13.63873], uic = "8028953" },
+  { km = 52.972, kind = "stop", label = "Sellin West", pos = [54.37671, 13.68018], uic = "8069256" },
+  { km = 53.47, kind = "signal", signal = "catenary_mast,crossing_count,crossing_distant", dir = 1 },
+  { km = 53.534, kind = "signal", signal = "catenary_mast,crossing", dir = 1 },
+  { km = 53.581, kind = "signal", signal = "catenary_mast,crossing_info", dir = 1 },
+  { km = 53.609, kind = "signal", signal = "catenary_mast,crossing_info", dir = -1 },
+  { km = 53.68, kind = "signal", signal = "catenary_mast,crossing_info", dir = 1 },
+  { km = 53.753, kind = "signal", signal = "catenary_mast,crossing_info", dir = -1 },
+  { km = 53.816, kind = "signal", signal = "catenary_mast,crossing", dir = -1 },
+  { km = 53.817, kind = "signal", signal = "catenary_mast,whistle", dir = 1 },
+  { km = 53.876, kind = "signal", signal = "catenary_mast,crossing_count,crossing_distant", dir = -1 },
+  { km = 54.083, kind = "signal", signal = "catenary_mast,speed_limit_distant", dir = 1 },
+  { km = 54.126, kind = "signal", signal = "catenary_mast,whistle", dir = -1 },
+  { km = 54.22, kind = "signal", signal = "catenary_mast,main", dir = 1 },
+  { km = 54.25, kind = "signal", signal = "catenary_mast,shunting", dir = -1 },
+  { km = 54.299, kind = "signal", signal = "catenary_mast,speed_limit,whistle", dir = 1 },
+  { km = 54.3, kind = "signal", signal = "catenary_mast,switch" },
+  { km = 54.361, kind = "signal", signal = "catenary_mast,stop", dir = -1 },
+  { km = 54.429, kind = "station", label = "Sellin (Rügen) Ost", pos = [54.37138, 13.69844], uic = "8028954" },
+  { km = 54.502, kind = "signal", signal = "catenary_mast,speed_limit_distant,stop,whistle", dir = 1 },
+  { km = 54.576, kind = "signal", signal = "catenary_mast,whistle", dir = 1 },
+  { km = 54.587, kind = "signal", signal = "catenary_mast,switch" },
+  { km = 54.59, kind = "signal", signal = "catenary_mast,ring,speed_limit", dir = -1 },
+  { km = 54.63, kind = "signal", signal = "catenary_mast,shunting", dir = 1 },
+  { km = 54.67, kind = "signal", signal = "catenary_mast,main", dir = -1 },
+  { km = 55.567, kind = "station", label = "Baabe", pos = [54.3623, 13.70485], uic = "8028955" },
+  { km = 57.25, kind = "stop", label = "Philippshagen", pos = [54.34775, 13.70677], uic = "8028956" },
+  { km = 59.439, kind = "station", label = "Göhren (Rügen)", uic = "8028957", pos = [54.34589, 13.73799] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ckujImpzrAmBjSWjH" },
+  { line = "ioujIuryrASjRpDjXBv~A", v = 30 },
+  { line = "gjujIefurAUrRgCxHqd@fYsStBoSwB}G{FiGh@gLi@aBhAcIzNa^dL{AzDs@fM" },
+  { line = "cmzjI}brrAcBn`@wG`My@fDUzTmAbKyAnDqNvKoClFmGha@}KdTcCtOmAnM_ExL_A`Q|Edc@tGfPrJhPrAbFtA~XzCrQMnPeCnKI|DfIdXKxCaBzH\\zd@b@|CnCbGB`Gg@vAsB`A{DgA}Dj@iG|EsFdAmFlDiDyAqIaMaSoBuAxAwQ|e@", v = 30 },
+  { line = "el~jIurarA}FjRUvGr@rCbGpHrEvJn@`GnAf_@x@nErHhLvB~JbBtBpMvHbHxJzGlFrMd@vHnHl@vEsArXvF|PrDdSjC~C~YrFzB`CdEpWvHtZhHxg@tD`Nl@tHLrOgCdh@eLt}@oAvM?`ErRjiAbJx]lKjSl@zCApFsJb`AeBt_@RrHlU`p@jH~E~FZ" },
+]
+posts = [[59, 54.34632, 13.73133], [58, 54.34548, 13.71619], [57, 54.34983, 13.7053], [56, 54.35859, 13.70356], [55, 54.36671, 13.70156], [54, 54.37192, 13.69199], [53, 54.37649, 13.6805], [52, 54.38165, 13.66841], [51, 54.3826, 13.6541], [50, 54.37802, 13.64149], [49, 54.37736, 13.62771], [48, 54.37931, 13.61765], [47, 54.3875, 13.61872], [46, 54.39328, 13.60799], [45, 54.38922, 13.59522], [44, 54.38198, 13.5868], [43, 54.37722, 13.57765], [42, 54.37016, 13.57043], [41, 54.3664, 13.55646], [40, 54.36597, 13.54173], [39, 54.36774, 13.5272], [38, 54.36365, 13.51348], [37, 54.36253, 13.50011], [36, 54.36154, 13.486]]
+
+[[connections]]
+km = 35.377
+station = "Putbus"
+lines = [
+  { id = "6775", ref = "6775", name = "6775 Bergen auf Rügen - Lauterbach Mole", km = 9.747 },
+]

@@ -1,0 +1,144 @@
+id = "1705"
+ref = "1705"
+name = "1705 Hannover Hbf - Seelze Pbf"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q110548346"
+from = "Hannover Hbf"
+to = "Seelze Pbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 11.509
+length = 11.496
+speeds = [[0, 0.127, 80, 80], [0.127, 0.861, "", ""], [0.861, 3.876, 110, 110], [3.876, 7.329, "", ""], [7.329, 10.381, 120, 120], [10.381, 11.509, "", ""]]
+curves = [[0.098, 0.239, 1070], [0.432, 0.711, 700], [0.819, 1.025, 2190], [1.189, 1.788, 1120], [2.066, 2.456, 1690], [3.318, 3.567, 1370], [3.843, 4.022, 1160], [4.124, 4.227, 1800], [4.457, 4.688, 1420], [10.659, 10.884, 1810], [11.134, 11.209, 2690]]
+points = [
+  { km = 0, kind = "station", label = "Hannover Hauptbahnhof", uic = "8000152", pos = [52.37695, 9.74165], measured = true },
+  { km = 0.001, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.008, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.058, kind = "signal", signal = "stop" },
+  { km = 0.117, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.119, kind = "signal", label = "U2", signal = "combined,departure,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 0.12, kind = "signal", signal = "main_repeated" },
+  { km = 0.165, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.253, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.312, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.388, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.475, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.798, kind = "signal", label = "W 402", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 0.866, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.053, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.054, kind = "signal", label = "T 402", signal = "combined,minor,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.271, kind = "station", label = "Werderstraße", pos = [52.3878, 9.73415] },
+  { km = 1.326, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.328, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.344, kind = "signal", label = "W392", signal = "minor", dir = -1 },
+  { km = 1.407, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.623, kind = "signal", label = "y302b", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.823, kind = "signal", label = "Y 302", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 2.173, kind = "signal", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 2.317, kind = "signal", label = "r302b", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.448, kind = "signal", label = "p302", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.449, kind = "signal", signal = "minor", dir = -1 },
+  { km = 2.454, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2.571, kind = "stop", label = "Hannover-Nordstadt", pos = [52.39384, 9.7177], uic = "8079095" },
+  { km = 2.61, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.649, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.69, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.729, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.004, kind = "signal", signal = "combined,speed_limit_distant", dir = -1 },
+  { km = 3.485, kind = "signal", label = "P302", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 3.994, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.209, kind = "signal", signal = "combined", dir = -1 },
+  { km = 4.972, kind = "signal", label = "955", signal = "main", dir = 1 },
+  { km = 5.198, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.349, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.491, kind = "stop", label = "Hannover-Leinhausen", pos = [52.39687, 9.67656], uic = "8002585" },
+  { km = 5.632, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.412, kind = "signal", label = "957", signal = "main", dir = 1 },
+  { km = 7.115, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.025, kind = "stop", label = "Letter", pos = [52.39408, 9.63942], uic = "8003659" },
+  { km = 8.166, kind = "signal", label = "959", signal = "main,traversable", dir = 1 },
+  { km = 9.164, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 10.152, kind = "signal", signal = "distant,main,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 10.381, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.942, kind = "signal", label = "N1", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 11.085, kind = "station", label = "Seelze", pos = [52.3917, 9.59445], uic = "8005507" },
+  { km = 11.095, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.103, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 11.139, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.256, kind = "signal", label = "P1", signal = "main,minor,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.485, kmTo = 0.542, length = 48 },
+  { kind = "bridge", kmFrom = 0.917, kmTo = 0.974, length = 47 },
+  { kind = "bridge", kmFrom = 1.757, kmTo = 1.8, length = 39 },
+  { kind = "bridge", kmFrom = 3.7, kmTo = 3.735, length = 35 },
+  { kind = "bridge", kmFrom = 4.34, kmTo = 4.376, length = 34 },
+  { kind = "tunnel", kmFrom = 4.461, kmTo = 4.612, length = 147 },
+  { kind = "bridge", kmFrom = 5.497, kmTo = 5.574, length = 75 },
+  { kind = "bridge", kmFrom = 5.788, kmTo = 5.897, length = 109 },
+  { kind = "bridge", kmFrom = 6.087, kmTo = 6.208, length = 121 },
+  { kind = "bridge", kmFrom = 6.805, kmTo = 6.853, length = 48 },
+  { kind = "bridge", kmFrom = 7.295, kmTo = 7.329, length = 34 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "w|w~Hquoy@xEkz@Doj@" },
+  { line = "wuw~Hm|ry@}S{uG", v = 120 },
+  { line = "ujx~His{y@uQguF" },
+  { line = "k}x~Hqicz@@qL", tunnel = true },
+  { line = "i}x~Hcwcz@l@qs@" },
+  { line = "{{x~Hukez@dBy]`BsPhSioApEsR`Pw^|FkJpHsHnR{K", v = 110 },
+  { line = "udv~Hualz@xKcEhDkCnRaZ" },
+  { line = "a_u~Hggmz@lDmJ", v = 80 },
+]
+posts = [[11, 52.3917, 9.59561], [10, 52.39184, 9.61028], [9, 52.39297, 9.6249], [8, 52.39414, 9.63951], [7, 52.39522, 9.65414], [6, 52.39634, 9.66877], [5, 52.39742, 9.68319], [4, 52.39765, 9.69752], [3, 52.39543, 9.71165], [2, 52.39111, 9.72535], [1, 52.3846, 9.733]]
+
+[[connections]]
+km = 0
+station = "Hannover Hauptbahnhof"
+lines = [
+  { id = "1700", ref = "1700", name = "1700 Hannover - Hamm", km = 0 },
+  { id = "1710", ref = "1710", name = "1710 Hannover - Celle", km = 0 },
+  { id = "1730", ref = "1730", name = "1730 Hannover - Braunschweig", km = 0 },
+  { id = "1733", ref = "1733", name = "1733 Hannover - Würzburg", km = 0 },
+  { id = "1734", ref = "1734", name = "1734 Hannover Hbf - Lehrte", km = 0 },
+  { id = "1760", ref = "1760", name = "1760 Hannover - Soest", km = 0 },
+]
+
+[[connections]]
+km = 2.571
+station = "Hannover-Nordstadt"
+lines = [
+  { id = "1701", ref = "1701", name = "1701 Hannover Hbf - Seelze", km = 2.607 },
+  { id = "1710", ref = "1710", name = "1710 Hannover - Celle", km = 2.509 },
+]
+
+[[connections]]
+km = 5.491
+station = "Hannover-Leinhausen"
+lines = [
+  { id = "1711", ref = "1711", name = "Heidebahn", km = 5.44 },
+]
+
+[[connections]]
+km = 8.025
+station = "Letter"
+lines = [
+  { id = "1701", ref = "1701", name = "1701 Hannover Hbf - Seelze", km = 8.034 },
+  { id = "1750", ref = "1750", name = "1750 Wunstorf - Lehrte", km = 13.554 },
+]
+
+[[connections]]
+km = 11.085
+station = "Seelze"
+lines = [
+  { id = "1700", ref = "1700", name = "1700 Hannover - Hamm", km = 10.876 },
+  { id = "1711", ref = "1711", name = "Heidebahn", km = 10.876 },
+  { id = "1750", ref = "1750", name = "1750 Wunstorf - Lehrte", km = 10.361 },
+]

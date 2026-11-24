@@ -1,0 +1,162 @@
+id = "6423"
+ref = "6423"
+name = "6423 Schönebeck (Elbe) - Güsten"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q803202"
+from = "Schönebeck (Elbe)"
+to = "Güsten"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.421
+kmTo = 28.372
+length = 27.931
+speeds = [[0.421, 3.516, "", ""], [3.516, 4.406, 100, 100], [4.406, 9.198, 120, 120], [9.198, 10.426, 100, 100], [10.426, 20.976, 120, 120], [20.976, 23.71, 100, 100], [23.71, 27.898, 120, 120], [27.898, 28.372, 100, 100]]
+curves = [[0.527, 1.477, 580], [4.447, 4.673, 1540], [7.03, 7.105, 2900], [8.104, 8.63, 1130], [9.305, 9.806, 1130], [21.094, 21.568, 1080], [22.016, 22.066, 2590], [22.165, 22.215, 2880], [22.539, 22.813, 870], [22.887, 22.987, 1840], [27.872, 28.272, 1140]]
+points = [
+  { km = 0.503, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.642, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.687, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.846, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.868, kind = "signal", label = "55 G", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.037, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.4, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 1.424, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.426, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.464, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.616, kind = "stop", label = "Schönebeck Süd", uic = "8081260", pos = [52.00694, 11.73764] },
+  { km = 1.765, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.814, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 2.066, kind = "signal", label = "57 AA", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 2.11, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.323, kind = "signal", signal = "minor", dir = 1 },
+  { km = 2.408, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 2.424, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 2.66, kind = "signal", label = "57 P2", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 2.804, kind = "signal", signal = "main_repeated" },
+  { km = 2.829, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.941, kind = "station", label = "Schönebeck-Bad Salzelmen", uic = "8012907", pos = [51.99838, 11.7236] },
+  { km = 2.976, kind = "signal", signal = "main_repeated" },
+  { km = 3.318, kind = "signal", label = "57 N2", signal = "main,minor,traversable", dir = 1 },
+  { km = 3.418, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 3.536, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 3.563, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.567, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.817, kind = "signal", label = "57 F", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 4.379, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 4.406, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.407, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.416, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 4.814, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 5.399, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.454, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.696, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 6.075, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 6.116, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 6.124, kind = "signal", signal = "stop", dir = -1 },
+  { km = 6.171, kind = "stop", label = "Eggersdorf", pos = [51.97508, 11.69602], uic = "8024238" },
+  { km = 7.001, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 7.002, kind = "signal", signal = "crossing_distant" },
+  { km = 8.181, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 8.198, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.178, kind = "signal", label = "60 A", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 9.198, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.198, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.546, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 9.59, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 9.623, kind = "signal", label = "60 P1", signal = "main,traversable", dir = -1 },
+  { km = 9.629, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.644, kind = "station", label = "Eickendorf", pos = [51.94677, 11.67687], uic = "8024239" },
+  { km = 10.028, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 10.072, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 10.126, kind = "signal", label = "60 N1", signal = "main,traversable", dir = 1 },
+  { km = 10.426, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.578, kind = "signal", label = "60 F", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 10.601, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.573, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 11.601, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 13.996, kind = "signal", signal = "crossing_distant" },
+  { km = 14.783, kind = "signal", signal = "crossing_distant" },
+  { km = 15.534, kind = "stop", label = "Förderstedt", pos = [51.90171, 11.63191], uic = "8024240" },
+  { km = 15.648, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 15.695, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 15.834, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 15.877, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 16.93, kind = "signal", signal = "crossing_distant" },
+  { km = 17.401, kind = "signal", signal = "crossing_distant" },
+  { km = 18.761, kind = "signal", signal = "crossing_distant" },
+  { km = 19.989, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 20, kind = "signal", signal = "speed_limit_distant", dir = 1, measured = true },
+  { km = 20.02, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 20.08, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 20.199, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 20.976, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 21.003, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 21.197, kind = "signal", label = "63A", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 21.381, kind = "signal", signal = "crossing_distant" },
+  { km = 21.491, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 21.585, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 21.591, kind = "signal", signal = "minor", dir = 1 },
+  { km = 21.759, kind = "signal", signal = "minor", dir = -1 },
+  { km = 21.911, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 21.962, kind = "station", label = "Staßfurt", pos = [51.85156, 11.58787], uic = "8024243" },
+  { km = 22.044, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 22.164, kind = "signal", label = "63 ZR2", signal = "combined,minor,speed_limit,traversable", dir = 1 },
+  { km = 22.335, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 22.391, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 22.519, kind = "signal", signal = "minor", dir = -1 },
+  { km = 22.671, kind = "signal", signal = "minor", dir = 1 },
+  { km = 23.006, kind = "signal", label = "59 ZU31", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 23.398, kind = "signal", label = "59 N31", signal = "main,minor,traversable", dir = 1 },
+  { km = 23.692, kind = "signal", signal = "minor", dir = -1 },
+  { km = 23.71, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.738, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 23.97, kind = "signal", label = "59F", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 24.846, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 24.877, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 24.923, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 24.926, kind = "signal", signal = "stop", dir = -1 },
+  { km = 24.945, kind = "stop", label = "Neundorf (Anh)", pos = [51.82489, 11.59372], uic = "8024245" },
+  { km = 24.987, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 25.039, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 25.786, kind = "signal", signal = "crossing_distant" },
+  { km = 26.906, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 26.934, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 27.898, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 27.931, kind = "signal", label = "64 A", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 27.964, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 28.009, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 28.098, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 28.111, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 28.234, kind = "signal", signal = "minor", dir = 1 },
+  { km = 28.372, kind = "station", label = "Güsten", uic = "8024181", pos = [51.79318, 11.60181] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 16.718, kmTo = 16.744, length = 26 },
+  { kind = "bridge", kmFrom = 21.622, kmTo = 21.679, length = 58 },
+  { kind = "bridge", kmFrom = 21.787, kmTo = 21.797, length = 10 },
+  { kind = "bridge", kmFrom = 27.474, kmTo = 27.497, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wdc{H}ayeAkKcB_M|@", v = 100 },
+  { line = "c_d{HccyeA}eDxw@a~@tQ", v = 120 },
+  { line = "cek{HswveAki@hM{JfDmF`@_~@sFsMoF}I_I", v = 100 },
+  { line = "k{o{Hc|veAwdGi}F_sFctF", v = 120 },
+  { line = "cu_|HqoffA}b@eb@aMsEgK{@", v = 100 },
+  { line = "ksa|Hg{gfAgb@uC{HqByHsEkv@sx@srBmmBeIoK", v = 120 },
+  { line = "o_i|Hu~mfAkd@qu@", v = 100 },
+  { line = "{dj|HguofAy[{h@ou@ayAsFsHeIuDuDUsEh@sGxD{JrN" },
+]
+posts = [[28, 51.79816, 11.6028], [27, 51.80695, 11.59985], [26, 51.81574, 11.59687], [25, 51.82442, 11.59393], [24, 51.83328, 11.59124], [23, 51.84214, 11.58839], [22, 51.85106, 11.58788], [21, 51.85971, 11.59105], [20, 51.86735, 11.59846], [19, 51.87504, 11.606], [18, 51.88275, 11.61348], [17, 51.89048, 11.62094], [16, 51.89816, 11.6285], [15, 51.90586, 11.63601], [14, 51.91349, 11.64371], [13, 51.92114, 11.65136], [12, 51.92879, 11.65901], [11, 51.93644, 11.66667], [10, 51.94407, 11.67439], [9, 51.95255, 11.67834], [8, 51.96109, 11.682], [7, 51.96865, 11.68993], [6, 51.97638, 11.69729], [5, 51.9841, 11.7047], [4, 51.9913, 11.71335], [3, 51.99801, 11.72313], [2, 52.00438, 11.73345], [1, 52.01144, 11.74178]]
+
+[[connections]]
+km = 28.372
+station = "Güsten"
+lines = [
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 149.96 },
+  { id = "6420", ref = "6420", name = "6420 Köthen – Aschersleben", km = 31.948 },
+]

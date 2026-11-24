@@ -1,0 +1,20 @@
+id = "1216"
+ref = "1216"
+name = "Marschenbahn-Draisine"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.719
+length = 7.719
+speeds = [[0, 7.719, "", ""]]
+curves = [[0.1, 0.45, 380], [0.575, 0.95, 880], [1.275, 1.5, 780], [4.55, 4.675, 1780], [4.825, 4.95, 1430], [6.125, 6.55, 840], [6.975, 7.05, 1350], [7.1, 7.2, 1380], [7.375, 7.6, 1050]]
+points = []
+
+[tracks.geo]
+segments = [
+  { line = "ahohIketv@pHp@rEdErAxBzIh]bAnN|@he@dAlMrdApnGdEr]~\\|qBbDbKpD`Hzh@nt@~F`U" },
+]
+posts = [[0, 53.98673, 9.11974], [1, 53.98156, 9.10915], [2, 53.97905, 9.09464], [3, 53.97551, 9.08059], [4, 53.97189, 9.06659], [5, 53.9685, 9.05244], [6, 53.96488, 9.03844], [7, 53.95887, 9.02748]]

@@ -1,0 +1,29 @@
+id = "1822"
+ref = "1822"
+name = "Lammetalbahn"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 23
+kmTo = 24.76
+length = 1.796
+speeds = [[23, 24.76, 60, 60]]
+curves = [[24.135, 24.492, 500], [24.541, 24.64, 650]]
+points = [
+  { km = 23, kind = "halt", label = "Bodenburg", uic = "8001048", pos = [52.03293, 10.00395] },
+  { km = 23.309, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 23.773, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 24.331, kind = "signal", signal = "crossing", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 24.129, kmTo = 24.143, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "o|q|Haaa|@kfAMmFpBwJfL{ElC", v = 60 },
+]
+posts = [[23, 52.03416, 10.00481], [24, 52.04353, 10.00493]]

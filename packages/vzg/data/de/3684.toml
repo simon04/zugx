@@ -1,0 +1,95 @@
+id = "3684"
+ref = "3684"
+name = "3684 Frankfurt (Main) West - Bad Vilbel"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Frankfurt (Main) West"
+to = "Bad Vilbel"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 13.325
+length = 13.325
+speeds = [[0, 1.372, "", ""], [1.372, 1.727, 90, 90], [1.727, 6.406, "", ""], [6.406, 6.45, 90, 90], [6.45, 8.741, "", ""], [8.741, 13.325, 90, 90]]
+curves = [[0.1, 0.275, 620], [0.75, 1.425, 500], [2.325, 2.375, 1920], [3.525, 3.75, 1370], [5.375, 5.425, 2370], [6.275, 7.275, 910], [7.95, 8.975, 880], [9.075, 10.1, 860], [11.45, 12.325, 570], [12.725, 12.85, 1430], [12.9, 13.025, 1500]]
+points = [
+  { km = 0.238, kind = "signal", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 0.268, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.333, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.397, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.425, kind = "stop", label = "Frankfurt am Main West", pos = [50.1192, 8.63951] },
+  { km = 0.463, kind = "signal", signal = "main_repeated" },
+  { km = 0.471, kind = "station", label = "Frankfurt (Main) West", uic = "8002042", pos = [50.11941, 8.63894] },
+  { km = 0.607, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.713, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.722, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.922, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.994, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.096, kind = "signal", label = "S 043", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 1.097, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.149, kind = "signal", label = "N 043", signal = "main,minor,traversable", dir = 1 },
+  { km = 1.279, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.26, kind = "stop", label = "Frankfurt am Main Ginnheim", pos = [50.14219, 8.6426] },
+  { km = 3.373, kind = "halt", label = "Frankfurt-Ginnheim", pos = [50.14314, 8.64318] },
+  { km = 3.431, kind = "halt", label = "Ginnheim/Niddapark", pos = [50.14394, 8.64206] },
+  { km = 4.458, kind = "signal", label = "38AA", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 4.927, kind = "signal", label = "38 P2", signal = "main,traversable", dir = -1 },
+  { km = 5.113, kind = "station", label = "Frankfurt-Eschersheim", pos = [50.1575, 8.65465], uic = "8002045" },
+  { km = 5.141, kind = "station", label = "Weißer Stein", pos = [50.1565, 8.65672] },
+  { km = 5.368, kind = "signal", label = "38 N2", signal = "main,minor,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 6.208, kind = "signal", label = "38F", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 6.404, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 7.279, kind = "signal", label = "38 304", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 7.452, kind = "stop", label = "Frankfurt Frankfurter Berg", pos = [50.17015, 8.67708], uic = "8002044" },
+  { km = 9.003, kind = "signal", label = "38 306", signal = "main", dir = -1 },
+  { km = 9.228, kind = "stop", label = "Frankfurt-Berkersheim", uic = "8002043", pos = [50.17634, 8.69763] },
+  { km = 10.864, kind = "signal", signal = "distant", dir = 1 },
+  { km = 11.913, kind = "stop", label = "Bad Vilbel Süd", pos = [50.17867, 8.73344], uic = "8000761" },
+  { km = 12.248, kind = "signal", label = "30 GG", signal = "combined,speed_limit", dir = 1 },
+  { km = 13.067, kind = "signal", label = "30 N3", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 13.151, kind = "station", label = "Bad Vilbel", pos = [50.18863, 8.73954], uic = "8000760" },
+  { km = 13.325, kind = "signal", label = "30 P3", signal = "main,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.061, kmTo = 0.092, length = 31 },
+  { kind = "bridge", kmFrom = 6.406, kmTo = 6.45, length = 44 },
+  { kind = "bridge", kmFrom = 8.741, kmTo = 8.752, length = 11 },
+  { kind = "bridge", kmFrom = 12.265, kmTo = 12.32, length = 54 },
+  { kind = "bridge", kmFrom = 12.721, kmTo = 12.768, length = 47 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mi{pHqbws@yC~A{ClDeVpe@kE~FkEfCaDl@qDC_EeA" },
+  { line = "ug}pHehus@sQaJ", v = 90 },
+  { line = "iz}pHgsus@gdBgv@}uAqgAwp@sj@" },
+  { line = "gheqHu~zs@}@kA", v = 90 },
+  { line = "ejeqHaa{s@{GuNgEgS}@gTj@kfAUmNq@}IiByKsBeHoD_I" },
+  { line = "qhfqH_|`t@}DuFsMeMsFwIsEwMmCgR]wUzG_~BWsKcBaKgF_OcG}Gkz@q[", v = 90 },
+]
+posts = [[0, 50.11623, 8.64313], [1, 50.12292, 8.634], [2, 50.13148, 8.63687], [3, 50.13999, 8.64139], [4, 50.14825, 8.64684], [5, 50.15617, 8.65347], [6, 50.16407, 8.66018], [7, 50.17008, 8.66985], [8, 50.17006, 8.68387], [9, 50.17429, 8.69542], [10, 50.17887, 8.70663], [11, 50.17792, 8.72059], [12, 50.17896, 8.73398], [13, 50.18719, 8.73914]]
+
+[[connections]]
+km = 0.425
+station = "Frankfurt am Main West"
+lines = [
+  { id = "3611", ref = "3611", name = "3611 Frankfurt (Main) Hbf (tief) - Friedberg (Hess)", km = 3.352 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 196.264 },
+]
+
+[[connections]]
+km = 0.471
+station = "Frankfurt West"
+lines = [
+  { id = "3611", ref = "3611", name = "3611 Frankfurt (Main) Hbf (tief) - Friedberg (Hess)", km = 3.397 },
+]
+
+[[connections]]
+km = 13.151
+station = "Bad Vilbel"
+lines = [
+  { id = "3745", ref = "3745", name = "3745 Bad Vilbel - Lauterbach (Hess) Nord", km = -0.054 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 183.609 },
+]

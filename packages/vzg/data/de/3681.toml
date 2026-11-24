@@ -1,0 +1,129 @@
+id = "3681"
+ref = "3681"
+name = "3681 Frankfurt (Main) Hbf (tief) - Frankfurt (Main) Süd (Tunnel Richtung Süd)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Frankfurt (Main) Hbf (tief)"
+to = "Frankfurt (Main) Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 49.956
+kmTo = 54.959
+length = 4.947
+speeds = [[49.956, 50.911, "", ""], [50.911, 50.913, 60, 60], [50.913, 51.428, 70, 70], [51.428, 51.656, "", ""], [51.656, 52.1, "", 60], [52.1, 52.264, 60, 60], [52.264, 52.441, 70, 70], [52.441, 53.014, "", ""], [53.014, 54.959, 80, 80]]
+curves = [[50.089, 50.401, 530], [50.474, 51.293, 590], [51.374, 51.807, 860], [51.856, 52.152, 710], [52.226, 53.004, 600], [53.104, 53.554, 610], [53.779, 54.279, 450], [54.429, 54.676, 930]]
+points = [
+  { km = 0, kind = "station", label = "Hauptbahnhof (tief)", uic = "8067016", pos = [50.10717, 8.66233], measured = true },
+  { km = 10, kind = "station", label = "Hauptbahnhof", pos = [50.10774, 8.66379], measured = true },
+  { km = 49.956, kind = "station", label = "Frankfurt (Main) Hauptbahnhof", uic = "8011068", pos = [50.10665, 8.66258] },
+  { km = 50, kind = "signal", label = "71 ZT2", signal = "combined,main,speed_limit,speed_limit_distant", dir = 1, measured = true },
+  { km = 50.643, kind = "signal", label = "72 ZV1", signal = "combined,speed_limit", dir = -1 },
+  { km = 50.645, kind = "signal", signal = "stop", dir = -1 },
+  { km = 50.704, kind = "signal", signal = "distant,speed_limit_distant" },
+  { km = 50.811, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 50.812, kind = "station", label = "Taunusanlage", pos = [50.11364, 8.66895], uic = "8006691" },
+  { km = 50.911, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 50.913, kind = "signal", label = "72 ZT1", signal = "combined,speed_limit", dir = 1 },
+  { km = 51.053, kind = "station", label = "Alte Oper", pos = [50.11531, 8.67124] },
+  { km = 51.428, kind = "signal", label = "73 ZV2", signal = "main", dir = -1 },
+  { km = 51.581, kind = "station", label = "Hauptwache", pos = [50.11403, 8.67837], uic = "100001" },
+  { km = 51.656, kind = "signal", label = "73 ZS2", signal = "main,speed_limit", dir = 1 },
+  { km = 52.1, kind = "signal", label = "74 ZW2", signal = "combined,speed_limit", dir = -1, measured = true },
+  { km = 52.232, kind = "station", label = "Konstablerwache", pos = [50.11498, 8.68764], uic = "8004429" },
+  { km = 52.245, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 52.264, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 52.275, kind = "signal", signal = "stop", dir = 1 },
+  { km = 52.284, kind = "signal", label = "74 ZS2", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 52.904, kind = "signal", label = "75 ZV1", signal = "main,speed_limit", dir = -1 },
+  { km = 52.907, kind = "signal", signal = "stop", dir = -1 },
+  { km = 52.935, kind = "signal", signal = "stop", dir = -1 },
+  { km = 52.965, kind = "station", label = "Ostendstraße", pos = [50.11251, 8.69701], uic = "8002058" },
+  { km = 53.007, kind = "signal", signal = "stop", dir = 1 },
+  { km = 53.113, kind = "signal", signal = "stop", dir = 1 },
+  { km = 53.151, kind = "signal", signal = "stop", dir = 1 },
+  { km = 53.159, kind = "signal", label = "75 ZS1", signal = "main", dir = 1 },
+  { km = 53.796, kind = "signal", signal = "distant", dir = 1 },
+  { km = 54.252, kind = "signal", signal = "stop", dir = -1 },
+  { km = 54.31, kind = "signal", signal = "stop", dir = -1 },
+  { km = 54.367, kind = "signal", signal = "stop", dir = -1 },
+  { km = 54.375, kind = "station", label = "Lokalbahnhof", pos = [50.10221, 8.69284], uic = "8002038" },
+  { km = 54.47, kind = "signal", signal = "stop", dir = 1 },
+  { km = 54.686, kind = "signal", signal = "distant", dir = 1 },
+  { km = 54.789, kind = "signal", signal = "distant", dir = 1 },
+  { km = 54.884, kind = "signal", label = "S691", signal = "main", dir = 1 },
+  { km = 54.935, kind = "station", label = "Südbahnhof", pos = [50.09922, 8.68671] },
+  { km = 54.949, kind = "station", label = "Frankfurt (Main) Süd", uic = "8011065", pos = [50.09936, 8.6863] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 49.956, kmTo = 50.287, length = 297, name = "City-Tunnel Frankfurt" },
+  { kind = "tunnel", kmFrom = 50.287, kmTo = 53.159, length = 2855, name = "City-Tunnel Frankfurt (S-Bahn)" },
+  { kind = "tunnel", kmFrom = 53.159, kmTo = 53.685, length = 526, name = "City-Tunnel Frankfurt" },
+  { kind = "tunnel", kmFrom = 53.685, kmTo = 53.807, length = 122, name = "City-Tunnel Frankfurt (S-Bahn)" },
+  { kind = "tunnel", kmFrom = 53.807, kmTo = 54.749, length = 911, name = "City-Tunnel Frankfurt" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}`xpHin_t@wFwO", v = 80 },
+  { line = "uhxpHa_`t@gEeM{Fq[{BeFsCyC_NmDwQcBwGjBeGdG", tunnel = true, v = 80 },
+  { line = "_rzpHyrat@aE|EoChH}AvJa@zL", tunnel = true },
+  { line = "q`{pH}h`t@h@dO", tunnel = true, v = 70 },
+  { line = "g_{pHwx_t@BhVhClT@dF", tunnel = true, v = 60 },
+  { line = "wzzpHyd~s@aA`R", tunnel = true },
+  { line = "y|zpHwq}s@{BrUNzEhB~H", tunnel = true, v = 70 },
+  { line = "{|zpHgj|s@@B", tunnel = true, v = 60 },
+  { line = "y|zpHcj|s@dGbKpEvErNtF|BjBvGxM", tunnel = true },
+]
+posts = [[54, 50.10405, 8.69715], [53, 50.11259, 8.69682], [52, 50.11459, 8.68408], [51, 50.1146, 8.67092], [50, 50.10754, 8.6633]]
+
+[[connections]]
+km = 0
+station = "Hauptbahnhof"
+lines = [
+  { id = "3520", ref = "3520", name = "3520 Mainz Hbf - Frankfurt (Main) Hbf", km = 0 },
+  { id = "3601", ref = "3601", name = "3601 Frankfurt (Main) Hbf - Abzw Heidelberg-Wieblingen", km = 0 },
+  { id = "3603", ref = "3603", name = "3603 Frankfurt (Main) Hbf - Wiesbaden Hbf", km = 0 },
+  { id = "3610", ref = "3610", name = "3610 Frankfurt (Main) Hbf (tief) - Eschhofen", km = 0.056 },
+  { id = "3613", ref = "3613", name = "3613 Frankfurt (Main) Hbf - Frankfurt-Rödelheim", km = 0 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 0 },
+]
+
+[[connections]]
+km = 49.956
+station = "Frankfurt Hauptbahnhof"
+lines = [
+  { id = "3520", ref = "3520", name = "3520 Mainz Hbf - Frankfurt (Main) Hbf", km = 37.476 },
+  { id = "3601", ref = "3601", name = "3601 Frankfurt (Main) Hbf - Abzw Heidelberg-Wieblingen", km = 0.059 },
+  { id = "3603", ref = "3603", name = "3603 Frankfurt (Main) Hbf - Wiesbaden Hbf", km = 0.041 },
+  { id = "3610", ref = "3610", name = "3610 Frankfurt (Main) Hbf (tief) - Eschhofen", km = 0.057 },
+  { id = "3613", ref = "3613", name = "3613 Frankfurt (Main) Hbf - Frankfurt-Rödelheim", km = 0.06 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 199.756 },
+]
+
+[[connections]]
+km = 54.375
+station = "Lokalbahnhof"
+lines = [
+  { id = "3600", ref = "3600", name = "3600 Frankfurt (M) Hbf - Göttingen", km = 4.988 },
+  { id = "3660", ref = "3660", name = "3660 Frankfurt (Main) Süd - Aschaffenburg Hbf", km = 0.566 },
+]
+
+[[connections]]
+km = 54.935
+station = "Südbahnhof"
+lines = [
+  { id = "3650", ref = "3650", name = "3650 Frankfurt am Main Stadion - Frankfurt (Main) Süd", km = 37.007 },
+  { id = "3688", ref = "3688", name = "3688 Frankfurt Süd - Darmstadt Hbf", km = 54.987 },
+]
+
+[[connections]]
+km = 54.949
+station = "Frankfurt Süd"
+lines = [
+  { id = "3600", ref = "3600", name = "3600 Frankfurt (M) Hbf - Göttingen", km = 4.425 },
+  { id = "3650", ref = "3650", name = "3650 Frankfurt am Main Stadion - Frankfurt (Main) Süd", km = 37.007 },
+  { id = "3660", ref = "3660", name = "3660 Frankfurt (Main) Süd - Aschaffenburg Hbf", km = 0.001 },
+  { id = "3688", ref = "3688", name = "3688 Frankfurt Süd - Darmstadt Hbf", km = 54.991 },
+]

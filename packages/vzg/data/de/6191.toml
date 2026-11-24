@@ -1,0 +1,27 @@
+id = "6191"
+ref = "6191"
+name = "6191 Abzw Hennersdorf West - Abzw Doberlug-Kirchhain Nord"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131731615"
+from = "Hennersdorf West"
+to = "Doberlug-Kirchhain Nord"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.152
+length = 3.152
+speeds = [[0, 1.112, "", ""], [1.112, 3.152, 100, 100]]
+curves = [[0.1, 1.275, 1210], [1.9, 3.05, 1310]]
+points = [
+  { km = 2.989, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oubzHkg`rAdAxWc@jV{CtWmGdU" },
+  { line = "waczHih}qAs`@xs@sMvNuK~FwK~BsJLuJqA", v = 100 },
+]
+posts = [[0, 51.62856, 13.60518], [1, 51.62994, 13.59128], [2, 51.63626, 13.58103], [3, 51.64469, 13.57708]]

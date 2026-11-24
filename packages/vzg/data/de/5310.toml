@@ -1,0 +1,165 @@
+id = "5310"
+ref = "5310"
+name = "5310 Donauwörth - Treuchtlingen"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Donauwörth"
+to = "Treuchtlingen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.665
+kmTo = 34.538
+length = 35.177
+speeds = [[-0.665, 5.107, 150, 150], [5.107, 11.886, 140, 140], [11.886, 12.33, 130, 130], [12.33, 20.37, 140, 140], [20.37, 20.504, 160, 140], [20.504, 24.612, 160, 160], [24.612, 28.98, 140, 140], [28.98, 34.538, 130, 130]]
+curves = [[1.665, 2.175, 1020], [2.88, 3.905, 1500], [5.171, 5.546, 890], [5.639, 6.326, 820], [6.504, 7.013, 850], [8.183, 9.481, 800], [9.608, 11.409, 1240], [11.761, 12.288, 980], [13.218, 13.746, 1020], [14.2, 14.904, 820], [15.356, 15.657, 1160], [18.341, 18.943, 930], [19.545, 20.398, 810], [20.699, 20.824, 2020], [21.968, 22.204, 2480], [22.282, 22.397, 2690], [24.564, 25.22, 820], [25.321, 25.624, 1150], [26.23, 26.607, 1090], [27.178, 27.654, 900], [27.814, 28.204, 1090], [28.996, 29.293, 1070], [29.687, 30.077, 780], [30.311, 31.042, 820], [31.149, 32.872, 840], [33.715, 33.986, 1520], [34.261, 34.361, 2300]]
+points = [
+  { km = -0.594, kind = "signal", label = "034I", signal = "minor", dir = -1 },
+  { km = -0.359, kind = "signal", label = "034II", signal = "minor", dir = 1 },
+  { km = -0.348, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = -0.154, kind = "signal", label = "039", signal = "minor", dir = -1 },
+  { km = -0.085, kind = "signal", label = "P3", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 0, kind = "stop", label = "Donauwörth Gleis 3", uic = "8000078", pos = [48.71416, 10.77162], measured = true },
+  { km = 0, kind = "station", label = "Donauwörth", uic = "8000078", pos = [48.71409, 10.77156] },
+  { km = 0.624, kind = "signal", label = "N3", signal = "main,traversable", dir = 1 },
+  { km = 0.927, kind = "signal", label = "035I", signal = "minor", dir = -1 },
+  { km = 1.092, kind = "signal", label = "035II", signal = "minor", dir = 1 },
+  { km = 1.191, kind = "signal", label = "Vp2", signal = "distant", dir = -1 },
+  { km = 1.198, kind = "signal", label = "036", signal = "minor", dir = -1 },
+  { km = 1.505, kind = "signal", label = "FF283", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.711, kind = "signal", label = "WVff283II", signal = "distant", dir = -1 },
+  { km = 1.868, kind = "signal", label = "WVff283I", signal = "distant", dir = -1 },
+  { km = 2.537, kind = "signal", label = "Vff283", signal = "distant", dir = -1 },
+  { km = 3.353, kind = "signal", label = "V633", signal = "distant", dir = 1 },
+  { km = 4.124, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.376, kind = "signal", label = "633", signal = "main,traversable", dir = 1 },
+  { km = 5.107, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.11, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.434, kind = "signal", label = "V637", signal = "distant", dir = 1 },
+  { km = 7.426, kind = "signal", label = "637", signal = "main,traversable", dir = 1 },
+  { km = 7.882, kind = "signal", label = "688", signal = "main,traversable", dir = 1 },
+  { km = 8.263, kind = "signal", label = "WV688", signal = "distant", dir = -1 },
+  { km = 8.911, kind = "signal", label = "V688", signal = "distant", dir = 1 },
+  { km = 9.725, kind = "signal", label = "Va381", signal = "distant", dir = 1 },
+  { km = 10.428, kind = "signal", label = "WVa381", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 10.752, kind = "signal", label = "A381", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 10.936, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 11.886, kind = "signal", label = "N310", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 12.33, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.37, kind = "signal", label = "FF383", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 13.4, kind = "signal", label = "V643", signal = "distant", dir = 1 },
+  { km = 13.411, kind = "signal", label = "Vff383", signal = "distant", dir = -1 },
+  { km = 14.39, kind = "signal", label = "643", signal = "main,traversable", dir = 1 },
+  { km = 16.009, kind = "signal", label = "694", signal = "main,traversable", dir = -1 },
+  { km = 16.186, kind = "signal", label = "694", signal = "main,traversable", dir = -1 },
+  { km = 16.565, kind = "signal", label = "V647", signal = "distant", dir = 1 },
+  { km = 17.021, kind = "signal", label = "V694", signal = "distant", dir = -1 },
+  { km = 17.565, kind = "signal", label = "647", signal = "main,traversable", dir = 1 },
+  { km = 20.502, kind = "signal", label = "Va", signal = "distant", dir = 1 },
+  { km = 20.504, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 21.484, kind = "signal", label = "A", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 21.533, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 21.814, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 21.839, kind = "signal", signal = "minor", dir = 1 },
+  { km = 21.92, kind = "signal", signal = "minor", dir = -1 },
+  { km = 22.3, kind = "station", label = "Otting-Weilheim", uic = "8004731", pos = [48.88084, 10.81884], measured = true },
+  { km = 22.592, kind = "signal", label = "N701", signal = "main,traversable", dir = 1 },
+  { km = 22.781, kind = "signal", signal = "minor", dir = -1 },
+  { km = 22.964, kind = "signal", label = "FF", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 23.545, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 23.704, kind = "signal", label = "V663", signal = "distant", dir = 1 },
+  { km = 24.108, kind = "signal", label = "Vff", signal = "distant", dir = -1 },
+  { km = 24.612, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 24.613, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.713, kind = "signal", label = "663", signal = "main,traversable", dir = 1 },
+  { km = 26.353, kind = "signal", label = "V665", signal = "distant", dir = 1 },
+  { km = 27.354, kind = "signal", label = "WV665", signal = "distant", dir = 1 },
+  { km = 27.644, kind = "signal", label = "665", signal = "main,traversable", dir = 1 },
+  { km = 27.994, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 28.98, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.981, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 29.623, kind = "signal", label = "696", signal = "main,traversable", dir = -1 },
+  { km = 29.769, kind = "signal", label = "WV696III", signal = "distant", dir = -1 },
+  { km = 29.842, kind = "signal", label = "WV696II", signal = "distant", dir = -1 },
+  { km = 30.017, kind = "signal", label = "WV696I", signal = "distant", dir = -1 },
+  { km = 30.308, kind = "signal", label = "V673", signal = "distant", dir = 1 },
+  { km = 30.864, kind = "signal", label = "WV673", signal = "distant", dir = 1 },
+  { km = 30.871, kind = "signal", label = "V696", signal = "distant", dir = -1 },
+  { km = 31.298, kind = "signal", label = "673", signal = "main,traversable", dir = 1 },
+  { km = 32.046, kind = "signal", label = "Vb150", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 32.719, kind = "signal", label = "WVb150", signal = "distant", dir = 1 },
+  { km = 33.126, kind = "signal", label = "B150", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 33.417, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 33.584, kind = "signal", label = "VnI", signal = "distant", dir = 1 },
+  { km = 33.675, kind = "signal", label = "156I", signal = "minor", dir = -1 },
+  { km = 33.679, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 33.894, kind = "signal", label = "155II", signal = "minor", dir = 1 },
+  { km = 33.982, kind = "signal", label = "154I", signal = "minor", dir = -1 },
+  { km = 33.984, kind = "signal", label = "154II", signal = "minor", dir = -1 },
+  { km = 34.144, kind = "signal", label = "152II", signal = "minor", dir = 1 },
+  { km = 34.227, kind = "signal", label = "151I", signal = "minor", dir = -1 },
+  { km = 34.242, kind = "signal", signal = "route", dir = -1 },
+  { km = 34.349, kind = "signal", label = "P005", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 34.485, kind = "signal", label = "WVn005", signal = "distant", dir = 1 },
+  { km = 136.8, kind = "station", label = "Treuchtlingen", uic = "8000122", pos = [48.96131, 10.90826], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.553, kmTo = -0.432, length = 122 },
+  { kind = "bridge", kmFrom = 0.822, kmTo = 0.856, length = 38 },
+  { kind = "bridge", kmFrom = 1.14, kmTo = 1.162, length = 21 },
+  { kind = "bridge", kmFrom = 2.366, kmTo = 2.518, length = 151 },
+  { kind = "bridge", kmFrom = 2.936, kmTo = 2.959, length = 23 },
+  { kind = "bridge", kmFrom = 4.411, kmTo = 4.451, length = 42 },
+  { kind = "bridge", kmFrom = 6.371, kmTo = 6.386, length = 15 },
+  { kind = "bridge", kmFrom = 6.696, kmTo = 6.716, length = 19 },
+  { kind = "bridge", kmFrom = 7.324, kmTo = 7.338, length = 14 },
+  { kind = "bridge", kmFrom = 8.075, kmTo = 8.086, length = 11 },
+  { kind = "bridge", kmFrom = 10.167, kmTo = 10.189, length = 22 },
+  { kind = "bridge", kmFrom = 18.017, kmTo = 18.032, length = 15 },
+  { kind = "bridge", kmFrom = 19.95, kmTo = 19.973, length = 23 },
+  { kind = "bridge", kmFrom = 20.706, kmTo = 20.724, length = 19 },
+  { kind = "bridge", kmFrom = 21.148, kmTo = 21.165, length = 15 },
+  { kind = "bridge", kmFrom = 21.968, kmTo = 21.986, length = 17 },
+  { kind = "bridge", kmFrom = 22.483, kmTo = 22.513, length = 30 },
+  { kind = "bridge", kmFrom = 23.211, kmTo = 23.235, length = 24 },
+  { kind = "bridge", kmFrom = 25.938, kmTo = 25.953, length = 15 },
+  { kind = "bridge", kmFrom = 26.4, kmTo = 26.415, length = 17 },
+  { kind = "bridge", kmFrom = 28.482, kmTo = 28.495, length = 14 },
+  { kind = "bridge", kmFrom = 29.292, kmTo = 29.462, length = 185 },
+  { kind = "bridge", kmFrom = 31.483, kmTo = 31.505, length = 21 },
+  { kind = "bridge", kmFrom = 31.783, kmTo = 31.797, length = 18 },
+  { kind = "bridge", kmFrom = 32.072, kmTo = 32.124, length = 51 },
+  { kind = "bridge", kmFrom = 32.261, kmTo = 32.282, length = 21 },
+  { kind = "bridge", kmFrom = 32.829, kmTo = 32.861, length = 31 },
+  { kind = "bridge", kmFrom = 33.308, kmTo = 33.329, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "u}hhHelx`AwM`k@mYhsAoQtu@uFfO_GxIgf@pg@iIjF{LhEwG`A_JPmfAqH", v = 150 },
+  { line = "ucphHwjp`AmI_@oE\\wRrHqJrAgL{AcUiMiKmByFL_dAbLsGGmFgA}KiHaEuFyCsG_EyPoCw`@iCaPwGkRuImMqNuKiIwCoF{@aMKuZhC", v = 140 },
+  { line = "uezhHqwt`A}KcAcJaE", v = 130 },
+  { line = "w}zhHw_u`Amm@k]cI_DeNw@{b@|CoFk@mHsC{IuIgV}a@uFwG_mCmvBoGuB}Hg@gi@dFuHMmGcB{EqCyEeFuEgI", v = 140 },
+  { line = "iugiHak|`AkN_]cd@qz@kLwQeNaOkZmVu\\kRsW{Ig`@{G", v = 160 },
+  { line = "iymiH_fbaAgIiC_HsFsDmFoMcWoe@yg@sFcK}T}n@cDiHsEkGyP_NoFsGcb@c}@", v = 140 },
+  { line = "}lsiHy}iaAgGsK{XyXsDgFaGkOaGaTaByM]uMf@mMnD}ZA_Vu@gIkBmJyCsIcFiIiGmGeFkDiLiDyFE{u@`FaVcBkOiC", v = 130 },
+]
+posts = [[0, 48.71416, 10.77162], [1, 48.71806, 10.75917], [2, 48.72254, 10.74738], [3, 48.72981, 10.7396], [4, 48.73827, 10.73715], [5, 48.74728, 10.73839], [6, 48.75657, 10.7366], [7, 48.76502, 10.73977], [8, 48.77379, 10.73809], [9, 48.78189, 10.74142], [10, 48.7849, 10.75385], [11, 48.79191, 10.76138], [12, 48.80081, 10.76112], [13, 48.80914, 10.76597], [14, 48.81781, 10.76789], [15, 48.82633, 10.77169], [16, 48.83341, 10.77986], [17, 48.84124, 10.78649], [18, 48.84907, 10.79313], [19, 48.85744, 10.79687], [20, 48.86627, 10.79691], [21, 48.87244, 10.80663], [22, 48.8784, 10.81603], [23, 48.88649, 10.82388], [24, 48.89484, 10.82848], [25, 48.90337, 10.83192], [26, 48.9101, 10.84066], [27, 48.9164, 10.85083], [28, 48.92317, 10.85942], [29, 48.92906, 10.86976], [30, 48.9359, 10.8779], [31, 48.93819, 10.89069], [32, 48.93926, 10.90358], [33, 48.94725, 10.90782], [34, 48.95635, 10.90697]]
+
+[[connections]]
+km = 0
+station = "Donauwörth"
+lines = [
+  { id = "5300", ref = "5300", name = "5300 Augsburg - Nördlingen", km = 40.801 },
+  { id = "5381", ref = "5381", name = "5381 Ingolstadt-Seehof - Neuoffingen", km = 52.901 },
+]
+
+[[connections]]
+km = 136.8
+station = "Treuchtlingen"
+lines = [
+  { id = "5320", ref = "5320", name = "5320 Treuchtlingen - Nürnberg Hbf, W 44", km = 136.8 },
+  { id = "5321", ref = "5321", name = "5321 Treuchtlingen - Würzburg", km = 136.8 },
+  { id = "5501", ref = "5501", name = "5501 München - Treuchtlingen", km = 136.8 },
+]

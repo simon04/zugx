@@ -1,0 +1,71 @@
+id = "5740"
+ref = "5740"
+name = "5740 Freilassing - Bad Reichenhall"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Freilassing"
+to = "Bad Reichenhall"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.475
+kmTo = 14.875
+length = 15.318
+speeds = [[-0.475, 0.001, "", ""], [0.001, 0.462, 80, 80], [0.462, 0.465, 60, 60], [0.465, 0.896, 80, 80], [0.896, 1.214, 80, 60], [1.214, 1.411, 80, 80], [1.411, 1.711, 80, 90], [1.711, 14.875, 90, 90]]
+curves = [[-0.375, -0.075, 1180], [0.275, 1.265, 370], [1.314, 1.766, 480], [2.168, 2.332, 1070], [2.755, 3.107, 670], [5.469, 5.545, 2720], [7.124, 7.478, 600], [7.555, 8.239, 560], [8.29, 8.543, 670], [11.614, 12.268, 910], [12.343, 12.947, 450], [13.3, 13.551, 740], [14.054, 14.155, 2350], [14.256, 14.356, 1220], [14.482, 14.607, 1610]]
+points = [
+  { km = -0.237, kind = "signal", label = "N001", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = -0.138, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.001, kind = "station", label = "Freilassing", pos = [47.83689, 12.97672], uic = "8000108" },
+  { km = 0.355, kind = "signal", label = "P001", signal = "main,minor,route,traversable", dir = 1 },
+  { km = 0.535, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.752, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 0.896, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.166, kind = "signal", label = "A455", signal = "distant,main,traversable", dir = 1 },
+  { km = 1.214, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.411, kind = "stop", label = "Freilassing-Hofham", pos = [47.83182, 12.96783], uic = "8002085" },
+  { km = 1.711, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.863, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.284, kind = "stop", label = "Ainring", pos = [47.81494, 12.96438], uic = "8000459" },
+  { km = 5.215, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.238, kind = "signal", label = "A 557", signal = "distant,main,traversable", dir = 1 },
+  { km = 5.875, kind = "station", label = "Hammerau", pos = [47.79584, 12.94616], uic = "8002570" },
+  { km = 6.722, kind = "signal", label = "F 557", signal = "distant,main,traversable", dir = -1 },
+  { km = 10.794, kind = "station", label = "Piding", pos = [47.75963, 12.9116], uic = "8004815" },
+  { km = 14.596, kind = "signal", label = "95P1", signal = "main,minor,traversable", dir = -1 },
+  { km = 14.834, kind = "station", label = "Bad Reichenhall", pos = [47.73138, 12.88189], uic = "8000737" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.286, kmTo = 2.325, length = 41 },
+  { kind = "bridge", kmFrom = 3.939, kmTo = 3.955, length = 15 },
+  { kind = "bridge", kmFrom = 9.951, kmTo = 9.969, length = 18 },
+  { kind = "bridge", kmFrom = 12.26, kmTo = 12.373, length = 112 },
+  { kind = "bridge", kmFrom = 13.836, kmTo = 13.861, length = 25 },
+  { kind = "bridge", kmFrom = 14.419, kmTo = 14.433, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{w}bHmsfnAeGnTqApM" },
+  { line = "sb~bHkoenAaDzd@", v = 80 },
+  { line = "ug~bHoidnA?D", v = 60 },
+  { line = "ug~bHiidnALtIt@zEzBbG|CpClDr@~Dg@tBoAtHsI", v = 80 },
+  { line = "}c}bHywcnAfEwBfF_@l`@jHna@?~GtAdE~CpkB`jBpMfKbhApv@~GzAjRSjIvDtFlHbFxO|CjGhiCfgDfGfFfIfDvEb@bQkAbFvAjDtClDzGxKf`@vCrGdc@xl@hHnIzNlM", v = 90 },
+]
+posts = [[0, 47.83674, 12.97671], [1, 47.83503, 12.96552], [2, 47.82659, 12.96773], [3, 47.81712, 12.96648], [4, 47.80992, 12.95946], [5, 47.80262, 12.95227], [6, 47.79487, 12.94536], [7, 47.78662, 12.93908], [8, 47.77822, 12.93603], [9, 47.77204, 12.92668], [10, 47.76513, 12.91827], [11, 47.75822, 12.90984], [12, 47.75095, 12.90229], [13, 47.74317, 12.89842], [14, 47.7373, 12.88865]]
+
+[[connections]]
+km = 0.001
+station = "Freilassing"
+lines = [
+  { id = "5703", ref = "5703", name = "5703 Rosenheim - Salzburg Grenze", km = 81.666 },
+  { id = "5723", ref = "5723", name = "5723 Mühldorf (Oberbay) - Freilassing", km = 65.546 },
+]
+
+[[connections]]
+km = 14.834
+station = "Bad Reichenhall"
+lines = [
+  { id = "5741", ref = "5741", name = "5741 Bad Reichenhall - Berchtesgaden Hbf", km = 0.011 },
+]

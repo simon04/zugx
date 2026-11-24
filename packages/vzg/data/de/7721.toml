@@ -1,0 +1,51 @@
+id = "7721"
+ref = "7721"
+name = "7721 Mühlacker Süd - Mühlacker"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Mühlacker Em Süd"
+to = "Mühlacker"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.466
+length = 1.466
+speeds = [[0, 0.141, 60, 60], [0.141, 0.69, "", ""], [0.69, 1.466, 50, 50]]
+curves = [[0.1, 0.175, 2540], [0.475, 0.575, 1510], [0.85, 1.025, 1670], [1.3, 1.35, 1460]]
+points = [
+  { km = 0.141, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 0.255, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 0.347, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 0.389, kind = "signal", signal = "main_repeated" },
+  { km = 0.4, kind = "station", label = "Mühlacker", uic = "8029006", pos = [48.95309, 8.84583] },
+  { km = 0.457, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.471, kind = "signal", label = "3", signal = "minor", dir = 1 },
+  { km = 0.494, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.533, kind = "signal", label = "R3", signal = "distant,main,minor", dir = 1 },
+  { km = 0.539, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.604, kind = "signal", label = "W74", signal = "minor", dir = 1 },
+  { km = 0.748, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.828, kind = "signal", label = "S70", signal = "distant,main,minor", dir = -1 },
+  { km = 1.387, kind = "signal", label = "N70", signal = "main,minor,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.271, kmTo = 1.287, length = 16 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}hxiHuv_u@l@zJ", v = 60 },
+  { line = "ogxiHyj_u@bGhl@" },
+  { line = "k_xiHo}}t@vDfUtKvd@", v = 50 },
+]
+posts = [[0, 48.95391, 8.85115], [1, 48.95134, 8.83808]]
+
+[[connections]]
+km = 0.4
+station = "Mühlacker"
+lines = [
+  { id = "4200", ref = "4200", name = "4200 Karlsruhe - Mühlacker", km = 38.912 },
+  { id = "4800", ref = "4800", name = "4800 Stuttgart - Bretten Strw 4130/4800", km = 46.548 },
+]

@@ -1,0 +1,238 @@
+id = "2801"
+ref = "2801"
+name = "2801 Hagen - Dortmund"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Hagen Hbf"
+to = "Dortmund Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.361
+kmTo = 31.26
+length = 31.562
+speeds = [[-0.361, -0.32, "", ""], [-0.32, 0.116, 40, 40], [0.116, 0.688, "", ""], [0.688, 1.036, 90, 90], [1.036, 4.364, 100, 100], [4.364, 8.54, 120, 120], [8.54, 14.286, 130, 130], [14.286, 15.085, 80, 80], [15.085, 16.477, "", ""], [16.477, 16.808, 70, 70], [16.808, 17.221, 80, 80], [17.221, 17.893, 100, 100], [17.893, 20.3, 120, 120], [20.3, 24.156, 140, 140], [24.156, 27.755, 130, 130], [27.755, 28.922, 120, 120], [28.922, 30.067, "", ""], [30.067, 30.477, 80, 80], [30.477, 30.883, "", ""], [30.883, 30.995, 40, 40], [30.995, 31.053, 40, 30], [31.053, 31.26, 30, 40]]
+curves = [[-0.249, -0.199, 1060], [-0.049, 0.351, 1520], [0.451, 0.576, 1510], [0.776, 1.001, 910], [1.076, 1.301, 860], [1.426, 1.501, 2110], [1.776, 1.951, 2090], [2.026, 2.126, 1330], [2.226, 2.676, 1090], [2.801, 3.451, 1130], [3.576, 4.098, 1120], [4.174, 4.303, 2280], [5.152, 5.664, 2250], [6.842, 7.981, 1060], [8.068, 8.538, 920], [9.571, 10.242, 1870], [10.452, 11.498, 1430], [12.603, 13.681, 950], [14.026, 14.075, 2170], [14.224, 14.373, 1610], [14.696, 15.043, 1230], [15.291, 15.515, 810], [15.887, 15.961, 2180], [16.477, 17.244, 330], [17.34, 17.676, 650], [17.748, 17.9, 1420], [19.848, 20.217, 1190], [20.933, 21.083, 2120], [23.567, 24.989, 1370], [28.26, 28.385, 1840], [28.66, 29.135, 1420], [29.21, 29.385, 1170], [29.61, 29.86, 950], [30.01, 30.51, 1080], [30.56, 30.61, 1790], [30.86, 31.06, 900], [31.11, 31.16, 1380]]
+points = [
+  { km = -0.205, kind = "signal", label = "P003", signal = "distant,main,minor,route,traversable", dir = -1 },
+  { km = -0.184, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.125, kind = "signal", signal = "departure", dir = 1 },
+  { km = -0.124, kind = "signal", signal = "departure", dir = -1 },
+  { km = -0.124, kind = "signal", signal = "brake_test" },
+  { km = -0.09, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.054, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.052, kind = "station", label = "Hagen Hbf", pos = [51.36296, 7.46061] },
+  { km = 0.055, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.056, kind = "signal", signal = "main_repeated" },
+  { km = 0.108, kind = "signal", label = "R 003", signal = "main,minor,traversable", dir = -1 },
+  { km = 0.129, kind = "signal", label = "N023", signal = "distant", dir = 1 },
+  { km = 0.135, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.211, kind = "signal", label = "N 023", signal = "distant,main,minor,route,traversable", dir = 1 },
+  { km = 0.269, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.34, kind = "signal", label = "043 II", signal = "minor", dir = 1 },
+  { km = 0.391, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.497, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.673, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.907, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 1.072, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.949, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 2, kind = "signal", signal = "route_distant", dir = 1 },
+  { km = 2.192, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.955, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.187, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 3.289, kind = "signal", signal = "route", dir = 1 },
+  { km = 3.487, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.799, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 4.178, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.179, kind = "signal", label = "P522", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 4.247, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 4.273, kind = "station", label = "Hagen-Vorhalle", pos = [51.38814, 7.43367], uic = "8000977" },
+  { km = 4.298, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 4.337, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.343, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.442, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.447, kind = "signal", label = "R501", signal = "distant,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 4.51, kind = "signal", signal = "route_distant", dir = 1 },
+  { km = 4.611, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.918, kind = "signal", signal = "minor", dir = 1 },
+  { km = 5.264, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.406, kind = "signal", signal = "minor", dir = -1 },
+  { km = 5.676, kind = "signal", label = "579", signal = "main,traversable", dir = 1 },
+  { km = 6.483, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.781, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.855, kind = "stop", label = "Wetter (Ruhr)", pos = [51.38638, 7.38593], uic = "8006386" },
+  { km = 8.188, kind = "signal", label = "963", signal = "main,traversable", dir = 1 },
+  { km = 8.599, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.691, kind = "signal", signal = "distant_distant", dir = 1 },
+  { km = 9.768, kind = "signal", signal = "distant_distant", dir = 1 },
+  { km = 9.845, kind = "signal", signal = "distant_distant", dir = 1 },
+  { km = 9.964, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.65, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.994, kind = "signal", label = "965", signal = "main,traversable", dir = 1 },
+  { km = 13.193, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 13.821, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 14.203, kind = "signal", label = "A", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 14.519, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 14.717, kind = "signal", signal = "minor", dir = 1 },
+  { km = 15.003, kind = "signal", label = "P1", signal = "main,traversable", dir = -1 },
+  { km = 15.198, kind = "station", label = "Witten Hbf", pos = [51.43559, 7.32939], uic = "8000251" },
+  { km = 15.271, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 15.273, kind = "signal", label = "R1", signal = "distant,main,minor,traversable", dir = 1 },
+  { km = 15.296, kind = "signal", signal = "stop", dir = 1 },
+  { km = 15.461, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 15.633, kind = "signal", signal = "minor", dir = -1 },
+  { km = 16.312, kind = "signal", label = "N1", signal = "main,traversable", dir = 1 },
+  { km = 16.439, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.581, kind = "signal", signal = "minor", dir = -1 },
+  { km = 16.82, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.827, kind = "signal", signal = "minor", dir = -1 },
+  { km = 17.186, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.777, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.778, kind = "signal", signal = "distant", dir = -1 },
+  { km = 18.298, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 18.338, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 19.296, kind = "signal", signal = "distant", dir = 1 },
+  { km = 20.23, kind = "stop", label = "Witten-Annen", pos = [51.44776, 7.37515] },
+  { km = 20.268, kind = "halt", label = "Witten Annen-Nord", uic = "8006510", pos = [51.44791, 7.37566] },
+  { km = 20.29, kind = "signal", signal = "speed_limit,stop", dir = 1 },
+  { km = 20.294, kind = "signal", label = "145", signal = "main,traversable", dir = 1 },
+  { km = 22.802, kind = "signal", signal = "distant", dir = 1 },
+  { km = 22.986, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 23.198, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 23.232, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 23.268, kind = "stop", label = "Dortmund-Kruckel", pos = [51.45829, 7.41542], uic = "8001536" },
+  { km = 23.497, kind = "signal", signal = "distant", dir = 1 },
+  { km = 23.5, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 23.795, kind = "signal", label = "151", signal = "main,traversable", dir = 1 },
+  { km = 23.984, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 23.984, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 24.448, kind = "signal", signal = "distant", dir = 1 },
+  { km = 25.56, kind = "signal", label = "153", signal = "main,traversable", dir = 1 },
+  { km = 25.634, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 25.667, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 25.864, kind = "stop", label = "Dortmund-Barop", pos = [51.47707, 7.43138], uic = "8001527" },
+  { km = 26.88, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 27.872, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 27.874, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 28.922, kind = "signal", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 29.561, kind = "station", label = "Dortmund West", uic = "8003946", pos = [51.50962, 7.43902] },
+  { km = 29.937, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 30.037, kind = "signal", signal = "main,route", dir = -1 },
+  { km = 30.184, kind = "signal", label = "F560", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 30.477, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 30.559, kind = "signal", signal = "distant", dir = -1 },
+  { km = 30.614, kind = "signal", signal = "minor", dir = -1 },
+  { km = 30.831, kind = "signal", signal = "minor", dir = 1 },
+  { km = 30.905, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 31.057, kind = "signal", label = "P4", signal = "main,minor,traversable", dir = -1 },
+  { km = 31.166, kind = "station", label = "Dortmund Hbf", uic = "8000080", pos = [51.51789, 7.45928] },
+  { km = 31.24, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 2.104, kmTo = 2.158, length = 54 },
+  { kind = "bridge", kmFrom = 2.975, kmTo = 3.051, length = 76 },
+  { kind = "bridge", kmFrom = 6.336, kmTo = 6.47, length = 137 },
+  { kind = "bridge", kmFrom = 6.61, kmTo = 6.687, length = 89 },
+  { kind = "tunnel", kmFrom = 7.333, kmTo = 7.421, length = 85 },
+  { kind = "bridge", kmFrom = 13.318, kmTo = 13.342, length = 27 },
+  { kind = "bridge", kmFrom = 14.534, kmTo = 14.551, length = 18 },
+  { kind = "bridge", kmFrom = 14.894, kmTo = 14.908, length = 14 },
+  { kind = "bridge", kmFrom = 15.418, kmTo = 15.436, length = 18 },
+  { kind = "bridge", kmFrom = 16.459, kmTo = 16.477, length = 18 },
+  { kind = "bridge", kmFrom = 16.79, kmTo = 16.808, length = 18 },
+  { kind = "bridge", kmFrom = 17.055, kmTo = 17.07, length = 15 },
+  { kind = "bridge", kmFrom = 17.201, kmTo = 17.221, length = 21 },
+  { kind = "bridge", kmFrom = 17.876, kmTo = 17.893, length = 16 },
+  { kind = "bridge", kmFrom = 20.722, kmTo = 20.74, length = 18 },
+  { kind = "bridge", kmFrom = 24.746, kmTo = 24.766, length = 21 },
+  { kind = "bridge", kmFrom = 27.267, kmTo = 27.299, length = 32 },
+  { kind = "tunnel", kmFrom = 28.394, kmTo = 28.501, length = 107 },
+  { kind = "bridge", kmFrom = 30.484, kmTo = 30.509, length = 25 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{}lyHkuol@`Ch`@", v = 40 },
+  { line = "yylyHatnl@lFta@" },
+  { line = "krlyHkqml@pCpN`FdO", v = 80 },
+  { line = "wflyHsqll@tJ|QtFlG~NbMfR`H" },
+  { line = "cpjyHa_kl@nHv@bME", v = 120 },
+  { line = "oxiyHo}jl@~DE", tunnel = true, v = 120 },
+  { line = "oriyHu}jl@xb@vC", v = 120 },
+  { line = "unhyH}xjl@b_DrPvHbBzGzCpJrH~FfH", v = 130 },
+  { line = "khbyHmlil@bInOfHbVbz@toEfLf_A", v = 140 },
+  { line = "sl_yH{s_l@dBbRXpSkFtmD", v = 120 },
+  { line = "_p_yHo}xk@Era@_AhHgDzN", v = 100 },
+  { line = "mw_yHuawk@mA~GSbHf@nHdBrG", v = 80 },
+  { line = "av_yHm}uk@pB~CnCfB~B^rD[", v = 70 },
+  { line = "kd_yHauuk@tZ_FnZ}HnDiBhL{K" },
+  { line = "kz|xHevvk@pI{KjRsg@", v = 80 },
+  { line = "m|{xHukxk@zNoo@|CkJzH}MnKwIrGyBvGo@vbA`DnIM|P_EtHgE|FcFdSgXtKmUnEqNr[cqA", v = 130 },
+  { line = "ajtxHuf`l@`H{Q|Wy[xCsF~DqL", v = 120 },
+  { line = "g}rxHqkbl@bAyE", tunnel = true, v = 120 },
+  { line = "c{rxHkrbl@dBuQX{PmBouAaA{[kDma@oRyfA", v = 120 },
+  { line = "ousxHqtjl@aFaZsAkSl@k_@lAwMzAaGfEmJ~MaUjIsIlKgF", v = 100 },
+  { line = "klrxHqnol@zAo@", tunnel = true, v = 100 },
+  { line = "oirxHapol@xN{C|_@sBlIqC", v = 100 },
+  { line = "inpxHc}ol@xHgCjHU", v = 90 },
+  { line = "c{oxHabpl@~^{B" },
+  { line = "c{nxH}epl@rG|@fNfE", v = 40 },
+  { line = "gcnxHw}ol@fAd@" },
+]
+posts = [[31, 51.51687, 7.4546], [30, 51.51315, 7.44163], [29, 51.5055, 7.43447], [28, 51.49654, 7.43364], [27, 51.48758, 7.43246], [26, 51.4786, 7.4316], [25, 51.4696, 7.43059], [24, 51.46159, 7.42461], [23, 51.45731, 7.41204], [22, 51.45359, 7.3989], [21, 51.44992, 7.38585], [20, 51.44733, 7.37186], [19, 51.44779, 7.35737], [18, 51.44841, 7.3433], [17, 51.45014, 7.3291], [16, 51.44253, 7.32617], [15, 51.43412, 7.33108], [14, 51.42873, 7.34263], [13, 51.42306, 7.35269], [12, 51.4141, 7.35308], [11, 51.4052, 7.35359], [10, 51.39791, 7.36145], [9, 51.39327, 7.37325], [8, 51.38763, 7.38463], [7, 51.38308, 7.39576], [6, 51.38359, 7.41054], [5, 51.3856, 7.42412], [4, 51.38912, 7.4373], [3, 51.38754, 7.45055], [2, 51.37997, 7.45778], [1, 51.3711, 7.45971], [0, 51.36218, 7.46074]]
+
+[[connections]]
+km = 0.052
+station = "Hagen Hbf"
+lines = [
+  { id = "2143", ref = "2143", name = "2143 Witten Hbf - Schwelm", km = 80.137 },
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 80.164 },
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 55.499 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 141.818 },
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = 5.252 },
+  { id = "2811", ref = "2811", name = "2811 Abzw Hagen Rehsiepen - Hagen Streckenwechsel 2811/2823", km = 141.791 },
+  { id = "2843", ref = "2843", name = "2843 Abzw Hohensyburg - Schwerte (Ruhr) Ost", km = 140.932 },
+  { id = "2850", ref = "2850", name = "2850 Letmathe - Fröndenberg", km = -1.026 },
+]
+
+[[connections]]
+km = 4.273
+station = "Hagen-Vorhalle"
+lines = [
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 76.002 },
+  { id = "2423", ref = "2423", name = "2423 Düsseldorf-Gerresheim - Dornap-Hahnenfurth", km = 58.99 },
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = 6.336 },
+  { id = "2820", ref = "2820", name = "2820 Hagen-Vorhalle - Hagen-Kabel", km = 76.044 },
+]
+
+[[connections]]
+km = 15.198
+station = "Witten Hbf"
+lines = [
+  { id = "2140", ref = "2140", name = "2140 Bochum-Langendreer - Witten Hbf", km = 6.791 },
+  { id = "2143", ref = "2143", name = "2143 Witten Hbf - Schwelm", km = 63 },
+]
+
+[[connections]]
+km = 29.561
+station = "Dortmund West"
+lines = [
+  { id = "2112", ref = "2112", name = "2112 Welver - Dortmund Süd", km = 47.041 },
+  { id = "2125", ref = "2125", name = "2125 Abzw Bochum Stockumer Straße - Dortmund Hbf", km = 9.84 },
+  { id = "2126", ref = "2126", name = "2126 Dortmund-Dorstfeld - Dortmund Süd", km = 13.944 },
+  { id = "2158", ref = "2158", name = "2158 Bochum Hbf - Dortmund Hbf (Ferngleise)", km = 162.576 },
+  { id = "2190", ref = "2190", name = "2190 Bochum Hbf - Dortmund Hbf (S-Bahn-Gleise)", km = 17.346 },
+  { id = "2213", ref = "2213", name = "2213 Dortmund-Lütgendortmund - Dortmund-Dorstfeld", km = 0 },
+]
+
+[[connections]]
+km = 31.166
+station = "Dortmund Hbf"
+lines = [
+  { id = "2100", ref = "2100", name = "2100 Dortmund - Gronau", km = 0.003 },
+  { id = "2125", ref = "2125", name = "2125 Abzw Bochum Stockumer Straße - Dortmund Hbf", km = 11.523 },
+  { id = "2158", ref = "2158", name = "2158 Bochum Hbf - Dortmund Hbf (Ferngleise)", km = 164.272 },
+  { id = "2190", ref = "2190", name = "2190 Bochum Hbf - Dortmund Hbf (S-Bahn-Gleise)", km = 19.035 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 119.499 },
+]

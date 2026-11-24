@@ -1,0 +1,96 @@
+id = "2671"
+ref = "2671"
+name = "2671 Hilden - Solingen Hbf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Hilden"
+to = "Solingen Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.067
+kmTo = 7.261
+length = 7.34
+speeds = [[-0.067, 0.058, "", ""], [0.058, 0.194, 70, 70], [0.194, 0.796, 80, 80], [0.796, 4.307, 120, 120], [4.307, 5.243, 70, 70], [5.243, 6.593, 80, 80], [6.593, 7.09, "", ""], [7.09, 7.261, 40, 40]]
+curves = [[0.048, 0.148, 600], [0.198, 0.748, 500], [3.532, 3.908, 1690], [4.385, 5.011, 540], [5.486, 6.486, 350], [7.111, 7.161, 1920]]
+points = [
+  { km = -0.067, kind = "station", label = "Hilden", uic = "8000388", pos = [51.16714, 6.92158] },
+  { km = 0.048, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.194, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.289, kind = "signal", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 0.796, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.017, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.136, kind = "stop", label = "Hilden Süd", pos = [51.1637, 6.93771], uic = "8002828" },
+  { km = 3.19, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.363, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 4.307, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.079, kind = "stop", label = "Solingen Vogelpark", pos = [51.16657, 6.99227], uic = "8006714" },
+  { km = 5.218, kind = "signal", signal = "distant,speed_limit", dir = 1 },
+  { km = 5.97, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.061, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.155, kind = "signal", signal = "main", dir = 1 },
+  { km = 6.522, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 6.591, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 6.847, kind = "signal", label = "28L210X", signal = "minor", dir = 1 },
+  { km = 6.932, kind = "signal", label = "28 P10", signal = "combined", dir = -1 },
+  { km = 6.944, kind = "signal", signal = "stop", dir = -1 },
+  { km = 7.052, kind = "signal", signal = "stop", dir = -1 },
+  { km = 7.09, kind = "stop", label = "Solingen Hbf", uic = "8000087", pos = [51.16112, 7.0045] },
+  { km = 7.091, kind = "station", label = "Solingen Hauptbahnhof", uic = "8000087", pos = [51.16112, 7.00422] },
+  { km = 7.166, kind = "signal", label = "28 N10", signal = "main", dir = 1 },
+  { km = 7.191, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.058, kmTo = 0.089, length = 31 },
+  { kind = "bridge", kmFrom = 0.303, kmTo = 0.395, length = 93 },
+  { kind = "bridge", kmFrom = 0.54, kmTo = 0.555, length = 15 },
+  { kind = "bridge", kmFrom = 0.695, kmTo = 0.709, length = 14 },
+  { kind = "bridge", kmFrom = 0.949, kmTo = 0.975, length = 29 },
+  { kind = "bridge", kmFrom = 1.038, kmTo = 1.06, length = 22 },
+  { kind = "bridge", kmFrom = 1.281, kmTo = 1.294, length = 14 },
+  { kind = "bridge", kmFrom = 1.991, kmTo = 2.014, length = 23 },
+  { kind = "bridge", kmFrom = 4.182, kmTo = 4.197, length = 14 },
+  { kind = "bridge", kmFrom = 4.939, kmTo = 4.962, length = 23 },
+  { kind = "bridge", kmFrom = 5.243, kmTo = 5.266, length = 23 },
+  { kind = "tunnel", kmFrom = 6.281, kmTo = 6.336, length = 56 },
+  { kind = "bridge", kmFrom = 6.617, kmTo = 6.643, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mbgwHu_wi@qHm@", v = 40 },
+  { line = "_lgwHcawi@{ZsA" },
+  { line = "{ghwHwcwi@iM@", v = 80 },
+  { line = "evhwHucwi@_Bl@", tunnel = true, v = 80 },
+  { line = "eyhwHgbwi@iE`D{CfGmAnGQpJl@vGtAfFfNlS", v = 80 },
+  { line = "_thwHm|ti@hLbPdExL~@nG\\xHu@dS", v = 70 },
+  { line = "g_hwH_wri@{Cff@]`W|IdzF", v = 120 },
+  { line = "czgwHo|hi@HhNm@vIuBdJwEfI", v = 80 },
+  { line = "uehwH_mgi@}DpF", v = 70 },
+  { line = "skhwHmegi@oCpG" },
+]
+posts = [[7, 51.16192, 7.00458], [6, 51.17027, 7.0022], [5, 51.16581, 6.99134], [4, 51.16475, 6.9781], [3, 51.1648, 6.96387], [2, 51.16423, 6.9496], [1, 51.16355, 6.93534], [0, 51.16652, 6.92264]]
+
+[[connections]]
+km = -0.067
+station = "Hilden"
+lines = [
+  { id = "2324", ref = "2324", name = "2324 Mülheim (Ruhr)-Speldorf - Niederlahnstein", km = 34.838 },
+  { id = "2676", ref = "2676", name = "2676 Düsseldorf-Eller - Hilden", km = 34.8 },
+]
+
+[[connections]]
+km = 5.079
+station = "Solingen Vogelpark"
+lines = [
+  { id = "2676", ref = "2676", name = "2676 Düsseldorf-Eller - Hilden", km = 40.018 },
+]
+
+[[connections]]
+km = 7.09
+station = "Solingen Hbf"
+lines = [
+  { id = "2675", ref = "2675", name = "2675 Solingen - Remscheid", km = 0.009 },
+  { id = "2730", ref = "2730", name = "2730 Gruiten - Köln Neurather Ring Strw 2652/2659/2730", km = 6.554 },
+]

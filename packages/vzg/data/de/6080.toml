@@ -1,0 +1,140 @@
+id = "6080"
+ref = "6080"
+name = "6080 Berlin Eichgestell - Biesdorfer Kreuz Nord"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131693186"
+from = "Berlin Eichgestell"
+to = "Biesdorfer Kreuz Nord Streckenwechsel 6067/6080"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 24.849
+kmTo = 35.095
+length = 10.258
+speeds = [[24.849, 24.884, 100, 100], [24.884, 25.734, 80, 80], [25.734, 25.806, 80, 60], [25.806, 30.307, 80, 80], [30.307, 35.095, 120, 120]]
+curves = [[24.957, 25.132, 970], [25.332, 25.507, 1630], [25.682, 26.257, 370], [26.631, 26.85, 610], [28.017, 28.163, 1320], [28.284, 28.503, 1190], [28.698, 28.9, 860], [29.718, 29.825, 2410], [29.959, 30.129, 1090], [30.201, 30.319, 1410], [30.441, 30.75, 1580]]
+points = [
+  { km = 24.884, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.896, kind = "signal", label = "89P2", signal = "combined,speed_limit,speed_limit_distant,traversable,wrong_road", dir = -1 },
+  { km = 24.897, kind = "signal", signal = "route", dir = -1 },
+  { km = 25.059, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 25.271, kind = "halt", label = "Eichgestell", pos = [52.45976, 13.55288] },
+  { km = 25.33, kind = "signal", signal = "route", dir = 1 },
+  { km = 25.355, kind = "signal", label = "89N2", signal = "combined,speed_limit,speed_limit_distant,traversable,wrong_road", dir = 1 },
+  { km = 26, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 26.055, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 26.064, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 26.129, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 26.155, kind = "station", label = "Badesee", pos = [52.46649, 13.54842] },
+  { km = 26.222, kind = "signal", label = "2911", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 26.229, kind = "signal", label = "89GG", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 26.463, kind = "station", label = "Wuhlheide Parkeisenbahn", pos = [52.46837, 13.55404] },
+  { km = 26.489, kind = "station", label = "Wuhlheide", uic = "8089097", pos = [52.46855, 13.55434] },
+  { km = 26.554, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 26.599, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 26.942, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 26.966, kind = "signal", signal = "distant", dir = 1 },
+  { km = 27.361, kind = "signal", label = "29 121", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 27.667, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 27.9, kind = "signal", label = "29 151", signal = "main,traversable", dir = 1 },
+  { km = 28.374, kind = "signal", signal = "distant,route_distant", dir = 1 },
+  { km = 28.81, kind = "signal", label = "29 161", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 29.585, kind = "signal", signal = "route_distant", dir = 1 },
+  { km = 29.6, kind = "signal", label = "28 303", signal = "combined,route,speed_limit_distant,traversable", dir = 1, measured = true },
+  { km = 29.811, kind = "signal", signal = "distant", dir = -1 },
+  { km = 29.812, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 29.947, kind = "station", label = "Biesdorf-Süd", pos = [52.4996, 13.54653] },
+  { km = 30.307, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 30.309, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 30.4, kind = "signal", label = "28 308", signal = "main,traversable,wrong_road", dir = -1, measured = true },
+  { km = 30.9, kind = "signal", label = "28 311", signal = "combined,route,speed_limit,speed_limit_distant,traversable", dir = 1, measured = true },
+  { km = 31.079, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 31.192, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 31.7, kind = "signal", label = "28 318", signal = "combined,speed_limit,traversable,wrong_road", dir = -1, measured = true },
+  { km = 32.242, kind = "signal", label = "28 A", signal = "main,route,speed_limit,traversable", dir = 1 },
+  { km = 32.509, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 32.726, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 32.735, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 33.058, kind = "signal", signal = "distant", dir = 1 },
+  { km = 33.102, kind = "station", label = "Springpfuhl", uic = "8089040", pos = [52.52704, 13.53655] },
+  { km = 33.192, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 33.296, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 33.3, kind = "signal", label = "28 P1", signal = "main,minor,route,speed_limit,traversable,wrong_road", dir = -1, measured = true },
+  { km = 33.561, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 34.076, kind = "halt", label = "Poelchaustraße", uic = "8089031", pos = [52.53587, 13.53558] },
+  { km = 34.09, kind = "signal", label = "28 N1", signal = "combined,minor,traversable", dir = 1 },
+  { km = 34.346, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 34.347, kind = "signal", signal = "minor,traversable", dir = -1 },
+  { km = 34.698, kind = "signal", label = "28 FF", signal = "combined,route_distant,speed_limit,speed_limit_distant,traversable", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 26.496, kmTo = 26.536, length = 40 },
+  { kind = "bridge", kmFrom = 29.951, kmTo = 29.973, length = 21 },
+  { kind = "bridge", kmFrom = 31.207, kmTo = 31.242, length = 34 },
+  { kind = "bridge", kmFrom = 31.801, kmTo = 31.846, length = 45 },
+  { kind = "bridge", kmFrom = 31.996, kmTo = 32.041, length = 46 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gqu_IeqqqAbgCop@pgB}MvK}BbJ{D", v = 120 },
+  { line = "uhm_Im{sqAhMqDlLmGzn@wf@vP{EnEk@lOHzhA}JdDb@dYzNrGl@nFcBdKaHlTySxGuD", v = 80 },
+  { line = "qpd_IiyvqA|@]", v = 100 },
+]
+posts = [[35, 52.54353, 13.53025], [34, 52.53491, 13.53341], [33, 52.52595, 13.5367], [32, 52.51685, 13.53874], [31, 52.50801, 13.53989], [30, 52.49921, 13.543], [29, 52.49159, 13.54909], [28, 52.48277, 13.55181], [27, 52.47356, 13.55333], [26, 52.46479, 13.55079], [25, 52.45819, 13.55627]]
+
+[[connections]]
+km = 25.271
+station = "Eichgestell"
+lines = [
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 4.25 },
+]
+
+[[connections]]
+km = 26.155
+station = "Badesee"
+lines = [
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 8.888 },
+]
+
+[[connections]]
+km = 26.463
+station = "Wuhlheide Parkeisenbahn"
+lines = [
+  { id = "6004", ref = "6004", name = "6004 Berlin Ostbahnhof - Erkner", km = 9.557 },
+]
+
+[[connections]]
+km = 26.489
+station = "Wuhlheide"
+lines = [
+  { id = "6004", ref = "6004", name = "6004 Berlin Ostbahnhof - Erkner", km = 9.484 },
+]
+
+[[connections]]
+km = 29.947
+station = "Biesdorf-Süd"
+lines = [
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 9.37 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = 7.041 },
+]
+
+[[connections]]
+km = 33.102
+station = "Springpfuhl"
+lines = [
+  { id = "6011", ref = "6011", name = "6011 Biesdorfer Kreuz - Ahrensfelde", km = 6.013 },
+  { id = "6012", ref = "6012", name = "6012 Berlin Springpfuhl - Karow West", km = 8.963 },
+  { id = "6072", ref = "6072", name = "6072 Berlin-Lichtenberg - Ahrensfelde", km = 8.687 },
+]
+
+[[connections]]
+km = 34.076
+station = "Poelchaustraße"
+lines = [
+  { id = "6011", ref = "6011", name = "6011 Biesdorfer Kreuz - Ahrensfelde", km = 5.06 },
+  { id = "6012", ref = "6012", name = "6012 Berlin Springpfuhl - Karow West", km = 9.736 },
+  { id = "6072", ref = "6072", name = "6072 Berlin-Lichtenberg - Ahrensfelde", km = 9.695 },
+]

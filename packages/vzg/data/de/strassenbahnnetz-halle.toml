@@ -1,0 +1,117 @@
+id = "strassenbahnnetz-halle"
+name = "Straßenbahnnetz Halle"
+operator = "HAVAG"
+gauge = "1000"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 28.513
+length = 28.513
+speeds = [[0, 8.352, "", ""], [8.352, 8.473, 20, 20], [8.473, 11.716, "", ""], [11.716, 11.814, 10, 10], [11.814, 12.18, "", ""], [12.18, 12.285, 10, 10], [12.285, 13.056, "", ""], [13.056, 13.234, 20, 20], [13.234, 16.653, "", ""], [16.653, 16.732, 10, 10], [16.732, 26.436, "", ""], [26.436, 26.633, 50, 50], [26.633, 27.333, "", ""], [27.333, 27.533, 40, 40], [27.533, 27.579, "", ""], [27.579, 27.78, 50, 50], [27.78, 28.513, "", ""]]
+curves = [[0.875, 1.1, 940], [1.275, 1.425, 690], [2.1, 2.25, 1310], [2.3, 2.475, 190], [2.925, 3.15, 1270], [3.2, 3.425, 270], [3.475, 3.625, 380], [3.7, 3.95, 740], [4, 4.15, 130], [4.225, 4.3, 1670], [4.375, 4.5, 680], [4.6, 4.675, 690], [4.725, 5.125, 380], [5.8, 5.875, 2470], [5.925, 6, 2360], [6.45, 6.625, 170], [7.25, 7.425, 160], [10.55, 10.7, 380], [10.75, 11, 270], [11.05, 11.2, 630], [12.675, 12.875, 350], [13.2, 13.425, 700], [13.525, 13.95, 640], [14, 14.075, 2650], [14.125, 14.425, 250], [14.475, 14.6, 1050], [14.975, 15.225, 540], [15.55, 15.75, 1010], [16.575, 17.4, 290], [17.775, 17.95, 720], [18.15, 18.525, 260], [18.575, 18.775, 540], [18.825, 19.025, 410], [19.1, 19.475, 630], [19.6, 19.9, 750], [20.1, 20.4, 930], [21.15, 21.325, 830], [21.5, 21.575, 2750], [21.75, 22.575, 710], [22.775, 22.95, 160], [23, 23.125, 410], [23.475, 23.9, 450], [24.1, 24.175, 2260], [24.275, 24.55, 240], [24.725, 24.9, 440], [25.225, 25.45, 520], [25.925, 26.075, 1670], [26.25, 26.45, 1100], [27.275, 27.375, 2040], [27.625, 27.75, 1880]]
+points = [
+  { km = 0.12, kind = "halt", label = "Heide-Universitätsklinikum", pos = [51.50014, 11.93288] },
+  { km = 0.371, kind = "halt", label = "Straßburger Weg", pos = [51.49846, 11.93528] },
+  { km = 0.735, kind = "halt", label = "Weinberg Campus", pos = [51.49602, 11.9388] },
+  { km = 1.206, kind = "halt", label = "Schwanenbrücke", pos = [51.49367, 11.94567] },
+  { km = 1.462, kind = "halt", label = "Bürgerbrücke", pos = [51.49108, 11.94755] },
+  { km = 1.479, kind = "halt", label = "Blücherstraße/Peißnitzinsel", pos = [51.49044, 11.94444] },
+  { km = 1.879, kind = "halt", label = "Gimritzer Damm", pos = [51.48695, 11.94584] },
+  { km = 2.278, kind = "halt", label = "Rennbahnkreuz", pos = [51.48343, 11.94693] },
+  { km = 2.408, kind = "signal", signal = "catenary_mast,switch", dir = -1 },
+  { km = 2.418, kind = "signal", signal = "catenary_mast,main,minor", dir = -1 },
+  { km = 3.067, kind = "halt", label = "Saline", pos = [51.48158, 11.95684] },
+  { km = 3.663, kind = "halt", label = "Glauchaer Platz", pos = [51.47979, 11.96443] },
+  { km = 3.998, kind = "halt", label = "Franckeplatz", pos = [51.47867, 11.96888] },
+  { km = 4.257, kind = "halt", label = "Steinweg", pos = [51.47685, 11.97019] },
+  { km = 4.496, kind = "halt", label = "Rannischer Platz", pos = [51.47472, 11.9701] },
+  { km = 4.998, kind = "halt", label = "Melanchthonstraße", pos = [51.47042, 11.96885] },
+  { km = 5.391, kind = "halt", label = "Kantstraße", pos = [51.46698, 11.96987] },
+  { km = 5.772, kind = "halt", label = "Robert-Koch-Straße", pos = [51.46358, 11.97059] },
+  { km = 6.461, kind = "halt", label = "Vogelweide", pos = [51.45744, 11.97198] },
+  { km = 6.941, kind = "halt", label = "Am Grünen Feld", pos = [51.45675, 11.97807] },
+  { km = 7.406, kind = "halt", label = "Damaschkestraße", pos = [51.45607, 11.98383] },
+  { km = 7.954, kind = "halt", label = "Theodor-Neubauer-Straße", pos = [51.45114, 11.98389] },
+  { km = 8.363, kind = "halt", label = "S-Bahnhof Rosengarten", pos = [51.44747, 11.98396] },
+  { km = 8.427, kind = "halt", label = "Halle Rosengarten", uic = "8023110", pos = [51.4469, 11.98306] },
+  { km = 9.407, kind = "halt", label = "Betriebshof Rosengarten", pos = [51.43808, 11.98405] },
+  { km = 9.86, kind = "halt", label = "Am Sommerbad", pos = [51.43401, 11.98411] },
+  { km = 10.193, kind = "halt", label = "Kurt-Wüsteneck-Straße", pos = [51.43101, 11.98416] },
+  { km = 10.773, kind = "halt", label = "Florian-Geyer-Platz", pos = [51.42595, 11.98517] },
+  { km = 10.928, kind = "station", label = "Halle-Ammendorf", pos = [51.42415, 11.98789] },
+  { km = 12.285, kind = "halt", label = "Kollenbeyer Weg", pos = [51.4126, 11.98235] },
+  { km = 13.737, kind = "halt", label = "Korbethaer Straße", pos = [51.40104, 11.97454] },
+  { km = 14.185, kind = "halt", label = "Schkopau/Bunawerke", pos = [51.39741, 11.97697] },
+  { km = 15.028, kind = "halt", label = "Schkopau, Am Schloß", pos = [51.3916, 11.98428] },
+  { km = 15.549, kind = "halt", label = "Ludwig-Uhland-Straße", pos = [51.38707, 11.98586] },
+  { km = 16.122, kind = "halt", label = "Hohendorfer Marke", pos = [51.38198, 11.98715] },
+  { km = 16.771, kind = "halt", label = "Stadtstadion", pos = [51.37694, 11.98952] },
+  { km = 17.452, kind = "halt", label = "Am Stadtpark", pos = [51.37364, 11.99495] },
+  { km = 17.909, kind = "halt", label = "Slawenweg", pos = [51.36957, 11.99444] },
+  { km = 18.439, kind = "halt", label = "Carl-von-Basedow-Klinikum", pos = [51.36507, 11.99437] },
+  { km = 18.967, kind = "halt", label = "Lindenstraße", pos = [51.36042, 11.99442] },
+  { km = 19.565, kind = "halt", label = "Merseburg/Zentrum", pos = [51.35543, 11.99389] },
+  { km = 19.655, kind = "halt", label = "Merseburg/Zentrum Bedarfshalt", pos = [51.35475, 11.9932] },
+  { km = 20.379, kind = "halt", label = "Merseburg, Herweghstraße", pos = [51.3486, 11.99579] },
+  { km = 20.782, kind = "halt", label = "Merseburg, Haeckelstraße", pos = [51.345, 11.99505] },
+  { km = 21.579, kind = "halt", label = "Leunaweg", pos = [51.33793, 11.99526] },
+  { km = 22.406, kind = "halt", label = "Leunatorstraße", pos = [51.3321, 12.00174] },
+  { km = 22.766, kind = "halt", label = "Industrietor", pos = [51.33144, 12.00677] },
+  { km = 23.601, kind = "halt", label = "Am Haupttor", pos = [51.32527, 12.01228] },
+  { km = 24.354, kind = "halt", label = "Pfalzplatz", pos = [51.32672, 12.02025] },
+  { km = 24.887, kind = "halt", label = "Sachsenplatz", pos = [51.32358, 12.02471] },
+  { km = 25.699, kind = "halt", label = "Krähenberg", pos = [51.31832, 12.03215] },
+  { km = 26.412, kind = "halt", label = "Daspig", pos = [51.31253, 12.03655] },
+  { km = 27.508, kind = "halt", label = "Leuna-Kröllwitz", pos = [51.3032, 12.04156] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.74, kmTo = 2.898, length = 158 },
+  { kind = "bridge", kmFrom = 3.309, kmTo = 3.344, length = 35 },
+  { kind = "bridge", kmFrom = 3.536, kmTo = 3.565, length = 29 },
+  { kind = "bridge", kmFrom = 11.13, kmTo = 11.184, length = 55 },
+  { kind = "bridge", kmFrom = 11.244, kmTo = 11.293, length = 49 },
+  { kind = "bridge", kmFrom = 11.716, kmTo = 11.814, length = 98 },
+  { kind = "bridge", kmFrom = 12.801, kmTo = 12.95, length = 149 },
+  { kind = "bridge", kmFrom = 13.123, kmTo = 13.234, length = 111 },
+  { kind = "bridge", kmFrom = 15.121, kmTo = 15.13, length = 10 },
+  { kind = "bridge", kmFrom = 17.082, kmTo = 17.101, length = 19 },
+  { kind = "bridge", kmFrom = 23.026, kmTo = 23.047, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gxiyH_mygAhBmB~e@qw@xNaN|d@wNtR}CnDmu@CwV`AgHvEyHpGq]fAiMhTgApHzBxGjEhGBlD_CnpA}PXcAPueAzw@g@" },
+  { line = "ij_yHwrchAxE@", v = 20 },
+  { line = "oc_yHurchAbwBu@xBk@rDmDjEWfJpFv_@lE" },
+  { line = "qoyxH}mchAlDZ", v = 10 },
+  { line = "cjyxHamchAnSnB" },
+  { line = "suxxHqichAzDZ", v = 10 },
+  { line = "woxxHuhchAdYnCvKxP" },
+  { line = "yhwxHkrbhAdF`J", v = 20 },
+  { line = "sawxHigbhAnDfEpKbF~Dz@tFAbR}O|AqIxG{EnUgYdDkCfWwDtDmApu@qJ" },
+  { line = "yrqxH{ldhAx@y@PmB", v = 10 },
+  { line = "mpqxHcrdhAmAcO`CuN|IoEb]`D|SwF~DrD~C~@jIcBhM|BhQkH`GxB~M|KlHwEvS_Jbt@vHjPgDrQuGxIkJtEqLjCuNjBa_@~@o@nGc@vVqTfHeCv@kACyDiOcd@}@}EPsBzPwL`Ngb@dBcDb^_T|N{LnF{C" },
+  { line = "a}dxHa|mhApIiD", v = 50 },
+  { line = "ordxHkanhAnd@eR" },
+  { line = "_mcxHqtnhAhIcF", v = 40 },
+  { line = "ubcxHu{nhAjAs@" },
+  { line = "i`cxHi}nhAbI{F", v = 50 },
+  { line = "evbxHeeohAbb@ma@" },
+]
+posts = [[0, 51.501, 11.93184], [1, 51.49427, 11.94138], [2, 51.4859, 11.94627], [3, 51.4816, 11.95587], [4, 51.47866, 11.96891], [5, 51.47041, 11.96886], [6, 51.46156, 11.97114], [7, 51.45676, 11.97892], [8, 51.45073, 11.9839], [9, 51.44174, 11.98401], [10, 51.43275, 11.98413], [11, 51.424, 11.98495], [12, 51.41515, 11.98276], [13, 51.40674, 11.97934], [14, 51.39885, 11.97567], [15, 51.3918, 11.98405], [16, 51.38307, 11.98692], [17, 51.37698, 11.99267], [18, 51.36877, 11.99474], [19, 51.36013, 11.99454], [20, 51.35188, 11.99463], [21, 51.34306, 11.99466], [22, 51.33438, 11.99729], [23, 51.33007, 12.00847], [24, 51.32488, 12.0161], [25, 51.32302, 12.02606], [26, 51.31583, 12.03385], [27, 51.30749, 12.03908], [28, 51.29926, 12.04478]]
+
+[[connections]]
+km = 8.427
+station = "Halle Rosengarten"
+lines = [
+  { id = "6343", ref = "6343", name = "6343 Halle (Saale) Hbf – Hann Münden", km = 3.974 },
+]
+
+[[connections]]
+km = 10.928
+station = "Halle-Ammendorf"
+lines = [
+  { id = "6340", ref = "6340", name = "6340 Halle (Saale) Hbf - Baunatal-Guntershausen", km = 5.959 },
+]

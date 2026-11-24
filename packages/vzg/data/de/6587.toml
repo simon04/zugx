@@ -1,0 +1,36 @@
+id = "6587"
+ref = "6587"
+name = "6587 Ebersbach (Sachs) - Niedercunnersdorf"
+operator = "DB InfraGO;Deutsche Regionaleisenbahn GmbH"
+gauge = "1435"
+wikidata = "Q802226"
+from = "Ebersbach (Sachs)"
+to = "Niedercunnersdorf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 8.622
+length = 8.622
+speeds = [[0, 8.198, "", ""], [8.198, 8.617, 40, 40], [8.617, 8.622, 80, 80]]
+curves = [[0.1, 0.375, 1160], [0.475, 1.55, 350], [1.625, 2.3, 350], [2.4, 2.7, 590], [2.775, 3.125, 430], [3.2, 3.5, 570], [3.55, 4.2, 490], [4.4, 4.975, 360], [5.15, 6.025, 550], [6.175, 6.95, 440], [7, 7.325, 860], [7.85, 8.025, 940], [8.075, 8.45, 390]]
+points = [
+  { km = 0.196, kind = "signal", label = "E", signal = "main,traversable", dir = -1 },
+  { km = 8.564, kind = "signal", signal = "combined", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.236, kmTo = 2.256, length = 20 },
+  { kind = "bridge", kmFrom = 3.416, kmTo = 3.431, length = 15 },
+  { kind = "bridge", kmFrom = 4.314, kmTo = 4.336, length = 22 },
+  { kind = "bridge", kmFrom = 8.037, kmTo = 8.182, length = 145 },
+  { kind = "bridge", kmFrom = 8.579, kmTo = 8.622, length = 43 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mssvHy`hxAtLcF|PkNbHCpCtAnChDpArCjAxGPbLiBnKaHvM{B|IYpK|@jInDfIbMzN|AjEfDjQrAjDjCpD~KxGfBnBtKfV~DvC`GVdHuBbPwLbEu@~Ev@rFlFrHbXbFlLtFdHdGzBzE?hEeBtKgL|F{CfFDtCv@tEtDzCrFfFtTzCfHt\\zb@~HjP" },
+  { line = "s`jvHay~wAxBnBjCx@nMI", v = 40 },
+  { line = "}iivHat~wAH@", v = 80 },
+]
+posts = [[0, 51.05991, 14.62813], [1, 51.05177, 14.63016], [2, 51.05374, 14.61757], [3, 51.04816, 14.60684], [4, 51.04073, 14.60008], [5, 51.03288, 14.60006], [6, 51.02591, 14.59409], [7, 51.01853, 14.5925], [8, 51.01201, 14.5829]]

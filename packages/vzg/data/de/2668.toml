@@ -1,0 +1,42 @@
+id = "2668"
+ref = "2668"
+name = "2668 Köln-Deutz - Köln-Deutzerfeld"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Köln Messe/Deutz"
+to = "Köln Deutzerfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.309
+length = 0.309
+speeds = [[0, 0.309, 40, 40]]
+curves = [[0.1, 0.2, 1080]]
+points = [
+  { km = 0, kind = "station", label = "Köln Messe/Deutz", uic = "8003368", pos = [50.94123, 6.97546] },
+  { km = 0.309, kind = "signal", label = "70 ZU80", signal = "combined,speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.16, kmTo = 0.193, length = 34 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ek|uHcvqi@nB}Y", v = 40 },
+]
+posts = [[0, 50.94083, 6.97714]]
+
+[[connections]]
+km = 0
+station = "Köln Messe/Deutz"
+lines = [
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 0.029 },
+  { id = "2651", ref = "2651", name = "2651 Köln Messe/Deutz - Gießen", km = -0.006 },
+  { id = "2652", ref = "2652", name = "2652 Köln-Deutz - Köln Neurather Ring Strw 2652/2659/2730", km = -0.068 },
+  { id = "2658", ref = "2658", name = "2658 Köln Messe/Deutz - Abzw Köln Bruder Klaus-Siedlung", km = 40.021 },
+  { id = "2659", ref = "2659", name = "2659 Köln Messe/Deutz - Köln Neurather Ring Strw 2652/2659/2730", km = 39.899 },
+  { id = "2660", ref = "2660", name = "2660 Köln-Mülheim - Köln-Kalk", km = 3.666 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 1.04 },
+]

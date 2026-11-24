@@ -1,0 +1,143 @@
+id = "4920"
+ref = "4920"
+name = "4920 Lauda - Wertheim"
+operator = "DB InfraGO AG;DB RegioNetz Infrastruktur GmbH;Westfrankenbahn"
+gauge = "1435"
+from = "Lauda"
+to = "Wertheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.222
+kmTo = 31.423
+length = 31.6
+speeds = [[-0.222, 1.063, "", ""], [1.063, 6.907, 100, 100], [6.907, 7.456, 80, 80], [7.456, 9.937, 100, 100], [9.937, 10.858, 80, 80], [10.858, 14.297, 100, 100], [14.297, 15.342, 90, 90], [15.342, 17.421, 100, 100], [17.421, 18.864, 90, 90], [18.864, 18.97, 80, 80], [18.97, 21.435, 100, 100], [21.435, 23.883, 90, 90], [23.883, 26.271, "", ""], [26.271, 26.957, 80, 80], [26.957, 28.812, 90, 90], [28.812, 30.205, 100, 100], [30.205, 31.257, 90, 90], [31.257, 31.384, 80, 80], [31.384, 31.423, "", ""]]
+curves = [[-0.121, -0.071, 2030], [0.305, 0.481, 2160], [2.903, 3.005, 2240], [5.007, 5.051, 2470], [5.682, 5.933, 920], [6.719, 7.397, 760], [7.561, 8.187, 1100], [10.021, 10.247, 990], [11.149, 11.549, 830], [12.593, 12.971, 820], [13.1, 13.576, 850], [14.376, 14.676, 330], [14.726, 15.376, 400], [15.476, 15.952, 690], [16.128, 16.779, 550], [16.954, 17.305, 720], [17.481, 18.084, 380], [19.247, 19.789, 420], [20.513, 21.216, 550], [21.291, 21.844, 550], [23.1, 23.455, 530], [23.708, 24.558, 450], [24.633, 25.954, 470], [26.179, 26.93, 370], [27.255, 27.956, 370], [28.08, 28.749, 460], [28.798, 29.928, 550], [30.252, 30.874, 470], [31.148, 31.298, 1420]]
+points = [
+  { km = -0.042, kind = "signal", label = "P1", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 0.033, kind = "station", label = "Lauda", pos = [49.56562, 9.70944], uic = "8029754" },
+  { km = 0.29, kind = "signal", label = "N1", signal = "main,minor,traversable", dir = 1 },
+  { km = 0.615, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.694, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.882, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.001, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.067, kind = "signal", label = "F", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 4.117, kind = "stop", label = "Distelhausen", pos = [49.59827, 9.68376] },
+  { km = 5.327, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.341, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.368, kind = "stop", label = "Dittigheim", pos = [49.60814, 9.67473] },
+  { km = 5.402, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.44, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.449, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 7.267, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.429, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 7.447, kind = "signal", label = "15 P1", signal = "main", dir = -1 },
+  { km = 7.456, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.524, kind = "station", label = "Tauberbischofsheim", pos = [49.6235, 9.6583] },
+  { km = 8.389, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.717, kind = "signal", label = "F", signal = "main,speed_limit", dir = -1 },
+  { km = 9.407, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.937, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.769, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.858, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.509, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 12.451, kind = "stop", label = "Hochhausen (Tauber)", pos = [49.66357, 9.63333] },
+  { km = 13.403, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.297, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.342, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.059, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 17.421, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.485, kind = "stop", label = "Niklashausen", pos = [49.70176, 9.61387] },
+  { km = 18.251, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 18.864, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.97, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 19.01, kind = "stop", label = "Bahnhof Gamburg (Tauber)", pos = [49.69809, 9.59501] },
+  { km = 19.01, kind = "station", label = "Gamburg (Tauber)", pos = [49.69811, 9.59499] },
+  { km = 20.384, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 20.386, kind = "signal", signal = "distant", dir = 1 },
+  { km = 21.435, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 23.83, kind = "stop", label = "Kloster Bronnbach", pos = [49.71525, 9.54339] },
+  { km = 23.883, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.706, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 25.149, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 26.652, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 26.71, kind = "stop", label = "Reicholzheim", pos = [49.72875, 9.52731] },
+  { km = 26.712, kind = "signal", signal = "stop", dir = 1 },
+  { km = 26.76, kind = "signal", signal = "stop", dir = 1 },
+  { km = 26.957, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 27.476, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 27.649, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 28.812, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 29.558, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 30.205, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 31.255, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 31.384, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 31.423, kind = "station", label = "Wertheim", pos = [49.76187, 9.51315] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.33, kmTo = 0.351, length = 21 },
+  { kind = "bridge", kmFrom = 0.722, kmTo = 0.732, length = 10 },
+  { kind = "bridge", kmFrom = 2.329, kmTo = 2.34, length = 11 },
+  { kind = "bridge", kmFrom = 5.739, kmTo = 5.753, length = 13 },
+  { kind = "bridge", kmFrom = 6.867, kmTo = 6.907, length = 42 },
+  { kind = "bridge", kmFrom = 6.974, kmTo = 6.994, length = 21 },
+  { kind = "bridge", kmFrom = 7.216, kmTo = 7.236, length = 30 },
+  { kind = "bridge", kmFrom = 7.244, kmTo = 7.252, length = 12 },
+  { kind = "bridge", kmFrom = 9.356, kmTo = 9.384, length = 29 },
+  { kind = "bridge", kmFrom = 14.928, kmTo = 14.947, length = 19 },
+  { kind = "bridge", kmFrom = 17.082, kmTo = 17.102, length = 20 },
+  { kind = "bridge", kmFrom = 18.051, kmTo = 18.07, length = 19 },
+  { kind = "bridge", kmFrom = 18.8, kmTo = 18.864, length = 101 },
+  { kind = "tunnel", kmFrom = 19.276, kmTo = 19.468, length = 196, name = "Tunnel Gamburg" },
+  { kind = "tunnel", kmFrom = 21.507, kmTo = 21.851, length = 342, name = "Bronnbacher Tunnel" },
+  { kind = "bridge", kmFrom = 22.695, kmTo = 22.798, length = 103 },
+  { kind = "bridge", kmFrom = 25.253, kmTo = 25.27, length = 17 },
+  { kind = "bridge", kmFrom = 26.256, kmTo = 26.271, length = 15 },
+  { kind = "tunnel", kmFrom = 28.235, kmTo = 28.798, length = 569, name = "Reicholzheimer Tunnel" },
+  { kind = "bridge", kmFrom = 29.587, kmTo = 29.611, length = 24 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ubvnHq`ay@`Ae@" },
+  { line = "s`vnHwaay@vEqB", v = 80 },
+  { line = "{yunHieay@`UkOzGqB~H`A`EzCnE|G", v = 90 },
+  { line = "kdtnHkiay@xOxVvFdDnFv@nGw@|G{EfEwHhEcN", v = 100 },
+  { line = "ifrnHclay@La@", v = 90 },
+  { line = "{ernHemay@dC}IfD}F~FcCxFX", tunnel = true, v = 90 },
+  { line = "slqnHkcby@tD|AdM|InDd@zFmA|DaEhBiEzF}a@", v = 90 },
+  { line = "gzonHafcy@zBoLxBiE|B{BzGeB`HnB", v = 80 },
+  { line = "u|nnHm}cy@vQ~RrF~BdDHxGaAdEaCjCiDpDuLp@qLe@qJkGu[KiNlC_NvEkH" },
+  { line = "kamnHw{fy@bE}BzTiG~DyDxIqSnb@siA", v = 90 },
+  { line = "aqjnH_mjy@pCsJjAqN", tunnel = true, v = 90 },
+  { line = "cjjnHehky@_@_E", v = 90 },
+  { line = "ckjnHenky@mFkTiAmIUiMz@gJnDcLd^au@dBuH\\mI", v = 100 },
+  { line = "{jinH{~oy@YqH_AsE", tunnel = true, v = 100 },
+  { line = "uminHaopy@iFgR", v = 100 },
+  { line = "_uinHibqy@kBqG", v = 80 },
+  { line = "kxinH{jqy@iWm}@wAyHUmH|@}JdBmFdEuG", v = 90 },
+  { line = "yhjnHsxty@pFeIzCmHdJud@hCmFrF}FvGyBpS_AzJ~CxJpJ", v = 100 },
+  { line = "gpgnHqvvy@bF|DrCt@fHm@tFqFjG_MhEaCdG[", v = 90 },
+  { line = "u|enH{jwy@ni@cC|HwAfGoDfL{LtHcEfbAsQfEwAxE_D|PaT", v = 100 },
+  { line = "yf`nHuzyy@h\\}a@vKuH", v = 80 },
+  { line = "w|~mHig{y@n}A__ArFkBbImAlLfA", v = 100 },
+  { line = "a_{mH{j}y@lGt@~E[zIwD~EyE", v = 80 },
+  { line = "w}ymHsv}y@jEmH`^ox@vDgGp`@m_@fbBevApaBsfA", v = 100 },
+  { line = "ekqmHaafz@`c@qY`ZsY" },
+]
+posts = [[31, 49.75837, 9.5155], [30, 49.75055, 9.51265], [29, 49.74289, 9.51284], [28, 49.73592, 9.51746], [27, 49.72993, 9.52376], [26, 49.72307, 9.52593], [25, 49.71589, 9.52909], [24, 49.71639, 9.54216], [23, 49.70884, 9.54846], [22, 49.70351, 9.5596], [21, 49.70339, 9.57203], [20, 49.69902, 9.58348], [19, 49.69812, 9.59511], [18, 49.70288, 9.60739], [17, 49.69899, 9.61873], [16, 49.69271, 9.62678], [15, 49.68434, 9.62308], [14, 49.67632, 9.62777], [13, 49.6678, 9.63101], [12, 49.65919, 9.63448], [11, 49.65089, 9.63904], [10, 49.64362, 9.6471], [9, 49.6354, 9.65265], [8, 49.62721, 9.65805], [7, 49.61844, 9.65934], [6, 49.61242, 9.66953], [5, 49.60517, 9.67756], [4, 49.59737, 9.68443], [3, 49.58956, 9.69127], [2, 49.58143, 9.69721], [1, 49.57326, 9.70311], [0, 49.56535, 9.70952]]
+
+[[connections]]
+km = 0.033
+station = "Lauda"
+lines = [
+  { id = "4120", ref = "4120", name = "4120 Mosbach-Neckarelz - Würzburg-Heidingsfeld West", km = 116.115 },
+]
+
+[[connections]]
+km = 31.423
+station = "Wertheim"
+lines = [
+  { id = "5224", ref = "5224", name = "5224 Miltenberg - Wertheim", km = 32.801 },
+]

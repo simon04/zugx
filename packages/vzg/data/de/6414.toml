@@ -1,0 +1,130 @@
+id = "6414"
+ref = "6414"
+name = "6414 Wiesenburg – Abzw Roßlau Ra"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q803472"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.634
+kmTo = 26.6
+length = 27.223
+speeds = [[-0.634, -0.5, 60, 100], [-0.5, 0.332, 100, 100], [0.332, 0.8, 120, 100], [0.8, 7.572, 120, 120], [7.572, 24.898, 100, 100], [24.898, 26.6, 120, 120]]
+curves = [[0.529, 1.82, 940], [11.149, 11.21, 2920], [11.311, 11.502, 2860], [12.367, 12.747, 2670], [12.793, 12.944, 2480], [12.994, 13.082, 2360], [13.144, 13.3, 2130], [14.939, 15.673, 2070], [18.929, 19.007, 2550], [21.535, 22.352, 960], [25.058, 26.061, 700], [26.468, 26.525, 2230]]
+points = [
+  { km = -0.52, kind = "signal", signal = "electricity", dir = -1 },
+  { km = -0.5, kind = "signal", label = "C", signal = "main,minor,wrong_road", dir = -1, measured = true },
+  { km = -0.118, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.051, kind = "signal", label = "Vwh", signal = "distant", dir = 1 },
+  { km = 0, kind = "station", label = "Wiesenburg (Mark)", pos = [52.0988, 12.43137], measured = true, uic = "8003412" },
+  { km = 0.083, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.1, kind = "signal", label = "H", signal = "main,minor,traversable,wrong_road", dir = 1, measured = true },
+  { km = 0.293, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.8, kind = "signal", label = "K", signal = "combined,traversable", dir = -1, measured = true },
+  { km = 0.81, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.029, kind = "signal", label = "Vwk", signal = "distant", dir = -1 },
+  { km = 1.812, kind = "signal", label = "Vk", signal = "distant", dir = -1 },
+  { km = 1.814, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.907, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.976, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.042, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.556, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.622, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.692, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.781, kind = "signal", label = "VaI", signal = "distant", dir = 1 },
+  { km = 3.965, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4, kind = "signal", label = "AI", signal = "main,traversable", dir = 1, measured = true },
+  { km = 4.8, kind = "signal", label = "C", signal = "main,minor,wrong_road", dir = -1, measured = true },
+  { km = 5.6, kind = "station", label = "Medewitz (Mark)", pos = [52.06105, 12.39207], measured = true, uic = "8003413" },
+  { km = 5.7, kind = "signal", label = "M", signal = "main,minor,traversable,wrong_road", dir = 1, measured = true },
+  { km = 5.94, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 6.2, kind = "signal", label = "L", signal = "combined,traversable", dir = -1, measured = true },
+  { km = 6.594, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 7.239, kind = "signal", label = "Vl", signal = "distant", dir = -1 },
+  { km = 7.348, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.43, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.503, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.571, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.573, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.2, kind = "signal", label = "2490", signal = "main,traversable", dir = -1, measured = true },
+  { km = 11.415, kind = "signal", label = "Vw2490", signal = "distant", dir = -1 },
+  { km = 12.615, kind = "signal", label = "V2490", signal = "distant", dir = -1 },
+  { km = 12.693, kind = "signal", signal = "crossing_distant" },
+  { km = 12.705, kind = "signal", signal = "distant", dir = -1 },
+  { km = 12.772, kind = "signal", signal = "distant", dir = -1 },
+  { km = 12.845, kind = "signal", signal = "distant", dir = -1 },
+  { km = 14.686, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 14.689, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 14.7, kind = "stop", label = "Jeber-Bergfrieden", pos = [51.98478, 12.34972], measured = true, uic = "8023728" },
+  { km = 14.73, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 14.737, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 15.658, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.729, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.733, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 15.797, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.874, kind = "signal", label = "V2493", signal = "distant", dir = 1 },
+  { km = 15.9, kind = "signal", label = "2494", signal = "main,traversable", dir = -1, measured = true },
+  { km = 16.9, kind = "signal", label = "2493", signal = "main,traversable", dir = 1, measured = true },
+  { km = 17.018, kind = "signal", label = "V2494", signal = "distant", dir = -1 },
+  { km = 17.128, kind = "signal", signal = "distant", dir = -1 },
+  { km = 17.209, kind = "signal", signal = "distant", dir = -1 },
+  { km = 17.287, kind = "signal", signal = "distant", dir = -1 },
+  { km = 18.767, kind = "signal", signal = "crossing_distant" },
+  { km = 20.186, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 20.188, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 20.212, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 20.213, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 20.3, kind = "signal", label = "2498", signal = "main,traversable", dir = -1, measured = true },
+  { km = 21.343, kind = "signal", label = "V2498", signal = "distant", dir = -1 },
+  { km = 21.436, kind = "signal", signal = "distant", dir = -1 },
+  { km = 21.504, kind = "signal", signal = "distant", dir = -1 },
+  { km = 21.573, kind = "signal", signal = "distant", dir = -1 },
+  { km = 24.636, kind = "signal", signal = "distant", dir = 1 },
+  { km = 24.7, kind = "signal", signal = "distant", dir = 1 },
+  { km = 24.765, kind = "signal", signal = "distant", dir = 1 },
+  { km = 24.9, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 24.9, kind = "signal", label = "25Vbb", signal = "distant,speed_limit_distant", dir = 1, measured = true },
+  { km = 24.9, kind = "signal", signal = "speed_limit", dir = 1, measured = true },
+  { km = 25.87, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 25.993, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 26.3, kind = "signal", label = "25BB", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1, measured = true },
+  { km = 26.524, kind = "signal", signal = "minor,traversable", dir = 1 },
+  { km = 26.532, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 26.6, kind = "halt", label = "Meinsdorf", uic = "8023733", pos = [51.90298, 12.25573] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 7.936, kmTo = 7.947, length = 12 },
+  { kind = "bridge", kmFrom = 9.576, kmTo = 9.597, length = 23 },
+  { kind = "bridge", kmFrom = 11.49, kmTo = 11.502, length = 13 },
+  { kind = "bridge", kmFrom = 11.764, kmTo = 11.773, length = 11 },
+  { kind = "bridge", kmFrom = 22.434, kmTo = 22.448, length = 14 },
+  { kind = "bridge", kmFrom = 23.139, kmTo = 23.171, length = 32 },
+  { kind = "bridge", kmFrom = 23.475, kmTo = 23.487, length = 11 },
+  { kind = "bridge", kmFrom = 25.662, kmTo = 25.699, length = 34 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "knx{H{iyiAkN}~@_CkI}CqGaG_HcIyD_Hi@oNp@", v = 120 },
+  { line = "kqz{Hik|iAsoClOeNqAqJeFeKcMmgAygBkb@qr@uK}T}M}]ylAe~DgJyUeOgVoaAghAcO{NyTsMuQmFul@cIoVsGwjCyrAcToIe\\{J", v = 100 },
+  { line = "_xs|Hk}qjAojEqrAwOkHo}Ak|@iHyGqDsF{E{KiCcKyB_UKki@", v = 120 },
+  { line = "_q~|HoazjAxAasA", v = 100 },
+]
+posts = [[26, 51.90614, 12.26849], [25, 51.9134, 12.27475], [24, 51.92257, 12.2737], [23, 51.93142, 12.27268], [22, 51.94038, 12.27247], [21, 51.94773, 12.28122], [20, 51.95407, 12.29039], [19, 51.9609, 12.30031], [18, 51.9665, 12.3113], [17, 51.97144, 12.32345], [16, 51.97653, 12.33598], [15, 51.98207, 12.34672], [14, 51.98965, 12.35513], [13, 51.99729, 12.36269], [12, 52.00601, 12.36589], [11, 52.01504, 12.36901], [10, 52.02344, 12.37409], [9, 52.03163, 12.37903], [8, 52.04031, 12.38366], [7, 52.04889, 12.38714], [6, 52.05734, 12.39058], [5, 52.06603, 12.39413], [4, 52.07489, 12.39775], [3, 52.08364, 12.40294], [2, 52.09176, 12.4082], [1, 52.0985, 12.41756], [0, 52.09868, 12.43151]]
+
+[[connections]]
+km = 0
+station = "Wiesenburg"
+lines = [
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 0 },
+]
+
+[[connections]]
+km = 26.6
+station = "Meinsdorf"
+lines = [
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 99.835 },
+  { id = "6207", ref = "6207", name = "6207 Horka Grenze – Roßlau", km = 231.138 },
+]

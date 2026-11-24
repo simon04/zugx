@@ -1,0 +1,45 @@
+id = "6371"
+ref = "6371"
+name = "6371 Abzw Leipzig-Anger - Leipzig-Heiterblick"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q115526914"
+from = "Leipzig-Anger"
+to = "Leipzig-Heiterblick"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.803
+kmTo = 6.714
+length = 4.772
+speeds = [[1.803, 3.45, 80, 80], [3.45, 4.279, "", ""], [4.279, 4.329, 10, 10], [4.329, 5.549, "", ""], [5.549, 6.714, 60, 60]]
+curves = [[1.925, 2.2, 630], [2.35, 2.7, 1010], [4.423, 4.475, 2060], [5.104, 5.235, 1590], [5.288, 5.419, 950], [5.576, 6.179, 940], [6.539, 6.614, 2190]]
+points = [
+  { km = 1.835, kind = "stop", label = "Leipzig-Anger-Crottendorf", pos = [51.33244, 12.42035], uic = "8023180" },
+  { km = 1.89, kind = "signal", label = "4618", signal = "main,route,wrong_road", dir = 1 },
+  { km = 2.645, kind = "signal", signal = "main,speed_limit", dir = -1 },
+  { km = 4.279, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.549, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.648, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.884, kmTo = 1.926, length = 42 },
+  { kind = "bridge", kmFrom = 2.436, kmTo = 2.463, length = 27 },
+  { kind = "bridge", kmFrom = 2.708, kmTo = 2.723, length = 15 },
+  { kind = "bridge", kmFrom = 2.994, kmTo = 3.014, length = 21 },
+  { kind = "bridge", kmFrom = 3.15, kmTo = 3.172, length = 22 },
+  { kind = "bridge", kmFrom = 3.431, kmTo = 3.45, length = 18 },
+  { kind = "bridge", kmFrom = 3.473, kmTo = 3.507, length = 33 },
+  { kind = "bridge", kmFrom = 4.309, kmTo = 4.329, length = 19 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "suoxHer_kAvUxt@~EdIpJ~H", v = 60 },
+  { line = "ilnxHeh}jAnIzEhIvCdg@vX" },
+  { line = "iolxHyb|jAlAv@", v = 10 },
+  { line = "{llxHaa|jAfh@jY" },
+  { line = "sckxHuf{jAlg@fXpI|GjNjTzAfF`C|O", v = 80 },
+]
+posts = [[6, 51.36398, 12.44659], [5, 51.35643, 12.44053], [4, 51.3485, 12.43531], [3, 51.34034, 12.43025], [2, 51.33301, 12.42248]]

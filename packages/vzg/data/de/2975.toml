@@ -1,0 +1,204 @@
+id = "2975"
+ref = "2975"
+name = "2975 Ottbergen - Northeim (Han)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q1400163"
+from = "Ottbergen"
+to = "Northeim (Han)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.385
+kmTo = 63.952
+length = 64.225
+speeds = [[-0.385, 0.057, "", ""], [0.057, 0.601, 70, 70], [0.601, 11.913, 100, 100], [11.913, 12.417, 60, 60], [12.417, 12.981, "", ""], [12.981, 12.998, 90, 90], [12.998, 16.801, 100, 100], [16.801, 17.893, 90, 90], [17.893, 26.569, 100, 100], [26.569, 26.683, 60, 60], [26.683, 27.794, "", ""], [27.794, 28.003, 90, 90], [28.003, 33.795, 100, 100], [33.795, 63.762, "", ""], [63.762, 63.884, 40, 40], [63.884, 63.952, 60, 60]]
+curves = [[-0.135, -0.01, 1510], [0.39, 0.662, 780], [1.095, 1.631, 650], [1.809, 2.141, 780], [2.292, 2.34, 2910], [2.412, 2.888, 860], [4.064, 4.968, 720], [6.716, 6.991, 1120], [7.27, 7.321, 2340], [7.639, 8.282, 630], [9.216, 9.568, 1130], [10.27, 10.621, 1170], [11.174, 11.345, 1430], [11.845, 11.946, 2060], [12.802, 13.754, 610], [14.853, 15.406, 810], [15.786, 16.637, 740], [16.863, 17.859, 600], [17.938, 18.216, 970], [18.716, 19.067, 920], [20.542, 21.492, 620], [21.667, 22.892, 870], [24.368, 25.418, 1050], [25.995, 26.596, 1140], [26.671, 26.747, 1950], [27.699, 28.677, 620], [29.755, 29.855, 2080], [30.332, 30.457, 1710], [30.683, 31.009, 810], [31.936, 32.488, 1270], [33.39, 33.465, 2090], [33.992, 34.117, 1620], [34.243, 34.318, 2470], [34.894, 35.496, 650], [35.922, 35.972, 2000], [36.022, 36.924, 620], [37.149, 38.276, 590], [38.777, 39.053, 1160], [40.33, 41.232, 2050], [42.359, 42.76, 1050], [43.136, 43.737, 600], [44.438, 44.863, 760], [45.238, 45.714, 920], [46.239, 46.94, 620], [47.241, 47.541, 1030], [47.691, 47.917, 1060], [48.267, 48.418, 1070], [48.669, 48.921, 790], [49.097, 49.801, 640], [49.876, 50.427, 650], [51.854, 51.955, 1400], [53.407, 54.819, 800], [55.523, 56.226, 720], [56.778, 57.004, 1170], [58.518, 58.768, 1110], [59.62, 60.348, 830], [61.551, 62.702, 550], [62.752, 63.002, 680], [63.727, 63.827, 1120]]
+points = [
+  { km = -0.173, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -0.019, kind = "station", label = "Höxter-Ottbergen", uic = "8004720", pos = [51.71096, 9.30539] },
+  { km = 0.014, kind = "signal", label = "04 P11", signal = "main,speed_limit", dir = -1 },
+  { km = 0.057, kind = "stop", label = "Ottbergen", uic = "8004720", pos = [51.71082, 9.30649] },
+  { km = 0.316, kind = "signal", label = "04 N11", signal = "main,speed_limit", dir = 1 },
+  { km = 0.317, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.601, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.753, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.953, kind = "signal", label = "04 G", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 2.071, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 4.998, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 5.824, kind = "stop", label = "Beverungen-Wehrden", pos = [51.70975, 9.3824], uic = "8087065" },
+  { km = 6.588, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 7.928, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 8.734, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 10.19, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 10.374, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 10.751, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 11.75, kind = "signal", label = "11 A", signal = "combined,speed_limit", dir = 1 },
+  { km = 11.948, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.213, kind = "signal", label = "11 P1", signal = "main", dir = -1 },
+  { km = 12.219, kind = "signal", signal = "stop", dir = -1 },
+  { km = 12.222, kind = "station", label = "Lauenförde-Beverungen", pos = [51.65848, 9.39276], uic = "8003578" },
+  { km = 12.417, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.998, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.173, kind = "signal", label = "11 F", signal = "combined,speed_limit", dir = -1 },
+  { km = 13.421, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 13.61, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 13.633, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 13.661, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 13.951, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.177, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 14.908, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 14.936, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 15.803, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 15.931, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 16.002, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 16.221, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 16.801, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.803, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.115, kind = "stop", label = "Bad Karlshafen", pos = [51.64605, 9.44627], uic = "8003182" },
+  { km = 17.893, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 17.894, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 18.001, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 18.905, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 24.386, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 25.13, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 26.133, kind = "signal", label = "12 A", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 26.442, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 26.472, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 26.673, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 26.856, kind = "signal", label = "12 P2", signal = "main,speed_limit", dir = -1 },
+  { km = 26.916, kind = "signal", label = "12L 22Y", signal = "minor", dir = -1 },
+  { km = 26.921, kind = "station", label = "Bodenfelde", pos = [51.63713, 9.56165], uic = "8001050" },
+  { km = 27.022, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 27.133, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 27.441, kind = "signal", label = "12 N2", signal = "main,speed_limit", dir = 1 },
+  { km = 27.794, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 27.917, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 28.003, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 28.222, kind = "signal", label = "12 F", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 28.374, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 29.224, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 31.387, kind = "halt", label = "Vernawahlshausen", uic = "8006078", pos = [51.62942, 9.61379] },
+  { km = 34.06, kind = "signal", signal = "distant", dir = 1 },
+  { km = 35.067, kind = "signal", label = "13 A", signal = "combined", dir = 1 },
+  { km = 35.528, kind = "station", label = "Uslar", pos = [51.65446, 9.65525], uic = "8006041" },
+  { km = 35.89, kind = "signal", label = "13 N1", signal = "main", dir = 1 },
+  { km = 36.201, kind = "signal", label = "13 F", signal = "combined", dir = -1 },
+  { km = 36.743, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 37.447, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 41.018, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 42.02, kind = "signal", signal = "stop", dir = -1 },
+  { km = 42.039, kind = "stop", label = "Volpriehausen", pos = [51.66099, 9.73791] },
+  { km = 43.202, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 47.101, kind = "signal", signal = "distant", dir = 1 },
+  { km = 48.094, kind = "signal", signal = "combined", dir = 1 },
+  { km = 48.606, kind = "station", label = "Hardegsen", uic = "8002594", pos = [51.65889, 9.82596] },
+  { km = 48.717, kind = "signal", signal = "main", dir = 1 },
+  { km = 49.174, kind = "signal", label = "14 P", signal = "combined,speed_limit", dir = -1 },
+  { km = 49.281, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 49.389, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 50.342, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 62.161, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 62.626, kind = "signal", signal = "main", dir = 1 },
+  { km = 63.087, kind = "signal", signal = "main", dir = 1 },
+  { km = 63.686, kind = "signal", signal = "distant,main,minor", dir = 1 },
+  { km = 63.884, kind = "signal", label = "R13", signal = "distant,main,minor", dir = -1 },
+  { km = 63.952, kind = "station", label = "Northeim (Hannover)", pos = [51.70319, 9.98654], uic = "8013055" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.103, kmTo = 1.156, length = 53 },
+  { kind = "bridge", kmFrom = 2.462, kmTo = 2.474, length = 13 },
+  { kind = "bridge", kmFrom = 2.619, kmTo = 2.632, length = 13 },
+  { kind = "bridge", kmFrom = 7.377, kmTo = 7.4, length = 22 },
+  { kind = "bridge", kmFrom = 7.442, kmTo = 7.858, length = 430, name = "Weserbrücke" },
+  { kind = "bridge", kmFrom = 7.951, kmTo = 7.964, length = 14 },
+  { kind = "bridge", kmFrom = 11.954, kmTo = 11.968, length = 14 },
+  { kind = "tunnel", kmFrom = 21.928, kmTo = 22.56, length = 631, name = "Wahmbecker Tunnel" },
+  { kind = "bridge", kmFrom = 27.799, kmTo = 27.812, length = 12 },
+  { kind = "bridge", kmFrom = 28.288, kmTo = 28.302, length = 14 },
+  { kind = "bridge", kmFrom = 33.795, kmTo = 33.843, length = 48, name = "Steimker Viadukt" },
+  { kind = "bridge", kmFrom = 35.042, kmTo = 35.061, length = 19 },
+  { kind = "bridge", kmFrom = 36.536, kmTo = 36.547, length = 11 },
+  { kind = "bridge", kmFrom = 37.757, kmTo = 37.77, length = 14 },
+  { kind = "bridge", kmFrom = 38.469, kmTo = 38.484, length = 15 },
+  { kind = "bridge", kmFrom = 40.352, kmTo = 40.365, length = 13 },
+  { kind = "bridge", kmFrom = 42.216, kmTo = 42.235, length = 19 },
+  { kind = "bridge", kmFrom = 43.345, kmTo = 43.386, length = 41 },
+  { kind = "bridge", kmFrom = 43.734, kmTo = 43.746, length = 12 },
+  { kind = "tunnel", kmFrom = 44.012, kmTo = 44.966, length = 953, name = "Ertinghäuser Tunnel" },
+  { kind = "bridge", kmFrom = 50.241, kmTo = 50.255, length = 14 },
+  { kind = "bridge", kmFrom = 50.983, kmTo = 50.995, length = 11 },
+  { kind = "bridge", kmFrom = 54.836, kmTo = 54.846, length = 10 },
+  { kind = "bridge", kmFrom = 55.588, kmTo = 55.6, length = 12 },
+  { kind = "bridge", kmFrom = 55.919, kmTo = 55.931, length = 12 },
+  { kind = "bridge", kmFrom = 56.977, kmTo = 56.988, length = 12 },
+  { kind = "bridge", kmFrom = 60.748, kmTo = 60.768, length = 19 },
+  { kind = "bridge", kmFrom = 61.034, kmTo = 61.046, length = 13 },
+  { kind = "bridge", kmFrom = 61.367, kmTo = 61.452, length = 85 },
+  { kind = "bridge", kmFrom = 61.826, kmTo = 61.837, length = 11 },
+  { kind = "bridge", kmFrom = 61.865, kmTo = 61.889, length = 24 },
+  { kind = "bridge", kmFrom = 61.903, kmTo = 61.929, length = 26 },
+  { kind = "bridge", kmFrom = 62.175, kmTo = 62.196, length = 21 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_hqzHqr}{@nBtA", v = 60 },
+  { line = "odqzH{o}{@~DbD", v = 40 },
+  { line = "o~pzHwj}{@dk@lZnD~@zIFtEjBlCvC~CdHzAxGjApJTjMsApOei@viBqBjNi@`Sz@pPtRxxApt@n`C|Mh_Ad@vRsAlRyBxJoWd{@oCxOq@fL@hMl@|J`BvKxF|PtE`HjE~DzkAx{@vpAdq@rFrGzC~GnErXh@nO_@xHiAhI_CfI{L`[iHlc@iNrj@}D|]kPjk@oB~MS`Nx@tLxP|w@~A`Kl@lRe@d\\" },
+  { line = "imizH{utz@SnOb@jN~@lHnLte@", tunnel = true },
+  { line = "i}hzH{erz@hIv]hAhQc@jNsJno@kAjQQxmB^`TlAtRdC|SdChNrb@njBxDjLjWtj@lBxIbAxNm@~QqDhPgF~IiVdU}DtI_CpK}@~K?~HdGl`AxApMjBrGbDjGlm@li@fLzN" },
+  { line = "moezHoxyy@lNfRfh@jz@`HrOlEdR~QnqA~@xOg@nd@bA`u@dKlmBWxK_A~HaB`HmElJ", v = 100 },
+  { line = "mqbzHmmky@cIfH", v = 90 },
+  { line = "q{bzHedky@a{@pY" },
+  { line = "swdzHsijy@eEfA", v = 60 },
+  { line = "y}dzHkgjy@sG`D{FdF_IpL{[rn@qDlLeCnOgAhPJfVbQ`kC^~JKnN", v = 100 },
+  { line = "anfzH{o`y@_AhMsBrKwErKwDhF", tunnel = true, v = 100 },
+  { line = "e`gzH_a_y@oF`F{T~KyFbHkDtIqArGaAfLAvIdKj}AxH|u@jCrL`Uvm@vIxL", v = 100 },
+  { line = "gtfzH_yux@bFfGfCnFtBfInApLH|Hg@lLcBvJeC`I", v = 90 },
+  { line = "}jfzHgdsx@qFjP{AbHy@hIM~KfC`ZzNdq@`AhNEfP_IreBeAbMcCrKiDhHsEdFmGzC", v = 100 },
+  { line = "ifgzH{mix@[F", v = 90 },
+  { line = "eggzHsmix@wEd@uVcA" },
+  { line = "sehzHqnix@a[_B", v = 60 },
+  { line = "uaizHqqix@id@}Is`@kRcFyAaJi@ki@z@kFc@qFqA}u@uYmHm@_GhAiHfFog@zr@c_@l`A}b@zbA}CrL{AvPVbT`BnMjb@baBfB~It@pH^fMg@hh@`@nIvEl]\\vO_AlNkLjn@", v = 100 },
+  { line = "}trzHmezw@}@rLWfb@", v = 70 },
+  { line = "swrzHqtxw@eA|f@" },
+]
+posts = [[63, 51.69529, 9.98186], [62, 51.68852, 9.97473], [61, 51.69214, 9.96191], [60, 51.69635, 9.94928], [59, 51.69415, 9.93539], [58, 51.68989, 9.92274], [57, 51.6848, 9.91057], [56, 51.6818, 9.89705], [55, 51.6856, 9.88428], [54, 51.68717, 9.87093], [53, 51.68022, 9.86236], [52, 51.67216, 9.85597], [51, 51.66379, 9.85079], [50, 51.6561, 9.84396], [49, 51.65726, 9.83088], [48, 51.66147, 9.81824], [47, 51.66539, 9.80534], [46, 51.66504, 9.79197], [45, 51.66307, 9.77823], [44, 51.66048, 9.7648], [43, 51.65947, 9.75132], [42, 51.66099, 9.73725], [41, 51.66085, 9.72279], [40, 51.65764, 9.70938], [39, 51.65341, 9.69662], [38, 51.64794, 9.68529], [37, 51.65196, 9.67395], [36, 51.65529, 9.66203], [35, 51.6522, 9.64889], [34, 51.64441, 9.64173], [33, 51.63751, 9.63253], [32, 51.63151, 9.62198], [31, 51.62837, 9.60845], [30, 51.62806, 9.59409], [29, 51.62668, 9.57982], [28, 51.62793, 9.56645], [27, 51.63641, 9.56204], [26, 51.64443, 9.55615], [25, 51.65023, 9.54523], [24, 51.65005, 9.53104], [23, 51.64821, 9.51685], [22, 51.65024, 9.50367], [21, 51.6577, 9.49623], [20, 51.65713, 9.48209], [19, 51.65491, 9.46806], [18, 51.6496, 9.45649], [17, 51.64643, 9.44448], [16, 51.64903, 9.43143], [15, 51.64579, 9.41813], [14, 51.64711, 9.40384], [13, 51.65172, 9.39247], [12, 51.66046, 9.39291], [11, 51.66933, 9.39597], [10, 51.67798, 9.3985], [9, 51.68673, 9.39989], [8, 51.69536, 9.40329], [7, 51.70289, 9.39534], [6, 51.70869, 9.38437], [5, 51.71455, 9.37327], [4, 51.71521, 9.35997], [3, 51.71068, 9.34744], [2, 51.70933, 9.33359], [1, 51.70882, 9.31986], [0, 51.71083, 9.30566]]
+
+[[connections]]
+km = -0.019
+station = "Höxter-Ottbergen"
+lines = [
+  { id = "2974", ref = "2974", name = "2974 Langeland - Holzminden", km = 31.604 },
+]
+
+[[connections]]
+km = 0.057
+station = "Ottbergen"
+lines = [
+  { id = "2974", ref = "2974", name = "2974 Langeland - Holzminden", km = 31.573 },
+]
+
+[[connections]]
+km = 26.921
+station = "Bodenfelde"
+lines = [
+  { id = "1801", ref = "1801", name = "1801 Göttingen - Bodenfelde", km = 36.522 },
+]
+
+[[connections]]
+km = 31.387
+station = "Vernawahlshausen"
+lines = [
+  { id = "1801", ref = "1801", name = "1801 Göttingen - Bodenfelde", km = 32.065 },
+]
+
+[[connections]]
+km = 63.952
+station = "Northeim"
+lines = [
+  { id = "1732", ref = "1732", name = "1732 Hannover Bismarckstr - Kassel Hbf", km = 88.553 },
+  { id = "1810", ref = "1810", name = "1810 Northeim - Nordhausen", km = 88.178 },
+]

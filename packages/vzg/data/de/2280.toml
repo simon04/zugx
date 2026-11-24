@@ -1,0 +1,168 @@
+id = "2280"
+ref = "2280"
+name = "2280 Abzw Oberhausen Walzwerk - Essen West"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Oberhausen Walzwerk"
+to = "Essen West"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -6.789
+kmTo = 13.648
+length = 19.508
+speeds = [[-6.789, -4.967, 100, 100], [-4.967, 2.108, 80, 80], [2.108, 3.93, 60, 60], [3.93, 3.944, "", ""], [3.944, 4.001, 80, 80], [4.001, 4.577, 60, 60], [4.577, 5.117, "", ""], [5.117, 13.648, 60, 60]]
+curves = [[-6.689, -6.564, 2510], [-6.014, -5.264, 1480], [-5.064, -4.039, 500], [-3.539, -3.139, 740], [-2.214, -1.864, 1070], [-1.414, -0.714, 470], [-0.464, 0.033, 620], [0.219, 0.533, 960], [0.787, 0.888, 1870], [1.143, 1.719, 520], [1.817, 2.04, 720], [2.139, 2.387, 510], [2.464, 3.214, 1050], [3.523, 3.744, 1420], [3.832, 3.964, 2040], [4.052, 4.665, 640], [4.715, 4.79, 1750], [4.865, 4.965, 30], [5.015, 5.315, 480], [5.565, 5.665, 1770], [6.54, 6.765, 670], [7.615, 8.39, 560], [8.465, 8.94, 580], [9.115, 9.24, 1480], [9.365, 9.49, 1160], [9.565, 9.665, 1340], [10.04, 10.365, 570], [11.79, 12.315, 500], [12.415, 12.49, 2370], [12.64, 12.715, 1850], [12.765, 12.915, 810], [12.99, 13.04, 2600], [13.24, 13.49, 1930]]
+points = [
+  { km = -6.399, kind = "signal", label = "N402", signal = "distant,main,minor,speed_limit_distant", dir = -1 },
+  { km = -6.296, kind = "station", label = "Essen West", uic = "8001898", pos = [51.4544, 6.98024] },
+  { km = -5.981, kind = "signal", signal = "minor", dir = 1 },
+  { km = -5.835, kind = "signal", signal = "minor", dir = -1 },
+  { km = -5.829, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -5.796, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = -5.605, kind = "signal", signal = "shunting", dir = 1 },
+  { km = -5.305, kind = "signal", label = "40 C", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = -5.238, kind = "halt", label = "Essen-Frohnhausen", uic = "8001906", pos = [51.45517, 6.96518] },
+  { km = -4.989, kind = "signal", signal = "distant", dir = -1 },
+  { km = -4.288, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = -3.831, kind = "stop", label = "Essen-Borbeck Süd", pos = [51.4617, 6.95393], uic = "8005031" },
+  { km = -2.523, kind = "signal", label = "40 033", signal = "main", dir = -1 },
+  { km = -2.453, kind = "stop", label = "Essen-Borbeck", pos = [51.47331, 6.94826], uic = "8001902" },
+  { km = -1.679, kind = "signal", signal = "distant", dir = 1 },
+  { km = -1.551, kind = "signal", signal = "distant", dir = -1 },
+  { km = -1.285, kind = "stop", label = "Essen-Gerschede", pos = [51.48294, 6.94337], uic = "8001907" },
+  { km = -0.677, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = -0.234, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = -0.111, kind = "signal", label = "38 N1", signal = "main,traversable", dir = -1 },
+  { km = -0.053, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.013, kind = "station", label = "Essen-Dellwig Ost", pos = [51.48758, 6.92714], uic = "8001904" },
+  { km = 0.056, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.066, kind = "signal", signal = "speed_limit,stop", dir = 1 },
+  { km = 0.081, kind = "signal", label = "38 P1", signal = "main,traversable", dir = 1 },
+  { km = 0.158, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.184, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.399, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.557, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 1.433, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.504, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.131, kind = "signal", signal = "distant", dir = 1 },
+  { km = 2.273, kind = "signal", label = "48 B", signal = "distant,main,speed_limit,traversable", dir = 1 },
+  { km = 2.392, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.232, kind = "signal", label = "48P 101", signal = "main,minor", dir = -1 },
+  { km = 3.401, kind = "station", label = "Bottrop Hbf", uic = "8000047", pos = [51.50949, 6.93672] },
+  { km = 3.541, kind = "signal", label = "48R 101", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 3.661, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.643, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.803, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.122, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.253, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 6.124, kind = "signal", label = "758", signal = "distant,main", dir = 1 },
+  { km = 7.049, kind = "signal", label = "768", signal = "distant,main,traversable", dir = 1 },
+  { km = 7.406, kind = "signal", signal = "distant", dir = -1 },
+  { km = 7.419, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.81, kind = "signal", signal = "main", dir = -1 },
+  { km = 7.927, kind = "signal", signal = "crossing_distant,crossing_hint", dir = 1 },
+  { km = 8.855, kind = "signal", signal = "distant", dir = -1 },
+  { km = 9.16, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.127, kind = "signal", signal = "main", dir = 1 },
+  { km = 11.861, kind = "signal", signal = "distant", dir = 1 },
+  { km = 12.562, kind = "signal", signal = "distant", dir = -1 },
+  { km = 13.277, kind = "signal", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 13.56, kind = "signal", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -6.388, kmTo = -6.368, length = 19 },
+  { kind = "bridge", kmFrom = -5.387, kmTo = -5.362, length = 25 },
+  { kind = "bridge", kmFrom = -5.132, kmTo = -5.105, length = 27 },
+  { kind = "tunnel", kmFrom = -4.967, kmTo = -4.833, length = 135 },
+  { kind = "bridge", kmFrom = -4.248, kmTo = -4.23, length = 18 },
+  { kind = "bridge", kmFrom = -3.971, kmTo = -3.957, length = 14 },
+  { kind = "bridge", kmFrom = -3.695, kmTo = -3.675, length = 20 },
+  { kind = "bridge", kmFrom = -3.507, kmTo = -3.491, length = 16 },
+  { kind = "bridge", kmFrom = -3.218, kmTo = -3.202, length = 16 },
+  { kind = "bridge", kmFrom = -2.687, kmTo = -2.667, length = 20 },
+  { kind = "bridge", kmFrom = -2.635, kmTo = -2.617, length = 18 },
+  { kind = "bridge", kmFrom = -2.265, kmTo = -2.251, length = 14 },
+  { kind = "bridge", kmFrom = -1.829, kmTo = -1.81, length = 19 },
+  { kind = "bridge", kmFrom = -1.537, kmTo = -1.525, length = 12 },
+  { kind = "bridge", kmFrom = -1.26, kmTo = -1.237, length = 23 },
+  { kind = "bridge", kmFrom = -0.942, kmTo = -0.923, length = 19 },
+  { kind = "bridge", kmFrom = -0.593, kmTo = -0.571, length = 22 },
+  { kind = "bridge", kmFrom = -0.43, kmTo = -0.416, length = 14 },
+  { kind = "bridge", kmFrom = 0.018, kmTo = 0.059, length = 45 },
+  { kind = "bridge", kmFrom = 0.094, kmTo = 0.114, length = 22 },
+  { kind = "bridge", kmFrom = 0.274, kmTo = 0.295, length = 23 },
+  { kind = "bridge", kmFrom = 0.524, kmTo = 0.54, length = 16 },
+  { kind = "bridge", kmFrom = 0.919, kmTo = 1.147, length = 224 },
+  { kind = "bridge", kmFrom = 1.338, kmTo = 1.393, length = 55 },
+  { kind = "bridge", kmFrom = 1.53, kmTo = 1.54, length = 10 },
+  { kind = "bridge", kmFrom = 1.739, kmTo = 1.749, length = 10 },
+  { kind = "bridge", kmFrom = 2.029, kmTo = 2.108, length = 80 },
+  { kind = "bridge", kmFrom = 2.277, kmTo = 2.303, length = 26 },
+  { kind = "bridge", kmFrom = 3.064, kmTo = 3.146, length = 46 },
+  { kind = "bridge", kmFrom = 3.944, kmTo = 3.977, length = 19 },
+  { kind = "bridge", kmFrom = 4.355, kmTo = 4.401, length = 26 },
+  { kind = "bridge", kmFrom = 5.295, kmTo = 5.313, length = 18 },
+  { kind = "bridge", kmFrom = 5.351, kmTo = 5.37, length = 19 },
+  { kind = "bridge", kmFrom = 5.684, kmTo = 5.694, length = 10 },
+  { kind = "bridge", kmFrom = 5.706, kmTo = 5.719, length = 13 },
+  { kind = "bridge", kmFrom = 5.976, kmTo = 6.03, length = 54 },
+  { kind = "bridge", kmFrom = 6.763, kmTo = 6.837, length = 73 },
+  { kind = "bridge", kmFrom = 7.159, kmTo = 7.179, length = 20 },
+  { kind = "bridge", kmFrom = 7.664, kmTo = 7.68, length = 17 },
+  { kind = "bridge", kmFrom = 9.225, kmTo = 9.238, length = 13 },
+  { kind = "bridge", kmFrom = 10.108, kmTo = 10.121, length = 13 },
+  { kind = "bridge", kmFrom = 11.133, kmTo = 11.179, length = 46 },
+  { kind = "bridge", kmFrom = 11.632, kmTo = 11.645, length = 13 },
+  { kind = "bridge", kmFrom = 11.887, kmTo = 11.911, length = 24 },
+  { kind = "bridge", kmFrom = 12.168, kmTo = 12.192, length = 24 },
+  { kind = "bridge", kmFrom = 12.438, kmTo = 12.458, length = 20 },
+  { kind = "bridge", kmFrom = 12.741, kmTo = 12.78, length = 39 },
+  { kind = "bridge", kmFrom = 13.092, kmTo = 13.147, length = 54 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "am`yHkssi@qKfbA}AvWJxXtErh@", v = 100 },
+  { line = "ou`yH}sni@?bK", tunnel = true, v = 80 },
+  { line = "ou`yHygni@y@tHcBtGaDnG_FpEoJ~Agf@uBeGj@my@fr@gIfDi]zGqFzCmFxI}B`Kg@pHw@|c@kC`PiCzG}IlMoGjHgCvAgU|GcPnC_HOoEmB{C{C{KyUaHwH", v = 80 },
+  { line = "mljyHoahi@yD}D{A}CiEyO}EiLoW{]", v = 60 },
+  { line = "{zkyHkiji@IM" },
+  { line = "e{kyHyiji@o@u@", v = 80 },
+  { line = "u|kyHokji@uBcD", v = 60 },
+  { line = "k`lyHspji@qLiSjH|H" },
+  { line = "qdlyH_{ji@vErAvSSty@tEb^lWzRzPxEdHrCxIdAtI@bJcFz[g@tOvGxw@ZbR~Bxi@E`HoAtK}`@rvB{@xHMvIhApM|E~QtJxZpRpc@hGxT", v = 60 },
+]
+posts = [[-6, 51.45517, 6.97603], [-5, 51.45453, 6.9619], [-4, 51.46016, 6.95372], [-3, 51.46885, 6.95219], [-2, 51.47676, 6.94536], [-1, 51.48502, 6.94073], [0, 51.48755, 6.92728], [1, 51.4958, 6.92158], [2, 51.50339, 6.92694], [3, 51.50792, 6.93459], [4, 51.51195, 6.9396], [5, 51.51411, 6.94297], [6, 51.50531, 6.94143], [7, 51.49664, 6.93857], [8, 51.48937, 6.93052], [9, 51.48994, 6.91665], [10, 51.48837, 6.90248], [11, 51.4911, 6.88903], [12, 51.49446, 6.8757], [13, 51.49007, 6.86341]]
+
+[[connections]]
+km = -6.296
+station = "Essen West"
+lines = [
+  { id = "2291", ref = "2291", name = "2291 Mülheim (Ruhr)-Styrum - Bochum Hbf", km = 127.067 },
+  { id = "2300", ref = "2300", name = "2300 Mülheim (Rhur)-Styrum - Essen Hbf", km = 127.113 },
+]
+
+[[connections]]
+km = -5.238
+station = "Essen-Frohnhausen"
+lines = [
+  { id = "2291", ref = "2291", name = "2291 Mülheim (Ruhr)-Styrum - Bochum Hbf", km = 126.022 },
+  { id = "2300", ref = "2300", name = "2300 Mülheim (Rhur)-Styrum - Essen Hbf", km = 125.963 },
+]
+
+[[connections]]
+km = 0.013
+station = "Essen-Dellwig Ost"
+lines = [
+  { id = "2277", ref = "2277", name = "2277 Oberhausen Hbf - Essen-Altenessen", km = 76.399 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 76.349 },
+]
+
+[[connections]]
+km = 3.401
+station = "Bottrop Hbf"
+lines = [
+  { id = "2250", ref = "2250", name = "2250 Oberhausen-Osterfeld - Hamm (Westf) Pbf", km = 4.13 },
+]

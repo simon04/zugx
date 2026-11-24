@@ -1,0 +1,127 @@
+id = "6152"
+ref = "6152"
+name = "6152 Berlin Ostbahnhof - Berlin-Rummelsburg"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Berlin Ostbahnhof"
+to = "Berlin-Rummelsburg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.451
+kmTo = 4.861
+length = 5.284
+speeds = [[-0.451, 0.741, 60, 60], [0.741, 3.695, 80, 80], [3.695, 3.902, 60, 60], [3.902, 4.861, 40, 40]]
+curves = [[-0.151, 0.049, 530], [0.506, 0.637, 1310], [0.764, 0.912, 1190], [0.985, 1.078, 1720], [1.169, 1.417, 2060], [1.542, 1.654, 1970], [2.295, 2.368, 2820], [2.505, 2.562, 2460], [3.12, 3.425, 1390], [3.672, 3.933, 640], [3.98, 4.1, 620]]
+points = [
+  { km = -0.182, kind = "signal", label = "18 P6", signal = "combined,departure,minor,route,traversable", dir = -1 },
+  { km = -0.174, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.088, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.012, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.083, kind = "station", label = "Ostbahnhof", pos = [52.51074, 13.43517] },
+  { km = 0.096, kind = "station", label = "Berlin Ostbahnhof", uic = "8010255", pos = [52.51038, 13.43491] },
+  { km = 0.253, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.276, kind = "signal", label = "18 ZR6", signal = "combined,departure,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 0.475, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.544, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.741, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.903, kind = "signal", label = "17 ZW403", signal = "combined,minor,speed_limit,traversable", dir = -1 },
+  { km = 1.078, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.216, kind = "station", label = "Warschauer Straße", pos = [52.50501, 13.44901] },
+  { km = 1.218, kind = "signal", label = "17 ZS403", signal = "combined,minor,route_distant,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 1.377, kind = "signal", label = "17 ZV413", signal = "combined,minor,speed_limit_distant,traversable", dir = -1 },
+  { km = 1.485, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.756, kind = "signal", signal = "distant,route_distant,speed_limit_distant", dir = 1 },
+  { km = 1.842, kind = "signal", label = "17 ZT413", signal = "combined,route,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 2.009, kind = "signal", signal = "minor,traversable", dir = -1 },
+  { km = 2.298, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 2.581, kind = "station", label = "Ostkreuz (Ringbahn)", uic = "8089028", pos = [52.50298, 13.46912] },
+  { km = 2.609, kind = "station", label = "Ostkreuz", uic = "8089028", pos = [52.50315, 13.46958] },
+  { km = 2.609, kind = "station", label = "Berlin Ostkreuz (Stadtbahn-F)", pos = [52.50282, 13.46941] },
+  { km = 2.609, kind = "station", label = "Berlin Ostkreuz (Ostbahn)", uic = "8011162", pos = [52.50357, 13.46978] },
+  { km = 2.626, kind = "station", label = "Berlin Ostkreuz (Ringbahn-F)", pos = [52.50288, 13.46967] },
+  { km = 2.734, kind = "signal", label = "17 F", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 2.988, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.14, kind = "signal", label = "06 D", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1, measured = true },
+  { km = 3.246, kind = "station", label = "Rummelsburg", uic = "8089084", pos = [52.50129, 13.47837] },
+  { km = 3.692, kind = "signal", signal = "shunting", dir = -1, measured = true },
+  { km = 3.695, kind = "signal", label = "17Vf", signal = "distant,speed_limit,speed_limit_distant", dir = -1, measured = true },
+  { km = 3.812, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.817, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.828, kind = "signal", label = "06L603X", signal = "minor,traversable", dir = 1 },
+  { km = 3.985, kind = "signal", label = "05VWzr502", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.053, kind = "signal", label = "05L502Y", signal = "minor", dir = -1 },
+  { km = 4.128, kind = "signal", label = "05ZR502", signal = "combined,minor,short_route,speed_limit,traversable", dir = 1, measured = true },
+  { km = 4.353, kind = "signal", label = "05P516/520", signal = "combined,minor,route,speed_limit,speed_limit_distant,traversable", dir = -1, measured = true },
+  { km = 4.427, kind = "signal", label = "05L516Y", signal = "minor", dir = -1 },
+  { km = 4.797, kind = "halt", label = "Betriebsbahnhof Rummelsburg", uic = "8089006", pos = [52.49389, 13.49773] },
+  { km = 4.861, kind = "signal", label = "05L516X", signal = "minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.24, kmTo = -0.22, length = 20 },
+  { kind = "bridge", kmFrom = -0.096, kmTo = -0.067, length = 29 },
+  { kind = "bridge", kmFrom = 0.196, kmTo = 0.225, length = 28 },
+  { kind = "bridge", kmFrom = 3.017, kmTo = 3.038, length = 21 },
+  { kind = "bridge", kmFrom = 3.522, kmTo = 3.55, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ufo_Iyp}pAxCqb@jQkl@tC_O", v = 60 },
+  { line = "yjn_Iwq`qAzHap@`Hky@pRmiB|CiQ`HqW", v = 80 },
+  { line = "ivl_IorhqAhFgL", v = 60 },
+  { line = "_ol_Iw_iqA`FuGxYe{@", v = 40 },
+]
+posts = [[0, 52.51093, 13.43389], [1, 52.50676, 13.44667], [2, 52.50431, 13.46106], [3, 52.50179, 13.47483], [4, 52.49715, 13.48703]]
+
+[[connections]]
+km = 0.083
+station = "Ostbahnhof"
+lines = [
+  { id = "6004", ref = "6004", name = "6004 Berlin Ostbahnhof - Erkner", km = 0.2 },
+  { id = "6006", ref = "6006", name = "6006 Berlin Warschauer Straße - Strausberg", km = -0.001 },
+  { id = "6024", ref = "6024", name = "6024 Berlin Ostbahnhof - Potsdam Hbf", km = -0.003 },
+  { id = "6109", ref = "6109", name = "6109 Berlin Ostbahnhopf - Berlin-Spandau", km = -11.302 },
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 0.093 },
+]
+
+[[connections]]
+km = 0.096
+station = "Berlin Ostbahnhof"
+lines = [
+  { id = "6024", ref = "6024", name = "6024 Berlin Ostbahnhof - Potsdam Hbf", km = -0.003 },
+  { id = "6109", ref = "6109", name = "6109 Berlin Ostbahnhopf - Berlin-Spandau", km = -11.307 },
+]
+
+[[connections]]
+km = 2.581
+station = "Ostkreuz"
+lines = [
+  { id = "6007", ref = "6007", name = "6007 Berlin Warschauer Straße - Königs Wusterhausen", km = 0.281 },
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 50.106 },
+]
+
+[[connections]]
+km = 2.609
+station = "Berlin Ostkreuz"
+lines = [
+  { id = "6007", ref = "6007", name = "6007 Berlin Warschauer Straße - Königs Wusterhausen", km = 0.26 },
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 50.055 },
+]
+
+[[connections]]
+km = 3.246
+station = "Rummelsburg"
+lines = [
+  { id = "6006", ref = "6006", name = "6006 Berlin Warschauer Straße - Strausberg", km = 2.958 },
+]
+
+[[connections]]
+km = 4.797
+station = "Betriebsbahnhof Rummelsburg"
+lines = [
+  { id = "6004", ref = "6004", name = "6004 Berlin Ostbahnhof - Erkner", km = 4.669 },
+  { id = "6070", ref = "6070", name = "6070 Berlin-Rummelsburg - Abzw Biesdorfer Kreuz Süd-West", km = 4.795 },
+  { id = "6153", ref = "6153", name = "6153 Berlin - Guben", km = 4.815 },
+]

@@ -1,0 +1,42 @@
+id = "3622"
+ref = "3622"
+name = "3622 Frankfurt-Niederrad - Frankfurt (Main) Außenbahnhof"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Frankfurt-Niederrad"
+to = "Frankfurt (Main) Außenbahnhof"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.899
+length = 0.899
+speeds = [[0, 0.696, 60, 60], [0.696, 0.899, "", ""]]
+curves = [[0.1, 0.675, 420]]
+points = [
+  { km = 0.068, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.205, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.381, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 0.44, kind = "signal", label = "65 H685", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 0.451, kind = "signal", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 0.545, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 0.688, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.696, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 0.866, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.889, kind = "signal", signal = "distant,main" },
+  { km = 0.89, kind = "signal", label = "P 750", signal = "distant,main", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0, kmTo = 0.035, length = 35 },
+  { kind = "bridge", kmFrom = 0.118, kmTo = 0.15, length = 32 },
+  { kind = "bridge", kmFrom = 0.207, kmTo = 0.246, length = 39 },
+  { kind = "bridge", kmFrom = 0.383, kmTo = 0.4, length = 17 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qmvpHoqts@kIpBcGgAoFiFwE}L", v = 60 },
+  { line = "inwpHmeus@wDmN" },
+]
+posts = [[0, 50.09129, 8.63016]]

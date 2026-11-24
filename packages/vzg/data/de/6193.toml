@@ -1,0 +1,179 @@
+id = "6193"
+ref = "6193"
+name = "6193 Lübbenau (Spreewald) - Senftenberg"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q131731655"
+from = "Lübbenau (Spreewald)"
+to = "Senftenberg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 84.933
+kmTo = 128.883
+length = 43.933
+speeds = [[84.933, 99.533, 100, 100], [99.533, 100.231, 60, 60], [100.231, 100.56, 40, 40], [100.56, 100.576, 120, 120], [100.576, 100.641, 40, 40], [100.641, 100.653, 120, 120], [100.653, 100.879, 40, 40], [100.879, 101.216, 60, 60], [101.216, 125.296, 100, 100], [125.296, 125.648, 60, 60], [125.648, 128.883, "", ""]]
+curves = [[85.942, 86.692, 770], [92.968, 93.122, 2280], [93.173, 93.526, 2430], [97.014, 97.168, 2790], [97.349, 97.4, 2800], [98.779, 99.77, 680], [100.452, 100.523, 2150], [100.642, 101.697, 780], [104.568, 105.117, 1260], [109.137, 109.237, 1870], [112.307, 112.357, 2720], [113.53, 114.08, 2020], [117.026, 117.25, 1210], [118.324, 119.731, 1010], [120.996, 122.858, 1010], [123.533, 124.208, 1170], [125.683, 125.758, 2230], [125.858, 125.908, 1940], [126.008, 126.183, 970], [126.383, 126.483, 1400], [126.633, 126.708, 1310], [126.758, 126.833, 2620], [126.883, 127.108, 2330], [127.333, 127.383, 1480], [127.433, 127.608, 480], [127.683, 127.983, 1710], [128.158, 128.283, 1550], [128.683, 128.783, 1030]]
+points = [
+  { km = 85.038, kind = "signal", signal = "minor", dir = -1 },
+  { km = 85.056, kind = "signal", label = "24L 103X", signal = "minor", dir = 1 },
+  { km = 85.192, kind = "signal", label = "24 P3", signal = "main,speed_limit,wrong_road", dir = -1 },
+  { km = 85.537, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 85.603, kind = "station", label = "Lübbenau (Spreewald) / Lubnjow (Błota)", pos = [51.86205, 13.96117], uic = "8004012" },
+  { km = 85.718, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 85.757, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 85.758, kind = "signal", label = "24 N3", signal = "main,route", dir = 1 },
+  { km = 86.101, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 86.133, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 86.196, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 86.21, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 86.347, kind = "signal", label = "24 G", signal = "combined,speed_limit", dir = -1 },
+  { km = 87.059, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 87.062, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 89.291, kind = "signal", signal = "crossing_distant" },
+  { km = 89.49, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 89.736, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 90.733, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 90.755, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 91.741, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 91.816, kind = "signal", signal = "distant", dir = 1 },
+  { km = 91.974, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 92.16, kind = "signal", signal = "crossing_distant" },
+  { km = 92.521, kind = "signal", label = "A", signal = "combined", dir = 1 },
+  { km = 93.072, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 93.095, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 93.113, kind = "signal", label = "C", signal = "main", dir = -1 },
+  { km = 93.724, kind = "signal", signal = "main", dir = 1 },
+  { km = 93.91, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 94.112, kind = "signal", label = "F", signal = "combined", dir = -1 },
+  { km = 94.821, kind = "signal", signal = "distant", dir = -1 },
+  { km = 94.977, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 96.002, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 96.512, kind = "signal", signal = "crossing_distant" },
+  { km = 96.659, kind = "signal", signal = "crossing_hint", dir = 1 },
+  { km = 96.662, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 96.851, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 97.483, kind = "signal", signal = "catenary_mast,electricity", dir = 1 },
+  { km = 97.485, kind = "signal", signal = "catenary_mast", dir = -1 },
+  { km = 97.548, kind = "signal", signal = "crossing_hint,crossing_info", dir = 1 },
+  { km = 97.596, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 97.79, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 97.843, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 97.878, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 97.997, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 97.998, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 98.003, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 98.004, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 98.53, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 98.584, kind = "signal", signal = "catenary_mast,electricity", dir = -1 },
+  { km = 98.732, kind = "signal", signal = "crossing_hint", dir = -1 },
+  { km = 98.732, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 98.954, kind = "signal", signal = "crossing_distant" },
+  { km = 99.089, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 99.194, kind = "signal", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 99.29, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 99.311, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 99.412, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 99.457, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 99.538, kind = "signal", signal = "minor", dir = 1 },
+  { km = 99.691, kind = "signal", label = "25 N3", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 99.918, kind = "signal", signal = "main,minor,route,speed_limit", dir = -1 },
+  { km = 100.22, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 100.231, kind = "signal", signal = "main_repeated" },
+  { km = 100.263, kind = "stop", label = "Calau (Niederlausitz)", pos = [51.73817, 13.97966] },
+  { km = 100.267, kind = "station", label = "Calau (Niederlausitz) - Kalawa (Dolna Łužyca)", uic = "8004215", pos = [51.73808, 13.97968] },
+  { km = 100.466, kind = "signal", label = "25 P3", signal = "main,minor,route,speed_limit", dir = 1 },
+  { km = 100.469, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 100.704, kind = "signal", signal = "minor", dir = -1 },
+  { km = 100.89, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 101.042, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 101.049, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 101.073, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 101.216, kind = "signal", label = "25 B", signal = "combined,speed_limit", dir = -1 },
+  { km = 101.387, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 101.564, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 101.57, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 102.221, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 102.501, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 102.943, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 103.139, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 103.827, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 103.842, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 104.539, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 104.739, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 106.981, kind = "stop", label = "Luckaitztal", pos = [51.68509, 14.00175], uic = "8004217" },
+  { km = 110.571, kind = "station", label = "Altdöbern", pos = [51.65276, 14.00922], uic = "8004218" },
+  { km = 117.418, kind = "station", label = "Großräschen", pos = [51.5915, 14.01498] },
+  { km = 118.721, kind = "signal", signal = "combined", dir = -1 },
+  { km = 119.809, kind = "signal", signal = "distant", dir = -1 },
+  { km = 121.814, kind = "signal", signal = "distant", dir = 1 },
+  { km = 123.979, kind = "stop", label = "Sedlitz Ost", pos = [51.55356, 14.05538], uic = "8004271" },
+  { km = 124.128, kind = "signal", signal = "main", dir = 1 },
+  { km = 126.033, kind = "signal", signal = "main", dir = 1 },
+  { km = 126.151, kind = "signal", signal = "main", dir = -1 },
+  { km = 126.574, kind = "signal", signal = "main", dir = 1 },
+  { km = 126.958, kind = "signal", signal = "main", dir = -1 },
+  { km = 127.728, kind = "signal", signal = "main", dir = 1 },
+  { km = 128.272, kind = "signal", signal = "main", dir = -1 },
+  { km = 128.681, kind = "station", label = "Senftenberg - Zły Komorow", pos = [51.52708, 14.00374], uic = "8004223" },
+  { km = 128.759, kind = "signal", signal = "main", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 88.41, kmTo = 88.443, length = 33 },
+  { kind = "bridge", kmFrom = 99.697, kmTo = 99.709, length = 12 },
+  { kind = "bridge", kmFrom = 106.054, kmTo = 106.064, length = 11 },
+  { kind = "bridge", kmFrom = 117.846, kmTo = 117.864, length = 17 },
+  { kind = "bridge", kmFrom = 118.082, kmTo = 118.094, length = 12 },
+  { kind = "bridge", kmFrom = 125.116, kmTo = 125.129, length = 13 },
+  { kind = "bridge", kmFrom = 126.607, kmTo = 126.618, length = 11 },
+  { kind = "tunnel", kmFrom = 127.386, kmTo = 127.449, length = 62 },
+  { kind = "bridge", kmFrom = 128.831, kmTo = 128.854, length = 23 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ounyHmwmtAsEuIsPec@gGsTcCgLiCaR{AqE" },
+  { line = "iapyHybqtAoA_C", tunnel = true },
+  { line = "ycpyHyfqtAaQ_`@y`@io@eOu]" },
+  { line = "{gryHyvttAkKwW", v = 60 },
+  { line = "gtryHqoutA{h@qnAqEmImGqH{KiHuh@{RqI_AwLbAeLtFaHfHeIpO}E`RiAnIaAbQwAvuBmAfUaDlQmF`OqIhM_KrHwJjCyaAzLuiDaXsQFcKxA}mF~mAeiF`i@}I`D{HrFykCjqCoGvDkKxA", v = 100 },
+  { line = "swvzHszgtAuGq@oI_D", v = 60 },
+  { line = "yjwzHeahtAwD_C}C_G", v = 40 },
+  { line = "ouwzHemhtAK]", v = 120 },
+  { line = "{uwzHcnhtAkA_D", v = 40 },
+  { line = "gxwzHcshtAOg@", v = 120 },
+  { line = "wxwzHkthtAyIaY", v = 40 },
+  { line = "qcxzHmnitAqNme@uFgK", v = 60 },
+  { line = "yzxzHcaktAkEgEwG}BqFa@oFr@oG~CkeA`v@mNrHmbEzoAmNbC{Sh@qdIcZgVy@qGb@{KpF_HnImb@vrA", v = 100 },
+]
+posts = [[128, 51.53103, 14.01204], [127, 51.53582, 14.02406], [126, 51.54241, 14.03385], [125, 51.54816, 14.04497], [124, 51.55405, 14.05589], [123, 51.56228, 14.06137], [122, 51.57092, 14.06044], [121, 51.57518, 14.04855], [120, 51.5755, 14.03426], [119, 51.5781, 14.02102], [118, 51.58632, 14.01605], [117, 51.59526, 14.01457], [115, 51.61319, 14.01723], [116, 51.60422, 14.0159], [114, 51.62216, 14.01853], [113, 51.63104, 14.01641], [112, 51.63987, 14.01353], [111, 51.64869, 14.0106], [110, 51.65751, 14.00767], [108, 51.67531, 14.00344], [109, 51.66636, 14.00503], [107, 51.68426, 14.00186], [106, 51.69321, 14.00024], [105, 51.70216, 13.99858], [104, 51.71004, 13.99177], [103, 51.71761, 13.9839], [102, 51.72519, 13.97603], [101, 51.73328, 13.97228], [100, 51.73952, 13.98302], [99, 51.74653, 13.98983], [98, 51.7546, 13.98393], [97, 51.76257, 13.97827], [96, 51.77184, 13.97445], [95, 51.78047, 13.97094], [94, 51.78909, 13.96734], [93, 51.79779, 13.96475], [92, 51.80677, 13.96539], [91, 51.81575, 13.96614], [90, 51.82473, 13.96688], [89, 51.83371, 13.96761], [88, 51.84269, 13.9684], [87, 51.85167, 13.96914], [86, 51.86002, 13.96577], [85, 51.86503, 13.95369]]
+
+[[connections]]
+km = 85.603
+station = "Lübbenau / Lubnjow"
+lines = [
+  { id = "6142", ref = "6142", name = "6142 Berlin - Görlitz", km = 85.593 },
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = -71.85 },
+]
+
+[[connections]]
+km = 100.267
+station = "Calau - Kalawa"
+lines = [
+  { id = "6345", ref = "6345", name = "Bahnstrecke 6345 Halle (Saale) - Guben", km = -87.111 },
+]
+
+[[connections]]
+km = 123.979
+station = "Sedlitz Ost"
+lines = [
+  { id = "6253", ref = "6253", name = "6253 Großenhain - Frankfurt (Oder)", km = 212.215 },
+]
+
+[[connections]]
+km = 128.681
+station = "Senftenberg - Zły Komorow"
+lines = [
+  { id = "6253", ref = "6253", name = "6253 Großenhain - Frankfurt (Oder)", km = 216.794 },
+]

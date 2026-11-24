@@ -1,0 +1,88 @@
+id = "9170"
+ref = "9170"
+name = "9170 Celle Nord - Soltau (Han) Süd"
+operator = "Schieneninfrastruktur Ost-Niedersachsen GmbH"
+gauge = "1435"
+from = "Celle Nord"
+to = "Soltau (Han) Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.027
+kmTo = 58.545
+length = 58.563
+speeds = [[0.027, 16.873, 50, 50], [16.873, 20.692, 60, 60], [20.692, 26.566, 50, 50], [26.566, 27.308, "", ""], [27.308, 58.434, 60, 60], [58.434, 58.545, "", ""]]
+curves = [[0.24, 0.315, 2160], [0.365, 0.44, 1600], [0.49, 0.59, 1110], [0.865, 1.468, 540], [1.819, 1.97, 1090], [2.171, 2.296, 1650], [2.422, 2.623, 880], [3.15, 3.527, 530], [5.436, 5.812, 590], [6.385, 6.982, 590], [7.976, 8.026, 2510], [8.1, 8.324, 1290], [9.294, 9.592, 460], [9.89, 9.965, 2180], [10.437, 10.636, 760], [14.664, 15.012, 410], [15.609, 15.832, 840], [16.727, 17.026, 750], [17.647, 17.921, 840], [18.22, 18.345, 960], [18.47, 18.545, 2000], [20.67, 21.02, 350], [21.72, 21.82, 1710], [22.245, 22.595, 440], [22.645, 23.17, 1260], [23.67, 23.795, 950], [23.845, 23.895, 1270], [24.42, 24.695, 770], [24.77, 25.07, 800], [25.97, 26.645, 320], [27.145, 27.52, 660], [27.645, 28.445, 570], [28.595, 28.945, 840], [29.245, 29.37, 1560], [29.595, 29.82, 780], [29.87, 30.095, 970], [30.32, 30.645, 640], [30.87, 31.445, 1140], [32.17, 32.395, 700], [33.57, 33.67, 1360], [33.745, 33.87, 1530], [34.795, 34.97, 1150], [35.02, 35.145, 1350], [36.145, 36.32, 1010], [37.945, 38.245, 1370], [39.67, 39.745, 2310], [40.895, 41.245, 1010], [41.32, 41.745, 1020], [44.22, 44.695, 1050], [46.02, 46.095, 2380], [46.145, 46.695, 1000], [47.27, 48.02, 970], [48.97, 49.045, 2340], [52.52, 52.845, 1370], [55.17, 55.47, 930], [56.495, 56.97, 1280], [58.17, 58.395, 650]]
+points = [
+  { km = 0.094, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.124, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.136, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.149, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.182, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.249, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.46, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 0.492, kind = "signal", label = "D", signal = "main,minor", dir = -1 },
+  { km = 0.853, kind = "signal", label = "G", signal = "distant,main", dir = 1 },
+  { km = 1.027, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 1.03, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 2.082, kind = "station", label = "Celle Vorstadt", pos = [52.63529, 10.08058] },
+  { km = 5.461, kind = "halt", label = "Vorwerk", pos = [52.65567, 10.11261] },
+  { km = 8.836, kind = "halt", label = "Scheuen", pos = [52.67665, 10.08366] },
+  { km = 15.869, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 15.996, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 16.249, kind = "signal", signal = "main", dir = -1 },
+  { km = 16.511, kind = "station", label = "Altensalzkoth", pos = [52.7392, 10.07023] },
+  { km = 16.764, kind = "signal", label = "N", signal = "main", dir = 1 },
+  { km = 16.997, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 17.098, kind = "signal", label = "F", signal = "main", dir = -1 },
+  { km = 18.455, kind = "station", label = "Eversen", pos = [52.75216, 10.05141] },
+  { km = 20.709, kind = "station", label = "Sülze (Han)", pos = [52.76803, 10.03057] },
+  { km = 26.761, kind = "station", label = "Beckedorf", pos = [52.81439, 10.05504] },
+  { km = 29.352, kind = "halt", label = "Dohnsen", pos = [52.81356, 10.01936] },
+  { km = 30.454, kind = "halt", label = "Wohlde", pos = [52.81253, 10.00316] },
+  { km = 32.377, kind = "halt", label = "Bergen (b Celle)", pos = [52.80985, 9.97573] },
+  { km = 51.929, kind = "station", label = "Lührsbockel", pos = [52.941, 9.90829] },
+  { km = 56.953, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 57.111, kind = "signal", label = "A", signal = "main,traversable", dir = 1 },
+  { km = 57.136, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 57.182, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 57.313, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 57.37, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 57.399, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 57.408, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 57.531, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 57.668, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 57.679, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 57.803, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 57.83, kind = "signal", label = "P1", signal = "main,minor,traversable", dir = -1 },
+  { km = 58.28, kind = "signal", signal = "distant", dir = -1 },
+  { km = 58.283, kind = "signal", label = "N1", signal = "main,minor,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 6.347, kmTo = 6.388, length = 41 },
+  { kind = "bridge", kmFrom = 6.583, kmTo = 6.598, length = 15 },
+  { kind = "bridge", kmFrom = 7.228, kmTo = 7.248, length = 20 },
+  { kind = "bridge", kmFrom = 17.072, kmTo = 17.085, length = 14 },
+  { kind = "bridge", kmFrom = 18.528, kmTo = 18.624, length = 96 },
+  { kind = "bridge", kmFrom = 33.331, kmTo = 33.345, length = 14 },
+  { kind = "bridge", kmFrom = 58.406, kmTo = 58.434, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "o~jbI{t`{@`AyH" },
+  { line = "m|jbIu~`{@~@uHzA{F|n@e{ArDuGvKuLhv@gk@xGiI|{AcdDpGcTlxA{fHz]{qAzHoNhKeJhGmC~b@eKhIe@tGr@`LrEzkAnt@dErEtFlJ~~AtvDtJfMvJxFxD`AbF`@vdA?roAqIbJaB~}Akv@hw@yw@lI}Nda@ojApKyf@zUwnAz@aHNsnA_@_PkCoUcJu_@aAoGa@yGc@ab@wCi^J}`@hBag@pAgLpIa_@f@eHFgJs@sK}A{HgNa]{AoG", v = 60 },
+  { line = "ghjaIkhi|@[oJTix@" },
+  { line = "mhjaIemk|@x@}GfD{HdFwCrFp@~r@hh@bHhJlGjNvDdEbd@t]j`@|R|CnCdIjJrIdSnGbGx\\hHfk@bSnEEpFaE", v = 50 },
+  { line = "kfaaI_cf|@~k@gx@fq@qbAdJsPtLc\\xByDvd@kb@pD_F", v = 60 },
+  { line = "c_|`Iw~l|@le@avAlb@oi@~DgBhEF`eFbjAtb@gCtVqE|ByAhCcExh@ykAjK_d@fSieA`EqLvC}DjGaEpj@sIbEf@~EdCl}AdpArGzG~DjLjNzw@lA`Wh@pb@hEni@nChLrDvGzFtEnTnH`[pF", v = 50 },
+]
+posts = [[58, 52.97925, 9.84595], [57, 52.97337, 9.85725], [56, 52.96581, 9.86507], [55, 52.95824, 9.87287], [54, 52.95212, 9.88381], [53, 52.94601, 9.89476], [52, 52.94131, 9.90737], [51, 52.93729, 9.92072], [50, 52.93326, 9.93405], [49, 52.92922, 9.94738], [48, 52.92453, 9.96011], [47, 52.91677, 9.96671], [46, 52.908, 9.96636], [45, 52.89969, 9.96065], [44, 52.89242, 9.95234], [43, 52.88654, 9.94107], [42, 52.88068, 9.92975], [41, 52.87338, 9.92187], [40, 52.86439, 9.92177], [39, 52.85542, 9.92259], [38, 52.84649, 9.92418], [37, 52.83801, 9.92915], [36, 52.82972, 9.93475], [35, 52.82213, 9.94271], [34, 52.81655, 9.95434], [33, 52.81226, 9.96737], [32, 52.80954, 9.98126], [31, 52.8103, 9.99596], [30, 52.81283, 10.00989], [29, 52.81318, 10.02456], [28, 52.8108, 10.03852], [27, 52.81439, 10.05149], [26, 52.81044, 10.06121], [25, 52.80235, 10.05472], [24, 52.79497, 10.04656], [23, 52.7867, 10.0408], [22, 52.77921, 10.03355], [21, 52.77051, 10.02987], [20, 52.76297, 10.03699], [19, 52.75595, 10.04628], [18, 52.74949, 10.0565], [17, 52.74205, 10.06474], [16, 52.73649, 10.07642], [15, 52.72974, 10.08613], [14, 52.72097, 10.08502], [13, 52.7121, 10.08212], [12, 52.70323, 10.07923], [11, 52.69436, 10.07629], [10, 52.68541, 10.07567], [9, 52.67769, 10.08191], [8, 52.67198, 10.0934], [7, 52.66806, 10.10684], [6, 52.66039, 10.11292], [5, 52.652, 10.10947], [4, 52.64407, 10.10263], [3, 52.6375, 10.09345], [2, 52.63526, 10.07936], [1, 52.63185, 10.06643]]
+
+[[connections]]
+km = 26.761
+station = "Beckedorf"
+lines = [
+  { id = "9172", ref = "9172", name = "9172 Beckedorf - Munster (Örtze) Süd", km = 23.473 },
+]

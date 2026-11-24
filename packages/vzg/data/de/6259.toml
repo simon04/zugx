@@ -1,0 +1,112 @@
+id = "6259"
+ref = "6259"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Bft Freital Ost"
+to = "Tharandt"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 5.636
+kmTo = 13.936
+length = 8.282
+speeds = [[5.636, 6.674, 100, 100], [6.674, 7.439, 110, 110], [7.439, 10.776, 120, 120], [10.776, 11.418, 100, 100], [11.418, 13.103, 120, 120], [13.103, 13.214, 120, 80], [13.214, 13.723, 90, 80], [13.723, 13.936, 80, 80]]
+curves = [[5.736, 6.211, 550], [6.286, 6.736, 530], [7.135, 7.359, 1130], [10.83, 11.437, 450], [13.225, 13.525, 760]]
+points = [
+  { km = 5.797, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 5.8, kind = "signal", signal = "minor", dir = -1 },
+  { km = 6.117, kind = "station", label = "Freital-Birkigt", ele = 158, pos = [51.0141, 13.67129] },
+  { km = 6.151, kind = "signal", label = "50P3", signal = "main,speed_limit,wrong_road", dir = -1 },
+  { km = 6.353, kind = "signal", label = "50VWzs3", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 6.359, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 6.415, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 6.46, kind = "signal", label = "50ZS3", signal = "combined,speed_limit", dir = 1 },
+  { km = 6.492, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 6.679, kind = "signal", signal = "minor", dir = 1 },
+  { km = 6.793, kind = "station", label = "Freital-Potschappel", uic = "8006340", pos = [51.01373, 13.6624] },
+  { km = 6.808, kind = "signal", label = "50ZU3", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 6.811, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.812, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.26, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.439, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 7.444, kind = "signal", label = "50N3", signal = "main", dir = 1 },
+  { km = 7.55, kind = "signal", signal = "minor", dir = -1 },
+  { km = 7.706, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 7.963, kind = "signal", label = "51Va", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 8.002, kind = "signal", label = "50G", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 8.68, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 8.76, kind = "halt", label = "Freital-Deuben", uic = "8006341", pos = [50.99926, 13.64645] },
+  { km = 8.979, kind = "signal", label = "51A", signal = "combined,speed_limit", dir = 1 },
+  { km = 8.999, kind = "signal", label = "50Vh", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 9.375, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 9.667, kind = "signal", signal = "minor", dir = 1 },
+  { km = 9.76, kind = "signal", label = "51P37", signal = "main", dir = -1 },
+  { km = 9.796, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 10.083, kind = "halt", label = "Freital-Hainsberg Hp", uic = "8006342", pos = [50.98869, 13.63786] },
+  { km = 10.097, kind = "station", label = "Freital-Hainsberg", ele = 183, pos = [50.98867, 13.63749] },
+  { km = 10.227, kind = "signal", label = "51N37", signal = "main", dir = 1 },
+  { km = 10.4, kind = "signal", label = "51ZU37", signal = "combined,speed_limit", dir = -1 },
+  { km = 10.415, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 10.59, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 10.592, kind = "signal", signal = "minor", dir = -1 },
+  { km = 10.776, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.907, kind = "signal", label = "52Vb", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 10.949, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 11.371, kind = "signal", label = "51F", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 11.416, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.421, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.511, kind = "halt", label = "Freital-Hainsberg West", uic = "8006339", pos = [50.98103, 13.62282] },
+  { km = 11.626, kind = "signal", label = "51VWf", signal = "distant", dir = -1 },
+  { km = 12.093, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 12.39, kind = "signal", label = "52B", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 12.409, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 12.426, kind = "signal", label = "51Vf", signal = "distant", dir = -1 },
+  { km = 12.572, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 12.666, kind = "signal", signal = "minor", dir = 1 },
+  { km = 13.103, kind = "signal", label = "52P2", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 13.106, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.214, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.221, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 13.315, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 13.461, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 13.713, kind = "station", label = "Tharandt", uic = "8006343", ele = 208, pos = [50.98297, 13.59199] },
+  { km = 13.723, kind = "signal", label = "52N2", signal = "main,minor,speed_limit,speed_limit_distant,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 6.049, kmTo = 6.09, length = 41 },
+  { kind = "bridge", kmFrom = 6.288, kmTo = 6.324, length = 35 },
+  { kind = "bridge", kmFrom = 6.66, kmTo = 6.674, length = 14 },
+  { kind = "bridge", kmFrom = 7.662, kmTo = 7.675, length = 13 },
+  { kind = "bridge", kmFrom = 8.261, kmTo = 8.273, length = 12 },
+  { kind = "bridge", kmFrom = 8.623, kmTo = 8.638, length = 15 },
+  { kind = "bridge", kmFrom = 9.437, kmTo = 9.45, length = 13 },
+  { kind = "bridge", kmFrom = 10.568, kmTo = 10.579, length = 12 },
+  { kind = "bridge", kmFrom = 10.73, kmTo = 10.756, length = 27 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "olkvHgfnrA`HtMpBjHt@jJFn[nAlInB|F", v = 100 },
+  { line = "}wjvH}skrAjTlb@bIxI", v = 110 },
+  { line = "mxivHuejrAx`DdzC", v = 120 },
+  { line = "svdvHojerA|GrHfCnGvAnJFbM", v = 100 },
+  { line = "mfdvHw~crAcCnw@wIdfB", v = 120 },
+  { line = "iudvHa__rAUvPjBdX", v = 90 },
+  { line = "srdvHct}qAzAvP", v = 80 },
+]
+posts = [[6, 51.01579, 13.67268], [7, 51.01254, 13.6601], [8, 51.00518, 13.65195], [9, 50.99744, 13.64456], [10, 50.98981, 13.63728], [11, 50.98194, 13.62932], [12, 50.98163, 13.61602], [13, 50.98308, 13.6019]]
+
+[[connections]]
+km = 6.117
+station = "Freital-Birkigt"
+lines = [
+  { id = "6258", ref = "6258", name = "6258 Dresden - Abzweig Werdau Bogendreieck", km = 6.095 },
+]
+
+[[connections]]
+km = 13.713
+station = "Tharandt"
+lines = [
+  { id = "6258", ref = "6258", name = "6258 Dresden - Abzweig Werdau Bogendreieck", km = 13.597 },
+]

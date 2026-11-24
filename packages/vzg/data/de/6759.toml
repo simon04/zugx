@@ -1,0 +1,67 @@
+id = "6759"
+ref = "6759"
+operator = "DB Netz AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 42.534
+length = 42.534
+speeds = [[0, 10.388, 50, 50], [10.388, 40.73, "", ""], [40.73, 42.534, 50, 50]]
+curves = [[0.1, 0.15, 2100], [0.225, 0.8, 1000], [1.8, 2.2, 1130], [3.975, 4.2, 1390], [4.675, 5, 830], [5.6, 5.875, 1050], [8.45, 8.775, 950], [9.025, 9.5, 1010], [9.625, 10.425, 430], [10.675, 10.75, 2000], [10.825, 10.9, 1840], [11.825, 12.65, 500], [13, 13.35, 590], [13.4, 14.125, 630], [14.375, 14.725, 560], [15.45, 15.875, 750], [20.25, 20.675, 760], [22.25, 22.425, 1540], [22.95, 23.2, 1190], [23.5, 23.675, 2190], [23.825, 24.175, 730], [24.775, 25.175, 760], [25.55, 25.7, 1280], [26.075, 26.25, 2670], [26.35, 26.85, 730], [27.125, 27.625, 740], [27.925, 28.275, 890], [30, 30.15, 1670], [30.6, 30.725, 1750], [32.45, 32.65, 1040], [33.25, 33.9, 620], [34.175, 34.35, 1360], [35.575, 35.825, 1090], [37.225, 37.35, 1240], [38.3, 38.625, 940], [38.725, 39.45, 470], [40.75, 41, 1200], [41.775, 42.05, 630]]
+points = [
+  { km = 0.119, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.362, kind = "signal", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 4.507, kind = "stop", label = "Golzow (bei Eberswalde)", pos = [52.91403, 13.8268], uic = "8028250" },
+  { km = 10.388, kind = "stop", label = "Alt Hüttendorf", pos = [52.9574, 13.78461], uic = "8028251" },
+  { km = 12.754, kind = "stop", label = "Joachimsthal Kaiserbahnhof", pos = [52.96373, 13.75494], uic = "8028252" },
+  { km = 14.304, kind = "signal", label = "A", signal = "main", dir = 1 },
+  { km = 14.651, kind = "signal", label = "B", signal = "main", dir = -1 },
+  { km = 14.794, kind = "signal", signal = "stop", dir = -1 },
+  { km = 14.932, kind = "station", label = "Joachimsthal", pos = [52.98033, 13.74969], uic = "8028253" },
+  { km = 15.091, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.381, kind = "signal", label = "C", signal = "main", dir = 1 },
+  { km = 15.795, kind = "signal", label = "D", signal = "main", dir = -1 },
+  { km = 16.176, kind = "signal", signal = "distant", dir = -1 },
+  { km = 21.564, kind = "station", label = "Friedrichswalde", pos = [53.03047, 13.70315] },
+  { km = 24.576, kind = "halt", label = "Ringenwalde (bei Templin)", pos = [53.05698, 13.70756] },
+  { km = 29.015, kind = "stop", label = "Götschendorf", pos = [53.08665, 13.66625] },
+  { km = 31.402, kind = "station", label = "Milmersdorf", pos = [53.09925, 13.63712] },
+  { km = 35.983, kind = "stop", label = "Templin-Ahrensdorf", pos = [53.11227, 13.57612] },
+  { km = 40.944, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 40.96, kind = "stop", label = "Templin Stadt", pos = [53.11706, 13.50866], uic = "8028061" },
+  { km = 41.235, kind = "signal", signal = "distant", dir = 1 },
+  { km = 41.31, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 41.621, kind = "signal", label = "46G", signal = "combined", dir = 1 },
+  { km = 41.952, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 42.051, kind = "signal", label = "46ZR2", signal = "main,minor", dir = -1 },
+  { km = 42.295, kind = "station", label = "Templin", uic = "8028060", pos = [53.11237, 13.49159] },
+  { km = 42.461, kind = "signal", label = "46P2", signal = "minor,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 13.628, kmTo = 13.645, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mcvaIy|jsAsOeVoMcJecAqR}Mn@ygB`_@md@A}HxAce@vYsEjEuoBl`DuFpHuVjOwH~BcIJsRaB{EbBiDjDeCtFw@vDgAxP", v = 50 },
+  { line = "qffbIyhcsAcFphCqBlW_AjEqCjGuDnDmDnAs]OaFwA_PkPyCqAgFm@uEVmEbBkRjOuEhI}VtiA}CdJgDbGszEdyEwFpCmGx@q`B@}c@gHgd@eUcJkC_GEkf@tKaI`EyFzGmSv\\wUzVgRpPkDdGqC~HaJnd@mCdIsExHuWhUaGfJk}@h~BwFrQmMrh@}x@xgC{_@ps@kCfH}AzH{@~JKnIrBbq@kA|tBq@hPiXveC}YfyAgDjJgMjTeBrG_AnJHbLhBjMna@xlB" },
+  { line = "grecIidnqAxClQpMftAhBtF|T~a@", v = 50 },
+]
+posts = [[0, 52.87495, 13.82365], [1, 52.88282, 13.83006], [2, 52.89171, 13.83229], [3, 52.90056, 13.82974], [4, 52.9094, 13.82704], [5, 52.91831, 13.826], [6, 52.92621, 13.81911], [7, 52.93302, 13.80935], [8, 52.93982, 13.79959], [9, 52.94726, 13.79152], [10, 52.95597, 13.78972], [11, 52.95792, 13.77552], [12, 52.95873, 13.76067], [13, 52.96591, 13.75507], [14, 52.97431, 13.75859], [15, 52.98059, 13.74877], [16, 52.98602, 13.73731], [17, 52.99373, 13.72964], [18, 53.00146, 13.72199], [19, 53.00918, 13.71431], [20, 53.0169, 13.70665], [21, 53.02539, 13.7031], [22, 53.03438, 13.70305], [23, 53.04331, 13.70451], [24, 53.05187, 13.70892], [25, 53.06062, 13.70577], [26, 53.06778, 13.6968], [27, 53.07424, 13.68707], [28, 53.08075, 13.67746], [29, 53.08668, 13.66628], [30, 53.09235, 13.65466], [31, 53.09714, 13.64201], [32, 53.10233, 13.62978], [33, 53.10814, 13.61844], [34, 53.11146, 13.60561], [35, 53.11132, 13.59068], [36, 53.1123, 13.57587], [37, 53.11499, 13.56157], [38, 53.11862, 13.5479], [39, 53.12383, 13.53596], [40, 53.12103, 13.52219], [41, 53.11706, 13.50878], [42, 53.11428, 13.49464]]
+
+[[connections]]
+km = 40.96
+station = "Templin Stadt"
+lines = [
+  { id = "6752", ref = "6752", name = "6752 Löwenberg (Mark) - Prenzlau", km = 78.642 },
+]
+
+[[connections]]
+km = 42.295
+station = "Templin"
+lines = [
+  { id = "6752", ref = "6752", name = "6752 Löwenberg (Mark) - Prenzlau", km = 77.34 },
+]

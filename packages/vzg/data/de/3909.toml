@@ -1,0 +1,25 @@
+id = "3909"
+ref = "3909"
+name = "3909 Abzw Kassel Nordwest - Kassel Rbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Kassel Nordwest"
+to = "Kassel Rbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.221
+length = 0.221
+speeds = [[0, 0.221, "", ""]]
+curves = []
+points = [
+  { km = 0.114, kind = "signal", signal = "train_protection", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "uajxHi~xx@jKB" },
+]
+posts = [[0, 51.33867, 9.47189]]

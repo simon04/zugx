@@ -1,0 +1,105 @@
+id = "3913"
+ref = "3913"
+name = "3913 Vellmar-Obervellmar - Kassel-Wilhelmshöhe"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Vellmar-Obervellmar"
+to = "Kassel-Wilhelmshöhe"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 337.733
+kmTo = 346.164
+length = 8.437
+speeds = [[337.733, 337.82, 120, 120], [337.82, 342.925, 100, 100], [342.925, 343.843, "", ""], [343.843, 344.693, 100, 100], [344.693, 346.164, "", ""]]
+curves = [[338.67, 339.07, 1170], [339.295, 339.495, 950], [339.57, 339.97, 640], [340.395, 341.095, 1180], [342.27, 342.77, 590], [342.92, 343.905, 720], [344.467, 344.592, 1870]]
+points = [
+  { km = 337.733, kind = "station", label = "Vellmar-Obervellmar", uic = "8004597", pos = [51.35924, 9.45299] },
+  { km = 338.155, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 338.407, kind = "signal", label = "68FF", signal = "combined,route,route_distant,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 338.434, kind = "halt", label = "Vellmar-Osterberg/EKZ", uic = "8006068", pos = [51.35429, 9.46073] },
+  { km = 338.703, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 338.809, kind = "signal", label = "133", signal = "distant,main,route,speed_limit_distant,traversable", dir = 1 },
+  { km = 339.472, kind = "signal", signal = "main", dir = -1 },
+  { km = 340.199, kind = "signal", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 340.472, kind = "signal", signal = "distant", dir = -1 },
+  { km = 340.517, kind = "signal", signal = "minor", dir = 1 },
+  { km = 340.767, kind = "signal", signal = "minor", dir = -1 },
+  { km = 341.001, kind = "signal", signal = "distant", dir = 1 },
+  { km = 341.173, kind = "signal", signal = "minor", dir = 1 },
+  { km = 341.365, kind = "signal", label = "T 351", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = 342.118, kind = "signal", label = "N 351", signal = "distant,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 342.201, kind = "signal", signal = "minor", dir = -1 },
+  { km = 342.384, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 342.523, kind = "signal", signal = "minor", dir = 1 },
+  { km = 342.724, kind = "signal", signal = "minor", dir = -1 },
+  { km = 342.814, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 342.863, kind = "signal", signal = "minor", dir = 1 },
+  { km = 342.902, kind = "signal", signal = "distant", dir = 1 },
+  { km = 342.929, kind = "signal", signal = "minor", dir = -1 },
+  { km = 343.009, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 343.045, kind = "signal", signal = "distant", dir = 1 },
+  { km = 343.098, kind = "signal", label = "Z 544", signal = "main,minor,speed_limit,traversable", dir = 1 },
+  { km = 343.153, kind = "signal", label = "U 483", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 343.287, kind = "signal", signal = "minor", dir = 1 },
+  { km = 343.288, kind = "signal", signal = "distant", dir = 1 },
+  { km = 343.32, kind = "signal", signal = "distant", dir = -1 },
+  { km = 343.707, kind = "signal", signal = "minor", dir = -1 },
+  { km = 343.842, kind = "signal", signal = "minor", dir = 1 },
+  { km = 343.849, kind = "signal", signal = "route,wrong_road", dir = -1 },
+  { km = 343.953, kind = "signal", label = "P 505", signal = "distant,main,minor,speed_limit,traversable", dir = -1 },
+  { km = 344.175, kind = "station", label = "Kassel-Wilhelmshöhe", uic = "8005365", pos = [51.31139, 9.4477] },
+  { km = 344.482, kind = "signal", label = "Wvn 505", signal = "distant", dir = 1, measured = true },
+  { km = 344.751, kind = "signal", label = "N 505", signal = "distant,main,minor,speed_limit,traversable", dir = 1 },
+  { km = 344.86, kind = "station", label = "Kassel-Wilhelmshöhe Hessencourier", pos = [51.30556, 9.45037] },
+  { km = 345.185, kind = "signal", signal = "minor", dir = -1 },
+  { km = 345.256, kind = "signal", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 345.935, kind = "signal", signal = "distant,main,speed_limit,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 339.203, kmTo = 339.217, length = 14 },
+  { kind = "bridge", kmFrom = 340.29, kmTo = 340.318, length = 28 },
+  { kind = "bridge", kmFrom = 341.975, kmTo = 342.017, length = 42 },
+  { kind = "bridge", kmFrom = 343.516, kmTo = 343.546, length = 33 },
+  { kind = "bridge", kmFrom = 343.649, kmTo = 343.673, length = 27 },
+  { kind = "tunnel", kmFrom = 343.843, kmTo = 343.947, length = 115 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eraxHcpvx@wiA|w@" },
+  { line = "}|cxHewtx@{IvFoVhL", v = 100 },
+  { line = "i_exHcbtx@aEhB", tunnel = true, v = 100 },
+  { line = "keexHy~sx@uEl@}Ee@cEcB_EmDwHeNkC{JmAiI" },
+  { line = "uofxHolux@qEe[cCaH_DwEidAi}@oKkEwK}@o`@dBeJbEgKtL{RpMmInIaf@t{@", v = 100 },
+  { line = "g|mxHkrux@qBjD", v = 120 },
+]
+posts = [[346, 51.29659, 9.45847], [345, 51.3047, 9.4522], [344, 51.3122, 9.44718], [343, 51.32021, 9.45266], [342, 51.3257, 9.4631], [341, 51.33349, 9.47028], [340, 51.3423, 9.47166], [339, 51.35042, 9.46595], [338, 51.35715, 9.45648]]
+
+[[connections]]
+km = 337.733
+station = "Vellmar-Obervellmar"
+lines = [
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 337.234 },
+  { id = "3903", ref = "3903", name = "3903 Volkmarsen - Vellmar-Obervellmar", km = 36.328 },
+]
+
+[[connections]]
+km = 344.175
+station = "Kassel-Wilhelmshöhe"
+lines = [
+  { id = "1733", ref = "1733", name = "1733 Hannover - Würzburg", km = 144.353 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 3.74 },
+  { id = "3901", ref = "3901", name = "3901 Kassel Hbf - Waldkappel", km = 3.812 },
+]
+
+[[connections]]
+km = 344.86
+station = "Kassel-Wilhelmshöhe Hessencourier"
+lines = [
+  { id = "1733", ref = "1733", name = "1733 Hannover - Würzburg", km = 145.035 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 4.427 },
+  { id = "3901", ref = "3901", name = "3901 Kassel Hbf - Waldkappel", km = 4.467 },
+  { id = "9390", ref = "9390", name = "Kassel-Naumburger Eisenbahn", km = 32.209 },
+]

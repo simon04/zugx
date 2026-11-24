@@ -1,0 +1,65 @@
+id = "3609"
+ref = "3609"
+name = "3609 Frankfurt (Main) Süd"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Frankfurt (Main) Süd"
+to = "Frankfurt (Main) Süd"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.029
+length = 1.029
+speeds = [[0, 0.079, 60, 60], [0.079, 0.871, "", ""], [0.871, 0.933, 80, 80], [0.933, 1.029, "", ""]]
+curves = [[0.1, 0.325, 1260], [0.7, 0.85, 1280]]
+points = [
+  { km = 0.006, kind = "halt", label = "Stresemannallee", uic = "8002059", pos = [50.09424, 8.67096] },
+  { km = 0.076, kind = "signal", signal = "route", dir = -1 },
+  { km = 0.208, kind = "signal", label = "P 633", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 0.482, kind = "signal", label = "R633", signal = "main,minor,traversable", dir = 1 },
+  { km = 0.793, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.936, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.029, kind = "station", label = "Frankfurt (Main) Süd", uic = "8011065", pos = [50.09936, 8.6863] },
+  { km = 1.029, kind = "station", label = "Südbahnhof", pos = [50.09922, 8.68671] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.027, kmTo = 0.066, length = 39 },
+  { kind = "bridge", kmFrom = 1, kmTo = 1.029, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}`wpHun|s@qAqD", v = 60 },
+  { line = "ocwpHgt|s@{AkFgImj@_CaL" },
+  { line = "stwpHct~s@y@qC", v = 80 },
+  { line = "mvwpHux~s@mAoF" },
+]
+posts = [[0, 50.09439, 8.67067], [1, 50.09809, 8.68337]]
+
+[[connections]]
+km = 0.006
+station = "Stresemannallee"
+lines = [
+  { id = "3600", ref = "3600", name = "3600 Frankfurt (M) Hbf - Göttingen", km = 3.166 },
+  { id = "3688", ref = "3688", name = "3688 Frankfurt Süd - Darmstadt Hbf", km = 56.179 },
+]
+
+[[connections]]
+km = 1.029
+station = "Frankfurt Süd"
+lines = [
+  { id = "3650", ref = "3650", name = "3650 Frankfurt am Main Stadion - Frankfurt (Main) Süd", km = 37.007 },
+  { id = "3660", ref = "3660", name = "3660 Frankfurt (Main) Süd - Aschaffenburg Hbf", km = 0.001 },
+]
+
+[[connections]]
+km = 1.029
+station = "Südbahnhof"
+lines = [
+  { id = "3600", ref = "3600", name = "3600 Frankfurt (M) Hbf - Göttingen", km = 4.443 },
+  { id = "3650", ref = "3650", name = "3650 Frankfurt am Main Stadion - Frankfurt (Main) Süd", km = 37.007 },
+  { id = "3660", ref = "3660", name = "3660 Frankfurt (Main) Süd - Aschaffenburg Hbf", km = 0.018 },
+  { id = "3688", ref = "3688", name = "3688 Frankfurt Süd - Darmstadt Hbf", km = 54.987 },
+]

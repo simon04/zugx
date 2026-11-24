@@ -1,0 +1,43 @@
+id = "3018"
+ref = "3018"
+name = "3018 Koblenz-Lützel"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.41
+length = 1.41
+speeds = [[0, 1.41, "", ""]]
+curves = [[1.075, 1.3, 470]]
+points = [
+  { km = 0.352, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.031, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.305, kind = "station", label = "Mitfahreisenbahn", pos = [50.3774, 7.5924] },
+  { km = 1.33, kind = "signal", signal = "main", dir = 1 },
+  { km = 1.349, kind = "halt", label = "Drehscheibe", pos = [50.37697, 7.59273] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "inorHuufm@p_@qvAtCqFvE_E" },
+]
+posts = [[0, 50.38325, 7.57611], [1, 50.37873, 7.58829]]
+
+[[connections]]
+km = 1.305
+station = "Mitfahreisenbahn"
+lines = [
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = 88.21 },
+  { id = "3011", ref = "3011", name = "3011 Neuwied - Koblenz Hbf", km = 11.662 },
+]
+
+[[connections]]
+km = 1.349
+station = "Drehscheibe"
+lines = [
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = 88.258 },
+  { id = "3011", ref = "3011", name = "3011 Neuwied - Koblenz Hbf", km = 11.709 },
+]

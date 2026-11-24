@@ -1,0 +1,243 @@
+id = "1244"
+ref = "1244"
+name = "1244 Hamburg Hbf - Aumühle"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hamburg Hbf (S-Bahn)"
+to = "Aumühle (S-Bahn)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.032
+kmTo = 25.549
+length = 25.225
+speeds = [[-0.032, 2.06, "", ""], [2.06, 2.249, 80, 60], [2.249, 3.104, 80, 80], [3.104, 3.483, 90, 90], [3.483, 3.735, 50, 50], [3.735, 5.574, "", ""], [5.574, 9.692, 100, 100], [9.692, 23.985, "", ""], [23.985, 24.31, 100, 100], [24.31, 24.798, 60, 100], [24.798, 24.934, 60, ""], [24.934, 25.549, "", ""]]
+curves = [[0.118, 0.934, 460], [1.011, 1.062, 2300], [1.113, 1.267, 1100], [1.343, 1.985, 330], [2.033, 2.081, 2560], [2.969, 3.401, 720], [3.521, 3.569, 2700], [4.657, 4.876, 960], [5.95, 6.001, 1830], [11.62, 11.921, 2180], [11.997, 12.047, 2810], [12.398, 12.599, 2230], [15.157, 16.31, 1310], [16.838, 16.964, 2200], [17.064, 17.667, 1620], [17.943, 19.074, 1490], [19.3, 19.652, 1670], [19.727, 19.928, 1240], [19.978, 20.154, 1750], [20.304, 20.379, 2560], [20.727, 21.796, 1730], [22.07, 22.169, 2310], [22.219, 22.773, 1710], [22.851, 23.237, 1990], [24.346, 24.415, 2830], [24.553, 24.649, 2350], [24.996, 25.131, 2390], [25.224, 25.399, 890]]
+points = [
+  { km = -0.032, kind = "station", label = "Hauptbahnhof Nord", pos = [53.55412, 10.00613] },
+  { km = -0.03, kind = "signal", label = "Nh 4", signal = "minor", dir = -1 },
+  { km = 0.005, kind = "signal", label = "44", signal = "combined,minor", dir = 1 },
+  { km = 0.02, kind = "signal", label = "4", signal = "combined,departure,minor", dir = -1 },
+  { km = 0.025, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.103, kind = "station", label = "Hamburg Hauptbahnhof", pos = [53.5527, 10.00756], uic = "8001071" },
+  { km = 0.143, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.15, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.169, kind = "station", label = "Hauptbahnhof Süd", pos = [53.55216, 10.00933] },
+  { km = 0.25, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.252, kind = "signal", label = "14", signal = "combined,departure,minor,route,traversable", dir = 1 },
+  { km = 0.321, kind = "station", label = "Steinstraße", pos = [53.54927, 10.00624] },
+  { km = 0.605, kind = "signal", label = "54", signal = "combined", dir = 1 },
+  { km = 0.621, kind = "signal", label = "4 II", signal = "minor", dir = -1 },
+  { km = 0.709, kind = "signal", label = "4 III", signal = "minor", dir = -1 },
+  { km = 1.208, kind = "signal", label = "74", signal = "combined,minor", dir = 1 },
+  { km = 1.479, kind = "signal", signal = "minor", dir = -1 },
+  { km = 1.516, kind = "signal", label = "84", signal = "combined,minor", dir = 1 },
+  { km = 1.532, kind = "signal", label = "641", signal = "combined,departure,minor", dir = -1 },
+  { km = 1.544, kind = "signal", signal = "stop", dir = -1 },
+  { km = 1.629, kind = "station", label = "Berliner Tor", pos = [53.55343, 10.02309] },
+  { km = 1.689, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.753, kind = "signal", signal = "stop", dir = 1 },
+  { km = 1.757, kind = "signal", label = "801", signal = "combined,wrong_road", dir = 1 },
+  { km = 1.819, kind = "signal", label = "Nh 801", signal = "minor", dir = 1 },
+  { km = 2.06, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.244, kind = "signal", label = "803", signal = "combined", dir = 1 },
+  { km = 2.249, kind = "signal", label = "643", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 2.632, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 2.656, kind = "signal", label = "805", signal = "combined", dir = 1 },
+  { km = 2.988, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.186, kind = "signal", label = "807", signal = "combined,traversable", dir = 1 },
+  { km = 3.44, kind = "signal", signal = "radio", dir = 1 },
+  { km = 3.509, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 3.527, kind = "signal", signal = "stop", dir = -1 },
+  { km = 3.608, kind = "stop", label = "Rothenburgsort", pos = [53.53837, 10.04425], uic = "8005191" },
+  { km = 3.733, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 3.735, kind = "signal", label = "811", signal = "combined,departure,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 4.114, kind = "signal", label = "813", signal = "combined,speed_limit,train_protection", dir = 1 },
+  { km = 4.286, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 4.594, kind = "signal", label = "815", signal = "combined,train_protection", dir = 1 },
+  { km = 5.077, kind = "signal", label = "661", signal = "combined,speed_limit_distant,train_protection", dir = -1 },
+  { km = 5.084, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.086, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.161, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.238, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.243, kind = "stop", label = "Tiefstack", pos = [53.53128, 10.0655], uic = "8005870" },
+  { km = 5.31, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.313, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.339, kind = "signal", label = "817", signal = "combined,departure,train_protection,traversable", dir = 1 },
+  { km = 5.8, kind = "signal", signal = "distant", dir = -1 },
+  { km = 5.802, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 5.996, kind = "signal", label = "819", signal = "combined,speed_limit_distant,train_protection", dir = 1 },
+  { km = 6.683, kind = "signal", label = "821", signal = "combined,speed_limit,train_protection", dir = 1 },
+  { km = 7.32, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 7.329, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 7.407, kind = "signal", label = "823", signal = "combined,train_protection", dir = 1 },
+  { km = 7.882, kind = "signal", label = "663", signal = "combined,train_protection", dir = -1 },
+  { km = 7.892, kind = "signal", signal = "stop", dir = -1 },
+  { km = 7.929, kind = "stop", label = "Billwerder-Moorfleet", pos = [53.51594, 10.0963], uic = "8000971" },
+  { km = 7.975, kind = "signal", signal = "stop", dir = 1 },
+  { km = 8.11, kind = "signal", label = "825", signal = "combined,departure,speed_limit_distant,train_protection", dir = 1 },
+  { km = 8.601, kind = "signal", label = "665", signal = "combined,train_protection,traversable", dir = -1 },
+  { km = 8.798, kind = "signal", label = "827", signal = "combined,train_protection,traversable", dir = 1 },
+  { km = 9.588, kind = "signal", label = "645", signal = "main", dir = -1 },
+  { km = 9.692, kind = "signal", label = "829", signal = "combined,train_protection,traversable", dir = 1 },
+  { km = 10.118, kind = "signal", label = "645", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 10.393, kind = "signal", label = "831", signal = "combined,train_protection,traversable", dir = 1 },
+  { km = 10.838, kind = "signal", label = "V645", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 10.932, kind = "signal", signal = "stop", dir = -1 },
+  { km = 10.993, kind = "stop", label = "Mittlerer Landweg", pos = [53.49816, 10.13104], uic = "8004048" },
+  { km = 11.081, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.089, kind = "signal", label = "833", signal = "combined,departure,train_protection", dir = 1 },
+  { km = 11.747, kind = "signal", label = "835", signal = "combined,train_protection,traversable", dir = 1 },
+  { km = 12.47, kind = "signal", label = "837", signal = "combined,train_protection,traversable", dir = 1 },
+  { km = 13.079, kind = "stop", label = "Allermöhe", pos = [53.49031, 10.1593], uic = "8000779" },
+  { km = 13.173, kind = "signal", label = "841", signal = "combined,departure,train_protection,traversable", dir = 1 },
+  { km = 13.999, kind = "signal", label = "843", signal = "combined,train_protection,traversable", dir = 1 },
+  { km = 14.469, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.487, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.5, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.569, kind = "stop", label = "Nettelnburg", pos = [53.48797, 10.18095], uic = "8004241" },
+  { km = 14.636, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.647, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.658, kind = "signal", signal = "stop", dir = 1 },
+  { km = 14.672, kind = "signal", label = "845", signal = "combined,train_protection,traversable", dir = 1 },
+  { km = 15.247, kind = "signal", label = "847", signal = "combined,speed_limit_distant,train_protection,traversable", dir = 1 },
+  { km = 15.816, kind = "signal", label = "849", signal = "combined,speed_limit,train_protection,traversable", dir = 1 },
+  { km = 16.162, kind = "signal", label = "863", signal = "main,train_protection,traversable,wrong_road", dir = -1 },
+  { km = 16.17, kind = "signal", signal = "stop", dir = -1 },
+  { km = 16.311, kind = "station", label = "Bergedorf", pos = [53.48998, 10.20637], uic = "8002554" },
+  { km = 16.357, kind = "station", label = "Hamburg-Bergedorf", uic = "8001063", pos = [53.48984, 10.20658] },
+  { km = 16.372, kind = "signal", signal = "stop", dir = 1 },
+  { km = 16.405, kind = "signal", signal = "stop", dir = 1 },
+  { km = 16.418, kind = "signal", label = "873", signal = "combined,departure,minor,train_protection,traversable", dir = 1 },
+  { km = 16.649, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.102, kind = "signal", label = "647", signal = "combined,speed_limit_distant,train_protection", dir = -1 },
+  { km = 17.733, kind = "signal", label = "851", signal = "combined,train_protection,traversable", dir = 1 },
+  { km = 17.814, kind = "signal", label = "Vs 647", signal = "distant", dir = -1 },
+  { km = 19.189, kind = "signal", label = "853", signal = "combined,train_protection,traversable", dir = 1 },
+  { km = 20.133, kind = "signal", signal = "stop", dir = -1 },
+  { km = 20.213, kind = "stop", label = "Reinbek", pos = [53.50841, 10.25337], uic = "8005016" },
+  { km = 20.345, kind = "signal", label = "855", signal = "combined,train_protection", dir = 1 },
+  { km = 21.588, kind = "signal", label = "857", signal = "combined,train_protection,traversable", dir = 1 },
+  { km = 22.316, kind = "signal", label = "649", signal = "combined,train_protection", dir = -1 },
+  { km = 22.395, kind = "station", label = "Wohltorf", pos = [53.5207, 10.27814], uic = "8006541" },
+  { km = 22.487, kind = "signal", label = "859", signal = "combined,train_protection", dir = 1 },
+  { km = 23.227, kind = "signal", label = "892", signal = "catenary_mast,combined,train_protection,traversable", dir = -1 },
+  { km = 23.564, kind = "signal", label = "861", signal = "combined,speed_limit_distant,train_protection,traversable", dir = 1 },
+  { km = 23.906, kind = "signal", label = "894", signal = "catenary_mast,combined,train_protection,traversable", dir = -1 },
+  { km = 24.31, kind = "signal", label = "893", signal = "catenary_mast,combined,speed_limit,speed_limit_distant,train_protection,traversable", dir = 1 },
+  { km = 24.707, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 24.798, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.877, kind = "signal", label = "Ls 31", signal = "minor", dir = 1 },
+  { km = 25.072, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 25.289, kind = "signal", label = "896", signal = "combined,minor,speed_limit,train_protection", dir = -1 },
+  { km = 25.339, kind = "station", label = "Aumühle", pos = [53.52997, 10.31448], uic = "8000669" },
+  { km = 25.469, kind = "signal", signal = "stop", dir = 1 },
+  { km = 25.482, kind = "signal", label = "652", signal = "main,minor,train_protection", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.61, kmTo = 0.639, length = 29 },
+  { kind = "bridge", kmFrom = 0.915, kmTo = 0.937, length = 22 },
+  { kind = "bridge", kmFrom = 1.158, kmTo = 1.176, length = 17 },
+  { kind = "bridge", kmFrom = 1.429, kmTo = 1.497, length = 66 },
+  { kind = "bridge", kmFrom = 1.547, kmTo = 1.59, length = 42 },
+  { kind = "bridge", kmFrom = 1.714, kmTo = 1.797, length = 77 },
+  { kind = "bridge", kmFrom = 2.09, kmTo = 2.133, length = 45 },
+  { kind = "bridge", kmFrom = 2.192, kmTo = 2.212, length = 20 },
+  { kind = "bridge", kmFrom = 2.361, kmTo = 2.424, length = 65 },
+  { kind = "bridge", kmFrom = 2.47, kmTo = 2.518, length = 50 },
+  { kind = "bridge", kmFrom = 2.721, kmTo = 2.738, length = 18 },
+  { kind = "bridge", kmFrom = 2.901, kmTo = 2.971, length = 72 },
+  { kind = "bridge", kmFrom = 3.068, kmTo = 3.104, length = 37 },
+  { kind = "bridge", kmFrom = 3.483, kmTo = 3.504, length = 22 },
+  { kind = "bridge", kmFrom = 4.42, kmTo = 4.588, length = 175 },
+  { kind = "bridge", kmFrom = 5.529, kmTo = 5.574, length = 45 },
+  { kind = "bridge", kmFrom = 5.835, kmTo = 5.872, length = 37 },
+  { kind = "bridge", kmFrom = 6.021, kmTo = 6.092, length = 70 },
+  { kind = "bridge", kmFrom = 11.091, kmTo = 11.109, length = 18 },
+  { kind = "bridge", kmFrom = 14.862, kmTo = 14.893, length = 31 },
+  { kind = "bridge", kmFrom = 15.96, kmTo = 16.013, length = 53 },
+  { kind = "bridge", kmFrom = 16.133, kmTo = 16.154, length = 21 },
+  { kind = "bridge", kmFrom = 16.484, kmTo = 16.503, length = 19 },
+  { kind = "bridge", kmFrom = 16.928, kmTo = 16.948, length = 19 },
+  { kind = "bridge", kmFrom = 17.759, kmTo = 17.794, length = 35 },
+  { kind = "bridge", kmFrom = 18.961, kmTo = 19.003, length = 42 },
+  { kind = "bridge", kmFrom = 19.967, kmTo = 20.028, length = 61 },
+  { kind = "bridge", kmFrom = 21.195, kmTo = 21.205, length = 11 },
+  { kind = "bridge", kmFrom = 21.451, kmTo = 21.477, length = 26 },
+  { kind = "bridge", kmFrom = 23.089, kmTo = 23.223, length = 132 },
+  { kind = "bridge", kmFrom = 23.952, kmTo = 23.985, length = 40 },
+  { kind = "bridge", kmFrom = 24.595, kmTo = 24.676, length = 82 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "muzeI}na|@pKsD|CsC~CwIlA{IVkJk@sJiFiZwFeT{@qKb@qJdBaHbCaEzFwD" },
+  { line = "w}yeIicf|@lo@od@vEmE", v = 80 },
+  { line = "qfxeIgog|@fFeJlEwP", v = 90 },
+  { line = "{xweIelh|@nEeU", v = 50 },
+  { line = "krweIkbi|@|WwvAjZax@" },
+  { line = "a~ueIesm|@hsCkeH", v = 100 },
+  { line = "wiqeIqyv|@h|@kwBvL_a@bGc\\`Ee[rBsWjWk|Ej@}Ti@wUsBiTiFmVkYav@eJm]_EuYgC{b@iBmRqGo[kK{WuYw`@sMkY{F{U_OqcAqEkQ}FqOcNeUgR{QmIaKqNkXmFgPuBgJoRcmA" },
+  { line = "crueIemz}@gFo`@mD}e@", v = 100 },
+  { line = "y~ueIsu|}@M{C", v = 60 },
+  { line = "g_veIoz|}@gAsQKgV" },
+]
+posts = [[0, 53.5534, 10.00718], [1, 53.5504, 10.01809], [2, 53.55039, 10.03041], [3, 53.54188, 10.03697], [4, 53.53675, 10.04975], [5, 53.53251, 10.06285], [6, 53.52705, 10.07411], [7, 53.52127, 10.08552], [8, 53.51553, 10.097], [9, 53.50973, 10.10837], [10, 53.50394, 10.11976], [11, 53.49807, 10.13107], [12, 53.49297, 10.1434], [13, 53.49042, 10.1578], [14, 53.48883, 10.17263], [15, 53.48719, 10.18744], [16, 53.48809, 10.20207], [17, 53.49351, 10.21402], [18, 53.49643, 10.22808], [19, 53.50117, 10.24051], [20, 53.50758, 10.25077], [21, 53.5111, 10.2647], [22, 53.51769, 10.27479], [23, 53.52406, 10.28495], [24, 53.5276, 10.29884], [25, 53.52968, 10.31132]]
+
+[[connections]]
+km = -0.032
+station = "Hauptbahnhof Nord"
+lines = [
+  { id = "1120", ref = "1120", name = "1120 Lübeck - Hamburg", km = 63.949 },
+  { id = "1240", ref = "1240", name = "1240 Hamburg Hbf - Hamburg-Altona", km = -4.308 },
+  { id = "1241", ref = "1241", name = "1241 Hamburg Hbf - Hamburg-Poppenbüttel", km = 0.066 },
+  { id = "1270", ref = "1270", name = "1270 Hamburg Hbf - Hamburg Diebsteich", km = 0.038 },
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 355.401 },
+  { id = "6100", ref = "6100", name = "6100 Berlin - Hamburg", km = 286.74 },
+]
+
+[[connections]]
+km = 0.169
+station = "Hauptbahnhof Süd"
+lines = [
+  { id = "1240", ref = "1240", name = "1240 Hamburg Hbf - Hamburg-Altona", km = -4.408 },
+  { id = "1270", ref = "1270", name = "1270 Hamburg Hbf - Hamburg Diebsteich", km = -0.104 },
+]
+
+[[connections]]
+km = 0.321
+station = "Steinstraße"
+lines = [
+  { id = "2200", ref = "2200", name = "2200 Wanne-Eickel - Hamburg", km = 354.873 },
+]
+
+[[connections]]
+km = 1.629
+station = "Berliner Tor"
+lines = [
+  { id = "1120", ref = "1120", name = "1120 Lübeck - Hamburg", km = 62.328 },
+  { id = "1241", ref = "1241", name = "1241 Hamburg Hbf - Hamburg-Poppenbüttel", km = 1.5 },
+]
+
+[[connections]]
+km = 3.608
+station = "Rothenburgsort"
+lines = [
+  { id = "1234", ref = "1234", name = "1234 Hamburg-Eidelstedt - Hamburg-Rothenburgsort", km = 20.879 },
+  { id = "1280", ref = "1280", name = "1280 Buchholz - Abzw Hamburg-Allermöhe", km = 40.18 },
+]
+
+[[connections]]
+km = 10.993
+station = "Mittlerer Landweg"
+lines = [
+  { id = "1280", ref = "1280", name = "1280 Buchholz - Abzw Hamburg-Allermöhe", km = 47.528 },
+]
+
+[[connections]]
+km = 25.339
+station = "Aumühle"
+lines = [
+  { id = "6100", ref = "6100", name = "6100 Berlin - Hamburg", km = 261.336 },
+]

@@ -1,0 +1,32 @@
+id = "4211"
+ref = "4211"
+name = "Güterumgehungsbahn Karlsruhe"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q1562232"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.112
+kmTo = 2.347
+length = 1.222
+speeds = [[1.112, 1.181, "", ""], [1.181, 2.347, 60, 70]]
+curves = [[1.233, 1.597, 750], [1.647, 2.247, 990]]
+points = [
+  { km = 1.181, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.289, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.333, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.522, kind = "signal", label = "41C", signal = "main,speed_limit", dir = -1 },
+  { km = 1.551, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.713, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 1.988, kind = "signal", label = "96I", signal = "combined,speed_limit", dir = 1 },
+  { km = 2.296, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}dajHalrr@zAtRD`Sw@pKaEbPmAnIUrERbG", v = 70 },
+  { line = "elajHkmor@^vD" },
+]
+posts = [[2, 48.99881, 8.45055]]

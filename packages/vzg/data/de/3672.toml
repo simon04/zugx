@@ -1,0 +1,45 @@
+id = "3672"
+ref = "3672"
+name = "3672 Abzw Hanau Rauschwald - Großkrotzenburg"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Hanau Rauschwald"
+to = "Großkrotzenburg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.12
+kmTo = 4.131
+length = 4.227
+speeds = [[-0.12, -0.065, "", ""], [-0.065, -0.004, 60, 60], [-0.004, 4.131, "", ""]]
+curves = [[-0.019, 0.785, 440], [0.862, 0.913, 2280], [1.451, 2.038, 750], [2.309, 3.056, 1160]]
+points = [
+  { km = 0.467, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.609, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.364, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.687, kind = "signal", signal = "distant,main,traversable", dir = -1 },
+  { km = 1.907, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.536, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 2.687, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.892, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.141, kind = "signal", signal = "minor", dir = 1 },
+  { km = 3.289, kind = "signal", label = "P 704", signal = "main,minor,route,traversable", dir = -1 },
+  { km = 4.036, kind = "signal", label = "N 704", signal = "distant,main,minor,traversable,wrong_road", dir = 1 },
+  { km = 4.131, kind = "station", label = "Großkrotzenburg", uic = "8002425", pos = [50.08789, 8.98239] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_|upHucyu@wd@zlAiFvKcFrHiDvCmErBm\\dG{HnFmErGu[ny@kEzGqE`C_FZgEqAcGiE" },
+  { line = "uh{pHi_su@~AzA", v = 60 },
+  { line = "ue{pHm|ru@wAiA" },
+]
+posts = [[4, 50.08921, 8.97979], [3, 50.09461, 8.96859], [2, 50.10253, 8.96289], [1, 50.10895, 8.95414], [0, 50.11608, 8.94978]]
+
+[[connections]]
+km = 4.131
+station = "Großkrotzenburg"
+lines = [
+  { id = "3660", ref = "3660", name = "3660 Frankfurt (Main) Süd - Aschaffenburg Hbf", km = 25.364 },
+]

@@ -1,0 +1,46 @@
+id = "5961"
+ref = "5961"
+name = "5961 Nürnberg Rbf - Nürnberg-Langwasser"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q120436027"
+from = "Nürnberg Rbf"
+to = "Nürnberg-Langwasser"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.247
+kmTo = 3.464
+length = 3.217
+speeds = [[0.247, 1.056, 30, 30], [1.056, 1.269, 40, 30], [1.269, 1.455, 30, 80], [1.455, 2.577, 80, 50], [2.577, 3.464, 80, 80]]
+curves = [[0.922, 1.047, 1510], [1.419, 2.197, 600]]
+points = [
+  { km = 0.248, kind = "signal", label = "406I", signal = "minor", dir = -1 },
+  { km = 0.948, kind = "signal", label = "406II", signal = "minor", dir = 1 },
+  { km = 1.089, kind = "signal", label = "496I", signal = "minor", dir = -1 },
+  { km = 1.127, kind = "signal", label = "495II", signal = "minor", dir = 1 },
+  { km = 1.131, kind = "signal", label = "495I", signal = "minor", dir = -1 },
+  { km = 1.319, kind = "signal", label = "461I", signal = "minor", dir = -1 },
+  { km = 1.342, kind = "signal", label = "Va6", signal = "distant", dir = 1 },
+  { km = 1.455, kind = "signal", label = "FF4", signal = "distant,main,speed_limit,traversable", dir = -1 },
+  { km = 2.01, kind = "signal", label = "A6", signal = "distant,main,traversable", dir = 1 },
+  { km = 2.134, kind = "signal", label = "Vff4", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.333, kind = "signal", label = "633I", signal = "minor", dir = 1 },
+  { km = 2.355, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 2.577, kind = "signal", label = "P605", signal = "main,minor,traversable", dir = -1 },
+  { km = 3.221, kind = "signal", label = "N605", signal = "main,minor,traversable,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.056, kmTo = 1.126, length = 70 },
+  { kind = "bridge", kmFrom = 1.455, kmTo = 1.533, length = 89 },
+  { kind = "bridge", kmFrom = 2.279, kmTo = 2.355, length = 77 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ciqlHg{wbAzVmz@", v = 30 },
+  { line = "gqplHuvybAfDqO", v = 40 },
+  { line = "_lplHggzbAxD_Rn@{HM}LaBcKsFeOep@wpA", v = 80 },
+]
+posts = [[1, 49.40602, 11.1135], [2, 49.40462, 11.1263], [3, 49.41057, 11.13665]]

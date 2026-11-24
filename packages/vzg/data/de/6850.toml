@@ -1,0 +1,80 @@
+id = "6850"
+ref = "6850"
+name = "Bahnstrecke 6850 Klostermansfeld–Wippra"
+operator = "Mansfelder Bergwerksbahn e.V."
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 19.902
+length = 19.902
+speeds = [[0, 0.232, 20, 20], [0.232, 0.938, 40, 60], [0.938, 19.902, "", ""]]
+curves = [[0.225, 0.9, 850], [1.2, 1.8, 510], [2.6, 2.85, 740], [3.225, 3.875, 1040], [4.225, 4.7, 330], [4.8, 5.25, 320], [5.3, 5.4, 1600], [5.6, 5.65, 2030], [6.4, 6.625, 830], [7.525, 7.875, 380], [7.925, 8.15, 640], [8.425, 8.7, 690], [8.75, 9, 720], [9.25, 9.85, 390], [9.9, 10.625, 290], [11.05, 11.55, 450], [11.8, 12.325, 530], [12.375, 12.8, 520], [12.85, 13.05, 540], [13.1, 13.25, 1050], [13.35, 13.65, 540], [13.7, 14.15, 740], [14.2, 14.525, 1370], [14.825, 15.425, 610], [15.625, 15.85, 520], [15.975, 16.4, 540], [16.5, 17.125, 410], [17.475, 17.675, 1230], [17.875, 17.95, 2560], [18.35, 18.55, 1210], [18.75, 18.925, 1160]]
+points = [
+  { km = 0.076, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 0.107, kind = "signal", label = "35L 301X", signal = "minor", dir = -1 },
+  { km = 0.135, kind = "station", label = "Klostermansfeld", pos = [51.5747, 11.49198], uic = "8024232" },
+  { km = 0.149, kind = "station", label = "Benndorf", pos = [51.57542, 11.49188] },
+  { km = 0.216, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.221, kind = "signal", label = "35 P1", signal = "main,traversable", dir = 1 },
+  { km = 0.226, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 0.23, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.269, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 0.484, kind = "signal", label = "35 B", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 0.887, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.938, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.067, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 1.2, kind = "station", label = "Bocksthal", pos = [51.57924, 11.50475], measured = true },
+  { km = 1.317, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 2.512, kind = "stop", label = "Klostermansfeld Randsiedlung", pos = [51.59109, 11.49843], uic = "8033030" },
+  { km = 6.234, kind = "stop", label = "Mansfeld (Südharz)", pos = [51.60029, 11.45161] },
+  { km = 7.841, kind = "stop", label = "Vatterode", pos = [51.59759, 11.4292] },
+  { km = 9.076, kind = "stop", label = "Vatteröder Teich", pos = [51.59817, 11.41208], uic = "8004088" },
+  { km = 9.936, kind = "stop", label = "Grafenstuhl-Klippmühle", pos = [51.60241, 11.4042] },
+  { km = 9.936, kind = "halt", label = "Gräfenstuhl-Klippmühle", uic = "8024410", pos = [51.60242, 11.40423] },
+  { km = 11.421, kind = "stop", label = "Biesenrode", pos = [51.60403, 11.38506] },
+  { km = 16.018, kind = "stop", label = "Friesdorf Ost", pos = [51.59783, 11.32334], uic = "8024412" },
+  { km = 17.805, kind = "stop", label = "Friesdorf", pos = [51.58952, 11.30212] },
+  { km = 19.875, kind = "stop", label = "Wippra", pos = [51.57641, 11.28146] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 2.2, kmTo = 2.217, length = 17 },
+  { kind = "bridge", kmFrom = 3.237, kmTo = 3.26, length = 22 },
+  { kind = "bridge", kmFrom = 5.377, kmTo = 5.609, length = 232, name = "Hasselbach-Viadukt" },
+  { kind = "bridge", kmFrom = 7.742, kmTo = 7.754, length = 12 },
+  { kind = "bridge", kmFrom = 10.196, kmTo = 10.224, length = 29 },
+  { kind = "bridge", kmFrom = 10.485, kmTo = 10.515, length = 30 },
+  { kind = "bridge", kmFrom = 10.98, kmTo = 11.018, length = 38 },
+  { kind = "bridge", kmFrom = 11.459, kmTo = 11.494, length = 36 },
+  { kind = "bridge", kmFrom = 14.784, kmTo = 14.827, length = 42 },
+  { kind = "bridge", kmFrom = 15.102, kmTo = 15.118, length = 16 },
+  { kind = "bridge", kmFrom = 15.317, kmTo = 15.327, length = 10 },
+  { kind = "tunnel", kmFrom = 15.378, kmTo = 15.684, length = 306, name = "Rammelburger Tunnel" },
+  { kind = "bridge", kmFrom = 16.145, kmTo = 16.167, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "icxyHscceA}AoS", v = 20 },
+  { line = "gfxyHcxceAmCgSsCsKgDaHyFqG", v = 60 },
+  { line = "k|xyHsjeeAqRaQeFsAsFPeIlEyg@xd@}CbEcRrc@eCfMk@hXnCdr@e@|JeD~ImOvN{A~D{@dGt@~j@AvoAhQ~yAd@`Hg@hJkF~TcBjd@RrJ`D~WOjc@cA~J_DdGyGjFgIXwBv@{ApBiAvDIdJbDdNh@lFTds@gAbJyFhPsE|^c@hKx@`OpFnTlAfKHjIu@bUbAjQj@tYrAlHfErMnChSHfa@gE`h@UpH`A`Vn@bDhBvD" },
+  { line = "mj}yH}~cdAdLvP", tunnel = true },
+  { line = "g}|yHemcdAfBnFrDvUnH~NxFnWzB`ErHxGzBfFrJzs@|FfVhOzg@dNdY`o@pu@" },
+]
+posts = [[0, 51.57445, 11.49002], [1, 51.57894, 11.50184], [2, 51.58712, 11.50215], [3, 51.59436, 11.49381], [4, 51.59656, 11.48059], [5, 51.60013, 11.46931], [6, 51.60031, 11.45501], [7, 51.59894, 11.44087], [8, 51.59832, 11.4273], [9, 51.59812, 11.41319], [10, 51.60297, 11.40395], [11, 51.60276, 11.3905], [12, 51.6056, 11.3771], [13, 51.6039, 11.36334], [14, 51.60125, 11.3498], [15, 51.60228, 11.33555], [16, 51.59787, 11.32361], [17, 51.59214, 11.31294], [18, 51.58861, 11.2997], [19, 51.58288, 11.28871]]
+
+[[connections]]
+km = 0.135
+station = "Klostermansfeld"
+lines = [
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 179.002 },
+]
+
+[[connections]]
+km = 1.2
+station = "Bocksthal"
+lines = [
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 1.2 },
+]

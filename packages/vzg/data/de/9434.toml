@@ -1,0 +1,55 @@
+id = "9434"
+ref = "9434"
+name = "Münstertalbahn 9434: Staufen - Münstertal"
+operator = "SWEG Schienenwege GmbH"
+gauge = "1435"
+wikidata = "Q108807055"
+from = "Staufen"
+to = "Münstertal"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.156
+kmTo = 5.824
+length = 5.597
+speeds = [[0.156, 0.22, 50, 50], [0.22, 0.849, 60, 60], [0.849, 1.2, 70, 70], [1.2, 1.802, 80, 80], [1.802, 2.4, 60, 60], [2.4, 4.681, 80, 80], [4.681, 5.643, 60, 60], [5.643, 5.824, 30, 50]]
+curves = [[0.348, 0.842, 260], [0.895, 1.225, 800], [1.751, 2.067, 300], [2.092, 2.44, 350], [3.52, 3.694, 1450], [3.923, 4.365, 1130], [5.6, 5.657, 2380]]
+points = [
+  { km = 0.156, kind = "station", label = "Staufen", pos = [47.88541, 7.72813] },
+  { km = 0.808, kind = "stop", label = "Staufen Süd", uic = "8007333", pos = [47.87845, 7.72776] },
+  { km = 3, kind = "stop", label = "Etzenbach", uic = "8007334", pos = [47.86675, 7.74914], measured = true },
+  { km = 4.4, kind = "stop", label = "Dietzelbach", pos = [47.85951, 7.76314], measured = true },
+  { km = 4.727, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.827, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5, kind = "stop", label = "Hof (Münstertal)", pos = [47.85717, 7.77245], measured = true },
+  { km = 5.494, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.643, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.643, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.73, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.8, kind = "station", label = "Münstertal (Schwarzwald)", uic = "8007337", pos = [47.8551, 7.78111], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.156, kmTo = 0.179, length = 23 },
+  { kind = "bridge", kmFrom = 2.071, kmTo = 2.093, length = 46 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wtacH}ynn@yAzK", v = 50 },
+  { line = "qwacHamnn@_QlhA", v = 60 },
+  { line = "qibcHscln@wEfZyD~NiSz_@of@zoA", v = 80 },
+  { line = "}qdcHsfgn@yAzGNfO_@dF_B~EaCdC", v = 60 },
+  { line = "i|dcHc{en@s]lW", v = 80 },
+  { line = "}zecHuben@iDlEqDjM", v = 70 },
+  { line = "yefcH{mdn@oCfHiClB}Bb@oEy@}GkH", v = 60 },
+  { line = "_bgcHgkdn@uBkA", v = 50 },
+]
+posts = [[5, 47.8572, 7.77241], [4, 47.86106, 7.75953], [3, 47.86664, 7.74934], [2, 47.87044, 7.73749], [1, 47.87752, 7.73029]]
+
+[[connections]]
+km = 0.156
+station = "Staufen"
+lines = [
+  { id = "9433", ref = "9433", name = "Münstertalbahn 9433: Bad Krozingen - Staufen - Sulzburg", km = 5.2 },
+]

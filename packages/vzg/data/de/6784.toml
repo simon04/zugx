@@ -1,0 +1,23 @@
+id = "6784"
+ref = "6784"
+name = "Gumnitz - Pasewalk Ost"
+gauge = "1435"
+wikidata = "Q802975"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 12.099
+length = 12.099
+speeds = [[0, 12.099, "", ""]]
+curves = [[0.1, 1.925, 1510], [5.375, 5.475, 1230], [8.625, 9.05, 1260], [10.6, 10.95, 1590]]
+points = [
+  { km = 11.04, kind = "signal", signal = "main", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{`reIopstAe@oT{@oLuCoTcDyNoEaNmGwM}IaMiGuF}MoHg~DaqAujDk`@eJs@iFZqHfBs|Alq@eLjMgo@vy@" },
+]
+posts = [[0, 53.50942, 14.0316], [1, 53.51248, 14.04552], [2, 53.52003, 14.05324], [3, 53.52874, 14.057], [4, 53.53745, 14.06075], [5, 53.54616, 14.06451], [6, 53.55501, 14.06702], [7, 53.56395, 14.06877], [8, 53.57288, 14.07051], [9, 53.5818, 14.07105], [10, 53.59038, 14.06649], [11, 53.59869, 14.06099], [12, 53.60599, 14.05213]]

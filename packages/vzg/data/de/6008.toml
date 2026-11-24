@@ -1,0 +1,171 @@
+id = "6008"
+ref = "6008"
+name = "6008 Grünauer Kr - Bln Flughafen"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q22692136"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -3.632
+kmTo = 13.644
+length = 17.197
+speeds = [[-3.632, -1.924, 80, 80], [-1.924, -1.827, "", ""], [-1.827, -0.838, 90, 90], [-0.838, 0.114, 80, 80], [0.114, 0.235, 80, 100], [0.235, 1.675, 100, 100], [1.675, 2.039, 70, 70], [2.039, 2.392, 80, 70], [2.392, 2.509, 90, 70], [2.509, 5.436, 100, 100], [5.436, 5.706, 90, 90], [5.706, 9.494, 100, 100], [9.494, 10.701, 80, 80], [10.701, 13.097, 100, 100], [13.097, 13.644, 50, 50]]
+curves = [[-3.007, -2.907, 1590], [-2.807, -2.707, 1680], [-2.082, -2.007, 2760], [-1.932, -1.757, 250], [-0.957, -0.857, 1440], [-0.782, -0.632, 1680], [0.393, 1.301, 700], [1.628, 1.778, 970], [2.005, 2.206, 630], [2.256, 2.557, 510], [2.606, 3.512, 1250], [4.389, 4.74, 880], [5.042, 5.167, 2120], [5.267, 5.393, 2130], [5.694, 5.869, 1160], [5.92, 6.096, 1000], [9.549, 10.674, 450], [10.751, 11.159, 1960], [11.542, 12.461, 1280]]
+points = [
+  { km = -3.627, kind = "signal", signal = "distant", dir = 1 },
+  { km = -3.618, kind = "signal", signal = "electricity", dir = 1 },
+  { km = -3.594, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = -3.542, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = -3.52, kind = "signal", signal = "electricity", dir = 1 },
+  { km = -3.094, kind = "signal", label = "572", signal = "main,traversable", dir = 1 },
+  { km = -2.545, kind = "signal", signal = "distant", dir = 1 },
+  { km = -2.14, kind = "signal", label = "570", signal = "combined,traversable", dir = 1 },
+  { km = -1.827, kind = "station", label = "Adlershof", uic = "8089052", pos = [52.43474, 13.54156] },
+  { km = -1.236, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = -0.838, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = -0.837, kind = "signal", signal = "distant,route_distant,traversable", dir = 1 },
+  { km = -0.824, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = -0.437, kind = "signal", label = "575", signal = "main,route,traversable", dir = 1 },
+  { km = -0.036, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.114, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.235, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.299, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.426, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.661, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 1.101, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.182, kind = "signal", label = "50 03", signal = "combined,traversable", dir = 1 },
+  { km = 1.271, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 1.674, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.675, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.84, kind = "signal", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 2.009, kind = "station", label = "Altglienicke", pos = [52.40695, 13.55826], uic = "8089054" },
+  { km = 2.039, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.045, kind = "signal", label = "50 11", signal = "main,traversable", dir = 1 },
+  { km = 2.392, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.497, kind = "signal", label = "50 12", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 2.499, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.509, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.899, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.905, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = -1 },
+  { km = 3.267, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 3.303, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.305, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 3.477, kind = "stop", label = "Grünbergallee", pos = [52.3993, 13.5419], uic = "8089016" },
+  { km = 3.65, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.658, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.861, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 4.176, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 4.185, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 4.535, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.54, kind = "signal", signal = "crossing_distant" },
+  { km = 4.648, kind = "signal", label = "50 27", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 4.658, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.886, kind = "signal", signal = "crossing_distant,crossing_hint", dir = -1 },
+  { km = 5.159, kind = "signal", label = "50 31", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 5.436, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.437, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.528, kind = "signal", label = "50 32", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 5.634, kind = "station", label = "Schönefeld (bei Berlin)", uic = "8003424", pos = [52.39143, 13.51268] },
+  { km = 5.666, kind = "stop", label = "Schönefeld", pos = [52.3908, 13.5126] },
+  { km = 5.686, kind = "signal", signal = "stop", dir = 1 },
+  { km = 5.699, kind = "signal", label = "50 37", signal = "main,minor,traversable", dir = 1 },
+  { km = 5.726, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 5.727, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.017, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 6.126, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.17, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 6.691, kind = "signal", label = "50 40", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 7.182, kind = "signal", signal = "distant", dir = -1 },
+  { km = 8.108, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 8.12, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.649, kind = "signal", label = "50 43", signal = "main,traversable", dir = 1 },
+  { km = 8.998, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 9.472, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 9.474, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 9.493, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.496, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.634, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 9.635, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 9.736, kind = "signal", signal = "stop", dir = -1 },
+  { km = 9.803, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 9.888, kind = "stop", label = "Waßmannsdorf", pos = [52.36828, 13.46343] },
+  { km = 9.89, kind = "signal", signal = "stop", dir = 1 },
+  { km = 10.004, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.5, kind = "signal", label = "50 47", signal = "main,traversable", dir = 1 },
+  { km = 10.701, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.702, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.214, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 11.703, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 12.322, kind = "signal", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 13.023, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 13.097, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.097, kind = "signal", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 13.121, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 13.37, kind = "signal", label = "50 57", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 13.418, kind = "signal", label = "50 58", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 13.615, kind = "station", label = "Flughafen BER", pos = [52.36399, 13.50833], uic = "8084407" },
+  { km = 13.624, kind = "signal", signal = "stop", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = -3.065, kmTo = -3.011, length = 54 },
+  { kind = "bridge", kmFrom = -2.626, kmTo = -2.597, length = 29 },
+  { kind = "bridge", kmFrom = -1.057, kmTo = -1.028, length = 29 },
+  { kind = "bridge", kmFrom = -0.642, kmTo = -0.589, length = 54 },
+  { kind = "bridge", kmFrom = 1.14, kmTo = 1.162, length = 22 },
+  { kind = "bridge", kmFrom = 9.295, kmTo = 9.327, length = 32 },
+  { kind = "bridge", kmFrom = 9.919, kmTo = 9.941, length = 21 },
+  { kind = "bridge", kmFrom = 10.025, kmTo = 10.081, length = 56 },
+  { kind = "bridge", kmFrom = 10.171, kmTo = 10.191, length = 19 },
+  { kind = "tunnel", kmFrom = 11.207, kmTo = 13.644, length = 2399 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gt}~H_pwqAc[dh@aHxNoSv]eLhQ", v = 80 },
+  { line = "c{__I}etqA}BdE" },
+  { line = "a_`_Iw_tqAfPgW~Vwc@", v = 90 },
+  { line = "yu~~Hw|uqArF}K|^am@", v = 80 },
+  { line = "gn}~HwwwqAhRsV~FyCxHw@fF`A|GpDnUdY", v = 100 },
+  { line = "mb{~HctwqArMdV", v = 70 },
+  { line = "ysz~H}|vqAvBrFxB|K`BnE", v = 80 },
+  { line = "eiz~H{avqA~CxE", v = 90 },
+  { line = "edz~Ha{uqAjKbLnE|KnChKpEb\\vJvqArAvL`FnQlV`n@", v = 100 },
+  { line = "kyw~HounqAfHtR", v = 90 },
+  { line = "cpw~HyanqApH~YbU`o@zzA|nE", v = 100 },
+  { line = "qts~HyfeqAtDvJ~EzFxFnBvG[bG{DzDaHvBkJt@iL", v = 80 },
+  { line = "{cr~HexeqAjAuStCiV", v = 100 },
+  { line = "y|q~HedgqAtHwh@z@iRCgSwAsUgMmy@", tunnel = true, v = 100 },
+  { line = "kbr~HqflqAqJqm@", tunnel = true, v = 50 },
+]
+posts = [[-3, 52.4262, 13.55428], [-2, 52.43276, 13.54419], [-1, 52.42836, 13.5506], [0, 52.42179, 13.56064], [1, 52.41398, 13.56626], [2, 52.40678, 13.55783], [3, 52.40079, 13.54728], [4, 52.39813, 13.53341], [5, 52.39457, 13.52016], [6, 52.38929, 13.50838], [7, 52.38394, 13.49656], [8, 52.37869, 13.48467], [9, 52.37345, 13.47281], [10, 52.36714, 13.46311], [11, 52.36249, 13.47384], [12, 52.36001, 13.48759], [13, 52.36245, 13.50132]]
+
+[[connections]]
+km = -1.827
+station = "Adlershof"
+lines = [
+  { id = "6007", ref = "6007", name = "6007 Berlin Warschauer Straße - Königs Wusterhausen", km = 10.294 },
+  { id = "6142", ref = "6142", name = "6142 Berlin - Görlitz", km = 10.249 },
+]
+
+[[connections]]
+km = 5.634
+station = "Schönefeld"
+lines = [
+  { id = "6126", ref = "6126", name = "6126 Saarmund - Berlin Eichgestell", km = 35.468 },
+]
+
+[[connections]]
+km = 9.888
+station = "Waßmannsdorf"
+lines = [
+  { id = "6126", ref = "6126", name = "6126 Saarmund - Berlin Eichgestell", km = 31.257 },
+]
+
+[[connections]]
+km = 13.615
+station = "Flughafen BER"
+lines = [
+  { id = "6151", ref = "6151", name = "6151 Abzw Glasower Damm Nord - Abzw Bohnsdorf Süd", km = 34.345 },
+]

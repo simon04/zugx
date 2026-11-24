@@ -1,0 +1,27 @@
+id = "6888"
+ref = "6888"
+name = "6888 Abzw Neugarten - Ketzin"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q107634728"
+from = "Neugarten"
+to = "Ketzin"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.625
+length = 3.625
+speeds = [[0, 3.625, "", ""]]
+curves = [[0.1, 0.375, 210], [0.425, 0.475, 1210], [0.525, 0.9, 640], [1.725, 2, 1040], [3.3, 3.425, 2150]]
+points = [
+  { km = 0.048, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.244, kind = "signal", signal = "main,traversable", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}ox_IonomAm@bL^pD`AlCdNrKxErBjHJ|o@kJvHQ|kArRjP|E" },
+]
+posts = [[0, 52.55951, 12.86392], [1, 52.55306, 12.85783], [2, 52.54414, 12.85931], [3, 52.53526, 12.85702]]

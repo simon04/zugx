@@ -1,0 +1,82 @@
+id = "6693"
+ref = "6693"
+name = "Eisfeld - Rauenstein (Thür)"
+operator = "Thüringer Eisenbahn GmbH"
+gauge = "1435"
+wikidata = "Q109463548"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 16.433
+length = 16.433
+speeds = [[0, 14.754, "", ""], [14.754, 16.433, 90, 90]]
+curves = [[0.475, 0.65, 620], [0.7, 1.1, 290], [1.225, 1.425, 820], [2, 2.2, 840], [2.275, 2.45, 1200], [2.525, 2.75, 670], [2.95, 3.35, 320], [3.65, 3.875, 560], [4.125, 4.65, 460], [4.725, 4.95, 600], [5.025, 5.225, 410], [5.75, 6, 430], [6.125, 6.525, 420], [6.875, 7.05, 730], [7.3, 7.5, 750], [7.55, 8.6, 250], [8.65, 9.05, 280], [9.125, 9.25, 850], [9.3, 9.8, 260], [9.85, 10.25, 490], [10.475, 10.575, 1390], [10.8, 10.95, 650], [11, 11.225, 530], [11.45, 11.525, 1960], [11.9, 12.15, 470], [12.2, 12.55, 290], [12.6, 12.875, 380], [13.45, 13.7, 440], [13.75, 14.2, 270], [14.25, 14.525, 630], [14.575, 14.75, 1160], [15.075, 15.45, 620], [15.55, 15.825, 810]]
+points = [
+  { km = 0.081, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.227, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.26, kind = "station", label = "Rauenstein(Thür)", pos = [50.41224, 11.04753], ele = 448 },
+  { km = 0.303, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.304, kind = "signal", signal = "resetting_switch", dir = 1 },
+  { km = 0.432, kind = "signal", signal = "resetting_switch", dir = -1 },
+  { km = 0.474, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.495, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.495, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.632, kind = "signal", signal = "resetting_switch_distant", dir = -1 },
+  { km = 0.655, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.973, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.15, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 4.174, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 4.176, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.372, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 4.404, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.582, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.628, kind = "stop", label = "Schalkau Mitte", pos = [50.39659, 11.00865], uic = "8080662" },
+  { km = 4.894, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 4.969, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.199, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.301, kind = "stop", label = "Schalkau", pos = [50.40052, 11.00164], uic = "8016233", ele = 403 },
+  { km = 5.711, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.36, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 6.845, kind = "stop", label = "Bachfeld", pos = [50.40578, 10.98265], uic = "8016230", ele = 410 },
+  { km = 6.896, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.051, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.484, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.133, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 14.338, kind = "signal", signal = "distant", dir = 1 },
+  { km = 15.088, kind = "signal", label = "K", signal = "combined,traversable", dir = 1 },
+  { km = 15.43, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 15.703, kind = "signal", label = "E", signal = "main,traversable", dir = -1 },
+  { km = 15.921, kind = "station", label = "Eisfeld", pos = [50.41779, 10.90461], uic = "8016225", ele = 439 },
+  { km = 16.173, kind = "signal", label = "B", signal = "main,traversable", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.939, kmTo = 0.959, length = 20 },
+  { kind = "bridge", kmFrom = 2.652, kmTo = 2.665, length = 12 },
+  { kind = "bridge", kmFrom = 3.8, kmTo = 3.811, length = 11 },
+  { kind = "bridge", kmFrom = 13.741, kmTo = 13.755, length = 14 },
+  { kind = "bridge", kmFrom = 14.721, kmTo = 14.754, length = 33 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "onurHaembAtTn^lF~SbDtExDfAnPmAdXpEjPjEdKbI|KtPxFtYd@fH]fH_AfEiNn\\y@bEsCna@~@`Tq@~JaGtRqIfJsB|D_Qxr@WrEz@|YsApNgAdDiQt\\kJ|_@mI~PaA~EBzJ`CbIdE`D`CNdCm@pCoChBmFr@{Tp@cEvAiDhCcCvJqD`HgFvE_@rDhBhCtEdCrNxDdL^rD@pHMvSoAr^f@|OUtGiEfX}Gfk@sAnEoFdJmA`FSfG~AfRMfGeTby@i@rGLzPg@bFwAdEsB`CeOtEwPpP" },
+  { line = "g}trH{`saAmVnQqDrGsEhO}B|MyDfy@", v = 90 },
+]
+posts = [[0, 50.414, 11.04993], [1, 50.40784, 11.04013], [2, 50.39896, 11.03882], [3, 50.3927, 11.02967], [4, 50.39611, 11.01728], [5, 50.39881, 11.00485], [6, 50.40287, 10.99279], [7, 50.40663, 10.98096], [8, 50.40958, 10.9689], [9, 50.40412, 10.97614], [10, 50.39715, 10.97313], [11, 50.39687, 10.95933], [12, 50.3994, 10.9459], [13, 50.40205, 10.93347], [14, 50.40522, 10.92069], [15, 50.41324, 10.91467], [16, 50.41793, 10.90352]]
+
+[[connections]]
+km = 0.26
+station = "Rauenstein"
+lines = [
+  { id = "6311", ref = "6311", name = "6311 Eisenach - Lichtenfels", km = 113.536 },
+  { id = "6692", ref = "6692", name = "6692 Rauenstein (Thür) – Sonneberg (Thür)", km = 16.138 },
+]
+
+[[connections]]
+km = 15.921
+station = "Eisfeld"
+lines = [
+  { id = "6311", ref = "6311", name = "6311 Eisenach - Lichtenfels", km = 106.462 },
+]

@@ -1,0 +1,112 @@
+id = "2655"
+ref = "2655"
+name = "2655 Köln Frankfurter Straße - Overath"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Köln Frankfurter Straße"
+to = "Overath"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 4.069
+kmTo = 24.569
+length = 20.264
+speeds = [[4.069, 4.361, 100, 100], [4.361, 4.898, 100, 80], [4.898, 6.078, 100, 100], [6.078, 7.486, 120, 120], [7.486, 7.517, "", ""], [7.517, 13.035, 120, 120], [13.035, 14.566, 80, 80], [14.566, 14.815, 50, 50], [14.815, 16.078, 60, 60], [16.078, 16.418, 70, 60], [16.418, 19.179, 70, 70], [19.179, 19.667, 60, 60], [19.667, 20.761, 80, 70], [20.761, 22.149, 80, 80], [22.149, 23.6, 60, 60], [23.6, 23.769, 50, 60], [23.769, 23.986, 50, 50], [23.986, 23.992, "", ""], [23.992, 24.569, 50, 50]]
+curves = [[4.225, 4.354, 2330], [4.521, 4.811, 710], [4.969, 5.127, 1310], [5.813, 6.05, 1300], [7.978, 8.078, 1650], [8.404, 8.731, 890], [13.18, 13.604, 330], [13.804, 14.079, 510], [14.528, 14.878, 670], [14.928, 15.053, 1130], [15.178, 15.452, 570], [15.677, 15.977, 580], [16.052, 16.401, 760], [16.626, 16.876, 530], [17.025, 17.425, 380], [17.5, 17.85, 510], [17.974, 18.199, 690], [19.248, 19.348, 1250], [19.398, 19.648, 330], [19.697, 20.097, 390], [20.292, 20.642, 620], [21.74, 22.042, 600], [22.118, 22.47, 300], [22.521, 22.873, 320], [22.999, 23.453, 560], [23.684, 23.866, 730], [23.97, 24.178, 670]]
+points = [
+  { km = 4.069, kind = "station", label = "Köln Frankfurter Straße", uic = "8003358", pos = [50.91542, 7.05153] },
+  { km = 4.693, kind = "signal", signal = "combined,minor,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 5.086, kind = "signal", label = "32 ZT11", signal = "combined,minor,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 5.391, kind = "signal", label = "32 ZS21", signal = "combined,traversable", dir = -1 },
+  { km = 5.922, kind = "signal", label = "32 N21", signal = "main,minor", dir = 1 },
+  { km = 6.022, kind = "signal", signal = "minor", dir = -1 },
+  { km = 6.078, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.481, kind = "signal", signal = "main", dir = -1 },
+  { km = 7.207, kind = "signal", signal = "distant", dir = -1 },
+  { km = 12.123, kind = "stop", label = "Rösrath-Stümpen", pos = [50.89865, 7.15939], uic = "8005143" },
+  { km = 13.532, kind = "signal", signal = "distant", dir = -1 },
+  { km = 14.244, kind = "signal", label = "41 P1", signal = "main", dir = -1 },
+  { km = 14.246, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 14.332, kind = "station", label = "Rösrath", uic = "8005134", pos = [50.90139, 7.18269] },
+  { km = 14.566, kind = "signal", label = "41 N1", signal = "combined", dir = 1 },
+  { km = 15.238, kind = "signal", signal = "combined", dir = 1 },
+  { km = 15.78, kind = "signal", label = "42 P2", signal = "combined", dir = -1 },
+  { km = 15.908, kind = "station", label = "Hoffnungsthal", pos = [50.91105, 7.19602], uic = "8002932" },
+  { km = 15.957, kind = "signal", label = "42 N2", signal = "main", dir = 1 },
+  { km = 16.084, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.418, kind = "signal", signal = "combined,speed_limit", dir = -1 },
+  { km = 17.101, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 18.208, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 19.179, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 19.667, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 19.699, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 20.014, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 20.124, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 20.126, kind = "signal", signal = "crossing_hint", dir = -1 },
+  { km = 20.168, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 20.198, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 20.225, kind = "signal", signal = "stop", dir = -1 },
+  { km = 20.238, kind = "stop", label = "Honrath", pos = [50.91053, 7.25273], uic = "8002988" },
+  { km = 20.5, kind = "signal", label = "43 N2", signal = "main,minor,speed_limit", dir = 1, measured = true },
+  { km = 20.761, kind = "signal", signal = "speed_limit,speed_limit_distant", dir = 1 },
+  { km = 21.504, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 22.149, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 22.724, kind = "signal", label = "43Va", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 23.6, kind = "signal", label = "43 A", signal = "combined,speed_limit", dir = 1, measured = true },
+  { km = 23.769, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 24.2, kind = "signal", label = "43 P2", signal = "main,minor", dir = -1, measured = true },
+  { km = 24.338, kind = "station", label = "Overath", pos = [50.93274, 7.28876], uic = "8004739" },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 4.513, kmTo = 4.6, length = 82 },
+  { kind = "bridge", kmFrom = 6.2, kmTo = 6.217, length = 16 },
+  { kind = "bridge", kmFrom = 7.486, kmTo = 7.517, length = 31 },
+  { kind = "bridge", kmFrom = 10.91, kmTo = 10.933, length = 23 },
+  { kind = "bridge", kmFrom = 13.493, kmTo = 13.532, length = 39 },
+  { kind = "bridge", kmFrom = 15.318, kmTo = 15.34, length = 21 },
+  { kind = "bridge", kmFrom = 15.37, kmTo = 15.396, length = 26 },
+  { kind = "bridge", kmFrom = 15.51, kmTo = 15.537, length = 27 },
+  { kind = "tunnel", kmFrom = 18.22, kmTo = 19.302, length = 1084, name = "Hoffnungsthaler Tunnel" },
+  { kind = "bridge", kmFrom = 19.784, kmTo = 19.795, length = 12 },
+  { kind = "bridge", kmFrom = 21.406, kmTo = 21.501, length = 94 },
+  { kind = "bridge", kmFrom = 22.488, kmTo = 22.539, length = 51 },
+  { kind = "bridge", kmFrom = 23.972, kmTo = 23.986, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mmwuHmp`j@}Du`@", v = 100 },
+  { line = "kswuHcraj@g@_F", tunnel = true, v = 100 },
+  { line = "stwuHcyaj@QgJz@s\\M{aAj@{O", v = 100 },
+  { line = "krwuHwuej@fNuuB", v = 120 },
+  { line = "ccwuHmlij@HuA" },
+  { line = "ybwuHcoij@xDam@vA{e@pAsMhlAw|FpZcbB", v = 120 },
+  { line = "ynsuHqswj@pCuP@uLeC_K_KoQuCqCaBi@_^{D", v = 80 },
+  { line = "cauuHe}yj@cEiBcEwE", v = 50 },
+  { line = "kmuuHggzj@gUuZoIod@kCcHkFqH", v = 60 },
+  { line = "{yvuHc{|j@{DqGmAuD{Eu`@MuEfC{[@uGaAgHkH}PoBuJ{@o\\`AwM", v = 70 },
+  { line = "}swuHmjbk@tN}pA", tunnel = true, v = 70 },
+  { line = "gdwuHk|dk@~@oI", tunnel = true, v = 60 },
+  { line = "gbwuH{fek@lAeOxAyDfCcD", v = 60 },
+  { line = "wxvuH_bfk@bF}HjBoKFw_@w@}Kce@e`BqCeF}IqH", v = 80 },
+  { line = "kexuHaxkk@aDwA_DFyBfA_HfHuE`AoC_@mLoG_FyA_CaBwBkEsHu]", v = 60 },
+  { line = "gmzuHmamk@kAgQ", v = 50 },
+  { line = "sozuHusmk@?M" },
+  { line = "sozuHctmk@eAuIuHqZeB}D", v = 50 },
+]
+posts = [[5, 50.91657, 7.06492], [6, 50.9165, 7.07844], [7, 50.91481, 7.0917], [8, 50.91304, 7.10563], [9, 50.91077, 7.1192], [10, 50.90688, 7.13203], [11, 50.90296, 7.14488], [12, 50.89907, 7.15776], [13, 50.89546, 7.17083], [14, 50.89832, 7.1821], [15, 50.9066, 7.18641], [16, 50.91191, 7.19741], [17, 50.91449, 7.21005], [18, 50.91693, 7.22309], [19, 50.91459, 7.23682], [20, 50.91059, 7.24901], [21, 50.91311, 7.26215], [22, 50.91824, 7.27344], [23, 50.92647, 7.27382], [24, 50.93132, 7.28413]]
+
+[[connections]]
+km = 4.069
+station = "Köln Frankfurter Straße"
+lines = [
+  { id = "2691", ref = "2691", name = "2691 Abzweig Flughafen Nordwest - Porz-Wahn Süd", km = 7.606 },
+]
+
+[[connections]]
+km = 24.338
+station = "Overath"
+lines = [
+  { id = "2657", ref = "2657", name = "2657 Siegburg/Bonn - Olpe \"Aggertalbahn\"", km = -77.916 },
+]

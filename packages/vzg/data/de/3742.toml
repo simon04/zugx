@@ -1,0 +1,134 @@
+id = "3742"
+ref = "3742"
+name = "3742 Friedberg (Hess) - Hanau Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q802300"
+from = "Friedberg (Hess)"
+to = "Hanau Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.547
+kmTo = 32.199
+length = 32.73
+speeds = [[-0.547, -0.37, 60, 60], [-0.37, -0.139, "", ""], [-0.139, 0.679, 70, 70], [0.679, 0.809, 90, 70], [0.809, 1.218, 90, 100], [1.218, 1.537, 120, 100], [1.537, 5.262, 120, 120], [5.262, 6.696, 90, 90], [6.696, 9.744, 120, 120], [9.744, 10.211, 90, 90], [10.211, 17.314, 120, 120], [17.314, 17.673, 100, 100], [17.673, 29.681, 120, 120], [29.681, 30.101, 80, 80], [30.101, 30.289, 70, 70], [30.289, 31.039, 60, 60], [31.039, 31.338, "", ""], [31.338, 32.199, "", 40]]
+curves = [[-0.417, -0.317, 1300], [0.314, 0.805, 980], [1.059, 1.135, 1780], [1.945, 2.223, 1090], [3.538, 3.953, 1060], [5.37, 6.214, 530], [6.553, 7.125, 910], [8.308, 9.091, 790], [9.714, 10.55, 770], [12.674, 13.383, 770], [14.172, 14.706, 870], [15.991, 16.54, 940], [17.278, 17.795, 880], [18.903, 19.05, 1530], [20.675, 21.511, 1010], [22.326, 22.975, 890], [27.698, 28.174, 800], [29.763, 31.199, 480]]
+points = [
+  { km = -0.139, kind = "signal", label = "33P8", signal = "main,minor,route,speed_limit", dir = -1 },
+  { km = 0.003, kind = "station", label = "Friedberg (Hess)", uic = "8011379", pos = [50.33269, 8.76126] },
+  { km = 0.006, kind = "stop", label = "Friedberg (Hessen)", pos = [50.3327, 8.76139] },
+  { km = 0.558, kind = "signal", label = "33LW321Y", signal = "minor", dir = -1 },
+  { km = 0.559, kind = "signal", signal = "minor", dir = 1 },
+  { km = 0.809, kind = "signal", label = "33 ZU208", signal = "combined,minor,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 1.218, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.537, kind = "signal", label = "33 H", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 2.806, kind = "signal", signal = "distant", dir = -1 },
+  { km = 4.778, kind = "signal", signal = "distant" },
+  { km = 4.901, kind = "station", label = "Assenheim (Oberhess)", uic = "8000632", pos = [50.30498, 8.81249] },
+  { km = 4.984, kind = "signal", signal = "combined", dir = -1 },
+  { km = 5.262, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 5.454, kind = "signal", signal = "combined", dir = -1 },
+  { km = 6.688, kind = "signal", signal = "distant", dir = -1 },
+  { km = 6.696, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 7.674, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 10.211, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.211, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 11.541, kind = "signal", signal = "distant", dir = -1 },
+  { km = 15.463, kind = "signal", signal = "stop", dir = -1 },
+  { km = 15.551, kind = "station", label = "Nidderau", pos = [50.23103, 8.88005], uic = "8000158" },
+  { km = 17.314, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.65, kind = "halt", label = "Ostheim", uic = "8004713", pos = [50.21955, 8.90306] },
+  { km = 17.673, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 17.707, kind = "stop", label = "Ostheim (Kr Hanau)", pos = [50.2191, 8.90347] },
+  { km = 21.609, kind = "station", label = "Bruchköbel", pos = [50.18611, 8.91953] },
+  { km = 22.73, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 26.845, kind = "station", label = "Hanau Nord", pos = [50.14183, 8.92574], uic = "8002572" },
+  { km = 29.681, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 30.084, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 30.115, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 30.269, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 30.719, kind = "signal", label = "C", signal = "main,route", dir = -1 },
+  { km = 30.969, kind = "signal", signal = "main", dir = 1, measured = true },
+  { km = 31.1, kind = "signal", signal = "distant", dir = -1, measured = true },
+  { km = 31.1, kind = "signal", signal = "speed_limit", dir = -1, measured = true },
+  { km = 31.134, kind = "signal", signal = "minor", dir = 1 },
+  { km = 31.382, kind = "signal", label = "J", signal = "main", dir = -1 },
+  { km = 31.384, kind = "signal", signal = "minor", dir = -1 },
+  { km = 31.555, kind = "signal", signal = "minor", dir = -1 },
+  { km = 31.621, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 31.771, kind = "signal", label = "926 I", signal = "minor", dir = 1 },
+  { km = 31.959, kind = "signal", signal = "minor", dir = -1 },
+  { km = 32.118, kind = "station", label = "Hanau Hbf", uic = "8033452", pos = [50.12107, 8.92921] },
+]
+structures = [
+  { kind = "bridge", kmFrom = -0.42, kmTo = -0.403, length = 18 },
+  { kind = "bridge", kmFrom = 0.395, kmTo = 0.412, length = 18 },
+  { kind = "bridge", kmFrom = 1.273, kmTo = 1.287, length = 14 },
+  { kind = "bridge", kmFrom = 2.282, kmTo = 2.353, length = 70 },
+  { kind = "bridge", kmFrom = 4.126, kmTo = 4.137, length = 12 },
+  { kind = "bridge", kmFrom = 5.204, kmTo = 5.217, length = 13 },
+  { kind = "bridge", kmFrom = 6.216, kmTo = 6.5, length = 294 },
+  { kind = "bridge", kmFrom = 10.967, kmTo = 10.977, length = 10 },
+  { kind = "bridge", kmFrom = 12.244, kmTo = 12.263, length = 22 },
+  { kind = "bridge", kmFrom = 14.153, kmTo = 14.18, length = 32 },
+  { kind = "bridge", kmFrom = 14.689, kmTo = 14.797, length = 110 },
+  { kind = "bridge", kmFrom = 15.897, kmTo = 15.941, length = 50 },
+  { kind = "bridge", kmFrom = 17.095, kmTo = 17.104, length = 10 },
+  { kind = "bridge", kmFrom = 20.89, kmTo = 20.933, length = 44 },
+  { kind = "bridge", kmFrom = 22.665, kmTo = 22.703, length = 37 },
+  { kind = "bridge", kmFrom = 26.941, kmTo = 26.981, length = 43 },
+  { kind = "bridge", kmFrom = 27.476, kmTo = 27.593, length = 109 },
+  { kind = "bridge", kmFrom = 28.316, kmTo = 28.352, length = 36 },
+  { kind = "bridge", kmFrom = 28.686, kmTo = 28.748, length = 62 },
+  { kind = "bridge", kmFrom = 28.863, kmTo = 28.882, length = 18 },
+  { kind = "bridge", kmFrom = 29.995, kmTo = 30.083, length = 90 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gf|pHw`ou@p^gx@", v = 40 },
+  { line = "uf{pH_zpu@zFaM~AyF" },
+  { line = "y{zpH{oqu@l@kF@oFm@yGyAkHmCuG{DyDoEiC", v = 60 },
+  { line = "ko{pHwcsu@_Jg@", v = 70 },
+  { line = "kz{pH_esu@yGnCmHlM", v = 80 },
+  { line = "sl|pHarru@_y@~dBoFrHgHvE_hGn`ByIGcK_Dqk@yd@gHaEiM}BiLp@_GnBu{Att@kf@~_@cXpV", v = 120 },
+  { line = "}moqH}{iu@cGpKuC~J", v = 100 },
+  { line = "wzoqHkciu@kRjeAeEpLgHrJs_A~}@yDfEoErHqDvLeTfiAiCbIeFxIuEnEgHdDytBra@sGbC_FxD", v = 120 },
+  { line = "cfyqHwo~t@eH`LwElQ", v = 90 },
+  { line = "avyqHgp}t@gLpy@wBrKaEpK}F~HuJzFmaAxWoK|AgJ{@", v = 120 },
+  { line = "}z}qHwpyt@_]cQ_Ek@sEPeGlCqDbEmDbIuCbN", v = 90 },
+  { line = "m}_rH{_yt@i]tfB{CdL}FfMk}@fuAmXh`A", v = 120 },
+  { line = "k`drHeept@wKl\\", v = 100 },
+  { line = "cmdrHwgot@yBhF", v = 90 },
+  { line = "}pdrHm`ot@aDzEqGhFkZfP", v = 70 },
+  { line = "}yerH_ant@aKvF" },
+  { line = "_ffrHgymt@wGhF", v = 60 },
+]
+posts = [[32, 50.11968, 8.93168], [31, 50.11389, 8.9429], [30, 50.11984, 8.95036], [29, 50.12587, 8.9406], [28, 50.13192, 8.93028], [27, 50.14036, 8.92631], [26, 50.14928, 8.92301], [25, 50.158, 8.91978], [24, 50.16663, 8.91655], [23, 50.17507, 8.91349], [22, 50.18319, 8.91675], [21, 50.19152, 8.92164], [20, 50.2002, 8.91738], [19, 50.20877, 8.91242], [18, 50.21681, 8.90564], [17, 50.22252, 8.89513], [16, 50.22718, 8.88376], [15, 50.23512, 8.87602], [14, 50.24113, 8.86576], [13, 50.24537, 8.85396], [12, 50.25529, 8.84989], [11, 50.26267, 8.84771], [10, 50.27069, 8.84298], [9, 50.2742, 8.82963], [8, 50.28162, 8.82252], [7, 50.29037, 8.81934], [6, 50.29887, 8.8226], [5, 50.30465, 8.81365], [4, 50.30841, 8.80085], [3, 50.3146, 8.79038], [2, 50.32116, 8.78089], [1, 50.32575, 8.769], [0, 50.33275, 8.76136]]
+
+[[connections]]
+km = 0.003
+station = "Friedberg"
+lines = [
+  { id = "3611", ref = "3611", name = "3611 Frankfurt (Main) Hbf (tief) - Friedberg (Hess)", km = 40.074 },
+  { id = "3740", ref = "3740", name = "3740 Friedberg (Hess) - Laubach (Oberhess)", km = 60.953 },
+  { id = "3900", ref = "3900", name = "3900 Kassel - Frankfurt", km = 166.062 },
+]
+
+[[connections]]
+km = 15.551
+station = "Nidderau"
+lines = [
+  { id = "3745", ref = "3745", name = "3745 Bad Vilbel - Lauterbach (Hess) Nord", km = 14.839 },
+]
+
+[[connections]]
+km = 32.118
+station = "Hanau Hbf"
+lines = [
+  { id = "3600", ref = "3600", name = "3600 Frankfurt (M) Hbf - Göttingen", km = 22.943 },
+  { id = "3660", ref = "3660", name = "3660 Frankfurt (Main) Süd - Aschaffenburg Hbf", km = 19.966 },
+  { id = "4113", ref = "4113", name = "4113 Eberbach - Hanau Hbf", km = 88.162 },
+]

@@ -1,0 +1,167 @@
+id = "6605"
+ref = "6605"
+name = "6605 Heidenau - Kurort Altenberg (Erzgeb)"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q318652"
+from = "Heidenau"
+to = "Kurort Altenberg (Erzgeb)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.765
+kmTo = 38.025
+length = 38.759
+speeds = [[-0.765, -0.495, 50, 50], [-0.495, 0.263, "", ""], [0.263, 0.88, 60, 60], [0.88, 2.448, 70, 70], [2.448, 4.652, "", ""], [4.652, 4.749, 20, 20], [4.749, 9.084, "", ""], [9.084, 10.277, 60, 60], [10.277, 11.238, "", ""], [11.238, 11.76, 60, 60], [11.76, 12.638, 70, 70], [12.638, 12.753, "", ""], [12.753, 13.868, 50, 50], [13.868, 18.759, "", ""], [18.759, 18.913, 40, 40], [18.913, 22.055, "", ""], [22.055, 22.245, 50, 50], [22.245, 23.508, "", ""], [23.508, 24.138, 50, 50], [24.138, 25.05, 70, 70], [25.05, 29.607, "", ""], [29.607, 30.255, 60, 60], [30.255, 31.081, 70, 70], [31.081, 32.61, 50, 50], [32.61, 36.131, "", ""], [36.131, 36.28, 20, 20], [36.28, 36.565, "", ""], [36.565, 36.913, 60, 60], [36.913, 38.025, "", ""]]
+curves = [[-0.59, -0.49, 1540], [-0.04, 0.235, 270], [0.285, 1.144, 390], [1.246, 1.661, 470], [1.776, 2.144, 510], [2.201, 3.154, 440], [3.23, 3.351, 1220], [3.396, 4.223, 290], [4.278, 4.751, 600], [4.8, 5.359, 290], [5.458, 5.688, 640], [5.738, 5.961, 320], [6.2, 6.344, 1240], [6.535, 6.83, 550], [6.886, 7.644, 390], [7.728, 7.957, 1130], [8.006, 8.234, 920], [8.285, 8.514, 370], [8.578, 9.056, 360], [9.16, 9.434, 450], [9.585, 9.687, 1610], [9.97, 10.493, 240], [10.535, 11.571, 210], [11.863, 12.213, 370], [12.313, 12.861, 580], [13.211, 13.364, 900], [14.552, 14.767, 950], [14.972, 15.231, 580], [15.282, 15.563, 540], [15.679, 15.971, 580], [16.078, 16.393, 1820], [16.443, 16.717, 390], [16.945, 17.584, 530], [17.629, 17.949, 300], [17.994, 18.735, 380], [18.858, 19.131, 400], [19.254, 19.65, 200], [19.7, 20.465, 420], [21.194, 22.623, 350], [22.673, 22.927, 400], [23.005, 23.284, 830], [23.359, 23.948, 680], [23.999, 24.276, 440], [24.326, 24.628, 520], [24.728, 25.005, 1590], [25.105, 25.257, 1940], [25.332, 26.087, 260], [26.279, 26.552, 440], [26.779, 26.829, 2610], [27.053, 27.228, 430], [27.278, 27.404, 990], [27.588, 28.236, 320], [28.336, 28.557, 670], [28.637, 29.147, 560], [29.27, 29.588, 1500], [30.03, 30.604, 490], [30.946, 31.092, 1110], [31.165, 31.607, 510], [31.681, 32.2, 350], [32.252, 33.085, 200], [33.317, 33.523, 570], [33.704, 34.184, 250], [34.233, 34.535, 400], [34.612, 34.738, 960], [34.788, 34.938, 350], [34.989, 35.164, 590], [35.214, 35.839, 210], [35.889, 36.114, 440], [36.165, 36.373, 490], [36.842, 37.296, 430], [37.397, 37.621, 410]]
+points = [
+  { km = -0.495, kind = "signal", label = "63ZR6", signal = "combined,speed_limit", dir = -1 },
+  { km = -0.311, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = -0.21, kind = "station", label = "Heidenau", pos = [50.9816, 13.85812], uic = "8006028" },
+  { km = -0.079, kind = "signal", label = "63P6", signal = "main", dir = 1 },
+  { km = 0.016, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.266, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.88, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.557, kind = "stop", label = "Dohna (Sachs)", pos = [50.96125, 13.85557], uic = "8006029" },
+  { km = 4.69, kind = "stop", label = "Köttewitz", pos = [50.94518, 13.85972] },
+  { km = 5.876, kind = "stop", label = "Weesenstein", pos = [50.93642, 13.86289], uic = "8006031" },
+  { km = 8.058, kind = "stop", label = "Burkhardswalde-Maxen", pos = [50.92518, 13.8384] },
+  { km = 10.001, kind = "stop", label = "Mühlbach (Pirna)", pos = [50.91425, 13.81871], uic = "8006034" },
+  { km = 13.187, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 13.311, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 13.329, kind = "signal", signal = "stop", dir = -1 },
+  { km = 13.379, kind = "stop", label = "Niederschlottwitz", pos = [50.88961, 13.81103], uic = "8006035" },
+  { km = 13.479, kind = "signal", signal = "stop", dir = 1 },
+  { km = 13.489, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 13.494, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 13.582, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 13.615, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 13.66, kind = "signal", signal = "crossing_hint,crossing_info", dir = -1 },
+  { km = 13.709, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 13.742, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 13.762, kind = "signal", signal = "main", dir = -1 },
+  { km = 13.827, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 13.858, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 13.894, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 14.021, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 14.028, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 14.062, kind = "signal", signal = "snowplow", dir = -1 },
+  { km = 14.066, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 15.565, kind = "stop", label = "Oberschlottwitz", pos = [50.87055, 13.8146], uic = "8006036" },
+  { km = 19.048, kind = "stop", label = "Glashütte (Sachs) Gleis 1", pos = [50.85117, 13.78256] },
+  { km = 19.056, kind = "station", label = "Glashütte (Sachs)", uic = "8006037", pos = [50.8511, 13.78248] },
+  { km = 22.318, kind = "stop", label = "Bärenhecke-Johnsbach", pos = [50.82728, 13.77181], uic = "8006038" },
+  { km = 24.934, kind = "stop", label = "Bärenstein (b Glashütte/Sachs)", pos = [50.80966, 13.7947], uic = "8006039" },
+  { km = 28.439, kind = "stop", label = "Lauenstein (Sachs)", pos = [50.7868, 13.81459], uic = "8006041" },
+  { km = 30.345, kind = "stop", label = "Hartmannmühle", pos = [50.77841, 13.79236], uic = "8006042" },
+  { km = 32.74, kind = "stop", label = "Geising", pos = [50.7607, 13.78619], uic = "8006043" },
+  { km = 37.59, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 37.594, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 37.755, kind = "signal", label = "C", signal = "main,minor,traversable", dir = 1 },
+  { km = 37.926, kind = "station", label = "Kurort Altenberg (Erzgeb.)", uic = "8006044", pos = [50.76648, 13.75392] },
+  { km = 37.996, kind = "stop", label = "Kurort Altenberg (Erzgeb)", pos = [50.76605, 13.7532] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.088, kmTo = 0.107, length = 19 },
+  { kind = "bridge", kmFrom = 0.652, kmTo = 0.7, length = 48 },
+  { kind = "bridge", kmFrom = 2.829, kmTo = 2.862, length = 35 },
+  { kind = "bridge", kmFrom = 3.523, kmTo = 3.56, length = 41 },
+  { kind = "bridge", kmFrom = 5.276, kmTo = 5.395, length = 90 },
+  { kind = "tunnel", kmFrom = 5.395, kmTo = 5.7, length = 232, name = "Tunnel Köttewitz" },
+  { kind = "bridge", kmFrom = 5.923, kmTo = 5.996, length = 76 },
+  { kind = "tunnel", kmFrom = 5.996, kmTo = 6.231, length = 246, name = "Tunnel Weesenstein" },
+  { kind = "bridge", kmFrom = 6.237, kmTo = 6.263, length = 28 },
+  { kind = "bridge", kmFrom = 6.334, kmTo = 6.36, length = 27 },
+  { kind = "bridge", kmFrom = 7.06, kmTo = 7.152, length = 82 },
+  { kind = "bridge", kmFrom = 7.542, kmTo = 7.63, length = 78 },
+  { kind = "bridge", kmFrom = 8.56, kmTo = 8.627, length = 52 },
+  { kind = "bridge", kmFrom = 8.871, kmTo = 8.9, length = 22 },
+  { kind = "bridge", kmFrom = 9.069, kmTo = 9.084, length = 22 },
+  { kind = "bridge", kmFrom = 10.277, kmTo = 10.326, length = 47 },
+  { kind = "bridge", kmFrom = 10.382, kmTo = 10.4, length = 18 },
+  { kind = "bridge", kmFrom = 11.2, kmTo = 11.238, length = 39 },
+  { kind = "bridge", kmFrom = 12.638, kmTo = 12.715, length = 78 },
+  { kind = "bridge", kmFrom = 13.868, kmTo = 13.885, length = 20 },
+  { kind = "bridge", kmFrom = 14.734, kmTo = 14.763, length = 25 },
+  { kind = "bridge", kmFrom = 15.614, kmTo = 15.7, length = 93 },
+  { kind = "bridge", kmFrom = 17.18, kmTo = 17.255, length = 83 },
+  { kind = "bridge", kmFrom = 17.634, kmTo = 17.664, length = 33 },
+  { kind = "bridge", kmFrom = 17.747, kmTo = 17.783, length = 39 },
+  { kind = "tunnel", kmFrom = 18.078, kmTo = 18.342, length = 289, name = "Pilztunnel" },
+  { kind = "bridge", kmFrom = 18.342, kmTo = 18.451, length = 120 },
+  { kind = "bridge", kmFrom = 18.804, kmTo = 18.821, length = 18 },
+  { kind = "bridge", kmFrom = 18.913, kmTo = 18.979, length = 66 },
+  { kind = "bridge", kmFrom = 19.495, kmTo = 19.527, length = 31 },
+  { kind = "bridge", kmFrom = 19.737, kmTo = 19.761, length = 23 },
+  { kind = "tunnel", kmFrom = 20.522, kmTo = 20.968, length = 512, name = "Gleisbergtunnel" },
+  { kind = "bridge", kmFrom = 20.981, kmTo = 21.058, length = 89 },
+  { kind = "bridge", kmFrom = 21.143, kmTo = 21.256, length = 84 },
+  { kind = "bridge", kmFrom = 21.407, kmTo = 21.517, length = 87 },
+  { kind = "bridge", kmFrom = 21.978, kmTo = 22.055, length = 78 },
+  { kind = "bridge", kmFrom = 23.934, kmTo = 23.959, length = 37 },
+  { kind = "bridge", kmFrom = 24.251, kmTo = 24.264, length = 13 },
+  { kind = "bridge", kmFrom = 25.845, kmTo = 25.866, length = 20 },
+  { kind = "bridge", kmFrom = 26.331, kmTo = 26.361, length = 30 },
+  { kind = "bridge", kmFrom = 27.641, kmTo = 27.676, length = 32 },
+  { kind = "bridge", kmFrom = 27.817, kmTo = 27.838, length = 21 },
+  { kind = "bridge", kmFrom = 28.215, kmTo = 28.248, length = 34 },
+  { kind = "bridge", kmFrom = 29.452, kmTo = 29.48, length = 30 },
+  { kind = "tunnel", kmFrom = 32.19, kmTo = 32.429, length = 229 },
+  { kind = "bridge", kmFrom = 32.503, kmTo = 32.61, length = 103 },
+  { kind = "bridge", kmFrom = 32.856, kmTo = 32.869, length = 12 },
+  { kind = "bridge", kmFrom = 33.367, kmTo = 33.387, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{cevHeipsAfJgO", v = 50 },
+  { line = "sxdvHmypsAfTya@lDcB`Ex@" },
+  { line = "{wcvHq}qsAlBv@rCErFsD`Dc@rD|AzBjG", v = 60 },
+  { line = "sybvHmwqsAfB|IjIrRbHzFdQf@vGeAlD}BrIwLnEqA", v = 70 },
+  { line = "kq`vHefqsArEn@hMrHdLn@~JhGxGlGhFz@xDyA~AuBfDiN~ByF`EuCfJaD|A}ApDgI" },
+  { line = "gg}uHo{qsA`BeG", v = 20 },
+  { line = "ed}uHucrsA`CaKzCoElEkA~F~@" },
+  { line = "yl|uHsvrsApE`AhEU", tunnel = true },
+  { line = "}_|uHgursA|Fm@pCd@~CvClCjG" },
+  { line = "_j{uHkhrsAlGjP", tunnel = true },
+  { line = "qa{uH_wqsAnPl[xBpOnFxQ`@dVlBxJvAbCbMfMpG`KnMdLvA|CnCbMxAfC|BxAnFfAhFzE" },
+  { line = "o{wuHielsAlFtGbAjCvDb[`Hbb@`DvEjD~@", v = 60 },
+  { line = "uxvuHgpisAjEoAhJqLfCa@rBb@zB|BzAlFN|CYjKZxD" },
+  { line = "ywuuHw}hsApBdFjDpBjP}B", v = 60 },
+  { line = "o}tuH}vhsAdIsA`Ep@lB`BpK|ObClCvEhC", v = 70 },
+  { line = "krsuHg{gsAlEB" },
+  { line = "}ksuHc{gsAj[aPz^yG", v = 50 },
+  { line = "uoquH_uhsAxh@mIvWbAnOgG`E\\|L|DxEfGdLvVpDfFbCbAbV|B|D|BpD|DxAlEd@jERrJU|Nf@`HbBpF`IrJ" },
+  { line = "}ukuH{besAvCjIt@`GAjC", tunnel = true },
+  { line = "qokuHaldsAa@lKRjFxAdGtCxE" },
+  { line = "ohkuHgicsArE`H", v = 40 },
+  { line = "{akuHe`csA`FdCxNmAnDpAfA~A~@hDBxUv@|GxBpHlEhEvKb@lF|A" },
+  { line = "}`iuH{_asAxZrJ", tunnel = true },
+  { line = "cehuHgt`sAfRtEfE}ApFiJvCsBjDHrFrE" },
+  { line = "irfuHox`sA`D`B`Dk@", v = 50 },
+  { line = "ehfuHyv`sAxIeIbM{CnDqBjJqQ~QeM" },
+  { line = "kkduHejbsAlGmJlFkWjCuG", v = 50 },
+  { line = "cwcuHuvcsApOeNnI{WnGiO", v = 70 },
+  { line = "qsbuHaoesAbK_VrB_IZqG{AqM^oDhAaC|CcAxPlE~BFlBk@j_@m[tF_ObKiRrBwBdCu@fDj@fIbI~PhCpN~MpB~DtBtHlBh`@hCpQ" },
+  { line = "gh}tHkpfsAdJtg@dDhI", v = 60 },
+  { line = "{w|tHk}dsAvDdDrDdBzZd@pD[", v = 70 },
+  { line = "ak{tHutdsAlIkA|G~@hErE~GbKvGlD`F_@dDiD", v = 50 },
+  { line = "ksytHecdsA~CuFvDQ", tunnel = true, v = 50 },
+  { line = "shytHmkdsAxBnCn@hF", v = 50 },
+  { line = "icytHs_dsAMpFkD|PwAdCcCp@cS{FgPuS}CmAkCLkEfEkE|OsCvEoJlF}J`CiI|IuKxEwBhEk@`E@`Fp@`EjClEvJ~EdDhH" },
+  { line = "ul|tHos`sAlDxH", v = 20 },
+  { line = "gg|tHui`sAjMhJ" },
+  { line = "{x{tHk~_sAvPnK", v = 60 },
+  { line = "cg{tH{q_sAjDdFzAvFrBhZv@~DzR|]" },
+]
+posts = [[0, 50.98086, 13.85893], [1, 50.97341, 13.8571], [2, 50.96548, 13.8529], [3, 50.9574, 13.854], [4, 50.94977, 13.8551], [5, 50.94369, 13.86326], [6, 50.9355, 13.86129], [7, 50.92964, 13.8487], [8, 50.92536, 13.83869], [9, 50.91875, 13.83107], [10, 50.91422, 13.8188], [11, 50.90706, 13.81698], [12, 50.9007, 13.81285], [13, 50.89279, 13.80927], [14, 50.88409, 13.81245], [15, 50.87551, 13.81349], [16, 50.8672, 13.81165], [17, 50.86069, 13.80656], [18, 50.85613, 13.79463], [19, 50.8516, 13.78268], [20, 50.84643, 13.7752], [21, 50.83714, 13.77097], [22, 50.82975, 13.77217], [23, 50.82184, 13.77616], [24, 50.81573, 13.78445], [25, 50.80936, 13.79533], [26, 50.8057, 13.80669], [27, 50.79727, 13.80948], [28, 50.79048, 13.81618], [29, 50.78294, 13.80969], [30, 50.78021, 13.79593], [31, 50.77259, 13.79149], [32, 50.7644, 13.7878], [33, 50.76235, 13.78326], [34, 50.77019, 13.78796], [35, 50.77733, 13.78046], [36, 50.77799, 13.77236], [37, 50.77061, 13.76485], [38, 50.76602, 13.75316]]
+
+[[connections]]
+km = -0.21
+station = "Heidenau"
+lines = [
+  { id = "6200", ref = "6200", name = "6200 Kamenz (Sachs) - Pirna", km = 60.334 },
+  { id = "6216", ref = "6216", name = "6216 Bautzen - Bad Schandau", km = 31.916 },
+  { id = "6240", ref = "6240", name = "6240 Bad Schandau Grenze - Dresden Hbf", km = 51.36 },
+]

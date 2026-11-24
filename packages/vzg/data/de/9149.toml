@@ -1,0 +1,26 @@
+id = "9149"
+ref = "9149"
+name = "Bremen-Neustadt–Bremen-Grolland"
+operator = "Bremische Hafeneisenbahn"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.22
+length = 0.22
+speeds = [[0, 0.22, "", ""]]
+curves = []
+points = [
+  { km = 0.13, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 0.133, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 0.201, kind = "signal", label = "W100", signal = "minor", dir = 1 },
+  { km = 0.204, kind = "signal", label = "P100-105", signal = "main,minor,speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yb{bIyrlt@k@pJwAhF" },
+]
+posts = [[0, 53.06429, 8.75325]]

@@ -1,0 +1,38 @@
+id = "3404"
+ref = "3404"
+name = "3404 Ludwigshafen W 389 - W 156"
+operator = "DB InfraGO AG"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.077
+length = 1.077
+speeds = [[0, 1.077, "", ""]]
+curves = [[0.35, 0.65, 630], [0.75, 0.825, 2240], [0.875, 0.975, 370]]
+points = [
+  { km = 0.988, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.075, kind = "signal", signal = "wrong_road", dir = 1 },
+  { km = 67.285, kind = "station", label = "Ludwigshafen (Rhein) Hauptbahnhof", uic = "8000236", pos = [49.47756, 8.43415], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.654, kmTo = 0.709, length = 56 },
+  { kind = "bridge", kmFrom = 0.888, kmTo = 0.918, length = 30 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wx}lHghmr@wS}LgEwAoVIgF`C" },
+]
+posts = [[0, 49.47356, 8.429], [1, 49.48219, 8.43154]]
+
+[[connections]]
+km = 67.285
+station = "Ludwigshafen Hauptbahnhof"
+lines = [
+  { id = "3280", ref = "3280", name = "3280 Homburg - Ludwigshafen", km = 105.04 },
+  { id = "3401", ref = "3401", name = "3401 Abzw Böhl-Iggelheim - Mannheim", km = 105.093 },
+  { id = "3522", ref = "3522", name = "3522 Mainz - Mannheim", km = 67.285 },
+]

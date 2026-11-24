@@ -1,0 +1,153 @@
+id = "6068"
+ref = "6068"
+name = "6068 Golm - Priort"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131693473"
+from = "Potsdam Wissenschaftspark Golm"
+to = "Priort"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 62.732
+kmTo = 86.327
+length = 27.083
+speeds = [[62.732, 65.997, 120, 120], [65.997, 67.269, 70, 70], [67.269, 77.62, 120, 120], [77.62, 77.749, 80, 60], [77.749, 78.403, 80, 80], [78.403, 78.45, 40, 40], [78.45, 79.35, 80, 80], [79.35, 79.403, 60, 60], [79.403, 83.519, 80, 80], [83.519, 83.622, "", ""], [83.622, 86.327, 120, 120]]
+curves = [[64.794, 64.867, 2640], [66.949, 67.411, 2290], [68.149, 68.362, 2190], [69.279, 69.857, 2410], [73.748, 73.925, 2240], [77.611, 77.637, 2510], [77.765, 78.098, 600], [78.415, 78.475, 260], [78.842, 78.859, 2430], [78.893, 78.979, 2050], [79.022, 79.133, 2030], [79.227, 79.261, 1880], [79.338, 79.398, 660], [79.643, 79.793, 1880], [79.868, 80.593, 500], [83.493, 83.668, 280]]
+points = [
+  { km = 63.062, kind = "signal", label = "99 N2", signal = "main,minor,route,speed_limit,traversable", dir = -1 },
+  { km = 63.138, kind = "station", label = "Golm", uic = "8003512", pos = [52.4098, 12.97188] },
+  { km = 63.597, kind = "signal", label = "99 P2", signal = "main,traversable", dir = 1 },
+  { km = 63.815, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 64.072, kind = "signal", label = "99 AA", signal = "combined,route_distant,speed_limit,traversable", dir = -1 },
+  { km = 65.001, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 65.04, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 65.997, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 66.099, kind = "signal", signal = "distant", dir = 1 },
+  { km = 67.071, kind = "signal", label = "98 04", signal = "main,traversable", dir = 1 },
+  { km = 67.344, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 67.367, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 67.373, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 68.263, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 68.278, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 68.547, kind = "stop", label = "Marquardt", pos = [52.45865, 12.97179], uic = "8003518" },
+  { km = 68.588, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 68.595, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 68.84, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 69.364, kind = "signal", label = "98 F", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 69.405, kind = "signal", signal = "crossing_distant" },
+  { km = 69.598, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 69.603, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 69.742, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 69.768, kind = "signal", signal = "minor", dir = 1 },
+  { km = 69.858, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 70.017, kind = "signal", label = "98 N2", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 70.322, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 70.87, kind = "signal", label = "98 P2", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 71.266, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 71.507, kind = "signal", label = "98 AA", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 71.96, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 71.979, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 72.354, kind = "signal", signal = "distant", dir = 1 },
+  { km = 72.534, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 73.146, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 73.346, kind = "signal", label = "97 02", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 73.383, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 73.854, kind = "signal", signal = "crossing_distant" },
+  { km = 73.88, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 73.912, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 74.362, kind = "signal", label = "97 F", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 74.525, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 74.611, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 74.633, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 74.669, kind = "signal", signal = "minor", dir = 1 },
+  { km = 74.904, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 74.946, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 74.989, kind = "signal", label = "97 N2", signal = "main,minor,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 75.045, kind = "station", label = "Priort", uic = "8003515", pos = [52.51648, 12.97144] },
+  { km = 75.156, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 76.126, kind = "signal", label = "97 ZV2", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 76.128, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 76.942, kind = "signal", label = "97 ZR12", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 77.331, kind = "signal", label = "96 P12", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 77.649, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 77.749, kind = "signal", label = "96 C", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 77.813, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 77.989, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 78.08, kind = "signal", signal = "distant", dir = 1 },
+  { km = 78.326, kind = "signal", signal = "combined,traversable", dir = 1 },
+  { km = 78.403, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 78.454, kind = "halt", label = "Elstal", uic = "8003523", pos = [52.54752, 13.00054] },
+  { km = 78.455, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 78.588, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 78.593, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 78.668, kind = "signal", signal = "combined,traversable", dir = -1 },
+  { km = 78.847, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 79.011, kind = "signal", signal = "distant", dir = -1 },
+  { km = 79.021, kind = "signal", signal = "train_protection", dir = 1 },
+  { km = 79.255, kind = "signal", label = "4D", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 79.35, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 79.403, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 79.68, kind = "signal", label = "4E", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 79.7, kind = "signal", signal = "distant", dir = 1 },
+  { km = 80.469, kind = "signal", signal = "train_protection", dir = -1 },
+  { km = 80.678, kind = "signal", signal = "distant", dir = -1 },
+  { km = 80.877, kind = "signal", label = "96 B", signal = "combined,traversable", dir = 1 },
+  { km = 81.127, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 81.233, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 81.252, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 81.466, kind = "signal", label = "96 P15", signal = "main,traversable", dir = -1 },
+  { km = 81.852, kind = "signal", label = "97 ZR15", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 81.954, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 82.664, kind = "signal", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 82.665, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 83.031, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 83.315, kind = "signal", label = "97 ZS5", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 83.445, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 83.913, kind = "signal", label = "97 ZS1", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 84.212, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 84.581, kind = "signal", label = "97 ZV1", signal = "combined,speed_limit,traversable", dir = 1 },
+  { km = 85.228, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 85.393, kind = "signal", label = "97 ZR11", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 85.777, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 85.778, kind = "signal", label = "96 P11", signal = "main,traversable,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 63.209, kmTo = 63.237, length = 28 },
+  { kind = "bridge", kmFrom = 67.753, kmTo = 67.846, length = 86 },
+  { kind = "bridge", kmFrom = 67.977, kmTo = 68.005, length = 26 },
+  { kind = "bridge", kmFrom = 79.03, kmTo = 79.036, length = 17 },
+  { kind = "bridge", kmFrom = 79.165, kmTo = 79.17, length = 17 },
+  { kind = "bridge", kmFrom = 79.923, kmTo = 79.936, length = 14 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mqz~HyjdnA{u@}NqPkBcq@{Bs|@zA", v = 120 },
+  { line = "si`_Ic_enAeS@wb@iDmPA", v = 70 },
+  { line = "_sb_ImdenAew@zKqy@xYcNxBqKb@e{EyFe`CsZmtAuF", v = 120 },
+  { line = "gtt_I}benAkXmBeG_BiGiGkEiLsBwP_@_MpDmxA", v = 80 },
+  { line = "qcv_IexinAPyK", v = 40 },
+  { line = "_cv_I_ejnAcHn_Cu@zi@sGhdA", v = 80 },
+  { line = "mvv_IitbnAOxETuE", v = 60 },
+  { line = "gvv_IetbnAnBc^jDiXhBoFzCcFhDwCfDqAx`@DlsAdFdt@~I", v = 80 },
+  { line = "eop_IepdnAxDX" },
+  { line = "kip_IkodnAiv@wJc_BmG", v = 120 },
+]
+posts = [[63, 52.40852, 12.97154], [64, 52.41771, 12.97394], [65, 52.42701, 12.97452], [66, 52.43564, 12.9741], [67, 52.44487, 12.97497], [68, 52.45366, 12.97358], [69, 52.46252, 12.97003], [70, 52.47135, 12.96783], [71, 52.48016, 12.96812], [72, 52.48896, 12.96843], [73, 52.4981, 12.96877], [74, 52.50707, 12.96935], [75, 52.51608, 12.97133], [76, 52.52493, 12.97326], [77, 52.53385, 12.97421], [78, 52.54791, 12.98129], [79, 52.54876, 12.97702], [80, 52.54902, 12.97068], [81, 52.54099, 12.97464], [82, 52.53201, 12.97392], [83, 52.52305, 12.97272], [84, 52.52087, 12.97232], [85, 52.52982, 12.9738], [86, 52.5388, 12.97456]]
+
+[[connections]]
+km = 63.138
+station = "Golm"
+lines = [
+  { id = "6115", ref = "6115", name = "Beelitz Stadt - Golm", km = 63.123 },
+]
+
+[[connections]]
+km = 78.454
+station = "Elstal"
+lines = [
+  { id = "6107", ref = "6107", name = "6107 Berlin Hbf (tief) - Lehrte", km = 26.26 },
+  { id = "6185", ref = "6185", name = "6185 Spandau - Oebisfelde", km = 126.275 },
+]

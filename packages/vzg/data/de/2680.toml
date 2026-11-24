@@ -1,0 +1,35 @@
+id = "2680"
+ref = "2680"
+name = "Wiehltalbahn"
+operator = "RSE Rhein-Sieg-Eisenbahn GmbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 14.7
+length = 14.761
+speeds = [[0, 14.7, "", ""]]
+curves = [[0.148, 0.804, 280], [0.88, 1.209, 790], [1.26, 1.411, 840], [1.713, 2.036, 380], [2.185, 2.484, 350], [2.608, 3.354, 280], [3.403, 3.702, 310], [3.851, 4.646, 430], [4.87, 5.218, 390], [5.541, 6.212, 420], [6.262, 6.312, 2060], [6.361, 6.859, 310], [6.908, 7.455, 250], [7.58, 7.903, 640], [7.952, 8.375, 520], [9.021, 9.22, 470], [9.27, 9.916, 750], [9.991, 10.165, 770], [10.239, 10.413, 600], [10.463, 10.886, 530], [11.06, 11.308, 510], [11.358, 11.532, 500], [11.582, 11.681, 1210], [11.805, 11.855, 2510], [11.905, 12.029, 860], [12.079, 12.153, 2380], [12.203, 12.352, 540], [12.402, 12.576, 760], [12.626, 12.775, 650], [12.825, 13.048, 970], [13.148, 13.521, 350], [13.57, 13.918, 340], [13.968, 14.142, 600], [14.192, 14.44, 570], [14.515, 14.59, 960]]
+points = [
+  { km = 2.121, kind = "station", label = "Weiershagen", pos = [50.97227, 7.48927] },
+  { km = 3.821, kind = "halt", label = "Bielstein", pos = [50.96363, 7.50285] },
+  { km = 6.254, kind = "halt", label = "Alperbrück", pos = [50.96043, 7.53285] },
+  { km = 8.622, kind = "station", label = "Wiehl", pos = [50.94695, 7.54845] },
+  { km = 10.838, kind = "station", label = "Oberwiehl", pos = [50.94685, 7.58049] },
+  { km = 12.681, kind = "halt", label = "Remperg", pos = [50.93726, 7.60164] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 3.645, kmTo = 3.678, length = 33 },
+  { kind = "bridge", kmFrom = 4.094, kmTo = 4.118, length = 24 },
+  { kind = "bridge", kmFrom = 7.263, kmTo = 7.305, length = 42 },
+  { kind = "bridge", kmFrom = 11.124, kmTo = 11.137, length = 13 },
+  { kind = "bridge", kmFrom = 13.545, kmTo = 13.586, length = 42 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "yjevHe}tl@dCpP~AnEzCnBvEObDyAjBkCrHeYpBeEpI{HnTcKbDa@xBd@hO|MdEfAnPoFnBaBjBuD~@cGCyNl@yFbBmEvF_IdAoEVuEOyXxBqQ|BmFzFkEhC_FbFeb@HsFo@sGuOwh@SwMn@oK~CuJxLePbEsB`DApC`ArH~IbC|ArCR|D}A`DcGzG}\\vCmF~FaHfE{K~@_LvAoaAl@wF~B_KjBiTYwNgEu[i@_UsCuPCgHr@aJ|H}\\~KmOlE_MlKoT|GiThCyPpEgPvCsS~FuSr@qE@yJcD{Ud@uK~D_OzAcP`A{E`HsNxDaE" },
+]
+posts = [[0, 50.98685, 7.48515], [1, 50.9811, 7.48565], [2, 50.97321, 7.49017], [3, 50.96596, 7.49251], [4, 50.96349, 7.50538], [5, 50.95927, 7.51726], [6, 50.96198, 7.53023], [7, 50.9546, 7.53283], [8, 50.94848, 7.5416], [9, 50.94664, 7.5552], [10, 50.94604, 7.56889], [11, 50.94617, 7.58254], [12, 50.94023, 7.59315], [13, 50.93619, 7.60588], [14, 50.93476, 7.61903]]

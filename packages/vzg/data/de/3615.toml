@@ -1,0 +1,100 @@
+id = "3615"
+ref = "3615"
+name = "3615 Frankfurt-Rödelheim - Kronberg (Taunus)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Frankfurt-Rödelheim"
+to = "Kronberg (Taunus)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.245
+kmTo = 9.213
+length = 9.441
+speeds = [[-0.245, -0.174, 60, 60], [-0.174, 0.365, 120, 120], [0.365, 0.837, 70, 70], [0.837, 1.654, 120, 120], [1.654, 2.417, "", ""], [2.417, 3.138, 120, 120], [3.138, 3.182, "", ""], [3.182, 3.714, 120, 120], [3.714, 5.74, "", ""], [5.74, 6.667, 70, 70], [6.667, 8.789, 120, 120], [8.789, 9.048, "", ""], [9.048, 9.178, 80, 80], [9.178, 9.213, 30, 30]]
+curves = [[0.305, 0.937, 490], [2.13, 2.801, 1160], [4.789, 5.038, 1130], [6.425, 6.576, 1210], [7.433, 7.862, 1430], [8.895, 9.096, 1370]]
+points = [
+  { km = -0.245, kind = "signal", label = "P 103", signal = "distant,main,minor,route,traversable", dir = 1 },
+  { km = -0.082, kind = "signal", label = "P 102", signal = "distant,main,minor,route,speed_limit_distant,traversable", dir = -1 },
+  { km = -0.064, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.001, kind = "station", label = "Frankfurt-Rödelheim", pos = [50.12479, 8.60701], uic = "8002052" },
+  { km = 0.015, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.082, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.151, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.157, kind = "signal", label = "N 102", signal = "main,minor,route,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 0.408, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.544, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.837, kind = "signal", label = "N 111", signal = "main,minor,traversable", dir = 1 },
+  { km = 0.889, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.926, kind = "signal", label = "190", signal = "minor", dir = -1 },
+  { km = 1.265, kind = "signal", label = "f 192", signal = "minor", dir = -1 },
+  { km = 2.304, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.432, kind = "signal", signal = "stop", dir = -1 },
+  { km = 2.542, kind = "stop", label = "Eschborn Süd", pos = [50.13363, 8.57831], uic = "8001871" },
+  { km = 2.583, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.64, kind = "signal", signal = "stop", dir = 1 },
+  { km = 2.675, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.416, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.636, kind = "signal", signal = "distant,main,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 3.833, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.911, kind = "signal", signal = "minor", dir = 1 },
+  { km = 4.117, kind = "signal", signal = "main,minor,traversable", dir = -1 },
+  { km = 4.148, kind = "signal", signal = "stop", dir = -1 },
+  { km = 4.225, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.259, kind = "station", label = "Eschborn", pos = [50.14373, 8.56074], uic = "8001870" },
+  { km = 4.288, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.356, kind = "signal", signal = "stop", dir = 1 },
+  { km = 4.386, kind = "signal", label = "933.2", signal = "distant,main,minor,speed_limit_distant,traversable", dir = 1 },
+  { km = 4.606, kind = "signal", signal = "minor", dir = -1 },
+  { km = 4.761, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.766, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 4.83, kind = "signal", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 5.054, kind = "signal", label = "935.10", signal = "distant,main,minor,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 5.527, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 5.556, kind = "signal", signal = "distant,main,minor,traversable", dir = -1 },
+  { km = 5.59, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.658, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.709, kind = "signal", signal = "stop", dir = -1 },
+  { km = 5.74, kind = "station", label = "Niederhöchstadt", pos = [50.15464, 8.54679], uic = "8004380" },
+  { km = 5.797, kind = "signal", label = "937.21", signal = "main,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 6.22, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 8.239, kind = "stop", label = "Kronberg Süd", pos = [50.17353, 8.52864], uic = "8087063" },
+  { km = 8.789, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.178, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.213, kind = "station", label = "Kronberg", uic = "8003447", pos = [50.17982, 8.51706] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.273, kmTo = 0.29, length = 17 },
+  { kind = "bridge", kmFrom = 1.654, kmTo = 1.708, length = 54 },
+  { kind = "bridge", kmFrom = 2.38, kmTo = 2.417, length = 37 },
+  { kind = "bridge", kmFrom = 3.138, kmTo = 3.182, length = 44 },
+  { kind = "bridge", kmFrom = 3.714, kmTo = 3.744, length = 30 },
+  { kind = "bridge", kmFrom = 5.631, kmTo = 5.657, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "_y|pH_bps@zBu@", v = 60 },
+  { line = "cu|pHucps@u\\bH", v = 120 },
+  { line = "yr}pHqzos@eEpBsCjDkBhFoApI", v = 70 },
+  { line = "oc~pHw_os@sEdeA", v = 120 },
+  { line = "cj~pHqyls@}Cno@wBbP" },
+  { line = "yr~pH}wjs@eGzS}Ox[", v = 120 },
+  { line = "}k_qHgfis@u@zA" },
+  { line = "sm_qHkcis@iSpa@", v = 120 },
+  { line = "}a`qHy`hs@om@jlAgf@lg@" },
+  { line = "uwbqH_kds@cb@pb@eHrE", v = 70 },
+  { line = "_ddqHy`cs@oh@t[_IxGmEfG{d@by@", v = 120 },
+  { line = "ycgqH}x_s@_IfO" },
+  { line = "ymgqHuh_s@cCfH", v = 80 },
+  { line = "}qgqHm__s@_@tA", v = 30 },
+]
+posts = [[0, 50.12475, 8.607], [1, 50.13082, 8.59974], [2, 50.13217, 8.58567], [3, 50.13626, 8.57347], [4, 50.14239, 8.56309], [5, 50.14868, 8.55297], [6, 50.15634, 8.54519], [7, 50.16415, 8.53855], [8, 50.17175, 8.53154], [9, 50.17809, 8.52173]]
+
+[[connections]]
+km = 0.001
+station = "Frankfurt-Rödelheim"
+lines = [
+  { id = "3611", ref = "3611", name = "3611 Frankfurt (Main) Hbf (tief) - Friedberg (Hess)", km = 6.6 },
+]

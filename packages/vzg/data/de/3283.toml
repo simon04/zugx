@@ -1,0 +1,40 @@
+id = "3283"
+ref = "3283"
+name = "3283 Homburg – Zweibrücken"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q802449"
+from = "Homburg"
+to = "Zweibrücken"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.215
+kmTo = 1.373
+length = 1.587
+speeds = [[-0.215, 0.505, 60, 60], [0.505, 1.373, "", ""]]
+curves = [[-0.09, 0.01, 1900]]
+points = [
+  { km = 0.033, kind = "station", label = "Homburg (Saar) Hauptbahnhof", pos = [49.32781, 7.33653], uic = "8000176" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.328, kmTo = 1.366, length = 38, name = "Bahnstrecke Homburg–Zweibrücken" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "italHalxk@n]tg@", v = 60 },
+  { line = "yu`lHkcwk@le@~l@" },
+]
+posts = [[0, 49.32799, 7.33717], [1, 49.32113, 7.32829]]
+
+[[connections]]
+km = 0.033
+station = "Homburg Hauptbahnhof"
+lines = [
+  { id = "3250", ref = "3250", name = "3250 Saarbrücken - Homburg", km = 31.098 },
+  { id = "3280", ref = "3280", name = "3280 Homburg - Ludwigshafen", km = 8.325 },
+  { id = "3282", ref = "3282", name = "3282 Homburg (Saar) Hbf - Neunkirchen (Saar) Hbf", km = 0.036 },
+  { id = "3450", ref = "3450", name = "3450 Rheinsheim - Rohrbach (Saar)", km = 31.098 },
+]

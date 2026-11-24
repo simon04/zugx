@@ -1,0 +1,103 @@
+id = "6023"
+ref = "6023"
+name = "6023 Berlin-Charlottenburg - Berlin-Halensee"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q131723541"
+from = "Berlin-Charlottenburg"
+to = "Berlin-Halensee S-Bahn"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 10.697
+kmTo = 12.784
+length = 2.069
+speeds = [[10.697, 10.897, "", ""], [10.897, 11.153, "", 80], [11.153, 11.193, 60, 80], [11.193, 11.539, 60, 60], [11.539, 12.725, 50, 50], [12.725, 12.784, 40, 40]]
+curves = [[10.797, 11.047, 1220], [11.322, 11.397, 2160], [11.468, 11.516, 1780], [11.61, 11.731, 1530], [11.883, 12.664, 340]]
+points = [
+  { km = 10.734, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 10.786, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 10.883, kind = "station", label = "Wilmersdorfer Straße", pos = [52.50667, 13.30664] },
+  { km = 10.969, kind = "signal", label = "420", signal = "combined,speed_limit_distant,traversable", dir = -1 },
+  { km = 10.997, kind = "signal", signal = "stop", dir = -1 },
+  { km = 11.013, kind = "station", label = "Charlottenburg", uic = "8010403", pos = [52.50505, 13.30452] },
+  { km = 11.015, kind = "signal", signal = "stop", dir = -1 },
+  { km = 11.111, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.131, kind = "signal", signal = "stop", dir = 1 },
+  { km = 11.158, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.158, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 11.166, kind = "signal", label = "421", signal = "combined,departure,minor,route,speed_limit,speed_limit_distant,traversable", dir = 1 },
+  { km = 11.191, kind = "signal", label = "424", signal = "combined,minor,traversable", dir = -1 },
+  { km = 11.193, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 11.205, kind = "station", label = "Berlin-Charlottenburg", uic = "8010403", pos = [52.50432, 13.30264] },
+  { km = 11.306, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 11.319, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 11.478, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 11.516, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 11.542, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 11.679, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 11.792, kind = "signal", label = "450", signal = "combined,speed_limit,speed_limit_distant,traversable", dir = -1 },
+  { km = 11.963, kind = "signal", label = "451", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 12.344, kind = "station", label = "Westkreuz (Stadtbahn)", uic = "8024956", pos = [52.50103, 13.28475] },
+  { km = 12.369, kind = "signal", label = "452", signal = "combined,traversable", dir = -1 },
+  { km = 12.405, kind = "signal", label = "866", signal = "combined,speed_limit_distant,traversable", dir = 1 },
+  { km = 12.725, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 12.775, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 12.776, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 12.784, kind = "station", label = "Halensee", uic = "8007806", pos = [52.49602, 13.29056] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 10.868, kmTo = 10.897, length = 29 },
+  { kind = "bridge", kmFrom = 11.112, kmTo = 11.153, length = 41 },
+  { kind = "bridge", kmFrom = 11.348, kmTo = 11.373, length = 25 },
+  { kind = "bridge", kmFrom = 11.665, kmTo = 11.693, length = 30 },
+  { kind = "tunnel", kmFrom = 12.278, kmTo = 12.335, length = 54 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "w~m_IgqfpAl@jQ" },
+  { line = "i}m_I{~epA`D|X", v = 80 },
+  { line = "gxm_I}depAjEz]", v = 60 },
+  { line = "{qm_IafdpAbFfh@zAnF|CpE", v = 50 },
+  { line = "}bm_IwnbpAXV", tunnel = true, v = 50 },
+  { line = "cbm_I_nbpA|@~@", v = 50 },
+  { line = "e`m_I_lbpArAlA", tunnel = true, v = 50 },
+  { line = "q}l_IqibpArCfAbDCbDaBnCqD", v = 50 },
+  { line = "ejl_IapbpArAiB", v = 40 },
+]
+posts = [[11, 52.50509, 13.3054], [12, 52.50236, 13.29117]]
+
+[[connections]]
+km = 10.883
+station = "Wilmersdorfer Straße"
+lines = [
+  { id = "6024", ref = "6024", name = "6024 Berlin Ostbahnhof - Potsdam Hbf", km = 10.882 },
+  { id = "6109", ref = "6109", name = "6109 Berlin Ostbahnhopf - Berlin-Spandau", km = -0.515 },
+]
+
+[[connections]]
+km = 11.013
+station = "Charlottenburg"
+lines = [
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = -0.248 },
+]
+
+[[connections]]
+km = 12.344
+station = "Westkreuz"
+lines = [
+  { id = "6024", ref = "6024", name = "6024 Berlin Ostbahnhof - Potsdam Hbf", km = 12.475 },
+  { id = "6025", ref = "6025", name = "6025 Berlin Westkreuz - Berlin-Spandau", km = 12.481 },
+  { id = "6109", ref = "6109", name = "6109 Berlin Ostbahnhopf - Berlin-Spandau", km = 1.086 },
+  { id = "6118", ref = "6118", name = "6118 Berlin-Blankenheimer Eisenbahn", km = 1.086 },
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 30.367 },
+]
+
+[[connections]]
+km = 12.784
+station = "Halensee"
+lines = [
+  { id = "6170", ref = "6170", name = "6170 Berlin-Moabit - Berlin-Moabit, Ring", km = 29.663 },
+]

@@ -1,0 +1,78 @@
+id = "9299"
+ref = "9299"
+operator = "Mindener Kreisbahnen GmbH"
+gauge = "1435"
+from = "Minden"
+to = "Kleinenbremen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 10.879
+length = 10.879
+speeds = [[0, 10.879, "", ""]]
+curves = [[0.225, 0.425, 1040], [0.95, 1.1, 790], [4.5, 4.575, 1720], [4.65, 4.75, 1760], [5.05, 5.175, 1270], [5.525, 5.65, 1170], [5.7, 5.825, 1210], [6.125, 6.3, 350], [6.35, 6.4, 1150], [6.45, 6.675, 240], [6.75, 6.95, 560], [7.05, 7.1, 2790], [7.4, 7.475, 2270], [8.125, 8.225, 2280], [8.35, 8.55, 710], [8.95, 9.2, 1170], [9.275, 9.45, 880], [9.65, 10.05, 250], [10.375, 10.625, 780]]
+points = [
+  { km = 0.121, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.314, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.475, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.476, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.613, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.651, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.797, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.798, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.874, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 0.988, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.048, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.153, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.286, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.399, kind = "signal", signal = "main", dir = 1 },
+  { km = 1.426, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 1.47, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.496, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.633, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.305, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.397, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 2.427, kind = "signal", signal = "main", dir = -1 },
+  { km = 2.504, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.77, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.951, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 2.995, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.18, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.181, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.216, kind = "signal", signal = "main", dir = 1 },
+  { km = 3.217, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.356, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.395, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.462, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.557, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.616, kind = "signal", signal = "main", dir = -1 },
+  { km = 3.659, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 3.913, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.113, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.159, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.378, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.521, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.566, kind = "signal", signal = "main", dir = 1 },
+  { km = 4.578, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 4.653, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 4.655, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.806, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 4.877, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.947, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.132, kind = "signal", signal = "main", dir = -1 },
+  { km = 9.775, kind = "signal", signal = "main", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 7.424, kmTo = 7.436, length = 12 },
+  { kind = "bridge", kmFrom = 9.565, kmTo = 9.576, length = 11 },
+  { kind = "bridge", kmFrom = 9.674, kmTo = 9.719, length = 45 },
+  { kind = "bridge", kmFrom = 9.815, kmTo = 9.83, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "osy}H}ucv@oInZiMfz@kkB~~F{Spr@uJ|f@yAfNkIfc@m@hAmK~LmC^yKiHk`@uDoa@uIwSkGcb@fCoNgBaUnAaD`DwA~EsAbj@f@zQfCzU" },
+]
+posts = [[0, 52.23752, 9.03535], [1, 52.24129, 9.02209], [2, 52.24636, 9.00996], [3, 52.25147, 8.99789], [4, 52.25659, 8.9858], [5, 52.26161, 8.97363], [6, 52.26538, 8.96033], [7, 52.27257, 8.95659], [8, 52.28145, 8.95881], [9, 52.29032, 8.95968], [10, 52.29829, 8.95694]]

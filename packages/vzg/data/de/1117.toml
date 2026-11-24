@@ -1,0 +1,40 @@
+id = "1117"
+ref = "1117"
+operator = "Lübeck Port Authority (LPA)"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.108
+kmTo = 2.296
+length = 2.195
+speeds = [[0.108, 0.685, 100, 100], [0.685, 2.296, "", ""]]
+curves = [[0.228, 0.503, 1310], [0.652, 0.826, 1060], [0.875, 1.099, 1160], [1.347, 1.896, 700], [1.946, 2.021, 1690], [2.121, 2.196, 1350]]
+points = [
+  { km = 0.704, kind = "signal", label = "95 04", signal = "main", dir = -1 },
+  { km = 1.4, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.425, kind = "halt", label = "Lübeck-Kücknitz", uic = "8003776", pos = [53.92492, 10.81921] },
+  { km = 2.089, kind = "signal", label = "A", signal = "main,minor,speed_limit", dir = 1 },
+  { km = 2.271, kind = "signal", label = "P", signal = "main,minor", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.515, kmTo = 0.666, length = 152 },
+  { kind = "tunnel", kmFrom = 1.58, kmTo = 1.711, length = 131 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "gqchIgpbaAd@|LBt]`@zI" },
+  { line = "{nchIwx`aArArJ", tunnel = true },
+  { line = "glchIcm`aAjDfLvKjXfOvV" },
+  { line = "{ibhIwn~`AxJ`XjEjS", v = 100 },
+]
+posts = [[2, 53.92651, 10.82707], [1, 53.92264, 10.81394]]
+
+[[connections]]
+km = 1.425
+station = "Lübeck-Kücknitz"
+lines = [
+  { id = "1113", ref = "1113", name = "1113 Abzw Schwartau Waldhalle - Lübeck-Travemünde Strand", km = 13.9 },
+]

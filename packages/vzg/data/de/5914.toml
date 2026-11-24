@@ -1,0 +1,121 @@
+id = "5914"
+ref = "5914"
+name = "5914 Neustadt (Aisch) Bahnhof - Bad Windsheim"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q109544622"
+from = "Neustadt (Aisch) Bahnhof"
+to = "Bad Windsheim"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.264
+kmTo = 15.315
+length = 15.56
+speeds = [[-0.264, 0.732, 60, 60], [0.732, 0.751, "", ""], [0.751, 5.959, 60, 60], [5.959, 6.022, "", ""], [6.022, 9, 60, 60], [9, 9.633, "", ""], [9.633, 10.26, 60, 60], [10.26, 15.315, "", ""]]
+curves = [[-0.114, 0.011, 1600], [0.186, 0.286, 1340], [0.336, 1.011, 950], [1.629, 1.918, 960], [2.235, 2.645, 1230], [2.92, 3.021, 1480], [3.148, 3.198, 2280], [5.088, 5.34, 1160], [6.394, 6.768, 1120], [9.529, 10.11, 840], [11.574, 12.064, 1160]]
+points = [
+  { km = -0.196, kind = "signal", signal = "minor", dir = 1 },
+  { km = -0.098, kind = "signal", label = "16P6", signal = "main,minor,speed_limit,traversable", dir = -1 },
+  { km = -0.086, kind = "signal", signal = "main_repeated", dir = -1 },
+  { km = 0.023, kind = "station", label = "Neustadt (Aisch) Bahnhof", uic = "8004323", pos = [49.57673, 10.58816] },
+  { km = 0.087, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.248, kind = "signal", label = "16N6", signal = "main,minor,route,speed_limit,traversable", dir = 1 },
+  { km = 0.432, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.452, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.509, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.71, kind = "signal", signal = "combined", dir = -1 },
+  { km = 1.267, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.62, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 1.768, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 2.129, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 2.345, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 3.244, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.332, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.823, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 3.856, kind = "signal", signal = "stop", dir = 1 },
+  { km = 3.995, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.061, kind = "stop", label = "Dietersheim", pos = [49.55688, 10.54308], uic = "8001450" },
+  { km = 4.121, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.746, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.924, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 5.57, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 5.849, kind = "stop", label = "Dottenheim", pos = [49.54765, 10.52304], uic = "8001548" },
+  { km = 5.959, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.004, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.028, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 6.15, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 6.341, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.406, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.532, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 6.84, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.256, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.615, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 8.632, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 9.104, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 9.153, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 9.274, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.432, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 9.482, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 9.506, kind = "stop", label = "Ipsheim", pos = [49.52561, 10.48591] },
+  { km = 9.528, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 9.56, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 9.618, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 9.631, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.633, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 9.647, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 9.669, kind = "signal", signal = "speed_limit,whistle", dir = -1 },
+  { km = 9.835, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 10.043, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 10.435, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 10.564, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 10.573, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 10.651, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 10.786, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 10.987, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 11.074, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 11.678, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 12.769, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 12.969, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.36, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 14.494, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 14.661, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 14.849, kind = "signal", signal = "main", dir = 1 },
+  { km = 14.957, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 15.271, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 15.313, kind = "station", label = "Bad Windsheim", uic = "8000767", pos = [49.50663, 10.41303] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.593, kmTo = 0.616, length = 23 },
+  { kind = "bridge", kmFrom = 0.732, kmTo = 0.751, length = 19 },
+  { kind = "bridge", kmFrom = 10.26, kmTo = 10.273, length = 13 },
+  { kind = "bridge", kmFrom = 10.762, kmTo = 10.773, length = 11 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "q~qmHuvs_Ah@vWGbd@jDtU", v = 60 },
+  { line = "cxqmHcbq_ANl@" },
+  { line = "swqmHu`q_AtG|O|_@`u@nJvb@tDdKjRzZvF~KbeAn`CpDvK|O|q@", v = 60 },
+  { line = "aelmHu_f_Ar@xC" },
+  { line = "mclmH{ze_A|If`@nFvNj}AbjC", v = 60 },
+  { line = "srhmHw~__A`Xvd@" },
+  { line = "qygmH_y~~@zDrM~AjKx@pX", v = 60 },
+  { line = "{ngmHmd}~@|DlwBlCbVd|Ap{F" },
+]
+posts = [[0, 49.57668, 10.58831], [1, 49.57439, 10.57548], [2, 49.56827, 10.56437], [3, 49.5631, 10.55441], [4, 49.55737, 10.544], [5, 49.55147, 10.53311], [6, 49.54704, 10.52121], [7, 49.54191, 10.50997], [8, 49.53533, 10.5003], [9, 49.5289, 10.49084], [10, 49.52343, 10.48013], [11, 49.52269, 10.46613], [12, 49.52139, 10.45305], [13, 49.51688, 10.4408], [14, 49.51244, 10.42875], [15, 49.50803, 10.41679]]
+
+[[connections]]
+km = 0.023
+station = "Neustadt Bahnhof"
+lines = [
+  { id = "5910", ref = "5910", name = "5910 Fürth - Würzburg", km = 33.3 },
+]
+
+[[connections]]
+km = 15.313
+station = "Bad Windsheim"
+lines = [
+  { id = "5250", ref = "5250", name = "5250 Steinach (b Rothenburg o d Tauber) - Bad Windsheim", km = 13.689 },
+]

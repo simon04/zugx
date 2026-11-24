@@ -1,0 +1,115 @@
+id = "6653"
+ref = "6653"
+name = "6653 Werdau West - Mehltheuer"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q803460"
+from = "Werdau West"
+to = "Mehltheuer"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 34.2
+kmTo = 67.4
+length = 33.15
+speeds = [[34.2, 67.4, "", ""]]
+curves = [[34.306, 34.879, 380], [34.926, 35.587, 540], [35.689, 36.02, 350], [36.07, 36.595, 310], [36.692, 37.107, 470], [37.233, 37.659, 500], [38.11, 38.386, 540], [38.712, 39.139, 390], [39.49, 40.067, 460], [40.292, 40.643, 370], [40.694, 41.321, 310], [41.647, 41.948, 530], [41.998, 42.524, 390], [42.575, 42.976, 410], [43.101, 43.351, 660], [43.526, 43.75, 910], [44.075, 44.575, 320], [44.625, 45.05, 350], [45.101, 45.303, 770], [45.404, 45.555, 610], [45.605, 45.858, 580], [46.328, 46.6, 520], [46.675, 47.351, 700], [47.451, 47.976, 690], [48.202, 48.552, 460], [48.802, 49.303, 330], [49.353, 49.628, 610], [50.211, 50.387, 1730], [50.563, 50.94, 370], [51.016, 51.318, 350], [51.608, 51.956, 410], [52.006, 52.205, 530], [52.306, 52.536, 470], [52.587, 52.712, 860], [52.787, 53.036, 670], [53.086, 53.311, 670], [53.361, 53.735, 400], [53.81, 54.384, 400], [54.733, 55.083, 420], [55.133, 56.156, 410], [56.882, 57.259, 650], [57.685, 58.186, 440], [59.189, 59.491, 640], [59.768, 60.799, 370], [60.975, 61.427, 330], [61.776, 62.317, 410], [62.742, 63.441, 460], [63.566, 63.741, 940], [63.816, 64.241, 1030], [64.365, 64.44, 1680], [64.49, 64.74, 350], [64.79, 65.04, 380], [65.09, 65.19, 1360], [65.39, 65.665, 640], [65.939, 66.189, 690], [66.389, 66.564, 800], [66.614, 66.864, 460], [66.989, 67.294, 410]]
+points = [
+  { km = 34.201, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 34.409, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 34.895, kind = "halt", label = "Weida Altstadt", uic = "8016735", ele = 244, pos = [50.76789, 12.0584] },
+  { km = 34.921, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 35.793, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 36.395, kind = "signal", signal = "crossing_distant" },
+  { km = 36.688, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 37.702, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 39.282, kind = "signal", label = "62P1", signal = "main", dir = -1 },
+  { km = 39.395, kind = "station", label = "Loitsch-Hohenleuben", pos = [50.73401, 12.04825], uic = "8016736" },
+  { km = 40.192, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 41, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 41.327, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 41.358, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 41.402, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 41.57, kind = "stop", label = "Schüptitz", pos = [50.72271, 12.0298], uic = "8016738" },
+  { km = 41.615, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 43.321, kind = "signal", signal = "crossing_distant" },
+  { km = 43.541, kind = "signal", signal = "crossing_distant" },
+  { km = 43.732, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 43.98, kind = "stop", label = "Hohenleuben", pos = [50.70274, 12.03635], uic = "8016740" },
+  { km = 45.343, kind = "signal", signal = "crossing_distant" },
+  { km = 45.815, kind = "signal", signal = "crossing_distant" },
+  { km = 46.1, kind = "halt", label = "Triebes", uic = "8016742", pos = [50.68824, 12.02327] },
+  { km = 49.725, kind = "station", label = "Zeulenroda unt Bf", pos = [50.65945, 12.01134], uic = "8016743", ele = 365 },
+  { km = 49.842, kind = "signal", label = "63N1", signal = "main", dir = 1 },
+  { km = 51.056, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 54.777, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 54.916, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 55.387, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 55.66, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 55.698, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 55.785, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 55.786, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 56.602, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 56.798, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 56.809, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 57.094, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 57.818, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 58.204, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 58.568, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 58.579, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 59.504, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 60.223, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 60.662, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 60.804, kind = "halt", label = "Pausa", uic = "8012616", pos = [50.58789, 12.00367], ele = 477 },
+  { km = 62.423, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 62.595, kind = "signal", signal = "speed_limit,whistle", dir = 1 },
+  { km = 62.851, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 63.255, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 63.552, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 63.652, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 63.823, kind = "signal", signal = "crossing_distant" },
+  { km = 63.907, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 64.107, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 64.731, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 65.186, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 66.377, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 66.562, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 66.78, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 66.835, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 67.198, kind = "signal", signal = "speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 34.272, kmTo = 34.357, length = 80, name = "Tunnel Osterburg" },
+  { kind = "bridge", kmFrom = 35.066, kmTo = 35.107, length = 40 },
+  { kind = "bridge", kmFrom = 35.409, kmTo = 35.437, length = 27 },
+  { kind = "bridge", kmFrom = 35.697, kmTo = 35.729, length = 32 },
+  { kind = "tunnel", kmFrom = 35.87, kmTo = 35.943, length = 72, name = "Vipsburgtunnel" },
+  { kind = "bridge", kmFrom = 35.958, kmTo = 35.982, length = 23 },
+  { kind = "bridge", kmFrom = 36.575, kmTo = 36.606, length = 32 },
+  { kind = "bridge", kmFrom = 36.942, kmTo = 36.964, length = 22 },
+  { kind = "bridge", kmFrom = 37.665, kmTo = 37.691, length = 25 },
+  { kind = "bridge", kmFrom = 40.192, kmTo = 40.222, length = 29 },
+  { kind = "bridge", kmFrom = 40.779, kmTo = 40.798, length = 19 },
+  { kind = "bridge", kmFrom = 41.235, kmTo = 41.262, length = 27 },
+  { kind = "bridge", kmFrom = 41.782, kmTo = 41.806, length = 23 },
+  { kind = "bridge", kmFrom = 43.944, kmTo = 43.956, length = 12 },
+  { kind = "bridge", kmFrom = 44.988, kmTo = 44.998, length = 10 },
+  { kind = "bridge", kmFrom = 45.491, kmTo = 45.513, length = 21 },
+  { kind = "bridge", kmFrom = 46.01, kmTo = 46.036, length = 27 },
+  { kind = "bridge", kmFrom = 47.306, kmTo = 47.321, length = 15 },
+  { kind = "bridge", kmFrom = 48.963, kmTo = 48.981, length = 18 },
+  { kind = "bridge", kmFrom = 59.427, kmTo = 59.441, length = 14 },
+  { kind = "bridge", kmFrom = 64.315, kmTo = 64.329, length = 14 },
+  { kind = "bridge", kmFrom = 66.549, kmTo = 66.562, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eq{tHipqhAtBl@" },
+  { line = "om{tH{nqhAlCl@", tunnel = true },
+  { line = "ai{tHmmqhAtG`@~B}@fBoBrCgG`DwTnAoCxB}BbLqDjQp@jD{@" },
+  { line = "gdytHc~rhApBcB", tunnel = true },
+  { line = "u`ytHgashAlEgIzBgCrDsAjDL|CbBvLxOtDxBhG`@nOaCpGtAfC|BtWv^`DlCpCv@tWzBhDfBhCrDrApD`Jrc@v@bHX|N~@lFfB~DlQpU~AtHJ`Pj@fHjCfHnEjDbD`@vB[lXmK`EsDnHaO~F}DtFEfKbFpFd@rEuAbMuKpD}AlOuB|F\\tUbFrEdD`BdDfAnFVpTzAtJfDrFbJxFzOvCdIzExBf@xe@e@pCrAzOnNfJfCtG[dL{FrGiBhF?rDx@xQlJ`EpDnCzFzJd`@`ErEzFbAbLgEzDKpg@zMbTnJnFy@vKgKrC}@bDHvXrHhEw@jL_JdQuDtH{I`IkGlKgTpJoJlBgD~AgIbA_[v@cEvBqEzCkCtBq@h]gEfEmDfGiM|DeEnFgBpJJfD~BdBxC`A~Cj@lFmCvoAL~Lh@vEbLhj@`D~I`EjElDpAlbAlMpE~ClSfUlIvEhDr@jDa@dDcCdB{CrAuF^aLmBm\\T_Gx@oEpDuGdUmU~BoE~AqGl@iNuD_q@CuJfBsNhBwEhCkDvP}HzIiHhIeElEy@|THlDeBnGeHnDkA|]q@fDdAvU`NbWbAbMnDhPgDhCeBvD{ElEaA" },
+]
+posts = [[35, 50.76758, 12.05983], [36, 50.75958, 12.06361], [37, 50.75171, 12.06174], [38, 50.74375, 12.05769], [39, 50.73557, 12.05314], [40, 50.73217, 12.04032], [41, 50.72757, 12.02923], [42, 50.71947, 12.03294], [43, 50.71125, 12.03482], [44, 50.70262, 12.03635], [45, 50.69773, 12.02633], [46, 50.68916, 12.02327], [47, 50.68063, 12.02003], [48, 50.67193, 12.02095], [49, 50.66576, 12.01147], [50, 50.65709, 12.01044], [51, 50.6487, 12.00915], [52, 50.64009, 12.00989], [53, 50.63221, 12.01589], [54, 50.62774, 12.02717], [55, 50.61965, 12.03178], [56, 50.61253, 12.03228], [57, 50.61323, 12.01819], [58, 50.60907, 12.00609], [59, 50.60022, 12.00405], [60, 50.59222, 11.99838], [61, 50.58824, 12.00637], [62, 50.58256, 12.01633], [63, 50.58295, 12.03023], [64, 50.57567, 12.03753], [65, 50.56713, 12.04046], [66, 50.55846, 12.03815], [67, 50.54961, 12.03736]]

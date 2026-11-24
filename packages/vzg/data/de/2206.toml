@@ -1,0 +1,92 @@
+id = "2206"
+ref = "2206"
+name = "2206 Oberhausen-Sterkrade - Oberhausen-Osterfeld"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Oberhausen-Sterkrade"
+to = "Oberhausen-Osterfeld"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 20.867
+length = 20.867
+speeds = [[0, 2.367, 80, 80], [2.367, 2.447, "", ""], [2.447, 6.015, 60, 60], [6.015, 6.085, 40, 40], [6.085, 6.095, 60, 60], [6.095, 6.282, 40, 40], [6.282, 6.38, "", ""], [6.38, 8.289, 60, 60], [8.289, 16.395, 80, 80], [16.395, 20.867, 60, 60]]
+curves = [[0.1, 0.675, 620], [2, 2.275, 1000], [2.425, 2.625, 1100], [2.9, 3, 1660], [4.125, 4.275, 1390], [4.5, 4.725, 890], [4.825, 5.125, 590], [5.725, 5.825, 1700], [6, 6.075, 1950], [6.2, 6.35, 730], [7.175, 7.225, 2550], [7.3, 7.35, 2140], [10.575, 10.825, 1970], [12.675, 12.9, 960], [13.4, 13.45, 1970], [13.55, 13.65, 1350], [13.85, 14.35, 540], [15.1, 15.35, 1060], [16.675, 16.725, 2440], [16.825, 16.875, 2490]]
+points = [
+  { km = 0.081, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 1.419, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.617, kind = "signal", signal = "main,route", dir = -1 },
+  { km = 2.005, kind = "signal", label = "42 AA", signal = "combined,speed_limit,speed_limit_distant", dir = 1 },
+  { km = 2.292, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.79, kind = "signal", label = "42 P3", signal = "main,speed_limit", dir = -1 },
+  { km = 2.991, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.994, kind = "halt", label = "Oberhausen-Osterfeld Süd", uic = "8004541", pos = [51.49967, 6.88431] },
+  { km = 3.163, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 3.477, kind = "signal", label = "44 ZR3", signal = "main,speed_limit", dir = 1 },
+  { km = 4.251, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.252, kind = "signal", label = "44 ZU13", signal = "combined,speed_limit,speed_limit_distant", dir = -1 },
+  { km = 4.976, kind = "halt", label = "Bottrop-Vonderort", uic = "8001108", pos = [51.50179, 6.91236] },
+  { km = 5.488, kind = "signal", label = "44 N13", signal = "main,route,speed_limit,wrong_road", dir = 1 },
+  { km = 5.489, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 7.193, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 7.198, kind = "signal", signal = "distant", dir = 1 },
+  { km = 8.289, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 12.138, kind = "station", label = "Boyer Straße", pos = [51.52445, 7.00844] },
+  { km = 16.538, kind = "signal", signal = "minor", dir = -1 },
+  { km = 16.644, kind = "signal", signal = "minor", dir = -1 },
+  { km = 16.653, kind = "signal", signal = "distant", dir = 1 },
+  { km = 17.132, kind = "signal", signal = "main,minor,speed_limit,traversable" },
+  { km = 17.776, kind = "signal", signal = "distant,main,minor,traversable", dir = 1 },
+  { km = 18.373, kind = "signal", signal = "distant,main,traversable", dir = -1 },
+  { km = 18.75, kind = "signal", signal = "main", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 6.619, kmTo = 6.656, length = 38 },
+  { kind = "bridge", kmFrom = 10.08, kmTo = 10.089, length = 10 },
+  { kind = "bridge", kmFrom = 10.643, kmTo = 10.669, length = 26 },
+  { kind = "bridge", kmFrom = 10.857, kmTo = 10.88, length = 23 },
+  { kind = "bridge", kmFrom = 12.11, kmTo = 12.142, length = 32 },
+  { kind = "bridge", kmFrom = 12.815, kmTo = 12.829, length = 14 },
+  { kind = "bridge", kmFrom = 13.203, kmTo = 13.22, length = 17 },
+  { kind = "bridge", kmFrom = 14.061, kmTo = 14.117, length = 56 },
+  { kind = "bridge", kmFrom = 14.751, kmTo = 14.796, length = 45 },
+  { kind = "bridge", kmFrom = 15.031, kmTo = 15.106, length = 76 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "y|jyHa_xh@xEmBbHyGdEqItAaG`Vk`Cb@uY", v = 80 },
+  { line = "ykiyH_z}h@HeF" },
+  { line = "okiyHea~h@_Csm@eFok@qGm_Ac@kb@zBw[CoHoIe|@eBwW", v = 60 },
+  { line = "ijjyHi|gi@YeE", v = 40 },
+  { line = "ckjyHobhi@EW", v = 60 },
+  { line = "ikjyHgchi@qAkO", v = 40 },
+  { line = "{mjyHsshi@oA_G" },
+  { line = "kpjyHs{hi@sn@myC", v = 60 },
+  { line = "_`lyHavmi@an@kwCuGy`@wBsTqSgkDkS_eAoFgUiAkJOuHb@iJrOmeAdAkKrCifB", v = 80 },
+  { line = "evnyH{hcj@`IaxFdBgyC", v = 60 },
+]
+posts = [[0, 51.50685, 6.84545], [1, 51.50179, 6.8562], [2, 51.49935, 6.87011], [3, 51.49967, 6.8844], [4, 51.50176, 6.89845], [5, 51.50167, 6.91272], [6, 51.50385, 6.92671], [7, 51.50736, 6.93993], [8, 51.51131, 6.95291], [9, 51.51534, 6.96583], [10, 51.51932, 6.97879], [11, 51.5223, 6.99236], [12, 51.52396, 7.00656], [13, 51.52615, 7.0205], [14, 51.53005, 7.03351], [15, 51.52769, 7.04723], [16, 51.52652, 7.06148], [17, 51.52598, 7.0759], [18, 51.52538, 7.09032], [19, 51.52477, 7.10474], [20, 51.52442, 7.11918]]
+
+[[connections]]
+km = 2.994
+station = "Oberhausen-Osterfeld Süd"
+lines = [
+  { id = "2250", ref = "2250", name = "2250 Oberhausen-Osterfeld - Hamm (Westf) Pbf", km = 0.222 },
+]
+
+[[connections]]
+km = 4.976
+station = "Bottrop-Vonderort"
+lines = [
+  { id = "2250", ref = "2250", name = "2250 Oberhausen-Osterfeld - Hamm (Westf) Pbf", km = 2.156 },
+]
+
+[[connections]]
+km = 12.138
+station = "Boyer Straße"
+lines = [
+  { id = "2246", ref = "2246", name = "2246 Gelsenkirchen Hugo - Oberhausen-Osterfeld", km = 8.671 },
+]

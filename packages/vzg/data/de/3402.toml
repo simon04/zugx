@@ -1,0 +1,28 @@
+id = "3402"
+ref = "3402"
+operator = "BASF"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 7.033
+kmTo = 10.3
+length = 3.139
+speeds = [[7.033, 7.476, 40, 30], [7.476, 8.11, 40, 40], [8.11, 8.882, "", ""], [8.882, 10.3, 40, 40]]
+curves = []
+points = [
+  { km = 7.051, kind = "signal", label = "B", signal = "distant,main", dir = -1 },
+  { km = 7.3, kind = "station", label = "Ludwigshafen(Rhein) BASF Süd", pos = [49.494, 8.43886], measured = true, uic = "8002056" },
+  { km = 7.357, kind = "signal", label = "U902", signal = "main", dir = 1 },
+  { km = 9, kind = "stop", label = "Ludwigshafen(Rhein) BASF Mitte", uic = "8000308", pos = [49.51131, 8.43158], measured = true },
+  { km = 10.3, kind = "station", label = "Ludwigshafen(Rhein) BASF Nord", pos = [49.52004, 8.42787], measured = true, uic = "8087060" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "eqamHkior@qy@zW", v = 40 },
+  { line = "wkcmHopnr@oh@tP" },
+  { line = "gudmHy~mr@ceAd\\", v = 40 },
+]
+posts = [[8, 49.50125, 8.43584], [9, 49.50986, 8.43217], [10, 49.5177, 8.42889]]

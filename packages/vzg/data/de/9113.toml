@@ -1,0 +1,34 @@
+id = "9113"
+ref = "9113"
+name = "Bahnstrecke Winsen–Niedermarschacht"
+operator = "Schieneninfrastruktur Ost-Niedersachsen GmbH"
+gauge = "1435"
+wikidata = "Q803485"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.306
+length = 0.306
+speeds = [[0, 0.306, "", ""]]
+curves = [[0.15, 0.2, 1160]]
+points = [
+  { km = 0.049, kind = "station", label = "Winsen (Luhe)", pos = [53.35343, 10.20868] },
+  { km = 0.304, kind = "signal", signal = "stop", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{usdIsyh}@lDkPt@wG" },
+]
+posts = [[0, 53.35406, 10.20842]]
+
+[[connections]]
+km = 0.049
+station = "Winsen"
+lines = [
+  { id = "1151", ref = "1151", name = "1151: Wittenberge–Buchholz", km = 303.551 },
+  { id = "1153", ref = "1153", name = "1153 Lüneburg - Stelle", km = 150.445 },
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 150.49 },
+]

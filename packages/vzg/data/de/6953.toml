@@ -1,0 +1,38 @@
+id = "6953"
+ref = "6953"
+name = "6953 Sassnitz-Mukran Gbf (Einfahrgruppe) - Sassnitz Fährhafen"
+operator = "DB InfraGO;Mukran Port"
+gauge = "1435"
+wikidata = "Q108057616"
+from = "Sassnitz-Mukran Gbf (Einfahrgruppe)"
+to = "Sassnitz Fährhafen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.119
+length = 2.119
+speeds = [[0, 2.119, 60, 60]]
+curves = [[0.1, 0.425, 680], [0.5, 0.55, 2260], [0.875, 1.05, 880], [1.1, 1.325, 1170], [1.425, 1.55, 1200]]
+points = [
+  { km = 0.087, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 0.232, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.317, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 0.395, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 0.55, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 1.194, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.285, kind = "signal", label = "S265", signal = "main,minor,traversable", dir = 1 },
+  { km = 1.464, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 1.555, kind = "signal", signal = "main,traversable", dir = -1 },
+  { km = 2.026, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.085, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 2.089, kind = "station", label = "Sassnitz Fährhafen", pos = [54.48606, 13.58529] },
+  { km = 2.112, kind = "signal", signal = "electricity", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wdskIe~wqAvEqCbCgDjV}w@jJsO|H_UhWmj@", v = 60 },
+]
+posts = [[0, 54.4982, 13.56275], [1, 54.49235, 13.57407], [2, 54.48617, 13.58524]]

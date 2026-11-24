@@ -1,0 +1,34 @@
+id = "6803"
+ref = "6803"
+name = "Röblingen am See – Vitzenburg"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q803133"
+from = "Röblingen"
+to = "Vitzenburg"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.073
+length = 1.073
+speeds = [[0, 1.073, "", ""]]
+curves = [[0.25, 0.625, 920], [0.9, 0.95, 2080]]
+points = [
+  { km = 0.699, kind = "signal", label = "T", signal = "main", dir = -1 },
+  { km = 0.808, kind = "station", label = "Röblingen am See", pos = [51.46266, 11.66817] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "m~byHg|cfA|D}\\~BsJtS_g@" },
+]
+posts = [[0, 51.46615, 11.6578], [1, 51.46163, 11.66999]]
+
+[[connections]]
+km = 0.808
+station = "Röblingen am See"
+lines = [
+  { id = "6343", ref = "6343", name = "6343 Halle (Saale) Hbf – Hann Münden", km = 26.815 },
+]

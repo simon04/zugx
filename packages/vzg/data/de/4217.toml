@@ -1,0 +1,36 @@
+id = "4217"
+ref = "4217"
+name = "Güterumgehungsbahn Karlsruhe"
+operator = "DB InfraGO"
+gauge = "1435"
+wikidata = "Q1562232"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 1.12
+kmTo = 2.348
+length = 1.234
+speeds = [[1.12, 1.398, "", ""], [1.398, 1.479, 60, ""], [1.479, 2.348, 60, 80]]
+curves = [[1.22, 1.417, 430], [1.549, 1.73, 1250], [1.811, 2.239, 1110]]
+points = [
+  { km = 1.289, kind = "signal", signal = "crossing_info", dir = 1 },
+  { km = 1.332, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.398, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.479, kind = "signal", label = "41 B", signal = "main,speed_limit", dir = -1 },
+  { km = 2.041, kind = "signal", label = "96K", signal = "combined,speed_limit", dir = 1 },
+  { km = 2.065, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.066, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.123, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 2.172, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 2.181, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.299, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "skajHihor@m@wJj@oJ" },
+  { line = "ukajHq_pr@t@oF", v = 60 },
+  { line = "_jajHagpr@hBmNdAoUKuNsA{Q", v = 80 },
+]
+posts = [[2, 48.99926, 8.45107]]

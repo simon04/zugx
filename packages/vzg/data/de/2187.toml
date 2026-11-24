@@ -1,0 +1,39 @@
+id = "2187"
+ref = "2187"
+name = "2187 Mülheim (Ruhr)-Styrum"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Mülheim (Ruhr)-Styrum"
+to = "Mülheim (Ruhr)-Styrum"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.71
+length = 0.71
+speeds = [[0, 0.71, 60, 60]]
+curves = [[0.1, 0.2, 380], [0.25, 0.525, 460]]
+points = [
+  { km = 0.541, kind = "signal", label = "38L107X", signal = "minor", dir = 1 },
+  { km = 0.71, kind = "station", label = "Mülheim (Ruhr)-Styrum", uic = "8000687", pos = [51.44918, 6.85269] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.439, kmTo = 0.493, length = 54 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a``yH_`wh@j@sIu@yU|EyZ", v = 60 },
+]
+posts = [[0, 51.45105, 6.84048]]
+
+[[connections]]
+km = 0.71
+station = "Mülheim-Styrum"
+lines = [
+  { id = "2184", ref = "2184", name = "2184 Mülheim (Ruhr)-Styrum - Duisburg Hbf", km = -9.171 },
+  { id = "2290", ref = "2290", name = "2290 Mülheim-Styrum - Duisburg Hbf", km = 0.098 },
+  { id = "2291", ref = "2291", name = "2291 Mülheim (Ruhr)-Styrum - Bochum Hbf", km = 116.346 },
+  { id = "2300", ref = "2300", name = "2300 Mülheim (Rhur)-Styrum - Essen Hbf", km = 115.658 },
+]

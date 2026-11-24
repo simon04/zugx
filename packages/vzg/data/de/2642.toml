@@ -1,0 +1,52 @@
+id = "2642"
+ref = "2642"
+name = "2642 Köln Süd - Köln Bonntor"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Köln Süd"
+to = "Köln Bonntor"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.7
+length = 1.7
+speeds = [[0, 0.381, 60, 60], [0.381, 0.435, "", ""], [0.435, 1.7, 60, 60]]
+curves = [[0.1, 0.225, 1500], [0.375, 0.8, 580], [0.95, 1.375, 400]]
+points = [
+  { km = 0.15, kind = "signal", label = "64P3", signal = "combined,speed_limit,speed_limit_distant,traversable,wrong_road", dir = -1 },
+  { km = 0.276, kind = "station", label = "Köln Süd", uic = "8003361", pos = [50.9276, 6.93727] },
+  { km = 0.372, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.374, kind = "signal", label = "64N3", signal = "main,route,speed_limit,traversable,wrong_road", dir = 1 },
+  { km = 0.452, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.689, kind = "signal", label = "64bb", signal = "distant", dir = 1 },
+  { km = 0.701, kind = "signal", label = "64G", signal = "combined,speed_limit,traversable", dir = -1 },
+  { km = 1.206, kind = "signal", label = "Wvbb", signal = "distant", dir = 1 },
+  { km = 1.326, kind = "signal", label = "BB", signal = "distant,main,traversable", dir = 1 },
+  { km = 1.327, kind = "signal", label = "64Vg", signal = "distant", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.132, kmTo = 0.148, length = 16 },
+  { kind = "bridge", kmFrom = 0.414, kmTo = 0.435, length = 20 },
+  { kind = "bridge", kmFrom = 0.842, kmTo = 0.908, length = 65 },
+  { kind = "bridge", kmFrom = 0.973, kmTo = 1.047, length = 74 },
+  { kind = "bridge", kmFrom = 1.179, kmTo = 1.19, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "obzuHekii@vDoH~FkO", v = 60 },
+  { line = "wtyuHaeji@z@yB" },
+  { line = "{ryuH{hji@vDwGtC}B|SaCfFgDvCyFlJk\\", v = 60 },
+]
+posts = [[0, 50.9292, 6.93443], [1, 50.9221, 6.94176]]
+
+[[connections]]
+km = 0.276
+station = "Köln Süd"
+lines = [
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = 3.04 },
+  { id = "2640", ref = "2640", name = "2640 Köln West - Hürth-Kalscheuren", km = 3.045 },
+  { id = "2641", ref = "2641", name = "2641 Abzw Köln Süd - Köln-Kalk Nord Ksf", km = -0.08 },
+]

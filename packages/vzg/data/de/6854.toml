@@ -1,0 +1,46 @@
+id = "6854"
+ref = "6854"
+name = "6854 Abzw Tornitz – Calbe (Saale) Ost"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q109325879"
+from = "Tornitz"
+to = "Calbe (Saale) Ost"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.559
+length = 2.559
+speeds = [[0, 1.804, 50, 50], [1.804, 2.559, 60, 60]]
+curves = [[0.1, 0.65, 420], [0.875, 1.5, 420]]
+points = [
+  { km = 0.063, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.269, kind = "signal", label = "01 24", signal = "main,traversable", dir = -1 },
+  { km = 0.361, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 0.728, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.868, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.061, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.296, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.442, kind = "signal", label = "02C", signal = "combined,traversable", dir = 1 },
+  { km = 1.457, kind = "signal", signal = "snowplow", dir = 1 },
+  { km = 1.474, kind = "signal", signal = "crossing_info", dir = -1 },
+  { km = 1.577, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 1.67, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 1.68, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.81, kind = "signal", label = "02 P4", signal = "main,speed_limit,traversable,wrong_road", dir = -1 },
+  { km = 2.27, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 2.375, kind = "station", label = "Calbe (Saale) Ost", pos = [51.92062, 11.8105], uic = "8024134" },
+  { km = 2.474, kind = "signal", label = "02 N4", signal = "main,speed_limit,traversable,wrong_road", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.854, kmTo = 1.873, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{x}{Hkw~fAaJcPgBaMPaMfG{c@hDuHnFeEbFq@~RR", v = 50 },
+  { line = "mv|{HizagAji@tC", v = 60 },
+]
+posts = [[0, 51.93118, 11.79526], [1, 51.93217, 11.80807], [2, 51.9239, 11.81092]]

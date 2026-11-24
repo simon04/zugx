@@ -1,0 +1,27 @@
+id = "3671"
+ref = "3671"
+name = "3671 Hanau Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Hanau Hbf"
+to = "Hanau Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.65
+length = 0.65
+speeds = [[0, 0.65, 60, 60]]
+curves = [[0.1, 0.35, 570], [0.4, 0.55, 510]]
+points = [
+  { km = 0.124, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.2, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.588, kind = "signal", signal = "minor", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ic}pHszlu@zFyMhCsUtC{J", v = 60 },
+]
+posts = [[0, 50.12549, 8.91834]]

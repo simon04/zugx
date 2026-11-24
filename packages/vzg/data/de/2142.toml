@@ -1,0 +1,41 @@
+id = "2142"
+ref = "2142"
+name = "2142 Bochum-Langendreer"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Bochum-Langendreer"
+to = "Bochum-Langendreer"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.973
+length = 0.973
+speeds = [[0, 0.105, 80, 80], [0.105, 0.973, "", ""]]
+curves = [[0.1, 0.475, 400], [0.525, 0.75, 1120], [0.8, 0.85, 2160]]
+points = [
+  { km = 0.1, kind = "signal", signal = "wrong_road", dir = -1 },
+  { km = 0.579, kind = "signal", signal = "main,speed_limit,traversable", dir = -1 },
+  { km = 0.607, kind = "signal", label = "K", signal = "distant,main", dir = 1 },
+  { km = 0.95, kind = "halt", label = "Bochum-Langendreer", uic = "8000358", pos = [51.47798, 7.32363] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.625, kmTo = 0.637, length = 12 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "iteyHozwk@kArG", v = 80 },
+  { line = "uveyH{qwk@o@zIJjGlAhHpEfPtDxY" },
+]
+posts = [[0, 51.47989, 7.33624]]
+
+[[connections]]
+km = 0.95
+station = "Bochum-Langendreer"
+lines = [
+  { id = "2140", ref = "2140", name = "2140 Bochum-Langendreer - Witten Hbf", km = 0.174 },
+  { id = "2158", ref = "2158", name = "2158 Bochum Hbf - Dortmund Hbf (Ferngleise)", km = 153.353 },
+  { id = "2190", ref = "2190", name = "2190 Bochum Hbf - Dortmund Hbf (S-Bahn-Gleise)", km = 7.273 },
+]

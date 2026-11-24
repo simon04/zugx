@@ -1,0 +1,41 @@
+id = "4615"
+ref = "4615"
+name = "4615 Wendlingen - Abzw Rübholz"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q1562272"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.006
+kmTo = 1.147
+length = 1.139
+speeds = [[0.006, 0.483, 80, 80], [0.483, 0.489, 100, 80], [0.489, 1.147, 100, 100]]
+curves = [[0.117, 0.479, 340], [0.818, 0.869, 2130]]
+points = [
+  { km = 0.11, kind = "signal", label = "W64", signal = "minor", dir = -1 },
+  { km = 0.117, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.142, kind = "signal", label = "VPiV", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 0.483, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.489, kind = "signal", label = "H", signal = "main,speed_limit", dir = -1 },
+  { km = 0.734, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.848, kind = "signal", label = "20415", signal = "catenary_mast,main,train_protection,traversable,wrong_road", dir = 1 },
+  { km = 0.949, kind = "signal", signal = "minor", dir = 1 },
+  { km = 1.048, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.043, kmTo = 0.061, length = 18 },
+  { kind = "tunnel", kmFrom = 0.281, kmTo = 0.447, length = 170, name = "Unterfahrung BAB" },
+  { kind = "tunnel", kmFrom = 0.767, kmTo = 1.147, length = 368, name = "Albvorlandtunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wz~gHiifx@iNbT", tunnel = true, v = 100 },
+  { line = "aj_hHetex@cJjO", v = 100 },
+  { line = "eu_hHycex@w@pA", v = 80 },
+  { line = "}v_hHgaex@eCvC_CnA", tunnel = true, v = 80 },
+  { line = "c_`hH_zdx@qFJsFgC", v = 80 },
+]
+posts = [[1, 48.66079, 9.37504]]

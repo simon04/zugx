@@ -1,0 +1,70 @@
+id = "4951"
+ref = "4951"
+name = "4951 Crailsheim - Schnelldorf Streckenwechsel"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q120645336"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.352
+kmTo = 10.309
+length = 10.667
+speeds = [[-0.352, 0.028, 40, 40], [0.028, 0.15, "", ""], [0.15, 0.634, 60, 60], [0.634, 0.643, "", ""], [0.643, 1.152, 100, 60], [1.152, 1.615, 100, 100], [1.615, 2.123, 120, 100], [2.123, 10.277, 130, 130], [10.277, 10.309, 140, 140]]
+curves = [[-0.235, -0.185, 1770], [0.115, 0.24, 1190], [0.29, 0.415, 1110], [0.79, 1.614, 590], [1.686, 2.516, 1160], [3.062, 4.202, 780], [4.351, 5.181, 910], [5.357, 5.835, 1100], [5.986, 6.892, 800], [7.018, 7.727, 860], [7.929, 8.689, 810], [8.866, 10.208, 760]]
+points = [
+  { km = -0.234, kind = "signal", label = "1P2", signal = "main,route", dir = -1 },
+  { km = -0.228, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.084, kind = "signal", signal = "stop", dir = -1 },
+  { km = -0.024, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.017, kind = "signal", signal = "stop", dir = -1 },
+  { km = 0.028, kind = "station", label = "Crailsheim", pos = [49.13827, 10.06429], uic = "8029685" },
+  { km = 0.147, kind = "signal", signal = "stop", dir = 1 },
+  { km = 0.15, kind = "signal", label = "1N2", signal = "main,speed_limit", dir = 1 },
+  { km = 0.296, kind = "signal", label = "VI", signal = "route", dir = 1 },
+  { km = 0.54, kind = "signal", signal = "minor", dir = -1 },
+  { km = 0.643, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 0.928, kind = "signal", label = "V1p'", signal = "distant", dir = -1 },
+  { km = 1.152, kind = "signal", label = "1F", signal = "main,speed_limit", dir = -1 },
+  { km = 1.46, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.615, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.122, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 2.123, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 2.294, kind = "signal", label = "V1f", signal = "distant", dir = -1 },
+  { km = 3.071, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 4.52, kind = "signal", signal = "main", dir = -1 },
+  { km = 5.613, kind = "signal", signal = "distant", dir = -1 },
+  { km = 10.19, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.267, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.275, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.277, kind = "signal", signal = "speed_limit", dir = -1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.274, kmTo = 0.291, length = 17 },
+  { kind = "bridge", kmFrom = 0.37, kmTo = 0.462, length = 92 },
+  { kind = "bridge", kmFrom = 2.93, kmTo = 2.965, length = 35 },
+  { kind = "bridge", kmFrom = 4.376, kmTo = 4.396, length = 20 },
+  { kind = "bridge", kmFrom = 7.035, kmTo = 7.05, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ktfkHci~|@?vA", v = 140 },
+  { line = "ktfkHkf~|@^xShBdN`ExLjF~HtIrGrFtAnHL~Q}BvELtHhBlEpCvF~GpNjY~ApFnBpMZ~H]b\\PdIzA`NrArGlCrGpDtFtTfQbF~HfLhZpCjK`AvGf@nLe@dOeGla@u@lL\\lSdBhLlCzIdFbJ`d@n`@zM~O", v = 130 },
+  { line = "qd_kHcco|@~G~O`D~T", v = 120 },
+  { line = "ov~jHc|m|@lCfPrC~G~C~DpCxB`FhB~NV", v = 100 },
+  { line = "yl}jH_tl|@LA" },
+  { line = "kl}jHatl|@zMMfKcA", v = 60 },
+  { line = "gq|jHsvl|@zE@" },
+  { line = "kj|jHqvl|@hTS", v = 40 },
+]
+posts = [[10, 49.19103, 10.1504], [9, 49.18453, 10.14265], [8, 49.17612, 10.14066], [7, 49.1724, 10.12899], [6, 49.16886, 10.1175], [5, 49.16263, 10.10805], [4, 49.16366, 10.09464], [3, 49.1596, 10.08331], [2, 49.15213, 10.07558], [1, 49.14716, 10.06453], [0, 49.13821, 10.06457]]
+
+[[connections]]
+km = 0.028
+station = "Crailsheim"
+lines = [
+  { id = "4950", ref = "4950", name = "4950 Crailsheim - Eppingen", km = 30.031 },
+  { id = "4953", ref = "4953", name = "4953 Crailsheim - Bad Mergentheim Strw 4922/4953", km = -0.011 },
+]

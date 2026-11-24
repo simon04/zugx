@@ -1,0 +1,63 @@
+id = "2410"
+ref = "2410"
+name = "2410 Düsseldorf Streckenwechsel 2410/2411 - Düsseldorf-Derendorf"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Düsseldorf Streckenwechsel 2410/2411"
+to = "Düsseldorf-Derendorf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 36.537
+kmTo = 39.948
+length = 3.476
+speeds = [[36.537, 38.561, "", ""], [38.561, 39.565, 70, 80], [39.565, 39.948, "", 80]]
+curves = [[36.639, 36.714, 870], [37.439, 37.639, 880], [37.811, 37.936, 1760], [38.166, 38.344, 1880], [38.62, 38.758, 2290], [38.998, 39.323, 940], [39.423, 39.573, 1210]]
+points = [
+  { km = 37.907, kind = "station", label = "Düsseldorf Wehrhahn", uic = "8001582", pos = [51.22842, 6.79816] },
+  { km = 38.054, kind = "halt", label = "Wehrhahn S", pos = [51.22999, 6.79826] },
+  { km = 38.075, kind = "station", label = "Uhlandstraße", pos = [51.23054, 6.80135] },
+  { km = 38.59, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 38.684, kind = "halt", label = "Schillerplatz", pos = [51.23555, 6.79985] },
+  { km = 38.712, kind = "signal", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 38.858, kind = "halt", label = "Düsseldorf Zoo", uic = "8001583", pos = [51.23713, 6.79693] },
+  { km = 39.565, kind = "signal", signal = "main,speed_limit,traversable", dir = 1 },
+  { km = 39.618, kind = "signal", signal = "distant", dir = -1 },
+  { km = 39.94, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 39.948, kind = "halt", label = "Düsseldorf-Derendorf", uic = "8001586", pos = [51.2478, 6.79449] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 39.26, kmTo = 39.515, length = 255 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "adxwHy_nh@tV}G", v = 80 },
+  { line = "klwwHwhnh@jLeG", tunnel = true, v = 80 },
+  { line = "__wwH}pnh@bGw@f_@\\", v = 80 },
+  { line = "svuwHwqnh@|Mi@pK_B~KqCpN}FzSqR|UgWlEaD" },
+]
+posts = [[39, 51.23864, 6.79739], [38, 51.22946, 6.79814], [37, 51.22102, 6.80427]]
+
+[[connections]]
+km = 37.907
+station = "Düsseldorf Wehrhahn"
+lines = [
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 1.062 },
+  { id = "2413", ref = "2413", name = "2413 Düsseldorf-Eller - Düsseldorf Hbf", km = 6.823 },
+  { id = "2416", ref = "2416", name = "2416 Düsseldorf Hbf - Düsseldorf-Unterrath", km = 1.058 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 40.593 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 40.559 },
+]
+
+[[connections]]
+km = 39.948
+station = "Düsseldorf-Derendorf"
+lines = [
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 3.292 },
+  { id = "2413", ref = "2413", name = "2413 Düsseldorf-Eller - Düsseldorf Hbf", km = 8.995 },
+  { id = "2416", ref = "2416", name = "2416 Düsseldorf Hbf - Düsseldorf-Unterrath", km = 3.239 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 42.771 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 42.718 },
+]

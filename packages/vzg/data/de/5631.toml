@@ -1,0 +1,87 @@
+id = "5631"
+ref = "5631"
+name = "5631 Eggmühl - Langquaid"
+operator = "Rail Bavaria Logisitik"
+gauge = "1435"
+wikidata = "Q802230"
+from = "Eggmühl"
+to = "Langquaid (b Eggmühl)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.399
+kmTo = 10.332
+length = 10.712
+speeds = [[-0.399, 10.332, "", ""]]
+curves = [[0.251, 0.426, 1440], [1.026, 1.401, 440], [1.476, 1.901, 510], [2.151, 2.651, 420], [2.776, 3.253, 960], [3.348, 3.736, 910], [4.631, 5.284, 720], [5.642, 6.359, 1220], [6.945, 7.44, 660], [7.531, 7.71, 1410], [7.842, 8.01, 1080], [8.565, 8.79, 720], [9.844, 10.045, 630], [10.145, 10.22, 970]]
+points = [
+  { km = -0.098, kind = "station", label = "Eggmühl", uic = "8001679", pos = [48.83708, 12.18333] },
+  { km = 0.344, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 0.604, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.705, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.102, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.245, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.322, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 1.388, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.47, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.593, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 1.938, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 2.611, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 2.717, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 3.108, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.3, kind = "halt", label = "Schierling", pos = [48.8318, 12.14277], measured = true },
+  { km = 3.59, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 3.685, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.864, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.178, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.222, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 5.634, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 5.694, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 6.598, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 6.686, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 6.852, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.137, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.188, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 7.615, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 7.726, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 7.774, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.84, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 7.95, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.164, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.204, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.383, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.454, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.708, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.827, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 8.855, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.925, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 8.978, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 9.093, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 9.217, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 9.223, kind = "signal", signal = "distant", dir = 1 },
+  { km = 9.291, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 9.615, kind = "signal", signal = "main", dir = 1 },
+  { km = 10.005, kind = "signal", signal = "stop", dir = 1 },
+  { km = 10.3, kind = "station", label = "Langquaid", pos = [48.82108, 12.05355], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.246, kmTo = 0.273, length = 27 },
+  { kind = "bridge", kmFrom = 3.881, kmTo = 3.908, length = 28 },
+  { kind = "bridge", kmFrom = 5.047, kmTo = 5.064, length = 17 },
+  { kind = "bridge", kmFrom = 5.427, kmTo = 5.446, length = 19 },
+  { kind = "bridge", kmFrom = 5.585, kmTo = 5.63, length = 50 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "izaiHqckiAtZ`q@tSft@p@vEPdHqBbWJpLfA`IjHhZv@bJk@lMeH`WwBrLk@xGc@lS|@jRlPjrAf@tRc@pIuAfJyQ~k@eE|Wk@nLGnLrCzfA`AzGfGxTfDxSdF`z@`ApHx^zwAvG~KvGvH" },
+]
+posts = [[0, 48.83658, 12.18221], [1, 48.8316, 12.17088], [2, 48.83041, 12.1579], [3, 48.83143, 12.14545], [4, 48.83072, 12.13315], [5, 48.82873, 12.11953], [6, 48.83316, 12.1065], [7, 48.8328, 12.09086], [8, 48.83004, 12.08082], [9, 48.82761, 12.06787], [10, 48.82321, 12.05607]]
+
+[[connections]]
+km = -0.098
+station = "Eggmühl"
+lines = [
+  { id = "5500", ref = "5500", name = "5500 München - Regensburg", km = 113.48 },
+]

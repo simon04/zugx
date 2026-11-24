@@ -1,0 +1,101 @@
+id = "5952"
+ref = "5952"
+name = "5952 Nürnberg Rbf Ausfahrt - Abzw Nürnberg Jansenbrücke"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q802900"
+from = "Nürnberg Rbf Ausfahrt"
+to = "Nürnberg Jansenbrücke"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = -0.002
+kmTo = 5.934
+length = 5.96
+speeds = [[-0.002, 0.042, 25, 25], [0.042, 1.761, 40, 40], [1.761, 1.773, "", ""], [1.773, 4.823, 40, 40], [4.823, 5.449, 40, 60], [5.449, 5.934, 60, 60]]
+curves = [[0.308, 0.383, 2840], [0.433, 0.483, 2170], [0.658, 0.883, 1230], [1.008, 1.058, 1540], [1.108, 1.183, 2200], [1.621, 1.961, 450], [2.23, 2.707, 510], [3.638, 3.82, 1040], [4.018, 4.634, 380], [4.734, 4.809, 2080], [5.734, 5.809, 1240]]
+points = [
+  { km = 0.042, kind = "signal", label = "322II", signal = "minor", dir = 1 },
+  { km = 0.646, kind = "signal", label = "P322", signal = "main,minor,traversable,wrong_road", dir = 1 },
+  { km = 0.874, kind = "signal", label = "548II", signal = "minor", dir = -1 },
+  { km = 1.118, kind = "signal", label = "548I", signal = "minor", dir = 1 },
+  { km = 1.183, kind = "signal", signal = "distant", dir = -1 },
+  { km = 1.36, kind = "signal", label = "747II", signal = "minor", dir = -1 },
+  { km = 1.695, kind = "signal", label = "747I", signal = "minor", dir = 1 },
+  { km = 1.763, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 1.772, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 1.991, kind = "signal", label = "D717", signal = "main,speed_limit", dir = -1 },
+  { km = 2.787, kind = "station", label = "Nürnberg-Sandreuth", uic = "8004484", pos = [49.4296, 11.05476] },
+  { km = 2.975, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.052, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.074, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.133, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.152, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.211, kind = "signal", signal = "distant", dir = 1 },
+  { km = 3.229, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.317, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 3.9, kind = "signal", signal = "electricity", dir = -1 },
+  { km = 3.908, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.048, kind = "signal", label = "30 M", signal = "combined,speed_limit", dir = 1 },
+  { km = 4.559, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 4.671, kind = "signal", label = "30L1456Y", signal = "minor", dir = -1 },
+  { km = 4.734, kind = "station", label = "Rothenburger Straße", pos = [49.44441, 11.05506] },
+  { km = 4.793, kind = "halt", label = "Nürnberg Rothenburger Straße", uic = "8004473", pos = [49.44546, 11.05519] },
+  { km = 4.823, kind = "signal", label = "30 P456", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 5.449, kind = "signal", label = "30N456", signal = "main,route,speed_limit", dir = 1 },
+  { km = 5.781, kind = "signal", signal = "distant,speed_limit_distant" },
+  { km = 5.796, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 5.81, kind = "signal", signal = "electricity", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.201, kmTo = 1.268, length = 69 },
+  { kind = "bridge", kmFrom = 2.352, kmTo = 2.36, length = 10 },
+  { kind = "bridge", kmFrom = 2.459, kmTo = 2.574, length = 57 },
+  { kind = "bridge", kmFrom = 2.769, kmTo = 2.8, length = 39 },
+  { kind = "bridge", kmFrom = 3.343, kmTo = 3.374, length = 30 },
+  { kind = "bridge", kmFrom = 4.219, kmTo = 4.314, length = 100 },
+  { kind = "tunnel", kmFrom = 4.36, kmTo = 4.419, length = 62 },
+  { kind = "bridge", kmFrom = 4.424, kmTo = 4.441, length = 18 },
+  { kind = "bridge", kmFrom = 4.737, kmTo = 4.765, length = 28 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "siylH}pkbAj]}rA", v = 60 },
+  { line = "gkxlH{dnbAnFaQjE{H", v = 40 },
+  { line = "k}wlHy`obAbBmA", tunnel = true, v = 40 },
+  { line = "gzwlHgcobA|DeAnDRhUpNh}@tUjEk@vD{B~R{UnC{G", v = 40 },
+  { line = "quslHqcobAF]" },
+  { line = "iuslHodobAp@}FpFahAdAmJzLor@", v = 40 },
+  { line = "c|rlHmtsbA\\mB", v = 25 },
+]
+posts = [[5, 49.44658, 11.05288], [4, 49.44001, 11.05928], [3, 49.43173, 11.05541], [2, 49.4233, 11.05763], [1, 49.42062, 11.07065], [0, 49.41764, 11.08363]]
+
+[[connections]]
+km = 2.787
+station = "Nürnberg-Sandreuth"
+lines = [
+  { id = "5320", ref = "5320", name = "5320 Treuchtlingen - Nürnberg Hbf, W 44", km = 58.833 },
+  { id = "5971", ref = "5971", name = "5971 Nürnberg Hbf - Roth", km = 2.975 },
+]
+
+[[connections]]
+km = 4.734
+station = "Rothenburger Straße"
+lines = [
+  { id = "5900", ref = "5900", name = "5900 Nürnberg - Bamberg", km = 2.064 },
+  { id = "5907", ref = "5907", name = "5907 Nürnberg Hbf - Fürth (Bay) Hbf", km = 2.064 },
+  { id = "5950", ref = "5950", name = "5950 Nürnberg Rbf - Fürth (Bay) Hbf", km = 14.762 },
+  { id = "5972", ref = "5972", name = "S-Bahn-Verschwenk Steinach (geplant& beklagt)", km = 2.067 },
+]
+
+[[connections]]
+km = 4.793
+station = "Nürnberg Rothenburger Straße"
+lines = [
+  { id = "5900", ref = "5900", name = "5900 Nürnberg - Bamberg", km = 2.109 },
+  { id = "5907", ref = "5907", name = "5907 Nürnberg Hbf - Fürth (Bay) Hbf", km = 2.108 },
+  { id = "5950", ref = "5950", name = "5950 Nürnberg Rbf - Fürth (Bay) Hbf", km = 18.17 },
+  { id = "5972", ref = "5972", name = "S-Bahn-Verschwenk Steinach (geplant& beklagt)", km = 2.187 },
+]

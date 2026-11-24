@@ -1,0 +1,54 @@
+id = "4050"
+ref = "4050"
+operator = "DB InfraGO"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 2.742
+kmTo = 6.839
+length = 4.117
+speeds = [[2.742, 6.839, "", ""]]
+curves = [[2.892, 2.992, 1330], [3.267, 3.317, 2260], [4.066, 4.246, 1740], [4.399, 4.553, 1280], [5.066, 5.318, 1400], [5.392, 5.663, 780], [5.712, 5.811, 950], [6.477, 6.6, 1480]]
+points = [
+  { km = 2.858, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.027, kind = "signal", signal = "minor", dir = -1 },
+  { km = 3.18, kind = "signal", signal = "station_distant", dir = 1 },
+  { km = 4.003, kind = "signal", signal = "distant", dir = 1 },
+  { km = 4.279, kind = "halt", label = "Mannheim ARENA/Maimarkt Bft", uic = "8003841", pos = [49.45992, 8.51581], measured = true },
+  { km = 4.294, kind = "stop", label = "Mannheim ARENA/Maimarkt", pos = [49.45998, 8.51592], uic = "8014015" },
+  { km = 5.014, kind = "signal", signal = "main,traversable", dir = 1 },
+  { km = 5.123, kind = "signal", signal = "minor", dir = 1 },
+  { km = 5.172, kind = "signal", signal = "station_distant", dir = -1 },
+  { km = 5.185, kind = "signal", signal = "distant", dir = 1 },
+  { km = 5.301, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 5.772, kind = "signal", signal = "minor", dir = -1 },
+  { km = 6.145, kind = "halt", label = "Mannheim-Seckenheim", uic = "8014016", pos = [49.45111, 8.53891], measured = true },
+  { km = 6.506, kind = "signal", signal = "main", dir = 1 },
+  { km = 6.643, kind = "signal", signal = "minor", dir = 1 },
+  { km = 6.649, kind = "signal", signal = "distant", dir = 1 },
+  { km = 6.654, kind = "signal", signal = "minor", dir = -1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}l|lHqpzr@pM{i@pVw}@rGq]lO{j@lCcIjJqQhDaQzTay@`IkT" },
+]
+posts = [[3, 49.46543, 8.50001], [4, 49.46095, 8.51244], [5, 49.45693, 8.5244], [6, 49.45202, 8.53595]]
+
+[[connections]]
+km = 4.279
+station = "Mannheim ARENA/Maimarkt Bft"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 4.279 },
+  { id = "7702", ref = "7702", km = 4.279 },
+]
+
+[[connections]]
+km = 6.145
+station = "Mannheim-Seckenheim"
+lines = [
+  { id = "4000", ref = "4000", name = "4000 Mannheim - Konstanz", km = 6.164 },
+  { id = "7702", ref = "7702", km = 6.145 },
+]

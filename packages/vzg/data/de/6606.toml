@@ -1,0 +1,94 @@
+id = "6606"
+ref = "6606"
+name = "Bahnstrecke 6606 Dresden-Klotzsche - Straßgräbchen-Bernsdorf (Ol)"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Dresden-Klotzsche"
+to = "Straßgräbchen-Bernsdorf (Ol)"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.995
+kmTo = 19.917
+length = 18.892
+speeds = [[0.995, 9.889, 50, 50], [9.889, 9.989, "", ""], [9.989, 10.478, 10, 10], [10.478, 16.526, 50, 50], [16.526, 16.597, 30, ""], [16.597, 17.356, 40, 50], [17.356, 17.377, 10, 10], [17.377, 19.7, 50, 50], [19.7, 19.917, 10, 10]]
+curves = [[1.095, 1.395, 1130], [1.495, 2.067, 320], [2.648, 3.154, 320], [3.398, 3.771, 470], [4.147, 4.197, 2220], [4.323, 4.373, 1420], [4.423, 5.15, 490], [5.2, 5.375, 800], [5.45, 5.549, 820], [5.599, 6.528, 580], [6.576, 6.72, 520], [6.768, 7.032, 390], [7.129, 7.36, 630], [7.411, 7.694, 540], [8.053, 8.309, 710], [8.617, 8.694, 1960], [8.745, 8.976, 390], [9.319, 9.892, 320], [9.949, 10.42, 670], [10.47, 10.545, 1800], [10.972, 11.198, 1180], [11.323, 11.449, 1880], [11.926, 12.051, 2010], [12.756, 13.014, 440], [13.092, 13.298, 700], [13.761, 13.933, 550], [14.217, 14.421, 500], [14.522, 15.172, 690], [15.223, 15.527, 350], [15.601, 15.757, 1310], [15.981, 16.129, 980], [16.474, 16.671, 620], [17.09, 17.534, 510], [17.811, 17.862, 2510], [18.459, 18.534, 2650], [18.658, 18.732, 1970], [18.832, 19.319, 880], [19.448, 19.783, 420]]
+points = [
+  { km = 1.073, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 1.517, kind = "signal", label = "48B", signal = "combined", dir = -1 },
+  { km = 1.654, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.459, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.112, kind = "stop", label = "Weixdorf Bad", pos = [51.14006, 13.80191], uic = "8006195" },
+  { km = 4.34, kind = "stop", label = "Weixdorf", pos = [51.15022, 13.80669], uic = "8006196" },
+  { km = 6.457, kind = "stop", label = "Hermsdorf (b Dresden)", pos = [51.16566, 13.81567] },
+  { km = 7.191, kind = "signal", signal = "distant", dir = 1 },
+  { km = 7.572, kind = "signal", label = "A", signal = "combined", dir = 1 },
+  { km = 7.837, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 8.039, kind = "signal", label = "B", signal = "main", dir = -1 },
+  { km = 8.08, kind = "station", label = "Ottendorf-Okrilla Süd", pos = [51.17787, 13.8249] },
+  { km = 8.681, kind = "signal", label = "F", signal = "combined", dir = -1 },
+  { km = 9.294, kind = "signal", signal = "distant", dir = -1 },
+  { km = 9.367, kind = "stop", label = "Ottendorf-Okrilla Hp", pos = [51.18673, 13.83611] },
+  { km = 9.759, kind = "signal", signal = "distant", dir = 1 },
+  { km = 9.94, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.989, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.086, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.257, kind = "signal", signal = "distant", dir = 1 },
+  { km = 10.32, kind = "signal", label = "A", signal = "combined", dir = 1 },
+  { km = 10.454, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 10.478, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 10.482, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 10.649, kind = "signal", label = "B", signal = "main", dir = -1 },
+  { km = 10.699, kind = "station", label = "Ottendorf-Okrilla Nord", pos = [51.19748, 13.83508] },
+  { km = 10.877, kind = "signal", label = "F2", signal = "main", dir = 1 },
+  { km = 10.905, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 11.032, kind = "signal", signal = "distant", dir = -1 },
+  { km = 11.195, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 11.662, kind = "signal", signal = "main", dir = -1 },
+  { km = 12.058, kind = "signal", signal = "distant", dir = -1 },
+  { km = 16.116, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 16.526, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 16.603, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 16.848, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 16.967, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 17.058, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 17.105, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 17.265, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 17.404, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 17.426, kind = "signal", signal = "stop", dir = -1 },
+  { km = 17.448, kind = "stop", label = "Laußnitz", pos = [51.24834, 13.87975] },
+  { km = 17.854, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 17.915, kind = "signal", signal = "crossing_distant", dir = -1 },
+  { km = 18.441, kind = "signal", signal = "distant", dir = 1 },
+  { km = 18.65, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 18.85, kind = "signal", signal = "main", dir = 1 },
+  { km = 19.049, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 19.288, kind = "signal", signal = "stop,train_protection", dir = -1 },
+  { km = 19.415, kind = "station", label = "Königsbrück", pos = [51.26016, 13.89999], uic = "8006204" },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.946, kmTo = 1.968, length = 24 },
+  { kind = "bridge", kmFrom = 2.677, kmTo = 2.69, length = 12 },
+  { kind = "bridge", kmFrom = 2.843, kmTo = 2.855, length = 12 },
+  { kind = "bridge", kmFrom = 4.844, kmTo = 4.861, length = 16 },
+  { kind = "bridge", kmFrom = 6.71, kmTo = 6.735, length = 26 },
+  { kind = "bridge", kmFrom = 7.315, kmTo = 7.364, length = 48 },
+  { kind = "bridge", kmFrom = 9.369, kmTo = 9.375, length = 12 },
+  { kind = "bridge", kmFrom = 9.868, kmTo = 9.889, length = 19 },
+  { kind = "bridge", kmFrom = 19.7, kmTo = 19.723, length = 22 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "sh`wHiffsAgDaEoDeHoLu\\aCwCmCcAgDNeCtA{_@tc@gCbB{Cf@yC[kBeAcQ{YkC_CcDgAio@GwBgAyEuGsDqA}FjAsOfGoJPoGfAgCg@wCeDkDqJgAyEuA}McA{D{C}H{FqJ{DmMwByDwBqAgMiD_MuNqa@kDi]oUsCcFiKuc@}CuEiCs@kIz@mE`D", v = 50 },
+  { line = "kemwHkjmsAwB`D" },
+  { line = "cimwHiemsAmCpBgGz@cLoA", v = 10 },
+  { line = "}bnwHkbmsAg_@wCaO_Fw_@_Vah@wc@iDo@cNb@y_@qMyBuA{QeUkQiGwFwHoFgMcAiE}@mN{AoFqLkNgMuRsPwa@", v = 50 },
+  { line = "__wwHautsA}AqC", v = 30 },
+  { line = "}awwHsytsA_[eZeIiB", v = 50 },
+  { line = "chxwHcxusAc@M", v = 10 },
+  { line = "gixwHqxusA_DcCug@gu@iU{_@eDuLwA_I}AkVJuD|@mF", v = 50 },
+  { line = "yuzwH_pzsA`FmO", v = 10 },
+]
+posts = [[1, 51.12477, 13.79961], [2, 51.13162, 13.80723], [3, 51.13924, 13.80105], [4, 51.14708, 13.80658], [5, 51.15563, 13.80835], [6, 51.16369, 13.8095], [7, 51.16915, 13.82107], [8, 51.17739, 13.82491], [9, 51.18497, 13.83093], [10, 51.19145, 13.83517], [11, 51.20017, 13.83546], [12, 51.20853, 13.84039], [13, 51.21643, 13.8464], [14, 51.22499, 13.85001], [15, 51.23239, 13.85736], [16, 51.23791, 13.86773], [17, 51.24456, 13.8774], [18, 51.25211, 13.88478], [19, 51.25882, 13.89437]]

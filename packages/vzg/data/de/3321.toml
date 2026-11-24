@@ -1,0 +1,31 @@
+id = "3321"
+ref = "3321"
+name = "3321 Hochspeyer, W 50 - Hochspeyer, W 45"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Hochspeyer Nord"
+to = "Hochspeyer Ost"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.954
+length = 0.954
+speeds = [[0, 0.954, 60, 60]]
+curves = [[0.1, 0.825, 390]]
+points = [
+  { km = 0.235, kind = "signal", label = "10N40", signal = "main,speed_limit", dir = -1 },
+  { km = 0.373, kind = "signal", signal = "distant", dir = -1 },
+  { km = 0.693, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.815, kind = "signal", signal = "main,minor", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.35, kmTo = 0.379, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "c_xlH{jio@uAdKeBjGuChEaDpBcDj@wDYyMkH", v = 60 },
+]
+posts = [[0, 49.44386, 7.91742]]

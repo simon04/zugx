@@ -1,0 +1,61 @@
+id = "2402"
+ref = "2402"
+name = "2402 Abzw Düsseldorf Rethel - Abzw Düsseldorf Dora"
+operator = "DB InfraGO AG"
+gauge = "1435"
+wikidata = "Q18326377"
+from = "Düsseldorf Rethel"
+to = "Düsseldorf Dora"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 1.023
+length = 1.023
+speeds = [[0, 1.016, 60, 60], [1.016, 1.023, "", ""]]
+curves = [[0.1, 0.5, 370], [0.825, 0.9, 1800]]
+points = [
+  { km = 0, kind = "halt", label = "Wehrhahn S", pos = [51.22999, 6.79826] },
+  { km = 0.026, kind = "station", label = "Düsseldorf Wehrhahn", uic = "8001582", pos = [51.22842, 6.79816] },
+  { km = 0.068, kind = "signal", signal = "distant", dir = 1 },
+  { km = 0.716, kind = "signal", label = "941", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 0.931, kind = "halt", label = "Düsseldorf-Flingern", uic = "8001598", pos = [51.22624, 6.81002] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "mrtwH}xnh@~CeB~BkDxAaEdAmGPkx@", v = 60 },
+  { line = "{ctwHkiqh@?S" },
+]
+posts = [[0, 51.22871, 6.79839], [1, 51.22639, 6.81103]]
+
+[[connections]]
+km = 0
+station = "Wehrhahn S"
+lines = [
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 1.227 },
+  { id = "2413", ref = "2413", name = "2413 Düsseldorf-Eller - Düsseldorf Hbf", km = 6.985 },
+  { id = "2416", ref = "2416", name = "2416 Düsseldorf Hbf - Düsseldorf-Unterrath", km = 1.227 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 40.757 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 40.734 },
+]
+
+[[connections]]
+km = 0.026
+station = "Düsseldorf Wehrhahn"
+lines = [
+  { id = "2400", ref = "2400", name = "2400 Düsseldorf – Hagen", km = 1.062 },
+  { id = "2413", ref = "2413", name = "2413 Düsseldorf-Eller - Düsseldorf Hbf", km = 6.823 },
+  { id = "2416", ref = "2416", name = "2416 Düsseldorf Hbf - Düsseldorf-Unterrath", km = 1.058 },
+  { id = "2650", ref = "2650", name = "2650 Köln-Deutz - Hamm", km = 40.593 },
+  { id = "2670", ref = "2670", name = "2670 Köln - Duisburg", km = 40.559 },
+]
+
+[[connections]]
+km = 0.931
+station = "Düsseldorf-Flingern"
+lines = [
+  { id = "2525", ref = "2525", name = "2525 Neuss - Schwelm", km = 12.649 },
+  { id = "2550", ref = "2550", name = "2550 Aachen - Kassel", km = 89.866 },
+]

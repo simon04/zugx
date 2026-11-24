@@ -1,0 +1,151 @@
+id = "4842"
+ref = "4842"
+name = "4842 Sersheim Strw 4800/4842 - Illingen Strw 4842/4800"
+operator = "DB InfraGO AG"
+gauge = "1435"
+from = "Sersheim Streckenwechsel 4800/4842"
+to = "Illingen Streckenwechsel 4842/4800"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 134.114
+kmTo = 152.37
+length = 18.248
+speeds = [[134.114, 136.793, 140, 140], [136.793, 138.201, 120, 120], [138.201, 140.313, 130, 130], [140.313, 141.832, 120, 120], [141.832, 146.567, 140, 140], [146.567, 147.053, 100, 100], [147.053, 152.37, 140, 140]]
+curves = [[134.215, 134.616, 1360], [134.87, 135.575, 1260], [136.461, 136.887, 1130], [137.311, 137.523, 1140], [137.576, 138.216, 830], [140.219, 141.141, 750], [141.297, 141.747, 910], [146.222, 147.397, 1150], [151.872, 152.247, 900]]
+points = [
+  { km = 41, kind = "station", label = "Illingen (Württemberg)", pos = [48.95662, 8.92191], measured = true, uic = "8029007", ele = 235 },
+  { km = 41, kind = "stop", label = "Illingen (Württemberg)", uic = "8003060", pos = [48.95665, 8.92125], measured = true },
+  { km = 45.401, kind = "stop", label = "Mühlacker Rößlesweg", pos = [48.95642, 8.86072], measured = true, uic = "8066175" },
+  { km = 45.401, kind = "stop", label = "Mühlacker Rößlesweg", pos = [48.9564, 8.86042], measured = true },
+  { km = 134.459, kind = "signal", label = "652", signal = "main", dir = 1 },
+  { km = 134.665, kind = "signal", signal = "route,wrong_road", dir = 1 },
+  { km = 135.113, kind = "signal", label = "601", signal = "main", dir = -1 },
+  { km = 135.113, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 135.309, kind = "signal", label = "Wv601", signal = "distant", dir = -1 },
+  { km = 135.522, kind = "signal", label = "b597", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 135.794, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 136.137, kind = "signal", label = "v601", signal = "distant", dir = -1 },
+  { km = 136.657, kind = "signal", label = "G597", signal = "main,speed_limit", dir = 1 },
+  { km = 136.793, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 136.901, kind = "signal", label = "581I", signal = "minor", dir = 1 },
+  { km = 137.47, kind = "signal", label = "N561", signal = "main,minor,speed_limit,wrong_road", dir = -1 },
+  { km = 138.014, kind = "signal", label = "Wvs561I", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 138.201, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 138.221, kind = "signal", label = "S561", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 138.268, kind = "signal", signal = "route_distant", dir = 1 },
+  { km = 138.365, kind = "signal", label = "551I", signal = "minor", dir = 1 },
+  { km = 138.483, kind = "signal", label = "541II", signal = "minor", dir = -1 },
+  { km = 138.734, kind = "signal", signal = "departure" },
+  { km = 138.737, kind = "signal", label = "R501", signal = "distant,main,minor,speed_limit_distant", dir = -1 },
+  { km = 138.821, kind = "station", label = "Vaihingen (Enz)", pos = [48.94769, 8.95828], ele = 249 },
+  { km = 138.839, kind = "signal", signal = "stop", dir = 1 },
+  { km = 138.937, kind = "signal", signal = "stop", dir = 1 },
+  { km = 138.939, kind = "signal", signal = "departure" },
+  { km = 139.021, kind = "signal", label = "Wvp501I", signal = "distant", dir = 1 },
+  { km = 139.031, kind = "signal", signal = "stop", dir = 1 },
+  { km = 139.16, kind = "signal", signal = "main_repeated", dir = 1 },
+  { km = 139.16, kind = "signal", signal = "departure" },
+  { km = 139.166, kind = "signal", label = "Wvp501II", signal = "distant", dir = 1 },
+  { km = 139.192, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 139.201, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 139.203, kind = "signal", signal = "stop", dir = 1 },
+  { km = 139.487, kind = "signal", label = "P501", signal = "main,minor,wrong_road", dir = 1 },
+  { km = 139.842, kind = "signal", label = "531I", signal = "minor", dir = 1 },
+  { km = 139.968, kind = "signal", label = "521II", signal = "minor", dir = -1 },
+  { km = 139.979, kind = "signal", label = "vb413", signal = "distant", dir = 1 },
+  { km = 140.186, kind = "signal", label = "r III", signal = "distant,route_distant", dir = -1 },
+  { km = 140.271, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 140.467, kind = "signal", label = "B593", signal = "main,speed_limit", dir = -1 },
+  { km = 140.689, kind = "signal", label = "Wvb593 II", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 141.193, kind = "signal", label = "B413", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 141.212, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 141.212, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 141.268, kind = "signal", signal = "catenary_mast,train_protection", dir = -1 },
+  { km = 141.455, kind = "signal", signal = "distant,speed_limit_distant", dir = -1 },
+  { km = 141.832, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 141.832, kind = "signal", label = "P401", signal = "main,minor", dir = -1 },
+  { km = 141.839, kind = "signal", signal = "stop", dir = -1 },
+  { km = 141.905, kind = "signal", signal = "stop", dir = -1 },
+  { km = 141.97, kind = "signal", signal = "stop", dir = -1 },
+  { km = 142.004, kind = "signal", signal = "stop", dir = -1 },
+  { km = 142.606, kind = "signal", label = "N401", signal = "main,minor,speed_limit,wrong_road", dir = 1 },
+  { km = 142.851, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 142.939, kind = "signal", signal = "distant", dir = 1 },
+  { km = 143.261, kind = "signal", label = "F430", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 143.94, kind = "signal", label = "421", signal = "main", dir = 1 },
+  { km = 144.289, kind = "signal", signal = "distant", dir = 1 },
+  { km = 144.447, kind = "signal", label = "414", signal = "distant,main,speed_limit_distant", dir = -1 },
+  { km = 145.251, kind = "signal", signal = "distant,main,route_distant", dir = 1 },
+  { km = 145.439, kind = "signal", label = "v414", signal = "distant", dir = -1 },
+  { km = 145.536, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 145.735, kind = "signal", label = "418", signal = "main", dir = -1 },
+  { km = 146.239, kind = "signal", label = "B", signal = "main,route,speed_limit", dir = 1 },
+  { km = 146.284, kind = "signal", label = "Wv418", signal = "distant", dir = -1 },
+  { km = 146.567, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 146.567, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 146.632, kind = "signal", signal = "distant", dir = 1 },
+  { km = 146.682, kind = "signal", label = "v418", signal = "distant", dir = -1 },
+  { km = 146.696, kind = "signal", signal = "minor", dir = 1 },
+  { km = 146.923, kind = "signal", signal = "minor", dir = -1 },
+  { km = 146.926, kind = "signal", label = "v420", signal = "distant", dir = 1 },
+  { km = 146.973, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 146.988, kind = "signal", signal = "distant", dir = -1 },
+  { km = 147.052, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 147.053, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 147.337, kind = "signal", label = "Wv420", signal = "distant", dir = 1 },
+  { km = 147.382, kind = "signal", label = "A", signal = "main,route,speed_limit", dir = -1 },
+  { km = 147.885, kind = "signal", label = "420", signal = "main", dir = 1 },
+  { km = 148.085, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 148.182, kind = "signal", label = "v416", signal = "distant", dir = 1 },
+  { km = 148.37, kind = "signal", signal = "distant,main,route_distant", dir = -1 },
+  { km = 149.174, kind = "signal", label = "416", signal = "distant,main,speed_limit_distant", dir = 1 },
+  { km = 149.332, kind = "signal", signal = "distant", dir = -1 },
+  { km = 149.68, kind = "signal", label = "419", signal = "main", dir = -1 },
+  { km = 150.36, kind = "signal", label = "G412", signal = "distant,main,speed_limit", dir = 1 },
+  { km = 150.682, kind = "signal", signal = "distant", dir = -1 },
+  { km = 150.77, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 151.156, kind = "signal", label = "N402", signal = "main,minor,speed_limit,wrong_road", dir = -1 },
+  { km = 151.789, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 151.872, kind = "signal", label = "P402", signal = "main,minor,wrong_road", dir = 1 },
+  { km = 152.164, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 152.35, kind = "signal", signal = "catenary_mast,train_protection", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 134.549, kmTo = 134.582, length = 31 },
+  { kind = "tunnel", kmFrom = 136.827, kmTo = 137.996, length = 1102, name = "Nebenweg-Tunnel" },
+  { kind = "bridge", kmFrom = 142.108, kmTo = 142.155, length = 47 },
+  { kind = "bridge", kmFrom = 142.478, kmTo = 142.499, length = 21 },
+  { kind = "bridge", kmFrom = 151.117, kmTo = 151.139, length = 22 },
+  { kind = "bridge", kmFrom = 151.466, kmTo = 151.513, length = 47 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ctxiHyi_v@`ElV~Cvn@~ArMfBzIbHjRnd@lz@jC|GnBfI", v = 140 },
+  { line = "ilviHcgyu@TpA", v = 120 },
+  { line = "skviHqdyu@fHbi@f@pIVjP_BbT", tunnel = true, v = 120 },
+  { line = "kcviHkivu@cBdH}CpH", v = 120 },
+  { line = "mkviHsvuu@{d@f}@kl@h_A", v = 130 },
+  { line = "u~xiHaxqu@sCnH{AvHk@hHG|HhAbR~FnYvAbKh@dMCdL", v = 120 },
+  { line = "qyxiHm|mu@?dxJVrL`A`M", v = 140 },
+  { line = "wvxiHqgau@dDdRkDcR", v = 100 },
+  { line = "}vxiHogau@cAaMU_L@afKeAqQqCeO", v = 140 },
+]
+posts = [[135, 48.95393, 9.00154], [136, 48.94905, 8.99053], [137, 48.94362, 8.97926], [138, 48.9428, 8.96673], [139, 48.94893, 8.95569], [140, 48.95549, 8.94612], [141, 48.95848, 8.93431], [142, 48.9566, 8.92145], [143, 48.95651, 8.90776], [144, 48.95653, 8.89406], [145, 48.95655, 8.88037], [146, 48.95657, 8.86667], [147, 48.95601, 8.85827], [148, 48.9566, 8.87186], [149, 48.95658, 8.88556], [150, 48.95656, 8.89926], [151, 48.95654, 8.91295], [152, 48.95663, 8.92664]]
+
+[[connections]]
+km = 41
+station = "Illingen"
+lines = [
+  { id = "4800", ref = "4800", name = "4800 Stuttgart - Bretten Strw 4130/4800", km = 41 },
+]
+
+[[connections]]
+km = 138.821
+station = "Vaihingen"
+lines = [
+  { id = "4080", ref = "4080", name = "4080 Schnellfahrstrecke Mannheim-Stuttgart", km = 78.448 },
+  { id = "4800", ref = "4800", name = "4800 Stuttgart - Bretten Strw 4130/4800", km = 38.106 },
+]

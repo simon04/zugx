@@ -1,0 +1,38 @@
+id = "3146"
+ref = "3146"
+name = "3146 Ehrang - Trier Hbf"
+operator = "DB Netz AG"
+gauge = "1435"
+from = "Ehrang"
+to = "Trier Hbf"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 0.562
+length = 0.562
+speeds = [[0, 0.562, "", ""]]
+curves = [[0.1, 0.275, 750], [0.325, 0.45, 620]]
+points = [
+  { km = 0.157, kind = "signal", signal = "distant,main", dir = -1 },
+  { km = 0.164, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 0.322, kind = "signal", label = "10", signal = "minor", dir = 1 },
+  { km = 107.9, kind = "halt", label = "Pfalzel", uic = "8004784", pos = [49.78041, 6.6829], measured = true },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.517, kmTo = 0.528, length = 10 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ynynHwjxg@uHdBqKtGyFb@" },
+]
+posts = [[0, 49.77917, 6.68348]]
+
+[[connections]]
+km = 107.9
+station = "Pfalzel"
+lines = [
+  { id = "3010", ref = "3010", name = "Moselstrecke", km = 107.776 },
+]

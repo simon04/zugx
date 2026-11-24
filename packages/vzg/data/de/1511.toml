@@ -1,0 +1,29 @@
+id = "1511"
+ref = "1511"
+name = "1511 Abzw Oldenburg-Hemmelsberg - Abzweig Oldenburg (Oldb) Tweelbäke"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q19964289"
+from = "Oldenburg-Hemmelsberg"
+to = "Oldenburg (Oldb) Tweelbäke"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.035
+kmTo = 2.408
+length = 2.381
+speeds = [[0.035, 2.408, 40, 40]]
+curves = [[0.135, 0.766, 490], [1.151, 1.502, 650], [1.977, 2.302, 610]]
+points = [
+  { km = 0.501, kind = "signal", label = "21", signal = "main", dir = -1 },
+  { km = 1.172, kind = "signal", signal = "distant", dir = 1 },
+  { km = 1.22, kind = "signal", signal = "distant", dir = -1 },
+  { km = 2.139, kind = "signal", label = "31", signal = "main", dir = 1 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}lhcIogjq@cBrPl@lLlCrHrKvLxWzL`Dn@`FCtb@oHzIxBdEN", v = 40 },
+]
+posts = [[1, 53.12785, 8.23975], [2, 53.11926, 8.23988]]

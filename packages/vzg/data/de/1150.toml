@@ -1,0 +1,134 @@
+id = "1150"
+ref = "1150"
+name = "1150 Lüneburg - Büchen"
+operator = "DB Netz AG"
+gauge = "1435"
+wikidata = "Q21933142"
+from = "Lüneburg"
+to = "Büchen"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 131.213
+kmTo = 161.541
+length = 30.323
+speeds = [[131.213, 131.783, "", ""], [131.783, 131.978, 60, 60], [131.978, 132.34, 70, 70], [132.34, 147.132, 120, 120], [147.132, 149.874, 110, 110], [149.874, 160.753, 120, 120], [160.753, 161.541, 80, 80]]
+curves = [[131.738, 132.082, 1050], [132.245, 132.534, 1550], [137.738, 137.888, 2130], [145.431, 146.072, 880], [147.032, 147.774, 830], [148.426, 148.728, 1150], [149.202, 150.098, 1210], [158.834, 159.16, 2080], [159.31, 159.385, 1960], [160.953, 161.417, 720]]
+points = [
+  { km = 131.416, kind = "signal", label = "S 203", signal = "distant,main,minor,speed_limit", dir = -1 },
+  { km = 131.42, kind = "signal", signal = "stop", dir = -1 },
+  { km = 131.534, kind = "signal", signal = "stop", dir = 1 },
+  { km = 131.6, kind = "station", label = "Lüneburg", pos = [53.24977, 10.41977], measured = true, uic = "8001173" },
+  { km = 131.638, kind = "signal", signal = "distant", dir = 1 },
+  { km = 131.668, kind = "signal", signal = "main_repeated" },
+  { km = 131.81, kind = "signal", label = "T 203", signal = "distant,main,minor,speed_limit", dir = 1 },
+  { km = 131.978, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 131.994, kind = "signal", signal = "minor", dir = -1 },
+  { km = 132.111, kind = "halt", label = "Lüneburg Nord", pos = [53.25418, 10.42171] },
+  { km = 132.172, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 132.307, kind = "signal", signal = "electricity", dir = 1 },
+  { km = 132.402, kind = "signal", signal = "distant,main,speed_limit", dir = -1 },
+  { km = 133.087, kind = "signal", signal = "main", dir = -1 },
+  { km = 133.335, kind = "signal", signal = "distant", dir = -1 },
+  { km = 133.723, kind = "signal", signal = "main", dir = 1 },
+  { km = 134.306, kind = "signal", label = "a500", signal = "distant", dir = 1 },
+  { km = 135.306, kind = "signal", label = "A500", signal = "main", dir = 1 },
+  { km = 135.519, kind = "signal", label = "522 II", signal = "minor", dir = 1 },
+  { km = 135.645, kind = "signal", label = "P502", signal = "main", dir = -1 },
+  { km = 135.914, kind = "station", label = "Adendorf", pos = [53.28245, 10.45436] },
+  { km = 136.264, kind = "signal", label = "N502", signal = "main", dir = 1 },
+  { km = 136.603, kind = "signal", label = "F007", signal = "main", dir = -1 },
+  { km = 137.675, kind = "signal", label = "f007", signal = "distant", dir = -1 },
+  { km = 144.098, kind = "stop", label = "Echem", pos = [53.33707, 10.53727], uic = "8001646" },
+  { km = 145.614, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 146.172, kind = "signal", signal = "speed_limit_distant", dir = 1 },
+  { km = 146.81, kind = "signal", signal = "distant,speed_limit_distant", dir = 1 },
+  { km = 147.05, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 147.132, kind = "signal", label = "98a", signal = "speed_limit", dir = 1 },
+  { km = 147.795, kind = "signal", label = "98A", signal = "combined,speed_limit", dir = 1 },
+  { km = 148.407, kind = "signal", label = "Vn", signal = "distant,speed_limit_distant" },
+  { km = 148.536, kind = "signal", label = "98P2", signal = "main", dir = -1 },
+  { km = 148.609, kind = "stop", label = "Lauenburg (Elbe)", pos = [53.36969, 10.5683] },
+  { km = 148.613, kind = "station", label = "Lauenburg/Elbe", uic = "8003577", pos = [53.36975, 10.56832] },
+  { km = 148.679, kind = "signal", signal = "distant", dir = 1 },
+  { km = 149.419, kind = "signal", label = "98N2", signal = "main", dir = 1 },
+  { km = 149.874, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 149.962, kind = "signal", label = "98F", signal = "combined", dir = -1 },
+  { km = 149.969, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 150.902, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 151, kind = "signal", signal = "speed_limit_distant", dir = -1 },
+  { km = 151.102, kind = "signal", label = "98f", signal = "distant", dir = -1 },
+  { km = 151.205, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 152.597, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 152.815, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 154.137, kind = "signal", label = "a451", signal = "distant", dir = 1 },
+  { km = 155.157, kind = "signal", label = "A451", signal = "distant,main", dir = 1 },
+  { km = 155.523, kind = "signal", label = "P401", signal = "main", dir = -1 },
+  { km = 156.234, kind = "signal", label = "N401", signal = "main", dir = 1 },
+  { km = 156.505, kind = "signal", label = "F454", signal = "main", dir = -1 },
+  { km = 159.202, kind = "signal", signal = "distant", dir = 1 },
+  { km = 160.402, kind = "signal", signal = "shunting", dir = -1 },
+  { km = 160.667, kind = "signal", signal = "minor", dir = 1 },
+  { km = 160.753, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 160.838, kind = "signal", signal = "minor", dir = -1 },
+  { km = 160.988, kind = "signal", label = "26 P21", signal = "main,minor,speed_limit", dir = -1 },
+  { km = 161.212, kind = "station", label = "Büchen", pos = [53.47505, 10.62314], uic = "8001054" },
+  { km = 161.336, kind = "stop", label = "Büchen", pos = [53.47508, 10.62276] },
+  { km = 161.371, kind = "signal", label = "26 ZR21", signal = "combined,main,minor,route,speed_limit", dir = 1 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 131.429, kmTo = 131.451, length = 22 },
+  { kind = "bridge", kmFrom = 131.745, kmTo = 131.783, length = 38 },
+  { kind = "bridge", kmFrom = 133.892, kmTo = 133.944, length = 52 },
+  { kind = "bridge", kmFrom = 137.854, kmTo = 137.874, length = 20 },
+  { kind = "bridge", kmFrom = 139.179, kmTo = 139.203, length = 24 },
+  { kind = "bridge", kmFrom = 139.621, kmTo = 139.76, length = 138 },
+  { kind = "bridge", kmFrom = 140.3, kmTo = 140.329, length = 29 },
+  { kind = "bridge", kmFrom = 142.934, kmTo = 142.988, length = 55 },
+  { kind = "bridge", kmFrom = 145.433, kmTo = 145.449, length = 16 },
+  { kind = "bridge", kmFrom = 147.404, kmTo = 147.44, length = 36 },
+  { kind = "bridge", kmFrom = 147.819, kmTo = 147.854, length = 34 },
+  { kind = "bridge", kmFrom = 147.879, kmTo = 148.401, length = 519 },
+  { kind = "bridge", kmFrom = 149.555, kmTo = 149.596, length = 42 },
+  { kind = "bridge", kmFrom = 150.01, kmTo = 150.025, length = 14 },
+  { kind = "bridge", kmFrom = 155.167, kmTo = 155.232, length = 63 },
+  { kind = "bridge", kmFrom = 158.414, kmTo = 158.427, length = 12 },
+  { kind = "bridge", kmFrom = 160.636, kmTo = 160.654, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "ct~cIedr~@__@?" },
+  { line = "ct_dIedr~@yIwA", v = 60 },
+  { line = "}~_dI}fr~@aS_M", v = 70 },
+  { line = "_s`dI}tr~@gHsHqc@qk@ivDm_FaTcZ_vH{sNoG}FkKgDkaA?", v = 120 },
+  { line = "m{tdIwhl_A{FoAyGaE}CaDeG{K{[qz@yNqy@gEyPmH_OsGuG", v = 110 },
+  { line = "g~wdI{cr_A_NsHuuMijFqJwB{Ky@enAq@", v = 120 },
+  { line = "qkjeI}_z_A_NAeFjA}KhIcDfF", v = 80 },
+]
+posts = [[132, 53.2533, 10.42056], [133, 53.26121, 10.42844], [134, 53.26846, 10.4373], [135, 53.27572, 10.44617], [136, 53.28297, 10.45504], [137, 53.29022, 10.46392], [138, 53.2973, 10.47314], [139, 53.30377, 10.48358], [140, 53.31024, 10.49402], [141, 53.3167, 10.50446], [142, 53.32322, 10.51502], [143, 53.32976, 10.5256], [144, 53.33633, 10.53613], [145, 53.34245, 10.54601], [146, 53.34974, 10.5539], [147, 53.35887, 10.55384], [148, 53.36633, 10.56112], [149, 53.37114, 10.57366], [150, 53.3769, 10.58457], [151, 53.38541, 10.5889], [152, 53.39405, 10.59325], [153, 53.40272, 10.59749], [154, 53.41167, 10.60205], [155, 53.42012, 10.60626], [156, 53.42856, 10.61052], [157, 53.43713, 10.61481], [158, 53.44574, 10.61912], [159, 53.45436, 10.62329], [160, 53.4633, 10.62398], [161, 53.47241, 10.62417]]
+
+[[connections]]
+km = 131.6
+station = "Lüneburg"
+lines = [
+  { id = "1151", ref = "1151", name = "1151: Wittenberge–Buchholz", km = 131.6 },
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 131.6 },
+]
+
+[[connections]]
+km = 132.111
+station = "Lüneburg Nord"
+lines = [
+  { id = "1720", ref = "1720", name = "1720 Lehrte - Cuxhaven", km = 132.1 },
+  { id = "9110", ref = "9110", name = "9110 Lüneburg Nord - Bleckede", km = 0.06 },
+]
+
+[[connections]]
+km = 161.212
+station = "Büchen"
+lines = [
+  { id = "1151", ref = "1151", name = "1151: Wittenberge–Buchholz", km = 239.327 },
+  { id = "6100", ref = "6100", name = "6100 Berlin - Hamburg", km = 238.916 },
+]

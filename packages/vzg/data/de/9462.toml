@@ -1,0 +1,71 @@
+id = "9462"
+ref = "9462"
+operator = "SWEG Schienenwege"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 9.395
+length = 9.395
+speeds = [[0, 9.395, 50, 50]]
+curves = [[0.1, 0.3, 190], [0.475, 0.6, 1590], [0.75, 0.95, 460], [1.2, 2.275, 690], [2.65, 2.825, 450], [2.875, 3.15, 600], [3.2, 3.4, 390], [3.5, 3.9, 530], [3.95, 4.25, 340], [4.3, 4.7, 310], [4.8, 5.075, 350], [5.25, 5.85, 260], [5.975, 6.25, 350], [6.4, 6.65, 490], [7.125, 7.55, 330], [7.825, 8.075, 320], [8.125, 8.5, 350], [8.575, 8.825, 300], [8.875, 9.275, 290]]
+points = [
+  { km = 0.045, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.297, kind = "signal", label = "2C", signal = "main", dir = -1 },
+  { km = 0.679, kind = "signal", signal = "distant", dir = -1 },
+  { km = 3.83, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.943, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 3.964, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.091, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.138, kind = "signal", label = "BÜ1", signal = "crossing", dir = 1 },
+  { km = 4.193, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 4.271, kind = "signal", label = "BÜ2", signal = "crossing", dir = 1 },
+  { km = 4.55, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.572, kind = "signal", label = "BÜ3", signal = "crossing", dir = 1 },
+  { km = 4.634, kind = "signal", signal = "crossing_distant", dir = 1 },
+  { km = 4.681, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 4.949, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 4.996, kind = "signal", label = "BÜ4", signal = "crossing", dir = 1 },
+  { km = 5.039, kind = "signal", signal = "main", dir = 1 },
+  { km = 5.311, kind = "station", label = "Bingen (Hohenz)", pos = [48.10813, 9.28266] },
+  { km = 5.369, kind = "signal", signal = "crossing", dir = -1 },
+  { km = 5.375, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 5.409, kind = "signal", label = "BÜ5", signal = "crossing", dir = 1 },
+  { km = 6.1, kind = "signal", signal = "speed_limit", dir = 1 },
+  { km = 6.106, kind = "signal", signal = "whistle", dir = 1 },
+  { km = 6.127, kind = "halt", label = "Bingen (Hohenz) Hp", pos = [48.10904, 9.27261] },
+  { km = 9.332, kind = "signal", signal = "speed_limit", dir = -1 },
+  { km = 9.342, kind = "signal", signal = "whistle", dir = -1 },
+  { km = 9.395, kind = "station", label = "Sigmaringen Hanfertal", pos = [48.09979, 9.23561] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.175, kmTo = 0.228, length = 53 },
+  { kind = "bridge", kmFrom = 4.754, kmTo = 4.771, length = 17 },
+  { kind = "bridge", kmFrom = 4.797, kmTo = 4.811, length = 14 },
+  { kind = "bridge", kmFrom = 5.637, kmTo = 5.656, length = 19 },
+  { kind = "bridge", kmFrom = 5.693, kmTo = 5.72, length = 26 },
+  { kind = "bridge", kmFrom = 7.019, kmTo = 7.046, length = 27 },
+  { kind = "bridge", kmFrom = 7.834, kmTo = 7.859, length = 26 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "iakdHqtpw@aAlCgAdAmB^{A]gOqIyNuFwQoXqE_E_HsD{C_@gFxBsC?eB_AsHmIe]kIkGmH_H}DiFuFgDcAuJ{@mCsAmFwGoF}MsCsCmLsAsEeEgCy@uMxA{BbAaC~DiGhRm@bEJ|E`CnIZbFc@jE_FxPk@bEHhEvDdUV~F}E~q@?xGp@jExBbE~U|RvAzDrB`O~FxIxDlSjBnCnFxC`CnCt@jCXhFm@pKuAtE", v = 50 },
+]
+posts = [[0, 48.06693, 9.26553], [1, 48.07483, 9.26884], [2, 48.08266, 9.27341], [3, 48.09079, 9.27847], [4, 48.09835, 9.28467], [5, 48.10662, 9.28617], [6, 48.10871, 9.27421], [7, 48.10873, 9.26126], [8, 48.1042, 9.25164], [9, 48.09892, 9.24159]]
+
+[[connections]]
+km = 5.311
+station = "Bingen"
+lines = [
+  { id = "9461", ref = "9461", name = "Schwäbische Albbahn", km = 96.676 },
+]
+
+[[connections]]
+km = 9.395
+station = "Sigmaringen Hanfertal"
+lines = [
+  { id = "9461", ref = "9461", name = "Schwäbische Albbahn", km = 100.858 },
+]
