@@ -9,7 +9,7 @@ Legend: ✅ official, open licence, anonymous download · 🔑 official, open bu
 | Country                    | Best rail source                                                                         | Format                               | Licence                                                                      | Access                                       | Status                                                                                               |
 | -------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------ | ---------------------------------------------------------------------------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | Austria                    | ÖBB "Soll-Fahrplan GTFS"                                                                 | GTFS                                 | CC BY 4.0                                                                    | anonymous, yearly                            | ✅ (MVO rail GTFS/NeTEx incl. WESTbahn etc.: custom licence, account)                                |
-| Germany                    | DELFI national dataset                                                                   | GTFS + NeTEx                         | CC BY                                                                        | registration                                 | 🔑 (gtfs.de free feeds: CC BY 4.0, but no train numbers, no shapes, 30 days)                         |
+| Germany                    | DELFI national dataset                                                                   | GTFS + NeTEx                         | CC BY 4.0 (publisher page; login terms unchecked)                            | registration                                 | 🔑 (gtfs.de free feeds: CC BY 4.0, but no train numbers, no shapes, 30 days)                         |
 | Switzerland                | opentransportdata.swiss Timetable 2026                                                   | GTFS + NeTEx (Swiss profile), HRDF   | custom terms (cite source)                                                   | anonymous files                              | ⚠️ no shapes, 3.75 GB stop_times                                                                     |
 | Liechtenstein              | in the Swiss and ÖBB data                                                                | –                                    | –                                                                            | –                                            | covered by CH/AT                                                                                     |
 | Netherlands                | OVapi gtfs-nl (from NDOV)                                                                | GTFS (NS official only IFF)          | CC0 (shapes ODbL)                                                            | anonymous                                    | ✅ not an official NAP feed                                                                          |
@@ -838,11 +838,27 @@ Caveats:
 - I did not download a file, so I have no HTTP status, size or confirmation that rail is complete. The resource list is only visible after login and registration (not anonymous). I also found no Mobilithek listing of this dataset.
 - The "GTFS vs NeTEx" resource split and the exact CC variant are unconfirmed. For rail, the DB Fernverkehr and Regio feeds on Mobilithek are a separate question that I did not check.
 
+**Licence check (2026-11-24), on the publisher's pages before registering:**
+
+- **GTFS dataset** ("Soll-Fahrplandaten DELFI GTFS", https://www.opendata-oepnv.de/ht/de/organisation/delfi/startseite?tx_vrrkit_view%5Bdataset_name%5D=deutschlandweite-sollfahrplandaten-gtfs&tx_vrrkit_view%5Baction%5D=details&tx_vrrkit_view%5Bcontroller%5D=View): licence "Creative Commons Namensnennung (CC-BY)", author DELFI, source https://www.delfi.de, last updated 2026-11-21. Content: all Länder's public transport plus long-distance rail ("enthält den ÖPNV aller Landessysteme sowie den Schienen-Fernverkehr"). New data usually on Mondays; as of 2026-11-16 the timetable runs to 2027-03-31. Download for registered users only.
+- **NeTEx dataset**: licence just "Creative Commons".
+- **Licence overview** (https://www.opendata-oepnv.de/ht/de/standards/uebersicht-der-verwendeten-lizenzen): the platform uses three licences: "Creative Commons", linking to CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.de), "Datenlizenz Deutschland 2.0" and "CC-BY-NC-ND-4.0". So DELFI's "CC-BY" reads as CC BY 4.0, not the NC-ND variant.
+- **Terms of use** (https://www.opendata-oepnv.de/ht/de/standards/nutzungsbedingungen):
+  - Each data provider alone is responsible for its data and licensing (here DELFI). The portal grants no rights beyond the licence.
+  - No warranty. The data and its licensing may change at any time without notice, so record the licence and date with each download.
+  - Don't put undue load on the portal.
+- **Attribution**: DELFI e.V. (CC BY). Transitland (aggregator, a hint only) gives "Data source: DELFI e.V." and notes that the shapes come from OpenStreetMap (ODbL). For the stop directory (ZHV), DELFI adds that, inside OSM, a mention in the contributors list is enough.
+- **Still to check after registering**: the licence conditions accepted at login (the "Lizenzbedingungen" link points only to the start page), and any licence or terms file in the zip.
+- No other conditions found. Operators such as DB supply DELFI, but DELFI publishes the dataset as a whole under CC BY.
+
 Sources:
 
 - https://www.opendata-oepnv.de/ht/de/organisation/delfi/startseite?tx_vrrkit_view%5Bdataset_name%5D=deutschlandweite-sollfahrplandaten-netex&tx_vrrkit_view%5Baction%5D=details&tx_vrrkit_view%5Bcontroller%5D=View
 - https://www.bayerninfo.de/en/about-bayerninfo-1/data-offer/public-transport-data
 - https://www.delfi.de/media/1904_nahverkehr_delfi_national_access_point_1.pdf
+- https://www.opendata-oepnv.de/ht/de/standards/uebersicht-der-verwendeten-lizenzen
+- https://www.opendata-oepnv.de/ht/de/standards/nutzungsbedingungen
+- https://www.transit.land/feeds/f-delfi~de
 - https://media.frag-den-staat.de/files/foi/556225/nap-flyer_05.2020.pdf
 
 ## Caveats
