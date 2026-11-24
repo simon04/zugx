@@ -1,7 +1,7 @@
 export default {
   app: {
     tagline:
-      "Vlaki v Avstriji, Sloveniji in Španiji, hitro. Odhodi, povezave, poteki vlakov – v živo.",
+      "Vlaki v Avstriji, Nemčiji, Sloveniji in Španiji, hitro. Odhodi, povezave, poteki vlakov – v živo.",
   },
   stations: {
     title: "Postaje",

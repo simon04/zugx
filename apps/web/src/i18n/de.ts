@@ -3,7 +3,7 @@ import type en from "./en.ts";
 export default {
   app: {
     tagline:
-      "Züge in Österreich, Slowenien und Spanien, schnell. Abfahrten, Verbindungen, Zugläufe – live.",
+      "Züge in Österreich, Deutschland, Slowenien und Spanien, schnell. Abfahrten, Verbindungen, Zugläufe – live.",
   },
   stations: {
     title: "Bahnhöfe",

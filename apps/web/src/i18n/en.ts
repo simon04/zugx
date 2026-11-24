@@ -1,7 +1,7 @@
 export default {
   app: {
     tagline:
-      "Trains in Austria, Slovenia and Spain, fast. Departures, connections, train runs – live.",
+      "Trains in Austria, Germany, Slovenia and Spain, fast. Departures, connections, train runs – live.",
   },
   stations: {
     title: "Stations",

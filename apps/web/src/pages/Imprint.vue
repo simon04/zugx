@@ -20,7 +20,7 @@ const EMAIL = "simon.legner@gmail.com";
       <h2>Grundlegende Richtung</h2>
       <p>
         zugx ist eine private, nicht-kommerzielle Website mit Fahrplan- und Echtzeitinformationen zu
-        Zügen in Österreich, Slowenien und Spanien. Es gibt keine Werbung und keine
+        Zügen in Österreich, Deutschland, Slowenien und Spanien. Es gibt keine Werbung und keine
         Bezahlfunktionen.
       </p>
       <h2>Keine Verbindung zur ÖBB</h2>
@@ -29,8 +29,11 @@ const EMAIL = "simon.legner@gmail.com";
         stammen aus der Fahrplanauskunft der ÖBB (inoffizielle Schnittstelle) und aus offenen
         Fahrplandaten (<a href="https://data.oebb.at/">data.oebb.at</a>, CC BY 4.0;
         <a href="https://www.nap.si/">NAP Slovenija</a>, CC BY-SA 4.0;
-        <a href="https://data.renfe.com/">data.renfe.com</a>, CC BY 4.0). Angaben ohne Gewähr –
-        verbindlich sind die Informationen des jeweiligen Verkehrsunternehmens.
+        <a href="https://data.renfe.com/">data.renfe.com</a>, CC BY 4.0; DELFI e.V. (<a
+          href="https://www.opendata-oepnv.de/ht/de/organisation/delfi/startseite"
+          >opendata-oepnv.de</a
+        >), CC BY 4.0). Angaben ohne Gewähr – verbindlich sind die Informationen des jeweiligen
+        Verkehrsunternehmens.
       </p>
       <h2>Haftung für Links</h2>
       <p>
@@ -60,8 +63,8 @@ const EMAIL = "simon.legner@gmail.com";
       <h2>Namen</h2>
       <p>
         zugx je zasebna, nekomercialna spletna stran z informacijami o voznem redu in podatki v
-        realnem času za vlake v Avstriji, Sloveniji in Španiji. Ni oglasov in ničesar ni mogoče
-        kupiti.
+        realnem času za vlake v Avstriji, Nemčiji, Sloveniji in Španiji. Ni oglasov in ničesar ni
+        mogoče kupiti.
       </p>
       <h2>Ni povezave z ÖBB ali SŽ</h2>
       <p>
@@ -69,8 +72,10 @@ const EMAIL = "simon.legner@gmail.com";
         Podatki izvirajo iz načrtovalnika poti ÖBB (neuradni vmesnik) in iz odprtih podatkov voznega
         reda (<a href="https://data.oebb.at/">data.oebb.at</a>, CC BY 4.0;
         <a href="https://www.nap.si/">NAP Slovenija</a>, CC BY-SA 4.0;
-        <a href="https://data.renfe.com/">data.renfe.com</a>, CC BY 4.0). Brez jamstva za točnost –
-        zavezujoče so informacije prevoznika.
+        <a href="https://data.renfe.com/">data.renfe.com</a>, CC BY 4.0; DELFI e.V. (<a
+          href="https://www.opendata-oepnv.de/ht/de/organisation/delfi/startseite"
+          >opendata-oepnv.de</a
+        >), CC BY 4.0). Brez jamstva za točnost – zavezujoče so informacije prevoznika.
       </p>
       <h2>Zunanje povezave</h2>
       <p>
@@ -99,7 +104,8 @@ const EMAIL = "simon.legner@gmail.com";
       <h2>Finalidad</h2>
       <p>
         zugx es un sitio web privado y sin ánimo de lucro con información de horarios y en tiempo
-        real sobre trenes en Austria, Eslovenia y España. No hay publicidad ni nada que comprar.
+        real sobre trenes en Austria, Alemania, Eslovenia y España. No hay publicidad ni nada que
+        comprar.
       </p>
       <h2>Sin vinculación con ÖBB</h2>
       <p>
@@ -107,8 +113,11 @@ const EMAIL = "simon.legner@gmail.com";
         Los datos proceden del planificador de viajes de ÖBB (interfaz no oficial) y de datos
         abiertos de horarios (<a href="https://data.oebb.at/">data.oebb.at</a>, CC BY 4.0;
         <a href="https://www.nap.si/">NAP Slovenija</a>, CC BY-SA 4.0;
-        <a href="https://data.renfe.com/">data.renfe.com</a>, CC BY 4.0). Sin garantía de exactitud
-        – la información vinculante es la del operador correspondiente.
+        <a href="https://data.renfe.com/">data.renfe.com</a>, CC BY 4.0; DELFI e.V. (<a
+          href="https://www.opendata-oepnv.de/ht/de/organisation/delfi/startseite"
+          >opendata-oepnv.de</a
+        >), CC BY 4.0). Sin garantía de exactitud – la información vinculante es la del operador
+        correspondiente.
       </p>
       <h2>Enlaces externos</h2>
       <p>
@@ -137,7 +146,7 @@ const EMAIL = "simon.legner@gmail.com";
       <h2>Purpose</h2>
       <p>
         zugx is a private, non-commercial website with timetable and realtime information on trains
-        in Austria, Slovenia and Spain. There is no advertising and nothing to buy.
+        in Austria, Germany, Slovenia and Spain. There is no advertising and nothing to buy.
       </p>
       <h2>Not affiliated with ÖBB</h2>
       <p>
@@ -146,8 +155,10 @@ const EMAIL = "simon.legner@gmail.com";
           href="https://data.oebb.at/"
           >data.oebb.at</a
         >, CC BY 4.0; <a href="https://www.nap.si/">NAP Slovenija</a>, CC BY-SA 4.0;
-        <a href="https://data.renfe.com/">data.renfe.com</a>, CC BY 4.0). No guarantee of accuracy –
-        the operator's information is binding.
+        <a href="https://data.renfe.com/">data.renfe.com</a>, CC BY 4.0; DELFI e.V. (<a
+          href="https://www.opendata-oepnv.de/ht/de/organisation/delfi/startseite"
+          >opendata-oepnv.de</a
+        >), CC BY 4.0). No guarantee of accuracy – the operator's information is binding.
       </p>
       <h2>External links</h2>
       <p>The operators of linked external websites are solely responsible for their content.</p>

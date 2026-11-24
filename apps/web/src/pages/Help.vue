@@ -10,9 +10,9 @@ const { locale } = useI18n();
     <template v-if="locale === 'de'">
       <h1>Hilfe</h1>
       <p>
-        zugx zeigt Fahrplan- und Echtzeitdaten der Züge in Österreich – schnell, kompakt und am
-        Handy wie am Desktop. Diese Seite erklärt alle Ansichten, die Bedienung und woher die Daten
-        stammen.
+        zugx zeigt Fahrplan- und Echtzeitdaten der Züge in Österreich, Deutschland, Slowenien und
+        Spanien – schnell, kompakt und am Handy wie am Desktop. Diese Seite erklärt alle Ansichten,
+        die Bedienung und woher die Daten stammen.
       </p>
       <nav aria-label="Inhalt" class="toc">
         <a href="#suche">Suche &amp; Verbindungen</a> · <a href="#abfahrten">Abfahrtstafel</a> ·
@@ -32,9 +32,10 @@ const { locale } = useI18n();
         Abfahrtstafel oder Abfahrtsplan, im Bildfahrplan die Echtzeit-Überlagerung, und in der
         Suche: mit Live aus werden Verbindungen ohne Server direkt im Browser aus dem ÖBB-Fahrplan
         berechnet (Bahn, die nächsten Tage, ohne Verspätungen). Die Wahl wird gemerkt. Die
-        <strong>Länderauswahl</strong> (AT/SI/ES) bestimmt, welches Landes Züge, Bildfahrpläne,
+        <strong>Länderauswahl</strong> (AT/DE/SI/ES) bestimmt, welches Landes Züge, Bildfahrpläne,
         Strecken, Netzkarte und Bahnhöfe gezeigt werden; Suche und Verbindungen umfassen alle
-        Länder. Für Slowenien und Spanien gibt es keine Echtzeit, dort ist der Live-Schalter aus.
+        Länder. Für Deutschland gibt es Echtzeit nur teilweise (vor allem Fernverkehr und Bayern);
+        für Slowenien und Spanien gibt es keine Echtzeit, dort ist der Live-Schalter aus.
         Schnellzugriff (<kbd>⌘K</kbd>) und Roh-JSON (<kbd>d</kbd>) stehen in der Fußzeile.
       </p>
 
@@ -95,7 +96,7 @@ const { locale } = useI18n();
 
       <h2 id="zuege">Züge (Zugindex)</h2>
       <p>
-        Alle Züge des Fahrplanjahres in Österreich – Nummer, Name, Laufweg, Verkehrstage – zum
+        Alle Züge des Fahrplanjahres im gewählten Land – Nummer, Name, Laufweg, Verkehrstage – zum
         Durchsuchen und Filtern nach Betreiber, Gattung, Bahnhof oder Datum. Die Verkehrstage
         stammen aus dem Jahresfahrplan.
       </p>
@@ -307,9 +308,17 @@ const { locale } = useI18n();
         </li>
         <li>
           <strong>Jahresfahrplan</strong> (Bahnhofsverzeichnis, Zugindex, Bildfahrplan, Netzgrafik):
+          Österreich –
           <a href="https://data.oebb.at/de/datensaetze~soll-fahrplan-gtfs~">ÖBB Open Data (GTFS)</a
-          >, CC BY 4.0, regelmäßig aktualisiert. Enthält die Züge der ÖBB (und einiger Partner),
-          nicht WESTbahn, GKB, Raaberbahn u. a.
+          >, CC BY 4.0, regelmäßig aktualisiert; nur ÖBB (und einige Partner) – nicht WESTbahn, GKB,
+          Raaberbahn u. a. Deutschland – DELFI e.V. (<a
+            href="https://www.opendata-oepnv.de/ht/de/organisation/delfi/startseite"
+            >opendata-oepnv.de</a
+          >), CC BY 4.0. Slowenien – nationaler Fahrplan IJPP (<a href="https://www.nap.si/"
+            >NAP Slovenija</a
+          >), CC BY-SA 4.0. Spanien – Renfe Operadora (<a href="https://data.renfe.com/"
+            >data.renfe.com</a
+          >), CC BY 4.0.
         </li>
         <li>
           <strong
@@ -334,18 +343,18 @@ const { locale } = useI18n();
 
       <h2 id="grenzen">Grenzen</h2>
       <p>
-        zugx ist kein Angebot der ÖBB; alle Angaben ohne Gewähr, verbindlich sind die Informationen
-        des Verkehrsunternehmens. Radar-Positionen und Durchfahrtszeiten sind berechnet bzw.
-        geschätzt; die VzG-Grafik ist nicht das amtliche VzG.
+        zugx ist kein Angebot von ÖBB, SŽ, Renfe, DELFI oder DB; alle Angaben ohne Gewähr,
+        verbindlich sind die Informationen des Verkehrsunternehmens. Radar-Positionen und
+        Durchfahrtszeiten sind berechnet bzw. geschätzt; die VzG-Grafik ist nicht das amtliche VzG.
       </p>
     </template>
 
     <template v-else-if="locale === 'sl'">
       <h1>Pomoč</h1>
       <p>
-        zugx prikazuje vozni red in podatke v realnem času za vlake v Avstriji, Sloveniji in Španiji
-        – hitro, pregledno, na telefonu in računalniku. Ta stran pojasnjuje vse poglede, kako jih
-        uporabljati in od kod so podatki.
+        zugx prikazuje vozni red in podatke v realnem času za vlake v Avstriji, Nemčiji, Sloveniji
+        in Španiji – hitro, pregledno, na telefonu in računalniku. Ta stran pojasnjuje vse poglede,
+        kako jih uporabljati in od kod so podatki.
       </p>
       <nav aria-label="Vsebina" class="toc">
         <a href="#suche">Iskanje in povezave</a> · <a href="#abfahrten">Tabla odhodov</a> ·
@@ -365,9 +374,10 @@ const { locale } = useI18n();
         tabla odhodov ali plakat odhodov za postajo, prikaz v realnem času v grafikonu voznega reda
         in iskanje: pri izklopljenem načinu V živo se povezave izračunajo v brskalniku iz voznega
         reda (železnica, naslednji dnevi, brez zamud). Nastavitev se zapomni. Izbirnik
-        <strong>države</strong> (AT/SI/ES) določa, katere države vlaki, grafikoni voznega reda,
+        <strong>države</strong> (AT/DE/SI/ES) določa, katere države vlaki, grafikoni voznega reda,
         proge, zemljevid omrežja in postaje so prikazani; iskanje in povezave zajemajo vse države.
-        Za Slovenijo in Španijo ni podatkov v realnem času, zato je stikalo V živo tam izklopljeno.
+        Za Nemčijo so podatki v realnem času le delni (predvsem daljinski vlaki in Bavarska); za
+        Slovenijo in Španijo ni podatkov v realnem času, zato je stikalo V živo tam izklopljeno.
         Hitri skok (<kbd>⌘K</kbd>) in surovi JSON (<kbd>d</kbd>) sta v nogi strani.
       </p>
 
@@ -631,7 +641,10 @@ const { locale } = useI18n();
           <a href="https://data.oebb.at/de/datensaetze~soll-fahrplan-gtfs~"
             >odprti podatki ÖBB (GTFS)</a
           >, CC BY 4.0, redno posodobljeno; samo ÖBB (in nekateri partnerji) – ne WESTbahn, GKB,
-          Raaberbahn ipd. Slovenija – nacionalni vozni red IJPP (<a href="https://www.nap.si/"
+          Raaberbahn ipd. Nemčija – DELFI e.V. (<a
+            href="https://www.opendata-oepnv.de/ht/de/organisation/delfi/startseite"
+            >opendata-oepnv.de</a
+          >), CC BY 4.0. Slovenija – nacionalni vozni red IJPP (<a href="https://www.nap.si/"
             >NAP Slovenija</a
           >), CC BY-SA 4.0. Španija – Renfe Operadora (<a href="https://data.renfe.com/"
             >data.renfe.com</a
@@ -658,16 +671,17 @@ const { locale } = useI18n();
 
       <h2 id="grenzen">Omejitve</h2>
       <p>
-        zugx ni storitev ÖBB ali SŽ; brez jamstva, zavezujoče so informacije prevoznika. Položaji na
-        radarju in časi prevoza so izračunani ali ocenjeni; diagram hitrosti ni uradni VzG.
+        zugx ni storitev ÖBB, SŽ, Renfe, DELFI ali DB; brez jamstva, zavezujoče so informacije
+        prevoznika. Položaji na radarju in časi prevoza so izračunani ali ocenjeni; diagram hitrosti
+        ni uradni VzG.
       </p>
     </template>
     <template v-else-if="locale === 'es'">
       <h1>Ayuda</h1>
       <p>
-        zugx muestra horarios y datos en tiempo real de los trenes en Austria, Eslovenia y España –
-        rápido, compacto, en el móvil y en el ordenador. Esta página explica todas las vistas, cómo
-        usarlas y de dónde proceden los datos.
+        zugx muestra horarios y datos en tiempo real de los trenes en Austria, Alemania, Eslovenia y
+        España – rápido, compacto, en el móvil y en el ordenador. Esta página explica todas las
+        vistas, cómo usarlas y de dónde proceden los datos.
       </p>
       <nav aria-label="Índice" class="toc">
         <a href="#suche">Búsqueda y conexiones</a> · <a href="#abfahrten">Panel de salidas</a> ·
@@ -688,9 +702,10 @@ const { locale } = useI18n();
         estación, la superposición en tiempo real en el gráfico de circulación y la búsqueda: con En
         directo desactivado, las conexiones se calculan en el navegador a partir del horario de ÖBB
         (tren, los próximos días, sin retrasos). La elección se recuerda. El selector de
-        <strong>país</strong> (AT/SI/ES) determina de qué país se muestran los trenes, gráficos de
-        circulación, líneas, mapa de la red y estaciones; la búsqueda y las conexiones abarcan todos
-        los países. Para Eslovenia y España no hay datos en tiempo real, por lo que allí En directo
+        <strong>país</strong> (AT/DE/SI/ES) determina de qué país se muestran los trenes, gráficos
+        de circulación, líneas, mapa de la red y estaciones; la búsqueda y las conexiones abarcan
+        todos los países. Para Alemania, el tiempo real es solo parcial (sobre todo larga distancia
+        y Baviera); para Eslovenia y España no hay datos en tiempo real, por lo que allí En directo
         está desactivado. El salto rápido (<kbd>⌘K</kbd>) y el JSON en bruto (<kbd>d</kbd>) están en
         el pie de página.
       </p>
@@ -976,7 +991,10 @@ const { locale } = useI18n();
           <a href="https://data.oebb.at/de/datensaetze~soll-fahrplan-gtfs~"
             >datos abiertos de ÖBB (GTFS)</a
           >, CC BY 4.0, actualizados periódicamente; solo ÖBB (y algunos socios) – no WESTbahn, GKB,
-          Raaberbahn, etc. Eslovenia – horario nacional IJPP (<a href="https://www.nap.si/"
+          Raaberbahn, etc. Alemania – DELFI e.V. (<a
+            href="https://www.opendata-oepnv.de/ht/de/organisation/delfi/startseite"
+            >opendata-oepnv.de</a
+          >), CC BY 4.0. Eslovenia – horario nacional IJPP (<a href="https://www.nap.si/"
             >NAP Slovenija</a
           >), CC BY-SA 4.0. España – Renfe Operadora (<a href="https://data.renfe.com/"
             >data.renfe.com</a
@@ -1004,16 +1022,17 @@ const { locale } = useI18n();
 
       <h2 id="grenzen">Limitaciones</h2>
       <p>
-        zugx no es un servicio de ÖBB, SŽ ni Renfe; sin garantía, la información vinculante es la
-        del operador. Las posiciones del radar y las horas de paso son calculadas o estimadas; el
-        diagrama VzG no es el VzG oficial.
+        zugx no es un servicio de ÖBB, SŽ, Renfe, DELFI ni DB; sin garantía, la información
+        vinculante es la del operador. Las posiciones del radar y las horas de paso son calculadas o
+        estimadas; el diagrama VzG no es el VzG oficial.
       </p>
     </template>
     <template v-else>
       <h1>Help</h1>
       <p>
-        zugx shows timetable and realtime data of trains in Austria – fast, compact, on phone and
-        desktop. This page explains all views, how to use them, and where the data comes from.
+        zugx shows timetable and realtime data of trains in Austria, Germany, Slovenia and Spain –
+        fast, compact, on phone and desktop. This page explains all views, how to use them, and
+        where the data comes from.
       </p>
       <nav aria-label="Contents" class="toc">
         <a href="#suche">Search &amp; journeys</a> · <a href="#abfahrten">Station board</a> ·
@@ -1033,10 +1052,11 @@ const { locale } = useI18n();
         where a page has both: live board or departure plan for a station, the realtime overlay in
         the graphic timetable, and the search: with Live off, journeys are computed in the browser
         from the ÖBB timetable (rail, the next days, no delays). It is remembered. The
-        <strong>country</strong> selector (AT/SI/ES) chooses whose trains, graphic timetables,
-        lines, network map and stations are shown; search and journeys cover all countries. Slovenia
-        and Spain have no realtime data, so Live is off there. Quick jump (<kbd>⌘K</kbd>) and raw
-        JSON (<kbd>d</kbd>) are in the footer.
+        <strong>country</strong> selector (AT/DE/SI/ES) chooses whose trains, graphic timetables,
+        lines, network map and stations are shown; search and journeys cover all countries. Germany
+        has realtime only in part (mainly long-distance trains and Bavaria); Slovenia and Spain have
+        no realtime data, so Live is off there. Quick jump (<kbd>⌘K</kbd>) and raw JSON
+        (<kbd>d</kbd>) are in the footer.
       </p>
 
       <h2 id="suche">Search &amp; journeys</h2>
@@ -1092,8 +1112,8 @@ const { locale } = useI18n();
 
       <h2 id="zuege">Trains (train index)</h2>
       <p>
-        Every train of the timetable year in Austria – number, name, route, running days – to search
-        and filter by operator, category, station or date.
+        Every train of the timetable year in the selected country – number, name, route, running
+        days – to search and filter by operator, category, station or date.
       </p>
 
       <h2 id="radar">Radar</h2>
@@ -1288,10 +1308,17 @@ const { locale } = useI18n();
         </li>
         <li>
           <strong>Timetable year</strong> (station list, train index, graphic timetable,
-          Netzgrafik):
+          Netzgrafik): Austria –
           <a href="https://data.oebb.at/de/datensaetze~soll-fahrplan-gtfs~">ÖBB open data (GTFS)</a
-          >, CC BY 4.0, updated regularly. ÖBB (and some partners) only – not WESTbahn, GKB,
-          Raaberbahn etc.
+          >, CC BY 4.0, updated regularly; ÖBB (and some partners) only – not WESTbahn, GKB,
+          Raaberbahn etc. Germany – DELFI e.V. (<a
+            href="https://www.opendata-oepnv.de/ht/de/organisation/delfi/startseite"
+            >opendata-oepnv.de</a
+          >), CC BY 4.0. Slovenia – national timetable IJPP (<a href="https://www.nap.si/"
+            >NAP Slovenija</a
+          >), CC BY-SA 4.0. Spain – Renfe Operadora (<a href="https://data.renfe.com/"
+            >data.renfe.com</a
+          >), CC BY 4.0.
         </li>
         <li>
           <strong>Lines, speed limits, signals, km, single/double track, borders</strong> (VzG
@@ -1312,9 +1339,9 @@ const { locale } = useI18n();
 
       <h2 id="grenzen">Limits</h2>
       <p>
-        zugx is not a service of ÖBB; no guarantee, the operator's information is binding. Radar
-        positions and passing times are computed or estimated; the VzG chart is not the official
-        VzG.
+        zugx is not a service of ÖBB, SŽ, Renfe, DELFI or DB; no guarantee, the operator's
+        information is binding. Radar positions and passing times are computed or estimated; the VzG
+        chart is not the official VzG.
       </p>
     </template>
   </article>
