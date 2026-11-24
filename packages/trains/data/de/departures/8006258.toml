@@ -1,0 +1,16 @@
+id = "8006258"
+name = "Weidenbach"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+eAAAAA==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/+AAAAA=="]
+deps = [
+  [266,"RB","27008","8000262",["8005495","8001499","8005852","8006190","8002912","8003879"],0,"Gl2"],
+  [359,"RB","27016","8000262",["8005495","8001499","8005852","8006190","8002912","8003879"],0,"Gl2"],
+  [423,"RB","27024","8000262",["8005495","8001499","8005852","8006190","8002912","8003879"],0,"Gl1"],
+  [1054,"RB","27047","8000258",["8000576"],0,"Gl2"],
+  [1203,"RB","27061","8000258",["8000576"],1,"Gl2"],
+]
+
+names = { 8000258 = "Mühldorf (Oberbayern)", 8000262 = "München Ost", 8000576 = "Ampfing", 8001499 = "Dorfen Bahnhof", 8002912 = "Hörlkofen", 8003879 = "Markt Schwaben", 8005495 = "Schwindegg", 8005852 = "Thann-Matzbach", 8006190 = "Walpertskirchen" }

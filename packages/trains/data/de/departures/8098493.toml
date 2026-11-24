@@ -1,0 +1,19 @@
+id = "8098493"
+name = "Nürnberg Frankenstadion Sonderbahnsteig"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAgAIAA==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAgAAAA==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACBAAAAA=="]
+deps = [
+  [909,"S","57850","8000284",[],0,""],
+  [915,"S","57852","8000284",[],0,""],
+  [937,"S","57854","8000284",[],1,""],
+  [940,"S","57854","8000284",[],2,""],
+  [950,"S","57856","8000284",[],0,""],
+  [970,"S","57858","8000284",[],0,""],
+  [985,"S","57860","8000284",[],0,""],
+  [1360,"S","39677","8000509",["8004493","8001989","8001978","8002520","8006476","8003762","8000504"],3,""],
+]
+
+names = { 8000284 = "Nürnberg Hbf", 8000504 = "Altdorf West", 8000509 = "Altdorf(b Nürnberg)", 8001978 = "Feucht", 8001989 = "Fischbach(Nürnberg)", 8002520 = "Feucht-Moosbach", 8003762 = "Ludersheim", 8004493 = "Nürnberg Frankenstadion", 8006476 = "Winkelhaid" }

@@ -1,0 +1,15 @@
+id = "8007192"
+name = "Haubersbronn"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAA=="]
+deps = [
+  [635,"RB","3520","8006324",["8007193","8007194","8007196","8007625","8006701","8070893","8070894"],0,""],
+  [769,"RB","3521","8005424",[],0,""],
+  [845,"RB","3522","8006324",["8007193","8007194","8007196","8007625","8006701","8070893","8070894"],0,""],
+  [1039,"RB","3523","8005424",[],0,""],
+]
+
+names = { 8005424 = "Schorndorf", 8006324 = "Welzheim", 8006701 = "Laufenmühle", 8007193 = "Miedelsbach-Steinenberg", 8007194 = "Michelau(Württ)", 8007196 = "Rudersberg", 8007625 = "Rudersberg-Oberndorf", 8070893 = "Breitenfürst", 8070894 = "Tannwald" }

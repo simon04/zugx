@@ -1,0 +1,21 @@
+id = "8071495"
+name = "Schweppenburg-Heilbrunnen"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAA==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYMEA==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIMEA=="]
+deps = [
+  [579,"RB","41","8070501",["8070314","8070342","8071906"],0,""],
+  [654,"RB","47","8070501",["8070314","8070342","8071906"],0,""],
+  [678,"RB","42","8070338",[],0,""],
+  [759,"RB","43","8070501",["8070314","8070342","8071906"],1,""],
+  [783,"RB","48","8070338",[],0,""],
+  [834,"RB","49","8070501",["8070314","8070342","8071906"],0,""],
+  [858,"RB","44","8070338",[],1,""],
+  [939,"RB","45","8070501",["8070314","8070342","8071906"],2,""],
+  [963,"RB","50","8070338",[],0,""],
+  [1038,"RB","46","8070338",[],2,""],
+]
+
+names = { 8070314 = "Bad Tönisstein", 8070338 = "Brohl(Brohltalbahn)", 8070342 = "Burgbrohl", 8070501 = "Niederzissen", 8071906 = "Weiler (Brohltal)" }

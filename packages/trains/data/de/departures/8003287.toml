@@ -1,0 +1,14 @@
+id = "8003287"
+name = "Kirchhundem"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADz4A=="]
+deps = [
+  [256,"RB","61970","8000046",["8006320","8003716","8001700","8000214","8003018","8003020"],2,"1"],
+  [1426,"RB","61971","8000102",["8000532","8003939","8002370"],1,"2"],
+  [1465,"RB","31370","8000046",["8006320","8003716","8001700","8000214","8003018","8003020"],0,"1"],
+]
+
+names = { 8000046 = "Siegen Hbf", 8000102 = "Finnentrop", 8000214 = "Kreuztal", 8000532 = "Lennestadt-Altenhundem", 8001700 = "Kreuztal-Eichen", 8002370 = "Lennestadt-Grevenbrück", 8003018 = "Siegen-Geisweid", 8003020 = "Siegen-Weidenau", 8003716 = "Kreuztal-Littfeld", 8003939 = "Lennestadt-Meggen", 8006320 = "Welschen Ennest" }

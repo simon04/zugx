@@ -1,0 +1,17 @@
+id = "8001281"
+name = "Burgweiler"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=="]
+deps = [
+  [962,"RB","39061","8070630",[],0,""],
+  [996,"RB","39062","8000014",["8070628","8003004","8000559"],0,""],
+  [1141,"RB","39063","8070630",[],0,""],
+  [1172,"RB","39064","8000014",["8070628","8003004"],0,""],
+  [1277,"RB","39065","8070630",[],0,""],
+  [1311,"RB","39066","8000014",["8070628","8003004"],0,""],
+]
+
+names = { 8000014 = "Aulendorf", 8000559 = "Altshausen", 8003004 = "Hoßkirch Königseggsee", 8070628 = "Ostrach Bahnhof", 8070630 = "Pfullendorf" }

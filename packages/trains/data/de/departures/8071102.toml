@@ -1,0 +1,15 @@
+id = "8071102"
+name = "Dürrenzimmern"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=="]
+deps = [
+  [589,"RB","86770","8000385",["8070508","8071103","8070567","8071104","8071105"],0,""],
+  [728,"RB","86771","8000280",[],0,""],
+  [819,"RB","86772","8000385",["8070508","8071103","8070567","8071104","8071105"],0,""],
+  [968,"RB","86773","8000280",[],0,""],
+]
+
+names = { 8000280 = "Nördlingen", 8000385 = "Gunzenhausen", 8070508 = "Oettingen(Bay)", 8070567 = "Wassertrüdingen", 8071103 = "Auhausen", 8071104 = "Unterschwaningen", 8071105 = "Cronheim" }

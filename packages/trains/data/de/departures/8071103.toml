@@ -1,0 +1,15 @@
+id = "8071103"
+name = "Auhausen"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=="]
+deps = [
+  [610,"RB","86770","8000385",["8070567","8071104","8071105"],0,""],
+  [706,"RB","86771","8000280",["8070508","8071102"],0,""],
+  [840,"RB","86772","8000385",["8070567","8071104","8071105"],0,""],
+  [946,"RB","86773","8000280",["8070508","8071102"],0,""],
+]
+
+names = { 8000280 = "Nördlingen", 8000385 = "Gunzenhausen", 8070508 = "Oettingen(Bay)", 8070567 = "Wassertrüdingen", 8071102 = "Dürrenzimmern", 8071104 = "Unterschwaningen", 8071105 = "Cronheim" }

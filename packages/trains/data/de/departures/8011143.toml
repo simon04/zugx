@@ -1,0 +1,15 @@
+id = "8011143"
+name = "Berbisdorf Anbau"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA///8A=="]
+deps = [
+  [676,"RB","3002","8012702",[],0,""],
+  [701,"RB","3003","8010292",["8011142","8011096","8011331","8012387","8011575","8011576","8012247","8013263"],0,""],
+  [946,"RB","3006","8012702",[],0,""],
+  [971,"RB","3007","8010292",["8011142","8011096","8011331","8012387","8011575","8011576","8012247","8013263"],0,""],
+]
+
+names = { 8010292 = "Radebeul Ost", 8011096 = "Bärnsdorf", 8011142 = "Berbisdorf", 8011331 = "Cunnertswalde", 8011575 = "Friedewald(Kr Dresden) Bad", 8011576 = "Friedewald(Kr Dresden)Hp", 8012247 = "Lößnitzgrund", 8012387 = "Moritzburg", 8012702 = "Radeburg", 8013263 = "Weißes Roß" }

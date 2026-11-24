@@ -1,0 +1,15 @@
+id = "8002075"
+name = "Freihöls"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB////8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+AAAAAA=="]
+deps = [
+  [436,"RE","3556","8000284",["8000566","8005800","8000269","8001929","8002612","8002794"],1,""],
+  [436,"RE","3556","8000284",["8000566","8005800","8000269","8001929","8002612","8002793"],2,""],
+  [818,"RE","3567","8000309",["8000027","8003922","8004987"],0,""],
+  [998,"RE","3573","8000309",["8000027","8003922","8004987"],0,""],
+]
+
+names = { 8000027 = "Schwandorf", 8000269 = "Neukirchen(b Sulzb)", 8000284 = "Nürnberg Hbf", 8000309 = "Regensburg Hbf", 8000566 = "Amberg in Bayern", 8001929 = "Etzelwang", 8002612 = "Hartmannshof", 8002793 = "Hersbruck(l Pegnitz)", 8002794 = "Hersbruck(r Pegnitz)", 8003922 = "Maxhütte-Haidhof", 8004987 = "Regenstauf", 8005800 = "Sulzbach-Rosenberg" }

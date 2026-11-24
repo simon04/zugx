@@ -1,0 +1,19 @@
+id = "8007193"
+name = "Miedelsbach-Steinenberg"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAA=="]
+deps = [
+  [640,"RB","3520","8006324",["8007194","8007196","8007625","8006701","8070893","8070894"],1,""],
+  [727,"RB","88232","8006324",["8007196","8007625","8006701","8070894"],0,""],
+  [765,"RB","3521","8005424",["8007192"],1,""],
+  [832,"RB","88720","8005424",[],0,""],
+  [850,"RB","3522","8006324",["8007194","8007196","8007625","8006701","8070893","8070894"],1,""],
+  [877,"RB","88721","8006324",["8007196","8007625","8006701","8070894"],0,""],
+  [1008,"RB","88233","8000339",["8005424","8005775","8003411","8000235","8000038","8006053"],0,""],
+  [1035,"RB","3523","8005424",["8007192"],1,""],
+]
+
+names = { 8000038 = "Bietigheim-Bissingen", 8000235 = "Ludwigsburg", 8000339 = "Mühlacker", 8003411 = "Kornwestheim Pbf", 8005424 = "Schorndorf", 8005775 = "Stuttgart-Untertürkheim", 8006053 = "Vaihingen(Enz)", 8006324 = "Welzheim", 8006701 = "Laufenmühle", 8007192 = "Haubersbronn", 8007194 = "Michelau(Württ)", 8007196 = "Rudersberg", 8007625 = "Rudersberg-Oberndorf", 8070893 = "Breitenfürst", 8070894 = "Tannwald" }

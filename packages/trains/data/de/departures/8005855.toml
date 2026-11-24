@@ -1,0 +1,17 @@
+id = "8005855"
+name = "Thansüß"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+fPnz4A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB////8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+AAAAAA=="]
+deps = [
+  [387,"RE","3453","8004332",["8006266","8000204","8000540"],0,""],
+  [416,"RE","3493","8004332",["8005139","8006266","8000204","8000540"],1,""],
+  [515,"RE","3457","8004332",["8006266","8000204","8000540"],0,""],
+  [835,"RE","3498","8002076",[],1,""],
+  [973,"RE","3474","8000284",["8002076","8006085","8000269","8001929","8002612","8002794"],2,""],
+  [973,"RE","3474","8000284",["8002076","8006085","8000269","8001929","8002793"],3,""],
+]
+
+names = { 8000204 = "Weiden(Oberpf)", 8000269 = "Neukirchen(b Sulzb)", 8000284 = "Nürnberg Hbf", 8000540 = "Altenstadt/Waldnaab", 8001929 = "Etzelwang", 8002076 = "Freihung", 8002612 = "Hartmannshof", 8002793 = "Hersbruck(l Pegnitz)", 8002794 = "Hersbruck(r Pegnitz)", 8004332 = "Neustadt(Waldnaab)", 8005139 = "Röthenbach(Oberpf)", 8006085 = "Vilseck", 8006266 = "Weiherhammer" }

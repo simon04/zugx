@@ -1,0 +1,13 @@
+id = "8000324"
+name = "Boppard Süd"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+fPnz4A=="]
+deps = [
+  [442,"RB","88004","8001770",["8000045","8001235","8002004","8001690"],0,""],
+  [808,"RB","88012","8001770",["8000045","8001235","8002004","8001690"],0,""],
+]
+
+names = { 8000045 = "Boppard Hbf", 8001235 = "Boppard-Buchholz", 8001690 = "Ehr", 8001770 = "Emmelshausen", 8002004 = "Boppard-Fleckertshöhe" }

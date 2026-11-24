@@ -1,0 +1,15 @@
+id = "8012306"
+name = "Markersbach(Erzgeb)"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=="]
+deps = [
+  [740,"RB","28110","8011047",["8012859","8012874","8010360","8010005","8011045"],0,""],
+  [912,"RB","28111","8010323",["8012715","8011779"],0,""],
+  [1130,"RB","28112","8011047",["8012859","8012874","8010360","8010005","8011045"],0,""],
+  [1293,"RB","28113","8010323",["8012715","8011779"],0,""],
+]
+
+names = { 8010005 = "Annaberg-Buchholz Süd", 8010323 = "Schwarzenberg(Erzg)", 8010360 = "Walthersdorf(Erzgeb)", 8011045 = "Annaberg-Buchholz Mitte", 8011047 = "Annaberg-Buchholz unterer Bf", 8011779 = "Grünstädtel", 8012715 = "Raschau(Schwarzenb)", 8012859 = "Scheibenberg", 8012874 = "Schlettau(Erzgeb)" }

@@ -1,0 +1,15 @@
+id = "8013412"
+name = "Zittau Vorstadt"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/8A=="]
+deps = [
+  [562,"RB","500","8012135",["8012560","8012561","8010045","8012136","8013537"],0,""],
+  [743,"RB","505","8010393",["8013411","8013410"],0,""],
+  [802,"RB","506","8012135",["8012560","8012561","8010045","8012136","8013537"],0,""],
+  [983,"RB","511","8010393",["8013411","8013410"],0,""],
+]
+
+names = { 8010045 = "Bertsdorf", 8010393 = "Zittau", 8012135 = "Kurort Oybin", 8012136 = "Kurort Oybin-Niederdorf", 8012560 = "Olbersdorf bei Zittau Niederdorf", 8012561 = "Olbersdorf bei Zittau Oberdorf", 8013410 = "Zittau Hp", 8013411 = "Zittau Süd", 8013537 = "Teufelsmühle" }

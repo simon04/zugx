@@ -1,0 +1,15 @@
+id = "8070508"
+name = "Oettingen(Bay)"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=="]
+deps = [
+  [595,"RB","86770","8000385",["8071103","8070567","8071104","8071105"],0,""],
+  [721,"RB","86771","8000280",["8071102"],0,""],
+  [825,"RB","86772","8000385",["8071103","8070567","8071104","8071105"],0,""],
+  [961,"RB","86773","8000280",["8071102"],0,""],
+]
+
+names = { 8000280 = "Nördlingen", 8000385 = "Gunzenhausen", 8070567 = "Wassertrüdingen", 8071102 = "Dürrenzimmern", 8071103 = "Auhausen", 8071104 = "Unterschwaningen", 8071105 = "Cronheim" }

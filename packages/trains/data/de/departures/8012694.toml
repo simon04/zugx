@@ -1,0 +1,17 @@
+id = "8012694"
+name = "Rabenau"
+year = 2026
+begin = "2025-12-14"
+end = "2026-12-12"
+source = "DELFI e.V. (opendata-oepnv.de) (CC BY 4.0)"
+days = ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA///8A==", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABg4cA=="]
+deps = [
+  [613,"RB","5000","8012133",["8013015","8012977","8012298","8011382","8013167","8012518","8012885","8012884"],0,""],
+  [764,"RB","5001","8010116",["8011568"],0,""],
+  [853,"RB","5002","8012133",["8013015","8012977","8012298","8011382","8013167","8012518","8012885","8012884"],0,""],
+  [1004,"RB","5003","8010116",["8011568"],0,""],
+  [1072,"RB","5004","8011382",["8013015","8012977","8012298"],1,""],
+  [1141,"RB","5005","8010116",["8011568"],1,""],
+]
+
+names = { 8010116 = "Freital-Hainsberg", 8011382 = "Dippoldiswalde", 8011568 = "Freital-Coßmannsdorf", 8012133 = "Kurort Kipsdorf", 8012298 = "Malter", 8012518 = "Obercarsdorf", 8012884 = "Schmiedeberg (Dresden)", 8012885 = "Schmiedeberg-Naundorf", 8012977 = "Seifersdorf", 8013015 = "Spechtritz", 8013167 = "Ulberndorf" }
