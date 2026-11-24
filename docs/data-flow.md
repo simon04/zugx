@@ -25,6 +25,17 @@ COUNTRY=es vp run stations:abbr && COUNTRY=es vp run netz:build && COUNTRY=es vp
 vp run route:build
 ```
 
+Germany: DELFI's feed needs a login (opendata-oepnv.de) and covers all modes (4.9 GB unpacked), so download it by hand and extract the rail part first (into `.cache/de-rail/`, the feed path in countries.toml); the OSM extract is `.cache/germany-YYMMDD.osm.pbf`. `db:build` takes about 15 minutes (the fix-ups: stations from the DHIDs, categories, codeshare duplicates) and `stations:build` about an hour the first time (8,300 stations):
+
+```sh
+vp run gtfs:rail -- ~/Downloads/<YYYYMMDD>_fahrplaene_gesamtdeutschland_gtfs.zip .cache/de-rail
+COUNTRY=de vp run db:build && COUNTRY=de vp run stations:build
+COUNTRY=de vp run trains:build && COUNTRY=de vp run departures:build && COUNTRY=de vp run lines:build
+COUNTRY=de vp run vzg:extract && COUNTRY=de vp run vzg:build && COUNTRY=de vp run vzg:boundaries
+COUNTRY=de vp run stations:abbr && COUNTRY=de vp run netz:build && COUNTRY=de vp run route:export
+vp run route:build
+```
+
 The diagram shows the Austrian pipeline; the others are the same.
 
 ```mermaid

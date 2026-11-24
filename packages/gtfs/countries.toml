@@ -16,6 +16,155 @@ osm = "austria"
 lineRef = '^\d{3} \d{2}$'
 licence = { name = "CC BY 4.0", url = "https://creativecommons.org/licenses/by/4.0/", source = "ÖBB GTFS", page = "https://data.oebb.at/de/datensaetze~soll-fahrplan-gtfs~" }
 
+[de]
+name = { de = "Deutschland", en = "Germany", it = "Germania", sl = "Nemčija", es = "Alemania" }
+uic = "80"
+timezone = "Europe/Berlin"
+# DELFI e.V.'s nationwide timetable ("Deutschlandweite Sollfahrplandaten (GTFS)", opendata-oepnv.de,
+# CC BY per the dataset page and the zip's description, licence check 2026-11-24). Downloads need
+# a login, and the feed is all modes (4.9 GB unpacked): download it by hand, then extract the rail
+# part: vp run gtfs:rail -- <…_fahrplaene_gesamtdeutschland_gtfs.zip> .cache/de-rail
+feeds = [".cache/de-rail"]
+osm = "germany"
+# DB InfraGO line numbers (VzG Streckennummer, "5600" München – Nürnberg)
+lineRef = '^\d{4}$'
+day = "2026-11-24"
+licence = { name = "CC BY 4.0", url = "https://creativecommons.org/licenses/by/4.0/", source = "DELFI e.V. (opendata-oepnv.de)", page = "https://www.opendata-oepnv.de/ht/de/organisation/delfi/startseite" }
+# DELFI's quirks:
+# - stations: a DHID is <country>:<municipality>:<station>[:<area>:<platform>], but parents are
+#   missing, platforms ("…:2:3_G" under "…:2:3"), or the station with a suffix ("de:05112:16032_G",
+#   also stops "…_G_G"). Every German stop goes to the station of its DHID's first three parts
+#   (added where missing), as the station groups go by parent
+# - trip_short_name is the bare, zero-padded number; the category is in the route name for
+#   regional trains ("RE2", "RB54", "S5") and some long-distance ones ("RJX", "EC", "ICE"), but
+#   DB Fernverkehr's routes are its line numbers ("21"): those by route type (101 ICE, 102 IC,
+#   103 IR; TGV numbers 95xx/97xx)
+# - one train under several operators (codeshares: RJX 60 as ÖBB "RJX", ÖBB "90", MÁV "RJX",
+#   DB "90"): one copy is kept per day: the one whose category is named, then the longest. Only
+#   copies on other routes: on the same route they're the train's timetable variants
+fixups = [
+  """
+  create temp table dh as
+  select stop_id, stop_name, stop_lat, stop_lon,
+    case when instr(b, ':') > 0 then substr(v, 1, length(v) - length(b) + instr(b, ':') - 1) else v end as station
+  from (select *, substr(a, instr(a, ':') + 1) as b from (
+    select *, substr(v, instr(v, ':') + 1) as a from (
+      select stop_id, stop_name, stop_lat, stop_lon,
+        replace(coalesce(nullif(parent_station, ''), stop_id), '_G', '') as v
+      from stops where stop_id like 'de:%' and coalesce(location_type, 0) = 0)))
+  """,
+  """
+  insert or ignore into stops (stop_id, stop_name, stop_lat, stop_lon, location_type)
+  select station, min(stop_name), avg(stop_lat), avg(stop_lon), 1 from dh
+  where station <> stop_id group by station
+  """,
+  """
+  update stops set parent_station = (select station from dh where dh.stop_id = stops.stop_id)
+  where stop_id in (select stop_id from dh where station <> stop_id)
+  """,
+  "delete from stops where coalesce(location_type, 0) = 1 and stop_id like 'de:%' and (substr(stop_id, -2) = '_G' or length(stop_id) - length(replace(stop_id, ':', '')) > 2) and stop_id not in (select parent_station from stops where parent_station is not null)",
+  """
+  create temp table de_cat as
+  select t.trip_id, ltrim(t.trip_short_name, '0') as nr,
+    case
+      when r.route_short_name glob 'ICE*' then 'ICE'
+      when r.route_short_name glob 'ECE*' then 'ECE'
+      when r.route_short_name glob 'EC*' then 'EC'
+      when r.route_short_name glob 'EN*' then 'EN'
+      when r.route_short_name glob 'NJ*' then 'NJ'
+      when r.route_short_name glob 'RJX*' then 'RJX'
+      when r.route_short_name glob 'RJ*' then 'RJ'
+      when r.route_short_name glob 'IC[0-9]*' or r.route_short_name = 'IC' then 'IC'
+      when r.route_short_name = 'THA' then 'EUR'
+      when r.route_short_name glob 'FLX*' then 'FLX'
+      when r.route_short_name glob 'IRE*' then 'IRE'
+      when r.route_short_name glob 'MEX*' then 'MEX'
+      when r.route_short_name glob 'FEX*' then 'FEX'
+      when r.route_short_name glob 'RE[0-9]*' or r.route_short_name = 'RE' then 'RE'
+      when r.route_short_name glob 'RB[0-9]*' or r.route_short_name = 'RB' then 'RB'
+      when r.route_short_name glob 'S[0-9]*' or r.route_short_name = 'S' then 'S'
+      when r.route_type = 101 and (ltrim(t.trip_short_name, '0') glob '95[0-9][0-9]'
+        or ltrim(t.trip_short_name, '0') glob '97[0-9][0-9]') then 'TGV'
+      when r.route_type = 101 then 'ICE'
+      when r.route_type = 102 and r.route_short_name glob '*N' then 'NJ'
+      when r.route_type = 102 then 'IC'
+      when r.route_type = 103 then 'IR'
+      when r.route_type = 109 then 'S'
+      else 'RB' end as cat,
+    (r.route_short_name glob '[A-Z]*' and r.route_type in (101, 102, 103)) as named
+  from trips t join routes r using (route_id)
+  where coalesce(t.trip_short_name, '') glob '[0-9]*'
+  """,
+  """
+  update trips set trip_short_name = (select cat || ' ' || nr from de_cat where de_cat.trip_id = trips.trip_id)
+  where trip_id in (select trip_id from de_cat)
+  """,
+  """
+  update trips set trip_headsign = (
+    select s.stop_name from stop_times st join stops s using (stop_id)
+     where st.trip_id = trips.trip_id order by st.stop_sequence desc limit 1)
+  where coalesce(trim(trip_headsign), '') = ''
+  """,
+  """
+  create temp table grp as select stop_id, coalesce(nullif(parent_station, ''), stop_id) as station from stops
+  """,
+  "create unique index temp.grp_stop on grp (stop_id)",
+  """
+  create temp table de_dup as
+  with
+    n(trip_id, stops) as (select trip_id, count(*) from stop_times group by trip_id),
+    first(trip_id, station, dep) as (
+      select trip_id, station, departure_time from (
+        select trip_id, stop_id, departure_time, min(stop_sequence) from stop_times group by trip_id)
+      join grp using (stop_id)),
+    last(trip_id, station) as (
+      select trip_id, station from (
+        select trip_id, stop_id, max(stop_sequence) from stop_times group by trip_id)
+      join grp using (stop_id))
+  select distinct l.trip_id, tl.service_id as svc, tw.service_id as win
+  from de_cat l join de_cat w on w.nr = l.nr and w.trip_id <> l.trip_id
+  join n nl on nl.trip_id = l.trip_id join n nw on nw.trip_id = w.trip_id
+  join trips tl on tl.trip_id = l.trip_id join trips tw on tw.trip_id = w.trip_id
+  join first fl on fl.trip_id = l.trip_id join last ll on ll.trip_id = l.trip_id
+  join stop_times a on a.trip_id = w.trip_id and a.departure_time = fl.dep
+  join grp ga on ga.stop_id = a.stop_id and ga.station = fl.station
+  join stop_times b on b.trip_id = w.trip_id and b.stop_sequence > a.stop_sequence
+  join grp gb on gb.stop_id = b.stop_id and gb.station = ll.station
+  where tw.route_id <> tl.route_id and (w.named, nw.stops, w.trip_id) > (l.named, nl.stops, l.trip_id)
+  """,
+  """
+  insert into calendar (service_id, monday, tuesday, wednesday, thursday, friday, saturday, sunday, start_date, end_date)
+  select distinct d.svc || '/' || d.trip_id, monday, tuesday, wednesday, thursday, friday, saturday, sunday, start_date, end_date
+  from calendar join de_dup d on d.svc = calendar.service_id
+  """,
+  """
+  insert into calendar_dates (service_id, date, exception_type)
+  select distinct d.svc || '/' || d.trip_id, date, exception_type
+  from calendar_dates join de_dup d on d.svc = calendar_dates.service_id
+  """,
+  "update trips set service_id = service_id || '/' || trip_id where trip_id in (select trip_id from de_dup)",
+  """
+  insert or replace into calendar_dates (service_id, date, exception_type)
+  with recursive
+    span(lo, hi) as (
+      select date(substr(min(start_date), 1, 4) || '-' || substr(min(start_date), 5, 2) || '-' || substr(min(start_date), 7, 2)),
+             date(substr(max(end_date), 1, 4) || '-' || substr(max(end_date), 5, 2) || '-' || substr(max(end_date), 7, 2))
+      from calendar),
+    days(d) as (select lo from span union all select date(d, '+1 day') from days, span where d < hi),
+    win_days(service_id, ymd) as (
+      select c.service_id, cast(replace(d, '-', '') as integer) from calendar c, days
+      where c.service_id in (select win from de_dup)
+        and cast(replace(d, '-', '') as integer) between c.start_date and c.end_date
+        and case strftime('%w', d) when '0' then c.sunday when '1' then c.monday when '2' then c.tuesday
+          when '3' then c.wednesday when '4' then c.thursday when '5' then c.friday else c.saturday end = 1
+      union
+      select service_id, date from calendar_dates where exception_type = 1 and service_id in (select win from de_dup)
+      except
+      select service_id, date from calendar_dates where exception_type = 2 and service_id in (select win from de_dup))
+  select distinct d.svc || '/' || d.trip_id, win_days.ymd, 2 from de_dup d join win_days on win_days.service_id = d.win
+  """,
+]
+
 [si]
 name = { de = "Slowenien", en = "Slovenia", it = "Slovenia", sl = "Slovenija", es = "Eslovenia" }
 uic = "79"

@@ -1,0 +1,117 @@
+# Bildfahrplan sheets (corridors) of Germany, along DB InfraGO lines (OSM ref, packages/vzg/data/de):
+# the main long-distance corridors, Rhein-Ruhr, the line to Salzburg and the München S-Bahn trunk.
+# Anchors: station ids of the DELFI feed (DHIDs) in corridor order (stations of the sheet between
+# them are found from the trains); see CorridorDef in src/corridors.ts. DELFI has no track
+# distances: high-speed segments are `nonstop`, segments with a longer parallel line `detourByPath`.
+
+[[corridors]]
+id = "de-hh-ffm"
+name = "Hamburg – Hannover – Kassel – Fulda – Frankfurt"
+anchors = [
+  "de:02000:10950", # Hamburg Hbf
+  "de:02000:8000147", # Hamburg-Harburg
+  "de:03355:8000238", # Lüneburg
+  "de:03360:92160", # Uelzen
+  "de:03351:50", # Celle
+  "de:03241:31", # Hannover Hbf
+  "de:03152:33817", # Göttingen
+  "de:06611:200007", # Kassel-Wilhelmshöhe
+  "de:06631:11049", # Fulda
+  "de:06435:4503", # Hanau Hbf
+  "de:06412:10", # Frankfurt (Main) Hbf
+]
+# Hannover – Würzburg high-speed line: no stations between; the old lines (via Kreiensen, Hann.
+# Münden, Bebra) belong to their own sheets
+nonstop = ["de:03241:31", "de:03152:33817", "de:06611:200007"]
+
+[[corridors]]
+id = "de-ffm-muc"
+name = "Frankfurt – Mannheim – Stuttgart – Ulm – Augsburg – München"
+anchors = [
+  "de:06412:10", # Frankfurt (Main) Hbf
+  "de:08222:2417", # Mannheim Hbf
+  "de:08111:6115", # Stuttgart Hbf
+  "de:08421:1008", # Ulm Hbf
+  "de:09761:100", # Augsburg Hbf
+  "de:09162:10", # München-Pasing
+  "de:09162:100", # München Hbf
+]
+# Riedbahn / Main-Neckar-Bahn, the Mannheim – Stuttgart and Wendlingen – Ulm high-speed lines:
+# nonstop (the regional trains run on other lines: Darmstadt, Bruchsal, Filstal)
+nonstop = ["de:06412:10", "de:08222:2417", "de:08111:6115"]
+
+[[corridors]]
+id = "de-muc-nue"
+name = "München – Ingolstadt – Nürnberg"
+anchors = [
+  "de:09162:100", # München Hbf
+  "de:09161:9000", # Ingolstadt Hbf
+  "de:09564:510", # Nürnberg Hbf
+]
+# Ingolstadt – Nürnberg: the high-speed line (Kinding, Allersberg), not the old line via
+# Treuchtlingen (Eichstätt)
+detourByPath = ["de:09161:9000"]
+
+[[corridors]]
+id = "de-ber-nue"
+name = "Berlin – Halle – Erfurt – Bamberg – Nürnberg (VDE 8)"
+anchors = [
+  "de:11000:900003201", # Berlin Hbf
+  "de:15002:8010159", # Halle (Saale) Hbf
+  "de:16051:8010101", # Erfurt Hbf
+  "de:09463:72000", # Coburg
+  "de:09461:20010", # Bamberg
+  "de:09562:3110", # Erlangen
+  "de:09564:510", # Nürnberg Hbf
+]
+# Halle – Erfurt and Erfurt – Coburg: high-speed lines without stations (the regional trains run
+# via Naumburg, Weimar, Saalfeld)
+nonstop = ["de:15002:8010159", "de:16051:8010101"]
+
+[[corridors]]
+id = "de-rhein-ruhr"
+name = "Köln – Düsseldorf – Duisburg – Essen – Dortmund"
+anchors = [
+  "de:05315:11201", # Köln Hbf
+  "de:05111:18235", # Düsseldorf Hbf
+  "de:05112:16032", # Duisburg Hbf
+  "de:05113:9289", # Essen Hbf
+  "de:05913:131", # Dortmund Hbf
+]
+# parallel lines: Köln – Neuss – Düsseldorf (S 11), Duisburg – Gelsenkirchen (RE 2), Essen –
+# Gelsenkirchen – Dortmund: by the path along the stops
+detourByPath = ["de:05315:11201", "de:05111:18235", "de:05112:16032", "de:05113:9289"]
+
+[[corridors]]
+id = "de-hh-ber"
+name = "Hamburg – Ludwigslust – Wittenberge – Berlin"
+anchors = [
+  "de:02000:10950", # Hamburg Hbf
+  "de:13076:4782", # Ludwigslust
+  "de:12070:900216026", # Wittenberge
+  "de:11000:900029101", # Berlin-Spandau
+  "de:11000:900003201", # Berlin Hbf
+]
+
+[[corridors]]
+id = "de-muc-sbg"
+name = "München – Rosenheim – Freilassing – Salzburg"
+anchors = [
+  "de:09162:100", # München Hbf
+  "de:09163:9", # Rosenheim
+  "de:09172:42293", # Freilassing
+  "at:45:50002", # Salzburg Hbf
+]
+# München – Rosenheim via Grafing, not via Holzkirchen and Bad Aibling
+detourByPath = ["de:09162:100"]
+
+[[corridors]]
+id = "de-muc-s"
+name = "München-Pasing – München Hbf – München Ost (S-Bahn-Stammstrecke)"
+# the S-Bahn's own stop at München Hbf (DELFI: "Hauptbahnhof (U, Tram)", de:09162:6, the same
+# HAFAS station as the long-distance de:09162:100)
+anchors = [
+  "de:09162:10", # München-Pasing
+  "de:09162:6", # München Hbf (S-Bahn)
+  "de:09162:5", # München Ost
+]
