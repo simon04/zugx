@@ -106,6 +106,40 @@ table.dense tbody tr:hover td {
 .zugx-tip {
   pointer-events: none;
 }
+/* several trains at one spot: a list to choose from (clickable, unlike the tooltip) */
+/* (by content: MapLibre rewrites the popup's classes when it places it) */
+.zugx-tip:has(.zugx-choose-list),
+.zugx-tip:has(.zugx-choose-list) .maplibregl-popup-content {
+  pointer-events: auto;
+}
+.zugx-choose-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-height: 14rem;
+  overflow-y: auto;
+}
+.zugx-choose-list button {
+  display: block;
+  padding: 4px 6px;
+  border: 0;
+  border-radius: 4px;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.zugx-choose-list button:hover,
+.zugx-choose-list button:focus-visible {
+  background: var(--bg);
+}
+@media (pointer: coarse) {
+  .zugx-choose-list button {
+    min-height: 40px;
+  }
+}
 .zugx-tip .maplibregl-popup-tip {
   border-top-color: var(--bg2) !important;
   border-bottom-color: var(--bg2) !important;

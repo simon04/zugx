@@ -276,7 +276,8 @@ onMounted(() => {
       a.classList.remove("maplibregl-compact-show");
       a.removeAttribute("open");
     });
-    // tooltip: hover on desktop; on touch the first tap shows it, a second tap on the same marker opens it
+    // tooltip: hover on desktop; on touch the first tap shows it, a second tap on the same marker
+    // opens it. Several markers under the finger/cursor (trains at one platform): a list to choose.
     const tip = new Popup({
       closeButton: false,
       closeOnClick: false,
@@ -284,46 +285,104 @@ onMounted(() => {
       className: "zugx-tip",
     });
     let tipId: string | undefined;
+    let choosing = false;
+    const keyOf = (f: MapGeoJSONFeature) => String(f.properties?.id || f.properties?.label || "");
+    const content = (f: MapGeoJSONFeature) => {
+      const pr = f.properties ?? {};
+      const el = document.createElement("span");
+      if (pr.badgeText) el.append(badgeEl(String(pr.badgeText), String(pr.badgeColor)), " ");
+      el.append(String(pr.label ?? ""));
+      return el;
+    };
     const showTip = (f: MapGeoJSONFeature | undefined) => {
       if (!f || f.geometry.type !== "Point" || !f.properties?.label) return;
+      choosing = false;
       tip.setLngLat(f.geometry.coordinates as [number, number]);
-      const pr = f.properties;
-      if (pr.badgeText) {
-        const el = document.createElement("div");
-        el.append(badgeEl(String(pr.badgeText), String(pr.badgeColor)), " ", String(pr.label));
-        tip.setDOMContent(el);
-      } else tip.setText(String(pr.label));
+      tip.setDOMContent(content(f));
       tip.addTo(map);
-      tipId = String(f.properties.id ?? f.properties.label);
+      tipId = keyOf(f);
+    };
+    /** several markers at one spot: one button per train */
+    const showChooser = (fs: MapGeoJSONFeature[]) => {
+      const f = fs[0]!;
+      if (f.geometry.type !== "Point") return;
+      const list = document.createElement("div");
+      list.className = "zugx-choose-list";
+      list.setAttribute("role", "menu");
+      for (const g of fs) {
+        const id = g.properties?.id ? String(g.properties.id) : undefined;
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.setAttribute("role", "menuitem");
+        btn.append(content(g));
+        btn.disabled = !id;
+        btn.addEventListener("click", () => {
+          hideTip();
+          if (id) emit("clickPoint", id);
+        });
+        list.append(btn);
+      }
+      tip.setLngLat(f.geometry.coordinates as [number, number]);
+      tip.setDOMContent(list);
+      tip.addTo(map);
+      choosing = true;
+      tipId = undefined;
     };
     const hideTip = () => {
       tip.remove();
       tipId = undefined;
+      choosing = false;
     };
-    map.on("mousemove", "points", (e) => {
-      map.getCanvas().style.cursor = "pointer";
-      showTip(e.features?.[0]);
-    });
-    map.on("mouseleave", "points", () => {
-      map.getCanvas().style.cursor = "";
-      hideTip();
-    });
-    map.on("click", "points", (e) => {
-      const f = e.features?.[0];
-      const id = f?.properties?.id ? String(f.properties.id) : undefined;
-      const touch = (e.originalEvent as PointerEvent).pointerType === "touch";
-      if (touch && tipId !== (id ?? f?.properties?.label)) {
-        showTip(f);
-        return;
-      }
-      if (id) emit("clickPoint", id);
+    /** the markers within a few pixels (a finger needs more), one per train, nearest first */
+    const near = (pt: { x: number; y: number }, r: number) => {
+      const seen = new Set<string>();
+      const d = (f: MapGeoJSONFeature) => {
+        if (f.geometry.type !== "Point") return 0;
+        const q = map.project(f.geometry.coordinates as [number, number]);
+        return (q.x - pt.x) ** 2 + (q.y - pt.y) ** 2;
+      };
+      return map
+        .queryRenderedFeatures(
+          [
+            [pt.x - r, pt.y - r],
+            [pt.x + r, pt.y + r],
+          ],
+          { layers: ["points"] },
+        )
+        .filter((f) => {
+          const k = keyOf(f);
+          if (!k || seen.has(k)) return false;
+          seen.add(k);
+          return true;
+        })
+        .sort((a, b) => d(a) - d(b));
+    };
+    map.on("mousemove", (e) => {
+      if (choosing) return;
+      const fs = near(e.point, 3);
+      map.getCanvas().style.cursor = fs.length ? "pointer" : "";
+      if (fs.length) showTip(fs[0]);
+      else if (tipId) hideTip();
     });
     map.on("click", (e) => {
-      if (!map.queryRenderedFeatures(e.point, { layers: ["points"] }).length) hideTip();
+      const touch = (e.originalEvent as PointerEvent).pointerType === "touch";
+      const fs = near(e.point, touch ? 14 : 4);
+      if (!fs.length) return hideTip();
+      // a list only where markers open something (trains); else the nearest one's tooltip
+      const openable = fs.filter((f) => f.properties?.id);
+      if (openable.length > 1) return showChooser(openable);
+      const f = fs[0]!;
+      if (touch && tipId !== keyOf(f)) return showTip(f);
+      const id = f.properties?.id ? String(f.properties.id) : undefined;
+      if (id) {
+        hideTip();
+        emit("clickPoint", id);
+      }
     });
     // markers move under a static cursor when data refreshes (radar)
+    // (an open list stays: its trains are still valid)
     map.on("data", (e) => {
-      if ((e as { sourceId?: string }).sourceId === "points" && tipId) hideTip();
+      if ((e as { sourceId?: string }).sourceId === "points" && tipId && !choosing) hideTip();
     });
     fitAll();
     emit("ready", map);
