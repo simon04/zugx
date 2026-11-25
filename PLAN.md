@@ -1141,6 +1141,36 @@ For Austria: record it ourselves — departure/arrival boards of the ~50 main tr
 
 **Suggested**: Switzerland directly from open data (good values at once); Austria needs weeks of own recording (server service, licence check, SQLite) first; then per-train/stop statistics and a traffic light or percentage per transfer in the journey search. Effort medium to large; the recording can be shared with the radar look-back.
 
+### Unplanned diversions from HIM messages: reroute trains on map and Bildfahrplan (idea 2026-11-25)
+
+Feedback: HIM messages sometimes announce unplanned diversions; could zugx recognise common standard cases and reroute the train on the map (and in the Bildfahrplan)? The main ones in Austria:
+
+- Meidling – Wiener Neustadt via the Pottendorfer Linie instead of the Südbahn (or the other way round)
+- Meidling/Hütteldorf – St. Pölten via the old line instead of the high-speed line
+- Knoten Wagram – Knoten Rohr via the Güterzugumfahrung St. Pölten (GZU), when the St. Pölten stop is cancelled
+- Bruck/Mur – Klagenfurt via the Neumarkter Sattel instead of the Koralmbahn
+- Salzburg – Wörgl via Zell am See instead of the DB corridor (rarely the other way round: the Transalpin was once diverted via the corridor)
+
+**Finding (2026-11-25)**: of the 300 current ÖBB HIM messages none mentioned a diversion (no example yet). HIM texts are free text with a from/to station, not reliably linked to single trains: a weak trigger on their own. A more robust signal is the diverted train's own realtime run (cancelled stops, sometimes additional stops):
+
+| Case                                               | Visible in the train's stops?                                                        | Trigger             |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------- |
+| Wagram – Rohr via GZU                              | yes: St. Pölten cancelled, other stops kept                                          | stop pattern        |
+| Bruck/Mur – Klagenfurt via Neumarkter Sattel       | yes: Graz/Koralmbahn stops cancelled, probably additional stops (Leoben, Friesach …) | stop pattern        |
+| Salzburg – Wörgl via Zell am See (or the corridor) | probably: additional stops (Bischofshofen, Zell am See …) or Rosenheim/Kufstein      | stop pattern        |
+| Meidling – Wr. Neustadt via Pottendorfer Linie     | no (nonstop either way)                                                              | HIM text or nothing |
+| Hütteldorf – St. Pölten via the old line           | no (nonstop either way)                                                              | HIM text or nothing |
+
+**How**:
+
+1. A rule table per case: junction stations, regular and diversion route as VzG lines (106 01 Pottendorfer Linie, 101 02 old Westbahn vs 130 01 Neue Westbahn, Rudolfsbahn, Giselabahn; DB corridor from the German OSM data), triggers (stop pattern and/or HIM keywords such as "Pottendorfer Linie", "Güterzugumfahrung").
+2. Detection: each train's realtime stops against the rules; HIM text as a second signal.
+3. Display: train page note ("Diversion via Pottendorfer Linie", easy); radar: first observe whether HAFAS already places a diverted train on the diversion, else zugx places it along the diversion line by time between the junctions; Bildfahrplan: the train leaves the sheet at the junction and rejoins, dashed with a label, and appears on the diversion line's sheet where there is one.
+
+**Effort / risks**: ~1–2 days for the stop-pattern cases; first a small logger that records HIM messages and the affected trains' runs when a diversion happens, to tune the rules. Risks: false matches (St. Pölten cancelled for other reasons), varying HIM wording; the two nonstop cases may not be reliably detectable.
+
+**Suggested**: start with the stop-pattern cases (GZU, Neumarkter Sattel, Zell am See / corridor) on train page and Bildfahrplan; log real diversions meanwhile; then the HIM-text cases (Pottendorfer Linie, old Westbahn) once there are examples.
+
 ## Sources
 
 - public-transport-enabler `OebbProvider`: https://github.com/schildbach/public-transport-enabler/blob/master/src/de/schildbach/pte/OebbProvider.java
