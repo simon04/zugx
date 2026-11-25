@@ -1,0 +1,83 @@
+id = "murtalbahn"
+name = "Murtalbahn"
+operator = "STLB"
+gauge = "760"
+source = "OpenStreetMap (austria-261113.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0.021
+kmTo = 58.7
+length = 58.517
+speeds = [[0.021, 58.7, "", ""]]
+curves = [[0.138, 0.213, 1180], [0.288, 1.363, 410], [1.513, 1.788, 360], [1.838, 2.938, 330], [2.988, 3.188, 350], [3.638, 4.238, 910], [4.338, 4.713, 640], [4.788, 4.888, 740], [4.938, 5.213, 550], [5.363, 5.763, 400], [6.063, 6.313, 360], [6.363, 6.488, 540], [6.538, 6.713, 1250], [6.938, 7.213, 490], [7.313, 7.763, 410], [8.988, 9.188, 370], [9.688, 9.913, 1260], [10.013, 10.588, 890], [10.763, 11.038, 470], [11.213, 11.388, 740], [11.738, 11.963, 750], [12.188, 12.438, 610], [13.413, 13.888, 410], [14.013, 14.288, 390], [15.013, 15.113, 1550], [15.813, 16.088, 600], [16.163, 16.763, 400], [16.863, 17.238, 380], [17.338, 17.513, 750], [18.213, 18.513, 670], [19.488, 20.038, 610], [20.288, 20.538, 500], [20.738, 20.938, 880], [21.038, 21.238, 760], [21.663, 21.963, 290], [22.138, 22.438, 420], [22.788, 23.038, 720], [24.013, 24.189, 950], [24.817, 25.143, 420], [25.57, 25.796, 800], [27.001, 28.205, 300], [28.281, 28.381, 850], [28.431, 28.557, 320], [28.607, 28.783, 450], [28.883, 29.184, 280], [29.385, 29.661, 1100], [29.912, 30.59, 480], [30.741, 30.992, 520], [31.042, 31.619, 500], [31.845, 32.071, 600], [32.121, 32.347, 440], [32.699, 32.849, 950], [33.1, 33.502, 530], [33.778, 34.004, 860], [34.908, 35.184, 630], [35.284, 35.51, 310], [35.561, 35.862, 330], [35.912, 36.012, 1380], [36.213, 36.765, 610], [36.841, 37.267, 580], [37.318, 37.519, 600], [37.644, 38.046, 250], [38.096, 38.221, 430], [38.272, 38.397, 860], [38.447, 38.723, 450], [38.799, 38.974, 880], [39.125, 39.301, 630], [39.351, 39.527, 1130], [39.602, 39.753, 760], [39.928, 40.405, 550], [40.456, 40.807, 380], [40.882, 41.158, 230], [41.209, 41.435, 380], [41.761, 41.861, 1810], [41.937, 42.087, 1430], [42.137, 42.238, 590], [42.288, 42.991, 530], [43.217, 43.418, 580], [43.995, 44.221, 440], [44.272, 44.498, 430], [44.548, 44.749, 670], [44.951, 45.353, 520], [45.428, 45.73, 240], [45.781, 46.007, 470], [46.535, 47.063, 1270], [47.516, 47.793, 450], [48.346, 48.547, 390], [48.798, 48.899, 1620], [48.949, 49.1, 710], [49.905, 50.031, 950], [50.081, 50.131, 840], [50.182, 50.333, 370], [50.433, 50.534, 1670], [50.609, 50.861, 310], [51.012, 51.339, 640], [51.389, 51.515, 700], [51.59, 52.244, 830], [52.395, 52.596, 300], [52.646, 52.873, 280], [52.923, 53.979, 620], [54.155, 54.482, 390], [54.533, 54.885, 380], [54.935, 55.036, 1330], [55.086, 55.463, 750], [56.268, 56.419, 640], [56.469, 56.57, 880], [56.872, 57.45, 620], [57.525, 57.575, 1350], [57.625, 57.9, 480], [57.95, 58.525, 240]]
+points = [
+  { km = 0.021, kind = "station", label = "Unzmarkt", uic = "8100074", pos = [47.20091, 14.44204] },
+  { km = 0.382, kind = "signal", signal = "crossing", dir = 1 },
+  { km = 0.418, kind = "signal", signal = "shunting", dir = 1 },
+  { km = 0.423, kind = "signal", signal = "main", dir = -1 },
+  { km = 1.78, kind = "halt", label = "Wallersbach", uic = "8101939", pos = [47.18951, 14.43032] },
+  { km = 6.352, kind = "halt", label = "Lind bei Scheifling", uic = "8101151", pos = [47.15756, 14.40386] },
+  { km = 8.91, kind = "station", label = "Niederwölz", uic = "8101285", pos = [47.14617, 14.37524] },
+  { km = 10.654, kind = "station", label = "Teufenbach", uic = "8101655", pos = [47.135, 14.36226] },
+  { km = 12.904, kind = "halt", label = "Puxerboden", uic = "8100806", pos = [47.13171, 14.33485] },
+  { km = 15.297, kind = "station", label = "Frojach", pos = [47.13272, 14.30501], uic = "8101836" },
+  { km = 17.257, kind = "halt", label = "Saurau", uic = "8100583", pos = [47.13127, 14.28108] },
+  { km = 20.236, kind = "halt", label = "Triebendorf", uic = "8101680", pos = [47.12823, 14.2456] },
+  { km = 26.289, kind = "halt", label = "St. Egidi", uic = "8101490", pos = [47.10825, 14.18193] },
+  { km = 26.901, kind = "station", label = "Murau", pos = [47.10899, 14.17356], uic = "8100490", ele = 809 },
+  { km = 27.519, kind = "halt", label = "Murau St. Leonhard", uic = "8101842", pos = [47.10883, 14.16635] },
+  { km = 29.172, kind = "halt", label = "Murau West", uic = "8101843", pos = [47.11167, 14.1479] },
+  { km = 31.286, kind = "halt", label = "Kaindorf im Murtal", uic = "8101023", pos = [47.10339, 14.12502] },
+  { km = 32.662, kind = "halt", label = "Marbach Golfplatz", uic = "8101460", pos = [47.10095, 14.10772] },
+  { km = 33.525, kind = "halt", label = "St. Lorenzen Ost", pos = [47.10018, 14.09684] },
+  { km = 34.041, kind = "station", label = "St. Lorenzen ob Murau", pos = [47.10173, 14.09051] },
+  { km = 34.246, kind = "halt", label = "Kreischberg Talstation", uic = "8172379", pos = [47.10194, 14.08782] },
+  { km = 35.214, kind = "halt", label = "Lutzmannsdorf", uic = "8101186", pos = [47.10369, 14.07553] },
+  { km = 38.62, kind = "halt", label = "Wandritsch", uic = "8101938", pos = [47.11078, 14.03449] },
+  { km = 39.447, kind = "halt", label = "St. Ruprecht ob Murau", uic = "8101589", pos = [47.10829, 14.0246] },
+  { km = 41.126, kind = "halt", label = "Falkendorf", uic = "8100777", pos = [47.09922, 14.00891] },
+  { km = 43.318, kind = "halt", label = "Hagendorf", uic = "8101839", pos = [47.08647, 13.98904] },
+  { km = 43.921, kind = "station", label = "Stadl an der Mur", uic = "8100533", pos = [47.08477, 13.98152] },
+  { km = 47.274, kind = "halt", label = "Einach", uic = "8100760", pos = [47.08399, 13.94069] },
+  { km = 49.028, kind = "halt", label = "Predlitz Pichl", uic = "8101847", pos = [47.07693, 13.92138] },
+  { km = 50.157, kind = "halt", label = "Predlitz-Turrach", uic = "8101385", pos = [47.07189, 13.90858] },
+  { km = 52.473, kind = "halt", label = "Kendlbruck", uic = "8101037", pos = [47.06965, 13.88253] },
+  { km = 53.871, kind = "halt", label = "Hintering", uic = "8100954", pos = [47.0721, 13.86551] },
+  { km = 55.693, kind = "halt", label = "Ramingstein", uic = "8101443", pos = [47.07657, 13.84369] },
+  { km = 56.747, kind = "station", label = "Ramingstein Thomatal", uic = "8101444", pos = [47.07524, 13.83007] },
+  { km = 57.4, kind = "halt", label = "Madling", uic = "8101196", pos = [47.07594, 13.82188], measured = true, ele = 985 },
+]
+structures = [
+  { kind = "bridge", kmFrom = 1.724, kmTo = 1.735, length = 11 },
+  { kind = "bridge", kmFrom = 8.52, kmTo = 8.533, length = 13 },
+  { kind = "bridge", kmFrom = 9.927, kmTo = 9.974, length = 47 },
+  { kind = "bridge", kmFrom = 10.741, kmTo = 10.754, length = 12 },
+  { kind = "bridge", kmFrom = 16.216, kmTo = 16.226, length = 10 },
+  { kind = "tunnel", kmFrom = 27.668, kmTo = 27.77, length = 102, name = "Murautunnel" },
+  { kind = "bridge", kmFrom = 32.984, kmTo = 33.015, length = 31 },
+  { kind = "bridge", kmFrom = 33.651, kmTo = 33.671, length = 20 },
+  { kind = "bridge", kmFrom = 43.385, kmTo = 43.403, length = 18 },
+  { kind = "bridge", kmFrom = 48.928, kmTo = 48.975, length = 47 },
+  { kind = "bridge", kmFrom = 52.333, kmTo = 52.354, length = 21 },
+  { kind = "tunnel", kmFrom = 56.194, kmTo = 56.29, length = 96, name = "Ramingsteintunnel" },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}}j~GwwhsAdMqIvB@hHnCtBu@v@iCIoNZcE`LkWvBqHlAmKD}KcCm_@yBaS" },
+  { line = "eqi~GeimsAQ}F", tunnel = true },
+  { line = "wqi~GcqmsAeAeu@FuOfCuKxH}QnB{HRiGmAqPNuG`AgFbHsSjBuRCgD}@uHJwVdDgLjEyHz@sCXqD[sKjAyG" },
+  { line = "yfh~G_qvsA^mA", tunnel = true },
+  { line = "yeh~GmsvsArE_P`BqJz@oK]kMPiM|A_PP{H{Bu\\iBqD{RyOmHePeYieAqAiNcFa]{\\uf@eBaHkAyu@jCgSbDw|@[eDmCwLMoDh@_FjHmQbA_G\\{GCyYcCsP}AeF{GmHiAoCiLyy@gNa\\[cPmEiP}HaLoMaU_RoTwCsBqIo@_C}AgAuCkCaRyAaDcE}CwKoD_H{HaAsCiD{WuEgOkGcNkEeXa@qQv@cLaA{Y~@iO}BeLDmEhEySlFqLjByJl@{IaA{TZqNz@}GpSkg@z@wIi@{IPeDrG}QpA_GxFiyAtIob@v@kMWqHcD}[sKme@\\aWqEca@TcL_@kKmI_[c@}DcBkU~@}ILaG_B_OeAaD_NuUaUoTcAgBi@qCjAaXiA{NdBo\\pBuErGuCdB_C" },
+  { line = "acp~GchmuAbAwF", tunnel = true },
+  { line = "}`p~G{omuA~@mFpBiFr@_GKgE_C}G[eExBao@fEk{@fAyHpL_f@p@yFSaI_K}v@kAwFw^cmAgCiEgV_YwD_AqQ@oDwBgPog@sDk[}HiYcDkF}RwQqEoImCuMoJ_sAYqGLyHxKa`AtHgVj@mFOuGeD}RkA_C{DoD{AaE_Dgd@hJ_fA|E}dAw@eHuGwN_BoFm@yFA{H~RivAn@uKu@qZs@cH_Kwc@{JqSmAmE}Ayb@kB}NmAsC{A{AmTeGe]yQkByBwj@}xAeA_Fc@{Hu@oDsMaS_AeEkDo[wCaOYiKaA_FeTgYw@gCu@wIcAkDkH_QeFkFiD{FuHqHgGyC{BQyKpAcGC_PkIk_@qHwBcBsF}JeGgFcCW_Db@kIjEuFX}Bu@iBsBmAmECiPs@wFcKkRsAkAcIyB}L`EgEKyC}@_CuB{AqCsJk]" },
+]
+posts = [[58, 47.07811, 13.81505], [57, 47.07489, 13.82679], [56, 47.0764, 13.83967], [55, 47.07504, 13.85208], [54, 47.07267, 13.86404], [53, 47.07116, 13.87644], [52, 47.06774, 13.88804], [51, 47.06708, 13.90096], [50, 47.07276, 13.91019], [49, 47.077, 13.92173], [48, 47.08143, 13.93259], [47, 47.08415, 13.94428], [46, 47.08269, 13.95716], [45, 47.08135, 13.9691], [44, 47.08455, 13.98053], [43, 47.08824, 13.99232], [42, 47.09275, 14.00306], [41, 47.10021, 14.00963], [40, 47.10635, 14.01797], [39, 47.11031, 14.0296], [38, 47.11056, 14.04251], [37, 47.10828, 14.05431], [36, 47.10615, 14.06637], [35, 47.10277, 14.07798], [34, 47.10169, 14.09104], [33, 47.1, 14.10352], [32, 47.10237, 14.11587], [31, 47.10436, 14.12842], [30, 47.10605, 14.14091], [29, 47.11272, 14.14948], [28, 47.11158, 14.16206], [27, 47.10905, 14.17265], [26, 47.10786, 14.18569], [25, 47.10475, 14.1979], [24, 47.10733, 14.2104], [23, 47.11192, 14.22176], [22, 47.11941, 14.22785], [21, 47.12464, 14.23734], [20, 47.13003, 14.24725], [19, 47.13338, 14.25902], [18, 47.13359, 14.27195], [17, 47.13047, 14.28419], [16, 47.13393, 14.29583], [15, 47.13209, 14.30873], [14, 47.13179, 14.32152], [13, 47.13199, 14.33365], [12, 47.13019, 14.34639], [11, 47.13418, 14.35797], [10, 47.13755, 14.36911], [9, 47.14569, 14.37427], [8, 47.15092, 14.38503], [7, 47.15582, 14.39571], [6, 47.15913, 14.4076], [5, 47.16474, 14.41744], [4, 47.17288, 14.42099], [3, 47.18133, 14.42497], [2, 47.18923, 14.42751], [1, 47.19431, 14.43624]]
+
+[[connections]]
+km = 0.021
+station = "Unzmarkt"
+lines = [
+  { id = "413-01", ref = "413 01", name = "ÖBB Bruck an der Mur – Leoben", km = 258.693 },
+]

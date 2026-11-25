@@ -43,3 +43,10 @@ segments = [
   { line = "{b{dHyps}A}CzUF`Dn@nCzGjNtCxDhC`IfDvD`NjIlEvI~DxC~FzL", v = 40 },
 ]
 posts = [[0, 48.15195, 15.53963], [1, 48.14647, 15.53266], [2, 48.14629, 15.51923], [3, 48.14907, 15.50724], [4, 48.14665, 15.4959]]
+
+[[connections]]
+km = -0.018
+station = "Ober Grafendorf"
+lines = [
+  { id = "mariazellerbahn", name = "Mariazellerbahn", km = 11.93 },
+]

@@ -12,8 +12,8 @@ track = "1"
 kmFrom = 178.9
 kmTo = 189.011
 length = 10.006
-speeds = [[178.9, 179.844, 160, 160], [179.844, 180.126, 100, 100], [180.126, 181.398, 100, 80], [181.398, 181.566, 40, 80], [181.566, 184.356, 40, 40], [184.356, 184.68, 60, 40], [184.68, 189.011, 60, 60]]
-curves = [[179.859, 179.909, 2360], [180.085, 180.509, 1390], [180.86, 181.187, 690], [181.263, 181.363, 1280], [181.459, 181.635, 1070], [181.834, 182.158, 1000], [182.208, 182.283, 1290], [182.433, 182.509, 2100], [182.961, 183.285, 370], [183.334, 183.51, 630], [183.961, 184.212, 700], [184.262, 184.466, 570], [184.569, 184.688, 1500], [184.888, 185.188, 1600], [185.491, 185.68, 1690], [186.205, 186.533, 700], [186.833, 188.201, 660], [188.246, 188.414, 740], [188.562, 188.687, 1600]]
+speeds = [[178.9, 179.844, 160, 160], [179.844, 180.126, 100, 100], [180.126, 181.398, 100, 80], [181.398, 181.566, 40, 80], [181.566, 184.68, 40, 40], [184.68, 185.18, 40, 60], [185.18, 186.235, 60, 60], [186.235, 186.278, 40, 40], [186.278, 189.011, 60, 60]]
+curves = [[179.859, 179.909, 2360], [180.085, 180.509, 1390], [180.86, 181.187, 690], [181.262, 181.363, 1280], [181.459, 181.635, 1070], [181.834, 182.158, 1000], [182.208, 182.283, 1280], [182.433, 182.509, 2090], [182.961, 183.285, 370], [183.334, 183.51, 630], [184.012, 184.211, 580], [184.26, 184.466, 550], [184.562, 184.687, 1600], [184.886, 185.158, 1540], [185.58, 185.679, 1590], [186.229, 186.533, 530], [186.833, 188.201, 660], [188.246, 188.414, 740], [188.562, 188.687, 1600]]
 points = [
   { km = 178.9, kind = "signal", label = "Bc11", signal = "main,speed_limit", dir = 1, measured = true },
   { km = 178.922, kind = "signal", label = "z", signal = "distant,speed_limit_distant", dir = -1, measured = true },
@@ -38,17 +38,21 @@ points = [
   { km = 183.345, kind = "signal", label = "n/V291R", signal = "distant,shunting", dir = 1, measured = true },
   { km = 183.35, kind = "signal", label = "K391/h", signal = "distant,main,shunting", dir = -1, measured = true },
   { km = 183.889, kind = "signal", label = "Sch391", signal = "minor,shunting", dir = 1, measured = true },
-  { km = 184.027, kind = "signal", label = "L396/k", signal = "distant,main,shunting", dir = -1, measured = true },
-  { km = 184.135, kind = "signal", label = "Sch396", signal = "minor,shunting", dir = 1, measured = true },
-  { km = 184.356, kind = "signal", label = "N398", signal = "main,shunting", dir = 1, measured = true },
-  { km = 184.359, kind = "signal", label = "V251", signal = "shunting", dir = -1, measured = true },
-  { km = 184.615, kind = "signal", label = "V532H", signal = "shunting", dir = -1, measured = true },
-  { km = 184.68, kind = "signal", label = "S552/l,k", signal = "distant,main,shunting", dir = -1, measured = true },
-  { km = 184.68, kind = "signal", label = "f552/V532R", signal = "distant,shunting", dir = 1, measured = true },
-  { km = 185.378, kind = "signal", label = "F552/p", signal = "distant,main,shunting", dir = 1, measured = true },
-  { km = 185.403, kind = "signal", label = "s552", signal = "distant", dir = -1, measured = true },
-  { km = 185.637, kind = "signal", label = "T582", signal = "main,shunting", dir = -1, measured = true },
-  { km = 186.198, kind = "signal", label = "P582", signal = "main,shunting", dir = 1, measured = true },
+  { km = 183.978, kind = "signal", label = "L395/k", signal = "distant,main,shunting", dir = -1, measured = true },
+  { km = 184.27, kind = "signal", label = "V395", signal = "shunting", dir = 1, measured = true },
+  { km = 184.356, kind = "signal", label = "N397", signal = "main,shunting", dir = 1, measured = true },
+  { km = 184.422, kind = "signal", label = "V306", signal = "shunting", dir = -1, measured = true },
+  { km = 184.529, kind = "signal", label = "V321", signal = "shunting", dir = 1, measured = true },
+  { km = 184.594, kind = "signal", label = "V531H", signal = "shunting", dir = -1, measured = true },
+  { km = 184.68, kind = "signal", label = "S551/l,k", signal = "distant,main,shunting", dir = -1, measured = true },
+  { km = 184.68, kind = "signal", label = "f551/V531R", signal = "distant,shunting", dir = 1, measured = true },
+  { km = 185.18, kind = "signal", label = "F551", signal = "main,shunting", dir = 1, measured = true },
+  { km = 185.256, kind = "signal", label = "V571H", signal = "shunting", dir = -1, measured = true },
+  { km = 185.402, kind = "signal", label = "p", signal = "distant", dir = 1, measured = true },
+  { km = 185.403, kind = "signal", label = "s571", signal = "distant", dir = -1, measured = true },
+  { km = 185.568, kind = "signal", label = "V571R", signal = "shunting", dir = 1, measured = true },
+  { km = 185.705, kind = "signal", label = "T581", signal = "main,shunting", dir = -1, measured = true },
+  { km = 186.131, kind = "signal", label = "P581", signal = "main,shunting", dir = 1, measured = true },
   { km = 186.297, kind = "signal", label = "V593H", signal = "shunting", dir = -1, measured = true },
   { km = 186.51, kind = "signal", label = "V593R", signal = "shunting", dir = 1, measured = true },
   { km = 186.56, kind = "signal", label = "U023/t", signal = "distant,main,shunting", dir = -1, measured = true },
@@ -81,13 +85,15 @@ structures = [
 
 [tracks.geo]
 segments = [
-  { line = "avueHorevAcReS{LuJsOoGoEkEkCgEsDcL{BgOF_MnBaMvEsLpMgS`F_Fdf@eMpXcKzUaCzL{C", v = 60 },
-  { line = "mvseHamkvAlL_Jhb@wIbLf@dFkB|Xu^rR_TlD}GlIoU", v = 40 },
+  { line = "avueHorevAmPqQwKgJiOiGoGiFaGmK_E{Qe@sHJ_HbAaIvBuInC}FxOcVzGeE", v = 60 },
+  { line = "{wveH{kjvAjAS", v = 40 },
+  { line = "ouveHoljvAr^sItYsKzQkB", v = 60 },
+  { line = "ihteHcgkvA|PqDrHwGxCsAfa@wIbLf@hEsA|Zu`@nQwRlD}GlIoU", v = 40 },
   { line = "}soeHaynvAbCwL", v = 80 },
   { line = "yooeHyfovAtGk[|Biv@bB}NbF}W", v = 100 },
   { line = "}xneHkcsvA`VofA", v = 160 },
 ]
-posts = [[189, 48.28537, 14.288], [188, 48.29352, 14.29462], [187, 48.29559, 14.30636], [186, 48.28825, 14.31327], [185, 48.28083, 14.31639], [184, 48.27226, 14.31975], [183, 48.26357, 14.32212], [182, 48.25651, 14.33041], [181, 48.25213, 14.34212], [180, 48.25046, 14.35525], [179, 48.24661, 14.36739]]
+posts = [[189, 48.28537, 14.288], [188, 48.29352, 14.29462], [187, 48.29559, 14.30636], [186, 48.28825, 14.31321], [185, 48.28085, 14.31632], [184, 48.27225, 14.3197], [183, 48.26357, 14.32212], [182, 48.25651, 14.33041], [181, 48.25213, 14.34212], [180, 48.25046, 14.35525], [179, 48.24661, 14.36739]]
 
 [[tracks]]
 track = "2"
@@ -185,5 +191,5 @@ station = "Linz Hauptbahnhof"
 lines = [
   { id = "101-02", ref = "101 02", name = "Westbahn", km = 188.389 },
   { id = "130-01", ref = "130 01", name = "Neue Westbahn", km = 183.944 },
-  { id = "204-01", ref = "204 01", name = "Pyhrnbahn", km = -0.041 },
+  { id = "204-01", ref = "204 01", name = "Pyhrnbahn", km = -0.161 },
 ]

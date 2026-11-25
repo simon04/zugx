@@ -1747,6 +1747,7 @@ lines = [
   { id = "103-01", ref = "103 01", name = "Westbahn", km = 60.477 },
   { id = "103-02", ref = "103 02", name = "Eisbergbogentunnel", km = 60.478 },
   { id = "110-01", ref = "110 01", name = "Tullnerfelder Bahn", km = 46.609 },
+  { id = "mariazellerbahn", name = "Mariazellerbahn", km = 0.084 },
 ]
 
 [[connections]]
@@ -1781,7 +1782,7 @@ lines = [
 km = 183.944
 station = "Linz Hauptbahnhof"
 lines = [
-  { id = "204-01", ref = "204 01", name = "Pyhrnbahn", km = -0.041 },
+  { id = "204-01", ref = "204 01", name = "Pyhrnbahn", km = -0.161 },
   { id = "208-01", ref = "208 01", name = "Westbahn", km = 188.39 },
 ]
 
@@ -1790,6 +1791,6 @@ km = 184.002
 station = "Linz Untergaumberg"
 lines = [
   { id = "101-02", ref = "101 02", name = "Westbahn", km = 189.847 },
-  { id = "204-01", ref = "204 01", name = "Pyhrnbahn", km = 1.413 },
+  { id = "204-01", ref = "204 01", name = "Pyhrnbahn", km = 1.293 },
   { id = "lokalbahn-linz-waizenkirchen", name = "Lokalbahn Linz – Waizenkirchen", km = 1.817 },
 ]
