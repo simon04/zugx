@@ -812,13 +812,48 @@ export function buildLines(ex: RailExtract, lineRef: RegExp = OEBB_LINE_REF): Vz
     g.rels.push(rel);
     for (const w of members) if (!g.ways.includes(w)) g.ways.push(w);
   }
+  // railways without a route=tracks relation (2026: Mariazellerbahn, Murtalbahn, Übelbacherbahn):
+  // their named ways, if in regular use (usage main/branch), with an operator, ≥ 5 km and the
+  // name not already a line's (relations, numbered lines' ways); not draisine (handcar) trails
+  const inRel = new Set(ex.lines.flatMap((r) => r.ways));
+  const taken = new Set([
+    ...groups.keys(),
+    ...ex.lines.map((r) => r.name),
+    ...ex.ways.filter((w) => oebbWays.has(w.id)).map((w) => w.tags.name),
+  ]);
+  const named = new Map<string, Way[]>();
+  for (const w of ex.ways) {
+    const t = w.tags;
+    if (!t.name || t.tunnel || t.bridge || inRel.has(w.id) || oebbWays.has(w.id)) continue;
+    if (t.railway !== "rail" && t.railway !== "narrow_gauge") continue;
+    if (t.usage !== "main" && t.usage !== "branch") continue;
+    named.set(t.name, [...(named.get(t.name) ?? []), w]);
+  }
+  const wayKm = (w: Way) =>
+    w.nodes
+      .slice(1)
+      .reduce(
+        (s, n, i) =>
+          ex.coords[n] && ex.coords[w.nodes[i]!]
+            ? s + distKm(ex.coords[w.nodes[i]!]!, ex.coords[n]!)
+            : s,
+        0,
+      );
+  for (const [name, ws] of named) {
+    if (taken.has(name) || /draisine/i.test(name) || !common(ws, "operator")) continue;
+    if (ws.reduce((s, w) => s + wayKm(w), 0) < 5) continue;
+    group(name, false).ways.push(...ws);
+  }
   const out: VzgLine[] = [];
   const sorted = [...groups.values()].sort(
     (a, b) => Number(b.oebb) - Number(a.oebb) || a.key.localeCompare(b.key),
   );
   for (const g of sorted) {
     const lineWays = g.ways.filter((w) => w.tags.service !== "crossover");
-    const members = new Set(g.rels.flatMap((r) => r.ways));
+    // the relations' ways; a line without relation: its own ways
+    const members = new Set(
+      g.rels.length ? g.rels.flatMap((r) => r.ways) : g.oebb ? [] : g.ways.map((w) => w.id),
+    );
     const ref = g.oebb ? g.key : g.rels.find((r) => r.ref)?.ref;
     const tracks = lineTracks(
       g.oebb ? g.key : `\u0000${g.key}`,
