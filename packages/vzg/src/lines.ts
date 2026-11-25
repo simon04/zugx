@@ -653,10 +653,15 @@ export function networkPieces(
   return out;
 }
 
+/** cost of a crossover (km): worth it only to leave ≥ ~0.6 km of the other direction's track */
+const CROSSOVER_KM = 2;
+
 export function lineTracks(
   ref: string,
   lineWays: Way[],
   adj: Map<number, Edge[]>,
+  /** adj with the crossovers, for the paths */
+  pathAdj: Map<number, Edge[]>,
   ex: Pick<RailExtract, "coords" | "stations">,
   nodeTags: Map<number, Record<string, string>>,
   members: Set<number>,
@@ -664,6 +669,11 @@ export function lineTracks(
   const onLine = (w: Way) => w.tags.ref === ref || members.has(w.id);
   const cost = (e: Edge, d?: "1" | "2") => {
     const w = e.way;
+    // crossovers: a Regelgleis does not change tracks, but a direction may have to cross over
+    // once to reach its own track (both directions start at the same end node; e.g. the Südbahn
+    // at Bruck an der Mur, where only crossovers link the two tracks): a fixed penalty, only
+    // for the direction runs of a double-track line (Infinity: never relaxed)
+    if (w.tags.service === "crossover") return d ? e.len + CROSSOVER_KM : Infinity;
     // tracks under construction only for their own line, and only to close a gap (Infinity:
     // shortestPath never relaxes such an edge)
     if (w.tags.construction) return onLine(w) ? e.len * 4 : Infinity;
@@ -705,7 +715,22 @@ export function lineTracks(
     const ts: VzgTrack[] = [];
     const paths: Edge[][] = [];
     for (const [track, d] of runs) {
-      const path = shortestPath(adj, ext.lo.n, ext.hi.n, (e) => cost(e, d));
+      let path = shortestPath(adj, ext.lo.n, ext.hi.n, (e) => cost(e, d));
+      // a direction of a double-track line: with the crossovers, it may reach its own track
+      // (both start at the same end node); taken if it leaves the other direction's track
+      // (clearly cheaper, not a tie broken differently) on about as long a route (not a
+      // shortcut over another line)
+      if (path && d) {
+        const alt = shortestPath(pathAdj, ext.lo.n, ext.hi.n, (e) => cost(e, d));
+        const len = (p: Edge[]) => p.reduce((s, e) => s + e.len, 0);
+        const sum = (p: Edge[]) => p.reduce((s, e) => s + cost(e, d), 0);
+        if (
+          alt &&
+          sum(alt) < sum(path) - 1 &&
+          Math.abs(len(alt) - len(path)) <= 0.005 * len(path) + 0.3
+        )
+          path = alt;
+      }
       const t = path && buildTrack(track, path, ex, nodeTags);
       if (t) {
         ts.push(t);
@@ -746,11 +771,19 @@ export function buildLines(ex: RailExtract, lineRef: RegExp = OEBB_LINE_REF): Vz
   const NUMBERED = lineRef;
   const nodeTags = new Map(ex.nodes.map((n) => [n.id, n.tags]));
   const byId = new Map(ex.ways.map((w) => [w.id, w]));
-  // one graph of all tracks (crossovers excluded: a Regelgleis does not change tracks)
+  // one graph of all tracks, crossovers excluded (a Regelgleis does not change tracks; the
+  // connected parts of a line's km positions); the paths also get the crossovers, for a
+  // direction reaching its own track (see lineTracks)
   const adj = trackGraph(
     ex.ways.filter((w) => w.tags.service !== "crossover"),
     ex.coords,
   );
+  const crossovers = trackGraph(
+    ex.ways.filter((w) => w.tags.service === "crossover"),
+    ex.coords,
+  );
+  const paths = new Map(adj);
+  for (const [n, es] of crossovers) paths.set(n, [...(adj.get(n) ?? []), ...es]);
   type Group = { key: string; oebb: boolean; rels: RailExtract["lines"]; ways: Way[] };
   const groups = new Map<string, Group>();
   const group = (key: string, oebb: boolean) => {
@@ -791,6 +824,7 @@ export function buildLines(ex: RailExtract, lineRef: RegExp = OEBB_LINE_REF): Vz
       g.oebb ? g.key : `\u0000${g.key}`,
       lineWays,
       adj,
+      paths,
       ex,
       nodeTags,
       members,
