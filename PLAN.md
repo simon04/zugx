@@ -1090,6 +1090,32 @@ Options, from least to most effort:
 
 **Decided**: option 1 now; 2 if realtime further back matters; 3 only for history beyond today or statistics.
 
+### Realtime from other railways where ÖBB HAFAS has none (idea 2026-11-25)
+
+Feedback: DB long-distance realtime is well covered in ÖBB HAFAS, but many Swiss trains have none. Could other railways' data fill the gaps?
+
+**Sources** (from knowledge, not yet verified):
+
+| Country     | Source                                                | Kind                   | Note                                                                                   |
+| ----------- | ----------------------------------------------------- | ---------------------- | -------------------------------------------------------------------------------------- |
+| Switzerland | opentransportdata.swiss: GTFS-RT (trip updates), SIRI | official, free API key | the obvious one; strict rate limits (few requests per minute) and own terms — to check |
+| Germany     | DB Timetables API (API Marketplace)                   | official, registration | long distance already good in HAFAS; maybe DB regional trains                          |
+| Spain       | Renfe GTFS-RT                                         | official, open         | already the planned Live source for Spain                                              |
+| Italy       | ViaggiaTreno                                          | unofficial             | licence unclear (as Trenitalia's timetable)                                            |
+| Hungary     | MÁV vonatinfo                                         | unofficial             | same problem                                                                           |
+| Slovenia    | —                                                     | —                      | no open realtime source known                                                          |
+
+**How**:
+
+1. **Proxy service in the container**: keys can't go to the browser and the sources mostly don't allow cross-origin requests; a small service fetches e.g. the Swiss GTFS-RT feed once a minute and caches it, shared by all users (also stays within the rate limits).
+2. **Matching**: by train number, day and operator (as the train search does); stops by station codes (Switzerland: largely the same numbers as in HAFAS, prefix 85).
+3. **Merging**: the other source only where ÖBB HAFAS has no realtime for that train/stop, marked as the source ("Realtime: SBB").
+4. **Where**: train run and departure boards (replace per-stop times: easy); Bildfahrplan (the actual line comes from per-stop times: easy); radar harder (HAFAS calculates positions; with other delays zugx would interpolate between stops itself) — delay colour only at first.
+
+**Catches**: licence per source first (licence-first: reuse, mixing with other data, attribution; ViaggiaTreno/vonatinfo have no open licence); zugx's first own server service instead of a pass-through proxy (small, also usable for recording radar history, option 3 above); coverage only for trains both systems know under the same number (replacement trains, splitting messy).
+
+**Suggested**: Switzerland first (opentransportdata.swiss GTFS-RT, licence check first), proxy fetching every minute, merged into train run, departure board and Bildfahrplan, radar delay colour only; then Renfe GTFS-RT for Spain the same way.
+
 ## Sources
 
 - public-transport-enabler `OebbProvider`: https://github.com/schildbach/public-transport-enabler/blob/master/src/de/schildbach/pte/OebbProvider.java
