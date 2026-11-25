@@ -79,6 +79,7 @@ export default defineConfig({
       "vzg:build": { command: "vpx packages/vzg/scripts/build.ts", cache: false },
       // borders of Austria and the federal states for the network map (rarely needed)
       "vzg:boundaries": { command: "vpx packages/vzg/scripts/extract-boundaries.ts", cache: false },
+      "vzg:platforms": { command: "vpx packages/vzg/scripts/extract-platforms.ts", cache: false },
       "hafas:canary": { command: "vpx packages/hafas/scripts/canary.ts", cache: false },
       "hafas:record": { command: "vpx packages/hafas/scripts/record-fixtures.ts", cache: false },
     },

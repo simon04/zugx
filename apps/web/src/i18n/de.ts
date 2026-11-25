@@ -185,6 +185,7 @@ export default {
     variants: "{n} Laufwegvarianten",
   },
   radar: {
+    platform: "Gleis {p}",
     time: "Zeit",
     live: "live",
     agoLabel: "Zurückblicken (Minuten vor jetzt)",

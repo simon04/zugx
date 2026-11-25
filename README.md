@@ -45,6 +45,7 @@ vp run netz:build           # rebuild Netzgrafik + corridors (+ VzG lines and pa
 vp run vzg:extract          # OSM PBF in .cache/ (Geofabrik Austria) → .cache/osm-rail.json
 vp run vzg:build            # → packages/vzg/data/*.toml
 vp run vzg:boundaries       # borders of Austria and the federal states → data/boundaries.toml
+vp run vzg:platforms        # platform edges with track numbers → data/platforms.toml (radar)
 vp run hafas:record         # re-record API fixtures
 vp run hafas:canary         # check the live API still works
 ```

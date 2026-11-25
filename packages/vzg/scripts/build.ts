@@ -24,9 +24,10 @@ const lines = buildLines(ex, lineRef);
 for (const [l, c] of connections(lines)) l.connections = c;
 mkdirSync(out, { recursive: true });
 // old line files (lines may disappear); index, geometry and network are rewritten below,
-// boundaries.toml comes from scripts/extract-boundaries.ts and stays
-for (const f of readdirSync(out))
-  if (f.endsWith(".toml") && f !== "boundaries.toml") rmSync(join(out, f));
+// boundaries.toml and platforms.toml come from their own scripts (extract-boundaries.ts,
+// extract-platforms.ts) and stay
+const OWN = new Set(["boundaries.toml", "platforms.toml"]);
+for (const f of readdirSync(out)) if (f.endsWith(".toml") && !OWN.has(f)) rmSync(join(out, f));
 // the network map's pieces go to their own file, not into the line files
 const network = lines.flatMap((l) => {
   const pieces = l.tracks[0]?.net;

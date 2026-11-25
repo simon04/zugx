@@ -185,6 +185,7 @@ export default {
     variants: "{n} variantes de recorrido",
   },
   radar: {
+    platform: "vía {p}",
     time: "Hora",
     live: "en directo",
     agoLabel: "Mirar atrás (minutos antes de ahora)",

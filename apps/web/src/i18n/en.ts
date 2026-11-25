@@ -183,6 +183,7 @@ export default {
     variants: "{n} route variants",
   },
   radar: {
+    platform: "platform {p}",
     time: "Time",
     live: "live",
     agoLabel: "Look back (minutes before now)",

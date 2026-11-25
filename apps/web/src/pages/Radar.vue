@@ -27,6 +27,13 @@ import {
   NO_DATA,
 } from "../lib/delay.ts";
 import MapView, { type MapLine, type MapPoint } from "../viz/MapView.vue";
+import {
+  countriesOf,
+  platformEdges,
+  platformPosition,
+  type PlatformEdge,
+} from "../lib/platforms.ts";
+import { countryOfStation } from "../lib/country.ts";
 
 const route = useRoute();
 const router = useRouter();
@@ -84,9 +91,13 @@ async function refresh(background = false) {
 
 function onReady(m: MlMap) {
   map = m;
+  zoom.value = m.getZoom();
   void refresh();
 }
-const onMove = useDebounceFn(() => void refresh(), 400);
+const onMove = useDebounceFn(() => {
+  zoom.value = map?.getZoom() ?? 0;
+  void refresh();
+}, 400);
 useAutoRefresh(() => void refresh(true), 15_000);
 
 // ---- selected train: its run in a side panel on the radar (like vonatinfo), ?trip=<journey id>.
@@ -155,7 +166,33 @@ const routeLines = computed<MapLine[]>(() => {
 const mode = useLocalStorage<"delay" | "category">("zugx:radar-mode", "delay");
 
 /** coupled train parts at the same position as one train set, likely operational part first */
-const groups = computed(() => groupMovements(movements.value));
+// ---- trains standing at a station on their platform's track (zoomed in; lib/platforms.ts)
+const PLATFORM_ZOOM = 13;
+const zoom = ref(0);
+const edges = shallowRef(new Map<string, PlatformEdge[]>());
+watch([movements, zoom], async () => {
+  if (zoom.value < PLATFORM_ZOOM) return;
+  const need = countriesOf(movements.value).filter((c) => !edges.value.has(c));
+  if (!need.length) return;
+  const loaded = await Promise.all(need.map(async (c) => [c, await platformEdges(c)] as const));
+  edges.value = new Map([...edges.value, ...loaded]);
+});
+/** the trains, those standing at a mapped platform moved onto it (with its number) */
+const placed = computed<(Movement & { platform?: string })[]>(() => {
+  if (zoom.value < PLATFORM_ZOOM || !edges.value.size) return movements.value;
+  const t = shownNow.value;
+  return movements.value.map((m) => {
+    const c = m.nextStops.map((s) => countryOfStation(s.stop.id)).find((x) => x);
+    const es = c ? edges.value.get(c) : undefined;
+    const p = es?.length ? platformPosition(m, t, es) : undefined;
+    return p ? { ...m, lat: p.lat, lon: p.lon, platform: p.platform } : m;
+  });
+});
+const groups = computed(() => groupMovements(placed.value));
+/** journey id → platform, of the trains moved onto their platform */
+const platformOf = computed(
+  () => new Map(placed.value.flatMap((m) => (m.platform ? [[m.journeyId, m.platform]] : []))),
+);
 /** desktop: controls and legend open; phones: collapsed (more map) */
 const wide = useMediaQuery("(min-width: 641px)");
 const shownGroups = computed(
@@ -237,7 +274,11 @@ const points = computed<MapPoint[]>(() =>
           .join(" / "),
         color: lineBadgeColor(m.line),
       },
-      label: `→ ${m.direction}${fmtDelay(m.delay)}`,
+      label: `→ ${m.direction}${
+        platformOf.value.has(m.journeyId)
+          ? ` · ${t("radar.platform", { p: platformOf.value.get(m.journeyId)! })}`
+          : ""
+      }${fmtDelay(m.delay)}`,
       bearing: m.bearing,
       big: parts.some((p) => p.journeyId === selectedId.value),
     };

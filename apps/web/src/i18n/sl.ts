@@ -183,6 +183,7 @@ export default {
     variants: "{n} različic poti",
   },
   radar: {
+    platform: "tir {p}",
     time: "Čas",
     live: "v živo",
     agoLabel: "Pogled nazaj (minute pred zdaj)",

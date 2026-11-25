@@ -184,6 +184,7 @@ export default {
     variants: "{n} varianti di percorso",
   },
   radar: {
+    platform: "binario {p}",
     time: "Ora",
     live: "live",
     agoLabel: "Guarda indietro (minuti prima di adesso)",
