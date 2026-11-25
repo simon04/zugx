@@ -1,0 +1,70 @@
+id = "brohltalbahn-vulkan-express"
+name = "Brohltalbahn / Vulkan-Expreß"
+operator = "Brohltal-Eisenbahn GmbH"
+gauge = "1000"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 17.825
+length = 17.825
+speeds = [[0, 17.825, "", ""]]
+curves = [[0.1, 0.15, 920], [0.225, 0.625, 310], [0.675, 0.775, 270], [0.825, 1.475, 190], [1.675, 2.2, 210], [2.25, 2.375, 650], [2.425, 2.525, 730], [2.65, 3.475, 610], [3.625, 3.8, 920], [4.025, 4.15, 1330], [4.275, 4.375, 840], [4.425, 4.6, 400], [4.95, 5.175, 420], [5.25, 5.675, 270], [5.9, 6.05, 1050], [6.2, 6.325, 1110], [6.475, 6.625, 660], [6.725, 6.85, 1530], [6.9, 7.275, 420], [7.35, 7.55, 410], [7.625, 7.9, 820], [8, 8.05, 1260], [8.1, 8.35, 320], [8.4, 8.5, 1110], [8.6, 8.75, 420], [8.8, 8.9, 380], [8.95, 9.125, 1220], [9.225, 9.425, 1050], [9.475, 9.625, 960], [9.675, 10.2, 280], [10.25, 11.375, 510], [11.425, 11.625, 310], [11.675, 11.875, 970], [12.25, 12.5, 310], [12.55, 12.7, 290], [12.775, 13.15, 360], [13.25, 13.375, 510], [13.425, 13.65, 1070], [13.7, 13.9, 1050], [13.95, 14.35, 520], [14.4, 14.65, 410], [14.95, 15.025, 2390], [15.075, 15.3, 270], [15.4, 15.825, 780], [15.875, 17.5, 180], [17.55, 17.65, 1060]]
+points = [
+  { km = 0.209, kind = "station", label = "Engeln", pos = [50.42498, 7.15689] },
+  { km = 1.956, kind = "station", label = "Brenk", pos = [50.4325, 7.16886] },
+  { km = 5.797, kind = "station", label = "Oberzissen", pos = [50.45518, 7.2011] },
+  { km = 7.564, kind = "station", label = "Niederzissen", pos = [50.46129, 7.22324] },
+  { km = 10.327, kind = "station", label = "Weiler (B.E.)", pos = [50.45897, 7.2587] },
+  { km = 12.178, kind = "station", label = "Burgbrohl", pos = [50.45793, 7.28404] },
+  { km = 13.41, kind = "halt", label = "Bad Tönisstein", pos = [50.45957, 7.29963] },
+  { km = 14.421, kind = "halt", label = "Schweppenburg-Heilbrunnen", pos = [50.46612, 7.30912] },
+  { km = 17.613, kind = "station", label = "Brohl", uic = "8001186", pos = [50.48159, 7.33246] },
+  { km = 17.659, kind = "station", label = "Brohl B.E.", pos = [50.48078, 7.33239] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 5.047, kmTo = 5.095, length = 47 },
+  { kind = "bridge", kmFrom = 5.334, kmTo = 5.346, length = 13 },
+  { kind = "bridge", kmFrom = 5.417, kmTo = 5.44, length = 23 },
+  { kind = "tunnel", kmFrom = 12.951, kmTo = 13.045, length = 94, name = "Tönissteiner Tunnel" },
+  { kind = "bridge", kmFrom = 13.092, kmTo = 13.233, length = 140, name = "Tönissteiner Viadukt" },
+  { kind = "bridge", kmFrom = 14.488, kmTo = 14.517, length = 29 },
+  { kind = "bridge", kmFrom = 16.042, kmTo = 16.056, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qjwrHafuj@mClDkFpKqBdA_JqBoFgG}GuBoAsDFwFhBkGrDyFRwEqIq\\cCcBwF|A{AAiAw@oFmPiDeFmHqQcGeIiC]eEfDsARkBu@uDqEiLyUkIk\\_GkPmB}IaBaDsVuWeBWgKpA}BuAq@sDz@qJk@y]mC}YkEqUmOc\\_@cD@aJgC}RsK}RmHe][eLvBkOnAwO[uP|@mN`EoUlAsQf@mSx@oCpEsEt@wLrC_K`AgI^{NcAqNdAwRu@kMfGw\\}AeVJkj@`AwIqBeIS_Dv@cRnAaG" },
+  { line = "{~}rHauok@LaG", tunnel = true },
+  { line = "m~}rHc}ok@wIqPuCqL}ImOaG}NaGuIcE{AaGiHu[aCaHoAgAiA{EgX}DqGwIiT?mDt@}CpFeDdAmBVaEu@sDqBeCsF_CwBoIeFaFaDC{FrCcEiAcAeBMyBVgBvKcY" },
+]
+posts = [[0, 50.42361, 7.15889], [1, 50.4309, 7.15941], [2, 50.43288, 7.16871], [3, 50.4393, 7.17768], [4, 50.44551, 7.18532], [5, 50.45157, 7.19534], [6, 50.45535, 7.20396], [7, 50.45961, 7.21604], [8, 50.46345, 7.22826], [9, 50.46305, 7.24184], [10, 50.46001, 7.25447], [11, 50.45857, 7.26801], [12, 50.45794, 7.28152], [13, 50.45746, 7.29508], [14, 50.46303, 7.30587], [15, 50.47123, 7.31018], [16, 50.47679, 7.32015], [17, 50.47898, 7.32889]]
+
+[[connections]]
+km = 5.797
+station = "Oberzissen"
+lines = [
+  { id = "brohltalbahn", name = "Brohltalbahn", km = 6.497 },
+]
+
+[[connections]]
+km = 12.178
+station = "Burgbrohl"
+lines = [
+  { id = "brohltalbahn", name = "Brohltalbahn", km = 0.115 },
+]
+
+[[connections]]
+km = 17.613
+station = "Brohl"
+lines = [
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = 65.755 },
+]
+
+[[connections]]
+km = 17.659
+station = "Brohl B.E."
+lines = [
+  { id = "2630", ref = "2630", name = "2630 Köln - Bingen", km = 65.805 },
+]

@@ -1,0 +1,23 @@
+id = "nadodrzanka"
+name = "Nadodrzanka"
+operator = "PKP Polskie Linie Kolejowe"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 245
+kmTo = 253
+length = 7.987
+speeds = [[245, 253, 120, 120]]
+curves = [[245.1, 245.827, 1200], [246.704, 246.804, 2060], [250.91, 251.16, 1520]]
+points = [
+  { km = 245.063, kind = "stop", label = "Górzyca", pos = [52.49936, 14.65751] },
+  { km = 246.942, kind = "stop", label = "Ługi Górzyckie", pos = [52.5154, 14.651] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "oul_Iq|mxAsDtGcGpHaFfEmHvD_IhBko@|HgkAzCkeDwB}nAlWg\\vJ", v = 120 },
+]
+posts = [[245, 52.49896, 14.65817], [246, 52.50699, 14.65248], [247, 52.51592, 14.65097], [248, 52.52489, 14.65045], [249, 52.53387, 14.65064], [250, 52.54285, 14.65087], [251, 52.55183, 14.65104], [252, 52.56066, 14.64841], [253, 52.56943, 14.64524]]

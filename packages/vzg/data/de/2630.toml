@@ -1374,6 +1374,20 @@ lines = [
 ]
 
 [[connections]]
+km = 65.755
+station = "Brohl"
+lines = [
+  { id = "brohltalbahn-vulkan-express", name = "Brohltalbahn / Vulkan-Expreß", km = 17.613 },
+]
+
+[[connections]]
+km = 65.805
+station = "Brohl B.E."
+lines = [
+  { id = "brohltalbahn-vulkan-express", name = "Brohltalbahn / Vulkan-Expreß", km = 17.659 },
+]
+
+[[connections]]
 km = 73.294
 station = "Andernach"
 lines = [

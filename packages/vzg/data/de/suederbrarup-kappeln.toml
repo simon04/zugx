@@ -1,0 +1,26 @@
+id = "suederbrarup-kappeln"
+name = "Süderbrarup-Kappeln"
+operator = "Angelner Dampfeisenbahn gGmbH"
+gauge = "1435"
+source = "OpenStreetMap (germany-261124.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 14.314
+length = 14.314
+speeds = [[0, 14.314, 30, 30]]
+curves = [[0.1, 0.525, 320], [1.175, 1.4, 790], [2.975, 3.35, 470], [3.525, 3.725, 660], [3.775, 3.925, 780], [4.275, 4.475, 540], [4.525, 4.675, 680], [4.9, 5.25, 410], [5.35, 5.6, 520], [7.8, 8.225, 760], [8.55, 8.875, 620], [9.425, 9.6, 1550], [10.65, 10.7, 2160], [11.475, 11.625, 890], [12.95, 13.2, 690], [13.8, 14.2, 320]]
+points = [
+  { km = 0.233, kind = "signal", signal = "main", dir = -1 },
+  { km = 0.281, kind = "signal", label = "G", signal = "main", dir = -1 },
+  { km = 3.307, kind = "station", label = "Wagersrott", pos = [54.66329, 9.79439] },
+  { km = 5.19, kind = "station", label = "Scheggerott", pos = [54.67043, 9.82029] },
+  { km = 14.314, kind = "station", label = "Kappeln, (Schlei)", pos = [54.65816, 9.93456] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "{tnlI{`sz@qGhEwBf@_COgCsAuBqC{[qs@aD}EuvA}mAgCsI_E}c@oF}RoIei@qI_TgIw[q@mFJyL|BgT~AyFndBolCfNuNfQab@nAeGf@aH`EyfAFcjBmBwvAgSybCwA_JqWqw@aBcDmBoB{CiA{Kz@", v = 30 },
+]
+posts = [[0, 54.63902, 9.76926], [1, 54.6462, 9.7753], [2, 54.6537, 9.78359], [3, 54.6617, 9.79069], [4, 54.6657, 9.8042], [5, 54.67032, 9.81738], [6, 54.66594, 9.82967], [7, 54.65893, 9.83942], [8, 54.6518, 9.84883], [9, 54.64686, 9.86105], [10, 54.6461, 9.87649], [11, 54.64624, 9.89203], [12, 54.64757, 9.90732], [13, 54.64989, 9.92234], [14, 54.65533, 9.9345]]
