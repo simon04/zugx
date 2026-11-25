@@ -335,11 +335,13 @@ export const OEBB_CORRIDORS: CorridorDef[] = [
   {
     id: "190",
     oebb: "190",
-    name: "Freilassing – Salzburg – Neumarkt am Wallersee – Straßwalchen/Mattighofen – Braunau am Inn",
+    name: "Freilassing – Salzburg – Neumarkt am Wallersee – Steindorf – Mattighofen – Braunau am Inn",
+    // the Mattigtalbahn branches off the Westbahn at Steindorf (its trains stop at Straßwalchen
+    // West, not at Straßwalchen, which lies beyond the junction on the Westbahn)
     anchors: [
       "Pde:09172:42293", // Freilassing
       "Pat:45:50002", // Salzburg
-      "Pat:45:50290", // Straßwalchen
+      "Pat:45:50281", // Steindorf
       "Pat:44:49650", // Mattighofen
       "Pat:44:49000", // Braunau
     ],

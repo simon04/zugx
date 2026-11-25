@@ -324,21 +324,21 @@ lines = [
 
 [[corridors]]
 id = "190"
-name = "Freilassing – Salzburg – Neumarkt am Wallersee – Straßwalchen/Mattighofen – Braunau am Inn"
+name = "Freilassing – Salzburg – Neumarkt am Wallersee – Steindorf – Mattighofen – Braunau am Inn"
 oebb = "190"
 from = "Freilassing"
 to = "Braunau/Inn"
-km = 74.7
-stations = 20
-trains = 351
+km = 70.3
+stations = 27
+trains = 344
 file = "190.toml"
-major = ["Freilassing", "Salzburg Hbf", "Straßwalchen", "Mattighofen", "Braunau/Inn"]
-names = ["Freilassing", "Salzburg Liefering S-Bahn", "Salzburg Taxham Europark S-Bahn", "Salzburg Aiglhof S-Bahn", "Salzburg Mülln-Altstadt S-Bahn", "Salzburg Hbf", "Salzburg Kasern S-Bahn", "Hallwang-Elixhausen S-Bahn", "Eugendorf S-Bahn", "Seekirchen Stadt S-Bahn", "Seekirchen", "Wallersee S-Bahn", "Köstendorf Weng S-Bahn", "Neumarkt", "Straßwalchen", "Mattighofen", "Uttendorf-Helpfau", "Mauerkirchen", "St.Georgen/Mattig", "Braunau/Inn"]
-cats = { S = 127, REX = 68, RJX = 58, IC = 38, R = 18, NJ = 11, RJ = 10, EN = 10, ICE = 6, EC = 5 }
+major = ["Freilassing", "Salzburg Hbf", "Steindorf", "Mattighofen", "Braunau/Inn"]
+names = ["Freilassing", "Salzburg Liefering S-Bahn", "Salzburg Taxham Europark S-Bahn", "Salzburg Aiglhof S-Bahn", "Salzburg Mülln-Altstadt S-Bahn", "Salzburg Hbf", "Salzburg Kasern S-Bahn", "Hallwang-Elixhausen S-Bahn", "Eugendorf S-Bahn", "Seekirchen Stadt S-Bahn", "Seekirchen", "Wallersee S-Bahn", "Köstendorf Weng S-Bahn", "Neumarkt", "Steindorf", "Straßwalchen West", "Friedburg", "Lengau", "Teichstätt", "Achenlohe", "Munderfing", "Schalchen-Mattighofen", "Mattighofen", "Uttendorf-Helpfau", "Mauerkirchen", "St.Georgen/Mattig", "Braunau/Inn"]
+cats = { S = 127, RJX = 58, R = 42, IC = 38, REX = 37, NJ = 11, RJ = 10, EN = 10, ICE = 6, EC = 5 }
 lines = [
+  { id = "261-01", ref = "261 01", name = "Mattigtalbahn", stations = 12 },
   { id = "101-02", ref = "101 02", name = "Westbahn", stations = 11 },
   { id = "217-01", ref = "217 01", stations = 5 },
-  { id = "261-01", ref = "261 01", name = "Mattigtalbahn", stations = 4 },
 ]
 
 [[corridors]]
