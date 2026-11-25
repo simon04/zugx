@@ -1,0 +1,43 @@
+id = "linea-gijon-venta-de-banos"
+name = "Línea Gijón - Venta de Baños"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 3.598
+length = 3.598
+speeds = [[0, 0.474, 15, 15], [0.474, 1.042, 45, 45], [1.042, 1.789, 85, 85], [1.789, 3.598, 105, 105]]
+curves = [[0.15, 0.2, 2460], [0.25, 0.425, 740], [0.5, 0.9, 360], [1, 1.325, 400], [1.4, 1.625, 920], [3.2, 3.475, 510]]
+points = [
+  { km = 0, kind = "station", label = "Estación de Gijón/Xixón Sanz Crespo", pos = [43.5379, -5.67551] },
+  { km = 0.03, kind = "stop", label = "Gijón / Xixón", pos = [43.53757, -5.67623] },
+  { km = 1.935, kind = "stop", label = "La Calzada", pos = [43.53525, -5.69779] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}mvhGtqsa@|J`PrChJ", v = 15 },
+  { line = "k}uhG`nta@`BzGRhG}@lHyDxL", v = 45 },
+  { line = "mavhGnvua@eAzFC~F~B`Qb@nU", v = 85 },
+  { line = "s~uhG|nwa@xAfuBYnEcAfFcBbE", v = 105 },
+]
+posts = [[0, 43.53775, -5.67595], [1, 43.53556, -5.68651], [2, 43.53522, -5.6986], [3, 43.53491, -5.711]]
+
+[[connections]]
+km = 0
+station = "Estación de Gijón/Xixón Sanz Crespo"
+lines = [
+  { id = "750", ref = "750", name = "Ferrocarril Gijón - El Ferrol", km = 50.646 },
+  { id = "752", ref = "752", name = "Ferrocarril de Langreo", km = 48.795 },
+]
+
+[[connections]]
+km = 0.03
+station = "Gijón / Xixón"
+lines = [
+  { id = "750", ref = "750", name = "Ferrocarril Gijón - El Ferrol", km = 50.646 },
+  { id = "752", ref = "752", name = "Ferrocarril de Langreo", km = 48.765 },
+]

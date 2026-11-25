@@ -1,0 +1,57 @@
+id = "e4-bilbao-bermeo"
+name = "E4 Bilbao - Bermeo"
+operator = "Euskal Trenbide Sarea"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.529
+length = 7.529
+speeds = [[0, 7.529, "", ""]]
+curves = [[0.1, 0.425, 640], [0.475, 0.6, 1290], [0.675, 0.725, 1120], [0.775, 0.85, 560], [0.9, 1.025, 370], [1.075, 1.35, 370], [1.425, 1.55, 550], [1.6, 1.7, 320], [1.75, 1.975, 260], [2.05, 2.15, 1030], [2.2, 2.5, 1610], [2.775, 3.275, 470], [3.325, 3.775, 380], [4.025, 4.35, 470], [4.4, 4.6, 250], [4.65, 4.8, 660], [5.225, 5.9, 410], [6.225, 6.525, 430], [6.875, 7.075, 480], [7.125, 7.275, 660]]
+points = [
+  { km = 0, kind = "station", label = "Bermeo", pos = [43.41787, -2.72334] },
+  { km = 2.525, kind = "station", label = "Mundaka", pos = [43.40889, -2.70104] },
+  { km = 4.775, kind = "station", label = "Itsasbegi", pos = [43.39087, -2.69367] },
+  { km = 6.037, kind = "station", label = "Axpe", pos = [43.38017, -2.69302] },
+  { km = 7.458, kind = "station", label = "San Kristobal", pos = [43.36796, -2.69036] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.309, kmTo = 0.448, length = 139 },
+  { kind = "tunnel", kmFrom = 0.482, kmTo = 0.588, length = 106 },
+  { kind = "bridge", kmFrom = 0.777, kmTo = 0.791, length = 14 },
+  { kind = "tunnel", kmFrom = 0.985, kmTo = 1.167, length = 181 },
+  { kind = "bridge", kmFrom = 1.338, kmTo = 1.43, length = 92 },
+  { kind = "tunnel", kmFrom = 2.675, kmTo = 2.917, length = 242 },
+  { kind = "bridge", kmFrom = 2.958, kmTo = 3.082, length = 124 },
+  { kind = "tunnel", kmFrom = 3.088, kmTo = 3.147, length = 59 },
+  { kind = "tunnel", kmFrom = 3.297, kmTo = 3.498, length = 202 },
+  { kind = "tunnel", kmFrom = 3.638, kmTo = 3.794, length = 156 },
+  { kind = "bridge", kmFrom = 6.113, kmTo = 6.132, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "a`_hGj{rOvAaAh@uAd@qGEqF" },
+  { line = "_{~gGnfrOe@sI", tunnel = true },
+  { line = "e|~gGz{qOKqA" },
+  { line = "q|~gGhyqOQeG", tunnel = true },
+  { line = "c}~gGbqqOe@gQTeF" },
+  { line = "s}~gGtwpOAc@", tunnel = true },
+  { line = "u}~gGpvpOC}B" },
+  { line = "y}~gGrrpO{AmL", tunnel = true },
+  { line = "u`_hGdepOFqEr@yCbDwJjEmGvCsJxBsAfVsD" },
+  { line = "os}gGvqnOn@G", tunnel = true },
+  { line = "_r}gGnqnO`Q[" },
+  { line = "}_}gGrpnOpLK", tunnel = true },
+  { line = "kr|gGfpnO~Cu@nBuB" },
+  { line = "{i|gGzjnObAqB", tunnel = true },
+  { line = "wg|gGhgnOzBeI" },
+  { line = "{c|gGb}mOjA}EzBuD", tunnel = true },
+  { line = "s}{gGnpmOtEsD" },
+  { line = "}v{gGzjmOtGM", tunnel = true },
+  { line = "gn{gGljmOvOv@|IwAhF|ApBD|JkGb_@iK~JlCxImAjCD|WfH|DRrDcAzW}NzKMpPeD" },
+]
+posts = [[0, 43.41777, -2.72326], [1, 43.41744, -2.71144], [2, 43.41352, -2.70198], [3, 43.40462, -2.70077], [4, 43.39771, -2.69516], [5, 43.38915, -2.69303], [6, 43.38042, -2.69289], [7, 43.37198, -2.69097]]

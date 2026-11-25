@@ -152,6 +152,20 @@ lines = [
 ]
 
 [[connections]]
+km = 21.346
+station = "Cristalería"
+lines = [
+  { id = "san-juan-de-nieva-villabona", name = "San Juan de Nieva - Villabona", km = 19.459 },
+]
+
+[[connections]]
+km = 23.103
+station = "Avilés"
+lines = [
+  { id = "san-juan-de-nieva-villabona", name = "San Juan de Nieva - Villabona", km = 17.751 },
+]
+
+[[connections]]
 km = 50.646
 station = "Gijón / Xixón"
 lines = [

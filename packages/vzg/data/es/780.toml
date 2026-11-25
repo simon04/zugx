@@ -103,6 +103,7 @@ km = 532.128
 station = "Valdecilla"
 lines = [
   { id = "770", ref = "770", name = "Ferrocarril Oviedo - Santander", km = 529.332 },
+  { id = "ferrocarril-madrid-santander", name = "Ferrocarril Madrid - Santander", km = 0 },
 ]
 
 [[connections]]
@@ -110,6 +111,13 @@ km = 532.232
 station = "Valdecilla-La Marga"
 lines = [
   { id = "770", ref = "770", name = "Ferrocarril Oviedo - Santander", km = 529.218 },
+]
+
+[[connections]]
+km = 537.901
+station = "Maliaño - La Vidriera"
+lines = [
+  { id = "ferrocarril-madrid-santander", name = "Ferrocarril Madrid - Santander", km = 5.175 },
 ]
 
 [[connections]]

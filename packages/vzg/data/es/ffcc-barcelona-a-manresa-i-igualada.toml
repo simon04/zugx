@@ -1,0 +1,29 @@
+id = "ffcc-barcelona-a-manresa-i-igualada"
+name = "FFCC Barcelona a Manresa i Igualada"
+operator = "Ferrocarrils de la Generalitat de Catalunya"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 2.9
+length = 2.9
+speeds = [[0, 2.9, 90, 90]]
+curves = [[0.55, 0.75, 950], [1, 1.375, 680], [1.85, 2.025, 1020], [2.225, 2.45, 660], [2.525, 2.7, 800]]
+points = [
+  { km = 1.187, kind = "station", label = "Santa Coloma de Cervelló", pos = [41.3702, 2.0239] },
+  { km = 2.186, kind = "station", label = "Colònia Güell", pos = [41.3641, 2.03161] },
+  { km = 2.9, kind = "station", label = "Molí Nou | Ciutat Cooperativa", pos = [41.35752, 2.03528] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 2.012, kmTo = 2.145, length = 133 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qaq{Fa`iKp]eVdUuHhFwCvDcEvTk^jD{D", v = 90 },
+  { line = "sdn{FaqkKdEsD", tunnel = true, v = 90 },
+  { line = "m~m{FuvkKvHcGhMqCrMaH", v = 90 },
+]
+posts = [[0, 41.38025, 2.01745], [1, 41.37216, 2.02256], [2, 41.36547, 2.03033]]

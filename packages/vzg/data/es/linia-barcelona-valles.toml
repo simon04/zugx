@@ -1,0 +1,111 @@
+id = "linia-barcelona-valles"
+name = "Línia Barcelona-Vallès"
+operator = "Ferrocarrils de la Generalitat de Catalunya"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 23.103
+length = 23.103
+speeds = [[0, 0.071, "", ""], [0.071, 1.681, 50, 50], [1.681, 3.344, 90, 90], [3.344, 3.431, 60, 60], [3.431, 4.327, 90, 90], [4.327, 5.028, 60, 60], [5.028, 5.403, 70, 70], [5.403, 6.369, 90, 90], [6.369, 7.219, 60, 60], [7.219, 10.071, 90, 90], [10.071, 10.192, 55, 55], [10.192, 10.286, 90, 90], [10.286, 10.309, 55, 55], [10.309, 10.331, 90, 90], [10.331, 10.577, 55, 55], [10.577, 14.678, 90, 90], [14.678, 15.011, 75, 75], [15.011, 15.296, 60, 60], [15.296, 15.606, 70, 70], [15.606, 23.103, 90, 90]]
+curves = [[0.1, 0.2, 230], [0.25, 1.45, 310], [1.5, 1.75, 550], [3.35, 3.475, 1130], [3.675, 3.825, 1070], [4.1, 4.25, 950], [4.325, 5.05, 250], [5.125, 5.825, 400], [5.9, 6.025, 1300], [6.325, 6.525, 660], [6.575, 6.95, 310], [7.025, 7.2, 850], [7.3, 7.925, 420], [8.225, 9.25, 610], [10.025, 10.625, 240], [11.075, 11.225, 1120], [11.425, 11.775, 1560], [12.25, 12.725, 560], [12.85, 13.325, 440], [13.425, 13.825, 440], [14.625, 15, 1060], [15.05, 15.125, 1750], [15.225, 15.65, 680], [15.875, 16.325, 620], [17.45, 17.625, 930], [19.775, 20.15, 580], [20.525, 20.95, 650], [21.225, 21.6, 820], [22.15, 22.225, 2040]]
+points = [
+  { km = 1.668, kind = "station", label = "Peu del Funicular", pos = [41.40905, 2.11141] },
+  { km = 1.685, kind = "station", label = "Vallvidrera Inferior", pos = [41.40926, 2.11131] },
+  { km = 2.124, kind = "halt", label = "Carretera de les Aigües", pos = [41.41231, 2.10797] },
+  { km = 2.401, kind = "station", label = "Vallvidrera Superior", pos = [41.41417, 2.10574] },
+  { km = 3.423, kind = "station", label = "Baixador de Vallvidrera", pos = [41.42008, 2.09692] },
+  { km = 4.327, kind = "station", label = "Les Planes", pos = [41.42749, 2.09167] },
+  { km = 7.148, kind = "station", label = "La Floresta", pos = [41.44486, 2.0732] },
+  { km = 8.855, kind = "station", label = "Valldoreix", pos = [41.45784, 2.06835] },
+  { km = 10.269, kind = "station", label = "Sant Cugat Centre", pos = [41.46797, 2.07824] },
+  { km = 11.766, kind = "station", label = "Mira-sol", pos = [41.46922, 2.06191] },
+  { km = 13.367, kind = "station", label = "Hospital General", pos = [41.47625, 2.04644] },
+  { km = 15.072, kind = "station", label = "Rubí Centre", pos = [41.48616, 2.03161] },
+  { km = 20.141, kind = "station", label = "Les Fonts", pos = [41.52871, 2.03346] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 0.479, kmTo = 0.836, length = 357 },
+  { kind = "tunnel", kmFrom = 0.946, kmTo = 1.114, length = 168 },
+  { kind = "tunnel", kmFrom = 1.681, kmTo = 3.344, length = 1664 },
+  { kind = "bridge", kmFrom = 5.016, kmTo = 5.028, length = 12 },
+  { kind = "tunnel", kmFrom = 6.907, kmTo = 7.09, length = 183 },
+  { kind = "bridge", kmFrom = 8.427, kmTo = 8.438, length = 11 },
+  { kind = "bridge", kmFrom = 10.1, kmTo = 10.124, length = 24 },
+  { kind = "bridge", kmFrom = 10.46, kmTo = 10.517, length = 57 },
+  { kind = "tunnel", kmFrom = 14.678, kmTo = 15.182, length = 505 },
+  { kind = "bridge", kmFrom = 15.354, kmTo = 15.446, length = 92 },
+  { kind = "bridge", kmFrom = 16.053, kmTo = 16.064, length = 11 },
+  { kind = "bridge", kmFrom = 17.669, kmTo = 17.684, length = 15 },
+  { kind = "bridge", kmFrom = 20.016, kmTo = 20.03, length = 13 },
+  { kind = "bridge", kmFrom = 21.299, kmTo = 21.338, length = 40 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "shu{Fq}}K{B]" },
+  { line = "olu{Fo~}K_Cn@_ItGqEbA", v = 50 },
+  { line = "aav{Fer}KiDbAwBrCu@lD@lE", tunnel = true, v = 50 },
+  { line = "wkv{Fq_}KtAjF", v = 50 },
+  { line = "aiv{Fex|Kv@lCXlF", tunnel = true, v = 50 },
+  { line = "ofv{Fil|KM~Io@|C", v = 50 },
+  { line = "mhv{Fk|{KIR", tunnel = true, v = 50 },
+  { line = "whv{Fw{{KgHlHyAjD", v = 50 },
+  { line = "ytv{F}l{KIR", tunnel = true, v = 50 },
+  { line = "cuv{Fil{KIT", v = 50 },
+  { line = "muv{Fsk{KIN", tunnel = true, v = 50 },
+  { line = "wuv{Fck{KMV", v = 50 },
+  { line = "evv{Fkj{KuaAjvA", tunnel = true, v = 90 },
+  { line = "{xx{F_sxKsBjC", v = 60 },
+  { line = "o|x{FsnxKo@j@", v = 90 },
+  { line = "_~x{FgmxKIJ", tunnel = true, v = 90 },
+  { line = "i~x{F{lxKyK`KsGvD", v = 90 },
+  { line = "wsy{Fa{wKGB", tunnel = true, v = 90 },
+  { line = "_ty{F}zwK{JjFaHjB", v = 90 },
+  { line = "}hz{FepwKIB", v = 60 },
+  { line = "giz{FapwKC@", tunnel = true, v = 60 },
+  { line = "kiz{F_pwKgDfAmCxDw@rGXzLgAnDaCbC", v = 60 },
+  { line = "izz{FygvKkHdHwBlJ", v = 70 },
+  { line = "mg{{FesuKuAjIuDnGkMvG_RxL", v = 90 },
+  { line = "eq|{FwitKmCfCcFnI", v = 60 },
+  { line = "w||{F_{sKML", tunnel = true, v = 60 },
+  { line = "e}|{FqzsK_EpB{ES", v = 60 },
+  { line = "aj}{FswsKyHeC", tunnel = true, v = 60 },
+  { line = "{s}{Fy{sKiEuC", v = 60 },
+  { line = "ez}{Fo`tKUQ", v = 90 },
+  { line = "{z}{FaatKEE", tunnel = true, v = 90 },
+  { line = "a{}{FgatKuFcEcFkA", v = 90 },
+  { line = "{i~{FwitK[A", tunnel = true, v = 90 },
+  { line = "wj~{FyitKmFb@iE~BsQvWkFvFaGnCcJl@wIiBiGuE}b@go@", v = 90 },
+  { line = "u|a|FoxtKiAmAuBg@", v = 55 },
+  { line = "ubb|Fe|tKiDB", v = 90 },
+  { line = "_hb|Fa|tKg@H", v = 55 },
+  { line = "gib|Fw{tKd@?", v = 90 },
+  { line = "ahb|Fw{tKqBt@kAhBk@tC@rB", v = 55 },
+  { line = "iob|FmntKtCxi@CtU_@lL}Hvo@sAtFwC|F", v = 90 },
+  { line = "a}b|Fc_pK[^", tunnel = true, v = 90 },
+  { line = "}}b|Fc~oKaOlKiF~GeBpHkArUsCzIwj@bk@", v = 90 },
+  { line = "gke|FoqlKmE~HeChI", tunnel = true, v = 75 },
+  { line = "{ue|Fe}kKcCrJ", tunnel = true, v = 60 },
+  { line = "_ze|FqqkKcBlF", v = 60 },
+  { line = "c}e|FcjkKkFrJiDtB", v = 70 },
+  { line = "yif|FyzjKuQ~FaKV{EeA{bAg_@a{BuSeHPaGbCeT`NaElD}EvIaKf^eF`J{\\x]mi@rc@", v = 90 },
+]
+posts = [[0, 41.40186, 2.12457], [1, 41.40682, 2.11802], [2, 41.41118, 2.10856], [3, 41.41761, 2.10016], [4, 41.42476, 2.09305], [5, 41.43009, 2.08544], [6, 41.43615, 2.07744], [7, 41.44384, 2.07276], [8, 41.45177, 2.07289], [9, 41.4595, 2.06894], [10, 41.46606, 2.07707], [11, 41.46892, 2.07104], [12, 41.46975, 2.05922], [13, 41.47505, 2.05034], [14, 41.47931, 2.04045], [15, 41.48586, 2.03246], [16, 41.49247, 2.02547], [17, 41.50105, 2.02867], [18, 41.50972, 2.0316], [19, 41.51865, 2.03308], [20, 41.52757, 2.03408], [21, 41.53459, 2.02713], [22, 41.54044, 2.0183], [23, 41.54792, 2.01164]]
+
+[[connections]]
+km = 13.367
+station = "Hospital General"
+lines = [
+  { id = "246", ref = "246", name = "Línia Castellbisbal/el Papiol-Mollet", km = 16.383 },
+  { id = "fgc-metro-del-valles-s1", name = "FGC Metro del Vallès S1", km = 10.158 },
+]
+
+[[connections]]
+km = 20.141
+station = "Les Fonts"
+lines = [
+  { id = "fgc-metro-del-valles-s1", name = "FGC Metro del Vallès S1", km = 3.383 },
+]

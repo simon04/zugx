@@ -256,11 +256,27 @@ lines = [
 ]
 
 [[connections]]
+km = 16.383
+station = "Hospital General"
+lines = [
+  { id = "fgc-metro-del-valles-s1", name = "FGC Metro del Vallès S1", km = 10.158 },
+  { id = "linia-barcelona-valles", name = "Línia Barcelona-Vallès", km = 13.367 },
+]
+
+[[connections]]
 km = 25.756
 station = "el Papiol"
 lines = [
   { id = "050", ref = "050", name = "Línea de alta velocidad Madrid-Zaragoza-Barcelona-Frontera francesa", km = 16.714 },
   { id = "220", ref = "220", name = "Línia Barcelona-Manresa-Lleida", km = 278.265 },
+  { id = "ffcc-barcelona-vilafranca-sant-vicenc-de-calders", name = "FFCC Barcelona-Vilafranca-Sant Vicenç de Calders", km = 58.53 },
+]
+
+[[connections]]
+km = 41.404
+station = "Santa Eulàlia"
+lines = [
+  { id = "ffcc-barcelona-vilafranca-sant-vicenc-de-calders", name = "FFCC Barcelona-Vilafranca-Sant Vicenç de Calders", km = 74.178 },
 ]
 
 [[connections]]

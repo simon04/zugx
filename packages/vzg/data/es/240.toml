@@ -103,6 +103,14 @@ station = "Castellbisbal"
 lines = [
   { id = "050", ref = "050", name = "Línea de alta velocidad Madrid-Zaragoza-Barcelona-Frontera francesa", km = 183.832 },
   { id = "220", ref = "220", name = "Línia Barcelona-Manresa-Lleida", km = 273.071 },
+  { id = "ffcc-barcelona-vilafranca-sant-vicenc-de-calders", name = "FFCC Barcelona-Vilafranca-Sant Vicenç de Calders", km = 53.337 },
+]
+
+[[connections]]
+km = 7.811
+station = "Martorell Central"
+lines = [
+  { id = "fgc-linia-llobregat-anoia", name = "FGC Línia Llobregat-Anoia", km = 14.725 },
 ]
 
 [[connections]]
@@ -117,4 +125,5 @@ km = 56.811
 station = "Sant Vicenç de Calders"
 lines = [
   { id = "220", ref = "220", name = "Línia Barcelona-Manresa-Lleida", km = 220.518 },
+  { id = "ffcc-barcelona-vilafranca-sant-vicenc-de-calders", name = "FFCC Barcelona-Vilafranca-Sant Vicenç de Calders", km = 0.346 },
 ]

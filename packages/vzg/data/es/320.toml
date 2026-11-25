@@ -729,3 +729,17 @@ lines = [
   { id = "042", ref = "042", name = "Línea de Alta Velocidad Madrid - Alacant-Terminal/Murcia", km = 413.905 },
   { id = "330", ref = "330", name = "Madrid-Alicante", km = 77.616 },
 ]
+
+[[connections]]
+km = 1153.507
+station = "Hellin"
+lines = [
+  { id = "madrid-cartagena", name = "Madrid-Cartagena", km = 76.771 },
+]
+
+[[connections]]
+km = 1222.401
+station = "Archena-Fortuna"
+lines = [
+  { id = "madrid-cartagena", name = "Madrid-Cartagena", km = 7.877 },
+]

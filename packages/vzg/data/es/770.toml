@@ -128,6 +128,7 @@ km = 529.218
 station = "Valdecilla-La Marga"
 lines = [
   { id = "780", ref = "780", name = "Ferrocarril Santander - Bilbao", km = 532.232 },
+  { id = "ferrocarril-madrid-santander", name = "Ferrocarril Madrid - Santander", km = 0 },
 ]
 
 [[connections]]
@@ -135,4 +136,5 @@ km = 529.332
 station = "Valdecilla"
 lines = [
   { id = "780", ref = "780", name = "Ferrocarril Santander - Bilbao", km = 532.128 },
+  { id = "ferrocarril-madrid-santander", name = "Ferrocarril Madrid - Santander", km = 0 },
 ]

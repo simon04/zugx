@@ -1,0 +1,48 @@
+id = "fgc-linia-llobregat-anoia-r5-r50-s4"
+name = "FGC Línia Llobregat-Anoia R5 R50 S4"
+operator = "Ferrocarrils de la Generalitat de Catalunya"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.325
+length = 7.325
+speeds = [[0, 7.1, 90, 90], [7.1, 7.325, 30, 30]]
+curves = [[0.3, 0.5, 810], [0.725, 1.075, 820], [1.65, 1.95, 760], [2.15, 2.375, 750], [3.25, 3.45, 700], [3.6, 3.675, 2270], [3.975, 4.05, 2230], [4.325, 4.625, 450], [4.675, 4.825, 710], [5, 5.3, 580], [5.45, 5.6, 1310], [7.075, 7.2, 450]]
+points = [
+  { km = 0, kind = "station", label = "Olesa de Montserrat", pos = [41.54147, 1.88791] },
+  { km = 2.792, kind = "station", label = "Abrera", pos = [41.52259, 1.90683] },
+  { km = 7.325, kind = "station", label = "Martorell Enllaç", pos = [41.48403, 1.9186] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.553, kmTo = 0.567, length = 15 },
+  { kind = "bridge", kmFrom = 1.184, kmTo = 1.49, length = 306 },
+  { kind = "bridge", kmFrom = 1.952, kmTo = 2.09, length = 138 },
+  { kind = "tunnel", kmFrom = 5.291, kmTo = 5.41, length = 120 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "qop|FeyoJzK}T~Hs]zDqJf[wa@bHgFfToHz|@Khx@sVtENvIdCvO|@`Ea@bEiB", v = 90 },
+  { line = "srh|FqbtJ~DaC", tunnel = true, v = 90 },
+  { line = "slh|FsftJvGcDjpAwa@", v = 90 },
+  { line = "ore|FonuJfEeC", v = 30 },
+]
+posts = [[0, 41.54121, 1.88835], [1, 41.53663, 1.89857], [2, 41.52959, 1.90583], [3, 41.52072, 1.90683], [4, 41.51197, 1.90906], [5, 41.50326, 1.90968], [6, 41.49478, 1.91332], [7, 41.48622, 1.91699]]
+
+[[connections]]
+km = 0
+station = "Olesa de Montserrat"
+lines = [
+  { id = "fgc-linia-llobregat-anoia-r5-r50", name = "FGC Línia Llobregat-Anoia R5 R50", km = 0 },
+]
+
+[[connections]]
+km = 7.325
+station = "Martorell Enllaç"
+lines = [
+  { id = "050", ref = "050", name = "Línea de alta velocidad Madrid-Zaragoza-Barcelona-Frontera francesa", km = 26.203 },
+  { id = "fgc-linia-llobregat-anoia", name = "FGC Línia Llobregat-Anoia", km = 15.652 },
+]

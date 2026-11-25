@@ -1,0 +1,95 @@
+id = "fgc-linia-llobregat-anoia-r5-r50"
+name = "FGC Línia Llobregat-Anoia R5 R50"
+operator = "Ferrocarrils de la Generalitat de Catalunya"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 16.253
+length = 16.253
+speeds = [[0, 1.777, 90, 90], [1.777, 2.032, 65, 65], [2.032, 2.19, 70, 70], [2.19, 2.441, 90, 90], [2.441, 2.615, 65, 65], [2.615, 2.697, 55, 55], [2.697, 3.267, 60, 60], [3.267, 3.48, 55, 55], [3.48, 4.128, 80, 80], [4.128, 4.728, 90, 90], [4.728, 4.866, 55, 55], [4.866, 5.104, 90, 90], [5.104, 5.315, 75, 75], [5.315, 5.438, 65, 65], [5.438, 5.705, 90, 90], [5.705, 6.012, 55, 55], [6.012, 6.204, 80, 80], [6.204, 6.514, 90, 90], [6.514, 6.769, 70, 70], [6.769, 7.33, 60, 60], [7.33, 7.541, 55, 55], [7.541, 8.242, 80, 80], [8.242, 8.514, 90, 90], [8.514, 8.986, 70, 70], [8.986, 9.527, 90, 90], [9.527, 9.878, 50, 50], [9.878, 12.507, "", ""], [12.507, 13.183, 90, 90], [13.183, 13.278, 80, 80], [13.278, 13.438, 65, 65], [13.438, 16.253, "", ""]]
+curves = [[0.1, 0.2, 1730], [0.525, 0.825, 640], [1.7, 2.375, 690], [2.425, 2.55, 620], [2.6, 3.175, 350], [3.225, 3.525, 340], [3.65, 4.125, 790], [4.675, 4.925, 420], [5.075, 5.475, 670], [5.65, 6.225, 460], [6.325, 6.625, 1220], [6.675, 6.725, 1050], [6.775, 6.975, 660], [7.025, 7.325, 190], [7.375, 7.85, 460], [8.075, 8.3, 760], [8.5, 8.625, 820], [8.675, 9, 870], [9.075, 9.125, 1430], [9.175, 9.325, 980], [9.5, 9.9, 300], [9.95, 10.2, 1840], [10.45, 10.975, 540], [11.075, 11.425, 370], [11.475, 11.55, 1570], [11.6, 11.8, 1290], [11.85, 11.975, 1240], [12.15, 12.35, 300], [12.4, 12.525, 560], [12.675, 13, 680], [13.15, 13.35, 580], [13.4, 14.075, 510], [14.225, 14.55, 770], [14.625, 14.875, 530], [15.65, 15.85, 700], [16, 16.15, 220]]
+points = [
+  { km = 0, kind = "station", label = "Olesa de Montserrat", pos = [41.54147, 1.88791] },
+  { km = 7.117, kind = "station", label = "Aeri de Montserrat", pos = [41.59121, 1.85339] },
+  { km = 9.359, kind = "station", label = "Monistrol de Montserrat", pos = [41.60912, 1.85031] },
+  { km = 9.527, kind = "station", label = "Monistrol Enllaç (Cremallera)", pos = [41.61036, 1.84922] },
+  { km = 13.278, kind = "station", label = "Castellbell i el Vilar", pos = [41.64054, 1.85477] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.564, kmTo = 0.585, length = 21 },
+  { kind = "tunnel", kmFrom = 3.04, kmTo = 3.48, length = 440, name = "Túnel de Casablanca" },
+  { kind = "tunnel", kmFrom = 3.582, kmTo = 4.633, length = 1051 },
+  { kind = "bridge", kmFrom = 5.797, kmTo = 5.815, length = 18 },
+  { kind = "tunnel", kmFrom = 6.603, kmTo = 6.675, length = 71, name = "Túnel de Montserrat" },
+  { kind = "tunnel", kmFrom = 6.687, kmTo = 6.769, length = 82, name = "Túnel de Montserrat" },
+  { kind = "tunnel", kmFrom = 8.242, kmTo = 8.514, length = 272 },
+  { kind = "tunnel", kmFrom = 9.591, kmTo = 9.677, length = 86 },
+  { kind = "tunnel", kmFrom = 9.737, kmTo = 9.994, length = 257 },
+  { kind = "bridge", kmFrom = 10.955, kmTo = 11.157, length = 202 },
+  { kind = "tunnel", kmFrom = 11.275, kmTo = 12.077, length = 802, name = "Túnel de la Bauma" },
+  { kind = "bridge", kmFrom = 13.438, kmTo = 13.542, length = 104 },
+  { kind = "tunnel", kmFrom = 13.542, kmTo = 13.709, length = 167 },
+  { kind = "bridge", kmFrom = 15.868, kmTo = 16.035, length = 167 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kop|F}xoJeV|[sDfDaE|Aet@tP", v = 90 },
+  { line = "mgs|FcbnJcEQ{EwD", v = 65 },
+  { line = "mts|FmhnJmB}AqCy@", v = 70 },
+  { line = "m|s|FemnJ_M}@", v = 90 },
+  { line = "mjt|FconJ{BQoDyA", v = 65 },
+  { line = "yst|FornJmC_@", v = 55 },
+  { line = "gxt|FosnJoH\\oGhE", v = 60 },
+  { line = "gju|FglnJoBVaH{@", tunnel = true, v = 60 },
+  { line = "yvu|FkmnJqDDuD|B", tunnel = true, v = 55 },
+  { line = "abv|FginJkC|C", v = 80 },
+  { line = "mfv|FidnJsEpFoClF{AbJYzF", tunnel = true, v = 80 },
+  { line = "guv|FibmJcBtd@", tunnel = true, v = 90 },
+  { line = "kxv|Fs|kJU`F", v = 90 },
+  { line = "ayv|FqukJEn@", v = 55 },
+  { line = "gyv|FatkJKdA", tunnel = true, v = 55 },
+  { line = "syv|F{qkJqApD", v = 55 },
+  { line = "e|v|FilkJsHnK", v = 90 },
+  { line = "yew|Fy_kJuH~G", v = 75 },
+  { line = "oow|FyvjJqEtA", v = 65 },
+  { line = "avw|FctjJ_NR", v = 90 },
+  { line = "aex|FosjJ}Cp@gEpFeBbA", v = 55 },
+  { line = "msx|FghjJaD~AaClC", v = 80 },
+  { line = "q|x|Fy`jJ{KvN", v = 90 },
+  { line = "miy|FaqiJiChB", v = 70 },
+  { line = "wmy|FwmiJwBz@", tunnel = true, v = 70 },
+  { line = "oqy|F{kiJUJ", v = 70 },
+  { line = "ery|FokiJaCzA", tunnel = true, v = 70 },
+  { line = "gvy|FshiJgPbIkE{@}BuD", v = 60 },
+  { line = "yqz|FafiJkCuF_CaB", v = 55 },
+  { line = "ezz|FypiJsFgC}C[cR`AsEtA", v = 80 },
+  { line = "o`||FeqiJoLnH", tunnel = true, v = 90 },
+  { line = "_n||FugiJyRbG{C~B", v = 70 },
+  { line = "uf}|Fq{hJeJpJ_M`J", v = 90 },
+  { line = "{_~|F}dhJiB~@", v = 50 },
+  { line = "ec~|F}bhJwCV", tunnel = true, v = 50 },
+  { line = "}g~|FebhJiB]", v = 50 },
+  { line = "gk~|FcchJqEwD", tunnel = true, v = 50 },
+  { line = "yq~|F{hhJsCeE", tunnel = true },
+  { line = "mv~|FaohJsFuGkOaNqLiCwDv@wKhLuDt@" },
+  { line = "et`}FkzhJeBWqOtCeMzEmHdB", tunnel = true },
+  { line = "q_b}FklhJ_JnAqG{CqBW" },
+  { line = "uvb}FoohJiJs@cGyAqAs@}J}K", v = 90 },
+  { line = "sxc}FobiJwBcD", v = 80 },
+  { line = "k|c}FsgiJiCmI", v = 65 },
+  { line = "u`d}FariJqBeE" },
+  { line = "gdd}FgxiJ_CcBsCV", tunnel = true },
+  { line = "{ld}FsziJeFvAuHEeNqDgCEuPbE{EF}q@gKgQsJsCFqBbA" },
+]
+posts = [[0, 41.54118, 1.88831], [1, 41.54849, 1.8818], [2, 41.55711, 1.88032], [3, 41.56563, 1.88136], [4, 41.57266, 1.87597], [5, 41.57482, 1.86469], [6, 41.5827, 1.86009], [7, 41.59025, 1.8539], [8, 41.59812, 1.8569], [9, 41.60645, 1.85279], [10, 41.61402, 1.85094], [11, 41.62175, 1.85423], [12, 41.63014, 1.85069], [13, 41.63867, 1.8526], [14, 41.64575, 1.85744], [15, 41.65452, 1.85773], [16, 41.66317, 1.8607]]
+
+[[connections]]
+km = 0
+station = "Olesa de Montserrat"
+lines = [
+  { id = "fgc-linia-llobregat-anoia-r5-r50-s4", name = "FGC Línia Llobregat-Anoia R5 R50 S4", km = 0 },
+]

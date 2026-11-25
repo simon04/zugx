@@ -1,0 +1,140 @@
+id = "fgc-linia-llobregat-anoia"
+name = "FGC Línia Llobregat-Anoia"
+operator = "Ferrocarrils de la Generalitat de Catalunya"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 48.664
+length = 48.664
+speeds = [[0, 7.97, 90, 90], [7.97, 8.306, 70, 70], [8.306, 10.801, 90, 90], [10.801, 11.288, 70, 70], [11.288, 12.542, 90, 90], [12.542, 13.057, 60, 60], [13.057, 13.431, 90, 90], [13.431, 13.886, 60, 60], [13.886, 14.211, 90, 90], [14.211, 14.589, 75, 75], [14.589, 15.736, 50, 50], [15.736, 15.911, 30, 30], [15.911, 16.288, 55, 55], [16.288, 17.227, 90, 90], [17.227, 17.339, 80, 80], [17.339, 17.701, 90, 90], [17.701, 48.664, "", ""]]
+curves = [[0.725, 0.875, 1200], [1.375, 1.6, 500], [1.65, 1.85, 490], [2.35, 2.525, 950], [3.375, 3.575, 750], [3.625, 4, 640], [4.05, 4.3, 990], [4.875, 5.1, 490], [5.15, 5.325, 500], [6.35, 7.075, 940], [7.175, 7.3, 1320], [7.45, 7.625, 980], [7.7, 7.925, 700], [7.975, 8.2, 720], [8.375, 8.6, 770], [8.7, 8.775, 1780], [10.35, 10.525, 1010], [10.775, 11.325, 450], [11.5, 11.925, 740], [12, 12.35, 630], [12.6, 12.65, 2020], [12.85, 13.125, 390], [13.325, 13.925, 250], [14.175, 14.425, 910], [14.55, 14.7, 900], [14.825, 15.375, 380], [15.425, 15.625, 390], [15.825, 15.925, 910], [15.975, 16.3, 370], [17.2, 17.375, 1090], [17.675, 17.825, 520], [17.875, 18.075, 340], [18.125, 18.575, 430], [18.625, 19.45, 410], [19.5, 19.925, 230], [19.975, 20.175, 190], [20.25, 20.55, 350], [20.625, 20.8, 880], [20.85, 21.4, 270], [21.45, 21.825, 390], [21.925, 22.25, 160], [22.3, 22.575, 310], [22.675, 23.35, 290], [23.425, 23.675, 430], [24, 24.575, 310], [24.675, 24.825, 640], [24.9, 25.1, 540], [25.525, 25.75, 570], [25.8, 26.2, 300], [26.45, 26.825, 430], [27.25, 27.55, 210], [27.6, 27.9, 270], [29.075, 29.375, 510], [29.675, 30.025, 380], [30.075, 30.35, 330], [30.725, 31.425, 300], [31.475, 31.675, 540], [32, 32.075, 2530], [32.225, 32.575, 560], [32.8, 32.975, 720], [33.275, 33.8, 440], [34.525, 34.8, 400], [34.85, 35, 440], [35.05, 35.475, 320], [35.525, 35.675, 470], [35.725, 36.05, 420], [36.225, 36.675, 370], [36.875, 37.15, 760], [37.6, 37.925, 450], [37.975, 38.325, 230], [38.425, 39.4, 210], [39.75, 40.25, 280], [40.3, 40.85, 260], [40.9, 41.125, 300], [41.2, 41.45, 300], [41.55, 41.85, 640], [42.5, 42.725, 510], [42.775, 42.875, 1030], [43.175, 43.4, 680], [43.525, 43.75, 1070], [44, 44.15, 820], [44.25, 44.55, 300], [44.725, 45.075, 320], [45.15, 45.375, 570], [45.425, 46.7, 320], [46.775, 47.175, 320], [48.325, 48.475, 880]]
+points = [
+  { km = 0.954, kind = "station", label = "Sant Vicenç dels Horts", pos = [41.3881, 2.01238] },
+  { km = 2.371, kind = "station", label = "Can Ros", pos = [41.39934, 2.00494] },
+  { km = 3.229, kind = "station", label = "Quatre Camins", pos = [41.40664, 2.00157] },
+  { km = 4.894, kind = "station", label = "Pallejà", pos = [41.42078, 1.99557] },
+  { km = 8.645, kind = "station", label = "Sant Andreu de la Barca", pos = [41.44684, 1.97309] },
+  { km = 9.964, kind = "station", label = "el Palau", pos = [41.45564, 1.96256] },
+  { km = 13.154, kind = "station", label = "Martorell - Vila | Castellbisbal", pos = [41.47645, 1.93916] },
+  { km = 14.725, kind = "station", label = "Martorell Central", pos = [41.47909, 1.9267] },
+  { km = 14.795, kind = "station", label = "Martorell - Central", pos = [41.47935, 1.92572] },
+  { km = 15.652, kind = "station", label = "Martorell Enllaç", pos = [41.48403, 1.9186] },
+  { km = 20.221, kind = "station", label = "Sant Esteve Sesrovires", pos = [41.49773, 1.87254] },
+  { km = 24.663, kind = "station", label = "la Beguda", pos = [41.50169, 1.83875] },
+  { km = 25.34, kind = "stop", label = "Can Parellada", pos = [41.50224, 1.83077] },
+  { km = 27.027, kind = "station", label = "Masquefa", pos = [41.50296, 1.8125] },
+  { km = 33.246, kind = "station", label = "Piera", pos = [41.52588, 1.75441] },
+  { km = 38.424, kind = "station", label = "Vallbona d'Anoia", pos = [41.52034, 1.70851] },
+  { km = 40.431, kind = "station", label = "Capellades", pos = [41.52156, 1.69535] },
+  { km = 45.059, kind = "station", label = "la Pobla de Claramunt", pos = [41.55456, 1.67797] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.564, kmTo = 0.62, length = 56 },
+  { kind = "bridge", kmFrom = 0.699, kmTo = 0.722, length = 23 },
+  { kind = "bridge", kmFrom = 1.221, kmTo = 1.236, length = 15 },
+  { kind = "bridge", kmFrom = 1.318, kmTo = 1.336, length = 17 },
+  { kind = "bridge", kmFrom = 1.99, kmTo = 2.007, length = 18 },
+  { kind = "bridge", kmFrom = 2.098, kmTo = 2.115, length = 16 },
+  { kind = "bridge", kmFrom = 2.68, kmTo = 2.71, length = 30 },
+  { kind = "bridge", kmFrom = 2.917, kmTo = 2.958, length = 41 },
+  { kind = "bridge", kmFrom = 3.056, kmTo = 3.091, length = 35 },
+  { kind = "tunnel", kmFrom = 4.242, kmTo = 5.798, length = 1556 },
+  { kind = "tunnel", kmFrom = 6.58, kmTo = 6.879, length = 299 },
+  { kind = "bridge", kmFrom = 7.85, kmTo = 7.894, length = 44 },
+  { kind = "tunnel", kmFrom = 8.358, kmTo = 9.109, length = 751 },
+  { kind = "bridge", kmFrom = 10.378, kmTo = 10.42, length = 42 },
+  { kind = "bridge", kmFrom = 11.887, kmTo = 12.041, length = 154 },
+  { kind = "bridge", kmFrom = 13.34, kmTo = 13.355, length = 15 },
+  { kind = "bridge", kmFrom = 13.492, kmTo = 13.511, length = 20 },
+  { kind = "bridge", kmFrom = 13.951, kmTo = 14.211, length = 260 },
+  { kind = "tunnel", kmFrom = 14.827, kmTo = 14.906, length = 78 },
+  { kind = "bridge", kmFrom = 15.287, kmTo = 15.313, length = 26 },
+  { kind = "bridge", kmFrom = 16.133, kmTo = 16.162, length = 29 },
+  { kind = "bridge", kmFrom = 16.641, kmTo = 16.711, length = 70 },
+  { kind = "bridge", kmFrom = 19.673, kmTo = 19.687, length = 13 },
+  { kind = "tunnel", kmFrom = 23.464, kmTo = 23.621, length = 158 },
+  { kind = "tunnel", kmFrom = 23.874, kmTo = 23.937, length = 62 },
+  { kind = "tunnel", kmFrom = 25.527, kmTo = 25.594, length = 67 },
+  { kind = "tunnel", kmFrom = 26.355, kmTo = 26.473, length = 118 },
+  { kind = "tunnel", kmFrom = 26.511, kmTo = 26.588, length = 77 },
+  { kind = "bridge", kmFrom = 30.748, kmTo = 30.766, length = 18 },
+  { kind = "bridge", kmFrom = 32.256, kmTo = 32.284, length = 28 },
+  { kind = "bridge", kmFrom = 32.519, kmTo = 32.55, length = 31 },
+  { kind = "bridge", kmFrom = 33.186, kmTo = 33.208, length = 23 },
+  { kind = "bridge", kmFrom = 33.867, kmTo = 33.933, length = 66 },
+  { kind = "bridge", kmFrom = 34.127, kmTo = 34.151, length = 24 },
+  { kind = "bridge", kmFrom = 34.39, kmTo = 34.441, length = 51 },
+  { kind = "bridge", kmFrom = 36.237, kmTo = 36.275, length = 38 },
+  { kind = "tunnel", kmFrom = 39.394, kmTo = 39.462, length = 68 },
+  { kind = "bridge", kmFrom = 40.632, kmTo = 40.649, length = 17 },
+  { kind = "bridge", kmFrom = 43.954, kmTo = 43.973, length = 19 },
+  { kind = "bridge", kmFrom = 44.408, kmTo = 44.439, length = 31 },
+  { kind = "bridge", kmFrom = 47.597, kmTo = 47.63, length = 33 },
+  { kind = "bridge", kmFrom = 48.162, kmTo = 48.18, length = 18 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kbq{F{_iKug@`Xs]~XcC~@{LvAqa@dXir@pUuMn@yE|@ySnM", v = 90 },
+  { line = "{{w{FkfeKqe@|NcCJcJiAa^|F", tunnel = true, v = 90 },
+  { line = "wpz{FmpdKc`@rGsHjC", v = 90 },
+  { line = "o{{{FmcdK{FxD{DxE", tunnel = true, v = 90 },
+  { line = "gi|{FyvcKgUtf@{EpPoEvG", v = 90 },
+  { line = "{l}{FytaKiDzFyCbL", v = 70 },
+  { line = "_w}{Fy_aKg@nB", v = 90 },
+  { line = "gx}{Fi|`KeDrJwVr[", tunnel = true, v = 90 },
+  { line = "eu~{Fat_K{u@r`AsK`V", v = 90 },
+  { line = "ux`|Fk{|JoDvE{KzByD|B", v = 70 },
+  { line = "{pa|Fyl|J_LnKkBpCwD|JcChPkAbEiCdE{InJ", v = 90 },
+  { line = "u|b|FufzJ}PzOqBh@gBI", v = 60 },
+  { line = "muc|FytyJsRgF", v = 90 },
+  { line = "aid|Fa|yJSC", tunnel = true, v = 90 },
+  { line = "uid|Fe|yJoEf@uC`DiA~EXfH", v = 60 },
+  { line = "kvd|FseyJNrA", tunnel = true, v = 90 },
+  { line = "{ud|F_cyJrCvS", v = 90 },
+  { line = "gqd|FgnxJl@xIFjP", v = 75 },
+  { line = "qod|FarwJrApP", v = 50 },
+  { line = "}ld|Fo`wJXvD", tunnel = true, v = 50 },
+  { line = "cld|FwzvJ]xFaBvDiHbHmI|CyG`K", v = 50 },
+  { line = "ule|FasuJ{EhH", v = 30 },
+  { line = "qse|FwiuJoG|HaAvDKtE", v = 55 },
+  { line = "o~e|FkstJRneA", v = 90 },
+  { line = "{}e|F{lrJQhG", v = 80 },
+  { line = "m~e|FqdrJ{BtY", v = 90 },
+  { line = "ibf|F{iqJs@vEsCrJf@dSoCfMq@xA_JrH}@|Ao@zCg@zIwApEoHhI_DpAuGn@{AlAu@jBi@dLcDfHQjBxDfTI|DyExOmCfPuBtAqKSqCoBqFmIcFkCaDIwKxA{AnA_@rADtCdF|Jh@jCDdDwAlQDhEtAnEtEvEfBbFDlDkAjM" },
+  { line = "wpi|FsqhJOhBf@dG", tunnel = true },
+  { line = "_pi|FcfhJrDnP" },
+  { line = "kji|FstgJh@hC", tunnel = true },
+  { line = "aii|FipgJxBlJrArBzFxEt@~Ah@zD{@fSr@nSkEdd@" },
+  { line = "k~h|FscdJ[zC", tunnel = true },
+  { line = "g_i|Fw~cJaBfGaDrG}@nG|@lIrEpM" },
+  { line = "w`i|FklbJrBnF", tunnel = true },
+  { line = "c}h|F{dbJb@hA" },
+  { line = "_|h|FqbbJv@hD", tunnel = true },
+  { line = "gzh|Fg}aJVbD_@`GsL`e@" },
+  { line = "chi|F_j`JYjB", tunnel = true },
+  { line = "}hi|Fsf`J\\~DlIzInAfFmDhbBuA`JmQrZmAnDKfD`BxOi@jF{Q`_@eCxAsGbA_BjAkDpLuJlJoMx[oIxOmFpE_TlHyUzSyH~@yEdCk^~q@oAnFJtQqAxJHvHxBfHhIrHpGbOb@dHgAzZfAbHbCrDbS|PnVvg@nEhC~KfBnAnAp@hBL~C}@|Nc@vDq@vA_Cj@aFiB_CgBmD}EaCe@qBnAo@vCZtCjB~C" },
+  { line = "oim|FyelIvAnB", tunnel = true },
+  { line = "wfm|FiblI|LnQlAlEmA`Q~BdNElGe@tCuCzD_DX_HyBeCS_Bh@wHfHyBz@oP_CiFJej@fMaDI}HyBqU_DsPrCgEpBqPjL_KfMaAhGx@r[w@jEiBhCqIbGkLpBmHlDiDUcF_DoB]{Ed@oC`BmAxBi@lCTtLtAjGlG|Lt@~FOdEw]vxAsHrP" },
+]
+posts = [[0, 41.38038, 2.01742], [1, 41.38843, 2.01212], [2, 41.39647, 2.0072], [3, 41.40468, 2.00244], [4, 41.41327, 1.99935], [5, 41.42171, 1.9954], [6, 41.43054, 1.99402], [7, 41.43851, 1.98927], [8, 41.44369, 1.97956], [9, 41.44921, 1.97031], [10, 41.45592, 1.96232], [11, 41.46218, 1.95394], [12, 41.46857, 1.94655], [13, 41.47508, 1.9388], [14, 41.48057, 1.9351], [15, 41.47933, 1.92333], [16, 41.48617, 1.91595], [17, 41.48721, 1.90447], [18, 41.4889, 1.89286], [19, 41.49217, 1.8827], [20, 41.49799, 1.87503], [21, 41.49948, 1.86417], [22, 41.50765, 1.86668], [23, 41.50633, 1.85619], [24, 41.50411, 1.84526], [25, 41.50159, 1.83475], [26, 41.50437, 1.82353], [27, 41.50291, 1.81269], [28, 41.50218, 1.80237], [29, 41.50287, 1.7904], [30, 41.50667, 1.78018], [31, 41.5111, 1.77127], [32, 41.51688, 1.76257], [33, 41.52416, 1.75615], [34, 41.53143, 1.74976], [35, 41.53516, 1.73943], [36, 41.53157, 1.7295], [37, 41.52784, 1.72019], [38, 41.52146, 1.71248], [39, 41.52395, 1.70841], [40, 41.52192, 1.70043], [41, 41.52544, 1.69372], [42, 41.5339, 1.69171], [43, 41.54266, 1.69098], [44, 41.55112, 1.68844], [45, 41.5542, 1.67833], [46, 41.56251, 1.67645], [47, 41.56254, 1.66713], [48, 41.56616, 1.65616]]
+
+[[connections]]
+km = 14.725
+station = "Martorell Central"
+lines = [
+  { id = "220", ref = "220", name = "Línia Barcelona-Manresa-Lleida", km = 269.464 },
+  { id = "240", ref = "240", name = "Línia Barcelona-Vilafranca-Tarragona", km = 7.811 },
+  { id = "ffcc-barcelona-vilafranca-sant-vicenc-de-calders", name = "FFCC Barcelona-Vilafranca-Sant Vicenç de Calders", km = 49.729 },
+]
+
+[[connections]]
+km = 15.652
+station = "Martorell Enllaç"
+lines = [
+  { id = "050", ref = "050", name = "Línea de alta velocidad Madrid-Zaragoza-Barcelona-Frontera francesa", km = 26.203 },
+  { id = "fgc-linia-llobregat-anoia-r5-r50-s4", name = "FGC Línia Llobregat-Anoia R5 R50 S4", km = 7.325 },
+]

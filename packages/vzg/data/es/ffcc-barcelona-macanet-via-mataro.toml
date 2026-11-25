@@ -1,0 +1,126 @@
+id = "ffcc-barcelona-macanet-via-mataro"
+name = "FFCC Barcelona-Maçanet via Mataró"
+operator = "Adif"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 66.517
+length = 66.517
+speeds = [[0, 8.723, 140, 140], [8.723, 9.248, 135, 135], [9.248, 9.625, 120, 120], [9.625, 11.474, 140, 140], [11.474, 11.743, 125, 125], [11.743, 18.682, 140, 140], [18.682, 18.787, 130, 130], [18.787, 19.042, 95, 95], [19.042, 23.517, 130, 130], [23.517, 26.223, 140, 140], [26.223, 27.982, 120, 120], [27.982, 28.718, 90, 90], [28.718, 28.79, "", ""], [28.79, 29.424, 70, 70], [29.424, 31.514, 85, 85], [31.514, 34.383, 110, 110], [34.383, 35.912, 80, 80], [35.912, 36.116, 50, 50], [36.116, 39.004, 110, 110], [39.004, 41.509, 130, 130], [41.509, 46.091, 95, 95], [46.091, 49.902, 105, 105], [49.902, 50.897, 80, 80], [50.897, 56.386, 105, 105], [56.386, 63.107, 100, 100], [63.107, 63.551, 90, 90], [63.551, 65.075, 100, 100], [65.075, 65.14, 50, 50], [65.14, 65.811, "", ""], [65.811, 65.895, 100, 100], [65.895, 66.517, "", ""]]
+curves = [[0.2, 0.375, 2230], [1.5, 1.575, 2760], [2.2, 2.425, 1600], [3.075, 3.2, 1580], [3.45, 3.5, 2480], [4.375, 4.475, 1750], [5.25, 5.375, 1890], [8.075, 8.15, 2200], [9.55, 9.6, 2210], [11.525, 11.7, 1220], [12.1, 12.15, 2730], [13.15, 13.225, 2440], [13.725, 13.8, 1620], [14.3, 14.525, 1530], [15.45, 15.725, 1250], [15.95, 16.05, 1850], [16.425, 16.525, 2000], [18, 18.1, 1770], [18.925, 19.05, 2160], [19.575, 19.775, 1370], [20.925, 21.175, 1490], [23.075, 23.35, 1250], [28.325, 28.5, 1970], [28.725, 29.175, 1300], [29.225, 29.375, 650], [29.425, 29.625, 650], [29.675, 30.025, 690], [30.2, 30.775, 1910], [30.975, 31.175, 770], [31.25, 31.425, 2030], [31.75, 31.85, 1920], [32.3, 32.375, 2870], [32.475, 32.6, 2740], [32.925, 33.15, 1180], [33.225, 33.575, 1140], [33.75, 34.025, 1050], [34.4, 34.625, 770], [34.675, 34.975, 970], [35.125, 35.25, 1430], [35.3, 35.475, 670], [35.7, 35.875, 860], [35.925, 36.15, 720], [36.275, 36.45, 1960], [36.95, 37.175, 1090], [37.575, 37.85, 1040], [38.525, 38.625, 1390], [39.4, 39.5, 1560], [40.575, 40.675, 2310], [41.675, 41.775, 1710], [42, 42.225, 1120], [42.3, 42.55, 690], [43.7, 44.1, 940], [44.5, 44.8, 1220], [46.55, 47, 590], [48.325, 48.6, 2220], [48.7, 49.1, 1910], [49.875, 50.85, 640], [51.925, 52.325, 2210], [53.05, 53.675, 1070], [54.925, 55.425, 1080], [55.5, 55.95, 630], [56.675, 57.4, 600], [58.125, 58.875, 1060], [59.8, 60.725, 830], [60.8, 61.325, 1200], [61.525, 62.15, 980], [62.55, 63.675, 610], [64.125, 65.075, 610], [65.525, 65.825, 880], [66, 66.35, 710]]
+points = [
+  { km = 1.93, kind = "station", label = "Montgat", pos = [41.46291, 2.27221] },
+  { km = 3.319, kind = "stop", label = "Montgat Nord", pos = [41.46874, 2.28686] },
+  { km = 5.49, kind = "station", label = "el Masnou", pos = [41.47691, 2.31042] },
+  { km = 6.299, kind = "station", label = "Ocata", pos = [41.47902, 2.31981] },
+  { km = 9.381, kind = "stop", label = "Premià de Mar", pos = [41.48761, 2.35492] },
+  { km = 12.624, kind = "stop", label = "Vilassar de Mar", pos = [41.50049, 2.38983] },
+  { km = 13.843, kind = "stop", label = "Cabrera de Mar - Vilassar de Mar", pos = [41.50673, 2.40177] },
+  { km = 18.532, kind = "station", label = "Mataró", pos = [41.53305, 2.44552] },
+  { km = 23.665, kind = "stop", label = "Sant Andreu de Llavaneres", pos = [41.5554, 2.49837] },
+  { km = 26.409, kind = "stop", label = "Caldes d'Estrac", pos = [41.56844, 2.52602] },
+  { km = 28.577, kind = "station", label = "Arenys de Mar", pos = [41.57741, 2.54942] },
+  { km = 31.439, kind = "station", label = "Canet de Mar", pos = [41.58645, 2.58115] },
+  { km = 35.449, kind = "station", label = "Sant Pol de Mar", pos = [41.60163, 2.62465] },
+  { km = 39.203, kind = "station", label = "Calella", pos = [41.61471, 2.66657] },
+  { km = 41.654, kind = "station", label = "Pineda de Mar", pos = [41.62236, 2.69361] },
+  { km = 43.77, kind = "stop", label = "Santa Susanna", pos = [41.63015, 2.71646] },
+  { km = 46.228, kind = "station", label = "Malgrat de Mar", pos = [41.64153, 2.7414] },
+  { km = 50.631, kind = "station", label = "Blanes", pos = [41.67334, 2.76901] },
+  { km = 56.386, kind = "stop", label = "Tordera", pos = [41.70705, 2.71948] },
+  { km = 65.778, kind = "station", label = "Maçanet Massanes", pos = [41.77217, 2.67338] },
+]
+structures = [
+  { kind = "tunnel", kmFrom = 2.502, kmTo = 2.632, length = 130 },
+  { kind = "bridge", kmFrom = 16.148, kmTo = 16.26, length = 111 },
+  { kind = "bridge", kmFrom = 19.801, kmTo = 19.837, length = 36 },
+  { kind = "bridge", kmFrom = 23.872, kmTo = 23.939, length = 67 },
+  { kind = "bridge", kmFrom = 26.547, kmTo = 26.577, length = 30 },
+  { kind = "tunnel", kmFrom = 27.432, kmTo = 27.629, length = 197 },
+  { kind = "tunnel", kmFrom = 29.794, kmTo = 29.847, length = 53 },
+  { kind = "bridge", kmFrom = 30.954, kmTo = 30.977, length = 23 },
+  { kind = "bridge", kmFrom = 31.525, kmTo = 31.549, length = 24 },
+  { kind = "tunnel", kmFrom = 33.005, kmTo = 33.068, length = 63 },
+  { kind = "bridge", kmFrom = 34.955, kmTo = 35.021, length = 66 },
+  { kind = "tunnel", kmFrom = 35.505, kmTo = 35.753, length = 248 },
+  { kind = "bridge", kmFrom = 35.99, kmTo = 36.015, length = 25 },
+  { kind = "tunnel", kmFrom = 36.766, kmTo = 36.924, length = 158 },
+  { kind = "tunnel", kmFrom = 37.028, kmTo = 37.499, length = 471 },
+  { kind = "bridge", kmFrom = 38.221, kmTo = 38.234, length = 12 },
+  { kind = "bridge", kmFrom = 40.844, kmTo = 40.879, length = 35 },
+  { kind = "bridge", kmFrom = 44.534, kmTo = 44.551, length = 17 },
+  { kind = "bridge", kmFrom = 45.915, kmTo = 45.939, length = 25 },
+  { kind = "bridge", kmFrom = 48.873, kmTo = 48.886, length = 14 },
+  { kind = "bridge", kmFrom = 49.08, kmTo = 49.133, length = 52 },
+  { kind = "bridge", kmFrom = 49.597, kmTo = 49.809, length = 212 },
+  { kind = "bridge", kmFrom = 50.033, kmTo = 50.085, length = 52 },
+  { kind = "bridge", kmFrom = 61.659, kmTo = 61.676, length = 17 },
+  { kind = "bridge", kmFrom = 61.69, kmTo = 61.705, length = 15 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "c}~{FwmwLiMwO}l@gbA_Ucg@qF}Q", v = 140 },
+  { line = "}va|Fy|{L}A}G", tunnel = true, v = 140 },
+  { line = "{ya|Fwe|LwJib@}I{W{U_{@aRe{@}b@{zCyHcm@wJ}i@", v = 140 },
+  { line = "_te|FaoiM{Hed@", v = 135 },
+  { line = "{}e|FgtjM_GcY", v = 120 },
+  { line = "{ef|FknkMyFoZa`@acB", v = 140 },
+  { line = "wng|F}moMgFsP", v = 125 },
+  { line = "_vg|Fq_pMgKyV{]}_AiT}d@{Q_g@sj@_~@cLo\\cQma@os@grAaYua@", v = 140 },
+  { line = "wbo|Fc{|MgCqD", v = 130 },
+  { line = "_go|Fu`}MeIiL", v = 95 },
+  { line = "eqo|F_n}McXse@ae@grAgf@urCiCaJwF{M", v = 130 },
+  { line = "ucs|FoufNq\\uv@q[ex@eKkZqJu]", v = 140 },
+  { line = "quu|Fm`lNw]_pA", v = 120 },
+  { line = "itv|FmqnNaDeL", tunnel = true, v = 120 },
+  { line = "kyv|Fs~nN{GuV", v = 120 },
+  { line = "gbw|FivoN{Io[qHoR", v = 90 },
+  { line = "uvw|FifqNeAqC" },
+  { line = "{xw|F{jqNaEgPq@eQiAsH", v = 70 },
+  { line = "ybx|F}wrN{@uHWwP", v = 85 },
+  { line = "mex|FkssNW{B", tunnel = true, v = 85 },
+  { line = "efx|FgwsNyPki@yBgLoDc[yI{\\", v = 85 },
+  { line = "cly|F{hwNiEgSuP{m@yHgb@", v = 110 },
+  { line = "}mz|FgozNs@gC", tunnel = true, v = 110 },
+  { line = "qoz|FoszNoIuVkGkd@cKuZ", v = 110 },
+  { line = "qn{|Fgl}N{BoIwCgUiHwS{EcK_BcH", v = 80 },
+  { line = "kj||F_w_OwCoP", tunnel = true, v = 80 },
+  { line = "co||Foh`OyCaI", v = 80 },
+  { line = "}s||Fqr`OmBgFo@mE", v = 50 },
+  { line = "{x||Fg`aO}BkUkEkW", v = 110 },
+  { line = "ec}|F_obOyAgJ", tunnel = true, v = 110 },
+  { line = "_f}|FgzbOaAkF", v = 110 },
+  { line = "ah}|FsacO{La]", tunnel = true, v = 110 },
+  { line = "}u}|Fu_dOgCoGuBgIiLwt@qI{^", v = 110 },
+  { line = "wu~|FahgOwIs_@kSqrAmQ{z@", v = 130 },
+  { line = "ig`}FcxlOsDuPuHsViH{L}AiEsS{lAcEcSoEgKqQwXiEaJya@a{A", v = 95 },
+  { line = "y_d}FwdvOyLgc@mBkEqCkDyEyCm_Acb@uP{J_G_FmIsJcb@mq@", v = 105 },
+  { line = "cdi}Fsm{OqDoE}EcDwNuAqIvAqDbCyDnE", v = 80 },
+  { line = "ivj}Fqn{Oyr@zy@{L~Iib@tVqF|EwEpGgF`My_@nuAyCvI}F`KyLvMgDhHkIji@", v = 105 },
+  { line = "{{p}FucrOyDdXcC~GuD~FmEfDiGpBao@zEoFlA_JbEuDxC_GjHmi@l}@wEpEcG|CkGnAmFJeUoBuGN_Fn@eTfHuJ`A_M}@g\\iJaD[aKt@_HfD", v = 100 },
+  { line = "w_{}FscmO}BtBcDlF_BjFw@`G", v = 90 },
+  { line = "qm{}FailO\\jm@UlHcA`HgCpH_E~FiHxEcHdB", v = 100 },
+  { line = "cl|}FsliOqBX", v = 50 },
+  { line = "uo|}FykiOiXbFyJG" },
+  { line = "yt}}F}diOuC]", v = 100 },
+  { line = "oy}}F{eiOyG{@mGuBmMkK" },
+]
+posts = [[0, 41.45122, 2.25516], [1, 41.45753, 2.26368], [2, 41.46326, 2.27291], [3, 41.46738, 2.28353], [4, 41.47162, 2.29411], [5, 41.47533, 2.30503], [6, 41.47824, 2.31637], [7, 41.48089, 2.32784], [8, 41.48344, 2.33935], [9, 41.4864, 2.35068], [10, 41.48965, 2.36187], [11, 41.49327, 2.37286], [12, 41.49747, 2.38343], [13, 41.5023, 2.39356], [14, 41.5075, 2.40335], [15, 41.51305, 2.41273], [16, 41.51849, 2.42219], [17, 41.52392, 2.43175], [18, 41.52971, 2.44094], [19, 41.53609, 2.4494], [20, 41.54169, 2.45876], [21, 41.54636, 2.46903], [22, 41.54943, 2.48031], [23, 41.5524, 2.49166], [24, 41.55718, 2.50178], [25, 41.56227, 2.51169], [26, 41.56687, 2.522], [27, 41.57093, 2.53273], [28, 41.57499, 2.54345], [29, 41.57938, 2.55392], [30, 41.58129, 2.56552], [31, 41.58482, 2.57646], [32, 41.58853, 2.58739], [33, 41.59213, 2.59839], [34, 41.59562, 2.60936], [35, 41.59944, 2.62015], [36, 41.60379, 2.63056], [37, 41.60648, 2.64202], [38, 41.61067, 2.65258], [39, 41.61386, 2.66381], [40, 41.61706, 2.67504], [41, 41.62007, 2.68636], [42, 41.6237, 2.69736], [43, 41.62782, 2.70787], [44, 41.63121, 2.71896], [45, 41.63669, 2.72838], [46, 41.64072, 2.73914], [47, 41.64581, 2.74865], [48, 41.65414, 2.75319], [49, 41.66186, 2.7592], [50, 41.66804, 2.76794], [51, 41.6761, 2.76648], [52, 41.68294, 2.75865], [53, 41.69079, 2.75284], [54, 41.69644, 2.74387], [55, 41.70053, 2.73314], [56, 41.70601, 2.72391], [57, 41.70937, 2.71291], [58, 41.71802, 2.71041], [59, 41.72574, 2.70507], [60, 41.73183, 2.69621], [61, 41.74048, 2.69482], [62, 41.74925, 2.69284], [63, 41.75798, 2.69443], [64, 41.76097, 2.6842], [65, 41.76528, 2.67502], [66, 41.77413, 2.67394]]
+
+[[connections]]
+km = 1.93
+station = "Montgat"
+lines = [
+  { id = "276", ref = "276", name = "Ramal Besòs", km = 0 },
+]
+
+[[connections]]
+km = 65.778
+station = "Maçanet Massanes"
+lines = [
+  { id = "270", ref = "270", name = "FFCC Cerbère - Barcelona", km = 67.264 },
+]

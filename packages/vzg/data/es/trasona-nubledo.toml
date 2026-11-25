@@ -1,0 +1,24 @@
+id = "trasona-nubledo"
+name = "Trasona - Nubledo"
+operator = "ADIF"
+gauge = "1668"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 5.346
+length = 5.346
+speeds = [[0, 5.346, "", ""]]
+curves = [[0.4, 1.4, 330], [1.825, 2.225, 370], [2.675, 2.8, 1390], [3.35, 3.575, 840], [3.875, 4.45, 320], [4.6, 4.875, 410], [4.925, 5.225, 400]]
+points = []
+structures = [
+  { kind = "bridge", kmFrom = 2.064, kmTo = 2.14, length = 77 },
+  { kind = "bridge", kmFrom = 4.59, kmTo = 4.64, length = 50 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "w|yhGfcxb@hB_d@nBoI`CmDbEuBxDW~EdB|CzDpAhDlEzn@bC~HnBnBx^dQx_@nZrPn_@zB|CfD`BhDTxCm@fNmLbDkGxAqKxBmHzI{H" },
+]
+posts = [[0, 43.55548, -5.86308], [1, 43.55143, -5.854], [2, 43.54816, -5.86483], [3, 43.54028, -5.87053], [4, 43.53385, -5.87889], [5, 43.52722, -5.87389]]

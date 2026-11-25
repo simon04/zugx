@@ -300,6 +300,15 @@ station = "el Papiol"
 lines = [
   { id = "220", ref = "220", name = "Línia Barcelona-Manresa-Lleida", km = 278.265 },
   { id = "246", ref = "246", name = "Línia Castellbisbal/el Papiol-Mollet", km = 25.756 },
+  { id = "ffcc-barcelona-vilafranca-sant-vicenc-de-calders", name = "FFCC Barcelona-Vilafranca-Sant Vicenç de Calders", km = 58.53 },
+]
+
+[[connections]]
+km = 26.203
+station = "Martorell Enllaç"
+lines = [
+  { id = "fgc-linia-llobregat-anoia", name = "FGC Línia Llobregat-Anoia", km = 15.652 },
+  { id = "fgc-linia-llobregat-anoia-r5-r50-s4", name = "FGC Línia Llobregat-Anoia R5 R50 S4", km = 7.325 },
 ]
 
 [[connections]]
@@ -323,4 +332,5 @@ station = "Castellbisbal"
 lines = [
   { id = "220", ref = "220", name = "Línia Barcelona-Manresa-Lleida", km = 273.071 },
   { id = "240", ref = "240", name = "Línia Barcelona-Vilafranca-Tarragona", km = 4.258 },
+  { id = "ffcc-barcelona-vilafranca-sant-vicenc-de-calders", name = "FFCC Barcelona-Vilafranca-Sant Vicenç de Calders", km = 53.337 },
 ]

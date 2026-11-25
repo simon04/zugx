@@ -1,0 +1,26 @@
+id = "bilbao-bermeo"
+name = "Bilbao - Bermeo"
+operator = "Euskal Trenbide Sarea"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 8.26
+length = 8.26
+speeds = [[0, 8.26, "", ""]]
+curves = [[0.325, 0.925, 410], [1.075, 1.475, 250], [1.525, 1.9, 240], [2.55, 2.775, 710], [2.825, 3, 630], [3.55, 3.775, 900], [4.6, 4.725, 2140], [5.625, 5.875, 240], [5.925, 6.1, 370], [7, 7.2, 400]]
+points = [
+  { km = 2.263, kind = "station", label = "Muxika", pos = [43.28679, -2.68942] },
+  { km = 4.632, kind = "stop", label = "Lurgorri", pos = [43.30673, -2.68023] },
+  { km = 5.529, kind = "station", label = "Gernika", pos = [43.31396, -2.67622] },
+  { km = 6.209, kind = "stop", label = "Institutoa", pos = [43.31991, -2.67683] },
+  { km = 7.647, kind = "stop", label = "Forua", pos = [43.33203, -2.67367] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "}cbgG`rlOeWcJiBgCuDqJaCgCkRkEeD`@aC`C}@lCmB|MqA~B_CxAkDHcj@sF_NsHig@{Hqp@ab@gv@g]mDVmEvEcCv@mw@@cC[mw@yi@" },
+]
+posts = [[0, 43.26991, -2.69105], [1, 43.27754, -2.68545], [2, 43.28443, -2.68985], [3, 43.2931, -2.68718], [4, 43.30167, -2.68388], [5, 43.30978, -2.67855], [6, 43.318, -2.67672], [7, 43.32699, -2.6768], [8, 43.33498, -2.67137]]

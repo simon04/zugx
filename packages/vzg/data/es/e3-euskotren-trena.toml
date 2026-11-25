@@ -1,0 +1,40 @@
+id = "e3-euskotren-trena"
+name = "E3 Euskotren Trena"
+operator = "Euskal Trenbide Sarea"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 8.019
+length = 8.019
+speeds = [[0, 7.699, "", ""], [7.699, 7.914, 30, 30], [7.914, 8.019, 50, 50]]
+curves = [[0.125, 0.45, 300], [0.5, 0.925, 640], [0.975, 1.2, 1220], [1.925, 2.1, 1080], [2.3, 2.45, 1200], [2.525, 2.8, 810], [2.85, 3.025, 320], [3.225, 3.375, 980], [3.625, 3.75, 770], [4, 4.15, 1030], [4.875, 4.95, 2060], [5.325, 5.625, 570], [5.675, 5.9, 360], [5.95, 6.325, 520], [6.925, 7.175, 520], [7.85, 7.9, 1230]]
+points = [
+  { km = 0.043, kind = "station", label = "Lezama", pos = [43.27345, -2.83578] },
+  { km = 1.031, kind = "station", label = "Kurtzea", pos = [43.27659, -2.84635] },
+  { km = 2.804, kind = "stop", label = "Zamudio", pos = [43.28426, -2.8652] },
+  { km = 3.62, kind = "stop", label = "Lekunbiz", pos = [43.28673, -2.87469] },
+  { km = 4.772, kind = "station", label = "Derio", pos = [43.29089, -2.88744] },
+  { km = 6.351, kind = "stop", label = "Elotxelerri", pos = [43.29444, -2.90599] },
+  { km = 7.172, kind = "station", label = "Larrondo", pos = [43.29434, -2.91581] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.801, kmTo = 0.834, length = 33 },
+  { kind = "bridge", kmFrom = 1.358, kmTo = 1.385, length = 26 },
+  { kind = "bridge", kmFrom = 4.052, kmTo = 4.064, length = 12 },
+  { kind = "bridge", kmFrom = 7.771, kmTo = 7.784, length = 13 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "kxbgG|xhPKL" },
+  { line = "wxbgGjyhP]`@", tunnel = true },
+  { line = "uybgGlzhPqFdHoAtEIbEfA`Mq@lHcDfKeH`PsUly@cKxSuD|KyBzK^rE" },
+  { line = "}|dgG|tnPHh@", tunnel = true },
+  { line = "s|dgGfvnPDnEiItWeF|ZwJhZgYv{Ai@bJ`@zReFtPgAtKpBh}@o@zEuLxf@" },
+  { line = "giggGxsyPgD~M", v = 30 },
+  { line = "onggGxbzPcBzE", v = 50 },
+]
+posts = [[0, 43.27318, -2.83551], [1, 43.27642, -2.84608], [2, 43.28077, -2.85688], [3, 43.28436, -2.86757], [4, 43.28832, -2.87859], [5, 43.29164, -2.89006], [6, 43.29392, -2.90165], [7, 43.2939, -2.91383], [8, 43.29761, -2.92503]]

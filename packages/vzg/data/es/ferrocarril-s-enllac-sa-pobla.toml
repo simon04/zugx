@@ -1,0 +1,23 @@
+id = "ferrocarril-s-enllac-sa-pobla"
+name = "ferrocarril s'Enllaç-Sa Pobla"
+operator = "Serveis Ferroviaris de Mallorca"
+gauge = "1000"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 7.658
+length = 7.658
+speeds = [[0, 7.658, "", ""]]
+curves = [[3.45, 3.85, 760], [4.15, 4.825, 940], [5.525, 5.9, 960], [6.825, 7.1, 840]]
+points = [
+  { km = 3.172, kind = "station", label = "Llubí", pos = [39.71155, 2.99425] },
+  { km = 7.416, kind = "station", label = "Muro", pos = [39.73415, 3.03208] },
+]
+
+[tracks.geo]
+segments = [
+  { line = "opgqFcfbQm`CahEmCsKmEgb@aFwOcIaKah@yd@wD}Ga`@_fAuYwYeC{A" },
+]
+posts = [[0, 39.69304, 2.96562], [1, 39.69882, 2.97458], [2, 39.70461, 2.98352], [3, 39.71039, 2.99247], [4, 39.7149, 3.00233], [5, 39.71985, 3.01151], [6, 39.72647, 3.01918], [7, 39.73119, 3.02912]]

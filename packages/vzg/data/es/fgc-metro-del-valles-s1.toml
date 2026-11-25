@@ -1,0 +1,53 @@
+id = "fgc-metro-del-valles-s1"
+name = "FGC Metro del Vallès S1"
+operator = "Ferrocarrils de la Generalitat de Catalunya"
+gauge = "1435"
+source = "OpenStreetMap (spain-261117.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 0
+kmTo = 10.158
+length = 10.158
+speeds = [[0, 7.918, 90, 90], [7.918, 8.228, 70, 70], [8.228, 8.514, 60, 60], [8.514, 8.847, 75, 75], [8.847, 10.158, 90, 90]]
+curves = [[0.15, 0.325, 960], [1.3, 1.375, 2050], [1.925, 2.3, 820], [2.575, 3, 650], [3.375, 3.75, 580], [5.9, 6.075, 930], [7.2, 7.65, 620], [7.875, 8.3, 690], [8.4, 8.475, 1760], [8.525, 8.9, 1050], [9.7, 10.05, 440]]
+points = [
+  { km = 3.383, kind = "station", label = "Les Fonts", pos = [41.52871, 2.03346] },
+  { km = 8.453, kind = "station", label = "Rubí Centre", pos = [41.48616, 2.03161] },
+  { km = 10.158, kind = "station", label = "Hospital General", pos = [41.47625, 2.04644] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 0.352, kmTo = 0.421, length = 69 },
+  { kind = "bridge", kmFrom = 2.186, kmTo = 2.226, length = 40 },
+  { kind = "bridge", kmFrom = 3.495, kmTo = 3.508, length = 13 },
+  { kind = "bridge", kmFrom = 5.84, kmTo = 5.856, length = 15 },
+  { kind = "bridge", kmFrom = 7.46, kmTo = 7.472, length = 11 },
+  { kind = "bridge", kmFrom = 8.078, kmTo = 8.17, length = 92 },
+  { kind = "tunnel", kmFrom = 8.342, kmTo = 8.847, length = 505 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "wsr|FijgKjN_Gtq@_k@jYeZxCgEvCwG|Iw[|EwI`EmDdTaN`GcCdHQ`{BtSzbAf_@zEdA`KWtQ_G", v = 90 },
+  { line = "yif|FyzjKhDuBjFsJ", v = 70 },
+  { line = "c}e|FcjkKbBmF", v = 60 },
+  { line = "_ze|FqqkKbCsJ", tunnel = true, v = 60 },
+  { line = "{ue|Fe}kKdCiIlE_I", tunnel = true, v = 75 },
+  { line = "gke|FoqlKvj@ck@rC{Il@iK", v = 90 },
+]
+posts = [[0, 41.55212, 2.00885], [1, 41.54432, 2.01473], [2, 41.53707, 2.02182], [3, 41.53177, 2.03125], [4, 41.52333, 2.03385], [5, 41.5144, 2.03237], [6, 41.50549, 2.0308], [7, 41.49703, 2.02673], [8, 41.48843, 2.02728], [9, 41.4831, 2.0367], [10, 41.47643, 2.0445]]
+
+[[connections]]
+km = 3.383
+station = "Les Fonts"
+lines = [
+  { id = "linia-barcelona-valles", name = "Línia Barcelona-Vallès", km = 20.141 },
+]
+
+[[connections]]
+km = 10.158
+station = "Hospital General"
+lines = [
+  { id = "246", ref = "246", name = "Línia Castellbisbal/el Papiol-Mollet", km = 16.383 },
+  { id = "linia-barcelona-valles", name = "Línia Barcelona-Vallès", km = 13.367 },
+]
