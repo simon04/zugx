@@ -1116,6 +1116,31 @@ Feedback: DB long-distance realtime is well covered in ÖBB HAFAS, but many Swis
 
 **Suggested**: Switzerland first (opentransportdata.swiss GTFS-RT, licence check first), proxy fetching every minute, merged into train run, departure board and Bildfahrplan, radar delay colour only; then Renfe GTFS-RT for Spain the same way.
 
+### Historical realtime and transfer success probability (idea 2026-11-25)
+
+Question: how well is historical realtime data available as open data, and could it give the journey search a success probability per transfer? (Scotty shows a train's realtime of the last week: HAFAS keeps it a few days, not an archive, and only via the unofficial API.)
+
+**Open data** (from knowledge, not yet verified):
+
+| Country     | What exists                                                                                                                               | Assessment                                    |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| Switzerland | opentransportdata.swiss "Ist-Daten": daily file with planned and actual times of every journey at every stop, archive over years          | ideal: complete, official, open (check terms) |
+| Netherlands | rijdendetreinen.nl: archive of all services and disruptions, open licence                                                                 | very good, community-collected                |
+| Germany     | no official archive (DB: monthly punctuality only); community datasets collected from the DB API (e.g. on GitHub), Zugfinder (commercial) | usable, not official, gaps                    |
+| Austria     | ÖBB: monthly punctuality only                                                                                                             | too coarse for transfers                      |
+
+For Austria: record it ourselves — departure/arrival boards of the ~50 main transfer stations every 10 min (gentle on the API), or derived from the radar recording (see "Radar: look back", option 3). Licence as there: publishing raw HAFAS data is doubtful; only derived statistics (distributions) probably less so — to check (licence-first).
+
+**Transfer probability**:
+
+- Per train and stop the delay distribution of the last 4–8 weeks (by weekday, time of day). A transfer works if the feeder's arrival delay < planned transfer time − minimum transfer time + the connecting train's departure delay → a probability ("connection works in 92 %").
+- Live: shortly before, condition on the current realtime (feeder already 4′ late → only the distribution from there).
+- Whole journey: the transfers' probabilities multiplied (assumes independence; trains on the same line are often late together).
+- Missing: ÖBB's connection-holding rules aren't open; visible indirectly (the connecting train's departure delay rises with the feeder's).
+- References: DB Navigator's connection warnings; bahnvorhersage.de (student project, historical DB data → transfer scores).
+
+**Suggested**: Switzerland directly from open data (good values at once); Austria needs weeks of own recording (server service, licence check, SQLite) first; then per-train/stop statistics and a traffic light or percentage per transfer in the journey search. Effort medium to large; the recording can be shared with the radar look-back.
+
 ## Sources
 
 - public-transport-enabler `OebbProvider`: https://github.com/schildbach/public-transport-enabler/blob/master/src/de/schildbach/pte/OebbProvider.java
