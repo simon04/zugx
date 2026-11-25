@@ -135,6 +135,21 @@ test("radar draws trains without map errors (worker loads in the production buil
   expect(errors.filter((e) => /worker/i.test(e))).toEqual([]);
 });
 
+test("start page: the radar if it was used more recently than the search", async ({ page }) => {
+  await page.goto("/");
+  await expect(page).toHaveURL(/\/$/);
+  await page.goto("/radar");
+  await expect(page.locator("h1")).toHaveText(/radar/i);
+  // opening the app again starts on the radar
+  await page.goto("/");
+  await expect(page).toHaveURL(/\/radar$/);
+  // in the app, the logo still leads to the search; then the search is the start again
+  await page.getByRole("link", { name: "zugx home" }).click();
+  await expect(page).toHaveURL(/\/$/);
+  await page.goto("/");
+  await expect(page).toHaveURL(/\/$/);
+});
+
 test("bildfahrplan section and direction are adjustable", async ({ page }) => {
   await page.goto("/bf/101?from=7&h=2&d=2026-03-10");
   await page.locator("svg[role=img] path").first().waitFor();

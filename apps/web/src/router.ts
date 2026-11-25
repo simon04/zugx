@@ -1,3 +1,4 @@
+import { useLocalStorage } from "@vueuse/core";
 import { nextTick } from "vue";
 import { createRouter, createWebHistory } from "vue-router";
 import { t, type MessageKey } from "./i18n/index.ts";
@@ -62,6 +63,19 @@ router.afterEach((to, from) => {
     ([p]) => to.path === p || to.path.startsWith(`${p}/`),
   )?.[1];
   document.title = key ? `${t(key)} · zugx` : "zugx";
+});
+
+// Start page: the search, or the radar if that was used more recently than the search (feedback:
+// some use zugx mainly for the radar, e.g. as a home-screen web app). Only when the app is opened
+// at "/" (first navigation, no query); "Search" and the logo in the app still lead to the search.
+const start = useLocalStorage<"search" | "radar">("zugx:start", "search");
+router.beforeEach((to, from) => {
+  if (from.matched.length || to.path !== "/" || Object.keys(to.query).length) return;
+  if (start.value === "radar") return { path: "/radar", replace: true };
+});
+router.afterEach((to) => {
+  if (to.path === "/radar") start.value = "radar";
+  else if (to.path === "/" || to.path.startsWith("/j/")) start.value = "search";
 });
 
 // Page changes as a short crossfade (View Transitions API), only when the user allows motion and only
