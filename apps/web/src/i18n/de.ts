@@ -185,6 +185,13 @@ export default {
     variants: "{n} Laufwegvarianten",
   },
   radar: {
+    time: "Zeit",
+    live: "live",
+    agoLabel: "Zurückblicken (Minuten vor jetzt)",
+    agoTip: "Nach links ziehen: die Züge, wie sie bis zu 3 Stunden zuvor unterwegs waren",
+    backToLive: "Zurück zu live",
+    agoHint:
+      "Rückblick: Positionen zur gewählten Zeit; je weiter zurück, desto weniger Züge haben Echtzeitdaten (nach 3 Stunden etwa ein Drittel), die übrigen folgen dem Fahrplan.",
     trainsFilter: "Züge",
     donutTip: "{n} Züge ({pct} %)",
     donutLabel:

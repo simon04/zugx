@@ -183,6 +183,13 @@ export default {
     variants: "{n} različic poti",
   },
   radar: {
+    time: "Čas",
+    live: "v živo",
+    agoLabel: "Pogled nazaj (minute pred zdaj)",
+    agoTip: "Povlecite levo za vlake, kot so vozili do 3 ure prej",
+    backToLive: "Nazaj v živo",
+    agoHint:
+      "Pogled nazaj: položaji ob izbranem času; dlje nazaj ima manj vlakov podatke v realnem času (po 3 urah približno tretjina), ostali sledijo voznemu redu.",
     trainsFilter: "Vlaki",
     donutTip: "{n} vlakov ({pct} %)",
     donutLabel:

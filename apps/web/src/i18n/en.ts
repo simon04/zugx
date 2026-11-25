@@ -183,6 +183,13 @@ export default {
     variants: "{n} route variants",
   },
   radar: {
+    time: "Time",
+    live: "live",
+    agoLabel: "Look back (minutes before now)",
+    agoTip: "Drag left to see the trains as they were up to 3 hours ago",
+    backToLive: "Back to live",
+    agoHint:
+      "Looking back: positions at the chosen time; the further back, the fewer trains have realtime data (about a third after 3 hours), the others follow the timetable.",
     trainsFilter: "Trains",
     donutTip: "{n} trains ({pct} %)",
     donutLabel: "Delay distribution: {pct} % of {n} trains with realtime data at most 5′ late",

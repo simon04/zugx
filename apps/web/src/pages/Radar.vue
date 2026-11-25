@@ -1,9 +1,11 @@
 <script setup lang="ts">
-// Live train positions (HAFAS JourneyGeoPos) for the visible map area.
+// Live train positions (HAFAS JourneyGeoPos) for the visible map area; with ?ago=<min> as they
+// were up to 3 hours ago (HAFAS answers past times; its realtime fades after about an hour).
 import { useAutoRefresh } from "../lib/refresh.ts";
 import { groupMovements, type Line, type Movement, type Trip } from "@zugx/hafas";
 import type { Map as MlMap } from "maplibre-gl";
 import { useDebounceFn, useLocalStorage, useMediaQuery } from "@vueuse/core";
+import { viennaNow } from "../lib/format.ts";
 import { computed, ref, shallowRef, watch } from "vue";
 import { useI18n } from "../i18n/index.ts";
 import { useRoute, useRouter } from "vue-router";
@@ -35,6 +37,30 @@ const loading = ref(false);
 const products = ref(RAIL_CLS);
 let map: MlMap | undefined;
 
+// ---- look back: minutes before now (0 = live), in steps of 5, ?ago= in the URL (linkable)
+const MAX_AGO = 180;
+const ago = computed<number>({
+  get: () => {
+    const n = Number(route.query.ago);
+    return Number.isFinite(n) ? Math.min(MAX_AGO, Math.max(0, Math.round(n / 5) * 5)) : 0;
+  },
+  set: (v) => {
+    const { ago: _, ...q } = route.query;
+    void router.replace({ query: v > 0 ? { ...q, ago: String(v) } : q });
+  },
+});
+/** the slider's value while dragging (the URL and the query follow, debounced) */
+const agoInput = ref(ago.value);
+watch(ago, (v) => (agoInput.value = v));
+const commitAgo = useDebounceFn(() => (ago.value = agoInput.value), 300);
+watch(agoInput, () => void commitAgo());
+watch(ago, () => void refresh());
+/** the shown time ("14:35"), Vienna */
+const agoClock = computed(() => {
+  void now.value;
+  return viennaNow().subtract({ minutes: agoInput.value }).toPlainTime().toString().slice(0, 5);
+});
+
 async function refresh(background = false) {
   if (!map) return;
   const b = map.getBounds();
@@ -42,7 +68,11 @@ async function refresh(background = false) {
   try {
     movements.value = await api(background).radar(
       { north: b.getNorth(), south: b.getSouth(), west: b.getWest(), east: b.getEast() },
-      { results: 1000, products: products.value },
+      {
+        results: 1000,
+        products: products.value,
+        ...(ago.value ? { when: Temporal.Now.instant().subtract({ minutes: ago.value }) } : {}),
+      },
     );
     error.value = undefined;
   } catch (e) {
@@ -67,6 +97,8 @@ const selectedId = computed(() =>
 const selected = shallowRef<Trip>();
 const selError = ref<string>();
 const now = ref(Date.now());
+/** the time shown: now, or `ago` minutes before (the train panel's position follows it) */
+const shownNow = computed(() => now.value - ago.value * 60_000);
 async function loadSelected(background = false) {
   const jid = selectedId.value;
   if (!jid) {
@@ -255,6 +287,29 @@ function toggle(cls: number) {
           </button>
         </span>
       </details>
+      <details class="ctl" :open="wide || ago > 0">
+        <summary class="btn chip py-0.5 text-xs" :class="ago > 0 && 'btn-on'">
+          {{ $t("radar.time") }}:
+          <b>{{ agoInput ? `−${agoInput}′ (${agoClock})` : $t("radar.live") }}</b>
+        </summary>
+        <span class="ctl-body items-center">
+          <input
+            v-model.number="agoInput"
+            class="ago"
+            type="range"
+            min="0"
+            :max="MAX_AGO"
+            step="5"
+            dir="rtl"
+            :aria-label="$t('radar.agoLabel')"
+            :aria-valuetext="agoInput ? `−${agoInput}′ (${agoClock})` : $t('radar.live')"
+            v-tip="$t('radar.agoTip')"
+          />
+          <button v-if="agoInput" class="btn chip py-0.5 text-xs" @click="agoInput = 0">
+            {{ $t("radar.backToLive") }}
+          </button>
+        </span>
+      </details>
       <details class="ctl" :open="wide">
         <summary class="btn chip py-0.5 text-xs">
           {{ $t("radar.trainsFilter") }}
@@ -351,7 +406,7 @@ function toggle(cls: number) {
           <Status :error="selError" @retry="loadSelected" />
           <template v-if="selected">
             <TrainParts :trip="selected" class="mb-2" />
-            <TripStops :trip="selected" :now="now" />
+            <TripStops :trip="selected" :now="shownNow" />
             <Remarks :remarks="selected.remarks" class="mt-3" />
           </template>
         </div>
@@ -448,7 +503,9 @@ function toggle(cls: number) {
         </ul>
       </details>
     </div>
-    <p class="muted mt-1 text-xs">{{ $t("radar.hint") }}</p>
+    <p class="muted mt-1 text-xs">
+      {{ ago > 0 ? `${$t("radar.hint")} ${$t("radar.agoHint")}` : $t("radar.hint") }}
+    </p>
   </section>
 </template>
 
@@ -497,6 +554,11 @@ function toggle(cls: number) {
 }
 .legend[open] > summary {
   margin-bottom: 0.25rem;
+}
+/* look-back slider: now at the right end, older to the left (dir=rtl) */
+.ago {
+  width: 9rem;
+  accent-color: var(--accent);
 }
 /* delay donut in the legend: desktop only (on phones the legend stays small) */
 .donut {

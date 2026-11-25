@@ -185,6 +185,13 @@ export default {
     variants: "{n} variantes de recorrido",
   },
   radar: {
+    time: "Hora",
+    live: "en directo",
+    agoLabel: "Mirar atrás (minutos antes de ahora)",
+    agoTip: "Arrastra a la izquierda para ver los trenes como estaban hasta 3 horas antes",
+    backToLive: "Volver al directo",
+    agoHint:
+      "Vista atrás: posiciones a la hora elegida; cuanto más atrás, menos trenes tienen datos en tiempo real (tras 3 horas, cerca de un tercio); los demás siguen el horario.",
     trainsFilter: "Trenes",
     donutTip: "{n} trenes ({pct} %)",
     donutLabel:
