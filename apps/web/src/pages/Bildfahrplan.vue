@@ -73,8 +73,21 @@ import {
   type LiveRun,
 } from "../lib/bf-live.ts";
 import { loadStations, stationById } from "../lib/stations.ts";
-/** a train's run over the chart (loaded on first use) */
-const TripPanel = defineAsyncComponent(() => import("../components/TripPanel.vue"));
+import TripPanelLoading from "../components/TripPanelLoading.vue";
+/**
+ * a train's run over the chart: its code loads in the background once the page is shown; a tap
+ * before that opens an empty panel at once (slow connections: the tap visibly worked)
+ */
+const loadTripPanel = () => import("../components/TripPanel.vue");
+const TripPanel = defineAsyncComponent({
+  loader: loadTripPanel,
+  loadingComponent: TripPanelLoading,
+  delay: 0,
+});
+onMounted(() => {
+  const idle = window.requestIdleCallback ?? ((f: () => void) => setTimeout(f, 2000));
+  idle(() => void loadTripPanel().catch(() => {}));
+});
 
 type CorridorRef = Pick<CorridorIndexEntry, "id" | "name" | "oebb" | "lines"> &
   Partial<Pick<CorridorIndexEntry, "names">>;

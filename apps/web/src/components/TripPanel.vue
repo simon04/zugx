@@ -122,27 +122,3 @@ const pageLink = computed(() => ({
     </div>
   </aside>
 </template>
-
-<style scoped>
-/* desktop: fixed on the right, over the chart */
-.trip-panel {
-  position: fixed;
-  z-index: 30;
-  top: 4rem;
-  right: 0.5rem;
-  bottom: 0.5rem;
-  width: min(26rem, calc(100% - 1rem));
-}
-/* phones: bottom sheet */
-@media (max-width: 640px) {
-  .trip-panel {
-    top: auto;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: auto;
-    max-height: 60%;
-    border-radius: 0.5rem 0.5rem 0 0;
-  }
-}
-</style>
