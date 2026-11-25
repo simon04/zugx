@@ -263,7 +263,9 @@ export function createClient(opts: ClientOptions = {}) {
         trainPosMode: "CALC",
         jnyFltrL: [{ type: "PROD", mode: "INC", value: String(o.products ?? ALL_PRODUCTS) }],
       });
-      return parseJourneyGeoPos(res);
+      // the delay at the stop closest to the asked time (a past time: then, not now)
+      const at = o.when instanceof Temporal.ZonedDateTime ? o.when.toInstant() : o.when;
+      return parseJourneyGeoPos(res, at);
     },
 
     /** HIM messages; `kinds`: only these HIM categories (see Warning.kind) */
