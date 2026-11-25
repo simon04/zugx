@@ -1073,6 +1073,23 @@ Next: GTFS-RT (derp.si) for the Live switch in Slovenia; dedupe the cross-border
 
 Next: prefer `name:es` for line names; Renfe GTFS-RT for Live; shapes from the Cercanías zip (sheets/density show 0 shapes); more sheets (Cercanías Madrid/Barcelona, Galicia, North).
 
+### Radar: look back in time, e.g. −180 min (planned 2026-11-25)
+
+Wish: show the live map as it was up to 180 minutes ago.
+
+**Finding (2026-11-25)**: `JourneyGeoPos` takes any date/time and answers for the past too. Vienna area, 300 trains: realtime delays for 122 now, 143 at −60 min, **6 at −180 min**. Past positions further back are mostly calculated from the timetable, not the realtime data.
+
+Options, from least to most effort:
+
+1. **Time slider, HAFAS directly** (no server): a −180 … 0 min slider on the radar, its time passed to `JourneyGeoPos`. Realtime good to about −60 min, then mostly timetable. First step.
+2. **Reconstruct from the day's train runs** (no server): the radar for which trains were in view at that time, then each one's `JourneyDetails` (HAFAS keeps the day's actual times; the Bildfahrplan shows past realtime this way), position interpolated between its stops at the chosen time. Real delays for the whole day; one request per visible train (cache, limit to the view).
+3. **Record snapshots on our own server**: a collector in the container polls the radar for Austria every 30–60 s into SQLite (24 h ring buffer: ~1,000 trains × 1 row/min ≈ 25 MB/day), served as `/api/radar-history?t=` (behind Cloudflare). Enables later punctuality statistics and replays.
+4. **Supabase (Postgres + PostGIS)** instead of SQLite: hosted, PostGIS queries, live updates; but another external service and account, free projects pause after a week idle (500 MB), and the collector must still run somewhere. With our own server, option 3 is simpler.
+
+**Licence**: options 3 and 4 store and republish data from the unofficial ÖBB HAFAS API, which goes beyond today's pass-through proxy; check first (licence-first): store at all, or only derived values (delays, not raw positions)?
+
+**Decided**: option 1 now; 2 if realtime further back matters; 3 only for history beyond today or statistics.
+
 ## Sources
 
 - public-transport-enabler `OebbProvider`: https://github.com/schildbach/public-transport-enabler/blob/master/src/de/schildbach/pte/OebbProvider.java
