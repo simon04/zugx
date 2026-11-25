@@ -1,0 +1,27 @@
+id = "dg-s-marof-zagreb-gk"
+name = "DG – S. Marof – Zagreb Gk"
+operator = "HŽ Infrastruktura"
+gauge = "1435"
+source = "OpenStreetMap (slovenia-261114.osm.pbf), © OpenStreetMap contributors, ODbL 1.0"
+
+[[tracks]]
+track = "1"
+kmFrom = 446.334
+kmTo = 451.191
+length = 4.852
+speeds = [[446.334, 451.191, 120, 120]]
+curves = []
+points = [
+  { km = 447.896, kind = "halt", label = "Laduč", pos = [45.87865, 15.719] },
+  { km = 449.94, kind = "halt", label = "Sutla", uic = "74201", pos = [45.88614, 15.69494] },
+]
+structures = [
+  { kind = "bridge", kmFrom = 450.278, kmTo = 450.288, length = 10 },
+  { kind = "bridge", kmFrom = 450.876, kmTo = 450.905, length = 29 },
+]
+
+[tracks.geo]
+segments = [
+  { line = "y_bwG_pu~AfnBudJ", v = 120 },
+]
+posts = [[451, 45.89, 15.68243], [450, 45.88632, 15.69422], [449, 45.88266, 15.70599], [448, 45.87899, 15.71776], [447, 45.87533, 15.72954]]
